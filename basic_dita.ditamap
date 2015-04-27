@@ -13,7 +13,9 @@
    <created date="2015-04-23"/>
   </critdates>
  </topicmeta>
- <topicref href="lc_dita_intro.dita"/>
+ <topicref href="lc_dita_intro.dita">
+  <topicref href="lc_dita_intro_assessment.dita"/>
+ </topicref>
  <topicref href="c_infotypes.dita">
  <topicref href="lc_task.dita"/>
  <topicref href="lc_reference.dita"/>
