@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="topics">
+ <title>DITA topics</title>
+ <shortdesc></shortdesc>
+ <learningContentbody>
+  <lcObjectives>
+   <lcObjectivesGroup>
+    <lcObjective>What kind of topics existing DITA</lcObjective>
+    <lcObjective>What information goes in different types of topics</lcObjective>
+    <lcObjective>What are constraints and specialization?</lcObjective>
+   </lcObjectivesGroup>
+  </lcObjectives>
+  <lcDuration >
+   <lcTime value="45"/>
+  </lcDuration>
+  <lcInstruction>
+   <p>The DITA standards includes basic topic type (&lt;topic>), along with the following: <ul
+     id="ul_kvr_hl5_vr">
+     <li>Concept</li>
+     <li>Task</li>
+     <li>Reference</li>
+     <li>Glossary entry</li>
+    </ul></p>
+   <p>All topics must have at least a title element and an id attribute for the root topic. That is,
+    the following is a valid topic:
+    <lines>     &lt;topic id="sample">
+      &lt;title>Topic title goes here&lt;/title>
+     &lt;/topic>
+   </lines>However,
+    a <i>useful</i> topic will have additional content. </p>
+ 
+   
+   
+   </lcInstruction>
+  
+ </learningContentbody>
+ <related-links>
+  <link href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/c_Topics_and_Information_Types.html" format="html" scope="external"><linktext>DITA Style Guide, Chapter 1</linktext></link>
+  <link href="http://www.scriptorium.com/books" scope="external" format="html">
+   <linktext>Technical Writing 101, Chapter 7</linktext>
+  </link>
+ </related-links>
+ 
+</learningContent>

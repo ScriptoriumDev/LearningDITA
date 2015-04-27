@@ -4,10 +4,8 @@
     <title>What is DITA?</title>
     <shortdesc></shortdesc>
     <learningContentbody>
-        <lcInstruction>
-            <draft-comment author="Bill Swallow">A harmless change to test branching and commit to master.</draft-comment>
-           <draft-comment author="asp">And yet another comment to test.</draft-comment>
-            <p>DITA stands for the DITA Information Typing Architecture. It is an open standard
+       <lcInstruction>
+             <p>DITA stands for the DITA Information Typing Architecture. It is an open standard
                 originally created by IBM. In 2005, IBM donated DITA to <xref
                     href="https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=dita"
                     format="html" scope="external">OASIS</xref>.</p>
@@ -19,7 +17,7 @@
                     <li>Structured authoring concepts</li>
                 </ul>The fact that DITA is an open, XML-based standard means that it is relatively
                 easy to move from one tool to another as business needs change. </p>
-        </lcInstruction>
+        
         <section>
             <title>Markup languages</title>
             <p>The most commonly used markup language is HTML. XML is similar to HTML; it also uses
@@ -68,6 +66,7 @@
                 specify who created a particular topic.</p>
      
         </section>
+       </lcInstruction>
     </learningContentbody>
     <related-links>
         <link href="http://dita.xml.org/book/export/html/1047" scope="external" format="html">
@@ -79,4 +78,5 @@
             <linktext>DITA Style Guide, Chapter 3, Syntax and Markup</linktext>
         </link>
     </related-links>
+   
 </learningContent>

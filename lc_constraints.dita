@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_a2v_gp5_vr">
+    <title>Constraints</title>
+    <shortdesc></shortdesc>
+    <learningContentbody>
+     <lcInstruction>
+         <draft-comment author="okeefe">not sure this is the right place for constraints, but that's where it is in the videos</draft-comment>
+    <p>In DITA, a constraint lets you eliminate elements that you do not need or want to use. For
+                example, if you are not documenting software code, you could eliminate
+                &lt;codeblock> and &lt;codephrase>. Constraining reduces the number of elements
+                presented to the authors, which makes their lives a little easier.</p>
+     <p></p>
+     </lcInstruction>
+    </learningContentbody>
+</learningContent>
