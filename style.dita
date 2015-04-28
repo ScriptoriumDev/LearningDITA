@@ -4,6 +4,7 @@
  <title>Style guidelines</title>
  <prolog>
   <author href="http://www.scriptorium.com">Sarah O'Keefe, Scriptorium</author>
+  <author href="http://www.scriptorium.com">Alan Pringle, Scriptorium</author>
 <critdates>
  <created date="2015-04-28"/>
 </critdates>
@@ -48,15 +49,59 @@
     </ul></p>
    <p>Inside the overview container, provide learningContent topics with the module components
     (lessons).</p>
-   <p/>
-   <p/>
   </section>
   <section><title>Assessment structure</title><p>Assessments (test questions) follow the learning
-    modules in the map file:</p><codeblock>copy from map file when it's done</codeblock>Each
-   assessment question goes into its own learningAssessment topic. Do not add a title element to the
-   assessment topics. Assessment topics require a unique ID; make sure you do not overlap with other
-   IDs in the modules. Consider a unique ID prefix for your learning assessment content (for
-   example, your initials???????).</section>
+    modules in the map file, as shown in
+   bold:</p><codeblock>&lt;map>
+ &lt;title>Basic DITA&lt;/title>
+ &lt;topicmeta>
+  &lt;critdates>
+   &lt;created date="2015-04-23"/>
+  &lt;/critdates>
+ &lt;/topicmeta>
+ &lt;topicref href="topics/lc_dita_intro.dita">
+  &lt;topicref href="topics/lc_markup.dita"/>
+  &lt;topicref href="topics/lc_structure.dita"/>
+  &lt;topicref href="topics/lc_topic.dita"/>
+  
+  <b>&lt;topichead navtitle="Assessments">
+   &lt;topicref href="assessments/lca_validtopic.dita"/>
+   &lt;topicref href="assessments/lca_topicscope.dita"/>
+   ...
+  &lt;/topichead></b>
+  &lt;/topicref>
+ 
+...
+  
+ &lt;/map>
+</codeblock>Each
+   assessment question goes into its own learningAssessment topic. Group them within a topichead
+   element as shown in the preceding sample.</section>
+  <section>Do not include title text in assement topics. Assessment questions require a unique ID
+   (shown in bold in the following sample). This is not the same as the ID of the learningAssessment
+   topic
+   itself.<codeblock>&lt;learningAssessment id="assessment_htp_t21_wr">
+ &lt;title>&lt;/title>
+ &lt;prolog>
+  &lt;author>Sharon Burton&lt;/author>
+  &lt;author href="http://www.scriptorium.com">Sarah O'Keefe, Scriptorium&lt;/author>
+  &lt;critdates>
+   &lt;created date="2015-04-28"/>
+  &lt;/critdates>
+ &lt;/prolog>
+ &lt;learningAssessmentbody>
+  &lt;lcInteraction>&lt;lcSingleSelect <b>id="topics3"</b>>
+   &lt;lcQuestion>When creating a concept topic, you will often:&lt;/lcQuestion>
+   &lt;lcAnswerOptionGroup>
+   ...
+   &lt;/lcAnswerOptionGroup>
+  &lt;/lcSingleSelect>
+  &lt;/lcInteraction>
+ &lt;/learningAssessmentbody>
+&lt;/learningAssessment></codeblock>Make
+   sure you do not overlap with other IDs in the modules. Consider a unique ID prefix for your
+   learning assessment content (for example, your initials or something related to the content you
+   are developing).</section>
   <section>
    <title>File structure</title>
    <p>The DITA training project is divided into subfolders:<ul id="ul_fw2_dxz_vr">
