@@ -102,17 +102,26 @@
    learning assessment content (for example, your initials or something related to the content you
    are developing).</section>
   <section>
-   <title>File structure</title>
+   <title>File structure and naming conventions</title>
    <p>The DITA training project is divided into subfolders:<ul id="ul_fw2_dxz_vr">
      <li>topics: for most content</li>
      <li>assessments: for quizzes, test, and other assessment content</li>
      <li>media; for images, videos, and other non-text content</li>
     </ul></p>
-   <p>Map files and general project information go at the root level.</p>
+   <p>Map files and general project information go at the root level. We recommend creating a map
+    file for each module.</p>
+   <p>Use the following file name prefixes:<ul id="ul_i3h_dkb_wr">
+     <li>m_ for map files</li>
+     <li>lc_ for learning content</li>
+     <li>lca_ for learning assessments</li>
+    </ul></p>
   </section>
   <section>
    <title>Standards for images and video</title>
-   <p>TBD</p>
+   <p>TBD.</p>
+   <p>As a general rule, use web-friendly formats, such as PNG or GIF for images. The easiest way to
+    provide videos is to post them on YouTube and link to the YouTube video using the object
+    tag.</p>
   </section>
  </conbody>
  <related-links>
