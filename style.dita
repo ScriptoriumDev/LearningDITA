@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_pnc_2vz_vr">
+ <title>Style guidelines</title>
+ <prolog>
+  <author href="http://www.scriptorium.com">Sarah O'Keefe, Scriptorium</author>
+<critdates>
+ <created date="2015-04-28"/>
+</critdates>
+ </prolog>
+ <conbody>
+  <p>Topics are generally either learningContent or learningAssessment.</p>
+  <p>In the topic prolog, include an author credit if you create a topic or significantly add to an
+   existing topic. You can also include a web link to your
+   site:<codeblock>&lt;prolog>
+  &lt;author>Sharon Burton&lt;/author>
+  &lt;author href="http://www.scriptorium.com">Sarah O'Keefe, Scriptorium&lt;/author>
+  &lt;critdates>
+   &lt;created date="2015-04-28"/>
+  &lt;/critdates>
+&lt;/prolog></codeblock></p>
+  <p>If you add to an existing topic, keep the original contributor at the top of the list.</p>
+  <p>Include a &lt;created> element or add a &lt;revised> element with the appropriate date. Use
+   YYYY-MM-DD format for the date.</p>
+  <section>
+   <title>Learning module structure</title>
+   <p>Each module should have a container topic, which provides the following:<ul id="ul_jn1_rwz_vr">
+     <li>A list of objectives for the module, using
+      lcObjectives:<codeblock> &lt;lcObjectives>
+   &lt;lcObjectivesGroup>
+    &lt;lcObjective>What kind of topics exist in DITA&lt;/lcObjective>
+    &lt;lcObjective>What information goes in different types of topics&lt;/lcObjective>
+    &lt;lcObjective>What are constraints and specialization?&lt;/lcObjective>
+   &lt;/lcObjectivesGroup>
+  &lt;/lcObjectives></codeblock></li>
+     <li>An estimated duration for the module, using lcDuration (provide a value in
+      minutes):<codeblock>&lt;lcDuration>
+  &lt;lcTime value="30"/>
+&lt;/lcDuration></codeblock></li>
+     <li>An overview of the module, using lcIntro</li>
+     <li>A list of additional reading resources, using related-links. Be sure to code external web
+      links with the appropriate format (usually html or pdf) and scope
+      (external):<codeblock>&lt;link href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/c_Syntax_and_Markup.html" 
+      format="html"
+      scope="external">
+   &lt;linktext>DITA Style Guide, Chapter 3, Syntax and Markup&lt;/linktext>
+&lt;/link></codeblock></li>
+    </ul></p>
+   <p>Inside the overview container, provide learningContent topics with the module components
+    (lessons).</p>
+   <p>The last topic in a module should be a quiz with a variety of assessments. For these, use the
+    learningAssessment topic. Each assessment requires a unique ID; make sure you do not overlap
+    with other IDs in the modules. Consider a unique ID prefix for your learning assessment
+    content.</p>
+  </section>
+  <section>
+   <title>File structure</title>
+   <p>The DITA training project is divided into subfolders:<ul id="ul_fw2_dxz_vr">
+     <li>topics: for most content</li>
+     <li>assessments: for quizzes, test, and other assessment content</li>
+     <li>media; for images, videos, and other non-text content</li>
+    </ul></p>
+   <p>Map files and general project information go at the root level.</p>
+  </section>
+  <section>
+   <title>Standards for images and video</title>
+   <p>TBD</p>
+  </section>
+ </conbody>
+</concept>

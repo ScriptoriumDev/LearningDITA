@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_il4_bwz_vr">
+    <title>Markup languages</title>
+    <shortdesc></shortdesc>
+    <learningContentbody>
+       <lcInstruction>
+        <p>The most commonly used markup language is HTML. XML is similar to HTML; it also uses
+            angle brackets to indicate elements (like &lt;p>). Many of the tags in DITA XML are
+            also found in HTML.</p>
+        <p>In XML, you must be careful to open and close all tags properly. HTML is forgiving
+            when you make mistakes. XML requires you to provide a file that is tagged correctly;
+            if you make any error in the encoding, parsing will stop. This is known as draconian
+            error handling, and it is a controversial part of the XML specification.</p>
+        <p>DITA is a markup language and is a flavor of XML. DITA allows you to mark up content
+            semantically; the tag markup tells the author about the meaning of the markup.</p>
+        <p>
+            <object id="video1" data="assets/htmlversusxml.swf"
+                type="application/x-shockwave-flash" width="350" height="100"> 
+                <desc>Insert lesson 3 video from 3:18 to 5:18 here. Overview of HTML markup versus DITA markup</desc>
+                <param name="movie" value="assets/htmlversusxml.swf"/> 
+                <param name="quality" value="high"/> 
+                
+            </object>
+        </p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>
