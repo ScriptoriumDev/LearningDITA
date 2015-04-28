@@ -20,7 +20,8 @@
    &lt;created date="2015-04-28"/>
   &lt;/critdates>
 &lt;/prolog></codeblock></p>
-  <p>If you add to an existing topic, keep the original contributor at the top of the list.</p>
+  <p>If you add to an existing topic, keep the original contributor at the top of the list and add
+   your name in a separate author element.</p>
   <p>Include a &lt;created> element or add a &lt;revised> element with the appropriate date. Use
    YYYY-MM-DD format for the date.</p>
   <section>
@@ -50,9 +51,9 @@
    <p>Inside the overview container, provide learningContent topics with the module components
     (lessons).</p>
   </section>
-  <section><title>Assessment structure</title><p>Assessments (test questions) follow the learning
-    modules in the map file, as shown in
-   bold:</p><codeblock>&lt;map>
+  <section><title>Assessment structure</title><p>Assessments (test questions) come after the
+    learning content in each module and use a &lt;topichead> for the assessment title, as shown in
+    bold:</p><codeblock>&lt;map>
  &lt;title>Basic DITA&lt;/title>
  &lt;topicmeta>
   &lt;critdates>
@@ -74,13 +75,11 @@
 ...
   
  &lt;/map>
-</codeblock>Each
-   assessment question goes into its own learningAssessment topic. Group them within a topichead
-   element as shown in the preceding sample.</section>
-  <section>Do not include title text in assement topics. Assessment questions require a unique ID
-   (shown in bold in the following sample). This is not the same as the ID of the learningAssessment
-   topic
-   itself.<codeblock>&lt;learningAssessment id="assessment_htp_t21_wr">
+</codeblock><p>Each
+    assessment question goes into its own learningAssessment topic. Do not include title text in
+    assessment topics. Each assessment requires a unique ID for the question type (lcSingleSelect in
+    the following sample). This is not the same as the ID of the learningAssessment topic itself.
+   </p><codeblock>&lt;learningAssessment id="assessment_htp_t21_wr">
  &lt;title>&lt;/title>
  &lt;prolog>
   &lt;author>Sharon Burton&lt;/author>
@@ -116,4 +115,15 @@
    <p>TBD</p>
   </section>
  </conbody>
+ <related-links>
+  <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langRef-learningTraining.html"
+   format="html" scope="external">
+   <linktext>Learning and training elements in the DITA 1.2 specification</linktext>
+  </link>
+  <link href="http://oxygenxml.com/doc/m/dita1.2_spec/archSpec-learningTraining.html"
+   scope="external" format="html">
+   <linktext>Architectural specification for learning and training elements (oXygen WebHelp
+    version)</linktext>
+  </link>
+ </related-links>
 </concept>
