@@ -4,20 +4,20 @@
 <!--test-->
  <title>Basic DITA</title>
  <topicmeta>
-  <author>Scriptorium Publishing and other contributors</author>
-  <copyright>
-   <copyryear year="2015"/>
-   <copyrholder>Scriptorium Publishing under Creative Commons Attribution-ShareAlike 4.0 International License</copyrholder>
-  </copyright>
   <critdates>
    <created date="2015-04-23"/>
   </critdates>
  </topicmeta>
- <topicref href="lc_dita_intro.dita">
-  <topicref href="lc_dita_intro_assessment.dita"/>
+ <topicref href="topics/lc_dita_intro.dita">
+  <topicref href="assessments/lca_dita_intro.dita"/>
  </topicref>
- <topicref href="c_infotypes.dita">
- <topicref href="lc_task.dita"/>
- <topicref href="lc_reference.dita"/>
+ <topicref href="topics/lc_infotypes.dita">
+  <topicref href="topics/lc_concept.dita"/>
+ <topicref href="topics/lc_task.dita"/>
+ <topicref href="topics/lc_reference.dita"/>
+  <topicref href="topics/lc_gloss.dita"/>
+  <topicref href="topics/lc_constraints.dita"/>
+  <topicref href="topics/lc_specialization.dita"/>
+  <topicref href="assessments/lca_topics.dita"/>
  </topicref>
 </map>

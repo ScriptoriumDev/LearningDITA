@@ -2,11 +2,7 @@
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_gxd_rry_5r">
     <title>What is DITA?</title>
-    <prolog><author>Sharon Burton</author>
-        <author href="http://www.scriptorium.com">Sarah O'Keefe, Scriptorium</author>
-        <critdates>
-            <created date="2015-04-28"/>
-        </critdates></prolog>
+    <shortdesc></shortdesc>
     <learningContentbody>
        <lcInstruction>
              <p>DITA stands for the DITA Information Typing Architecture. It is an open standard
@@ -21,32 +17,37 @@
                     <li>Structured authoring concepts</li>
                 </ul>The fact that DITA is an open, XML-based standard means that it is relatively
                 easy to move from one tool to another as business needs change. </p>
-           <title>Markup languages</title>
-           <p>The most commonly used markup language is HTML. XML is similar to HTML; it also uses
-               angle brackets to indicate elements (like &lt;p>). Many of the tags in DITA XML are
-               also found in HTML.</p>
-           <p>In XML, you must be careful to open and close all tags properly. HTML is forgiving
-               when you make mistakes. XML requires you to provide a file that is tagged correctly;
-               if you make any error in the encoding, parsing will stop. This is known as draconian
-               error handling, and it is a controversial part of the XML specification.</p>
-           <p>DITA is a markup language and is a flavor of XML. DITA allows you to mark up content
-               semantically; the tag markup tells the author about the meaning of the markup.</p>
-           <p>
-               <object id="video1" data="assets/htmlversusxml.swf"
-                   type="application/x-shockwave-flash" width="350" height="100"> 
-                   <desc>Insert lesson 3 video from 3:18 to 5:18 here. Overview of HTML markup versus DITA markup</desc>
-                   <param name="movie" value="assets/htmlversusxml.swf"/> 
-                   <param name="quality" value="high"/> 
+        
+        <section>
+            <title>Markup languages</title>
+            <p>The most commonly used markup language is HTML. XML is similar to HTML; it also uses
+                angle brackets to indicate elements (like &lt;p>). Many of the tags in DITA XML are
+                also found in HTML.</p>
+            <p>In XML, you must be careful to open and close all tags properly. HTML is forgiving
+                when you make mistakes. XML requires you to provide a file that is tagged correctly;
+                if you make any error in the encoding, parsing will stop. This is known as draconian
+                error handling, and it is a controversial part of the XML specification.</p>
+            <p>DITA is a markup language and is a flavor of XML. DITA allows you to mark up content
+                semantically; the tag markup tells the author about the meaning of the markup.</p>
+            <p>
+                <object id="video1" data="assets/htmlversusxml.swf"
+                    type="application/x-shockwave-flash" width="350" height="100"> 
+                    <desc>Insert lesson 3 video from 3:18 to 5:18 here. Overview of HTML markup versus DITA markup</desc>
+                    <param name="movie" value="assets/htmlversusxml.swf"/> 
+                    <param name="quality" value="high"/> 
                    
-               </object>
-           </p>
+                 </object>
+            </p>
+        </section>
+        <section>
             <title>DITA is structured authoring</title>
             <p>DITA enforces structure and standard for an authoring environment. Typically, an
                 information architecture will set up the overall environment.</p>
             <p>Content has implicit structure, even in a word processor. DITA models and enforces
                 that structure explicitly. For example, a task topic must have at least one step.
                 The result is that all task topics are structured consistently. </p>
-       
+        </section>
+        <section>
             <title>What is a DITA topic?</title>
             <p>A DITA topic is a container in which you create content. Topics can be:<ul
                     id="ul_egh_cxy_5r">
@@ -64,7 +65,7 @@
                 element. For example, a topic might have an attribute called author, in which you
                 specify who created a particular topic.</p>
      
-        
+        </section>
        </lcInstruction>
     </learningContentbody>
     <related-links>
