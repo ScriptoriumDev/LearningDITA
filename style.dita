@@ -48,11 +48,15 @@
     </ul></p>
    <p>Inside the overview container, provide learningContent topics with the module components
     (lessons).</p>
-   <p>The last topic in a module should be a quiz with a variety of assessments. For these, use the
-    learningAssessment topic. Each assessment requires a unique ID; make sure you do not overlap
-    with other IDs in the modules. Consider a unique ID prefix for your learning assessment
-    content.</p>
+   <p/>
+   <p/>
   </section>
+  <section><title>Assessment structure</title><p>Assessments (test questions) follow the learning
+    modules in the map file:</p><codeblock>copy from map file when it's done</codeblock>Each
+   assessment question goes into its own learningAssessment topic. Do not add a title element to the
+   assessment topics. Assessment topics require a unique ID; make sure you do not overlap with other
+   IDs in the modules. Consider a unique ID prefix for your learning assessment content (for
+   example, your initials???????).</section>
   <section>
    <title>File structure</title>
    <p>The DITA training project is divided into subfolders:<ul id="ul_fw2_dxz_vr">
