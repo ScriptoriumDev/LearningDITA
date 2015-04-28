@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_qn1_dd1_wr">
+ <title></title>
+ <prolog>
+  <author>Sharon Burton</author>
+  <author href="http://www.scriptorium.com">Sarah O'Keefe, Scriptorium</author>
+  <critdates>
+   <created date="2015-04-28"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction><lcSingleSelect id="5">
+   <lcQuestion>DITA is an open standard, which means (choose one):</lcQuestion>
+   <lcAnswerOptionGroup>
+    <lcAnswerOption>
+     <lcAnswerContent>Anyone can use it without paying for it.</lcAnswerContent>
+     <lcCorrectResponse/>
+    </lcAnswerOption>
+    <lcAnswerOption>
+     <lcAnswerContent>When updates are released, you must upgrade and pay or lose access to your information.</lcAnswerContent>
+     
+    </lcAnswerOption>
+    <lcAnswerOption>
+     <lcAnswerContent>Updates are controlled by the ISO organization.</lcAnswerContent>
+    </lcAnswerOption>
+   </lcAnswerOptionGroup>
+  </lcSingleSelect></lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

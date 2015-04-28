@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_icn_1d1_wr">
+ <title></title>
+ <prolog>
+  <author>Sharon Burton</author>
+  <author href="http://www.scriptorium.com">Sarah O'Keefe, Scriptorium</author>
+  <critdates>
+   <created date="2015-04-28"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  
+ <lcInteraction> <lcTrueFalse id="4">
+   <lcQuestion>The only way to do structured authoring is to use the DITA standard.</lcQuestion>
+   <lcAnswerOptionGroup>
+    <lcAnswerOption>
+     <lcAnswerContent>True</lcAnswerContent>
+     <lcFeedback>There are other standards, such as DocBook, S1000D, NLM, and more. You can also create your own custom structure from scratch.</lcFeedback>
+    </lcAnswerOption>
+    <lcAnswerOption>
+     <lcAnswerContent>False</lcAnswerContent>
+     <lcCorrectResponse/>
+     
+    </lcAnswerOption>
+   </lcAnswerOptionGroup>
+  </lcTrueFalse></lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>
