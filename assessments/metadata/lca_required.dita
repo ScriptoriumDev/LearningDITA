@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
-<learningAssessment id="assessment_fb5_bf1_wr">
+<learningAssessment id="assessment_bkn_skb_wr">
  <title></title>
  <prolog>
   <author>Sharon Burton</author>
@@ -10,27 +10,20 @@
   </critdates>
  </prolog>
  <learningAssessmentbody>
-  
-  
   <lcInteraction>
-  
-  <lcMultipleSelect id="topics6">
-   <lcQuestion>Task topics include the following components (choose all that apply)?</lcQuestion>
+  <lcMultipleSelect id="md3">
+   <lcQuestion>The following metadata is required for a topic (choose all that apply):</lcQuestion>
    <lcAnswerOptionGroup>
     <lcAnswerOption>
-     <lcAnswerContent>Optional substeps</lcAnswerContent>
-     <lcCorrectResponse/>
+     <lcAnswerContent>&lt;title id="xxx"></lcAnswerContent>
+     <lcFeedback>The id attribute is required for the topic but not the topic title.</lcFeedback>
     </lcAnswerOption>
     <lcAnswerOption>
-     <lcAnswerContent>Overview content</lcAnswerContent>
-     <lcFeedback>You can provide contextual information with the context element, but detailed overview information should go in a concept topic.</lcFeedback>
+     <lcAnswerContent>&lt;topic author="xxx"></lcAnswerContent>
+     <lcFeedback>Author information is not required. When you do provide it, use the &lt;author> element in the &lt;prolog>.</lcFeedback>
     </lcAnswerOption>
     <lcAnswerOption>
-     <lcAnswerContent>Optional step results</lcAnswerContent>
-     <lcCorrectResponse/>
-    </lcAnswerOption>
-    <lcAnswerOption>
-     <lcAnswerContent>Step-by-step information</lcAnswerContent>
+     <lcAnswerContent>&lt;topic id="xxx"></lcAnswerContent>
      <lcCorrectResponse/>
     </lcAnswerOption>
    </lcAnswerOptionGroup>

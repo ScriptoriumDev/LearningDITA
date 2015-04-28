@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
-<learningAssessment id="assessment_dgl_qc1_wr">
+<learningAssessment id="assessment_bkn_skb_wr">
  <title></title>
  <prolog>
   <author>Sharon Burton</author>
@@ -11,21 +11,19 @@
  </prolog>
  <learningAssessmentbody>
   <lcInteraction>
-   <lcSingleSelect id="1">
-    <lcQuestion>To be valid, a topic must have the following:</lcQuestion>
+   <lcTrueFalse id="md2">
+    <lcQuestion>All content requires specialization.</lcQuestion>
     <lcAnswerOptionGroup>
      <lcAnswerOption>
-      <lcAnswerContent>a title element</lcAnswerContent>
+      <lcAnswerContent>True</lcAnswerContent>
+      <lcFeedback>You can create unique content that uses the default DITA structure.</lcFeedback>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>a title element and an id attribute</lcAnswerContent>
+      <lcAnswerContent>False</lcAnswerContent>
       <lcCorrectResponse/>
-     </lcAnswerOption>
-     <lcAnswerOption>
-      <lcAnswerContent>an href attribute</lcAnswerContent>
-     </lcAnswerOption>
+           </lcAnswerOption>
     </lcAnswerOptionGroup>
-   </lcSingleSelect>
+   </lcTrueFalse>
   </lcInteraction>
  </learningAssessmentbody>
 </learningAssessment>

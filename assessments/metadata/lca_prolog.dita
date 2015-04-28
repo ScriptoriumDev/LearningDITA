@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
-<learningAssessment id="assessment_dgl_qc1_wr">
+<learningAssessment id="assessment_bkn_skb_wr">
  <title></title>
  <prolog>
   <author>Sharon Burton</author>
@@ -11,21 +11,20 @@
  </prolog>
  <learningAssessmentbody>
   <lcInteraction>
-   <lcSingleSelect id="1">
-    <lcQuestion>To be valid, a topic must have the following:</lcQuestion>
+   <lcTrueFalse id="md6">
+    <lcQuestion>The metadata stored in the prolog element is information about the entire topic.</lcQuestion>
     <lcAnswerOptionGroup>
      <lcAnswerOption>
-      <lcAnswerContent>a title element</lcAnswerContent>
-     </lcAnswerOption>
-     <lcAnswerOption>
-      <lcAnswerContent>a title element and an id attribute</lcAnswerContent>
+      <lcAnswerContent>True</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>an href attribute</lcAnswerContent>
-     </lcAnswerOption>
+      <lcAnswerContent>False</lcAnswerContent>
+      <lcFeedback>The prolog is at the topic level. For element-level metadata, use the element’s attributes.</lcFeedback>
+     
+           </lcAnswerOption>
     </lcAnswerOptionGroup>
-   </lcSingleSelect>
+   </lcTrueFalse>
   </lcInteraction>
  </learningAssessmentbody>
 </learningAssessment>

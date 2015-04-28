@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
-<learningAssessment id="assessment_ilj_tc1_wr">
+<learningAssessment id="assessment_bkn_skb_wr">
  <title></title>
  <prolog>
   <author>Sharon Burton</author>
-  <author href="http://www.scriptorium.com">Sarah O’Keefe, Scriptorium</author>
+  <author href="http://www.scriptorium.com">Sarah O'Keefe, Scriptorium</author>
   <critdates>
    <created date="2015-04-28"/>
   </critdates>
  </prolog>
  <learningAssessmentbody>
-  
   <lcInteraction>
-   <lcTrueFalse id="2">
-    <lcQuestion>A topic is a piece of content that addresses one question or idea</lcQuestion>
+   <lcTrueFalse id="md1">
+    <lcQuestion>With metadata and output filtering, you can create a content experience that is personalized to a reader.</lcQuestion>
     <lcAnswerOptionGroup>
      <lcAnswerOption>
       <lcAnswerContent>True</lcAnswerContent>
@@ -21,9 +20,7 @@
      </lcAnswerOption>
      <lcAnswerOption>
       <lcAnswerContent>False</lcAnswerContent>
-      <lcFeedback>A topic is a unit of content. Concept topics describe one idea; reference topics
-       provide information about one item, and task topics provide step-by-step instructions for one
-       procedure.</lcFeedback>
+      <lcFeedback>If your content includes metadata attributes, such as platform or product, you can filter based on the metadata values to create output variants.</lcFeedback>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
    </lcTrueFalse>

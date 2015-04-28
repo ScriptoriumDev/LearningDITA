@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
-<learningAssessment id="assessment_mlf_jd1_wr">
+<learningAssessment id="assessment_bkn_skb_wr">
  <title></title>
  <prolog>
   <author>Sharon Burton</author>
@@ -10,16 +10,23 @@
   </critdates>
  </prolog>
  <learningAssessmentbody>
-  
-  <lcInteraction><lcSingleSelect id="8">
-   <lcQuestion>Constraining means</lcQuestion>
+  <lcInteraction>
+  <lcSingleSelect id="md5">
+   <lcQuestion>Where would you find an &lt;author> element?
+ 
+  </lcQuestion>
    <lcAnswerOptionGroup>
     <lcAnswerOption>
-     <lcAnswerContent>Adding new elements based on existing elements</lcAnswerContent>
-     
+     <lcAnswerContent>DITA does not allow you to use an author element; you have to use an author
+       attribute.</lcAnswerContent>
+     <lcFeedback>DITA does not provide an author attribute.</lcFeedback>
     </lcAnswerOption>
     <lcAnswerOption>
-     <lcAnswerContent>Removing unused elements</lcAnswerContent>
+     <lcAnswerContent>At the end of the topic body.</lcAnswerContent>
+     <lcFeedback>&lt;related-links> is after the topic body.</lcFeedback>
+    </lcAnswerOption>
+    <lcAnswerOption>
+     <lcAnswerContent>In the &lt;prolog> element.</lcAnswerContent>
      <lcCorrectResponse/>
     </lcAnswerOption>
    </lcAnswerOptionGroup>
