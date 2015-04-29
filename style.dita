@@ -15,7 +15,7 @@
    existing topic. You can also include a web link to your
    site:<codeblock>&lt;prolog>
   &lt;author>Sharon Burton&lt;/author>
-  &lt;author href="http://www.scriptorium.com">Sarah O'Keefe, Scriptorium&lt;/author>
+  &lt;author href="http://www.scriptorium.com" scope="external" format="html">Sarah O'Keefe, Scriptorium&lt;/author>
   &lt;critdates>
    &lt;created date="2015-04-28"/>
   &lt;/critdates>
@@ -106,10 +106,10 @@
    <p>The DITA training project is divided into subfolders:<ul id="ul_fw2_dxz_vr">
      <li>topics: for most content</li>
      <li>assessments: for quizzes, test, and other assessment content</li>
-     <li>media; for images, videos, and other non-text content</li>
+     <li>map: map files for learning modules</li>
+     <li>media: for images, videos, and other non-text content</li>
     </ul></p>
-   <p>Map files and general project information go at the root level. We recommend creating a map
-    file for each module.</p>
+   <p>The master map file, which references the map files for modules, is at the root level.</p>
    <p>Use the following file name prefixes:<ul id="ul_i3h_dkb_wr">
      <li>m_ for map files</li>
      <li>lc_ for learning content</li>
