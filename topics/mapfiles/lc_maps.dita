@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_qyn_3sb_wr">
+
+    <title>Map files</title>
+    <prolog>
+        <author>Sharon Burton</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Alan Pringle,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-04-28"/>
+        </critdates>
+    </prolog>
+
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup id="lcObjectivesGroup_aw1_ptb_wr">
+                <lcObjective>What are map files?</lcObjective>
+                <lcObjective>How do they work?</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="30"/>
+        </lcDuration>
+        <lcInstruction>
+            <p>Map files are how you organize content for delivery. They are like a table of
+                contents: they create sequence and hierarchy between and within topics. The reader
+                of a PDF file, help system, and so on, based on a map file does not see the map file
+                itself; instead, they see the topics in the order and hierarchy established by the
+                map file. </p>
+            <p>You generally do not add all available topics to a map file—just the ones you want
+                included in a deliverable. Also, you can include the same topic in multiple maps
+                files, which is another example of reuse in DITA.</p>
+            <p>
+                <object id="video1" data="assets/htmlversusxml.swf"
+                    type="application/x-shockwave-flash" width="350" height="100">
+                    <desc>Insert lesson 6 video from 0:49 to 2:00 here. Overview of HTML markup
+                        versus DITA markup</desc>
+                    <param name="movie" value="assets/examplemap.swf"/>
+                    <param name="quality" value="high"/>
+
+                </object>
+            </p>
+            <p> </p>
+        </lcInstruction>
+    </learningContentbody>
+    <related-links>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Maps/c_DITA_Map_Files.html"
+            format="html" scope="external">
+            <linktext>The DITA Style Guide, Chapter 2</linktext>
+        </link>
+    </related-links>
+</learningContent>

@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
-    <topicref href="../topics/lc_maps.dita"/>
+    <topicref href="../topics/mapfiles/lc_maps.dita"/>
+    <topicref href="../topics/mapfiles/lc_map_in_map.dita"/>
+    <topicref href="../topics/mapfiles/lc_transforming.dita"/>
+    <topichead navtitle="Assessments">
+        <topicref href="../assessments/maps/lca_one_topic_in_map.dita"/>
+        <topicref href="../assessments/maps/lca_maps_order.dita"/>
+        <topicref href="../assessments/maps/lca_map_how_many_topics.dita"/>
+        <glossref href="../assessments/maps/lca_map_in_map.dita"/>
+    </topichead>
 </map>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_dvc_pqh_wr">
+    <title>Referencing map files in map files</title>
+    <shortdesc/>
+    <prolog>
+        <author>Sharon Burton</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Alan Pringle,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-04-28"/>
+        </critdates>
+    </prolog>
+
+    <learningContentbody>
+        <lcInstruction>
+            <p>You can reference map files inside map files. For example, if you have a standard
+                introductory section, you could create a map collecting those topics and reference
+                that map inside every map for a deliverable (a PDF file, for example). </p>
+            <p>You can also create a map for every main section and reference those map files in a
+                deliverable-level map file.</p>
+            <p>
+                <object id="video1" data="assets/htmlversusxml.swf"
+                    type="application/x-shockwave-flash" width="350" height="100">
+                    <desc>Insert lesson 6 video from 5:18 to 6:06 here. Overview of map file in map file.</desc>
+                    <param name="movie" value="assets/examplemap.swf"/>
+                    <param name="quality" value="high"/>
+                    
+                </object>
+            </p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>
