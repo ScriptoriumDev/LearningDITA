@@ -23,15 +23,9 @@
             error handling, and it is a controversial part of the XML specification.</p>
         <p>DITA is a markup language and is a flavor of XML. DITA allows you to mark up content
             semantically; the tag markup tells the author about the meaning of the markup.</p>
-        <p>
-            <object id="video1" data="assets/htmlversusxml.swf"
-                type="application/x-shockwave-flash" width="350" height="100"> 
-                <desc>Insert lesson 3 video from 3:18 to 5:18 here. Overview of HTML markup versus DITA markup</desc>
-                <param name="movie" value="assets/htmlversusxml.swf"/> 
-                <param name="quality" value="high"/> 
-                
-            </object>
-        </p>
+       <p>Video: <xref href="https://youtu.be/1cYP5six9ww" format="html" scope="external">Overview
+                    of HTML markup versus DITA markup</xref></p>
+           
         </lcInstruction>
         
     </learningContentbody>
