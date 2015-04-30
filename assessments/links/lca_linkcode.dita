@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_f33_1kp_wr">
+ <title></title>
+ <prolog>
+  <author>Sharon Burton</author>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+  <critdates>
+   <created date="2015-04-30"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+  <lcSingleSelect id="links6">
+   <lcQuestion>Read the following code. What does this code show?
+   <image href="../../media/links/linkcode.png"/>
+   </lcQuestion>
+   <lcAnswerOptionGroup>
+    <lcAnswerOption>
+     <lcAnswerContent>A list of numbered steps with a conref step.</lcAnswerContent>
+     <lcCorrectResponse/>
+    </lcAnswerOption>
+    <lcAnswerOption>
+     <lcAnswerContent>A concept topic about feeding ducks.</lcAnswerContent>
+    <lcFeedback>This fragment shows only ol and li lists, so you cannot determine its topic type.</lcFeedback>
+    </lcAnswerOption>
+    <lcAnswerOption>
+     <lcAnswerContent>A bulleted list named DuckPelletSteps.dita.</lcAnswerContent>
+     <lcFeedback>The filename reference is part of a conref, not a label for this list.</lcFeedback>
+    </lcAnswerOption>
+   </lcAnswerOptionGroup>
+  </lcSingleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

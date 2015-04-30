@@ -14,11 +14,11 @@
 
     <learningContentbody>
         <lcInstruction>
-            <p>You can reference map files inside map files. For example, if you have a standard
-                introductory section, you could create a map collecting those topics and reference
-                that map inside every map for a deliverable (a PDF file, for example). </p>
-            <p>You can also create a map for every main section and reference those map files in a
-                deliverable-level map file.</p>
+            <p>In addition to link to topics, you can reference map files inside map files. In this
+                approach, the subordinate maps (submaps) are usually a collection of related
+                content. For example, you can create a chapter-level map file for each chapter in a
+                book, and then reference those chapter-level map files inside your main book-level
+                map file.</p>
             <p>
                 <object id="video1" data="assets/htmlversusxml.swf"
                     type="application/x-shockwave-flash" width="350" height="100">
