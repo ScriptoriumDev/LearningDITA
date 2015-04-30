@@ -22,7 +22,7 @@
         <lcDuration>
             <lcTime value="30"/>
         </lcDuration>
-        <lcInstruction>
+        <lcIntro>
             <p>Map files are how you organize content for delivery. They are like a table of
                 contents: they create sequence and hierarchy between and within topics. The reader
                 of a PDF file, help system, and so on, based on a map file does not see the map file
@@ -34,15 +34,14 @@
             <p>
                 <object id="video1" data="assets/htmlversusxml.swf"
                     type="application/x-shockwave-flash" width="350" height="100">
-                    <desc>Insert lesson 6 video from 0:49 to 2:00 here. Overview of HTML markup
-                        versus DITA markup</desc>
+                    <desc>Insert lesson 6 video from 0:49 to 2:00 here. Overview of maps</desc>
                     <param name="movie" value="assets/examplemap.swf"/>
                     <param name="quality" value="high"/>
 
                 </object>
             </p>
-            <p> </p>
-        </lcInstruction>
+         
+        </lcIntro>
     </learningContentbody>
     <related-links>
         <link
