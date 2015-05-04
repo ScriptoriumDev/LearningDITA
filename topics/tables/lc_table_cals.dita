@@ -10,48 +10,103 @@
             Scriptorium</author>
         <author href="http://www.scriptorium.com" scope="external" format="html">Bill Swallow,
             Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe,
+            Scriptorium</author>
         <critdates>
             <created date="2015-05-04"/>
         </critdates>
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>CALS tables (&lt;table>) use the following elements to represent and organize
-                tablular data:</p>
+            <p>CALS tables (&lt;table>) use the following elements to represent and organize tabular
+                data:</p>
             <ul>
-                <li><i>&lt;title> (0 or 1)</i><p>A title is not required. You may use one title per
-                        &lt;table>.</p></li>
+                <li><i>&lt;title> (0 or 1)</i><p>A title is not required.  One title is
+                    allowed.</p></li>
                 <li><i>&lt;tgroup> (1 or more)</i><p>Every table must contain at least one tgroup,
-                        which defines the specifications for columns, rows, headers, and
-                        footers.</p></li>
+                        which defines the specifications for columns, rows, headers, and footers. In
+                        practice, multiple &lt;tgroup> elements are rare.</p></li>
                 <li><i>&lt;colspec> (any number)</i><p>One per column. Allows you to specify widths,
                         and identify columns for spans.</p></li>
-                <li><i>&lt;thead> (0 or 1)</i><p>One per tgroup. Allows you to specify the header
-                        row for the table group.</p></li>
-                <li><i>&lt;tbody> (1)</i><p>This is the element that contains your table's columns
-                        and rows.</p></li>
-                <li><i>&lt;row> (1 or more)</i><p>Groups a number of table entries that comprise a
-                        complete row of data within your table.</p></li>
-                <li><i>&lt;entry> (1 or more)</i><p>A single cell of tablular data.</p></li>
+                <li><i>&lt;thead> (0 or 1)</i><p>One per tgroup. Contains the header row(s) for the
+                        table group.</p></li>
+                <li><i>&lt;tbody> (1)</i><p>Contains your table’s rows.</p></li>
+                <li><i>&lt;row> (1 or more)</i><p>Contains a single row of data within your
+                        table.</p></li>
+                <li><i>&lt;entry> (1 or more)</i><p>A table cell.</p></li>
             </ul>
-            <p>An example of a CALS table structure:</p>
-            <pre>&lt;table>
-   &lt;tgroup>
-      &lt;colspec>...
-      &lt;thead>
-         &lt;trow>
-            &lt;entry>...
-         &lt;/trow>
-         ...
-      &lt;/thead>
-      &lt;tbody>
-         &lt;trow>
-            &lt;entry>...
-         &lt;/trow>
-         ...
-      &lt;/tbody>
-   &lt;/tgroup>
-&lt;/table></pre>
+            <p>Below is an example of a minimal CALS table structure (one heading row, one body row,
+                and three columns). Note that in this case, the &lt;tgroup> specifies only the cols
+                attribute (which is required):</p>
+            <pre> &lt;table>
+      &lt;tgroup cols="3">
+        &lt;thead>
+          &lt;row>
+            &lt;entry>column 1, heading row&lt;/entry>
+            &lt;entry>column 2, heading row&lt;/entry>
+            &lt;entry>column 3, heading row&lt;/entry>
+          &lt;/row>
+        &lt;/thead>
+        &lt;tbody>
+          &lt;row>
+            &lt;entry>column 1, body row&lt;/entry>
+            &lt;entry>column 2, body row&lt;/entry>
+            &lt;entry>column 3, body row&lt;/entry>
+          &lt;/row>
+        &lt;/tbody>
+      &lt;/tgroup>
+    &lt;/table></pre>
+            <p>The result looks like this:<fig>
+                    <image href="../../media/tables/simplecals.png" id="image_hk3_krt_xr"/>
+                </fig></p>
+            <p>Below is a more complex
+                table:<pre> &lt;table>
+        &lt;title>My first table&lt;/title>
+        &lt;tgroup cols="2">
+          &lt;colspec colname="c1" colnum="1" colwidth="1*"/>
+          &lt;colspec colname="c2" colnum="2" colwidth="4*"/>
+          &lt;thead>
+            &lt;row>
+              &lt;entry>heading row, column 1&lt;/entry>
+              &lt;entry>heading row, column 2&lt;/entry>
+            &lt;/row>
+          &lt;/thead>
+          &lt;tbody>
+            &lt;row>
+              &lt;entry>row 1, column 1&lt;/entry>
+              &lt;entry>row 1, column 2&lt;/entry>
+            &lt;/row>
+            &lt;row>
+              &lt;entry namest="c1" nameend="c2">This cell spans two columns.&lt;/entry>
+            &lt;/row>
+            &lt;row>
+              &lt;entry morerows="1">This cell spans two rows.&lt;/entry>
+              &lt;entry>row 3, column 2&lt;/entry>
+            &lt;/row>
+            &lt;row>
+              &lt;entry>row 4, column 2&lt;/entry>
+            &lt;/row>
+          &lt;/tbody>
+        &lt;/tgroup>
+      &lt;/table></pre></p>
+            <p>And the visual:<fig>
+                    <image href="../../media/tables/morecals.png" id="image_twf_4rt_xr"/>
+                </fig></p>
+            <p>Some notes on the table:<ul id="ul_g4v_lpt_xr">
+                    <li>The &lt;colspec> element gives the columns names (colname), numbers
+                        (colnum), and widths (colwidth). In this example, the colwidths are “1*” and
+                        “4*”. The result is that the first column gets 20% of the available width
+                        and the second column gets 80%. The asterisk indicates that the settings are
+                        proportional. </li>
+                    <li>Each row has a &lt;row> element with &lt;entry> elements for each cell.</li>
+                    <li>Notice that row 2 has only a single &lt;entry>. That's because the entry
+                        spans across both columns, which is specified by the namestart (namest) and
+                        nameend (nameend) attributes.</li>
+                    <li>In row 3, the first entry spans rows 3 and 4, so there you have a morerows
+                        attribute.</li>
+                </ul></p>
+            <p>The easiest way to set up the table code correctly is to use an editor that manages
+                these settings for you.</p>
         </lcInstruction>
     </learningContentbody>
 </learningContent>

@@ -17,24 +17,33 @@
     <learningContentbody>
         <lcInstruction>
             <p>Simple tables (&lt;simpletable>) use the following elements to represent and organize
-                tablular data:</p>
+                tabular data:</p>
             <ul>
-                <li><i>&lt;sthead> (0 or 1)</i><p>A simple table may contain up to one header
-                        row.</p></li>
-                <li><i>&lt;strow> (1 or more)</i><p>Groups a number of table entries that comprise a
-                        complete row of data within your table.</p></li>
-                <li><i>&lt;stentry> (1 or more)</i><p>A single cell of tabular data.</p></li>
+                <li><i>&lt;sthead> (0 or 1)</i><p>A simple table may contain one header
+                    row.</p></li>
+                <li><i>&lt;strow> (1 or more)</i><p>Contains a single row of data within your
+                        table.</p></li>
+                <li><i>&lt;stentry> (1 or more)</i><p>A table cell.</p></li>
             </ul>
-            <p>An example of a simple table structure:</p>
+            <p>Here is an example of a table with one heading row, two body rows, and two
+                columns.</p>
             <pre>&lt;simpletable>
    &lt;sthead>
-      &lt;stentry>...
+      &lt;stentry>heading for column 1&lt;/stentry>
+      &lt;stentry>heading for column 2&lt;/stentry>
    &lt;/sthead>
    &lt;strow>
-      &lt;stentry>...
+      &lt;stentry>row 1, column 1&lt;/stentry>
+      &lt;stentry>row 1, column 2&lt;/stentry>
    &lt;/strow>
-   ...
+   &lt;strow>
+      &lt;stentry>row 2, column 1&lt;/stentry>
+      &lt;stentry>row 2, column 2&lt;/stentry>
+   &lt;/strow>
 &lt;/simpletable></pre>
+            <p>Visually, the table looks something like this:<fig>
+                    <image href="../../media/tables/simpletable.png" id="image_xnd_zqt_xr"/>
+                </fig></p>
         </lcInstruction>
     </learningContentbody>
 </learningContent>
