@@ -21,7 +21,7 @@
                     complete row of data within your table.</p></li>
                 <li>&lt;stentry> (1 or more)<p>A single cell of tablular data.</p></li>
             </ul>
-            <p>An example of a CALS table structure:</p>
+            <p>An example of a simple table structure:</p>
             <pre>&lt;simpletable>
    &lt;sthead>
       &lt;stentry>...
