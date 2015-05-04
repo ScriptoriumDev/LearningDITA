@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_gxd_rry_5r">
+    <title>What is DITA?</title>
+    <shortdesc></shortdesc>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup>
+                <lcObjective>DITA background</lcObjective>
+                <lcObjective>DITA as a markup language</lcObjective>
+                <lcObjective>DITA topics</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="30"/>
+        </lcDuration>
+       <lcIntro>
+             <p>DITA stands for the DITA Information Typing Architecture. It is an open standard
+                originally created by IBM. In 2005, IBM donated DITA to <xref
+                    href="https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=dita"
+                    format="html" scope="external">OASIS</xref>.</p>
+            <p>DITA is an XML-based, tool-independent way to create, organize, and manage content.
+                DITA is built on:<ul id="ul_dwl_1ty_5r">
+                    <li>Topic-based authoring</li>
+                    <li>Separating content from formatting</li>
+                    <li>Minimalism</li>
+                    <li>Structured authoring concepts</li>
+                </ul>The fact that DITA is an open, XML-based standard means that it is relatively
+                easy to move from one tool to another as business needs change. </p>
+        
+     
+        
+       </lcIntro>
+    </learningContentbody>
+    <related-links>
+        <link href="http://dita.xml.org/book/export/html/1047" scope="external" format="html">
+            <linktext>History of DITA</linktext>
+        </link>
+        <link href="http://www.w3.org/html/wg/wiki/DraconianErrorHandling" format="html" scope="external"><linktext>Draconian error handling</linktext></link>
+        <link href="http://www.scriptorium.com/2013/07/the-ten-commandments-of-dita/" format="html" scope="external"><linktext>The ten commandments of DITA, Scriptorium blog</linktext></link>
+        <link href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/c_Syntax_and_Markup.html" format="html" scope="external">
+            <linktext>DITA Style Guide, Chapter 3, Syntax and Markup</linktext>
+        </link>
+    </related-links>
+   
+</learningContent>

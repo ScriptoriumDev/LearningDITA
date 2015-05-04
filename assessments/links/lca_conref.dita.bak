@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_f33_1kp_wr">
+ <title></title>
+ <prolog>
+  <author>Sharon Burton</author>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+  <critdates>
+   <created date="2015-04-30"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+  <lcSingleSelect id="links6">
+   <lcQuestion>Using conrefs allows you to:</lcQuestion>
+   <lcAnswerOptionGroup>
+    <lcAnswerOption>
+     <lcAnswerContent>Link to frequently used content</lcAnswerContent>
+     <lcCorrectResponse/>
+    </lcAnswerOption>
+    <lcAnswerOption>
+     <lcAnswerContent>Be lazy. A good writer varies the content to keep the reader from getting bored.</lcAnswerContent>
+    <lcFeedback>In fiction, variety is a good thing. In technical content, consistency is important.</lcFeedback>
+    </lcAnswerOption>
+    <lcAnswerOption>
+     <lcAnswerContent>Plagiarize from other sources.</lcAnswerContent>
+     <lcFeedback>Reuse in a corporate environment is not plagiarism.</lcFeedback>
+    </lcAnswerOption>
+   </lcAnswerOptionGroup>
+  </lcSingleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

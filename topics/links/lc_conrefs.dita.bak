@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="links">
+    <title>conrefs</title>
+    <prolog>
+        <author>Sharon Burton</author>
+        <author href="http://www.scriptorium.com">Sarah O’Keefe, Scriptorium</author>
+        <critdates>
+            <created date="2015-04-28"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+    <lcInstruction>
+      <p>In DITA, you use a conref to reuse pieces of content. Frequently, this could be notes,
+                cautions, and warnings, boilerplate text, such as your company address, and more. A
+                product’s description should probably be the same across all your documents.</p>
+            <p>If you are familiar with other authoring tools, conrefs are roughly equivalent
+                to:</p>
+            <p>
+                <ul id="ul_iwx_n5b_wr">
+                    <li>Flare snippets</li>
+                    <li>RoboHelp embedded topics</li>
+                    <li>FrameMaker import text by reference</li>
+                    <li>HTML server-side includes</li>
+                </ul>
+                <draft-comment author="okeefe">add conref code explanation here as text. Video also
+                    includes it.</draft-comment>
+            </p>
+    
+            <draft-comment author="okeefe">video 2:58 to 4:32</draft-comment>
+    </lcInstruction>
+    </learningContentbody>
+  
+</learningContent>

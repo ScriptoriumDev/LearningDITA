@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_xxy_nd1_wr">
+ <title></title>
+ <prolog>
+  <author>Sharon Burton</author>
+  <author href="http://www.scriptorium.com"  scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+  <critdates>
+   <created date="2015-04-28"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  
+ <lcInteraction> <lcMultipleSelect id="10">
+   <lcQuestion>Because DITA is an open standard (choose all that apply):</lcQuestion>
+   <lcAnswerOptionGroup>
+    <lcAnswerOption>
+     <lcAnswerContent>No one can charge for tools.</lcAnswerContent>
+     
+    </lcAnswerOption>
+    <lcAnswerOption>
+     <lcAnswerContent>None of these answers are correct.</lcAnswerContent>
+    </lcAnswerOption>
+    <lcAnswerOption>
+     <lcAnswerContent>You can only use a text editor.</lcAnswerContent>
+     
+    </lcAnswerOption>
+    <lcAnswerOption>
+     <lcAnswerContent>Anyone can use the standard.</lcAnswerContent>
+     <lcCorrectResponse/>
+    </lcAnswerOption>
+   </lcAnswerOptionGroup>
+  </lcMultipleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

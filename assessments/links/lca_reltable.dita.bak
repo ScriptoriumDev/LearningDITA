@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_f33_1kp_wr">
+ <title/>
+ <prolog>
+  <author>Sharon Burton</author>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe,
+   Scriptorium</author>
+  <critdates>
+   <created date="2015-04-30"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcSingleSelect id="links7">
+    <lcQuestion>Assume that the following code snippet is in the reltable for the current map file
+     and all of the referenced topics are also in the map file. The c_ prefix indicates concept
+     topics and the r_ prefix indicates reference topics. What will be the result in the related
+     topics sections? <image href="../../media/links/reltable.png"/>
+    </lcQuestion>
+    <lcAnswerOptionGroup>
+     <lcAnswerOption>
+      <lcAnswerContent>A Related References section at the end of each of the
+       topics.</lcAnswerContent>
+   <lcFeedback>What about the concept topic?</lcFeedback>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>For the reference topics, a link to the other reference topics and a link to the concept topic. For the concept topic, a link to both reference topics.</lcAnswerContent>
+     <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>No more than one Related Concepts link and no more than one Related References link.</lcAnswerContent>
+      <lcFeedback>The concept topic will include references to both reference topics.</lcFeedback>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Many inline links.</lcAnswerContent>
+      <lcFeedback>reltables let you avoid inline links.</lcFeedback>
+
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>One related concepts section in these topics.</lcAnswerContent>
+      <lcFeedback>What about the reference topics?</lcFeedback>
+
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+   </lcSingleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

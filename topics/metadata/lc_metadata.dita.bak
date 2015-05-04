@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_gxd_rry_5r">
+    <title>Metadata</title>
+    <prolog>
+        <author href="http://www.scriptorium.com"  scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+        <author>Sharon Burton</author>
+        <critdates>
+            <created date="2015-05-01"/>
+        </critdates></prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup>
+                <lcObjective>What is metadata?</lcObjective>
+                <lcObjective>How do you use metadata?</lcObjective>
+                <lcObjective>What metadata is required</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="30"/>
+        </lcDuration>
+       <lcIntro>
+             <p>
+                 summary here
+             </p>
+        
+     
+        
+       </lcIntro>
+    </learningContentbody>
+    <related-links>
+        <link href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/c_Types_of_Metadata.html" format="html" scope="external">
+            <linktext>DITA Style Guide, Chapter 8, Metadata, conditional processing, and indexing</linktext>
+        </link>
+        <link href="http://www.opentag.com/xfaq_lang.htm" scope="external" format="html"><linktext>Language identification FAQ from opentag.com (addresses the use of xml:lang for language identification)</linktext></link>
+        
+    </related-links>
+   
+</learningContent>

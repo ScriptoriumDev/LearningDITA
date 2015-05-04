@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_rxt_zl5_vr">
+    <title>Concept topics</title>
+    <prolog><author>Sharon Burton</author>
+        <author href="http://www.scriptorium.com"  scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+        <critdates>
+            <created date="2015-04-28"/>
+        </critdates></prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>A concept topic answers the question “Why?” It provides background information about
+                a subject that the reader needs to know.</p>
+            <p>Concepts often include overview graphics and other big picture information needed to
+                understand the ideas behind a particular subject.</p>
+            <p>The concept topic has a required title. Other common elements used in a concept topic
+                    include:<ul id="ul_c5m_hm5_vr">
+                    <li>shortdesc (short description)</li>
+                    <li>conbody (the body of the concept topic)</li>
+                    <li>section</li>
+                    <li>ul</li>
+                    <li>ol</li>
+                    <li>fig</li>
+                    <li>image</li>
+                </ul><draft-comment author="okeefe">add video here. 2:02 through 2:48 is a code
+                    example that describes a duckling concept topic. Note that the video needs to be
+                    modified because the &lt;shortdesc> does not adequately summarize the
+                    topic.</draft-comment><draft-comment author="asp">Will not add video to YouTube
+                    until preceding modification is made.</draft-comment></p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

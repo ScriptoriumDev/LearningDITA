@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_lpz_5jr_xr">
+ <title/>
+ <prolog>
+
+  <author href="http://www.scriptorium.com" scope="external" format="html">Bill Swallow,
+   Scriptorium</author>
+  <critdates>
+   <created date="2015-05-04"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcMultipleSelect id="tablesq2">
+    <lcQuestion>Simpletables allow the following elements (choose all that apply):</lcQuestion>
+    <lcAnswerOptionGroup>
+     <lcAnswerOption>
+      <lcAnswerContent>&lt;sthead> (header row)</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>&lt;stbody> (table body region)</lcAnswerContent>
+      <lcFeedback>Only CALS tables define a table body region.</lcFeedback>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>&lt;strow> (table row)</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>&lt;title> (table title)</lcAnswerContent>
+      <lcFeedback>Only CALS tables can have titles.</lcFeedback>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>&lt;stentry> (table cell)</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+   </lcMultipleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

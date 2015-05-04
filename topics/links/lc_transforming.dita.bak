@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_flw_1g3_wr">
+    <title>Transforming map files into outputs</title>
+    <shortdesc/>
+    <prolog>
+        <author>Sharon Burton</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Alan Pringle,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-04-28"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction><draft-comment author="asp">This is where initial lessons covered transformation. Not sure it
+                belongs here but leaving for now. </draft-comment>
+            <p>Topics are organized into map files, from which you create deliverables (outputs).
+                Creating those outputs is called transformation. </p>
+            <p>Transforms are generally provided to you; they are not something DITA authors
+                generally work on. Stylesheet developers create and modify the transforms. </p>
+            <p>Transforms are independent of map files. You can apply multiple transforms to a map
+                file. For example, you could run the transforms for a PDF file and an online help
+                system on the same map file to get the two outputs. </p>
+            <draft-comment author="asp">Cover bookmaps, show demo of transforms via Open Toolkit and
+                oXygen, etc? </draft-comment></lcInstruction>
+    </learningContentbody>
+</learningContent>
