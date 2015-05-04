@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?> <!-- This file is part of the DITA Training project hosted on       github.com. See the accompanying LICENSE file for       applicable licenses.-->
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_atj_lxq_xp">
     <title>Simple table elements</title>
@@ -20,7 +23,7 @@
                         row.</p></li>
                 <li><i>&lt;strow> (1 or more)</i><p>Groups a number of table entries that comprise a
                         complete row of data within your table.</p></li>
-                <li><i>&lt;stentry> (1 or more)</i><p>A single cell of tablular data.</p></li>
+                <li><i>&lt;stentry> (1 or more)</i><p>A single cell of tabular data.</p></li>
             </ul>
             <p>An example of a simple table structure:</p>
             <pre>&lt;simpletable>
