@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
-<learningContent id="content_atj_lxq_xr">
+<learningContent id="content_atj_lxq_xp">
     <title>Simple table elements</title>
     <prolog>
         <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
@@ -16,10 +16,11 @@
             <p>Simple tables (&lt;simpletable>) use the following elements to represent and organize
                 tablular data:</p>
             <ul>
-                <li>&lt;sthead> (0 or 1)<p>A simple table may contain up to one header row.</p></li>
-                <li>&lt;strow> (1 or more)<p>Groups a number of table entries that comprise a
-                    complete row of data within your table.</p></li>
-                <li>&lt;stentry> (1 or more)<p>A single cell of tablular data.</p></li>
+                <li><i>&lt;sthead> (0 or 1)</i><p>A simple table may contain up to one header
+                        row.</p></li>
+                <li><i>&lt;strow> (1 or more)</i><p>Groups a number of table entries that comprise a
+                        complete row of data within your table.</p></li>
+                <li><i>&lt;stentry> (1 or more)</i><p>A single cell of tablular data.</p></li>
             </ul>
             <p>An example of a simple table structure:</p>
             <pre>&lt;simpletable>
