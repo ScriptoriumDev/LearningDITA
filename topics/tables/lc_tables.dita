@@ -13,21 +13,28 @@
         </critdates>
     </prolog>
     <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup>
+                <lcObjective></lcObjective>
+                <lcObjective></lcObjective>
+                <lcObjective></lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
         <lcIntro><p>Table occupy an uneasy middle ground between formatting and structure.
                 </p><p>There are two types of tables in DITA:</p><ul>
-                <li><i>Tables.</i> The &lt;table> element can support complex tables with spanned
-                    rows and columns and precise display properties</li>
                 <li><i>Simple tables.</i> The &lt;simpletable> element supports basic tables with
                     minimal customization</li>
+                <li><i>Tables.</i> The &lt;table> element can support complex tables with spanned
+                    rows and columns and precise display properties</li>
             </ul>Most markup languages use CALS tables, which were built as part of an initiative of
             the United States Department of Defense. HTML tables are also built on CALS, so if you
             are familiar with HTML table markup, you will recognize similarities in DITA tables.
             Both &lt;table> and &lt;simpletable> are based on CALS.<p>Simple tables are ideal for
                 basic representation of data within columns and rows. You can use heading rows, but
                 you cannot use a table title, merged columns or rows, or define column
-                widths.</p><p>CALS tables allow for more complex arrangements of tabular data and
-                allow table titles.</p><p>DITA tables are always described row by row and not column
-                by column.</p></lcIntro>
+                widths.</p><p>The &lt;table> element allows for more complex arrangements of tabular
+                data and allow table titles.</p><p>DITA tables are always described row by row and
+                not column by column.</p></lcIntro>
     </learningContentbody>
     <related-links>
         <link
