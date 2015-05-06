@@ -16,8 +16,9 @@
     <lcInstruction>
       <p>Cross-reference let you link from one topic to another, or from text to a figure or table
                 caption. You typically link to the figure or table title.</p>
-            <draft-comment author="okeefe">video 5:30 to 6:02. Not sure that the type is
-                correct.</draft-comment>
+            <p>Video: <xref href="https://www.youtube.com/watch?v=Go2FyJl7uQY" format="html"
+                    scope="external">Code examples of DITA cross-references</xref>
+            </p>
             <p>You can use the &lt;xref> element to link to resources outside your DITA topics. For
                 external references, you supply a @scope attribute with a value of external and a
                 @format attribute, as shown
