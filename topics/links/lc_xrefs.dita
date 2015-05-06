@@ -22,8 +22,8 @@
             <p>You can use the &lt;xref> element to link to resources outside your DITA topics. For
                 external references, you supply a @scope attribute with a value of external and a
                 @format attribute, as shown
-                    here:<lines>&lt;xref href="http://www.scriptorium.com" scope="external" format="html"/></lines><note>For
-                    links to a PDF File, use @format = "pdf".</note></p>
+                    here:<pre>&lt;xref href="http://www.scriptorium.com" scope="external" format="html"/></pre><note>For
+                    links to a PDF file, use @format = "pdf".</note></p>
             <p>Technically, it is possible to use &lt;xref> to link from one topic to another. This
                 inline linking is a Bad Idea™ because you have to create and maintain the link
                 manually. You have to specify what you are linking to. When you set up the

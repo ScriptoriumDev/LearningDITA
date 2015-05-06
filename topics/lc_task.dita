@@ -7,8 +7,10 @@
     <title>Task topics</title>
     <prolog><author>Sharon Burton</author>
         <author href="http://www.scriptorium.com"  scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+        <author href="http://www.scriptorium.com"  scope="external" format="html">Alan Pringle, Scriptorium</author>
         <critdates>
             <created date="2015-04-28"/>
+            <revised modified="2015-05-07"/>
         </critdates></prolog>
     <learningContentbody>
         <lcObjectives>
@@ -41,7 +43,7 @@
                     <li>taskbody (the body of the task topic)</li>
                     <li>steps (the sequence of actions)</li>
                     <li>step (each individual action-result pair)</li>
-                    <li>cmd (</li>
+                    <li>cmd (first element within a step; the action the user takes)</li>
                     <li>stepresult (what happens after you perform an action)</li>
                     <li>stepxmp (an example of how to do the step)</li>
                     <li>fig</li>

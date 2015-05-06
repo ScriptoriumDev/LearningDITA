@@ -8,15 +8,18 @@
     <prolog>
         <author>Sharon Burton</author>
         <author href="http://www.scriptorium.com">Sarah O’Keefe, Scriptorium</author>
+        <author href="http://www.scriptorium.com">Alan Pringle, Scriptorium</author>
         <critdates>
             <created date="2015-04-28"/>
+            <revised modified="2015-05-07"/>
         </critdates>
     </prolog>
     <learningContentbody>
     <lcInstruction>
-      <p>In DITA, you use a conref to reuse pieces of content. Frequently, this could be notes,
-                cautions, and warnings, boilerplate text, such as your company address, and more. A
-                product’s description should probably be the same across all your documents.</p>
+      <p>In DITA, you use a conref to reuse pieces of content. These content pieces could be
+                admonishments (notes, cautions, and warnings), boilerplate text (such as your
+                company address), and more. For example, a product’s description could be set up as
+                a conref so it is the same across all your documents.</p>
             <p>If you are familiar with other authoring tools, conrefs are roughly equivalent
                 to:</p>
             <p>
