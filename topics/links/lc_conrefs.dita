@@ -29,8 +29,7 @@
                     <li>FrameMaker import text by reference</li>
                     <li>HTML server-side includes</li>
                 </ul>
-                <draft-comment author="okeefe">add conref code explanation here as text. Video also
-                    includes it.</draft-comment>
+                
             </p>
         <p>Suppose you have the following note in a topic called location.dita:</p>
             <p>
@@ -50,8 +49,8 @@
                
            </pre>
             <p>Most DITA authoring tools streamline the process for inserting conref code, so you
-                probably will not type the file name path, topic ID, and so on, as shown in the
-                preceding sample. </p>
+                probably will not type the file path, topic ID, and so on, as shown in the preceding
+                sample. </p>
        
     <p>Video: <xref href="https://www.youtube.com/watch?v=oHmXBRVk3yo" format="html"
                     scope="external">DITA conref code example</xref></p>
