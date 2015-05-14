@@ -6,7 +6,7 @@
     <learningContentbody>
         <lcInstruction><p>Always wrap content in the table in &lt;p> tags. Forgetting this can
                 result in the content of the table to format in unexpected ways. </p><p>While the
-                DITA specification allows you to nest tables, it's a Bad Idea<sup>TM</sup>.
+                DITA specification allows you to nest tables, it's a Bad Idea™.
                 </p><p>Whenever possible, consider organizing the content in your table to include
                 more rows instead of more columns. When you send the content to an output,
                 pagination issues can make many columns appear in unexpected ways. </p><p>In many
