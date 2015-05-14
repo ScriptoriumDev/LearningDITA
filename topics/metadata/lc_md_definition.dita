@@ -17,8 +17,9 @@
         <lcInstruction>
             <p><i>Metadata</i> provides information about information. For example, word processing
                 applications often have document properties, which tell you who created the file and
-                on what date it was last modified. The author and modification date are not part of
-                the text that is displayed; they are metadata about the document itself. </p>
+                on what date it was last modified. The author and modification date in the document
+                properties are not part of the text that is displayed. Document properties are
+                metadata about the document itself. </p>
             <p>Metadata provides different ways to classify information. For example, you can:<ul
                     id="ul_awn_k1w_wr">
                     <li>Label information with a document type, like “white paper” or
@@ -28,8 +29,8 @@
                     <li>Provide status information for a topic, like “draft,” “review,” or “final” </li>
                     <li>Provide an expiration date when information is no longer valid</li>
                 </ul></p>
-            <p>Once you have metadata assigned to your content, you (or your reader) can use it
-                    to:<ul id="ul_ex4_11w_wr">
+            <p>After you assign metadata to your content, you (or your reader) can use it to:<ul
+                    id="ul_ex4_11w_wr">
                     <li>Find information efficiently </li>
                     <li>Support governance effort (control when information is made public or
                         removed from a web site)</li>

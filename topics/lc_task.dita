@@ -26,7 +26,7 @@
         <lcInstruction>
             <p>A task topic answers the question “How do I?” It includes step-by-step instructions
                 to complete a procedure. DITA also allows step results, graphics, notes, and
-                substeps, but not subsubsteps.</p>
+                substeps. The DITA specification does not allow subsubsteps.</p>
             <p>Technical content is often heavy on tasks.</p>
             <p>DITA 1.2 provides two task types:<ul id="ul_bbx_dn5_vr">
                     <li>Strict task</li>
