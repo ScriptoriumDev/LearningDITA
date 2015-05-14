@@ -25,11 +25,11 @@
                     here:<pre>&lt;xref href="http://www.scriptorium.com" scope="external" format="html"/></pre><note>For
                     links to a PDF file, use @format = "pdf".</note></p>
             <p>Technically, it is possible to use &lt;xref> to link from one topic to another. This
-                inline linking is a Bad Idea™ because you have to create and maintain the link
-                manually. You must specify what you are linking to. When you set up the
-                cross-reference, you have the source and target topics in your map file. But if you
-                reuse the source topic in another map that does not include the target topic, you
-                will get a broken link in the output generated from that map, and you may not be
+                inline linking is a <tm tmtype="tm">Bad Idea</tm> because you have to create and
+                maintain the link manually. You must specify what you are linking to. When you set
+                up the cross-reference, you have the source and target topics in your map file. But
+                if you reuse the source topic in another map that does not include the target topic,
+                you will get a broken link in the output generated from that map, and you may not be
                 notified about the problem.</p>
     </lcInstruction>
     </learningContentbody>
