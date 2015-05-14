@@ -10,6 +10,7 @@
             Scriptorium</author>
         <author href="http://www.scriptorium.com" scope="external" format="html">Bill Swallow,
             Scriptorium</author>
+        <author>Sharon Burton</author>
         <critdates>
             <created date="2015-05-04"/>
         </critdates>
@@ -19,11 +20,11 @@
             <p>Simple tables (&lt;simpletable>) use the following elements to represent and organize
                 tabular data:</p>
             <ul>
-                <li><i>&lt;sthead> (0 or 1)</i><p>A simple table may contain one header
-                    row.</p></li>
-                <li><i>&lt;strow> (1 or more)</i><p>Contains a single row of data within your
-                        table.</p></li>
-                <li><i>&lt;stentry> (1 or more)</i><p>A table cell.</p></li>
+                <li><i>&lt;sthead> (0 or 1)</i><p>Can include only one header row.</p></li>
+                <li><i>&lt;strow> (1 or more)</i><p>Contains a single row of data within your table.
+                        Your simple table can include many rows. </p></li>
+                <li><i>&lt;stentry> (1 or more)</i><p>A table cell. Your simple table can include
+                        many table cells.</p></li>
             </ul>
             <p>Here is an example of a table with one heading row, two body rows, and two
                 columns.</p>
@@ -41,7 +42,7 @@
       &lt;stentry>row 2, column 2&lt;/stentry>
    &lt;/strow>
 &lt;/simpletable></pre>
-            <p>Visually, the table looks something like this:<fig>
+            <p>Visually, the table looks like this:<fig>
                     <image href="../../media/tables/simpletable.png" id="image_xnd_zqt_xr"/>
                 </fig></p>
         </lcInstruction>
