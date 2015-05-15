@@ -40,6 +40,8 @@
             <p>Simple tables are ideal for basic representation of content within columns and rows.
                 You can use heading rows, but you cannot use a table title, merged columns or rows,
                 or define column widths.</p>
+        </lcIntro>
+        <lcIntro>
             <title>Tables</title>
             <p>The &lt;table> element allows for more complex arrangements of tabular content. It
                 allows table titles, merged columns or rows, and define column widths</p>
