@@ -10,6 +10,8 @@
         <author>Sharon Burton</author>
         <author href="http://www.scriptorium.com" scope="external" format="html">Alan Pringle,
             Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O'Keefe,
+            Scriptorium</author>
         <critdates>
             <created date="2015-04-28"/>
         </critdates>
@@ -52,6 +54,20 @@
                             <li>Nests</li>
                         </ul></li>
                 </ul></p>
+            <p>In addition to linking to topics, you can reference map files inside map files. In
+                this approach, the subordinate maps (submaps) are usually a collection of related
+                content. For example, you can create a chapter-level map file for each chapter in a
+                book, and then reference those chapter-level map files inside your main book-level
+                map file.</p>
+            <p>Instead of a topicref, a reference to a map uses a mapref. If you want to use duck
+                map content as a component of another map, you would insert it into the parent map,
+                as shown
+                here:<pre>&lt;topicref href="fish.dita">
+&lt;topicref href="shorebirds.dita">
+<b>&lt;mapref href="ducks.ditamap" format="ditamap"/></b></pre></p>
+            <p>Video: <xref href="https://www.youtube.com/watch?v=5gXZN505XFQ" format="html"
+                scope="external">Reusing a map file in a map file</xref></p>
+            
         </lcInstruction>
     </learningContentbody>
 </learningContent>
