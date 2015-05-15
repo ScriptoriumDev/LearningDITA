@@ -43,9 +43,9 @@
 &lt;/map>
 </pre></p>
             <p>For convenience, the code is indented. But what matters is that the first topicref
-                (ducks) encloses the other three. range.dita, size.dita, and nests.dita are all
-                subtopics of ducks.dita. The result in a table of contents that looks like this:<ul
-                    id="ul_bkw_cjq_wr">
+                (ducks) encloses the other three files. The range.dita, size.dita, and nests.dita
+                topics are all subordinate to the ducks.dita topic. The result is a table of
+                contents that is structured like this:<ul id="ul_bkw_cjq_wr">
                     <li>Ducks<ul id="ul_j2d_djq_wr">
                             <li>Range</li>
                             <li>Size</li>
