@@ -19,8 +19,8 @@
         <lcInstruction>
             <p>Map files are how you organize content for delivery. They are like a table of
                 contents: they create sequence and hierarchy among topics. When you generate a PDF
-                file or a help system from a map file, your reader will see the topics in the order
-                and hierarchy established by the map file. </p>
+                file or a help system from a map file, your reader sees the topics in the order and
+                hierarchy established by the map file. </p>
             <p>You generally do not add all available topics to a map file—just the ones you want
                 included in a deliverable. Also, you can include the same topic in multiple maps
                 files, which is another example of reuse in DITA.</p>
@@ -32,8 +32,8 @@
                     <li>mapref elemetns, which provide a link to another map</li>
                 </ul></p>
             <p>In a map file, you put topicrefs in order from top to bottom to indicate sequence. To
-                indicate hierarchy, you need the topics. Consider the following
-                example:<lines>&lt;map>
+                indicate hierarchy, you nest the topics. Consider the following
+                example:<pre>&lt;map>
  &lt;title>My first map&lt;/title>
  &lt;topicref href="ducks.dita">
    &lt;topicref href="range.dita"/>
@@ -41,11 +41,11 @@
    &lt;topicref href="nests.dita"/>
   &lt;/topicref>
 &lt;/map>
-</lines></p>
+</pre></p>
             <p>For convenience, the code is indented. But what matters is that the first topicref
                 (ducks) encloses the other three. range.dita, size.dita, and nests.dita are all
-                subtopics of ducks.dita. The result in a table of contents would be something like
-                    this:<ul id="ul_bkw_cjq_wr">
+                subtopics of ducks.dita. The result in a table of contents that looks like this:<ul
+                    id="ul_bkw_cjq_wr">
                     <li>Ducks<ul id="ul_j2d_djq_wr">
                             <li>Range</li>
                             <li>Size</li>

@@ -3,7 +3,7 @@
      github.com. See the accompanying LICENSE file for
      applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
-<learningContent id="content_gxd_rry_5r">
+<learningContent id="content_gxd_rry_5r1">
     <title>What is DITA?</title>
     <shortdesc/>
     <learningContentbody>
@@ -48,6 +48,10 @@
             href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/c_Syntax_and_Markup.html"
             format="html" scope="external">
             <linktext>DITA Style Guide, Chapter 3, Syntax and Markup</linktext>
+        </link>
+        <link href="https://github.com/flicstar/DITA-Mini-Manual" format="html" scope="external">
+            <linktext>Sample DITA content: a documentation project based on a 1960s Mini Owner’s
+                Manual, contributed by Felicity Brand</linktext>
         </link>
     </related-links>
 

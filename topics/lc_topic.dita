@@ -11,6 +11,7 @@
         <author href="http://www.scriptorium.com"  scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
         <critdates>
             <created date="2015-04-28"/>
+            <revised modified="2015-05-13"/>
         </critdates>
     </prolog>
     <learningContentbody>
@@ -23,10 +24,10 @@
                 standard.</li>
         </ul></p>
         <p>Content and topics have elements. Elements are the tags for the content. The tags
-            available to a specific author depend on how that author’s environment is set up by
-            the information architect. For example, if you are not writing in a software
-            environment and don’t need code samples, your information architect could constrain
-            your DITA environemnt to eliminate the code-related element.</p>
+                available to a specific author depend on how that author’s environment is set up by
+                the information architect. For example, if you are not writing in a software
+                environment and don’t need code samples, your information architect could constrain
+                your DITA environment to eliminate the code-related element.</p>
         <p>Elements have attributes. An attribute provides additional information about the
             element. For example, a topic might have an attribute called author, in which you
             specify who created a particular topic.</p>

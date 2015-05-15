@@ -3,11 +3,11 @@
      github.com. See the accompanying LICENSE file for
      applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
-<learningContent id="links">
+<learningContent id="links2">
     <title>Relationship tables</title>
     <prolog>
         <author>Sharon Burton</author>
-        <author href="http://www.scriptorium.com">Sarah O’Keefe, Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
         <critdates>
             <created date="2015-04-28"/>
         </critdates>
@@ -22,8 +22,10 @@
                 collection of related topics links. By default, each topic with reltable entries
                 gets a Related Topics section at the end of the topic output.</p>
             <p>The relationships you capture in the reltable are <i>not</i> typically shown when you
-                are authoring topics.<draft-comment author="okeefe">8:43 to
-                10:24</draft-comment></p>
+                are authoring topics.</p>
+            <p>Video: <xref href="https://www.youtube.com/watch?v=vMUxQpQvTZg" format="html"
+                    scope="external">Overview of DITA relationship table (reltable)</xref>
+            </p>
             <p>Start simple with reltables. They can get very complex.</p>
             <p>Reltables are preferred over related links or xrefs because of the following
                     factors:<ul id="ul_twh_tkp_wr">

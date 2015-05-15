@@ -13,7 +13,9 @@
     <learningContentbody>
      <lcInstruction>
          <draft-comment author="okeefe">not sure this is the right place for constraints, but that's where it is in the videos</draft-comment>
-    <p>In DITA, a constraint lets you eliminate elements that you do not need or want to use. For
+   <draft-comment author="asp">If this content stays here, need to emphasize that info. architect
+                handles constraints and specialization (next topic).</draft-comment>
+         <p>In DITA, a constraint lets you eliminate elements that you do not need or want to use. For
                 example, if you are not documenting software code, you could eliminate
                 &lt;codeblock> and &lt;codephrase>. Constraining reduces the number of elements
                 presented to the authors, which makes their lives a little easier.</p>

@@ -14,20 +14,14 @@
 
     <learningContentbody>
         <lcInstruction>
-            <p>In addition to link to topics, you can reference map files inside map files. In this
-                approach, the subordinate maps (submaps) are usually a collection of related
+            <p>In addition to linking to topics, you can reference map files inside map files. In
+                this approach, the subordinate maps (submaps) are usually a collection of related
                 content. For example, you can create a chapter-level map file for each chapter in a
                 book, and then reference those chapter-level map files inside your main book-level
                 map file.</p>
-            <p>
-                <object id="video1" data="assets/htmlversusxml.swf"
-                    type="application/x-shockwave-flash" width="350" height="100">
-                    <desc>Insert lesson 6 video from 5:18 to 6:06 here. Overview of map file in map file.</desc>
-                    <param name="movie" value="assets/examplemap.swf"/>
-                    <param name="quality" value="high"/>
-                    
-                </object>
-            </p>
+            <p>Video: <xref href="https://www.youtube.com/watch?v=5gXZN505XFQ" format="html"
+                    scope="external">Reusing a map file in a map file</xref></p>
+           
         </lcInstruction>
     </learningContentbody>
 </learningContent>

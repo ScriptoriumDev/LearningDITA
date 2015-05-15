@@ -3,20 +3,23 @@
      github.com. See the accompanying LICENSE file for
      applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
-<learningContent id="links">
+<learningContent id="links1">
     <title>conrefs</title>
     <prolog>
         <author>Sharon Burton</author>
-        <author href="http://www.scriptorium.com">Sarah O’Keefe, Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Alan Pringle, Scriptorium</author>
         <critdates>
             <created date="2015-04-28"/>
+            <revised modified="2015-05-07"/>
         </critdates>
     </prolog>
     <learningContentbody>
     <lcInstruction>
-      <p>In DITA, you use a conref to reuse pieces of content. Frequently, this could be notes,
-                cautions, and warnings, boilerplate text, such as your company address, and more. A
-                product’s description should probably be the same across all your documents.</p>
+      <p>In DITA, you use a conref to reuse pieces of content. These content pieces could be
+                admonishments (notes, cautions, and warnings), boilerplate text (such as your
+                company address), and more. For example, a product’s description could be set up as
+                a conref so it is the same across all your documents.</p>
             <p>If you are familiar with other authoring tools, conrefs are roughly equivalent
                 to:</p>
             <p>
@@ -26,11 +29,30 @@
                     <li>FrameMaker import text by reference</li>
                     <li>HTML server-side includes</li>
                 </ul>
-                <draft-comment author="okeefe">add conref code explanation here as text. Video also
-                    includes it.</draft-comment>
+                
             </p>
-    
-            <draft-comment author="okeefe">video 2:58 to 4:32</draft-comment>
+        <p>Suppose you have the following note in a topic called location.dita:</p>
+            <p>
+                <pre>
+               &lt;topic id="topic_ef2_gfn_yr">
+                …
+                &lt;note id="preferred">
+                Ducks prefer lakes over deserts.
+                &lt;/note>
+                …
+               &lt;/topic>
+                    </pre>
+            </p>
+            <p>To reuse that note in another topic, the conref code is as follows:</p>
+           <pre>
+           &lt;note conref="location.dita#topic_ef2_gfn_yr/preferred"/>    
+               
+           </pre>
+            <p>Most DITA authoring tools streamline the process for inserting conref code, so you
+                probably will not type the file path, topic ID, and so on, as shown in the example. </p>
+    <p>Video: <xref href="https://www.youtube.com/watch?v=oHmXBRVk3yo" format="html"
+                    scope="external">DITA conref code example</xref></p>
+          
     </lcInstruction>
     </learningContentbody>
   

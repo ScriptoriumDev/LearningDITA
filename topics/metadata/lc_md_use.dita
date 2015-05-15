@@ -3,7 +3,7 @@
      github.com. See the accompanying LICENSE file for
      applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
-<learningContent id="content_rxt_zl5_vr">
+<learningContent id="content_rxt_zl5_vr3">
     <title>How do you use metadata?</title>
     <prolog>
         <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe,
@@ -23,7 +23,7 @@
                 </ul></p>
            <p>At the topic level, DITA provides a &lt;prolog> element in which you can store
                 metadata for the entire topic. Here is an example of basic topic
-                metadata:<lines>
+                metadata:<pre>
 &lt;topic id="xyz">
   &lt;title>Metadata example&lt;/title>
   &lt;prolog>
@@ -35,7 +35,7 @@
   &lt;body>
     &lt;p>Body content goes here&lt;/p>
   &lt;/body>
-&lt;/topic></lines></p>
+&lt;/topic></pre></p>
             <p>The author is specified in the &lt;author> element, and &lt;critdates> provides a
                 spot for &lt;created> and &lt;revised> date elements.</p>
             <p>Some useful prolog elements are:<ul id="ul_mjh_2lw_wr">
@@ -50,8 +50,8 @@
                 support using &lt;prolog> metadata to filter topics. For that, you need to provide
                 metadata in the map file.</note>
             <p>At the element level, you use attributes in elements to specify metadata. Here is an
-                example:<lines>&lt;step>
-    &lt;cmd  <b>audience= "novice"</b> >Consult the side of the duckling mash box to determine how much mash your ducklings need.&lt;/cmd>
+                example:<pre>&lt;step>
+    &lt;cmd  <b>audience="novice"</b> >Consult the side of the duckling mash box to determine how much mash your ducklings need.&lt;/cmd>
 &lt;/step>
 &lt;step>
     &lt;cmd>Measure out the mash for your ducks. &lt;/cmd>
@@ -61,17 +61,17 @@
 &lt;/step>
 &lt;step>
     &lt;cmd>Put in feeding pan. &lt;/cmd>
-&lt;/step> </lines></p>
+&lt;/step> </pre></p>
             <p>
                 <draft-comment author="okeefe">need a video here</draft-comment>
             </p>
             <p>Only novices need to be reminded that the box provides measurements. When you
-                generate your output, you could suppress the step with the audience = "novice"
+                generate your output, you can suppress the step with the audience = "novice"
                 metadata for an expert-level audience. </p>
             <p>At the map level, you can specify metadata in your topic references. This allows you
                 to suppress entire topics when you generate output. Here is an
-                example:<lines>&lt;topicref href="abc.dita>
-&lt;topicref href="def.dita <b>audience="novice"</b>></lines></p>
+                example:<pre>&lt;topicref href="abc.dita">
+&lt;topicref href="def.dita" <b>audience="novice"</b>></pre></p>
             <p>Keep in mind that you must use the map file for topic-level filtering.</p>
             <p>By default, DITA provides you with three attributes that support filtering or
                 conditional processing. They are:<ul id="ul_qnb_2kw_wr">

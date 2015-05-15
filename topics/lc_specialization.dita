@@ -22,18 +22,18 @@
                     <li>Creating codeblock elements that identify the language used in each
                         codeblock. For example, to distinguish between Java code examples and PHP
                         code examples, you might create:<ul id="ul_tm1_lq5_vr">
-                            <li>codeblock-java</li>
-                            <li>codeblock-php</li>
+                            <li><pre>codeblock-java</pre></li>
+                            <li><pre>codeblock-php</pre></li>
                         </ul>You could also use attributes in this example; something like:<ul
                             id="ul_vvs_mq5_vr">
-                            <li>&lt;codeblock type="java"></li>
-                            <li>&lt;codeblock type="php"></li>
+                            <li><pre>&lt;codeblock type="java"></pre></li>
+                            <li><pre>&lt;codeblock type="php"></pre></li>
                         </ul></li>
                 </ul></p>
-        <note type="caution">    <p>Be careful with specialization. When you specialize, you make tags more specific, but
-                specialization adds to the cost of implementation. You must balance the value gained
-                from specialization against the cost of implementing and maintaining
-                specializations.</p></note>
+        <note type="caution">Be careful with specialization. When you specialize, you make tags more
+                specific, but specialization adds to the cost of implementation. You must balance
+                the value gained from specialization against the cost of implementing and
+                maintaining specializations.</note>
        </lcInstruction>
     </learningContentbody>
 </learningContent>
