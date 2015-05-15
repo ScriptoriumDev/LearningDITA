@@ -30,10 +30,10 @@
                             <li><pre>&lt;codeblock type="php"></pre></li>
                         </ul></li>
                 </ul></p>
-        <note type="caution">    <p>Be careful with specialization. When you specialize, you make tags more specific, but
-                specialization adds to the cost of implementation. You must balance the value gained
-                from specialization against the cost of implementing and maintaining
-                specializations.</p></note>
+        <note type="caution">Be careful with specialization. When you specialize, you make tags more
+                specific, but specialization adds to the cost of implementation. You must balance
+                the value gained from specialization against the cost of implementing and
+                maintaining specializations.</note>
        </lcInstruction>
     </learningContentbody>
 </learningContent>
