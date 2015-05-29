@@ -11,13 +11,6 @@
             <created date="2015-05-18"/>
         </critdates>
     </prolog>
-    <prolog>
-        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O'Keefe, Scriptorium</author>
-    <critdates>
-        <created date="2015-05-18"/>
-    </critdates>
-    </prolog>
-   
     <learningContentbody>
         <lcDuration>
             <lcTime value="45"/>
@@ -32,4 +25,7 @@
             <p>overview of authoring topic</p>
         </lcIntro>
     </learningContentbody>
+    <related-links>
+        <link href="http://webdesignfromscratch.com/html-css/css-block-and-inline/" scope="external" format="html"><linktext>Block versus inline elements, webdesignfromscratch.com</linktext></link>
+    </related-links>
 </learningContent>
