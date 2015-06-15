@@ -8,7 +8,11 @@
  <topicref href="../topics/metadata/lc_metadata.dita">
   <topicref href="../topics/metadata/lc_md_definition.dita"/>
   <topicref href="../topics/metadata/lc_md_use.dita"/>
-  <topichead navtitle="Assessments">
+  <!-- The type="assessments" is necessary for the transform that loads assessments into LearnDashLMS. -->
+  <topichead type="assessments">
+   <topicmeta>
+    <navtitle>Assessments</navtitle>
+   </topicmeta>
    <topicref href="../assessments/metadata/lca_author.dita"/>
    <topicref href="../assessments/metadata/lca_definition.dita"/>
    <topicref href="../assessments/metadata/lca_filters.dita"/>
