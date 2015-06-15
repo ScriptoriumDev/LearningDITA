@@ -13,8 +13,7 @@
   <topicref href="../topics/links/lc_xrefs.dita"/>
   <topicref href="../topics/links/lc_links.dita"/>
   <topicref href="../topics/links/lc_relationships.dita"/>
-  <!-- The type="assessments" is necessary for the transform that loads assessments into LearnDashLMS. -->
-  <topichead type="assessments">
+  <topichead>
    <topicmeta>
     <navtitle>Assessments</navtitle>
    </topicmeta>
