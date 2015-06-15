@@ -8,8 +8,7 @@
   <topicref href="../topics/lc_markup.dita"/>
   <topicref href="../topics/lc_structure.dita"/>
   <topicref href="../topics/lc_topic.dita"/>
-  <!-- The type="assessments" is necessary for the transform that loads assessments into LearnDashLMS. -->
-  <topichead type="assessments">
+  <topichead>
    <topicmeta>
     <navtitle>Assessments</navtitle>
    </topicmeta>

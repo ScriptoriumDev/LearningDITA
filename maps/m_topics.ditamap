@@ -11,8 +11,7 @@
   <topicref href="../topics/lc_gloss.dita"/>
   <topicref href="../topics/lc_constraints.dita"/>
   <topicref href="../topics/lc_specialization.dita"/>
-  <!-- The type="assessments" is necessary for the transform that loads assessments into LearnDashLMS. -->
-  <topichead type="assessments">
+  <topichead>
    <topicmeta>
     <navtitle>Assessments</navtitle>
    </topicmeta>
