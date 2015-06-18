@@ -13,6 +13,7 @@
  <learningContentbody>
   <lcObjectives>
    <lcObjectivesGroup>
+    <lcObjective>What is a topic?</lcObjective>
     <lcObjective>What kind of topics exist in DITA</lcObjective>
     <lcObjective>What information goes in different types of topics</lcObjective>
     <lcObjective>What are constraints and specialization?</lcObjective>
@@ -22,24 +23,10 @@
    <lcTime value="45"/>
   </lcDuration>
   <lcInstruction>
-   <p>The DITA standards includes a basic topic type (&lt;topic>), along with the following: <ul
-     id="ul_kvr_hl5_vr">
-     <li>Concept</li>
-     <li>Task</li>
-     <li>Reference</li>
-     <li>Glossary entry</li>
-    </ul></p>
-   <p>All topics must have at least a title element and an id attribute for the root topic. That is,
-    the following is a valid topic:
-    <pre>     &lt;topic id="sample">
-      &lt;title>Topic title goes here&lt;/title>
-     &lt;/topic>
-   </pre>However,
-    a <i>useful</i> topic will have additional content. </p>
- 
-   
-   
-   </lcInstruction>
+   <p>A DITA topic is a building block of content. You create different types of topics depending of
+    the kind of content you are developing. For example, a concept topic explains an idea, and a
+    task topic shows the steps in a procedure.</p>
+  </lcInstruction>
   
  </learningContentbody>
  <related-links>
