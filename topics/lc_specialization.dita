@@ -15,7 +15,10 @@
             
    <draft-comment>         not sure this is the right place for constraints, but that's where it is in the videos
    </draft-comment>     </p>
-       <p>Specialization lets you create elements and attributes that fit your organization better than what is provided in default DITA.</p>
+       <p>Specialization lets you create elements and attributes that fit your organization better
+                than what is provided in default DITA. An information architect generally handles
+                the creation of the new elements and attributes; authors do not make changes to the
+                structure. </p>
             <p>Organization often specialize to support their unique requirements, such as:<ul
                     id="ul_m12_fq5_vr">
                     <li>Creating a customer attribute to identify customer-specific information</li>

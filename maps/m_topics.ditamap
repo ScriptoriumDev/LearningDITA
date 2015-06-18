@@ -5,6 +5,7 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
  <topicref href="../topics/lc_infotypes.dita">
+  <topicref href="../topics/lc_topic.dita"/>
   <topicref href="../topics/lc_concept.dita"/>
   <topicref href="../topics/lc_task.dita"/>
   <topicref href="../topics/lc_reference.dita"/>
@@ -16,6 +17,10 @@
     <navtitle>Assessments</navtitle>
    </topicmeta>
    <topicref href="../assessments/lca_elementtopic.dita"/>
+   <topicref href="../assessments/lca_specialization.dita"/>
+   <topicref href="../assessments/lca_constraint.dita"/>
+   <topicref href="../assessments/lca_topicscope.dita"/>
+   <topicref href="../assessments/lca_validtopic.dita"/>
    <topicref href="../assessments/lca_questions.dita"/>
    <topicref href="../assessments/lca_concept.dita"/>
    <topicref href="../assessments/lca_topictypes.dita"/>

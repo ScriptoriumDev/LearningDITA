@@ -19,7 +19,9 @@
                     id="ul_tnc_cgw_wr">
                     <li>At the topic level</li>
                     <li>At the element level</li>
-                    <li>At the map file level</li>
+                    <li>At the map file level (a map file lets you collect multiple topics to create
+                        a document, help system, and so on; a later module explains map files in
+                        more detail)</li>
                 </ul></p>
            <p>At the topic level, DITA provides a &lt;prolog> element in which you can store
                 metadata for the entire topic. Here is an example of basic topic
@@ -57,10 +59,10 @@
     &lt;cmd>Measure out the mash for your ducks. &lt;/cmd>
 &lt;/step>
 &lt;step>
-    &lt;cmd> Pour in the blender .&lt;/cmd>
+    &lt;cmd> Pour in the blender.&lt;/cmd>
 &lt;/step>
 &lt;step>
-    &lt;cmd>Put in feeding pan. &lt;/cmd>
+    &lt;cmd>Put in feeding pan.&lt;/cmd>
 &lt;/step> </pre></p>
             <p>
                 <draft-comment author="okeefe">need a video here</draft-comment>
