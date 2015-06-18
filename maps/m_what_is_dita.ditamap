@@ -8,7 +8,10 @@
   <topicref href="../topics/lc_markup.dita"/>
   <topicref href="../topics/lc_structure.dita"/>
   <topicref href="../topics/lc_topic.dita"/>
-  <topichead navtitle="Assessments">
+  <topichead>
+   <topicmeta>
+    <navtitle>Assessments</navtitle>
+   </topicmeta>
    <topicref href="../assessments/lca_validtopic.dita"/>
    <topicref href="../assessments/lca_topicscope.dita"/>
    <topicref href="../assessments/lca_htmldita.dita"/>

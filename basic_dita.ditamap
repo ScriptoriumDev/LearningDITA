@@ -4,15 +4,17 @@
      applicable licenses.-->
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
- <title>Basic DITA</title>
+ <title>Introduction to DITA</title>
  <topicmeta>
   <critdates>
    <created date="2015-04-23"/>
+   <revised modified="2015-05-15"/>
   </critdates>
  </topicmeta>
  <mapref href="maps/m_what_is_dita.ditamap" format="ditamap"/>
  <mapref href="maps/m_topics.ditamap" format="ditamap"/>
  <mapref href="maps/m_metadata.ditamap" format="ditamap"/>
+ <mapref href="maps/m_authoring.ditamap" format="ditamap"/>
  <mapref href="maps/m_links.ditamap" format="ditamap"/>
  <mapref href="maps/m_tables.ditamap" format="ditamap"/> 
  
