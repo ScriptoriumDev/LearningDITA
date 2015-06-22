@@ -13,9 +13,9 @@
   <topicref href="../topics/links/lc_xrefs.dita"/>
   <topicref href="../topics/links/lc_links.dita"/>
   <topicref href="../topics/links/lc_relationships.dita"/>
-  <topichead>
+  <topicref href="../topics/lcc_assessment.dita" copy-to="lcc_assess_links.dita"  locktitle="yes">
    <topicmeta>
-    <navtitle>Assessments</navtitle>
+    <navtitle>Assessment for Links</navtitle>
    </topicmeta>
    <topicref href="../assessments/links/lca_xref.dita"/>
    <topicref href="../assessments/links/lca_relationships.dita"/>
@@ -28,6 +28,6 @@
    <topicref href="../assessments/links/lca_reltablemap.dita"/>
    <topicref href="../assessments/links/lca_reltable.dita"/>
    <topicref href="../assessments/links/lca_maps.dita"/>
-  </topichead>
+  </topicref>
  </topicref>
 </map>

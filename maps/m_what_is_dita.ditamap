@@ -8,9 +8,9 @@
   <topicref href="../topics/lc_markup.dita"/>
   <topicref href="../topics/lc_structure.dita"/>
   <topicref href="../topics/lc_topic.dita"/>
-  <topichead>
+  <topicref href="../topics/lcc_assessment.dita" locktitle="yes">
    <topicmeta>
-    <navtitle>Assessments</navtitle>
+    <navtitle>Assessment for What is DITA?</navtitle>
    </topicmeta>
    <topicref href="../assessments/lca_validtopic.dita"/>
    <topicref href="../assessments/lca_topicscope.dita"/>
@@ -22,7 +22,7 @@
    <topicref href="../assessments/lca_constraint.dita"/>
    <topicref href="../assessments/lca_content.dita"/>
    <topicref href="../assessments/lca_open.dita"/>
-  </topichead>
+  </topicref>
  </topicref>
  
 </map>
