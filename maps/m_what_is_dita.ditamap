@@ -7,9 +7,10 @@
  <topicref href="../topics/lc_dita_intro.dita">
   <topicref href="../topics/lc_markup.dita"/>
   <topicref href="../topics/lc_structure.dita"/>
-  <topichead>
+  <topicref href="../topics/lc_topic.dita"/>
+  <topicref href="../topics/lcc_assessment.dita" locktitle="yes">
    <topicmeta>
-    <navtitle>Assessments</navtitle>
+    <navtitle>Assessment for What is DITA?</navtitle>
    </topicmeta>
    <topicref href="../assessments/lca_htmldita.dita"/>
    <topicref href="../assessments/lca_structuredauthoring.dita"/>
@@ -17,7 +18,7 @@
    <topicref href="../assessments/lca_element.dita"/>
    <topicref href="../assessments/lca_content.dita"/>
    <topicref href="../assessments/lca_open.dita"/>
-  </topichead>
+  </topicref>
  </topicref>
  
 </map>
