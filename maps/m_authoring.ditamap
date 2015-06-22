@@ -10,10 +10,13 @@
   <topicref href="../topics/authoring/lc_notes.dita"/>
   <topicref href="../topics/authoring/lc_inline.dita"/>
  
-  <topichead navtitle="Assessments">
+  <topicref href="../topics/lcc_assessment.dita" copy-to="lcc_assess_author.dita" locktitle="yes">
+   <topicmeta>
+    <navtitle>Assessment for Authoring</navtitle>
+   </topicmeta>
    <topicref href="../assessments/lca_validtopic.dita"/>
   
-  </topichead>
+  </topicref>
  </topicref>
  
  
