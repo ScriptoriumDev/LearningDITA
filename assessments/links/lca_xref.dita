@@ -23,9 +23,12 @@
      </lcAnswerOption>
      <lcAnswerOption>
       <lcAnswerContent>False</lcAnswerContent>
-      <lcFeedback>&lt;xref> elements are dangerous for linking across topics because of the possibility of broken links. Inside a topic, however, you can safely use them.</lcFeedback>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>&lt;xref> elements are dangerous for linking across topics because of the
+     possibility of broken links. Inside a topic, however, you can safely use
+     them.</lcFeedbackIncorrect>
+    <lcFeedbackCorrect/>
    </lcTrueFalse>
   </lcInteraction>
  </learningAssessmentbody>
