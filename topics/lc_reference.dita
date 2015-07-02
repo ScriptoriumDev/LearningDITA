@@ -12,16 +12,20 @@
         </critdates></prolog>
     <learningContentbody>
         <lcInstruction>
-        <p>A reference topic answers the question “What is it?” Reference topics typically contain descriptive facts, such as a table identifying items on a software screen or an alphabetical list of commands available in a programming language.
-            </p>
-            <p>Reference topics do not include steps or concepts. Reference topics are similar to
+        <p>A reference topic answers the question “What is it?” Reference topics typically contain
+                descriptive facts, such as a table identifying items on a software screen or an
+                alphabetical list of commands available in a programming language. </p>
+            <p>Reference topics do not include tasks or concepts. Reference topics are similar to
                 dictionary entries and provide facts only.</p>
 <p>The reference topic has a required title. Other common elements used in a reference topic
                 include: <ul id="ul_nj3_h45_vr">
                     <li>shortdesc (short description)</li>
                     <li>refbody (the body of the reference topic)</li>
+                    <li>table</li>
+                    <li>figure</li>
                     <li>properties</li>
                     <li>refsyn</li>
+                    <li>section</li>
                 </ul></p>
     <p>Video: <xref href="https://www.youtube.com/watch?v=l2y-MbYf2a4" format="html"
                     scope="external">Code overview of the DITA reference topic</xref></p>

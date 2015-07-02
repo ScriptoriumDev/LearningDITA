@@ -19,13 +19,32 @@
         <lcInstruction>
             <p>Simple tables (&lt;simpletable>) use the following elements to represent and organize
                 tabular data:</p>
-            <ul>
-                <li><i>&lt;sthead> (0 or 1)</i><p>Can include only one header row.</p></li>
-                <li><i>&lt;strow> (1 or more)</i><p>Contains a single row of data within your table.
-                        Your simple table can include many rows. </p></li>
-                <li><i>&lt;stentry> (1 or more)</i><p>A table cell. Your simple table can include
-                        many table cells.</p></li>
-            </ul>
+            <simpletable frame="all" relcolwidth="1.0* 1.0* 1.0*" id="simpletable_gsw_jzk_ns">
+                <sthead>
+                    <stentry>Element</stentry>
+                    <stentry>Description</stentry>
+                    <stentry>Number</stentry>
+                </sthead>
+                <strow>
+                    <stentry>&lt;sthead></stentry>
+                    <stentry>A header row</stentry>
+                    <stentry>There can be at most one header row.</stentry>
+                </strow>
+                <strow>
+                    <stentry>&lt;strow></stentry>
+                    <stentry>A body row</stentry>
+                    <stentry>There must be at least one body row, but the table can contain many
+                        rows.</stentry>
+                </strow>
+                <strow>
+                    <stentry>&lt;stentry></stentry>
+                    <stentry>A simple table entry </stentry>
+                    <stentry>Each row can contain one or more &lt;stentry> elements, but each row
+                        (including the header row) should include the same number of &lt;stentry>
+                        elements.</stentry>
+                </strow>
+            </simpletable>
+            <note>This table is built using a &lt;simpletable> element.</note>
             <p>Here is an example of a table with one heading row, two body rows, and two
                 columns.</p>
             <pre>&lt;simpletable>

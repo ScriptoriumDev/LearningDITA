@@ -14,8 +14,9 @@
     <learningContentbody>
         <lcInstruction>
             <p>The &lt;note> element lets you create notes, cautions, warnings, and other
-                admonishments. Note has a type attribute; you set the type attribute to get
-                different kinds of notes. DITA provides the following values:<ul id="ul_irt_jdr_bs">
+                admonishments. The type attribute for the &lt;note> element allows you to indicate
+                different kinds of notes. DITA defines a number of values for the type attribute:<ul
+                    id="ul_irt_jdr_bs">
                     <li>note (the default)</li>
                     <li>attention</li>
                     <li>danger</li>
