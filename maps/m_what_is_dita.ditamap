@@ -8,7 +8,7 @@
   <topicref href="../topics/lc_markup.dita"/>
   <topicref href="../topics/lc_structure.dita"/>
   <topicref href="../topics/lc_topic.dita"/>
-  <topicref href="../topics/lcc_assessment.dita" locktitle="yes">
+  <topicref href="../topics/lcc_assessment.dita" copy-to="lcc_assess_basic.dita" locktitle="yes">
    <topicmeta>
     <navtitle>Assessment for What is DITA?</navtitle>
    </topicmeta>

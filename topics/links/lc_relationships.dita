@@ -8,6 +8,7 @@
     <prolog>
         <author>Sharon Burton</author>
         <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
         <critdates>
             <created date="2015-04-28"/>
         </critdates>
@@ -15,13 +16,13 @@
     <learningContentbody>
     <lcInstruction>
             <p>Relationship tables, or reltables, allow you to describe topic relationships that are
-                not sequential or hierarchical. To do so, you create a table. Each row of the table
-                describes a collection of related topics. The reltable is created in its own topic.
-                You must then include that topic in the map file.</p>
-            <p>The relationships described in the reltable are used when you generate output to
-                create a collection of related topics links. If you generate HTML output through the
-                DITA Open Toolkit, the default is to display the reltable entries in a Related
-                Topics section at the end of the topic output.</p>
+                not sequential or hierarchical. A reltable is a part of a map file; it can appear at
+                any location in the map, but the convention is to add the reltable at the end of the
+                main map. Each row of the table describes a collection of related topics. </p>
+            <p>When you generate output through the DITA Open Toolkit, the relationships described
+                in the reltable are used to create a list of links to the related topics. In the
+                default HTML output, the reltable entries are used to create a Related Topics
+                section at the end of each topic.</p>
             <p>The relationships you capture in the reltable are <i>not</i> typically shown when you
                 are authoring topics.</p>
             <p>Video: <xref href="https://www.youtube.com/watch?v=vMUxQpQvTZg" format="html"
@@ -34,13 +35,14 @@
                         your reltable contains a link to a file that is not included in the map
                         file, that link is not generated in the output. This prevents the broken
                         link problem that can occur with related links and xrefs. </li>
-                    <li>reltables are easier to maintain then embedded related links. Each row in a
-                        reltable can contain multiple topics and captures their interrelationships.
-                        So, if you have eight related topics, you can create a single row in a
-                        reltable that lists those eight topics, or you can create eight slightly
-                        different related-links lists in your eight topics. If you need to remove
-                        one topic from the list, the reltable change is done once rather than eight
-                        times in the files.</li>
+                    <li>The reltables are easier to maintain then embedded related links. Each row
+                        in a reltable can contain multiple topics and captures their
+                        interrelationships. So, if you have eight related topics, it is much easier
+                        to create a single row in a reltable that lists those eight topics than it
+                        is to create eight slightly different related-links lists (consisting of 8×7
+                        or 56 links) in your eight topics. If you need to remove one topic from the
+                        list, the reltable change is done once rather than seven times in the
+                        files.</li>
                 </ul></p>
         </lcInstruction>
     </learningContentbody>

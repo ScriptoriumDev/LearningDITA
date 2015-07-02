@@ -27,10 +27,10 @@
     <lcFeedback>You need the scope and format attributes.</lcFeedback>
     </lcAnswerOption>
     <lcAnswerOption>
-     <lcAnswerContent>&lt;xref link="http://www.scriptorium.com scope="external"
+      <lcAnswerContent>&lt;xref link="http://www.scriptorium.com" scope="external"
        format="html"/></lcAnswerContent>
-     <lcFeedback>That link attribute should be an href attribute.</lcFeedback>
-    </lcAnswerOption>
+      <lcFeedback>That link attribute should be an href attribute.</lcFeedback>
+     </lcAnswerOption>
    </lcAnswerOptionGroup>
   </lcSingleSelect>
   </lcInteraction>

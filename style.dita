@@ -5,7 +5,8 @@
  <prolog>
   <author href="http://www.scriptorium.com">Sarah O'Keefe, Scriptorium</author>
   <author href="http://www.scriptorium.com">Alan Pringle, Scriptorium</author>
-<critdates>
+   <author href="http://www.scriptorium.com">Simon Bate, Scriptorium</author>
+   <critdates>
  <created date="2015-04-28"/>
 </critdates>
  </prolog>
@@ -52,8 +53,14 @@
     (lessons).</p>
   </section>
   <section><title>Assessment structure</title><p>Assessments (test questions) come after the
-    learning content in each module and use a &lt;topichead> for the assessment title, as shown in
-    bold:</p><codeblock>&lt;map>
+    learning content in each module. In most cases you can use the shared file lcc_assessment.dita
+    that introduces the questions in the LMS. If necessary (for example, if there are special
+    instructions about the lesson's assessment), you can create an introduction topic of your
+    own.</p><p>If you're using the shared introduction, create a &lt;topicref> pointing to the file
+     <filepath>lcc_assessment.dita</filepath>, then use the copy-to attribute to specify a filename
+    (starting with <filepath>lcc_assess_</filepath>), that uniquely identifies the copy. Add a
+    &lt;navtitle> element that provides a lesson-specific title for the assessments introduction.
+    </p><codeblock>&lt;map>
  &lt;title>Basic DITA&lt;/title>
  &lt;topicmeta>
   &lt;critdates>
@@ -65,12 +72,15 @@
   &lt;topicref href="topics/lc_structure.dita"/>
   &lt;topicref href="topics/lc_topic.dita"/>
   
-  <b>&lt;topichead navtitle="Assessments">
-   &lt;topicref href="assessments/lca_validtopic.dita"/>
-   &lt;topicref href="assessments/lca_topicscope.dita"/>
-   ...
-  &lt;/topichead></b>
-  &lt;/topicref>
+  <b>&lt;topicref href="../topics/lcc_assessment.dita" copy-to="lcc_assess_basic.dita" locktitle="yes">
+    &lt;topicmeta>
+      &lt;navtitle>Assessment for What is DITA?&lt;/navtitle>
+    &lt;/topicmeta>
+    &lt;topicref href="assessments/lca_validtopic.dita"/>
+    &lt;topicref href="assessments/lca_topicscope.dita"/>
+    ...
+  &lt;/topicref></b>
+ &lt;/topicref>
  
 ...
   
@@ -115,6 +125,15 @@
      <li>lc_ for learning content</li>
      <li>lca_ for learning assessments</li>
     </ul></p>
+  </section>
+  <section>
+   <title>Standards for terms and other inline styling</title>
+   <p>When referring to elements use angle brackets around the element and add the word “element”.
+        For example: “This table is built using a &lt;simpletable> element.” When refering to
+        elements in plural, always use the singular element in angle brackets, followed by the
+        plural “elements”. For example, “Each row can contain one or more &lt;stentry> elements”</p>
+   <p>When referring to attributes, use the word “attribute”. Do not use an at-sign (@) before an
+    attribute name; this is an XPath convention and means nothing to those learning DITA. </p>
   </section>
   <section>
    <title>Standards for images and video</title>
