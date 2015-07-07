@@ -52,8 +52,8 @@
 ....
 &lt;/body>
 &lt;/topic></pre></p>
-            <p>Your organization or your DITA setup may require additional metadata. For example,
-                it’s common to include the language of the topic with the xml:lang attribute.</p>
+            <p>Your organization or your DITA setup may require additional metadata. It’s common to
+                include the language of the topic with the xml:lang attribute.</p>
             <p>
                 <pre>&lt;topic id="xyz" xml:lang="en-us"></pre>
             </p>
@@ -61,7 +61,7 @@
                 <pre>&lt;topic id="abc" xml:lang="de-de"></pre>
             </p>
             <p>As a general rule, your readers do not see the metadata; they see the results of
-                filtering or use the metadata in their content search.</p>
+                filtering or use the metadata when they search the content.</p>
         </lcInstruction>
     </learningContentbody>
 </learningContent>

@@ -8,11 +8,14 @@
         <topicref href="../topics/tables/lc_table_simple.dita"/>
         <topicref href="../topics/tables/lc_table_cals.dita"/>
         <topicref href="../topics/tables/lc_best_practices.dita"/>
-        <topichead navtitle="Assessments">
+        <topicref href="../topics/lcc_assessment.dita" copy-to="lcc_assess_tables.dita" locktitle="yes">
+            <topicmeta>
+                <navtitle>Assessment for Tables</navtitle>
+            </topicmeta>
             <topicref href="../assessments/tables/lca_calselements.dita"/>
             <topicref href="../assessments/tables/lca_stelements.dita"/>
             <topicref href="../assessments/tables/lca_tableelements.dita"/>
             <topicref href="../assessments/tables/lca_tablehead.dita"/>
-        </topichead>
+        </topicref>
     </topicref>
 </map>

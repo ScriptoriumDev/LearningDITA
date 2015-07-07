@@ -10,8 +10,11 @@
         <author>Sharon Burton</author>
         <author href="http://www.scriptorium.com" scope="external" format="html">Alan Pringle,
             Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O'Keefe,
+            Scriptorium</author>
         <critdates>
             <created date="2015-04-28"/>
+            <revised modified="2015-05-15"/>
         </critdates>
     </prolog>
 
@@ -43,15 +46,29 @@
 &lt;/map>
 </pre></p>
             <p>For convenience, the code is indented. But what matters is that the first topicref
-                (ducks) encloses the other three. range.dita, size.dita, and nests.dita are all
-                subtopics of ducks.dita. The result in a table of contents that looks like this:<ul
-                    id="ul_bkw_cjq_wr">
+                (ducks) encloses the other three files. The range.dita, size.dita, and nests.dita
+                topics are all subordinate to the ducks.dita topic. The result is a table of
+                contents that is structured like this:<ul id="ul_bkw_cjq_wr">
                     <li>Ducks<ul id="ul_j2d_djq_wr">
                             <li>Range</li>
                             <li>Size</li>
                             <li>Nests</li>
                         </ul></li>
                 </ul></p>
+            <p>In addition to linking to topics, you can reference map files inside map files. In
+                this approach, the subordinate maps (submaps) are usually a collection of related
+                content. For example, you can create a chapter-level map file for each chapter in a
+                book, and then reference those chapter-level map files inside your main book-level
+                map file.</p>
+            <p>Instead of a topicref, a reference to a map uses a mapref. If you want to use duck
+                map content as a component of another map, you would insert it into the parent map,
+                as shown
+                here:<pre>&lt;topicref href="fish.dita">
+&lt;topicref href="shorebirds.dita">
+<b>&lt;mapref href="ducks.ditamap" format="ditamap"/></b></pre></p>
+            <p>Video: <xref href="https://www.youtube.com/watch?v=5gXZN505XFQ" format="html"
+                scope="external">Reusing a map file in a map file</xref></p>
+            
         </lcInstruction>
     </learningContentbody>
 </learningContent>

@@ -13,23 +13,25 @@
     <learningContentbody>
        <lcInstruction> <p>
             
-   <draft-comment>         not sure this is the right place for constraints, but that's where it is in the videos
-   </draft-comment>     </p>
-       <p>Specialization lets you create elements and attributes that fit your organization better than what is provided in default DITA.</p>
-            <p>Organization often specialize to support their unique requirements, such as:<ul
+   <draft-comment> not sure this is the right place for specialization, but that's where it is in
+                    the videos </draft-comment>     </p>
+       <p>Specialization lets you create elements and attributes that fit your organization better
+                than what is provided in default DITA. The elements you create through
+                specialization are based on existing elements in DITA. An information architect
+                generally handles the creation of the new elements and attributes; authors do not
+                make changes to the structure. </p>
+            <p>Organizations often specialize to support their unique requirements, such as:<ul
                     id="ul_m12_fq5_vr">
-                    <li>Creating a customer attribute to identify customer-specific information</li>
-                    <li>Creating codeblock elements that identify the language used in each
-                        codeblock. For example, to distinguish between Java code examples and PHP
-                        code examples, you might create:<ul id="ul_tm1_lq5_vr">
-                            <li><pre>codeblock-java</pre></li>
-                            <li><pre>codeblock-php</pre></li>
-                        </ul>You could also use attributes in this example; something like:<ul
-                            id="ul_vvs_mq5_vr">
-                            <li><pre>&lt;codeblock type="java"></pre></li>
-                            <li><pre>&lt;codeblock type="php"></pre></li>
-                        </ul></li>
+                    <li>Creating new elements to contain specific information in a specific
+                        order</li>
+                    <li>Creating new attributes to identify specific information</li>
+                    <li>Creating new names for elements that are more relevant to authors.</li>
                 </ul></p>
+            <p>For instance, you might create a set of language-specific &lt;codeblock> elements,
+                such as &lt;codeblock-java> or &lt;codeblock-php> to distinguish between Java and
+                PHP code examples. This could also be accomplished by creating a new language
+                attribute for the &lt;codeblock> element: &lt;codeblock language="java"> or
+                &lt;codeblock language="php">.  </p>
         <note type="caution">Be careful with specialization. When you specialize, you make tags more
                 specific, but specialization adds to the cost of implementation. You must balance
                 the value gained from specialization against the cost of implementing and

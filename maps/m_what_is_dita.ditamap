@@ -8,18 +8,17 @@
   <topicref href="../topics/lc_markup.dita"/>
   <topicref href="../topics/lc_structure.dita"/>
   <topicref href="../topics/lc_topic.dita"/>
-  <topichead navtitle="Assessments">
-   <topicref href="../assessments/lca_validtopic.dita"/>
-   <topicref href="../assessments/lca_topicscope.dita"/>
+  <topicref href="../topics/lcc_assessment.dita" copy-to="lcc_assess_basic.dita" locktitle="yes">
+   <topicmeta>
+    <navtitle>Assessment for What is DITA?</navtitle>
+   </topicmeta>
    <topicref href="../assessments/lca_htmldita.dita"/>
    <topicref href="../assessments/lca_structuredauthoring.dita"/>
    <topicref href="../assessments/lca_dita.dita"/>
    <topicref href="../assessments/lca_element.dita"/>
-   <topicref href="../assessments/lca_specialization.dita"/>
-   <topicref href="../assessments/lca_constraint.dita"/>
    <topicref href="../assessments/lca_content.dita"/>
    <topicref href="../assessments/lca_open.dita"/>
-  </topichead>
+  </topicref>
  </topicref>
  
 </map>

@@ -19,7 +19,8 @@
     <lcAnswerOptionGroup>
      <lcAnswerOption>
       <lcAnswerContent>True</lcAnswerContent>
-      <lcFeedback>conrefs let you include content from elsewhere at the current location. For web links, use an &lt;xref> element with a @scope = "external and a @format = "html".</lcFeedback>
+      <lcFeedback>conrefs let you include content from elsewhere at the current location. For web
+       links, use an &lt;xref> element with scope="external and format = "html".</lcFeedback>
       
      </lcAnswerOption>
      <lcAnswerOption>
