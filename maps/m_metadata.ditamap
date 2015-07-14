@@ -4,8 +4,11 @@
      applicable licenses.-->
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
- <title>DITA Topic Map</title>
+ <title>Metadata</title>
  <topicref href="../topics/metadata/lc_metadata.dita">
+  <topicmeta>
+   <data name="lesson_id" value="8352"></data>
+  </topicmeta>
   <topicref href="../topics/metadata/lc_md_definition.dita"/>
   <topicref href="../topics/metadata/lc_md_use.dita"/>
   <topicref href="../topics/lcc_assessment.dita" copy-to="lcc_assess_metadata.dita" locktitle="yes">

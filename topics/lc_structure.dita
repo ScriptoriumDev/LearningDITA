@@ -9,22 +9,30 @@
     <prolog>
         <author>Sharon Burton</author>
         <author href="http://www.scriptorium.com"  scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
         <critdates>
             <created date="2015-04-28"/>
         </critdates>
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            
-            
-          
-            <p>DITA enforces structure and standards for an authoring environment. Typically, an
-                information architect will set up the overall environment.</p>
-            <p>Content has implicit structure, even in a word processor. DITA models and enforces
-                that structure explicitly. For example, a task topic must have at least one step.
-                The result is that all task topics are structured consistently. </p>
-            
-            
+            <p><i>Structured authoring</i> is a publishing workflow that lets you define and enforce
+                consistent organization of information in documents.</p>
+            <p>The elements defined in DITA have a very specific structure. That is, each element in
+                DITA has a specific set of elements that might contain it, and a specific set of
+                elements that can be contained by it. The rules can also indicate which elements can
+                (or must) come before or after an element.</p>
+            <p>For example, a DITA simpletable can contain an optional simpletable head, which must
+                be followed by one or more simpletable rows. The rules prevent a writer from
+                creating a simpletable with a table head in the middle of the rows, or from creating
+                a table that contains no rows at all.</p>
+            <p>The rules that define this structure are defined by the DITA markup language. The
+                same language can be used by computer programs to make sure that DITA documents are
+                structured correctly. If a particular set of documents requires different rules or
+                different element names, an information architect can define these names and rules. </p>
+            <p>Although DITA is a widely-used form of structured authoring, there are other
+                structured authoring standards, including DocBook, S1000D, NLM, and more.</p>
         </lcInstruction>
     </learningContentbody>
 </learningContent>

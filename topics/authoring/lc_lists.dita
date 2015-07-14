@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_blz_bk3_rs">
+    <title>Bulleted and numbered lists</title>
+    <shortdesc></shortdesc>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-07-13"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>The most common lists used in DITA are unordered (“bulleted”) lists (&lt;ul>) and
+                ordered (“numbered”) lists (&lt;ol>). </p>
+            <p>Both ordered and unordered lists contain one or more list item (&lt;li>) element.
+                <pre>&lt;ul>
+&lt;li>This is the first list item.&lt;/li>
+&lt;li>This is the second list item.&lt;/li>
+&lt;/ul></pre></p>
+            <p>The &lt;li> element can contain text data or other common block and inline elements. </p>
+            <p>You can nest a list by starting a new &lt;ul> or &lt;ol> element inside an &lt;li>
+                element.  </p>
+            <p>When the list is finally output, the bullet character or the number used in the list
+                is determined by the stylesheet being used for output and the position in the list
+                in the hierarchy. If a list is nested, the stylesheet will determine the amount of
+                indentation for the list. </p>
+            <p>In addition to the unordered list (&lt;ul>), DITA defines a simple list (&lt;sl>)
+                element, which you can use for lists that contain just a few words in each item. The
+                item in a simple list uses the &lt;sli> element. </p>
+            <pre>There are several types of ducks:
+&lt;sl>
+   &lt;sli>Tree ducks&lt;/sli>
+   &lt;sli>Dabbling ducks&lt;/sli>
+   &lt;sli>Bay ducks&lt;/sli>
+   &lt;sli>Sea ducks&lt;/sli>
+&lt;/sl></pre>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

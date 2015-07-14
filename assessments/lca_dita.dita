@@ -25,8 +25,11 @@
      
     </lcAnswerOption>
     <lcAnswerOption>
-     <lcAnswerContent>Updates are controlled by the ISO organization.</lcAnswerContent>
-    </lcAnswerOption>
+      <lcAnswerContent>Updates are controlled by the International Standards Organization
+       (ISO).</lcAnswerContent>
+      <lcFeedback>DITA is controlled by the Organization for the Advancement of Structured
+       Information Standards (OASIS). </lcFeedback>
+     </lcAnswerOption>
    </lcAnswerOptionGroup>
   </lcSingleSelect></lcInteraction>
  </learningAssessmentbody>

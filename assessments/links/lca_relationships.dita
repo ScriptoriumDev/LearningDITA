@@ -20,7 +20,6 @@
     <lcAnswerOptionGroup>
      <lcAnswerOption>
       <lcAnswerContent>True</lcAnswerContent>
-      <lcFeedback>You have to keep track of cross-references and related links, but if you use a reltable, DITA will suppress links that point outside the scope of the map file.</lcFeedback>
       
      </lcAnswerOption>
      <lcAnswerOption>
@@ -28,6 +27,9 @@
       <lcCorrectResponse/>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>You have to keep track of cross-references and related links, but if you
+     use a reltable, DITA will suppress links that point outside the scope of the map
+     file.</lcFeedbackIncorrect>
    </lcTrueFalse>
   </lcInteraction>
  </learningAssessmentbody>

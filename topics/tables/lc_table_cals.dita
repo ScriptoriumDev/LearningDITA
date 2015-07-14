@@ -4,7 +4,7 @@
      applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_atj_lxq_xr">
-    <title>The &lt;table> element</title>
+    <title>The table element</title>
     <prolog>
         <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
             Scriptorium</author>
@@ -79,6 +79,8 @@
                     </tbody>
                 </tgroup>
             </table>
+            <p>The &lt;entry> element can contain text data or other common block and inline
+                elements. </p>
             <p>Below is an example of a minimal CALS table structure (one heading row, one body row,
                 and three columns). Note that in this case, the &lt;tgroup> specifies only the cols
                 attribute, which is required:</p>
@@ -101,10 +103,10 @@
       &lt;/tgroup>
     &lt;/table></pre>
             <p>The result looks like this:<fig>
-                    <image href="../../media/tables/simplecals.png" id="image_hk3_krt_xr"/>
+                <image href="../../media/tables/simplecals.png" base="2015/07" id="image_hk3_krt_xr"/>
                 </fig></p>
-            <p>Below is a more complex
-                table:<pre> &lt;table>
+            <p>Below is a more complex table:</p>
+            <pre> &lt;table>
         &lt;title>My first table&lt;/title>
         &lt;tgroup cols="2">
           &lt;colspec colname="c1" colnum="1" colwidth="1*"/>
@@ -132,15 +134,17 @@
             &lt;/row>
           &lt;/tbody>
         &lt;/tgroup>
-      &lt;/table></pre></p>
-            <p>And the visual:<fig>
-                    <image href="../../media/tables/morecals.png" id="image_twf_4rt_xr"/>
-                </fig></p>
+      &lt;/table></pre>
+            <p>Which looks like this: </p>
+            <fig id="fig_x2m_r34_rs">
+                <image href="../../media/tables/morecals.png" base="2015/07" id="image_twf_4rt_xr"/>
+            </fig>
             <p>Some notes on the table:<ul id="ul_g4v_lpt_xr">
-                    <li>The &lt;colspec> element specifies the columns names (colname), numbers
-                        (colnum), and widths (colwidth). In this example, the colwidths are “1*” and
-                        “4*”. The asterisk indicates that the settings are proportional, so the
-                        first column gets 20% of the available width and the second column gets 80%. </li>
+                    <li>The &lt;colspec> element uses attributes to specify the column names
+                        (colname), numbers (colnum), and widths (colwidth). In this example, the
+                        colwidths are “1*” and “4*”. The asterisk indicates that the settings are
+                        proportional, so the first column gets 20% of the available width and the
+                        second column gets 80%. </li>
                     <li>Each row has a &lt;row> element with &lt;entry> elements for each cell.</li>
                     <li>Notice that row 2 has only a single &lt;entry>. That's because the entry
                         spans across both columns, which is specified by the name-start (namest) and

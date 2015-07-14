@@ -5,6 +5,9 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
  <topicref href="../topics/lc_dita_intro.dita">
+  <topicmeta lockmeta="yes">
+   <data name="lesson_id" value="8350"></data>
+  </topicmeta>
   <topicref href="../topics/lc_markup.dita"/>
   <topicref href="../topics/lc_structure.dita"/>
   <topicref href="../topics/lc_topic.dita"/>
@@ -13,8 +16,10 @@
     <navtitle>Assessment for What is DITA?</navtitle>
    </topicmeta>
    <topicref href="../assessments/lca_htmldita.dita"/>
+   <topicref href="../assessments/lca_structurerules.dita"/>
    <topicref href="../assessments/lca_structuredauthoring.dita"/>
    <topicref href="../assessments/lca_dita.dita"/>
+   <topicref href="../assessments/lca_validtopic.dita"/>
    <topicref href="../assessments/lca_element.dita"/>
    <topicref href="../assessments/lca_content.dita"/>
    <topicref href="../assessments/lca_open.dita"/>

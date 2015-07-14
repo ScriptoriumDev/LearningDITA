@@ -19,10 +19,14 @@
             <lcObjectivesGroup>
                 <lcObjective>Creating topics</lcObjective>
                 <lcObjective>Notes, cautions, and other admonishments</lcObjective>
+                <lcObjective>Block versus inline elements</lcObjective>
             </lcObjectivesGroup>
         </lcObjectives>
         <lcIntro>
-            <p>overview of authoring topic</p>
+            <p>
+                <draft-comment author="simonbate">Need an intro here...I wonder if this topic is
+                    complete at all. </draft-comment>
+            </p>
         </lcIntro>
     </learningContentbody>
     <related-links>

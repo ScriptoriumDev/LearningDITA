@@ -18,10 +18,6 @@
     <lcQuestion>For each element, identify the topic type it belongs with:</lcQuestion>
     <lcMatchTable>
      <lcMatchingPair>
-      <lcItem>refbody</lcItem>
-      <lcMatchingItem>reference topic</lcMatchingItem>
-     </lcMatchingPair>
-     <lcMatchingPair>
       <lcItem>glossdef</lcItem>
       <lcMatchingItem>glossary topic</lcMatchingItem>
      </lcMatchingPair>
@@ -34,16 +30,12 @@
       <lcMatchingItem>concept topic</lcMatchingItem>
      </lcMatchingPair>
      <lcMatchingPair>
-      <lcItem>property</lcItem>
+      <lcItem>properties</lcItem>
       <lcMatchingItem>reference topic</lcMatchingItem>
      </lcMatchingPair>
      <lcMatchingPair>
       <lcItem>stepresult</lcItem>
       <lcMatchingItem>task topic</lcMatchingItem>
-     </lcMatchingPair>
-     <lcMatchingPair>
-      <lcItem>glossentry</lcItem>
-      <lcMatchingItem>glossary topic</lcMatchingItem>
      </lcMatchingPair>
     </lcMatchTable>
    </lcMatching>

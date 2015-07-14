@@ -4,7 +4,7 @@
      applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_atj_lxq_xp">
-    <title>The &lt;simpletable> elements</title>
+    <title>The simpletable elements</title>
     <prolog>
         <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
             Scriptorium</author>
@@ -45,6 +45,8 @@
                 </strow>
             </simpletable>
             <note>This table is built using a &lt;simpletable> element.</note>
+            <p>The &lt;stentry> element can contain text data or other common block and inline
+                elements. </p>
             <p>Here is an example of a table with one heading row, two body rows, and two
                 columns.</p>
             <pre>&lt;simpletable>
@@ -62,7 +64,7 @@
    &lt;/strow>
 &lt;/simpletable></pre>
             <p>Visually, the table looks like this:<fig>
-                    <image href="../../media/tables/simpletable.png" id="image_xnd_zqt_xr"/>
+                <image href="../../media/tables/simpletable.png" base="2015/07" id="image_xnd_zqt_xr"/>
                 </fig></p>
         </lcInstruction>
     </learningContentbody>

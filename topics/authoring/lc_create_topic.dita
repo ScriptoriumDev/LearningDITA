@@ -13,18 +13,19 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>DITA files are XML, and XML is plain text. Therefore, you can create an XML file in any text editor.</p>
+            <p>DITA files are XML, and XML is plain text. Therefore, you can create an XML file in
+                any text editor.</p>
             <p>A basic DITA topic needs an XML declaration, a DOCTYPE declaration, a topic, an id attribute on the topic, and a title. That’s it.</p>
-            <p>Here is a minimal valid
-                topic:<pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+            <p>Here is a minimal valid topic:</p>
+            <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 &lt;topic id="myfirsttopic">
   &lt;title>Hello world&lt;/title>
 &lt;/topic>
-</pre></p>
+</pre>
             <p>This topic is valid, but it is not particularly useful because it doesn’t have any
-                body content. To make a topic useful, you need something more like
-                this:<pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+                body content. To make a topic useful, you need something more like this:</p>
+            <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 &lt;topic id="myfirsttopic">
   &lt;title>Hello world&lt;/title>
@@ -36,7 +37,7 @@
   &lt;/ul>
   &lt;note>And don't forget the notes.&lt;/note>
 &lt;/body>
-&lt;/topic></pre></p>
+&lt;/topic></pre>
         </lcInstruction>
     </learningContentbody>
 </learningContent>

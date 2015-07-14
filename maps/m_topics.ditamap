@@ -5,12 +5,15 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
  <topicref href="../topics/lc_infotypes.dita">
-  <topicref href="../topics/lc_topic.dita"/>
+  <topicmeta>
+   <data name="lesson_id" value="8351"></data>
+  </topicmeta>
+  <topicref href="../topics/lc_topictype.dita"/>
   <topicref href="../topics/lc_concept.dita"/>
   <topicref href="../topics/lc_task.dita"/>
   <topicref href="../topics/lc_reference.dita"/>
   <topicref href="../topics/lc_gloss.dita"/>
-  <topicref href="../topics/lc_constraints.dita"/>
+<!--  <topicref href="../topics/lc_constraints.dita"/>-->
   <topicref href="../topics/lc_specialization.dita"/>
   <topicref href="../topics/lcc_assessment.dita" copy-to="lcc_assess_topics.dita" locktitle="yes">
    <topicmeta>
@@ -20,7 +23,6 @@
    <topicref href="../assessments/lca_specialization.dita"/>
    <topicref href="../assessments/lca_constraint.dita"/>
    <topicref href="../assessments/lca_topicscope.dita"/>
-   <topicref href="../assessments/lca_validtopic.dita"/>
    <topicref href="../assessments/lca_questions.dita"/>
    <topicref href="../assessments/lca_concept.dita"/>
    <topicref href="../assessments/lca_topictypes.dita"/>
