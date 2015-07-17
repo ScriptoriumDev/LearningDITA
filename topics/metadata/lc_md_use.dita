@@ -26,9 +26,8 @@
                         more detail)</li>
                 </ul></p>
            <p>At the topic level, DITA provides a &lt;prolog> element in which you can store
-                metadata for the entire topic. Here is an example of basic topic
-                metadata:<pre>
-&lt;topic id="xyz">
+                metadata for the entire topic. Here is an example of basic topic metadata:</p>
+            <pre>&lt;topic id="xyz">
   &lt;title>Metadata example&lt;/title>
   &lt;prolog>
     &lt;author>Sarah O’Keefe, Scriptorium&lt;/author>
@@ -39,20 +38,19 @@
   &lt;body>
     &lt;p>Body content goes here&lt;/p>
   &lt;/body>
-&lt;/topic></pre></p>
+&lt;/topic></pre>
             <p>The author is specified in the &lt;author> element, and &lt;critdates> provides a
                 spot for &lt;created> and &lt;revised> date elements.</p>
             <p>Some useful prolog elements are:<ul id="ul_mjh_2lw_wr">
-                    <li>author. The content author.</li>
-                    <li>critdates. Critical dates, such as &lt;created> and &lt;revised></li>
-                    <li>copyright. Copyright year (&lt;copyryear>) and holder
-                        (&lt;copyrholder>)</li>
-                    <li>vrm. The content version</li>
+                    <li>&lt;author> (the content author)</li>
+                    <li>&lt;critdates> (critical dates, such as &lt;created> and &lt;revised>)</li>
+                    <li>&lt;copyright> (copyright year &lt;copyryear>, and copyright holder
+                        &lt;copyrholder>)</li>
+                    <li>&lt;vrm> (product version, release, and modification information)</li>
                 </ul></p>
             <note type="important">Use the &lt;prolog> metadata only for system information, such as
-                the author and created/revised dates. By default, the DITA Open Toolkit does not
-                support using &lt;prolog> metadata to filter topics. For that, you need to provide
-                metadata in the map file.</note>
+                the author and created/revised dates. DITA doesn't use &lt;prolog> metadata to
+                filter topics.</note>
             <p>At the element level, you usually use attributes in elements to specify metadata.
                 Here is an example:</p>
             <pre>&lt;step>

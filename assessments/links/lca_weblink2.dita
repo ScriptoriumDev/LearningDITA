@@ -24,14 +24,14 @@
     </lcAnswerOption>
     <lcAnswerOption>
      <lcAnswerContent>&lt;xref href="http://www.scriptorium.com"/></lcAnswerContent>
-    <lcFeedback>You need the scope and format attributes.</lcFeedback>
     </lcAnswerOption>
     <lcAnswerOption>
       <lcAnswerContent>&lt;xref link="http://www.scriptorium.com" scope="external"
        format="html"/></lcAnswerContent>
-      <lcFeedback>That link attribute should be an href attribute.</lcFeedback>
      </lcAnswerOption>
    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>You need the scope and format attributes. There is no link attribute on an
+     xref; you use the href attribute.</lcFeedbackIncorrect>
   </lcSingleSelect>
   </lcInteraction>
  </learningAssessmentbody>

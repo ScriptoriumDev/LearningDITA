@@ -19,8 +19,6 @@
     <lcAnswerOptionGroup>
      <lcAnswerOption>
       <lcAnswerContent>True</lcAnswerContent>
-      <lcFeedback>conrefs let you include content from elsewhere at the current location. For web
-       links, use an &lt;xref> element with scope="external and format = "html".</lcFeedback>
       
      </lcAnswerOption>
      <lcAnswerOption>
@@ -28,6 +26,9 @@
       <lcCorrectResponse/>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>Conrefs let you include content from elsewhere at the current location. For
+     web links, use an &lt;xref> element with scope="external and format =
+     "html".</lcFeedbackIncorrect>
    </lcTrueFalse>
   </lcInteraction>
  </learningAssessmentbody>

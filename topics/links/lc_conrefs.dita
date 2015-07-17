@@ -34,13 +34,11 @@
                 
             </p>
         <p>Suppose you have the following note in a topic called location.dita:</p>
-            <p>
-                <pre>&lt;topic id="topicid">
+            <pre>&lt;topic id="topicid">
     ...
     &lt;note id="whatduckslike">Ducks prefer lakes over deserts.&lt;/note>
     ...
 &lt;/topic>             </pre>
-            </p>
             <p>To reuse that note in another topic, the conref code is as follows:</p>
            <pre>&lt;note conref="location.dita#topicid/whatduckslike"/></pre>
             <p>Most DITA authoring tools streamline the process for inserting conref code, so you

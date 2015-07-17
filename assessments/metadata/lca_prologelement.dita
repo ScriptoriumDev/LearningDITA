@@ -20,7 +20,6 @@
     <lcAnswerOptionGroup>
      <lcAnswerOption>
       <lcAnswerContent>True</lcAnswerContent>
-      <lcFeedback>The topic prolog contains the topic-level metadata. You can also assign metadata at the element level using attributes.</lcFeedback>
       
      </lcAnswerOption>
      <lcAnswerOption>
@@ -29,6 +28,8 @@
       
            </lcAnswerOption>
     </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>The topic prolog contains the topic-level metadata. You can also assign
+     metadata at the element level using attributes.</lcFeedbackIncorrect>
    </lcTrueFalse>
   </lcInteraction>
  </learningAssessmentbody>

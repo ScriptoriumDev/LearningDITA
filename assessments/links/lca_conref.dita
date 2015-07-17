@@ -16,21 +16,25 @@
  <learningAssessmentbody>
   <lcInteraction>
   <lcSingleSelect id="links6">
-   <lcQuestion>Using conrefs allows you to:</lcQuestion>
+   <lcQuestion>Conrefs allows you to:</lcQuestion>
    <lcAnswerOptionGroup>
     <lcAnswerOption>
+      <lcAnswerContent>Create cross-references</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
       <lcAnswerContent>Reuse content</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
     <lcAnswerOption>
-     <lcAnswerContent>Be lazy. A good writer varies the content to keep the reader from getting bored.</lcAnswerContent>
-    <lcFeedback>In fiction, variety is a good thing. In technical content, consistency is important.</lcFeedback>
-    </lcAnswerOption>
-    <lcAnswerOption>
-     <lcAnswerContent>Plagiarize from other sources.</lcAnswerContent>
-     <lcFeedback>Reuse in a corporate environment is not plagiarism.</lcFeedback>
-    </lcAnswerOption>
+      <lcAnswerContent>Create conditional text</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Indicate that the content can be reused. </lcAnswerContent>
+     </lcAnswerOption>
    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>You use the &lt;xref> element to create cross-references. You use the
+     filtering attributes (audience, platform, and product) to create conditional text. The presence
+     of an id attribute indicates that the content can be reused (by a conref from another element). </lcFeedbackIncorrect>
   </lcSingleSelect>
   </lcInteraction>
  </learningAssessmentbody>

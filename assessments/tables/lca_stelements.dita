@@ -25,7 +25,6 @@
      </lcAnswerOption>
      <lcAnswerOption>
       <lcAnswerContent>&lt;stbody> (table body region)</lcAnswerContent>
-      <lcFeedback>Only CALS tables define a table body region.</lcFeedback>
      </lcAnswerOption>
      <lcAnswerOption>
       <lcAnswerContent>&lt;strow> (table row)</lcAnswerContent>
@@ -33,13 +32,14 @@
      </lcAnswerOption>
      <lcAnswerOption>
       <lcAnswerContent>&lt;title> (table title)</lcAnswerContent>
-      <lcFeedback>Only CALS tables can have titles.</lcFeedback>
      </lcAnswerOption>
      <lcAnswerOption>
       <lcAnswerContent>&lt;stentry> (table cell)</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>Only CALS tables define a table body region. Only CALS tables can have
+     titles.</lcFeedbackIncorrect>
    </lcMultipleSelect>
   </lcInteraction>
  </learningAssessmentbody>

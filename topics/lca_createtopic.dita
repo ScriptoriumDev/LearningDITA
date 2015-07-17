@@ -20,10 +20,10 @@
      </lcAnswerOption>
      <lcAnswerOption>
       <lcAnswerContent>False</lcAnswerContent>
-      <lcFeedback>The &lt;shortdesc> and &lt;related-links> elements do have some content, but the
-       most useful content is usually in the &lt;body>. </lcFeedback>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>The &lt;shortdesc> and &lt;related-links> elements do have some content,
+     but the most useful content is usually in the &lt;body>. </lcFeedbackIncorrect>
    </lcTrueFalse>
   </lcInteraction>
  </learningAssessmentbody>

@@ -14,14 +14,13 @@
         <lcInstruction>
             <p>All DITA topic types are based on a single generic topic type. The generic topic type
                 is used as the basis to create the specific topic types. Many of the elements and
-                organizations in the generic topic are use by the specific topic types. </p>
+                organizations in the generic topic are also used by the specific topic types. </p>
             <p>All DITA topics have this general structure:  </p>
-            <pre>
-&lt;topic id="sample">
+            <pre>&lt;topic id="sample">
    &lt;shortdesc>A short description&lt;/shortdesc>
    &lt;title>Topic title goes here&lt;/title>
    &lt;body>
-        (Most of the elements go here.)
+        <i>(Most of the elements go here.)</i>
    &lt;/body>
 &lt;/topic> </pre>
             <p>
@@ -34,6 +33,8 @@
                         &lt;conbody> for concepts and &lt;taskbody> for tasks.</li>
                 </ul>
             </p>
+            <note>Although you can use the generic topic type for authoring content, it’s much better
+                to use one of the specific topic types, such as concept, task, and reference. </note>
             <p>There are other elements in the generic topic type, but these are the common
                 ones.</p>
         </lcInstruction>

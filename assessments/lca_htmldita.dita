@@ -17,12 +17,10 @@
  <learningAssessmentbody>
   
   <lcInteraction><lcTrueFalse id="3">
-   <lcQuestion>The names of the DITA elements are predefined and cannot change </lcQuestion>
+   <lcQuestion>The names of all DITA elements are predefined and cannot change </lcQuestion>
    <lcAnswerOptionGroup>
     <lcAnswerOption>
      <lcAnswerContent>True</lcAnswerContent>
-     <lcFeedback>In HTML the tag names are predefined, but in DITA the names can be changed or new
-       ones created.</lcFeedback>
     </lcAnswerOption>
     <lcAnswerOption>
      <lcAnswerContent>False</lcAnswerContent>
@@ -30,6 +28,8 @@
      
     </lcAnswerOption>
    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>In HTML the tag names are predefined, but in DITA the names can be changed
+     or new ones created.</lcFeedbackIncorrect>
   </lcTrueFalse></lcInteraction>
  </learningAssessmentbody>
 </learningAssessment>

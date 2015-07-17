@@ -16,24 +16,24 @@
   <lcInteraction>
   <lcSingleSelect id="links6">
    <lcQuestion>Read the following code. What does this code show? <image
-      href="../../media/links/linkcode.png" base="2015/06"/>
+      href="../../media/links/linkcode.png" base="2015/07"/>
      </lcQuestion>
    <lcAnswerOptionGroup>
     <lcAnswerOption>
-      <lcAnswerContent>A list of numbered steps including a conref to a frequently reused
+      <lcAnswerContent>A numbered list including a conref to a frequently reused
        step.</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
     <lcAnswerOption>
      <lcAnswerContent>A concept topic about feeding ducks.</lcAnswerContent>
-    <lcFeedback>This fragment shows only ol and li lists, so you cannot determine its topic type.</lcFeedback>
     </lcAnswerOption>
     <lcAnswerOption>
      <lcAnswerContent>A bulleted list named DuckPelletSteps.dita.</lcAnswerContent>
-     <lcFeedback>The filename reference is part of a conref, not a label for this list. And an
-       &lt;ol> is an ordered (numbered) list.</lcFeedback>
     </lcAnswerOption>
    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>This fragment shows only ol and li lists, so you cannot determine its topic
+     type. The filename reference is part of a conref, not a label for this list. And an &lt;ol> is
+     an ordered (numbered) list.</lcFeedbackIncorrect>
   </lcSingleSelect>
   </lcInteraction>
  </learningAssessmentbody>

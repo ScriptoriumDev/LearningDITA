@@ -39,10 +39,13 @@
             </ul>
             <p>DITA uses this tag naming feature in XML to define its own set of tag names or
                 “elements”. The DITA elements allow you to mark up content using names for things
-                that make sense, such as &lt;note> for notes, &lt;section> for sections, &lt;image>
+                that make sense, such as  &lt;note> for notes, &lt;section> for sections, &lt;image>
                 for images, and so on. However, because many HTML tag names make sense, their names
-                are also used for DITA elements, such as &lt;p> for paragraph, &lt;ul> and &lt;ol>
-                for unordered and ordered lists. </p>
+                are also used for DITA elements, such as &lt;p> for paragraph, and &lt;ul> and
+                &lt;ol> for unordered and ordered lists. </p>
+            <p>One other difference in naming: in HTML, the outer-most or “root” tag is &lt;html>.
+                In DITA, the name of the root tag depends on the type of topic you're creating, such
+                as &lt;concept>, &lt;task>, or &lt;reference> (among others). </p>
             <note>It’s useful to know how the markup looks in XML and DITA. However much of the time
                 you'll be creating DITA content using smart authoring tools that handle the
                 individual tags and attributes for you. </note>

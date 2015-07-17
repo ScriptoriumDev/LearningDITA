@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Test Topic Map (basis for examples)</title>
+ <topicref/>
+ <topicref href="c_about_ducks.dita"/>
+ <topicref href="r_breedsofducks.dita"/>
+ <topicref href="r_goodbreedsforpets.dita"/>
+ <topicref href="t_feeding.dita"/>
+ <topicref href="t_feeding_wild.dita"/>
+ <topicref href="c_wild_ducks.dita"/>
+ <topicref href="r_wild_breeds.dita"/>
+ <reltable>
+  <relheader>
+   <relcolspec type="concept"/>
+   <relcolspec type="reference"/>
+   <relcolspec type="task"/>
+  </relheader>
+  <relrow>
+   <relcell>
+    <topicref href="c_about_ducks.dita"/>
+   </relcell>
+   <relcell>
+    <topicref href="r_breedsofducks.dita"/>
+    <topicref href="r_goodbreedsforpets.dita"/>
+   </relcell>
+   <relcell>
+    <topicref href="t_feeding.dita"/>
+   </relcell>
+  </relrow>
+  <relrow>
+   <relcell>
+    <topicref href="c_wild_ducks.dita"/>
+   </relcell>
+   <relcell>
+    <topicref href="r_wild_breeds.dita"/>
+   </relcell>
+   <relcell>
+    <topicref href="t_feeding_wild.dita"/>
+   </relcell>
+  </relrow>
+  <relrow>
+   <relcell/>
+   <relcell/>
+   <relcell/>
+  </relrow>
+ </reltable>
+</map>

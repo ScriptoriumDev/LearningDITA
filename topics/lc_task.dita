@@ -45,7 +45,7 @@
                     <li>&lt;taskbody> (the body of the task topic)</li>
                     <li>&lt;steps> (the sequence of actions)</li>
                     <li>&lt;step> (each individual action)<ul id="ul_hkh_3th_rs">
-                            <li>&lt;cmd> (the action the user takes, this is a required element in a
+                            <li>&lt;cmd> (the action the user takes; this is a required element in a
                                 &lt;step>)</li>
                             <li>&lt;info> (additional information about the step)</li>
                             <li>&lt;stepresult> (what happens after performing an action)</li>

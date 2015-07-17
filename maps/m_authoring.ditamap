@@ -6,7 +6,7 @@
 <map>
  <topicref href="../topics/authoring/lc_authoring_topics.dita">
   <topicmeta>
-   <data name="lesson_id" value="8353"></data>
+   <data name="lesson_id" value="8629"></data>
   </topicmeta>
   <topicref href="../topics/authoring/lc_create_topic.dita"/>
   <topicref href="../topics/authoring/lc_create_topic_oxygen.dita" platform="oxygen"/>
@@ -16,7 +16,7 @@
  
   <topicref href="../topics/lcc_assessment.dita" copy-to="lcc_assess_author.dita" locktitle="yes">
    <topicmeta>
-    <navtitle>Assessment for Authoring</navtitle>
+    <navtitle>Assessment for Creating DITA content</navtitle>
    </topicmeta>
    <topicref href="../topics/lca_createtopic.dita"/>
    <topicref href="../assessments/lca_notes.dita"/>

@@ -17,35 +17,32 @@
   <lcInteraction>
    <lcSingleSelect id="links7">
     <lcQuestion>Assume that the following code snippet is in the reltable for the current map file
-     and all of the referenced topics are also in the map file. The c_ prefix indicates concept
-     topics and the r_ prefix indicates reference topics. What will be the result in the related
-     topics sections? <image href="../../media/links/reltable.png"  base="2015/06"/>
-    </lcQuestion>
+     and all of the referenced topics are also in the map file. What will be the result in the
+     related topics sections (choose one)? </lcQuestion>
+    <lcAsset>
+     <image href="../../media/links/reltable_wild.png" id="image_o5v_ml2_ss"/>
+    </lcAsset>
     <lcAnswerOptionGroup>
      <lcAnswerOption>
-      <lcAnswerContent>A Related References section at the end of each of the
-       topics.</lcAnswerContent>
-   <lcFeedback>What about the concept topic?</lcFeedback>
+      <lcAnswerContent>Each of the topics will have links to the other two topics listed in the
+       row.</lcAnswerContent>
+      <lcCorrectResponse/>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>For the reference topics, a link to the other reference topics and a link to the concept topic. For the concept topic, a link to both reference topics.</lcAnswerContent>
-     <lcCorrectResponse/>
+      <lcAnswerContent>Each of the topics will have links to all three topics listed in the row.
+      </lcAnswerContent>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>No more than one Related Concepts link and no more than one Related References link.</lcAnswerContent>
-      <lcFeedback>The concept topic will include references to both reference topics.</lcFeedback>
+      <lcAnswerContent>There won't be any links; these aren't related.</lcAnswerContent>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>Many inline links.</lcAnswerContent>
-      <lcFeedback>reltables let you avoid inline links.</lcFeedback>
-
-     </lcAnswerOption>
-     <lcAnswerOption>
-      <lcAnswerContent>One related concepts section in these topics.</lcAnswerContent>
-      <lcFeedback>What about the reference topics?</lcFeedback>
-
+      <lcAnswerContent>The links will always be listed on a page by themselves. </lcAnswerContent>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>When a topic is listed in a reltable row, that topic won’t have a link to
+     itself. The topicrefs were placed in this row because their content is related. The links to
+     the other topics are usually placed in a section at the end of the topic (depending on the
+     output format). </lcFeedbackIncorrect>
    </lcSingleSelect>
   </lcInteraction>
  </learningAssessmentbody>

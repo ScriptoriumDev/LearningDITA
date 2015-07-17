@@ -21,7 +21,7 @@
             <p>Reference topics do not include steps or background information. Reference topics are
                 similar to dictionary entries and provide facts only.</p>
 <p>Common elements used in a reference topic include: <ul id="ul_nj3_h45_vr">
-                    <li>refbody (the body of the reference topic)</li>
+                    <li>&lt;refbody> (the body of the reference topic)</li>
                     <li>&lt;section> (a subdivision in the reference topic, with an optional
                         title)</li>
                     <li>&lt;table> (a table)</li>

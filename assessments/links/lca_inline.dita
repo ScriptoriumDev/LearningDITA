@@ -19,7 +19,6 @@
     <lcAnswerOptionGroup>
      <lcAnswerOption>
       <lcAnswerContent>True</lcAnswerContent>
-      <lcFeedback>DITA best practices discourage use of inline links because of maintenance problems. A better approach is a relationship table.</lcFeedback>
       
      </lcAnswerOption>
      <lcAnswerOption>
@@ -27,6 +26,8 @@
       <lcCorrectResponse/>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>DITA best practices discourage use of inline links because of maintenance
+     problems. A better approach is a relationship table.</lcFeedbackIncorrect>
    </lcTrueFalse>
   </lcInteraction>
  </learningAssessmentbody>

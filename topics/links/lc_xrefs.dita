@@ -23,9 +23,9 @@
             <p>The &lt;xref> element can optionally contain text. If text is provided, it is used as
                 the hotspot text for the link. If the &lt;xref> element doesn't contain any text,
                 the output generator uses the title of the target as the hotspot for the link. </p>
-            <note>Although it might seem the right thing to do, when creating a cross-reference to a
-                section, figure, or table, the href attribute should specify the section, figure, or
-                table, not the &lt;title> element within the section, figure, or table. </note>
+            <note>Although it might seem like the right thing to do, when creating a cross-reference
+                to a section, figure, or table, the href attribute should specify the section,
+                figure, or table, not the &lt;title> element within the section, figure, or table. </note>
             <p>Video: <xref href="https://www.youtube.com/watch?v=Go2FyJl7uQY" format="html"
                     scope="external">Code examples of DITA cross-references</xref>
             </p>

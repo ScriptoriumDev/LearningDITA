@@ -22,15 +22,17 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>A DITA topic is a container in which you create content.</p>
-            <p>In topic-based authoring, you create a number of individual topics that each
-                addresses a single idea or answers a single question. These topics can then be used
-                and reused in any order, in a number of different documents. To make these topics
-                reusable: </p>
+            <p>A DITA topic is the basic unit of authoring and reuse. </p>
+            <p>In topic-based authoring, you create a number of individual topics, each of which
+                each addresses a single idea or answers a single question. These topics can then be
+                used and reused in any order, in a number of different documents. In DITA the topics
+                are organized in <i>maps</i>, which are much like a table of contents; the map
+                allows you to specify the order and the hierarchy of the topics. </p>
+            <p>To make your topics reusable: </p>
             <ul id="ul_kpb_fhh_rs">
-                <li>A topic should addresses a single idea or answers a single question. </li>
+                <li>A topic should address a single idea or answer a single question. </li>
                 <li>A topic should contain enough information to stand on its own.</li>
-                <li>A topics should not assume any context. You should not make assumptions about
+                <li>A topic should not assume any context. You should not make assumptions about
                     what comes before or after the topic. </li>
                 <li>A single file should contain a single topic. </li>
             </ul>
@@ -38,8 +40,7 @@
             <!--<p>Topics contain elements. Elements are the tags for the content. </p>-->
             <p>All DITA topics must have at least a title element and an id attribute for the root
                 topic. That is, the following is a valid DITA topic: </p>
-            <pre>
-&lt;topic id="sample">
+            <pre>&lt;topic id="sample">
    &lt;title>Topic title goes here&lt;/title>
 &lt;/topic> </pre>
             <p>However, a <i>useful</i> topic will have additional content. </p>

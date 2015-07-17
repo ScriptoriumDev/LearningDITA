@@ -12,7 +12,8 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcTrueFalse id="4">
-    <lcQuestion>The elements defined in DITA have a very specific structure.</lcQuestion>
+    <lcQuestion>The elements defined in DITA have very specific hierarchy and
+     relationships.</lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_lrc_hjh_rs">
      <lcAnswerOption>
       <lcAnswerContent>True</lcAnswerContent>
@@ -20,10 +21,10 @@
      </lcAnswerOption>
      <lcAnswerOption>
       <lcAnswerContent>False</lcAnswerContent>
-      <lcFeedback>Structured authoring requires that the relationship of all elements is clearly
-       defined. </lcFeedback>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>Structured authoring requires that the relationship of all elements is
+     clearly defined. </lcFeedbackIncorrect>
    </lcTrueFalse>
   </lcInteraction>
  </learningAssessmentbody>

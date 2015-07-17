@@ -23,11 +23,12 @@
      </lcAnswerOption>
      <lcAnswerOption>
       <lcAnswerContent>False</lcAnswerContent>
-      <lcFeedback>The prolog is at the topic level. For element-level metadata, use the element’s
-       attributes. Remember that you cannot easily filter on prolog metadata.</lcFeedback>
      
            </lcAnswerOption>
     </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>The prolog is at the topic level. For element-level metadata, use the
+     element’s attributes. Remember that you cannot easily filter on prolog
+     metadata.</lcFeedbackIncorrect>
    </lcTrueFalse>
   </lcInteraction>
  </learningAssessmentbody>

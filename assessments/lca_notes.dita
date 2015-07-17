@@ -16,13 +16,14 @@
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_bxs_bd3_rs">
      <lcAnswerOption>
       <lcAnswerContent>True</lcAnswerContent>
-      <lcFeedback>To create a warning, you use &lt;note type="warning">.</lcFeedback>
      </lcAnswerOption>
      <lcAnswerOption>
       <lcAnswerContent>False</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>To create a warning, you use &lt;note
+     type="warning">.</lcFeedbackIncorrect>
    </lcTrueFalse>
   </lcInteraction>
  </learningAssessmentbody>

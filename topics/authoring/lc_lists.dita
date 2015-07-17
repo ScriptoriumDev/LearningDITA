@@ -14,14 +14,37 @@
         <lcInstruction>
             <p>The most common lists used in DITA are unordered (“bulleted”) lists (&lt;ul>) and
                 ordered (“numbered”) lists (&lt;ol>). </p>
-            <p>Both ordered and unordered lists contain one or more list item (&lt;li>) element.
-                <pre>&lt;ul>
-&lt;li>This is the first list item.&lt;/li>
-&lt;li>This is the second list item.&lt;/li>
-&lt;/ul></pre></p>
-            <p>The &lt;li> element can contain text data or other common block and inline elements. </p>
+            <p>Both ordered and unordered lists contain one or more list item (&lt;li>) element. The
+                &lt;li> elements shown in these examples are quite simple. However, an &lt;li>
+                element can contain text data and most common block and inline elements. </p>
+            <pre>The life cycle of a duck is similar to that of most birds:
+&lt;ol>
+   &lt;li>Egg&lt;/li>
+   &lt;li>Hatchling&lt;/li>
+   &lt;li>Duckling&lt;/li>
+   &lt;li>Juvenile&lt;/li>
+   &lt;li>Adult&lt;/li>
+&lt;/ol></pre>
+            <p>Note that the author does not add numbers to this ordered list; as with HTML, the
+                numbers are inserted when the output is generated. To help you visualize things,
+                most visual editors will show you the numbers of items in an ordered list. </p>
+            <p>An ordered list is useful for showing things that have a sequence, however, if you
+                need to describe a process, you might be better off using the &lt;steps> element in
+                a task topic.</p>
             <p>You can nest a list by starting a new &lt;ul> or &lt;ol> element inside an &lt;li>
-                element.  </p>
+                element. </p>
+            <pre>Ducks have these featues:
+&lt;ul>
+   &lt;li>Webbed feet for swimming.&lt;/li>
+   &lt;li>Shorter legs than other waterfowl.&lt;/li>
+   &lt;li>Distinctive bill.&lt;/li>
+   &lt;li>
+      &lt;ul>
+         &lt;li>Wide and flat for filter feeding.&lt;/li>
+         &lt;li>Long and narrow for fishing (Mergansers)&lt;/li>
+      &lt;/ul>
+   &lt;/li>
+&lt;/ul></pre>
             <p>When the list is finally output, the bullet character or the number used in the list
                 is determined by the stylesheet being used for output and the position in the list
                 in the hierarchy. If a list is nested, the stylesheet will determine the amount of
@@ -32,7 +55,7 @@
             <pre>There are several types of ducks:
 &lt;sl>
    &lt;sli>Tree ducks&lt;/sli>
-   &lt;sli>Dabbling ducks&lt;/sli>
+   &lt;sli>Surface-feeding ducks&lt;/sli>
    &lt;sli>Bay ducks&lt;/sli>
    &lt;sli>Sea ducks&lt;/sli>
 &lt;/sl></pre>

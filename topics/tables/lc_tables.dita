@@ -17,21 +17,28 @@
     <learningContentbody>
         <lcObjectives>
             <lcObjectivesGroup>
-                <lcObjective>Understand the elements used to build a table</lcObjective>
-                <lcObjective>Understand difference between table and simpletable</lcObjective>
-                <lcObjective>Best practices for DITA tables</lcObjective>
+                <lcObjective>Distinguish simple tables and CALS tables.</lcObjective>
+                <lcObjective>Describe the elements in a simpletable.</lcObjective>
+                <lcObjective>Describe the elements in a CALS table.</lcObjective>
+                <lcObjective>Present best practices for DITA tables</lcObjective>
             </lcObjectivesGroup>
         </lcObjectives>
         <lcIntro>
-            <p>Tables occupy an uneasy middle ground between formatting and structure. However,
-                tables are often the right container for the content. </p>
+            <p>Tables occupy an uneasy middle ground between formatting and structure. 
+                However, tables are often the right container for the content. </p>
             <p>DITA include two types of tables:</p>
-            <ul id="ul_ynm_whn_1s">
-                <li><i>Simple tables.</i> The &lt;simpletable> element supports basic tables with
-                    minimal customization</li>
-                <li><i>Tables.</i> The &lt;table> element can support complex tables with spanned
-                    rows and columns (straddles) and precise display properties</li>
-            </ul>
+            <dl>
+                <dlentry>
+                    <dt>Simple tables</dt>
+                    <dd>The &lt;simpletable> element supports basic tables with minimal
+                        customization</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Tables</dt>
+                    <dd>The &lt;table> element can support complex tables with spanned rows and
+                        columns (straddles) and precise display properties</dd>
+                </dlentry>
+            </dl>
             <p>Most markup languages uses the CALS table model, which was created as part of an
                 initiative of the United States Department of Defense. HTML tables also use the CALS
                 model, so if you are familiar with HTML table markup, you will recognize
@@ -56,9 +63,13 @@
         <lcIntro>
             <title>Other tables</title>
             <p>There are two other very specific table types (based on the &lt;simpletable>
-                element): &lt;properties>, which you use in reference topics to define a list of
-                properties and &lt;choicetable>, which you use in task topics to present the
-                differences among various choices. </p>
+                element): </p>
+            <ul id="ul_x3m_vyc_ss">
+                <li>&lt;properties>, which you use in reference topics to define a list of
+                    properties.</li>
+                <li>&lt;choicetable>, which you use in task topics to present the differences among
+                    various choices.</li>
+            </ul>
         </lcIntro>
     </learningContentbody>
     <related-links>

@@ -25,19 +25,18 @@
      <lcCorrectResponse/>
     </lcAnswerOption>
     <lcAnswerOption>
-     <lcAnswerContent>Reuse content</lcAnswerContent>
-    <lcFeedback>You can reuse content that has metadata applied to it, but you can also reuse content without metadata applied.</lcFeedback>
-    </lcAnswerOption>
+      <lcAnswerContent>Write content</lcAnswerContent>
+     </lcAnswerOption>
     <lcAnswerOption>
      <lcAnswerContent>Find content</lcAnswerContent>
      <lcCorrectResponse/>
     </lcAnswerOption>
     <lcAnswerOption>
-     <lcAnswerContent>Translate content</lcAnswerContent>
-     <lcFeedback>You can translate content that has metadata applied to it, but you can also
-       translate content without metadata applied.</lcFeedback>
-    </lcAnswerOption>
+      <lcAnswerContent>Create glossary entries</lcAnswerContent>
+     </lcAnswerOption>
    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>You write content in elements; metadata is information about the content.
+     You use GlossEntry topics to create glossary entries. </lcFeedbackIncorrect>
   </lcMultipleSelect>
   </lcInteraction>
  </learningAssessmentbody>

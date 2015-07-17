@@ -15,7 +15,7 @@
  <learningAssessmentbody>
   
   <lcInteraction><lcSingleSelect id="9">
-   <lcQuestion>In DITA, content is created in:</lcQuestion>
+   <lcQuestion>In DITA, the basic unit of authoring and reuse is (choose one):</lcQuestion>
    <lcAnswerOptionGroup>
     <lcAnswerOption>
      <lcAnswerContent>specialized attribute containers</lcAnswerContent>
@@ -25,11 +25,11 @@
      <lcCorrectResponse/>
     </lcAnswerOption>
     <lcAnswerOption>
-     <lcAnswerContent>in bulleted lists that are verified when you create output</lcAnswerContent>
-    </lcAnswerOption>
+      <lcAnswerContent>bulleted lists</lcAnswerContent>
+     </lcAnswerOption>
     <lcAnswerOption>
-     <lcAnswerContent>with XML markup that the reader must learn to understand</lcAnswerContent>
-    </lcAnswerOption>
+      <lcAnswerContent>elements</lcAnswerContent>
+     </lcAnswerOption>
    </lcAnswerOptionGroup>
   </lcSingleSelect>
   </lcInteraction>

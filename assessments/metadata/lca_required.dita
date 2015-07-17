@@ -19,17 +19,18 @@
    <lcAnswerOptionGroup>
     <lcAnswerOption>
      <lcAnswerContent>&lt;title id="xxx"></lcAnswerContent>
-     <lcFeedback>The id attribute is required for the topic but not the topic title.</lcFeedback>
     </lcAnswerOption>
     <lcAnswerOption>
      <lcAnswerContent>&lt;topic author="xxx"></lcAnswerContent>
-     <lcFeedback>Author information is not required. When you do provide it, use the &lt;author> element in the &lt;prolog>.</lcFeedback>
     </lcAnswerOption>
     <lcAnswerOption>
      <lcAnswerContent>&lt;topic id="xxx"></lcAnswerContent>
      <lcCorrectResponse/>
     </lcAnswerOption>
    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>The id attribute is required for the topic but not the topic title. Author
+     information is not required. When you do provide it, use the &lt;author> element in the
+     &lt;prolog>.</lcFeedbackIncorrect>
   </lcMultipleSelect>
   </lcInteraction>
  </learningAssessmentbody>

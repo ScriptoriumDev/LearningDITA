@@ -27,10 +27,10 @@
     <lcAnswerOption>
       <lcAnswerContent>Updates are controlled by the International Standards Organization
        (ISO).</lcAnswerContent>
-      <lcFeedback>DITA is controlled by the Organization for the Advancement of Structured
-       Information Standards (OASIS). </lcFeedback>
      </lcAnswerOption>
    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>DITA is controlled by the Organization for the Advancement of Structured
+     Information Standards (OASIS). Open standards are free.</lcFeedbackIncorrect>
   </lcSingleSelect></lcInteraction>
  </learningAssessmentbody>
 </learningAssessment>

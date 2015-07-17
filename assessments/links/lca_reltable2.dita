@@ -23,9 +23,10 @@
      </lcAnswerOption>
      <lcAnswerOption>
       <lcAnswerContent>True</lcAnswerContent>
-      <lcFeedback>Map files describe hierarchical relationships. reltables describe peer-to-peer related topics links.</lcFeedback>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>Map files describe hierarchical relationships. reltables describe
+     peer-to-peer related topics links.</lcFeedbackIncorrect>
    </lcTrueFalse>
   </lcInteraction>
  </learningAssessmentbody>

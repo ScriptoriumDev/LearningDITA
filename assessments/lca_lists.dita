@@ -17,14 +17,14 @@
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_bxs_bd3_rs">
      <lcAnswerOption>
       <lcAnswerContent>True</lcAnswerContent>
-      <lcFeedback>The label sequence is determined at output time by the stylesheet in the output
-       generator. </lcFeedback>
      </lcAnswerOption>
      <lcAnswerOption>
       <lcAnswerContent>False</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>The label sequence is determined at output time by the stylesheet in the
+     output generator. </lcFeedbackIncorrect>
    </lcTrueFalse>
   </lcInteraction>
  </learningAssessmentbody>

@@ -19,10 +19,11 @@
         <lcInstruction>
             <p><i>Structured authoring</i> is a publishing workflow that lets you define and enforce
                 consistent organization of information in documents.</p>
-            <p>The elements defined in DITA have a very specific structure. That is, each element in
-                DITA has a specific set of elements that might contain it, and a specific set of
-                elements that can be contained by it. The rules can also indicate which elements can
-                (or must) come before or after an element.</p>
+            <p>The elements defined in DITA have a very specific hierarchy and relationships. That
+                is, each element in DITA has a specific set of elements that might contain it, and a
+                specific set of elements that can be contained by it. DITA also specifies which
+                elements can (or must) come before or after an element and how many of a particular
+                element are allowed.  </p>
             <p>For example, a DITA simpletable can contain an optional simpletable head, which must
                 be followed by one or more simpletable rows. The rules prevent a writer from
                 creating a simpletable with a table head in the middle of the rows, or from creating

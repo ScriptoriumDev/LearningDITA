@@ -23,9 +23,10 @@
      </lcAnswerOption>
      <lcAnswerOption>
       <lcAnswerContent>False</lcAnswerContent>
-      <lcFeedback>If your content includes metadata attributes, such as platform or product, you can filter based on the metadata values to create output variants.</lcFeedback>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>If your content includes metadata attributes, such as platform or product,
+     you can filter based on the metadata values to create output variants.</lcFeedbackIncorrect>
    </lcTrueFalse>
   </lcInteraction>
  </learningAssessmentbody>

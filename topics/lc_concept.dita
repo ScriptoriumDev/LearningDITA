@@ -21,9 +21,9 @@
             <p>Common elements used in a concept topic include:<ul id="ul_c5m_hm5_vr">
                     <li>&lt;conbody> (the body of the concept topic)</li>
                     <li>&lt;p> (a paragraph)</li>
-                    <li>&lt;ul> (unordered or bulleted list)</li>
-                    <li>&lt;ol> (ordered or numbered list)</li>
-                    <li>&lt;li> (list item inside a &lt;ul> or &lt;ol>)</li>
+                    <li>&lt;ul> (an unordered or bulleted list)</li>
+                    <li>&lt;ol> (an ordered or numbered list)</li>
+                    <li>&lt;li> (a list item inside a &lt;ul> or &lt;ol>)</li>
                     <li>&lt;fig> (a figure, including an optional title)</li>
                     <li>&lt;image> (a graphic inside a figure, or inline in text)</li>
                     <li>&lt;section> (a subdivision in the topic, with an optional title) </li>
