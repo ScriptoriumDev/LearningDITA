@@ -5,6 +5,9 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
     <topicref href="../topics/tables/lc_tables.dita">
+        <topicmeta>
+            <data name="lesson_id" value="8630"></data>
+        </topicmeta>
         <topicref href="../topics/tables/lc_table_simple.dita"/>
         <topicref href="../topics/tables/lc_table_cals.dita"/>
         <topicref href="../topics/tables/lc_best_practices.dita"/>

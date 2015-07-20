@@ -8,6 +8,8 @@
  <prolog>
   <author>Sharon Burton</author>
   <author href="http://www.scriptorium.com"  scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+   Scriptorium</author>
   <critdates>
    <created date="2015-04-28"/>
   </critdates>
@@ -15,13 +17,10 @@
  <learningAssessmentbody>
   
   <lcInteraction><lcTrueFalse id="3">
-   <lcQuestion>HTML and DITA are very different. Knowing one doesn’t help you read the
-    other.</lcQuestion>
+   <lcQuestion>The names of all DITA elements are predefined and cannot change </lcQuestion>
    <lcAnswerOptionGroup>
     <lcAnswerOption>
      <lcAnswerContent>True</lcAnswerContent>
-     <lcFeedback>HTML and DITA use many of the same tags, such as title, p, ul, and
-      li.</lcFeedback>
     </lcAnswerOption>
     <lcAnswerOption>
      <lcAnswerContent>False</lcAnswerContent>
@@ -29,6 +28,8 @@
      
     </lcAnswerOption>
    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>In HTML the tag names are predefined, but in DITA the names can be changed
+     or new ones created.</lcFeedbackIncorrect>
   </lcTrueFalse></lcInteraction>
  </learningAssessmentbody>
 </learningAssessment>

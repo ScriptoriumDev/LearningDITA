@@ -19,7 +19,6 @@
    <lcAnswerOptionGroup>
     <lcAnswerOption>
      <lcAnswerContent>True</lcAnswerContent>
-     <lcFeedback>There are other standards, such as DocBook, S1000D, NLM, and more. You can also create your own custom structure from scratch.</lcFeedback>
     </lcAnswerOption>
     <lcAnswerOption>
      <lcAnswerContent>False</lcAnswerContent>
@@ -27,6 +26,8 @@
      
     </lcAnswerOption>
    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>There are other standards, such as DocBook, S1000D, NLM, and more. You can
+     also create your own custom structure from scratch.</lcFeedbackIncorrect>
   </lcTrueFalse></lcInteraction>
  </learningAssessmentbody>
 </learningAssessment>

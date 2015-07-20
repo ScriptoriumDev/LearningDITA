@@ -15,25 +15,24 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcSingleSelect id="tablesq1">
-    <lcQuestion>What types of tables does DITA support?</lcQuestion>
+    <lcQuestion>What types of tables does DITA support (choose one)?</lcQuestion>
     <lcAnswerOptionGroup>
      <lcAnswerOption>
-      <lcAnswerContent>Tables and Simpletables</lcAnswerContent>
-      <lcFeedback>&lt;table> elements are CALS tables.</lcFeedback>
+      <lcAnswerContent>Tables and simpletables</lcAnswerContent>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>CALS tables and Simpletables</lcAnswerContent>
+      <lcAnswerContent>CALS tables and simpletables</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>DITA tables and Simpletables</lcAnswerContent>
-      <lcFeedback>"DITA table" elements do not exist.</lcFeedback>
+      <lcAnswerContent>DITA tables and simpletables</lcAnswerContent>
      </lcAnswerOption>
      <lcAnswerOption>
       <lcAnswerContent>DITA tables and CALS tables</lcAnswerContent>
-      <lcFeedback>"DITA table" elements do not exist.</lcFeedback>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>&lt;table> elements are CALS tables. There is no such thing as a “DITA
+     table.”</lcFeedbackIncorrect>
    </lcSingleSelect>
   </lcInteraction>
  </learningAssessmentbody>

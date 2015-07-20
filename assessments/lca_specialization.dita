@@ -15,19 +15,21 @@
  <learningAssessmentbody>
   
   
- <lcInteraction> <lcSingleSelect id="7">
-   <lcQuestion>Specialization means</lcQuestion>
-   <lcAnswerOptionGroup>
-    <lcAnswerOption>
-     <lcAnswerContent>Adding new elements based on existing elements</lcAnswerContent>
-     <lcCorrectResponse/>
-    </lcAnswerOption>
-    <lcAnswerOption>
-     <lcAnswerContent>Removing unused elements</lcAnswerContent>
-     
-    </lcAnswerOption>
-   </lcAnswerOptionGroup>
-  </lcSingleSelect>
+ <lcInteraction>
+   <lcTrueFalse id="lcTrueFalse_o5s_jsd_ss">
+    <lcQuestion>Specialization means adding new elements based on existing elements</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_p5s_jsd_ss">
+     <lcAnswerOption>
+      <lcAnswerContent>True</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>False</lcAnswerContent>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>Constraints allow an information architect to remove elements.
+    </lcFeedbackIncorrect>
+   </lcTrueFalse>
   </lcInteraction>
  </learningAssessmentbody>
 </learningAssessment>

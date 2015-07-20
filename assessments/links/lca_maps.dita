@@ -27,13 +27,14 @@
     </lcAnswerOption>
     <lcAnswerOption>
      <lcAnswerContent>Creates a link to web content</lcAnswerContent>
-     <lcFeedback>External web links are usually xrefs.</lcFeedback>
     </lcAnswerOption>
     <lcAnswerOption>
      <lcAnswerContent>Provides a way to create inline links in topics</lcAnswerContent>
-     <lcFeedback>Generally, you should avoid inline links. Map files list a collection of topics, but not content inside the topics.</lcFeedback>
     </lcAnswerOption>
    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>Use xrefs to create external web links. As a rule, you should avoid inline
+     links. Map files list a collection of topics, but not content inside the
+     topics.</lcFeedbackIncorrect>
    </lcMultipleSelect>
   </lcInteraction>
  </learningAssessmentbody>

@@ -23,17 +23,17 @@
             <p>The &lt;xref> element can optionally contain text. If text is provided, it is used as
                 the hotspot text for the link. If the &lt;xref> element doesn't contain any text,
                 the output generator uses the title of the target as the hotspot for the link. </p>
-            <note>Although it might seem the right thing to do, when creating a cross-reference to a
-                section, figure, or table, the href attribute should specify the section, figure, or
-                table, not the &lt;title> element within the section, figure, or table. </note>
+            <note>Although it might seem like the right thing to do, when creating a cross-reference
+                to a section, figure, or table, the href attribute should specify the section,
+                figure, or table, not the &lt;title> element within the section, figure, or table. </note>
             <p>Video: <xref href="https://www.youtube.com/watch?v=Go2FyJl7uQY" format="html"
                     scope="external">Code examples of DITA cross-references</xref>
             </p>
             <p>You can also use the &lt;xref> element to link to resources outside your DITA topics.
                 For external references, you supply a scope attribute with a value of external and a
-                format attribute, as shown
-                    here:<pre>&lt;xref href="http://www.scriptorium.com" scope="external" format="html"/></pre><note>For
-                    links to a PDF file, use format="pdf".</note></p>
+                format attribute, as shown here:</p>
+            <pre>&lt;xref href="http://www.scriptorium.com" scope="external" format="html"/></pre>
+            <note>For links to a PDF file, use format="pdf".</note>
             <p>Technically, it is possible to use &lt;xref> to link from one topic to another. This
                 inline linking is a Bad Idea™ because you have to create and maintain the link
                 manually. You must specify what you are linking to. When you set up the

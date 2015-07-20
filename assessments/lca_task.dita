@@ -27,7 +27,6 @@
     </lcAnswerOption>
     <lcAnswerOption>
      <lcAnswerContent>Overview content</lcAnswerContent>
-     <lcFeedback>You can provide contextual information with the context element, but detailed overview information should go in a concept topic.</lcFeedback>
     </lcAnswerOption>
     <lcAnswerOption>
      <lcAnswerContent>Optional step results</lcAnswerContent>
@@ -38,6 +37,8 @@
      <lcCorrectResponse/>
     </lcAnswerOption>
    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>You can provide contextual information with the context element, but
+     detailed overview information should go in a concept topic.</lcFeedbackIncorrect>
   </lcMultipleSelect>
   </lcInteraction>
  </learningAssessmentbody>

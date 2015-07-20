@@ -7,6 +7,8 @@
     <title>Constraints</title>
     <prolog><author>Sharon Burton</author>
         <author href="http://www.scriptorium.com"  scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
         <critdates>
             <created date="2015-04-28"/>
         </critdates></prolog>
@@ -17,10 +19,9 @@
                 handles constraints and specialization (next topic).</draft-comment>
          <p>In DITA, a constraint lets you eliminate elements that you do not need or want to use.
                 For example, if your organization is not documenting software code, your information
-                architect could eliminate &lt;codeblock> and &lt;codephrase>. Constraining reduces
-                the number of elements presented to the authors, which makes their lives a little
-                easier.</p>
-     <p></p>
+                architect could eliminate &lt;codeblock> and &lt;codeph> (code phrase). Constraining
+                reduces the number of elements presented to the authors, which can make their lives
+                a little easier.</p>
      </lcInstruction>
     </learningContentbody>
 </learningContent>

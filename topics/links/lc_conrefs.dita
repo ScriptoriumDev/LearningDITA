@@ -4,7 +4,7 @@
      applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="links1">
-    <title>conrefs</title>
+    <title>Reusing content with conrefs</title>
     <prolog>
         <author>Sharon Burton</author>
         <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
@@ -28,19 +28,17 @@
                 <ul id="ul_iwx_n5b_wr">
                     <li>Flare snippets</li>
                     <li>RoboHelp embedded topics</li>
-                    <li>FrameMaker import text by reference</li>
+                    <li>FrameMaker text insets and variables</li>
                     <li>HTML server-side includes</li>
                 </ul>
                 
             </p>
         <p>Suppose you have the following note in a topic called location.dita:</p>
-            <p>
-                <pre>&lt;topic id="topicid">
+            <pre>&lt;topic id="topicid">
     ...
     &lt;note id="whatduckslike">Ducks prefer lakes over deserts.&lt;/note>
     ...
 &lt;/topic>             </pre>
-            </p>
             <p>To reuse that note in another topic, the conref code is as follows:</p>
            <pre>&lt;note conref="location.dita#topicid/whatduckslike"/></pre>
             <p>Most DITA authoring tools streamline the process for inserting conref code, so you
@@ -52,7 +50,7 @@
     <p>Video: <xref href="https://www.youtube.com/watch?v=oHmXBRVk3yo" format="html"
                     scope="external">DITA conref code example</xref></p>
             <note type="tip">It's a good practice to create separate topics that contain reusable
-                element, rather than just picking a random topic and pointing a conref to that
+                elements, rather than just picking a random topic and pointing a conref to that
                 topic. This helps you keep better tabs on the content that is reused and allows you
                 to control when it changes.</note>
           

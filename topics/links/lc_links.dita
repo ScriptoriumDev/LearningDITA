@@ -27,7 +27,7 @@
                 file, you must specify scope="external".</p>
             <p>The linktext element contains the text that will become the link hotspot.</p>
             <p>
-                <note type="caution">Avoid using related links for links among the topics in your
+                <note>Avoid using related links for links among the topics in your
                     map file. They suffer from the same limitations as inline cross-references—you
                     can end up with broken links. Use relationship tables instead.</note>
             </p>

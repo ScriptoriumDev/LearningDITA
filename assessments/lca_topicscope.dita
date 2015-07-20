@@ -24,11 +24,11 @@
      </lcAnswerOption>
      <lcAnswerOption>
       <lcAnswerContent>False</lcAnswerContent>
-      <lcFeedback>A topic is a unit of content. Concept topics describe one idea; reference topics
-       provide information about one item, and task topics provide step-by-step instructions for one
-       procedure.</lcFeedback>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>A topic is a unit of content. Concept topics describe one idea; reference
+     topics provide information about one item, and task topics provide step-by-step instructions
+     for one procedure.</lcFeedbackIncorrect>
    </lcTrueFalse>
   </lcInteraction>
  </learningAssessmentbody>

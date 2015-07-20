@@ -19,7 +19,6 @@
     <lcAnswerOptionGroup>
      <lcAnswerOption>
       <lcAnswerContent>True</lcAnswerContent>
-      <lcFeedback>It is possible to expose metadata to your readers but by default, they do not see it.</lcFeedback>
       
      </lcAnswerOption>
      <lcAnswerOption>
@@ -28,6 +27,8 @@
       
            </lcAnswerOption>
     </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>It is possible to expose metadata to your readers but by default, they do
+     not see it.</lcFeedbackIncorrect>
    </lcTrueFalse>
   </lcInteraction>
  </learningAssessmentbody>

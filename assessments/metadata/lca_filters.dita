@@ -7,7 +7,7 @@
  <title></title>
  <prolog>
   <author>Sharon Burton</author>
-  <author href="http://www.scriptorium.com"  scope="external" format="html">Sarah O'Keefe, Scriptorium</author>
+  <author href="http://www.scriptorium.com"  scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
   <critdates>
    <created date="2015-04-28"/>
   </critdates>
@@ -23,9 +23,10 @@
      </lcAnswerOption>
      <lcAnswerOption>
       <lcAnswerContent>False</lcAnswerContent>
-      <lcFeedback>If your content includes metadata attributes, such as platform or product, you can filter based on the metadata values to create output variants.</lcFeedback>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>If your content includes metadata attributes, such as platform or product,
+     you can filter based on the metadata values to create output variants.</lcFeedbackIncorrect>
    </lcTrueFalse>
   </lcInteraction>
  </learningAssessmentbody>

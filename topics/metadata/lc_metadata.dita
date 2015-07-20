@@ -17,18 +17,16 @@
     <learningContentbody>
         <lcObjectives>
             <lcObjectivesGroup>
-                <lcObjective>What is metadata?</lcObjective>
-                <lcObjective>How do you use metadata?</lcObjective>
-                <lcObjective>What metadata is required</lcObjective>
+                <lcObjective>Define metadata.</lcObjective>
+                <lcObjective>Describe uses of metadata.</lcObjective>
+                <lcObjective>Show how to add metadata to topics. </lcObjective>
             </lcObjectivesGroup>
         </lcObjectives>
         <lcDuration>
             <lcTime value="30"/>
         </lcDuration>
         <lcIntro>
-            <p>Metadata means “beyond data.” In XML content, metadata lets you classify and
-                manipulate information. In DITA, you can assign metadata to topics, individual
-                elements, and more. </p>
+            <p>Metadata means “beyond data” or data about data. In XML content, metadata lets you classify and manipulate information. In DITA, you can assign metadata to topics, individual elements, and more. </p>
         </lcIntro>
     </learningContentbody>
     <related-links>

@@ -19,13 +19,14 @@
     <lcAnswerOptionGroup>
      <lcAnswerOption>
       <lcAnswerContent>True</lcAnswerContent>
-      <lcFeedback>You can create unique content that uses the default DITA structure.</lcFeedback>
      </lcAnswerOption>
      <lcAnswerOption>
       <lcAnswerContent>False</lcAnswerContent>
       <lcCorrectResponse/>
            </lcAnswerOption>
     </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>You can create unique content that uses the default DITA
+     structure.</lcFeedbackIncorrect>
    </lcTrueFalse>
   </lcInteraction>
  </learningAssessmentbody>

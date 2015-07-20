@@ -22,17 +22,17 @@
     <lcAnswerOption>
      <lcAnswerContent>DITA does not allow you to use an author element; you have to use an author
        attribute.</lcAnswerContent>
-     <lcFeedback>DITA does not provide an author attribute.</lcFeedback>
     </lcAnswerOption>
     <lcAnswerOption>
      <lcAnswerContent>At the end of the topic body.</lcAnswerContent>
-     <lcFeedback>&lt;related-links> is after the topic body.</lcFeedback>
     </lcAnswerOption>
     <lcAnswerOption>
      <lcAnswerContent>In the &lt;prolog> element.</lcAnswerContent>
      <lcCorrectResponse/>
     </lcAnswerOption>
    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>DITA does not provide an author attribute. The topic body is followed by
+     &lt;related-links>.</lcFeedbackIncorrect>
   </lcSingleSelect>
   </lcInteraction>
  </learningAssessmentbody>

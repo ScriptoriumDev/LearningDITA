@@ -15,21 +15,22 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcSingleSelect id="topics3">
-   <lcQuestion>When creating a concept topic, you will often:</lcQuestion>
+   <lcQuestion>When creating a concept topic, you will often (choose one):</lcQuestion>
    <lcAnswerOptionGroup>
     <lcAnswerOption>
      <lcAnswerContent>Avoid introducing new terms or phrases</lcAnswerContent>
-     <lcFeedback>Concepts are very often where you introduce new words or phrases.</lcFeedback>
     </lcAnswerOption>
     <lcAnswerOption>
      <lcAnswerContent>Describe in detail how to accomplish a task</lcAnswerContent>
-     <lcFeedback>Step-by-step instructions belong in task topics.</lcFeedback>
     </lcAnswerOption>
     <lcAnswerOption>
-     <lcAnswerContent>Provide a graphic</lcAnswerContent>
-     <lcCorrectResponse/>
-    </lcAnswerOption>
+      <lcAnswerContent>Provide paragraphs of text needed to understand the ideas behind a particular
+       subject.</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>Concepts are frequently used to introduce new words or phrases. Task
+     instructions belong in task topics.</lcFeedbackIncorrect>
   </lcSingleSelect>
   </lcInteraction>
  </learningAssessmentbody>

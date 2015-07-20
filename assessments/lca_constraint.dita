@@ -14,19 +14,21 @@
  </prolog>
  <learningAssessmentbody>
   
-  <lcInteraction><lcSingleSelect id="8">
-   <lcQuestion>Constraining means</lcQuestion>
-   <lcAnswerOptionGroup>
-    <lcAnswerOption>
-     <lcAnswerContent>Adding new elements based on existing elements</lcAnswerContent>
-     
-    </lcAnswerOption>
-    <lcAnswerOption>
-     <lcAnswerContent>Removing unused elements</lcAnswerContent>
-     <lcCorrectResponse/>
-    </lcAnswerOption>
-   </lcAnswerOptionGroup>
-  </lcSingleSelect>
+  <lcInteraction>
+   <lcTrueFalse id="lcTrueFalse_tdn_vsd_ss">
+    <lcQuestion>Constraints allow an information architect to remove elements that are not needed. </lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_udn_vsd_ss">
+     <lcAnswerOption>
+      <lcAnswerContent>True</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>False</lcAnswerContent>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>Specialization allows an information architect to create new elements based
+     on existing elements. </lcFeedbackIncorrect>
+   </lcTrueFalse>
   </lcInteraction>
  </learningAssessmentbody>
 </learningAssessment>

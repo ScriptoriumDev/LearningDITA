@@ -11,11 +11,35 @@
    <revised modified="2015-05-15"/>
   </critdates>
  </topicmeta>
- <mapref href="maps/m_what_is_dita.ditamap" format="ditamap"/>
- <mapref href="maps/m_topics.ditamap" format="ditamap"/>
- <mapref href="maps/m_metadata.ditamap" format="ditamap"/>
- <mapref href="maps/m_authoring.ditamap" format="ditamap"/>
- <mapref href="maps/m_tables.ditamap" format="ditamap"/>
- <mapref href="maps/m_links.ditamap" format="ditamap"/> 
+ <topicref href="maps/m_what_is_dita.ditamap" format="ditamap">
+  <topicmeta lockmeta="yes">
+   <data name="lesson_id" value="8024"></data>
+  </topicmeta>
+ </topicref>
+ <mapref href="maps/m_topics.ditamap" format="ditamap">
+  <topicmeta>
+   <data name="lesson_id" value="8025"></data>
+  </topicmeta>
+ </mapref>
+ <mapref href="maps/m_metadata.ditamap" format="ditamap">
+  <topicmeta>
+   <data name="lesson_id" value="8026"></data>
+  </topicmeta>
+ </mapref>
+ <mapref href="maps/m_authoring.ditamap" format="ditamap">
+  <topicmeta>
+   <data name="lesson_id" value="8027"></data>
+  </topicmeta>
+ </mapref>
+ <mapref href="maps/m_tables.ditamap" format="ditamap">
+  <topicmeta>
+   <data name="lesson_id" value="8028"></data>
+  </topicmeta>
+ </mapref>
+ <mapref href="maps/m_links.ditamap" format="ditamap">
+  <topicmeta>
+   <data name="lesson_id" value="8029"></data>
+  </topicmeta>
+ </mapref> 
  
 </map>

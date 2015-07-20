@@ -15,12 +15,9 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcMatching id="topics1">
-    <lcQuestion>For each element, identify the topic type it belongs with:</lcQuestion>
+    <lcQuestion>Drag the topic type most closely associated with each of the elements beside that
+     element: </lcQuestion>
     <lcMatchTable>
-     <lcMatchingPair>
-      <lcItem>refbody</lcItem>
-      <lcMatchingItem>reference topic</lcMatchingItem>
-     </lcMatchingPair>
      <lcMatchingPair>
       <lcItem>glossdef</lcItem>
       <lcMatchingItem>glossary topic</lcMatchingItem>
@@ -34,16 +31,8 @@
       <lcMatchingItem>concept topic</lcMatchingItem>
      </lcMatchingPair>
      <lcMatchingPair>
-      <lcItem>property</lcItem>
+      <lcItem>properties</lcItem>
       <lcMatchingItem>reference topic</lcMatchingItem>
-     </lcMatchingPair>
-     <lcMatchingPair>
-      <lcItem>stepresult</lcItem>
-      <lcMatchingItem>task topic</lcMatchingItem>
-     </lcMatchingPair>
-     <lcMatchingPair>
-      <lcItem>glossentry</lcItem>
-      <lcMatchingItem>glossary topic</lcMatchingItem>
      </lcMatchingPair>
     </lcMatchTable>
    </lcMatching>
