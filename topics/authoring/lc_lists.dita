@@ -17,7 +17,7 @@
             <p>Both ordered and unordered lists contain one or more list item (&lt;li>) element. The
                 &lt;li> elements shown in these examples are quite simple. However, an &lt;li>
                 element can contain text data and most common block and inline elements. </p>
-            <pre>The life cycle of a duck is similar to that of most birds:
+            <pre>&lt;p>The life cycle of a duck is similar to that of most birds:&lt;/p>
 &lt;ol>
    &lt;li>Egg&lt;/li>
    &lt;li>Hatchling&lt;/li>
@@ -33,7 +33,7 @@
                 a task topic.</p>
             <p>You can nest a list by starting a new &lt;ul> or &lt;ol> element inside an &lt;li>
                 element. </p>
-            <pre>Ducks have these featues:
+            <pre>&lt;p>Ducks have these features:&lt;/p>
 &lt;ul>
    &lt;li>Webbed feet for swimming.&lt;/li>
    &lt;li>Shorter legs than other waterfowl.&lt;/li>
@@ -52,7 +52,7 @@
             <p>In addition to the unordered list (&lt;ul>), DITA defines a simple list (&lt;sl>)
                 element, which you can use for lists that contain just a few words in each item. The
                 item in a simple list uses the &lt;sli> element. </p>
-            <pre>There are several types of ducks:
+            <pre>&lt;p>There are several types of ducks:&lt;/p>
 &lt;sl>
    &lt;sli>Tree ducks&lt;/sli>
    &lt;sli>Surface-feeding ducks&lt;/sli>
