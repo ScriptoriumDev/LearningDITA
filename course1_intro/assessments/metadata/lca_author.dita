@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_bkn_skb_wr1">
+ <title></title>
+ <prolog>
+  <author>Sharon Burton</author>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+  <critdates>
+   <created date="2015-04-28"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+  <lcSingleSelect id="md5">
+   <lcQuestion>Where would you find an &lt;author> element?
+ 
+  </lcQuestion>
+   <lcAnswerOptionGroup>
+    <lcAnswerOption>
+     <lcAnswerContent>DITA does not allow you to use an author element; you have to use an author
+       attribute.</lcAnswerContent>
+    </lcAnswerOption>
+    <lcAnswerOption>
+     <lcAnswerContent>At the end of the topic body.</lcAnswerContent>
+    </lcAnswerOption>
+    <lcAnswerOption>
+     <lcAnswerContent>In the &lt;prolog> element.</lcAnswerContent>
+     <lcCorrectResponse/>
+    </lcAnswerOption>
+   </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>DITA does not provide an author attribute. The topic body is followed by
+     &lt;related-links>.</lcFeedbackIncorrect>
+  </lcSingleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

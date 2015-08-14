@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_f33_1kp_wra">
+ <title/>
+ <prolog>
+  <author>Sharon Burton</author>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe,
+   Scriptorium</author>
+  <critdates>
+   <created date="2015-04-30"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcSingleSelect id="links7">
+    <lcQuestion>Assume that the following code snippet is in the reltable for the current map file
+     and all of the referenced topics are also in the map file. What will be the result in the
+     related topics sections (choose one)? </lcQuestion>
+    <lcAsset>
+     <image href="../../media/links/reltable_wild.png" id="image_o5v_ml2_ss" base="2015/07"/>
+    </lcAsset>
+    <lcAnswerOptionGroup>
+     <lcAnswerOption>
+      <lcAnswerContent>Each of the topics will have links to the other two topics listed in the
+       row.</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Each of the topics will have links to all three topics listed in the row.
+      </lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>There won't be any links; these aren't related.</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>The links will always be listed on a page by themselves. </lcAnswerContent>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>When a topic is listed in a reltable row, that topic won’t have a link to
+     itself. The topicrefs were placed in this row because their content is related. The links to
+     the other topics are usually placed in a section at the end of the topic (depending on the
+     output format). </lcFeedbackIncorrect>
+   </lcSingleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

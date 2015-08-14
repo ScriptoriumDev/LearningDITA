@@ -5,7 +5,8 @@
  <prolog>
   <author href="http://www.scriptorium.com">Sarah O'Keefe, Scriptorium</author>
   <author href="http://www.scriptorium.com">Alan Pringle, Scriptorium</author>
-<critdates>
+   <author href="http://www.scriptorium.com">Simon Bate, Scriptorium</author>
+   <critdates>
  <created date="2015-04-28"/>
 </critdates>
  </prolog>
@@ -51,9 +52,18 @@
    <p>Inside the overview container, provide learningContent topics with the module components
     (lessons).</p>
   </section>
-  <section><title>Assessment structure</title><p>Assessments (test questions) come after the
-    learning content in each module and use a &lt;topichead> for the assessment title, as shown in
-    bold:</p><codeblock>&lt;map>
+  <section>
+      <title>Assessment structure</title>
+      <p>Assessments (test questions) come after the learning content in each module. In most cases
+        you can use the shared file lcc_assessment.dita that introduces the questions in the LMS. If
+        necessary (for example, if there are special instructions about the lesson's assessment),
+        you can create an introduction topic of your own.</p>
+      <p>If you're using the shared introduction, create a &lt;topicref> pointing to the file
+          <filepath>lcc_assessment.dita</filepath>, then use the copy-to attribute to specify a
+        filename (starting with <filepath>lcc_assess_</filepath>), that uniquely identifies the
+        copy. Add a &lt;navtitle> element that provides a lesson-specific title for the assessments
+        introduction. </p>
+      <codeblock>&lt;map>
  &lt;title>Basic DITA&lt;/title>
  &lt;topicmeta>
   &lt;critdates>
@@ -65,21 +75,25 @@
   &lt;topicref href="topics/lc_structure.dita"/>
   &lt;topicref href="topics/lc_topic.dita"/>
   
-  <b>&lt;topichead navtitle="Assessments">
-   &lt;topicref href="assessments/lca_validtopic.dita"/>
-   &lt;topicref href="assessments/lca_topicscope.dita"/>
-   ...
-  &lt;/topichead></b>
-  &lt;/topicref>
+  <b>&lt;topicref href="../topics/lcc_assessment.dita" copy-to="lcc_assess_basic.dita" locktitle="yes">
+    &lt;topicmeta>
+      &lt;navtitle>Assessment for What is DITA?&lt;/navtitle>
+    &lt;/topicmeta>
+    &lt;topicref href="assessments/lca_validtopic.dita"/>
+    &lt;topicref href="assessments/lca_topicscope.dita"/>
+    ...
+  &lt;/topicref></b>
+ &lt;/topicref>
  
 ...
   
  &lt;/map>
-</codeblock><p>Each
-    assessment question goes into its own learningAssessment topic. Do not include title text in
-    assessment topics. Each assessment requires a unique ID for the question type (lcSingleSelect in
-    the following sample). This is not the same as the ID of the learningAssessment topic itself.
-   </p><codeblock>&lt;learningAssessment id="assessment_htp_t21_wr">
+</codeblock>
+      <p>Each assessment question goes into its own learningAssessment topic. Do not include title
+        text in assessment topics. Each assessment requires a unique ID for the question type
+        (lcSingleSelect in the following sample). This is not the same as the ID of the
+        learningAssessment topic itself. </p>
+      <codeblock>&lt;learningAssessment id="assessment_htp_t21_wr">
  &lt;title>&lt;/title>
  &lt;prolog>
   &lt;author>Sharon Burton&lt;/author>
@@ -97,10 +111,15 @@
   &lt;/lcSingleSelect>
   &lt;/lcInteraction>
  &lt;/learningAssessmentbody>
-&lt;/learningAssessment></codeblock>Make
-   sure you do not overlap with other IDs in the modules. Consider a unique ID prefix for your
-   learning assessment content (for example, your initials or something related to the content you
-   are developing).</section>
+&lt;/learningAssessment></codeblock>
+      <p>Make sure you do not overlap with other IDs in the modules. Consider a unique ID prefix for
+        your learning assessment content (for example, your initials or something related to the
+        content you are developing).</p>
+      <p>The current LMS (LearnDashLMS) does not support feedback at the answer option level
+        (lcAnswerOption/lcFeedback). However, LearnDashLMS does support correct and incorrect
+        feedback at the question level, so rather than using lcFeedback, use
+        lcFeedbackIncorrect.</p>
+    </section>
   <section>
    <title>File structure and naming conventions</title>
    <p>The DITA training project is divided into subfolders:<ul id="ul_fw2_dxz_vr">
@@ -115,6 +134,15 @@
      <li>lc_ for learning content</li>
      <li>lca_ for learning assessments</li>
     </ul></p>
+  </section>
+  <section>
+   <title>Standards for terms and other inline styling</title>
+   <p>When referring to elements use angle brackets around the element and add the word “element”.
+        For example: “This table is built using a &lt;simpletable> element.” When refering to
+        elements in plural, always use the singular element in angle brackets, followed by the
+        plural “elements”. For example, “Each row can contain one or more &lt;stentry> elements”</p>
+   <p>When referring to attributes, use the word “attribute”. Do not use an at-sign (@) before an
+    attribute name; this is an XPath convention and means nothing to those learning DITA. </p>
   </section>
   <section>
    <title>Standards for images and video</title>
