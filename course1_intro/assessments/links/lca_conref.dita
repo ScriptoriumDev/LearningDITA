@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_f33_1kp_wr4">
+ <title></title>
+ <prolog>
+  <author>Sharon Burton</author>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+  <author>Simon Bate, Scriptorium</author>
+  <critdates>
+   <created date="2015-04-30"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+  <lcSingleSelect id="links6">
+   <lcQuestion>Conrefs allows you to:</lcQuestion>
+   <lcAnswerOptionGroup>
+    <lcAnswerOption>
+      <lcAnswerContent>Create cross-references</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Reuse content</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+    <lcAnswerOption>
+      <lcAnswerContent>Create conditional text</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Indicate that the content can be reused. </lcAnswerContent>
+     </lcAnswerOption>
+   </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>You use the &lt;xref> element to create cross-references. You use the
+     filtering attributes (audience, platform, and product) to create conditional text. The presence
+     of an id attribute indicates that the content can be reused (by a conref from another element). </lcFeedbackIncorrect>
+  </lcSingleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

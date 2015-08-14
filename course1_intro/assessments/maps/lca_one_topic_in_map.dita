@@ -1,30 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
-<learningAssessment id="assessment_dgl_qc1_wr">
- <title>Creating warning</title>
+<learningAssessment id="assessment_jrf_gq3_wr">
+ <title></title>
+ <shortdesc/>
  <prolog>
-  <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+  <author>Sharon Burton</author>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Alan Pringle,
    Scriptorium</author>
   <critdates>
-   <created date="2015-07-13"/>
+   <created date="2015-04-28"/>
   </critdates>
  </prolog>
  <learningAssessmentbody>
   <lcInteraction>
-   <lcTrueFalse id="lcTrueFalse_axs_bd3_rs">
-    <lcQuestion>To create a warning, you use the &lt;warning> element</lcQuestion>
-    <lcAnswerOptionGroup id="lcAnswerOptionGroup_bxs_bd3_rs">
+   <lcTrueFalse id="map_one">
+    <lcQuestion>Just one topic can appear in a map file. That’s why you may want many smaller map
+     files. </lcQuestion>
+    <lcAnswerOptionGroup>
      <lcAnswerOption>
       <lcAnswerContent>True</lcAnswerContent>
+     <lcFeedback>You can include multiple files in a map file.</lcFeedback>
      </lcAnswerOption>
      <lcAnswerOption>
       <lcAnswerContent>False</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect>To create a warning, you use &lt;note
-     type="warning">.</lcFeedbackIncorrect>
    </lcTrueFalse>
+   
+   
   </lcInteraction>
  </learningAssessmentbody>
 </learningAssessment>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_bkn_skb_wr9">
+ <title></title>
+ <prolog>
+  <author>Sharon Burton</author>
+  <author href="http://www.scriptorium.com"  scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+  <critdates>
+   <created date="2015-04-28"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+  <lcMultipleSelect id="md13">
+   <lcQuestion>Metadata is useful because it allows you to (choose all that apply):</lcQuestion>
+   <lcAnswerOptionGroup>
+    <lcAnswerOption>
+     <lcAnswerContent>None of these.</lcAnswerContent>
+    </lcAnswerOption>
+    <lcAnswerOption>
+     <lcAnswerContent>Create conditional outputs</lcAnswerContent>
+     <lcCorrectResponse/>
+    </lcAnswerOption>
+    <lcAnswerOption>
+      <lcAnswerContent>Write content</lcAnswerContent>
+     </lcAnswerOption>
+    <lcAnswerOption>
+     <lcAnswerContent>Find content</lcAnswerContent>
+     <lcCorrectResponse/>
+    </lcAnswerOption>
+    <lcAnswerOption>
+      <lcAnswerContent>Create glossary entries</lcAnswerContent>
+     </lcAnswerOption>
+   </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>You write content in elements; metadata is information about the content.
+     You use GlossEntry topics to create glossary entries. </lcFeedbackIncorrect>
+  </lcMultipleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>
