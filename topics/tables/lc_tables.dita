@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_jyr_l4x_wr">
+    <title>Tables</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Bill Swallow,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-05-01"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup>
+                <lcObjective>Distinguish simple tables and CALS tables.</lcObjective>
+                <lcObjective>Describe the elements in a simpletable.</lcObjective>
+                <lcObjective>Describe the elements in a CALS table.</lcObjective>
+                <lcObjective>Present best practices for DITA tables</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcIntro>
+            <p>Tables occupy an uneasy middle ground between formatting and structure. 
+                However, tables are often the right container for the content. </p>
+            <p>DITA include two types of tables:</p>
+            <dl>
+                <dlentry>
+                    <dt>Simple tables</dt>
+                    <dd>The &lt;simpletable> element supports basic tables with minimal
+                        customization</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Tables</dt>
+                    <dd>The &lt;table> element can support complex tables with spanned rows and
+                        columns (straddles) and precise display properties</dd>
+                </dlentry>
+            </dl>
+            <p>Most markup languages uses the CALS table model, which was created as part of an
+                initiative of the United States Department of Defense. HTML tables also use the CALS
+                model, so if you are familiar with HTML table markup, you will recognize
+                similarities in DITA tables. </p>
+            <draft-comment author="simonbate">I don't believe this statement is true: Both
+                &lt;table> and &lt;simpletable> are based on CALS. </draft-comment>
+            <p>DITA tables are always described row by row.</p>
+        </lcIntro>
+
+        <lcIntro>
+            <title>Simple tables</title>
+            <p>Simple tables are ideal for basic representation of content within columns and rows.
+                You can use heading rows, but you cannot use a table title, spanned columns or rows,
+                or define column widths.</p>
+        </lcIntro>
+        <lcIntro>
+            <title>Tables</title>
+            <p>The &lt;table> element allows for more complex arrangements of tabular content. It
+                allows table titles, spanned columns or rows, multiple groups of rows, and
+                user-specified column widths</p>
+        </lcIntro>
+        <lcIntro>
+            <title>Other tables</title>
+            <p>There are two other very specific table types (based on the &lt;simpletable>
+                element): </p>
+            <ul id="ul_x3m_vyc_ss">
+                <li>&lt;properties>, which you use in reference topics to define a list of
+                    properties.</li>
+                <li>&lt;choicetable>, which you use in task topics to present the differences among
+                    various choices.</li>
+            </ul>
+        </lcIntro>
+    </learningContentbody>
+    <related-links>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Syntax_and_Markup/c_Tables.html"
+            scope="external" format="html">
+            <linktext>DITA Style Guide, Chapter 3, Table section</linktext>
+        </link>
+        <link href="http://www.afei.org/about/history/Pages/CALS.aspx" scope="external"
+            format="html">
+            <linktext>Background information on CALS</linktext>
+        </link>
+    </related-links>
+</learningContent>

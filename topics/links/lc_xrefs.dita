@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="xrefs">
+    <title>Cross-references</title>
+    <prolog>
+        <author>Sharon Burton</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-04-28"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+    <lcInstruction>
+      <p>Cross-references allow you to create links from text to other locations in text, to figures
+                or tables, or to web sites. </p>
+            <p>All cross-references use the &lt;xref> element. The href attribute specifies the
+                target of the cross-reference.   </p>
+            <p>The &lt;xref> element can optionally contain text. If text is provided, it is used as
+                the hotspot text for the link. If the &lt;xref> element doesn't contain any text,
+                the output generator uses the title of the target as the hotspot for the link. </p>
+            <note>Although it might seem like the right thing to do, when creating a cross-reference
+                to a section, figure, or table, the href attribute should specify the section,
+                figure, or table, not the &lt;title> element within the section, figure, or table. </note>
+            <p>Video: <xref href="https://www.youtube.com/watch?v=Go2FyJl7uQY" format="html"
+                    scope="external">Code examples of DITA cross-references</xref>
+            </p>
+            <p>You can also use the &lt;xref> element to link to resources outside your DITA topics.
+                For external references, you supply a scope attribute with a value of external and a
+                format attribute, as shown here:</p>
+            <pre>&lt;xref href="http://www.scriptorium.com" scope="external" format="html"/></pre>
+            <note>For links to a PDF file, use format="pdf".</note>
+            <p>Technically, it is possible to use &lt;xref> to link from one topic to another. This
+                inline linking is a Bad Idea™ because you have to create and maintain the link
+                manually. You must specify what you are linking to. When you set up the
+                cross-reference, you have the source and target topics in your map file. But if you
+                reuse the source topic in another map that does not include the target topic, you
+                will get a broken link in the output generated from that map, and you may not be
+                notified about the problem. Instead of using topic-to-topic links, it’s much better
+                to use relationship tables. </p>
+    </lcInstruction>
+    </learningContentbody>
+  
+</learningContent>
