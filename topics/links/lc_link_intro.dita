@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_mbc_bsb_wr">
+    <title>Creating relationships among topics</title>
+    <prolog>
+        <author>Sharon Burton</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+        <critdates>
+            <created date="2015-04-28"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcDuration>
+            <lcTime value="45"/>
+        </lcDuration>
+        <lcObjectives>
+            <lcObjectivesGroup>
+                <lcObjective>Describe the purpose and use of a map file.</lcObjective>
+                <lcObjective>Summarize how output is generated.</lcObjective>
+                <lcObjective>Describe the purpose and use of cross-references (xref) and
+                    related-links.</lcObjective>
+                <lcObjective>Describe the purpose and use of a relationship table
+                    (reltable).</lcObjective>
+                <lcObjective>Describe the purpose and use of a content reference
+                    (conref).</lcObjective>
+                
+            </lcObjectivesGroup>
+  
+        </lcObjectives>
+        <lcIntro>
+            <p>Topics stand on their own, but content in one topic often has relationships to other
+                topics. A map file, for example, describes the sequence and hierarchy of topics for
+                a deliverable.</p>
+            <p>You can create relationships among topics in several different ways:</p>
+            <ul id="ul_kfz_xtb_wr">
+                <li>Map files</li>
+                <li>Conrefs</li>
+                <li>Cross-references</li>
+                <li>Related links</li>
+                <li>Relationship tables</li>
+            </ul>
+        </lcIntro>
+    </learningContentbody>
+    <related-links>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Maps/c_DITA_Map_Files.html"
+            format="html" scope="external">
+            <linktext>The DITA Style Guide, Chapter 2 (map files and relationship tables)</linktext>
+        </link>
+        <link href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/c_Cross-referencing.html" scope="external" format="html"> 
+            <linktext>DITA Style Guide, Chapter 6 (cross-references)</linktext>
+        </link>
+        <link href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/c_Content_Re-use.html" scope="external" format="html"> 
+            <linktext>DITA Style Guide, Chapter 7 (content reuse)</linktext>
+        </link>
+    </related-links>
+</learningContent>

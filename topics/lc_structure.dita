@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_rvk_fwz_vr">
+    <title>DITA is structured authoring</title>
+    <shortdesc></shortdesc>
+    <prolog>
+        <author>Sharon Burton</author>
+        <author href="http://www.scriptorium.com"  scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-04-28"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p><i>Structured authoring</i> is a publishing workflow that lets you define and enforce
+                consistent organization of information in documents.</p>
+            <p>The elements defined in DITA have a very specific hierarchy and relationships. That
+                is, each element in DITA has a specific set of elements that might contain it, and a
+                specific set of elements that can be contained by it. DITA also specifies which
+                elements can (or must) come before or after an element and how many of a particular
+                element are allowed.  </p>
+            <p>For example, a DITA simpletable can contain an optional simpletable head, which must
+                be followed by one or more simpletable rows. The rules prevent a writer from
+                creating a simpletable with a table head in the middle of the rows, or from creating
+                a table that contains no rows at all.</p>
+            <p>The rules that define this structure are defined by the DITA markup language. The
+                same language can be used by computer programs to make sure that DITA documents are
+                structured correctly. If a particular set of documents requires different rules or
+                different element names, an information architect can define these names and rules. </p>
+            <p>Although DITA is a widely-used form of structured authoring, there are other
+                structured authoring standards, including DocBook, S1000D, NLM, and more.</p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

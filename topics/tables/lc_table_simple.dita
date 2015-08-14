@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_atj_lxq_xp">
+    <title>The simpletable elements</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Bill Swallow,
+            Scriptorium</author>
+        <author>Sharon Burton</author>
+        <critdates>
+            <created date="2015-05-04"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Simple tables (&lt;simpletable>) use the following elements to represent and organize
+                tabular data:</p>
+            <simpletable frame="all" relcolwidth="1.0* 1.0* 1.0*" id="simpletable_gsw_jzk_ns">
+                <sthead>
+                    <stentry>Element</stentry>
+                    <stentry>Description</stentry>
+                    <stentry>Number</stentry>
+                </sthead>
+                <strow>
+                    <stentry>&lt;sthead></stentry>
+                    <stentry>A header row</stentry>
+                    <stentry>There can be at most one header row.</stentry>
+                </strow>
+                <strow>
+                    <stentry>&lt;strow></stentry>
+                    <stentry>A body row</stentry>
+                    <stentry>There must be at least one body row, but the table can contain many
+                        rows.</stentry>
+                </strow>
+                <strow>
+                    <stentry>&lt;stentry></stentry>
+                    <stentry>A simple table entry </stentry>
+                    <stentry>Each row can contain one or more &lt;stentry> elements, but each row
+                        (including the header row) should include the same number of &lt;stentry>
+                        elements.</stentry>
+                </strow>
+            </simpletable>
+            <note>This table is built using a &lt;simpletable> element.</note>
+            <p>The &lt;stentry> element can contain text data or other common block and inline
+                elements. </p>
+            <p>Here is an example of a table with one heading row, two body rows, and two
+                columns.</p>
+            <pre>&lt;simpletable>
+   &lt;sthead>
+      &lt;stentry>heading for column 1&lt;/stentry>
+      &lt;stentry>heading for column 2&lt;/stentry>
+   &lt;/sthead>
+   &lt;strow>
+      &lt;stentry>row 1, column 1&lt;/stentry>
+      &lt;stentry>row 1, column 2&lt;/stentry>
+   &lt;/strow>
+   &lt;strow>
+      &lt;stentry>row 2, column 1&lt;/stentry>
+      &lt;stentry>row 2, column 2&lt;/stentry>
+   &lt;/strow>
+&lt;/simpletable></pre>
+            <p>Visually, the table looks like this:<fig>
+                <image href="../../media/tables/simpletable.png" base="2015/07" id="image_xnd_zqt_xr"/>
+                </fig></p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_atj_lxq_xr">
+    <title>The table element</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Bill Swallow,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe,
+            Scriptorium</author>
+        <author>Sharon Burton</author>
+        <critdates>
+            <created date="2015-05-04"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>CALS tables (&lt;table>) use the following elements to represent and organize tabular
+                data:</p>
+            <table frame="all" rowsep="1" colsep="1" id="table_uj4_tzk_ns">
+                <tgroup cols="3">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1.02*"/>
+                    <colspec colname="newCol3" colnum="3" colwidth="1.01*"/>
+                    <thead>
+                        <row>
+                            <entry>Element</entry>
+                            <entry>Description</entry>
+                            <entry>Number</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>&lt;title></entry>
+                            <entry>Contains the title for the table. </entry>
+                            <entry>Zero or one.</entry>
+                        </row>
+                        <row>
+                            <entry>&lt;tgroup></entry>
+                            <entry>Contains the columns specifications, header rows and body rows. </entry>
+                            <entry>Every table must contain at least one &lt;tgroup>
+                                element.</entry>
+                        </row>
+                        <row>
+                            <entry>&lt;colspec></entry>
+                            <entry>Defines column widths and identifying information. </entry>
+                            <entry>There should be one &lt;colspec> element per column in your
+                                table.</entry>
+                        </row>
+                        <row>
+                            <entry>&lt;thead></entry>
+                            <entry>Contains the table header rows.</entry>
+                            <entry>A &lt;tgroup> can contain at most one &lt;thead> element.
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>&lt;tbody></entry>
+                            <entry>Contains the table body rows. </entry>
+                            <entry>A &lt;tgroup> must contain one and only one &lt;tbody>
+                                element.</entry>
+                        </row>
+                        <row>
+                            <entry>&lt;row></entry>
+                            <entry>Contains a single row in a table.</entry>
+                            <entry>A &lt;thead> or &lt;tbody> element can contain any number of
+                                &lt;row> elements.</entry>
+                        </row>
+                        <row>
+                            <entry>&lt;entry></entry>
+                            <entry>Contains data for a table cell. Can contain text data or other
+                                common block and inline elements.</entry>
+                            <entry>A &lt;row> element can contain one or more &lt;entry> elements.
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            <p>This is an example of a minimal CALS table structure (one heading row, one body row,
+                and three columns). Note that in this case, the &lt;tgroup> specifies only the cols
+                attribute, which is required:</p>
+            <pre> &lt;table>
+      &lt;tgroup cols="3">
+        &lt;thead>
+          &lt;row>
+            &lt;entry>column 1, heading row&lt;/entry>
+            &lt;entry>column 2, heading row&lt;/entry>
+            &lt;entry>column 3, heading row&lt;/entry>
+          &lt;/row>
+        &lt;/thead>
+        &lt;tbody>
+          &lt;row>
+            &lt;entry>column 1, body row&lt;/entry>
+            &lt;entry>column 2, body row&lt;/entry>
+            &lt;entry>column 3, body row&lt;/entry>
+          &lt;/row>
+        &lt;/tbody>
+      &lt;/tgroup>
+    &lt;/table></pre>
+            <p>The result looks like this:<fig>
+                    <image href="../../media/tables/simplecals.png" base="2015/07"
+                        id="image_hk3_krt_xr"/>
+                </fig></p>
+            <p>Here is a more complex table:</p>
+            <pre> &lt;table>
+        &lt;title>My first table&lt;/title>
+        &lt;tgroup cols="2">
+          &lt;colspec colname="c1" colnum="1" colwidth="1*"/>
+          &lt;colspec colname="c2" colnum="2" colwidth="4*"/>
+          &lt;thead>
+            &lt;row>
+              &lt;entry>heading row, column 1&lt;/entry>
+              &lt;entry>heading row, column 2&lt;/entry>
+            &lt;/row>
+          &lt;/thead>
+          &lt;tbody>
+            &lt;row>
+              &lt;entry>row 1, column 1&lt;/entry>
+              &lt;entry>row 1, column 2&lt;/entry>
+            &lt;/row>
+            &lt;row>
+              &lt;entry namest="c1" nameend="c2">This cell spans two columns.&lt;/entry>
+            &lt;/row>
+            &lt;row>
+              &lt;entry morerows="1">This cell spans two rows.&lt;/entry>
+              &lt;entry>row 3, column 2&lt;/entry>
+            &lt;/row>
+            &lt;row>
+              &lt;entry>row 4, column 2&lt;/entry>
+            &lt;/row>
+          &lt;/tbody>
+        &lt;/tgroup>
+      &lt;/table></pre>
+            <p>Which looks like this: </p>
+            <fig id="fig_x2m_r34_rs">
+                <image href="../../media/tables/morecals.png" base="2015/07" id="image_twf_4rt_xr"/>
+            </fig>
+            <p>Some notes on the table:</p>
+            <ul id="ul_g4v_lpt_xr">
+                <li>The &lt;colspec> element uses attributes to specify the column names (colname),
+                    numbers (colnum), and widths (colwidth). In this example, the colwidths are “1*”
+                    and “4*”. The asterisk indicates that the settings are proportional, so the
+                    first column gets 20% of the available width and the second column gets 80%. </li>
+                <li>Each row has a &lt;row> element with &lt;entry> elements for each cell.</li>
+                <li>Notice that row 2 has only a single &lt;entry>. That's because the entry spans
+                    across both columns, which is specified by the name-start (namest) and name-end
+                    (nameend) attributes.</li>
+                <li>In row 3, the first entry spans rows 3 and 4, so there you have a morerows
+                    attribute.</li>
+            </ul>
+            <p>The easiest and least stressful way to set up the table code correctly is to use an
+                editor that manages these settings for you. Hand-coding tables is not for the
+                faint-hearted.</p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>
