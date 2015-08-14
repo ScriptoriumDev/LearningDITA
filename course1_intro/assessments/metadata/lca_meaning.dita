@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_bkn_skb_wr6">
+ <title></title>
+ <prolog>
+  <author>Sharon Burton</author>
+  <author href="http://www.scriptorium.com"  scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+  <critdates>
+   <created date="2015-04-28"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+  <lcMatching id="md7">
+   <lcQuestion>Match the metadata to the meaning:</lcQuestion>
+   <lcMatchTable>
+    <lcMatchingPair>
+     <lcItem>&lt;vrm> element in prolog</lcItem>
+     <lcMatchingItem>The version of the content</lcMatchingItem>
+    </lcMatchingPair>
+    <lcMatchingPair>
+     <lcItem>xml:lang attribute on root (for example, &lt;topic> or &lt;concept></lcItem>
+     <lcMatchingItem>The language of the content</lcMatchingItem>
+    </lcMatchingPair>
+    <lcMatchingPair>
+     <lcItem>audience attribute on an element</lcItem>
+     <lcMatchingItem>The target audience of the content</lcMatchingItem>
+    </lcMatchingPair>
+    <lcMatchingPair>
+     <lcItem>platform attribute on an element</lcItem>
+     <lcMatchingItem>The target platform of the content</lcMatchingItem>
+    </lcMatchingPair>
+    <lcMatchingPair>
+     <lcItem>&lt;author> element in prolog</lcItem>
+     <lcMatchingItem>The person who created the content</lcMatchingItem>
+    </lcMatchingPair>
+   </lcMatchTable>
+  </lcMatching>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>
