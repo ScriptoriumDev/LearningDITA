@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_gxd_rry_5r1">
+    <title>What is DITA?</title>
+    <shortdesc/>
+    <prolog>
+        <author>Sharon Burton</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-04-28"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup>
+                <lcObjective>Present the background and origins of DITA.</lcObjective>
+                <lcObjective>Identify DITA markup.</lcObjective>
+                <lcObjective>Describe what makes a topic reusable.</lcObjective>
+                <lcObjective>Show a minimal topic.</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="30"/>
+        </lcDuration>
+        <lcIntro>
+            <p>DITA stands for Darwin Information Typing Architecture. It is an open standard,
+                originally created by IBM. IBM donated DITA to <xref
+                    href="https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=dita"
+                    format="html" scope="external">OASIS</xref> (the Organization for the
+                Advancement of Structured Information Standards) in 2005.</p>
+            <p>DITA is an XML-based, tool-independent way to create, organize, and manage content.
+                DITA is built on:<ul id="ul_dwl_1ty_5r">
+                    <li>Topic-based authoring</li>
+                    <li>Separating content from formatting</li>
+                    <li>Minimalism</li>
+                    <li>Structured authoring concepts</li>
+                </ul>The fact that DITA is an open, XML-based standard means that there are a
+                diverse set of tools available to author, edit, format, and store DITA files. As
+                your business needs change, you can use the tool that’s most appropriate to your
+                needs. </p>
+        </lcIntro>
+    </learningContentbody>
+    <related-links>
+        <link href="http://dita.xml.org/book/export/html/1047" scope="external" format="html">
+            <linktext>History of DITA</linktext>
+        </link>
+        <link href="http://www.w3.org/html/wg/wiki/DraconianErrorHandling" format="html"
+            scope="external">
+            <linktext>Draconian error handling</linktext>
+        </link>
+        <link href="http://www.scriptorium.com/2013/07/the-ten-commandments-of-dita/" format="html"
+            scope="external">
+            <linktext>The ten commandments of DITA, Scriptorium blog</linktext>
+        </link>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/c_Syntax_and_Markup.html"
+            format="html" scope="external">
+            <linktext>DITA Style Guide, Chapter 3, Syntax and Markup</linktext>
+        </link>
+        <link href="https://github.com/flicstar/DITA-Mini-Manual" format="html" scope="external">
+            <linktext>Sample DITA content: a documentation project based on a 1960s Mini Owner’s
+                Manual, contributed by Felicity Brand</linktext>
+        </link>
+    </related-links>
+
+</learningContent>

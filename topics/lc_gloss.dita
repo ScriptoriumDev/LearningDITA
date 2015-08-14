@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_lqx_445_vr">
+    <title>Glossary entry topics</title>
+    <prolog><author>Sharon Burton</author>
+        <author href="http://www.scriptorium.com"  scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+        <critdates>
+            <created date="2015-04-28"/>
+        </critdates></prolog>
+    <learningContentbody>
+                <lcInstruction>
+                    <p>A glossary entry topic answers the question “What does this word or phrase
+                mean?” Glossary topics typically contain one term, along with one or more
+                definitions.</p>
+                    <p>Common elements used in the glossary topic are:<ul id="ul_qj2_w45_vr">
+                    <li>&lt;glossentry> (the glossary entry topic type)</li>
+                    <li>&lt;glossterm> (the word or phrase)</li>
+                    <li>&lt;glossdef> (the definition of the glossary term)</li>
+                </ul>
+            </p>
+                    <p> Video: <xref
+                        href="https://www.youtube.com/watch?v=a_Cr1lX3WAM" format="html"
+                        scope="external">Code overview of the DITA glossary topic</xref></p>
+                </lcInstruction>
+    </learningContentbody>
+</learningContent>

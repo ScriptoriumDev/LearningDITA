@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_a2v_gp5_vr">
+    <title>Constraints</title>
+    <prolog><author>Sharon Burton</author>
+        <author href="http://www.scriptorium.com"  scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-04-28"/>
+        </critdates></prolog>
+    <learningContentbody>
+     <lcInstruction>
+         <draft-comment author="okeefe">not sure this is the right place for constraints, but that's where it is in the videos</draft-comment>
+   <draft-comment author="asp">If this content stays here, need to emphasize that info. architect
+                handles constraints and specialization (next topic).</draft-comment>
+         <p>In DITA, a constraint lets you eliminate elements that you do not need or want to use.
+                For example, if your organization is not documenting software code, your information
+                architect could eliminate &lt;codeblock> and &lt;codeph> (code phrase). Constraining
+                reduces the number of elements presented to the authors, which can make their lives
+                a little easier.</p>
+     </lcInstruction>
+    </learningContentbody>
+</learningContent>

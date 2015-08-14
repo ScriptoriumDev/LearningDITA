@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="authoring_oxygen">
+    <title>Creating a topic in oXygen</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-05-18"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction><p>Reading a DITA file in a text editor can be a bit of a challenge. The
+                important information doesn’t stand out, and the hierarchy of the elements may not
+                be apparent (because spaces and carriage returns have no meaning to XML). Most
+                people find it much easier to use a visual editor (such as SyncROSoft &lt;oXygen/>)
+                to edit DITA files, where the content of the DITA file is presented in a moderately
+                formatted form.</p><note>A visual editor such as &lt;oXygen/> may look like a word
+                processor, but the formatting that you see on screen is just one possibility of the
+                way the final output will be presented. Do not rely on the appearance of text (line
+                ends, fonts, character styles, and so on) as the way your content will look when
+                published. </note><p>To create a topic in oXygen, follow these steps:</p><ol
+                id="ol_gl3_tzq_bs">
+                <li>Click the New icon (<image href="../../media/authoring/oxygen_new_icon.png"
+                        base="2015/07" id="image_jqz_d1r_bs"/>).</li>
+                <li>Navigate to Framework Templates/DITA/Topic, click the Topic entry, then click
+                    Create. oXygen creates a new topic with some placeholder content:</li>
+            </ol><pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+&lt;topic id="topic_xks_f1r_bs">
+  &lt;title>&lt;/title>
+  &lt;body>
+    &lt;p>&lt;/p>
+  &lt;/body>
+&lt;/topic>
+</pre><p>oXygen
+                creates a unique topic ID automatically. You can change it to something meaningful
+                if you want to, but remember that IDs need to be unique and must adhere to strict
+                rules. In the Author view, with tags turned on, you see this:<draft-comment
+                    author="okeefe">It occurs to me what I really want is a video version of
+                    this.</draft-comment></p><image href="../../media/authoring/oxygen_editor.png"
+                base="2015/07" id="image_vgb_q1r_bs"/><p>You can now click inside the p (which is a
+                placeholder for a &lt;p> tag) and start typing in your content. To create a new
+                paragraph, press Return twice. If you want to switch to another element, press
+                Return once and choose from the drop-down menu that appears at your cursor
+                location.</p></lcInstruction>
+    </learningContentbody>
+</learningContent>

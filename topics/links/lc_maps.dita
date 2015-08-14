@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_qyn_3sb_wr">
+
+    <title>Map files</title>
+    <prolog>
+        <author>Sharon Burton</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Alan Pringle,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O'Keefe,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-04-28"/>
+            <revised modified="2015-05-15"/>
+        </critdates>
+    </prolog>
+
+    <learningContentbody>
+        <lcInstruction>
+            <p>Map files are how you organize content for delivery. They are like a table of
+                contents: they create sequence and hierarchy among topics. When you generate a PDF
+                file or a help system from a map file, your reader sees the topics in the order and
+                hierarchy established by the map file. </p>
+            <p>You generally do not add all available topics to a map file—just the ones you want
+                included in a deliverable. Also, you can include the same topic in multiple map
+                files, which is another example of reuse in DITA.</p>
+            <p>Video: <xref href="https://www.youtube.com/watch?v=I_yvE9_ECRw" format="html"
+                    scope="external">Example of a DITA map file</xref></p>
+          
+         <p>Map files are made up mainly of the following components:<ul id="ul_dy2_k3q_wr">
+                    <li>topicref elements, which provide a link to a specific topic</li>
+                    <li>mapref elements, which provide a link to another map</li>
+                </ul></p>
+            <p>In a map file, you put topicrefs in order from top to bottom to indicate sequence. To
+                indicate hierarchy, you nest the topics. Consider the following example:</p>
+            <pre>&lt;map>
+ &lt;title>My first map&lt;/title>
+ &lt;topicref href="ducks.dita">
+   &lt;topicref href="range.dita"/>
+   &lt;topicref href="size.dita"/>
+   &lt;topicref href="nests.dita"/>
+  &lt;/topicref>
+&lt;/map>
+</pre>
+            <p>For convenience, the code is indented. But what matters is that the first topicref
+                (ducks) encloses the other three files. The range.dita, size.dita, and nests.dita
+                topics are all subordinate to the ducks.dita topic. The result is a table of
+                contents that is structured like this:</p>
+            <ul id="ul_bkw_cjq_wr">
+                <li>Ducks<ul id="ul_j2d_djq_wr">
+                        <li>Range</li>
+                        <li>Size</li>
+                        <li>Nests</li>
+                    </ul></li>
+            </ul>
+            <p>In addition to linking to topics, you can reference map files inside map files. In
+                this approach, the subordinate maps (submaps) are usually a collection of related
+                content. For example, you can create a chapter-level map file for each chapter in a
+                book, and then reference those chapter-level map files inside your main book-level
+                map file.</p>
+            <p>Instead of a topicref, a reference to a map uses a mapref. If you want to use duck
+                map content as a component of another map, you would insert it into the parent map,
+                as shown here:</p>
+            <pre>&lt;topicref href="fish.dita">
+&lt;topicref href="shorebirds.dita">
+<b>&lt;mapref href="ducks.ditamap" format="ditamap"/></b></pre>
+            <p>Video: <xref href="https://www.youtube.com/watch?v=5gXZN505XFQ" format="html"
+                scope="external">Reusing a map file in a map file</xref></p>
+            
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>
