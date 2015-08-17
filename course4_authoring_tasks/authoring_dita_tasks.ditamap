@@ -4,12 +4,13 @@
      applicable licenses.-->
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
- <title>Authoring DITA Topics</title>
+ <title>Authoring DITA task topics</title>
  <topicmeta>
   <critdates>
    <created date="2015-08-12"/>
   </critdates>
  </topicmeta>
+ <mapref href="maps/m_creating.ditamap"/>
  <topicref href="maps/m_steps.ditamap" format="ditamap"/>
  
  

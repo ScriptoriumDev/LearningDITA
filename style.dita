@@ -8,6 +8,7 @@
    <author href="http://www.scriptorium.com">Simon Bate, Scriptorium</author>
    <critdates>
  <created date="2015-04-28"/>
+      <revised modified="2015-08-14"/>
 </critdates>
  </prolog>
  <conbody>
@@ -40,10 +41,10 @@
       minutes):<codeblock>&lt;lcDuration>
   &lt;lcTime value="30"/>
 &lt;/lcDuration></codeblock></li>
-     <li>An overview of the module, using lcIntro</li>
-     <li>A list of additional reading resources, using related-links. Be sure to code external web
-      links with the appropriate format (usually html or pdf) and scope
-      (external):<codeblock>&lt;link href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/c_Syntax_and_Markup.html" 
+     <li>An overview of the module, using &lt;lcIntro></li>
+     <li>A list of additional reading resources, using &lt;related-links>. Be sure to code external
+            web links with the appropriate format (usually html or pdf) and scope
+            (external):<codeblock>&lt;link href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/c_Syntax_and_Markup.html" 
       format="html"
       scope="external">
    &lt;linktext>DITA Style Guide, Chapter 3, Syntax and Markup&lt;/linktext>
@@ -52,12 +53,24 @@
    <p>Inside the overview container, provide learningContent topics with the module components
     (lessons).</p>
   </section>
+    <section>
+      <title>Task structure</title>
+      <p>To create a task that directs a student to perform an exercise, use the learningContent
+        topic type. If you need to provide introductory text to the exercise, you can add it to the
+        &lt;learningContentbody>. The task itself should be a nested topic after the
+        &lt;learningContentbody>. </p>
+      <p>Because of restrictions in the DITA 1.2 learningContent model, the task can only contain
+        element allows by the learningContent topic type. Thus, any code examples must use &lt;pre>,
+        rather than &lt;codeblock>. </p>
+      <p>To highlight changes introduced in the &lt;pre> element, use &lt;ph
+        outputclass="newchanged"> around the new or changed information.  </p>
+    </section>
   <section>
       <title>Assessment structure</title>
       <p>Assessments (test questions) come after the learning content in each module. In most cases
-        you can use the shared file lcc_assessment.dita that introduces the questions in the LMS. If
-        necessary (for example, if there are special instructions about the lesson's assessment),
-        you can create an introduction topic of your own.</p>
+        you can use the shared file <filepath>lcc_assessment.dita</filepath> that introduces the
+        questions in the LMS. If necessary (for example, if there are special instructions about the
+        lesson's assessment), you can create an introduction topic of your own.</p>
       <p>If you're using the shared introduction, create a &lt;topicref> pointing to the file
           <filepath>lcc_assessment.dita</filepath>, then use the copy-to attribute to specify a
         filename (starting with <filepath>lcc_assess_</filepath>), that uniquely identifies the
@@ -125,10 +138,12 @@
    <p>The DITA training project is divided into subfolders:<ul id="ul_fw2_dxz_vr">
      <li>topics: for most content</li>
      <li>assessments: for quizzes, test, and other assessment content</li>
-     <li>map: map files for learning modules</li>
+     <li>maps: map files for learning modules</li>
      <li>media: for images, videos, and other non-text content</li>
+          <li>resources: for example files or sources for screen shots.</li>
     </ul></p>
-   <p>The master map file, which references the map files for modules, is at the root level.</p>
+   <p>The master map file, which references the map files for modules, is at the course-folder
+        level.</p>
    <p>Use the following file name prefixes:<ul id="ul_i3h_dkb_wr">
      <li>m_ for map files</li>
      <li>lc_ for learning content</li>
