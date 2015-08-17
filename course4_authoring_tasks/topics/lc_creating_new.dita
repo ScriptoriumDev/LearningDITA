@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_hrm_xjh_1t">
+    <title>Creating a new task topic</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-08-12"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p/>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_i3g_jkh_1t">
+        <title/>
+        <taskbody>
+            <steps id="steps_f5k_kkh_1t">
+                <step>
+                    <cmd>Make a copy of the file 1_new_task.dita and open it in your editor.</cmd>
+                    <info>
+                        <note>If you are using a DITA-aware text editor, make sure you are in text
+                            mode, rather than Author or visual mode. </note>
+                    </info>
+                    <stepxmp>
+                        <p>You should see this:</p>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+&lt;task id="my_first_task">
+
+&lt;/task></pre>
+                    </stepxmp>
+                    <info>
+                        <p>The first line (which begins with <tt>&lt;?xml</tt>) is an XML
+                            declaration, which is a standard part of all XML files.</p>
+                        <p>The second line is the DOCTYPE declaration, which tells DITA editors or
+                            DITA output generators that this is a DITA strict topic. The programs
+                            then use that information when validating the content of the topic. </p>
+                    </info>
+                </step>
+                <!--<step><cmd>Depending on the editor you are using: </cmd><choices id="choices_uy2_lkh_1t"><choice><p><b>DITA-aware editor</b>: Use the File > New... command to create a new task topic. Make sure you don't use the general task. </p></choice><choice><p><b>Text editor</b>: Create a new file that contains this text:</p><pre>&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+&lt;task id="my_first_task">
+
+&lt;/task></pre></choice><choice><p><b>Samples</b>: Make a copy of the file 1_new_task.dita and open it in your editor.</p></choice></choices></step>-->
+                <!--<step><cmd>If you are using a DITA-aware editor, switch to text view.</cmd><info>A DITA-aware editor will often create a </info></step>-->
+                <step>
+                    <cmd>Inside the &lt;task> element, add a &lt;title> element, and add the task
+                        title.</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+&lt;task id="my_first_task">
+<ph outputclass="newchanged">   &lt;title>(TEXT TBD)&lt;/title></ph>
+
+&lt;/task></pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>After the &lt;title>, add a &lt;taskbody> element.</cmd>
+                    <info>As you have probably read before, the &lt;taskbody> contains all the
+                        actual content in the task. </info>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+&lt;task id="my_first_task">
+   &lt;title>(TEXT TBD)&lt;/title>
+<ph outputclass="newchanged">   &lt;taskbody>
+
+   &lt;/taskbody></ph>
+&lt;/task></pre>
+                    </stepxmp>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>
