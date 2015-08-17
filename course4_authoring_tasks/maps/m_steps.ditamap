@@ -10,7 +10,8 @@
    <data name="lesson_id" value="9999"></data>
   </topicmeta>
 <!--  <topicref href="../topics/lc_markup.dita"/>-->
-  <topicref href="../topics/lc_steps.dita"/>
+  <topicref href="../topics/lc_steps_w_task.dita"/>
+  <topicref href="../topics/lc_choices.dita"/>
   <topicref href="../topics/lcc_assessment.dita" copy-to="lcc_steps.dita" locktitle="yes">
    <topicmeta>
     <navtitle>Assessment for Creating the steps</navtitle>

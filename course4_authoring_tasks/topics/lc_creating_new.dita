@@ -10,9 +10,7 @@
         </critdates>
     </prolog>
     <learningContentbody>
-        <lcInstruction>
-            <p/>
-        </lcInstruction>
+        <lcInstruction/>
     </learningContentbody>
     <task id="task_i3g_jkh_1t">
         <title/>
@@ -36,8 +34,10 @@
                         <p>The first line (which begins with <tt>&lt;?xml</tt>) is an XML
                             declaration, which is a standard part of all XML files.</p>
                         <p>The second line is the DOCTYPE declaration, which tells DITA editors or
-                            DITA output generators that this is a DITA strict topic. The programs
-                            then use that information when validating the content of the topic. </p>
+                            DITA output generators that this is a DITA strict task topic. The
+                            programs then use that information when validating the content of the
+                            topic. The DOCTYPE will be different for each topic type that you create
+                            (including the general task). </p>
                     </info>
                 </step>
                 <!--<step><cmd>Depending on the editor you are using: </cmd><choices id="choices_uy2_lkh_1t"><choice><p><b>DITA-aware editor</b>: Use the File > New... command to create a new task topic. Make sure you don't use the general task. </p></choice><choice><p><b>Text editor</b>: Create a new file that contains this text:</p><pre>&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
@@ -71,6 +71,49 @@
    &lt;/taskbody></ph>
 &lt;/task></pre>
                     </stepxmp>
+                    <info>This is the essential part of a DITA strict task topic. The two remaining
+                        steps in this unit add the first two child elements to the taskbody.</info>
+                </step>
+                <step>
+                    <cmd>Inside the &lt;taskbody> element, add a &lt;prereq> element.</cmd>
+                    <info>The &lt;prereq> element lists prerequisites to perform the task. These
+                        prerequisites can include (but is not limited to):<ul id="ul_glj_1pb_bt">
+                            <li>Things the reader must have in hand</li>
+                            <li>Information the reader must have</li>
+                            <li>Previous tasks the reader must have accomplished</li>
+                        </ul></info>
+                    <stepxmp><ph>(The next two examples only show the contents of the &lt;taskbody>
+                            element; the other task elements are there, they’re just not shown, for
+                            clarity.)</ph><pre>&lt;taskbody>
+<ph outputclass="newchanged">   &lt;prereq>
+      &lt;ul>
+         &lt;li>(TEXT TBD)&lt;/li>
+      &lt;/ul>
+   &lt;/prereq></ph>
+
+&lt;/taskbody></pre></stepxmp>
+                </step>
+                <step>
+                    <cmd>After the &lt;prereq> element, add a &lt;context> element.</cmd>
+                    <info>The &lt;context> element describes the purpose of the task.  This can
+                        include background information or what the user will gain by performing the
+                        task. The &lt;context> should be relatively brief; if you need to provide
+                        more detailed background information, consider creating a concept topic. </info>
+                    <stepxmp>
+                        <pre>&lt;taskbody>
+   &lt;prereq>
+      &lt;ul>
+         &lt;li>(TEXT TBD)&lt;/li>
+      &lt;/ul>
+   &lt;/prereq>
+<ph outputclass="newchanged">   &lt;context>
+      &lt;p>(TEXT TBD)&lt;/p>     
+   &lt;/context></ph>
+
+&lt;/taskbody></pre>
+                    </stepxmp>
+                    <info>At this point, the task has a title, a set of prerequisites, and a
+                        context. The next lesson covers how to add the actual steps to the task. </info>
                 </step>
             </steps>
         </taskbody>
