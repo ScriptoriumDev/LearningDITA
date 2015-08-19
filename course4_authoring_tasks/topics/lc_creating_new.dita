@@ -17,7 +17,8 @@
         <taskbody>
             <steps id="steps_f5k_kkh_1t">
                 <step>
-                    <cmd>Make a copy of the file 1_new_task.dita and open it in your editor.</cmd>
+                    <cmd>Make a copy of the file task_sample_1.dita and open it in your
+                        editor.</cmd>
                     <info>
                         <note>If you are using a DITA-aware text editor, make sure you are in text
                             mode, rather than Author or visual mode. </note>
@@ -27,6 +28,7 @@
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 &lt;task id="my_first_task">
+   &lt;title>&lt;/title>
 
 &lt;/task></pre>
                     </stepxmp>
@@ -46,33 +48,32 @@
 &lt;/task></pre></choice><choice><p><b>Samples</b>: Make a copy of the file 1_new_task.dita and open it in your editor.</p></choice></choices></step>-->
                 <!--<step><cmd>If you are using a DITA-aware editor, switch to text view.</cmd><info>A DITA-aware editor will often create a </info></step>-->
                 <step>
-                    <cmd>Inside the &lt;task> element, add a &lt;title> element, and add the task
-                        title.</cmd>
+                    <cmd>Inside the &lt;title> element, add the task title.</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 &lt;task id="my_first_task">
-<ph outputclass="newchanged">   &lt;title>(TEXT TBD)&lt;/title></ph>
+<ph outputclass="newchanged">   &lt;title>Watching wild ducks&lt;/title></ph>
 
 &lt;/task></pre>
                     </stepxmp>
                 </step>
                 <step>
                     <cmd>After the &lt;title>, add a &lt;taskbody> element.</cmd>
-                    <info>As you have probably read before, the &lt;taskbody> contains all the
-                        actual content in the task. </info>
+                    <info>The &lt;taskbody> contains all the actual content in the task. </info>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 &lt;task id="my_first_task">
-   &lt;title>(TEXT TBD)&lt;/title>
+   &lt;title>Watching wild ducks&lt;/title>
 <ph outputclass="newchanged">   &lt;taskbody>
 
    &lt;/taskbody></ph>
 &lt;/task></pre>
                     </stepxmp>
                     <info>This is the essential part of a DITA strict task topic. The two remaining
-                        steps in this unit add the first two child elements to the taskbody.</info>
+                        steps in this unit add the first two child elements to the &lt;taskbody>
+                        element.</info>
                 </step>
                 <step>
                     <cmd>Inside the &lt;taskbody> element, add a &lt;prereq> element.</cmd>
@@ -86,9 +87,7 @@
                             element; the other task elements are there, they’re just not shown, for
                             clarity.)</ph><pre>&lt;taskbody>
 <ph outputclass="newchanged">   &lt;prereq>
-      &lt;ul>
-         &lt;li>(TEXT TBD)&lt;/li>
-      &lt;/ul>
+         &lt;p>Before you go watching wild ducks, make sure you know what a wild duck looks like.&lt;/p>
    &lt;/prereq></ph>
 
 &lt;/taskbody></pre></stepxmp>
@@ -102,12 +101,12 @@
                     <stepxmp>
                         <pre>&lt;taskbody>
    &lt;prereq>
-      &lt;ul>
-         &lt;li>(TEXT TBD)&lt;/li>
-      &lt;/ul>
+         &lt;p>Before you go watching wild ducks, make sure you know what a wild duck looks like.&lt;/p>
    &lt;/prereq>
 <ph outputclass="newchanged">   &lt;context>
-      &lt;p>(TEXT TBD)&lt;/p>     
+      &lt;p>Watching wild ducks can be calming and recreational. &lt;/p>
+      &lt;p>Read this to learn more about what you need to have a satisfying duck-watching
+         experience.   &lt;/p>
    &lt;/context></ph>
 
 &lt;/taskbody></pre>
