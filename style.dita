@@ -158,6 +158,10 @@
         plural “elements”. For example, “Each row can contain one or more &lt;stentry> elements”</p>
    <p>When referring to attributes, use the word “attribute”. Do not use an at-sign (@) before an
     attribute name; this is an XPath convention and means nothing to those learning DITA. </p>
+      <p>Use the proper apostrophe (’, U+2019) and quotation marks (“ and ”, U+201C and U+201D).
+        From the Macintosh keyboard, you can enter these with Option+}, Option+[ and Option+{. For
+        Windows, it’s probably a good idea to create an Oxygen code template, which you can
+        optionally associate with a keystroke.</p>
   </section>
   <section>
    <title>Standards for images and video</title>

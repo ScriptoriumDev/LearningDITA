@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_apv_sgk_bt">
+    <title>Finishing up the task</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-08-18"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup id="lcObjectivesGroup_tvl_vbh_1t">
+                <lcObjective>Add the &lt;results> element</lcObjective>
+                <lcObjective>Add the &lt;example> element</lcObjective>
+                <lcObjective>Add the &lt;postreq> element</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="45"/>
+        </lcDuration>
+        <lcInstruction>
+            <p>After you’ve added the steps, there are a handful of elements to add to show an
+                example of the entire task, to describe the results of having successfully performed
+                the task, and describe the subsequent actions the reader should take.</p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>
