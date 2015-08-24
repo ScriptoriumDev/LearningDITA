@@ -10,7 +10,16 @@
         </critdates>
     </prolog>
     <learningContentbody>
-        <lcInstruction/>
+        <lcInstruction>
+            <p>The minimal DITA task topic is much like the minimal topic discussed in previous
+                courses: a &lt;task> root element (with an id attribute) that contains a &lt;title>
+                element. </p>
+            <p>Following the &lt;title> element and an optional &lt;shortdesc> element, use a
+                &lt;taskbody> element to contain the task content. </p>
+            <p>Within the &lt;taskbody> the elements in a strict task conform to a very specific
+                order. The elements in the &lt;taskbody> are presented in this course in the order
+                in which they occur. </p>
+        </lcInstruction>
     </learningContentbody>
     <task id="task_i3g_jkh_1t">
         <title/>
