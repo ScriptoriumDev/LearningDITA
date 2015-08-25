@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_kqs_rks_zs">
+    <title>More advanced elements</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-08-19"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup id="lcObjectivesGroup_e2g_sks_zs">
+                <lcObjective>Introduce more advanced elements and identify best practices for adding
+                    them to a concept topic.</lcObjective>
+                <lcObjective>Add the &lt;codeblock>, &lt;codeph>, &lt;lq>, &lt;section>,
+                    &lt;draft-comment>, &lt;required-cleanup> elements to the concept.</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="1"/>
+        </lcDuration>
+        <lcIntro>This lesson introduces more advanced elements and shows how to add them to a
+            concept topic.</lcIntro>
+    </learningContentbody>
+</learningContent>
