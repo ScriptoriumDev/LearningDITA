@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_rxt_zl5_vr1">
+    <title>Concept topics</title>
+    <prolog><author>Sharon Burton</author>
+        <author href="http://www.scriptorium.com"  scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-04-28"/>
+        </critdates></prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>A concept topic answers the question “Why?” It provides background information about
+                a subject that the reader needs to know.</p>
+            <p>Concepts usually contain paragraphs of text and lists, but also include notes,
+                tables, and graphics needed to understand the ideas behind a particular subject.</p>
+            <p>Common elements used in a concept topic include:<ul id="ul_c5m_hm5_vr">
+                    <li>&lt;conbody> (the body of the concept topic)</li>
+                    <li>&lt;p> (a paragraph)</li>
+                    <li>&lt;ul> (an unordered or bulleted list)</li>
+                    <li>&lt;ol> (an ordered or numbered list)</li>
+                    <li>&lt;li> (a list item inside a &lt;ul> or &lt;ol>)</li>
+                    <li>&lt;fig> (a figure, including an optional title)</li>
+                    <li>&lt;image> (a graphic inside a figure, or inline in text)</li>
+                    <li>&lt;section> (a subdivision in the topic, with an optional title) </li>
+                </ul><draft-comment author="okeefe">add video here. 2:02 through 2:48 is a code
+                    example that describes a duckling concept topic. Note that the video needs to be
+                    modified because the &lt;shortdesc> does not adequately summarize the
+                    topic.</draft-comment><draft-comment author="asp">Will not add video to YouTube
+                    until preceding modification is made.</draft-comment></p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

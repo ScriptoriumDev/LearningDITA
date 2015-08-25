@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_yf5_qjp_wr">
+    <title>Related links</title>
+    <shortdesc/>
+    <learningContentbody>
+        <lcInstruction>
+            <p>At the end of a topic, you can insert a related-links element. Use related-links to
+                point at additional information that a reader might want.</p>
+            <p>Related links contain a link and link text. Here is an example:</p>
+            <pre>&lt;topic id="sample">
+    &lt;title>Sample title&lt;/title>
+    &lt;body>
+    ...
+    &lt;/body>
+    &lt;related-links>
+        &lt;link href="http://www.example.com" format="html" scope="external">
+            &lt;linktext>Sample link&lt;/linktext>
+        &lt;/link>
+    &lt;/related-links>
+&lt;/topic>        </pre>
+            <p>In the link element, you specify the target (using the href attribute), the format,
+                and the scope. For web links and any other link that is outside the current map
+                file, you must specify scope="external".</p>
+            <p>The linktext element contains the text that will become the link hotspot.</p>
+            <p>
+                <note>Avoid using related links for links among the topics in your
+                    map file. They suffer from the same limitations as inline cross-references—you
+                    can end up with broken links. Use relationship tables instead.</note>
+            </p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

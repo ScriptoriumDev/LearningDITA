@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_gxd_rry_5r2">
+    <title>Metadata</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe,
+            Scriptorium</author>
+        <author>Sharon Burton</author>
+        <critdates>
+            <created date="2015-05-01"/>
+            <revised modified="2015-05-15"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup>
+                <lcObjective>Define metadata.</lcObjective>
+                <lcObjective>Describe uses of metadata.</lcObjective>
+                <lcObjective>Show how to add metadata to topics. </lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="30"/>
+        </lcDuration>
+        <lcIntro>
+            <p>Metadata means “beyond data” or data about data. In XML content, metadata lets you classify and manipulate information. In DITA, you can assign metadata to topics, individual elements, and more. </p>
+        </lcIntro>
+    </learningContentbody>
+    <related-links>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/c_Types_of_Metadata.html"
+            format="html" scope="external">
+            <linktext>DITA Style Guide, Chapter 8, Metadata, conditional processing, and
+                indexing</linktext>
+        </link>
+        <link href="http://www.opentag.com/xfaq_lang.htm" scope="external" format="html">
+            <linktext>Language identification FAQ from opentag.com (addresses the use of xml:lang
+                for language identification)</linktext>
+        </link>
+
+    </related-links>
+
+</learningContent>

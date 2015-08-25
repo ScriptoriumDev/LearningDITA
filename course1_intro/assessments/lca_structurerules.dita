@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_icn_1d1_wr">
+ <title/>
+ <prolog>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+   Scriptorium</author>
+  <critdates>
+   <created date="2015-07-13"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcTrueFalse id="4">
+    <lcQuestion>The elements defined in DITA have very specific hierarchy and
+     relationships.</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_lrc_hjh_rs">
+     <lcAnswerOption>
+      <lcAnswerContent>True</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>False</lcAnswerContent>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>Structured authoring requires that the relationship of all elements is
+     clearly defined. </lcFeedbackIncorrect>
+   </lcTrueFalse>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

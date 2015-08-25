@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on 
+     github.com. See the accompanying LICENSE file for 
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="authoring">
+    <title>Creating DITA content</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+        <critdates>
+            <created date="2015-05-18"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcDuration>
+            <lcTime value="45"/>
+        </lcDuration>
+        <lcObjectives>
+            <lcObjectivesGroup>
+                <lcObjective>Describe how to create a DITA topic in a text editor.</lcObjective>
+                <lcObjective>Describe how to create a DITA topic in the &lt;oXygen/> XML
+                    editor.</lcObjective>
+                <lcObjective>Describe how to create notes, cautions, and other
+                    admonishments.</lcObjective>
+                <lcObjective>Describe how to create bulleted and numbered lists.</lcObjective>
+                <lcObjective>Distinguish block and inline elements.</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcIntro>
+            <p>
+                <draft-comment author="simonbate">Need an intro here...I wonder if this topic is
+                    complete at all. </draft-comment>
+            </p>
+        </lcIntro>
+    </learningContentbody>
+    <related-links>
+        <link href="http://webdesignfromscratch.com/html-css/css-block-and-inline/" scope="external" format="html"><linktext>Block versus inline elements, webdesignfromscratch.com</linktext></link>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/c_Syntax_and_Markup.html"
+            format="html" scope="external">
+            <linktext>DITA Style Guide, Chapter 3, Syntax and mark-up</linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/DITA1.2-spec.html" format="html"
+            scope="external">
+            <linktext>Darwin Information Typing Architecture (DITA) Version 1.2, OASIS
+                Standard</linktext>
+        </link>
+    </related-links>
+</learningContent>

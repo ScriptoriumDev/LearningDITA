@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="topics">
+ <title>DITA topics</title>
+ <prolog><author>Sharon Burton</author>
+  <author href="http://www.scriptorium.com"  scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+  <critdates>
+   <created date="2015-04-28"/>
+  </critdates></prolog>
+ <learningContentbody>
+  <lcObjectives>
+   <lcObjectivesGroup>
+    <lcObjective>Identify the common elements found in all topics.</lcObjective>
+    <lcObjective>Cite the standard topic types defined in DITA.</lcObjective>
+    <lcObjective>Identify the elements typically found in each topic type.</lcObjective>
+    <lcObjective>Define specialization and constraints.</lcObjective>
+   </lcObjectivesGroup>
+  </lcObjectives>
+  <lcDuration >
+   <lcTime value="45"/>
+  </lcDuration>
+  <lcInstruction>
+   <p>A DITA topic is a building block of content. </p>
+   <p>One of the fundamental principles of DITA is that different types of content require different
+    containers (topic types). That way the elements in the topic can be specific to the information
+    being described. </p>
+   <p>All DITA topic types are related to a common or generic topic type. The generic topic type is
+    then “specialized” into a number of specific topic types, each of which holds a specific type of
+    information.  The “standard” DITA topic types include:</p>
+   <ul id="ul_ekl_mcx_rs">
+    <li>Concept—contains conceptual information; answers the question “Why?”</li>
+    <li>Task—contains step-by-step procedural information; answers the question “How?”</li>
+    <li>Reference—contains reference information; answers the question “What?”</li>
+    <li>Glossary entry—defines a single term; answers the question “What does this mean?”</li>
+   </ul>
+   <p>This lesson introduces the generic topic type, then describes each of the standard topic types
+    and how you use them.  </p>
+  </lcInstruction>
+  
+ </learningContentbody>
+ <related-links>
+  <link href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/c_Topics_and_Information_Types.html" format="html" scope="external"><linktext>DITA Style Guide, Chapter 1</linktext></link>
+  <link href="http://www.scriptorium.com/books" scope="external" format="html">
+   <linktext>Technical Writing 101, Chapter 7</linktext>
+  </link>
+ </related-links>
+ 
+</learningContent>

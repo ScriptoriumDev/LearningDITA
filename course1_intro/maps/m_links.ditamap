@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Relationships</title>
+ <topicref href="../topics/links/lc_link_intro.dita">
+  <topicmeta>
+   <data name="lesson_id" value="8631"></data>
+  </topicmeta>
+  <topicref href="../topics/links/lc_maps.dita"/>
+  <topicref href="../topics/links/lc_transforming.dita"/>
+  <topicref href="../topics/links/lc_xrefs.dita"/>
+  <topicref href="../topics/links/lc_links.dita"/>
+  <topicref href="../topics/links/lc_relationships.dita"/>
+  <topicref href="../topics/links/lc_conrefs.dita"/>
+  <topicref href="../topics/lcc_assessment.dita" copy-to="lcc_assess_links.dita"  locktitle="yes">
+   <topicmeta>
+    <navtitle>Assessment for Creating relationships among topics</navtitle>
+   </topicmeta>
+   <topicref href="../assessments/links/lca_xref.dita"/>
+   <topicref href="../assessments/links/lca_relationships.dita"/>
+   <topicref href="../assessments/links/lca_weblink.dita"/>
+   <topicref href="../assessments/links/lca_conref.dita"/>
+   <topicref href="../assessments/links/lca_inline.dita"/>
+   <topicref href="../assessments/links/lca_linkcode.dita"/>
+   <topicref href="../assessments/links/lca_weblink2.dita"/>
+   <topicref href="../assessments/links/lca_reltable2.dita"/>
+   <topicref href="../assessments/links/lca_reltablemap.dita"/>
+   <topicref href="../assessments/links/lca_reltable.dita"/>
+   <topicref href="../assessments/links/lca_maps.dita"/>
+  </topicref>
+ </topicref>
+</map>
