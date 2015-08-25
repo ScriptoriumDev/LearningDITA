@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_kqs_rks_zs">
+    <title>Creating the steps</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-08-12"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup id="lcObjectivesGroup_e2g_sks_zs">
+                <lcObjective/>
+                <lcObjective>Identify the core elements found in a step.</lcObjective>
+                <lcObjective>Add a &lt;steps> element to the task</lcObjective>
+                <lcObjective>Add &lt;step> elements to the &lt;steps>, using &lt;cmd> and &lt;info>
+                    to provide additional information. </lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="1"/>
+        </lcDuration>
+        <lcInstruction>
+            <p>The core part of a task is the set of steps that the user is to perform. </p>
+            <p>In DITA task topics, the procedure the reader is to perform is contained in a
+                &lt;steps> element; the individual steps in that procedure are contained in
+                &lt;step> elements. </p>
+            <p>When output is generated from the task topic, the steps usually take the form of a
+                numbered list. The actual text that is used to identify each step (whether it’s
+                simply the number and some punctuation, or the word “Step” followed by a number) is
+                up to the transform implementation. When you're authoring a step, most DITA-savvy
+                editors will display step numbers beside each step.</p>
+            <p>DITA also allows you to create an unordered list for the steps, with the
+                &lt;steps-unordered> element. For more information about this element, please see
+                the DITA specification. </p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

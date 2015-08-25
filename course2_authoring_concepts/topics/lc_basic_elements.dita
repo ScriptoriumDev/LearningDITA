@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_hrm_xjh_1t">
+    <title>Adding basic elements to a concept topic</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-08-24"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Some of the most commonly-used elements in a concept topic include &lt;p>
+                (paragraph), &lt;ul> (unordered list), &lt;ol> (ordered list), and &lt;note> (note
+                or admonition).</p>
+            <draft-comment author="gretyl">Should we address the idea of using optional unique IDs
+                to help create references to specific elements? Or is that too advanced for this
+                course?</draft-comment>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_i3g_jkh_1t">
+        <title/>
+        <taskbody>
+            <steps id="steps_f5k_kkh_1t">
+                <step>
+                    <cmd>Inside the &lt;conbody> element, add a &lt;p> element and populate it as
+                        shown in the following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="my_first_concept">
+   &lt;title>Wild duck species&lt;/title>
+ &lt;conbody>
+<ph outputclass="newchanged">&lt;p>North American wild ducks belong to one of the following categories:&lt;/p></ph>
+   &lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>As you have probably read before, the &lt;p> element is used for body
+                        text. It can be used inside the &lt;conbody> element as well as inside many
+                        of &lt;conbody>'s containing elements.</info>
+                    <info>In general, it is considered best practice to use the &lt;p> element for
+                        any untagged text. As you will see in examples throughout this course, it is
+                        also best to use the &lt;p> element to tag text inside of list items, notes,
+                        and table entries. That way, if a list item is several paragraphs long, it
+                        will still be tagged consistently with other list items that are only a
+                        single paragraph.</info>
+                    <info>The &lt;p> element you just created will be used to introduce the next
+                        element: an unordered list.</info>
+                </step>
+                <step>
+                    <cmd>After the &lt;p> element, create a &lt;ul> element and populate it as shown
+                        in the following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="my_first_concept">
+   &lt;title>Wild duck species&lt;/title>
+  &lt;conbody>
+&lt;p>North American wild ducks belong to one of the following categories:&lt;/p>
+<ph outputclass="newchanged">&lt;ul>
+&lt;li>&lt;p>Dabbling ducks&lt;/p>&lt;/li>
+&lt;li>&lt;p>Diving ducks&lt;/p>&lt;/li>
+&lt;li>&lt;p>Sea ducks&lt;/p>&lt;/li>
+&lt;li>&lt;p>Whistling ducks&lt;/p>&lt;/li>
+&lt;li>&lt;p>Swans and geese&lt;/p>&lt;/li>
+&lt;/ul></ph>
+   &lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>As you have probably read before, the &lt;ul> element is used for
+                        unordered or bulleted lists. </info>
+                    <info>The &lt;ul> element contains the &lt;li> or list item element. Each
+                        &lt;li> element contains the text for a bulleted entry in the list.</info>
+                    <info>In the &lt;ul> element you just created, each &lt;li> element follows the
+                        best practice of containing a &lt;p> element around the text.</info>
+                </step>
+                <step>
+                    <cmd>After the &lt;ul> element, add an &lt;ol> element with an introductory
+                        &lt;p> element as shown in the following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="my_first_concept">
+   &lt;title>Wild duck species&lt;/title>
+   &lt;conbody>
+&lt;p>North American wild ducks belong to one of the following categories:&lt;/p>
+&lt;ul>
+&lt;li>&lt;p>Dabbling ducks&lt;/p>&lt;/li>
+&lt;li>&lt;p>Diving ducks&lt;/p>&lt;/li>
+&lt;li>&lt;p>Sea ducks&lt;/p>&lt;/li>
+&lt;li>&lt;p>Whistling ducks&lt;/p>&lt;/li>
+&lt;li>&lt;p>Swans and geese&lt;/p>&lt;/li>
+&lt;/ul>
+<ph outputclass="newchanged"> &lt;p>The longest species of dabbling ducks in North America are:&lt;/p>
+&lt;ol>
+&lt;li>&lt;p>Northern pintail&lt;/p>&lt;/li>
+&lt;li>&lt;p>Mallard&lt;/p>&lt;/li>
+&lt;li>&lt;p>American black duck&lt;/p>&lt;/li>
+&lt;/ol></ph>
+   &lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>As you have probably read before, the &lt;ol> element is used for ordered
+                        or numbered lists.<draft-comment author="gretyl">Say something here about
+                            &lt;ol> vs. &lt;steps>, since &lt;steps> won't be introduced until the
+                            task course?</draft-comment></info>
+                    <info>Like the &lt;ul> element, the &lt;ol> element contains &lt;li> elements.
+                        Each of the &lt;li> elements you just created also follow the best practice
+                        of containing a &lt;p> element around the text.</info>
+                </step>
+                <step>
+                    <cmd>After the &lt;ol> element, create a &lt;note> element and populate it as
+                        shown in the following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="my_first_concept">
+   &lt;title>Wild duck species&lt;/title>
+  &lt;conbody>
+&lt;p>North American wild ducks belong to one of the following categories:&lt;/p>
+&lt;ul>
+&lt;li>&lt;p>Dabbling ducks&lt;/p>&lt;/li>
+&lt;li>&lt;p>Diving ducks&lt;/p>&lt;/li>
+&lt;li>&lt;p>Sea ducks&lt;/p>&lt;/li>
+&lt;li>&lt;p>Whistling ducks&lt;/p>&lt;/li>
+&lt;li>&lt;p>Swans and geese&lt;/p>&lt;/li>
+&lt;/ul>
+&lt;p>The longest species of dabbling ducks in North America are:&lt;/p>
+&lt;ol>
+&lt;li>&lt;p>Northern pintail&lt;/p>&lt;/li>
+&lt;li>&lt;p>Mallard&lt;/p>&lt;/li>
+&lt;li>&lt;p>American black duck&lt;/p>&lt;/li>
+&lt;/ol>
+<ph outputclass="newchanged">&lt;note>&lt;p>Although the northern pintail is the longest dabbling duck, the mallard is generally
+   considered the largest because of its heavier body weight.&lt;/p>&lt;/note></ph>
+   &lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>As you have probably read before, the &lt;note> element is used to add
+                        admonitions, such as notes, warnings, or cautions, to the concept topic. The
+                        &lt;note> element you just created follows the best practice of containing a
+                        &lt;p> element around the text.</info>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>
