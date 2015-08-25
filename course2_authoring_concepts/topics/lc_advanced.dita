@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_hrm_xjh_1t">
+    <title>Adding more advanced elements</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-08-24"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>The &lt;codeblock> element is used to display a piece of code in the way that a user
+                would see it on a screen, typically in a monospace font, in PDF or HTML output.
+                Placing content inside the &lt;codeblock> element gives you control over line
+                breaks.</p>
+            <p>The &lt;codeph> element is used to display a single word or phrase inside a &lt;p>
+                the way code would be displayed. For example, if you mention an element in a
+                paragraph and wish to display only that element's name in a monospace font, the
+                &lt;codeph> element would be useful.</p>
+            <p>The &lt;lq> element is used to for long quotations. This element is generally used
+                for including a quote from an outside source in your content rather than (or in
+                addition to) linking to the source.</p>
+            <p>The &lt;section> element is used to divide the &lt;conbody> element into sub-sections
+                with individual titles. The &lt;section> element may contain the same elements that
+                the &lt;conbody> element contains. However, a &lt;section> element may only be
+                followed by another &lt;section> element, an &lt;example> element, or a
+                &lt;conbodydiv> element. DITA does not allow you to use main body elements such as
+                &lt;p>, &lt;ul>, or &lt;note> after the end of a section.</p>
+            <p>The &lt;draft-comment> element is used for authors, editors, or other content
+                contributors to insert comments and questions into the content while it is being
+                developed. Because the &lt;draft-comment> element can be hidden in the final output,
+                it is not necessary to delete draft comments from your content before the final
+                output is rendered.</p>
+            <p>The &lt;required-cleanup> element is used to contain content that has been tagged
+                incorrectly and must be updated to use the correct tags before the DITA file can be
+                considered valid. Any content inside the &lt;required-cleanup> element will
+                automatically be hidden in the final output.</p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_i3g_jkh_1t">
+        <title/>
+        <taskbody>
+            <steps id="steps_f5k_kkh_1t">
+                <step>
+                    <cmd>Make a copy of the file 1_concept_advanced.dita and open it in your
+                        editor.</cmd>
+                    <info>
+                        <note>If you are using a DITA-aware text editor, make sure you are in text
+                            mode, rather than Author or visual mode. </note>
+                    </info>
+                    <stepxmp>
+                        <p>You should see this:</p>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_advanced">
+&lt;conbody>
+&lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Inside the &lt;conbody> element, add the &lt;codeblock> element and
+                        populate it as shown in the following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_advanced">
+&lt;conbody>
+<ph outputclass="newchanged">&lt;codeblock>
+codeblock text
+&lt;/codeblock></ph>
+&lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>The &lt;codeblock> element isolates the piece of code content so that the
+                        tags in it exist for display purposes only and do not affect the DITA tags
+                        in your concept topic file.</info>
+                </step>
+                <step>
+                    <cmd>After the &lt;codeblock> element, add a &lt;p> element with a &lt;codeph>
+                        element inside it and populate it as shown in the following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_advanced">
+&lt;conbody>
+&lt;codeblock>
+codeblock text
+&lt;/codeblock>
+<ph outputclass="newchanged">&lt;p>text&lt;codeph>codeph text&lt;/codeph>text&lt;/p></ph>
+&lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>In the example you added, the &lt;codeph> element allows you to isolate
+                        the element name "()" and display it in a monospace font to indicate that it
+                        is a piece of code.</info>
+                </step>
+                <step>
+                    <cmd>After the &lt;p> element, add a &lt;lq> element and populate it as shown in
+                        the following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_advanced">
+&lt;conbody>
+&lt;codeblock>
+codeblock text
+&lt;/codeblock>
+&lt;p>text&lt;codeph>codeph text&lt;/codeph>text&lt;/p>
+<ph outputclass="newchanged">&lt;lq>
+lq text
+&lt;/lq></ph>
+&lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>In the example you added, the &lt;lq> element allows you to pull in a
+                        quote from ().</info>
+                </step>
+                <step>
+                    <cmd>After the &lt;lq> element, add a &lt;section> element as shown in the
+                        following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_advanced">
+&lt;conbody>
+&lt;codeblock>
+codeblock text
+&lt;/codeblock>
+&lt;p>text&lt;codeph>codeph text&lt;/codeph>text&lt;/p>
+&lt;lq>
+lq text
+&lt;/lq>
+<ph outputclass="newchanged">&lt;section>
+&lt;/section></ph>
+&lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>In the example you added, you created a subsection of the () topic.</info>
+                </step>
+                <step>
+                    <cmd>Inside the &lt;section> element, add &lt;title> and &lt;p> elements and
+                        populate them as shown in the following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_advanced">
+&lt;conbody>
+&lt;codeblock>
+codeblock text
+&lt;/codeblock>
+&lt;p>text&lt;codeph>codeph text&lt;/codeph>text&lt;/p>
+&lt;lq>
+lq text
+&lt;/lq>
+&lt;section>
+<ph outputclass="newchanged">&lt;title>text&lt;/title>
+&lt;p>text&lt;/p></ph>
+&lt;/section>
+&lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>DITA does not allow you to add another &lt;title> element inside the
+                        &lt;concept> element where a title already exists. However, by adding a
+                        &lt;section> element, you are essentially starting over with the body
+                        elements that are allowed inside of a concept.</info>
+                </step>
+                <step>
+                    <cmd>After the &lt;p> element in the new section, add a &lt;draft-comment>
+                        element and populate it as shown in the following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_advanced">
+&lt;conbody>
+&lt;codeblock>
+codeblock text
+&lt;/codeblock>
+&lt;p>text&lt;codeph>codeph text&lt;/codeph>text&lt;/p>
+&lt;lq>
+lq text
+&lt;/lq>
+&lt;section>
+&lt;title>text&lt;/title>
+&lt;p>text&lt;/p>
+<ph outputclass="newchanged">&lt;draft-comment>draft-comment text&lt;/draft-comment></ph>
+&lt;/section>
+&lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>With the example you added, you are telling other authors who may work on
+                        this topic that ().</info>
+                </step>
+                <step>
+                    <cmd>After the &lt;section> element, add a &lt;required-cleanup> element and
+                        populate it as shown in the following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_advanced">
+&lt;conbody>
+&lt;codeblock>
+codeblock text
+&lt;/codeblock>
+&lt;p>text&lt;codeph>codeph text&lt;/codeph>text&lt;/p>
+&lt;lq>
+lq text
+&lt;/lq>
+&lt;section>
+&lt;title>text&lt;/title>
+&lt;p>text&lt;/p>
+&lt;draft-comment>draft-comment text&lt;/draft-comment>
+&lt;/section>
+<ph outputclass="newchanged">&lt;required-cleanup>
+&lt;p>text&lt;/p>
+&lt;/required-cleanup></ph>
+&lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>Because the &lt;p> element is not allowed after the &lt;section> element,
+                        it should be surrounded with the &lt;required-cleanup> element to indicate
+                        that it must be either moved to a valid position (such as inside the
+                        section) or re-tagged with a valid element (such as the &lt;example>)
+                        element in order for the text inside the &lt;p> to be displayed in the final
+                        output.</info>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

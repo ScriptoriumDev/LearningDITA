@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on 
+     github.com. See the accompanying LICENSE file for 
+     applicable licenses.-->
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Best practices for concepts</title>
+ <topicref href="../topics/lc_best_practices_intro.dita">
+  <topicmeta lockmeta="yes">
+   <data name="lesson_id" value="9999"></data>
+  </topicmeta>
+<!--  <topicref href="../topics/lc_markup.dita"/>-->
+  <topicref href="../topics/lc_formatting.dita"/>
+  <topicref href="../topics/lc_consistency.dita"/>
+  <topicref href="../topics/lc_semantic.dita"/>
+  <topicref href="../topics/lcc_assessment.dita" copy-to="lcc_steps.dita" locktitle="yes">
+   <topicmeta>
+    <navtitle>Assessment for Best practices for concepts</navtitle>
+   </topicmeta>
+   <!--   <topicref href="../assessments/lca_htmldita.dita"/>-->
+  </topicref>
+ </topicref>
+ 
+</map>
