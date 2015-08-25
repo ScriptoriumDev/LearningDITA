@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <topicref href="../topics/tables/lc_tables.dita">
+        <topicmeta>
+            <data name="lesson_id" value="8630"></data>
+        </topicmeta>
+        <topicref href="../topics/tables/lc_table_simple.dita"/>
+        <topicref href="../topics/tables/lc_table_cals.dita"/>
+        <topicref href="../topics/tables/lc_best_practices.dita"/>
+        <topicref href="../topics/lcc_assessment.dita" copy-to="lcc_assess_tables.dita" locktitle="yes">
+            <topicmeta>
+                <navtitle>Assessment for Tables</navtitle>
+            </topicmeta>
+            <topicref href="../assessments/tables/lca_calselements.dita"/>
+            <topicref href="../assessments/tables/lca_stelements.dita"/>
+            <topicref href="../assessments/tables/lca_tableelements.dita"/>
+            <topicref href="../assessments/tables/lca_tablehead.dita"/>
+            <topicref href="../assessments/tables/lca_tableimages.dita"/>
+        </topicref>
+    </topicref>
+</map>

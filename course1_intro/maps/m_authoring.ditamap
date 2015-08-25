@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on 
+     github.com. See the accompanying LICENSE file for 
+     applicable licenses.-->
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <topicref href="../topics/authoring/lc_authoring_topics.dita">
+  <topicmeta>
+   <data name="lesson_id" value="8629"></data>
+  </topicmeta>
+  <topicref href="../topics/authoring/lc_create_topic.dita"/>
+  <topicref href="../topics/authoring/lc_create_topic_oxygen.dita" platform="oxygen"/>
+  <topicref href="../topics/authoring/lc_notes.dita"/>
+  <topicref href="../topics/authoring/lc_lists.dita"/>
+  <topicref href="../topics/authoring/lc_inline.dita"/>
+ 
+  <topicref href="../topics/lcc_assessment.dita" copy-to="lcc_assess_author.dita" locktitle="yes">
+   <topicmeta>
+    <navtitle>Assessment for Creating DITA content</navtitle>
+   </topicmeta>
+   <topicref href="../topics/lca_createtopic.dita"/>
+   <topicref href="../assessments/lca_notes.dita"/>
+   <topicref href="../assessments/lca_lists.dita"/>
+   <topicref href="../assessments/lca_blockinline.dita"/>
+  
+  </topicref>
+ </topicref>
+ 
+ 
+</map>

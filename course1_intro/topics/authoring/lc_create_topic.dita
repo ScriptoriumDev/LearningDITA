@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_psc_gxq_bs">
+    <title>Creating a topic in a text editor</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+        <critdates>
+            <created date="2015-05-18"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>DITA files are XML, and XML is plain text. Therefore, you can create an XML file in
+                any text editor.</p>
+            <p>A basic DITA topic needs an XML declaration, a DOCTYPE declaration, a topic, an id attribute on the topic, and a title. That’s it.</p>
+            <p>Here is a minimal valid topic:</p>
+            <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+&lt;topic id="myfirsttopic">
+  &lt;title>Hello world&lt;/title>
+&lt;/topic>
+</pre>
+            <p>This topic is valid, but it is not particularly useful because it doesn’t have any
+                body content. To make a topic useful, you need something more like this:</p>
+            <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+&lt;topic id="myfirsttopic">
+  &lt;title>Hello world&lt;/title>
+&lt;body>
+  &lt;p>Here is a paragraph&lt;/p>
+  &lt;ul>
+    &lt;li>bulleted lists are nice&lt;/li>
+    &lt;li>especially if you have at least two items&lt;/li>
+  &lt;/ul>
+  &lt;note>And don't forget the notes.&lt;/note>
+&lt;/body>
+&lt;/topic></pre>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

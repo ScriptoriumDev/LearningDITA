@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_tvf_ycr_bs">
+    <title>Notes, cautions, and warnings</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-05-18"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>The &lt;note> element lets you create notes, cautions, warnings, and other
+                admonishments. </p>
+            <pre>&lt;note>
+Most surface-feeding ducks are agile and will take to the air easily. Approach these ducks slowly.
+&lt;/note></pre>
+            <p>The type attribute for the &lt;note> element allows you to indicate different kinds
+                of notes. DITA defines a number of values for the type attribute:<ul
+                    id="ul_irt_jdr_bs">
+                    <li>note (the default)</li>
+                    <li>attention</li>
+                    <li>danger</li>
+                    <li>caution</li>
+                    <li>important</li>
+                    <li>tip</li>
+                </ul></p>
+            <pre>&lt;note type="warning">
+Do not feed bread to ducks. It is not a natural food for them and can be unhealthy. 
+It’s much better to feed them grapes or cracked corn. 
+&lt;/note></pre>
+            <p>These are the most common attribute values. There are additional attribute values
+                available, along with a catch-all “other” attribute value, which you use with the
+                othertype attribute to specify an alternate note type. </p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

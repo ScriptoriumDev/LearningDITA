@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on 
+     github.com. See the accompanying LICENSE file for 
+     applicable licenses.-->
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <topicref href="../topics/lc_dita_intro.dita">
+  <topicmeta lockmeta="yes">
+   <data name="lesson_id" value="8626"></data>
+  </topicmeta>
+  <topicref href="../topics/lc_markup.dita"/>
+  <topicref href="../topics/lc_structure.dita"/>
+  <topicref href="../topics/lc_topic.dita"/>
+  <topicref href="../topics/lcc_assessment.dita" copy-to="lcc_assess_basic.dita" locktitle="yes">
+   <topicmeta>
+    <navtitle>Assessment for What is DITA?</navtitle>
+   </topicmeta>
+   <topicref href="../assessments/lca_htmldita.dita"/>
+   <topicref href="../assessments/lca_structurerules.dita"/>
+   <topicref href="../assessments/lca_structuredauthoring.dita"/>
+   <topicref href="../assessments/lca_dita.dita"/>
+   <topicref href="../assessments/lca_validtopic.dita"/>
+   <topicref href="../assessments/lca_element.dita"/>
+   <topicref href="../assessments/lca_content.dita"/>
+   <topicref href="../assessments/lca_open.dita"/>
+  </topicref>
+ </topicref>
+ 
+</map>

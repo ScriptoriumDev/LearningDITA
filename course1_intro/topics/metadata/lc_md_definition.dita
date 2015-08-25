@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_rxt_zl5_vr2">
+    <title>What is metadata?</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author>Sharon Burton</author>
+        <critdates>
+            <created date="2015-05-01"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p><i>Metadata</i> provides information about information. For example, word processing
+                applications often have document properties, which tell you who created the file and
+                on what date it was last modified. The author and modification date in the document
+                properties are not part of the text that is displayed. Document properties are
+                metadata about the document itself. </p>
+            <p>Metadata provides different ways to classify information. For example, you can:<ul
+                    id="ul_awn_k1w_wr">
+                    <li>Label information with a document type, like “white paper” or
+                        “proposal”</li>
+                    <li>Associate information with a specific product number</li>
+                    <li>Indicate a user level, like “beginner,” “intermediate,” or “expert”</li>
+                    <li>Indicate the audience for the content, like “manager” or “employee” </li>
+                    <li>Provide status information for a topic, like “draft,” “review,” or “final” </li>
+                    <li>Provide an expiration date when information is no longer valid</li>
+                </ul></p>
+            <p>After you assign metadata to your content, you (or your reader) can use it to:<ul
+                    id="ul_ex4_11w_wr">
+                    <li>Find information efficiently </li>
+                    <li>Support governance effort (control when information is made public or
+                        removed from a web site)</li>
+                    <li>Personalize information (your reader could request only beginner
+                        information)</li>
+                    <li>Filter information for different delivery variants (such as Windows or
+                        Macintosh)</li>
+                    <li>Reuse information efficiently</li>
+                    <li>Indicate the language used in content</li>
+                    <li>Manage project status</li>
+                </ul></p>
+            <p>In DITA and other XML formats, metadata is encoded inside your topics, either at the
+                topic level or on specific elements. You can manipulate DITA content using those
+                metadata values.</p>
+            <p>DITA requires one piece of metadata; every topic must have an id attribute. These IDs
+                are often assigned automatically by authoring tools or content management systems.
+                Here is an example of a topic with an id attribute:</p>
+            <pre>&lt;topic <b>id="xyz"</b>>
+   &lt;title>Your title here&lt;/title>
+   &lt;body>
+      ....
+   &lt;/body>
+&lt;/topic></pre>
+            <p>Other elements can use the id attribute. For example the id attribute on a table
+                allows you to create a cross-reference to it. Most authoring tools automatically
+                assign IDs to elements that might be cross-referenced.  </p>
+            <p>Your organization or your DITA setup may require additional metadata. It’s common to
+                include the language of the topic with the xml:lang attribute.</p>
+            <pre>&lt;topic id="xyz" xml:lang="en-us">
+&lt;topic id="abc" xml:lang="de-de"></pre>
+            <p>As a general rule, your readers do not see the metadata; they see the results of
+                filtering or use the metadata when they search the content.</p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>
