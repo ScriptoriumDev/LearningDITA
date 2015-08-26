@@ -77,7 +77,10 @@
                     </stepxmp>
                     <info>The &lt;ul> element is used for unordered or bulleted lists. </info>
                     <info>The &lt;ul> element contains the &lt;li> or list item element. Each
-                        &lt;li> element contains the text for a bulleted entry in the list.</info>
+                        &lt;li> element contains the text for a bulleted entry in the list.
+                            <draft-comment author="simonbate">I would be more specific here: &lt;ul>
+                            must contain at least one &lt;li> element (and it can only contain
+                            &lt;li> elements).</draft-comment></info>
                     <info>Each &lt;li> element follows the best practice of wrapping a &lt;p>
                         element around the text.</info>
                 </step>
@@ -113,7 +116,9 @@
                             course?</draft-comment><draft-comment author="okeefe"
                             >Yes.</draft-comment></info>
                     <info>Like the &lt;ul> element, the &lt;ol> element contains &lt;li> elements.
-                        Each of the &lt;li> elements wraps a &lt;p> element around the text.</info>
+                        Each of the &lt;li> elements wraps a &lt;p> element around the
+                            text.<draft-comment author="simonbate">Again, one or more &lt;li>
+                            elements.</draft-comment></info>
                 </step>
                 <step>
                     <cmd>After the &lt;ol> element, create a &lt;note> element and populate it as

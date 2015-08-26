@@ -21,6 +21,8 @@
                 attribute) that contains a &lt;title> element. </p>
             <p>After the &lt;title> element and an optional &lt;shortdesc> or &lt;abstract> element,
                 the &lt;conbody> element contains the concept itself. </p>
+            <draft-comment author="simonbate">Say more about what's allowed in the conbody, pointing
+                off to other references, if need be, but I think this is an important point. </draft-comment>
         </lcInstruction>
     </learningContentbody>
     <task id="task_i3g_jkh_1t">
