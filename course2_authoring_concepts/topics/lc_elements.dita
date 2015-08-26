@@ -11,14 +11,26 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
+            <p>
+                <draft-comment author="okeefe">I think this should probably be a bulleted list, with
+                    some sort of "here are some other important elements: intro.</draft-comment>
+            </p>
             <p>The &lt;fn> element is used to add footnotes to a concept topic.</p>
-            <p>The &lt;menucascade> element allows you to insert a series of menu options to follow,
-                with arrows between each option showing the user where to go next. Each menu option
-                inside the &lt;menucascade> element is contained in a &lt;uicontrol> element.</p>
-            <p>The &lt;dl> element is used to build definition lists. The definition list contains
-                entries, tagged with the &lt;dlentry> element, and each entry contains a term
-                (tagged with the &lt;dt> element) and a definition (tagged with the &lt;dd>
-                element). </p>
+            <p>
+                <draft-comment author="okeefe">global comment: not just concepts. Almost all of
+                    these should say The &lt;fn> element lets you insert a footnote. They are not
+                    specific to the concept topic, so remove that throughout, unless the element is
+                    in fact concept-specific, like conbody.</draft-comment>
+            </p>
+            <p>The &lt;menucascade> element lets you tag a hierarchy of menu choices (such as File,
+                Save As). Each item inside the &lt;menucascade> element is contained in a
+                &lt;uicontrol> element.</p>
+            <p>The &lt;dl> element specifies definition lists <draft-comment author="okeefe">what is
+                    a definition list? How is it different from a glossary entry?</draft-comment>.
+                The definition list contains entries, tagged with the &lt;dlentry> element, and each
+                entry contains a term (tagged with the &lt;dt> element) and a definition (tagged
+                with the &lt;dd> element). <draft-comment author="okeefe">avoid "is used to".
+                    Passive. Global.</draft-comment></p>
             <p>Continue using the file l_concept_elements.dita to add each of these elements to your
                 example file.</p>
         </lcInstruction>
@@ -42,9 +54,9 @@
 &lt;/concept></pre>
                     </stepxmp>
                     <info>The &lt;fn> element indicates where the footnote reference number will
-                        appear inside the paragraph. The text inside the &lt;fn> element will
-                        automatically be displayed at the bottom of the page or end of the topic
-                        when the topic is generated into PDF or HTML output.</info>
+                        appear inside the paragraph. By default, the text inside the &lt;fn> element
+                        is displayed at the bottom of the page (for PDF) or end of the topic (for
+                        HTML) when you generate output from the file.</info>
                 </step>
                 <step>
                     <cmd>After the last &lt;p> element, add a new &lt;p> element with a
@@ -110,11 +122,10 @@
    &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
-                    <info>If a &lt;uicontrol> element is followed by another &lt;uicontrol> element,
-                        an arrow symbol will automatically be inserted between them to indicate the
-                        order of the menu options. </info>
+                    <info>By default, an arrow symbol is inserted between &lt;uicontrol> elements in
+                        the output to indicate the hierarchy of the menu options. </info>
                     <info>With the &lt;menucascade> and &lt;uicontrol> elements in the example you
-                        added, the user now knows to go to "File," then "New," then
+                        added, the user now knows to click on "File," then "New," then
                         "Spreadsheet."</info>
                 </step>
                 <step>
@@ -182,7 +193,8 @@
 &lt;/concept></pre>
                     </stepxmp>
                     <info>The &lt;dt> element contains the term, and the &lt;dd> element contains
-                        its definition.</info>
+                        its definition.<draft-comment author="okeefe">OK, I had no idea that
+                            bantam-weight was a DUCK classification!</draft-comment></info>
                 </step>
                 <step>
                     <cmd>After the &lt;dlentry> element, add three more &lt;dlentry> elements and
