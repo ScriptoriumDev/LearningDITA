@@ -11,7 +11,10 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>Some of the most commonly used elements in a concept topic include &lt;p>
+            <draft-comment author="simonbate">I think it's important to say something here about the
+                content model for conbody (that it's wide open; as long as the element is allowed in
+                a conbody, it can be in any order).</draft-comment>
+            <p>Some of the most commonly-used elements in a concept topic include &lt;p>
                 (paragraph), &lt;ul> (unordered list), &lt;ol> (ordered list), and &lt;note> (note
                 or admonition).</p>
             <draft-comment author="gretyl">Should we address the idea of using optional unique IDs
