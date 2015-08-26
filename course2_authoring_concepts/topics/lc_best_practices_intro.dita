@@ -23,6 +23,8 @@
                 author="gretyl">At the moment, we cover separation of content and formatting,
                 consistency, and semantically rich content in this lesson. Should we talk about
                 creating unique IDs for certain elements? Creating outputclasses as a way to offset
-                tag abuse? Or is that too advanced for this course?</draft-comment></lcIntro>
+                tag abuse? Or is that too advanced for this course?</draft-comment><draft-comment
+                author="Bill Swallow">I'd suggest holding off on unique IDs until we cover xrefs and
+                such. This is just basic building blocks for concepts.</draft-comment></lcIntro>
     </learningContentbody>
 </learningContent>
