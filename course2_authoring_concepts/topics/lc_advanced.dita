@@ -30,10 +30,16 @@
             <p>The &lt;draft-comment> element lets you insert comments and questions into the
                 content while it is being developed. By default, the &lt;draft-comment> element is
                 hidden in the final output, so you can render output without delete all draft
-                comments. (You have to decide whether you're willing to risk it, though!)</p>
+                comments. (You have to decide whether you're willing to risk it,
+                    though!)<draft-comment author="Bill Swallow">"...without delete..." And, what
+                    are they risking by using draft-comment if it's hidden in final output? I think
+                    some context is missing, but for this level of training, I think it's safe to
+                    assume default handling and NOT publishing comments.</draft-comment></p>
             <p>The &lt;required-cleanup> element lets you wrap content that is tagged incorrectly
                 and needs to be fixed. By default, any content inside the &lt;required-cleanup>
-                element is hidden in output.</p>
+                element is hidden in output.<draft-comment author="Bill Swallow">Not just tagged
+                    incorrectly but content that is incorrect or otherwise not ready for publishing.
+                    Kind of an insurance against publishing misinformation...</draft-comment></p>
         </lcInstruction>
     </learningContentbody>
     <task id="task_i3g_jkh_1t">
