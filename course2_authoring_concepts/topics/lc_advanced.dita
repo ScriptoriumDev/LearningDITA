@@ -23,11 +23,12 @@
                 for including a quote from an outside source in your content rather than (or in
                 addition to) linking to the source.</p>
             <p>The &lt;section> element is used to divide the &lt;conbody> element into sub-sections
-                with individual titles. The &lt;section> element may contain the same elements that
-                the &lt;conbody> element contains. However, a &lt;section> element may only be
-                followed by another &lt;section> element, an &lt;example> element, or a
-                &lt;conbodydiv> element. DITA does not allow you to use main body elements such as
-                &lt;p>, &lt;ul>, or &lt;note> after the end of a section.</p>
+                with individual titles. If you find that you are adding many sections or sections of
+                substantial length to a topic, consider making each of those sections into its own
+                topic instead. The &lt;section> element cannot contain other &lt;section> elements
+                and can only be followed by another &lt;section> element, an &lt;example> element,
+                or a &lt;conbodydiv> element. DITA does not allow you to use main body elements such
+                as &lt;p>, &lt;ul>, or &lt;note> after the end of a section.</p>
             <p>The &lt;draft-comment> element is used for authors, editors, or other content
                 contributors to insert comments and questions into the content while it is being
                 developed. Because the &lt;draft-comment> element can be hidden in the final output,
@@ -69,14 +70,20 @@
 &lt;concept id="concept_advanced">
 &lt;conbody>
 <ph outputclass="newchanged">&lt;codeblock>
-codeblock text
+duckdata> add entry (mallard)
+;
+1 entry added (0.05 sec)
+duckdata> _
 &lt;/codeblock></ph>
 &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
-                    <info>The &lt;codeblock> element isolates the piece of code content so that the
+                    <info>The &lt;codeblock> element isolates the piece of code content so that any
                         tags in it exist for display purposes only and do not affect the DITA tags
-                        in your concept topic file.</info>
+                        in your concept topic file. The &lt;codeblock> element also allows you to
+                        control line breaks. In the example you added, the text inside the
+                        &lt;codeblock> element shows an entry being added to a database using the
+                        command line.</info>
                 </step>
                 <step>
                     <cmd>After the &lt;codeblock> element, add a &lt;p> element with a &lt;codeph>
@@ -86,16 +93,16 @@ codeblock text
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="concept_advanced">
 &lt;conbody>
-&lt;codeblock>
-codeblock text
+...
 &lt;/codeblock>
-<ph outputclass="newchanged">&lt;p>text&lt;codeph>codeph text&lt;/codeph>text&lt;/p></ph>
+<ph outputclass="newchanged">&lt;p>To add a duck species to your database, type &lt;codeph>add entry&lt;/codeph> followed by the name of
+   the duck in parentheses into the command line and press Enter.&lt;/p></ph>
 &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
                     <info>In the example you added, the &lt;codeph> element allows you to isolate
-                        the element name "()" and display it in a monospace font to indicate that it
-                        is a piece of code.</info>
+                        the words "add entry" and display them in a monospace font to indicate that
+                        they are a command.</info>
                 </step>
                 <step>
                     <cmd>After the &lt;p> element, add a &lt;lq> element and populate it as shown in
@@ -105,18 +112,17 @@ codeblock text
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="concept_advanced">
 &lt;conbody>
-&lt;codeblock>
-codeblock text
-&lt;/codeblock>
-&lt;p>text&lt;codeph>codeph text&lt;/codeph>text&lt;/p>
-<ph outputclass="newchanged">&lt;lq>
-lq text
-&lt;/lq></ph>
+...
+&lt;/p>
+<ph outputclass="newchanged">&lt;lq>How much fairer than the pool before the farmers door, in which his ducks swim! Hither the
+   clean wild ducks come. Nature has no human inhabitant who appreciates her. The birds with their
+   plumage and their notes are in harmony with the flowers, but what youth or maiden conspires with
+   the wild luxuriant beauty of Nature?&lt;/lq></ph>
 &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
                     <info>In the example you added, the &lt;lq> element allows you to pull in a
-                        quote from ().</info>
+                        quote from Walden by Henry David Thoreau.</info>
                 </step>
                 <step>
                     <cmd>After the &lt;lq> element, add a &lt;section> element as shown in the
@@ -126,12 +132,7 @@ lq text
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="concept_advanced">
 &lt;conbody>
-&lt;codeblock>
-codeblock text
-&lt;/codeblock>
-&lt;p>text&lt;codeph>codeph text&lt;/codeph>text&lt;/p>
-&lt;lq>
-lq text
+...
 &lt;/lq>
 <ph outputclass="newchanged">&lt;section>
 &lt;/section></ph>
@@ -148,24 +149,20 @@ lq text
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="concept_advanced">
 &lt;conbody>
-&lt;codeblock>
-codeblock text
-&lt;/codeblock>
-&lt;p>text&lt;codeph>codeph text&lt;/codeph>text&lt;/p>
-&lt;lq>
-lq text
-&lt;/lq>
+...
 &lt;section>
-<ph outputclass="newchanged">&lt;title>text&lt;/title>
-&lt;p>text&lt;/p></ph>
+<ph outputclass="newchanged">&lt;title>Sharing your duck database&lt;/title>
+&lt;p>Export your duck database as HTML output to make it easy to share on your website. You can
+    also offer your database to users as a download.&lt;/p></ph>
 &lt;/section>
 &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
                     <info>DITA does not allow you to add another &lt;title> element inside the
                         &lt;concept> element where a title already exists. However, by adding a
-                        &lt;section> element, you are essentially starting over with the body
-                        elements that are allowed inside of a concept.</info>
+                        &lt;section> element, you are essentially starting over with the &lt;title>
+                        element and other main body elements that are allowed inside of a
+                        concept.</info>
                 </step>
                 <step>
                     <cmd>After the &lt;p> element in the new section, add a &lt;draft-comment>
@@ -175,17 +172,12 @@ lq text
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="concept_advanced">
 &lt;conbody>
-&lt;codeblock>
-codeblock text
-&lt;/codeblock>
-&lt;p>text&lt;codeph>codeph text&lt;/codeph>text&lt;/p>
-&lt;lq>
-lq text
-&lt;/lq>
+...
 &lt;section>
-&lt;title>text&lt;/title>
-&lt;p>text&lt;/p>
-<ph outputclass="newchanged">&lt;draft-comment>draft-comment text&lt;/draft-comment></ph>
+&lt;title>Sharing your duck database&lt;/title>
+&lt;p>Export your duck database as HTML output to make it easy to share on your website. You can
+    also offer your database to users as a download.&lt;/p>
+<ph outputclass="newchanged">&lt;draft-comment>Are you sure you want to offer a download?&lt;/draft-comment></ph>
 &lt;/section>
 &lt;/conbody>
 &lt;/concept></pre>
@@ -200,21 +192,18 @@ lq text
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="concept_advanced">
+
 &lt;conbody>
-&lt;codeblock>
-codeblock text
-&lt;/codeblock>
-&lt;p>text&lt;codeph>codeph text&lt;/codeph>text&lt;/p>
-&lt;lq>
-lq text
-&lt;/lq>
+...
 &lt;section>
-&lt;title>text&lt;/title>
-&lt;p>text&lt;/p>
-&lt;draft-comment>draft-comment text&lt;/draft-comment>
+&lt;title>Sharing your duck database&lt;/title>
+&lt;p>Export your duck database as HTML output to make it easy to share on your website. You can
+    also offer your database to users as a download.&lt;/p>
+&lt;draft-comment>Are you sure you want to offer a download?&lt;/draft-comment>
 &lt;/section>
 <ph outputclass="newchanged">&lt;required-cleanup>
-&lt;p>text&lt;/p>
+&lt;p>Consider giving users the option to send feedback or suggested entries for your duck
+    database.&lt;/p>
 &lt;/required-cleanup></ph>
 &lt;/conbody>
 &lt;/concept></pre>
