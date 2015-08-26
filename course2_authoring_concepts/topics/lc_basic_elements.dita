@@ -11,16 +11,16 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <draft-comment author="simonbate">I think it's important to say something here about the
-                content model for conbody (that it's wide open; as long as the element is allowed in
-                a conbody, it can be in any order).</draft-comment>
             <p>Some of the most commonly-used elements in a concept topic include &lt;p>
                 (paragraph), &lt;ul> (unordered list), &lt;ol> (ordered list), and &lt;note> (note
-                or admonition).</p>
-            <draft-comment author="gretyl">Should we address the idea of using optional unique IDs
-                to help create references to specific elements? Or is that too advanced for this
-                course? </draft-comment>
-            <draft-comment author="okeefe">Too advanced. Sarah</draft-comment>
+                or admonition). These elements were covered in the Introduction to DITA course. This
+                lesson gives a brief review of these elements and shows how to add them to a concept
+                topic.</p>
+            <p>The &lt;conbody> element has an open content model. This means that the elements
+                contained in &lt;conbody> are not required to follow a strict sequence. As long as
+                an element is allowed inside &lt;conbody>, it can appear in any order. The
+                exceptions are the &lt;section> and &lt;example> elements, which can only be
+                followed by other &lt;section> or &lt;example> elements.</p>
         </lcInstruction>
     </learningContentbody>
     <task id="task_i3g_jkh_1t">
@@ -40,18 +40,17 @@
    &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
-                    <info>As you have probably read before, the &lt;p> element is used for body
-                        text. It can be used inside the &lt;conbody> element as well as inside many
-                        of &lt;conbody>'s containing elements.<draft-comment author="okeefe"
-                            >"untagged text" below. There is no such thing in XML, and the term
-                            itself is confusing because of the elements/tagging. Find a synonym and
-                            use it instead. Maybe any body text or "regular" text? Not
-                            sure.</draft-comment></info>
-                    <info>Use the &lt;p> element for any untagged text. As you will see in examples
-                        throughout this course, we recommend using the &lt;p> element to tag text
-                        inside list items, notes, and table entries. &lt;p> elements are needed for
-                        list items that are several paragraphs long, and wrapping single items in
-                        &lt;p> keeps them all consistent. </info>
+                    <info>The &lt;p> element is used for body text. It can be used inside the
+                        &lt;conbody> element as well as inside many of &lt;conbody>'s containing
+                        elements.</info>
+                    <info>
+                        <note>Use the &lt;p> element for any body text that does not need a more
+                            specific element tag. As you will see in examples throughout this
+                            course, we recommend using the &lt;p> element to tag text inside list
+                            items, notes, and table entries. &lt;p> elements are needed for list
+                            items that are several paragraphs long, and wrapping single items in
+                            &lt;p> keeps them all consistent.</note>
+                    </info>
                     <info>The &lt;p> element you just created introduces the next element: an
                         unordered list.</info>
                 </step>
@@ -107,13 +106,15 @@
    &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
-                    <info>The &lt;ol> element is used for ordered or numbered lists.<draft-comment
-                            author="gretyl">Say something here about &lt;ol> vs. &lt;steps>, since
-                            &lt;steps> won't be introduced until the task
-                            course?</draft-comment><draft-comment author="okeefe"
-                            >Yes.</draft-comment></info>
+                    <info>The &lt;ol> element is used for ordered or numbered lists.</info>
                     <info>Like the &lt;ul> element, the &lt;ol> element contains &lt;li> elements.
                         Each of the &lt;li> elements wraps a &lt;p> element around the text.</info>
+                    <info>
+                        <note>Use the &lt;ol> element only to show that the list items should appear
+                            in a certain order, not to create step-by-step instructions. The task
+                            topic is intended for instructional content and provides a more
+                            semantically rich structure for steps than the concept.</note>
+                    </info>
                 </step>
                 <step>
                     <cmd>After the &lt;ol> element, create a &lt;note> element and populate it as

@@ -20,10 +20,11 @@
                 with the element that most closely reflects what the content is and how it should be
                 used. For example, use elements such as &lt;term> or &lt;cite> to highlight
                 important words rather than simply using &lt;b> or &lt;i>.</p>
-            <draft-comment author="gretyl">Since the task course comes later, should we get into the
-                use of ordered list vs. steps here? </draft-comment>
-            <draft-comment author="okeefe">add "it is best to" to my list of "do not
-                use"</draft-comment>
+            <p>Proper use of topic types also makes your content more semantically rich. For
+                example, write instructional content in a task topic instead of a concept topic.
+                That way, you can use the structure that DITA provides for creating steps, which
+                provides much better information about the steps than using the &lt;ol> element in a
+                concept topic.</p>
         </lcInstruction>
     </learningContentbody>
 </learningContent>

@@ -12,11 +12,9 @@
     <learningContentbody>
         <lcInstruction>
             <p>You can add images to a concept topic in one of two ways: by placing it in the body
-                of the concept topic, or by placing it inside a &lt;fig> (figure) element. If you
-                wish to give your image a title or caption, placing it inside a figure is the best
-                    choice.<draft-comment author="okeefe">no "wishing" or "desire" while we're at
-                    it. want or need. Try If you image needs a title or a caption, place it inside a
-                    &lt;fig> element.</draft-comment></p>
+                of the concept topic, or by placing it inside a &lt;fig> (figure) element. </p>
+            <p>The &lt;fig> element contains the &lt;title> and &lt;image> elements. If your image
+                needs a title or caption, place it inside a &lt;fig> element.</p>
         </lcInstruction>
     </learningContentbody>
     <task id="task_a2s_dvs_zs">
@@ -52,11 +50,7 @@
                     </stepxmp>
                     <info>The &lt;image> element you added contains a link (href) to the location
                         where the image file lives. A link inside an &lt;image> element can point to
-                        the filepath for an image on a server or to a web link for an
-                            image.<draft-comment author="gretyl">Should we address width and other
-                            image-related attributes here, or is this getting into too much
-                            detail?</draft-comment><draft-comment author="okeefe">too much
-                            detail</draft-comment></info>
+                        the filepath for an image on a server or to a web link for an image.</info>
                 </step>
                 <step>
                     <cmd>After the &lt;image> element, add a &lt;fig> element as shown in the
@@ -81,11 +75,12 @@
                         &lt;image> element. The &lt;title> element allows you to associate a caption
                         with your image. The &lt;image> element is structured the same way whether
                         it is inside a &lt;fig> element or inside the &lt;conbody> element.</info>
-                    <info>The &lt;fig> element can contain more than one &lt;image>
-                            element.<draft-comment author="okeefe">probably a good spot to point out
-                            that &lt;title> always goes above &lt;image> but title doesn't
-                            necessarily appear above image in output. Could be moved to all sorts of
-                            places.</draft-comment></info>
+                    <info>
+                        <note>The &lt;title> element always goes before the &lt;image> element in
+                            DITA, but the caption does not necessarily have to appear above the
+                            image in the final output.</note>
+                    </info>
+                    <info>The &lt;fig> element can contain more than one &lt;image> element. </info>
                 </step>
             </steps>
         </taskbody>
