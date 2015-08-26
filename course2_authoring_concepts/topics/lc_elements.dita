@@ -15,7 +15,10 @@
                 <draft-comment author="okeefe">I think this should probably be a bulleted list, with
                     some sort of "here are some other important elements: intro.</draft-comment>
             </p>
-            <p>The &lt;fn> element is used to add footnotes to a concept topic.</p>
+            <p><draft-comment author="Bill Swallow">Should also include &lt;term>, &lt;cite>, and
+                    &lt;varname> if referencing them as better contextual choices in the previous
+                    topic.</draft-comment>The &lt;fn> element is used to add footnotes to a concept
+                topic.</p>
             <p>
                 <draft-comment author="okeefe">global comment: not just concepts. Almost all of
                     these should say The &lt;fn> element lets you insert a footnote. They are not
@@ -25,12 +28,14 @@
             <p>The &lt;menucascade> element lets you tag a hierarchy of menu choices (such as File,
                 Save As). Each item inside the &lt;menucascade> element is contained in a
                 &lt;uicontrol> element.</p>
-            <p>The &lt;dl> element specifies definition lists <draft-comment author="okeefe">what is
-                    a definition list? How is it different from a glossary entry?</draft-comment>.
-                The definition list contains entries, tagged with the &lt;dlentry> element, and each
-                entry contains a term (tagged with the &lt;dt> element) and a definition (tagged
-                with the &lt;dd> element). <draft-comment author="okeefe">avoid "is used to".
-                    Passive. Global.</draft-comment></p>
+            <p>The &lt;dl> element specifies definition lists <draft-comment author="Bill Swallow"
+                    >might be good to explain uicontrol a bit more, and to avoid &lt;b> or other
+                    inline tags when highlighting buttons and such.</draft-comment><draft-comment
+                    author="okeefe">what is a definition list? How is it different from a glossary
+                    entry?</draft-comment>. The definition list contains entries, tagged with the
+                &lt;dlentry> element, and each entry contains a term (tagged with the &lt;dt>
+                element) and a definition (tagged with the &lt;dd> element). <draft-comment
+                    author="okeefe">avoid "is used to". Passive. Global.</draft-comment></p>
             <p>Continue using the file l_concept_elements.dita to add each of these elements to your
                 example file.</p>
         </lcInstruction>
@@ -40,8 +45,12 @@
         <taskbody>
             <steps id="steps_f5k_kkh_1t">
                 <step>
-                    <cmd>After the last &lt;p> element, add a new &lt;p> element with the &lt;fn>
-                        element inside it as shown in the following example.</cmd>
+                    <cmd><draft-comment author="Bill Swallow">The flow of this is a little off, but
+                            might be just me. No context for the instruction. Might be better to
+                            lead with "To add a footnote..." or something. Same for all
+                            steps.</draft-comment>After the last &lt;p> element, add a new &lt;p>
+                        element with the &lt;fn> element inside it as shown in the following
+                        example.</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
