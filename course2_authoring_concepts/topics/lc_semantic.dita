@@ -16,13 +16,14 @@
             <p>For example, using the &lt;term> element may simply cause a word to display as bold
                 text in the output, but the tag conveys much more information—it shows that this
                 word is a term that needs to be defined.</p>
-            <p>To take advantage of the semantically rich aspect of DITA, it is best to tag each
-                piece of content with the element that most closely reflects what the content is and
-                how it should be used. For example, as discussed in a previous lesson, it is best to
-                use elements such as &lt;term> or &lt;cite> to highlight important words rather than
-                simply using &lt;b> or &lt;i>.</p>
+            <p>To take advantage of the semantically rich aspect of DITA, tag each piece of content
+                with the element that most closely reflects what the content is and how it should be
+                used. For example, use elements such as &lt;term> or &lt;cite> to highlight
+                important words rather than simply using &lt;b> or &lt;i>.</p>
             <draft-comment author="gretyl">Since the task course comes later, should we get into the
                 use of ordered list vs. steps here? </draft-comment>
+            <draft-comment author="okeefe">add "it is best to" to my list of "do not
+                use"</draft-comment>
         </lcInstruction>
     </learningContentbody>
 </learningContent>
