@@ -29,8 +29,12 @@
                     provides the information they need. The tags are explained inside the task, but
                     I dont' think that's help to be good enough.</p>
             </draft-comment>
-            <p>Continue using the file 1_concept_images_tables.dita to add the &lt;simpletable> and
-                &lt;table> elements.</p>
+            <p><draft-comment author="Bill Swallow">Can we reference the previous course topics? We
+                    covered all of the conceptual table info in Course 1, Lesson 5, and students
+                    reading this topic should have completed the first course. Also, we
+                    differentiated the table types as simple tables and CALS
+                tables.</draft-comment>Continue using the file 1_concept_images_tables.dita to add
+                the &lt;simpletable> and &lt;table> elements.</p>
         </lcInstruction>
     </learningContentbody>
     <task id="task_a2s_dvs_zs">
@@ -62,7 +66,12 @@
                 </step>
                 <step>
                     <cmd>Inside the &lt;simpletable> element, add the &lt;sthead> element as shown
-                        in the following example:</cmd>
+                        in the following example:<draft-comment author="Bill Swallow">General
+                            comment: those students using a DITA editor will likely have these
+                            things auto-inserted after creating a simple table. Perhaps mention that
+                            in the beginning of this course (if you're using a DITA editor, some
+                            child elements may be automatically inserted as you
+                            author)?</draft-comment></cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
@@ -153,7 +162,13 @@
 &lt;/concept></pre>
                     </stepxmp>
                     <info>To be valid, the &lt;strow> element in a &lt;simpletable> must contain the
-                        same number of &lt;stentry> elements as the &lt;sthead> element in.</info>
+                        same number of &lt;stentry> elements as the &lt;sthead> element
+                            in.<draft-comment author="Bill Swallow">This isn't true. The file will
+                            be valid if the elements are nested properly, but the validator does not
+                            check to see if the number of entries match between rows or between head
+                            and rows. If the nuber of entries don't match, you'll have missing cells
+                            at the end of the row, but the file will be
+                        valid.</draft-comment></info>
                 </step>
                 <step>
                     <cmd>After the first &lt;strow> element, add two more rows to the
