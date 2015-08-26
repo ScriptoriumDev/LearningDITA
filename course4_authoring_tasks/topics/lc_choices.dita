@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_xyj_ddc_bt">
+    <title>Giving the user choices</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-08-14"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>As part of giving a reader an instruction, there may be more than one way to do
+                things. For example, when using an auto stereo system, the user has the choice of
+                which mode to use (AM, FM, CD, line-in, and so on). </p>
+            <p>To present this information, and to give it a semantically appropriate label, you can
+                use the &lt;choices> or &lt;choicetable> elements. Both present choices: use
+                &lt;choices> when the choices only require a brief description; use &lt;choicetable>
+                when you need to provide specific keywords, along with an extended description.  </p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_pcm_2dc_bt">
+        <title/>
+        <taskbody>
+            <steps id="steps_qjd_3fc_bt">
+                <step>
+                    <note>These steps resume the example that runs continuously through this course.
+                        In the first step here the complete task topic is shown; in subsequent
+                        steps, only the elements central to the discussion will be shown. </note>
+                    <cmd>In the example task topic, add a new &lt;step> element after the last
+                        &lt;step> element. Inside the &lt;step>, create a &lt;cmd> element (if one
+                        isn’t created for you).  Add the content shown here to the &lt;cmd>
+                        element:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+&lt;task id="task_topic">
+   &lt;title>&lt;/title>
+   &lt;taskbody>
+      &lt;prereq>
+      &lt;/prereq>
+      &lt;context>
+      &lt;/context>
+      &lt;steps>
+         &lt;step>
+            &lt;cmd>(Text TBD)&lt;/cmd>
+            &lt;info>&lt;p>(Text TBD)&lt;/p>&lt;/info>
+         &lt;/step>
+         &lt;step>
+            &lt;cmd>(Text TBD)&lt;/cmd>
+         &lt;/step>
+      &lt;/steps>
+   &lt;/taskbody>
+&lt;/task></pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>After the new &lt;cmd> element, add a &lt;choices> element. </cmd>
+                    <info>If your editor does not automatically add a first &lt;choice> element
+                        inside the &lt;choices> element, add one now.</info>
+                    <stepxmp>
+                        <pre>&lt;step>
+   &lt;cmd>(TEXT TBD)&lt;/cmd>
+   &lt;choices>
+      &lt;choice>(TEXT TBD)&lt;/choice>
+   &lt;/choices>
+&lt;/step>
+</pre>
+                    </stepxmp>
+                    <info>Most DITA output generators render a &lt;choices> element as a bulleted
+                        list. </info>
+                </step>
+                <step>
+                    <cmd>Add additional &lt;choice> elements.</cmd>
+                    <stepxmp>
+                        <pre>&lt;step>
+   &lt;cmd>(TEXT TBD)&lt;/cmd>
+   &lt;choices>
+      &lt;choice>(TEXT TBD)&lt;/choice>
+      &lt;choice>(TEXT TBD)&lt;/choice>
+      &lt;choice>(TEXT TBD)&lt;/choice>
+   &lt;/choices>
+&lt;/step>
+</pre>
+                    </stepxmp>
+                </step>
+                <stepsection>The choice table is a two-column table that allows you to document one
+                    or more choice options and descriptions.</stepsection>
+                <step>
+                    <cmd>Create a new step with a &lt;cmd> element and text as shown here:</cmd>
+                    <stepxmp>
+                        <pre>&lt;step>
+   &lt;cmd>(TEXT TBD)&lt;/cmd>
+&lt;/step>
+</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>After the &lt;cmd> element, add a &lt;choicetable> element and all its
+                        child elements:</cmd>
+                    <stepxmp>
+                        <pre>&lt;step>
+   &lt;cmd>(TEXT TBD)&lt;/cmd>
+   &lt;choicetable>
+<ph outputclass="newchanged">     &lt;chrow>
+         &lt;choption/>
+         &lt;chdesc/>
+     &lt;/chrow>
+     &lt;chrow>
+         &lt;choption/>
+         &lt;chdesc/>
+     &lt;/chrow></ph>
+   &lt;/choicetable>
+&lt;/step>
+</pre>
+                    </stepxmp>
+                    <info>For each row in the &lt;choicetable>, you need a &lt;chrow> element>. The
+                        row contains two elements, which are both required: &lt;choption> which
+                        contains the option text and &lt;chdesc> which contains the description
+                        text. In standard usage, the &lt;choption> contains just a few words
+                        (usually one), while the description can contain multiple sentences, or even
+                        paragraphs (&lt;p> element). </info>
+                </step>
+                <stepsection>The &lt;choicetable> has an optional head (&lt;chhead>), which allows
+                    you to label the two columns in the table.</stepsection>
+                <step>
+                    <cmd>Before the first row of the choice table, add a &lt;chhead> element and its
+                        children, as shown here.</cmd>
+                    <stepxmp>
+                        <pre>&lt;step>
+   &lt;cmd>(TEXT TBD)&lt;/cmd>
+   &lt;choicetable>
+<ph outputclass="newchanged">     &lt;chhead>
+         &lt;choptionhd/>
+         &lt;chdeschd/>
+     &lt;/chhead></ph>
+     &lt;chrow>
+         &lt;choption/>
+         &lt;chdesc/>
+     &lt;/chrow>
+     ...
+   &lt;/choicetable>
+&lt;/step>
+</pre>
+                    </stepxmp>
+                    <info>The &lt;choptionhd> provides a head for the option column; the
+                        &lt;chdeschd> provides a head for the description column. </info>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

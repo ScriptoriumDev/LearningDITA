@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
- <title>Creating a task topic</title>
+ <title>Creating a concept topic</title>
  <topicref href="../topics/lc_creating.dita">
   <topicref href="../topics/lc_example_files.dita"/>
   <topicref href="../topics/lc_creating_new.dita"/>
+  <topicref href="../topics/lc_basic_elements.dita"/>
   <topicref href="../topics/lcc_assessment.dita" copy-to="lcc_steps.dita" locktitle="yes">
    <topicmeta>
-    <navtitle>Assessment for Creating a task topic</navtitle>
+    <navtitle>Assessment for Creating a concept topic</navtitle>
    </topicmeta>
-      <topicref href="../assessments/creating/lca_template.dita"/>
-   <topicref href="../assessments/creating/lca_body.dita"/>
+   <!--   <topicref href="../assessments/lca_htmldita.dita"/>-->
   </topicref>
  </topicref>
 </map>
