@@ -11,33 +11,29 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>The &lt;codeblock> element is used to display a piece of code in the way that a user
-                would see it on a screen, typically in a monospace font, in PDF or HTML output.
-                Placing content inside the &lt;codeblock> element gives you control over line
-                breaks.</p>
-            <p>The &lt;codeph> element is used to display a single word or phrase inside a &lt;p>
-                the way code would be displayed. For example, if you mention an element in a
-                paragraph and wish to display only that element's name in a monospace font, the
-                &lt;codeph> element would be useful.</p>
-            <p>The &lt;lq> element is used to for long quotations. This element is generally used
-                for including a quote from an outside source in your content rather than (or in
-                addition to) linking to the source.</p>
-            <p>The &lt;section> element is used to divide the &lt;conbody> element into sub-sections
-                with individual titles. If you find that you are adding many sections or sections of
+            <p>The &lt;codeblock> element is used to tag a piece of code. Typically, it is rendered
+                in a monospace font in PDF or HTML output. Placing content inside the &lt;codeblock>
+                element gives you control over line breaks.</p>
+            <p>The &lt;codeph> element is used to display a single word or phrase inside a &lt;p> as
+                code. For example, if you mention an element in a paragraph and want to display only
+                that element's name in a monospace font, the &lt;codeph> element is useful.</p>
+            <p>The &lt;lq> element is used for long quotations. This element is generally used for
+                including a quote from an outside source in your content rather than (or in addition
+                to) linking to the source.</p>
+            <p>The &lt;section> element is used to divide the body of a topic into sub-sections with
+                individual titles. If you find that you are adding many sections or sections of
                 substantial length to a topic, consider making each of those sections into its own
                 topic instead. The &lt;section> element cannot contain other &lt;section> elements
                 and can only be followed by another &lt;section> element, an &lt;example> element,
                 or a &lt;conbodydiv> element. DITA does not allow you to use main body elements such
                 as &lt;p>, &lt;ul>, or &lt;note> after the end of a section.</p>
-            <p>The &lt;draft-comment> element is used for authors, editors, or other content
-                contributors to insert comments and questions into the content while it is being
-                developed. Because the &lt;draft-comment> element can be hidden in the final output,
-                it is not necessary to delete draft comments from your content before the final
-                output is rendered.</p>
-            <p>The &lt;required-cleanup> element is used to contain content that has been tagged
-                incorrectly and must be updated to use the correct tags before the DITA file can be
-                considered valid. Any content inside the &lt;required-cleanup> element will
-                automatically be hidden in the final output.</p>
+            <p>The &lt;draft-comment> element lets you insert comments and questions into the
+                content while it is being developed. By default, the &lt;draft-comment> element is
+                hidden in the final output, so you can render output without delete all draft
+                comments. (You have to decide whether you're willing to risk it, though!)</p>
+            <p>The &lt;required-cleanup> element lets you wrap content that is tagged incorrectly
+                and needs to be fixed. By default, any content inside the &lt;required-cleanup>
+                element is hidden in output.</p>
         </lcInstruction>
     </learningContentbody>
     <task id="task_i3g_jkh_1t">
@@ -49,7 +45,7 @@
                         editor.</cmd>
                     <info>
                         <note>If you are using a DITA-aware text editor, make sure you are in text
-                            mode, rather than Author or visual mode. </note>
+                            mode, rather than author or visual mode. </note>
                     </info>
                     <stepxmp>
                         <p>You should see this:</p>
@@ -96,7 +92,7 @@ duckdata> _
 ...
 &lt;/codeblock>
 <ph outputclass="newchanged">&lt;p>To add a duck species to your database, type &lt;codeph>add entry&lt;/codeph> followed by the name of
-   the duck in parentheses into the command line and press Enter.&lt;/p></ph>
+   the duck in parentheses on the command line and press Enter.&lt;/p></ph>
 &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
@@ -121,8 +117,10 @@ duckdata> _
 &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
-                    <info>In the example you added, the &lt;lq> element allows you to pull in a
-                        quote from Walden by Henry David Thoreau.</info>
+                    <info>In the example you added, the &lt;lq> element allows you to include a
+                        quote from Walden by Henry David Thoreau.<draft-comment author="okeefe"
+                            >Doesn't lq also let you include a reference URL? Might add that
+                            here...</draft-comment></info>
                 </step>
                 <step>
                     <cmd>After the &lt;lq> element, add a &lt;section> element as shown in the
@@ -139,7 +137,8 @@ duckdata> _
 &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
-                    <info>In the example you added, you created a subsection of the () topic.</info>
+                    <info>In the example you added, you created a subsection of the ()
+                            topic.<draft-comment author="okeefe">?? ()</draft-comment></info>
                 </step>
                 <step>
                     <cmd>Inside the &lt;section> element, add &lt;title> and &lt;p> elements and
@@ -163,6 +162,10 @@ duckdata> _
                         &lt;section> element, you are essentially starting over with the &lt;title>
                         element and other main body elements that are allowed inside of a
                         concept.</info>
+                    <info>
+                        <draft-comment author="okeefe">reword the above to positive....only one
+                            title is allowed...clarify the section sentence.</draft-comment>
+                    </info>
                 </step>
                 <step>
                     <cmd>After the &lt;p> element in the new section, add a &lt;draft-comment>
@@ -183,7 +186,7 @@ duckdata> _
 &lt;/concept></pre>
                     </stepxmp>
                     <info>With the example you added, you are telling other authors who may work on
-                        this topic that ().</info>
+                        this topic that ().<draft-comment author="okeefe">??</draft-comment></info>
                 </step>
                 <step>
                     <cmd>After the &lt;section> element, add a &lt;required-cleanup> element and
@@ -213,7 +216,9 @@ duckdata> _
                         that it must be either moved to a valid position (such as inside the
                         section) or re-tagged with a valid element (such as the &lt;example>)
                         element in order for the text inside the &lt;p> to be displayed in the final
-                        output.</info>
+                            output.<draft-comment author="okeefe">reword. remove passive "is not
+                            allowed" "should be surrounded" "must be moved"
+                        etc.</draft-comment></info>
                 </step>
             </steps>
         </taskbody>

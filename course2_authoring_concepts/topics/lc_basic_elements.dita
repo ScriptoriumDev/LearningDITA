@@ -11,12 +11,13 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>Some of the most commonly-used elements in a concept topic include &lt;p>
+            <p>Some of the most commonly used elements in a concept topic include &lt;p>
                 (paragraph), &lt;ul> (unordered list), &lt;ol> (ordered list), and &lt;note> (note
                 or admonition).</p>
             <draft-comment author="gretyl">Should we address the idea of using optional unique IDs
                 to help create references to specific elements? Or is that too advanced for this
-                course?</draft-comment>
+                course? </draft-comment>
+            <draft-comment author="okeefe">Too advanced. Sarah</draft-comment>
         </lcInstruction>
     </learningContentbody>
     <task id="task_i3g_jkh_1t">
@@ -38,15 +39,18 @@
                     </stepxmp>
                     <info>As you have probably read before, the &lt;p> element is used for body
                         text. It can be used inside the &lt;conbody> element as well as inside many
-                        of &lt;conbody>'s containing elements.</info>
-                    <info>In general, it is considered best practice to use the &lt;p> element for
-                        any untagged text. As you will see in examples throughout this course, it is
-                        also best to use the &lt;p> element to tag text inside of list items, notes,
-                        and table entries. That way, if a list item is several paragraphs long, it
-                        will still be tagged consistently with other list items that are only a
-                        single paragraph.</info>
-                    <info>The &lt;p> element you just created will be used to introduce the next
-                        element: an unordered list.</info>
+                        of &lt;conbody>'s containing elements.<draft-comment author="okeefe"
+                            >"untagged text" below. There is no such thing in XML, and the term
+                            itself is confusing because of the elements/tagging. Find a synonym and
+                            use it instead. Maybe any body text or "regular" text? Not
+                            sure.</draft-comment></info>
+                    <info>Use the &lt;p> element for any untagged text. As you will see in examples
+                        throughout this course, we recommend using the &lt;p> element to tag text
+                        inside list items, notes, and table entries. &lt;p> elements are needed for
+                        list items that are several paragraphs long, and wrapping single items in
+                        &lt;p> keeps them all consistent. </info>
+                    <info>The &lt;p> element you just created introduces the next element: an
+                        unordered list.</info>
                 </step>
                 <step>
                     <cmd>After the &lt;p> element, create a &lt;ul> element and populate it as shown
@@ -68,12 +72,11 @@
    &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
-                    <info>As you have probably read before, the &lt;ul> element is used for
-                        unordered or bulleted lists. </info>
+                    <info>The &lt;ul> element is used for unordered or bulleted lists. </info>
                     <info>The &lt;ul> element contains the &lt;li> or list item element. Each
                         &lt;li> element contains the text for a bulleted entry in the list.</info>
-                    <info>In the &lt;ul> element you just created, each &lt;li> element follows the
-                        best practice of containing a &lt;p> element around the text.</info>
+                    <info>Each &lt;li> element follows the best practice of wrapping a &lt;p>
+                        element around the text.</info>
                 </step>
                 <step>
                     <cmd>After the &lt;ul> element, add an &lt;ol> element with an introductory
@@ -101,13 +104,13 @@
    &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
-                    <info>As you have probably read before, the &lt;ol> element is used for ordered
-                        or numbered lists.<draft-comment author="gretyl">Say something here about
-                            &lt;ol> vs. &lt;steps>, since &lt;steps> won't be introduced until the
-                            task course?</draft-comment></info>
+                    <info>The &lt;ol> element is used for ordered or numbered lists.<draft-comment
+                            author="gretyl">Say something here about &lt;ol> vs. &lt;steps>, since
+                            &lt;steps> won't be introduced until the task
+                            course?</draft-comment><draft-comment author="okeefe"
+                            >Yes.</draft-comment></info>
                     <info>Like the &lt;ul> element, the &lt;ol> element contains &lt;li> elements.
-                        Each of the &lt;li> elements you just created also follow the best practice
-                        of containing a &lt;p> element around the text.</info>
+                        Each of the &lt;li> elements wraps a &lt;p> element around the text.</info>
                 </step>
                 <step>
                     <cmd>After the &lt;ol> element, create a &lt;note> element and populate it as
@@ -137,10 +140,10 @@
    &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
-                    <info>As you have probably read before, the &lt;note> element is used to add
-                        admonitions, such as notes, warnings, or cautions, to the concept topic. The
-                        &lt;note> element you just created follows the best practice of containing a
-                        &lt;p> element around the text.</info>
+                    <info>The &lt;note> element is used to add admonitions, such as notes, warnings,
+                        or cautions, to the concept topic. The &lt;note> element you just created
+                        follows the best practice of wrapping a &lt;p> element around the
+                        text.</info>
                 </step>
             </steps>
         </taskbody>

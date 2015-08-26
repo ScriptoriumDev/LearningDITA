@@ -11,13 +11,24 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>There are two types of table elements that you can add to a concept topic:
-                &lt;simpletable> and &lt;table>. Simple tables are used to present information in a
-                very basic tabular format. Tables are much more flexible in their ability to display
+            <p>There are two table elements available in a concept topic: &lt;simpletable> and
+                &lt;table>. Simple tables are used to present information in a very basic tabular
+                format. <draft-comment author="okeefe">be more specific. Simple table does not allow
+                    for (check this!!) titles, spanned cells, footer rows? Table supports that and
+                    more.</draft-comment>Tables are much more flexible in their ability to display
                 information and allow for more complex tabular structures.</p>
-            <p>This lesson will cover the basics of adding a &lt;simpletable> and a &lt;table> to a
-                concept topic. To highlight the differences between these types of tables, the same
-                tabular data will be used for both examples.</p>
+            <p>This lesson will cover the basics of using &lt;simpletable> and &lt;table>. To
+                highlight the differences between these types of tables, the same information will
+                be used for both examples.</p>
+            <draft-comment author="okeefe">
+                <p>I think here you need to show the table data in a visual. Explain that will help
+                    people understand how the tables are structured.</p>
+                <p>Also, we need the conceptual background information on what the various
+                    table/simpletable elements mean. That is not explained in the task. Probably
+                    give them some background here, or create a separate overview lesson/topic that
+                    provides the information they need. The tags are explained inside the task, but
+                    I dont' think that's help to be good enough.</p>
+            </draft-comment>
             <p>Continue using the file 1_concept_images_tables.dita to add the &lt;simpletable> and
                 &lt;table> elements.</p>
         </lcInstruction>
@@ -29,6 +40,12 @@
                 <step>
                     <cmd>Inside the &lt;conbody> element after the &lt;fig> element, add a
                         &lt;simpletable> element as shown in the following example:</cmd>
+                    <stepxmp>
+                        <draft-comment author="okeefe">probably need this earlier, but when you say
+                            "after the &lt;fig> element, somem people will put it after the &lt; f i
+                            g > and not after the &lt;/fig>. Need to explain this the first time you
+                            tell them to insert something "after the XYZ element."</draft-comment>
+                    </stepxmp>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
@@ -353,8 +370,9 @@
                         the example you added, each &lt;entry> element follows the best practice of
                         containing a &lt;p> element surrounding the text.<draft-comment
                             author="gretyl">Should we say anything about straddling and how the
-                            number of entries doesn't have to correspond to the number of
-                            columns?</draft-comment></info>
+                            number of entries doesn't have to correspond to the number of columns?
+                            </draft-comment><draft-comment author="okeefe"
+                        >no?</draft-comment></info>
                 </step>
                 <step>
                     <cmd>After the &lt;thead> element, add the &lt;tbody> element as shown in the
