@@ -22,11 +22,28 @@
             <lcTime value="45"/>
         </lcDuration>
         <lcIntro>
+            <p>The DITA concept topic type is used to provide information about a particular
+                subject.</p>
+            <p>Concept topics help someone understand an idea or follow an instruction. A concept
+                topic may give background or conceptual information about the subject in addition to
+                essential information.</p>
+            <p>A typical concept topic will mostly contain paragraphs and lists. However, concepts
+                may also present information using images, tables, or other elements. They may also
+                be broken into sections for additional clarity.</p>
             <p>This lesson shows how to create a new concept topic and how to add commonly used
-                elements found in a concept topic.<draft-comment author="okeefe">The lesson overview
-                    needs to be more conceptual information that what's provided here. Look at the
-                    first course.</draft-comment><draft-comment author="okeefe">there should be a
-                    list of resources here.</draft-comment></p>
+                elements found in a concept topic. The elements presented in this lesson and
+                throughout the rest of the course are not specific to concepts and can also be used
+                in the other types of DITA topics (task, reference, and glossary).</p>
         </lcIntro>
     </learningContentbody>
+    <related-links>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Topics_and_Information_Types/c_Concept.html"
+            format="html" scope="external">
+            <linktext>DITA Style Guide, Chapter 3, Syntax and Markup</linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.0/archspec/dita_spec_22_info_concepts.html" format="html" scope="external">
+            <linktext>OASIS DITA Architectural Specification, Concepts</linktext>
+        </link>
+    </related-links>
 </learningContent>

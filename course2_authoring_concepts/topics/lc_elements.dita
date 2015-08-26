@@ -11,10 +11,31 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>
+            <p>DITA uses some other important elements:</p>
+            <ul id="ul_rbj_wjq_dt">
+                <li>
+                    <p>&lt;fn>, which inserts a footnote.</p>
+                </li>
+                <li>
+                    <p>&lt;menucascade>, which tags a hierarchy of menu choices (such as File, Save
+                        As). Each item inside the &lt;menucascade> element is contained in a
+                        &lt;uicontrol> element.</p>
+                </li>
+                <li>
+                    <p>&lt;dl>, which contains definition lists. A definition list is a list of
+                        terms and their corresponding definitions, presented in a format similar to
+                        a two-column table. The definition list contains entries, tagged with the
+                        &lt;dlentry> element, and each entry contains a term (tagged with the
+                        &lt;dt> element) and a definition (tagged with the &lt;dd>
+                        element).<draft-comment author="gretyl">Concise way to explain why you
+                            would use definition lists instead of glossary entries (without getting
+                            too much into the upcoming glossary/reference
+                            course)?</draft-comment></p>
+                </li>
+            </ul>
                 <draft-comment author="okeefe">I think this should probably be a bulleted list, with
                     some sort of "here are some other important elements: intro.</draft-comment>
-            </p>
+        
             <p><draft-comment author="Bill Swallow">Should also include &lt;term>, &lt;cite>, and
                     &lt;varname> if referencing them as better contextual choices in the previous
                     topic.</draft-comment>The &lt;fn> element is used to add footnotes to a concept
@@ -202,8 +223,7 @@
 &lt;/concept></pre>
                     </stepxmp>
                     <info>The &lt;dt> element contains the term, and the &lt;dd> element contains
-                        its definition.<draft-comment author="okeefe">OK, I had no idea that
-                            bantam-weight was a DUCK classification!</draft-comment></info>
+                        its definition.</info>
                 </step>
                 <step>
                     <cmd>After the &lt;dlentry> element, add three more &lt;dlentry> elements and
