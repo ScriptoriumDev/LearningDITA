@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_hrm_xjh_1t">
+    <title>Adding other elements</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-08-24"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>
+                <draft-comment author="okeefe">I think this should probably be a bulleted list, with
+                    some sort of "here are some other important elements: intro.</draft-comment>
+            </p>
+            <p>The &lt;fn> element is used to add footnotes to a concept topic.</p>
+            <p>
+                <draft-comment author="okeefe">global comment: not just concepts. Almost all of
+                    these should say The &lt;fn> element lets you insert a footnote. They are not
+                    specific to the concept topic, so remove that throughout, unless the element is
+                    in fact concept-specific, like conbody.</draft-comment>
+            </p>
+            <p>The &lt;menucascade> element lets you tag a hierarchy of menu choices (such as File,
+                Save As). Each item inside the &lt;menucascade> element is contained in a
+                &lt;uicontrol> element.</p>
+            <p>The &lt;dl> element specifies definition lists <draft-comment author="okeefe">what is
+                    a definition list? How is it different from a glossary entry?</draft-comment>.
+                The definition list contains entries, tagged with the &lt;dlentry> element, and each
+                entry contains a term (tagged with the &lt;dt> element) and a definition (tagged
+                with the &lt;dd> element). <draft-comment author="okeefe">avoid "is used to".
+                    Passive. Global.</draft-comment></p>
+            <p>Continue using the file l_concept_elements.dita to add each of these elements to your
+                example file.</p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_i3g_jkh_1t">
+        <title/>
+        <taskbody>
+            <steps id="steps_f5k_kkh_1t">
+                <step>
+                    <cmd>After the last &lt;p> element, add a new &lt;p> element with the &lt;fn>
+                        element inside it as shown in the following example.</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_elements">
+   &lt;title>Wild duck species&lt;/title>
+  &lt;conbody>
+...
+ <ph outputclass="newchanged">&lt;p>Ducklings need higher levels of protein in their diets than adult ducks.&lt;fn>A protein level of 18-20% is recommended for newborn ducklings.&lt;/fn>&lt;/p></ph>
+   &lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>The &lt;fn> element indicates where the footnote reference number will
+                        appear inside the paragraph. By default, the text inside the &lt;fn> element
+                        is displayed at the bottom of the page (for PDF) or end of the topic (for
+                        HTML) when you generate output from the file.</info>
+                </step>
+                <step>
+                    <cmd>After the last &lt;p> element, add a new &lt;p> element with a
+                        &lt;menucascade> element inside it, as shown in the following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_elements">
+   &lt;title>Wild duck species&lt;/title>
+  &lt;conbody>
+...
+&lt;p>Ducklings need higher levels of protein in their diets than adult ducks.&lt;fn>A protein level of 18-20% is recommended for newborn ducklings.&lt;/fn>&lt;/p>
+<ph outputclass="newchanged">&lt;p>To create a spreadsheet to keep track of when you need to replenish your ducklings' food and water, go to 
+&lt;menucascade>
+&lt;/menucascade>.</ph>
+&lt;/p>
+   &lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>In the example you added, the &lt;menucascade> element will be used to
+                        show the menu options involved in creating a spreadsheet.</info>
+                </step>
+                <step>
+                    <cmd>Inside the &lt;menucascade> element, add a &lt;uicontrol> element and
+                        populate it as shown in the following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_elements">
+   &lt;title>Wild duck species&lt;/title>
+   &lt;conbody>
+...
+ &lt;p>Ducklings need higher levels of protein in their diets than adult ducks.&lt;fn>A protein level of 18-20% is recommended for newborn ducklings.&lt;/fn>&lt;/p>
+&lt;p>To create a spreadsheet to keep track of when you need to replenish your ducklings' food and water, go to 
+&lt;menucascade>
+<ph outputclass="newchanged">&lt;uicontrol>File&lt;/uicontrol></ph>
+&lt;/menucascade>.
+&lt;/p>
+   &lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>In the example you added, the &lt;uicontrol> element contains the name of
+                        the first menu option involved in creating a spreadsheet: "File."</info>
+                </step>
+                <step>
+                    <cmd>After the &lt;uicontrol> element, add two more &lt;uicontrol> elements and
+                        populate them as shown in the following example.</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_elements">
+   &lt;title>Wild duck species&lt;/title>
+  &lt;conbody>
+...
+ &lt;p>Ducklings need higher levels of protein in their diets than adult ducks.&lt;fn>A protein level of 18-20% is recommended for newborn ducklings.&lt;/fn>&lt;/p>
+&lt;p>To create a spreadsheet to keep track of when you need to replenish your ducklings' food and water, go to 
+&lt;menucascade>
+&lt;uicontrol>File&lt;/uicontrol>
+<ph outputclass="newchanged">&lt;uicontrol>New&lt;/uicontrol>
+&lt;uicontrol>Spreadsheet&lt;/uicontrol></ph>
+&lt;/menucascade>.
+&lt;/p>
+   &lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>By default, an arrow symbol is inserted between &lt;uicontrol> elements in
+                        the output to indicate the hierarchy of the menu options. </info>
+                    <info>With the &lt;menucascade> and &lt;uicontrol> elements in the example you
+                        added, the user now knows to click on "File," then "New," then
+                        "Spreadsheet."</info>
+                </step>
+                <step>
+                    <cmd>After the &lt;menucascade> element, add a new introductory &lt;p> element
+                        followed by a &lt;dl> element as shown in the following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_elements">
+   &lt;title>Wild duck species&lt;/title>
+   &lt;conbody>
+...
+&lt;/menucascade>
+<ph outputclass="newchanged">&lt;p>Domestic ducks fall into categories based on weight. These weight classes may help you choose a
+   species based on how much you will need to feed your ducks.&lt;/p>
+&lt;dl>
+&lt;/dl></ph>
+   &lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>The &lt;dl> element sets up the framework for a definition list.</info>
+                </step>
+                <step>
+                    <cmd>Inside the &lt;dl> element, add a &lt;dlentry> element as shown in the
+                        following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_elements">
+   &lt;title>Wild duck species&lt;/title>
+   &lt;conbody>
+...
+&lt;/menucascade>
+&lt;p>Domestic ducks fall into categories based on weight. These weight classes may help you choose a
+   species based on how much you will need to feed your ducks.&lt;/p>
+&lt;dl>
+<ph outputclass="newchanged"> &lt;dlentry>
+&lt;/dlentry></ph>
+&lt;/dl>
+   &lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>Each &lt;dlentry> element contains a term and its definition.</info>
+                </step>
+                <step>
+                    <cmd>Inside the &lt;dlentry> element, add the &lt;dt> and &lt;dd> elements and
+                        populate them as shown in the following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_elements">
+   &lt;title>Wild duck species&lt;/title>
+   &lt;conbody>
+...
+&lt;/menucascade>
+&lt;p>Domestic ducks fall into categories based on weight. These weight classes may help you choose a
+   species based on how much you will need to feed your ducks.&lt;/p>
+&lt;dl>
+&lt;dlentry>
+<ph outputclass="newchanged">&lt;dt>Bantam&lt;/dt>
+&lt;dd>The lightest-weight ducks and best fliers, such as the Mallard duck.&lt;/dd></ph>
+&lt;/dlentry>
+&lt;/dl>
+   &lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>The &lt;dt> element contains the term, and the &lt;dd> element contains
+                        its definition.<draft-comment author="okeefe">OK, I had no idea that
+                            bantam-weight was a DUCK classification!</draft-comment></info>
+                </step>
+                <step>
+                    <cmd>After the &lt;dlentry> element, add three more &lt;dlentry> elements and
+                        populate them with &lt;dt> and &lt;dd> elements as shown in the following
+                        example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_elements">
+   &lt;title>Wild duck species&lt;/title>
+  &lt;conbody>
+...
+&lt;/menucascade>
+&lt;p>Domestic ducks fall into categories based on weight. These weight classes may help you choose a
+   species based on how much you will need to feed your ducks.&lt;/p>
+&lt;dl>
+&lt;dlentry>
+&lt;dt>Bantam&lt;/dt>
+&lt;dd>The lightest-weight ducks and best fliers, such as the Mallard duck.&lt;/dd>
+&lt;/dlentry>
+<ph outputclass="newchanged">&lt;dlentry>
+&lt;dt>Light&lt;/dt>
+&lt;dd>The second lightest-weight ducks and best egg-layers, such as the Khaki Campbell duck.&lt;/dd>
+&lt;/dlentry>
+&lt;dlentry>
+&lt;dt>Medium&lt;/dt>
+&lt;dd>The mid-weight and generally calmest ducks, such as the Swedish duck.&lt;/dd>
+&lt;/dlentry>
+&lt;dlentry>
+&lt;dt>Heavy&lt;/dt>
+&lt;dd>The heaviest and generally friendliest ducks, such as the Pekin duck.&lt;/dd>
+&lt;/dlentry></ph>
+&lt;/dl>
+   &lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

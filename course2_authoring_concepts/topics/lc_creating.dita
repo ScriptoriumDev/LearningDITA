@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_yys_qbh_1t">
+    <title>Creating a concept topic</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-08-19"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup id="lcObjectivesGroup_tvl_vbh_1t">
+                <lcObjective>Create a concept topic file</lcObjective>
+                <lcObjective>Introduce the DOCTYPE for concept topics</lcObjective>
+                <lcObjective>Add the root elements for a concept</lcObjective>
+                <lcObjective>Add the &lt;p>, &lt;ul>, &lt;ol>, and &lt;note>elements</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="45"/>
+        </lcDuration>
+        <lcIntro>
+            <p>This lesson shows how to create a new concept topic and how to add commonly used
+                elements found in a concept topic.<draft-comment author="okeefe">The lesson overview
+                    needs to be more conceptual information that what's provided here. Look at the
+                    first course.</draft-comment><draft-comment author="okeefe">there should be a
+                    list of resources here.</draft-comment></p>
+        </lcIntro>
+    </learningContentbody>
+</learningContent>

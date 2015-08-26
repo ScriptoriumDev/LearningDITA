@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_kw5_5ls_zs">
+    <title>Adding images to a concept topic</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-08-24"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>You can add images to a concept topic in one of two ways: by placing it in the body
+                of the concept topic, or by placing it inside a &lt;fig> (figure) element. If you
+                wish to give your image a title or caption, placing it inside a figure is the best
+                    choice.<draft-comment author="okeefe">no "wishing" or "desire" while we're at
+                    it. want or need. Try If you image needs a title or a caption, place it inside a
+                    &lt;fig> element.</draft-comment></p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_a2s_dvs_zs">
+        <title/>
+        <taskbody>
+            <steps id="steps_mrl_tf1_dt">
+                <step>
+                    <cmd>Make a copy of the file 1_concept_images_tables.dita and open it in your
+                        editor.</cmd>
+                    <info>You should see this:</info>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_images_tables">
+   &lt;title>Duckling growth and development&lt;/title>
+&lt;conbody>
+   &lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Inside the &lt;conbody> element, add an &lt;image> element as shown in the
+                        following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_images_tables">
+   &lt;title>Duckling growth and development&lt;/title>
+   &lt;conbody>
+<ph outputclass="newchanged">&lt;image href="images/ducklings_sitting.jpg"/></ph>
+   &lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>The &lt;image> element you added contains a link (href) to the location
+                        where the image file lives. A link inside an &lt;image> element can point to
+                        the filepath for an image on a server or to a web link for an
+                            image.<draft-comment author="gretyl">Should we address width and other
+                            image-related attributes here, or is this getting into too much
+                            detail?</draft-comment><draft-comment author="okeefe">too much
+                            detail</draft-comment></info>
+                </step>
+                <step>
+                    <cmd>After the &lt;image> element, add a &lt;fig> element as shown in the
+                        following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_images_tables">
+   &lt;title>Duckling growth and development&lt;/title>
+  &lt;conbody>
+&lt;image href="images/ducklings_sitting.jpg"/>
+<ph outputclass="newchanged">&lt;fig>
+&lt;title>Ducklings walking&lt;/title>
+&lt;image href="ducklings_walking.jpg"/>
+&lt;/fig></ph>
+   &lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>The &lt;fig> element is another way to add an image to a concept
+                        topic.</info>
+                    <info>The &lt;fig> element you added contains a &lt;title> element and an
+                        &lt;image> element. The &lt;title> element allows you to associate a caption
+                        with your image. The &lt;image> element is structured the same way whether
+                        it is inside a &lt;fig> element or inside the &lt;conbody> element.</info>
+                    <info>The &lt;fig> element can contain more than one &lt;image>
+                            element.<draft-comment author="okeefe">probably a good spot to point out
+                            that &lt;title> always goes above &lt;image> but title doesn't
+                            necessarily appear above image in output. Could be moved to all sorts of
+                            places.</draft-comment></info>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>
