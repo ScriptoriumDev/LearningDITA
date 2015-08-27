@@ -30,8 +30,8 @@
                 has &lt;p> tags inside it, while other &lt;li> elements do not. This could result in
                 the text of the final list item looking different than the first two list items in
                 the final output.</p>
-            <p>To avoid having mixed content, it is best to surround all text inside an &lt;li>
-                element with &lt;p> tags, whether you are tagging one paragraph or more:</p>
+            <p>To avoid having mixed content, surround all text inside an &lt;li> element with
+                &lt;p> tags, whether you are tagging one paragraph or more:</p>
             <pre>&lt;ul>
 &lt;li>&lt;p>text&lt;/p>&lt;/li>
 &lt;li>&lt;p>text&lt;/p>&lt;/li>
@@ -40,17 +40,11 @@
 &lt;p>text&lt;/p>
 &lt;/li>
 &lt;/ul></pre>
-            <p>In addition to the &lt;li> element, it is also recommended that text inside the
-                &lt;note> and &lt;entry> elements be surrounded with &lt;p> tags in case there are
-                multiple paragraphs. The &lt;p> tag should also be used in general for any untagged
-                text to help ensure consistency and avoid mixed content.</p>
-            <p>
-                <draft-comment author="okeefe">global: search for "it is recommended" and all
-                    variants. Either use "we recommend" or "DITA best practice" or something. Also,
-                    way too much "should be used". Get rid of the passive voice and just be direct
-                    about what they must do. "Use the &lt;p> tag for untagged text to help ensure
-                    consistency and avoid mixed content."</draft-comment>
-            </p>
+            <p>In addition to the &lt;li> element, we recommend that text inside the &lt;note> and
+                &lt;entry> elements be surrounded with &lt;p> tags in case there are multiple
+                paragraphs. To help ensure consistency and avoid mixed content, use the &lt;p> tag
+                for any text that does not need to be tagged in a specific way.</p>
+            <p/>
         </lcInstruction>
     </learningContentbody>
 </learningContent>
