@@ -3,6 +3,10 @@
 <map>
  <title>Creating a concept topic</title>
  <topicref href="../topics/lc_creating.dita">
+  <topicmeta lockmeta="yes">
+   <data name="lesson_id" value="9999"></data>
+  </topicmeta>
+  
   <topicref href="../topics/lc_example_files.dita"/>
   <topicref href="../topics/lc_creating_new.dita"/>
   <topicref href="../topics/lc_basic_elements.dita"/>
