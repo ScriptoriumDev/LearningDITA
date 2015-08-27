@@ -20,14 +20,11 @@
                 in the content will work equally well in multiple output types.</p>
             <p>For authors who are accustomed to a formatting-based environment such as a desktop
                 publishing program, it can be tempting to misuse the DITA tags to try to control the
-                look and feel of the content. This is not recommended because using tags for a
-                purpose other than they were intended decreases the value of those tags. Misusing
-                tags can also have unintended consequences—a misused tag may achieve the desired
-                formatting effect in one output type, but destroy the look and feel of the content
-                in another output type.</p>
+                look and feel of the content. Using tags for a purpose other than they were intended
+                decreases the value of those tags. Tag abuse can also have unintended consequences—a
+                misused tag may achieve the desired formatting effect in one output type, but
+                destroy the look and feel of the content in another output type.</p>
             <p>
-                <draft-comment author="okeefe">"This is not recommended..." Be less nice. Might as
-                    well use the phrase tag abuse here, too.</draft-comment>
                 <draft-comment author="okeefe">mention forced line break??</draft-comment>
             </p>
         </lcInstruction>

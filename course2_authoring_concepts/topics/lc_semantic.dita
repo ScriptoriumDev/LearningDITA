@@ -26,6 +26,11 @@
                 use of ordered list vs. steps here? </draft-comment>
             <draft-comment author="okeefe">add "it is best to" to my list of "do not
                 use"</draft-comment>
+            <p>Proper use of topic types also makes your content more semantically rich. For
+                example, write instructional content in a task topic instead of a concept topic.
+                That way, you can use the structure that DITA provides for creating steps, which
+                provides much better information about the steps than using the &lt;ol> element in a
+                concept topic.</p>
         </lcInstruction>
     </learningContentbody>
 </learningContent>
