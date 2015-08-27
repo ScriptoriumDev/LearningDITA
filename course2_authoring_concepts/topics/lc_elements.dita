@@ -34,6 +34,8 @@
                             course)?</draft-comment></p>
                 </li>
             </ul>
+<<<<<<< HEAD
+=======
                 <draft-comment author="okeefe">I think this should probably be a bulleted list, with
                     some sort of "here are some other important elements: intro.</draft-comment>
         
@@ -64,6 +66,7 @@
                     Passive. Global.</draft-comment></p>
             <p>Continue using the file l_concept_elements.dita to add each of these elements to your
                 example file.</p>
+>>>>>>> master
         </lcInstruction>
     </learningContentbody>
     <task id="task_i3g_jkh_1t">
@@ -71,12 +74,12 @@
         <taskbody>
             <steps id="steps_f5k_kkh_1t">
                 <step>
-                    <cmd><draft-comment author="Bill Swallow">The flow of this is a little off, but
-                            might be just me. No context for the instruction. Might be better to
-                            lead with "To add a footnote..." or something. Same for all
-                            steps.</draft-comment>After the last &lt;p> element, add a new &lt;p>
-                        element with the &lt;fn> element inside it as shown in the following
-                        example.</cmd>
+                    <cmd>Continue using the file l_concept_elements_start.dita to add each of these
+                        elements to your example file.</cmd>
+                </step>
+                <step>
+                    <cmd>After the last &lt;p> element, add a new &lt;p> element with the &lt;fn>
+                        element inside it as shown in the following example.</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
@@ -135,6 +138,8 @@
                     </stepxmp>
                     <info>In the example you added, the &lt;uicontrol> element contains the name of
                         the first menu option involved in creating a spreadsheet: "File."</info>
+                    <info>Avoid using &lt;b> or other inline styling elements inside the
+                        &lt;uicontrol> element, </info>
                 </step>
                 <step>
                     <cmd>After the &lt;uicontrol> element, add two more &lt;uicontrol> elements and
@@ -265,6 +270,26 @@
    &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
+                </step>
+                <step>
+                    <cmd>Check your file l_concept_elements_start.dita against the sample file
+                        l_concept_elements.dita.</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+    <task id="task_as2_vjx_dt">
+        <title>Exercise</title>
+        <taskbody>
+            <steps id="steps_g32_wjx_dt">
+                <step>
+                    <cmd>Open the file l_concept_elements_exercise_start.dita and use it to convert
+                        the following untagged content into DITA:</cmd>
+                    <info/>
+                </step>
+                <step>
+                    <cmd>Check the file l_concept_elements_start.dita against the sample file
+                        l_concept_elements_exercise.dita.</cmd>
                 </step>
             </steps>
         </taskbody>
