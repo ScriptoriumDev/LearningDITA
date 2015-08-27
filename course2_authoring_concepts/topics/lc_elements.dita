@@ -33,32 +33,6 @@
                             course)?</draft-comment></p>
                 </li>
             </ul>
-                <draft-comment author="okeefe">I think this should probably be a bulleted list, with
-                    some sort of "here are some other important elements: intro.</draft-comment>
-        
-            <p><draft-comment author="Bill Swallow">Should also include &lt;term>, &lt;cite>, and
-                    &lt;varname> if referencing them as better contextual choices in the previous
-                    topic.</draft-comment>The &lt;fn> element is used to add footnotes to a concept
-                topic.</p>
-            <p>
-                <draft-comment author="okeefe">global comment: not just concepts. Almost all of
-                    these should say The &lt;fn> element lets you insert a footnote. They are not
-                    specific to the concept topic, so remove that throughout, unless the element is
-                    in fact concept-specific, like conbody.</draft-comment>
-            </p>
-            <p>The &lt;menucascade> element lets you tag a hierarchy of menu choices (such as File,
-                Save As). Each item inside the &lt;menucascade> element is contained in a
-                &lt;uicontrol> element.</p>
-            <p>The &lt;dl> element specifies definition lists <draft-comment author="Bill Swallow"
-                    >might be good to explain uicontrol a bit more, and to avoid &lt;b> or other
-                    inline tags when highlighting buttons and such.</draft-comment><draft-comment
-                    author="okeefe">what is a definition list? How is it different from a glossary
-                    entry?</draft-comment>. The definition list contains entries, tagged with the
-                &lt;dlentry> element, and each entry contains a term (tagged with the &lt;dt>
-                element) and a definition (tagged with the &lt;dd> element). <draft-comment
-                    author="okeefe">avoid "is used to". Passive. Global.</draft-comment></p>
-            <p>Continue using the file l_concept_elements.dita to add each of these elements to your
-                example file.</p>
         </lcInstruction>
     </learningContentbody>
     <task id="task_i3g_jkh_1t">
@@ -66,12 +40,12 @@
         <taskbody>
             <steps id="steps_f5k_kkh_1t">
                 <step>
-                    <cmd><draft-comment author="Bill Swallow">The flow of this is a little off, but
-                            might be just me. No context for the instruction. Might be better to
-                            lead with "To add a footnote..." or something. Same for all
-                            steps.</draft-comment>After the last &lt;p> element, add a new &lt;p>
-                        element with the &lt;fn> element inside it as shown in the following
-                        example.</cmd>
+                    <cmd>Continue using the file l_concept_elements_start.dita to add each of these
+                        elements to your example file.</cmd>
+                </step>
+                <step>
+                    <cmd>After the last &lt;p> element, add a new &lt;p> element with the &lt;fn>
+                        element inside it as shown in the following example.</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
@@ -130,6 +104,8 @@
                     </stepxmp>
                     <info>In the example you added, the &lt;uicontrol> element contains the name of
                         the first menu option involved in creating a spreadsheet: "File."</info>
+                    <info>Avoid using &lt;b> or other inline styling elements inside the
+                        &lt;uicontrol> element, </info>
                 </step>
                 <step>
                     <cmd>After the &lt;uicontrol> element, add two more &lt;uicontrol> elements and
@@ -260,6 +236,26 @@
    &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
+                </step>
+                <step>
+                    <cmd>Check your file l_concept_elements_start.dita against the sample file
+                        l_concept_elements.dita.</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+    <task id="task_as2_vjx_dt">
+        <title>Exercise</title>
+        <taskbody>
+            <steps id="steps_g32_wjx_dt">
+                <step>
+                    <cmd>Open the file l_concept_elements_exercise_start.dita and use it to convert
+                        the following untagged content into DITA:</cmd>
+                    <info/>
+                </step>
+                <step>
+                    <cmd>Check the file l_concept_elements_start.dita against the sample file
+                        l_concept_elements_exercise.dita.</cmd>
                 </step>
             </steps>
         </taskbody>

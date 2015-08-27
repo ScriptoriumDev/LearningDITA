@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_ajf_qch_1t">
-    <title>Finding the example files</title>
+    <title>Housekeeping</title>
     <prolog>
         <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
             Scriptorium</author>
@@ -10,20 +10,24 @@
         </critdates>
     </prolog>
     <learningContentbody>
-        <lcInstruction>
-            <p>The sample files for AuthoringDITA concept topics are in the zip file
+        <lcInstruction><p>The sample files for Authoring DITA concept topics are in the zip file
                 concept_samples.zip. Download this file to a location on your hard drive that you’ll
                 remember, then extract the contents to a folder. <draft-comment
                     author="Bill Swallow">Where can they find the zip
                     file?</draft-comment><draft-comment author="gretyl">I just have the sample files
                     in a folder for now... will update with the final location once we put this on
-                    LearnDash.</draft-comment></p>
-            <p>The exercises in this course follow in sequence, each exercise builds on the work
-                completed in the previous exercise. You can use the first sample file as a starting
-                point for the exercises in this course.</p>
-            <p>Use the subsequent sample files to check your work. If you reach a point where your
-                exercise file doesn’t match the examples, or is broken for any reason, you can use
-                the sample file from the previous exercise to resume your work. </p>
-        </lcInstruction>
+                    LearnDash.</draft-comment></p><p>You will see two versions of each sample file,
+                one with the word "start" added to the end of the filename. Create local copies of
+                the files with "start" and use them to follow the instructions and complete the
+                exercises for each lesson. The introduction to each lesson will tell you which
+                "start" file to use.</p><p>Use the sample files without "start" to check your work.
+                If you reach a point where your file doesn’t match the examples, or is broken for
+                any reason, you can make a fresh copy of the "start" file to resume your work or
+                start over.</p><ph>In the instructions and examples, we show you the DITA code for
+                each sample file. Most DITA editors have auto-complete or other features to guide
+                you through the process of adding elements, so you will probably not need to create
+                every piece of code from scratch as you work. Our demo videos were created in oXygen
+                XML Editor and show the difference between working in author view and working with
+                the code in text view.</ph></lcInstruction>
     </learningContentbody>
 </learningContent>

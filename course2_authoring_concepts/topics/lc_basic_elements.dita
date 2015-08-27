@@ -11,22 +11,20 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>Some of the most commonly-used elements in a concept topic include &lt;p>
+            <p>Some of the most commonly used elements in a concept topic include &lt;p>
                 (paragraph), &lt;ul> (unordered list), &lt;ol> (ordered list), and &lt;note> (note
                 or admonition). These elements were covered in the Introduction to DITA course. This
                 lesson gives a brief review of these elements and shows how to add them to a concept
                 topic.</p>
-            <p>The &lt;conbody> element has an open content model. This means that the elements
-                contained in &lt;conbody> are not required to follow a strict sequence. As long as
-                an element is allowed inside &lt;conbody>, it can appear in any order. The
-                exceptions are the &lt;section> and &lt;example> elements, which can only be
-                followed by other &lt;section> or &lt;example> elements.</p>
         </lcInstruction>
     </learningContentbody>
     <task id="task_i3g_jkh_1t">
         <title/>
         <taskbody>
             <steps id="steps_f5k_kkh_1t">
+                <step>
+                    <cmd>Continue using the file l_new_concept_start.dita.</cmd>
+                </step>
                 <step>
                     <cmd>Inside the &lt;conbody> element, add a &lt;p> element and populate it as
                         shown in the following example:</cmd>
@@ -40,9 +38,9 @@
    &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
-                    <info>The &lt;p> element is used for body text. It can be used inside the
-                        &lt;conbody> element as well as inside many of &lt;conbody>'s containing
-                        elements.</info>
+                    <info>The &lt;p> element is for body text. It can be used inside the
+                        &lt;conbody> element as well as inside many of the elements that
+                        &lt;conbody> contains.</info>
                     <info>
                         <note>Use the &lt;p> element for any body text that does not need a more
                             specific element tag. As you will see in examples throughout this
@@ -74,14 +72,12 @@
    &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
-                    <info>The &lt;ul> element is used for unordered or bulleted lists. </info>
-                    <info>The &lt;ul> element contains the &lt;li> or list item element. Each
-                        &lt;li> element contains the text for a bulleted entry in the list.
-                            <draft-comment author="simonbate">I would be more specific here: &lt;ul>
-                            must contain at least one &lt;li> element (and it can only contain
-                            &lt;li> elements).</draft-comment></info>
-                    <info>Each &lt;li> element follows the best practice of wrapping a &lt;p>
-                        element around the text.</info>
+                    <info>The &lt;ul> element is for unordered or bulleted lists. </info>
+                    <info>The &lt;ul> element can only contain the &lt;li> element, and it must
+                        contain at least one. </info>
+                    <info>Each &lt;li> element contains the text for a bulleted entry in the list.
+                        In this example, the &lt;li> elements follow the best practice of wrapping a
+                        &lt;p> element around the text.</info>
                 </step>
                 <step>
                     <cmd>After the &lt;ul> element, add an &lt;ol> element with an introductory
@@ -109,15 +105,15 @@
    &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
-                    <info>The &lt;ol> element is used for ordered or numbered lists.</info>
-                    <info>Like the &lt;ul> element, the &lt;ol> element contains &lt;li> elements.
-                        Each of the &lt;li> elements wraps a &lt;p> element around the
-                            text.<draft-comment author="simonbate">Again, one or more &lt;li>
-                            elements.</draft-comment>
-                        <note>Use the &lt;ol> element only to show that the list items should appear
-                            in a certain order, not to create step-by-step instructions. The task
-                            topic is intended for instructional content and provides a more
-                            semantically rich structure for steps than the concept.</note></info>
+                    <info>The &lt;ol> element is for ordered or numbered lists.</info>
+                    <info>Like the &lt;ul> element, the &lt;ol> element can only contains &lt;li>
+                        elements, and it must contain at least one. </info>
+                    <info>In this example, each of the &lt;li> elements wraps a &lt;p> element
+                        around the text. <note>Use the &lt;ol> element only to show that the list
+                            items should appear in a certain order, not to create step-by-step
+                            instructions. The task topic is intended for instructional content and
+                            provides a more semantically rich structure for steps than the
+                            concept.</note></info>
                    
                 </step>
                 <step>
@@ -152,6 +148,29 @@
                         or cautions, to the concept topic. The &lt;note> element you just created
                         follows the best practice of wrapping a &lt;p> element around the
                         text.</info>
+                </step>
+                <step>
+                    <cmd>Check your file l_new_concept_start.dita against the sample file
+                        l_new_concept.dita.</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+    <task id="task_rjg_zjx_dt">
+        <title>Exercise</title>
+        <taskbody>
+            <steps id="steps_r11_1kx_dt">
+                <step>
+                    <cmd>Open the file l_new_concept_exercise_start.dita and use it to convert the
+                        following untagged content into DITA:</cmd>
+                    <info>
+                        <draft-comment author="gretyl">How are we inserting the untagged
+                            content?</draft-comment>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Check the file l_new_concept_exercise_start.dita against the sample file
+                        l_new_concept_exercise.dita.</cmd>
                 </step>
             </steps>
         </taskbody>

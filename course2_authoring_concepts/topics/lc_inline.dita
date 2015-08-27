@@ -27,6 +27,18 @@
                     <dd>underlined text</dd>
                 </dlentry>
                 <dlentry>
+                    <dt>&lt;term></dt>
+                    <dd>a word or phrase that needs a definition</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>&lt;cite></dt>
+                    <dd>a word or phrase that needs a citation</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>&lt;varname></dt>
+                    <dd>a word or phrase that may change based on the user's circumstances</dd>
+                </dlentry>
+                <dlentry>
                     <dt>&lt;sub></dt>
                     <dd>subscript</dd>
                 </dlentry>
@@ -50,7 +62,7 @@
         <taskbody>
             <steps id="steps_f5k_kkh_1t">
                 <step>
-                    <cmd>Make a copy of the file 1_concept_elements.dita and open it in your
+                    <cmd>Make a copy of the file l_concept_elements_start.dita and open it in your
                         editor.</cmd>
                     <info>
                         <note>If you are using a DITA-aware text editor, make sure you are in text

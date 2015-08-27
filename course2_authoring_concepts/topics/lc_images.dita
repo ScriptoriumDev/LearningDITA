@@ -11,19 +11,15 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>You can add images to a concept topic in one of two ways: by placing it in the body
-                of the concept topic, or by placing it inside a &lt;fig> (figure) element. If you
-                wish to give your image a title or caption, placing it inside a figure is the best
-                    choice.<draft-comment author="simonbate">Introduce the &lt;image> element first
-                    and tell what it's used for.  I'd turn the persepective around a bit more,
-                    because "placing it in the body" can be ambiguous (as a child? as a
-                    descendant?). Might be better with "To add an image to the &lt;conbody>,..."
-                    </draft-comment><draft-comment author="simonbate">See my global comment (Skype)
-                    about the 3 or 4 main things to hit.</draft-comment><draft-comment
-                    author="simonbate">It's fairly common to use images inline (placement="inline")
-                    in &lt;p> elements.</draft-comment><draft-comment author="okeefe">no "wishing"
-                    or "desire" while we're at it. want or need. Try If you image needs a title or a
-                    caption, place it inside a &lt;fig> element.</draft-comment></p>
+            <p>You can add images to a concept topic using the &lt;image> element. The &lt;image>
+                element pulls an image file into your DITA topic by reference using the href
+                attribute.</p>
+            <p>You can add an &lt;image> element to your concept by placing it directly in the
+                &lt;conbody> element. It is also fairly common to use images inline by placing them
+                inside a &lt;p> element and using the placement="inline" attribute.</p>
+            <p>If your image needs a title or caption, place it inside a &lt;fig> element. The
+                &lt;fig> (or figure) element can contain a &lt;title> element and one or more
+                &lt;image> elements.</p>
         </lcInstruction>
     </learningContentbody>
     <task id="task_a2s_dvs_zs">
@@ -31,8 +27,8 @@
         <taskbody>
             <steps id="steps_mrl_tf1_dt">
                 <step>
-                    <cmd>Make a copy of the file 1_concept_images_tables.dita and open it in your
-                        editor.</cmd>
+                    <cmd>Make a copy of the file l_concept_images_tables_start.dita and open it in
+                        your editor.</cmd>
                     <info>You should see this:</info>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
