@@ -26,5 +26,24 @@
                 tag abuse? Or is that too advanced for this course?</draft-comment><draft-comment
                 author="Bill Swallow">I'd suggest holding off on unique IDs until we cover xrefs and
                 such. This is just basic building blocks for concepts.</draft-comment></lcIntro>
+        <lcIntro>
+            <p>This lesson covers best practices for authoring concept topics, including:</p>
+            <ul id="ul_yjl_lsq_dt">
+                <li>
+                    <p>Separation between content and formatting</p>
+                </li>
+                <li>
+                    <p>Consistent use of DITA elements</p>
+                </li>
+                <li>
+                    <p>Semantically rich content creation</p>
+                </li>
+            </ul>
+            <draft-comment author="gretyl">At the moment, we cover separation of content and
+                formatting, consistency, and semantically rich content in this lesson. Should we
+                talk about creating unique IDs for certain elements? Creating outputclasses as a way
+                to offset tag abuse? Or is that too advanced for this course?</draft-comment>
+        </lcIntro>
     </learningContentbody>
+    <related-links/>
 </learningContent>

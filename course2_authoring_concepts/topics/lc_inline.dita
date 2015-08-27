@@ -35,16 +35,14 @@
                     <dd>superscript text</dd>
                 </dlentry>
             </dl>
-            <p>Because these inline elements are closely linked with the appearance of text, it is
-                easy to misuse them and defeat the purpose of separating content from formatting. In
-                many cases, it is better to use semantically rich alternatives to these elements
-                instead, such as &lt;term>, &lt;cite>, or &lt;varname>.</p>
-            <p>
-                <draft-comment author="okeefe">ok, so if we think these elements are bad, why are we
-                    provide them as examples? Why not use the "better" elements? If the answer is
-                    that b, i, u, etc are familiar and easier, I think that's reasonable, but that
-                    explanation needs to be included here.</draft-comment>
-            </p>
+            <p>The inline elements &lt;b>, &lt;i>, and &lt;u> are familiar and easy to use. However,
+                because they are closely linked with the appearance of text, it is easy to misuse
+                them and defeat the purpose of separating content from formatting. In many cases, it
+                is better to use semantically rich alternatives to these elements instead, such as
+                &lt;term>, &lt;cite>, or &lt;varname>.</p>
+            <p>In the following examples, you will learn how to insert the simple &lt;b>, &lt;i>,
+                and &lt;u> elements first, then how to replace them with the semantically rich
+                alternatives.</p>
         </lcInstruction>
     </learningContentbody>
     <task id="task_i3g_jkh_1t">
@@ -80,21 +78,18 @@
 &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
-                    <info>By adding the &lt;b> element to this paragraph, you have made the words
-                        "round-the-clock access" bold. By adding the &lt;i> element, you have made
-                        the words "food" and "water" italic. By adding the &lt;u> element, you have
-                        underlined the words "two weeks."<draft-comment author="okeefe">TEchnically,
-                            that is not true. It's totally possible to output the &lt;b> elements as
-                            something other than  boldface. I think you need something like "The
-                            &lt;b> element indicates that the words "round-the-clock-access" should
-                            be rendered in boldface.</draft-comment></info>
+                    <info>By adding the &lt;b> element to this paragraph, you have indicated that
+                        the words "round-the-clock access" should be rendered in boldface.
+                        Similarly, by adding the &lt;i> element, you have indicated that the words
+                        "food" and "water" should be rendered in italic, and by adding the &lt;u>
+                        element, you have indicated that the words "two weeks" should be rendered
+                        with an underline.</info>
                     <info>Although these inline elements add emphasis to important words, they have
                         no other semantic value. Suppose you wanted to define the words
                         "round-the-clock access" later, or to style them the same way as other words
                         describing feeding frequency. Rather than using the &lt;b> element to tag
                         the words simply as bold, you could use the &lt;term> element to tag them as
-                        an important term. <draft-comment author="okeefe">Again, if we hate b/i/u so
-                            much, why are we demonstrating them here?</draft-comment></info>
+                        an important term. </info>
                     <info>There are similar, more semantically-rich alternatives for the &lt;i> and
                         &lt;u> elements, as well.</info>
                 </step>
@@ -103,11 +98,7 @@
                         text as the previous paragraph, with the &lt;b> element changed to
                         &lt;term>, the &lt;i> element changed to &lt;cite>, and the &lt;u> element
                         changed to &lt;varname>, as shown in the following example:</cmd>
-                    <stepxmp>
-                        <draft-comment author="okeefe">oh, hello! OK, so in that case, add a
-                            disclaimer at the beginning that explains the choice to use the simple
-                            ones first and then sub in the semantic elements.</draft-comment>
-                    </stepxmp>
+                    <stepxmp/>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">

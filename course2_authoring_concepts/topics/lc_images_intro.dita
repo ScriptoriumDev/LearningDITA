@@ -23,8 +23,19 @@
         <lcDuration>
             <lcTime value="1"/>
         </lcDuration>
-        <lcIntro>This lesson shows how to add images and tables to a concept topic.<draft-comment
-                author="okeefe">course overview</draft-comment><draft-comment author="okeefe"
-                >resources.</draft-comment></lcIntro>
+        <lcIntro>
+            <p>Images and tables give you a visual way to present or clarify information in your
+                concept topic.</p>
+            <p>Using the &lt;image> element on its own or inside a &lt;fig> element, you can include
+                images in your topic by reference.</p>
+            <p>With the &lt;simpletable> and &lt;table> elements, you can create tables to convey
+                factual information in a clearer way than you can using body text. The &lt;table>
+                element is especially flexible in terms of structure.</p>
+            <p>This lesson shows how to add images and tables to a concept topic. Like the other
+                elements introduced in this course, images and tables are not exclusive to the
+                concept topic type and can also be used in the other DITA topic types (task,
+                reference, and glossary).</p>
+        </lcIntro>
     </learningContentbody>
+    <related-links/>
 </learningContent>
