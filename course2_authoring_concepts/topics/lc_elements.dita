@@ -18,8 +18,9 @@
                 </li>
                 <li>
                     <p>&lt;menucascade>, which tags a hierarchy of menu choices (such as File, Save
-                        As). Each item inside the &lt;menucascade> element is contained in a
-                        &lt;uicontrol> element.</p>
+                            As)<draft-comment author="Bill Swallow">a menu path, such as File > Save
+                            As</draft-comment>. Each item inside the &lt;menucascade> element is
+                        contained in a &lt;uicontrol> element.</p>
                 </li>
                 <li>
                     <p>&lt;dl>, which contains definition lists. A definition list is a list of
@@ -48,7 +49,9 @@
             </p>
             <p>The &lt;menucascade> element lets you tag a hierarchy of menu choices (such as File,
                 Save As). Each item inside the &lt;menucascade> element is contained in a
-                &lt;uicontrol> element.</p>
+                &lt;uicontrol> element.<draft-comment author="Bill Swallow">Should explain that
+                    &lt;uicontrol> can be used without &lt;menucascade>. Example: Choose an option
+                    then click &lt;uicontrol>OK&lt;/uicontrol>.</draft-comment></p>
             <p>The &lt;dl> element specifies definition lists <draft-comment author="Bill Swallow"
                     >might be good to explain uicontrol a bit more, and to avoid &lt;b> or other
                     inline tags when highlighting buttons and such.</draft-comment><draft-comment
@@ -56,7 +59,9 @@
                     entry?</draft-comment>. The definition list contains entries, tagged with the
                 &lt;dlentry> element, and each entry contains a term (tagged with the &lt;dt>
                 element) and a definition (tagged with the &lt;dd> element). <draft-comment
-                    author="okeefe">avoid "is used to". Passive. Global.</draft-comment></p>
+                    author="Bill Swallow">duplicate content (defined
+                    above)</draft-comment><draft-comment author="okeefe">avoid "is used to".
+                    Passive. Global.</draft-comment></p>
             <p>Continue using the file l_concept_elements.dita to add each of these elements to your
                 example file.</p>
         </lcInstruction>

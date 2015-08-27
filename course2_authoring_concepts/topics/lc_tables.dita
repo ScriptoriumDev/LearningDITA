@@ -316,7 +316,8 @@
                         attribute. In the example you added, cols="2" shows that this table will
                         contain two columns.</info>
                     <info>A single &lt;table> element can contain more than one &lt;tgroup>
-                        element.</info>
+                            element.<draft-comment author="Bill Swallow">Useful
+                            because...</draft-comment></info>
                 </step>
                 <step>
                     <cmd>Inside the &lt;tgroup> element, add two &lt;colspec> elements and populate

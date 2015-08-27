@@ -13,9 +13,13 @@
         <lcObjectives>
             <lcObjectivesGroup id="lcObjectivesGroup_tvl_vbh_1t">
                 <lcObjective>Create a concept topic file</lcObjective>
-                <lcObjective>Introduce the DOCTYPE for concept topics</lcObjective>
+                <lcObjective>Introduce the DOCTYPE for concept topics<draft-comment
+                        author="Bill Swallow">Learn about the concept
+                    DOCTYPE</draft-comment></lcObjective>
                 <lcObjective>Add the root elements for a concept</lcObjective>
-                <lcObjective>Add the &lt;p>, &lt;ul>, &lt;ol>, and &lt;note>elements</lcObjective>
+                <lcObjective>Add the &lt;p>, &lt;ul>, &lt;ol>, and &lt;note>elements<draft-comment
+                        author="Bill Swallow">Add basic content
+                    elements</draft-comment></lcObjective>
             </lcObjectivesGroup>
         </lcObjectives>
         <lcDuration>
@@ -23,10 +27,12 @@
         </lcDuration>
         <lcIntro>
             <p>The DITA concept topic type is used to provide information about a particular
-                subject.</p>
-            <p>Concept topics help someone understand an idea or follow an instruction. A concept
-                topic may give background or conceptual information about the subject in addition to
-                essential information.</p>
+                    subject.<draft-comment author="Bill Swallow">DITA concept topics
+                    provide...</draft-comment></p>
+            <p>Concept topics help someone understand an idea or follow<draft-comment
+                    author="Bill Swallow">the purpose of (in place of 'follow')</draft-comment> an
+                instruction. A concept topic may give background or conceptual information about the
+                subject in addition to essential information.</p>
             <p>A typical concept topic will mostly contain paragraphs and lists. However, concepts
                 may also present information using images, tables, or other elements. They may also
                 be broken into sections for additional clarity.</p>

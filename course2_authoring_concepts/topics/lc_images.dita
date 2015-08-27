@@ -73,7 +73,7 @@
 &lt;image href="images/ducklings_sitting.jpg"/>
 <ph outputclass="newchanged">&lt;fig>
 &lt;title>Ducklings walking&lt;/title>
-&lt;image href="ducklings_walking.jpg"/>
+&lt;image href="ducklings_walking.jpg"/><draft-comment author="Bill Swallow">the previous image resides in the 'images' folder... is this path correct?</draft-comment>
 &lt;/fig></ph>
    &lt;/conbody>
 &lt;/concept></pre>
@@ -89,7 +89,10 @@
                             DITA, but the caption does not necessarily have to appear above the
                             image in the final output.</note>
                     </info>
-                    <info>The &lt;fig> element can contain more than one &lt;image> element. </info>
+                    <info>The &lt;fig> element can contain more than one &lt;image> element.
+                            <draft-comment author="Bill Swallow">Again, too deep a suggestion, or
+                            should we also explain that it can contain other tags, such as ordered
+                            lists for callout purposes?</draft-comment></info>
                 </step>
             </steps>
         </taskbody>
