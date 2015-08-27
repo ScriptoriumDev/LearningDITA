@@ -151,7 +151,9 @@
                     <info>The &lt;note> element is used to add admonitions, such as notes, warnings,
                         or cautions, to the concept topic. The &lt;note> element you just created
                         follows the best practice of wrapping a &lt;p> element around the
-                        text.</info>
+                            text.<draft-comment author="Bill Swallow">Should we explain how to
+                            differentiate? Use &lt;note type="note"> as best practice? Too
+                            deep?</draft-comment></info>
                 </step>
             </steps>
         </taskbody>
