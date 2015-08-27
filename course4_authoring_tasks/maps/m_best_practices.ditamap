@@ -3,6 +3,9 @@
 <map>
  <title>Best practices for tasks</title>
  <topicref href="../topics/lc_bp_intro.dita">
+  <topicmeta lockmeta="yes">
+   <data name="lesson_id" value="9999"></data>
+  </topicmeta>
   <topicref href="../topics/lc_bp_planning.dita"/>
  </topicref>
 </map>

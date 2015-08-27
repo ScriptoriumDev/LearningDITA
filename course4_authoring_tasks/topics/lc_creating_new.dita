@@ -92,9 +92,9 @@
                             <li>Information the reader must have</li>
                             <li>Previous tasks the reader must have accomplished</li>
                         </ul></info>
-                    <stepxmp><ph>(The next two examples only show the contents of the &lt;taskbody>
+                    <stepxmp><p>(The next two examples only show the contents of the &lt;taskbody>
                             element; the other task elements are there, they’re just not shown, for
-                            clarity.)</ph><pre>&lt;taskbody>
+                            clarity.)</p><pre>&lt;taskbody>
 <ph outputclass="newchanged">   &lt;prereq>
          &lt;p>Before you go watching wild ducks, make sure you know what a wild duck looks like.&lt;/p>
    &lt;/prereq></ph>
