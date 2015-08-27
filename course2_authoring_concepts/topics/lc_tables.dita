@@ -16,23 +16,6 @@
                 ability to display information and allow for more complex tabular structures. For
                 example, the &lt;simpletable> element does not allow for titles, spanned cells, or
                 footer rows, while &lt;table> supports all of these features and more.</p>
-            <draft-comment author="okeefe">
-                <p>Also, we need the conceptual background information on what the various
-                    table/simpletable elements mean. That is not explained in the task. Probably
-                    give them some background here, or create a separate overview lesson/topic that
-                    provides the information they need. The tags are explained inside the task, but
-                    I dont' think that's help to be good enough.</p>
-            </draft-comment>
-            <p>
-                <draft-comment author="Bill Swallow">Can we reference the previous course topics? We
-                    covered all of the conceptual table info in Course 1, Lesson 5, and students
-                    reading this topic should have completed the first course. Also, we
-                    differentiated the table types as simple tables and CALS tables.</draft-comment>
-            </p>
-            <draft-comment author="gretyl">Added conceptual lists of &lt;simpletable> and &lt;table>
-                elements. Do these provide enough information? I know we talked about doing a
-                separate table course later that gets more in-depth, so I want to keep it as simple
-                as possible while still being thorough.</draft-comment>
             <p>The elements in a &lt;simpletable> include:</p>
             <ul id="ul_uyq_zfq_dt">
                 <li>
@@ -92,8 +75,8 @@
                 both examples.</p><fig>
                     <title>Example &lt;simpletable> and &lt;table> in a visual format</title><image href="../media/images_and_tables/table_examples.png"
                             id="image_ntp_v2q_dt"/>
-                </fig><p>Continue using the file 1_concept_images_tables.dita to add the &lt;simpletable> and &lt;table>
-                elements.</p>
+                </fig><p>Continue using the file l_concept_images_tables_start.dita to add the &lt;simpletable> and
+                &lt;table> elements.</p>
             <note>If you are using a DITA editor, some child elements of &lt;simpletable> and
                 &lt;table> will automatically be inserted as you work through the examples.</note></lcInstruction>
     </learningContentbody>
@@ -459,7 +442,7 @@
 &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
-                    <info>The &lt;tbody> element is used for the main body of the table. Following
+                    <info>The &lt;tbody> element is for the main body of the table. Following
                         the same structure as the &lt;thead> element, the &lt;tbody> element can
                         contain &lt;row> elements with &lt;entry> elements inside them.</info>
                 </step>
@@ -539,6 +522,26 @@
                     </stepxmp>
                     <info>You may add as many &lt;row> elements as you wish inside the &lt;tbody>
                         element of a table.</info>
+                </step>
+                <step>
+                    <cmd>Check your file l_concept_images_tables_start.dita against the sample file
+                        l_concept_images_tables.dita.</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+    <task id="task_as2_vjx_dt">
+        <title>Exercise</title>
+        <taskbody>
+            <steps id="steps_g32_wjx_dt">
+                <step>
+                    <cmd>Open the file l_concept_images_tables_exercise_start.dita and use it to
+                        convert the following untagged content into DITA:</cmd>
+                    <info/>
+                </step>
+                <step>
+                    <cmd>Check the file l_concept_images_tables_start.dita against the sample file
+                        l_concept_images_tables_exercise.dita.</cmd>
                 </step>
             </steps>
         </taskbody>

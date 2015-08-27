@@ -25,8 +25,7 @@
                         useful.</p>
                 </li>
                 <li>
-                    <p>&lt;lq>, which contains long quotations. This element is generally used for
-                        including a quote from an outside source in your content rather than (or in
+                    <p>&lt;lq>, which contains long quotations. This element is for including a quote from an outside source in your content rather than (or in
                         addition to) linking to the source.</p>
                 </li>
                 <li>
@@ -60,7 +59,7 @@
         <taskbody>
             <steps id="steps_f5k_kkh_1t">
                 <step>
-                    <cmd>Make a copy of the file 1_concept_advanced.dita and open it in your
+                    <cmd>Make a copy of the file l_concept_advanced_start.dita and open it in your
                         editor.</cmd>
                     <info>
                         <note>If you are using a DITA-aware text editor, make sure you are in text
@@ -242,6 +241,26 @@ duckdata> _
                         position (such as inside the &lt;section>) or re-tag it with a valid element
                         (such as &lt;example>). Otherwise, the final output will not display the
                         text inside the &lt;p> element.</info>
+                </step>
+                <step>
+                    <cmd>Check your file l_concept_advanced_start.dita against the sample file
+                        l_concept_advanced.dita.</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+    <task id="task_as2_vjx_dt">
+        <title>Exercise</title>
+        <taskbody>
+            <steps id="steps_g32_wjx_dt">
+                <step>
+                    <cmd>Open the file l_concept_advanced_exercise_start.dita and use it to convert
+                        the following untagged content into DITA:</cmd>
+                    <info/>
+                </step>
+                <step>
+                    <cmd>Check the file l_concept_advanced_start.dita against the sample file
+                        l_concept_advanced_exercise.dita.</cmd>
                 </step>
             </steps>
         </taskbody>

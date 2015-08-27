@@ -19,8 +19,11 @@
                 attribute) that contains a &lt;title> element. </p>
             <p>After the &lt;title> element and an optional &lt;shortdesc> or &lt;abstract> element,
                 the &lt;conbody> element contains the concept itself. </p>
-            <draft-comment author="simonbate">Say more about what's allowed in the conbody, pointing
-                off to other references, if need be, but I think this is an important point. </draft-comment>
+            <p>The &lt;conbody> element has an open content model. This means that the elements
+                contained in &lt;conbody> are not required to follow a strict sequence. As long as
+                an element is allowed inside &lt;conbody>, it can appear in any order. The
+                exceptions are the &lt;section> and &lt;example> elements, which can only be
+                followed by other &lt;section> or &lt;example> elements.</p>
         </lcInstruction>
     </learningContentbody>
     <task id="task_i3g_jkh_1t">
@@ -28,7 +31,7 @@
         <taskbody>
             <steps id="steps_f5k_kkh_1t">
                 <step>
-                    <cmd>Make a copy of the file 1_new_concept.dita and open it in your
+                    <cmd>Make a copy of the file l_new_concept_start.dita and open it in your
                         editor.</cmd>
                     <info>
                         <note>If you are using a DITA-aware text editor, make sure you are in text
