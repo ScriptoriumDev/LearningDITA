@@ -74,7 +74,7 @@
                 the differences between these types of tables, the same information will be used for
                 both examples.</p><fig>
                     <title>Example &lt;simpletable> and &lt;table> in a visual format</title><image href="../media/images_and_tables/table_examples.png"
-                            id="image_ntp_v2q_dt"/>
+                        id="image_ntp_v2q_dt"  base="2015/08"/>
                 </fig><p>Continue using the file l_concept_images_tables_start.dita to add the &lt;simpletable> and
                 &lt;table> elements.</p>
             <note>If you are using a DITA editor, some child elements of &lt;simpletable> and
@@ -540,7 +540,7 @@
                     <cmd>Open the file l_concept_images_tables_exercise_start.dita and use it to
                         convert the following untagged content into DITA:</cmd>
                     <info><image href="../media/images_and_tables/exercise_2.png"
-                            id="image_u3f_4vd_2t"/></info>
+                        id="image_u3f_4vd_2t" base="2015/08"/></info>
                 </step>
                 <step>
                     <cmd>Check your file l_concept_images_tables_start.dita against the sample file
