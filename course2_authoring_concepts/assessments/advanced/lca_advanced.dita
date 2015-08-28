@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_dfg_xb2_2t">
+ <title>Advanced elements</title>
+ <prolog>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+   Scriptorium</author>
+  <critdates>
+   <created date="2015-08-28"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcMatching id="lcMatching_lcz_yb2_2t">
+    <lcQuestion>Match the advanced element with its content.</lcQuestion>
+    <lcMatchTable id="lcMatchTable_mcz_yb2_2t">
+     <lcMatchingPair>
+      <lcItem>Block of code</lcItem>
+      <lcMatchingItem>&lt;codeblock></lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>Code phrase</lcItem>
+      <lcMatchingItem>&lt;codeph></lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>Long quote</lcItem>
+      <lcMatchingItem>&lt;lq></lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>Topic subsections</lcItem>
+      <lcMatchingItem>&lt;section></lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>Comment to other authors</lcItem>
+      <lcMatchingItem>&lt;draft-comment></lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>Incorrectly tagged content</lcItem>
+      <lcMatchingItem>&lt;required-cleanup></lcMatchingItem>
+     </lcMatchingPair>
+    </lcMatchTable>
+   </lcMatching>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

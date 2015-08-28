@@ -1,10 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?> 
-<!-- This file is part of the DITA Training project hosted on
-     github.com. See the accompanying LICENSE file for
-     applicable licenses.-->
+<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
-<learningAssessment id="assessment_f33_1kp_wr8">
- <title>Template</title>
+<learningAssessment id="assessment_wc2_xs2_2t">
+ <title>Formatting 2</title>
  <prolog>
   <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
    Scriptorium</author>
@@ -15,8 +12,8 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcTrueFalse id="link8">
-    <lcQuestion>Template question.</lcQuestion>
-    <lcAnswerOptionGroup>
+    <lcQuestion>Unstructured content displays equally well in HTML and PDF. </lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_yx2_1t2_2t">
      <lcAnswerOption>
       <lcAnswerContent>False</lcAnswerContent>
       <lcCorrectResponse/>
@@ -25,7 +22,8 @@
       <lcAnswerContent>True</lcAnswerContent>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect>Template question.</lcFeedbackIncorrect>
+    <lcFeedbackIncorrect>Unstructured content is usually designed for a single output type, it
+     rarely works well in a different output type.</lcFeedbackIncorrect>
    </lcTrueFalse>
   </lcInteraction>
  </learningAssessmentbody>

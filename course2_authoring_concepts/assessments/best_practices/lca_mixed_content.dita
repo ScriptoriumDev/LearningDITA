@@ -1,10 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?> 
-<!-- This file is part of the DITA Training project hosted on
-     github.com. See the accompanying LICENSE file for
-     applicable licenses.-->
+<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
-<learningAssessment id="assessment_f33_1kp_wr8">
- <title>Template</title>
+<learningAssessment id="assessment_fn5_zq2_2t">
+ <title>Mixed content</title>
  <prolog>
   <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
    Scriptorium</author>
@@ -14,18 +11,19 @@
  </prolog>
  <learningAssessmentbody>
   <lcInteraction>
-   <lcTrueFalse id="link8">
-    <lcQuestion>Template question.</lcQuestion>
-    <lcAnswerOptionGroup>
+   <lcTrueFalse id="lcTrueFalse_v2z_ps2_2t">
+    <lcQuestion>Mixed content can affect the styling of text in the final output.</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_w2z_ps2_2t">
      <lcAnswerOption>
-      <lcAnswerContent>False</lcAnswerContent>
+      <lcAnswerContent>True</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>True</lcAnswerContent>
+      <lcAnswerContent>False</lcAnswerContent>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect>Template question.</lcFeedbackIncorrect>
+    <lcFeedbackIncorrect>Mixed content can be confusing or ambiguous to the output formatter,
+     resulting in inconsistent styling.</lcFeedbackIncorrect>
    </lcTrueFalse>
   </lcInteraction>
  </learningAssessmentbody>
