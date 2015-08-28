@@ -149,9 +149,9 @@
                     <info>The &lt;note> element is used to add admonitions, such as notes, warnings,
                         or cautions, to the concept topic. The &lt;note> element you just created
                         follows the best practice of wrapping a &lt;p> element around the
-                            text.<draft-comment author="Bill Swallow">Should we explain how to
-                            differentiate? Use &lt;note type="note"> as best practice? Too
-                            deep?</draft-comment></info>
+                        text.</info>
+                    <info>Video: <xref href="https://www.youtube.com/watch?v=ByrO1K1OTIA"
+                            format="html" scope="external">Creating a note in DITA</xref></info>
                 </step>
                 <step>
                     <cmd>Check your file l_new_concept_start.dita against the sample file
@@ -167,13 +167,11 @@
                 <step>
                     <cmd>Open the file l_new_concept_exercise_start.dita and use it to convert the
                         following untagged content into DITA:</cmd>
-                    <info>
-                        <draft-comment author="gretyl">How are we inserting the untagged
-                            content?</draft-comment>
-                    </info>
+                    <info><image href="../media/new_concept/exercise_1.png" id="image_h5f_ztd_2t"
+                        /></info>
                 </step>
                 <step>
-                    <cmd>Check the file l_new_concept_exercise_start.dita against the sample file
+                    <cmd>Check your file l_new_concept_exercise_start.dita against the sample file
                         l_new_concept_exercise.dita.</cmd>
                 </step>
             </steps>

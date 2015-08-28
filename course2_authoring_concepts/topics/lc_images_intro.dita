@@ -35,7 +35,29 @@
                 elements introduced in this course, images and tables are not exclusive to the
                 concept topic type and can also be used in the other DITA topic types (task,
                 reference, and glossary).</p>
+            <note>
+                <p>This lesson covers basic use of these elements. For the full specifications for
+                    each element, see the OASIS DITA Version 1.2 Standard in the related
+                    information.</p>
+            </note>
         </lcIntro>
     </learningContentbody>
-    <related-links/>
+    <related-links>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/image.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;image></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/fig.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;fig></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/simpletable.html"
+            format="html" scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;simpletable></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/table.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;table></linktext>
+        </link>
+    </related-links>
 </learningContent>

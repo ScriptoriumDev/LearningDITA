@@ -159,18 +159,16 @@
 &lt;p>Ducklings need &lt;b>round-the-clock access&lt;/b> to both &lt;i>food&lt;/i> and &lt;i>water&lt;/i> during the first &lt;u>two weeks&lt;/u> of their lives.&lt;/p>
 &lt;p>Ducklings need &lt;term>round-the-clock access&lt;/term> to both &lt;cite>food&lt;/cite> and &lt;cite>water&lt;/cite> during the first &lt;varname>two weeks&lt;/varname> of their lives.&lt;/p>
 &lt;p>Because duck feed has a dry, gritty texture, ducklings need plenty of H&lt;sub>2&lt;/sub>O to keep their bills clean.&lt;/p>
-<ph outputclass="newchanged">&lt;p>You can make your own low, no-spill food and water dishes out of recycled plastic containers, or buy ready-made dishes from E-Z-Feed&lt;sup>TM&lt;/sup>.&lt;/p></ph>
+<ph outputclass="newchanged">&lt;p>You can make your own low, no-spill food and water dishes out of recycled plastic containers, or buy ready-made dishes from E-Z-Feed&lt;sup>2&lt;/sup>.&lt;/p></ph>
 &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
                     <info>The &lt;sup> element is used to tag superscript text, or text that appears
                         smaller and slightly above the main line. In the example you added, the
-                        &lt;sup> element is used to ensure that the "TM" (trademark symbol) is
-                        displayed as superscript. <draft-comment author="Bill Swallow">I would not
-                            use this as an example. They should use the TM character
-                            entity.</draft-comment><note type="caution">Do not use &lt;sup> elements
-                            to create raised numbers for footnotes. Instead, use the DITA &lt;fn>
-                            (footnote) element.</note>
+                        &lt;sup> element is used to indicate that the "2" (symbol for "squared") in
+                        the name of the duck food company should be displayed as superscript. <note
+                            type="caution">Do not use &lt;sup> elements to create raised numbers for
+                            footnotes. Instead, use the DITA &lt;fn> (footnote) element.</note>
                     </info>
                   
                 </step>

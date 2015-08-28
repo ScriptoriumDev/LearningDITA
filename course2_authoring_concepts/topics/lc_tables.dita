@@ -298,9 +298,9 @@
                         table columns is set inside the &lt;tgroup> element using the cols
                         attribute. In the example you added, cols="2" shows that this table will
                         contain two columns.</info>
-                    <info>A single &lt;table> element can contain more than one &lt;tgroup>
-                            element.<draft-comment author="Bill Swallow">Useful
-                            because...</draft-comment></info>
+                    <info>A single &lt;table> element can contain more than one &lt;tgroup> element,
+                        which is useful if you need to show more than one table with different
+                        headers or numbers of columns under the same title.</info>
                 </step>
                 <step>
                     <cmd>Inside the &lt;tgroup> element, add two &lt;colspec> elements and populate
@@ -522,6 +522,8 @@
                     </stepxmp>
                     <info>You may add as many &lt;row> elements as you wish inside the &lt;tbody>
                         element of a table.</info>
+                    <info>Video: <xref href="https://www.youtube.com/watch?v=PFWz_Vsyxwg"
+                            format="html" scope="external">Creating a table in DITA</xref></info>
                 </step>
                 <step>
                     <cmd>Check your file l_concept_images_tables_start.dita against the sample file
@@ -537,10 +539,11 @@
                 <step>
                     <cmd>Open the file l_concept_images_tables_exercise_start.dita and use it to
                         convert the following untagged content into DITA:</cmd>
-                    <info/>
+                    <info><image href="../media/images_and_tables/exercise_2.png"
+                            id="image_u3f_4vd_2t"/></info>
                 </step>
                 <step>
-                    <cmd>Check the file l_concept_images_tables_start.dita against the sample file
+                    <cmd>Check your file l_concept_images_tables_start.dita against the sample file
                         l_concept_images_tables_exercise.dita.</cmd>
                 </step>
             </steps>
