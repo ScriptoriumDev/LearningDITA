@@ -51,7 +51,8 @@
    &lt;title>Wild duck species&lt;/title>
   &lt;conbody>
 ...
- <ph outputclass="newchanged">&lt;p>Ducklings need higher levels of protein in their diets than adult ducks.&lt;fn>A protein level of 18-20% is recommended for newborn ducklings.&lt;/fn>&lt;/p></ph>
+ <ph outputclass="newchanged">&lt;p>Ducklings need higher levels of protein in their diets than adult ducks.
+&lt;fn>A protein level of 18-20% is recommended for newborn ducklings.&lt;/fn>&lt;/p></ph>
 &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
@@ -70,8 +71,10 @@
    &lt;title>Wild duck species&lt;/title>
   &lt;conbody>
 ...
-&lt;p>Ducklings need higher levels of protein in their diets than adult ducks.&lt;fn>A protein level of 18-20% is recommended for newborn ducklings.&lt;/fn>&lt;/p>
-<ph outputclass="newchanged">&lt;p>To create a spreadsheet to keep track of when you need to replenish your ducklings' food and water, go to 
+&lt;p>Ducklings need higher levels of protein in their diets than adult ducks.
+&lt;fn>A protein level of 18-20% is recommended for newborn ducklings.&lt;/fn>&lt;/p>
+<ph outputclass="newchanged">&lt;p>To create a spreadsheet to keep track of when you need to replenish your 
+ducklings' food and water, go to 
 &lt;menucascade>
 &lt;/menucascade>.</ph>
 &lt;/p>
@@ -91,8 +94,10 @@
    &lt;title>Wild duck species&lt;/title>
    &lt;conbody>
 ...
- &lt;p>Ducklings need higher levels of protein in their diets than adult ducks.&lt;fn>A protein level of 18-20% is recommended for newborn ducklings.&lt;/fn>&lt;/p>
-&lt;p>To create a spreadsheet to keep track of when you need to replenish your ducklings' food and water, go to 
+ &lt;p>Ducklings need higher levels of protein in their diets than adult ducks.
+&lt;fn>A protein level of 18-20% is recommended for newborn ducklings.&lt;/fn>&lt;/p>
+&lt;p>To create a spreadsheet to keep track of when you need to replenish your 
+ducklings' food and water, go to 
 &lt;menucascade>
 <ph outputclass="newchanged">&lt;uicontrol>File&lt;/uicontrol></ph>
 &lt;/menucascade>.
@@ -101,7 +106,7 @@
 &lt;/concept></pre>
                     </stepxmp>
                     <info>In the example you added, the &lt;uicontrol> element contains the name of
-                        the first menu option involved in creating a spreadsheet: "File."</info>
+                        the first menu option involved in creating a spreadsheet: “File.”</info>
                     <info>You can use the &lt;uicontrol> element without the &lt;menucascade>
                         element. For example, you can tag a word with the &lt;uicontrol> element to
                         indicate a button the user should click. Because the &lt;uicontrol> element
@@ -119,8 +124,10 @@
    &lt;title>Wild duck species&lt;/title>
   &lt;conbody>
 ...
- &lt;p>Ducklings need higher levels of protein in their diets than adult ducks.&lt;fn>A protein level of 18-20% is recommended for newborn ducklings.&lt;/fn>&lt;/p>
-&lt;p>To create a spreadsheet to keep track of when you need to replenish your ducklings' food and water, go to 
+ &lt;p>Ducklings need higher levels of protein in their diets than adult ducks.
+&lt;fn>A protein level of 18-20% is recommended for newborn ducklings.&lt;/fn>&lt;/p>
+&lt;p>To create a spreadsheet to keep track of when you need to replenish your 
+ducklings' food and water, go to 
 &lt;menucascade>
 &lt;uicontrol>File&lt;/uicontrol>
 <ph outputclass="newchanged">&lt;uicontrol>New&lt;/uicontrol>
@@ -133,8 +140,8 @@
                     <info>By default, an arrow symbol is inserted between &lt;uicontrol> elements in
                         the output to indicate the hierarchy of the menu options. </info>
                     <info>With the &lt;menucascade> and &lt;uicontrol> elements in the example you
-                        added, the user now knows to click on "File," then "New," then
-                        "Spreadsheet."</info>
+                        added, the user now knows to click on “File,” then “New,” then
+                        “Spreadsheet.”</info>
                     <info>Video: <xref href="https://www.youtube.com/watch?v=xGyf4q_Bipw"
                             format="html" scope="external">Creating a menucascade in
                         DITA</xref></info>
@@ -150,8 +157,8 @@
    &lt;conbody>
 ...
 &lt;/menucascade>
-<ph outputclass="newchanged">&lt;p>Domestic ducks fall into categories based on weight. These weight classes may help you choose a
-   species based on how much you will need to feed your ducks.&lt;/p>
+<ph outputclass="newchanged">&lt;p>Domestic ducks fall into categories based on weight. These weight classes may 
+help you choose a species based on how much you will need to feed your ducks.&lt;/p>
 &lt;dl>
 &lt;/dl></ph>
 &lt;/conbody>
@@ -170,8 +177,8 @@
    &lt;conbody>
 ...
 &lt;/menucascade>
-&lt;p>Domestic ducks fall into categories based on weight. These weight classes may help you choose a
-   species based on how much you will need to feed your ducks.&lt;/p>
+&lt;p>Domestic ducks fall into categories based on weight. These weight classes may 
+help you choose a species based on how much you will need to feed your ducks.&lt;/p>
 &lt;dl>
 <ph outputclass="newchanged"> &lt;dlentry>
 &lt;/dlentry></ph>
@@ -193,8 +200,8 @@
    &lt;conbody>
 ...
 &lt;/menucascade>
-&lt;p>Domestic ducks fall into categories based on weight. These weight classes may help you choose a
-   species based on how much you will need to feed your ducks.&lt;/p>
+&lt;p>Domestic ducks fall into categories based on weight. These weight classes may 
+help you choose a species based on how much you will need to feed your ducks.&lt;/p>
 &lt;dl>
     &lt;dlentry>
     <ph outputclass="newchanged">&lt;dt>Bantam&lt;/dt>
@@ -219,8 +226,8 @@
   &lt;conbody>
 ...
 &lt;/menucascade>
-&lt;p>Domestic ducks fall into categories based on weight. These weight classes may help you choose a
-   species based on how much you will need to feed your ducks.&lt;/p>
+&lt;p>Domestic ducks fall into categories based on weight. These weight classes may 
+help you choose a species based on how much you will need to feed your ducks.&lt;/p>
 &lt;dl>
     &lt;dlentry>
         &lt;dt>Bantam&lt;/dt>
@@ -228,7 +235,8 @@
     &lt;/dlentry>
     <ph outputclass="newchanged">&lt;dlentry>
         &lt;dt>Light&lt;/dt>
-        &lt;dd>The second lightest-weight ducks and best egg-layers, such as the Khaki Campbell duck.&lt;/dd>
+        &lt;dd>The second lightest-weight ducks and best egg-layers, such as the Khaki 
+            Campbell duck.&lt;/dd>
     &lt;/dlentry>
     &lt;dlentry>
         &lt;dt>Medium&lt;/dt>
@@ -260,7 +268,7 @@
                 <step>
                     <cmd>Open the file l_concept_elements_exercise_start.dita and use it to convert
                         the following untagged content into DITA:</cmd>
-                    <info><image href="../media/elements/exercise_3.png" id="image_elc_x12_2t"
+                    <info><image href="../media/elements/exercise_3.png" id="image_elc_x12_2t" base="2015/08"
                         /></info>
                 </step>
                 <step>
