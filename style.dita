@@ -102,10 +102,11 @@
   
  &lt;/map>
 </codeblock>
-      <p>Each assessment question goes into its own learningAssessment topic. Do not include title
-        text in assessment topics. Each assessment requires a unique ID for the question type
-        (lcSingleSelect in the following sample). This is not the same as the ID of the
-        learningAssessment topic itself. </p>
+      <p>Each assessment question goes into its own learningAssessment topic. It’s a good idea to
+        include title text in assessment topics; the title is not displayed to the reader in the
+        LMS, but helps you locate the assessment in the LMS. Each assessment requires a unique ID
+        for the question type (lcSingleSelect in the following sample). This is not the same as the
+        ID of the learningAssessment topic itself. </p>
       <codeblock>&lt;learningAssessment id="assessment_htp_t21_wr">
  &lt;title>&lt;/title>
  &lt;prolog>

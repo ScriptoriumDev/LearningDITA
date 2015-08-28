@@ -7,7 +7,7 @@
  <title>More elements</title>
  <topicref href="../topics/lc_elements_intro.dita">
   <topicmeta lockmeta="yes">
-   <data name="lesson_id" value="9999"></data>
+   <data name="lesson_id" value="8940"></data>
   </topicmeta>
 <!--  <topicref href="../topics/lc_markup.dita"/>-->
   <topicref href="../topics/lc_inline.dita"/>
@@ -17,6 +17,12 @@
     <navtitle>Assessment for Adding more elements</navtitle>
    </topicmeta>
    <!--   <topicref href="../assessments/lca_htmldita.dita"/>-->
+   <topicref href="../assessments/elements/lca_inline.dita"/>
+   <topicref href="../assessments/elements/lca_inline_purpose.dita"/>
+   <topicref href="../assessments/elements/lca_semantics.dita"/>
+   <topicref href="../assessments/elements/lca_menucascade.dita"/>
+   <topicref href="../assessments/elements/lca_dl_elements.dita"/>
+   <topicref href="../assessments/elements/lca_dlentry.dita"/>
   </topicref>
  </topicref>
  

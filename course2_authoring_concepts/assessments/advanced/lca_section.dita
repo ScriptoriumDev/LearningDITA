@@ -1,10 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?> 
-<!-- This file is part of the DITA Training project hosted on
-     github.com. See the accompanying LICENSE file for
-     applicable licenses.-->
+<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
-<learningAssessment id="assessment_f33_1kp_wr8">
- <title>Template</title>
+<learningAssessment id="assessment_k1d_qc2_2t">
+ <title>section</title>
  <prolog>
   <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
    Scriptorium</author>
@@ -15,8 +12,8 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcTrueFalse id="link8">
-    <lcQuestion>Template question.</lcQuestion>
-    <lcAnswerOptionGroup>
+    <lcQuestion>A &lt;section> element can contain other &lt;section> elements.</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_fnf_zc2_2t">
      <lcAnswerOption>
       <lcAnswerContent>False</lcAnswerContent>
       <lcCorrectResponse/>
@@ -25,7 +22,8 @@
       <lcAnswerContent>True</lcAnswerContent>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect>Template question.</lcFeedbackIncorrect>
+    <lcFeedbackIncorrect>DITA does not allow nesting of &lt;section> elements.
+    </lcFeedbackIncorrect>
    </lcTrueFalse>
   </lcInteraction>
  </learningAssessmentbody>
