@@ -72,9 +72,11 @@
    &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
-                    <info>The &lt;ul> element is for unordered or bulleted lists. </info>
+                    <info>The &lt;ul> element is for unordered or bulleted lists. 
+                        <draft-comment author="simonbate">I think most of these info elements
+                            should be in the lcInstruction.</draft-comment></info>
                     <info>The &lt;ul> element can only contain the &lt;li> element, and it must
-                        contain at least one. </info>
+                        contain at least one.</info>
                     <info>Each &lt;li> element contains the text for a bulleted entry in the list.
                         In this example, the &lt;li> elements follow the best practice of wrapping a
                         &lt;p> element around the text.</info>
