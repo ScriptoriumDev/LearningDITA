@@ -44,16 +44,41 @@
                 this lesson and throughout the rest of the course are not specific to concepts and
                 can also be used in the other types of DITA topics (task, reference, and
                 glossary).</p>
+            <note>
+                <p>This lesson covers basic use of these elements. For the full specifications for
+                    each element, see the OASIS DITA Version 1.2 Standard in the related
+                    information.</p>
+            </note>
         </lcIntro>
     </learningContentbody>
     <related-links>
-        <link
-            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Topics_and_Information_Types/c_Concept.html"
-            format="html" scope="external">
-            <linktext>DITA Style Guide, Chapter 3, Syntax and Markup</linktext>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/concept.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;concept></linktext>
         </link>
-        <link href="http://docs.oasis-open.org/dita/v1.0/archspec/dita_spec_22_info_concepts.html" format="html" scope="external">
-            <linktext>OASIS DITA Architectural Specification, Concepts</linktext>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/title.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;title></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/conbody.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;conbody></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/p.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;p></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/ul.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1,2 Standard, &lt;ul></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/ol.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1,2 Standard, &lt;ol></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/note.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1,2 Standard, &lt;note></linktext>
         </link>
     </related-links>
 </learningContent>

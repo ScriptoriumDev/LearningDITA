@@ -24,10 +24,9 @@
                 <li>
                     <p>&lt;dl>, which contains definition lists. A definition list is a list of
                         terms and their corresponding definitions, presented in a format similar to
-                        a two-column table. The definition list contains entries, tagged with the
-                        &lt;dlentry> element, and each entry contains a term (tagged with the
-                        &lt;dt> element) and a definition (tagged with the &lt;dd>
-                        element).</p>
+                        a two-column table. The definition list contains one or more entries, tagged
+                        with the &lt;dlentry> element, and each entry contains a term (tagged with
+                        the &lt;dt> element) and a definition (tagged with the &lt;dd> element).</p>
                 </li>
             </ul>
      
@@ -53,7 +52,7 @@
   &lt;conbody>
 ...
  <ph outputclass="newchanged">&lt;p>Ducklings need higher levels of protein in their diets than adult ducks.&lt;fn>A protein level of 18-20% is recommended for newborn ducklings.&lt;/fn>&lt;/p></ph>
-   &lt;/conbody>
+&lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
                     <info>The &lt;fn> element indicates where the footnote reference number will
@@ -76,7 +75,7 @@
 &lt;menucascade>
 &lt;/menucascade>.</ph>
 &lt;/p>
-   &lt;/conbody>
+&lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
                     <info>In the example you added, the &lt;menucascade> element will be used to
@@ -98,7 +97,7 @@
 <ph outputclass="newchanged">&lt;uicontrol>File&lt;/uicontrol></ph>
 &lt;/menucascade>.
 &lt;/p>
-   &lt;/conbody>
+&lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
                     <info>In the example you added, the &lt;uicontrol> element contains the name of
@@ -128,7 +127,7 @@
 &lt;uicontrol>Spreadsheet&lt;/uicontrol></ph>
 &lt;/menucascade>.
 &lt;/p>
-   &lt;/conbody>
+&lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
                     <info>By default, an arrow symbol is inserted between &lt;uicontrol> elements in
@@ -136,6 +135,9 @@
                     <info>With the &lt;menucascade> and &lt;uicontrol> elements in the example you
                         added, the user now knows to click on "File," then "New," then
                         "Spreadsheet."</info>
+                    <info>Video: <xref href="https://www.youtube.com/watch?v=xGyf4q_Bipw"
+                            format="html" scope="external">Creating a menucascade in
+                        DITA</xref></info>
                 </step>
                 <step>
                     <cmd>After the &lt;menucascade> element, add a new introductory &lt;p> element
@@ -152,7 +154,7 @@
    species based on how much you will need to feed your ducks.&lt;/p>
 &lt;dl>
 &lt;/dl></ph>
-   &lt;/conbody>
+&lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
                     <info>The &lt;dl> element sets up the framework for a definition list.</info>
@@ -174,10 +176,11 @@
 <ph outputclass="newchanged"> &lt;dlentry>
 &lt;/dlentry></ph>
 &lt;/dl>
-   &lt;/conbody>
+&lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
-                    <info>Each &lt;dlentry> element contains a term and its definition.</info>
+                    <info>Each &lt;dlentry> element contains a term and its definition. The
+                        &lt;dlentry> element can contain one or more &lt;dd> elements.</info>
                 </step>
                 <step>
                     <cmd>Inside the &lt;dlentry> element, add the &lt;dt> and &lt;dd> elements and
@@ -193,12 +196,12 @@
 &lt;p>Domestic ducks fall into categories based on weight. These weight classes may help you choose a
    species based on how much you will need to feed your ducks.&lt;/p>
 &lt;dl>
-&lt;dlentry>
-<ph outputclass="newchanged">&lt;dt>Bantam&lt;/dt>
-&lt;dd>The lightest-weight ducks and best fliers, such as the Mallard duck.&lt;/dd></ph>
-&lt;/dlentry>
+    &lt;dlentry>
+    <ph outputclass="newchanged">&lt;dt>Bantam&lt;/dt>
+        &lt;dd>The lightest-weight ducks and best fliers, such as the Mallard duck.&lt;/dd></ph>
+    &lt;/dlentry>
 &lt;/dl>
-   &lt;/conbody>
+&lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
                     <info>The &lt;dt> element contains the term, and the &lt;dd> element contains
@@ -219,26 +222,29 @@
 &lt;p>Domestic ducks fall into categories based on weight. These weight classes may help you choose a
    species based on how much you will need to feed your ducks.&lt;/p>
 &lt;dl>
-&lt;dlentry>
-&lt;dt>Bantam&lt;/dt>
-&lt;dd>The lightest-weight ducks and best fliers, such as the Mallard duck.&lt;/dd>
-&lt;/dlentry>
-<ph outputclass="newchanged">&lt;dlentry>
-&lt;dt>Light&lt;/dt>
-&lt;dd>The second lightest-weight ducks and best egg-layers, such as the Khaki Campbell duck.&lt;/dd>
-&lt;/dlentry>
-&lt;dlentry>
-&lt;dt>Medium&lt;/dt>
-&lt;dd>The mid-weight and generally calmest ducks, such as the Swedish duck.&lt;/dd>
-&lt;/dlentry>
-&lt;dlentry>
-&lt;dt>Heavy&lt;/dt>
-&lt;dd>The heaviest and generally friendliest ducks, such as the Pekin duck.&lt;/dd>
-&lt;/dlentry></ph>
+    &lt;dlentry>
+        &lt;dt>Bantam&lt;/dt>
+        &lt;dd>The lightest-weight ducks and best fliers, such as the Mallard duck.&lt;/dd>
+    &lt;/dlentry>
+    <ph outputclass="newchanged">&lt;dlentry>
+        &lt;dt>Light&lt;/dt>
+        &lt;dd>The second lightest-weight ducks and best egg-layers, such as the Khaki Campbell duck.&lt;/dd>
+    &lt;/dlentry>
+    &lt;dlentry>
+        &lt;dt>Medium&lt;/dt>
+        &lt;dd>The mid-weight and generally calmest ducks, such as the Swedish duck.&lt;/dd>
+    &lt;/dlentry>
+    &lt;dlentry>
+        &lt;dt>Heavy&lt;/dt>
+        &lt;dd>The heaviest and generally friendliest ducks, such as the Pekin duck.&lt;/dd>
+    &lt;/dlentry></ph>
 &lt;/dl>
-   &lt;/conbody>
+&lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
+                    <info>Video: <xref href="https://www.youtube.com/watch?v=3R9eN2TSepQ"
+                            format="html" scope="external">Creating a definition list in
+                        DITA</xref></info>
                 </step>
                 <step>
                     <cmd>Check your file l_concept_elements_start.dita against the sample file
@@ -254,10 +260,11 @@
                 <step>
                     <cmd>Open the file l_concept_elements_exercise_start.dita and use it to convert
                         the following untagged content into DITA:</cmd>
-                    <info/>
+                    <info><image href="../media/elements/exercise_3.png" id="image_elc_x12_2t"
+                        /></info>
                 </step>
                 <step>
-                    <cmd>Check the file l_concept_elements_start.dita against the sample file
+                    <cmd>Check your file l_concept_elements_start.dita against the sample file
                         l_concept_elements_exercise.dita.</cmd>
                 </step>
             </steps>
