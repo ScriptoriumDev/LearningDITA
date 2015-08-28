@@ -74,7 +74,9 @@
    &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
-                    <info>The &lt;ul> element is used for unordered or bulleted lists. </info>
+                    <info>The &lt;ul> element is used for unordered or bulleted lists.
+                            <draft-comment author="simonbate">I think most of these info elements
+                            should be in the lcInstruction.</draft-comment></info>
                     <info>The &lt;ul> element contains the &lt;li> or list item element. Each
                         &lt;li> element contains the text for a bulleted entry in the list.
                             <draft-comment author="simonbate">I would be more specific here: &lt;ul>
