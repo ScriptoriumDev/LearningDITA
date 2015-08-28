@@ -35,7 +35,57 @@
                 Like the other elements introduced in this course, images and tables are not
                 exclusive to the concept topic type and can also be used in the other DITA topic
                 types (task, reference, and glossary).</p>
+            <note>
+                <p>This lesson covers basic use of these elements. For the full specifications for
+                    each element, see the OASIS DITA Version 1.2 Standard in the related
+                    information.</p>
+            </note>
         </lcIntro>
     </learningContentbody>
-    <related-links/>
+    <related-links>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/b.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;b></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/i.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;i></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/u.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;u></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/term.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;term></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/cite.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;cite></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/varname.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;varname></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/sub.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;sub></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/sup.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;sup></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/fn.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;fn></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/menucascade.html"
+            format="html" scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;menucascade></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/dl.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;dl></linktext>
+        </link>
+    </related-links>
 </learningContent>

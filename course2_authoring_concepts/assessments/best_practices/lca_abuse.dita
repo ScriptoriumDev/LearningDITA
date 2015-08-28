@@ -1,10 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?> 
-<!-- This file is part of the DITA Training project hosted on
-     github.com. See the accompanying LICENSE file for
-     applicable licenses.-->
+<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
-<learningAssessment id="assessment_f33_1kp_wr8">
- <title>Template</title>
+<learningAssessment id="assessment_dmh_pl2_2t">
+ <title>Tag abuse</title>
  <prolog>
   <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
    Scriptorium</author>
@@ -15,8 +12,9 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcTrueFalse id="link8">
-    <lcQuestion>Template question.</lcQuestion>
-    <lcAnswerOptionGroup>
+    <lcQuestion>You should experiment with different DITA elements until you get the content look
+     and feel that you want.</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_nqg_ql2_2t">
      <lcAnswerOption>
       <lcAnswerContent>False</lcAnswerContent>
       <lcCorrectResponse/>
@@ -25,7 +23,9 @@
       <lcAnswerContent>True</lcAnswerContent>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect>Template question.</lcFeedbackIncorrect>
+    <lcFeedbackIncorrect>Using DITA markup to control the appearance of your content is tag abuse.
+     You use the DITA element that is appropriate to the purpose of the
+     content.</lcFeedbackIncorrect>
    </lcTrueFalse>
   </lcInteraction>
  </learningAssessmentbody>

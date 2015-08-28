@@ -37,7 +37,7 @@
             <p>The elements in a &lt;table> include:</p>
             <ul id="ul_j44_bgq_dt">
                 <li>
-                    <p>&lt;title>, the container element for the text of a &lt;table>'s title or
+                    <p>&lt;title>, the container element for the text of a &lt;table> element’s title or
                         caption. A &lt;> can only contain one &lt;title> element.</p>
                 </li>
                 <li>
@@ -74,7 +74,7 @@
                 the differences between these types of tables, the same information will be used for
                 both examples.</p><fig>
                     <title>Example &lt;simpletable> and &lt;table> in a visual format</title><image href="../media/images_and_tables/table_examples.png"
-                            id="image_ntp_v2q_dt"/>
+                        id="image_ntp_v2q_dt"  base="2015/08"/>
                 </fig><p>Continue using the file l_concept_images_tables_start.dita to add the &lt;simpletable> and
                 &lt;table> elements.</p>
             <note>If you are using a DITA editor, some child elements of &lt;simpletable> and
@@ -298,9 +298,9 @@
                         table columns is set inside the &lt;tgroup> element using the cols
                         attribute. In the example you added, cols="2" shows that this table will
                         contain two columns.</info>
-                    <info>A single &lt;table> element can contain more than one &lt;tgroup>
-                            element.<draft-comment author="Bill Swallow">Useful
-                            because...</draft-comment></info>
+                    <info>A single &lt;table> element can contain more than one &lt;tgroup> element,
+                        which is useful if you need to show more than one table with different
+                        headers or numbers of columns under the same title.</info>
                 </step>
                 <step>
                     <cmd>Inside the &lt;tgroup> element, add two &lt;colspec> elements and populate
@@ -522,6 +522,8 @@
                     </stepxmp>
                     <info>You may add as many &lt;row> elements as you wish inside the &lt;tbody>
                         element of a table.</info>
+                    <info>Video: <xref href="https://www.youtube.com/watch?v=PFWz_Vsyxwg"
+                            format="html" scope="external">Creating a table in DITA</xref></info>
                 </step>
                 <step>
                     <cmd>Check your file l_concept_images_tables_start.dita against the sample file
@@ -537,10 +539,11 @@
                 <step>
                     <cmd>Open the file l_concept_images_tables_exercise_start.dita and use it to
                         convert the following untagged content into DITA:</cmd>
-                    <info/>
+                    <info><image href="../media/images_and_tables/exercise_2.png"
+                        id="image_u3f_4vd_2t" base="2015/08"/></info>
                 </step>
                 <step>
-                    <cmd>Check the file l_concept_images_tables_start.dita against the sample file
+                    <cmd>Check your file l_concept_images_tables_start.dita against the sample file
                         l_concept_images_tables_exercise.dita.</cmd>
                 </step>
             </steps>

@@ -17,56 +17,20 @@
                     <p>&lt;fn>, which inserts a footnote.</p>
                 </li>
                 <li>
-                    <p>&lt;menucascade>, which tags a hierarchy of menu choices (such as File, Save
-                            As)<draft-comment author="Bill Swallow">a menu path, such as File > Save
-                            As</draft-comment>. Each item inside the &lt;menucascade> element is
+                    <p>&lt;menucascade>, which a menu path, such as File > Save
+                            As. Each item inside the &lt;menucascade> element is
                         contained in a &lt;uicontrol> element.</p>
                 </li>
                 <li>
                     <p>&lt;dl>, which contains definition lists. A definition list is a list of
                         terms and their corresponding definitions, presented in a format similar to
-                        a two-column table. The definition list contains entries, tagged with the
-                        &lt;dlentry> element, and each entry contains a term (tagged with the
-                        &lt;dt> element) and a definition (tagged with the &lt;dd>
-                        element).<draft-comment author="gretyl">Concise way to explain why you
-                            would use definition lists instead of glossary entries (without getting
-                            too much into the upcoming glossary/reference
-                            course)?</draft-comment></p>
+                        a two-column table. The definition list contains one or more entries, tagged
+                        with the &lt;dlentry> element, and each entry contains a term (tagged with
+                        the &lt;dt> element) and a definition (tagged with the &lt;dd> element).</p>
                 </li>
             </ul>
-<<<<<<< HEAD
-=======
-                <draft-comment author="okeefe">I think this should probably be a bulleted list, with
-                    some sort of "here are some other important elements: intro.</draft-comment>
-        
-            <p><draft-comment author="Bill Swallow">Should also include &lt;term>, &lt;cite>, and
-                    &lt;varname> if referencing them as better contextual choices in the previous
-                    topic.</draft-comment>The &lt;fn> element is used to add footnotes to a concept
-                topic.</p>
-            <p>
-                <draft-comment author="okeefe">global comment: not just concepts. Almost all of
-                    these should say The &lt;fn> element lets you insert a footnote. They are not
-                    specific to the concept topic, so remove that throughout, unless the element is
-                    in fact concept-specific, like conbody.</draft-comment>
-            </p>
-            <p>The &lt;menucascade> element lets you tag a hierarchy of menu choices (such as File,
-                Save As). Each item inside the &lt;menucascade> element is contained in a
-                &lt;uicontrol> element.<draft-comment author="Bill Swallow">Should explain that
-                    &lt;uicontrol> can be used without &lt;menucascade>. Example: Choose an option
-                    then click &lt;uicontrol>OK&lt;/uicontrol>.</draft-comment></p>
-            <p>The &lt;dl> element specifies definition lists <draft-comment author="Bill Swallow"
-                    >might be good to explain uicontrol a bit more, and to avoid &lt;b> or other
-                    inline tags when highlighting buttons and such.</draft-comment><draft-comment
-                    author="okeefe">what is a definition list? How is it different from a glossary
-                    entry?</draft-comment>. The definition list contains entries, tagged with the
-                &lt;dlentry> element, and each entry contains a term (tagged with the &lt;dt>
-                element) and a definition (tagged with the &lt;dd> element). <draft-comment
-                    author="Bill Swallow">duplicate content (defined
-                    above)</draft-comment><draft-comment author="okeefe">avoid "is used to".
-                    Passive. Global.</draft-comment></p>
-            <p>Continue using the file l_concept_elements.dita to add each of these elements to your
-                example file.</p>
->>>>>>> master
+     
+
         </lcInstruction>
     </learningContentbody>
     <task id="task_i3g_jkh_1t">
@@ -88,7 +52,7 @@
   &lt;conbody>
 ...
  <ph outputclass="newchanged">&lt;p>Ducklings need higher levels of protein in their diets than adult ducks.&lt;fn>A protein level of 18-20% is recommended for newborn ducklings.&lt;/fn>&lt;/p></ph>
-   &lt;/conbody>
+&lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
                     <info>The &lt;fn> element indicates where the footnote reference number will
@@ -111,7 +75,7 @@
 &lt;menucascade>
 &lt;/menucascade>.</ph>
 &lt;/p>
-   &lt;/conbody>
+&lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
                     <info>In the example you added, the &lt;menucascade> element will be used to
@@ -133,13 +97,17 @@
 <ph outputclass="newchanged">&lt;uicontrol>File&lt;/uicontrol></ph>
 &lt;/menucascade>.
 &lt;/p>
-   &lt;/conbody>
+&lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
                     <info>In the example you added, the &lt;uicontrol> element contains the name of
-                        the first menu option involved in creating a spreadsheet: "File."</info>
-                    <info>Avoid using &lt;b> or other inline styling elements inside the
-                        &lt;uicontrol> element, </info>
+                        the first menu option involved in creating a spreadsheet: “File.”</info>
+                    <info>You can use the &lt;uicontrol> element without the &lt;menucascade>
+                        element. For example, you can tag a word with the &lt;uicontrol> element to
+                        indicate a button the user should click. Because the &lt;uicontrol> element
+                        indicates that the text it surrounds will have special styling, avoid using
+                        the &lt;b> element or other inline styling elements inside the
+                        &lt;uicontrol> element.</info>
                 </step>
                 <step>
                     <cmd>After the &lt;uicontrol> element, add two more &lt;uicontrol> elements and
@@ -159,14 +127,17 @@
 &lt;uicontrol>Spreadsheet&lt;/uicontrol></ph>
 &lt;/menucascade>.
 &lt;/p>
-   &lt;/conbody>
+&lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
                     <info>By default, an arrow symbol is inserted between &lt;uicontrol> elements in
                         the output to indicate the hierarchy of the menu options. </info>
                     <info>With the &lt;menucascade> and &lt;uicontrol> elements in the example you
-                        added, the user now knows to click on "File," then "New," then
-                        "Spreadsheet."</info>
+                        added, the user now knows to click on “File,” then “New,” then
+                        “Spreadsheet.”</info>
+                    <info>Video: <xref href="https://www.youtube.com/watch?v=xGyf4q_Bipw"
+                            format="html" scope="external">Creating a menucascade in
+                        DITA</xref></info>
                 </step>
                 <step>
                     <cmd>After the &lt;menucascade> element, add a new introductory &lt;p> element
@@ -183,7 +154,7 @@
    species based on how much you will need to feed your ducks.&lt;/p>
 &lt;dl>
 &lt;/dl></ph>
-   &lt;/conbody>
+&lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
                     <info>The &lt;dl> element sets up the framework for a definition list.</info>
@@ -205,10 +176,11 @@
 <ph outputclass="newchanged"> &lt;dlentry>
 &lt;/dlentry></ph>
 &lt;/dl>
-   &lt;/conbody>
+&lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
-                    <info>Each &lt;dlentry> element contains a term and its definition.</info>
+                    <info>Each &lt;dlentry> element contains a term and its definition. The
+                        &lt;dlentry> element can contain one or more &lt;dd> elements.</info>
                 </step>
                 <step>
                     <cmd>Inside the &lt;dlentry> element, add the &lt;dt> and &lt;dd> elements and
@@ -224,12 +196,12 @@
 &lt;p>Domestic ducks fall into categories based on weight. These weight classes may help you choose a
    species based on how much you will need to feed your ducks.&lt;/p>
 &lt;dl>
-&lt;dlentry>
-<ph outputclass="newchanged">&lt;dt>Bantam&lt;/dt>
-&lt;dd>The lightest-weight ducks and best fliers, such as the Mallard duck.&lt;/dd></ph>
-&lt;/dlentry>
+    &lt;dlentry>
+    <ph outputclass="newchanged">&lt;dt>Bantam&lt;/dt>
+        &lt;dd>The lightest-weight ducks and best fliers, such as the Mallard duck.&lt;/dd></ph>
+    &lt;/dlentry>
 &lt;/dl>
-   &lt;/conbody>
+&lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
                     <info>The &lt;dt> element contains the term, and the &lt;dd> element contains
@@ -250,26 +222,29 @@
 &lt;p>Domestic ducks fall into categories based on weight. These weight classes may help you choose a
    species based on how much you will need to feed your ducks.&lt;/p>
 &lt;dl>
-&lt;dlentry>
-&lt;dt>Bantam&lt;/dt>
-&lt;dd>The lightest-weight ducks and best fliers, such as the Mallard duck.&lt;/dd>
-&lt;/dlentry>
-<ph outputclass="newchanged">&lt;dlentry>
-&lt;dt>Light&lt;/dt>
-&lt;dd>The second lightest-weight ducks and best egg-layers, such as the Khaki Campbell duck.&lt;/dd>
-&lt;/dlentry>
-&lt;dlentry>
-&lt;dt>Medium&lt;/dt>
-&lt;dd>The mid-weight and generally calmest ducks, such as the Swedish duck.&lt;/dd>
-&lt;/dlentry>
-&lt;dlentry>
-&lt;dt>Heavy&lt;/dt>
-&lt;dd>The heaviest and generally friendliest ducks, such as the Pekin duck.&lt;/dd>
-&lt;/dlentry></ph>
+    &lt;dlentry>
+        &lt;dt>Bantam&lt;/dt>
+        &lt;dd>The lightest-weight ducks and best fliers, such as the Mallard duck.&lt;/dd>
+    &lt;/dlentry>
+    <ph outputclass="newchanged">&lt;dlentry>
+        &lt;dt>Light&lt;/dt>
+        &lt;dd>The second lightest-weight ducks and best egg-layers, such as the Khaki Campbell duck.&lt;/dd>
+    &lt;/dlentry>
+    &lt;dlentry>
+        &lt;dt>Medium&lt;/dt>
+        &lt;dd>The mid-weight and generally calmest ducks, such as the Swedish duck.&lt;/dd>
+    &lt;/dlentry>
+    &lt;dlentry>
+        &lt;dt>Heavy&lt;/dt>
+        &lt;dd>The heaviest and generally friendliest ducks, such as the Pekin duck.&lt;/dd>
+    &lt;/dlentry></ph>
 &lt;/dl>
-   &lt;/conbody>
+&lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
+                    <info>Video: <xref href="https://www.youtube.com/watch?v=3R9eN2TSepQ"
+                            format="html" scope="external">Creating a definition list in
+                        DITA</xref></info>
                 </step>
                 <step>
                     <cmd>Check your file l_concept_elements_start.dita against the sample file
@@ -285,10 +260,11 @@
                 <step>
                     <cmd>Open the file l_concept_elements_exercise_start.dita and use it to convert
                         the following untagged content into DITA:</cmd>
-                    <info/>
+                    <info><image href="../media/elements/exercise_3.png" id="image_elc_x12_2t" base="2015/08"
+                        /></info>
                 </step>
                 <step>
-                    <cmd>Check the file l_concept_elements_start.dita against the sample file
+                    <cmd>Check your file l_concept_elements_start.dita against the sample file
                         l_concept_elements_exercise.dita.</cmd>
                 </step>
             </steps>

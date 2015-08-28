@@ -13,58 +13,72 @@
         <lcObjectives>
             <lcObjectivesGroup id="lcObjectivesGroup_tvl_vbh_1t">
                 <lcObjective>Create a concept topic file</lcObjective>
-                <lcObjective>Introduce the DOCTYPE for concept topics<draft-comment
-                        author="Bill Swallow">Learn about the concept
-                    DOCTYPE</draft-comment></lcObjective>
+                <lcObjective>Learn about the concept
+                    DOCTYPE</lcObjective>
                 <lcObjective>Add the root elements for a concept</lcObjective>
-<<<<<<< HEAD
-                <lcObjective>Add the &lt;p>, &lt;ul>, &lt;ol>, and &lt;note> elements</lcObjective>
-=======
-                <lcObjective>Add the &lt;p>, &lt;ul>, &lt;ol>, and &lt;note>elements<draft-comment
-                        author="Bill Swallow">Add basic content
-                    elements</draft-comment></lcObjective>
->>>>>>> master
+
+                <lcObjective>Add basic content elements, including as &lt;p>, &lt;ul>, &lt;ol>, and &lt;note></lcObjective>
+
+           
+
             </lcObjectivesGroup>
         </lcObjectives>
         <lcDuration>
             <lcTime value="45"/>
         </lcDuration>
         <lcIntro>
-            <p>The DITA concept topic type is used to provide information about a particular
-<<<<<<< HEAD
-                subject.</p>
-            <p>Concept topics help someone understand an idea. A concept topic may give background
+            <p>DITA concept topics provide information about a particular subject.</p>
+            <p>Concept topics help someone understand an idea or the purpose of an instruction. A concept topic may give background
                 or conceptual information about the subject in addition to essential
                 information.</p>
             <p>A typical concept topic will mostly contain paragraphs and lists. However, you can
                 also present information in a concept using images, tables, or other elements. You
                 may also break a concept into sections for additional clarity.</p>
-=======
-                    subject.<draft-comment author="Bill Swallow">DITA concept topics
-                    provide...</draft-comment></p>
-            <p>Concept topics help someone understand an idea or follow<draft-comment
-                    author="Bill Swallow">the purpose of (in place of 'follow')</draft-comment> an
-                instruction. A concept topic may give background or conceptual information about the
-                subject in addition to essential information.</p>
+
             <p>A typical concept topic will mostly contain paragraphs and lists. However, concepts
                 may also present information using images, tables, or other elements. They may also
                 be broken into sections for additional clarity.</p>
->>>>>>> master
+
             <p>This lesson shows how to create a new concept topic and how to add commonly used
                 elements. With the exception of the &lt;conbody> element, the elements presented in
                 this lesson and throughout the rest of the course are not specific to concepts and
                 can also be used in the other types of DITA topics (task, reference, and
                 glossary).</p>
+            <note>
+                <p>This lesson covers basic use of these elements. For the full specifications for
+                    each element, see the OASIS DITA Version 1.2 Standard in the related
+                    information.</p>
+            </note>
         </lcIntro>
     </learningContentbody>
     <related-links>
-        <link
-            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Topics_and_Information_Types/c_Concept.html"
-            format="html" scope="external">
-            <linktext>DITA Style Guide, Chapter 3, Syntax and Markup</linktext>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/concept.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;concept></linktext>
         </link>
-        <link href="http://docs.oasis-open.org/dita/v1.0/archspec/dita_spec_22_info_concepts.html" format="html" scope="external">
-            <linktext>OASIS DITA Architectural Specification, Concepts</linktext>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/title.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;title></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/conbody.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;conbody></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/p.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;p></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/ul.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1,2 Standard, &lt;ul></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/ol.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1,2 Standard, &lt;ol></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/note.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1,2 Standard, &lt;note></linktext>
         </link>
     </related-links>
 </learningContent>
