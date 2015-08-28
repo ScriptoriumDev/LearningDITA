@@ -24,9 +24,10 @@
                 decreases the value of those tags. Tag abuse can also have unintended consequences—a
                 misused tag may achieve the desired formatting effect in one output type, but
                 destroy the look and feel of the content in another output type.</p>
-            <p>
-                <draft-comment author="okeefe">mention forced line break??</draft-comment>
-            </p>
+            <p>One form of tag abuse is the forced line break. Do not use the &lt;p> element to
+                control where your lines of text should break, as this will cause problems in
+                responsive output types such as HTML. If you need to control line breaks for certain
+                parts of your content, such as code samples, use the &lt;codeblock> element.</p>
         </lcInstruction>
     </learningContentbody>
 </learningContent>
