@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on 
+     github.com. See the accompanying LICENSE file for 
+     applicable licenses.-->
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Creating the steps</title>
+ <topicref href="../topics/lc_steps_intro.dita">
+  <topicmeta lockmeta="yes">
+   <data name="lesson_id" value="9999"></data>
+  </topicmeta>
+<!--  <topicref href="../topics/lc_markup.dita"/>-->
+  <topicref href="../topics/lc_steps_w_task.dita"/>
+  <topicref href="../topics/lc_choices.dita"/>
+  <topicref href="../topics/lc_substep.dita"/>
+  <topicref href="../topics/lc_stepresults.dita"/>
+  <topicref href="../topics/lc_stepsection.dita"/>
+  <topicref href="../topics/lcc_assessment.dita" copy-to="lcc_steps.dita" locktitle="yes">
+   <topicmeta>
+    <navtitle>Assessment for Creating the steps</navtitle>
+   </topicmeta>
+   <!--   <topicref href="../assessments/lca_htmldita.dita"/>-->
+  </topicref>
+ </topicref>
+ 
+</map>

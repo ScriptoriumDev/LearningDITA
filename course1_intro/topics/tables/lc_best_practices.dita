@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_kkl_rxy_xr">
+    <title>Best practices for tables</title>
+    <shortdesc/>
+    <prolog>
+        <author>Sharon Burton</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-05-04"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <ul id="ul_zwh_qhd_ss">
+                <li>Always wrap &lt;entry> content in the table in &lt;p> tags. Forgetting this can
+                    result in the content of the table to format in unexpected ways. </li>
+                <li>While the DITA specification allows you to nest tables, it’s a Bad Idea™. </li>
+                <li>Whenever possible, consider organizing the content in your table to include more
+                    rows instead of more columns. When you send the content to an output, pagination
+                    issues can make many columns appear in unexpected ways. </li>
+                <li>In many word processing tools, people use tables to visually format content such
+                    as indented lists. In DITA, this is not done and can lead to unexpected results. </li>
+                <li>Consider localization text expansion in tables. Where possible, design the
+                    content for up to 40% text expansion. </li>
+                <li>The DITA standard allows graphics in table cells. However, in most cases it’s
+                    best to limit these graphics to small icons in table cells. </li>
+                <li>Consider the possible outputs when you create tables. Table rendering may be
+                    very different (and hard to read) on a small screen, such as a mobile device. </li>
+                <li>In some cases you might want to consider using other elements, such as
+                    definition lists, which can be rendered either as a table or a glossary-style
+                    list, depending on the target output. </li>
+            </ul>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

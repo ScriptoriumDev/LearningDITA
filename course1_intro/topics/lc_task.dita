@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_i4y_ttr_5r">
+    <title>Task topics</title>
+    <prolog><author>Sharon Burton</author>
+        <author href="http://www.scriptorium.com"  scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com"  scope="external" format="html">Alan Pringle, Scriptorium</author>
+        <critdates>
+            <created date="2015-04-28"/>
+            <revised modified="2015-07-13"/>
+        </critdates></prolog>
+    <learningContentbody>
+        <lcObjectives>
+           <lcObjectivesGroup>
+               <lcObjective>Understand the purpose of the DITA task type</lcObjective>
+               <lcObjective>Identify key components of a task</lcObjective>
+               <lcObjective>Create a DITA task</lcObjective>
+           </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration >
+            <lcTime value="20" />
+        </lcDuration>
+        <lcInstruction>
+            <p>A task topic answers the question “How do I?” It includes step-by-step instructions
+                to complete a procedure. DITA also allows step results, graphics, notes, and one
+                level of substeps. </p>
+            <p>Technical content is often heavy on tasks.</p>
+            <p>DITA provides two task types:<ul id="ul_bbx_dn5_vr">
+                    <li>Strict task</li>
+                    <li>General task</li>
+                </ul></p>
+            <p>The strict task requires all elements to appear in a specific order, only allows one
+                &lt;example> element, and has two very formal elements for steps (&lt;steps> or
+                &lt;steps-unordered>). The “general task,” also known as the “loose task” allows
+                more flexibility in the order of the elements, allows multiple &lt;example>
+                elements, and allows a &lt;steps-informal> element for the steps, which can contain
+                much more varied content. Strict tasks are appropriate for items that require
+                step-by-step instructions; general tasks are useful for process overviews. </p>
+            <p>Common elements used in a strict task topic include:<ul id="ul_c5m_hm5_vr">
+                    <li>&lt;taskbody> (the body of the task topic)</li>
+                    <li>&lt;steps> (the sequence of actions)</li>
+                    <li>&lt;step> (each individual action)<ul id="ul_hkh_3th_rs">
+                            <li>&lt;cmd> (the action the user takes; this is a required element in a
+                                &lt;step>)</li>
+                            <li>&lt;info> (additional information about the step)</li>
+                            <li>&lt;stepresult> (what happens after performing an action)</li>
+                            <li>&lt;stepxmp> (an example of how to do the step)</li>
+                        </ul></li>
+                    <li>&lt;example> (an example of how to do the entire task)</li>
+                </ul></p>
+            <p>Video: <xref href="https://youtu.be/PWSRhPnMDNs" format="html" scope="external">Code
+                    overview of DITA task topic</xref></p>
+        </lcInstruction>
+
+    </learningContentbody>
+
+</learningContent>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="links1">
+    <title>Reusing content with conrefs</title>
+    <prolog>
+        <author>Sharon Burton</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Alan Pringle, Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+        <critdates>
+            <created date="2015-04-28"/>
+            <revised modified="2015-05-07"/>
+            <revised modified="2015-06-30"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+    <lcInstruction>
+      <p>In DITA, you use a conref to reuse pieces of content. These content pieces could be
+                admonishments (notes, cautions, and warnings), boilerplate text (such as your
+                company address), and more. For example, a product’s description could be set up as
+                a conref so it is the same across all your documents.</p>
+            <p>If you are familiar with other authoring tools, conrefs are roughly equivalent
+                to:</p>
+            <p>
+                <ul id="ul_iwx_n5b_wr">
+                    <li>Flare snippets</li>
+                    <li>RoboHelp embedded topics</li>
+                    <li>FrameMaker text insets and variables</li>
+                    <li>HTML server-side includes</li>
+                </ul>
+                
+            </p>
+        <p>Suppose you have the following note in a topic called location.dita:</p>
+            <pre>&lt;topic id="topicid">
+    ...
+    &lt;note id="whatduckslike">Ducks prefer lakes over deserts.&lt;/note>
+    ...
+&lt;/topic>             </pre>
+            <p>To reuse that note in another topic, the conref code is as follows:</p>
+           <pre>&lt;note conref="location.dita#topicid/whatduckslike"/></pre>
+            <p>Most DITA authoring tools streamline the process for inserting conref code, so you
+                probably will not type the file path, topic ID, and so on, as shown in the example. </p>
+            <note>The target element must be the same element type as the element that contains the
+                conref attribute. Thus you can only conref a &lt;note> element from another
+                &lt;note> element; you can only conref an &lt;li> element from another &lt;li>
+                element, and so on.</note>
+    <p>Video: <xref href="https://www.youtube.com/watch?v=oHmXBRVk3yo" format="html"
+                    scope="external">DITA conref code example</xref></p>
+            <note type="tip">It's a good practice to create separate topics that contain reusable
+                elements, rather than just picking a random topic and pointing a conref to that
+                topic. This helps you keep better tabs on the content that is reused and allows you
+                to control when it changes.</note>
+          
+    </lcInstruction>
+    </learningContentbody>
+  
+</learningContent>

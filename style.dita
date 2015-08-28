@@ -5,8 +5,10 @@
  <prolog>
   <author href="http://www.scriptorium.com">Sarah O'Keefe, Scriptorium</author>
   <author href="http://www.scriptorium.com">Alan Pringle, Scriptorium</author>
-<critdates>
+   <author href="http://www.scriptorium.com">Simon Bate, Scriptorium</author>
+   <critdates>
  <created date="2015-04-28"/>
+      <revised modified="2015-08-14"/>
 </critdates>
  </prolog>
  <conbody>
@@ -39,10 +41,10 @@
       minutes):<codeblock>&lt;lcDuration>
   &lt;lcTime value="30"/>
 &lt;/lcDuration></codeblock></li>
-     <li>An overview of the module, using lcIntro</li>
-     <li>A list of additional reading resources, using related-links. Be sure to code external web
-      links with the appropriate format (usually html or pdf) and scope
-      (external):<codeblock>&lt;link href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/c_Syntax_and_Markup.html" 
+     <li>An overview of the module, using &lt;lcIntro></li>
+     <li>A list of additional reading resources, using &lt;related-links>. Be sure to code external
+            web links with the appropriate format (usually html or pdf) and scope
+            (external):<codeblock>&lt;link href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/c_Syntax_and_Markup.html" 
       format="html"
       scope="external">
    &lt;linktext>DITA Style Guide, Chapter 3, Syntax and Markup&lt;/linktext>
@@ -51,9 +53,30 @@
    <p>Inside the overview container, provide learningContent topics with the module components
     (lessons).</p>
   </section>
-  <section><title>Assessment structure</title><p>Assessments (test questions) come after the
-    learning content in each module and use a &lt;topichead> for the assessment title, as shown in
-    bold:</p><codeblock>&lt;map>
+    <section>
+      <title>Task structure</title>
+      <p>To create a task that directs a student to perform an exercise, use the learningContent
+        topic type. If you need to provide introductory text to the exercise, you can add it to the
+        &lt;learningContentbody>. The task itself should be a nested topic after the
+        &lt;learningContentbody>. </p>
+      <p>Because of restrictions in the DITA 1.2 learningContent model, the task can only contain
+        element allows by the learningContent topic type. Thus, any code examples must use &lt;pre>,
+        rather than &lt;codeblock>. </p>
+      <p>To highlight changes introduced in the &lt;pre> element, use &lt;ph
+        outputclass="newchanged"> around the new or changed information.  </p>
+    </section>
+  <section>
+      <title>Assessment structure</title>
+      <p>Assessments (test questions) come after the learning content in each module. In most cases
+        you can use the shared file <filepath>lcc_assessment.dita</filepath> that introduces the
+        questions in the LMS. If necessary (for example, if there are special instructions about the
+        lesson's assessment), you can create an introduction topic of your own.</p>
+      <p>If you're using the shared introduction, create a &lt;topicref> pointing to the file
+          <filepath>lcc_assessment.dita</filepath>, then use the copy-to attribute to specify a
+        filename (starting with <filepath>lcc_assess_</filepath>), that uniquely identifies the
+        copy. Add a &lt;navtitle> element that provides a lesson-specific title for the assessments
+        introduction. </p>
+      <codeblock>&lt;map>
  &lt;title>Basic DITA&lt;/title>
  &lt;topicmeta>
   &lt;critdates>
@@ -65,21 +88,25 @@
   &lt;topicref href="topics/lc_structure.dita"/>
   &lt;topicref href="topics/lc_topic.dita"/>
   
-  <b>&lt;topichead navtitle="Assessments">
-   &lt;topicref href="assessments/lca_validtopic.dita"/>
-   &lt;topicref href="assessments/lca_topicscope.dita"/>
-   ...
-  &lt;/topichead></b>
-  &lt;/topicref>
+  <b>&lt;topicref href="../topics/lcc_assessment.dita" copy-to="lcc_assess_basic.dita" locktitle="yes">
+    &lt;topicmeta>
+      &lt;navtitle>Assessment for What is DITA?&lt;/navtitle>
+    &lt;/topicmeta>
+    &lt;topicref href="assessments/lca_validtopic.dita"/>
+    &lt;topicref href="assessments/lca_topicscope.dita"/>
+    ...
+  &lt;/topicref></b>
+ &lt;/topicref>
  
 ...
   
  &lt;/map>
-</codeblock><p>Each
-    assessment question goes into its own learningAssessment topic. Do not include title text in
-    assessment topics. Each assessment requires a unique ID for the question type (lcSingleSelect in
-    the following sample). This is not the same as the ID of the learningAssessment topic itself.
-   </p><codeblock>&lt;learningAssessment id="assessment_htp_t21_wr">
+</codeblock>
+      <p>Each assessment question goes into its own learningAssessment topic. Do not include title
+        text in assessment topics. Each assessment requires a unique ID for the question type
+        (lcSingleSelect in the following sample). This is not the same as the ID of the
+        learningAssessment topic itself. </p>
+      <codeblock>&lt;learningAssessment id="assessment_htp_t21_wr">
  &lt;title>&lt;/title>
  &lt;prolog>
   &lt;author>Sharon Burton&lt;/author>
@@ -97,24 +124,50 @@
   &lt;/lcSingleSelect>
   &lt;/lcInteraction>
  &lt;/learningAssessmentbody>
-&lt;/learningAssessment></codeblock>Make
-   sure you do not overlap with other IDs in the modules. Consider a unique ID prefix for your
-   learning assessment content (for example, your initials or something related to the content you
-   are developing).</section>
+&lt;/learningAssessment></codeblock>
+      <p>Make sure you do not overlap with other IDs in the modules. Consider a unique ID prefix for
+        your learning assessment content (for example, your initials or something related to the
+        content you are developing).</p>
+      <p>The current LMS (LearnDashLMS) does not support feedback at the answer option level
+        (lcAnswerOption/lcFeedback). However, LearnDashLMS does support correct and incorrect
+        feedback at the question level, so rather than using lcFeedback, use
+        lcFeedbackIncorrect.</p>
+    </section>
   <section>
    <title>File structure and naming conventions</title>
    <p>The DITA training project is divided into subfolders:<ul id="ul_fw2_dxz_vr">
      <li>topics: for most content</li>
      <li>assessments: for quizzes, test, and other assessment content</li>
-     <li>map: map files for learning modules</li>
+     <li>maps: map files for learning modules</li>
      <li>media: for images, videos, and other non-text content</li>
+          <li>resources: for example files or sources for screen shots.</li>
     </ul></p>
-   <p>The master map file, which references the map files for modules, is at the root level.</p>
+   <p>The master map file, which references the map files for modules, is at the course-folder
+        level.</p>
    <p>Use the following file name prefixes:<ul id="ul_i3h_dkb_wr">
      <li>m_ for map files</li>
      <li>lc_ for learning content</li>
      <li>lca_ for learning assessments</li>
     </ul></p>
+  </section>
+    <section>
+      <title>Usage</title>
+      <p>When referring to an element always say the “&lt;foo> element”. If you need to form a
+        plural or possessive, do it on the word “element”. This helps steer clear of confusing
+        constructions such as “&lt;step>s” or “&lt;step>’s”.</p>
+    </section>
+  <section>
+   <title>Standards for terms and other inline styling</title>
+   <p>When referring to elements use angle brackets around the element and add the word “element”.
+        For example: “This table is built using a &lt;simpletable> element.” When refering to
+        elements in plural, always use the singular element in angle brackets, followed by the
+        plural “elements”. For example, “Each row can contain one or more &lt;stentry> elements”</p>
+   <p>When referring to attributes, use the word “attribute”. Do not use an at-sign (@) before an
+    attribute name; this is an XPath convention and means nothing to those learning DITA. </p>
+      <p>Use the proper apostrophe (’, U+2019) and quotation marks (“ and ”, U+201C and U+201D).
+        From the Macintosh keyboard, you can enter these with Option+}, Option+[ and Option+{. For
+        Windows, it’s probably a good idea to create an Oxygen code template, which you can
+        optionally associate with a keystroke.</p>
   </section>
   <section>
    <title>Standards for images and video</title>

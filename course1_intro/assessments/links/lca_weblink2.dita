@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_f33_1kp_wr7">
+ <title></title>
+ <prolog>
+  <author>Sharon Burton</author>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+  <critdates>
+   <created date="2015-04-30"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+  <lcSingleSelect id="links9">
+   <lcQuestion>To create a link to a web page, use the following syntax:</lcQuestion>
+   <lcAnswerOptionGroup>
+    <lcAnswerOption>
+     <lcAnswerContent>&lt;xref href="http://www.scriptorium.com" scope="external"
+       format="html"/></lcAnswerContent>
+     <lcCorrectResponse/>
+    </lcAnswerOption>
+    <lcAnswerOption>
+     <lcAnswerContent>&lt;xref href="http://www.scriptorium.com"/></lcAnswerContent>
+    </lcAnswerOption>
+    <lcAnswerOption>
+      <lcAnswerContent>&lt;xref link="http://www.scriptorium.com" scope="external"
+       format="html"/></lcAnswerContent>
+     </lcAnswerOption>
+   </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>You need the scope and format attributes. There is no link attribute on an
+     xref; you use the href attribute.</lcFeedbackIncorrect>
+  </lcSingleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

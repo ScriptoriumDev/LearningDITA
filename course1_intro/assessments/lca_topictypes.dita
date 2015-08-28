@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_lpv_v21_wr">
+ <title></title>
+ <prolog>
+  <author>Sharon Burton</author>
+  <author href="http://www.scriptorium.com"  scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+  <critdates>
+   <created date="2015-04-28"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+ <lcInteraction> <lcMultipleSelect id="topics4">
+   <lcQuestion>Which of the following are topic types in the DITA standard (choose all that apply)?</lcQuestion>
+   <lcAnswerOptionGroup>
+    <lcAnswerOption>
+     <lcAnswerContent>Reference</lcAnswerContent>
+     <lcCorrectResponse/>
+    </lcAnswerOption>
+    <lcAnswerOption>
+     <lcAnswerContent>Task</lcAnswerContent>
+     <lcCorrectResponse/>
+    </lcAnswerOption>
+    <lcAnswerOption>
+     <lcAnswerContent>Procedure</lcAnswerContent>
+    </lcAnswerOption>
+    <lcAnswerOption>
+     <lcAnswerContent>Cross-reference</lcAnswerContent>
+     
+    </lcAnswerOption>
+    <lcAnswerOption>
+     <lcAnswerContent>Concept</lcAnswerContent>
+     <lcCorrectResponse/>
+    </lcAnswerOption>
+    <lcAnswerOption>
+     <lcAnswerContent>Glossary entry</lcAnswerContent>
+     <lcCorrectResponse/> 
+    </lcAnswerOption>
+   </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>DITA does have support for procedures, but the topic type is called a task.
+     DITA cross-references are elements inside topics. </lcFeedbackIncorrect>
+  </lcMultipleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

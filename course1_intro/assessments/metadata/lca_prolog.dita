@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_bkn_skb_wr7">
+ <title></title>
+ <prolog>
+  <author>Sharon Burton</author>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+  <critdates>
+   <created date="2015-04-28"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcTrueFalse id="md6">
+    <lcQuestion>The metadata stored in the prolog element is information about the entire topic.</lcQuestion>
+    <lcAnswerOptionGroup>
+     <lcAnswerOption>
+      <lcAnswerContent>True</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>False</lcAnswerContent>
+     
+           </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>The prolog is at the topic level. For element-level metadata, use the
+     element’s attributes. Remember that you cannot easily filter on prolog
+     metadata.</lcFeedbackIncorrect>
+   </lcTrueFalse>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>
