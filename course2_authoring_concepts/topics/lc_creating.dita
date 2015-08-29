@@ -17,7 +17,8 @@
                     DOCTYPE</lcObjective>
                 <lcObjective>Add the root elements for a concept</lcObjective>
 
-                <lcObjective>Add basic content elements, including as &lt;p>, &lt;ul>, &lt;ol>, and &lt;note></lcObjective>
+                <lcObjective>Add basic content elements, including &lt;p>, &lt;ul>, &lt;ol>, and
+                    &lt;note></lcObjective>
 
            
 
@@ -32,12 +33,8 @@
                 or conceptual information about the subject in addition to essential
                 information.</p>
             <p>A typical concept topic will mostly contain paragraphs and lists. However, you can
-                also present information in a concept using images, tables, or other elements. You
-                may also break a concept into sections for additional clarity.</p>
-
-            <p>A typical concept topic will mostly contain paragraphs and lists. However, concepts
-                may also present information using images, tables, or other elements. They may also
-                be broken into sections for additional clarity.</p>
+                use images, tables, and many other elements in a concept. You can also break a
+                concept into sections for additional clarity.</p>
 
             <p>This lesson shows how to create a new concept topic and how to add commonly used
                 elements. With the exception of the &lt;conbody> element, the elements presented in
@@ -46,8 +43,8 @@
                 glossary).</p>
             <note>
                 <p>This lesson covers basic use of these elements. For the full specifications for
-                    each element, see the OASIS DITA Version 1.2 Standard in the related
-                    information.</p>
+                    each element, see the OASIS DITA Version 1.2 Standard in the additional
+                    reading.</p>
             </note>
         </lcIntro>
     </learningContentbody>

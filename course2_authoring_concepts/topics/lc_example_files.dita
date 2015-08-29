@@ -10,12 +10,13 @@
         </critdates>
     </prolog>
     <learningContentbody>
-        <lcInstruction><p>The sample files for Authoring DITA concept topics are in the zip file
-                concept_samples.zip. Download this file to a location on your hard drive that you’ll
-                remember, then extract the contents to a folder.</p><p>Inside the <xref
+        <lcInstruction><p>The sample files for Authoring DITA concept topics are in the zip
+                    file<xref
                     href="http://www.learningdita.com/wp-content/uploads/2015/08/concept_samples.zip"
-                    format="zip" scope="external">concept_samples.zip folder</xref>, you will find a
-                folder for each of the first four lessons in this course:</p><ul id="ul_qd4_1j2_2t">
+                    format="zip" scope="external"> concept_samples.zip</xref>. Download this file to
+                a location on your hard drive that you’ll remember, then extract the contents to a
+                folder.</p><p>Inside the concept_samples.zip folder, you will find a folder for each
+                of the first four lessons in this course:</p><ul id="ul_qd4_1j2_2t">
                 <li>
                     <p>Lesson 1: l_new_concept</p>
                 </li>
@@ -47,13 +48,13 @@
                 </li>
             </ul><p>Each lesson will instruct you on which files to use for the samples and
                 exercises.</p><p>Create a local copy of each file to work in as you complete the
-                lessons. If you reach a point where your working file doesn’t match the examples, or
-                is broken for any reason, you can make a fresh copy and resume your work or start
-                over.</p><ph>In the instructions and examples, we show you the DITA code for each
-                sample file. Most DITA editors have auto-complete or other similar features to guide
-                you through the process of adding elements, so you will probably not need to create
-                every piece of code from scratch as you work. Our demo videos were created in oXygen
-                XML Editor and show the differences between working in author view and working with
-                the code in text view.</ph></lcInstruction>
+                lessons. That way, if you reach a point where your working file doesn’t match the
+                examples, or is broken for any reason, you can make a fresh copy and resume your
+                work or start over.</p><ph>In the instructions and examples, we show you the DITA
+                code for each sample file. Most DITA editors have auto-complete or other similar
+                features to guide you through the process of adding elements, so you will probably
+                not need to create every piece of code from scratch as you work. Our demo videos
+                were created in oXygen XML Editor and show the differences between working in author
+                view and working with the code in text view.</ph></lcInstruction>
     </learningContentbody>
 </learningContent>

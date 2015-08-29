@@ -13,9 +13,10 @@
         <lcInstruction>
             <p>Some of the most commonly used elements in a concept topic include &lt;p>
                 (paragraph), &lt;ul> (unordered list), &lt;ol> (ordered list), and &lt;note> (note
-                or admonition). These elements were covered in the Introduction to DITA course. This
-                lesson gives a brief review of these elements and shows how to add them to a concept
-                topic.</p>
+                or admonition). These elements were covered in the <xref
+                    href="http://www.learningdita.com/courses/introduction-to-dita/" format="html"
+                    scope="external">Introduction to DITA course</xref>. This lesson gives a brief
+                review of these elements and shows how to add them to a concept topic.</p>
         </lcInstruction>
     </learningContentbody>
     <task id="task_i3g_jkh_1t">
@@ -46,15 +47,15 @@
                             specific element tag. As you will see in examples throughout this
                             course, we recommend using the &lt;p> element to tag text inside list
                             items, notes, and table entries. &lt;p> elements are needed for list
-                            items that are several paragraphs long, and wrapping single items in
-                            &lt;p> keeps them all consistent.</note>
+                            items that are several paragraphs long, and wrapping single items in the
+                            &lt;p> element keeps them all consistent.</note>
                     </info>
                     <info>The &lt;p> element you just created introduces the next element: an
                         unordered list.</info>
                 </step>
                 <step>
-                    <cmd>After the &lt;p> element, create a &lt;ul> element and populate it as shown
-                        in the following example:</cmd>
+                    <cmd>After the &lt;p> element, add a &lt;ul> element and populate it as shown in
+                        the following example:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
@@ -72,9 +73,9 @@
    &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
-                    <info>The &lt;ul> element is for unordered or bulleted lists. 
-                        <draft-comment author="simonbate">I think most of these info elements
-                            should be in the lcInstruction.</draft-comment></info>
+                    <info>The &lt;ul> element is for unordered or bulleted lists. <draft-comment
+                            author="simonbate">I think most of these info elements should be in the
+                            lcInstruction.</draft-comment></info>
                     <info>The &lt;ul> element can only contain the &lt;li> element, and it must
                         contain at least one.</info>
                     <info>Each &lt;li> element contains the text for a bulleted entry in the list.
@@ -110,17 +111,17 @@
                     <info>The &lt;ol> element is for ordered or numbered lists.</info>
                     <info>Like the &lt;ul> element, the &lt;ol> element can only contains &lt;li>
                         elements, and it must contain at least one. </info>
-                    <info>In this example, each of the &lt;li> elements wraps a &lt;p> element
-                        around the text. <note>Use the &lt;ol> element only to show that the list
-                            items should appear in a certain order, not to create step-by-step
-                            instructions. The task topic is intended for instructional content and
-                            provides a more semantically rich structure for steps than the
-                            concept.</note></info>
+                    <info>In this example, each of the &lt;li> elements follows the best practice of
+                        wrapping a &lt;p> element around the text. <note>Use the &lt;ol> element
+                            only to show that the list items should appear in a certain order, not
+                            to create step-by-step instructions. The task topic is intended for
+                            instructional content and provides a more semantically rich structure
+                            for steps than the concept.</note></info>
                    
                 </step>
                 <step>
-                    <cmd>After the &lt;ol> element, create a &lt;note> element and populate it as
-                        shown in the following example:</cmd>
+                    <cmd>After the &lt;ol> element, add a &lt;note> element and populate it as shown
+                        in the following example:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">

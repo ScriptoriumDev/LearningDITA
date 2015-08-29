@@ -14,10 +14,11 @@
             <lcObjectivesGroup id="lcObjectivesGroup_e2g_sks_zs">
                 <lcObjective>Identify the best practices for adding images to a concept topic and
                     the elements involved.</lcObjective>
-                <lcObjective>Add &lt;fig> and &lt;image> elements to the concept.</lcObjective>
+                <lcObjective>Add the &lt;fig> and &lt;image> elements to the concept.</lcObjective>
                 <lcObjective>Identify the basic elements involved in adding tables to a concept
                     topic.</lcObjective>
-                <lcObjective>Add a &lt;simpletable> and &lt;table> to the concept.</lcObjective>
+                <lcObjective>Add the &lt;simpletable> and &lt;table> elements to the
+                    concept.</lcObjective>
             </lcObjectivesGroup>
         </lcObjectives>
         <lcDuration>
@@ -37,8 +38,8 @@
                 reference, and glossary).</p>
             <note>
                 <p>This lesson covers basic use of these elements. For the full specifications for
-                    each element, see the OASIS DITA Version 1.2 Standard in the related
-                    information.</p>
+                    each element, see the OASIS DITA Version 1.2 Standard in the additional
+                    reading.</p>
             </note>
         </lcIntro>
     </learningContentbody>

@@ -20,9 +20,9 @@
                 </li>
                 <li>
                     <p>&lt;codeph>, or code phrase, which displays a single word or phrase inside a
-                        &lt;p> as code. For example, if you mention an element in a paragraph and
-                        want to display only that element’s name in a monospace font, the
-                        &lt;codeph> element is useful.</p>
+                        &lt;p> element as code. For example, if you mention an element in a
+                        paragraph and want to display only that element’s name in a monospace font,
+                        the &lt;codeph> element is useful.</p>
                 </li>
                 <li>
                     <p>&lt;lq>, or long quote, which contains long quotations. This element is for
@@ -39,8 +39,8 @@
                         element. However, the &lt;section> element cannot contain other &lt;section>
                         elements and can only be followed by another &lt;section> element, an
                         &lt;example> element, or a &lt;conbodydiv> element. DITA does not allow you
-                        to use main body elements such as &lt;p>, &lt;ul>, or &lt;note> after the
-                        end of a section.</p>
+                        to use main body elements such as the &lt;p>, &lt;ul>, or &lt;note>
+                        elements, after the end of a section.</p>
                 </li>
                 <li>
                     <p>&lt;draft-comment>, which lets you insert comments and questions into the
@@ -99,10 +99,10 @@ duckdata> _
                     </stepxmp>
                     <info>The &lt;codeblock> element isolates the piece of code content so that any
                         tags in it exist for display purposes only and do not affect the DITA tags
-                        in your concept topic file. The &lt;codeblock> element also allows you to
-                        control line breaks. In the example you added, the text inside the
-                        &lt;codeblock> element shows an entry being added to a database using the
-                        command line.</info>
+                        in your concept topic file. </info>
+                    <info>The &lt;codeblock> element also allows you to control line breaks. In the
+                        example you added, the text inside the &lt;codeblock> element shows an entry
+                        being added to a database using the command line.</info>
                     <info>Video: <xref href="https://www.youtube.com/watch?v=Ryzutuy-n_A"
                             format="html" scope="external">Creating a codeblock in
                         DITA</xref></info>
@@ -124,8 +124,8 @@ the name of the duck in parentheses on the command line and press Enter.&lt;/p><
 &lt;/concept></pre>
                     </stepxmp>
                     <info>In the example you added, the &lt;codeph> element allows you to isolate
-                        the words “add entry” and display them in a monospace font to indicate that
-                        they are a command.</info>
+                        the words “add entry” and indicate that they should be displayed in a
+                        monospace font to show that they are a command.</info>
                 </step>
                 <step>
                     <cmd>After the &lt;p> element, add a &lt;lq> element and populate it as shown in
@@ -149,7 +149,7 @@ beauty of Nature?&lt;/lq></ph>
                     </stepxmp>
                     <info>In the example you added, the &lt;lq> element allows you to include a
                         quote from <cite>Walden</cite> by Henry David Thoreau.</info>
-                    <info>The &lt;lq> element may contain a link to the quote’s source. In the
+                    <info>The &lt;lq> element can contain a link to the quote’s source. In the
                         example you added, the &lt;lq> element contains an href attribute pointing
                         to the source URL, a format attribute indicating that the source is HTML,
                         and a scope attribute showing that the source is external.</info>
@@ -193,11 +193,12 @@ You can also offer your database to users as a download.&lt;/p></ph>
                     </stepxmp>
                     <info>Only one &lt;title> element is allowed inside the &lt;concept> element
                         where a title already exists. However, by adding a &lt;section> element, you
-                        are able to have multiple subtitles in your concept topic. Each &lt;section>
-                        element may also contain only one title. A &lt;section> element may contain
-                        all the same body elements as a &lt;conbody>, with the exception of another
-                        &lt;section> (that is, you cannot nest &lt;section> elements inside each
-                        other).</info>
+                        are able to have multiple subtitles in your concept topic. Like the
+                        &lt;conbody> element, each &lt;section> element can only contain one
+                        &lt;title> element.</info>
+                    <info>A &lt;section> element can contain all the same body elements as a
+                        &lt;conbody>, with the exception of another &lt;section> (that is, you
+                        cannot nest &lt;section> elements inside each other).</info>
                     <info>Video: <xref href="https://www.youtube.com/watch?v=kmwUK7UFL_8"
                             format="html" scope="external">Adding a section in DITA</xref></info>
                 </step>
@@ -219,7 +220,7 @@ You can also offer your database to users as a download.&lt;/p>
 &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
-                    <info>With the example you added, you are telling other authors who may work on
+                    <info>In the example you added, you are telling other authors who may work on
                         this topic to rethink the decision to offer a download.</info>
                 </step>
                 <step>
@@ -245,11 +246,11 @@ duck database.&lt;/p>
 &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
-                    <info>In this example, you have surrounded the &lt;p> element with
-                        &lt;required-cleanup> to indicate that someone must move it to a valid
-                        position (such as inside the &lt;section>) or re-tag it with a valid element
-                        (such as &lt;example>). Otherwise, the final output will not display the
-                        text inside the &lt;p> element.</info>
+                    <info>In this example, you have surrounded the &lt;p> element with the
+                        &lt;required-cleanup> element to indicate that someone must move it to a
+                        valid position (such as inside the &lt;section> element) or re-tag it with a
+                        valid element (such as the &lt;example> element). Otherwise, the final
+                        output will not display the text inside the &lt;p> element.</info>
                 </step>
                 <step>
                     <cmd>Check your file l_concept_advanced_start.dita against the sample file

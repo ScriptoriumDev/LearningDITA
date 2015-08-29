@@ -17,8 +17,8 @@
             <p>You can add an &lt;image> element to your concept by placing it directly in the
                 &lt;conbody> element. It is also fairly common to use images inline by placing them
                 inside a &lt;p> element and using the placement="inline" attribute.</p>
-            <p>If your image needs a title or caption, place it inside a &lt;fig> element. The
-                &lt;fig> (or figure) element can contain a &lt;title> element and one or more
+            <p>If your image needs a title or caption, place it inside a &lt;fig> (or figure)
+                element. The &lt;fig> element can contain a &lt;title> element and one or more
                 &lt;image> elements.</p>
         </lcInstruction>
     </learningContentbody>
@@ -78,14 +78,15 @@
                         topic.</info>
                     <info>The &lt;fig> element you added contains a &lt;title> element and an
                         &lt;image> element. The &lt;title> element allows you to associate a caption
-                        with your image. The &lt;image> element is structured the same way whether
-                        it is inside a &lt;fig> element or inside the &lt;conbody> element.</info>
+                        with your image.</info>
+                    <info>The &lt;image> element is structured the same way inside the &lt;fig>
+                        element as it is inside the &lt;conbody> element.</info>
+                    <info>The &lt;fig> element can contain one or more &lt;image> elements. </info>
                     <info>
-                        <note>The &lt;title> element always goes before the &lt;image> element in
-                            DITA, but the caption does not necessarily have to appear above the
-                            image in the final output.</note>
+                        <note>In a &lt;fig> element, the &lt;title> element always goes before the
+                            &lt;image> element in DITA, but the caption does not necessarily have to
+                            appear above the image in the final output.</note>
                     </info>
-                    <info>The &lt;fig> element can contain more than one &lt;image> element. </info>
                     <info>Video: <xref href="https://www.youtube.com/watch?v=QL25i6pALgw"
                             format="html" scope="external">Creating a figure with an image in
                             DITA</xref></info>

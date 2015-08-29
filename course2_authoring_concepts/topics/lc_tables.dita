@@ -10,75 +10,82 @@
         </critdates>
     </prolog>
     <learningContentbody>
-        <lcInstruction><p>There are two table elements available in a concept topic:
-                &lt;simpletable> and &lt;table>. </p><p>Simple tables are used to present
+        <lcInstruction><p>There are two elements available for creating tables in a concept topic: &lt;simpletable> and
+                &lt;table>. </p><p>Simple tables are used to present
                 information in a very basic tabular format. Tables are much more flexible in their
                 ability to display information and allow for more complex tabular structures. For
                 example, the &lt;simpletable> element does not allow for titles, spanned cells, or
                 footer rows, while &lt;table> supports all of these features and more.</p>
-            <p>The elements in a &lt;simpletable> include:</p>
+            <p>The elements contained in the &lt;simpletable> element include:</p>
             <ul id="ul_uyq_zfq_dt">
                 <li>
-                    <p>&lt;sthead>, the container element for the header row of a &lt;simpletable>.
-                        The &lt;sthead> element contains &lt;stentry> and is optional. There can
-                        only be one &lt;sthead> element in a &lt;simpletable>.</p>
+                    <p>&lt;sthead>, the container element for the header row of a &lt;simpletable>
+                        element. The &lt;sthead> element contains the &lt;stentry> element and is
+                        optional. There can only be one &lt;sthead> element in a &lt;simpletable>
+                        element.</p>
                 </li>
                 <li>
-                    <p>&lt;strow>, the container element for the body rows of a &lt;simpletable>.
-                        The &lt;strow> element contains &lt;stentry>. A &lt;simpletable> can have
-                        one or more &lt;strow> elements.</p>
+                    <p>&lt;strow>, the container element for the body rows of a &lt;simpletable>
+                        element. The &lt;strow> element contains the &lt;stentry> element. A
+                        &lt;simpletable> element can have one or more &lt;strow> elements.</p>
                 </li>
                 <li>
-                    <p>&lt;stentry>, the container element for a single cell in a &lt;simpletable>.
-                        The &lt;stentry> element contains the text of a &lt;simpletable> cell, which
-                        should be wrapped in &lt;p> according to best practice.</p>
+                    <p>&lt;stentry>, the container element for a single cell in a &lt;simpletable>
+                        element. The &lt;stentry> element contains the text of a cell in the
+                        &lt;simpletable> element, which should be wrapped in a &lt;p> element
+                        according to best practice.</p>
                 </li>
             </ul>
-            <p>The elements in a &lt;table> include:</p>
+            <p>The elements contained in the &lt;table> element include:</p>
             <ul id="ul_j44_bgq_dt">
                 <li>
-                    <p>&lt;title>, the container element for the text of a &lt;table> element’s title or
-                        caption. A &lt;> can only contain one &lt;title> element.</p>
+                    <p>&lt;title>, the container element for the text of a &lt;table> element’s
+                        title or caption. A &lt;table> element can only contain one &lt;title>
+                        element.</p>
                 </li>
                 <li>
-                    <p>&lt;tgroup>, the container element for the main content of a &lt;table>. The
-                        &lt;tgroup> element contains the &lt;colspec>, &lt;thead>, and &lt;tbody>
-                        elements. A &lt;table> can contain one or more &lt;tgroup> elements.</p>
+                    <p>&lt;tgroup>, the container element for the main content of a &lt;table>
+                        element. The &lt;tgroup> element contains the &lt;colspec>, &lt;thead>, and
+                        &lt;tbody> elements. A &lt;table> element can contain one or more
+                        &lt;tgroup> elements.</p>
                 </li>
                 <li>
                     <p>&lt;colspec>, the element that provides information about the columns in a
-                        &lt;table>. The column specifications are defined using the colname (the
-                        name of the column), colnum (the order in which the column appears), and
-                        colwidth (the relative width of the column) attributes.</p>
+                        &lt;table> element. The column specifications are defined using the colname
+                        (the name of the column), colnum (the order in which the column appears),
+                        and colwidth (the relative width of the column) attributes.</p>
                 </li>
                 <li>
-                    <p>&lt;thead>, the container element for the header of a &lt;table>. The
+                    <p>&lt;thead>, the container element for the header in a &lt;table> element. The
                         &lt;thead> element can contain one or more &lt;row> elements and is
                         optional.</p>
                 </li>
                 <li>
-                    <p>&lt;tbody>, the container element for the body rows of a &lt;table>. The
-                        &lt;tbody> element can contain one or more &lt;row> elements.</p>
+                    <p>&lt;tbody>, the container element for the body rows in a &lt;table> element.
+                        The &lt;tbody> element can contain one or more &lt;row> elements.</p>
                 </li>
                 <li>
-                    <p>&lt;row>, the container element for a row of cells in a &lt;table>. The
-                        &lt;row> element contains &lt;entry>.</p>
+                    <p>&lt;row>, the container element for a row of cells in a &lt;table> element.
+                        The &lt;row> element contains one or more &lt;entry> elements.</p>
                 </li>
                 <li>
-                    <p>&lt;entry>, the container element for a single cell in a &lt;table>. The
-                        &lt;entry> element contains the text of a &lt;table> cell, which should be
-                        wrapped in &lt;p> according to best practice.</p>
+                    <p>&lt;entry>, the container element for a single cell in a &lt;table> element.
+                        The &lt;entry> element contains the text of a cell in the &lt;table>
+                        element, which should be wrapped in a &lt;p> element according to best
+                        practice.</p>
                 </li>
-            </ul><p>This
-                lesson will cover the basics of using &lt;simpletable> and &lt;table>. To highlight
-                the differences between these types of tables, the same information will be used for
-                both examples.</p><fig>
+            </ul><p>This lesson will cover the basics of using the &lt;simpletable> and &lt;table> elements. To
+                highlight the differences between these types of tables, the same content will be
+                used for both examples.</p><fig>
                     <title>Example &lt;simpletable> and &lt;table> in a visual format</title><image href="../media/images_and_tables/table_examples.png"
                         id="image_ntp_v2q_dt"  base="2015/08"/>
-                </fig><p>Continue using the file l_concept_images_tables_start.dita to add the &lt;simpletable> and
+                </fig>
+            <draft-comment author="gretyl">replace image with one that's easier to
+                see</draft-comment><p>Continue using the file l_concept_images_tables_start.dita to add the &lt;simpletable> and
                 &lt;table> elements.</p>
-            <note>If you are using a DITA editor, some child elements of &lt;simpletable> and
-                &lt;table> will automatically be inserted as you work through the examples.</note></lcInstruction>
+            <note>If you are using a DITA editor, some child elements of the &lt;simpletable> and
+                &lt;table> elements will automatically be inserted as you work through the
+                examples.</note></lcInstruction>
     </learningContentbody>
     <task id="task_a2s_dvs_zs">
         <title>Adding the &lt;simpletable> element</title>
@@ -119,8 +126,8 @@
    &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
-                    <info>The &lt;sthead> element sets up the header row of the
-                        &lt;simpletable>.</info>
+                    <info>The &lt;sthead> element sets up the header row of the &lt;simpletable>
+                        element.</info>
                 </step>
                 <step>
                     <cmd>Inside the &lt;sthead> element, add two &lt;stentry> elements and populate
@@ -141,11 +148,11 @@
    &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
-                    <info>The &lt;stentry> element represents a single table cell. The number of
+                    <info>The &lt;stentry> element represents a single cell. The number of
                         &lt;stentry> elements inside the &lt;sthead> element will determine how many
-                        columns will be in your &lt;simpletable>.</info>
-                    <info>Each &lt;stentry> element you added follows the best practice of
-                        containing a &lt;p> element around the text.</info>
+                        columns will be in your &lt;simpletable> element.</info>
+                    <info>Each &lt;stentry> element you added follows the best practice of wrapping
+                        a &lt;p> element around the text.</info>
                 </step>
                 <step>
                     <cmd>After the &lt;sthead> element, add the &lt;strow> element as shown in the
@@ -169,7 +176,7 @@
 &lt;/concept></pre>
                     </stepxmp>
                     <info>The &lt;strow> element sets up each body row following the header row of
-                        the &lt;simpletable>.</info>
+                        the &lt;simpletable> element.</info>
                 </step>
                 <step>
                     <cmd>Inside the &lt;strow> element, add two &lt;stentry> elements and populate
@@ -195,12 +202,13 @@
 &lt;/concept></pre>
                     </stepxmp>
                     <info>To avoid rows with missing cells at the end, the &lt;strow> element in a
-                        &lt;simpletable> should contain the same number of &lt;stentry> elements as
-                        the &lt;sthead> element.</info>
+                        &lt;simpletable> element should contain the same number of &lt;stentry>
+                        elements as the &lt;sthead> element.</info>
                 </step>
                 <step>
                     <cmd>After the first &lt;strow> element, add two more rows to the
-                        &lt;simpletable> and populate them as shown in the following example:</cmd>
+                        &lt;simpletable> element and populate them as shown in the following
+                        example:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
@@ -229,8 +237,8 @@
    &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
-                    <info>You may add as many &lt;strow> elements as you wish to a
-                        &lt;simpletable>.</info>
+                    <info>You can add as many &lt;strow> elements as you wish to a &lt;simpletable>
+                        element.</info>
                 </step>
             </steps>
         </taskbody>
@@ -354,8 +362,9 @@
 &lt;/concept></pre>
                     </stepxmp>
                     <info>The &lt;thead> element contains the elements associated with the table
-                        header. Unlike the &lt;sthead> element in a &lt;simpletable>, the &lt;thead>
-                        element in a &lt;table> may contain more than one header row.</info>
+                        header. Unlike the &lt;sthead> element in a &lt;simpletable> element, the
+                        &lt;thead> element in a &lt;table> element can contain more than one header
+                        row.</info>
                 </step>
                 <step>
                     <cmd>Inside the &lt;thead> element, add the &lt;row> element as shown in the
@@ -412,7 +421,7 @@
                     </stepxmp>
                     <info>Each &lt;entry> element corresponds to a single table cell in a row. In
                         the example you added, each &lt;entry> element follows the best practice of
-                        containing a &lt;p> element surrounding the text.</info>
+                        wrapping a &lt;p> element surrounding the text.</info>
                 </step>
                 <step>
                     <cmd>After the &lt;thead> element, add the &lt;tbody> element as shown in the
@@ -520,7 +529,7 @@
 &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
-                    <info>You may add as many &lt;row> elements as you wish inside the &lt;tbody>
+                    <info>You can add as many &lt;row> elements as you wish inside the &lt;tbody>
                         element of a table.</info>
                     <info>Video: <xref href="https://www.youtube.com/watch?v=PFWz_Vsyxwg"
                             format="html" scope="external">Creating a table in DITA</xref></info>

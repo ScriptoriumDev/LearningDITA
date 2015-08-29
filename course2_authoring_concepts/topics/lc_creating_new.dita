@@ -23,7 +23,8 @@
                 contained in &lt;conbody> are not required to follow a strict sequence. As long as
                 an element is allowed inside &lt;conbody>, it can appear in any order. The
                 exceptions are the &lt;section> and &lt;example> elements, which can only be
-                followed by other &lt;section> or &lt;example> elements.</p>
+                followed by other &lt;section> or &lt;example> elements or a &lt;conbodydiv>
+                element.</p>
         </lcInstruction>
     </learningContentbody>
     <task id="task_i3g_jkh_1t">
@@ -85,7 +86,7 @@
    &lt;/conbody></ph>
 &lt;/concept></pre>
                     </stepxmp>
-                    <info>The &lt;conbody> contains all the actual content in the concept. </info>
+                    <info>The &lt;conbody> element contains all the actual content in the concept. </info>
                     <info>Video: <xref href="https://www.youtube.com/watch?v=ebFdmsp4QAE"
                             format="html" scope="external">Creating a DITA concept</xref></info>
                 </step>

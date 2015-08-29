@@ -15,34 +15,36 @@
                 <lcObjective>Introduce more advanced elements and identify best practices for adding
                     them to a concept topic.</lcObjective>
                 <lcObjective>Add the &lt;codeblock>, &lt;codeph>, &lt;lq>, &lt;section>,
-                    &lt;draft-comment>, &lt;required-cleanup> elements to the concept.</lcObjective>
+                    &lt;draft-comment>, and &lt;required-cleanup> elements to the
+                    concept.</lcObjective>
             </lcObjectivesGroup>
         </lcObjectives>
         <lcDuration>
             <lcTime value="1"/>
         </lcDuration>
         <lcIntro>
-            <p>Now that you’ve mastered using the basic DITA elements and other commonly-used ones,
+            <p>Now that you’ve mastered using the basic DITA elements and other commonly used ones,
                 you’re ready to start using some more advanced elements in your concept topic.</p>
             <p>You can use the &lt;codeblock> and &lt;codeph> elements to insert snippets of code
                 into the body of your topic. With the &lt;lq> element, you can insert a quote and
                 create a link to its original source.</p>
             <p>If you need to break your topic into sub-sections, you can add one or more
                 &lt;section> elements. The &lt;section> element comes with two constraints: you can
-                only use &lt;section> inside of &lt;conbody>, not inside of other &lt;section>
-                elements, and you can only follow a &lt;section> element with another &lt;section>,
-                an &lt;example>, or a &lt;conbodydiv>.</p>
+                only use the &lt;section> element inside of the &lt;conbody> element, not inside of
+                other &lt;section> elements, and you can only follow a &lt;section> element with
+                another &lt;section> element, an &lt;example> element, or a &lt;conbodydiv>
+                element.</p>
             <p>You can collaborate with other authors using the &lt;draft-comment> element to make
-                notes on pieces of information and the &lt;required-cleanup> element to show that an
-                element needs to be tagged correctly.</p>
+                notes on pieces of information, or you can use the &lt;required-cleanup> element to
+                show that an element needs to be tagged correctly.</p>
             <p>This lesson introduces these advanced elements and shows how to add them to a concept
-                topic. Like the other elements introduced in this course, images and tables are not
+                topic. Like the other elements introduced in this course, these elements are not
                 exclusive to the concept topic type and can also be used in the other DITA topic
                 types (task, reference, and glossary).</p>
             <note>
                 <p>This lesson covers basic use of these elements. For the full specifications for
-                    each element, see the OASIS DITA Version 1.2 Standard in the related
-                    information.</p>
+                    each element, see the OASIS DITA Version 1.2 Standard in the additional
+                    reading.</p>
             </note>
         </lcIntro>
     </learningContentbody>

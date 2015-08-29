@@ -26,7 +26,8 @@
                         terms and their corresponding definitions, presented in a format similar to
                         a two-column table. The definition list contains one or more entries, tagged
                         with the &lt;dlentry> element, and each entry contains a term (tagged with
-                        the &lt;dt> element) and a definition (tagged with the &lt;dd> element).</p>
+                        the &lt;dt> element) and one or more definitions (tagged with the &lt;dd>
+                        element).</p>
                 </li>
             </ul>
      
@@ -107,12 +108,6 @@ ducklings' food and water, go to
                     </stepxmp>
                     <info>In the example you added, the &lt;uicontrol> element contains the name of
                         the first menu option involved in creating a spreadsheet: “File.”</info>
-                    <info>You can use the &lt;uicontrol> element without the &lt;menucascade>
-                        element. For example, you can tag a word with the &lt;uicontrol> element to
-                        indicate a button the user should click. Because the &lt;uicontrol> element
-                        indicates that the text it surrounds will have special styling, avoid using
-                        the &lt;b> element or other inline styling elements inside the
-                        &lt;uicontrol> element.</info>
                 </step>
                 <step>
                     <cmd>After the &lt;uicontrol> element, add two more &lt;uicontrol> elements and
@@ -142,6 +137,12 @@ ducklings' food and water, go to
                     <info>With the &lt;menucascade> and &lt;uicontrol> elements in the example you
                         added, the user now knows to click on “File,” then “New,” then
                         “Spreadsheet.”</info>
+                    <info>You can use the &lt;uicontrol> element without the &lt;menucascade>
+                        element. For example, you can tag a word with the &lt;uicontrol> element to
+                        indicate a button the user should click. Because the &lt;uicontrol> element
+                        indicates that the text it surrounds will have special styling, avoid using
+                        the &lt;b> element or other inline styling elements inside the
+                        &lt;uicontrol> element.</info>
                     <info>Video: <xref href="https://www.youtube.com/watch?v=xGyf4q_Bipw"
                             format="html" scope="external">Creating a menucascade in
                         DITA</xref></info>
