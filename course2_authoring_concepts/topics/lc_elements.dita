@@ -11,24 +11,40 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>DITA uses some other important elements:</p>
-            <ul id="ul_rbj_wjq_dt">
-                <li>
-                    <p>&lt;fn>, which inserts a footnote.</p>
-                </li>
-                <li>
-                    <p>&lt;menucascade>, which a menu path, such as File > Save
-                            As. Each item inside the &lt;menucascade> element is
-                        contained in a &lt;uicontrol> element.</p>
-                </li>
-                <li>
-                    <p>&lt;dl>, which contains definition lists. A definition list is a list of
-                        terms and their corresponding definitions, presented in a format similar to
-                        a two-column table. The definition list contains one or more entries, tagged
-                        with the &lt;dlentry> element, and each entry contains a term (tagged with
-                        the &lt;dt> element) and a definition (tagged with the &lt;dd> element).</p>
-                </li>
-            </ul>
+            <p>DITA uses many other important elements. Here are three more:</p>
+            <simpletable frame="all" relcolwidth="1.0* 1.0*" id="simpletable_i13_ml4_2t">
+                <strow>
+                    <stentry>
+                        <p>&lt;fn></p>
+                    </stentry>
+                    <stentry>
+                        <p>The element that inserts a footnote.</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;menucascade></p>
+                    </stentry>
+                    <stentry>
+                        <p>The element that indicates the order of a menu path, such as File > Save
+                            As. Each item inside the &lt;menucascade> element is contained in a
+                            &lt;uicontrol> element.</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;dl></p>
+                    </stentry>
+                    <stentry>
+                        <p>The element that contains a definition list. A definition list is a list
+                            of terms and their corresponding definitions, presented in a format
+                            similar to a two-column table by default. The definition list contains
+                            one or more entries, tagged with the &lt;dlentry> element, and each
+                            entry contains a term (tagged with the &lt;dt> element) and one or more
+                            definitions (tagged with the &lt;dd> element).</p>
+                    </stentry>
+                </strow>
+            </simpletable>
      
 
         </lcInstruction>
@@ -38,7 +54,7 @@
         <taskbody>
             <steps id="steps_f5k_kkh_1t">
                 <step>
-                    <cmd>Continue using the file l_concept_elements_start.dita to add each of these
+                    <cmd>Continue using the file lesson3/l_concept_elements_start.dita to add each of these
                         elements to your example file.</cmd>
                 </step>
                 <step>
@@ -51,8 +67,7 @@
    &lt;title>Wild duck species&lt;/title>
   &lt;conbody>
 ...
- <ph outputclass="newchanged">&lt;p>Ducklings need higher levels of protein in their diets than adult ducks.
-&lt;fn>A protein level of 18-20% is recommended for newborn ducklings.&lt;/fn>&lt;/p></ph>
+ <ph outputclass="newchanged">&lt;p>Ducklings need higher levels of protein in their diets than adult ducks.&lt;fn>A protein level of 18-20% is recommended for newborn ducklings.&lt;/fn>&lt;/p></ph>
 &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
@@ -60,6 +75,9 @@
                         appear inside the paragraph. By default, the text inside the &lt;fn> element
                         is displayed at the bottom of the page (for PDF) or end of the topic (for
                         HTML) when you generate output from the file.</info>
+                    <info>Video: <xref href="https://www.youtube.com/watch?v=xGyf4q_Bipw"
+                            format="html" scope="external">Creating a menucascade in
+                        DITA</xref></info>
                 </step>
                 <step>
                     <cmd>After the last &lt;p> element, add a new &lt;p> element with a
@@ -71,13 +89,11 @@
    &lt;title>Wild duck species&lt;/title>
   &lt;conbody>
 ...
-&lt;p>Ducklings need higher levels of protein in their diets than adult ducks.
-&lt;fn>A protein level of 18-20% is recommended for newborn ducklings.&lt;/fn>&lt;/p>
 <ph outputclass="newchanged">&lt;p>To create a spreadsheet to keep track of when you need to replenish your 
 ducklings' food and water, go to 
 &lt;menucascade>
-&lt;/menucascade>.</ph>
-&lt;/p>
+&lt;/menucascade>.
+&lt;/p></ph>
 &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
@@ -86,7 +102,7 @@ ducklings' food and water, go to
                 </step>
                 <step>
                     <cmd>Inside the &lt;menucascade> element, add a &lt;uicontrol> element and
-                        populate it as shown in the following example:</cmd>
+                        add content to it as shown in the following example:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
@@ -94,46 +110,32 @@ ducklings' food and water, go to
    &lt;title>Wild duck species&lt;/title>
    &lt;conbody>
 ...
- &lt;p>Ducklings need higher levels of protein in their diets than adult ducks.
-&lt;fn>A protein level of 18-20% is recommended for newborn ducklings.&lt;/fn>&lt;/p>
-&lt;p>To create a spreadsheet to keep track of when you need to replenish your 
-ducklings' food and water, go to 
 &lt;menucascade>
 <ph outputclass="newchanged">&lt;uicontrol>File&lt;/uicontrol></ph>
-&lt;/menucascade>.
-&lt;/p>
+&lt;/menucascade>
+...
 &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
                     <info>In the example you added, the &lt;uicontrol> element contains the name of
                         the first menu option involved in creating a spreadsheet: “File.”</info>
-                    <info>You can use the &lt;uicontrol> element without the &lt;menucascade>
-                        element. For example, you can tag a word with the &lt;uicontrol> element to
-                        indicate a button the user should click. Because the &lt;uicontrol> element
-                        indicates that the text it surrounds will have special styling, avoid using
-                        the &lt;b> element or other inline styling elements inside the
-                        &lt;uicontrol> element.</info>
                 </step>
                 <step>
                     <cmd>After the &lt;uicontrol> element, add two more &lt;uicontrol> elements and
-                        populate them as shown in the following example.</cmd>
+                        add content to them as shown in the following example.</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="concept_elements">
    &lt;title>Wild duck species&lt;/title>
   &lt;conbody>
-...
- &lt;p>Ducklings need higher levels of protein in their diets than adult ducks.
-&lt;fn>A protein level of 18-20% is recommended for newborn ducklings.&lt;/fn>&lt;/p>
-&lt;p>To create a spreadsheet to keep track of when you need to replenish your 
-ducklings' food and water, go to 
+... 
 &lt;menucascade>
 &lt;uicontrol>File&lt;/uicontrol>
 <ph outputclass="newchanged">&lt;uicontrol>New&lt;/uicontrol>
 &lt;uicontrol>Spreadsheet&lt;/uicontrol></ph>
-&lt;/menucascade>.
-&lt;/p>
+&lt;/menucascade>
+...
 &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
@@ -142,8 +144,14 @@ ducklings' food and water, go to
                     <info>With the &lt;menucascade> and &lt;uicontrol> elements in the example you
                         added, the user now knows to click on “File,” then “New,” then
                         “Spreadsheet.”</info>
-                    <info>Video: <xref href="https://www.youtube.com/watch?v=xGyf4q_Bipw"
-                            format="html" scope="external">Creating a menucascade in
+                    <info>You can use the &lt;uicontrol> element without the &lt;menucascade>
+                        element. For example, you can tag a word with the &lt;uicontrol> element to
+                        indicate a button the user should click. Because the &lt;uicontrol> element
+                        indicates that the text it surrounds will have special styling, avoid using
+                        the &lt;b> element or other inline styling elements inside the
+                        &lt;uicontrol> element.</info>
+                    <info>Video: <xref href="https://www.youtube.com/watch?v=3R9eN2TSepQ"
+                            format="html" scope="external">Creating a definition list in
                         DITA</xref></info>
                 </step>
                 <step>
@@ -176,13 +184,10 @@ help you choose a species based on how much you will need to feed your ducks.&lt
    &lt;title>Wild duck species&lt;/title>
    &lt;conbody>
 ...
-&lt;/menucascade>
-&lt;p>Domestic ducks fall into categories based on weight. These weight classes may 
-help you choose a species based on how much you will need to feed your ducks.&lt;/p>
 &lt;dl>
 <ph outputclass="newchanged"> &lt;dlentry>
 &lt;/dlentry></ph>
-&lt;/dl>
+...
 &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
@@ -191,7 +196,7 @@ help you choose a species based on how much you will need to feed your ducks.&lt
                 </step>
                 <step>
                     <cmd>Inside the &lt;dlentry> element, add the &lt;dt> and &lt;dd> elements and
-                        populate them as shown in the following example:</cmd>
+                        add content to them as shown in the following example:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
@@ -199,15 +204,10 @@ help you choose a species based on how much you will need to feed your ducks.&lt
    &lt;title>Wild duck species&lt;/title>
    &lt;conbody>
 ...
-&lt;/menucascade>
-&lt;p>Domestic ducks fall into categories based on weight. These weight classes may 
-help you choose a species based on how much you will need to feed your ducks.&lt;/p>
-&lt;dl>
     &lt;dlentry>
     <ph outputclass="newchanged">&lt;dt>Bantam&lt;/dt>
         &lt;dd>The lightest-weight ducks and best fliers, such as the Mallard duck.&lt;/dd></ph>
-    &lt;/dlentry>
-&lt;/dl>
+...
 &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
@@ -216,7 +216,7 @@ help you choose a species based on how much you will need to feed your ducks.&lt
                 </step>
                 <step>
                     <cmd>After the &lt;dlentry> element, add three more &lt;dlentry> elements and
-                        populate them with &lt;dt> and &lt;dd> elements as shown in the following
+                        add content to them with &lt;dt> and &lt;dd> elements as shown in the following
                         example:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
@@ -225,13 +225,6 @@ help you choose a species based on how much you will need to feed your ducks.&lt
    &lt;title>Wild duck species&lt;/title>
   &lt;conbody>
 ...
-&lt;/menucascade>
-&lt;p>Domestic ducks fall into categories based on weight. These weight classes may 
-help you choose a species based on how much you will need to feed your ducks.&lt;/p>
-&lt;dl>
-    &lt;dlentry>
-        &lt;dt>Bantam&lt;/dt>
-        &lt;dd>The lightest-weight ducks and best fliers, such as the Mallard duck.&lt;/dd>
     &lt;/dlentry>
     <ph outputclass="newchanged">&lt;dlentry>
         &lt;dt>Light&lt;/dt>
@@ -246,17 +239,14 @@ help you choose a species based on how much you will need to feed your ducks.&lt
         &lt;dt>Heavy&lt;/dt>
         &lt;dd>The heaviest and generally friendliest ducks, such as the Pekin duck.&lt;/dd>
     &lt;/dlentry></ph>
-&lt;/dl>
+...
 &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
-                    <info>Video: <xref href="https://www.youtube.com/watch?v=3R9eN2TSepQ"
-                            format="html" scope="external">Creating a definition list in
-                        DITA</xref></info>
                 </step>
                 <step>
-                    <cmd>Check your file l_concept_elements_start.dita against the sample file
-                        l_concept_elements.dita.</cmd>
+                    <cmd>Check your file lesson3/l_concept_elements_start.dita against the sample file
+                        lesson3/l_concept_elements.dita.</cmd>
                 </step>
             </steps>
         </taskbody>
@@ -266,14 +256,16 @@ help you choose a species based on how much you will need to feed your ducks.&lt
         <taskbody>
             <steps id="steps_g32_wjx_dt">
                 <step>
-                    <cmd>Open the file l_concept_elements_exercise_start.dita and use it to convert
+                    <cmd>Open the file lesson3/l_concept_elements_exercise_start.dita and use it to convert
                         the following untagged content into DITA:</cmd>
-                    <info><image href="../media/elements/exercise_3.png" id="image_elc_x12_2t" base="2015/08"
-                        /></info>
+                    <info><image href="../media/elements/exercise_3.png" id="image_elc_x12_2t"
+                            base="2015/08"/><p>Source: <xref href="http://contentstrategy101.com/"
+                                format="html" scope="external">Content Strategy
+                        101</xref></p></info>
                 </step>
                 <step>
-                    <cmd>Check your file l_concept_elements_start.dita against the sample file
-                        l_concept_elements_exercise.dita.</cmd>
+                    <cmd>Check your file lesson3/l_concept_elements_start.dita against the sample file
+                        lesson3/l_concept_elements_exercise.dita.</cmd>
                 </step>
             </steps>
         </taskbody>

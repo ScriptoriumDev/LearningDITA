@@ -14,8 +14,8 @@
             <p>One of DITA’s advantages is the ability to create semantically rich content, or
                 content in which the element tags contain information about the content.</p>
             <p>For example, using the &lt;term> element may simply cause a word to display as bold
-                text in the output, but the tag conveys much more information—it shows that this
-                word is a term that needs to be defined.</p>
+                text in the output, but the tag conveys much more information than just "render as
+                boldface"—it shows that this word is a term that needs to be defined.</p>
             <p>To take advantage of the semantically rich aspect of DITA, tag each piece of content
                 with the element that most closely reflects what the content is and how it should be
                 used. For example, use elements such as &lt;term> or &lt;cite> to highlight
