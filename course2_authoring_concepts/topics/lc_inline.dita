@@ -13,38 +13,77 @@
         <lcInstruction>
             <p>DITA uses several elements for inline styling, or styling of pieces of text inside a
                 paragraph:</p>
-            <ul id="ul_ifp_xpg_2t">
-                <li>
-                    <p>&lt;b>, for bold text</p>
-                </li>
-                <li>
-                    <p>&lt;i>, for italic text</p>
-                </li>
-                <li>
-                    <p>&lt;u>, for underlined text</p>
-                </li>
-                <li>
-                    <p>&lt;term>, for a word or phrase that needs a definition</p>
-                </li>
-                <li>
-                    <p>&lt;cite>, for a word or phrase that needs a citation</p>
-                </li>
-                <li>
-                    <p>&lt;varname>, for a word or phrase that may change based on the user’s
-                        circumstances</p>
-                </li>
-                <li>
-                    <p>&lt;sub>, for subscript text</p>
-                </li>
-                <li>
-                    <p>&lt;sup>, for superscript text</p>
-                </li>
-            </ul>
+            <simpletable frame="all" relcolwidth="1.0* 1.0*" id="simpletable_brx_sl4_2t">
+                <strow>
+                    <stentry>
+                        <p>&lt;b></p>
+                    </stentry>
+                    <stentry>
+                        <p>bold text</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;i></p>
+                    </stentry>
+                    <stentry>
+                        <p>italic text</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;u></p>
+                    </stentry>
+                    <stentry>
+                        <p>underlined text</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;term></p>
+                    </stentry>
+                    <stentry>
+                        <p>a word or phrase that needs a definition</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;cite></p>
+                    </stentry>
+                    <stentry>
+                        <p>a word or phrase that needs a citation</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;varname></p>
+                    </stentry>
+                    <stentry>
+                        <p>a word or phrase that may change based on the user’s circumstances</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;sub></p>
+                    </stentry>
+                    <stentry>
+                        <p>subscript text</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;sup></p>
+                    </stentry>
+                    <stentry>
+                        <p>superscript text</p>
+                    </stentry>
+                </strow>
+            </simpletable>
             <p>The inline elements &lt;b>, &lt;i>, and &lt;u> are familiar and easy to use. However,
                 because they are closely linked with the appearance of text, it is easy to misuse
-                them and defeat the purpose of separating content from formatting. In many cases, it
-                is better to use semantically rich alternatives to these elements instead, such as
-                the &lt;term>, &lt;cite>, or &lt;varname> elements.</p>
+                them and defeat the purpose of separating content from formatting. Use these
+                elements sparingly; in most cases, it is better to use more meaningful elements
+                instead, such as the &lt;term>, &lt;cite>, or &lt;varname> elements.</p>
             <p>In the following examples, you will learn how to insert the simple &lt;b>, &lt;i>,
                 and &lt;u> elements first, then how to replace them with the semantically rich
                 alternatives.</p>
@@ -55,11 +94,13 @@
         <taskbody>
             <steps id="steps_f5k_kkh_1t">
                 <step>
-                    <cmd>Make a copy of the file l_concept_elements_start.dita and open it in your
+                    <cmd>Make a copy of the file lesson3/l_concept_elements_start.dita and open it in your
                         editor.</cmd>
                     <info>
-                        <note>If you are using a DITA-aware text editor, make sure you are in text
-                            mode, rather than Author or visual mode. </note>
+                        <note>
+                            <p>If you are using a DITA-aware text editor, make sure you are in text
+                                mode, rather than author or visual mode.</p>
+                        </note>
                     </info>
                     <stepxmp>
                         <p>You should see this:</p>
@@ -109,9 +150,7 @@ during the first &lt;u>two weeks&lt;/u> of their lives.&lt;/p></ph>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="concept_elements">
 &lt;conbody>
-&lt;p>Ducklings need &lt;b>round-the-clock access&lt;/b> to both &lt;i>food&lt;/i> and &lt;i>water&lt;/i> 
-during the first 
-&lt;u>two weeks&lt;/u> of their lives.&lt;/p>
+...
 <ph outputclass="newchanged">&lt;p>Ducklings need &lt;term>round-the-clock access&lt;/term> to both &lt;cite>food&lt;/cite> and 
 &lt;cite>water&lt;/cite> during the first &lt;varname>two weeks&lt;/varname> of their lives.&lt;/p></ph>
 &lt;/conbody>
@@ -134,10 +173,7 @@ during the first
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="concept_elements">
 &lt;conbody>
-&lt;p>Ducklings need &lt;b>round-the-clock access&lt;/b> to both &lt;i>food&lt;/i> and &lt;i>water&lt;/i> 
-during the first &lt;u>two weeks&lt;/u> of their lives.&lt;/p>
-&lt;p>Ducklings need &lt;term>round-the-clock access&lt;/term> to both &lt;cite>food&lt;/cite> and 
-&lt;cite>water&lt;/cite> during the first &lt;varname>two weeks&lt;/varname> of their lives.&lt;/p>
+...
 <ph outputclass="newchanged">&lt;p>Because duck feed has a dry, gritty texture, ducklings need plenty of 
 H&lt;sub>2&lt;/sub>O to keep their bills clean.&lt;/p></ph>
 &lt;/conbody>
@@ -156,12 +192,7 @@ H&lt;sub>2&lt;/sub>O to keep their bills clean.&lt;/p></ph>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="concept_elements">
 &lt;conbody>
-&lt;p>Ducklings need &lt;b>round-the-clock access&lt;/b> to both &lt;i>food&lt;/i> and &lt;i>water&lt;/i> 
-during the first &lt;u>two weeks&lt;/u> of their lives.&lt;/p>
-&lt;p>Ducklings need &lt;term>round-the-clock access&lt;/term> to both &lt;cite>food&lt;/cite> and 
-&lt;cite>water&lt;/cite> during the first &lt;varname>two weeks&lt;/varname> of their lives.&lt;/p>
-&lt;p>Because duck feed has a dry, gritty texture, ducklings need plenty of 
-H&lt;sub>2&lt;/sub>O to keep their bills clean.&lt;/p>
+...
 <ph outputclass="newchanged">&lt;p>You can make your own low, no-spill food and water dishes out of recycled 
 plastic containers, or buy ready-made dishes from E-Z-Feed&lt;sup>2&lt;/sup>.&lt;/p></ph>
 &lt;/conbody>
@@ -171,7 +202,7 @@ plastic containers, or buy ready-made dishes from E-Z-Feed&lt;sup>2&lt;/sup>.&lt
                         smaller and slightly above the main line. In the example you added, the
                         &lt;sup> element is used to indicate that the “2” (symbol for “squared”) in
                         the name of the duck food company (“E-Z-Feed<sup>2</sup>”) should be
-                        displayed as superscript. <note type="caution">Do not use &lt;sup> elements
+                        displayed as superscript. <note>Do not use &lt;sup> elements
                             to create raised numbers for footnotes. Instead, use the DITA &lt;fn>
                             (footnote) element, which we will cover later in this lesson.</note>
                     </info>

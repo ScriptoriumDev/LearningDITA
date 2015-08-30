@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_kqs_rks_zs">
-    <title>More advanced elements</title>
+    <title>Advanced elements</title>
     <prolog>
         <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
             Scriptorium</author>
@@ -12,7 +12,7 @@
     <learningContentbody>
         <lcObjectives>
             <lcObjectivesGroup id="lcObjectivesGroup_e2g_sks_zs">
-                <lcObjective>Introduce more advanced elements and identify best practices for adding
+                <lcObjective>Learn about advanced elements and identify best practices for adding
                     them to a concept topic.</lcObjective>
                 <lcObjective>Add the &lt;codeblock>, &lt;codeph>, &lt;lq>, &lt;section>,
                     &lt;draft-comment>, and &lt;required-cleanup> elements to the
@@ -43,13 +43,19 @@
                 types (task, reference, and glossary).</p>
             <note>
                 <p>This lesson covers basic use of these elements. For the full specifications for
-                    each element, see the OASIS DITA Version 1.2 Standard in the additional
-                    reading.</p>
+                    each element, see the <xref
+                        href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/concept.html"
+                        format="html" scope="external">OASIS DITA Version 1.2 Standard</xref>.</p>
             </note>
         </lcIntro>
     </learningContentbody>
     <related-links>
-        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/codeblock.html"
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Syntax_and_Markup/c_List_of_Domains.html"
+            format="html" scope="external">
+            <linktext>DITA Style Guide, Element domains</linktext>
+        </link>
+        <!--<link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/codeblock.html"
             format="html" scope="external">
             <linktext>OASIS DITA Version 1.2 Standard, &lt;codeblock></linktext>
         </link>
@@ -72,6 +78,6 @@
         <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/required-cleanup.html"
             format="html" scope="external">
             <linktext>OASIS DITA Version 1.2 Standard, &lt;required-cleanup></linktext>
-        </link>
+        </link>-->
     </related-links>
 </learningContent>
