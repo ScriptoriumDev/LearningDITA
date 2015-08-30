@@ -4,16 +4,17 @@
      applicable licenses.-->
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
- <title>More advanced elements</title>
+ <title>Advanced elements</title>
  <topicref href="../topics/lc_advanced_intro.dita">
   <topicmeta lockmeta="yes">
    <data name="lesson_id" value="8979"></data>
   </topicmeta>
 <!--  <topicref href="../topics/lc_markup.dita"/>-->
   <topicref href="../topics/lc_advanced.dita"/>
+  <topicref href="../topics/lc_more_advanced.dita"/>
   <topicref href="../topics/lcc_assessment.dita" copy-to="lcc_advanced.dita" locktitle="yes">
    <topicmeta>
-    <navtitle>Assessment for Adding more advanced elements</navtitle>
+    <navtitle>Assessment for Advanced elements</navtitle>
    </topicmeta>
    <!--   <topicref href="../assessments/lca_htmldita.dita"/>-->
    <topicref href="../assessments/advanced/lca_advanced.dita"/>

@@ -17,7 +17,7 @@
             <p>For example, an unstructured piece of content that has been created with page layout
                 in mind will work best in print or PDF output, and may work poorly or not at all in
                 an HTML-based output. However, a structured DITA topic with no formatting specified
-                in the content will work equally well in multiple output types.</p>
+                in the content should work equally well in multiple output types.</p>
             <p>For authors who are accustomed to a formatting-based environment such as a desktop
                 publishing program, it can be tempting to misuse the DITA tags to try to control the
                 look and feel of the content. Using tags for a purpose other than they were intended
@@ -26,8 +26,8 @@
                 destroy the look and feel of the content in another output type.</p>
             <p>One form of tag abuse is the forced line break. Do not use the &lt;p> element to
                 control where your lines of text should break, as this will cause problems in
-                responsive output types such as HTML. If you need to control line breaks for certain
-                parts of your content, such as code samples, use the &lt;codeblock> element.</p>
+                responsive output types such as HTML. Use the &lt;codeblock> element to control line
+                breaks for certain parts of your content (for example, code samples).</p>
         </lcInstruction>
     </learningContentbody>
 </learningContent>
