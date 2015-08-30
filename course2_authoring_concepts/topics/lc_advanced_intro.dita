@@ -28,7 +28,7 @@
             <p>You can use the &lt;codeblock> and &lt;codeph> elements to insert snippets of code
                 into the body of your topic. With the &lt;lq> element, you can insert a quote and
                 create a link to its original source.</p>
-            <p>If you need to break your topic into sub-sections, you can add one or more
+            <p>If you need to break your topic into subsections, you can add one or more
                 &lt;section> elements. The &lt;section> element comes with two constraints: you can
                 only use the &lt;section> element inside of the &lt;conbody> element, not inside of
                 other &lt;section> elements, and you can only follow a &lt;section> element with
