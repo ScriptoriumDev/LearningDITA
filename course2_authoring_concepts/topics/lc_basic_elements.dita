@@ -181,10 +181,14 @@ is generally considered the largest because of its heavier body weight.&lt;/p>&l
                 <step>
                     <cmd>Open the file lesson1/l_new_concept_exercise_start.dita and use it to convert the
                         following untagged content into DITA:</cmd>
-                    <info><image href="../media/new_concept/exercise_1.png" id="image_h5f_ztd_2t"
-                            base="2015/08"/><p>Source: <xref href="http://contentstrategy101.com/"
-                                format="html" scope="external">Content Strategy
-                        101</xref></p></info>
+                    <info>
+                        <draft-comment author="gretyl">add example as HTML in
+                            Wordpress</draft-comment>
+                    </info>
+                    <info>
+                        <p>Source: <xref href="http://contentstrategy101.com/" format="html"
+                                scope="external">Content Strategy 101</xref></p>
+                    </info>
                 </step>
                 <step>
                     <cmd>Check your file lesson1/l_new_concept_exercise_start.dita against the sample file lesson1/l_new_concept_exercise.dita.</cmd>
