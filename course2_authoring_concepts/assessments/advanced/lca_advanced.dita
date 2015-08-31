@@ -15,11 +15,11 @@
     <lcQuestion>Match the advanced element with its content.</lcQuestion>
     <lcMatchTable id="lcMatchTable_mcz_yb2_2t">
      <lcMatchingPair>
-      <lcItem>Block of code</lcItem>
+      <lcItem>Several lines of code or commands</lcItem>
       <lcMatchingItem>&lt;codeblock></lcMatchingItem>
      </lcMatchingPair>
      <lcMatchingPair>
-      <lcItem>Code phrase</lcItem>
+      <lcItem>Inline code snippet</lcItem>
       <lcMatchingItem>&lt;codeph></lcMatchingItem>
      </lcMatchingPair>
      <lcMatchingPair>

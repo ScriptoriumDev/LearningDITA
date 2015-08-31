@@ -12,7 +12,7 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcTrueFalse id="link8">
-    <lcQuestion>The &lt;b>, &lt;i>, and &lt;u> elements have semantic value.</lcQuestion>
+    <lcQuestion>The &lt;b>, &lt;i>, and &lt;u> elements have rich semantic value.</lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_erz_p4d_2t">
      <lcAnswerOption>
       <lcAnswerContent>False</lcAnswerContent>
@@ -23,7 +23,7 @@
      </lcAnswerOption>
     </lcAnswerOptionGroup>
     <lcFeedbackIncorrect>The &lt;b>, &lt;i>, and &lt;u> elements only indicate a change in
-     formatting. They have no semantic value.</lcFeedbackIncorrect>
+     formatting. Their semantic value is very low. </lcFeedbackIncorrect>
    </lcTrueFalse>
   </lcInteraction>
  </learningAssessmentbody>
