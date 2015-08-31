@@ -60,7 +60,7 @@
                     <cmd>Continue using the file lesson1/l_new_concept_start.dita.</cmd>
                 </step>
                 <step>
-                    <cmd>Inside the &lt;conbody> element, add a &lt;p> element and populate it as
+                    <cmd>Inside the &lt;conbody> element, add a &lt;p> element and add content to it as
                         shown in the following example:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
@@ -89,7 +89,7 @@
                         unordered list.</info>
                 </step>
                 <step>
-                    <cmd>After the &lt;p> element, add a &lt;ul> element and populate it as shown in
+                    <cmd>After the &lt;p> element, add a &lt;ul> element and add content to it as shown in
                         the following example:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
@@ -108,6 +108,12 @@
    &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
+                    <info>
+                        <note>
+                            <p>If you are using a DITA editor, the editor may insert an ID attribute
+                                on the &lt;ul> element for you automatically.</p>
+                        </note>
+                    </info>
                     <info>The &lt;ul> element is for unordered or bulleted lists. </info>
                     <info>The &lt;ul> element can only contain the &lt;li> element, and it must
                         contain at least one.</info>
@@ -134,8 +140,14 @@
    &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
+                    <info>
+                        <note>
+                            <p>If you are using a DITA editor, the editor may insert an ID attribute
+                                on the &lt;ol> element for you automatically.</p>
+                        </note>
+                    </info>
                     <info>The &lt;ol> element is for ordered or numbered lists.</info>
-                    <info>Like the &lt;ul> element, the &lt;ol> element can only contains &lt;li>
+                    <info>Like the &lt;ul> element, the &lt;ol> element can only contain &lt;li>
                         elements, and it must contain at least one. </info>
                     <info>In this example, each of the &lt;li> elements follows the best practice of
                         wrapping a &lt;p> element around the text. <note>
@@ -146,7 +158,7 @@
                    
                 </step>
                 <step>
-                    <cmd>After the &lt;ol> element, add a &lt;note> element and populate it as shown
+                    <cmd>After the &lt;ol> element, add a &lt;note> element and add content to it as shown
                         in the following example:</cmd>
                     <info>Video: <xref href="https://www.youtube.com/watch?v=ByrO1K1OTIA"
                             format="html" scope="external">Creating a note in DITA</xref></info>
