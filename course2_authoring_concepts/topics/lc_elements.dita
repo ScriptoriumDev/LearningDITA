@@ -27,8 +27,9 @@
                     </stentry>
                     <stentry>
                         <p>The element that indicates the order of a menu path, such as File > Save
-                            As. Each item inside the &lt;menucascade> element is contained in a
-                            &lt;uicontrol> element.</p>
+                            As. The &lt;menucascade> element must contain one or more &lt;uicontrol>
+                            elements. Each &lt;uicontrol> element contains the text for a menu
+                            item.</p>
                     </stentry>
                 </strow>
                 <strow>
@@ -64,7 +65,7 @@
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="concept_elements">
-   &lt;title>Wild duck species&lt;/title>
+   &lt;title>Feeding ducklings&lt;/title>
   &lt;conbody>
 ...
  <ph outputclass="newchanged">&lt;p>Ducklings need higher levels of protein in their diets than adult ducks.&lt;fn>A protein level of 18-20% is recommended for newborn ducklings.&lt;/fn>&lt;/p></ph>
@@ -86,7 +87,7 @@
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="concept_elements">
-   &lt;title>Wild duck species&lt;/title>
+   &lt;title>Feeding ducklings&lt;/title>
   &lt;conbody>
 ...
 <ph outputclass="newchanged">&lt;p>To create a spreadsheet to keep track of when you need to replenish your 
@@ -107,7 +108,7 @@ ducklings' food and water, go to
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="concept_elements">
-   &lt;title>Wild duck species&lt;/title>
+   &lt;title>Feeding ducklings&lt;/title>
    &lt;conbody>
 ...
 &lt;menucascade>
@@ -127,7 +128,7 @@ ducklings' food and water, go to
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="concept_elements">
-   &lt;title>Wild duck species&lt;/title>
+   &lt;title>Feeding ducklings&lt;/title>
   &lt;conbody>
 ... 
 &lt;menucascade>
@@ -161,7 +162,7 @@ ducklings' food and water, go to
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="concept_elements">
-   &lt;title>Wild duck species&lt;/title>
+   &lt;title>Feeding ducklings&lt;/title>
    &lt;conbody>
 ...
 &lt;/menucascade>
@@ -181,7 +182,7 @@ help you choose a species based on how much you will need to feed your ducks.&lt
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="concept_elements">
-   &lt;title>Wild duck species&lt;/title>
+   &lt;title>Feeding ducklings&lt;/title>
    &lt;conbody>
 ...
 &lt;dl>
@@ -201,7 +202,7 @@ help you choose a species based on how much you will need to feed your ducks.&lt
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="concept_elements">
-   &lt;title>Wild duck species&lt;/title>
+   &lt;title>Feeding ducklings&lt;/title>
    &lt;conbody>
 ...
     &lt;dlentry>
@@ -222,7 +223,7 @@ help you choose a species based on how much you will need to feed your ducks.&lt
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="concept_elements">
-   &lt;title>Wild duck species&lt;/title>
+   &lt;title>Feeding ducklings&lt;/title>
   &lt;conbody>
 ...
     &lt;/dlentry>
