@@ -15,28 +15,28 @@
     <lcQuestion>Match the advanced element with its content.</lcQuestion>
     <lcMatchTable id="lcMatchTable_mcz_yb2_2t">
      <lcMatchingPair>
-      <lcItem>Several lines of code or commands</lcItem>
-      <lcMatchingItem>&lt;codeblock></lcMatchingItem>
+      <lcItem>&lt;codeblock></lcItem>
+      <lcMatchingItem>Several lines of code or commands</lcMatchingItem>
      </lcMatchingPair>
      <lcMatchingPair>
-      <lcItem>Inline code snippet</lcItem>
-      <lcMatchingItem>&lt;codeph></lcMatchingItem>
+      <lcItem>&lt;codeph></lcItem>
+      <lcMatchingItem>Inline code snippet</lcMatchingItem>
      </lcMatchingPair>
      <lcMatchingPair>
-      <lcItem>Long quote</lcItem>
-      <lcMatchingItem>&lt;lq></lcMatchingItem>
+      <lcItem>&lt;lq></lcItem>
+      <lcMatchingItem>Long quote</lcMatchingItem>
      </lcMatchingPair>
      <lcMatchingPair>
-      <lcItem>Topic subsections</lcItem>
-      <lcMatchingItem>&lt;section></lcMatchingItem>
+      <lcItem>&lt;section></lcItem>
+      <lcMatchingItem>Topic subsections</lcMatchingItem>
      </lcMatchingPair>
      <lcMatchingPair>
-      <lcItem>Comment to other authors</lcItem>
-      <lcMatchingItem>&lt;draft-comment></lcMatchingItem>
+      <lcItem>&lt;draft-comment></lcItem>
+      <lcMatchingItem>Comment to other authors</lcMatchingItem>
      </lcMatchingPair>
      <lcMatchingPair>
-      <lcItem>Incorrectly tagged content</lcItem>
-      <lcMatchingItem>&lt;required-cleanup></lcMatchingItem>
+      <lcItem>&lt;required-cleanup></lcItem>
+      <lcMatchingItem>Incorrectly tagged content</lcMatchingItem>
      </lcMatchingPair>
     </lcMatchTable>
    </lcMatching>

@@ -15,32 +15,32 @@
     <lcQuestion>Match the table element with its description.</lcQuestion>
     <lcMatchTable id="lcMatchTable_cvn_pvx_dt">
      <lcMatchingPair>
-      <lcItem>table title or caption</lcItem>
-      <lcMatchingItem>&lt;title></lcMatchingItem>
+      <lcItem>&lt;title></lcItem>
+      <lcMatchingItem>table title or caption</lcMatchingItem>
      </lcMatchingPair>
      <lcMatchingPair>
-      <lcItem>main table content</lcItem>
-      <lcMatchingItem>&lt;tgroup></lcMatchingItem>
+      <lcItem>&lt;tgroup></lcItem>
+      <lcMatchingItem>main table content</lcMatchingItem>
      </lcMatchingPair>
      <lcMatchingPair>
-      <lcItem>column information</lcItem>
-      <lcMatchingItem>&lt;colspec></lcMatchingItem>
+      <lcItem>&lt;colspec></lcItem>
+      <lcMatchingItem>column information</lcMatchingItem>
      </lcMatchingPair>
      <lcMatchingPair>
-      <lcItem>table head rows</lcItem>
-      <lcMatchingItem>&lt;thead></lcMatchingItem>
+      <lcItem>&lt;thead></lcItem>
+      <lcMatchingItem>table head rows</lcMatchingItem>
      </lcMatchingPair>
      <lcMatchingPair>
-      <lcItem>table body rows</lcItem>
-      <lcMatchingItem>&lt;tbody></lcMatchingItem>
+      <lcItem>&lt;tbody></lcItem>
+      <lcMatchingItem>table body rows</lcMatchingItem>
      </lcMatchingPair>
      <lcMatchingPair>
-      <lcItem>table row</lcItem>
-      <lcMatchingItem>&lt;row></lcMatchingItem>
+      <lcItem>&lt;row></lcItem>
+      <lcMatchingItem>table row</lcMatchingItem>
      </lcMatchingPair>
      <lcMatchingPair>
-      <lcItem>cell content</lcItem>
-      <lcMatchingItem>&lt;entry></lcMatchingItem>
+      <lcItem>&lt;entry></lcItem>
+      <lcMatchingItem>cell content</lcMatchingItem>
      </lcMatchingPair>
     </lcMatchTable>
    </lcMatching>
