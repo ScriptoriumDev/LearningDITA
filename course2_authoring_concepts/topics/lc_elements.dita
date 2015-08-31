@@ -256,13 +256,27 @@ help you choose a species based on how much you will need to feed your ducks.&lt
         <taskbody>
             <steps id="steps_g32_wjx_dt">
                 <step>
-                    <cmd>Open the file lesson3/l_concept_elements_exercise_start.dita and use it to convert
-                        the following untagged content into DITA:</cmd>
+                    <cmd>Open the file lesson3/l_concept_elements_exercise_start.dita and use it to
+                        convert the following content from <xref
+                            href="http://contentstrategy101.com/" format="html" scope="external"
+                            >Content Strategy 101</xref> into DITA:</cmd>
                     <info>
-                        <draft-comment author="gretyl">add example as HTML in
-                            Wordpress</draft-comment>
-                        <p>Source: <xref href="http://contentstrategy101.com/" format="html"
-                                scope="external">Content Strategy 101</xref></p>
+                        <pre outputclass="passthru"><![CDATA[
+                           <hr />
+                           <h3>Increasing product visibility</h3>
+                           <p>Technical content can help organizations increase the visibility of their products in the marketplace. Officially, technical content is intended for <strong>product customers</strong>—people who buy a product and then look at the documentation.</p>
+                           <p>But one opinion poll indicates that about one-third of buyers<sup>1</sup> look at the documentation before buying a product, and the quality of the documentation will affect their purchasing decision.</p>
+                           <p>To reel in new prospects, your content must perform in three different ways: be searchable, findable, and discoverable.</p>
+                           <strong>Searchable</strong>
+                           Information must be available via an internet search.
+                           <strong>Findable</strong>
+                           Information must perform well for relevant keywords.
+                           <strong>Discoverable</strong>
+                           Information must increase the likelihood that people will link to your information.
+                           <p>To read more, go to <strong>Contents</strong> &gt; <strong>Business goals</strong> &gt; <strong>Marketing and product visibility</strong> &gt; <strong>Increasing product visibility</strong>.</p>
+                           <p><sup>1</sup> <em>"Consumer Feelings about Product Documentation,” an opinion poll conducted online by Sharon Burton</em></p>
+                           <hr />
+                           ]]></pre>
                     </info>
                 </step>
                 <step>
