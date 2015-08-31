@@ -311,15 +311,50 @@
         <taskbody>
             <steps id="steps_g32_wjx_dt">
                 <step>
-                    <cmd>Open the file lesson2/l_concept_images_tables_exercise_start.dita and use it to
-                        convert the following untagged content into DITA:</cmd>
+                    <cmd>Open the file lesson2/l_concept_images_tables_exercise_start.dita and use
+                        it to convert the following content from <xref
+                            href="http://contentstrategy101.com/" format="html" scope="external"
+                            >Content Strategy 101</xref> into DITA:</cmd>
                     <info>Use the sample image lesson2/images/configurebetter1.png for this
                         exercise.</info>
                     <info>
-                        <draft-comment author="gretyl">add example as HTML in
-                            Wordpress</draft-comment>
-                        <p>Source: <xref href="http://contentstrategy101.com/" format="html"
-                                scope="external">Content Strategy 101</xref></p>
+                        <pre outputclass="passthru"><![CDATA[
+                            <hr />
+                            <h3>Supporting marketing with technical content</h3>
+                            Tech comm and marcom have long occupied opposite ends of the content spectrum. The stereotype is that tech comm is text-heavy, dense, and badly formatted whereas marcom is shiny, beautiful, and content-free. From there, the debate just intensifies:
+                            <table class="simpletable" border="1" summary="" cellspacing="0" cellpadding="4">
+                            <tbody>
+                            <tr class="strow">
+                            <td class="stentry" valign="top" width="33%"></td>
+                            <td class="stentry" valign="top" width="33%"><strong>Marcom</strong></td>
+                            <td class="stentry" valign="top" width="33%"><strong>Tech comm</strong></td>
+                            </tr>
+                            <tr class="strow">
+                            <td class="stentry" valign="top">Design or automation?</td>
+                            <td class="stentry" valign="top">Design</td>
+                            <td class="stentry" valign="top">Automation</td>
+                            </tr>
+                            <tr class="strow">
+                            <td class="stentry" valign="top">How much detail?</td>
+                            <td class="stentry" valign="top">As little as possible</td>
+                            <td class="stentry" valign="top">As much as possible</td>
+                            </tr>
+                            <tr class="strow">
+                            <td class="stentry" valign="top">Assumed impact on revenue</td>
+                            <td class="stentry" valign="top">A lot</td>
+                            <td class="stentry">None</td>
+                            </tr>
+                            <tr class="strow">
+                            <td class="stentry" valign="top">Primary purpose</td>
+                            <td class="stentry" valign="top">Persuade people to buy</td>
+                            <td class="stentry" valign="top">Inform people</td>
+                            </tr>
+                            </tbody>
+                            </table>
+                            <p>Give people a friendly interface that lets them quickly narrow down their options and choose the one they want. You don’t have to expose all of the fields in the database—just the ones that help people narrow down their choices.</p>
+                            <p><em>The product list on the right updates as you make selections on the left</em></p>
+                            <img src="http://www.learningdita.com/wp-content/uploads/2015/08/configurebetter1.png"/>
+                            <hr/>]]></pre>
                     </info>
                 </step>
                 <step>
