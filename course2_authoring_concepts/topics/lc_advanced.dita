@@ -97,6 +97,16 @@ duckdata> _
                     <info>The &lt;codeblock> element also allows you to control line breaks. In the
                         example you added, the text inside the &lt;codeblock> element shows an entry
                         being added to a database using the command line.</info>
+                    <info>
+                        <note>
+                            <p>If you need an opening tag in a &lt;codeblock> element, type
+                                    <tt>&amp;lt;</tt> in place of the opening tag character
+                                    (<tt>&lt;</tt>). If you are working in the author or visual mode
+                                of a DITA editor, you can type the opening tag character inside a
+                                &lt;codeblock> element, and the &lt;codeblock> element will
+                                automatically render it as <tt>&amp;lt;</tt> in the text.</p>
+                        </note>
+                    </info>
                 </step>
                 <step>
                     <cmd>After the &lt;codeblock> element, add a &lt;p> element with a &lt;codeph>
