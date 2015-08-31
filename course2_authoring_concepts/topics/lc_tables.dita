@@ -12,7 +12,7 @@
     <learningContentbody>
         <lcInstruction><p>Use the &lt;table> element when you need to create a larger or more complex table than you can
                 with the &lt;simpletable> element. If you need a title or caption for your table, or
-                more than one header row, the &lt;table> element is the best option.</p>
+                more than one header row, use the &lt;table> element.</p>
             <p>The elements contained in the &lt;table> element include:</p>
             <simpletable frame="all" relcolwidth="1.0* 1.0*" id="simpletable_btz_t3n_2t">
                 <strow>
@@ -64,10 +64,10 @@
                 exercise.</p><fig>
                 <title>Example &lt;table> in a visual format</title>
                 <image href="../media/images_and_tables/table.png" id="image_ulh_wmn_2t"/>
-            </fig><p>Continue using the file lesson2/l_concept_images_tables_start.dita to add the &lt;simpletable> and
-                &lt;table> elements.</p>
+            </fig><p>Continue using the file lesson2/l_concept_images_tables_start.dita to add the &lt;table>
+                element.</p>
             <note>
-                <p>If you are using a DITA editor, some child elements of the &lt;table> elements
+                <p>If you are using a DITA editor, some child elements of the &lt;table> element
                     will automatically be inserted as you work through the examples.</p>
             </note>
             <p>Video: <xref href="https://www.youtube.com/watch?v=PFWz_Vsyxwg" format="html"
@@ -315,10 +315,12 @@
                         convert the following untagged content into DITA:</cmd>
                     <info>Use the sample image lesson2/images/configurebetter1.png for this
                         exercise.</info>
-                    <info><image href="../media/images_and_tables/exercise_2.png"
-                            id="image_u3f_4vd_2t" base="2015/08"/><p>Source: <xref
-                                href="http://contentstrategy101.com/" format="html" scope="external"
-                                >Content Strategy 101</xref></p></info>
+                    <info>
+                        <draft-comment author="gretyl">add example as HTML in
+                            Wordpress</draft-comment>
+                        <p>Source: <xref href="http://contentstrategy101.com/" format="html"
+                                scope="external">Content Strategy 101</xref></p>
+                    </info>
                 </step>
                 <step>
                     <cmd>Check your file lesson2/l_concept_images_tables_start.dita against the sample file

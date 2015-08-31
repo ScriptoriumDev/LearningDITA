@@ -170,10 +170,12 @@ duck database.&lt;/p>
                 <step>
                     <cmd>Open the file lesson4/l_concept_advanced_exercise_start.dita and use it to convert
                         the following untagged content into DITA:</cmd>
-                    <info><image href="../media/advanced/exercise_4.png" id="image_yd5_2b2_2t"
-                            base="2015/08"/><p>Source: <xref href="http://contentstrategy101.com/"
-                                format="html" scope="external">Content Strategy
-                        101</xref></p></info>
+                    <info>
+                        <draft-comment author="gretyl">add example as HTML in
+                            Wordpress</draft-comment>
+                        <p>Source: <xref href="http://contentstrategy101.com/" format="html"
+                                scope="external">Content Strategy 101</xref></p>
+                    </info>
                 </step>
                 <step>
                     <cmd>Check your file lesson4/l_concept_advanced_start.dita against the sample file

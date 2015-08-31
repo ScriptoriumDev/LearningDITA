@@ -75,13 +75,13 @@
                         appear inside the paragraph. By default, the text inside the &lt;fn> element
                         is displayed at the bottom of the page (for PDF) or end of the topic (for
                         HTML) when you generate output from the file.</info>
-                    <info>Video: <xref href="https://www.youtube.com/watch?v=xGyf4q_Bipw"
-                            format="html" scope="external">Creating a menucascade in
-                        DITA</xref></info>
                 </step>
                 <step>
                     <cmd>After the last &lt;p> element, add a new &lt;p> element with a
                         &lt;menucascade> element inside it, as shown in the following example:</cmd>
+                    <info>Video: <xref href="https://www.youtube.com/watch?v=xGyf4q_Bipw"
+                            format="html" scope="external">Creating a menucascade in
+                        DITA</xref></info>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
@@ -150,13 +150,13 @@ ducklings' food and water, go to
                         indicates that the text it surrounds will have special styling, avoid using
                         the &lt;b> element or other inline styling elements inside the
                         &lt;uicontrol> element.</info>
-                    <info>Video: <xref href="https://www.youtube.com/watch?v=3R9eN2TSepQ"
-                            format="html" scope="external">Creating a definition list in
-                        DITA</xref></info>
                 </step>
                 <step>
                     <cmd>After the &lt;menucascade> element, add a new introductory &lt;p> element
                         followed by a &lt;dl> element as shown in the following example:</cmd>
+                    <info>Video: <xref href="https://www.youtube.com/watch?v=3R9eN2TSepQ"
+                            format="html" scope="external">Creating a definition list in
+                        DITA</xref></info>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
@@ -258,10 +258,12 @@ help you choose a species based on how much you will need to feed your ducks.&lt
                 <step>
                     <cmd>Open the file lesson3/l_concept_elements_exercise_start.dita and use it to convert
                         the following untagged content into DITA:</cmd>
-                    <info><image href="../media/elements/exercise_3.png" id="image_elc_x12_2t"
-                            base="2015/08"/><p>Source: <xref href="http://contentstrategy101.com/"
-                                format="html" scope="external">Content Strategy
-                        101</xref></p></info>
+                    <info>
+                        <draft-comment author="gretyl">add example as HTML in
+                            Wordpress</draft-comment>
+                        <p>Source: <xref href="http://contentstrategy101.com/" format="html"
+                                scope="external">Content Strategy 101</xref></p>
+                    </info>
                 </step>
                 <step>
                     <cmd>Check your file lesson3/l_concept_elements_start.dita against the sample file
