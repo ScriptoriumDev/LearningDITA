@@ -13,7 +13,7 @@
         <lcInstruction>
             <p>Concept topics contain basic DITA elements, such as paragraphs, lists, images,
                 tables, and many others. Most of these elements can be used in the other topic types
-                (task, reference, and glossary), as well. The only exception is the &lt;conbody>
+                (task and reference), as well. The only exception is the &lt;conbody>
                 element, which is specific to the concept topic type.</p>
             <p>At a minimum, the concept topic must contain a &lt;concept> root element (with an id
                 attribute) that contains a &lt;title> element. </p>
