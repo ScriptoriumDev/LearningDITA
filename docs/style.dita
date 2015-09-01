@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_pnc_2vz_vr">
- <title>Style guidelines</title>
+ <title>Topic style guidelines</title>
  <prolog>
   <author href="http://www.scriptorium.com">Sarah O'Keefe, Scriptorium</author>
   <author href="http://www.scriptorium.com">Alan Pringle, Scriptorium</author>
@@ -12,20 +15,8 @@
 </critdates>
  </prolog>
  <conbody>
-  <p>Topics are generally either learningContent or learningAssessment.</p>
-  <p>In the topic prolog, include an author credit if you create a topic or significantly add to an
-   existing topic. You can also include a web link to your
-   site:<codeblock>&lt;prolog>
-  &lt;author>Sharon Burton&lt;/author>
-  &lt;author href="http://www.scriptorium.com" scope="external" format="html">Sarah O'Keefe, Scriptorium&lt;/author>
-  &lt;critdates>
-   &lt;created date="2015-04-28"/>
-  &lt;/critdates>
-&lt;/prolog></codeblock></p>
-  <p>If you add to an existing topic, keep the original contributor at the top of the list and add
-   your name in a separate author element.</p>
-  <p>Include a &lt;created> element or add a &lt;revised> element with the appropriate date. Use
-   YYYY-MM-DD format for the date.</p>
+  <p>Most topics should be learningContent (information you present to the learner) or
+      learningAssessment (quiz questions).</p>
   <section>
    <title>Learning module structure</title>
    <p>Each module should have a container topic, which provides the following:<ul id="ul_jn1_rwz_vr">
@@ -56,16 +47,59 @@
     <section>
       <title>Task structure</title>
       <p>To create a task that directs a student to perform an exercise, use the learningContent
-        topic type. If you need to provide introductory text to the exercise, you can add it to the
-        &lt;learningContentbody>. The task itself should be a nested topic after the
-        &lt;learningContentbody>. </p>
-      <p>Because of restrictions in the DITA 1.2 learningContent model, the task can only contain
-        element allows by the learningContent topic type. Thus, any code examples must use &lt;pre>,
-        rather than &lt;codeblock>. </p>
-      <p>To highlight changes introduced in the &lt;pre> element, use &lt;ph
-        outputclass="newchanged"> around the new or changed information.  </p>
+        topic type to introduce the material. If you need to provide introductory text to the
+        exercise, you can add it to the &lt;learningContentbody> element. The task itself should be
+        a nested topic after the &lt;learningContentbody> element. Below is a simplified example.
+        For more, look in the course2 files. </p>
+      <p>
+        <codeblock>&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+&lt;learningContent id="content_hrm_xjh_1t">
+    &lt;title>Adding advanced elements&lt;/title>
+   ...
+    &lt;learningContentbody>
+        &lt;lcInstruction>
+            &lt;p>Here are some common advanced elements in DITA:&lt;/p>
+            ....omitted element descriptions....
+        &lt;/lcInstruction>
+    &lt;/learningContentbody>
+    &lt;task id="task_i3g_jkh_1t">
+        &lt;title/>
+        &lt;taskbody>
+            &lt;steps id="steps_f5k_kkh_1t">
+                &lt;step>
+                    &lt;cmd>Make a copy of the file lesson4/l_concept_advanced_start.dita and open it in your
+                        editor.&lt;/cmd>
+                    &lt;info>
+                        &lt;note>
+                            &lt;p>If you are using a DITA-aware text editor, make sure you are in text
+                                mode, rather than author or visual mode.&lt;/p>
+                        &lt;/note>
+                    &lt;/info>
+                    &lt;stepxmp>
+                        &lt;p>You should see this:&lt;/p>
+                        &lt;pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_advanced">
+&lt;title>Writing about ducks&lt;/title>
+&lt;conbody>
+&lt;/conbody>
+&lt;/concept>&lt;/pre>
+                    &lt;/stepxmp>
+                    &lt;info>Video: &lt;xref href="https://www.youtube.com/watch?v=Ryzutuy-n_A"
+                            format="html" scope="external">Creating a codeblock in
+                        DITA&lt;/xref>&lt;/info>
+                &lt;/step>
+                ...omitted lots of steps....
+            &lt;/steps>
+        &lt;/taskbody>
+    &lt;/task>
+&lt;/learningContent>
+</codeblock>
+      </p>
     </section>
   <section>
+      <p>Because we are using DITA to describe DITA, life can get confusing inside the files.</p>
       <title>Assessment structure</title>
       <p>Assessments (test questions) come after the learning content in each module. In most cases
         you can use the shared file <filepath>lcc_assessment.dita</filepath> that introduces the
@@ -76,19 +110,12 @@
         filename (starting with <filepath>lcc_assess_</filepath>), that uniquely identifies the
         copy. Add a &lt;navtitle> element that provides a lesson-specific title for the assessments
         introduction. </p>
-      <codeblock>&lt;map>
- &lt;title>Basic DITA&lt;/title>
- &lt;topicmeta>
-  &lt;critdates>
-   &lt;created date="2015-04-23"/>
-  &lt;/critdates>
- &lt;/topicmeta>
- &lt;topicref href="topics/lc_dita_intro.dita">
-  &lt;topicref href="topics/lc_markup.dita"/>
-  &lt;topicref href="topics/lc_structure.dita"/>
-  &lt;topicref href="topics/lc_topic.dita"/>
-  
-  <b>&lt;topicref href="../topics/lcc_assessment.dita" copy-to="lcc_assess_basic.dita" locktitle="yes">
+      <codeblock>&lt;topicref href="../topics/lc_advanced.dita"/>
+  &lt;topicref href="../topics/lc_more_advanced.dita"/>
+  &lt;topicref href="../topics/lcc_assessment.dita" copy-to="lcc_advanced.dita" locktitle="yes">
+   &lt;topicmeta>
+    &lt;navtitle>Assessment for Advanced elements&lt;/navtitle>
+   &lt;/topicmeta><b>&lt;topicref href="../topics/lcc_assessment.dita" copy-to="lcc_assess_basic.dita" locktitle="yes">
     &lt;topicmeta>
       &lt;navtitle>Assessment for What is DITA?&lt;/navtitle>
     &lt;/topicmeta>
@@ -129,54 +156,14 @@
       <p>Make sure you do not overlap with other IDs in the modules. Consider a unique ID prefix for
         your learning assessment content (for example, your initials or something related to the
         content you are developing).</p>
-      <p>The current LMS (LearnDashLMS) does not support feedback at the answer option level
-        (lcAnswerOption/lcFeedback). However, LearnDashLMS does support correct and incorrect
-        feedback at the question level, so rather than using lcFeedback, use
-        lcFeedbackIncorrect.</p>
+      <p>
+        <note type="caution">The ditatraining project is being published to LearningDITA.com.
+          LearningDITA.com runs on WordPress and LearnDashLMS. Currently, LearnDashLMS does not
+          support feedback at the answer option level (lcAnswerOption/lcFeedback). However,
+          LearnDashLMS does support correct and incorrect feedback at the question level, so rather
+          than using lcFeedback, use lcFeedbackIncorrect.</note>
+      </p>
     </section>
-  <section>
-   <title>File structure and naming conventions</title>
-   <p>The DITA training project is divided into subfolders:<ul id="ul_fw2_dxz_vr">
-     <li>topics: for most content</li>
-     <li>assessments: for quizzes, test, and other assessment content</li>
-     <li>maps: map files for learning modules</li>
-     <li>media: for images, videos, and other non-text content</li>
-          <li>resources: for example files or sources for screen shots.</li>
-    </ul></p>
-   <p>The master map file, which references the map files for modules, is at the course-folder
-        level.</p>
-   <p>Use the following file name prefixes:<ul id="ul_i3h_dkb_wr">
-     <li>m_ for map files</li>
-     <li>lc_ for learning content</li>
-     <li>lca_ for learning assessments</li>
-    </ul></p>
-  </section>
-    <section>
-      <title>Usage</title>
-      <p>When referring to an element always say the “&lt;foo> element”. If you need to form a
-        plural or possessive, do it on the word “element”. This helps steer clear of confusing
-        constructions such as “&lt;step>s” or “&lt;step>’s”.</p>
-    </section>
-  <section>
-   <title>Standards for terms and other inline styling</title>
-   <p>When referring to elements use angle brackets around the element and add the word “element”.
-        For example: “This table is built using a &lt;simpletable> element.” When refering to
-        elements in plural, always use the singular element in angle brackets, followed by the
-        plural “elements”. For example, “Each row can contain one or more &lt;stentry> elements”</p>
-   <p>When referring to attributes, use the word “attribute”. Do not use an at-sign (@) before an
-    attribute name; this is an XPath convention and means nothing to those learning DITA. </p>
-      <p>Use the proper apostrophe (’, U+2019) and quotation marks (“ and ”, U+201C and U+201D).
-        From the Macintosh keyboard, you can enter these with Option+}, Option+[ and Option+{. For
-        Windows, it’s probably a good idea to create an Oxygen code template, which you can
-        optionally associate with a keystroke.</p>
-  </section>
-  <section>
-   <title>Standards for images and video</title>
-   <p>TBD.</p>
-   <p>As a general rule, use web-friendly formats, such as PNG or GIF for images. The easiest way to
-    provide videos is to post them on YouTube and link to the YouTube video using the object
-    tag.</p>
-  </section>
  </conbody>
  <related-links>
   <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langRef-learningTraining.html"

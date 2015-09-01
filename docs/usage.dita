@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_u2s_tg3_ft">
+ <title>Usage and mechanics</title>
+ <prolog>
+  <author href="http://www.scriptorium.com">Simon Bate, Scriptorium</author>
+  <author href="http://www.scriptorium.com">Sarah O'Keefe, Scriptorium</author>
+  <author href="http://www.scriptorium.com">Alan Pringle, Scriptorium</author>
+ 
+  <critdates>
+   <created date="2015-09-01"/>
+  </critdates>
+ </prolog>
+ 
+ 
+ <conbody>
+  <section>
+   <title>Referring to elements</title>
+   <p>When referring to elements use angle brackets around the element and add the word “element”.
+    For example: “This table is built using a &lt;simpletable> element.” When refering to elements
+    in plural, always use the singular element in angle brackets, followed by the plural “elements”.
+    For example, “Each row can contain one or more &lt;stentry> elements”</p>
+   <p>When referring to attributes, use the word “attribute”. Do not use an at-sign (@) before an
+    attribute name; this is an XPath convention and means nothing to those learning DITA. </p>
+  </section>
+  <section>
+   <title>Quotes and apostrophe</title>
+   <p>Use the proper apostrophe (’, U+2019) and quotation marks (“ and ”, U+201C and U+201D) in your
+    text. In code examples, use straight quotes. From the Macintosh keyboard, you can enter
+    apostrophe with Option+Shift+], an opening double quote with Option+[, and a closing double
+    quote with Option+Shift+[. </p>
+  <p>For Windows, either memorize the Alt- keystroke sequence, or create an Oxygen code template (or
+   the equivalent in your preferred XML editor), which you can associate with a keystroke.
+   Alternately, you can do a search and replace to clean up the quotes and apostrophes, but be
+   careful with any code examples.</p></section>
+  <section>
+   <title>Code examples</title>
+   <p>Because of restrictions in the DITA 1.2 learningContent model, a &lt;task> element can only
+    contain elements allowed by the learningContent topic type. Thus, any code examples must use the
+    &lt;pre> element, and not the &lt;codeblock> element. </p>
+   <p>To highlight changes introduced in the &lt;pre> element, use a &lt;ph> element with an
+    outputclass around the new or changed information.
+    <codeblock>&lt;pre>Set up code examples like this. 
+&lt;ph outputclass="newchanged">Surround new stuff with the &lt;ph> element.
+&lt;/pre></codeblock></p>
+  </section>
+ </conbody>
+</concept>
