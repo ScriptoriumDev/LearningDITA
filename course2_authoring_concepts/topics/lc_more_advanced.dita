@@ -153,8 +153,8 @@ duck database.&lt;/p>
                     <info>In this example, you have surrounded the &lt;p> element with the
                         &lt;required-cleanup> element to indicate that someone must move it to a
                         valid position (such as inside the &lt;section> element) or re-tag it with a
-                        valid element (such as the &lt;example> element). Otherwise, the final
-                        output will not display the text inside the &lt;p> element.</info>
+                        valid element (such as the &lt;example> element). Otherwise, you will not be
+                        able to produce output because of the presence of invalid elements. </info>
                 </step>
                 <step>
                     <cmd>Check your file lesson4/l_concept_advanced_start.dita against the sample file
