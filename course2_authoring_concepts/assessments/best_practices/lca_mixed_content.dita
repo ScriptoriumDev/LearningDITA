@@ -1,30 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
-<learningAssessment id="assessment_ign_ckx_dt">
- <title>ol purpose</title>
+<learningAssessment id="assessment_fn5_zq2_2t">
+ <title>Mixed content</title>
  <prolog>
   <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
    Scriptorium</author>
   <critdates>
-   <created date="2015-08-24"/>
+   <created date="2015-08-28"/>
   </critdates>
  </prolog>
  <learningAssessmentbody>
   <lcInteraction>
-   <lcTrueFalse id="link8">
-     <lcQuestion>You should use the &lt;ol> element to create step-by-step
-     instructions.</lcQuestion>
-    <lcAnswerOptionGroup id="lcAnswerOptionGroup_qp4_dkx_dt">
+   <lcTrueFalse id="lcTrueFalse_v2z_ps2_2t">
+    <lcQuestion>Mixed content can affect the styling of text in the final output.</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_w2z_ps2_2t">
      <lcAnswerOption>
-      <lcAnswerContent>False</lcAnswerContent>
+      <lcAnswerContent>True</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>True</lcAnswerContent>
+      <lcAnswerContent>False</lcAnswerContent>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect>To create step-by-step instructions, you use the task
-     topic.</lcFeedbackIncorrect>
+    <lcFeedbackIncorrect>Mixed content can be confusing or ambiguous to the output formatter,
+     resulting in inconsistent styling.</lcFeedbackIncorrect>
    </lcTrueFalse>
   </lcInteraction>
  </learningAssessmentbody>

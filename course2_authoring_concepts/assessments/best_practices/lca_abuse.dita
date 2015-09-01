@@ -1,30 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
-<learningAssessment id="assessment_bfv_z2p_dt">
- <title>Conbody</title>
+<learningAssessment id="assessment_dmh_pl2_2t">
+ <title>Tag abuse</title>
  <prolog>
   <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
    Scriptorium</author>
   <critdates>
-   <created date="2015-08-26"/>
+   <created date="2015-08-28"/>
   </critdates>
  </prolog>
  <learningAssessmentbody>
   <lcInteraction>
    <lcTrueFalse id="link8">
-    <lcQuestion>The &lt;conbody> element contains the paragraphs, lists, and other content that make
-     up the main content of the concept.</lcQuestion>
-    <lcAnswerOptionGroup id="lcAnswerOptionGroup_bmt_bfp_dt">
+    <lcQuestion>You should experiment with different DITA elements until you get the content look
+     and feel that you want.</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_nqg_ql2_2t">
      <lcAnswerOption>
       <lcAnswerContent>False</lcAnswerContent>
+      <lcCorrectResponse/>
      </lcAnswerOption>
      <lcAnswerOption>
       <lcAnswerContent>True</lcAnswerContent>
-      <lcCorrectResponse/>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect>The statement is true: the &lt;conbody> element contains all the actual
-     content in the concept. </lcFeedbackIncorrect>
+    <lcFeedbackIncorrect>Using DITA markup to control the appearance of your content is tag abuse.
+     You use the DITA element that is appropriate to the purpose of the
+     content.</lcFeedbackIncorrect>
    </lcTrueFalse>
   </lcInteraction>
  </learningAssessmentbody>
