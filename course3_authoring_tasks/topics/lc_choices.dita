@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_xyj_ddc_bt">
     <title>Giving the user choices</title>
@@ -11,8 +14,8 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>As part of giving a reader an instruction, there may be more than one way to do
-                things. For example, when using an auto stereo system, the user has the choice of
+            <p>As part of giving a reader an instruction, there may be more than one option for the
+                reader. For example, when using an auto stereo system, the user has the choice of
                 which mode to use (AM, FM, CD, line-in, and so on). </p>
             <p>To present this information, and to give it a semantically appropriate label, you can
                 use the &lt;choices> or &lt;choicetable> elements. Both present choices: use
@@ -55,10 +58,12 @@
 &lt;/task></pre>
                     </stepxmp>
                 </step>
-                <step>
+                <step id="step_dd4_244_ft">
                     <cmd>After the new &lt;cmd> element, add a &lt;choices> element. </cmd>
-                    <info>If your editor does not automatically add a first &lt;choice> element
-                        inside the &lt;choices> element, add one now.</info>
+                </step>
+                <step id="step_ed4_244_ft">
+                    <cmd>If your editor does not automatically add a first &lt;choice> element
+                        inside the &lt;choices> element, add one now.</cmd>
                     <stepxmp>
                         <pre>&lt;step>
    &lt;cmd>(TEXT TBD)&lt;/cmd>
@@ -68,8 +73,8 @@
 &lt;/step>
 </pre>
                     </stepxmp>
-                    <info>Most DITA output generators render a &lt;choices> element as a bulleted
-                        list. </info>
+                    <info>By default, most DITA output generators render a &lt;choices> element as a
+                        bulleted list.</info>
                 </step>
                 <step>
                     <cmd>Add additional &lt;choice> elements.</cmd>
@@ -85,7 +90,7 @@
 </pre>
                     </stepxmp>
                 </step>
-                <stepsection>The choice table is a two-column table that allows you to document one
+                <stepsection>The choice table is a two-column table that allows you to describe one
                     or more choice options and descriptions.</stepsection>
                 <step>
                     <cmd>Create a new step with a &lt;cmd> element and text as shown here:</cmd>
@@ -144,8 +149,8 @@
 &lt;/step>
 </pre>
                     </stepxmp>
-                    <info>The &lt;choptionhd> provides a head for the option column; the
-                        &lt;chdeschd> provides a head for the description column. </info>
+                    <info>The &lt;choptionhd> provides a heading for the option column; the
+                        &lt;chdeschd> provides a heading for the description column. </info>
                 </step>
             </steps>
         </taskbody>

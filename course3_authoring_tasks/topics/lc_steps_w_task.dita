@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_kw5_5ls_zs">
     <title>First steps</title>
@@ -34,8 +37,7 @@
                     </stepxmp>
                     <info>
                         <p>As with the &lt;prereq> and &lt;context> elements, the &lt;taskbody> can
-                            contain only one &lt;steps> element. In keeping with the spirit of DITA
-                            that a topic should contain a single idea, restricting you to a single
+                            contain only one &lt;steps> element. Restricting you to a single
                             &lt;steps> element helps ensure that the topic only describes how to
                             perform one task.</p>
                     </info>
@@ -52,8 +54,8 @@
                     </stepxmp>
                     <info>
                         <p>The &lt;steps> element must contain at least one &lt;step> element. Most
-                            DITA-aware editors automatically add a first &lt;step> element to the
-                            &lt;steps> element. </p>
+                            DITA-aware editors automatically add a first &lt;step> element inside
+                            the &lt;steps> element. </p>
                     </info>
                 </step>
                 <stepsection>
@@ -62,7 +64,7 @@
                         The action the user is to perform is contained in a &lt;cmd> element (read
                         as “command”), which is a required element in &lt;step>. In most cases,
                         &lt;cmd> contains a single sentence, which is a direct instruction to the
-                        reader to perform some action.</p>
+                        reader to perform an action.</p>
                 </stepsection>
                 <step>
                     <cmd>Inside the &lt;step> element, add a &lt;cmd> element with the text shown
@@ -104,10 +106,10 @@
 ...</pre>
                     </stepxmp>
                     <info>
-                        <p>You can use &lt;info> to contain text, notes, images, tables and so on.
+                        <p>The &lt;info> element can contain text, notes, images, tables and so on.
                             As with other elements that can contain mixed content, best practices
-                            dictate that you should use a &lt;p> element to contain text, even if
-                            the &lt;info> element only contains one paragraph.</p>
+                            dictate that you should use a &lt;p> element to wrap text, even if the
+                            &lt;info> element only contains one paragraph.</p>
                         <p>The remaining topics in this lesson introduce additional elements you can
                             use to further document the step. </p>
                     </info>

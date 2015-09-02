@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_adp_jbk_bt">
     <title>Interrupting the flow</title>
@@ -11,8 +14,8 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>There are two elements you can use to interject additional information between
-                &lt;step> elements, and before the &lt;cmd> element. </p>
+            <p>There are two elements you can use for additional information between &lt;step>
+                elements, and before the &lt;cmd> element. </p>
             <ul id="ul_u43_qbk_bt">
                 <li>
                     <p>The &lt;stepsection> element allows you to add comments between two steps.
@@ -23,9 +26,9 @@
                 </li>
                 <li>
                     <p>You can use a &lt;note> or &lt;hazardstatement> element before a &lt;cmd>
-                        element in a &lt;step> or &lt;substep>. Typically you use this when you need
-                        to alert the user about a risk or danger before they read or perform the
-                        &lt;cmd> action. </p>
+                        element in a &lt;step> or &lt;substep>. Typically, you use this when you
+                        need to alert readers about a risk or danger <i>before</i> they read or
+                        perform the &lt;cmd> action. </p>
                 </li>
             </ul>
         </lcInstruction>

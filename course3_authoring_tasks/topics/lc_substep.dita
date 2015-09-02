@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_mp3_t3d_bt">
     <title>Getting more detailed</title>
@@ -36,10 +39,12 @@
 &lt;/step></pre>
                     </stepxmp>
                 </step>
-                <step>
-                    <cmd>After the &lt;cmd> element, add a &lt;substeps> element. </cmd>
-                    <info>If your editor doesn't automatically add &lt;substep> and nested &lt;cmd>
-                        elements, add them.</info>
+                <step id="step_znr_444_ft">
+                    <cmd>After the &lt;cmd> element, add a &lt;substeps> element.</cmd>
+                </step>
+                <step id="step_a4r_444_ft">
+                    <cmd>If your editor doesn't automatically add &lt;substep> and nested &lt;cmd>
+                        elements, add them.</cmd>
                     <stepxmp>
                         <pre>&lt;step>
     &lt;cmd/>
