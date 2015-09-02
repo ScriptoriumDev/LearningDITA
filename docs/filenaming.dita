@@ -52,6 +52,11 @@
    <p>As a general rule, use web-friendly formats, such as PNG or GIF for images. Be sure that you
     have the rights to any images you include. Put images in the course-specific media folder and
     link them with a standard &lt;image> element.</p>
+   <p>When the image is uploaded to WordPress, it is stored in a media subfolder with the current
+    year and month, in the form <varname>yyyy</varname>/<varname>mm</varname>. Note the subfolder
+    name, then add a base attribute to the &lt;image> element, specifying the
+     <varname>yyyy</varname>/<varname>mm</varname> subfolder name as the value.</p>
+   <codeblock>&lt;image href="../../media/tables/simpletable.png" base="2015/07"/></codeblock>
   </section>
   
   <section><title>Standards for videos</title><p>The easiest way to provide videos is to post them
