@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_pnc_2vz_vr">
+ <title>Topic style guidelines</title>
+ <prolog>
+  <author href="http://www.scriptorium.com">Sarah O'Keefe, Scriptorium</author>
+  <author href="http://www.scriptorium.com">Alan Pringle, Scriptorium</author>
+   <author href="http://www.scriptorium.com">Simon Bate, Scriptorium</author>
+   <critdates>
+ <created date="2015-04-28"/>
+      <revised modified="2015-09-02"/>
+</critdates>
+ </prolog>
+ <conbody>
+  <p>Most topics should be learningContent (information you present to the learner) or
+      learningAssessment (quiz questions).</p>
+ </conbody>
+ <related-links>
+  <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langRef-learningTraining.html"
+   format="html" scope="external">
+   <linktext>Learning and training elements in the DITA 1.2 specification</linktext>
+  </link>
+  <link href="http://oxygenxml.com/doc/m/dita1.2_spec/archSpec-learningTraining.html"
+   scope="external" format="html">
+   <linktext>Architectural specification for learning and training elements (oXygen WebHelp
+    version)</linktext>
+  </link>
+ </related-links>
+</concept>

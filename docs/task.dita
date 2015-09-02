@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_fpt_jbn_ft">
+ <title>Task structure for exercises</title>
+    <prolog>
+        <author href="http://www.scriptorium.com">Sarah O'Keefe, Scriptorium</author>
+        <author href="http://www.scriptorium.com">Alan Pringle, Scriptorium</author>
+        <author href="http://www.scriptorium.com">Simon Bate, Scriptorium</author>
+        <critdates>
+            <created date="2015-09-02"/>
+        </critdates>
+    </prolog>
+    <conbody>
+   <p>To create a task that directs a student to perform an exercise, use the &lt;learningContent>
+   topic type to introduce the material. You can provide introductory text to the exercise inside
+   the &lt;learningContentbody> element. The task itself should be a nested topic after the
+   &lt;learningContentbody> element. Below is a simplified example. For more examples, look at the
+   course2 files. </p>
+   <p>
+    <codeblock>&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+&lt;learningContent id="content_hrm_xjh_1t">
+    &lt;title>Adding advanced elements&lt;/title>
+   ...
+    &lt;learningContentbody>
+        &lt;lcInstruction>
+            &lt;p>Here are some common advanced elements in DITA:&lt;/p>
+            ....omitted element descriptions....
+        &lt;/lcInstruction>
+    &lt;/learningContentbody>
+    &lt;task id="task_i3g_jkh_1t">
+        &lt;title/>
+        &lt;taskbody>
+            &lt;steps id="steps_f5k_kkh_1t">
+                &lt;step>
+                    &lt;cmd>Make a copy of the file lesson4/l_concept_advanced_start.dita and open it in your
+                        editor.&lt;/cmd>
+                    &lt;info>
+                        &lt;note>
+                            &lt;p>If you are using a DITA-aware text editor, make sure you are in text
+                                mode, rather than author or visual mode.&lt;/p>
+                        &lt;/note>
+                    &lt;/info>
+                    &lt;stepxmp>
+                        &lt;p>You should see this:&lt;/p>
+                        &lt;pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_advanced">
+&lt;title>Writing about ducks&lt;/title>
+&lt;conbody>
+&lt;/conbody>
+&lt;/concept>&lt;/pre>
+                    &lt;/stepxmp>
+                    &lt;info>Video: &lt;xref href="https://www.youtube.com/watch?v=Ryzutuy-n_A"
+                            format="html" scope="external">Creating a codeblock in
+                        DITA&lt;/xref>&lt;/info>
+                &lt;/step>
+                ...omitted lots of steps....
+            &lt;/steps>
+        &lt;/taskbody>
+    &lt;/task>
+&lt;/learningContent>
+</codeblock>
+   </p>
+  
+  <section>
+   <p>Because we are using DITA to describe DITA, life can get confusing inside the files.</p>
+  </section>
+ </conbody>
+</concept>
