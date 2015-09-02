@@ -1,30 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
-<learningAssessment id="assessment_bfv_z2p_dt">
- <title>Conbody</title>
+<learningAssessment id="assessment_wc2_xs2_2t">
+ <title>Formatting 2</title>
  <prolog>
   <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
    Scriptorium</author>
   <critdates>
-   <created date="2015-08-26"/>
+   <created date="2015-08-28"/>
   </critdates>
  </prolog>
  <learningAssessmentbody>
   <lcInteraction>
    <lcTrueFalse id="link8">
-    <lcQuestion>The &lt;conbody> element contains the paragraphs, lists, and other content that make
-     up the main content of the concept.</lcQuestion>
-    <lcAnswerOptionGroup id="lcAnswerOptionGroup_bmt_bfp_dt">
+    <lcQuestion>Unstructured content displays equally well in HTML and PDF. </lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_yx2_1t2_2t">
      <lcAnswerOption>
       <lcAnswerContent>False</lcAnswerContent>
+      <lcCorrectResponse/>
      </lcAnswerOption>
      <lcAnswerOption>
       <lcAnswerContent>True</lcAnswerContent>
-      <lcCorrectResponse/>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect>The statement is true: the &lt;conbody> element contains all the actual
-     content in the concept. </lcFeedbackIncorrect>
+    <lcFeedbackIncorrect>Unstructured content is usually designed for a single output type, it
+     rarely works well in a different output type.</lcFeedbackIncorrect>
    </lcTrueFalse>
   </lcInteraction>
  </learningAssessmentbody>

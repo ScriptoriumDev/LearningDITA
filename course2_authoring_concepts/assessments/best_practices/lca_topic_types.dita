@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
-<learningAssessment id="assessment_bfv_z2p_dt">
- <title>Conbody</title>
+<learningAssessment id="assessment_hrv_mq2_2t">
+ <title>topic types</title>
  <prolog>
   <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
    Scriptorium</author>
   <critdates>
-   <created date="2015-08-26"/>
+   <created date="2015-08-28"/>
   </critdates>
  </prolog>
  <learningAssessmentbody>
   <lcInteraction>
    <lcTrueFalse id="link8">
-    <lcQuestion>The &lt;conbody> element contains the paragraphs, lists, and other content that make
-     up the main content of the concept.</lcQuestion>
-    <lcAnswerOptionGroup id="lcAnswerOptionGroup_bmt_bfp_dt">
+    <lcQuestion>Proper use of topic types makes your content more semantically rich.</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_rls_nq2_2t">
      <lcAnswerOption>
       <lcAnswerContent>False</lcAnswerContent>
      </lcAnswerOption>
@@ -23,8 +22,9 @@
       <lcCorrectResponse/>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect>The statement is true: the &lt;conbody> element contains all the actual
-     content in the concept. </lcFeedbackIncorrect>
+    <lcFeedbackIncorrect>It’s much better to use a topic type that’s more appropriate to your
+     content, such as using a Task topic type to document a procedure, rather than using a Concept
+     topic type.</lcFeedbackIncorrect>
    </lcTrueFalse>
   </lcInteraction>
  </learningAssessmentbody>
