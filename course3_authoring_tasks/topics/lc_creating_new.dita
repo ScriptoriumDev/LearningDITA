@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_hrm_xjh_1t">
     <title>Creating a new task topic</title>
@@ -30,7 +33,7 @@
                         editor.</cmd>
                     <info>
                         <note>If you are using a DITA-aware text editor, make sure you are in text
-                            mode, rather than Author or visual mode. </note>
+                            mode, rather than author or visual mode. </note>
                     </info>
                     <stepxmp>
                         <p>You should see this:</p>
@@ -86,15 +89,16 @@
                 </step>
                 <step>
                     <cmd>Inside the &lt;taskbody> element, add a &lt;prereq> element.</cmd>
-                    <info>The &lt;prereq> element lists prerequisites to perform the task. These
-                        prerequisites can include (but is not limited to):<ul id="ul_glj_1pb_bt">
-                            <li>Things the reader must have in hand</li>
-                            <li>Information the reader must have</li>
-                            <li>Previous tasks the reader must have accomplished</li>
+                    <info>The &lt;prereq> element lists prerequisites to perform the task.
+                        Prerequisites can include:<ul id="ul_glj_1pb_bt">
+                            <li>Things the reader must have, such as a smartphone with a bird
+                                identification app </li>
+                            <li>Information the reader must have, such as knowledge of migratory
+                                patterns</li>
+                            <li>Previous tasks the reader must have accomplished, such as completing
+                                a basic duck identification course</li>
                         </ul></info>
-                    <stepxmp><p>(The next two examples only show the contents of the &lt;taskbody>
-                            element; the other task elements are there, they’re just not shown, for
-                            clarity.)</p><pre>&lt;taskbody>
+                    <stepxmp><pre>&lt;taskbody>
 <ph outputclass="newchanged">   &lt;prereq>
          &lt;p>Before you go watching wild ducks, make sure you know what a wild duck looks like.&lt;/p>
    &lt;/prereq></ph>
@@ -103,10 +107,11 @@
                 </step>
                 <step>
                     <cmd>After the &lt;prereq> element, add a &lt;context> element.</cmd>
-                    <info>The &lt;context> element describes the purpose of the task.  This can
+                    <info>The &lt;context> element describes the purpose of the task. This can
                         include background information or what the user will gain by performing the
-                        task. The &lt;context> should be relatively brief; if you need to provide
-                        more detailed background information, consider creating a concept topic. </info>
+                        task. The &lt;context> element content should be relatively brief; if you
+                        need to provide more detailed background information, consider creating a
+                        concept topic. </info>
                     <stepxmp>
                         <pre>&lt;taskbody>
    &lt;prereq>
@@ -115,13 +120,13 @@
 <ph outputclass="newchanged">   &lt;context>
       &lt;p>Watching wild ducks can be calming and recreational. &lt;/p>
       &lt;p>Read this to learn more about what you need to have a satisfying duck-watching
-         experience.   &lt;/p>
+         experience.&lt;/p>
    &lt;/context></ph>
 
 &lt;/taskbody></pre>
                     </stepxmp>
-                    <info>At this point, the task has a title, a set of prerequisites, and a
-                        context. The next lesson covers how to add the actual steps to the task. </info>
+                    <info>Your task now has a title, a set of prerequisites, and a context. The next
+                        lesson covers how to add steps to the task. </info>
                 </step>
             </steps>
         </taskbody>
