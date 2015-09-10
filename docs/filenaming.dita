@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+
+<concept id="concept_fqr_fvh_ft">
+ <title>File structure and naming conventions</title>
+ <prolog>
+  <author href="http://www.scriptorium.com">Sarah O'Keefe, Scriptorium</author>
+  <author href="http://www.scriptorium.com">Alan Pringle, Scriptorium</author>
+  <author href="http://www.scriptorium.com">Simon Bate, Scriptorium</author>
+  <critdates>
+   <created date="2015-09-01"/>
+  </critdates>
+ </prolog>
+
+ 
+ <conbody>
+  <p>Each course has its own folder. The introductory material follows a prescribed sequence, so the
+   courses are labeled with the course number and title:</p>
+  <ul>
+   <li>
+    <p>course1_intro</p>
+   </li>
+   <li>
+    <p>course2_authoring_concepts</p>
+   </li>
+   <li>
+    <p>course3_authoring_tasks</p>
+   </li>
+   <li>
+    <p>course4_<varname>name_TBD</varname> will be on reference and glossary topics</p>
+   </li>
+  </ul>
+  <p>Each course has a collection of subfolders:<ul id="ul_j1j_gvh_ft">
+    <li>topics: for most content</li>
+    <li>assessments: for quizzes, test, and other assessment content</li>
+    <li>maps: map files for learning modules</li>
+    <li>media: for images, videos, and other non-text content</li>
+    <li>resources: for example files or sources for screen shots.</li>
+   </ul></p>
+  <p>The master map file, which references the map files for modules, is at the course-folder
+   level.</p>
+  <p>Use the following file name prefixes:<ul id="ul_k1j_gvh_ft">
+    <li>m_ for map files</li>
+    <li>lc_ for learning content</li>
+    <li>lca_ for learning assessments</li>
+   </ul></p>
+  <section>
+   <title>Standards for images</title>
+   <p>As a general rule, use web-friendly formats, such as PNG or GIF for images. Be sure that you
+    have the rights to any images you include. Put images in the course-specific media folder and
+    link them with a standard &lt;image> element.</p>
+   <p>When the image is uploaded to WordPress, it is stored in a media subfolder with the current
+    year and month, in the form <varname>yyyy</varname>/<varname>mm</varname>. Note the subfolder
+    name, then add a base attribute to the &lt;image> element, specifying the
+     <varname>yyyy</varname>/<varname>mm</varname> subfolder name as the value.</p>
+   <codeblock>&lt;image href="../../media/tables/simpletable.png" base="2015/07"/></codeblock>
+  </section>
+  
+  <section><title>Standards for videos</title><p>The easiest way to provide videos is to post them
+    on YouTube. Link to the video using a standard &lt;xref> element. Remember to include the format
+    attribute (html) and the scope attribute (external). Put the video link in its own paragraph and
+    lead off with a “Video: ”
+    label.<codeblock>  &lt;info>Video: &lt;xref href="https://www.youtube.com/watch?v=xGyf4q_Bipw"
+                            format="html" scope="external">Creating a menucascade in
+                        DITA&lt;/xref>&lt;/info></codeblock></p>For
+   demo videos, begin your narration with the following information:<ul id="ul_hdp_gk3_ft">
+    <li>The purpose of the demo</li>
+    <li>The software you used</li>
+    <li>Software version</li>
+    <li>Operating system</li>
+   </ul>For example, you might say, “In this video, you’ll see how to create a task. I am using
+   oXygen, version 17, running on a Mac.”</section>
+  <section>Keep your videos very short. One minute is good. Thirty seconds is better.</section>
+ </conbody>
+</concept>

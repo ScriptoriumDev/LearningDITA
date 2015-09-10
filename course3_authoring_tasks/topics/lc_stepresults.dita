@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_exh_p5j_bt">
+    <title>Showing the results</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-08-18"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>A step might include an example of how the step is performed or some text about the
+                result of having successfully completed the steps. Use &lt;stepxmp> (step example)
+                to contain an example; use &lt;stepresult> to describe the result of the step.</p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_mjr_q5j_bt">
+        <title/>
+        <taskbody>
+            <steps id="steps_y31_r5j_bt">
+                <step>
+                    <cmd>After the last &lt;step> element, create a new &lt;step> element,
+                        containing a &lt;cmd> element and the text shown here. </cmd>
+                    <stepxmp>
+                        <pre>...&lt;step>&lt;cmd>TEXT TBD&lt;/cmd>
+&lt;/step>...</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>After the &lt;cmd> element, add a &lt;stepxmp> element. </cmd>
+                    <stepxmp>
+                        <pre>...&lt;step>&lt;cmd>TEXT TBD&lt;/cmd>
+<ph outputclass="newchanged">   &lt;stepxmp>
+   &lt;/stepxmp></ph>
+&lt;/step>...</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Add the text shown here</cmd>
+                </step>
+                <stepsection>
+                    <p>The &lt;stepresult> element describes the result of the successful completion
+                        of the step.</p>
+                    <p>The &lt;stepresult> element must be the last element in a &lt;step>; no other
+                        elements can come after it.</p>
+                </stepsection>
+                <step>
+                    <cmd>After the last &lt;stepxmp> element, add a &lt;stepresult> element. </cmd>
+                    <stepxmp>
+                        <pre>...&lt;step>&lt;cmd>TEXT TBD&lt;/cmd>
+   &lt;stepxmp>
+   &lt;/stepxmp>
+<ph outputclass="newchanged">   &lt;stepresult>
+   &lt;/stepresult></ph>
+&lt;/step>...</pre>
+                    </stepxmp>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

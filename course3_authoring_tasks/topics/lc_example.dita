@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_bkq_xhk_bt">
+    <title>Making an example</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-08-18"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>The &lt;stepxmp> element allows you to show an example of an individual step. The
+                &lt;example> element allows you to show an example of the entire task.</p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_bkt_c3k_bt">
+        <title/>
+        <taskbody>
+            <steps id="steps_pzh_d3k_bt">
+                <step>
+                    <cmd>After the &lt;result> element, add a &lt;example> element.</cmd>
+                    <stepxmp>
+                        <pre>
+&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+&lt;task id="task_z5g_kkc_bt">
+    &lt;title>Watching wild ducks&lt;/title>
+    &lt;shortdesc/>
+    &lt;taskbody>
+        &lt;result>
+           ...
+        &lt;/result>
+<ph outputclass="newchanged">        &lt;example>
+
+        &lt;/example></ph>
+    &lt;/taskbody>
+&lt;/task>
+</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Add the following content to the &lt;example> element:</cmd>
+                    <stepxmp/>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

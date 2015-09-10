@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_fpt_jbn_ft">
+ <title>Task structure for exercises</title>
+    <prolog>
+        <author href="http://www.scriptorium.com">Sarah O'Keefe, Scriptorium</author>
+        <author href="http://www.scriptorium.com">Alan Pringle, Scriptorium</author>
+        <author href="http://www.scriptorium.com">Simon Bate, Scriptorium</author>
+        <critdates>
+            <created date="2015-09-02"/>
+        </critdates>
+    </prolog>
+    <conbody>
+   <p>To create a task that directs a student to perform an exercise, use the &lt;learningContent>
+   topic type to introduce the material. You can provide introductory text to the exercise inside
+   the &lt;learningContentbody> element. The task itself should be a nested topic after the
+   &lt;learningContentbody> element. Below is a simplified example. For more examples, look at the
+   course2 files. </p>
+   <p>
+    <codeblock>&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+&lt;learningContent id="content_hrm_xjh_1t">
+    &lt;title>Adding advanced elements&lt;/title>
+   ...
+    &lt;learningContentbody>
+        &lt;lcInstruction>
+            &lt;p>Here are some common advanced elements in DITA:&lt;/p>
+            ....omitted element descriptions....
+        &lt;/lcInstruction>
+    &lt;/learningContentbody>
+    &lt;task id="task_i3g_jkh_1t">
+        &lt;title/>
+        &lt;taskbody>
+            &lt;steps id="steps_f5k_kkh_1t">
+                &lt;step>
+                    &lt;cmd>Make a copy of the file lesson4/l_concept_advanced_start.dita and open it in your
+                        editor.&lt;/cmd>
+                    &lt;info>
+                        &lt;note>
+                            &lt;p>If you are using a DITA-aware text editor, make sure you are in text
+                                mode, rather than author or visual mode.&lt;/p>
+                        &lt;/note>
+                    &lt;/info>
+                    &lt;stepxmp>
+                        &lt;p>You should see this:&lt;/p>
+                        &lt;pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_advanced">
+&lt;title>Writing about ducks&lt;/title>
+&lt;conbody>
+&lt;/conbody>
+&lt;/concept>&lt;/pre>
+                    &lt;/stepxmp>
+                    &lt;info>Video: &lt;xref href="https://www.youtube.com/watch?v=Ryzutuy-n_A"
+                            format="html" scope="external">Creating a codeblock in
+                        DITA&lt;/xref>&lt;/info>
+                &lt;/step>
+                ...omitted lots of steps....
+            &lt;/steps>
+        &lt;/taskbody>
+    &lt;/task>
+&lt;/learningContent>
+</codeblock>
+   </p>
+  
+   <p>Because we are using DITA to describe DITA, life can get confusing inside the files.</p>
+  <section>
+            <title>Building more advanced exercises</title>
+            <p>Some of the more interesting exercises ask learners to create content on their own.
+                To show an example of the result, you can use HTML instead of a screen shot. The
+                HTML needs to be in a &lt;pre> element with an outputclass of passthru. Inside the
+                &lt;pre> element, set up a CDATA section to encapsulate the HTML. </p>
+            <p>The LearningDITA.com publishing pipeline is set up to pass through the contents of
+                these special &lt;pre> tags, so that the HTML is rendered by the
+                WordPress/LearnDashLMS environment.</p>
+            <codeblock> &lt;step>
+                    &lt;cmd>Open the file lesson4/l_concept_advanced_exercise_start.dita and use it to
+                        convert the following content from &lt;xref
+                            href="http://contentstrategy101.com/" format="html" scope="external"
+                            >Content Strategy 101&lt;/xref> into DITA:&lt;/cmd>
+                    &lt;info>
+                        &lt;pre outputclass="passthru">&lt;![CDATA[
+                           &lt;hr />
+                           &lt;h3>Developing a technical content strategy&lt;/h3>
+                           &lt;p>After reviewing the existing information products, you should have a list of content challenges and ideas for improvement. Here are some common scenarios.&lt;/p>
+                           &lt;h5>Reuse between technical documentation and training materials&lt;/h5>
+                           The training department uses reference and task information created by the technical documentation team, but the instructional designers copy and paste instead of linking because the two groups use different, incompatible content creation tools.
+                           &lt;em>&lt;strong>Comment:&lt;/strong> Add: "If the two teams standardized on a single workflow, they could share content seamlessly and avoid lots of tedious reworking."&lt;/em>
+                           &lt;h5>HTML output is needed in addition to PDF&lt;/h5>
+                           &lt;p>Your content may look like this in HTML:&lt;/p>
+                           &lt;code>&lt;div class="p"&gt;You may produce high-value content, such as the following:
+                           &lt;ul class="ul"&gt;
+                           &lt;li class="li"&gt;&lt;p class="p"&gt;Training materials&lt;/p&gt;&lt;/li&gt;
+                           &lt;li class="li"&gt;&lt;p class="p"&gt;White papers&lt;/p&gt;&lt;/li&gt;
+                           &lt;li class="li"&gt;&lt;p class="p"&gt;Knowledge base articles&lt;/p&gt;&lt;/li&gt;
+                           &lt;/ul&gt;
+                           &lt;/div&gt; &lt;/code>
+                           &lt;p>The &lt;code>&lt;div&gt;&lt;/code> contains the unordered list.&lt;/p>
+                           &lt;h5>Technical content is outdated because of inefficient updating process&lt;/h5>
+                           &lt;blockquote>The book production process—generating tables of contents and indexes, checking pagination, creating change page logs, and similar tasks—takes a significant amount of time. As a result, books are only updated twice a year. But the product is changing quarterly or even monthly, so the technical documentation is almost always out of date. Readers are complaining about the lack of synchronization between the product updates and the content updates.&lt;/blockquote>
+                           &lt;hr />
+                           ]]&gt;&lt;/pre>
+                    &lt;/info>
+                &lt;/step>
+          
+      </codeblock>
+        </section>
+ </conbody>
+</concept>

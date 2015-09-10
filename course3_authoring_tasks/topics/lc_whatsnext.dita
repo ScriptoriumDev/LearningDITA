@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_usl_x1q_bt">
+    <title>What’s next?</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-08-18"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>The final element in a &lt;taskbody> element is the postrequisites (&lt;postreq>)
+                element. </p>
+            <p>Use the &lt;postreq> element to document the things that the reader must do once the
+                task is complete. Examples include:</p>
+            <ul id="ul_hj2_wbq_bt">
+                <li>Putting equipment away or closing files</li>
+                <li>Documenting or logging the task completion</li>
+                <li>Performing subsequent tasks </li>
+            </ul>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_mv2_lbq_bt">
+        <title/>
+        <taskbody>
+            <steps id="steps_ihp_lbq_bt">
+                <step>
+                    <cmd>After the &lt;example> element, add a &lt;postreq> element.</cmd>
+                    <stepxmp>
+                        <pre>
+&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+&lt;task id="task_z5g_kkc_bt">
+    &lt;title>Watching wild ducks&lt;/title>
+    &lt;shortdesc/>
+    &lt;taskbody>
+        &lt;example>
+           ...
+        &lt;/example>
+<ph outputclass="newchanged">        &lt;postreq>
+
+        &lt;/postreq></ph>
+    &lt;/taskbody>
+&lt;/task>
+</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Add the following content to the &lt;postreq> element:</cmd>
+                    <stepxmp/>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>
