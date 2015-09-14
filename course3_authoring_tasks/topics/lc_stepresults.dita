@@ -24,6 +24,9 @@
         <taskbody>
             <steps id="steps_y31_r5j_bt">
                 <step>
+                    <cmd>Continue working in the file l_task_start.dita.</cmd>
+                </step>
+                <step>
                     <cmd>After the last &lt;step> element, create a new &lt;step> element,
                         containing a &lt;cmd> element and the text shown here. </cmd>
                     <stepxmp>

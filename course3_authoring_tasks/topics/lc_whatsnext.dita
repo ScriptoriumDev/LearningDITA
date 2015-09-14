@@ -30,6 +30,9 @@
         <taskbody>
             <steps id="steps_ihp_lbq_bt">
                 <step>
+                    <cmd>Continue working in the file l_task_start.dita.</cmd>
+                </step>
+                <step>
                     <cmd>After the &lt;example> element, add a &lt;postreq> element.</cmd>
                     <stepxmp>
                         <pre>

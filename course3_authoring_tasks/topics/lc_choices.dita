@@ -21,6 +21,10 @@
                 use the &lt;choices> or &lt;choicetable> elements. Both present choices: use
                 &lt;choices> when the choices only require a brief description; use &lt;choicetable>
                 when you need to provide specific keywords, along with an extended description.  </p>
+            <draft-comment author="gretyl">Do we need to go into more detail here about the
+                &lt;choicetable> element? Define the elements it contains? Also, should we consider
+                splitting up the &lt;choices> and &lt;choicetable> elements into two
+                topics?</draft-comment>
         </lcInstruction>
     </learningContentbody>
     <task id="task_pcm_2dc_bt">
@@ -28,30 +32,21 @@
         <taskbody>
             <steps id="steps_qjd_3fc_bt">
                 <step>
-                    <note>These steps resume the example that runs continuously through this course.
-                        In the first step here the complete task topic is shown; in subsequent
-                        steps, only the elements central to the discussion will be shown. </note>
-                    <cmd>In the example task topic, add a new &lt;step> element after the last
-                        &lt;step> element. Inside the &lt;step>, create a &lt;cmd> element (if one
-                        isn’t created for you).  Add the content shown here to the &lt;cmd>
-                        element:</cmd>
+                    <cmd>Continue working in the file l_task_start.dita.</cmd>
+                </step>
+                <step>
+                    <!--<note>These steps resume the example that runs continuously through this course. In the first step here the complete task topic is shown; in subsequent steps, only the elements central to the discussion will be shown. </note>-->
+                    <cmd>After the closing tag of the first &lt;step> element, add a new &lt;step>
+                        element. Inside the &lt;step>, create a &lt;cmd> element (if one isn’t
+                        created for you). Add the content shown here to the &lt;cmd> element:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-&lt;task id="task_topic">
-   &lt;title>&lt;/title>
-   &lt;taskbody>
-      &lt;prereq>
-      &lt;/prereq>
-      &lt;context>
-      &lt;/context>
-      &lt;steps>
-         &lt;step>
-            &lt;cmd>(Text TBD)&lt;/cmd>
-            &lt;info>&lt;p>(Text TBD)&lt;/p>&lt;/info>
+&lt;task id="my_first_task">
+   ...
          &lt;/step>
          &lt;step>
-            &lt;cmd>(Text TBD)&lt;/cmd>
+            &lt;cmd>Pick a field guide to identify the ducks.&lt;/cmd>
          &lt;/step>
       &lt;/steps>
    &lt;/taskbody>
@@ -60,15 +55,23 @@
                 </step>
                 <step id="step_dd4_244_ft">
                     <cmd>After the new &lt;cmd> element, add a &lt;choices> element. </cmd>
+                    <stepxmp>
+                        <pre>&lt;step>
+   &lt;cmd>Pick a field guide to identify the ducks.&lt;/cmd>
+   &lt;choices>
+   &lt;/choices>
+&lt;/step>
+</pre>
+                    </stepxmp>
                 </step>
                 <step id="step_ed4_244_ft">
                     <cmd>If your editor does not automatically add a first &lt;choice> element
                         inside the &lt;choices> element, add one now.</cmd>
                     <stepxmp>
                         <pre>&lt;step>
-   &lt;cmd>(TEXT TBD)&lt;/cmd>
+   &lt;cmd>Pick a field guide to identify the ducks.&lt;/cmd>
    &lt;choices>
-      &lt;choice>(TEXT TBD)&lt;/choice>
+      &lt;choice>Many modern duck watchers rely on the Sibley guide&lt;/choice>
    &lt;/choices>
 &lt;/step>
 </pre>
@@ -77,14 +80,13 @@
                         bulleted list.</info>
                 </step>
                 <step>
-                    <cmd>Add additional &lt;choice> elements.</cmd>
+                    <cmd>Add an additional &lt;choice> element.</cmd>
                     <stepxmp>
                         <pre>&lt;step>
-   &lt;cmd>(TEXT TBD)&lt;/cmd>
+   &lt;cmd>Pick a field guide to identify the ducks.&lt;/cmd>
    &lt;choices>
-      &lt;choice>(TEXT TBD)&lt;/choice>
-      &lt;choice>(TEXT TBD)&lt;/choice>
-      &lt;choice>(TEXT TBD)&lt;/choice>
+      &lt;choice>Many modern duck watchers rely on the Sibley guide&lt;/choice>
+      &lt;choice>A traditional favorite is the Peterson guide &lt;/choice>
    &lt;/choices>
 &lt;/step>
 </pre>
@@ -96,7 +98,7 @@
                     <cmd>Create a new step with a &lt;cmd> element and text as shown here:</cmd>
                     <stepxmp>
                         <pre>&lt;step>
-   &lt;cmd>(TEXT TBD)&lt;/cmd>
+   &lt;cmd>Find some good optics&lt;/cmd>
 &lt;/step>
 </pre>
                     </stepxmp>
@@ -106,7 +108,7 @@
                         child elements:</cmd>
                     <stepxmp>
                         <pre>&lt;step>
-   &lt;cmd>(TEXT TBD)&lt;/cmd>
+   &lt;cmd>Find some good optics&lt;/cmd>
    &lt;choicetable>
 <ph outputclass="newchanged">     &lt;chrow>
          &lt;choption/>
@@ -134,7 +136,7 @@
                         children, as shown here.</cmd>
                     <stepxmp>
                         <pre>&lt;step>
-   &lt;cmd>(TEXT TBD)&lt;/cmd>
+   &lt;cmd>Find some good optics&lt;/cmd>
    &lt;choicetable>
 <ph outputclass="newchanged">     &lt;chhead>
          &lt;choptionhd/>
@@ -151,6 +153,55 @@
                     </stepxmp>
                     <info>The &lt;choptionhd> provides a heading for the option column; the
                         &lt;chdeschd> provides a heading for the description column. </info>
+                </step>
+                <step>
+                    <cmd>Add content to the &lt;chhead> element and its child elements, as shown
+                        here.</cmd>
+                    <stepxmp>
+                        <pre>...
+&lt;chhead>
+   &lt;choptionhd>
+      &lt;p>Type&lt;/p>
+   &lt;/choptionhd>
+   &lt;chdeschd>
+      &lt;p>Advantages&lt;/p>
+   &lt;/chdeschd>
+&lt;/chhead>
+...</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Add content to the &lt;chrow> element and its child elements, as shown
+                        here.</cmd>
+                    <stepxmp>
+                        <pre>...
+&lt;chrow>
+   &lt;choption>
+      &lt;p>Binoculars&lt;/p>
+   &lt;/choption>
+   &lt;chdesc>
+      &lt;p>Wide field of view, allows quick observations&lt;/p>
+   &lt;/chdesc>
+&lt;/chrow>...</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>After the closing tag of the &lt;chrow> element, add another &lt;chrow>
+                        element and add content to it as shown here.</cmd>
+                    <stepxmp>
+                        <pre>&lt;choicetable>
+...
+&lt;/chrow>
+&lt;chrow>
+   &lt;choption>
+      &lt;p>Spotting scope&lt;/p>
+   &lt;/choption>
+   &lt;chdesc>
+      &lt;p>Higher magnification, better light-gathering&lt;/p>
+   &lt;/chdesc>
+&lt;/chrow>
+&lt;/choicetable></pre>
+                    </stepxmp>
                 </step>
             </steps>
         </taskbody>

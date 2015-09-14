@@ -12,23 +12,68 @@
             <created date="2015-08-13"/>
         </critdates>
     </prolog>
-    <learningContentbody/>
+    <learningContentbody>
+        <lcInstruction>
+            <p>The basic elements involved in creating a set of steps include the &lt;steps>,
+                &lt;step>, &lt;cmd>, and &lt;info> elements.</p>
+            <simpletable frame="all" relcolwidth="1.0* 1.0*" id="simpletable_i4k_dm4_2t">
+                <strow>
+                    <stentry>
+                        <p>&lt;steps></p>
+                    </stentry>
+                    <stentry>
+                        <p>The container element for a series of step-by-step instructions.</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;step></p>
+                    </stentry>
+                    <stentry>
+                        <p>The container element for each step in the &lt;steps> element. The
+                            &lt;steps> element can contain one or more &lt;step> elements.</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;cmd></p>
+                    </stentry>
+                    <stentry>
+                        <p>The container element for the command, or text instructing the user what
+                            to do, in a &lt;step> element. Each &lt;step> element can contain
+                            exactly one &lt;cmd> element.</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;info></p>
+                    </stentry>
+                    <stentry>
+                        <p>The container element for additional information about a step. The
+                            &lt;info> element must go inside the &lt;step> element after the
+                            &lt;cmd> element. Each &lt;step> element can contain one or more
+                            &lt;info> elements (or none at all, as the &lt;info> element is
+                            optional).</p>
+                    </stentry>
+                </strow>
+            </simpletable>
+        </lcInstruction>
+    </learningContentbody>
     <task id="task_a2s_dvs_zs">
         <title/>
         <taskbody>
             <steps id="steps_urj_vdy_zs">
                 <step>
-                    <cmd>After the &lt;context> element in your task topic, add a &lt;steps>
+                    <cmd>Continue working in the file l_task_start.dita.</cmd>
+                </step>
+                <step>
+                    <cmd>After the closing tag of the &lt;context> element, add a &lt;steps>
                         element. </cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-&lt;task id="task_topic">
-   &lt;title>&lt;/title>
-   &lt;taskbody>
-      &lt;prereq>
-      &lt;/prereq>
-      &lt;context>
+&lt;task id="my_first_task">
+   ...
       &lt;/context>
 <ph outputclass="newchanged">      &lt;steps>
       &lt;/steps></ph>
@@ -73,7 +118,7 @@
                         <pre>...
       &lt;steps>
          &lt;step>
-<ph outputclass="newchanged">            &lt;cmd>(Text TBD)&lt;/cmd></ph>
+<ph outputclass="newchanged">            &lt;cmd>Choose a location to watch ducks.&lt;/cmd></ph>
          &lt;/step>
       &lt;/steps>
 ...</pre>
@@ -99,8 +144,8 @@
                         <pre>...
       &lt;steps>
          &lt;step>
-            &lt;cmd>(Text TBD)&lt;/cmd>
-<ph outputclass="newchanged">            &lt;info>&lt;p>(Text TBD)&lt;/p>&lt;/info></ph>
+            &lt;cmd>Choose a location to watch ducks.&lt;/cmd>
+<ph outputclass="newchanged">            &lt;info>&lt;p>Generally, ducks are found in wild locations, near water.&lt;/p>&lt;/info></ph>
          &lt;/step>
       &lt;/steps>
 ...</pre>
