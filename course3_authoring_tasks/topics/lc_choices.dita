@@ -21,10 +21,76 @@
                 use the &lt;choices> or &lt;choicetable> elements. Both present choices: use
                 &lt;choices> when the choices only require a brief description; use &lt;choicetable>
                 when you need to provide specific keywords, along with an extended description.  </p>
-            <draft-comment author="gretyl">Do we need to go into more detail here about the
-                &lt;choicetable> element? Define the elements it contains? Also, should we consider
-                splitting up the &lt;choices> and &lt;choicetable> elements into two
-                topics?</draft-comment>
+            <p>The elements contained in the &lt;choicetable> element include:</p>
+            <simpletable frame="all" relcolwidth="1.0* 1.0*" id="simpletable_rwy_l3n_2t">
+                <strow>
+                    <stentry>
+                        <p>&lt;chhead></p>
+                    </stentry>
+                    <stentry>
+                        <p>The container element for the header row of a &lt;choicetable> element.
+                            The &lt;chhead> element contains the &lt;choptionhd> and &lt;chdeschd>
+                            elements and is optional. There can only be one &lt;chhead> element in a
+                            &lt;choicetable> element.</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;choptionhd></p>
+                    </stentry>
+                    <stentry>
+                        <p>The container element for the option cell in the header row of a
+                            &lt;choicetable> element. The &lt;choptionhd> element contains the
+                            option text, which should be wrapped in a &lt;p> element according to
+                            best practice.</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;chdeschd></p>
+                    </stentry>
+                    <stentry>
+                        <p>The container element for the description cell in the header row of a
+                            &lt;choicetable> element. The &lt;chdeschd> element contains the
+                            description text, which should be wrapped in a &lt;p> element according
+                            to best practice.</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;chrow></p>
+                    </stentry>
+                    <stentry>
+                        <p>The container element for a row in a &lt;choicetable> element. The
+                            &lt;chrow> element contains the &lt;choption> and &lt;chdesc> elements.
+                            There can be one or more &lt;chrow> elements in a &lt;choicetable>
+                            element.</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;choption></p>
+                    </stentry>
+                    <stentry>
+                        <p>The container element for the option cell in a row of a &lt;choicetable>
+                            element. The &lt;choption> element contains the option text, which
+                            should be wrapped in a &lt;p> element according to best practice.</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;chdesc></p>
+                    </stentry>
+                    <stentry>
+                        <p>The container element for the description cell in a row of a
+                            &lt;choicetable> element. The &lt;chdesc> element contains the
+                            description text, which should be wrapped in a &lt;p> element according
+                            to best practice.</p>
+                    </stentry>
+                </strow>
+            </simpletable>
+            <draft-comment author="gretyl">Should we consider splitting up the &lt;choices> and
+                &lt;choicetable> elements into two topics?</draft-comment>
         </lcInstruction>
     </learningContentbody>
     <task id="task_pcm_2dc_bt">
@@ -102,6 +168,10 @@
 &lt;/step>
 </pre>
                     </stepxmp>
+                    <info>
+                        <draft-comment author="gretyl">Video showing how to use oXygen's choicetable
+                            wizard/how it compares with simpletable</draft-comment>
+                    </info>
                 </step>
                 <step>
                     <cmd>After the &lt;cmd> element, add a &lt;choicetable> element and all its

@@ -63,7 +63,7 @@
                         <cmd>Walk around</cmd>
                     </substep>
                     <substep>
-                        <cmd>When you see one stop</cmd>
+                        <cmd>When you see one, stop</cmd>
                     </substep>
                     <substep>
                         <cmd>Identify it</cmd>
@@ -79,8 +79,8 @@
 ☐ Ruddy
 ☐ Wood</lines>
                 </stepxmp>
-                <stepresult>You’ll now have a record you can keep for the rest of your
-                    life.</stepresult>
+                <stepresult><p>You’ll now have a record you can keep for the rest of your
+                    life.</p></stepresult>
             </step>
             <stepsection>Once you’ve identified the duck, you can spend some time noting its
                 behavior.</stepsection>
@@ -102,7 +102,7 @@
             <!--Could also use: https://youtu.be/nAA3DCEkVHs-->
         </example>
         <postreq>
-            <ul id="ul_rp1_klj_bt">
+            <ul>
                 <li>Watch the ducks again with a camera</li>
                 <li>Go look for other birds</li>
             </ul>
