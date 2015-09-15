@@ -23,17 +23,17 @@
         <taskbody>
             <steps id="steps_pzh_d3k_bt">
                 <step>
-                    <cmd>After the &lt;result> element, add a &lt;example> element.</cmd>
+                    <cmd>Continue working in the file l_task_start.dita.</cmd>
+                    <info>
+                        <draft-comment author="gretyl">Video showing differences between
+                            &lt;example> and &lt;stepxmp></draft-comment>
+                    </info>
+                </step>
+                <step>
+                    <cmd>After the closing tag of the &lt;result> element, add a &lt;example>
+                        element.</cmd>
                     <stepxmp>
-                        <pre>
-&lt;?xml version="1.0" encoding="UTF-8"?>
-&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-&lt;task id="task_z5g_kkc_bt">
-    &lt;title>Watching wild ducks&lt;/title>
-    &lt;shortdesc/>
-    &lt;taskbody>
-        &lt;result>
-           ...
+                        <pre>...
         &lt;/result>
 <ph outputclass="newchanged">        &lt;example>
 
@@ -45,7 +45,18 @@
                 </step>
                 <step>
                     <cmd>Add the following content to the &lt;example> element:</cmd>
-                    <stepxmp/>
+                    <stepxmp>
+                        <pre>...
+        &lt;/result>
+<ph outputclass="newchanged">        &lt;example>
+&lt;p>Don’t expect this kind of behavior: &lt;xref href="http://dai.ly/x2j6pt1" format="html"
+                    scope="external">Duck Amuck&lt;/xref>
+            &lt;/p>
+        &lt;/example></ph>
+    &lt;/taskbody>
+&lt;/task>
+</pre>
+                    </stepxmp>
                 </step>
             </steps>
         </taskbody>

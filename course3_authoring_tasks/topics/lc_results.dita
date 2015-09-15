@@ -26,17 +26,13 @@
         <taskbody>
             <steps id="steps_jg1_ppp_bt">
                 <step>
-                    <cmd>After the &lt;steps> element, add a &lt;result> element.</cmd>
+                    <cmd>Continue working in the file l_task_start.dita.</cmd>
+                </step>
+                <step>
+                    <cmd>After the closing tag of the &lt;steps> element, add a &lt;result>
+                        element.</cmd>
                     <stepxmp>
-                        <pre>
-&lt;?xml version="1.0" encoding="UTF-8"?>
-&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-&lt;task id="task_z5g_kkc_bt">
-    &lt;title>Watching wild ducks&lt;/title>
-    &lt;shortdesc/>
-    &lt;taskbody>
-        &lt;steps>
-           ...
+                        <pre>  ...
         &lt;/steps>
 <ph outputclass="newchanged">        &lt;result>
 
@@ -50,11 +46,11 @@
                     <cmd>Add the text shown here to the result element.</cmd>
                     <stepxmp>
                         <pre>&lt;result>
-<ph outputclass="newchanged">&lt;p>&lt;/p></ph>
+<ph outputclass="newchanged">&lt;p>The fresh air, exercise, and thrill of seeing wild ducks should give you an enhanced feeling of well-being.&lt;/p></ph>
 &lt;/result>
 </pre>
                     </stepxmp>
-                    <info>It’s always a good practice to wrap text in a &lt;p> element.</info>
+                    <info>Wrap the text in a &lt;p> element according to best practice.</info>
                 </step>
             </steps>
         </taskbody>

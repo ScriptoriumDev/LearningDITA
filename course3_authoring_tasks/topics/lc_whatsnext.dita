@@ -30,17 +30,17 @@
         <taskbody>
             <steps id="steps_ihp_lbq_bt">
                 <step>
-                    <cmd>After the &lt;example> element, add a &lt;postreq> element.</cmd>
+                    <cmd>Continue working in the file l_task_start.dita.</cmd>
+                    <info>
+                        <draft-comment author="gretyl">Video showing how to add a &lt;postreq>
+                            element</draft-comment>
+                    </info>
+                </step>
+                <step>
+                    <cmd>After the closing tag of the &lt;example> element, add a &lt;postreq>
+                        element.</cmd>
                     <stepxmp>
-                        <pre>
-&lt;?xml version="1.0" encoding="UTF-8"?>
-&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-&lt;task id="task_z5g_kkc_bt">
-    &lt;title>Watching wild ducks&lt;/title>
-    &lt;shortdesc/>
-    &lt;taskbody>
-        &lt;example>
-           ...
+                        <pre>...
         &lt;/example>
 <ph outputclass="newchanged">        &lt;postreq>
 
@@ -52,7 +52,45 @@
                 </step>
                 <step>
                     <cmd>Add the following content to the &lt;postreq> element:</cmd>
-                    <stepxmp/>
+                    <stepxmp>
+                        <pre>...
+        &lt;/example>
+<ph outputclass="newchanged">        &lt;postreq>
+&lt;ul>
+                &lt;li>Watch the ducks again with a camera&lt;/li>
+                &lt;li>Go look for other birds&lt;/li>
+            &lt;/ul>
+        &lt;/postreq></ph>
+    &lt;/taskbody>
+&lt;/task>
+</pre>
+                    </stepxmp>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+    <task id="task_ynz_fgy_3t">
+        <title>Exercise</title>
+        <taskbody>
+            <steps id="steps_r11_1kx_dt">
+                <step>
+                    <cmd>Open the file lesson3/l_task_finishing_exercise_start.dita and use it to
+                        convert the following content from <xref
+                            href="http://contentstrategy101.com/" format="html" scope="external"
+                            >Content Strategy 101</xref> into DITA:</cmd>
+                    <info>
+                        <pre outputclass="passthru"><![CDATA[
+                            <hr />
+                            <h3>title of task</h3>
+                            
+                           <hr />
+                            ]]></pre>
+                    </info>
+                    <info/>
+                </step>
+                <step>
+                    <cmd>Check your file lesson3/l_task_finishing_exercise_start.dita against the
+                        sample file lesson3/l_task_finishing_exercise.dita.</cmd>
                 </step>
             </steps>
         </taskbody>

@@ -24,38 +24,80 @@
         <taskbody>
             <steps id="steps_y31_r5j_bt">
                 <step>
-                    <cmd>After the last &lt;step> element, create a new &lt;step> element,
-                        containing a &lt;cmd> element and the text shown here. </cmd>
+                    <cmd>Continue working in the file l_task_start.dita.</cmd>
+                </step>
+                <step>
+                    <cmd>After the closing tag of the last &lt;step> element, create a new &lt;step>
+                        element, containing a &lt;cmd> element and the text shown here. </cmd>
                     <stepxmp>
-                        <pre>...&lt;step>&lt;cmd>TEXT TBD&lt;/cmd>
+                        <pre>...&lt;step>&lt;cmd>When you have definitively identified a duck, make a note in your guide.&lt;/cmd>
 &lt;/step>...</pre>
                     </stepxmp>
+                    <info>
+                        <draft-comment author="gretyl">Video showing the different ways that the
+                            &lt;stepxmp> element can be used/what can be contained inside
+                            it</draft-comment>
+                    </info>
                 </step>
                 <step>
                     <cmd>After the &lt;cmd> element, add a &lt;stepxmp> element. </cmd>
                     <stepxmp>
-                        <pre>...&lt;step>&lt;cmd>TEXT TBD&lt;/cmd>
+                        <pre>...&lt;step>&lt;cmd>When you have definitively identified a duck, make a note in your guide.&lt;/cmd>
 <ph outputclass="newchanged">   &lt;stepxmp>
    &lt;/stepxmp></ph>
 &lt;/step>...</pre>
                     </stepxmp>
+                    <info>The &lt;stepxmp> element contains an example that illustrates or clarifies
+                        the step.</info>
+                    <info>The &lt;stepxmp> element can contain text, as well as most elements
+                        involved in tagging text. Some of the most commonly used elements inside the
+                        &lt;stepxmp> element include the &lt;p> element for body text, the &lt;note>
+                        element for admonitions, the &lt;lines> element for preserving line breaks
+                        in body text, and the &lt;pre> element for preserving line breaks in code
+                        samples.</info>
                 </step>
                 <step>
-                    <cmd>Add the text shown here</cmd>
+                    <cmd>Inside the &lt;stepxmp> element, add the &lt;lines> element and add content
+                        to it as shown here.</cmd>
+                    <stepxmp>
+                        <pre>...&lt;step>&lt;cmd>When you have definitively identified a duck, make a note in your guide.&lt;/cmd>
+   &lt;stepxmp>
+<ph outputclass="newchanged">&lt;lines>
+Ducks,
+☒ Harlequin
+☐ Mallard
+☐ Ruddy
+☐ Wood
+&lt;/lines></ph>
+   &lt;/stepxmp>
+&lt;/step>...</pre>
+                    </stepxmp>
                 </step>
                 <stepsection>
                     <p>The &lt;stepresult> element describes the result of the successful completion
                         of the step.</p>
-                    <p>The &lt;stepresult> element must be the last element in a &lt;step>; no other
-                        elements can come after it.</p>
+                    <p>The &lt;stepresult> element must be the last element in a &lt;step> element;
+                        no other elements can come after it.</p>
                 </stepsection>
                 <step>
-                    <cmd>After the last &lt;stepxmp> element, add a &lt;stepresult> element. </cmd>
+                    <cmd>After the closing tag of the &lt;stepxmp> element, add a &lt;stepresult>
+                        element. </cmd>
                     <stepxmp>
-                        <pre>...&lt;step>&lt;cmd>TEXT TBD&lt;/cmd>
-   &lt;stepxmp>
+                        <pre>...
    &lt;/stepxmp>
 <ph outputclass="newchanged">   &lt;stepresult>
+   &lt;/stepresult></ph>
+&lt;/step>...</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Inside the &lt;stepresult> element, add a &lt;p> element and add content to
+                        it as shown here.</cmd>
+                    <stepxmp>
+                        <pre>...
+   &lt;/stepxmp>
+<ph outputclass="newchanged">   &lt;stepresult>
+&lt;p>You'll now have a record you can keep for the rest of your life.&lt;/p>
    &lt;/stepresult></ph>
 &lt;/step>...</pre>
                     </stepxmp>
