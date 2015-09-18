@@ -23,8 +23,8 @@
             <p>In each lesson folder, you will find three DITA files:</p>
             <ul id="ul_lx2_fj2_2t">
                 <li>
-                    <p>l_task.dita: The completed version of the sample file you can use to check
-                        your work during each lesson.</p>
+                    <p>l_<i>filename</i>.dita: The completed version of the sample file you can use
+                        to check your work during each lesson.</p>
                 </li>
                 <li>
                     <p>l_<i>filename</i>_exercise_start.dita: The empty file you will add content to

@@ -54,10 +54,8 @@
                         <p>The third line contains the opening tag of the &lt;task> element.</p>
                         <p>The fourth line contains the title element.</p>
                     </info>
-                    <info>
-                        <draft-comment author="gretyl">Video showing how to open a task topic by
-                            default in oXygen </draft-comment>
-                    </info>
+                    <info><xref href="https://youtu.be/7E7RYKHQ6C4" format="html" scope="external"
+                            >Video: Creating a DITA task topic</xref></info>
                 </step>
                 <!--<step><cmd>Depending on the editor you are using: </cmd><choices id="choices_uy2_lkh_1t"><choice><p><b>DITA-aware editor</b>: Use the File > New... command to create a new task topic. Make sure you don't use the general task. </p></choice><choice><p><b>Text editor</b>: Create a new file that contains this text:</p><pre>&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 &lt;task id="my_first_task">

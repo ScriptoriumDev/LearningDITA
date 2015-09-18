@@ -33,11 +33,8 @@
                         <pre>...&lt;step>&lt;cmd>When you have definitively identified a duck, make a note in your guide.&lt;/cmd>
 &lt;/step>...</pre>
                     </stepxmp>
-                    <info>
-                        <draft-comment author="gretyl">Video showing the different ways that the
-                            &lt;stepxmp> element can be used/what can be contained inside
-                            it</draft-comment>
-                    </info>
+                    <info><xref href="https://youtu.be/-9JWoT1HdWk" format="html" scope="external"
+                            >Video: Adding a step example in a DITA task</xref></info>
                 </step>
                 <step>
                     <cmd>After the &lt;cmd> element, add a &lt;stepxmp> element. </cmd>

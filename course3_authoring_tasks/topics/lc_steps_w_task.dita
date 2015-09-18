@@ -65,10 +65,8 @@
             <steps id="steps_urj_vdy_zs">
                 <step>
                     <cmd>Continue working in the file l_task_start.dita.</cmd>
-                    <info>
-                        <draft-comment author="gretyl">Video showing how to add the &lt;steps>
-                            element/how it is populated by default in oXygen</draft-comment>
-                    </info>
+                    <info><xref href="https://youtu.be/Szfp056HCK0" format="html" scope="external"
+                            >Video: Adding steps to a DITA task</xref></info>
                 </step>
                 <step>
                     <cmd>After the closing tag of the &lt;context> element, add a &lt;steps>

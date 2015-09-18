@@ -4,7 +4,7 @@
      applicable licenses.-->
 <!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
 <learningAssessment id="assessment_hwg_z1b_dt">
- <title>Taskbody</title>
+ <title>Postreq</title>
  <prolog>
   <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
    Scriptorium</author>
@@ -15,24 +15,23 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcSingleSelect id="lcSingleSelect_eh4_bbb_dt">
-    <lcQuestion>What element contains the actual content of a task topic? (pick one)</lcQuestion>
+    <lcQuestion>What is the main purpose of the &lt;postreq> element? (pick one)</lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_fh4_bbb_dt">
      <lcAnswerOption>
-      <lcAnswerContent>&lt;body></lcAnswerContent>
-     </lcAnswerOption>
-     <lcAnswerOption>
-      <lcAnswerContent>&lt;taskbody></lcAnswerContent>
+      <lcAnswerContent>To tell the reader what to do next.</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>&lt;tasktrunk></lcAnswerContent>
+      <lcAnswerContent>To give an example of how to perform the task.</lcAnswerContent>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>&lt;context></lcAnswerContent>
+      <lcAnswerContent>To show the reader the result of performing the task.</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>To give the reader context for performing the task.</lcAnswerContent>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect>The &lt;taskbody> element contains the actual content of the task topic.
-    </lcFeedbackIncorrect>
+    <lcFeedbackIncorrect>The &lt;postreq> element tells the reader what to do next. </lcFeedbackIncorrect>
    </lcSingleSelect>
   </lcInteraction>
  </learningAssessmentbody>
