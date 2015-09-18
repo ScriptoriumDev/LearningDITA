@@ -4,7 +4,7 @@
      applicable licenses.-->
 <!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
 <learningAssessment id="assessment_hwg_z1b_dt">
- <title>Taskbody</title>
+ <title>Strict</title>
  <prolog>
   <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
    Scriptorium</author>
@@ -15,24 +15,23 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcSingleSelect id="lcSingleSelect_eh4_bbb_dt">
-    <lcQuestion>What element contains the actual content of a task topic? (pick one)</lcQuestion>
+    <lcQuestion>How many sets of steps are allowed in a strict task? (pick one)</lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_fh4_bbb_dt">
      <lcAnswerOption>
-      <lcAnswerContent>&lt;body></lcAnswerContent>
+      <lcAnswerContent>None</lcAnswerContent>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>&lt;taskbody></lcAnswerContent>
+      <lcAnswerContent>One</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>&lt;tasktrunk></lcAnswerContent>
+      <lcAnswerContent>More than one</lcAnswerContent>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>&lt;context></lcAnswerContent>
+      <lcAnswerContent>One or more</lcAnswerContent>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect>The &lt;taskbody> element contains the actual content of the task topic.
-    </lcFeedbackIncorrect>
+    <lcFeedbackIncorrect>A strict task must contain exactly one set of steps. </lcFeedbackIncorrect>
    </lcSingleSelect>
   </lcInteraction>
  </learningAssessmentbody>

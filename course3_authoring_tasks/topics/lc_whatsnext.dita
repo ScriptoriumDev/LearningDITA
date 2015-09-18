@@ -31,10 +31,9 @@
             <steps id="steps_ihp_lbq_bt">
                 <step>
                     <cmd>Continue working in the file l_task_start.dita.</cmd>
-                    <info>
-                        <draft-comment author="gretyl">Video showing how to add a &lt;postreq>
-                            element</draft-comment>
-                    </info>
+                    <info><xref href="https://youtu.be/scYD2nY7NMA" format="html" scope="external"
+                            >Video: Strict sequence of finishing elements in a DITA
+                        task</xref></info>
                 </step>
                 <step>
                     <cmd>After the closing tag of the &lt;example> element, add a &lt;postreq>
@@ -81,9 +80,27 @@
                     <info>
                         <pre outputclass="passthru"><![CDATA[
                             <hr />
-                            <h3>title of task</h3>
-                            
-                           <hr />
+                            <h3>Managing change</h3>
+                            <ol>
+                                <li>Demonstrate value to upper management and those in the trenches.</li>
+                                <li>Offer training and knowledge transfer.
+                                    <p><strong>Example:</strong></p>
+                                    <ul>
+                                        <li>Classroom training</li>
+                                        <li>Live web-based training</li>
+                                        <li>Train the trainer</li>
+                                    </ul>
+                                </li>
+                                <li>Differentiate between legitimate issues with the new workflow and reflexive recalcitrance.</li>
+                                <li>Enlist participants in a pilot project to explain process change.</li>
+                            </ol>
+                            <p><strong>Results:</strong></p>
+                            <p>Good management is critical when a company changes workflow; without it, the implementation of new processes will likely fail. Bad management kills implementations, and things can get ugly for everyone involved.</p>
+                            <p><strong>Example:</strong></p>
+                            <p>Without good change management, a percentage of staff who will be dead set against changes on general principle could gain the support of other team members, until almost everyone refuses to use the new system.</p>
+                            <p><strong>What to do next:</strong></p>
+                            <p>When you have managed change successfully, you can start creating useful content in the new system.</p>
+                            <hr />
                             ]]></pre>
                     </info>
                     <info/>

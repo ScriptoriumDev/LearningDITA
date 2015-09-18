@@ -4,7 +4,7 @@
      applicable licenses.-->
 <!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
 <learningAssessment id="assessment_hwg_z1b_dt">
- <title>Taskbody</title>
+ <title>Prereq</title>
  <prolog>
   <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
    Scriptorium</author>
@@ -14,26 +14,29 @@
  </prolog>
  <learningAssessmentbody>
   <lcInteraction>
-   <lcSingleSelect id="lcSingleSelect_eh4_bbb_dt">
-    <lcQuestion>What element contains the actual content of a task topic? (pick one)</lcQuestion>
+   <lcMultipleSelect id="lcSingleSelect_eh4_bbb_dt">
+    <lcQuestion>The &lt;prereq> element is for... (pick all that apply)</lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_fh4_bbb_dt">
      <lcAnswerOption>
-      <lcAnswerContent>&lt;body></lcAnswerContent>
+      <lcAnswerContent>Providing background information</lcAnswerContent>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>&lt;taskbody></lcAnswerContent>
+      <lcAnswerContent>Listing items needed to complete the task</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>&lt;tasktrunk></lcAnswerContent>
+      <lcAnswerContent>Naming previous tasks that must be completed first</lcAnswerContent>
+      <lcCorrectResponse/>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>&lt;context></lcAnswerContent>
+      <lcAnswerContent>Providing prerequisite information</lcAnswerContent>
+      <lcCorrectResponse/>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect>The &lt;taskbody> element contains the actual content of the task topic.
-    </lcFeedbackIncorrect>
-   </lcSingleSelect>
+    <lcFeedbackIncorrect>The &lt;prereq> element is for listing items needed, providing prerequisite
+     information, or naming previous tasks that must be completed before beginning the current
+     task.</lcFeedbackIncorrect>
+   </lcMultipleSelect>
   </lcInteraction>
  </learningAssessmentbody>
 </learningAssessment>

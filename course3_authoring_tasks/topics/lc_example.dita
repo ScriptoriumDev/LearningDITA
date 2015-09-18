@@ -24,10 +24,8 @@
             <steps id="steps_pzh_d3k_bt">
                 <step>
                     <cmd>Continue working in the file l_task_start.dita.</cmd>
-                    <info>
-                        <draft-comment author="gretyl">Video showing differences between
-                            &lt;example> and &lt;stepxmp></draft-comment>
-                    </info>
+                    <info><xref href="https://youtu.be/kQS7FCSLJ7E" format="html" scope="external"
+                            >Video: Adding an example in a DITA task</xref></info>
                 </step>
                 <step>
                     <cmd>After the closing tag of the &lt;result> element, add a &lt;example>

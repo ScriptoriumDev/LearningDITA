@@ -12,5 +12,15 @@
   <topicref href="../topics/lc_results.dita"/>
   <topicref href="../topics/lc_example.dita"/>
   <topicref href="../topics/lc_whatsnext.dita"/>
+  <topicref href="../topics/lcc_assessment.dita" copy-to="lcc_steps.dita" locktitle="yes">
+   <topicmeta>
+    <navtitle>Assessment for Finishing up the task</navtitle>
+   </topicmeta>
+   <topicref href="../assessments/finishing/lca_sequence.dita"/>
+   <topicref href="../assessments/finishing/lca_result.dita"/>
+   <topicref href="../assessments/finishing/lca_postreq.dita"/>
+   <topicref href="../assessments/finishing/lca_example.dita"/>
+   <topicref href="../assessments/finishing/lca_elements.dita"/>
+  </topicref>
  </topicref>
 </map>

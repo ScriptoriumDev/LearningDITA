@@ -4,7 +4,7 @@
      applicable licenses.-->
 <!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
 <learningAssessment id="assessment_hwg_z1b_dt">
- <title>Taskbody</title>
+ <title>Choices</title>
  <prolog>
   <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
    Scriptorium</author>
@@ -14,25 +14,26 @@
  </prolog>
  <learningAssessmentbody>
   <lcInteraction>
-   <lcSingleSelect id="lcSingleSelect_eh4_bbb_dt">
-    <lcQuestion>What element contains the actual content of a task topic? (pick one)</lcQuestion>
-    <lcAnswerOptionGroup id="lcAnswerOptionGroup_fh4_bbb_dt">
+   <lcSingleSelect id="single_select_choices">
+    <lcQuestion>When would it make the most sense to use the &lt;choices> element? (pick
+     one)</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_mpk_w5b_kt">
      <lcAnswerOption>
-      <lcAnswerContent>&lt;body></lcAnswerContent>
+      <lcAnswerContent>When the choices are very complex.</lcAnswerContent>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>&lt;taskbody></lcAnswerContent>
+      <lcAnswerContent>When the choices require specific keywords.</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>When the choices require extended definitions.</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>When the choices only require brief descriptions.</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
-     <lcAnswerOption>
-      <lcAnswerContent>&lt;tasktrunk></lcAnswerContent>
-     </lcAnswerOption>
-     <lcAnswerOption>
-      <lcAnswerContent>&lt;context></lcAnswerContent>
-     </lcAnswerOption>
     </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect>The &lt;taskbody> element contains the actual content of the task topic.
-    </lcFeedbackIncorrect>
+    <lcFeedbackIncorrect>The &lt;choices> element is best suited to choices that only require brief
+     descriptions.</lcFeedbackIncorrect>
    </lcSingleSelect>
   </lcInteraction>
  </learningAssessmentbody>

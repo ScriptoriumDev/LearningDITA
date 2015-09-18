@@ -4,7 +4,7 @@
      applicable licenses.-->
 <!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
 <learningAssessment id="assessment_hwg_z1b_dt">
- <title>Taskbody</title>
+ <title>Nesting</title>
  <prolog>
   <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
    Scriptorium</author>
@@ -14,26 +14,19 @@
  </prolog>
  <learningAssessmentbody>
   <lcInteraction>
-   <lcSingleSelect id="lcSingleSelect_eh4_bbb_dt">
-    <lcQuestion>What element contains the actual content of a task topic? (pick one)</lcQuestion>
-    <lcAnswerOptionGroup id="lcAnswerOptionGroup_fh4_bbb_dt">
+   <lcTrueFalse id="true_false_substeps">
+    <lcQuestion>You can add a set of substeps to another set of substeps.</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_z3n_kwb_kt">
      <lcAnswerOption>
-      <lcAnswerContent>&lt;body></lcAnswerContent>
+      <lcAnswerContent>True</lcAnswerContent>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>&lt;taskbody></lcAnswerContent>
+      <lcAnswerContent>False</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
-     <lcAnswerOption>
-      <lcAnswerContent>&lt;tasktrunk></lcAnswerContent>
-     </lcAnswerOption>
-     <lcAnswerOption>
-      <lcAnswerContent>&lt;context></lcAnswerContent>
-     </lcAnswerOption>
     </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect>The &lt;taskbody> element contains the actual content of the task topic.
-    </lcFeedbackIncorrect>
-   </lcSingleSelect>
+    <lcFeedbackIncorrect>You can only add a set of substeps to a step.</lcFeedbackIncorrect>
+   </lcTrueFalse>
   </lcInteraction>
  </learningAssessmentbody>
 </learningAssessment>

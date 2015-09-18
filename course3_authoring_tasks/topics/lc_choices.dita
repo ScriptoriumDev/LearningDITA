@@ -91,6 +91,11 @@
             </simpletable>
             <draft-comment author="gretyl">Should we consider splitting up the &lt;choices> and
                 &lt;choicetable> elements into two topics?</draft-comment>
+            <draft-comment author="gretyl">If we do split &lt;choicetable> into its own topic,
+                should we also split up this lesson into two? (the first lesson ending with the
+                &lt;choicetable> topic and the next lesson beginning with the "getting more
+                detailed" topic) I made four videos and ten assessment questions for this lesson in
+                case we decide to split it up.</draft-comment>
         </lcInstruction>
     </learningContentbody>
     <task id="task_pcm_2dc_bt">
@@ -168,10 +173,11 @@
 &lt;/step>
 </pre>
                     </stepxmp>
-                    <info>
-                        <draft-comment author="gretyl">Video showing how to use oXygen's choicetable
-                            wizard/how it compares with simpletable</draft-comment>
-                    </info>
+                    <info><xref href="https://youtu.be/nBua0_PDfFA" format="html" scope="external"
+                            >Video: Creating a choicetable in a DITA task</xref><note>This video
+                            shows how to use <xref href="http://www.oxygenxml.com/" format="html"
+                                scope="external">oXygen XML Editor</xref>'s choicetable
+                            wizard.</note></info>
                 </step>
                 <step>
                     <cmd>After the &lt;cmd> element, add a &lt;choicetable> element and all its

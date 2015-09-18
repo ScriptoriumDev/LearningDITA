@@ -53,10 +53,11 @@
 &lt;/step>
 </pre>
                     </stepxmp>
-                    <info>
-                        <draft-comment author="gretyl">Video showing how to add substeps to a
-                            step</draft-comment>
-                    </info>
+                    <info>You can have one or more &lt;substeps> elements inside the &lt;step>
+                        element. However, these &lt;substeps> elements cannot be nexted inside each
+                        other—they can only be added in sequence at the same level.</info>
+                    <info><xref href="https://youtu.be/1HDXrdB5y4w" format="html" scope="external"
+                            >Video: Adding substeps in a DITA task</xref></info>
                 </step>
                 <step id="step_a4r_444_ft">
                     <cmd>If your editor doesn't automatically add the &lt;substep> element and
@@ -87,6 +88,10 @@
 &lt;/step>
 </pre>
                     </stepxmp>
+                    <info>You can add the same optional elements inside a &lt;substep> element that
+                        you can add inside a &lt;step> element, such as the &lt;info> element.
+                        However, you cannot add a &lt;substeps> element inside a &lt;substep>
+                        element.</info>
                 </step>
                 <step>
                     <cmd>After the closing tag of the &lt;substep> element, add two more
