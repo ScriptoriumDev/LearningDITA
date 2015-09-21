@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_xyj_ddc_bt">
     <title>Giving the user choices</title>
@@ -11,13 +14,88 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>As part of giving a reader an instruction, there may be more than one way to do
-                things. For example, when using an auto stereo system, the user has the choice of
+            <p>As part of giving a reader an instruction, there may be more than one option for the
+                reader. For example, when using an auto stereo system, the user has the choice of
                 which mode to use (AM, FM, CD, line-in, and so on). </p>
             <p>To present this information, and to give it a semantically appropriate label, you can
                 use the &lt;choices> or &lt;choicetable> elements. Both present choices: use
                 &lt;choices> when the choices only require a brief description; use &lt;choicetable>
                 when you need to provide specific keywords, along with an extended description.  </p>
+            <p>The elements contained in the &lt;choicetable> element include:</p>
+            <simpletable frame="all" relcolwidth="1.0* 1.0*" id="simpletable_rwy_l3n_2t">
+                <strow>
+                    <stentry>
+                        <p>&lt;chhead></p>
+                    </stentry>
+                    <stentry>
+                        <p>The container element for the header row of a &lt;choicetable> element.
+                            The &lt;chhead> element contains the &lt;choptionhd> and &lt;chdeschd>
+                            elements and is optional. There can only be one &lt;chhead> element in a
+                            &lt;choicetable> element.</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;choptionhd></p>
+                    </stentry>
+                    <stentry>
+                        <p>The container element for the option cell in the header row of a
+                            &lt;choicetable> element. The &lt;choptionhd> element contains the
+                            option text, which should be wrapped in a &lt;p> element according to
+                            best practice.</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;chdeschd></p>
+                    </stentry>
+                    <stentry>
+                        <p>The container element for the description cell in the header row of a
+                            &lt;choicetable> element. The &lt;chdeschd> element contains the
+                            description text, which should be wrapped in a &lt;p> element according
+                            to best practice.</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;chrow></p>
+                    </stentry>
+                    <stentry>
+                        <p>The container element for a row in a &lt;choicetable> element. The
+                            &lt;chrow> element contains the &lt;choption> and &lt;chdesc> elements.
+                            There can be one or more &lt;chrow> elements in a &lt;choicetable>
+                            element.</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;choption></p>
+                    </stentry>
+                    <stentry>
+                        <p>The container element for the option cell in a row of a &lt;choicetable>
+                            element. The &lt;choption> element contains the option text, which
+                            should be wrapped in a &lt;p> element according to best practice.</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;chdesc></p>
+                    </stentry>
+                    <stentry>
+                        <p>The container element for the description cell in a row of a
+                            &lt;choicetable> element. The &lt;chdesc> element contains the
+                            description text, which should be wrapped in a &lt;p> element according
+                            to best practice.</p>
+                    </stentry>
+                </strow>
+            </simpletable>
+            <draft-comment author="gretyl">Should we consider splitting up the &lt;choices> and
+                &lt;choicetable> elements into two topics?</draft-comment>
+            <draft-comment author="gretyl">If we do split &lt;choicetable> into its own topic,
+                should we also split up this lesson into two? (the first lesson ending with the
+                &lt;choicetable> topic and the next lesson beginning with the "getting more
+                detailed" topic) I made four videos and ten assessment questions for this lesson in
+                case we decide to split it up.</draft-comment>
         </lcInstruction>
     </learningContentbody>
     <task id="task_pcm_2dc_bt">
@@ -25,83 +103,88 @@
         <taskbody>
             <steps id="steps_qjd_3fc_bt">
                 <step>
-                    <note>These steps resume the example that runs continuously through this course.
-                        In the first step here the complete task topic is shown; in subsequent
-                        steps, only the elements central to the discussion will be shown. </note>
-                    <cmd>In the example task topic, add a new &lt;step> element after the last
-                        &lt;step> element. Inside the &lt;step>, create a &lt;cmd> element (if one
-                        isn’t created for you).  Add the content shown here to the &lt;cmd>
-                        element:</cmd>
+                    <cmd>Continue working in the file l_task_start.dita.</cmd>
+                </step>
+                <step>
+                    <!--<note>These steps resume the example that runs continuously through this course. In the first step here the complete task topic is shown; in subsequent steps, only the elements central to the discussion will be shown. </note>-->
+                    <cmd>After the closing tag of the first &lt;step> element, add a new &lt;step>
+                        element. Inside the &lt;step>, create a &lt;cmd> element (if one isn’t
+                        created for you). Add the content shown here to the &lt;cmd> element:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-&lt;task id="task_topic">
-   &lt;title>&lt;/title>
-   &lt;taskbody>
-      &lt;prereq>
-      &lt;/prereq>
-      &lt;context>
-      &lt;/context>
-      &lt;steps>
-         &lt;step>
-            &lt;cmd>(Text TBD)&lt;/cmd>
-            &lt;info>&lt;p>(Text TBD)&lt;/p>&lt;/info>
+&lt;task id="my_first_task">
+   ...
          &lt;/step>
          &lt;step>
-            &lt;cmd>(Text TBD)&lt;/cmd>
+            &lt;cmd>Pick a field guide to identify the ducks.&lt;/cmd>
          &lt;/step>
       &lt;/steps>
    &lt;/taskbody>
 &lt;/task></pre>
                     </stepxmp>
                 </step>
-                <step>
+                <step id="step_dd4_244_ft">
                     <cmd>After the new &lt;cmd> element, add a &lt;choices> element. </cmd>
-                    <info>If your editor does not automatically add a first &lt;choice> element
-                        inside the &lt;choices> element, add one now.</info>
                     <stepxmp>
                         <pre>&lt;step>
-   &lt;cmd>(TEXT TBD)&lt;/cmd>
+   &lt;cmd>Pick a field guide to identify the ducks.&lt;/cmd>
    &lt;choices>
-      &lt;choice>(TEXT TBD)&lt;/choice>
    &lt;/choices>
 &lt;/step>
 </pre>
                     </stepxmp>
-                    <info>Most DITA output generators render a &lt;choices> element as a bulleted
-                        list. </info>
+                </step>
+                <step id="step_ed4_244_ft">
+                    <cmd>If your editor does not automatically add a first &lt;choice> element
+                        inside the &lt;choices> element, add one now.</cmd>
+                    <stepxmp>
+                        <pre>&lt;step>
+   &lt;cmd>Pick a field guide to identify the ducks.&lt;/cmd>
+   &lt;choices>
+      &lt;choice>Many modern duck watchers rely on the Sibley guide&lt;/choice>
+   &lt;/choices>
+&lt;/step>
+</pre>
+                    </stepxmp>
+                    <info>By default, most DITA output generators render a &lt;choices> element as a
+                        bulleted list.</info>
                 </step>
                 <step>
-                    <cmd>Add additional &lt;choice> elements.</cmd>
+                    <cmd>Add an additional &lt;choice> element.</cmd>
                     <stepxmp>
                         <pre>&lt;step>
-   &lt;cmd>(TEXT TBD)&lt;/cmd>
+   &lt;cmd>Pick a field guide to identify the ducks.&lt;/cmd>
    &lt;choices>
-      &lt;choice>(TEXT TBD)&lt;/choice>
-      &lt;choice>(TEXT TBD)&lt;/choice>
-      &lt;choice>(TEXT TBD)&lt;/choice>
+      &lt;choice>Many modern duck watchers rely on the Sibley guide&lt;/choice>
+      &lt;choice>A traditional favorite is the Peterson guide &lt;/choice>
    &lt;/choices>
 &lt;/step>
 </pre>
                     </stepxmp>
                 </step>
-                <stepsection>The choice table is a two-column table that allows you to document one
+                <stepsection>The choice table is a two-column table that allows you to describe one
                     or more choice options and descriptions.</stepsection>
                 <step>
                     <cmd>Create a new step with a &lt;cmd> element and text as shown here:</cmd>
                     <stepxmp>
                         <pre>&lt;step>
-   &lt;cmd>(TEXT TBD)&lt;/cmd>
+   &lt;cmd>Find some good optics&lt;/cmd>
 &lt;/step>
 </pre>
                     </stepxmp>
+                    <info><xref href="https://youtu.be/nBua0_PDfFA" format="html" scope="external"
+                            >Video: Creating a choicetable in a DITA task</xref><note>This video
+                            shows how to use <xref href="http://www.oxygenxml.com/" format="html"
+                                scope="external">oXygen XML Editor</xref>'s choicetable
+                            wizard.</note></info>
                 </step>
                 <step>
                     <cmd>After the &lt;cmd> element, add a &lt;choicetable> element and all its
                         child elements:</cmd>
                     <stepxmp>
                         <pre>&lt;step>
-   &lt;cmd>(TEXT TBD)&lt;/cmd>
+   &lt;cmd>Find some good optics&lt;/cmd>
    &lt;choicetable>
 <ph outputclass="newchanged">     &lt;chrow>
          &lt;choption/>
@@ -129,7 +212,7 @@
                         children, as shown here.</cmd>
                     <stepxmp>
                         <pre>&lt;step>
-   &lt;cmd>(TEXT TBD)&lt;/cmd>
+   &lt;cmd>Find some good optics&lt;/cmd>
    &lt;choicetable>
 <ph outputclass="newchanged">     &lt;chhead>
          &lt;choptionhd/>
@@ -144,8 +227,57 @@
 &lt;/step>
 </pre>
                     </stepxmp>
-                    <info>The &lt;choptionhd> provides a head for the option column; the
-                        &lt;chdeschd> provides a head for the description column. </info>
+                    <info>The &lt;choptionhd> provides a heading for the option column; the
+                        &lt;chdeschd> provides a heading for the description column. </info>
+                </step>
+                <step>
+                    <cmd>Add content to the &lt;chhead> element and its child elements, as shown
+                        here.</cmd>
+                    <stepxmp>
+                        <pre>...
+&lt;chhead>
+   &lt;choptionhd>
+      &lt;p>Type&lt;/p>
+   &lt;/choptionhd>
+   &lt;chdeschd>
+      &lt;p>Advantages&lt;/p>
+   &lt;/chdeschd>
+&lt;/chhead>
+...</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Add content to the &lt;chrow> element and its child elements, as shown
+                        here.</cmd>
+                    <stepxmp>
+                        <pre>...
+&lt;chrow>
+   &lt;choption>
+      &lt;p>Binoculars&lt;/p>
+   &lt;/choption>
+   &lt;chdesc>
+      &lt;p>Wide field of view, allows quick observations&lt;/p>
+   &lt;/chdesc>
+&lt;/chrow>...</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>After the closing tag of the &lt;chrow> element, add another &lt;chrow>
+                        element and add content to it as shown here.</cmd>
+                    <stepxmp>
+                        <pre>&lt;choicetable>
+...
+&lt;/chrow>
+&lt;chrow>
+   &lt;choption>
+      &lt;p>Spotting scope&lt;/p>
+   &lt;/choption>
+   &lt;chdesc>
+      &lt;p>Higher magnification, better light-gathering&lt;/p>
+   &lt;/chdesc>
+&lt;/chrow>
+&lt;/choicetable></pre>
+                    </stepxmp>
                 </step>
             </steps>
         </taskbody>

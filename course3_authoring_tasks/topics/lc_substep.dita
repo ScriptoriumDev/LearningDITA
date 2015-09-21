@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_mp3_t3d_bt">
     <title>Getting more detailed</title>
@@ -29,23 +32,82 @@
         <taskbody>
             <steps id="steps_ohz_bjd_bt">
                 <step>
+                    <cmd>Continue working in the file l_task_start.dita.</cmd>
+                </step>
+                <step>
                     <cmd>After the last &lt;step> element, create a new &lt;step> element,
                         containing a &lt;cmd> element and the text shown here. </cmd>
                     <stepxmp>
-                        <pre>&lt;step>&lt;cmd>TEXT TBD&lt;/cmd>
+                        <pre>&lt;step>&lt;cmd>Go watch some birds.&lt;/cmd>
 &lt;/step></pre>
                     </stepxmp>
                 </step>
-                <step>
-                    <cmd>After the &lt;cmd> element, add a &lt;substeps> element. </cmd>
-                    <info>If your editor doesn't automatically add &lt;substep> and nested &lt;cmd>
-                        elements, add them.</info>
+                <step id="step_znr_444_ft">
+                    <cmd>After the closing tag of the &lt;cmd> element, add a &lt;substeps>
+                        element.</cmd>
                     <stepxmp>
                         <pre>&lt;step>
-    &lt;cmd/>
+    &lt;cmd>Go watch some birds.&lt;/cmd>
+    &lt;substeps>
+    &lt;/substeps>
+&lt;/step>
+</pre>
+                    </stepxmp>
+                    <info>You can have one or more &lt;substeps> elements inside the &lt;step>
+                        element. However, these &lt;substeps> elements cannot be nexted inside each
+                        other—they can only be added in sequence at the same level.</info>
+                    <info><xref href="https://youtu.be/1HDXrdB5y4w" format="html" scope="external"
+                            >Video: Adding substeps in a DITA task</xref></info>
+                </step>
+                <step id="step_a4r_444_ft">
+                    <cmd>If your editor doesn't automatically add the &lt;substep> element and
+                        nested &lt;cmd> elements inside the &lt;substeps> element, add them.</cmd>
+                    <stepxmp>
+                        <pre>&lt;step>
+    &lt;cmd>Go watch some birds.&lt;/cmd>
     &lt;substeps>
         &lt;substep>
             &lt;cmd/>
+        &lt;/substep>
+    &lt;/substeps>
+&lt;/step>
+</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Add content to the &lt;cmd> element inside the &lt;substep> element as
+                        shown here.</cmd>
+                    <stepxmp>
+                        <pre>&lt;step>
+    &lt;cmd>Go watch some birds.&lt;/cmd>
+    &lt;substeps>
+        &lt;substep>
+            &lt;cmd>Walk around&lt;/cmd>
+        &lt;/substep>
+    &lt;/substeps>
+&lt;/step>
+</pre>
+                    </stepxmp>
+                    <info>You can add the same optional elements inside a &lt;substep> element that
+                        you can add inside a &lt;step> element, such as the &lt;info> element.
+                        However, you cannot add a &lt;substeps> element inside a &lt;substep>
+                        element.</info>
+                </step>
+                <step>
+                    <cmd>After the closing tag of the &lt;substep> element, add two more
+                        &lt;substep> elements and add content to them as shown here.</cmd>
+                    <stepxmp>
+                        <pre>&lt;step>
+    &lt;cmd>Go watch some birds.&lt;/cmd>
+    &lt;substeps>
+        &lt;substep>
+            &lt;cmd>Walk around&lt;/cmd>
+        &lt;/substep>
+        &lt;substep>
+            &lt;cmd>When you see one, stop&lt;/cmd>
+        &lt;/substep>
+        &lt;substep>
+            &lt;cmd>Identify it&lt;/cmd>
         &lt;/substep>
     &lt;/substeps>
 &lt;/step>

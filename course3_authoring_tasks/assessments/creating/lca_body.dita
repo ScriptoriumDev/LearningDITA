@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
 <!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
 <learningAssessment id="assessment_hwg_z1b_dt">
  <title>Taskbody</title>
@@ -19,6 +22,7 @@
      </lcAnswerOption>
      <lcAnswerOption>
       <lcAnswerContent>&lt;taskbody></lcAnswerContent>
+      <lcCorrectResponse/>
      </lcAnswerOption>
      <lcAnswerOption>
       <lcAnswerContent>&lt;tasktrunk></lcAnswerContent>
@@ -30,19 +34,6 @@
     <lcFeedbackIncorrect>The &lt;taskbody> element contains the actual content of the task topic.
     </lcFeedbackIncorrect>
    </lcSingleSelect>
-   <lcTrueFalse id="link8">
-    <lcQuestion>Template question.</lcQuestion>
-    <lcAnswerOptionGroup id="lcAnswerOptionGroup_nkd_1bb_dt">
-     <lcAnswerOption>
-      <lcAnswerContent>False</lcAnswerContent>
-      <lcCorrectResponse/>
-     </lcAnswerOption>
-     <lcAnswerOption>
-      <lcAnswerContent>True</lcAnswerContent>
-     </lcAnswerOption>
-    </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect>Template question.</lcFeedbackIncorrect>
-   </lcTrueFalse>
   </lcInteraction>
  </learningAssessmentbody>
 </learningAssessment>

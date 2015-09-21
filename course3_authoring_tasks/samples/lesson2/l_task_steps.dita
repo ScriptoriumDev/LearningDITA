@@ -16,10 +16,12 @@
         <steps>
             <step>
                 <cmd>Choose a location to watch ducks.</cmd>
-                <info>Generally, ducks are found in wild locations, near water. </info>
+                <info>
+                    <p>Generally, ducks are found in wild locations, near water.</p>
+                </info>
             </step>
             <step>
-                <cmd>Pick a field guide to identify the ducks. </cmd>
+                <cmd>Pick a field guide to identify the ducks.</cmd>
                 <choices id="choices_z5d_2mc_bt">
                     <choice>Many modern duck watchers rely on the Sibley guide</choice>
                     <choice>A traditional favorite is the Peterson guide </choice>
@@ -29,16 +31,28 @@
                 <cmd>Find some good optics</cmd>
                 <choicetable frame="all" relcolwidth="1.0* 1.0*" id="choicetable_bwc_czc_bt">
                     <chhead>
-                        <choptionhd>Type</choptionhd>
-                        <chdeschd>Advantages</chdeschd>
+                        <choptionhd>
+                            <p>Type</p>
+                        </choptionhd>
+                        <chdeschd>
+                            <p>Advantages</p>
+                        </chdeschd>
                     </chhead>
                     <chrow>
-                        <choption>Binoculars</choption>
-                        <chdesc>Wide field of view, allows quick observations</chdesc>
+                        <choption>
+                            <p>Binoculars</p>
+                        </choption>
+                        <chdesc>
+                            <p>Wide field of view, allows quick observations</p>
+                        </chdesc>
                     </chrow>
                     <chrow>
-                        <choption>Spotting scope</choption>
-                        <chdesc>Higher magnification, better light-gathering</chdesc>
+                        <choption>
+                            <p>Spotting scope</p>
+                        </choption>
+                        <chdesc>
+                            <p>Higher magnification, better light-gathering</p>
+                        </chdesc>
                     </chrow>
                 </choicetable>
             </step>
@@ -49,7 +63,7 @@
                         <cmd>Walk around</cmd>
                     </substep>
                     <substep>
-                        <cmd>When you see one stop</cmd>
+                        <cmd>When you see one, stop</cmd>
                     </substep>
                     <substep>
                         <cmd>Identify it</cmd>
@@ -65,8 +79,8 @@
 ☐ Ruddy
 ☐ Wood</lines>
                 </stepxmp>
-                <stepresult>You’ll now have a record you can keep for the rest of your
-                    life.</stepresult>
+                <stepresult><p>You’ll now have a record you can keep for the rest of your
+                    life.</p></stepresult>
             </step>
             <stepsection>Once you’ve identified the duck, you can spend some time noting its
                 behavior.</stepsection>
@@ -77,21 +91,5 @@
                     when they preen.</cmd>
             </step>
         </steps>
-        <result>
-            <p>The fresh air, exercise, and thrill of seeing wild ducks should give you an enhanced
-                feeling of well-being.</p>
-        </result>
-        <example>
-            <p>Don’t expect this kind of behavior: <xref href="http://dai.ly/x2j6pt1" format="html"
-                    scope="external">Duck Amuck</xref>
-            </p>
-            <!--Could also use: https://youtu.be/nAA3DCEkVHs-->
-        </example>
-        <postreq>
-            <ul id="ul_rp1_klj_bt">
-                <li>Watch the ducks again with a camera</li>
-                <li>Go look for other birds</li>
-            </ul>
-        </postreq>
     </taskbody>
 </task>

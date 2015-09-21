@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_hrm_xjh_1t">
     <title>Creating a new task topic</title>
@@ -26,18 +29,17 @@
         <taskbody>
             <steps id="steps_f5k_kkh_1t">
                 <step>
-                    <cmd>Make a copy of the file task_sample_1.dita and open it in your
-                        editor.</cmd>
+                    <cmd>Make a copy of the file l_task_start.dita and open it in your editor.</cmd>
                     <info>
                         <note>If you are using a DITA-aware text editor, make sure you are in text
-                            mode, rather than Author or visual mode. </note>
+                            mode, rather than author or visual mode. </note>
                     </info>
                     <stepxmp>
                         <p>You should see this:</p>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 &lt;task id="my_first_task">
-   &lt;title>&lt;/title>
+   &lt;title>xyz&lt;/title>
 
 &lt;/task></pre>
                     </stepxmp>
@@ -49,7 +51,11 @@
                             programs then use that information when validating the content of the
                             topic. The DOCTYPE will be different for each topic type that you create
                             (including the general task). </p>
+                        <p>The third line contains the opening tag of the &lt;task> element.</p>
+                        <p>The fourth line contains the title element.</p>
                     </info>
+                    <info><xref href="https://youtu.be/7E7RYKHQ6C4" format="html" scope="external"
+                            >Video: Creating a DITA task topic</xref></info>
                 </step>
                 <!--<step><cmd>Depending on the editor you are using: </cmd><choices id="choices_uy2_lkh_1t"><choice><p><b>DITA-aware editor</b>: Use the File > New... command to create a new task topic. Make sure you don't use the general task. </p></choice><choice><p><b>Text editor</b>: Create a new file that contains this text:</p><pre>&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 &lt;task id="my_first_task">
@@ -57,7 +63,7 @@
 &lt;/task></pre></choice><choice><p><b>Samples</b>: Make a copy of the file 1_new_task.dita and open it in your editor.</p></choice></choices></step>-->
                 <!--<step><cmd>If you are using a DITA-aware editor, switch to text view.</cmd><info>A DITA-aware editor will often create a </info></step>-->
                 <step>
-                    <cmd>Inside the &lt;title> element, add the task title.</cmd>
+                    <cmd>Inside the &lt;title> element, update the text of the task title.</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
@@ -68,8 +74,8 @@
                     </stepxmp>
                 </step>
                 <step>
-                    <cmd>After the &lt;title>, add a &lt;taskbody> element.</cmd>
-                    <info>The &lt;taskbody> contains all the actual content in the task. </info>
+                    <cmd>After the &lt;title> element, add a &lt;taskbody> element.</cmd>
+                    <info>The &lt;taskbody> element contains all the actual content in the task. </info>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
@@ -80,48 +86,9 @@
    &lt;/taskbody></ph>
 &lt;/task></pre>
                     </stepxmp>
-                    <info>This is the essential part of a DITA strict task topic. The two remaining
-                        steps in this unit add the first two child elements to the &lt;taskbody>
-                        element.</info>
-                </step>
-                <step>
-                    <cmd>Inside the &lt;taskbody> element, add a &lt;prereq> element.</cmd>
-                    <info>The &lt;prereq> element lists prerequisites to perform the task. These
-                        prerequisites can include (but is not limited to):<ul id="ul_glj_1pb_bt">
-                            <li>Things the reader must have in hand</li>
-                            <li>Information the reader must have</li>
-                            <li>Previous tasks the reader must have accomplished</li>
-                        </ul></info>
-                    <stepxmp><p>(The next two examples only show the contents of the &lt;taskbody>
-                            element; the other task elements are there, they’re just not shown, for
-                            clarity.)</p><pre>&lt;taskbody>
-<ph outputclass="newchanged">   &lt;prereq>
-         &lt;p>Before you go watching wild ducks, make sure you know what a wild duck looks like.&lt;/p>
-   &lt;/prereq></ph>
-
-&lt;/taskbody></pre></stepxmp>
-                </step>
-                <step>
-                    <cmd>After the &lt;prereq> element, add a &lt;context> element.</cmd>
-                    <info>The &lt;context> element describes the purpose of the task.  This can
-                        include background information or what the user will gain by performing the
-                        task. The &lt;context> should be relatively brief; if you need to provide
-                        more detailed background information, consider creating a concept topic. </info>
-                    <stepxmp>
-                        <pre>&lt;taskbody>
-   &lt;prereq>
-         &lt;p>Before you go watching wild ducks, make sure you know what a wild duck looks like.&lt;/p>
-   &lt;/prereq>
-<ph outputclass="newchanged">   &lt;context>
-      &lt;p>Watching wild ducks can be calming and recreational. &lt;/p>
-      &lt;p>Read this to learn more about what you need to have a satisfying duck-watching
-         experience.   &lt;/p>
-   &lt;/context></ph>
-
-&lt;/taskbody></pre>
-                    </stepxmp>
-                    <info>At this point, the task has a title, a set of prerequisites, and a
-                        context. The next lesson covers how to add the actual steps to the task. </info>
+                    <info>This is the essential part of a DITA strict task topic. The rest of this
+                        lesson will show you how to add the first two child elements to the
+                        &lt;taskbody> element.</info>
                 </step>
             </steps>
         </taskbody>
