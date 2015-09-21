@@ -5,13 +5,6 @@
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_hrm_xjh_1t">
     <title>Creating a new task topic</title>
-    <prolog>
-        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
-            Scriptorium</author>
-        <critdates>
-            <created date="2015-08-12"/>
-        </critdates>
-    </prolog>
     <learningContentbody>
         <lcInstruction>
             <p>The minimal DITA task topic is much like the minimal topic discussed in previous
@@ -20,8 +13,8 @@
             <p>Following the &lt;title> element and an optional &lt;shortdesc> element, use a
                 &lt;taskbody> element to contain the task content. </p>
             <p>Within the &lt;taskbody> the elements in a strict task conform to a very specific
-                order. The elements in the &lt;taskbody> are presented in this course in the order
-                in which they occur. </p>
+                order. This course presents the elements of the &lt;taskbody> in the order in which
+                they must occur. </p>
         </lcInstruction>
     </learningContentbody>
     <task id="task_i3g_jkh_1t">
@@ -87,7 +80,7 @@
 &lt;/task></pre>
                     </stepxmp>
                     <info>This is the essential part of a DITA strict task topic. The rest of this
-                        lesson will show you how to add the first two child elements to the
+                        lesson shows you how to add the first two child elements to the
                         &lt;taskbody> element.</info>
                 </step>
             </steps>
