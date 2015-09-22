@@ -32,11 +32,12 @@
             <p>When output is generated from the task topic, the steps usually take the form of a
                 numbered list. The actual text that is used to identify each step (whether it’s
                 simply the number and some punctuation, or the word “Step” followed by a number) is
-                up to the transform implementation. When you're authoring a step, most DITA-savvy
-                editors will display step numbers beside each step.</p>
+                up to the transform implementation. When you're authoring a step, most DITA editors
+                will display step numbers beside each step.</p>
             <p>DITA also allows you to create an unordered list for the steps, with the
-                &lt;steps-unordered> element. For more information about this element,  see the DITA
-                specification. </p>
+                &lt;steps-unordered> element. For more information about this element, see the <xref
+                    href="http://docs.oasis-open.org/dita/v1.2/os/spec/DITA1.2-spec.html"
+                    format="html" scope="external">DITA Specification</xref>. </p>
         </lcInstruction>
     </learningContentbody>
     <related-links/>

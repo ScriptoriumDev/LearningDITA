@@ -28,13 +28,6 @@
         <lcIntro>
             <p>This lesson shows how to create a new task topic and how to add the first common
                 elements found in a task topic. </p>
-            <p>The DITA specification defines two types of task topics: a strict task and a general
-                task. The strict task only allows one set of steps and requires that those steps be
-                a formally structured list. The general task allows multiple sets of steps and
-                allows for more informal steps. There are other differences, but these are the main
-                ones. <draft-comment author="gretyl">Should we go into more detail about what those
-                    other differences are? Or say a bit more about general tasks here since the rest
-                    of the course focuses on strict tasks?</draft-comment></p>
         </lcIntro>
     </learningContentbody>
     <related-links/>

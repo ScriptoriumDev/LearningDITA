@@ -17,80 +17,23 @@
             <p>As part of giving a reader an instruction, there may be more than one option for the
                 reader. For example, when using an auto stereo system, the user has the choice of
                 which mode to use (AM, FM, CD, line-in, and so on). </p>
-            <p>To present this information, and to give it a semantically appropriate label, you can
-                use the &lt;choices> or &lt;choicetable> elements. Both present choices: use
-                &lt;choices> when the choices only require a brief description; use &lt;choicetable>
-                when you need to provide specific keywords, along with an extended description.  </p>
-            <p>The elements contained in the &lt;choicetable> element include:</p>
-            <simpletable frame="all" relcolwidth="1.0* 1.0*" id="simpletable_rwy_l3n_2t">
-                <strow>
-                    <stentry>
-                        <p>&lt;chhead></p>
-                    </stentry>
-                    <stentry>
-                        <p>The container element for the header row of a &lt;choicetable> element.
-                            The &lt;chhead> element contains the &lt;choptionhd> and &lt;chdeschd>
-                            elements and is optional. There can only be one &lt;chhead> element in a
-                            &lt;choicetable> element.</p>
-                    </stentry>
-                </strow>
-                <strow>
-                    <stentry>
-                        <p>&lt;choptionhd></p>
-                    </stentry>
-                    <stentry>
-                        <p>The container element for the option cell in the header row of a
-                            &lt;choicetable> element. The &lt;choptionhd> element contains the
-                            option text, which should be wrapped in a &lt;p> element according to
-                            best practice.</p>
-                    </stentry>
-                </strow>
-                <strow>
-                    <stentry>
-                        <p>&lt;chdeschd></p>
-                    </stentry>
-                    <stentry>
-                        <p>The container element for the description cell in the header row of a
-                            &lt;choicetable> element. The &lt;chdeschd> element contains the
-                            description text, which should be wrapped in a &lt;p> element according
-                            to best practice.</p>
-                    </stentry>
-                </strow>
-                <strow>
-                    <stentry>
-                        <p>&lt;chrow></p>
-                    </stentry>
-                    <stentry>
-                        <p>The container element for a row in a &lt;choicetable> element. The
-                            &lt;chrow> element contains the &lt;choption> and &lt;chdesc> elements.
-                            There can be one or more &lt;chrow> elements in a &lt;choicetable>
-                            element.</p>
-                    </stentry>
-                </strow>
-                <strow>
-                    <stentry>
-                        <p>&lt;choption></p>
-                    </stentry>
-                    <stentry>
-                        <p>The container element for the option cell in a row of a &lt;choicetable>
-                            element. The &lt;choption> element contains the option text, which
-                            should be wrapped in a &lt;p> element according to best practice.</p>
-                    </stentry>
-                </strow>
-                <strow>
-                    <stentry>
-                        <p>&lt;chdesc></p>
-                    </stentry>
-                    <stentry>
-                        <p>The container element for the description cell in a row of a
-                            &lt;choicetable> element. The &lt;chdesc> element contains the
-                            description text, which should be wrapped in a &lt;p> element according
-                            to best practice.</p>
-                    </stentry>
-                </strow>
-            </simpletable>
-            <draft-comment author="gretyl">Should we consider splitting up the &lt;choices> and
-                &lt;choicetable> elements into two topics?</draft-comment>
+            <p>To present this information, and to give it a semantically-appropriate label, you can
+                use the &lt;choices> or &lt;choicetable> elements. Both present choices:  <ul
+                    id="ul_nsn_tqx_kt">
+                    <li>
+                        <p>Use &lt;choices> when the choices only require a brief description.</p>
+                    </li>
+                    <li>
+                        <p>Use &lt;choicetable> (detailed in the next topic) when you need to
+                            provide specific keywords, along with an extended description of each.
+                        </p>
+                    </li>
+                </ul></p>
+            <p>The &lt;choices> element is usually presented as a bulleted list. In fact, the
+                structure of the &lt;choices> element is like a &lt;ul> element: the &lt;choices>
+                element contains one or more &lt;choice> elements. Each &lt;choice> element presents
+                one of the options for the reader. The content of the &lt;choice> element is any
+                element that can be used inside an &lt;li> element.</p>
             <draft-comment author="gretyl">If we do split &lt;choicetable> into its own topic,
                 should we also split up this lesson into two? (the first lesson ending with the
                 &lt;choicetable> topic and the next lesson beginning with the "getting more
@@ -161,122 +104,6 @@
    &lt;/choices>
 &lt;/step>
 </pre>
-                    </stepxmp>
-                </step>
-                <stepsection>The choice table is a two-column table that allows you to describe one
-                    or more choice options and descriptions.</stepsection>
-                <step>
-                    <cmd>Create a new step with a &lt;cmd> element and text as shown here:</cmd>
-                    <stepxmp>
-                        <pre>&lt;step>
-   &lt;cmd>Find some good optics&lt;/cmd>
-&lt;/step>
-</pre>
-                    </stepxmp>
-                    <info><xref href="https://youtu.be/nBua0_PDfFA" format="html" scope="external"
-                            >Video: Creating a choicetable in a DITA task</xref><note>This video
-                            shows how to use <xref href="http://www.oxygenxml.com/" format="html"
-                                scope="external">oXygen XML Editor</xref>'s choicetable
-                            wizard.</note></info>
-                </step>
-                <step>
-                    <cmd>After the &lt;cmd> element, add a &lt;choicetable> element and all its
-                        child elements:</cmd>
-                    <stepxmp>
-                        <pre>&lt;step>
-   &lt;cmd>Find some good optics&lt;/cmd>
-   &lt;choicetable>
-<ph outputclass="newchanged">     &lt;chrow>
-         &lt;choption/>
-         &lt;chdesc/>
-     &lt;/chrow>
-     &lt;chrow>
-         &lt;choption/>
-         &lt;chdesc/>
-     &lt;/chrow></ph>
-   &lt;/choicetable>
-&lt;/step>
-</pre>
-                    </stepxmp>
-                    <info>For each row in the &lt;choicetable>, you need a &lt;chrow> element>. The
-                        row contains two elements, which are both required: &lt;choption> which
-                        contains the option text and &lt;chdesc> which contains the description
-                        text. In standard usage, the &lt;choption> contains just a few words
-                        (usually one), while the description can contain multiple sentences, or even
-                        paragraphs (&lt;p> element). </info>
-                </step>
-                <stepsection>The &lt;choicetable> has an optional head (&lt;chhead>), which allows
-                    you to label the two columns in the table.</stepsection>
-                <step>
-                    <cmd>Before the first row of the choice table, add a &lt;chhead> element and its
-                        children, as shown here.</cmd>
-                    <stepxmp>
-                        <pre>&lt;step>
-   &lt;cmd>Find some good optics&lt;/cmd>
-   &lt;choicetable>
-<ph outputclass="newchanged">     &lt;chhead>
-         &lt;choptionhd/>
-         &lt;chdeschd/>
-     &lt;/chhead></ph>
-     &lt;chrow>
-         &lt;choption/>
-         &lt;chdesc/>
-     &lt;/chrow>
-     ...
-   &lt;/choicetable>
-&lt;/step>
-</pre>
-                    </stepxmp>
-                    <info>The &lt;choptionhd> provides a heading for the option column; the
-                        &lt;chdeschd> provides a heading for the description column. </info>
-                </step>
-                <step>
-                    <cmd>Add content to the &lt;chhead> element and its child elements, as shown
-                        here.</cmd>
-                    <stepxmp>
-                        <pre>...
-&lt;chhead>
-   &lt;choptionhd>
-      &lt;p>Type&lt;/p>
-   &lt;/choptionhd>
-   &lt;chdeschd>
-      &lt;p>Advantages&lt;/p>
-   &lt;/chdeschd>
-&lt;/chhead>
-...</pre>
-                    </stepxmp>
-                </step>
-                <step>
-                    <cmd>Add content to the &lt;chrow> element and its child elements, as shown
-                        here.</cmd>
-                    <stepxmp>
-                        <pre>...
-&lt;chrow>
-   &lt;choption>
-      &lt;p>Binoculars&lt;/p>
-   &lt;/choption>
-   &lt;chdesc>
-      &lt;p>Wide field of view, allows quick observations&lt;/p>
-   &lt;/chdesc>
-&lt;/chrow>...</pre>
-                    </stepxmp>
-                </step>
-                <step>
-                    <cmd>After the closing tag of the &lt;chrow> element, add another &lt;chrow>
-                        element and add content to it as shown here.</cmd>
-                    <stepxmp>
-                        <pre>&lt;choicetable>
-...
-&lt;/chrow>
-&lt;chrow>
-   &lt;choption>
-      &lt;p>Spotting scope&lt;/p>
-   &lt;/choption>
-   &lt;chdesc>
-      &lt;p>Higher magnification, better light-gathering&lt;/p>
-   &lt;/chdesc>
-&lt;/chrow>
-&lt;/choicetable></pre>
                     </stepxmp>
                 </step>
             </steps>

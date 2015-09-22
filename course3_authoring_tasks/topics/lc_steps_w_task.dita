@@ -101,8 +101,9 @@
                     </stepxmp>
                     <info>
                         <p>The &lt;steps> element must contain at least one &lt;step> element. Most
-                            DITA-aware editors automatically add a first &lt;step> element inside
-                            the &lt;steps> element. </p>
+                            DITA editors automatically add the first &lt;step> element inside the
+                            &lt;steps> element (and usually a &lt;cmd> element nested in the
+                            &lt;step>). </p>
                     </info>
                 </step>
                 <stepsection>
