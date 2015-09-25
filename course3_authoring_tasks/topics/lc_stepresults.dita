@@ -17,8 +17,15 @@
     <learningContentbody>
         <lcInstruction>
             <p>A step might include an example of how the step is performed or some text about the
-                result of having successfully completed the steps. Use &lt;stepxmp> (step example)
-                to contain an example; use &lt;stepresult> to describe the result of the step.</p>
+                result of having successfully completed the steps. </p>
+            <ul id="ul_xjf_prx_kt">
+                <li>
+                    <p>Use &lt;stepxmp> (step example) to contain an example.</p>
+                </li>
+                <li>
+                    <p>Use &lt;stepresult> to describe the result of the step.</p>
+                </li>
+            </ul>
         </lcInstruction>
     </learningContentbody>
     <task id="task_mjr_q5j_bt">
@@ -86,7 +93,8 @@ Ducks,
    &lt;/stepxmp>
 <ph outputclass="newchanged">   &lt;stepresult>
    &lt;/stepresult></ph>
-&lt;/step>...</pre>
+&lt;/step>
+...</pre>
                     </stepxmp>
                 </step>
                 <step>
@@ -98,7 +106,8 @@ Ducks,
 <ph outputclass="newchanged">   &lt;stepresult>
 &lt;p>You'll now have a record you can keep for the rest of your life.&lt;/p>
    &lt;/stepresult></ph>
-&lt;/step>...</pre>
+&lt;/step>
+...</pre>
                     </stepxmp>
                 </step>
             </steps>

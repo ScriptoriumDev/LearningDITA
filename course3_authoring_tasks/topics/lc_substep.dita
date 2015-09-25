@@ -50,8 +50,8 @@
                     <stepxmp>
                         <pre>&lt;step>
     &lt;cmd>Go watch some birds.&lt;/cmd>
-    &lt;substeps>
-    &lt;/substeps>
+<ph outputclass="newchanged">    &lt;substeps>
+    &lt;/substeps></ph>
 &lt;/step>
 </pre>
                     </stepxmp>
@@ -68,9 +68,9 @@
                         <pre>&lt;step>
     &lt;cmd>Go watch some birds.&lt;/cmd>
     &lt;substeps>
-        &lt;substep>
+<ph outputclass="newchanged">        &lt;substep>
             &lt;cmd/>
-        &lt;/substep>
+        &lt;/substep></ph>
     &lt;/substeps>
 &lt;/step>
 </pre>
@@ -84,7 +84,7 @@
     &lt;cmd>Go watch some birds.&lt;/cmd>
     &lt;substeps>
         &lt;substep>
-            &lt;cmd>Walk around&lt;/cmd>
+<ph outputclass="newchanged">            &lt;cmd>Walk around.&lt;/cmd></ph>
         &lt;/substep>
     &lt;/substeps>
 &lt;/step>
@@ -103,14 +103,14 @@
     &lt;cmd>Go watch some birds.&lt;/cmd>
     &lt;substeps>
         &lt;substep>
-            &lt;cmd>Walk around&lt;/cmd>
+            &lt;cmd>Walk around.&lt;/cmd>
+        &lt;/substep>
+<ph outputclass="newchanged">        &lt;substep>
+            &lt;cmd>When you see one, stop.&lt;/cmd>
         &lt;/substep>
         &lt;substep>
-            &lt;cmd>When you see one, stop&lt;/cmd>
-        &lt;/substep>
-        &lt;substep>
-            &lt;cmd>Identify it&lt;/cmd>
-        &lt;/substep>
+            &lt;cmd>Identify it.&lt;/cmd>
+        &lt;/substep></ph>
     &lt;/substeps>
 &lt;/step>
 </pre>

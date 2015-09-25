@@ -19,8 +19,17 @@
             <p>The &lt;prereq> and &lt;context> elements are optional elements that can help
                 introduce the instructional content in a task topic.</p>
             <p>The &lt;prereq> element contains any prerequisite information required to perform the
-                task.</p>
-            <p>The &lt;context> element explains the purpose of the task.</p>
+                task, which can include:</p>
+            <ul id="ul_glj_1pb_bt">
+                <li>Things the reader must have, such as a smartphone with a bird identification app </li>
+                <li>Information the reader must have, such as knowledge of migratory patterns</li>
+                <li>Previous tasks the reader must have accomplished, such as completing a basic
+                    duck identification course</li>
+            </ul>
+            <p>The &lt;context> element explains the purpose of the task. This can include
+                background information or what the user will gain by performing the task. The
+                &lt;context> element content should be relatively brief; if you need to provide more
+                detailed background information, consider creating a concept topic. </p>
             <p>Although both of these elements are optional, they occur in a strict order—the
                 &lt;prereq> element must go before the &lt;context> element.</p>
         </lcInstruction>
@@ -43,15 +52,6 @@
    &lt;/prereq></ph>
 
 &lt;/taskbody></pre></stepxmp>
-                    <info>The &lt;prereq> element lists prerequisites to perform the task.
-                        Prerequisites can include:<ul id="ul_glj_1pb_bt">
-                            <li>Things the reader must have, such as a smartphone with a bird
-                                identification app </li>
-                            <li>Information the reader must have, such as knowledge of migratory
-                                patterns</li>
-                            <li>Previous tasks the reader must have accomplished, such as completing
-                                a basic duck identification course</li>
-                        </ul></info>
                 </step>
                 <step>
                     <cmd>After the &lt;prereq> element, add a &lt;context> element.</cmd>
@@ -67,15 +67,10 @@
 
 &lt;/taskbody></pre>
                     </stepxmp>
-                    <info>The &lt;context> element describes the purpose of the task. This can
-                        include background information or what the user will gain by performing the
-                        task. The &lt;context> element content should be relatively brief; if you
-                        need to provide more detailed background information, consider creating a
-                        concept topic. </info>
-                    <info>Your task now has a title, a set of prerequisites, and a context. The next
-                        lesson covers how to add steps to the task. </info>
                 </step>
             </steps>
+            <result>Your task now has a title, a set of prerequisites, and a context. The next
+                lesson covers how to add steps to the task. </result>
         </taskbody>
     </task>
     <task id="task_ynz_fgy_3t">
@@ -89,20 +84,20 @@
                         DITA:</cmd>
                     <info>
                         <pre outputclass="passthru"><![CDATA[
-                            <hr />
-                            <h3>Creating a business case for your content strategy</h3>
-                            <p><strong>Before you begin:</strong></p>
-                            <p>Thoroughly assess your content and content development process so that you can understand the gap between the strategy you need and the strategy currently in place.</p>
-                            <p><strong>About this task:</strong></p>
-                            <p>These instructions will show you how to develop a business case that you can use to show that your company needs a new content strategy.</p>
-                            <p>You may find that your company could save money on content production in the following areas:</p>
-                            <ul>
-                            <li>Automation</li>
-                            <li>Reuse</li>
-                            <li>Localization</li>
-                           </ul> 
-                           <hr />
-                            ]]></pre>
+<hr />
+<h3>Creating a business case for your content strategy</h3>
+<p><strong>Before you begin:</strong></p>
+<p>Thoroughly assess your content and content development process so that you can understand the gap between the strategy you need and the strategy currently in place.</p>
+<p><strong>About this task:</strong></p>
+<p>These instructions will show you how to develop a business case that you can use to show that your company needs a new content strategy.</p>
+<p>You may find that your company could save money on content production in the following areas:</p>
+<ul>
+<li>Automation</li>
+<li>Reuse</li>
+<li>Localization</li>
+</ul> 
+<hr />
+]]></pre>
                     </info>
                     <info/>
                 </step>
