@@ -7,12 +7,12 @@
  <title>Finishing up the task</title>
  <topicref href="../topics/lc_finishing_intro.dita">
   <topicmeta lockmeta="yes">
-   <data name="lesson_id" value="9999"></data>
+   <data name="lesson_id" value="9322"/>
   </topicmeta>
   <topicref href="../topics/lc_results.dita"/>
   <topicref href="../topics/lc_example.dita"/>
   <topicref href="../topics/lc_whatsnext.dita"/>
-  <topicref href="../topics/lcc_assessment.dita" copy-to="lcc_steps.dita" locktitle="yes">
+  <topicref href="../topics/lcc_assessment.dita" copy-to="lcc_finishing.dita" locktitle="yes">
    <topicmeta>
     <navtitle>Assessment for Finishing up the task</navtitle>
    </topicmeta>
@@ -24,3 +24,4 @@
   </topicref>
  </topicref>
 </map>
+ 

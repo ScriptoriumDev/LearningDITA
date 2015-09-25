@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_ptp_gqy_lt">
+    <title>Keep an eye on reuse</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-09-25"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcIntro>
+            <p>Although the LearningDITA courses have not covered reuse (which is one of the big
+                wins in DITA), task topics contain many potential areas for reuse. </p>
+            <p>As you create the steps in your tasks, watch out for steps that are the same from one
+                task to another. When you begin to consider reuse among elements in DITA, this will
+                enable you to plan your reuse strategies.  </p>
+            <p>In addition to reusing the &lt;step> element, the &lt;prereq>, &lt;example>,
+                &lt;choices>, and &lt;choicetable> elements are all good candidates for reuse. </p>
+        </lcIntro>
+    </learningContentbody>
+</learningContent>
