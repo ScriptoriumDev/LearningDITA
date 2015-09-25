@@ -36,21 +36,16 @@
                 simply the number and some punctuation, or the word “Step” followed by a number) is
                 up to the transform implementation. When you're authoring a step, most DITA editors
                 will display step numbers beside each step.</p>
-            <p>DITA also allows you to create an unordered list for the steps, with the
-<<<<<<< HEAD
-                &lt;steps-unordered> element. For more information about this element,  see the DITA
-                specification. </p>
+            <p>DITA also allows you to create an unordered list for the steps, with the &lt;steps-unordered> element. For more information about this element, see the <xref
+                    href="http://docs.oasis-open.org/dita/v1.2/os/spec/DITA1.2-spec.html"
+                    format="html" scope="external">DITA Specification</xref>. </p>
+
             <note>
                 <p>This lesson covers basic use of these elements. For the full specifications for
                     each element, see the <xref
                         href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/concept.html"
                         format="html" scope="external">OASIS DITA Version 1.2 Standard</xref>.</p>
             </note>
-=======
-                &lt;steps-unordered> element. For more information about this element, see the <xref
-                    href="http://docs.oasis-open.org/dita/v1.2/os/spec/DITA1.2-spec.html"
-                    format="html" scope="external">DITA Specification</xref>. </p>
->>>>>>> okeefescriptorium/master
         </lcInstruction>
     </learningContentbody>
     <related-links>
