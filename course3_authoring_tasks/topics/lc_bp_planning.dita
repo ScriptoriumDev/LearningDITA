@@ -9,9 +9,45 @@
         <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
             Scriptorium</author>
         <critdates>
-            <created date="2015-08-18"/>
+            <created date="2015-09-24"/>
         </critdates>
     </prolog>
     <learningContentbody>
+        <lcIntro>
+            <p>This recommendation isn’t specific to DITA, but it’s worth mentioning here.</p>
+            <p>It’s tempting to simply jump into creating tasks, writing until you think you’re
+                done. However, this approach risks missing important tasks, resulting in incomplete
+                coverage. </p>
+            <p>Rather than create tasks willy-nilly as they occur to you, a far better strategy is
+                to plan out the set of tasks you need to document. This planning is a four-step
+                process:</p>
+            <ol id="ol_hv1_z3t_lt">
+                <li>
+                    <p>Gather information about the types of things your users need to do or
+                        accomplish.</p>
+                    <p>There are a number of different sources you can use for information
+                        gathering. These include: product design documents, specifications, audience
+                        analysis, and usage scenarios. Interviews with users can also be a good
+                        source.</p>
+                </li>
+                <li>
+                    <p>From that information, create a list of major tasks users need to
+                        perform.</p>
+                    <p>At this point, don’t get too specific. You are concerned with what the user
+                        needs to accomplish, not how they're going to do it. </p>
+                </li>
+                <li>
+                    <p>Divide the major tasks into subtasks. These subtasks will be your DITA task
+                        topics. </p>
+                </li>
+                <li>
+                    <p>Have the entire list of tasks reviewed by all stakeholders.</p>
+                    <p>This step is important, because the more contributors you have, the less the
+                        chance of missing an important task.</p>
+                </li>
+            </ol>
+            <p>You can use your finalized list of tasks as a resource to determine the concept and
+                reference topics you need to create. </p>
+        </lcIntro>
     </learningContentbody>
 </learningContent>
