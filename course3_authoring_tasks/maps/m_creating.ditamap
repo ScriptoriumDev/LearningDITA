@@ -7,13 +7,13 @@
  <title>Creating a task topic</title>
  <topicref href="../topics/lc_creating.dita">
   <topicmeta lockmeta="yes">
-   <data name="lesson_id" value="9999"></data>
+   <data name="lesson_id" value="9320"/>
   </topicmeta>
   <topicref href="../topics/lc_example_files.dita"/>
   <topicref href="../topics/lc_strict_general.dita"/>
   <topicref href="../topics/lc_creating_new.dita"/>
   <topicref href="../topics/lc_optional_elements.dita"/>
-  <topicref href="../topics/lcc_assessment.dita" copy-to="lcc_steps.dita" locktitle="yes">
+  <topicref href="../topics/lcc_assessment.dita" copy-to="lcc_creating.dita" locktitle="yes">
    <topicmeta>
     <navtitle>Assessment for Creating a task topic</navtitle>
    </topicmeta>
