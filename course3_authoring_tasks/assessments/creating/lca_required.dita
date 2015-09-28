@@ -3,7 +3,7 @@
      github.com. See the accompanying LICENSE file for
      applicable licenses.-->
 <!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
-<learningAssessment id="assessment_hwg_z1b_dt">
+<learningAssessment id="assessment_hwg_z1b_dt4">
  <title>Required</title>
  <prolog>
   <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
@@ -15,7 +15,8 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcTrueFalse id="context_tf">
-    <lcQuestion>Every task is required to have a &lt;prereq> or a &lt;context> element.</lcQuestion>
+    <lcQuestion>Every strict task is required to have a &lt;prereq> or a &lt;context>
+     element.</lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_hnb_2ym_jt">
      <lcAnswerOption>
       <lcAnswerContent>True</lcAnswerContent>
@@ -25,8 +26,8 @@
       <lcCorrectResponse/>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect>The &lt;prereq> and &lt;context> elements are both
-     optional.</lcFeedbackIncorrect>
+    <lcFeedbackIncorrect>The &lt;prereq> and &lt;context> elements are both optional in a strict
+     task.</lcFeedbackIncorrect>
    </lcTrueFalse>
   </lcInteraction>
  </learningAssessmentbody>
