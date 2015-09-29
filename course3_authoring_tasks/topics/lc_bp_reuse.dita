@@ -14,10 +14,16 @@
             <p>Although the LearningDITA courses have not covered reuse (which is one of the big
                 wins in DITA), task topics contain many potential areas for reuse. </p>
             <p>As you create the steps in your tasks, watch out for steps that are the same from one
-                task to another. When you begin to consider reuse among elements in DITA, this will
-                enable you to plan your reuse strategies.  </p>
+                task to another, such
+                as:<pre>&lt;step>&lt;cmd>Click &lt;uicontrol>OK&lt;/uicontrol>.&lt;/cmd>&lt;/step></pre>
+            </p>
+            <p>You might also be able to reuse boilerplate text, such as a caution or warning that
+                accompanies many of your steps.</p>
+            <p>When you begin to consider reuse among elements in DITA, this will enable you to plan
+                your reuse strategies.</p>
             <p>In addition to reusing the &lt;step> element, the &lt;prereq>, &lt;example>,
-                &lt;choices>, and &lt;choicetable> elements are all good candidates for reuse. </p>
+                &lt;choices>, and &lt;choicetable> elements in a task are all good candidates for
+                reuse. </p>
         </lcIntro>
     </learningContentbody>
 </learningContent>

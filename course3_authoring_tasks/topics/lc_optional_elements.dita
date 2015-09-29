@@ -28,7 +28,7 @@
                     duck identification course</li>
             </ul>
             <p>The &lt;context> element provides background information about the task, such as the
-                purpose of the task and what the user will gain. The &lt;context> element content
+                purpose of the task and what the reader will gain. The &lt;context> element content
                 should be relatively brief; if you need to provide more detailed background
                 information, consider creating a concept topic. </p>
             <p>Although &lt;prereq&gt; and &lt;context&gt; are optional, they occur in a strict

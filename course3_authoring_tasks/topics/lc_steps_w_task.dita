@@ -109,7 +109,7 @@
                 <stepsection>
                     <p>In DITA, the content of each individual step is also highly controlled; each
                         step has a specific set of elements, which must occur in a specific order.
-                        The action the user is to perform is contained in a &lt;cmd> element (read
+                        The action the reader is to perform is contained in a &lt;cmd> element (read
                         as “command”), which is a required element in &lt;step>. In most cases,
                         &lt;cmd> contains a single sentence, which is a direct instruction to the
                         reader to perform an action.</p>
@@ -128,7 +128,7 @@
                     </stepxmp>
                     <info>
                         <p>As a best practice, the &lt;cmd> element should be limited to a single
-                            sentence, in active voice, that directs the user to perform an action.
+                            sentence, in active voice, that directs the reader to perform an action.
                             To provide additional information about the &lt;cmd> element, use the
                             &lt;info> element (discussed in the next step). </p>
                     </info>

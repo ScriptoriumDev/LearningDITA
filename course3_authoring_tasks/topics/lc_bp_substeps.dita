@@ -17,31 +17,30 @@
                 how you divided your major tasks into task topics. It may be that you did not divide
                 the major tasks far enough.</p>
             <p>Another clear warning sign that your task analysis is not complete: you are using
-                many substeps, but frequently find the need for sub-substeps. (Worse still, you’re
-                using an &lt;ol> inside a &lt;substep> to achieve another level of steps.)</p>
+                many substeps, but frequently find the need for sub-substeps.</p>
             <p>Substeps should only be used in a handful of situations, such as:</p>
             <ul id="ul_pgk_3nt_lt">
                 <li>
-                    <p>You encounter a complex step, where users could benefit from additional
+                    <p>You encounter a complex step, where readers could benefit from additional
                         details.</p>
                 </li>
                 <li>
-                    <p>Your audience includes some novice users who might benefit from some
-                        additional guidance.  Most readers will understand all that the &lt;cmd>
+                    <p>Your audience includes some novice readers who might benefit from some
+                        additional guidance. Most readers will understand all that the &lt;cmd>
                         element directs them to do, but some less-experienced readers may need to
-                        have things spelled out in a little more detail. </p>
-                    <p>(In this case, some output forms might allow these detail steps to be hidden,
-                        unless the user asks for more information.)</p>
+                        have things spelled out in a little more detail with substeps.</p>
+                    <p>Some output types might allow you to hide substeps that provide extra detail
+                        unless the reader asks for more information.</p>
                 </li>
                 <li>
                     <p>Procedures in which the steps are not homogeneous. Occasionally you’ll
                         encounter a task where most of the steps require a consistent level of
-                        explanation, but one or two steps—while at the same level as the other
+                        explanation, but one or two steps—although at the same level as the other
                         steps—require much more detail.</p>
                 </li>
             </ul>
-            <p>Be careful using substeps where the &lt;choice> or &lt;choicetable>  element might be
-                more appropriate.</p>
+            <p>Be careful using substeps where the &lt;choice> or &lt;choicetable> element are more
+                appropriate.</p>
         </lcIntro>
     </learningContentbody>
 </learningContent>
