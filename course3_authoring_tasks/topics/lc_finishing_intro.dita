@@ -17,18 +17,21 @@
     <learningContentbody>
         <lcObjectives>
             <lcObjectivesGroup id="lcObjectivesGroup_tvl_vbh_1t">
-                <lcObjective>Add the &lt;result> element</lcObjective>
-                <lcObjective>Add the &lt;example> element</lcObjective>
-                <lcObjective>Add the &lt;postreq> element</lcObjective>
+                <lcObjective>Understand the use of the &lt;result>, &lt;example>, and &lt;postreq>
+                    elements.</lcObjective>
             </lcObjectivesGroup>
         </lcObjectives>
         <lcDuration>
             <lcTime value="45"/>
         </lcDuration>
         <lcInstruction>
-            <p>After you’ve added the steps, there are a handful of elements to add to show an
-                example of the entire task, to describe the results of having successfully performed
-                the task, and describe the subsequent actions the reader should take.</p>
+            <p>After you’ve added the steps, you can use three additional elements to complete the
+                description of the task:</p>
+            <ul id="ul_rp1_w5w_mt">
+                <li>&lt;result> describes the result of having successfully performed the task</li>
+                <li>&lt;example> shows an example of the entire task</li>
+                <li>&lt;postreq> (postrequisites) tells what to do next</li>
+            </ul>
             <note>
                 <p>This lesson covers basic use of these elements. For the full specifications for
                     each element, see the <xref

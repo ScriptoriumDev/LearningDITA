@@ -19,9 +19,8 @@
             <p>As part of giving a reader an instruction, there may be more than one option for the
                 reader. For example, when using an auto stereo system, the user has the choice of
                 which mode to use (AM, FM, CD, line-in, and so on). </p>
-            <p>To present this information, and to give it a semantically-appropriate label, you can
-                use the &lt;choices> or &lt;choicetable> elements. Both present choices:  <ul
-                    id="ul_nsn_tqx_kt">
+            <p>To present this information, and to give it a semantically appropriate label, you can
+                use the &lt;choices> or &lt;choicetable> elements.  <ul id="ul_nsn_tqx_kt">
                     <li>
                         <p>Use &lt;choices> when the choices only require a brief description.</p>
                     </li>
@@ -32,10 +31,30 @@
                     </li>
                 </ul></p>
             <p>The &lt;choices> element is usually presented as a bulleted list. In fact, the
-                structure of the &lt;choices> element is like a &lt;ul> element: the &lt;choices>
-                element contains one or more &lt;choice> elements. Each &lt;choice> element presents
-                one of the options for the reader. The content of the &lt;choice> element is any
-                element that can be used inside an &lt;li> element.</p>
+                structure of the &lt;choices> element is like a &lt;ul> element: </p>
+            <simpletable frame="all" relcolwidth="1.0* 1.0*" id="simpletable_mdl_bsw_mt">
+                <sthead>
+                    <stentry>&lt;ul> element</stentry>
+                    <stentry>&lt;choices> element</stentry>
+                </sthead>
+                <strow>
+                    <stentry>
+                        <pre>&lt;ul&gt;
+   &lt;li&gt;one thing&lt;/li&gt;
+   &lt;li&gt;another thing&lt;/li&gt;
+&lt;/ul&gt;</pre>
+                    </stentry>
+                    <stentry>
+                        <pre>&lt;choices&gt;
+   &lt;choice&gt;one thing&lt;/choice&gt;
+   &lt;choice&gt;another thing&lt;/choice&gt;
+&lt;/choices&gt;</pre>
+                    </stentry>
+                </strow>
+            </simpletable>
+            <p>the &lt;choices> element contains one or more &lt;choice> elements. Each &lt;choice>
+                element presents one of the options for the reader. The content of the &lt;choice>
+                element is any element that can be used inside an &lt;li> element.</p>
             <draft-comment author="gretyl">If we do split &lt;choicetable> into its own topic,
                 should we also split up this lesson into two? (the first lesson ending with the
                 &lt;choicetable> topic and the next lesson beginning with the "getting more
@@ -61,10 +80,10 @@
 &lt;task id="my_first_task">
    ...
          &lt;/step>
-         &lt;step>
+<ph outputclass="newchanged">         &lt;step>
             &lt;cmd>Pick a field guide to identify the ducks.&lt;/cmd>
          &lt;/step>
-      &lt;/steps>
+</ph>      &lt;/steps>
    &lt;/taskbody>
 &lt;/task></pre>
                     </stepxmp>
@@ -73,9 +92,9 @@
                     <cmd>After the new &lt;cmd> element, add a &lt;choices> element. </cmd>
                     <stepxmp>
                         <pre>&lt;step>
-   &lt;cmd>Pick a field guide to identify the ducks.&lt;/cmd>
+   &lt;cmd>Pick a field guide to identify the ducks.&lt;/cmd><ph outputclass="newchanged">
    &lt;choices>
-   &lt;/choices>
+   &lt;/choices></ph>
 &lt;/step>
 </pre>
                     </stepxmp>
@@ -87,8 +106,8 @@
                         <pre>&lt;step>
    &lt;cmd>Pick a field guide to identify the ducks.&lt;/cmd>
    &lt;choices>
-      &lt;choice>Many modern duck watchers rely on the Sibley guide&lt;/choice>
-   &lt;/choices>
+<ph outputclass="newchanged">      &lt;choice>Many modern duck watchers rely on the Sibley guide&lt;/choice>
+</ph>   &lt;/choices>
 &lt;/step>
 </pre>
                     </stepxmp>
@@ -102,8 +121,8 @@
    &lt;cmd>Pick a field guide to identify the ducks.&lt;/cmd>
    &lt;choices>
       &lt;choice>Many modern duck watchers rely on the Sibley guide&lt;/choice>
-      &lt;choice>A traditional favorite is the Peterson guide &lt;/choice>
-   &lt;/choices>
+<ph outputclass="newchanged">      &lt;choice>A traditional favorite is the Peterson guide&lt;/choice>
+</ph>   &lt;/choices>
 &lt;/step>
 </pre>
                     </stepxmp>

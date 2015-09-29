@@ -16,8 +16,10 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>The &lt;stepxmp> element allows you to show an example of an individual step. The
-                &lt;example> element allows you to show an example of the entire task.</p>
+            <p>The &lt;example> element allows you to show an example of the entire task. This
+                element can be contrasted with the the &lt;stepxmp> element, which shows an example
+                of performing a single step. </p>
+            <p/>
         </lcInstruction>
     </learningContentbody>
     <task id="task_bkt_c3k_bt">

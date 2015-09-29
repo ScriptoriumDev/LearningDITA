@@ -24,7 +24,8 @@
                         <p>&lt;steps></p>
                     </stentry>
                     <stentry>
-                        <p>The container element for a series of step-by-step instructions.</p>
+                        <p>A series of step-by-step instructions. The &lt;steps> element can contain
+                            one or more &lt;step> elements.</p>
                     </stentry>
                 </strow>
                 <strow>
@@ -32,8 +33,10 @@
                         <p>&lt;step></p>
                     </stentry>
                     <stentry>
-                        <p>The container element for each step in the &lt;steps> element. The
-                            &lt;steps> element can contain one or more &lt;step> elements.</p>
+                        <p>A single step. The step must contain one &lt;cmd> element. The &lt;step>
+                            element can also contain the &lt;info> element, and additional elements
+                            that provide information about the step (these are presented in the next
+                            topics). </p>
                     </stentry>
                 </strow>
                 <strow>
@@ -41,9 +44,8 @@
                         <p>&lt;cmd></p>
                     </stentry>
                     <stentry>
-                        <p>The container element for the command, or text instructing the user what
-                            to do, in a &lt;step> element. Each &lt;step> element can contain
-                            exactly one &lt;cmd> element.</p>
+                        <p>A command. The text in the &lt;cmd> element should be in the active voice
+                            and should be a single sentence. </p>
                     </stentry>
                 </strow>
                 <strow>
@@ -51,11 +53,7 @@
                         <p>&lt;info></p>
                     </stentry>
                     <stentry>
-                        <p>The container element for additional information about a step. The
-                            &lt;info> element must go inside the &lt;step> element after the
-                            &lt;cmd> element. Each &lt;step> element can contain one or more
-                            &lt;info> elements (or none at all, as the &lt;info> element is
-                            optional).</p>
+                        <p>Additional information about the step. </p>
                     </stentry>
                 </strow>
             </simpletable>
@@ -133,9 +131,6 @@
                             sentence, in active voice, that directs the user to perform an action.
                             To provide additional information about the &lt;cmd> element, use the
                             &lt;info> element (discussed in the next step). </p>
-                        <p>Because &lt;step> must contain exactly one &lt;cmd> element, most
-                            DITA-aware editors add the &lt;cmd> element when they add the &lt;step>
-                            element. </p>
                     </info>
                 </step>
                 <stepsection>To provide additional information about the step direction contained in
@@ -156,7 +151,7 @@
 ...</pre>
                     </stepxmp>
                     <info>
-                        <p>The &lt;info> element can contain text, notes, images, tables and so on.
+                        <p>The &lt;info> element can contain text, notes, images, tables, and so on.
                             As with other elements that can contain mixed content, best practices
                             dictate that you should use a &lt;p> element to wrap text, even if the
                             &lt;info> element only contains one paragraph.</p>

@@ -14,26 +14,24 @@
     </prolog>
     <learningContentbody>
         <lcIntro>
-            <p>This recommendation isn’t specific to DITA, but it’s worth mentioning here.</p>
             <p>It’s tempting to simply jump into creating tasks, writing until you think you’re
                 done. However, this approach risks missing important tasks, resulting in incomplete
                 coverage. </p>
-            <p>Rather than create tasks willy-nilly as they occur to you, a far better strategy is
-                to plan out the set of tasks you need to document. This planning is a four-step
-                process:</p>
+            <p>Rather than create tasks as they occur to you, a far better strategy is to plan out
+                the set of tasks you need to document. This planning is a four-step process:</p>
             <ol id="ol_hv1_z3t_lt">
                 <li>
-                    <p>Gather information about the types of things your users need to do or
+                    <p>Gather information about the types of things your readers need to do or
                         accomplish.</p>
                     <p>There are a number of different sources you can use for information
                         gathering. These include: product design documents, specifications, audience
-                        analysis, and usage scenarios. Interviews with users can also be a good
-                        source.</p>
+                        analysis, and usage scenarios. Interviews with actual users of your product
+                        or service can also be a good source.</p>
                 </li>
                 <li>
-                    <p>From that information, create a list of major tasks users need to
+                    <p>From that information, create a list of major tasks readers need to
                         perform.</p>
-                    <p>At this point, don’t get too specific. You are concerned with what the user
+                    <p>At this point, don’t get too specific. You are concerned with what the reader
                         needs to accomplish, not how they're going to do it. </p>
                 </li>
                 <li>
