@@ -25,6 +25,8 @@
                 <li>Documenting or logging the task completion</li>
                 <li>Performing subsequent tasks </li>
             </ul>
+            <p><xref href="https://youtu.be/scYD2nY7NMA" format="html" scope="external">Video:
+                    Strict sequence of finishing elements in a DITA task</xref></p>
         </lcInstruction>
     </learningContentbody>
     <task id="task_mv2_lbq_bt">
@@ -33,9 +35,6 @@
             <steps id="steps_ihp_lbq_bt">
                 <step>
                     <cmd>Continue working in the file l_task_start.dita.</cmd>
-                    <info><xref href="https://youtu.be/scYD2nY7NMA" format="html" scope="external"
-                            >Video: Strict sequence of finishing elements in a DITA
-                        task</xref></info>
                 </step>
                 <step>
                     <cmd>After the closing tag of the &lt;example> element, add a &lt;postreq>
@@ -96,12 +95,10 @@
                                 <li>Differentiate between legitimate issues with the new workflow and reflexive recalcitrance.</li>
                                 <li>Enlist participants in a pilot project to explain process change.</li>
                             </ol>
-                            <p><strong>Results:</strong></p>
-                            <p>Good management is critical when a company changes workflow; without it, the implementation of new processes will likely fail. Bad management kills implementations, and things can get ugly for everyone involved.</p>
-                            <p><strong>Example:</strong></p>
-                            <p>Without good change management, a percentage of staff who will be dead set against changes on general principle could gain the support of other team members, until almost everyone refuses to use the new system.</p>
-                            <p><strong>What to do next:</strong></p>
-                            <p>When you have managed change successfully, you can start creating useful content in the new system.</p>
+                            <p>&#160;</p>
+                            <p><strong>Results:</strong> Good management is critical when a company changes workflow; without it, the implementation of new processes will likely fail. Bad management kills implementations, and things can get ugly for everyone involved.</p>
+                            <p><strong>Example:</strong> Without good change management, a percentage of staff who will be dead set against changes on general principle could gain the support of other team members, until almost everyone refuses to use the new system.</p>
+                            <p><strong>What to do next:</strong> When you have managed change successfully, you can start creating useful content in the new system.</p>
                             <hr />
                             ]]></pre>
                     </info>

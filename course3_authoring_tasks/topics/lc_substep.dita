@@ -28,6 +28,8 @@
                 your procedure. The information might be better presented as a series of separate
                 task topics. The same is true if you find you are providing a great deal of detail
                 at the substep level. </p>
+            <p><xref href="https://youtu.be/1HDXrdB5y4w" format="html" scope="external">Video:
+                    Adding substeps in a DITA task</xref></p>
         </lcInstruction>
     </learningContentbody>
     <task id="task_mjk_bjd_bt">
@@ -59,8 +61,6 @@
                     <info>You can have one or more &lt;substeps> elements inside the &lt;step>
                         element. However, these &lt;substeps> elements cannot be nested inside each
                         other—they can only be added in sequence at the same level.</info>
-                    <info><xref href="https://youtu.be/1HDXrdB5y4w" format="html" scope="external"
-                            >Video: Adding substeps in a DITA task</xref></info>
                 </step>
                 <step id="step_a4r_444_ft">
                     <cmd>If your editor doesn't automatically add the &lt;substep> element and
