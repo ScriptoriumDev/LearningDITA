@@ -33,6 +33,8 @@
                 information, consider creating a concept topic. </p>
             <p>Although &lt;prereq&gt; and &lt;context&gt; are optional, they occur in a strict
                 order—the &lt;prereq> element must go before the &lt;context> element.</p>
+            <p><xref href="https://youtu.be/Bhaeafcemis" format="html" scope="external">Video:
+                    Strict sequence of introductory elements in a DITA Task</xref></p>
         </lcInstruction>
     </learningContentbody>
     <task id="task_i3g_jkh_1t">
@@ -41,9 +43,6 @@
             <steps id="steps_f5k_kkh_1t">
                 <step>
                     <cmd>Continue working in the file l_task_start.dita.</cmd>
-                    <info><xref href="https://youtu.be/Bhaeafcemis" format="html" scope="external"
-                            >Video: Strict sequence of introductory elements in a DITA
-                        Task</xref></info>
                 </step>
                 <step>
                     <cmd>Inside the &lt;taskbody> element, add a &lt;prereq> element.</cmd>
@@ -87,10 +86,8 @@
                         <pre outputclass="passthru"><![CDATA[
 <hr />
 <h3>Creating a business case for your content strategy</h3>
-<p><strong>Before you begin:</strong></p>
-<p>Thoroughly assess your content and content development process so that you can understand the gap between the strategy you need and the strategy currently in place.</p>
-<p><strong>About this task:</strong></p>
-<p>These instructions will show you how to develop a business case that you can use to show that your company needs a new content strategy.</p>
+<p><strong>Before you begin:</strong> Thoroughly assess your content and content development process so that you can understand the gap between the strategy you need and the strategy currently in place.</p>
+<p><strong>About this task:</strong> These instructions will show you how to develop a business case that you can use to show that your company needs a new content strategy.</p>
 <p>You may find that your company could save money on content production in the following areas:</p>
 <ul>
 <li>Automation</li>

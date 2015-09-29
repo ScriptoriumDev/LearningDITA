@@ -27,6 +27,8 @@
                 </li>
             </ul>
             <p>A step can contain any number of either of these elements, in any order. </p>
+            <p><xref href="https://youtu.be/-9JWoT1HdWk" format="html" scope="external">Video:
+                    Adding a step example in a DITA task</xref></p>
         </lcInstruction>
     </learningContentbody>
     <task id="task_mjr_q5j_bt">
@@ -43,8 +45,6 @@
                         <pre>...&lt;step>&lt;cmd>When you have definitively identified a duck, make a note in your guide.&lt;/cmd>
 &lt;/step>...</pre>
                     </stepxmp>
-                    <info><xref href="https://youtu.be/-9JWoT1HdWk" format="html" scope="external"
-                            >Video: Adding a step example in a DITA task</xref></info>
                 </step>
                 <step>
                     <cmd>After the &lt;cmd> element, add a &lt;stepxmp> element. </cmd>
