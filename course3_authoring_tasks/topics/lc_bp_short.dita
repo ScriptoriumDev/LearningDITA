@@ -11,23 +11,23 @@
     </prolog>
     <learningContentbody>
         <lcIntro>
-            <p>Although there is no limit to the number of steps you can have in a DITA task, the
-                task should not be too long.  </p>
-            <p>While the length of a task can be subjective, longer tasks with a large number of
-                steps can seem overwhelming to users (particularly novice users). These lists can be
-                intimidating.</p>
+            <p>There is no technical limit to the number of steps you can have in a DITA task;
+                however, the task should not be too long.</p>
+            <p>Although the length of a task can be subjective, longer tasks with a large number of
+                steps can seem overwhelming to readers (particularly novice readers).</p>
             <p>In some circles, the number of seven, plus or minus two (also known as “<xref
                     href="https://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two"
                     format="html" scope="external">Miller’s Law</xref>”) is used as an upper bound
                 on the number of steps you should use. Although Miller’s Law pertains more directly
-                to short-term memory, a user should understand a task well enough to be able to
+                to short-term memory, a reader should understand a task well enough to be able to
                 summarize the steps, without a great deal of mental effort. </p>
-            <p>An additional effect of longer tasks is that the user may have difficulty keeping
+            <p>An additional effect of longer tasks is that the reader may have difficulty keeping
                 track of where they are when performing the task. This is even more true when there
                 is a long list of very similar steps. </p>
-            <p>Addressing shorter tasks: you may encounter some tasks that require one or two steps.
-                These might be unavoidable if the goal is <i>complete</i> coverage of a set of
-                tasks. </p>
+            <p>Addressing shorter tasks: you may encounter some tasks that only require one or two
+                steps. These might be unavoidable if the goal is <i>complete</i> coverage of a set
+                of tasks. Although most of your tasks will probably be longer, there is absolutely
+                nothing wrong with having a single-step or two-step task if necessary.</p>
         </lcIntro>
     </learningContentbody>
 </learningContent>
