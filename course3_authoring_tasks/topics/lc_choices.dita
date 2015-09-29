@@ -4,7 +4,7 @@
      applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_xyj_ddc_bt">
-    <title>Giving the user choices</title>
+    <title>Giving the reader choices</title>
     <prolog>
         <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
             Scriptorium</author>
@@ -17,7 +17,7 @@
     <learningContentbody>
         <lcInstruction>
             <p>As part of giving a reader an instruction, there may be more than one option for the
-                reader. For example, when using an auto stereo system, the user has the choice of
+                reader. For example, when using an auto stereo system, the reader has the choice of
                 which mode to use (AM, FM, CD, line-in, and so on). </p>
             <p>To present this information, and to give it a semantically appropriate label, you can
                 use the &lt;choices> or &lt;choicetable> elements.  <ul id="ul_nsn_tqx_kt">
