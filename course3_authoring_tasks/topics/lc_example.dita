@@ -19,7 +19,8 @@
             <p>The &lt;example> element allows you to show an example of the entire task. This
                 element can be contrasted with the the &lt;stepxmp> element, which shows an example
                 of performing a single step. </p>
-            <p/>
+            <p><xref href="https://youtu.be/kQS7FCSLJ7E" format="html" scope="external">Video:
+                    Adding an example in a DITA task</xref></p>
         </lcInstruction>
     </learningContentbody>
     <task id="task_bkt_c3k_bt">
@@ -28,8 +29,6 @@
             <steps id="steps_pzh_d3k_bt">
                 <step>
                     <cmd>Continue working in the file l_task_start.dita.</cmd>
-                    <info><xref href="https://youtu.be/kQS7FCSLJ7E" format="html" scope="external"
-                            >Video: Adding an example in a DITA task</xref></info>
                 </step>
                 <step>
                     <cmd>After the closing tag of the &lt;result> element, add a &lt;example>
