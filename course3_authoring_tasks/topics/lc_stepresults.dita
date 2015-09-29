@@ -4,7 +4,7 @@
      applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_exh_p5j_bt">
-    <title>Showing the results</title>
+    <title>Showing examples and results</title>
     <prolog>
         <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
             Scriptorium</author>
@@ -26,6 +26,7 @@
                     <p>Use &lt;stepresult> to describe the result of the step.</p>
                 </li>
             </ul>
+            <p>A step can contain any number of either of these elements, in any order. </p>
         </lcInstruction>
     </learningContentbody>
     <task id="task_mjr_q5j_bt">
@@ -70,10 +71,10 @@
    &lt;stepxmp>
 <ph outputclass="newchanged">&lt;lines>
 Ducks,
-☒ Harlequin
-☐ Mallard
-☐ Ruddy
-☐ Wood
+[X] Harlequin
+[ ] Mallard
+[ ] Ruddy
+[ ] Wood
 &lt;/lines></ph>
    &lt;/stepxmp>
 &lt;/step>...</pre>

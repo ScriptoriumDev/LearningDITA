@@ -14,14 +14,14 @@
             <p>The DITA specification defines two types of task topics: a strict task and a general
                 task. </p>
             <p>The main elements in the body of a strict task must occur in a specific order. The
-                strict task can contain only one set of steps. And the steps the user performs must
-                use specific elements (&lt;steps> and &lt;step>). </p>
-            <p>On the other hand, the main elements in the body of the general task can appear in
-                almost any order. The general task allows one or more sets of steps. The elements
-                used for the steps can be almost any element that is allowed in a DITA &lt;section>
-                element.  </p>
-            <p>Although it may sound like it’s easier to write a general task, there are a number of
-                good reasons for using the strict task.</p>
+                strict task can contain only one set of steps. Also, the steps the user performs
+                must use specific elements (&lt;steps> and &lt;step>). </p>
+            <p>On the other hand, the order of the elements in the general task is not quite as
+                rigid as in the strict task. The general task allows one or more sets of steps. The
+                elements used for the steps can be almost any element that is allowed in a DITA
+                &lt;section> element. </p>
+            <p>Although it may sound as though it’s easier to write a general task, there are a
+                number of good reasons for using the strict task.</p>
             <ul id="ul_efs_sfx_kt">
                 <li>Consistency. All the tasks in your document or documents will have the same
                     organization. </li>

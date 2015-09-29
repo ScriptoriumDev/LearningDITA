@@ -18,6 +18,9 @@
         <lcInstruction>
             <p>Following the &lt;steps> element, you can use the &lt;result> element to describe the
                 end result of a successful completion of the task. </p>
+            <p>This element is similar to the &lt;stepresult> element, but while the &lt;stepresult>
+                element describes the result of completing a step, the &lt;result> element describes
+                the result of completing the entire task. </p>
             <p>You might use this to describe what the reader will see for confirmation that the
                 task has succeeded, a simple test the reader might perform to verify the end result,
                 or merely provide a congratulatory message to the reader. </p>

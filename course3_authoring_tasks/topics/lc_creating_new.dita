@@ -18,14 +18,14 @@
 
     <learningContentbody>
         <lcInstruction>
-            <p>The minimal DITA task topic is much like the minimal topic discussed in previous
-                courses: a &lt;task> root element (with an id attribute) that contains a &lt;title>
-                element. </p>
-            <p>Following the &lt;title> element and an optional &lt;shortdesc> element, use a
-                &lt;taskbody> element to contain the task content. </p>
-            <p>Within the &lt;taskbody> the elements in a strict task conform to a very specific
-                order. This course presents the elements of the &lt;taskbody> in the order in which
-                they must occur. </p>
+            <p>At a minimum, the task topic must contain a &lt;task> root element (with an id
+                attribute) that contains a &lt;title> element. </p>
+            <p>Following the &lt;title> element and an optional &lt;shortdesc> element, a
+                &lt;taskbody> element contains the task content. The elements within the
+                &lt;taskbody> conform to a very specific order. This course presents the elements of
+                the &lt;taskbody> in the order in which they must occur. </p>
+            <p><xref href="https://youtu.be/7E7RYKHQ6C4" format="html" scope="external">Video:
+                    Creating a DITA task topic</xref></p>
         </lcInstruction>
     </learningContentbody>
     <task id="task_i3g_jkh_1t">
@@ -58,8 +58,6 @@
                         <p>The third line contains the opening tag of the &lt;task> element.</p>
                         <p>The fourth line contains the title element.</p>
                     </info>
-                    <info><xref href="https://youtu.be/7E7RYKHQ6C4" format="html" scope="external"
-                            >Video: Creating a DITA task topic</xref></info>
                 </step>
                 <!--<step><cmd>Depending on the editor you are using: </cmd><choices id="choices_uy2_lkh_1t"><choice><p><b>DITA-aware editor</b>: Use the File > New... command to create a new task topic. Make sure you don't use the general task. </p></choice><choice><p><b>Text editor</b>: Create a new file that contains this text:</p><pre>&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 &lt;task id="my_first_task">
@@ -87,8 +85,8 @@
    &lt;title>Watching wild ducks&lt;/title>
 <ph outputclass="newchanged">   &lt;taskbody>
 
-   &lt;/taskbody></ph>
-&lt;/task></pre>
+   &lt;/taskbody>
+</ph>&lt;/task></pre>
                     </stepxmp>
                     <info>This is the essential part of a DITA strict task topic. The rest of this
                         lesson shows you how to add the first two child elements to the

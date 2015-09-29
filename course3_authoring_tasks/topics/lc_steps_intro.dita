@@ -17,28 +17,26 @@
     <learningContentbody>
         <lcObjectives>
             <lcObjectivesGroup id="lcObjectivesGroup_e2g_sks_zs">
-                <lcObjective>Identify the core elements found in a step</lcObjective>
-                <lcObjective>Add a &lt;steps> element to the task</lcObjective>
-                <lcObjective>Add &lt;step> elements to the &lt;steps>, using &lt;cmd> and &lt;info>
-                    to provide additional information</lcObjective>
+                <lcObjective>Specify the location of  the &lt;steps> element in the &lt;taskbody> </lcObjective>
+                <lcObjective>Identify the core elements found in a step and how they are
+                    used</lcObjective>
+                <lcObjective>Differentiate the &lt;choices> and &lt;choicetable>
+                    elements</lcObjective>
+                <lcObjective>Understand how to create substeps and how they differ from
+                    steps</lcObjective>
             </lcObjectivesGroup>
         </lcObjectives>
         <lcDuration>
             <lcTime value="1"/>
         </lcDuration>
         <lcInstruction>
-            <p>The core part of a task is the set of steps that the user is to perform. </p>
-            <p>In DITA task topics, the procedure the reader is to perform is contained in a
-                &lt;steps> element; the individual steps in that procedure are contained in
-                &lt;step> elements. </p>
+            <p>The &lt;steps> element is the core of a task topic. The &lt;steps> element contains
+                &lt;step> elements, which contain the individual steps</p>
             <p>When output is generated from the task topic, the steps usually take the form of a
                 numbered list. The actual text that is used to identify each step (whether it’s
                 simply the number and some punctuation, or the word “Step” followed by a number) is
                 up to the transform implementation. When you're authoring a step, most DITA editors
                 will display step numbers beside each step.</p>
-            <p>DITA also allows you to create an unordered list for the steps, with the &lt;steps-unordered> element. For more information about this element, see the <xref
-                    href="http://docs.oasis-open.org/dita/v1.2/os/spec/DITA1.2-spec.html"
-                    format="html" scope="external">DITA Specification</xref>. </p>
 
             <note>
                 <p>This lesson covers basic use of these elements. For the full specifications for
