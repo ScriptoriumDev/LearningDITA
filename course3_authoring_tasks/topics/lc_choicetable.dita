@@ -24,10 +24,10 @@
                         <p>&lt;chhead></p>
                     </stentry>
                     <stentry>
-                        <p>The container element for the header row of a &lt;choicetable> element.
-                            The &lt;chhead> element contains the &lt;choptionhd> and &lt;chdeschd>
-                            elements and is optional. There can only be one &lt;chhead> element in a
-                            &lt;choicetable> element.</p>
+                        <p>The header row of a &lt;choicetable> element. The &lt;chhead> element
+                            contains the &lt;choptionhd> and &lt;chdeschd> elements and is optional.
+                            There can only be one &lt;chhead> element in a &lt;choicetable>
+                            element.</p>
                     </stentry>
                 </strow>
                 <strow>
@@ -35,10 +35,8 @@
                         <p>&lt;choptionhd></p>
                     </stentry>
                     <stentry>
-                        <p>The container element for the option cell in the header row of a
-                            &lt;choicetable> element. The &lt;choptionhd> element contains the
-                            option text, which should be wrapped in a &lt;p> element according to
-                            best practice.</p>
+                        <p>Header text for the option column in a choice table. The text should be
+                            wrapped in a &lt;p> element according to best practice.</p>
                     </stentry>
                 </strow>
                 <strow>
@@ -46,10 +44,8 @@
                         <p>&lt;chdeschd></p>
                     </stentry>
                     <stentry>
-                        <p>The container element for the description cell in the header row of a
-                            &lt;choicetable> element. The &lt;chdeschd> element contains the
-                            description text, which should be wrapped in a &lt;p> element according
-                            to best practice.</p>
+                        <p>Header text for the description column in a choice table.  The text
+                            should be wrapped in a &lt;p> element according to best practice.</p>
                     </stentry>
                 </strow>
                 <strow>
@@ -57,10 +53,9 @@
                         <p>&lt;chrow></p>
                     </stentry>
                     <stentry>
-                        <p>The container element for a row in a &lt;choicetable> element. The
-                            &lt;chrow> element contains the &lt;choption> and &lt;chdesc> elements.
-                            There can be one or more &lt;chrow> elements in a &lt;choicetable>
-                            element.</p>
+                        <p>A body row in a choice table. The &lt;chrow> element contains the
+                            &lt;choption> and &lt;chdesc> elements. There can be one or more
+                            &lt;chrow> elements in a &lt;choicetable> element.</p>
                     </stentry>
                 </strow>
                 <strow>
@@ -68,9 +63,8 @@
                         <p>&lt;choption></p>
                     </stentry>
                     <stentry>
-                        <p>The container element for the option cell in a row of a &lt;choicetable>
-                            element. The &lt;choption> element contains the option text, which
-                            should be wrapped in a &lt;p> element according to best practice.</p>
+                        <p>Option text for a row in a choice table. The text should be wrapped in a
+                            &lt;p> element according to best practice.</p>
                     </stentry>
                 </strow>
                 <strow>
@@ -78,10 +72,9 @@
                         <p>&lt;chdesc></p>
                     </stentry>
                     <stentry>
-                        <p>The container element for the description cell in a row of a
-                            &lt;choicetable> element. The &lt;chdesc> element contains the
-                            description text, which should be wrapped in a &lt;p> element according
-                            to best practice.</p>
+                        <p>Description text for a row in a choice table. The text should be wrapped
+                            in a &lt;p> element according to best practice. There can be multiple
+                            elements in the &lt;chdesc> element.</p>
                     </stentry>
                 </strow>
             </simpletable>
@@ -102,10 +95,10 @@
                     <cmd>Following the &lt;step> element containing the &lt;choices> element, create
                         a new step with a &lt;cmd> element and text as shown here:</cmd>
                     <stepxmp>
-                        <pre>&lt;step>
+                        <pre><ph outputclass="newchanged">&lt;step>
    &lt;cmd>Find some good optics&lt;/cmd>
 &lt;/step>
-</pre>
+</ph></pre>
                     </stepxmp>
                     <info/>
                 </step>
@@ -117,12 +110,12 @@
    &lt;cmd>Find some good optics&lt;/cmd>
 <ph outputclass="newchanged">   &lt;choicetable>
      &lt;chrow>
-         &lt;choption/>
-         &lt;chdesc/>
+         &lt;choption>&lt;/choption>
+         &lt;chdesc>&lt;/chdesc>
      &lt;/chrow>
      &lt;chrow>
-         &lt;choption/>
-         &lt;chdesc/>
+         &lt;choption>&lt;/choption>
+         &lt;chdesc>&lt;/chdesc>
      &lt;/chrow>
    &lt;/choicetable></ph>
 &lt;/step>
@@ -145,12 +138,12 @@
    &lt;cmd>Find some good optics&lt;/cmd>
    &lt;choicetable>
 <ph outputclass="newchanged">     &lt;chhead>
-         &lt;choptionhd/>
-         &lt;chdeschd/>
+         &lt;choptionhd>&lt;/choptionhd>
+         &lt;chdeschd>&lt;/chdeschd>
      &lt;/chhead></ph>
      &lt;chrow>
-         &lt;choption/>
-         &lt;chdesc/>
+         &lt;choption>&lt;/choption>
+         &lt;chdesc>&lt;/chdesc>
      &lt;/chrow>
      ...
    &lt;/choicetable>
@@ -165,7 +158,7 @@
                         here.</cmd>
                     <stepxmp>
                         <pre>...
-&lt;chhead>
+<ph outputclass="newchanged">&lt;chhead>
    &lt;choptionhd>
       &lt;p>Type&lt;/p>
    &lt;/choptionhd>
@@ -173,7 +166,7 @@
       &lt;p>Advantages&lt;/p>
    &lt;/chdeschd>
 &lt;/chhead>
-...</pre>
+</ph>...</pre>
                     </stepxmp>
                 </step>
                 <step>
@@ -181,14 +174,15 @@
                         here.</cmd>
                     <stepxmp>
                         <pre>...
-&lt;chrow>
+<ph outputclass="newchanged">&lt;chrow>
    &lt;choption>
       &lt;p>Binoculars&lt;/p>
    &lt;/choption>
    &lt;chdesc>
       &lt;p>Wide field of view, allows quick observations&lt;/p>
    &lt;/chdesc>
-&lt;/chrow>...</pre>
+&lt;/chrow>
+</ph>...</pre>
                     </stepxmp>
                 </step>
                 <step>
@@ -198,7 +192,7 @@
                         <pre>&lt;choicetable>
 ...
 &lt;/chrow>
-&lt;chrow>
+<ph outputclass="newchanged">&lt;chrow>
    &lt;choption>
       &lt;p>Spotting scope&lt;/p>
    &lt;/choption>
@@ -206,7 +200,7 @@
       &lt;p>Higher magnification, better light-gathering&lt;/p>
    &lt;/chdesc>
 &lt;/chrow>
-&lt;/choicetable></pre>
+</ph>&lt;/choicetable></pre>
                     </stepxmp>
                 </step>
             </steps>

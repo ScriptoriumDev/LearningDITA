@@ -16,22 +16,23 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>The &lt;prereq> and &lt;context> elements are optional elements that can help
-                introduce the instructional content in a task topic.</p>
-            <p>The &lt;prereq> element contains any prerequisite information required to perform the
-                task, which can include:</p>
+            <p>The &lt;prereq> and &lt;context> elements are optional elements that introduce the
+                instructional content in a task topic.</p>
+            <p>The &lt;prereq> element describes what you need before performing the task task,
+                which can include:</p>
             <ul id="ul_glj_1pb_bt">
-                <li>Things the reader must have, such as a smartphone with a bird identification app </li>
+                <li>Things the reader must have, such as binoculars or a smartphone with a bird
+                    identification app </li>
                 <li>Information the reader must have, such as knowledge of migratory patterns</li>
                 <li>Previous tasks the reader must have accomplished, such as completing a basic
                     duck identification course</li>
             </ul>
-            <p>The &lt;context> element explains the purpose of the task. This can include
-                background information or what the user will gain by performing the task. The
-                &lt;context> element content should be relatively brief; if you need to provide more
-                detailed background information, consider creating a concept topic. </p>
-            <p>Although both of these elements are optional, they occur in a strict order—the
-                &lt;prereq> element must go before the &lt;context> element.</p>
+            <p>The &lt;context> element provides background information about the task, such as the
+                purpose of the task and what the user will gain. The &lt;context> element content
+                should be relatively brief; if you need to provide more detailed background
+                information, consider creating a concept topic. </p>
+            <p>Although &lt;prereq&gt; and &lt;context&gt; are optional, they occur in a strict
+                order—the &lt;prereq> element must go before the &lt;context> element.</p>
         </lcInstruction>
     </learningContentbody>
     <task id="task_i3g_jkh_1t">

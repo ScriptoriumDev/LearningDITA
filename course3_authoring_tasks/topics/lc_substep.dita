@@ -22,11 +22,12 @@
             <p>The &lt;substeps> element contains one or more &lt;substep> elements, which are
                 similar in content to the &lt;step> element. The &lt;substep> element must contain a
                 &lt;cmd> element. </p>
-            <p>DITA allows only one level of substeps; that is, you cannot add a substep to a
-                substep. If you find you need a second substep levels, reconsider the level of
-                information in your procedure; it might be better presented as a series of separate
+            <p>DITA allows only two levels of steps. The first level uses the &lt;steps> element;
+                the second level uses the &lt;substeps> element. You cannot add a third level. If
+                you find you need a third level of steps, reconsider the level of information in
+                your procedure. The information might be better presented as a series of separate
                 task topics. The same is true if you find you are providing a great deal of detail
-                at the substep level.  </p>
+                at the substep level. </p>
         </lcInstruction>
     </learningContentbody>
     <task id="task_mjk_bjd_bt">
@@ -56,7 +57,7 @@
 </pre>
                     </stepxmp>
                     <info>You can have one or more &lt;substeps> elements inside the &lt;step>
-                        element. However, these &lt;substeps> elements cannot be nexted inside each
+                        element. However, these &lt;substeps> elements cannot be nested inside each
                         other—they can only be added in sequence at the same level.</info>
                     <info><xref href="https://youtu.be/1HDXrdB5y4w" format="html" scope="external"
                             >Video: Adding substeps in a DITA task</xref></info>
@@ -69,7 +70,7 @@
     &lt;cmd>Go watch some birds.&lt;/cmd>
     &lt;substeps>
 <ph outputclass="newchanged">        &lt;substep>
-            &lt;cmd/>
+            &lt;cmd>&lt;/cmd>
         &lt;/substep></ph>
     &lt;/substeps>
 &lt;/step>
