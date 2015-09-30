@@ -35,8 +35,8 @@
                     <stentry>
                         <p>A single step. The step must contain one &lt;cmd> element. The &lt;step>
                             element can also contain the &lt;info> element, and additional elements
-                            that provide information about the step (these are presented in the next
-                            topics). </p>
+                            that provide information about the step (these are described later in
+                            this course). </p>
                     </stentry>
                 </strow>
                 <strow>
@@ -130,7 +130,7 @@
                         <p>As a best practice, the &lt;cmd> element should be limited to a single
                             sentence, in active voice, that directs the reader to perform an action.
                             To provide additional information about the &lt;cmd> element, use the
-                            &lt;info> element (discussed in the next step). </p>
+                            &lt;info> element. </p>
                     </info>
                 </step>
                 <stepsection>To provide additional information about the step direction contained in
@@ -156,7 +156,7 @@
                             dictate that you should use a &lt;p> element to wrap text, even if the
                             &lt;info> element only contains one paragraph.</p>
                         <p>The remaining topics in this lesson introduce additional elements you can
-                            use to further document the step. </p>
+                            use to document the step. </p>
                     </info>
                 </step>
             </steps>

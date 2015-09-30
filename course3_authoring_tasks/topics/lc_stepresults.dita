@@ -16,17 +16,21 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>A step might include an example of how the step is performed or some text about the
+            <p>A step can include an example of how the step is performed and some text about the
                 result of having successfully completed the steps. </p>
             <ul id="ul_xjf_prx_kt">
                 <li>
-                    <p>Use &lt;stepxmp> (step example) to contain an example.</p>
+                    <p>Use &lt;stepxmp> (step example) to show an example of how to perform the
+                        step. </p>
                 </li>
                 <li>
                     <p>Use &lt;stepresult> to describe the result of the step.</p>
                 </li>
             </ul>
             <p>A step can contain any number of either of these elements, in any order. </p>
+            <note>The &lt;stepxmp> element shows an example for the current step; to show an example
+                of the entire task, use the &lt;example> element, which is discussed in the next
+                lesson.</note>
             <p><xref href="https://youtu.be/-9JWoT1HdWk" format="html" scope="external">Video:
                     Adding a step example in a DITA task</xref></p>
         </lcInstruction>
@@ -51,34 +55,31 @@
                     <stepxmp>
                         <pre>...&lt;step>&lt;cmd>When you have definitively identified a duck, make a note in your guide.&lt;/cmd>
 <ph outputclass="newchanged">   &lt;stepxmp>
-   &lt;/stepxmp></ph>
+   &lt;/stepxmp> </ph>
 &lt;/step>...</pre>
                     </stepxmp>
                     <info>The &lt;stepxmp> element contains an example that illustrates or clarifies
                         the step.</info>
-                    <info>The &lt;stepxmp> element can contain text, as well as most elements
-                        involved in tagging text. Some of the most commonly used elements inside the
-                        &lt;stepxmp> element include the &lt;p> element for body text, the &lt;note>
-                        element for admonitions, the &lt;lines> element for preserving line breaks
-                        in body text, and the &lt;pre> element for preserving line breaks in code
-                        samples.</info>
+                    <info>The &lt;stepxmp> element can contain any of the elements that you can use
+                        inside an &lt;li> element.  To show examples where line breaks and spaces
+                        are important, you can use the &lt;pre> element or the &lt;codeblock>
+                        element.</info>
                 </step>
                 <step>
-                    <cmd>Inside the &lt;stepxmp> element, add the &lt;lines> element and add content
-                        to it as shown here.</cmd>
+                    <cmd>Inside the &lt;stepxmp> element, add a &lt;p> element, then insert an
+                        &lt;image> element inside the &lt;p> element.</cmd>
                     <stepxmp>
                         <pre>...&lt;step>&lt;cmd>When you have definitively identified a duck, make a note in your guide.&lt;/cmd>
    &lt;stepxmp>
-<ph outputclass="newchanged">&lt;lines>
-Ducks,
-[X] Harlequin
-[ ] Mallard
-[ ] Ruddy
-[ ] Wood
-&lt;/lines></ph>
+<ph outputclass="newchanged">      &lt;p>&lt;image href="checklist.png"/>&lt;/p>
+</ph>
    &lt;/stepxmp>
 &lt;/step>...</pre>
                     </stepxmp>
+                    <info>
+                        <note>The file checklist.png is in the sample files, in both the lesson2
+                            folder.</note>
+                    </info>
                 </step>
                 <stepsection>
                     <p>The &lt;stepresult> element describes the result of the successful completion

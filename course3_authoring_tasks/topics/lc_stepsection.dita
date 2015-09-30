@@ -16,19 +16,19 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>There are two elements you can use for additional information between &lt;step>
-                elements, and before the &lt;cmd> element. </p>
+            <p>There are two elements you can use to add additional information to your steps: </p>
             <ul id="ul_u43_qbk_bt">
                 <li>
-                    <p>The &lt;stepsection> element allows you to add comments between two steps.
-                        This can be useful if you need to make a comment to the reader about the
+                    <p>Use the &lt;stepsection> element to add comments between two steps. </p>
+                    <p>This can be useful if you need to make a comment to the reader about the
                         steps themselves, such as “The remaining steps focus on the the <i>x</i>
                         component” or “The next two steps must be performed in a <i>y</i>
                         environment.”</p>
                 </li>
                 <li>
-                    <p>You can use a &lt;note> or &lt;hazardstatement> element before a &lt;cmd>
-                        element in a &lt;step> or &lt;substep>. Typically, you use this when you
+                    <p>Use a &lt;note> or &lt;hazardstatement> element to add an admonition before a
+                        &lt;cmd> element in a &lt;step> or &lt;substep>.  </p>
+                    <p>Typically, you use the &lt;note> or &lt;hazardstatement> elements when you
                         need to alert readers about a risk or danger <i>before</i> they read or
                         perform the &lt;cmd> action. </p>
                 </li>

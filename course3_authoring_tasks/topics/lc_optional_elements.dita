@@ -16,9 +16,9 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>The &lt;prereq> and &lt;context> elements are optional elements that introduce the
-                instructional content in a task topic.</p>
-            <p>The &lt;prereq> element describes what you need before performing the task task,
+            <p>The &lt;prereq> (prerequisite) and &lt;context> elements are optional elements that
+                introduce the instructional content in a task topic.</p>
+            <p>The &lt;prereq> element describes what the reader needs before performing the task,
                 which can include:</p>
             <ul id="ul_glj_1pb_bt">
                 <li>Things the reader must have, such as binoculars or a smartphone with a bird
@@ -31,8 +31,8 @@
                 purpose of the task and what the reader will gain. The &lt;context> element content
                 should be relatively brief; if you need to provide more detailed background
                 information, consider creating a concept topic. </p>
-            <p>Although &lt;prereq&gt; and &lt;context&gt; are optional, they occur in a strict
-                order—the &lt;prereq> element must go before the &lt;context> element.</p>
+            <p>Although &lt;prereq&gt; and &lt;context&gt; are optional, they occur in order—the
+                &lt;prereq> element must go before the &lt;context> element.</p>
             <p><xref href="https://youtu.be/Bhaeafcemis" format="html" scope="external">Video:
                     Strict sequence of introductory elements in a DITA Task</xref></p>
         </lcInstruction>
