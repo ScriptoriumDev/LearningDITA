@@ -30,13 +30,13 @@
             <lcTime value="1"/>
         </lcDuration>
         <lcInstruction>
-            <p>The &lt;steps> element is the core of a task topic. The &lt;steps> element contains
-                &lt;step> elements, which contain the individual steps</p>
+            <p>The &lt;steps> element (note plural) contains &lt;step> elements (singular). The
+                individual step instructions are inside the &lt;step> elements. </p>
             <p>When output is generated from the task topic, the steps usually take the form of a
-                numbered list. The actual text that is used to identify each step (whether it’s
-                simply the number and some punctuation, or the word “Step” followed by a number) is
-                up to the transform implementation. When you're authoring a step, most DITA editors
-                will display step numbers beside each step.</p>
+                numbered list. The labels that identify each step (such as a number and some
+                punctuation or the word “Step” followed by a number) are determined by the output
+                generator. When you're authoring a step, most DITA editors will display step numbers
+                beside each step.</p>
 
             <note>
                 <p>This lesson covers basic use of these elements. For the full specifications for

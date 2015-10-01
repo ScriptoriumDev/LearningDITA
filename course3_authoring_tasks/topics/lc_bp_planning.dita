@@ -14,45 +14,30 @@
     </prolog>
     <learningContentbody>
         <lcIntro>
-            <p>It’s tempting to simply jump into creating tasks, writing until you think you’re
-                done. However, this approach risks missing important tasks, resulting in incomplete
+            <p>It’s tempting to jump into creating tasks, writing until you think you’re done.
+                However, this approach risks missing important tasks, resulting in incomplete
                 coverage. </p>
             <p>Rather than create tasks as they occur to you, a far better strategy is to plan out
-                the set of tasks you need to document. This planning is a four-step process:</p>
-            <ol id="ol_hv1_z3t_lt">
-                <li>
-                    <p>Gather information about the types of things your readers need to do or
-                        accomplish.</p>
-                    <p>There are a number of different sources you can use for information
-                        gathering. These include: product design documents, specifications, audience
-                        analysis, and usage scenarios. Interviews with actual users of your product
-                        or service can also be a good source.</p>
-                    <p>The information you gather will help you determine the overall scope of the
-                        instructional content you plan to present to the reader.</p>
-                </li>
-                <li>
-                    <p>From that information, create a list of major tasks readers need to
-                        perform.</p>
-                    <p>At this point, don’t get too specific. You are concerned with what readers
-                        need to accomplish, not how they're going to do it.</p>
-                </li>
-                <li>
-                    <p>Divide the major tasks into subtasks. </p>
-                    <p>These subtasks will be your DITA task topics. At this point, you should also
-                        evaluate the scope of each DITA task topic to make sure that they provide
-                        thorough coverage of everything your readers should do.</p>
-                </li>
-                <li>
-                    <p>Have the entire list of tasks reviewed by all stakeholders.</p>
-                    <p>These should include writers, editors, subject matter experts and other
-                        content contributors, project managers, and anyone else who has a hand in
-                        your content development process. This step is important, because the more
-                        contributors you have, the less chance you have of missing an important
-                        task.</p>
-                </li>
+                the set of tasks you need to document.
+                <!--This planning is a four-step process:--></p>
+            <p>There are many resources for and approaches to task analysis. The essential point to
+                all of them is to:  </p>
+            <ol id="ol_ovn_lhj_nt">
+                <li>Gather information about what the reader should accomplish.</li>
+                <li>Identify the tasks you need to document.</li>
+                <li>Understand the scope of those tasks.</li>
+                <li>Consider your readers’ abilities and needs.</li>
+                <li>Plan your task topics accordingly.</li>
             </ol>
-            <p>You can use your finalized list of tasks as a resource to determine the concept and
-                reference topics you need to create. </p>
+            <p>Once you have planned the tasks, it’s a good idea to have all stakeholders review the
+                entire list of tasks. These should include writers, editors, subject matter experts
+                and other content contributors, project managers, and anyone else who has a hand in
+                your content development process. This step is important, because the more
+                contributors you have, the less chance you have of missing an important task.</p>
+            <p>The list of tasks can help you plan your concepts, reference, and glossary entry
+                topics. For each task in the list, consider what concepts and reference information
+                is needed to support that task.  You can also identify the terms in the task that
+                will make good candidates for glossary entry topics.</p>
         </lcIntro>
     </learningContentbody>
 </learningContent>

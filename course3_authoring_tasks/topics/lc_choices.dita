@@ -20,18 +20,18 @@
                 reader. For example, when using an auto stereo system, the reader has the choice of
                 which mode to use (AM, FM, CD, line-in, and so on). </p>
             <p>To present this information, and to give it a semantically appropriate label, you can
-                use the &lt;choices> or &lt;choicetable> elements.  <ul id="ul_nsn_tqx_kt">
-                    <li>
-                        <p>Use &lt;choices> when the choices only require a brief description.</p>
-                    </li>
-                    <li>
-                        <p>Use &lt;choicetable> (detailed in the next topic) when you need to
-                            provide specific keywords, along with an extended description of each.
-                        </p>
-                    </li>
-                </ul></p>
-            <p>The &lt;choices> element is usually presented as a bulleted list. In fact, the
-                structure of the &lt;choices> element is like a &lt;ul> element: </p>
+                use the &lt;choices> or &lt;choicetable> elements. </p>
+            <ul id="ul_nsn_tqx_kt">
+                <li>
+                    <p>Use &lt;choices> when the choices only require a brief description.</p>
+                </li>
+                <li>
+                    <p>Use &lt;choicetable> (detailed later in this course) when you need to provide
+                        specific keywords, along with an extended description of each. </p>
+                </li>
+            </ul>
+            <p>The &lt;choices> element is usually presented as a bulleted list. The structure of
+                the &lt;choices> element is like a &lt;ul> element: </p>
             <simpletable frame="all" relcolwidth="1.0* 1.0*" id="simpletable_mdl_bsw_mt">
                 <sthead>
                     <stentry>&lt;ul> element</stentry>
@@ -52,7 +52,7 @@
                     </stentry>
                 </strow>
             </simpletable>
-            <p>the &lt;choices> element contains one or more &lt;choice> elements. Each &lt;choice>
+            <p>The &lt;choices> element contains one or more &lt;choice> elements. Each &lt;choice>
                 element presents one of the options for the reader. The content of the &lt;choice>
                 element is any element that can be used inside an &lt;li> element.</p>
           
