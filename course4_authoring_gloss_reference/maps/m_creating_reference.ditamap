@@ -2,4 +2,15 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
  <title>Creating a reference topic</title>
+ <topicref href="../topics/lc_creating_ref.dita">
+  <topicref href="../topics/lc_ref_housekeeping.dita"/>
+  <topicref href="../topics/lc_about_ref.dita"/>
+  <topicref href="../topics/lc_creating_new_ref.dita"/>
+  <topicref href="../topics/lcc_assessment.dita" copy-to="lcc_creating.dita" locktitle="yes">
+   <topicmeta>
+    <navtitle>Assessment for Creating a reference topic</navtitle>
+   </topicmeta>
+   <topicref href="../assessments/creating_ref/lca_body.dita"/>
+  </topicref>
+ </topicref>
 </map>
