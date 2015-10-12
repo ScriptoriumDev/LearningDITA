@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_hrm_xjh_1t">
+    <title>Adding basic elements to a concept topic</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-08-24"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Some of the most commonly used elements in a concept topic include: </p>
+            <simpletable frame="all" relcolwidth="1.0* 1.0*" id="simpletable_i4k_dm4_2t">
+                <strow>
+                    <stentry>
+                        <p>&lt;p></p>
+                    </stentry>
+                    <stentry>
+                        <p>paragraph</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;ul></p>
+                    </stentry>
+                    <stentry>
+                        <p>unordered list</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;ol></p>
+                    </stentry>
+                    <stentry>
+                        <p>ordered list</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;note></p>
+                    </stentry>
+                    <stentry>
+                        <p>admonition</p>
+                    </stentry>
+                </strow>
+            </simpletable>
+            <p>These elements were covered in the <xref
+                    href="http://www.learningdita.com/courses/introduction-to-dita/" format="html"
+                    scope="external">Introduction to DITA course</xref>. This lesson gives a brief
+                review of these elements and shows how to add them to a concept topic.</p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_i3g_jkh_1t">
+        <title/>
+        <taskbody>
+            <steps id="steps_f5k_kkh_1t">
+                <step>
+                    <cmd>Continue using the file lesson1/l_new_concept_start.dita.</cmd>
+                </step>
+                <step>
+                    <cmd>Inside the &lt;conbody> element, add a &lt;p> element and add content to it as
+                        shown in the following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="my_first_concept">
+   &lt;title>Wild duck species&lt;/title>
+ &lt;conbody>
+<ph outputclass="newchanged">&lt;p>North American wild ducks belong to one of the following categories:&lt;/p></ph>
+   &lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>The &lt;p> element is for body text. It can be used inside the
+                        &lt;conbody> element as well as inside many of the elements that
+                        &lt;conbody> contains.</info>
+                    <info>
+                        <note>
+                            <p>Use the &lt;p> element for any body text that does not need a more
+                                specific element tag. As you will see in examples throughout this
+                                course, we recommend using the &lt;p> element to tag text inside
+                                list items, notes, and table entries. &lt;p> elements are needed for
+                                list items that are several paragraphs long, and wrapping single
+                                items in the &lt;p> element keeps them all consistent.</p>
+                        </note>
+                    </info>
+                    <info>The &lt;p> element you just created introduces the next element: an
+                        unordered list.</info>
+                </step>
+                <step>
+                    <cmd>After the &lt;p> element, add a &lt;ul> element and add content to it as shown in
+                        the following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="my_first_concept">
+   &lt;title>Wild duck species&lt;/title>
+  &lt;conbody>
+...
+<ph outputclass="newchanged">&lt;ul>
+&lt;li>&lt;p>Dabbling ducks&lt;/p>&lt;/li>
+&lt;li>&lt;p>Diving ducks&lt;/p>&lt;/li>
+&lt;li>&lt;p>Sea ducks&lt;/p>&lt;/li>
+&lt;li>&lt;p>Whistling ducks&lt;/p>&lt;/li>
+&lt;li>&lt;p>Swans and geese&lt;/p>&lt;/li>
+&lt;/ul></ph>
+   &lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>
+                        <note>
+                            <p>If you are using a DITA editor, the editor may insert an ID attribute
+                                on the &lt;ul> element for you automatically.</p>
+                        </note>
+                    </info>
+                    <info>The &lt;ul> element is for unordered or bulleted lists. </info>
+                    <info>The &lt;ul> element can only contain the &lt;li> element, and it must
+                        contain at least one.</info>
+                    <info>Each &lt;li> element contains the text for a bulleted entry in the list.
+                        In this example, the &lt;li> elements follow the best practice of wrapping a
+                        &lt;p> element around the text.</info>
+                </step>
+                <step>
+                    <cmd>After the &lt;ul> element, add an &lt;ol> element with an introductory
+                        &lt;p> element as shown in the following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="my_first_concept">
+   &lt;title>Wild duck species&lt;/title>
+   &lt;conbody>
+...
+<ph outputclass="newchanged"> &lt;p>The longest species of dabbling ducks in North America are:&lt;/p>
+&lt;ol>
+&lt;li>&lt;p>Northern pintail&lt;/p>&lt;/li>
+&lt;li>&lt;p>Mallard&lt;/p>&lt;/li>
+&lt;li>&lt;p>American black duck&lt;/p>&lt;/li>
+&lt;/ol></ph>
+   &lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>
+                        <note>
+                            <p>If you are using a DITA editor, the editor may insert an ID attribute
+                                on the &lt;ol> element for you automatically.</p>
+                        </note>
+                    </info>
+                    <info>The &lt;ol> element is for ordered or numbered lists.</info>
+                    <info>Like the &lt;ul> element, the &lt;ol> element can only contain &lt;li>
+                        elements, and it must contain at least one. </info>
+                    <info>In this example, each of the &lt;li> elements follows the best practice of
+                        wrapping a &lt;p> element around the text. <note>
+                            <p>Use the &lt;ol> element only to show that the list items should
+                                appear in a certain order, not to create step-by-step instructions.
+                                For step-by-step instructions, use the task topic instead.</p>
+                        </note></info>
+                   
+                </step>
+                <step>
+                    <cmd>After the &lt;ol> element, add a &lt;note> element and add content to it as shown
+                        in the following example:</cmd>
+                    <info>Video: <xref href="https://www.youtube.com/watch?v=ByrO1K1OTIA"
+                            format="html" scope="external">Creating a note in DITA</xref></info>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="my_first_concept">
+   &lt;title>Wild duck species&lt;/title>
+  &lt;conbody>
+...
+<ph outputclass="newchanged">&lt;note>&lt;p>Although the northern pintail is the longest dabbling duck, the mallard 
+is generally considered the largest because of its heavier body weight.&lt;/p>&lt;/note></ph>
+   &lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>The &lt;note> element is used to add admonitions, such as notes, warnings,
+                        or cautions, to the concept topic. The &lt;note> element you just created
+                        follows the best practice of wrapping a &lt;p> element around the
+                        text.</info>
+                </step>
+                <step>
+                    <cmd>Check your file lesson1/l_new_concept_start.dita against the sample file
+                        lesson1/l_new_concept.dita.</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+    <task id="task_rjg_zjx_dt">
+        <title>Exercise</title>
+        <taskbody>
+            <steps id="steps_r11_1kx_dt">
+                <step>
+                    <cmd>Open the file lesson1/l_new_concept_exercise_start.dita and use it to
+                        convert the following content from <xref
+                            href="http://contentstrategy101.com/" format="html" scope="external"
+                            >Content Strategy 101</xref> into DITA:</cmd>
+                    <info>
+                        <pre outputclass="passthru"><![CDATA[
+                            <hr />
+                            <h3>Content strategy and business goals</h3>
+                            <p>The issues to consider are:</p>
+                            <ul>
+                            <li>The real cost of low-cost documentation</li>
+                            <li>How to create an efficient content development process</li>
+                            <li>Whether high-quality documentation can lower the cost of technical support</li>
+                            <li>The most cost-effective way to share technical content across the enterprise</li>
+                           </ul> 
+                           <p><strong>Note:</strong> Ignoring content can have cost implications across the organization.</p>
+                           <p>To implement your project and improve your chances of success, we recommend following this sequence:</p>
+                           <ol>
+                           <li>Identify and interview stakeholders.</li>
+                           <li>Establish implementation goals and metrics.</li>
+                           <li>Define roles and responsibilities.</li>
+                           <li>Establish timelines and milestones.</li>
+                           <li>Build the content creation system.</li>
+                           <li>Convert legacy content.</li>
+                           <li>Deliver content.</li>
+                           <li>Capture project knowledge.</li>
+                           <li>Ensure long-term success.</li>
+                           </ol>
+                           <hr />
+                            ]]></pre>
+                    </info>
+                    <info/>
+                </step>
+                <step>
+                    <cmd>Check your file lesson1/l_new_concept_exercise_start.dita against the sample file lesson1/l_new_concept_exercise.dita.</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

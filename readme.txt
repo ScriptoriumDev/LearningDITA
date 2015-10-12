@@ -6,4 +6,3 @@ The materials are licensed under an Apache 2.0 license with the following except
 * Some images, sourced from Flickr, are licensed under Creative Commons.
   The Flickr user name is provided in the image caption or title. 
 
-Please send pull requests to the dev branch.

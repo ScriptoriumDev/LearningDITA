@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_il4_bwz_vr">
+    <title>Markup languages</title>
+    <prolog>
+        <author>Sharon Burton</author>
+        <author href="http://www.scriptorium.com"  scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-04-28"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+     
+       <lcInstruction>
+            <p>A markup language is a way of tagging content in a plain text file (a file you might
+                edit with Windows Notepad). The markup language you might be most familiar with is
+                HTML, which is the fundamental markup language for the world wide web. </p>
+            <p>DITA is built on the XML markup language. XML looks a lot like HTML. They both use
+                angle brackets (&lt; and >) to identify the markup tags (for example &lt;title>). In
+                both languages a forward slash identifies a close tag (&lt;/title>)</p>
+            <pre>&lt;title>This is a title&lt;/title></pre>
+            <p> In HTML and in XML, the tags can also have attributes (in the form
+                    <tt>attribute="value"</tt>) that provide further information about the tag:</p>
+            <pre>&lt;note type="warning">Keep your arms and legs inside the vehicle at all times.&lt;/note></pre>
+            <p>There are two main differences between HTML and XML:</p>
+            <ul id="ul_mst_hvg_rs">
+                <li>HTML can be quite forgiving when you forget to close tags or put quotation marks
+                    around attribute values; XML is strict in requiring them.</li>
+                <li>HTML uses a predefined set of tags (&lt;body>, &lt;p>, &lt;span>, and so on). In
+                    XML the tags are defined in a separate file and can be changed and added to by
+                    an information architect. </li>
+            </ul>
+            <p>DITA uses this tag naming feature in XML to define its own set of tag names or
+                “elements”. The DITA elements allow you to mark up content using names for things
+                that make sense, such as  &lt;note> for notes, &lt;section> for sections, &lt;image>
+                for images, and so on. However, because many HTML tag names make sense, their names
+                are also used for DITA elements, such as &lt;p> for paragraph, and &lt;ul> and
+                &lt;ol> for unordered and ordered lists. </p>
+            <p>One other difference in naming: in HTML, the outer-most or “root” tag is &lt;html>.
+                In DITA, the name of the root tag depends on the type of topic you're creating, such
+                as &lt;concept>, &lt;task>, or &lt;reference> (among others). </p>
+            <note>It’s useful to know how the markup looks in XML and DITA. However much of the time
+                you'll be creating DITA content using smart authoring tools that handle the
+                individual tags and attributes for you. </note>
+            <!--<p>The most commonly used markup language is HTML. XML is similar to HTML. It also uses angle brackets to indicate elements (like &lt;p>). Many of the tags in DITA XML are also found in HTML.</p><p>In XML, you must be careful to open and close all tags properly. HTML is forgiving when you make mistakes. XML requires you to provide a file that is tagged correctly. If you make any error in the encoding, parsing stops. This is known as draconian error handling, and it is a controversial part of the XML specification.</p><p>DITA is a markup language and is a flavor of XML. DITA allows you to mark up content semantically. The tag markup tells the author about the meaning of the markup.</p>-->
+       <p>Video: <xref href="https://youtu.be/1cYP5six9ww" format="html" scope="external">Overview
+                    of HTML markup versus DITA markup</xref></p>
+           
+        </lcInstruction>
+        
+    </learningContentbody>
+</learningContent>

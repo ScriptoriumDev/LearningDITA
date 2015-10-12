@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_kqs_rks_zs">
+    <title>More elements</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-08-19"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup id="lcObjectivesGroup_e2g_sks_zs">
+                <lcObjective>Learn about more elements and identify best practices for adding them
+                    to a concept topic.</lcObjective>
+                <lcObjective>Add the &lt;b>, &lt;i>, &lt;u>, &lt;term>, &lt;cite>, &lt;varname>,
+                    &lt;sub>, &lt;sup>, &lt;dl>, &lt;menucascade>, and &lt;fn> elements to the
+                    concept.</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="1"/>
+        </lcDuration>
+        <lcIntro>
+            <p>You may need more specific elements in your concept topic than basic body elements,
+                images, and tables. Maybe you need to indicate that certain words or phrases are
+                important, or you need a more sophisticated way to define terms or provide
+                references.</p>
+            <p>Some frequently used elements in DITA for inline styling include the &lt;b>, &lt;i>,
+                &lt;u>, &lt;sub>, and &lt;sup> elements. DITA also offers the &lt;term>, &lt;cite>,
+                and &lt;varname> elements as alternatives for inline styling that have more semantic
+                value, or provide more information about the content.</p>
+            <p>Other useful elements include &lt;fn> for inserting footnotes, &lt;menucascade> for
+                showing the order of software menu choices, and &lt;dl> for creating lists of terms
+                and their definitions.</p>
+            <p>This lesson introduces these elements and shows how to add them to a concept topic.
+                Like the other elements introduced in this course, these elements are not exclusive
+                to the concept topic type and can also be used in the other DITA topic types (task and reference).</p>
+            <note>
+                <p>This lesson covers basic use of these elements. For the full specifications for
+                    each element, see the <xref
+                        href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/concept.html"
+                        format="html" scope="external">OASIS DITA Version 1.2 Standard</xref>.</p>
+            </note>
+        </lcIntro>
+    </learningContentbody>
+    <related-links>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Syntax_and_Markup/c_Phrases.html"
+            format="html" scope="external">
+            <linktext>DITA Style Guide, Phrases</linktext>
+        </link>
+        <!--<link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/b.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;b></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/i.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;i></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/u.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;u></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/term.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;term></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/cite.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;cite></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/varname.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;varname></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/sub.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;sub></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/sup.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;sup></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/fn.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;fn></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/menucascade.html"
+            format="html" scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;menucascade></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/dl.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;dl></linktext>
+        </link>-->
+    </related-links>
+</learningContent>

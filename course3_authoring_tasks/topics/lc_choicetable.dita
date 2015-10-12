@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_j2z_xnx_kt">
+    <title>A table of choices</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-09-21"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcIntro>
+            <p>The choice table is a two-column table. In each row, the first column contains an
+                option (perhaps a keyword, a command line parameter, or an argument value). The
+                second column in the row contains a detailed description of the option. The detailed
+                description can include multiple paragraphs, lists, or even images. </p>
+            <p>The elements contained in the &lt;choicetable> element include:</p>
+            <simpletable frame="all" relcolwidth="1.0* 1.0*" id="simpletable_rwy_l3n_2t">
+                <strow>
+                    <stentry>
+                        <p>&lt;chhead></p>
+                    </stentry>
+                    <stentry>
+                        <p>The header row of a &lt;choicetable> element. The &lt;chhead> element
+                            contains the &lt;choptionhd> and &lt;chdeschd> elements and is optional.
+                            There can only be one &lt;chhead> element in a &lt;choicetable>
+                            element.</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;choptionhd></p>
+                    </stentry>
+                    <stentry>
+                        <p>Header text for the option column in a choice table. The text should be
+                            wrapped in a &lt;p> element according to best practice.</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;chdeschd></p>
+                    </stentry>
+                    <stentry>
+                        <p>Header text for the description column in a choice table.  The text
+                            should be wrapped in a &lt;p> element according to best practice.</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;chrow></p>
+                    </stentry>
+                    <stentry>
+                        <p>A body row in a choice table. The &lt;chrow> element contains the
+                            &lt;choption> and &lt;chdesc> elements. There can be one or more
+                            &lt;chrow> elements in a &lt;choicetable> element.</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;choption></p>
+                    </stentry>
+                    <stentry>
+                        <p>Option text for a row in a choice table. The text should be wrapped in a
+                            &lt;p> element according to best practice.</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;chdesc></p>
+                    </stentry>
+                    <stentry>
+                        <p>Description text for a row in a choice table. The text should be wrapped
+                            in a &lt;p> element according to best practice. There can be multiple
+                            elements in the &lt;chdesc> element.</p>
+                    </stentry>
+                </strow>
+            </simpletable>
+            <p><xref href="https://youtu.be/nBua0_PDfFA" format="html" scope="external">Video:
+                    Creating a choicetable in a DITA task</xref> shows how to use <xref
+                    href="http://www.oxygenxml.com/" format="html" scope="external">oXygen XML
+                    Editor</xref>'s choicetable wizard.</p>
+        </lcIntro>
+    </learningContentbody>
+    <task id="task_ers_h4x_kt">
+        <title/>
+        <taskbody>
+            <steps id="steps_etg_j4x_kt">
+                <step>
+                    <cmd>Continue working in the file l_task_start.dita.</cmd>
+                </step>
+                <step>
+                    <cmd>Following the &lt;step> element containing the &lt;choices> element, create
+                        a new step with a &lt;cmd> element and text as shown here:</cmd>
+                    <stepxmp>
+                        <pre><ph outputclass="newchanged">&lt;step>
+   &lt;cmd>Find some good optics&lt;/cmd>
+&lt;/step>
+</ph></pre>
+                    </stepxmp>
+                    <info/>
+                </step>
+                <step>
+                    <cmd>After the &lt;cmd> element, add a &lt;choicetable> element and all its
+                        child elements:</cmd>
+                    <stepxmp>
+                        <pre>&lt;step>
+   &lt;cmd>Find some good optics&lt;/cmd>
+<ph outputclass="newchanged">   &lt;choicetable>
+     &lt;chrow>
+         &lt;choption>&lt;/choption>
+         &lt;chdesc>&lt;/chdesc>
+     &lt;/chrow>
+     &lt;chrow>
+         &lt;choption>&lt;/choption>
+         &lt;chdesc>&lt;/chdesc>
+     &lt;/chrow>
+   &lt;/choicetable></ph>
+&lt;/step>
+</pre>
+                    </stepxmp>
+                    <info>For each row in the &lt;choicetable>, you need a &lt;chrow> element. The
+                        row contains two elements, which are both required: &lt;choption> which
+                        contains the option text and &lt;chdesc> which contains the description
+                        text. In standard usage, the &lt;choption> contains just a few words
+                        (usually one), while the description can contain multiple sentences, or even
+                        paragraphs (&lt;p> element). </info>
+                </step>
+                <stepsection>The &lt;choicetable> has an optional head (&lt;chhead>), which allows
+                    you to label the two columns in the table.</stepsection>
+                <step>
+                    <cmd>Before the first row of the choice table, add a &lt;chhead> element and its
+                        children, as shown here.</cmd>
+                    <stepxmp>
+                        <pre>&lt;step>
+   &lt;cmd>Find some good optics&lt;/cmd>
+   &lt;choicetable>
+<ph outputclass="newchanged">     &lt;chhead>
+         &lt;choptionhd>&lt;/choptionhd>
+         &lt;chdeschd>&lt;/chdeschd>
+     &lt;/chhead></ph>
+     &lt;chrow>
+         &lt;choption>&lt;/choption>
+         &lt;chdesc>&lt;/chdesc>
+     &lt;/chrow>
+     ...
+   &lt;/choicetable>
+&lt;/step>
+</pre>
+                    </stepxmp>
+                    <info>The &lt;choptionhd> provides a heading for the option column; the
+                        &lt;chdeschd> provides a heading for the description column. </info>
+                </step>
+                <step>
+                    <cmd>Add content to the &lt;chhead> element and its child elements, as shown
+                        here.</cmd>
+                    <stepxmp>
+                        <pre>...
+<ph outputclass="newchanged">&lt;chhead>
+   &lt;choptionhd>
+      &lt;p>Type&lt;/p>
+   &lt;/choptionhd>
+   &lt;chdeschd>
+      &lt;p>Advantages&lt;/p>
+   &lt;/chdeschd>
+&lt;/chhead>
+</ph>...</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Add content to the &lt;chrow> element and its child elements, as shown
+                        here.</cmd>
+                    <stepxmp>
+                        <pre>...
+<ph outputclass="newchanged">&lt;chrow>
+   &lt;choption>
+      &lt;p>Binoculars&lt;/p>
+   &lt;/choption>
+   &lt;chdesc>
+      &lt;p>Wide field of view, allows quick observations&lt;/p>
+   &lt;/chdesc>
+&lt;/chrow>
+</ph>...</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>After the closing tag of the &lt;chrow> element, add another &lt;chrow>
+                        element and add content to it as shown here.</cmd>
+                    <stepxmp>
+                        <pre>&lt;choicetable>
+...
+&lt;/chrow>
+<ph outputclass="newchanged">&lt;chrow>
+   &lt;choption>
+      &lt;p>Spotting scope&lt;/p>
+   &lt;/choption>
+   &lt;chdesc>
+      &lt;p>Higher magnification, better light-gathering&lt;/p>
+   &lt;/chdesc>
+&lt;/chrow>
+</ph>&lt;/choicetable></pre>
+                    </stepxmp>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

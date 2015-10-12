@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_nmj_lmt_lt">
+    <title>Use substeps appropriately</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-09-24"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcIntro>
+            <p>The DITA &lt;substep> element can be useful, but it should be applied sparingly.</p>
+            <p>If you find that you are using substeps extensively or that you have some very long,
+                involved substeps, you may want to revisit your task analysis. Consider carefully
+                how you divided your major tasks into task topics. It may be that you did not divide
+                the major tasks far enough.</p>
+            <p>Another clear warning sign that your task analysis is not complete: you are using
+                many substeps, but frequently find the need for sub-substeps.</p>
+            <p>Substeps should only be used in a handful of situations, such as:</p>
+            <ul id="ul_pgk_3nt_lt">
+                <li>
+                    <p>You encounter a complex step, where readers could benefit from additional
+                        details.</p>
+                </li>
+                <li>
+                    <p>Your audience includes some novice readers who might benefit from some
+                        additional guidance. Most readers will understand all that the &lt;cmd>
+                        element directs them to do, but some less-experienced readers may need to
+                        have things spelled out in a little more detail with substeps.</p>
+                    <p>Some output types might allow you to hide substeps that provide extra detail
+                        until the reader asks for more information.</p>
+                </li>
+                <li>
+                    <p>Procedures in which the steps are not homogeneous. Occasionally you’ll
+                        encounter a task where most of the steps require a consistent level of
+                        explanation, but one or two steps—although at the same level as the other
+                        steps—require much more detail.</p>
+                </li>
+            </ul>
+            <p>Be careful using substeps where the &lt;choice> or &lt;choicetable> element are more
+                appropriate.</p>
+        </lcIntro>
+    </learningContentbody>
+</learningContent>

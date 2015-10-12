@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_hrm_xjh_1t">
+    <title>Creating a new concept topic</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-08-24"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Concept topics contain basic DITA elements, such as paragraphs, lists, images,
+                tables, and many others. Most of these elements can be used in the other topic types
+                (task and reference), as well. The only exception is the &lt;conbody>
+                element, which is specific to the concept topic type.</p>
+            <p>At a minimum, the concept topic must contain a &lt;concept> root element (with an id
+                attribute) that contains a &lt;title> element. </p>
+            <p>After the &lt;title> element and an optional &lt;shortdesc> or &lt;abstract> element,
+                the &lt;conbody> element contains the concept itself. </p>
+            <p>The &lt;conbody> element has an open content model. This means that the elements
+                contained in &lt;conbody> are not required to follow a strict sequence. As long as
+                an element is allowed inside &lt;conbody>, it can appear in any order. The
+                exceptions are the &lt;section> and &lt;example> elements, which can only be
+                followed by other &lt;section> or &lt;example> elements or a &lt;conbodydiv>
+                element.</p>
+            <p>Video: <xref href="https://www.youtube.com/watch?v=ebFdmsp4QAE" format="html"
+                    scope="external">Creating a DITA concept</xref></p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_i3g_jkh_1t">
+        <title/>
+        <taskbody>
+            <steps id="steps_f5k_kkh_1t">
+                <step>
+                    <cmd>Make a copy of the file lesson1/l_new_concept_start.dita and open it in
+                        your editor.</cmd>
+                    <info>
+                        <note>
+                            <p>If you are using a DITA-aware text editor, make sure you are in text
+                                mode, rather than author or visual mode.</p>
+                        </note>
+                    </info>
+                    <stepxmp>
+                        <p>You should see this:</p>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="my_first_concept">
+&lt;title>xyz&lt;/title>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>
+                        <p>The first line (which begins with <tt>&lt;?xml</tt>) is an XML
+                            declaration, which is a standard part of all XML files.</p>
+                        <p>The DOCTYPE declaration on the second line identifies this file as a
+                            concept topic. </p>
+                        <p>The third line is the opening tag of the &lt;concept> element, which uses
+                            the unique ID "my_first_concept".</p>
+                        <p>The &lt;title> element on the fourth line contains the title of the
+                            topic.</p>
+                        <p>The fifth line uses the closing tag &lt;/concept> to show where the
+                            &lt;concept> element ends.</p>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Inside the &lt;title> element, change the text of the title as shown in the
+                        following example.</cmd>
+                    <info>
+                        <note>
+                            <p>When working inside an element, insert the content between the
+                                opening and closing tags.</p>
+                        </note>
+                    </info>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="my_first_concept">
+<ph outputclass="newchanged">   &lt;title>Wild duck species&lt;/title></ph>
+&lt;/concept></pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>After the &lt;title> element, add a &lt;conbody> element.</cmd>
+                    <info>
+                        <note>
+                            <p>When adding an element after another element, insert the new element
+                                after the closing tag of the first element.</p>
+                        </note>
+                    </info>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="my_first_concept">
+   &lt;title>Wild duck species&lt;/title>
+<ph outputclass="newchanged">   &lt;conbody>
+&lt;/conbody></ph>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>The &lt;conbody> element will contain all the actual content in the
+                        concept. </info>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

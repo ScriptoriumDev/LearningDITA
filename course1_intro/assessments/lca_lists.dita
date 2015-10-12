@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_dgl_qc1_wr">
+ <title>Numbered lists</title>
+ <prolog>
+  <author format="html" href="http://www.scriptorium.com" scope="external">Simon Bate, Scriptorium</author>
+  <critdates>
+   <created date="2015-04-23"/>
+   <revised modified="2015-05-15"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcTrueFalse id="lcTrueFalse_axs_bd3_rs">
+    <lcQuestion>The label sequence used on an ordered list (&lt;ol&gt;) is up to the topic
+     author.</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_bxs_bd3_rs">
+     <lcAnswerOption>
+      <lcAnswerContent>True</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>False</lcAnswerContent>
+      <lcCorrectResponse name="lcCorrectResponse" value="lcCorrectResponse"/>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>The label sequence is determined at output time by the stylesheet in the
+     output generator. </lcFeedbackIncorrect>
+   </lcTrueFalse>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

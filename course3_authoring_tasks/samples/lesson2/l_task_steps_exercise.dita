@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_tlf_3h2_jt">
+    <title>Developing and implementing a content strategy</title>
+    <taskbody>
+        <steps id="steps_xmc_nh2_jt">
+            <stepsection>Create a content strategy.</stepsection>
+            <step>
+                <cmd>Identify and interview stakeholders.</cmd>
+            </step>
+            <step>
+                <note>Develop a business case that you can use to define what will make your project
+                    successful.</note>
+                <cmd>Establish implementation goals and metrics.</cmd>
+            </step>
+            <step>
+                <cmd>Define roles and responsibilities.</cmd>
+                <stepxmp>
+                    <lines>Roles:
+☐ Education
+☐ Development
+☐ Review
+☐ Approval</lines>
+                </stepxmp>
+            </step>
+            <step>
+                <cmd>Establish timeline and milestones.</cmd>
+            </step>
+            <stepsection>Implement your content strategy.</stepsection>
+            <step>
+                <cmd>Build the content creation system.</cmd>
+            </step>
+            <step>
+                <cmd>Convert legacy content.</cmd>
+                <choices id="choices_zwl_4h2_jt">
+                    <choice>Convert everything into the new system</choice>
+                    <choice>Identify high-priority content and convert it</choice>
+                    <choice>Just-in-time conversion</choice>
+                    <choice>Assess for conversion</choice>
+                    <choice>Convert nothing</choice>
+                </choices>
+            </step>
+            <step>
+                <cmd>Deliver content.</cmd>
+                <choicetable frame="all" relcolwidth="1.0* 1.0*" id="choicetable_g43_ph2_jt">
+                    <chhead>
+                        <choptionhd>Delivery method</choptionhd>
+                        <chdeschd>Benefits</chdeschd>
+                    </chhead>
+                    <chrow>
+                        <choption>PDF</choption>
+                        <chdesc>Visual design, option to print</chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>HTML</choption>
+                        <chdesc>Accessibility, interactivity, responsive design</chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>EPUB</choption>
+                        <chdesc>Electronic content when Internet access is unavailable</chdesc>
+                    </chrow>
+                </choicetable>
+            </step>
+            <step>
+                <cmd>Capture project knowledge.</cmd>
+                <substeps id="substeps_fhj_qh2_jt">
+                    <substep>
+                        <cmd>Document your content model, specifications, and best practices.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Provide training to authors on writing in the new environment.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Provide training to staff on maintaining the new system.</cmd>
+                    </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd>Ensure long-term success.</cmd>
+                <stepresult>
+                    <p>You can tick off the items you listed at the beginning of the project as
+                        accomplishments now.</p>
+                </stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

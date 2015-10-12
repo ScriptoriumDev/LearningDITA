@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_xyj_ddc_bt">
+    <title>Giving the reader choices</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-08-14"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>As part of giving a reader an instruction, there may be more than one option for the
+                reader. For example, when using an auto stereo system, the reader has the choice of
+                which mode to use (AM, FM, CD, line-in, and so on). </p>
+            <p>To present this information, and to give it a semantically appropriate label, you can
+                use the &lt;choices> or &lt;choicetable> elements. </p>
+            <ul id="ul_nsn_tqx_kt">
+                <li>
+                    <p>Use &lt;choices> when the choices only require a brief description.</p>
+                </li>
+                <li>
+                    <p>Use &lt;choicetable> (detailed later in this course) when you need to provide
+                        specific keywords, along with an extended description of each. </p>
+                </li>
+            </ul>
+            <p>The &lt;choices> element is usually presented as a bulleted list. The structure of
+                the &lt;choices> element is like a &lt;ul> element: </p>
+            <simpletable frame="all" relcolwidth="1.0* 1.0*" id="simpletable_mdl_bsw_mt">
+                <sthead>
+                    <stentry>&lt;ul> element</stentry>
+                    <stentry>&lt;choices> element</stentry>
+                </sthead>
+                <strow>
+                    <stentry>
+                        <pre>&lt;ul&gt;
+   &lt;li&gt;one thing&lt;/li&gt;
+   &lt;li&gt;another thing&lt;/li&gt;
+&lt;/ul&gt;</pre>
+                    </stentry>
+                    <stentry>
+                        <pre>&lt;choices&gt;
+   &lt;choice&gt;one thing&lt;/choice&gt;
+   &lt;choice&gt;another thing&lt;/choice&gt;
+&lt;/choices&gt;</pre>
+                    </stentry>
+                </strow>
+            </simpletable>
+            <p>The &lt;choices> element contains one or more &lt;choice> elements. Each &lt;choice>
+                element presents one of the options for the reader. The content of the &lt;choice>
+                element is any element that can be used inside an &lt;li> element.</p>
+          
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_pcm_2dc_bt">
+        <title/>
+        <taskbody>
+            <steps id="steps_qjd_3fc_bt">
+                <step>
+                    <cmd>Continue working in the file l_task_start.dita.</cmd>
+                </step>
+                <step>
+                    <!--<note>These steps resume the example that runs continuously through this course. In the first step here the complete task topic is shown; in subsequent steps, only the elements central to the discussion will be shown. </note>-->
+                    <cmd>After the closing tag of the first &lt;step> element, add a new &lt;step>
+                        element. Inside the &lt;step>, create a &lt;cmd> element (if one isn’t
+                        created for you). Add the content shown here to the &lt;cmd> element:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+&lt;task id="my_first_task">
+   ...
+         &lt;/step>
+<ph outputclass="newchanged">         &lt;step>
+            &lt;cmd>Pick a field guide to identify the ducks.&lt;/cmd>
+         &lt;/step>
+</ph>      &lt;/steps>
+   &lt;/taskbody>
+&lt;/task></pre>
+                    </stepxmp>
+                </step>
+                <step id="step_dd4_244_ft">
+                    <cmd>After the new &lt;cmd> element, add a &lt;choices> element. </cmd>
+                    <stepxmp>
+                        <pre>&lt;step>
+   &lt;cmd>Pick a field guide to identify the ducks.&lt;/cmd><ph outputclass="newchanged">
+   &lt;choices>
+   &lt;/choices></ph>
+&lt;/step>
+</pre>
+                    </stepxmp>
+                </step>
+                <step id="step_ed4_244_ft">
+                    <cmd>If your editor does not automatically add a first &lt;choice> element
+                        inside the &lt;choices> element, add one now.</cmd>
+                    <stepxmp>
+                        <pre>&lt;step>
+   &lt;cmd>Pick a field guide to identify the ducks.&lt;/cmd>
+   &lt;choices>
+<ph outputclass="newchanged">      &lt;choice>Many modern duck watchers rely on the Sibley guide&lt;/choice>
+</ph>   &lt;/choices>
+&lt;/step>
+</pre>
+                    </stepxmp>
+                    <info>By default, most DITA output generators render a &lt;choices> element as a
+                        bulleted list.</info>
+                </step>
+                <step>
+                    <cmd>Add an additional &lt;choice> element.</cmd>
+                    <stepxmp>
+                        <pre>&lt;step>
+   &lt;cmd>Pick a field guide to identify the ducks.&lt;/cmd>
+   &lt;choices>
+      &lt;choice>Many modern duck watchers rely on the Sibley guide&lt;/choice>
+<ph outputclass="newchanged">      &lt;choice>A traditional favorite is the Peterson guide&lt;/choice>
+</ph>   &lt;/choices>
+&lt;/step>
+</pre>
+                    </stepxmp>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

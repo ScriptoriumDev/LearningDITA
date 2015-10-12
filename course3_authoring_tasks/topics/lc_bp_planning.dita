@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_fry_knq_bt">
+    <title>Plan your tasks</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-09-24"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcIntro>
+            <p>It’s tempting to jump into creating tasks, writing until you think you’re done.
+                However, this approach risks missing important tasks, resulting in incomplete
+                coverage. </p>
+            <p>Rather than create tasks as they occur to you, a far better strategy is to plan out
+                the set of tasks you need to document.
+                <!--This planning is a four-step process:--></p>
+            <p>There are many resources for and approaches to task analysis. The essential point to
+                all of them is to:  </p>
+            <ol id="ol_ovn_lhj_nt">
+                <li>Gather information about what the reader should accomplish.</li>
+                <li>Identify the tasks you need to document.</li>
+                <li>Understand the scope of those tasks.</li>
+                <li>Consider your readers’ abilities and needs.</li>
+                <li>Plan your task topics accordingly.</li>
+            </ol>
+            <p>Once you have planned the tasks, it’s a good idea to have all stakeholders review the
+                entire list of tasks. These should include writers, editors, subject matter experts
+                and other content contributors, project managers, and anyone else who has a hand in
+                your content development process. This step is important, because the more
+                contributors you have, the less chance you have of missing an important task.</p>
+            <p>The list of tasks can help you plan your concepts, reference, and glossary entry
+                topics. For each task in the list, consider what concepts and reference information
+                is needed to support that task.  You can also identify the terms in the task that
+                will make good candidates for glossary entry topics.</p>
+        </lcIntro>
+    </learningContentbody>
+</learningContent>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_qrk_dnq_bt">
+    <title>Best practices for tasks</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-08-18"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup id="lcObjectivesGroup_ipl_14q_bt">
+                <lcObjective>Identify best practices for authoring task topics</lcObjective>
+                <lcObjective>Show examples of best practices in a task topic</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="1"/>
+        </lcDuration>
+        <lcInstruction>
+            <p>This lesson covers best practices for authoring task topics. You will learn about
+                planning tasks, providing appropriate context for a task, using a reasonable number
+                of steps, using substeps appropriately, and keeping an eye on opportunities for
+                reuse.</p>
+        </lcInstruction>
+    </learningContentbody>
+    <related-links>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Syntax_and_Markup/c_Two_Tasks_on_One_Task_Topic.html"
+            format="html" scope="external">
+            <linktext>DITA Style Guide, Restricting tasks to one procedure only</linktext>
+        </link>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Syntax_and_Markup/c_Complex_Nested_Tasks.html"
+            format="html" scope="external">
+            <linktext>DITA Style Guide, Complex nested tasks</linktext>
+        </link>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Content_Reuse/c_Management_of_conrefs.html"
+            format="html" scope="external">
+            <linktext>DITA Style Guide, Finding elements to re-use</linktext>
+        </link>
+    </related-links>
+</learningContent>

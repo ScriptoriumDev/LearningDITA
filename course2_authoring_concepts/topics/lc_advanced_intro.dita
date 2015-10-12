@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_kqs_rks_zs">
+    <title>Advanced elements</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-08-19"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup id="lcObjectivesGroup_e2g_sks_zs">
+                <lcObjective>Learn about advanced elements and identify best practices for adding
+                    them to a concept topic.</lcObjective>
+                <lcObjective>Add the &lt;codeblock>, &lt;codeph>, &lt;lq>, &lt;section>,
+                    &lt;draft-comment>, and &lt;required-cleanup> elements to the
+                    concept.</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="1"/>
+        </lcDuration>
+        <lcIntro>
+            <p>Now that you’ve mastered using the basic DITA elements and other commonly used ones,
+                you’re ready to start using some more advanced elements in your concept topic.</p>
+            <p>You can use the &lt;codeblock> and &lt;codeph> elements to insert snippets of code
+                into the body of your topic. With the &lt;lq> element, you can insert a quote and
+                create a link to its original source.</p>
+            <p>If you need to break your topic into subsections, you can add one or more
+                &lt;section> elements. The &lt;section> element comes with two constraints: you can
+                only use the &lt;section> element inside of the &lt;conbody> element, not inside of
+                other &lt;section> elements, and you can only follow a &lt;section> element with
+                another &lt;section> element, an &lt;example> element, or a &lt;conbodydiv>
+                element.</p>
+            <p>You can collaborate with other authors using the &lt;draft-comment> element to make
+                notes on pieces of information, or you can use the &lt;required-cleanup> element to
+                show that an element needs to be tagged correctly.</p>
+            <p>This lesson introduces these advanced elements and shows how to add them to a concept
+                topic. Like the other elements introduced in this course, these elements are not
+                exclusive to the concept topic type and can also be used in the other DITA topic
+                types (task and reference).</p>
+            <note>
+                <p>This lesson covers basic use of these elements. For the full specifications for
+                    each element, see the <xref
+                        href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/concept.html"
+                        format="html" scope="external">OASIS DITA Version 1.2 Standard</xref>.</p>
+            </note>
+        </lcIntro>
+    </learningContentbody>
+    <related-links>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Syntax_and_Markup/c_List_of_Domains.html"
+            format="html" scope="external">
+            <linktext>DITA Style Guide, Element domains</linktext>
+        </link>
+        <!--<link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/codeblock.html"
+            format="html" scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;codeblock></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/codeph.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;codeph></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/lq.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;lq></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/section.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;section></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/draft-comment.html"
+            format="html" scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;draft-comment></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/required-cleanup.html"
+            format="html" scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;required-cleanup></linktext>
+        </link>-->
+    </related-links>
+</learningContent>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_ssg_2bn_ft">
+ <title>Learning module structure</title>
+  <prolog>
+    <author href="http://www.scriptorium.com">Sarah O'Keefe, Scriptorium</author>
+    <author href="http://www.scriptorium.com">Alan Pringle, Scriptorium</author>
+    <author href="http://www.scriptorium.com">Simon Bate, Scriptorium</author>
+    <critdates>
+      <created date="2015-09-02"/>
+    </critdates>
+  </prolog>
+ <conbody>
+ 
+   <p>Each module should have a container topic, which provides the following:<ul id="ul_jn1_rwz_vr">
+     <li>A list of objectives for the module, using the &lt;lcObjectives>
+            elements:<codeblock> &lt;lcObjectives>
+   &lt;lcObjectivesGroup>
+    &lt;lcObjective>What kind of topics exist in DITA&lt;/lcObjective>
+    &lt;lcObjective>What information goes in different types of topics&lt;/lcObjective>
+    &lt;lcObjective>What are constraints and specialization?&lt;/lcObjective>
+   &lt;/lcObjectivesGroup>
+  &lt;/lcObjectives></codeblock><p>The
+            objectives should state what the reader will be learning, rather than what the reader
+            will be doing in the following exercise. If we used an &lt;lcObjectivesStem> element it
+            would say “The user will learn:”. </p><dl>
+            <dlentry>
+              <dt>Good objective</dt>
+              <dd>“”</dd>
+            </dlentry>
+          </dl></li>
+     <li>An estimated duration for the module, using the &lt;lcDuration> element (provide a value in
+     minutes):<codeblock>&lt;lcDuration>
+  &lt;lcTime value="30"/>
+&lt;/lcDuration></codeblock></li>
+     <li>An overview of the module, using the &lt;lcIntro> element</li>
+     <li>A list of additional reading resources, using the &lt;related-links> element at the bottom
+     of the topic. Be sure to code external web links with the appropriate format (usually html or
+     pdf) and scope
+     (external):<codeblock>&lt;link href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/c_Syntax_and_Markup.html" 
+      format="html"
+      scope="external">
+   &lt;linktext>DITA Style Guide, Chapter 3, Syntax and Markup&lt;/linktext>
+&lt;/link></codeblock></li>
+    </ul></p>
+   <p>Inside the overview container, provide &lt;learningContent> topics with the module components
+   (lessons).</p>
+ </conbody>
+</concept>
