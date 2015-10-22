@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="my_first_ref">
-  <title>Duck Watching Reference</title>
+  <title>Duck watching reference</title>
   <refbody>
     <properties>
       <prophead>
@@ -40,50 +40,5 @@
         <propdesc>White "V" separating tail and back, very vocal</propdesc>
       </property>
     </properties>
-    <refbodydiv>
-      <table>
-        <title>Equipment Checklist</title>
-        <tgroup cols="2">
-          <colspec colname="1" colwidth="200"/>
-          <colspec colname="2" colwidth="25"/>
-          <thead>
-            <row>
-              <entry>Equipment</entry>
-              <entry>Acquired</entry>
-            </row>
-          </thead>
-          <tbody>            
-            <row>
-              <entry>Audubon Field Guide</entry>
-              <entry></entry>
-            </row>
-            <row>
-              <entry>Binoculars</entry>
-              <entry></entry>
-            </row>
-            <row>
-              <entry>Duck bait</entry>
-              <entry></entry>
-            </row>
-            <row>
-              <entry>Duck call</entry>
-              <entry></entry>
-            </row>      
-            <row>
-              <entry>Pencils</entry>
-              <entry></entry>
-            </row>
-            <row>
-              <entry>Spotting journal</entry>
-              <entry></entry>
-            </row>
-            <row>
-              <entry>Spotting scope</entry>
-              <entry></entry>
-            </row>
-          </tbody>
-        </tgroup>
-      </table>
-    </refbodydiv>
   </refbody>
 </reference>
