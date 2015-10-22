@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_lyk_syn_tt">
+    <title>Adding a properties table to a reference</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-10-22"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>The &lt;properties> element is used to present a series of properties pertaining to
+                the current topic. It contains an optional &lt;prophead> element, and then one or
+                more &lt;property elements.</p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_o3q_zd4_tt">
+        <title/>
+        <taskbody>
+            <steps>
+                <step>
+                    <cmd>Continue using lesson1/l_reference_start.dita.</cmd>
+                </step>
+                <step>
+                    <cmd>Inside the &lt;refbody> element, add a &lt;properties> element and populate
+                        it with a &lt;prophead> element.</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+&lt;reference id="my_first_ref">
+   &lt;title>Duck watching reference&lt;/title>
+   &lt;refbody>
+       <ph outputclass="newchanged">&lt;properties>
+           &lt;prophead>
+           
+           &lt;/prophead>
+       &lt;/properties></ph>
+   &lt;/refbody> 
+&lt;/reference></pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Inside the &lt;prophead> element, add a &lt;proptypehd>, &lt;propvaluehd>,
+                        and &lt;propdeschd> element and add content to it as shown.</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+&lt;reference id="my_first_ref">
+   &lt;title>Duck watching reference&lt;/title>
+   &lt;refbody>
+       &lt;properties>
+           &lt;prophead>
+               <ph outputclass="newchanged">&lt;proptypehd>Duck type&lt;/proptypehd>
+               &lt;propvaluehd>Species&lt;/propvaluehd>
+               &lt;propdeschd>Distinctive features&lt;/propdeschd></ph>
+           &lt;/prophead>
+       &lt;/properties>
+   &lt;/refbody> 
+&lt;/reference></pre>
+                    </stepxmp>
+                    <info><p>While not all required, the elements added here must be in this
+                            specific order. If they are not, your document will not
+                        validate.</p></info>
+                </step>
+                <step>
+                    <cmd>After the &lt;prophead> element, add six &lt;property> elements.</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+&lt;reference id="my_first_ref">
+   &lt;title>Duck watching reference&lt;/title>
+   &lt;refbody>
+       &lt;properties>
+           &lt;prophead>
+               &lt;proptypehd>Duck type&lt;/proptypehd>
+               &lt;propvaluehd>Species&lt;/propvaluehd>
+               &lt;propdeschd>Distinctive features&lt;/propdeschd>
+           &lt;/prophead>
+           <ph outputclass="newchanged">&lt;property>&lt;/property>
+           &lt;property>&lt;/property>
+           &lt;property>&lt;/property>
+           &lt;property>&lt;/property>
+           &lt;property>&lt;/property>
+           &lt;property>&lt;/property></ph>
+       &lt;/properties>
+   &lt;/refbody> 
+&lt;/reference></pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Inside each &lt;property> element, add a &lt;proptype>, &lt;propvalue>, and
+                        &lt;propdesc> element and add content to it as shown.</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+&lt;reference id="my_first_ref">
+   &lt;title>Duck watching reference&lt;/title>
+   &lt;refbody>
+       &lt;properties>
+           &lt;prophead>
+               &lt;proptypehd>Duck type&lt;/proptypehd>
+               &lt;propvaluehd>Species&lt;/propvaluehd>
+               &lt;propdeschd>Distinctive features&lt;/propdeschd>
+           &lt;/prophead>
+           <ph outputclass="newchanged">&lt;property>
+               &lt;proptype>Dabbling&lt;/proptype>
+               &lt;propvalue>Gadwall&lt;/propvalue>
+               &lt;propdesc>Gray-brown in color, with a white belly and black rump&lt;/propdesc>
+           &lt;/property>
+           &lt;property>
+               &lt;proptype>Dabbling&lt;/proptype>
+               &lt;propvalue>Mallard&lt;/propvalue>
+               &lt;propdesc>Green head with white neck ring&lt;/propdesc>           
+           &lt;/property>
+           &lt;property>
+               &lt;proptype>Diving&lt;/proptype>
+               &lt;propvalue>King Eider&lt;/propvalue>
+               &lt;propdesc>Orange bill sweeping up into a large shield outlined in black, pale blue crest&lt;/propdesc>           
+           &lt;/property>
+           &lt;property>
+               &lt;proptype>Diving&lt;/proptype>
+               &lt;propvalue>Spectacled Eider&lt;/propvalue>
+               &lt;propdesc>Feathers extend down to nostrils, white patch around the eyes&lt;/propdesc>           
+           &lt;/property>
+           &lt;property>
+               &lt;proptype>Whistling&lt;/proptype>
+               &lt;propvalue>West Indian Whistling Duck&lt;/propvalue>
+               &lt;propdesc>Black bill, long greenish legs that extend beyond the tail in flight&lt;/propdesc>           
+           &lt;/property>
+           &lt;property>
+               &lt;proptype>Whistling&lt;/proptype>
+               &lt;propvalue>Fulvous Whistling Duck&lt;/propvalue>
+               &lt;propdesc>White "V" separating tail and back, very vocal&lt;/propdesc>           
+           &lt;/property></ph>
+       &lt;/properties>
+   &lt;/refbody> 
+&lt;/reference></pre>
+                    </stepxmp>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>
