@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="my_first_ref">
+  <title>Duck Watching Reference</title>
+  <refbody>
+    <properties>
+      <prophead>
+        <proptypehd>Duck type</proptypehd>
+        <propvaluehd>Species</propvaluehd>
+        <propdeschd>Distinctive features</propdeschd>
+      </prophead>
+      <property>
+        <proptype>Dabbling</proptype>
+        <propvalue>Gadwall</propvalue>
+        <propdesc>Gray-brown in color, with a white belly and black rump</propdesc>
+      </property>
+      <property>
+        <proptype>Dabbling</proptype>
+        <propvalue>Mallard</propvalue>
+        <propdesc>Green head with white neck ring</propdesc>
+      </property>
+      <property>
+        <proptype>Diving</proptype>
+        <propvalue>King Eider</propvalue>
+        <propdesc>Orange bill sweeping up into a large shield outlined in black, pale blue crest</propdesc>
+      </property>
+      <property>
+        <proptype>Diving</proptype>
+        <propvalue>Spectacled Eider</propvalue>
+        <propdesc>Feathers extend down to nostrils, white patch around the eyes</propdesc>
+      </property>
+      <property>
+        <proptype>Whistling</proptype>
+        <propvalue>West Indian Whistling Duck</propvalue>
+        <propdesc>Black bill, long greenish legs that extend beyond the tail in flight</propdesc>
+      </property>
+      <property>
+        <proptype>Whistling</proptype>
+        <propvalue>Fulvous Whistling Duck</propvalue>
+        <propdesc>White "V" separating tail and back, very vocal</propdesc>
+      </property>
+    </properties>
+    <refbodydiv>
+      <table>
+        <title>Equipment Checklist</title>
+        <tgroup cols="2">
+          <colspec colname="1" colwidth="200"/>
+          <colspec colname="2" colwidth="25"/>
+          <thead>
+            <row>
+              <entry>Equipment</entry>
+              <entry>Acquired</entry>
+            </row>
+          </thead>
+          <tbody>            
+            <row>
+              <entry>Audubon Field Guide</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>Binoculars</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>Duck bait</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>Duck call</entry>
+              <entry></entry>
+            </row>      
+            <row>
+              <entry>Pencils</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>Spotting journal</entry>
+              <entry></entry>
+            </row>
+            <row>
+              <entry>Spotting scope</entry>
+              <entry></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </refbodydiv>
+  </refbody>
+</reference>
