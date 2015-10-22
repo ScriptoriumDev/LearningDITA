@@ -44,7 +44,7 @@
         &lt;/example>
 <ph outputclass="newchanged">        &lt;postreq>
 
-        &lt;/postreq></ph>
+        &lt;/postreq> </ph>
     &lt;/taskbody>
 &lt;/task>
 </pre>
@@ -55,12 +55,12 @@
                     <stepxmp>
                         <pre>...
         &lt;/example>
-<ph outputclass="newchanged">        &lt;postreq>
-            &lt;ul>
+        &lt;postreq>
+<ph outputclass="newchanged">            &lt;ul>
                 &lt;li>Watch the ducks again with a camera&lt;/li>
                 &lt;li>Go look for other birds&lt;/li>
-            &lt;/ul>
-        &lt;/postreq></ph>
+            &lt;/ul> 
+</ph>        &lt;/postreq>
     &lt;/taskbody>
 &lt;/task>
 </pre>

@@ -16,12 +16,11 @@
             <p>The main elements in the body of a strict task must occur in a specific order. The
                 strict task can contain only one set of steps. Also, the steps the reader performs
                 must use specific elements (&lt;steps> and &lt;step>). </p>
-            <p>On the other hand, the order of the elements in the general task is not quite as
-                rigid as in the strict task. The general task allows one or more sets of steps. The
-                elements used for the steps can be almost any element that is allowed in a DITA
-                &lt;section> element. </p>
+            <p>The element order in the general task is not as rigid as in the strict task. The
+                general task allows one or more sets of steps. The elements used for the steps can
+                be almost any element that is allowed in a DITA &lt;section> element. </p>
             <p>Although it may sound as though it’s easier to write a general task, there are a
-                number of good reasons for using the strict task.</p>
+                number of good reasons for using the strict task. These include:</p>
             <ul id="ul_efs_sfx_kt">
                 <li>Consistency. All the tasks in your document or documents will have the same
                     organization. </li>

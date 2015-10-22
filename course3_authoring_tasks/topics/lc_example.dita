@@ -16,9 +16,9 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>The &lt;example> element allows you to show an example of the entire task. This
-                element can be contrasted with the the &lt;stepxmp> element, which shows an example
-                of performing a single step. </p>
+            <p>The &lt;example> element allows you to show an example of the entire task. The
+                &lt;stepxmp> element is similar, but it show an example relevant to a single step
+                instead of an example relevant to the entire task.  </p>
             <p><xref href="https://youtu.be/kQS7FCSLJ7E" format="html" scope="external">Video:
                     Adding an example in a DITA task</xref></p>
         </lcInstruction>
@@ -31,7 +31,7 @@
                     <cmd>Continue working in the file l_task_start.dita.</cmd>
                 </step>
                 <step>
-                    <cmd>After the closing tag of the &lt;result> element, add a &lt;example>
+                    <cmd>After the closing tag of the &lt;result> element, add an &lt;example>
                         element.</cmd>
                     <stepxmp>
                         <pre>...
