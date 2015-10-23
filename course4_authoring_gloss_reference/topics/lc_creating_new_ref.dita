@@ -21,6 +21,7 @@
                 &lt;refbody> element contains the reference content. The elements within the
                 &lt;refbody> can occur in just about any order, although you usually use the
                 &lt;section> element to organize standard sections of a reference topic. </p>
+            <draft-comment author="Jake">Add video for creating reference here?</draft-comment>
             <!--<p><xref href="https://youtu.be/7E7RYKHQ6C4" format="html" scope="external">Video: Creating a DITA task topic</xref></p>-->
         </lcInstruction>
     </learningContentbody>
@@ -39,7 +40,7 @@
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 &lt;reference id="my_first_ref">
-   &lt;title>xyz&lt;/title>
+   &lt;title>&lt;/title>
 
 &lt;/ref></pre>
                     </stepxmp>
@@ -55,38 +56,34 @@
                         <p>The fourth line contains the title element.</p>
                     </info>
                 </step>
-                <!--<step><cmd>Depending on the editor you are using: </cmd><choices id="choices_uy2_lkh_1t"><choice><p><b>DITA-aware editor</b>: Use the File > New... command to create a new task topic. Make sure you don't use the general task. </p></choice><choice><p><b>Text editor</b>: Create a new file that contains this text:</p><pre>&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-&lt;task id="my_first_task">
-
-&lt;/task></pre></choice><choice><p><b>Samples</b>: Make a copy of the file 1_new_task.dita and open it in your editor.</p></choice></choices></step>-->
-                <!--<step><cmd>If you are using a DITA-aware editor, switch to text view.</cmd><info>A DITA-aware editor will often create a </info></step>-->
                 <step>
-                    <cmd>Inside the &lt;title> element, update the text of the task title.</cmd>
+                    <cmd>Inside the &lt;title> element, update the text of the reference
+                        title.</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
-&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-&lt;task id="my_first_task">
-<ph outputclass="newchanged">   &lt;title>Watching wild ducks&lt;/title></ph>
+&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+&lt;reference id="my_first_ref">
+<ph outputclass="newchanged">   &lt;title>Duck watching reference&lt;/title></ph>
 
-&lt;/task></pre>
+&lt;/reference></pre>
                     </stepxmp>
                 </step>
                 <step>
-                    <cmd>After the &lt;title> element, add a &lt;taskbody> element.</cmd>
-                    <info>The &lt;taskbody> element contains all the actual content in the task. </info>
+                    <cmd>After the &lt;title> element, add a &lt;refbody> element.</cmd>
+                    <info>The &lt;refbody> element contains all the actual content in the reference. </info>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
-&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-&lt;task id="my_first_task">
-   &lt;title>Watching wild ducks&lt;/title>
-<ph outputclass="newchanged">   &lt;taskbody>
+&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+&lt;reference id="my_first_ref">
+   &lt;title>Duck watching reference&lt;/title>
+<ph outputclass="newchanged">   &lt;refbody>
 
-   &lt;/taskbody> </ph>
-&lt;/task></pre>
+   &lt;/refbody> </ph>
+&lt;/reference></pre>
                     </stepxmp>
-                    <info>This is the essential part of a DITA strict task topic. The rest of this
-                        lesson shows you how to add the first two child elements to the
-                        &lt;taskbody> element.</info>
+                    <info>This is the essential part of a DITA reference topic. The rest of this
+                        lesson shows you how to add child elements to the &lt;refbody>
+                        element.</info>
                 </step>
             </steps>
         </taskbody>
