@@ -24,14 +24,16 @@
                     <cmd>Continue using lesson1/l_reference_start.dita.</cmd>
                 </step>
                 <step>
-                    <cmd>Inside the &lt;refbody> element, add a &lt;properties> element and populate
+                    <cmd>After the &lt;refsyn> element, add a &lt;properties> element and populate
                         it with a &lt;prophead> element.</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 &lt;reference id="my_first_ref">
-   &lt;title>Duck watching reference&lt;/title>
+   &lt;title>Navigating the Duck Database&lt;/title>
    &lt;refbody>
+       ...
+       &lt;/refsyn>
        <ph outputclass="newchanged">&lt;properties>
            &lt;prophead>
            
@@ -48,13 +50,15 @@
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 &lt;reference id="my_first_ref">
-   &lt;title>Duck watching reference&lt;/title>
+   &lt;title>Navigating the Duck Database&lt;/title>
    &lt;refbody>
+       ...
+       &lt;/refsyn>
        &lt;properties>
            &lt;prophead>
-               <ph outputclass="newchanged">&lt;proptypehd>Duck type&lt;/proptypehd>
-               &lt;propvaluehd>Species&lt;/propvaluehd>
-               &lt;propdeschd>Distinctive features&lt;/propdeschd></ph>
+               <ph outputclass="newchanged">&lt;proptypehd>Type&lt;/proptypehd>
+               &lt;propvaluehd>Name&lt;/propvaluehd>
+               &lt;propdeschd>Description&lt;/propdeschd></ph>
            &lt;/prophead>
        &lt;/properties>
    &lt;/refbody> 
@@ -70,13 +74,15 @@
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 &lt;reference id="my_first_ref">
-   &lt;title>Duck watching reference&lt;/title>
+   &lt;title>Navigating the Duck Database&lt;/title>
    &lt;refbody>
+       ...
+       &lt;/refsyn>
        &lt;properties>
            &lt;prophead>
-               &lt;proptypehd>Duck type&lt;/proptypehd>
-               &lt;propvaluehd>Species&lt;/propvaluehd>
-               &lt;propdeschd>Distinctive features&lt;/propdeschd>
+               &lt;proptypehd>Type&lt;/proptypehd>
+               &lt;propvaluehd>Name&lt;/propvaluehd>
+               &lt;propdeschd>Description&lt;/propdeschd>
            &lt;/prophead>
            <ph outputclass="newchanged">&lt;property>&lt;/property>
            &lt;property>&lt;/property>
@@ -96,43 +102,45 @@
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 &lt;reference id="my_first_ref">
-   &lt;title>Duck watching reference&lt;/title>
+   &lt;title>Navigating the Duck Database&lt;/title>
    &lt;refbody>
+       ...
+       &lt;/refsyn>
        &lt;properties>
            &lt;prophead>
-               &lt;proptypehd>Duck type&lt;/proptypehd>
-               &lt;propvaluehd>Species&lt;/propvaluehd>
-               &lt;propdeschd>Distinctive features&lt;/propdeschd>
+               &lt;proptypehd>Type&lt;/proptypehd>
+               &lt;propvaluehd>Name&lt;/propvaluehd>
+               &lt;propdeschd>Description&lt;/propdeschd>
            &lt;/prophead>
            <ph outputclass="newchanged">&lt;property>
-               &lt;proptype>Dabbling&lt;/proptype>
-               &lt;propvalue>Gadwall&lt;/propvalue>
-               &lt;propdesc>Gray-brown in color, with a white belly and black rump&lt;/propdesc>
+               &lt;proptype>Table&lt;/proptype>
+               &lt;propvalue>dbo.DABBL&lt;/propvalue>
+               &lt;propdesc>Dabbling ducks&lt;/propdesc>
            &lt;/property>
            &lt;property>
-               &lt;proptype>Dabbling&lt;/proptype>
-               &lt;propvalue>Mallard&lt;/propvalue>
-               &lt;propdesc>Green head with white neck ring&lt;/propdesc>           
+               &lt;proptype>Table&lt;/proptype>
+               &lt;propvalue>dbo.DVNG&lt;/propvalue>
+               &lt;propdesc>Diving ducks&lt;/propdesc>           
            &lt;/property>
            &lt;property>
-               &lt;proptype>Diving&lt;/proptype>
-               &lt;propvalue>King Eider&lt;/propvalue>
-               &lt;propdesc>Orange bill sweeping up into a large shield outlined in black, pale blue crest&lt;/propdesc>           
+               &lt;proptype>Table&lt;/proptype>
+               &lt;propvalue>dbo.WHST&lt;/propvalue>
+               &lt;propdesc>Whistling ducks&lt;/propdesc>           
            &lt;/property>
            &lt;property>
-               &lt;proptype>Diving&lt;/proptype>
-               &lt;propvalue>Spectacled Eider&lt;/propvalue>
-               &lt;propdesc>Feathers extend down to nostrils, white patch around the eyes&lt;/propdesc>           
+               &lt;proptype>View&lt;/proptype>
+               &lt;propvalue>regn.ne&lt;/propvalue>
+               &lt;propdesc>Ducks located primarily in the northeast&lt;/propdesc>           
            &lt;/property>
            &lt;property>
-               &lt;proptype>Whistling&lt;/proptype>
-               &lt;propvalue>West Indian Whistling Duck&lt;/propvalue>
-               &lt;propdesc>Black bill, long greenish legs that extend beyond the tail in flight&lt;/propdesc>           
+               &lt;proptype>View&lt;/proptype>
+               &lt;propvalue>regn.se&lt;/propvalue>
+               &lt;propdesc>Ducks located primarily in the southeast&lt;/propdesc>           
            &lt;/property>
            &lt;property>
-               &lt;proptype>Whistling&lt;/proptype>
-               &lt;propvalue>Fulvous Whistling Duck&lt;/propvalue>
-               &lt;propdesc>White "V" separating tail and back, very vocal&lt;/propdesc>           
+               &lt;proptype>View&lt;/proptype>
+               &lt;propvalue>pttrn.migr&lt;/propvalue>
+               &lt;propdesc>Ducks organized by migratory pattern&lt;/propdesc>           
            &lt;/property></ph>
        &lt;/properties>
    &lt;/refbody> 

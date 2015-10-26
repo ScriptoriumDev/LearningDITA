@@ -63,7 +63,7 @@
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 &lt;reference id="my_first_ref">
-<ph outputclass="newchanged">   &lt;title>Duck watching reference&lt;/title></ph>
+<ph outputclass="newchanged">   &lt;title>Navigating the Duck Database&lt;/title></ph>
 
 &lt;/reference></pre>
                     </stepxmp>
@@ -81,9 +81,29 @@
    &lt;/refbody> </ph>
 &lt;/reference></pre>
                     </stepxmp>
-                    <info>This is the essential part of a DITA reference topic. The rest of this
-                        lesson shows you how to add child elements to the &lt;refbody>
-                        element.</info>
+                </step>
+                <step>
+                    <cmd>Within the &lt;refbody> element, add a &lt;section> element and populate it
+                        as shown.</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+&lt;reference id="my_first_ref">
+   &lt;title>Duck watching reference&lt;/title>
+   &lt;refbody>
+    <ph outputclass="newchanged">&lt;section>&lt;p>The &lt;cmdname>tNav&lt;/cmdname> command is used in the 
+     Duck Database to navigate to a different table or view.&lt;/p>&lt;/section></ph>
+   &lt;/refbody> 
+&lt;/reference></pre>
+                    </stepxmp>
+                    <info>
+                        <note>The &lt;cmdname> element is used to denote the name of a command when
+                            referenced as a part of software, and is a part of the programming
+                            domain. For more information on the programming domain, see the <xref
+                                href="http://docs.oasis-open.org/dita/v1.2/os/spec/common/pr-d.html"
+                                scope="external" format="html">OASIS DITA Version 1.2
+                                Standard</xref></note>
+                    </info>
                 </step>
             </steps>
         </taskbody>
