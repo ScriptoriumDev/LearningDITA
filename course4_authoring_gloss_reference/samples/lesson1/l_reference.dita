@@ -1,43 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="my_first_ref">
-  <title>Duck watching reference</title>
+  <title>Navigating the Duck Database</title>
   <refbody>
+    <section>
+      <p>The <cmdname>tNav</cmdname> function is used in the Duck Database to navigate to a different table or view.</p>
+    </section>
+    <refsyn>
+      <codeblock>
+        -tNav tName tView
+      </codeblock>
+      <parml>
+        <plentry>
+          <pt>tName</pt>
+          <pd>The name of the destination table</pd>
+        </plentry>
+        <plentry>
+          <pt>tView</pt>
+          <pd>To optional view of the destination table</pd>
+        </plentry>
+      </parml>      
+      <p>Refer to the database documentation for table names and views.</p>
+    </refsyn>
     <properties>
       <prophead>
-        <proptypehd>Duck type</proptypehd>
-        <propvaluehd>Species</propvaluehd>
-        <propdeschd>Distinctive features</propdeschd>
+        <proptypehd>Type</proptypehd>
+        <propvaluehd>Name</propvaluehd>
+        <propdeschd>Description</propdeschd>
       </prophead>
       <property>
-        <proptype>Dabbling</proptype>
-        <propvalue>Gadwall</propvalue>
-        <propdesc>Gray-brown in color, with a white belly and black rump</propdesc>
+        <proptype>Table</proptype>
+        <propvalue>dbo.DBBL</propvalue>
+        <propdesc>Dabbling Ducks</propdesc>
       </property>
       <property>
-        <proptype>Dabbling</proptype>
-        <propvalue>Mallard</propvalue>
-        <propdesc>Green head with white neck ring</propdesc>
+        <proptype>Table</proptype>
+        <propvalue>dbo.DVNG</propvalue>
+        <propdesc>Diving Ducks</propdesc>
       </property>
       <property>
-        <proptype>Diving</proptype>
-        <propvalue>King Eider</propvalue>
-        <propdesc>Orange bill sweeping up into a large shield outlined in black, pale blue crest</propdesc>
+        <proptype>Table</proptype>
+        <propvalue>dbo.WHST</propvalue>
+        <propdesc>Whistling Ducks</propdesc>
       </property>
       <property>
-        <proptype>Diving</proptype>
-        <propvalue>Spectacled Eider</propvalue>
-        <propdesc>Feathers extend down to nostrils, white patch around the eyes</propdesc>
+        <proptype>View</proptype>
+        <propvalue>regn.ne</propvalue>
+        <propdesc>Ducks predominantly located in the northeast</propdesc>
       </property>
       <property>
-        <proptype>Whistling</proptype>
-        <propvalue>West Indian Whistling Duck</propvalue>
-        <propdesc>Black bill, long greenish legs that extend beyond the tail in flight</propdesc>
+        <proptype>View</proptype>
+        <propvalue>regn.se</propvalue>
+        <propdesc>Ducks predominantly located in the southeast</propdesc>
       </property>
       <property>
-        <proptype>Whistling</proptype>
-        <propvalue>Fulvous Whistling Duck</propvalue>
-        <propdesc>White "V" separating tail and back, very vocal</propdesc>
+        <proptype>View</proptype>
+        <propvalue>pttrn.migr</propvalue>
+        <propdesc>Ducks organized by migratory pattern</propdesc>
       </property>
     </properties>
   </refbody>
