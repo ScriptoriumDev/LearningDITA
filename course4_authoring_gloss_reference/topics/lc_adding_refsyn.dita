@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_xc1_sfm_5t">
-    <title>Adding a refsyn element</title>
+    <title>Describing the syntax</title>
     <prolog>
         <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
             Scriptorium</author>
@@ -11,9 +11,10 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
+            <p>Use the &lt;refsyn> (reference syntax) element to describe the syntax used in a specific command or API.</p>
             <p>The &lt;refsyn> element is specialized from the &lt;section> element, and can contain
-                any elements allowed in &lt;section>. You can use it to describe the syntax used in
-                a specific command or API.</p>
+                any elements allowed in the &lt;section> element. You can use it to describe the
+                syntax used in a specific command or API.</p>
         </lcInstruction>
     </learningContentbody>
     <task id="task_zcs_jxp_5t">
@@ -26,10 +27,7 @@
                 <step>
                     <cmd>Below the &lt;section> element, add a &lt;refsyn> element.</cmd>
                     <stepxmp>
-                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
-&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-&lt;reference id="my_first_ref">
-   &lt;title>Navigating the Duck Database&lt;/title>
+                        <pre>   &lt;title>tNav&lt;/title>
    &lt;refbody>
      &lt;section>&lt;p>The &lt;cmdname>tNav&lt;/cmdname> command is used in the 
      Duck Database to navigate to a different table or view.&lt;/p>&lt;/section>
@@ -41,18 +39,16 @@
                     </stepxmp>
                 </step>
                 <step>
-                    <cmd>Inside the &lt;refsyn> element, add a &lt;codeblock> element to contain the command example and populate it as shown.</cmd>
+                    <cmd>Inside the &lt;refsyn> element, add a &lt;codeblock> element to contain the
+                        command example and add content to it as shown.</cmd>
                     <stepxmp>
-                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
-&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-&lt;reference id="my_first_ref">
-   &lt;title>Navigating the Duck Database&lt;/title>
+                        <pre>   &lt;title>tNav&lt;/title>
    &lt;refbody>
      &lt;section>&lt;p>The &lt;cmdname>tNav&lt;/cmdname> command is used in the 
      Duck Database to navigate to a different table or view.&lt;/p>&lt;/section>
      &lt;refsyn>
          <ph outputclass="newchanged">&lt;codeblock>
-             -tNav tName tView
+             -tNav &lt;varname>tName&lt;/varname> [tView]
          &lt;/codeblock></ph>
      &lt;/refsyn>
    &lt;/refbody> 
