@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_ltt_3fg_vt">
+ <title>Glossary entry elements</title>
+ <prolog>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+   Scriptorium</author>
+  <critdates>
+   <created date="2015-10-28"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody id="learningAssessmentbody_orw_4gg_vt">
+  <lcInteraction>
+   <lcSequencing id="lcSequencing_xsw_4gg_vt">
+    <lcQuestion>Arrange these elements in the correct order.</lcQuestion>
+    <lcSequenceOptionGroup id="lcSequenceOptionGroup_rtw_4gg_vt">
+     <lcSequenceOption>
+      <lcAnswerContent>&lt;glossentry></lcAnswerContent>
+      <lcSequence value="1"/>
+     </lcSequenceOption>
+     <lcSequenceOption>
+      <lcAnswerContent>&lt;glossterm></lcAnswerContent>
+      <lcSequence value="2"/>
+     </lcSequenceOption>
+     <lcSequenceOption>
+      <lcAnswerContent>&lt;glossdef></lcAnswerContent>
+      <lcSequence value="3"/>
+     </lcSequenceOption>
+     <lcSequenceOption>
+      <lcAnswerContent>&lt;glossbody></lcAnswerContent>
+      <lcSequence value="4"/>
+     </lcSequenceOption>
+    </lcSequenceOptionGroup>
+   </lcSequencing>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>
