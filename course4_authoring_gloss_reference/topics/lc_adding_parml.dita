@@ -11,11 +11,15 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>The &lt;parml> element is a specialization of the &lt;dl> element, and is contains a
-                list of parameters and their use within a program. Use the &lt;parml> element when
-                you need to document a list of arguments for a function or API parameters.</p>
-            <p>The &lt;parml> element contains one or more &lt;plentry> elements, which contains one
-                or more &lt;pt> and &lt;pd> elements.</p>
+            <p>Use the &lt;parml> (parameter list) element when you need to document a list of
+                arguments for a function or API parameters. Some style guides call for the
+                &lt;parml> element to be contained within a separate &lt;section> element, while
+                others might put them in the &lt;refsyn> element. The &lt;parml> element is a
+                specialization of the &lt;dl> (definition list) element, and contains a list of
+                parameters and their use within a program. </p>
+            <p>The &lt;parml> element contains one or more &lt;plentry> (parameter list entry)
+                elements, which contains one or more &lt;pt> (parameter term) and &lt;pd> (parameter
+                definition) elements.</p>
         </lcInstruction>
     </learningContentbody>
     <task id="task_e3s_llq_5t">
@@ -29,10 +33,7 @@
                     <cmd>After the &lt;codeblock> element, add a &lt;parml> element and add two
                         &lt;plentry> elements.</cmd>
                     <stepxmp>
-                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
-&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-&lt;reference id="my_first_ref">
-   &lt;title>Navigating the Duck Database&lt;/title>
+                        <pre>   &lt;title>tNav&lt;/title>
    &lt;refbody>
      &lt;section>&lt;p>The &lt;cmdname>tNav&lt;/cmdname> command is used in the 
      Duck Database to navigate to a different table or view.&lt;/p>&lt;/section>
@@ -54,13 +55,10 @@
                     </stepxmp>
                 </step>
                 <step>
-                    <cmd>Within each &lt;plentry> element, add a &lt;pt> and &lt;pd> element and
-                        populate them as shown.</cmd>
+                    <cmd>Within each &lt;plentry> element, add a &lt;pt> and &lt;pd> element and add
+                        content to them as shown.</cmd>
                     <stepxmp>
-                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
-&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-&lt;reference id="my_first_ref">
-   &lt;title>Navigating the Duck Database&lt;/title>
+                        <pre>   &lt;title>tNav&lt;/title>
    &lt;refbody>
      &lt;section>&lt;p>The &lt;cmdname>tNav&lt;/cmdname> command is used in the 
      Duck Database to navigate to a different table or view.&lt;/p>&lt;/section>
