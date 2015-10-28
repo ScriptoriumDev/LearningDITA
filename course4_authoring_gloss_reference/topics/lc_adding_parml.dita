@@ -11,6 +11,9 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
+            <draft-comment author="simonbate">Abandoned this as a part of the Reference topic
+                course. We might want to use this content later in a course on the programming
+                domain or somesuch, but for now, this is gone. </draft-comment>
             <p>Use the &lt;parml> (parameter list) element when you need to document a list of
                 arguments for a function or API parameters. Some style guides call for the
                 &lt;parml> element to be contained within a separate &lt;section> element, while

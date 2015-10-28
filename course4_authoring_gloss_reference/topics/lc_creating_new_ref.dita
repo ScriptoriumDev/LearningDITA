@@ -18,10 +18,20 @@
             <p>At a minimum, the reference topic must contain a &lt;reference> root element (with an
                 id attribute) that contains a &lt;title> element. </p>
             <p>Following the &lt;title> element and an optional &lt;shortdesc> element, a
-                &lt;refbody> element contains the reference content. The elements within the
-                &lt;refbody> element can occur in just about any order, although you usually use the
-                &lt;section> element to organize standardized sections of a reference topic, like
-                syntax, usage, or examples.</p>
+                &lt;refbody> element contains the reference content. By design, the content in the
+                &lt;refbody> element is limited to a handful of elements. In other words, a
+                reference topic is not as flexible in its content as a concept topic. The body of
+                the reference topic can contain elements that have been introduced in previous
+                courses: &lt;table>, &lt;fig> (figure) or &lt;image>, &lt;example>, and
+                &lt;section>. You usually use the &lt;section> element within a &lt;refbody> to
+                organize the common sections of a reference topic, such as command descriptions,
+                usage guidelines, error codes, and the like. In addition, the &lt;refbody> element
+                can contain two elements that are specific to reference topic types: &lt;refsyn>
+                (reference syntax) and &lt;properties>. </p>
+            <p>The body of the reference can contain any number of these elements, in any order.</p>
+            <p>The &lt;example>, &lt;section>, and &lt;refsyn> elements can contain the &lt;title>
+                element. This allows you to create subdivisions within a reference topic. If
+                necessary, an output transform can insert its own titles for properties elements. </p>
             <!--<p><xref href="https://youtu.be/7E7RYKHQ6C4" format="html" scope="external">Video: Creating a DITA task topic</xref></p>-->
         </lcInstruction>
     </learningContentbody>
