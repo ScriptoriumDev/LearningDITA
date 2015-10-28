@@ -5,16 +5,60 @@
     <prolog>
         <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
             Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
         <critdates>
             <created date="2015-10-24"/>
         </critdates>
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>Use the &lt;refsyn> (reference syntax) element to describe the syntax used in a specific command or API.</p>
+            <p>A crucial part of an API reference or command line reference is the syntax
+                description, where the possible options or forms of each command or function call
+                are indicated. </p>
+            <p>A syntax diagram uses a textual or graphic shorthand to depict the keywords,
+                placeholders (variables), and other characters that a command or function call
+                requires. Textual syntax diagrams typically use brackets ([]), braces ({}), and bars
+                (|) to indicate optional or required portions of syntax. Graphical syntax diagrams
+                (often called “railroad diagrams”) connect the keywords, placeholders with looping
+                arrows arrows that indicate optional, repeated, and required portions of syntax. For
+                examples and additional information on syntax diagrams, this <xref
+                    href="https://en.wikipedia.org/wiki/Syntax_diagram" format="html"
+                    scope="external">Wikipedia</xref> page is a good place to start. </p>
+            <p>Because the syntax description is frequently required in reference topics, the
+                reference specialization provides the &lt;refsyn> element to contain the command
+                syntax. </p>
             <p>The &lt;refsyn> element is specialized from the &lt;section> element, and can contain
-                any elements allowed in the &lt;section> element. You can use it to describe the
-                syntax used in a specific command or API.</p>
+                any elements allowed in the &lt;section> element, including &lt;title>.  </p>
+            <p>There are a number of ways to add the actual syntax diagram to the &lt;refsyn>
+                element, these include (but are not limited to):</p>
+            <ul id="ul_m23_42g_vt">
+                <li>
+                    <p>Using &lt;image> or &lt;fig> elements to include an image of the syntax
+                        diagram (generally not recommended)</p>
+                </li>
+                <li>
+                    <p>Using &lt;codeblock> or &lt;pre> (preformatted) elements to create a textual
+                        syntax diagram (acceptable, but allows very little additional markup)</p>
+                </li>
+                <li>
+                    <p>Using &lt;synph> (syntax phrase) to create a textual syntax diagram
+                        (illustrated in this lesson)</p>
+                </li>
+                <li>
+                    <p>Using the &lt;syntaxdiagram> element, which uses additional elements to
+                        describe the parts and relationships in a syntax diagram. These elements can
+                        be rendered in a number of ways, depending on your output transform.
+                        However, there is no visual editor available for the &lt;syntaxdiagram>
+                        elements, so using them can be challenging. </p>
+                </li>
+            </ul>
+            <p>For further discussion of the pros and cons of using the &lt;synph> and
+                &lt;syntaxdiagram> elements, see <xref
+                    href="http://www.scriptorium.com/2013/01/perplexed-by-complex-syntax-understanding-syntax-diagrams-in-dita/"
+                    format="html" scope="external"/>
+            </p>
+            <!--<p>For XSL transforms that generatemore information on the https://github.com/dita-ot/ext-plugins</p>-->
         </lcInstruction>
     </learningContentbody>
     <task id="task_zcs_jxp_5t">
@@ -39,17 +83,37 @@
                     </stepxmp>
                 </step>
                 <step>
-                    <cmd>Inside the &lt;refsyn> element, add a &lt;codeblock> element to contain the
-                        command example and add content to it as shown.</cmd>
+                    <cmd>Inside the &lt;refsyn> element, add a &lt;synph> (syntax phrase) element to
+                        contain the command example and add content to it as shown.</cmd>
                     <stepxmp>
                         <pre>   &lt;title>tNav&lt;/title>
    &lt;refbody>
      &lt;section>&lt;p>The &lt;cmdname>tNav&lt;/cmdname> command is used in the 
      Duck Database to navigate to a different table or view.&lt;/p>&lt;/section>
      &lt;refsyn>
-         <ph outputclass="newchanged">&lt;codeblock>
-             -tNav &lt;varname>tName&lt;/varname> [tView]
-         &lt;/codeblock></ph>
+         <ph outputclass="newchanged">&lt;synph>
+             -tNav tName [tView]
+         &lt;/synph></ph>
+     &lt;/refsyn>
+   &lt;/refbody> 
+&lt;/reference></pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Tag the string “tName” inside the synph with the &lt;var> (variable)
+                        element. </cmd>
+                    <info>The &lt;var> element identifies the string as a variable or placeholder in
+                        the syntax. In most output transforms, this will be rendered in
+                        italics.</info>
+                    <stepxmp>
+                        <pre>   &lt;title>tNav&lt;/title>
+   &lt;refbody>
+     &lt;section>&lt;p>The &lt;cmdname>tNav&lt;/cmdname> command is used in the 
+     Duck Database to navigate to a different table or view.&lt;/p>&lt;/section>
+     &lt;refsyn>
+         &lt;synph>
+             <ph outputclass="newchanged">-tNav &lt;var>tName&lt;/var> [tView]</ph>
+         &lt;/synph>
      &lt;/refsyn>
    &lt;/refbody> 
 &lt;/reference></pre>
