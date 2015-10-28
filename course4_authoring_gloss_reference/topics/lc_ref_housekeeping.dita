@@ -16,13 +16,14 @@
     <learningContentbody>
         <lcInstruction>
             <p>Download <xref
-                    href="http://www.learningdita.com/wp-content/uploads/2015/09/task_samples.zip"
+                    href="http://www.learningdita.com/wp-content/uploads/2015/10/reference_samples.zip"
                     format="zip" scope="external">task_samples.zip</xref> now. It contains the
-                sample files for the entire  DITA reference topic type course. Extract the contents
+                sample files for the entire DITA reference topic type course. Extract the contents
                 and put them in a directory that you can access easily.</p>
-            <p>Inside the samples folder, you will find the file l_ref_start.dita, which you will
-                use to complete exercises throughout the course. You will also find the following
-                folders corresponding to lessons in this course: lesson1, lesson2, and lesson3.</p>
+            <p>Inside the samples folder, you will find three files: l_glossentry_start.dita,
+                l_glossgroup_start.dita, and l_reference_start.dita, which you will use to complete
+                exercises throughout the course. You will also find the following folders
+                corresponding to lessons in this course: lesson1 and lesson3.</p>
             <p>In each lesson folder, you will find three DITA files:</p>
             <ul id="ul_lx2_fj2_2t">
                 <li>
@@ -30,8 +31,8 @@
                         to check your work during each lesson.</p>
                 </li>
                 <li>
-                    <p>l_<i>filename</i>_exercise_start.dita: The empty file you will add content to
-                        as you complete the exercise at the end of each lesson.</p>
+                    <p>l_<i>filename</i>_exercise_start.dita: The empty file you will add content to as you
+                        complete the exercise at the end of each lesson.</p>
                 </li>
                 <li>
                     <p>l_<i>filename</i>_exercise.dita: The completed version of the exercise file

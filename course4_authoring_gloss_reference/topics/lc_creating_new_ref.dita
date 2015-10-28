@@ -19,9 +19,9 @@
                 id attribute) that contains a &lt;title> element. </p>
             <p>Following the &lt;title> element and an optional &lt;shortdesc> element, a
                 &lt;refbody> element contains the reference content. The elements within the
-                &lt;refbody> can occur in just about any order, although you usually use the
-                &lt;section> element to organize standard sections of a reference topic. </p>
-            <draft-comment author="Jake">Add video for creating reference here?</draft-comment>
+                &lt;refbody> element can occur in just about any order, although you usually use the
+                &lt;section> element to organize standardized sections of a reference topic, like
+                syntax, usage, or examples.</p>
             <!--<p><xref href="https://youtu.be/7E7RYKHQ6C4" format="html" scope="external">Video: Creating a DITA task topic</xref></p>-->
         </lcInstruction>
     </learningContentbody>
@@ -32,8 +32,8 @@
                 <step>
                     <cmd>Make a copy of the file l_ref_start.dita and open it in your editor.</cmd>
                     <info>
-                        <note>If you are using a DITA-aware text editor, make sure you are in text
-                            mode, rather than author or visual mode. </note>
+                        <note>If you are using a DITA editor, make sure you are in text mode, rather
+                            than author or visual mode. </note>
                     </info>
                     <stepxmp>
                         <p>You should see this:</p>
@@ -42,7 +42,7 @@
 &lt;reference id="my_first_ref">
    &lt;title>&lt;/title>
 
-&lt;/ref></pre>
+&lt;/reference></pre>
                     </stepxmp>
                     <info>
                         <p>The first line (which begins with <tt>&lt;?xml</tt>) is an XML
@@ -63,7 +63,7 @@
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 &lt;reference id="my_first_ref">
-<ph outputclass="newchanged">   &lt;title>Navigating the Duck Database&lt;/title></ph>
+<ph outputclass="newchanged">   &lt;title>tNav&lt;/title></ph>
 
 &lt;/reference></pre>
                     </stepxmp>
@@ -75,7 +75,7 @@
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 &lt;reference id="my_first_ref">
-   &lt;title>Duck watching reference&lt;/title>
+   &lt;title>tNav&lt;/title>
 <ph outputclass="newchanged">   &lt;refbody>
 
    &lt;/refbody> </ph>
@@ -83,13 +83,13 @@
                     </stepxmp>
                 </step>
                 <step>
-                    <cmd>Within the &lt;refbody> element, add a &lt;section> element and populate it
-                        as shown.</cmd>
+                    <cmd>Within the &lt;refbody> element, add a &lt;section> element and add content
+                        to it as shown.</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 &lt;reference id="my_first_ref">
-   &lt;title>Duck watching reference&lt;/title>
+   &lt;title>tNav&lt;/title>
    &lt;refbody>
     <ph outputclass="newchanged">&lt;section>&lt;p>The &lt;cmdname>tNav&lt;/cmdname> command is used in the 
      Duck Database to navigate to a different table or view.&lt;/p>&lt;/section></ph>
@@ -97,8 +97,8 @@
 &lt;/reference></pre>
                     </stepxmp>
                     <info>
-                        <note>The &lt;cmdname> element is used to denote the name of a command when
-                            referenced as a part of software, and is a part of the programming
+                        <note>The &lt;cmdname> (command name) element denotes the name of a command
+                            when referenced as a part of software, and is a part of the programming
                             domain. For more information on the programming domain, see the <xref
                                 href="http://docs.oasis-open.org/dita/v1.2/os/spec/common/pr-d.html"
                                 scope="external" format="html">OASIS DITA Version 1.2

@@ -4,7 +4,8 @@
   <title>Navigating the Duck Database</title>
   <refbody>
     <section>
-      <p>The <cmdname>tNav</cmdname> function is used in the Duck Database to navigate to a different table or view.</p>
+      <p>The <cmdname>tNav</cmdname> function is used in the Duck Database to navigate to a
+        different table or view.</p>
     </section>
     <refsyn>
       <codeblock>
@@ -19,7 +20,7 @@
           <pt>tView</pt>
           <pd>To optional view of the destination table</pd>
         </plentry>
-      </parml>      
+      </parml>
       <p>Refer to the database documentation for table names and views.</p>
     </refsyn>
     <properties>
@@ -34,12 +35,12 @@
         <propdesc>Dabbling Ducks</propdesc>
       </property>
       <property>
-        <proptype>Table</proptype>
+        <proptype/>
         <propvalue>dbo.DVNG</propvalue>
         <propdesc>Diving Ducks</propdesc>
       </property>
       <property>
-        <proptype>Table</proptype>
+        <proptype/>
         <propvalue>dbo.WHST</propvalue>
         <propdesc>Whistling Ducks</propdesc>
       </property>
@@ -49,12 +50,12 @@
         <propdesc>Ducks predominantly located in the northeast</propdesc>
       </property>
       <property>
-        <proptype>View</proptype>
+        <proptype/>
         <propvalue>regn.se</propvalue>
         <propdesc>Ducks predominantly located in the southeast</propdesc>
       </property>
       <property>
-        <proptype>View</proptype>
+        <proptype/>
         <propvalue>pttrn.migr</propvalue>
         <propdesc>Ducks organized by migratory pattern</propdesc>
       </property>
