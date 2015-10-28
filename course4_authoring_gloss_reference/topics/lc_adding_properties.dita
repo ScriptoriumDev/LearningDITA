@@ -24,15 +24,10 @@
                     <cmd>Continue using lesson1/l_reference_start.dita.</cmd>
                 </step>
                 <step>
-                    <cmd>After the &lt;refsyn> element, add a &lt;properties> element and populate
-                        it with a &lt;prophead> element.</cmd>
+                    <cmd>After the &lt;refsyn> element, add a &lt;properties> element and add a
+                        &lt;prophead> element within it.</cmd>
                     <stepxmp>
-                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
-&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-&lt;reference id="my_first_ref">
-   &lt;title>Navigating the Duck Database&lt;/title>
-   &lt;refbody>
-       ...
+                        <pre>       ...
        &lt;/refsyn>
        <ph outputclass="newchanged">&lt;properties>
            &lt;prophead>
@@ -50,7 +45,7 @@
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 &lt;reference id="my_first_ref">
-   &lt;title>Navigating the Duck Database&lt;/title>
+   &lt;title>tNav&lt;/title>
    &lt;refbody>
        ...
        &lt;/refsyn>
@@ -69,14 +64,9 @@
                         validate.</p></info>
                 </step>
                 <step>
-                    <cmd>After the &lt;prophead> element, add six &lt;property> elements.</cmd>
+                    <cmd>After the &lt;prophead> element, add a &lt;property> element.</cmd>
                     <stepxmp>
-                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
-&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-&lt;reference id="my_first_ref">
-   &lt;title>Navigating the Duck Database&lt;/title>
-   &lt;refbody>
-       ...
+                        <pre>       ...
        &lt;/refsyn>
        &lt;properties>
            &lt;prophead>
@@ -85,10 +75,6 @@
                &lt;propdeschd>Description&lt;/propdeschd>
            &lt;/prophead>
            <ph outputclass="newchanged">&lt;property>&lt;/property>
-           &lt;property>&lt;/property>
-           &lt;property>&lt;/property>
-           &lt;property>&lt;/property>
-           &lt;property>&lt;/property>
            &lt;property>&lt;/property></ph>
        &lt;/properties>
    &lt;/refbody> 
@@ -96,15 +82,10 @@
                     </stepxmp>
                 </step>
                 <step>
-                    <cmd>Inside each &lt;property> element, add a &lt;proptype>, &lt;propvalue>, and
+                    <cmd>Inside the &lt;property> element, add a &lt;proptype>, &lt;propvalue>, and
                         &lt;propdesc> element and add content to it as shown.</cmd>
                     <stepxmp>
-                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
-&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-&lt;reference id="my_first_ref">
-   &lt;title>Navigating the Duck Database&lt;/title>
-   &lt;refbody>
-       ...
+                        <pre>       ...
        &lt;/refsyn>
        &lt;properties>
            &lt;prophead>
@@ -116,14 +97,36 @@
                &lt;proptype>Table&lt;/proptype>
                &lt;propvalue>dbo.DABBL&lt;/propvalue>
                &lt;propdesc>Dabbling ducks&lt;/propdesc>
-           &lt;/property>
+           &lt;/property></ph>
+       &lt;/properties>
+   &lt;/refbody> 
+&lt;/reference></pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Add additional &lt;property> elements and add content to them as
+                        shown.</cmd>
+                    <stepxmp>
+                        <pre>       ...
+       &lt;/refsyn>
+       &lt;properties>
+           &lt;prophead>
+               &lt;proptypehd>Type&lt;/proptypehd>
+               &lt;propvaluehd>Name&lt;/propvaluehd>
+               &lt;propdeschd>Description&lt;/propdeschd>
+           &lt;/prophead>
            &lt;property>
                &lt;proptype>Table&lt;/proptype>
+               &lt;propvalue>dbo.DABBL&lt;/propvalue>
+               &lt;propdesc>Dabbling ducks&lt;/propdesc>
+           &lt;/property>
+           <ph outputclass="newchanged">&lt;property>
+               &lt;proptype>&lt;/proptype>
                &lt;propvalue>dbo.DVNG&lt;/propvalue>
                &lt;propdesc>Diving ducks&lt;/propdesc>           
            &lt;/property>
            &lt;property>
-               &lt;proptype>Table&lt;/proptype>
+               &lt;proptype>&lt;/proptype>
                &lt;propvalue>dbo.WHST&lt;/propvalue>
                &lt;propdesc>Whistling ducks&lt;/propdesc>           
            &lt;/property>
@@ -133,12 +136,12 @@
                &lt;propdesc>Ducks located primarily in the northeast&lt;/propdesc>           
            &lt;/property>
            &lt;property>
-               &lt;proptype>View&lt;/proptype>
+               &lt;proptype>&lt;/proptype>
                &lt;propvalue>regn.se&lt;/propvalue>
                &lt;propdesc>Ducks located primarily in the southeast&lt;/propdesc>           
            &lt;/property>
            &lt;property>
-               &lt;proptype>View&lt;/proptype>
+               &lt;proptype>&lt;/proptype>
                &lt;propvalue>pttrn.migr&lt;/propvalue>
                &lt;propdesc>Ducks organized by migratory pattern&lt;/propdesc>           
            &lt;/property></ph>
@@ -146,6 +149,13 @@
    &lt;/refbody> 
 &lt;/reference></pre>
                     </stepxmp>
+                    <info>
+                        <note><p>If you have multiple values for a single type, you should not
+                                duplicate entries in the &lt;proptype> element. Instead, create
+                                additional &lt;property> elements and only use &lt;propvalue> and
+                                &lt;propdesc> elements, when needed, for each additional
+                            value.</p></note>
+                    </info>
                 </step>
             </steps>
         </taskbody>
