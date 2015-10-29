@@ -5,15 +5,47 @@
     <prolog>
         <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
             Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
         <critdates>
             <created date="2015-10-22"/>
         </critdates>
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>The &lt;properties> element is used to present a series of properties pertaining to
-                the current topic. It contains an optional &lt;prophead> element, and then one or
-                more &lt;property elements.</p>
+            <p>In most API reference or command line reference topics, the syntax diagram is
+                followed immediately by a list or table that describes the various keywords,
+                placeholders, and other options in detail. The syntax diagram shows the reader where
+                these objects are used; the properties table provides information about why the
+                reader would use the objects.  </p>
+            <p dir="ltr" id="docs-internal-guid-c77ed3ad-b001-1114-c83c-33c5b4ac1257">For example,
+                in a graphics export command the <b>filetype</b> parameter might allow the values
+                “gif”, “png”, “bmp”, and “svg”; for each of these you might want to give specific
+                information about the implications of using each of the filetypes.</p>
+            <p>In the DITA reference topic type, the &lt;properties> element provides one way to
+                structure this information. The &lt;properties> element is one of the elements that
+                you can use within a &lt;refbody> element. </p>
+            <p>The &lt;properties> element contains one or more &lt;property> elements, each of
+                which describes a single property. The &lt;property> element can contain elements
+                for type (&lt;proptype>), value (&lt;propvalue>), and description (&lt;propdesc>).
+                In typical use, these might contain:</p>
+            <ul id="ul_o5r_fng_vt">
+                <li>A command parameter, a value or keyword allowed for that parameter, and a
+                    description of the parameter (what it means, what its use implies)</li>
+                <li>A function argument, the type of data or object expected in the argument, and a
+                    description of the argument and its effect on the API.</li>
+                <li>A database field or column name, its datatype, a description of the content in
+                    the field. </li>
+            </ul>
+            <p>In the case of a command parameter (&lt;proptype>) that has multiple keywords, you
+                can create a &lt;property> element with &lt;proptype>, &lt;propvalue>, and
+                &lt;propdesc> elements for the first keyword. Then for subsequent keywords, create
+                additional &lt;property> elements that only contain &lt;propvalue> and &lt;propdesc>
+                elements.</p>
+            <p>The &lt;properties> element is a specialization of the &lt;simpletable> element and
+                is often rendered in output as a table. If required, you can create column heads for
+                the type, value, and description columns using a &lt;prophead> element containing
+                &lt;proptypehd>, &lt;propvaluehd>, and &lt;propdeschd> elements. </p>
         </lcInstruction>
     </learningContentbody>
     <task id="task_o3q_zd4_tt">
@@ -149,13 +181,6 @@
    &lt;/refbody> 
 &lt;/reference></pre>
                     </stepxmp>
-                    <info>
-                        <note><p>If you have multiple values for a single type, you should not
-                                duplicate entries in the &lt;proptype> element. Instead, create
-                                additional &lt;property> elements and only use &lt;propvalue> and
-                                &lt;propdesc> elements, when needed, for each additional
-                            value.</p></note>
-                    </info>
                 </step>
             </steps>
         </taskbody>
