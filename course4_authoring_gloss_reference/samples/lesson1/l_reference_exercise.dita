@@ -3,51 +3,32 @@
 <reference id="reference_jgf_3df_vt">
   <title>Analyzing existing information products</title>
   <refbody>
+    <section>The <cmdname>addEntry</cmdname> command is used to enter a new documentation release
+      into the content analysis database.</section>
+    <refsyn>
+      <synph>-addEntry {nLanguage | nVersion | nOutput}</synph>
+    </refsyn>
     <properties id="properties_qxt_3df_vt">
       <prophead>
-        <proptypehd>Title</proptypehd>
+        <proptypehd>Required?</proptypehd>
         <propvaluehd>Pages</propvaluehd>
         <propdeschd>Delivery format</propdeschd>
       </prophead>
       <property>
-        <proptype>User Guide</proptype>
-        <propvalue>400</propvalue>
-        <propdesc>PDF</propdesc>
+        <proptype>Yes</proptype>
+        <propvalue>nLanguage</propvalue>
+        <propdesc>The language displayed by default</propdesc>
       </property>
       <property>
-        <proptype>Online Help</proptype>
-        <propvalue>400</propvalue>
-        <propdesc>CHM</propdesc>
+        <proptype></proptype>
+        <propvalue>nVersion</propvalue>
+        <propdesc>The version of the content displayed by default</propdesc>
       </property>
       <property>
-        <proptype>Administrator's Guide</proptype>
-        <propvalue>800</propvalue>
-        <propdesc>PDF</propdesc>
-      </property>
-      <property>
-        <proptype>API Reference</proptype>
-        <propvalue>500</propvalue>
-        <propdesc>Wiki</propdesc>
+        <proptype></proptype>
+        <propvalue>nOutput</propvalue>
+        <propdesc>The required delivery format</propdesc>
       </property>
     </properties>
-    <section>The <cmdname>addEntry</cmdname> command is used to enter a new documentation release
-      into the content analysis database.</section>
-    <refsyn>
-      <codeblock>-addEntry nLanguage nVersion nOutput</codeblock>
-      <parml>
-        <plentry>
-          <pt>nLanguage</pt>
-          <pd>The language displayed by default</pd>
-        </plentry>
-        <plentry>
-          <pt>nVersion</pt>
-          <pd>The version of the content displayed by default</pd>
-        </plentry>
-        <plentry>
-          <pt>nOutput</pt>
-          <pd>The required delivery format</pd>
-        </plentry>
-      </parml>
-    </refsyn>
   </refbody>
 </reference>

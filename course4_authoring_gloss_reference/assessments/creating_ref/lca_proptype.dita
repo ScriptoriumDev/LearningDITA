@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_dmb_lfm_vt">
+ <title>Properties</title>
+ <prolog>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+   Scriptorium</author>
+  <critdates>
+   <created date="2015-10-28"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody id="learningAssessmentbody_e2y_pgm_vt">
+  <lcInteraction>
+   <lcTrueFalse id="lcTrueFalse_efy_pgm_vt">
+    <lcQuestion>Every element in a &lt;properties> table must have content.</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_pfy_pgm_vt">
+     <lcAnswerOption>
+      <lcAnswerContent>True</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>False</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>If there are successive &lt;proptype> elements of the same type, it is
+     recommended to leave them empty.</lcFeedbackIncorrect>
+   </lcTrueFalse>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

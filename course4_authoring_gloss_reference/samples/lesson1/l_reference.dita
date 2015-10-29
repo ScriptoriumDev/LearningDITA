@@ -8,9 +8,9 @@
         different table or view.</p>
     </section>
     <refsyn>
-      <codeblock>
-        -tNav tName tView
-      </codeblock>
+      <synph>
+        -tNav <var>tName</var> [tView]
+      </synph>
       <parml>
         <plentry>
           <pt>tName</pt>
