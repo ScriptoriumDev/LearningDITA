@@ -120,4 +120,39 @@
             </steps>
         </taskbody>
     </task>
+    <task id="task_fvl_13n_vt">
+        <title>Exercise</title>
+        <taskbody>
+            <steps>
+                <step>
+                    <cmd>Open the file lesson3/l_glossary_exercise_start.dita and use it to convert
+                        the following content from <xref href="http://contentstrategy101.com/"
+                            format="html" scope="external">Content Strategy 101</xref> into
+                        DITA:</cmd>
+                    <info>
+                        <pre outputclass="passthru"><![CDATA[
+<hr/>
+<h3>Content strategy terms</h3>
+<i>structured authoring</i>
+<p>An environment for creating content where the required structure is enforced by the authoring software and following the template is not optional.</p>
+
+<i>structured content</i>
+<p>Information that is organized in a predictable way</p>
+
+<i>searchable content</i>
+<p>Information that is available via an Internet search</p>
+
+<i>findable content</i>
+<p>Information that performs well for relevant keywords</p>
+
+<i>discoverable content</i>
+<p>Information that has in-bound links, especially on social media</p>
+
+]]></pre>
+                    </info>
+                </step>
+            </steps>
+
+        </taskbody>
+    </task>
 </learningContent>

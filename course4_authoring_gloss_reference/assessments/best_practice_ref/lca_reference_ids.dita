@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_bvs_fmn_vt">
+ <title>Invalid ids</title>
+ <prolog>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+   Scriptorium</author>
+  <critdates>
+   <created date="2015-10-28"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody id="learningAssessmentbody_ehk_vmn_vt">
+  <lcInteraction>
+   <lcSingleSelect id="lcSingleSelect_zhk_vmn_vt">
+    <lcQuestion>Why would you use invalid ids in the &lt;reference> element when creating
+     templates?</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_n3k_vmn_vt">
+     <lcAnswerOption>
+      <lcAnswerContent>To prevent accidental creation of duplicate ids.</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>To force content creators to validate their content.</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>To keep templates from entering your production
+       environment.</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>To facilitate collaborative content creation.</lcAnswerContent>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+   </lcSingleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

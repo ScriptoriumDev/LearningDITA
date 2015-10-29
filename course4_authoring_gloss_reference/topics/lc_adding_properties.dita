@@ -17,7 +17,7 @@
                 followed immediately by a list or table that describes the various keywords,
                 placeholders, and other options in detail. The syntax diagram shows the reader where
                 these objects are used; the properties table provides information about why the
-                reader would use the objects.  </p>
+                reader would use the objects. </p>
             <p dir="ltr" id="docs-internal-guid-c77ed3ad-b001-1114-c83c-33c5b4ac1257">For example,
                 in a graphics export command the <b>filetype</b> parameter might allow the values
                 “gif”, “png”, “bmp”, and “svg”; for each of these you might want to give specific
@@ -46,6 +46,7 @@
                 is often rendered in output as a table. If required, you can create column heads for
                 the type, value, and description columns using a &lt;prophead> element containing
                 &lt;proptypehd>, &lt;propvaluehd>, and &lt;propdeschd> elements. </p>
+            <p><xref href="https://youtu.be/njVoKQqltlA" format="html" scope="external">Video: Creating a DITA properties table</xref></p>
         </lcInstruction>
     </learningContentbody>
     <task id="task_o3q_zd4_tt">
@@ -181,6 +182,50 @@
    &lt;/refbody> 
 &lt;/reference></pre>
                     </stepxmp>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+    <task id="task_v51_m3m_vt">
+        <title>Exercise</title>
+        <taskbody>
+            <steps>
+                <step>
+                    <cmd>Open the file lesson1/l_reference_exercise_start.dita and use it to convert
+                        the following content from <xref href="http://contentstrategy101.com/"
+                            format="html" scope="external">Content Strategy 101</xref> into
+                        DITA:</cmd>
+                    <info>
+                        <pre outputclass="passthru"><![CDATA[
+                            <hr/>
+                            <h3>addEntry</h3>
+                            <p>The <i>addEntry</i> command is used to enter a new documentation release into the content analysis database.</p>
+                            <tt><i>-addEntry</i> {nLanguage | nVersion | nOutput}</tt>
+                            
+                            <table>
+                              <th>
+                                <td>Required?</td>
+                                <td>Parameter</td>
+                                <td>Description</td>
+                              </th>
+                              <tr>
+                                <td>Yes</td>
+                                <td>nLanguage</td>
+                                <td>The language displayed by default</td>
+                              </tr>
+                              <tr>
+                                <td></td>
+                                <td>nVersion</td>
+                                <td>The version of the content displayed by default</td>
+                              </tr>
+                              <tr>
+                                <td></td>
+                                <td>nOutput</td>
+                                <td>The required delivery format</td>
+                              </tr>
+                            </table>
+                            ]]></pre>
+                    </info>
                 </step>
             </steps>
         </taskbody>
