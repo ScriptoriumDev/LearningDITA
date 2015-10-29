@@ -9,21 +9,13 @@
   <topicmeta lockmeta="yes">
    <data name="lesson_id" value="9518"/>
   </topicmeta>
-  <topicref href="../topics/lc_bp_planning.dita"/>
-  <topicref href="../topics/lc_bp_context.dita"/>
-  <topicref href="../topics/lc_bp_short.dita"/>
-  <topicref href="../topics/lc_bp_substeps.dita"/>
-  <topicref href="../topics/lc_bp_reuse.dita"/>
+  <topicref href="../topics/lc_bp_glossarylist.dita"/>
+  <topicref href="../topics/lc_bp_naming.dita"/>
   <topicref href="../topics/lcc_assessment.dita" copy-to="lcc_gloss_bestp.dita" locktitle="yes">
    <topicmeta>
     <navtitle>Assessment for Best practices for glossary entries and groups</navtitle>
    </topicmeta>
    <topicref href="../assessments/best_practices/lca_planning.dita"/>
-   <topicref href="../assessments/best_practices/lca_context.dita"/>
-   <topicref href="../assessments/best_practices/lca_steps.dita"/>
-   <topicref href="../assessments/best_practices/lca_substeps.dita"/>
-   <topicref href="../assessments/best_practices/lca_uses.dita"/>
-   <topicref href="../assessments/best_practices/lca_reuse.dita"/>
   </topicref>
  </topicref>
 </map>
