@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_rgd_gyn_vt">
+    <title>Manage glossary creation</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-10-29"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>In the early days of a project, it’s fine if the glossary grows organically, with as
+                many people contributing glossary entries as possible.</p>
+            <p>But as a project matures, more and more content creators will depend on the contents
+                of the glossary. At this point, it’s a good idea to manage the glossary contents.
+                That is, have a process in place to manage:</p>
+            <ul id="ul_ypl_5yn_vt">
+                <li>How new terms are added to the glossary. </li>
+                <li>When  and how changes are made to glossary entries.</li>
+                <li>When an obsolete or deprecated term should be removed from the glossary.</li>
+            </ul>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>
