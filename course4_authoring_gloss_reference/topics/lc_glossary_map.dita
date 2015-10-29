@@ -53,6 +53,10 @@
                         and merging them later.</p>
                 </li>
                 <li>
+                    <p>An output transform can also incorporated glossary entries from glossary
+                        group topics into an output glossary. </p>
+                </li>
+                <li>
                     <p>If your content will be translated, it’s highly likely that the glossary will
                         need to be sorted for your target language. If your output transform handles
                         the sorting tasks, your localization agency does not have to be responsible

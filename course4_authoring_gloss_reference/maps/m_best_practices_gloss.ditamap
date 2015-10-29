@@ -9,8 +9,10 @@
   <topicmeta lockmeta="yes">
    <data name="lesson_id" value="9518"/>
   </topicmeta>
-  <topicref href="../topics/lc_bp_glossarylist.dita"/>
   <topicref href="../topics/lc_bp_naming.dita"/>
+  <topicref href="../topics/lc_bp_good_glossentry.dita"/>
+  <topicref href="../topics/lc_bp_glossarylist.dita"/>
+  <topicref href="../topics/lc_bp_control_glossaries.dita"/>
   <topicref href="../topics/lcc_assessment.dita" copy-to="lcc_gloss_bestp.dita" locktitle="yes">
    <topicmeta>
     <navtitle>Assessment for Best practices for glossary entries and groups</navtitle>
