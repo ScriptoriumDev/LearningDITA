@@ -93,7 +93,7 @@
                 </step>
                 <step>
                     <cmd>Inside the &lt;prophead> element, add a &lt;proptypehd>, &lt;propvaluehd>,
-                        and &lt;propdeschd> element and add content to it as shown.</cmd>
+                        and &lt;propdeschd> element and add content to them as shown.</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
@@ -112,9 +112,9 @@
    &lt;/refbody> 
 &lt;/reference></pre>
                     </stepxmp>
-                    <info><p>While not all required, the elements added here must be in this
-                            specific order. If they are not, your document will not
-                        validate.</p></info>
+                    <info><note><p>While not all required, the elements added here must be in this
+                                specific order. If they are not, your document will not
+                                validate.</p></note></info>
                 </step>
                 <step>
                     <cmd>After the &lt;prophead> element, add a &lt;property> element.</cmd>
@@ -127,8 +127,10 @@
                &lt;propvaluehd>Name&lt;/propvaluehd>
                &lt;propdeschd>Description&lt;/propdeschd>
            &lt;/prophead>
-           <ph outputclass="newchanged">&lt;property>&lt;/property>
-           </ph>
+           <ph outputclass="newchanged">&lt;property>
+
+           &lt;/property></ph>
+
        &lt;/properties>
    &lt;/refbody> 
 &lt;/reference></pre>
@@ -155,6 +157,12 @@
    &lt;/refbody> 
 &lt;/reference></pre>
                     </stepxmp>
+                    <info>
+                        <note><p>If you omit any of the headers, you should also omit the associated
+                                property element. For example, if your &lt;prophead> element does
+                                not contain a &lt;propdeschd>, you should omit the &lt;propdesc>
+                                element within your &lt;property> elements.</p></note>
+                    </info>
                 </step>
                 <step>
                     <cmd>Add additional &lt;property> elements and add content to them as
