@@ -20,10 +20,10 @@
             <p>Following the &lt;title> element and an optional &lt;shortdesc> element, a
                 &lt;refbody> element contains the reference content. By design, the content in the
                 &lt;refbody> element is limited to a handful of elements. In other words, a
-                reference topic is not as flexible in its content as a concept topic. The body of
-                the reference topic can contain elements that have been introduced in previous
-                courses: &lt;table>, &lt;fig> (figure) or &lt;image>, &lt;example>, and
-                &lt;section>. You usually use the &lt;section> element within a &lt;refbody> to
+                reference topic is not as flexible in its content as a concept topic.</p>
+            <p>The body of the reference topic can contain elements that have been introduced in
+                previous courses: &lt;table>, &lt;fig> (figure) or &lt;image>, &lt;example>, and
+                &lt;section>. You usually use the &lt;section> element within a &lt;refbody> element to
                 organize the common sections of a reference topic, such as command descriptions,
                 usage guidelines, error codes, and the like. In addition, the &lt;refbody> element
                 can contain two elements that are specific to reference topic types: &lt;refsyn>
@@ -31,8 +31,9 @@
             <p>The body of the reference can contain any number of these elements, in any order.</p>
             <p>The &lt;example>, &lt;section>, and &lt;refsyn> elements can contain the &lt;title>
                 element. This allows you to create subdivisions within a reference topic. If
-                necessary, an output transform can insert its own titles for properties elements. </p>
-            <p><xref href="https://youtu.be/B3FVRhrfwkA" format="html" scope="external">Video: Creating a DITA reference topic</xref></p>
+                necessary, an output transform can insert its own titles for &lt;properties> elements. </p>
+            <p><xref href="https://youtu.be/B3FVRhrfwkA" format="html" scope="external">Video:
+                    Creating a DITA reference topic</xref></p>
         </lcInstruction>
     </learningContentbody>
     <task id="task_i3g_jkh_1t">
@@ -40,7 +41,7 @@
         <taskbody>
             <steps id="steps_f5k_kkh_1t">
                 <step>
-                    <cmd>Make a copy of the file l_ref_start.dita and open it in your editor.</cmd>
+                    <cmd>Make a copy of the file l_reference_start.dita and open it in your editor.</cmd>
                     <info>
                         <note>If you are using a DITA editor, make sure you are in text mode, rather
                             than author or visual mode. </note>
@@ -63,7 +64,7 @@
                             DOCTYPE will be specific to each topic type that you create. </p>
                         <p>The third line contains the opening tag of the &lt;reference>
                             element.</p>
-                        <p>The fourth line contains the title element.</p>
+                        <p>The fourth line contains the &lt;title> element.</p>
                     </info>
                 </step>
                 <step>
@@ -88,7 +89,8 @@
    &lt;title>tNav&lt;/title>
 <ph outputclass="newchanged">   &lt;refbody>
 
-   &lt;/refbody> </ph>
+   &lt;/refbody> 
+</ph>
 &lt;/reference></pre>
                     </stepxmp>
                 </step>
@@ -107,12 +109,12 @@
 &lt;/reference></pre>
                     </stepxmp>
                     <info>
-                        <note>The &lt;cmdname> (command name) element denotes the name of a command
+                        <note><p>The &lt;cmdname> (command name) element denotes the name of a command
                             when referenced as a part of software, and is a part of the programming
                             domain. For more information on the programming domain, see the <xref
                                 href="http://docs.oasis-open.org/dita/v1.2/os/spec/common/pr-d.html"
                                 scope="external" format="html">OASIS DITA Version 1.2
-                                Standard</xref></note>
+                                Standard</xref>.</p></note>
                     </info>
                 </step>
             </steps>

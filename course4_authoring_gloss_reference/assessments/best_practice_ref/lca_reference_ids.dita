@@ -16,7 +16,7 @@
   <lcInteraction>
    <lcSingleSelect id="lcSingleSelect_zhk_vmn_vt">
     <lcQuestion>Why would you use invalid ids in the &lt;reference> element when creating
-     templates?</lcQuestion>
+     templates? (pick one)</lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_n3k_vmn_vt">
      <lcAnswerOption>
       <lcAnswerContent>To prevent accidental creation of duplicate ids.</lcAnswerContent>
