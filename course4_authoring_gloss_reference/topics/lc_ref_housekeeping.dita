@@ -27,7 +27,7 @@
             <p>In each lesson folder, you will find several DITA files:</p>
             <ul id="ul_lx2_fj2_2t">
                 <li>
-                    <p>l_<i>filename</i>.dita: The completed version of the sample file you can use
+                    <p>l_<i>filename</i>.dita: The completed version of the sample files you can use
                         to check your work during each lesson.</p>
                 </li>
                 <li>
@@ -37,6 +37,10 @@
                 <li>
                     <p>l_<i>filename</i>_exercise.dita: The completed version of the exercise file
                         you can use to check your work.</p>
+                </li>
+                <li>
+                    <p>l_<i>filename</i>.ditamap: The completed version of the ditamap you can use
+                        to check your work in Lesson 3.</p>
                 </li>
             </ul>
             <p>Each lesson will instruct you on which files to use for the exercises. Save your file

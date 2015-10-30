@@ -48,7 +48,7 @@
                         <p>The first line (which begins with <tt>&lt;?xml</tt>) is an XML
                             declaration, which is a standard part of all XML files.</p>
                         <p>The second line is the DOCTYPE declaration, which tells DITA editors or
-                            DITA output generators that this is a DITA glossentry topic. The
+                            DITA output generators that this is a DITA glossgroup topic. The
                             programs then use that information when validating the content of the
                             topic. The DOCTYPE will be specific to each topic type that you create. </p>
                         <p>The third line contains the opening tag of the &lt;glossgroup> element.
