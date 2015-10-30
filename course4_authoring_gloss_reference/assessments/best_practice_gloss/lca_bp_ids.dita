@@ -15,14 +15,14 @@
  <learningAssessmentbody id="learningAssessmentbody_phk_fwn_vt">
   <lcInteraction>
    <lcSingleSelect id="lcSingleSelect_t3k_fwn_vt">
-    <lcQuestion>When assigning ids to glossary entries, it's important that (pick one):</lcQuestion>
+    <lcQuestion>When assigning ids to glossary entries, it's best that (pick one):</lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_ijk_fwn_vt">
      <lcAnswerOption>
-      <lcAnswerContent>The id match the filename</lcAnswerContent>
+      <lcAnswerContent>The id match the filename or term as closely as possible</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>The id is prepended with "g_"</lcAnswerContent>
+      <lcAnswerContent>The id is short, in order to ensure that it is human readable</lcAnswerContent>
      </lcAnswerOption>
      <lcAnswerOption>
       <lcAnswerContent>The id is assigned by your authoring software</lcAnswerContent>

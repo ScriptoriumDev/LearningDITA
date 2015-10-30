@@ -87,9 +87,8 @@
 &lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 &lt;reference id="my_first_ref">
    &lt;title>tNav&lt;/title>
-<ph outputclass="newchanged">   &lt;refbody>
-
-   &lt;/refbody> 
+   <ph outputclass="newchanged">&lt;refbody>
+   &lt;/refbody>
 </ph>
 &lt;/reference></pre>
                     </stepxmp>
