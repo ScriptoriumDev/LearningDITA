@@ -29,14 +29,33 @@
                 which describes a single property. The &lt;property> element can contain elements
                 for type (&lt;proptype>), value (&lt;propvalue>), and description (&lt;propdesc>).
                 In typical use, these might contain:</p>
-            <ul id="ul_o5r_fng_vt">
-                <li>A command parameter, a value or keyword allowed for that parameter, and a
-                    description of the parameter (what it means, what its use implies)</li>
-                <li>A function argument, the type of data or object expected in the argument, and a
-                    description of the argument and its effect on the API.</li>
-                <li>A database field or column name, its datatype, a description of the content in
-                    the field. </li>
-            </ul>
+            <simpletable frame="all" relcolwidth="1.0* 1.0* 1.0* 1.0*" id="simpletable_ik5_bc5_vt">
+                <sthead>
+                    <stentry>Document type</stentry>
+                    <stentry>&lt;proptype></stentry>
+                    <stentry>&lt;propvalue></stentry>
+                    <stentry>&lt;propdesc></stentry>
+                </sthead>
+                <strow>
+                    <stentry><b>Command line reference</b></stentry>
+                    <stentry>Command parameter. </stentry>
+                    <stentry>Value or keyword allowed for the parameter.</stentry>
+                    <stentry>Description of the parameter (what it means, what its use
+                        implies)</stentry>
+                </strow>
+                <strow>
+                    <stentry><b>API reference</b></stentry>
+                    <stentry>Function argument</stentry>
+                    <stentry>Argument data type or object type</stentry>
+                    <stentry>Description of the argument and its effect on the API</stentry>
+                </strow>
+                <strow>
+                    <stentry><b>Database reference</b></stentry>
+                    <stentry>Database field or column name</stentry>
+                    <stentry>Data type</stentry>
+                    <stentry>Description of the content</stentry>
+                </strow>
+            </simpletable>
             <p>In the case of a command parameter (&lt;proptype>) that has multiple keywords, you
                 can create a &lt;property> element with &lt;proptype>, &lt;propvalue>, and
                 &lt;propdesc> elements for the first keyword. Then for subsequent keywords, create
