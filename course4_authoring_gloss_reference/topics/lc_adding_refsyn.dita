@@ -18,8 +18,8 @@
                 are indicated. </p>
             <p>A syntax diagram uses a textual or graphic shorthand to depict the keywords,
                 placeholders (variables), and other characters that a command or function call
-                requires. Textual syntax diagrams typically use brackets ([]), braces ({}), and bars
-                (|) to indicate optional or required portions of syntax. Graphical syntax diagrams
+                requires. Textual syntax diagrams typically use brackets [], braces {}, and bars |
+                to indicate optional or required portions of syntax. Graphical syntax diagrams
                 (often called “railroad diagrams”) connect the keywords, placeholders with looping
                 arrows arrows that indicate optional, repeated, and required portions of syntax. For
                 examples and additional information on syntax diagrams, this <xref
@@ -29,9 +29,9 @@
                 reference specialization provides the &lt;refsyn> element to contain the command
                 syntax. </p>
             <p>The &lt;refsyn> element is specialized from the &lt;section> element, and can contain
-                any elements allowed in the &lt;section> element, including &lt;title>. </p>
+                any elements allowed in the &lt;section> element, including the &lt;title> element. </p>
             <p>There are a number of ways to add the actual syntax diagram to the &lt;refsyn>
-                element, these include (but are not limited to):</p>
+                element, such as:</p>
             <ul id="ul_m23_42g_vt">
                 <li>
                     <p>Using &lt;image> or &lt;fig> elements to include an image of the syntax
@@ -56,7 +56,8 @@
             <p>For further discussion of the pros and cons of using the &lt;synph> and
                 &lt;syntaxdiagram> elements, see <xref
                     href="http://www.scriptorium.com/2013/01/perplexed-by-complex-syntax-understanding-syntax-diagrams-in-dita/"
-                    format="html" scope="external">this blog post</xref>. </p>
+                    format="html" scope="external">Simon Bate's blog post on understanding diagrams
+                    in DITA</xref>. </p>
             <!--<p>For XSL transforms that generatemore information on the https://github.com/dita-ot/ext-plugins</p>-->
         </lcInstruction>
     </learningContentbody>
@@ -68,7 +69,7 @@
                     <cmd>Continue using lesson1/l_reference_start.dita.</cmd>
                 </step>
                 <step>
-                    <cmd>Below the &lt;section> element, add a &lt;refsyn> element.</cmd>
+                    <cmd>After the &lt;section> element, add a &lt;refsyn> element.</cmd>
                     <stepxmp>
                         <pre>   &lt;title>tNav&lt;/title>
    &lt;refbody>

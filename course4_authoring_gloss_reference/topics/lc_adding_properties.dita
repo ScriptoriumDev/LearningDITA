@@ -20,8 +20,8 @@
                 reader would use the objects. </p>
             <p dir="ltr" id="docs-internal-guid-c77ed3ad-b001-1114-c83c-33c5b4ac1257">For example,
                 in a graphics export command the <b>filetype</b> parameter might allow the values
-                “gif”, “png”, “bmp”, and “svg”; for each of these you might want to give specific
-                information about the implications of using each of the filetypes.</p>
+                “gif”, “png”, “bmp”, and “svg”; you might want to give specific information about
+                the implications of using each of the filetypes.</p>
             <p>In the DITA reference topic type, the &lt;properties> element provides one way to
                 structure this information. The &lt;properties> element is one of the elements that
                 you can use within a &lt;refbody> element. </p>
@@ -43,10 +43,11 @@
                 additional &lt;property> elements that only contain &lt;propvalue> and &lt;propdesc>
                 elements.</p>
             <p>The &lt;properties> element is a specialization of the &lt;simpletable> element and
-                is often rendered in output as a table. If required, you can create column heads for
-                the type, value, and description columns using a &lt;prophead> element containing
-                &lt;proptypehd>, &lt;propvaluehd>, and &lt;propdeschd> elements. </p>
-            <p><xref href="https://youtu.be/njVoKQqltlA" format="html" scope="external">Video: Creating a DITA properties table</xref></p>
+                is often rendered in output as a table. If necessary, you can create column heads
+                for the type, value, and description columns using a &lt;prophead> element
+                containing &lt;proptypehd>, &lt;propvaluehd>, and &lt;propdeschd> elements. </p>
+            <p><xref href="https://youtu.be/njVoKQqltlA" format="html" scope="external">Video:
+                    Creating a DITA properties table</xref></p>
         </lcInstruction>
     </learningContentbody>
     <task id="task_o3q_zd4_tt">
@@ -108,7 +109,7 @@
                &lt;propdeschd>Description&lt;/propdeschd>
            &lt;/prophead>
            <ph outputclass="newchanged">&lt;property>&lt;/property>
-           &lt;property>&lt;/property></ph>
+           </ph>
        &lt;/properties>
    &lt;/refbody> 
 &lt;/reference></pre>
@@ -116,7 +117,7 @@
                 </step>
                 <step>
                     <cmd>Inside the &lt;property> element, add a &lt;proptype>, &lt;propvalue>, and
-                        &lt;propdesc> element and add content to it as shown.</cmd>
+                        &lt;propdesc> element and add content to them as shown.</cmd>
                     <stepxmp>
                         <pre>       ...
        &lt;/refsyn>
@@ -203,11 +204,11 @@
                             <tt><i>-addEntry</i> {nLanguage | nVersion | nOutput}</tt>
                             
                             <table>
-                              <th>
+                              <tr>
                                 <td>Required?</td>
                                 <td>Parameter</td>
                                 <td>Description</td>
-                              </th>
+                              </tr>
                               <tr>
                                 <td>Yes</td>
                                 <td>nLanguage</td>
