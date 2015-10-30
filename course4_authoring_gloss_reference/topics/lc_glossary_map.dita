@@ -71,7 +71,7 @@
         <taskbody>
             <steps id="steps_f5k_kkh_1t">
                 <step>
-                    <cmd>Make a copy of the file l_glossbody_start.ditamap and open it in your
+                    <cmd>Make a copy of the file l_glossorg_start.ditamap and open it in your
                         editor.</cmd>
                     <info>
                         <note>If you are using a DITA editor, make sure you are in text mode, rather
@@ -105,13 +105,12 @@
 &lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 &lt;map>
    &lt;title>Duck glossary&lt;/title>
-   <ph outputclass="newchanged">&lt;topicref href="l_glossentry_start.dita"/></ph>
+   <ph outputclass="newchanged">&lt;topicref href="l_glossentry.dita"/></ph>
 &lt;/map>
 </pre>
                     </stepxmp>
                     <info>If you used a different name when you saved your file from the glossary
-                        entry exercise, use that filename instead of l_glossentry_start.dita.
-                    </info>
+                        entry exercise, use that filename instead of l_glossentry.dita. </info>
                 </step>
                 <step>
                     <cmd>If you created other glossary entry files, add topicref elements for each
