@@ -21,12 +21,12 @@
                     your filesystem. However, use the underscore (“_”) character to separate words,
                     rather than a space (spaces in DITA filenames can cause problems). </li>
                 <li>The id attribute for the glossary entry topic should be the same as the filename
-                    (minus the .dita extension). So, if a topic is named “g_mallard.dita”, the id of
-                    the glossary entry topic should be “g_mallard”. Failing that, the id should
-                    match the term as closely as possible. So, the id of
-                    "g_mallard.dita" would be "mallard".</li>
+                    (minus the .dita extension). You may opt to omit the "g_" from the id attribute as
+                    well, so long as the id attribute value matches the same term used in the filename.
+                    So, if a topic is named "g_mallard.dita", the id of the glossary entry topic should
+                    be "g_mallard" or "mallard".</li>
                 <li>Although this topic does not address the concept of keys in DITA, we advise also
-                    using the value of the id attribute as the key name </li>
+                    using the value of the id attribute as the key name.</li>
             </ul>
         </lcInstruction>
     </learningContentbody>
