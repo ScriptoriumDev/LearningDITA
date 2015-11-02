@@ -38,8 +38,8 @@
                 </sthead>
                 <strow>
                     <stentry><b>Command line reference</b></stentry>
-                    <stentry>Command parameter. </stentry>
-                    <stentry>Value or keyword allowed for the parameter.</stentry>
+                    <stentry>Command parameter</stentry>
+                    <stentry>Value or keyword allowed for the parameter</stentry>
                     <stentry>Description of the parameter (what it means, what its use
                         implies)</stentry>
                 </strow>
@@ -128,7 +128,6 @@
                &lt;propdeschd>Description&lt;/propdeschd>
            &lt;/prophead>
            <ph outputclass="newchanged">&lt;property>
-
            &lt;/property></ph>
 
        &lt;/properties>
@@ -150,7 +149,7 @@
            &lt;/prophead>
            <ph outputclass="newchanged">&lt;property>
                &lt;proptype>Table&lt;/proptype>
-               &lt;propvalue>dbo.DABBL&lt;/propvalue>
+               &lt;propvalue>dbo.DBBL&lt;/propvalue>
                &lt;propdesc>Dabbling ducks&lt;/propdesc>
            &lt;/property></ph>
        &lt;/properties>
@@ -178,33 +177,33 @@
            &lt;/prophead>
            &lt;property>
                &lt;proptype>Table&lt;/proptype>
-               &lt;propvalue>dbo.DABBL&lt;/propvalue>
+               &lt;propvalue>dbo.DBBL&lt;/propvalue>
                &lt;propdesc>Dabbling ducks&lt;/propdesc>
            &lt;/property>
            <ph outputclass="newchanged">&lt;property>
                &lt;proptype>&lt;/proptype>
                &lt;propvalue>dbo.DVNG&lt;/propvalue>
-               &lt;propdesc>Diving ducks&lt;/propdesc>           
+               &lt;propdesc>Diving ducks&lt;/propdesc>
            &lt;/property>
            &lt;property>
                &lt;proptype>&lt;/proptype>
                &lt;propvalue>dbo.WHST&lt;/propvalue>
-               &lt;propdesc>Whistling ducks&lt;/propdesc>           
+               &lt;propdesc>Whistling ducks&lt;/propdesc>
            &lt;/property>
            &lt;property>
                &lt;proptype>View&lt;/proptype>
                &lt;propvalue>regn.ne&lt;/propvalue>
-               &lt;propdesc>Ducks located primarily in the northeast&lt;/propdesc>           
+               &lt;propdesc>Ducks located primarily in the northeast&lt;/propdesc>
            &lt;/property>
            &lt;property>
                &lt;proptype>&lt;/proptype>
                &lt;propvalue>regn.se&lt;/propvalue>
-               &lt;propdesc>Ducks located primarily in the southeast&lt;/propdesc>           
+               &lt;propdesc>Ducks located primarily in the southeast&lt;/propdesc>
            &lt;/property>
            &lt;property>
                &lt;proptype>&lt;/proptype>
                &lt;propvalue>pttrn.migr&lt;/propvalue>
-               &lt;propdesc>Ducks organized by migratory pattern&lt;/propdesc>           
+               &lt;propdesc>Ducks organized by migratory pattern&lt;/propdesc>
            &lt;/property></ph>
        &lt;/properties>
    &lt;/refbody> 
@@ -220,9 +219,7 @@
             <steps>
                 <step>
                     <cmd>Open the file lesson1/l_reference_exercise_start.dita and use it to convert
-                        the following content from <xref href="http://contentstrategy101.com/"
-                            format="html" scope="external">Content Strategy 101</xref> into
-                        DITA:</cmd>
+                        the following content into DITA:</cmd>
                     <info>
                         <pre outputclass="passthru"><![CDATA[
                             <hr/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="reference_jgf_3df_vt">
-  <title>Analyzing existing information products</title>
+  <title>addEntry</title>
   <refbody>
     <section>The <cmdname>addEntry</cmdname> command is used to enter a new documentation release
       into the content analysis database.</section>
@@ -11,8 +11,8 @@
     <properties id="properties_qxt_3df_vt">
       <prophead>
         <proptypehd>Required?</proptypehd>
-        <propvaluehd>Pages</propvaluehd>
-        <propdeschd>Delivery format</propdeschd>
+        <propvaluehd>Parameter</propvaluehd>
+        <propdeschd>Description</propdeschd>
       </prophead>
       <property>
         <proptype>Yes</proptype>
