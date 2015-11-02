@@ -62,8 +62,10 @@
             <p>
                 <pre>...by choosing <b>File</b> » <b>Open</b></pre>
             </p>
-            <p>For more information on all domain elements, see the DITA Specification.</p>
-            <p>We also strongly advise that you create a Style Guide in which you document the
+            <p>For more information on all domain elements, see the <xref
+                    href="http://docs.oasis-open.org/dita/v1.2/os/spec/common/technicalContent-domain-elements.html#technicalContent-domain-elements"
+                    format="html" scope="external">DITA Specification.</xref></p>
+            <p>We also strongly advise that you create a style guide in which you document the
                 specific uses of each of these element within your product documentation. </p>
         </lcIntro>
     </learningContentbody>

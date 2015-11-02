@@ -18,7 +18,7 @@
                 <lcObjective>Identify best practices for authoring glossary entries</lcObjective>
                 <lcObjective>Identify best practices for authoring glossary groups</lcObjective>
                 <lcObjective>Show examples of best practices in a glossary entry</lcObjective>
-                <lcObjective>Show examples of best practices in a glossary groups</lcObjective>
+                <lcObjective>Show examples of best practices in a glossary group</lcObjective>
             </lcObjectivesGroup>
         </lcObjectives>
         <lcDuration>
@@ -30,21 +30,4 @@
                 glossary entries to a bookmap, and how to manage glossary creation. </p>
         </lcInstruction>
     </learningContentbody>
-    <related-links>
-        <link
-            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Syntax_and_Markup/c_Two_Tasks_on_One_Task_Topic.html"
-            format="html" scope="external">
-            <linktext>DITA Style Guide, Restricting tasks to one procedure only</linktext>
-        </link>
-        <link
-            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Syntax_and_Markup/c_Complex_Nested_Tasks.html"
-            format="html" scope="external">
-            <linktext>DITA Style Guide, Complex nested tasks</linktext>
-        </link>
-        <link
-            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Content_Reuse/c_Management_of_conrefs.html"
-            format="html" scope="external">
-            <linktext>DITA Style Guide, Finding elements to re-use</linktext>
-        </link>
-    </related-links>
 </learningContent>

@@ -20,11 +20,10 @@
                 placeholders (variables), and other characters that a command or function call
                 requires. Textual syntax diagrams typically use brackets [], braces {}, and bars |
                 to indicate optional or required portions of syntax. Graphical syntax diagrams
-                (often called “railroad diagrams”) connect the keywords, placeholders with looping
-                arrows arrows that indicate optional, repeated, and required portions of syntax. For
-                examples and additional information on syntax diagrams, this <xref
-                    href="https://en.wikipedia.org/wiki/Syntax_diagram" format="html"
-                    scope="external">Wikipedia</xref> page is a good place to start. </p>
+                (often called "railroad diagrams") use lines and arrows to depict optiona, repeated,
+                and required portions of syntax. For an illustration of graphical syntax diagrams,
+                see this <xref href="https://en.wikipedia.org/wiki/Syntax_diagram" format="html"
+                    scope="external">Wikipedia</xref> page.</p>
             <p>Because the syntax description is frequently required in reference topics, the
                 reference specialization provides the &lt;refsyn> element to contain the command
                 syntax. </p>
@@ -66,7 +65,7 @@
         <taskbody>
             <steps>
                 <step>
-                    <cmd>Continue using lesson1/l_reference_start.dita.</cmd>
+                    <cmd>Continue using l_reference_start.dita.</cmd>
                 </step>
                 <step>
                     <cmd>After the &lt;section> element, add a &lt;refsyn> element.</cmd>

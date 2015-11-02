@@ -1,27 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="my_first_ref">
-  <title>Navigating the Duck Database</title>
+  <title>tNav</title>
   <refbody>
     <section>
-      <p>The <cmdname>tNav</cmdname> function is used in the Duck Database to navigate to a
+      <p>The <cmdname>tNav</cmdname> command is used in the Duck Database to navigate to a
         different table or view.</p>
     </section>
     <refsyn>
       <synph>
         -tNav <var>tName</var> [tView]
       </synph>
-      <parml>
-        <plentry>
-          <pt>tName</pt>
-          <pd>The name of the destination table</pd>
-        </plentry>
-        <plentry>
-          <pt>tView</pt>
-          <pd>To optional view of the destination table</pd>
-        </plentry>
-      </parml>
-      <p>Refer to the database documentation for table names and views.</p>
     </refsyn>
     <properties>
       <prophead>
@@ -32,27 +21,27 @@
       <property>
         <proptype>Table</proptype>
         <propvalue>dbo.DBBL</propvalue>
-        <propdesc>Dabbling Ducks</propdesc>
+        <propdesc>Dabbling ducks</propdesc>
       </property>
       <property>
         <proptype/>
         <propvalue>dbo.DVNG</propvalue>
-        <propdesc>Diving Ducks</propdesc>
+        <propdesc>Diving ducks</propdesc>
       </property>
       <property>
         <proptype/>
         <propvalue>dbo.WHST</propvalue>
-        <propdesc>Whistling Ducks</propdesc>
+        <propdesc>Whistling ducks</propdesc>
       </property>
       <property>
         <proptype>View</proptype>
         <propvalue>regn.ne</propvalue>
-        <propdesc>Ducks predominantly located in the northeast</propdesc>
+        <propdesc>Ducks located primarily in the northeast</propdesc>
       </property>
       <property>
         <proptype/>
         <propvalue>regn.se</propvalue>
-        <propdesc>Ducks predominantly located in the southeast</propdesc>
+        <propdesc>Ducks located primarily in the southeast</propdesc>
       </property>
       <property>
         <proptype/>

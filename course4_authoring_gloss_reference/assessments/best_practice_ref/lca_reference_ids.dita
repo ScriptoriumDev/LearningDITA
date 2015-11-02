@@ -14,9 +14,9 @@
  </prolog>
  <learningAssessmentbody id="learningAssessmentbody_ehk_vmn_vt">
   <lcInteraction>
-   <lcSingleSelect id="lcSingleSelect_zhk_vmn_vt">
+   <lcMultipleSelect id="lcSingleSelect_zhk_vmn_vt">
     <lcQuestion>Why would you use placeholder ids in the &lt;reference> element when creating
-     templates? (pick one)</lcQuestion>
+     templates? (pick all that apply)</lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_n3k_vmn_vt">
      <lcAnswerOption>
       <lcAnswerContent>To prevent accidental creation of duplicate ids.</lcAnswerContent>
@@ -24,6 +24,7 @@
      </lcAnswerOption>
      <lcAnswerOption>
       <lcAnswerContent>To ensure that all templates will validate properly.</lcAnswerContent>
+      <lcCorrectResponse/>
      </lcAnswerOption>
      <lcAnswerOption>
       <lcAnswerContent>To keep templates from entering your production
@@ -33,7 +34,7 @@
       <lcAnswerContent>To facilitate collaborative content creation.</lcAnswerContent>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
-   </lcSingleSelect>
+   </lcMultipleSelect>
   </lcInteraction>
  </learningAssessmentbody>
 </learningAssessment>

@@ -17,7 +17,7 @@
                 configuring ports links to other commands that also pertain to ports; a function for
                 initiating a network connection links to the next function most network programmers
                 will need to call. </p>
-            <p>Before DITA, these links of related links could be difficult to maintain,
+            <p>Before DITA, these lists of related links could be difficult to maintain,
                 particularly for products that are still under development. If a component changes
                 (or is added or deleted), you must find all the relevant links and modify them. </p>
             <p>However, if you use a DITA relationship table to keep track of related reference
