@@ -35,7 +35,7 @@
                 a production environment. </p>
             <note>The Open Toolkit is not the only way of generating output from DITA. You can use
                 commercial tools to create output. Some tools provide only publishing support;
-                others provide also provide authoring support for DITA content.</note>
+                others also provide authoring support for DITA content.</note>
             <p>Transforms are independent of map files, and you can apply multiple transforms to a
                 single map file. For example, you could run the transforms for a PDF file and an
                 online help system on the same map file to get two outputs.</p>
