@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_myj_5xs_kf">
+ <title>Better technical information, fewer support calls</title>
+ <conbody>
+  <p><indexterm>content<indexterm>reducing support
+    calls</indexterm></indexterm>Better content results in fewer calls because users find the
+   information before picking up the phone. You can evaluate the cost of producing and distributing
+   technical content against the cost of providing technical support. For large organizations, which
+   may receive thousands or tens of thousands of technical support calls per day, reducing calls by
+   just one or two percentage points results in huge cost savings.</p>
+  <p>If you are considering a strategy based on call deflection, consider how a typical user
+   attempts to solve a technical problem. Typically, they will:</p>
+  <p>
+   <ol id="ul_rb1_cdx_lf">
+    <li>Ask a friend</li>
+    <li>Use Google</li>
+    <li>Call technical support</li>
+   </ol>
+  </p>
+  <p>You have two opportunities to interrupt this process; the first one is when the user asks a
+   friend. If the friend has the relevant knowledge, the user gets the needed information.
+    <indexterm>Baker,
+     Mark</indexterm><indexterm>mavens</indexterm><indexterm>information<indexterm>mavens</indexterm></indexterm>Mark
+   Baker writes in “Why documentation analytics may mislead”:<fn>Every Page is Page One blog (<xref
+     href="http://everypageispageone.com/2011/12/07/why-analytics-may-mislead/" format="html"
+     scope="external">everypageispageone.com/2011/12/07/why-analytics-may-mislead/</xref>)</fn></p><lq>Much of the information that
+    originates from your manual, then, may reach the user not through their direct reading of that
+    manual, but via a network of mavens.</lq>
+  <p>Baker goes on to explain that raw web site hits are less important than reaching the right
+   people. In a group of 50 people, there might be one or two mavens. Mavens will disseminate
+   information to the other 48&#160;people. Thus, ensuring that the product mavens have the information
+   that they need will potentially provide “ask a friend” support to the group that relies on those
+   mavens.</p>
+  <p>There are a variety of ways to cultivate and support mavens. The company might provide:</p>
+  <p>
+   <ul id="ul_mxt_rxq_mf">
+    <li><indexterm>beta testers</indexterm><indexterm>product<indexterm>access,
+      early</indexterm></indexterm><indexterm>early product access</indexterm>Early product access
+     (beta testers)</li>
+    <li><indexterm>premium technical support</indexterm><indexterm>technical
+       support<indexterm>premium</indexterm></indexterm>Premium technical support (mavens might be
+     permitted to skip past level 1 support and go directly to more experienced agents)</li>
+    <li><indexterm>forum</indexterm>Discussion forums</li>
+    <li><indexterm>recognition as product expert</indexterm><indexterm>product<indexterm>expert
+       designation</indexterm></indexterm>Recognition as a product expert (examples of this include
+     the Microsoft MVP and Adobe Community Expert programs)</li>
+    <li><indexterm>product<indexterm>update</indexterm></indexterm><indexterm>update,
+      product</indexterm>Product updates with links to useful resources</li>
+   </ul>
+  </p>
+  <p>The better the information that the mavens have, the more information they can provide to their
+   network.</p>
+  <p>The second pillar of support is Internet search, especially <indexterm>Google</indexterm>Google
+      search. Unless there is a compelling reason not to do so, technical content should be
+      available on the Internet. Otherwise, when users search the Internet (and they will), your
+      content will not show up. Examples of “compelling reasons” include the following:</p>
+  <p>
+   <ul id="ul_l5j_csy_mf">
+    <li>The information is classified (secret government information).</li>
+    <li>The information is export-controlled or sensitive (information about encryption protocols or
+     maintenance instructions for a nuclear power plant).</li>
+   </ul>
+  </p>
+  <p><indexterm>proprietary<indexterm>information</indexterm></indexterm><indexterm>information<indexterm>proprietary</indexterm></indexterm><indexterm>content<indexterm>proprietary</indexterm></indexterm><indexterm>information<indexterm>available
+     for public search</indexterm></indexterm><indexterm>content<indexterm>available for public
+     search</indexterm></indexterm><indexterm>public search vs. proprietary
+     information</indexterm><indexterm>search<indexterm>public vs. proprietary
+     information</indexterm></indexterm>The argument that technical content contains proprietary
+   competitive information must be balanced against the following issues:</p>
+  <p>
+   <ul id="ul_lnw_fty_mf">
+    <li>Competitors will find a way to get the information, perhaps by simply buying the
+     product.</li>
+    <li>Requiring user authentication to see the information greatly cuts down on the number of
+          customers who will look at the information.</li>
+    <li>What is the cost of not making the information available via search? How many people will
+      <i>not</i> log in to the corporate site to find the information, and will instead contact
+     technical support?</li>
+   </ul>
+  </p>
+  <p><indexterm>web, private site</indexterm><indexterm>private web site</indexterm>If you cannot
+   bring yourself to publish the content where Google and other search engines will find it, you
+   should still publish on a private web site and provide access credentials as appropriate to your
+   customers. At that point, the responsibility for providing an excellent search experience shifts
+   to your web site manager.</p>
+ </conbody>
+</concept>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_d3b_cgl_dg">
+ <title>Technical standards</title>
+ <conbody>
+  <p><indexterm>requirements<indexterm>technical</indexterm></indexterm><indexterm>technical
+        requirements</indexterm>Technical requirements primarily affect information delivery. There
+      are, for example, U.S. government agencies that require information to be delivered in a
+      specific format, such as
+        <indexterm>XML<indexterm>specifications</indexterm></indexterm><indexterm>Structured Product
+          Labeling<index-see>SPL</index-see></indexterm><indexterm>SPL</indexterm><indexterm>XML<indexterm>SPL</indexterm></indexterm>
+      SPL (XML standard for drug information) or <indexterm>military
+        specification</indexterm><indexterm>40051 spec</indexterm>MIL-STD-40051 (a U.S. Department
+      of Defense standard for technical manual preparation).</p>
+  <p>Noncompliance is probably not an option, so you have just a few choices:<ul id="ul_rzy_1hl_dg">
+    <li>Set up an authoring and publishing environment that creates the information products as
+     specified.</li>
+    <li>Create information products in a noncompliant format and then convert them to the required
+     format.</li>
+    <li>Hire a third-party vendor to create compliant documents from whatever you are creating.</li>
+   </ul></p>
+    <p>
+      <fig>
+        <title>Options for technical compliance</title>
+        <image href="images/techreqs.svg" id="image_xql_qll_dg" width="400px"/>
+      </fig>
+    </p>
+  <p><indexterm>government regulations</indexterm><indexterm>regulations,
+      governmental</indexterm>Many government regulations now specify XML as a required format. In
+      the past, regulations were more likely to require a specific delivery mechanism, such as paper
+      or PDF. It was left to the organization creating the information to determine how to create
+      the final format. But today, the requirement for XML goes much deeper. Instead of focusing on
+      document appearance (double-spaced, uses a specific font, and is printed on US Letter paper),
+      requiring XML means that you must correctly encode the meaning of the information. For
+      example, a part number might need to be presented in boldface (<b>22-44-66</b>). In the XML
+      specification, there are at least two ways to tag a part number that result in boldface
+      output:<codeblock>&lt;b>22-44-66&lt;/b>
+&lt;partno>22-44-66&lt;/partno></codeblock></p>
+  <p>Only the semantically correct approach (&lt;partno>) would be acceptable.</p>
+  <p>Another example is <indexterm>Extensible Business Reporting
+        Language<index-see>XBRL</index-see></indexterm>Extensible Business Reporting Language
+        <indexterm>XBRL</indexterm><indexterm>XML<indexterm>XBRL</indexterm></indexterm>(XBRL). The
+      U.S. Securities and Exchange Commission requires reports in this XML standard, which is used
+      for financial and other business information. Here are a few lines, chosen at random from a
+      Google filing (and somewhat
+      simplified):<codeblock>...
+&lt;FurnitureAndFixturesGross>65000000
+&lt;/FurnitureAndFixturesGross>
+&lt;Goodwill>4903000000&lt;/Goodwill>
+&lt;IncomeTaxesReceivable>23000000&lt;/IncomeTaxesReceivable>
+&lt;IntangibleAssetsNetExcludingGoodwill>775000000
+&lt;/IntangibleAssetsNetExcludingGoodwill>
+...</codeblock></p>
+  <p>Authoring in a standard office word processor with styles called Normal, Heading1, and so on
+      will not result in information with this level of specific encoding. </p>
+  <section>
+   <title>Building a compliant publishing system</title>
+   <p><indexterm>building<indexterm>compliant publishing
+            system</indexterm></indexterm><indexterm>process<indexterm>building
+            compliant</indexterm></indexterm><indexterm>compliance<indexterm>publishing system
+            for</indexterm></indexterm>Setting up a publishing system that supports complex
+        technical requirements is not for the faint of heart. This approach makes sense, however, in
+        the following scenarios:<ul id="ul_lyk_gjl_dg">
+          <li>A significant percentage of your business depends on compliant content. (For example,
+            you are a defense contractor and are required to follow military standards.)</li>
+          <li>You cannot afford any delays in content delivery. (For example, you are a
+            pharmaceutical company, and you do not want a drug launch to be delayed because you are
+            still converting over to the required format.)</li>
+          <li>It is less expensive to set up a system in-house than it is to hire a vendor to do the
+            work.</li>
+          <li>Conversion is time-consuming and error-prone because the source files do not contain
+            all of the information needed to generate the conforming files.</li>
+        </ul></p>
+   <p>For authors, working in a specialized system will require training and support to help them
+        understand the new workflow. Full-time authors are generally expected to master professional
+        tools, but if your content is created by part-time authors who have other responsibilities,
+        the use of specialized tools can be a challenge.</p>
+  </section>
+  <section>
+   <title>Converting to the required format</title>
+   <p><indexterm>legacy content<indexterm>conversion</indexterm></indexterm><indexterm>conversion<indexterm>to avoid changing content
+            creation</indexterm></indexterm>Instead of upending your established content creation
+        process, you can add conversion as a caboose to the established publishing process. The main
+        advantage to this approach is that content creators do not have to change how they work.</p>
+   <p>In some organizations, the content creators are subject matter experts (SMEs) with many other
+        responsibilities. For example, a research scientist or a software engineer may be expected
+        to contribute some content. For highly paid contributors with unique expertise, it can be
+        sensible to accept content in a non-compliant format and  leave the publishing tasks to
+        support staff. </p>
+   <p><indexterm>Microsoft<indexterm>Word</indexterm></indexterm><indexterm>Word,
+          Microsoft</indexterm>Most often, the non-compliant format is Microsoft Word. That is,
+        content is created in Word files and must later be converted to another format. Some
+        automation is possible, but you can expect that conversion will take a significant amount of
+        time (several days or several weeks) after the document content is completed.
+            <indexterm>conversion<indexterm>in-house vs.
+          outsourced</indexterm></indexterm><indexterm>legacy content<indexterm>in-house vs.
+            outsourced conversion</indexterm></indexterm>In-house conversion makes sense in the
+        following situations:<ul id="ul_v1b_3zl_dg">
+          <li>The requirement for compliance is a one-time event. For example, your organization has
+            a single government contract that requires delivery in a specific format.</li>
+          <li>Content creators are unwilling or unable to change their workflow.</li>
+          <li>Content creators’ time is so valuable that a change in workflow is out of the
+            question.</li>
+          <li>In-house staff has the expertise to either build a conversion process or to do a
+            brute-force conversion.</li>
+        </ul></p>
+   <p>Other than the time required to convert the content, the biggest problem with a back-end
+    conversion is that the source content may not include the needed information. Final documents
+    may require <indexterm>metadata<indexterm>handling in
+      conversion</indexterm></indexterm><indexterm>conversion<indexterm>handling
+      metadata</indexterm></indexterm>metadata (such as the author, last modified date, and document
+    type) that is not available in the source format. The only way to ensure that the information is
+    available is to build a process that takes those requirements into account.</p>
+  </section>
+  <section>
+   <title>Offloading compliance onto a vendor</title>
+   <p><indexterm>regulatory<indexterm>compliance, offloading onto
+            vendor</indexterm></indexterm><indexterm>compliance<indexterm>handled by
+            vendor</indexterm></indexterm>Some organizations go a step further by outsourcing
+        conversion to the required format to an outside vendor. This is reasonable for a one-time
+        custom requirement, but if you are creating a lot of regulated content over time, you
+        probably want to keep the process in-house. Most vendors use a combination of scripting and
+        brute-force retagging to get the content into the required format. Outside conversion is
+        often expensive and time-consuming.</p>
+   <p>For government contracts, you may be limited to in-country vendors.</p>
+  </section>
+ </conbody>
+</concept>
