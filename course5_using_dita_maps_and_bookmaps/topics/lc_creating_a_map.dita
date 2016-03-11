@@ -11,10 +11,16 @@
     </prolog>
     <learningContentbody>
         <lcObjectives>
+            <!--<p>Learning objectives are brief
+      descriptions of specific things a learner completing the course will know or be able
+      to do. They should be succinctly expressed using clear action verbs.</p>-->
             <lcObjectivesGroup id="lcObjectivesGroup_tvl_vbh_1t">
-                <lcObjective>Understand the structure and organization of a DITA map</lcObjective>
-                <lcObjective>Know the function of the &lt;topicref> and &lt;mapref>
+                <lcObjective>State the reasons for using a DITA map</lcObjective>
+                <lcObjective>Create a DITA map and populate it with &lt;topicref>
                     elements</lcObjective>
+                <lcObjective>Organize the &lt;topicref> elements in a hierarchy</lcObjective>
+                <lcObjective>Add &lt;mapref> elements to a map.</lcObjective>
+                <lcObjective>Specify metadata for a map</lcObjective>
                 <lcObjective>Understand the purpose of map metadata.</lcObjective>
             </lcObjectivesGroup>
         </lcObjectives>
