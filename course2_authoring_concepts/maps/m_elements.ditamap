@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on 
+     github.com. See the accompanying LICENSE file for 
+     applicable licenses.-->
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>More elements</title>
+ <topicref href="../topics/lc_elements_intro.dita">
+  <topicmeta lockmeta="yes">
+   <data name="lesson_id" value="9237"></data>
+  </topicmeta>
+<!--  <topicref href="../topics/lc_markup.dita"/>-->
+  <topicref href="../topics/lc_inline.dita"/>
+  <topicref href="../topics/lc_elements.dita"/>
+  <topicref href="../topics/lcc_assessment.dita" copy-to="lcc_elements.dita" locktitle="yes">
+   <topicmeta>
+    <navtitle>Assessment for More elements</navtitle>
+   </topicmeta>
+   <!--   <topicref href="../assessments/lca_htmldita.dita"/>-->
+   <topicref href="../assessments/elements/lca_inline.dita"/>
+   <topicref href="../assessments/elements/lca_inline_purpose.dita"/>
+   <topicref href="../assessments/elements/lca_semantics.dita"/>
+   <topicref href="../assessments/elements/lca_menucascade.dita"/>
+   <topicref href="../assessments/elements/lca_dl_elements.dita"/>
+   <topicref href="../assessments/elements/lca_dlentry.dita"/>
+  </topicref>
+ </topicref>
+ 
+</map>

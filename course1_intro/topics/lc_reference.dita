@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_jcr_yn5_vr">
+    <title>Reference topics</title>
+    <prolog><author>Sharon Burton</author>
+        <author href="http://www.scriptorium.com"  scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-04-28"/>
+        </critdates></prolog>
+    <learningContentbody>
+        <lcInstruction>
+        <p>A reference topic answers the question “What is it?” A reference topic typically contains
+                descriptive facts, such as the syntax of a command or API function call, a table
+                listing operational characteristics and tolerances of a device, or a table
+                identifying items on a software screen. </p>
+            <p>Reference topics do not include steps or background information. Reference topics are
+                similar to dictionary entries and provide facts only.</p>
+<p>Common elements used in a reference topic include: <ul id="ul_nj3_h45_vr">
+                    <li>&lt;refbody> (the body of the reference topic)</li>
+                    <li>&lt;section> (a subdivision in the reference topic, with an optional
+                        title)</li>
+                    <li>&lt;table> (a table)</li>
+                    <li>&lt;fig> (a figure, including an optional title)</li>
+                    <li>&lt;properties> (a list of properies)</li>
+                    <li>&lt;refsyn> (a syntax diagram)</li>
+                </ul></p>
+    <p>Video: <xref href="https://www.youtube.com/watch?v=l2y-MbYf2a4" format="html"
+                    scope="external">Code overview of the DITA reference topic</xref></p>
+   </lcInstruction> </learningContentbody>
+</learningContent>

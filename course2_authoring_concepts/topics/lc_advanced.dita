@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_hrm_xjh_1t">
+    <title>Adding advanced elements</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-08-24"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Here are some common advanced elements in DITA:</p>
+            <simpletable frame="all" relcolwidth="1.0* 1.0*" id="simpletable_fwj_dj4_2t">
+                <strow>
+                    <stentry>
+                        <p>&lt;codeblock></p>
+                    </stentry>
+                    <stentry>
+                        <p>The container element for a piece of code. Typically, it is rendered in a
+                            monospace font in PDF or HTML output. Placing content inside the
+                            &lt;codeblock> element gives you control over line breaks.</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;codeph> (code phrase)</p>
+                    </stentry>
+                    <stentry>
+                        <p>The container element that displays a single word or phrase inside a
+                            &lt;p> element as code. For example, if you mention an element in a
+                            paragraph and want to display only that element’s name in a monospace
+                            font, the &lt;codeph> element is useful.</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;lq> (long quote)</p>
+                    </stentry>
+                    <stentry>
+                        <p>The container element for including a quote from an outside source in
+                            your content rather than (or in addition to) linking to the source.</p>
+                    </stentry>
+                </strow>
+            </simpletable>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_i3g_jkh_1t">
+        <title/>
+        <taskbody>
+            <steps id="steps_f5k_kkh_1t">
+                <step>
+                    <cmd>Make a copy of the file lesson4/l_concept_advanced_start.dita and open it in your
+                        editor.</cmd>
+                    <info>
+                        <note>
+                            <p>If you are using a DITA-aware text editor, make sure you are in text
+                                mode, rather than author or visual mode.</p>
+                        </note>
+                    </info>
+                    <stepxmp>
+                        <p>You should see this:</p>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_advanced">
+&lt;title>Writing about ducks&lt;/title>
+&lt;conbody>
+&lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>Video: <xref href="https://www.youtube.com/watch?v=Ryzutuy-n_A"
+                            format="html" scope="external">Creating a codeblock in
+                        DITA</xref></info>
+                </step>
+                <step>
+                    <cmd>Inside the &lt;conbody> element, add the &lt;codeblock> element and
+                        add content to it as shown in the following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_advanced">
+&lt;title>Writing about ducks&lt;/title>
+&lt;conbody>
+<ph outputclass="newchanged">&lt;codeblock>
+duckdata> add entry (mallard)
+;
+1 entry added (0.05 sec)
+duckdata> _
+&lt;/codeblock></ph>
+&lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>The &lt;codeblock> element isolates the piece of code content so that any
+                        tags in it exist for display purposes only and do not affect the DITA tags
+                        in your concept topic file. </info>
+                    <info>The &lt;codeblock> element also allows you to control line breaks. In the
+                        example you added, the text inside the &lt;codeblock> element shows an entry
+                        being added to a database using the command line.</info>
+                    <info>
+                        <note>
+                            <p>If you need an opening tag in a &lt;codeblock> element, type
+                                    <tt>&amp;lt;</tt> in place of the opening tag character
+                                    (<tt>&lt;</tt>). If you are working in the author or visual mode
+                                of a DITA editor, you can type the opening tag character inside a
+                                &lt;codeblock> element, and the &lt;codeblock> element will
+                                automatically render it as <tt>&amp;lt;</tt> in the text.</p>
+                        </note>
+                    </info>
+                </step>
+                <step>
+                    <cmd>After the &lt;codeblock> element, add a &lt;p> element with a &lt;codeph>
+                        element inside it and add content to it as shown in the following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_advanced">
+&lt;title>Writing about ducks&lt;/title>
+&lt;conbody>
+...
+&lt;/codeblock>
+<ph outputclass="newchanged">&lt;p>To add a duck species to your database, type &lt;codeph>add entry&lt;/codeph> followed by 
+the name of the duck in parentheses on the command line and press Enter.&lt;/p></ph>
+&lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>In the example you added, the &lt;codeph> element allows you to isolate
+                        the words “add entry” and indicate that they should be displayed in a
+                        monospace font to show that they are a command.</info>
+                </step>
+                <step>
+                    <cmd>After the &lt;p> element, add a &lt;lq> element and add content to it as shown in
+                        the following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_advanced">
+&lt;title>Writing about ducks&lt;/title>
+&lt;conbody>
+...
+&lt;/p>
+<ph outputclass="newchanged">&lt;lq href="http://classiclit.about.com/library/bl-etexts/hdthoreau/bl-hdtho-wald-9.htm" 
+format="html" scope="external">How much fairer than the pool before the farmers door, 
+in which his ducks swim! Hither the clean wild ducks come. Nature has no human 
+inhabitant who appreciates her. The birds with their plumage and their notes are in 
+harmony with the flowers, but what youth or maiden conspires with the wild luxuriant 
+beauty of Nature?&lt;/lq></ph>
+&lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>In the example you added, the &lt;lq> element allows you to include a
+                        quote from <cite>Walden</cite> by Henry David Thoreau.</info>
+                    <info>The &lt;lq> element can contain a link to the quote’s source. In the
+                        example you added, the &lt;lq> element contains an href attribute pointing
+                        to the source URL, a format attribute indicating that the source is HTML,
+                        and a scope attribute showing that the source is external.</info>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

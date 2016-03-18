@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_sty_ddm_vt">
+ <title>Syntax diagrams</title>
+ <prolog>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+   Scriptorium</author>
+  <critdates>
+   <created date="2015-10-28"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody id="learningAssessmentbody_ibj_b2m_vt">
+  <lcInteraction>
+   <lcMultipleSelect id="lcMultipleSelect_a2j_b2m_vt">
+    <lcQuestion>Which of the following elements are most appropriate for creating textual syntax
+     diagrams? (pick all that apply)</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_z2j_b2m_vt">
+     <lcAnswerOption>
+      <lcAnswerContent>&lt;image></lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>&lt;codeblock></lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>&lt;pre></lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>&lt;synph></lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>&lt;syntaxdiagram></lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>&lt;fig></lcAnswerContent>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+   </lcMultipleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

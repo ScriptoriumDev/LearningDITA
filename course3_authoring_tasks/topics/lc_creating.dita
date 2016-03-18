@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_yys_qbh_1t">
+    <title>Creating a task topic</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+                Scriptorium</author>
+        <critdates>
+            <created date="2015-08-14"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup id="lcObjectivesGroup_tvl_vbh_1t">
+                <lcObjective>Create a task topic file</lcObjective>
+                <lcObjective>Differentiate strict and general tasks</lcObjective>
+                <lcObjective>Introduce the DOCTYPE for strict task topics</lcObjective>
+                <lcObjective>Add the root elements for a task</lcObjective>
+                <lcObjective>Understand the purpose of the &lt;prereq> and &lt;context> elements </lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="45"/>
+        </lcDuration>
+        <lcIntro>
+            <p>This lesson shows how to create a new task topic and how to add the first common
+                elements found in a task topic. </p>
+            <note>
+                <p>This lesson covers basic use of the task elements. For the full specifications
+                    for each element, see the <xref
+                        href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/task.html"
+                        format="html" scope="external">OASIS DITA Version 1.2 Standard</xref>.</p>
+            </note>
+
+        </lcIntro>
+    </learningContentbody>
+    <related-links>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Topics_and_Information_Types/c_Task.html"
+            format="html" scope="external">
+            <linktext>DITA Style Guide, Task</linktext>
+        </link>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Topics_and_Information_Types/c_General_Tasks.html"
+            format="html" scope="external">
+            <linktext>DITA Style Guide, General Task</linktext>
+        </link>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Syntax_and_Markup/c_Sentence_Syntax_in_prereq.html"
+            format="html" scope="external">
+            <linktext>DITA Style Guide, The prereq element</linktext>
+        </link>
+    </related-links>
+</learningContent>

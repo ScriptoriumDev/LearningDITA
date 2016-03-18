@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_xnm_d2x_kt">
+    <title>Strict or general tasks</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-09-21"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcIntro>
+            <p>The DITA specification defines two types of task topics: a strict task and a general
+                task. </p>
+            <p>The main elements in the body of a strict task must occur in a specific order. The
+                strict task can contain only one set of steps. Also, the steps the reader performs
+                must use specific elements (&lt;steps> and &lt;step>). </p>
+            <p>The element order in the general task is not as rigid as in the strict task. The
+                general task allows one or more sets of steps. The elements used for the steps can
+                be almost any element that is allowed in a DITA &lt;section> element. </p>
+            <p>Although it may sound as though it’s easier to write a general task, there are a
+                number of good reasons for using the strict task. These include:</p>
+            <ul id="ul_efs_sfx_kt">
+                <li>Consistency. All the tasks in your document or documents will have the same
+                    organization. </li>
+                <li>Dependability. Because the organization is consistent, readers can count on
+                    finding the similar information in the same place.</li>
+                <li>Ease of authoring. DITA editors can direct writers to the next element they need
+                    to add.</li>
+                <li>Simplicity. Most tasks only require a numbered set of steps. </li>
+                <li>Semantics. Using the &lt;steps> and &lt;step> elements in the strict task has
+                    high semantic value.</li>
+            </ul>
+            <p>This course focuses on the strict task, with the expectation that once you’re
+                familiar with the elements in a strict task, it’s easy to apply that knowledge to
+                the general task. </p>
+            <p>For more information about the general task, see the <xref
+                    href="http://docs.oasis-open.org/dita/v1.2/os/spec/DITA1.2-spec.html"
+                    format="html" scope="external">DITA Specification</xref>, and the <xref
+                    href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/steps-informal.html#steps-informal"
+                    format="html" scope="external">&lt;steps-informal></xref> element. </p>
+        </lcIntro>
+    </learningContentbody>
+</learningContent>

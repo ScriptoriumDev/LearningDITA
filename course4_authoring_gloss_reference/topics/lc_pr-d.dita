@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_l2d_swx_5t">
+    <title>Use DITA domain elements</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-10-27"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcIntro>
+            <p>This applies to other topic types, but is worth mentioning for reference topics,
+                because of their frequent association with programming and user interface
+                elements.</p>
+            <p>DITA defines a number of elements that are useful for topics that describe
+                programming, computer software, and computer user interfaces. These are called
+                domain specializations, because—althought they’re specializations of existing
+                elements—they can be used across all topic specializations, such as concept, task,
+                and reference topic types.</p>
+            <p>It’s advisable to use these semantic elements because they:</p>
+            <ul id="ul_wnj_vxy_5t">
+                <li>
+                    <p>Provide information about their content to other authors</p>
+                </li>
+                <li>
+                    <p>Aid in faceted searches (“Find all filenames that use product name X”)</p>
+                </li>
+                <li>
+                    <p>Can direct the output generator to format content to make it more easily
+                        visible to readers</p>
+                </li>
+            </ul>
+            <p>Some of the elements which can be useful are:</p>
+            <dl>
+                <dlentry>
+                    <dt>Programming domain</dt>
+                    <dd>&lt;apiname>, &lt;codeblock>, &lt;codeph> (code phrase), &lt;option>,
+                        &lt;parml> (parameter list), &lt;synph> (syntax phrase)</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Computer software domain</dt>
+                    <dd>&lt;cmdname> (command name), &lt;filepath>, &lt;varname> (variable name),
+                        &lt;userinput>, &lt;systemoutput></dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Computer user interfaces</dt>
+                    <dd>&lt;uicontrol> (user interface control), &lt;menucascade>, &lt;wintitle>
+                        (window title), &lt;screen></dd>
+                </dlentry>
+            </dl>
+            <p>Two of the computer user interface elements deserve additional attention:
+                &lt;uicontrol> and &lt;menucascade>. You use &lt;uicontrol> when describing a user
+                interface button or a command on a menu. If you want to describe the sequence of
+                menu items to get to a command, use a series of &lt;uicontrol> elements inside a
+                &lt;menucascade> element:</p>
+            <pre>...by choosing &lt;menucascade>&lt;uicontrol>File&lt;/uicontrol>&lt;uicontrol>Open&lt;/uicontrol>&lt;/menucascade>.</pre>
+            <p>An output transform inserts whatever character is appropriate between commands. This
+                helps ensure that all menu cascades are formatted in the same way, using the same
+                separator character:</p>
+            <p>
+                <pre>...by choosing <b>File</b> » <b>Open</b></pre>
+            </p>
+            <p>For more information on all domain elements, see the <xref
+                    href="http://docs.oasis-open.org/dita/v1.2/os/spec/common/technicalContent-domain-elements.html#technicalContent-domain-elements"
+                    format="html" scope="external">DITA Specification.</xref></p>
+            <p>We also strongly advise that you create a style guide in which you document the
+                specific uses of each of these element within your product documentation. </p>
+        </lcIntro>
+    </learningContentbody>
+</learningContent>

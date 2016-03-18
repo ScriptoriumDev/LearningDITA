@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_twx_jf3_ft">
+ <title>Topic metadata</title>
+ <prolog>
+  <author href="http://www.scriptorium.com">Simon Bate, Scriptorium</author>
+  <author href="http://www.scriptorium.com">Sarah O'Keefe, Scriptorium</author>
+  <author href="http://www.scriptorium.com">Alan Pringle, Scriptorium</author>
+  
+  <critdates>
+   <created date="2015-09-01"/>
+  </critdates>
+ </prolog>
+ 
+ <conbody>
+  <p>The ditatraining project is an open-source effort under Apache license. Each topic should
+   include a comment after the XML prolog that identifies it as part of this
+   project:<codeblock>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_fqr_fvh_ft"></codeblock></p>
+  <p>In the topic prolog, use the &lt;author> element to claim authorship of a topic. Whenever you
+   create a topic or make a significant contribution to an existing topic, remember to update the
+   &lt;prolog> with author
+   information.<codeblock>&lt;prolog>
+  &lt;author>Sharon Burton&lt;/author>
+  &lt;author href="http://www.scriptorium.com" scope="external" format="html">Sarah O'Keefe, Scriptorium&lt;/author>
+  &lt;critdates>
+   &lt;created date="2015-04-28"/>
+   &lt;revised date="2015-09-01"/>
+  &lt;/critdates>
+&lt;/prolog></codeblock></p>
+  <p>Contributors should be listed in order, so if you make updates, add a second &lt;author>
+   element underneath the first author. If you include a web link, be sure to remember the scope
+   (external) and the format (html) attributes.</p>
+  <p>When you create a topic, specify the creation date in the &lt;critdates> elements using the
+   &lt;created> element. When you update a topic, do not change the &lt;created> element. Instead,
+   add a &lt;revised> element with the current date. For both &lt;created> and &lt;revised>
+   elements, use YYYY-MM-DD format.</p>
+ </conbody>
+</concept>

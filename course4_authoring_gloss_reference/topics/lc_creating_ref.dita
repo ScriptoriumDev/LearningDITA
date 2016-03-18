@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_jxk_pft_qt">
+    <title>Creating a reference topic</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-10-12"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup id="lcObjectivesGroup_tvl_vbh_1t">
+                <lcObjective>Understand the reasons for using the reference topic type</lcObjective>
+                <lcObjective>Know the basic structure of a reference topic</lcObjective>
+                <lcObjective>Understand the purpose of the &lt;refsyn> and &lt;properties>
+                    elements</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="45"/>
+        </lcDuration>
+        <lcIntro>
+            <p>This lesson shows how to create a new reference topic and how to add the first common
+                elements found in a reference topic. </p>
+            <note>
+                <p>This lesson covers basic use of the reference elements. For the full
+                    specifications for each element, see the <xref
+                        href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/reference.html"
+                        format="html" scope="external">OASIS DITA Version 1.2 Standard</xref>.</p>
+            </note>
+        </lcIntro>
+    </learningContentbody>
+    <related-links>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Topics_and_Information_Types/c_Reference.html"
+            format="html" scope="external">
+            <linktext>DITA Style Guide, Reference</linktext>
+        </link>
+    </related-links>
+</learningContent>

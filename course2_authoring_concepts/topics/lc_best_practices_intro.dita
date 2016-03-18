@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_kqs_rks_zs">
+    <title>XML overview and best practices</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-08-19"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup id="lcObjectivesGroup_e2g_sks_zs">
+                <lcObjective>Identify best practices for authoring concept topics.</lcObjective>
+                <lcObjective>Show examples of best practices in a concept topic.</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="1"/>
+        </lcDuration>
+        <lcIntro>This lesson covers best practices for authoring concept topics. You will learn
+            about the benefits of separating content from formatting, using DITA elements
+            consistently, and creating semantically rich content.</lcIntro>
+    </learningContentbody>
+    <related-links>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Authoring_Concepts/c_Introduction_to_the_Separation_of_Content.html"
+            format="html" scope="external">
+            <linktext>DITA Style Guide, The separation of content and form</linktext>
+        </link>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/c_Content_Re-use.html"
+            format="html" scope="external">
+            <linktext>DITA Style Guide, Content re-use</linktext>
+        </link>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/c_Language_and_Punctuation.html"
+            format="html" scope="external">
+            <linktext>DITA Style Guide, Language and punctuation</linktext>
+        </link>
+       <!-- <link href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html"
+            format="html" scope="external">
+            <linktext>The DITA Style Guide—Best Practices for Authors (Tony Self)</linktext>
+        </link>
+        <link href="http://www.scriptorium.com/structure.pdf" format="html" scope="external">
+            <linktext>Structured Authoring and XML (Sarah O’Keefe)</linktext>
+        </link>
+        <link
+            href="http://www.scriptorium.com/2014/03/making-the-most-of-your-conversion-to-xml-part-1/"
+            format="html" scope="external">
+            <linktext>Making the most of your conversion to XML (Scriptorium.com)</linktext>
+        </link>
+        <link
+            href="http://www.scriptorium.com/2012/09/perils-of-dita-publishing-part-4-pdf-acrobatics/"
+            format="html" scope="external">
+            <linktext>Perils of DITA publishing (Scriptorium.com)</linktext>
+        </link>-->
+    </related-links>
+</learningContent>

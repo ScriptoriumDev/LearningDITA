@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_hrm_xjh_1t">
+    <title>Separate content from formatting</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-08-24"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>One of the major benefits of creating structured content in DITA is the separation of
+                content from formatting. Content that is tagged according to its structure rather
+                than its appearance will be more flexible in its output capabilities. </p>
+            <p>For example, an unstructured piece of content that has been created with page layout
+                in mind will work best in print or PDF output, and may work poorly or not at all in
+                an HTML-based output. However, a structured DITA topic with no formatting specified
+                in the content should work equally well in multiple output types.</p>
+            <p>For authors who are accustomed to a formatting-based environment such as a desktop
+                publishing program, it can be tempting to misuse the DITA tags to try to control the
+                look and feel of the content. Using tags for a purpose other than they were intended
+                decreases the value of those tags. Tag abuse can also have unintended consequences—a
+                misused tag may achieve the desired formatting effect in one output type, but
+                destroy the look and feel of the content in another output type.</p>
+            <p>One form of tag abuse is the forced line break. Do not use the &lt;p> element to
+                control where your lines of text should break, as this will cause problems in
+                responsive output types such as HTML. Use the &lt;codeblock> element to control line
+                breaks for certain parts of your content (for example, code samples).</p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

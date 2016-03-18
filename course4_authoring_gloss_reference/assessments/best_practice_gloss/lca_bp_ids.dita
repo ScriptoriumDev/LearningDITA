@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_ocx_nvn_vt">
+ <title>Best practices, ids</title>
+ <prolog>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+   Scriptorium</author>
+  <critdates>
+   <created date="2015-10-28"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody id="learningAssessmentbody_phk_fwn_vt">
+  <lcInteraction>
+   <lcSingleSelect id="lcSingleSelect_t3k_fwn_vt">
+    <lcQuestion>When assigning ids to glossary entries, it's best that (pick one):</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_ijk_fwn_vt">
+     <lcAnswerOption>
+      <lcAnswerContent>The id match the filename or term as closely as possible</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>The id is short, in order to ensure that it is human readable</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>The id is assigned by your authoring software</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>The id is complicated in order to ensure uniqueness</lcAnswerContent>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+   </lcSingleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_qvz_qfy_jf">
+ <title>Supporting marketing with technical content</title>
+ <conbody>
+  <p><indexterm>tech comm<indexterm>vs.
+     marcom</indexterm></indexterm><indexterm>marcom<indexterm>vs.
+     tech comm</indexterm></indexterm><indexterm>stereotypes</indexterm>Tech
+   comm and marcom have long occupied opposite ends of the content spectrum. The stereotype is that
+   tech comm is text-heavy, dense, and badly formatted whereas marcom is shiny, beautiful, and
+   content-free. From there, the debate just intensifies:<table frame="all" id="table_ksl_1hs_kf">
+    <title>Marcom versus tech comm: the stereotypes</title>
+    <tgroup cols="3">
+     <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+     <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+     <colspec colname="c3" colnum="3" colwidth="1.0*"/>
+     <thead>
+      <row>
+       <entry/>
+       <entry>Marcom</entry>
+       <entry>Tech comm</entry>
+      </row>
+     </thead>
+     <tbody>
+      <row>
+       <entry>Design or automation?</entry>
+       <entry>Design</entry>
+       <entry>Automation</entry>
+      </row>
+      <row>
+       <entry>How much detail?</entry>
+       <entry>As little as possible</entry>
+       <entry>As much as possible</entry>
+      </row>
+      <row>
+       <entry>Assumed impact on revenue</entry>
+       <entry>A lot</entry>
+       <entry>None</entry>
+      </row>
+      <row>
+       <entry>Primary purpose</entry>
+       <entry>Persuade people to buy</entry>
+       <entry>Inform people</entry>
+      </row>
+      <row>
+       <entry>Writers are product experts?</entry>
+       <entry>No</entry>
+       <entry>Yes</entry>
+      </row>
+      <row>
+       <entry>Customer interaction with content is measured?</entry>
+       <entry>Yes</entry>
+       <entry>Rarely</entry>
+      </row>
+      <row>
+       <entry>Affects product positioning?</entry>
+       <entry>Yes</entry>
+       <entry>Yes, but not on purpose</entry>
+      </row>
+      <row>
+       <entry>Important?</entry>
+       <entry>Yes</entry>
+       <entry>No</entry>
+      </row>
+      <row>
+       <entry>When do people read?</entry>
+       <entry>Before buying</entry>
+       <entry>After buying</entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table></p>
+  <p><indexterm>white papers</indexterm>The reality is not so simple. Some information products fall
+   into a gray area between the two disciplines. White papers, for example, are full of technically
+   detailed information but are intended to be persuasive.</p>
+  <p><indexterm>data sheets</indexterm>Data sheets offer factual product specifications, but are
+   generally used as part of the sales and marketing process. The purpose of a data sheet is to
+   provide a potential buyer with specifications on a product so that the buyer can determine
+   whether this product is appropriate for her needs. But a paper data sheet is not necessarily the
+   best approach to this problem, especially if your product has a lot of possible
+   configurations.</p>
+  <p>Instead, why not offer a web-based form that asks for some information, narrows the options
+   down to a manageable number, and then lists those products in a chart for easy comparisons?
+   Companies often have all of the information needed to do this, usually locked away in a printed
+   or PDF data sheet.</p>
+  <p><indexterm>database publishing</indexterm>Stash all the specifications in a database (in fact,
+   the product design team probably has a database already). Then, create a web interface that
+   allows the buyer to query the database to see which product makes the most sense for their
+   requirements.</p>
+  <p>Enabling the buyer to “query the database,” however, does not mean giving the user a literal
+   database query experience:</p>
+  <fig>
+   <title>Configuration tool that will not get used</title>
+   <image id="image_jt1_vb1_kf" href="images/configurebad.png" width="200px"/>
+  </fig>
+  <p>Instead, give them a friendly interface that lets them quickly narrow down their options and
+   choose the one they want. You don’t have to expose all of the fields in the database—just the
+   ones that help people narrow down their choices.<fig>
+    <title>A better database selector. Notice that the word “database” does not appear. The product
+     list on the right updates as you make selections on the left.</title>
+    <image id="image_k2m_gd1_kf" href="images/configurebetter.png" width="200px"/>
+   </fig></p>
+  <p>One powerful way of unlocking business value in your technical content is to rethink its
+   presentation and its usage. In many cases, technical content has marketing applications, and by
+   providing a more user-centered approach to the content, you can increase the value of the
+   content.</p>
+ </conbody>
+</concept>

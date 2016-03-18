@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Creating a glossary topic</title>
+ <topicref href="../topics/lc_creating_gloss.dita">
+  <topicmeta lockmeta="yes">
+   <data name="lesson_id" value="9749"/>
+  </topicmeta>
+  <topicref href="../topics/lc_about_gloss.dita"/>
+  <topicref href="../topics/lc_new_glossentry.dita"/>
+  <topicref href="../topics/lc_new_glossgroup.dita"/>
+  <topicref href="../topics/lc_glossary_map.dita"/>
+  <topicref href="../topics/lcc_assessment.dita" copy-to="lcc_creating_glossentry.dita"
+   locktitle="yes">
+   <topicmeta>
+    <navtitle>Assessment for Creating a glossary entry topic</navtitle>
+   </topicmeta>
+   <!--   <topicref href="../assessments/creating/lca_body.dita"/>-->
+   <topicref href="../assessments/creating_gloss/lca_glossary_elements.dita"/>
+   <topicref href="../assessments/creating_gloss/lca_glossary_id.dita"/>
+   <topicref href="../assessments/creating_gloss/lca_glossgroup_contents.dita"/>
+   <topicref href="../assessments/creating_gloss/lca_glossary_group_ids.dita"/>
+   <topicref href="../assessments/creating_gloss/lca_glossary_maps.dita"/>
+  </topicref>
+ </topicref>
+</map>

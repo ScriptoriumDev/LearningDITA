@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_adp_jbk_bt">
+    <title>Interrupting the flow</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-08-18"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>There are two elements you can use to add additional information to your steps: </p>
+            <ul id="ul_u43_qbk_bt">
+                <li>
+                    <p>Use the &lt;stepsection> element to add comments between two steps. </p>
+                    <p>This can be useful if you need to make a comment to the reader about the
+                        steps themselves, such as “The remaining steps focus on the the <i>x</i>
+                        component” or “The next two steps must be performed in a <i>y</i>
+                        environment.”</p>
+                </li>
+                <li>
+                    <p>Use a &lt;note> or &lt;hazardstatement> element to add an admonition before a
+                        &lt;cmd> element in a &lt;step> or &lt;substep>.  </p>
+                    <p>Typically, you use the &lt;note> or &lt;hazardstatement> elements when you
+                        need to alert readers about a risk or danger <i>before</i> they read or
+                        perform the &lt;cmd> action. </p>
+                </li>
+            </ul>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_t31_jck_bt">
+        <title/>
+        <taskbody>
+            <steps id="steps_jnb_kck_bt">
+                <step>
+                    <cmd>Continue working in the file l_task_start.dita.</cmd>
+                </step>
+                <step>
+                    <cmd>After the closing tag of the last &lt;step> element, add a &lt;stepsection>
+                        element.</cmd>
+                    <stepxmp>
+                        <pre>...
+&lt;/step>
+<ph outputclass="newchanged">&lt;stepsection>
+&lt;/stepsection></ph>
+</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Add content to the &lt;stepsection> element as shown here. </cmd>
+                    <info>The text should be wrapped in a &lt;p> element according to best
+                        practice.</info>
+                    <stepxmp>
+                        <pre>...
+&lt;stepsection>
+   <ph outputclass="newchanged">&lt;p>Once you’ve identified the duck, you can spend some time noting its behavior.&lt;/p>
+&lt;/stepsection></ph>
+</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>After the closing tag of the &lt;stepsection> element, add a &lt;step>
+                        element with a &lt;note> element inside it containing the text shown
+                        here.</cmd>
+                    <stepxmp>
+                        <pre>...
+&lt;/stepsection>
+<ph outputclass="newchanged">&lt;step>
+&lt;note>Don't disturb the ducks while observing their behavior; they behave differently when humans are present.&lt;/note>
+&lt;/step></ph></pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>After the closing tag of the &lt;note> element, add the &lt;cmd> element
+                        and add content to it as shown here.</cmd>
+                    <stepxmp>
+                        <pre>...
+&lt;/note>
+<ph outputclass="newchanged">&lt;cmd>Watch how the ducks interact with one another, what they’re eating, or how and when they preen.&lt;/cmd></ph>
+&lt;/step></pre>
+                    </stepxmp>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+    <task id="task_ynz_fgy_3t">
+        <title>Exercise</title>
+        <taskbody>
+            <steps id="steps_r11_1kx_dt">
+                <step>
+                    <cmd>Open the file lesson2/l_task_steps_exercise_start.dita and use it to
+                        convert the following content from <xref
+                            href="http://contentstrategy101.com/" format="html" scope="external"
+                            >Content Strategy 101</xref> into DITA:</cmd>
+                    <info>
+                        <pre outputclass="passthru"><![CDATA[
+<hr />
+<h3>Developing and implementing a content strategy</h3>
+<ol>
+<li>Identify and interview stakeholders.</li>
+<li>Establish implementation goals and metrics.</li>                            
+<li>Define roles and responsibilities.
+    <p><strong>Example:</strong></p>
+    <ul>
+        <li>Education</li>
+        <li>Development</li>
+        <li>Review</li>
+        <li>Approval</li>
+    </ul>
+</li>
+<li>Establish timeline and milestones.</li>
+<li>Build the content creation system.</li>
+<li>Convert legacy content.
+    <p><strong>Choose from:</strong></p>
+    <ul>
+        <li>Convert everything into the new system</li>
+        <li>Identify high-priority content and convert it</li>
+        <li>Just-in-time conversion</li>
+        <li>Assess for conversion</li>
+        <li>Convert nothing</li>
+    </ul>
+</li>
+<li>Deliver content
+     <table class="simpletable" border="1" summary="" cellspacing="0" cellpadding="4">
+     <tbody>
+     <tr class="strow">
+     <td class="stentry" valign="top" width="50%"><strong>Delivery method</strong></td>
+     <td class="stentry" valign="top" width="50%"><strong>Benefits</strong></td>
+     </tr>
+     <tr class="strow">
+     <td class="stentry" valign="top"><em>PDF</em></td>
+     <td class="stentry" valign="top">Visual design, option to print</td>
+     </tr>
+     <tr class="strow">
+     <td class="stentry" valign="top"><em>HTML</em></td>
+     <td class="stentry" valign="top">Accessibility, interactivity, responsive design</td>
+     </tr>
+     <tr class="strow">
+     <td class="stentry" valign="top"><em>EPUB</em></td>
+     <td class="stentry">Electronic content when Internet access is unavailable</td>
+     </tr>
+     </tbody>
+     </table>
+ </li>
+ <li>Capture project knowledge.
+    <ol>
+        <li>Document your content model, specifications, and best practices.</li>
+        <li>Provide training to authors on writing in the new environment.</li>
+        <li>Provide training to staff on maintaining the new system.</li>
+    </ol>
+ </li>
+ <li>Ensure long-term success.
+     <p><strong>Result:</strong> You can tick off the items you listed at the beginning of the project as accomplishments now.</p>
+ </li>
+<hr />]]></pre>
+                    </info>
+                    <info/>
+                </step>
+                <step>
+                    <cmd>Check your file lesson2/l_task_steps_exercise_start.dita against the sample
+                        file lesson2/l_task_steps_exercise.dita.</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

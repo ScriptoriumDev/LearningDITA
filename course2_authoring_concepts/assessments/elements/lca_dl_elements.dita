@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_wjy_jyd_2t">
+ <title>dl elements</title>
+ <prolog>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+   Scriptorium</author>
+  <critdates>
+   <created date="2015-08-28"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcMatching id="lcMatching_t3l_lyd_2t">
+    <lcQuestion>Match the &lt;dl> element with its content.</lcQuestion>
+    <lcMatchTable id="lcMatchTable_u3l_lyd_2t">
+     <lcMatchingPair>
+      <lcItem>&lt;dl></lcItem>
+      <lcMatchingItem>Container for a definition list</lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>&lt;dlentry></lcItem>
+      <lcMatchingItem>Contains &lt;dt> and &lt;dd></lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>&lt;dt></lcItem>
+      <lcMatchingItem>Term to define</lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>&lt;dd></lcItem>
+      <lcMatchingItem>Definition</lcMatchingItem>
+     </lcMatchingPair>
+    </lcMatchTable>
+    <lcFeedbackIncorrect>The &lt;dl> contains one or more &lt;dlentry> elements. Each &lt;dlentry>
+     contains a &lt;dt> element, which contains the term, and one or more &lt;dd> elements, which
+     contain the definitions. </lcFeedbackIncorrect>
+   </lcMatching>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

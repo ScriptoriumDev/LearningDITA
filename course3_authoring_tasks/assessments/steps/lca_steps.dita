@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_hwg_z1b_dt6">
+ <title>Steps</title>
+ <prolog>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+   Scriptorium</author>
+  <critdates>
+   <created date="2015-08-24"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcMatching id="matching_choicetable">
+    <lcQuestion>Match the basic elements involved in creating steps with their required locations in
+     a strict task.</lcQuestion>
+    <lcMatchTable id="lcMatchTable_f2n_c5b_kt">
+     <lcMatchingPair>
+      <lcItem>&lt;steps></lcItem>
+      <lcMatchingItem>Inside the &lt;taskbody> element</lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>&lt;step></lcItem>
+      <lcMatchingItem>Inside the &lt;steps> element</lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>&lt;cmd></lcItem>
+      <lcMatchingItem>Inside the &lt;step> element</lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>&lt;info></lcItem>
+      <lcMatchingItem>After the &lt;cmd> element</lcMatchingItem>
+     </lcMatchingPair>
+    </lcMatchTable>
+   </lcMatching>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

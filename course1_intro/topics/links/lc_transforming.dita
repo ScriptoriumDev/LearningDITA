@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_flw_1g3_wr">
+    <title>Transforming map files into outputs</title>
+    <shortdesc/>
+    <prolog>
+        <author>Sharon Burton</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Alan Pringle,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O'Keefe,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-04-28"/>
+            <revised modified="2015-05-15"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <draft-comment author="asp">This is where initial lessons covered transformation. Not
+                sure it belongs here but leaving for now. </draft-comment>
+            <p>Most content delivery does not use DITA files. Instead, you apply stylesheets to the
+                DITA files to create HTML, PDF, or other formats. This process is called
+                    <term>transformation.</term>
+                <fig>
+                    <image href="../../media/links/transform.png" id="image_ahr_g55_1s"
+                        base="2015/07"/>
+                </fig></p>
+            <p>The DITA Open Toolkit is a collection of stylesheets, mostly written in Extensible
+                Stylesheet Language (XSL), that provide a starting point for creating output. The
+                default output from an unmodified DITA Open Toolkit transformation is notoriously
+                unattractive. Usually the transformations are enhanced before the output is used in
+                a production environment. </p>
+            <note>The Open Toolkit is not the only way of generating output from DITA. You can use
+                commercial tools to create output. Some tools provide only publishing support;
+                others also provide authoring support for DITA content.</note>
+            <p>Transforms are independent of map files, and you can apply multiple transforms to a
+                single map file. For example, you could run the transforms for a PDF file and an
+                online help system on the same map file to get two outputs.</p>
+        </lcInstruction>
+    </learningContentbody>
+    <related-links>
+        <link href="http://www.dita-ot.org" scope="external" format="html">
+            <linktext>DITA Open Toolkit</linktext>
+        </link>
+        <link href="https://www.youtube.com/watch?v=xFPRnJrRo8o" scope="external" format="html">
+            <linktext>Getting started with the DITA Open Toolkit, Suite Solutions webinar (video, 53 minutes)</linktext>
+        </link>
+
+    </related-links>
+</learningContent>

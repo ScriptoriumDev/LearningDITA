@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_e2q_2sn_vt">
+ <title>Glossary maps</title>
+ <prolog>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+   Scriptorium</author>
+  <critdates>
+   <created date="2015-10-28"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody id="learningAssessmentbody_czj_psn_vt">
+  <lcInteraction>
+   <lcTrueFalse id="lcTrueFalse_b1k_psn_vt">
+    <lcQuestion>When organizing your glossary topics into a ditamap, you must organize them
+     alphabetically.</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_p1k_psn_vt">
+     <lcAnswerOption>
+      <lcAnswerContent>True</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>False</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>DITA-OT transforms can sort your glossary lists if they're configured for
+     it.</lcFeedbackIncorrect>
+   </lcTrueFalse>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

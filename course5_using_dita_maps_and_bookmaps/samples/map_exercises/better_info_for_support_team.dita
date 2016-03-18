@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_myj_5xs_kf">
+ <title>More efficient support operations</title>
+ <conbody>
+  <p><indexterm>technical support<indexterm>using technical
+     content</indexterm></indexterm><indexterm>content<indexterm>used by technical
+     support</indexterm></indexterm><indexterm>technical content<indexterm>used by support
+     team</indexterm></indexterm>Technical content is not just for customers. It is also a valuable
+   asset inside your organization, particularly for the technical support team. The technical
+   support staff is responsible for helping customers to use a product successfully. The technical
+   support organization desperately needs technical content—and the sooner it’s available, the
+   better.</p>
+  <p><indexterm>competitive content</indexterm><indexterm>backchannel content
+          development<indexterm>in support department</indexterm></indexterm>Technical content that
+      is locked down in PDF files and print is not particularly useful to support agents.
+          <indexterm>search<indexterm>support agents</indexterm></indexterm>Support agents need
+      quick answers to questions, so they need the ability to search all technical content quickly.
+      They might be able to use the index or table of contents of a single printed book to find what
+      they want, but given a library of books, an online search is the only reasonable option. With
+      PDF files, the process looks like this:</p>
+  <ol id="ol_vmm_kvv_gg">
+   <li>Search the company web site or intranet for a particular PDF manual.</li>
+   <li>Download and open the PDF file. <p>
+          <image href="images/progressbar.png" id="image_v31_rz3_jg"/></p></li>
+   <li>Search the PDF file to find specific information.</li>
+  </ol>
+
+  <p>By this point, the customer has been on hold for several minutes and is probably steaming mad.
+   The support agent isn’t very happy, either, because she is expected to handle a certain number of
+   calls per hour, and this lookup process is killing her numbers.</p>
+  <p>A better alternative is to provide content on a web site. Support agents can do a quick web
+      search, display the information that they need, and help the customer. If the technical
+      documentation group chooses not to provide an efficient way to access their information, the
+      support staff is likely to look for workarounds, including the following (all these examples
+      actually happened):
+    <dl id="ul_34s_54c_hg" outputclass="block">
+      <dlentry><dt>The support staff set up a wiki (a web site with many
+        contributors).</dt>
+          <dd>On the wiki, they first copied and pasted parts of the official documents
+          out of the PDF files. They made updates where the copied information was out of date or
+          where they disagreed with it. Eventually, the technical support staff began writing
+          additional content and posting it in the wiki. Meanwhile, the technical documentation
+          group was producing carefully vetted information that was reviewed by subject matter
+          experts. The information in the wiki was not reviewed and was often inaccurate, but the
+          wiki search was usable, and that immediate availability overrode any other concerns.</dd></dlentry>
+      <dlentry> <dt>The support staff created a
+          knowledge base intended for technical notes. </dt>
+        <dd>Technical notes are supposed to be applicable
+          to technical support but not needed in the product documentation; for example, notes on
+          specific product configuration problems. Support staff then began writing basic procedural
+          documentation and storing it in the knowledge base. The information in the knowledge base
+          duplicated and sometimes contradicted the information in the official documentation.</dd></dlentry>
+       <dlentry><dt>The support agents created private content hoards on their
+          local systems.</dt><dd>This eliminated the wait for a download, but the content caches had to be
+          updated manually, which usually did not happen. The support agents could search faster,
+          but were searching out-of-date information.</dd></dlentry>
+    </dl></p>
+  <p>When the technical support staff sets up a <indexterm>parallel content
+   authoring</indexterm>parallel content authoring system because accessing the technical content is
+   too much work, you have a serious problem. These shadow documentation<indexterm>shadow
+    documentation</indexterm> efforts are a symptom of the larger information-access problem. To
+   avoid them, it is critical to provide an efficient way for technical support staff to search and
+   access information. Otherwise, you face the following operational problems:</p>
+  <ul id="ul_4b4_xkv_gg">
+   <li><indexterm>copy and paste</indexterm><i>Copying and pasting.</i> The process of copying and
+    pasting content takes up time the support team should spend on much more important activities
+    (such as keeping end users happy).</li>
+   <li><i>No easy path for updates.</i> When the official technical content is updated to reflect
+    changes in a product, does that information show up in support information? And if updates do
+    make it into the unofficial support information, it’s likely copied and pasted, which is more
+    wasted time.</li>
+   <li><indexterm>information<indexterm>contradictory</indexterm></indexterm><indexterm>contradictory
+      information<indexterm>technical support and technical
+     content</indexterm></indexterm><indexterm>technical support<indexterm>contradictory
+      information</indexterm></indexterm><indexterm>content<indexterm>contradictory</indexterm></indexterm><i>Contradictory
+     information.</i> With multiple copies of the same procedure, inconsistency is hard to avoid—and
+    the result is confused customers and readers.</li>
+  </ul>
+  <p>Technical content should provide a firm foundation for the technical support operation instead
+   of undercutting it or making it more difficult. The role of technical support staff in creating
+   content varies in different organizations, but duplicating content because the provided file
+   formats are unusable is an appalling waste of resources.</p>
+ </conbody>
+</concept>

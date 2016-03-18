@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_kw5_5ls_zs">
+    <title>Adding steps</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-08-13"/>
+        </critdates>
+    </prolog>
+    <learningContentbody/>
+    <task id="task_a2s_dvs_zs">
+        <title/>
+        <taskbody>
+            <steps id="steps_urj_vdy_zs">
+                <step>
+                    <cmd>After the &lt;context> element in your task topic, add a &lt;steps>
+                        element. </cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+&lt;task id="task_topic">
+   &lt;title>&lt;/title>
+   &lt;taskbody>
+      &lt;prereq>
+      &lt;/prereq>
+      &lt;context>
+      &lt;/context>
+<ph outputclass="newchanged">      &lt;steps>
+      &lt;/steps></ph>
+   &lt;/taskbody>
+&lt;/task></pre>
+                    </stepxmp>
+                    <info>
+                        <p>As with the &lt;prereq> and &lt;context> elements, the &lt;taskbody> can
+                            contain only one &lt;steps> element. In keeping with the spirit of DITA
+                            that a topic should contain a single idea, restricting you to a single
+                            &lt;steps> element helps ensure that the topic only describes how to
+                            perform one task.</p>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Inside the &lt;steps> element, add a &lt;step> element. </cmd>
+                    <stepxmp>
+                        <pre>...
+      &lt;steps>
+<ph outputclass="newchanged">         &lt;step>
+         &lt;/step></ph>
+      &lt;/steps>
+...</pre>
+                    </stepxmp>
+                    <info>
+                        <p>The &lt;steps> element must contain at least one &lt;step> element. Most
+                            DITA-aware editors automatically add a first &lt;step> element to the
+                            &lt;steps> element. </p>
+                    </info>
+                </step>
+                <stepsection>
+                    <p>In DITA, the content of each individual step is also highly controlled; each
+                        step has a specific set of elements, which must occur in a specific order.
+                        The action the user is to perform is contained in a &lt;cmd> element (read
+                        as “command”), which is a required element in &lt;step>. In most cases,
+                        &lt;cmd> contains a single sentence, which is a direct instruction to the
+                        reader to perform some action.</p>
+                </stepsection>
+                <step>
+                    <cmd>Inside the &lt;step> element, add a &lt;cmd> element with the text shown
+                        here.</cmd>
+                    <stepxmp>
+                        <pre>...
+      &lt;steps>
+         &lt;step>
+<ph outputclass="newchanged">            &lt;cmd>(Text TBD)&lt;/cmd></ph>
+         &lt;/step>
+      &lt;/steps>
+...</pre>
+                    </stepxmp>
+                    <info>
+                        <p>As a best practice, the &lt;cmd> element should be limited to a single
+                            sentence, in active voice, that directs the user to perform an action.
+                            To provide additional information about the &lt;cmd> element, use the
+                            &lt;info> element (discussed in the next step). </p>
+                        <p>Because &lt;step> must contain exactly one &lt;cmd> element, most
+                            DITA-aware editors add the &lt;cmd> element when they add the &lt;step>
+                            element. </p>
+                    </info>
+                </step>
+                <step>
+                    <cmd>After the &lt;cmd> element, add an &lt;info> element, with the text shown
+                        here.</cmd>
+                    <stepxmp>
+                        <pre>...
+      &lt;steps>
+         &lt;step>
+            &lt;cmd>(Text TBD)&lt;/cmd>
+<ph outputclass="newchanged">            &lt;info>&lt;p>(Text TBD)&lt;/p>&lt;/info></ph>
+         &lt;/step>
+      &lt;/steps>
+...</pre>
+                    </stepxmp>
+                    <info>
+                        <p>As noted above, the &lt;info> element provides additional information
+                            about the action dictated by the &lt;cmd> element. You can use &lt;info>
+                            to contain text, notes, images, tables and so on. The remaining topics
+                            in this lesson describe other, more semantically appropriate elements
+                            you can use to further document the step.  </p>
+                        <p>As with other elements that can contain mixed content, we strongly
+                            recommend using a &lt;p> element to contain text, even if the &lt;info>
+                            element only contains one paragraph.</p>
+                    </info>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

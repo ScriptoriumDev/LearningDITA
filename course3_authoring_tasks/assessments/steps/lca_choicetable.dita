@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_hwg_z1b_dt10">
+ <title>Choicetable</title>
+ <prolog>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+   Scriptorium</author>
+  <critdates>
+   <created date="2015-08-24"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcMatching id="matching_choicetable">
+    <lcQuestion>Match the &lt;choicetable> child elements with their uses.</lcQuestion>
+    <lcMatchTable id="lcMatchTable_f2n_c5b_kt">
+     <lcMatchingPair>
+      <lcItem>&lt;chhead></lcItem>
+      <lcMatchingItem>Header row</lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>&lt;chrow></lcItem>
+      <lcMatchingItem>Body row</lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>&lt;choptionhd></lcItem>
+      <lcMatchingItem>Option in a header row</lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>&lt;chdeschd></lcItem>
+      <lcMatchingItem>Description in a header row</lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>&lt;choption></lcItem>
+      <lcMatchingItem>Option in a body row</lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>&lt;chdesc></lcItem>
+      <lcMatchingItem>Description in a body row</lcMatchingItem>
+     </lcMatchingPair>
+    </lcMatchTable>
+   </lcMatching>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

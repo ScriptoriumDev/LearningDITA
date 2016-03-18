@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_uxj_kp5_vr">
+    <title>Specialization</title>
+    <prolog><author>Sharon Burton</author>
+        <author href="http://www.scriptorium.com"  scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+        <author href="http://www.scriptorium.com"  scope="external" format="html">Simon Bate, Scriptorium</author>
+        <critdates>
+        <created date="2015-04-28"/>
+    </critdates></prolog>
+    <learningContentbody>
+       <lcInstruction> <p>
+            
+   <draft-comment> not sure this is the right place for specialization, but that's where it is in
+                    the videos </draft-comment>     </p>
+       <p>Specialization lets an information architect create elements and attributes that fit your
+                organization better than what is provided in default DITA. The elements created
+                through specialization are based on existing elements in DITA. </p>
+            <p>Organizations often specialize to support their unique requirements, such as:<ul
+                    id="ul_m12_fq5_vr">
+                    <li>Creating new elements to contain specific information in a specific
+                        order</li>
+                    <li>Creating new attributes to identify specific information</li>
+                    <li>Creating new names for elements that are more relevant to authors.</li>
+                </ul></p>
+            <p>For instance, you might require a set of language-specific &lt;codeblock> elements,
+                such as &lt;codeblock-java> or &lt;codeblock-php> to distinguish between Java and
+                PHP code examples. This could also be accomplished by creating a new language
+                attribute for the &lt;codeblock> element: &lt;codeblock language="java"> or
+                &lt;codeblock language="php">. </p>
+        <note type="important">Be careful with specialization. When you specialize, you make tags more
+                specific, but specialization adds to the cost of implementation. You must balance
+                the value gained from specialization against the cost of implementing and
+                maintaining specializations.</note>
+            <p>In addition to specialization, <i>constraints</i> allow information architects to
+                eliminate elements that you do not need or want to use. For example, if your
+                organization is not documenting software code, your information architect could
+                eliminate &lt;codeblock> and &lt;codeph> (code phrase). Constraining reduces the
+                number of elements presented to the authors, which can make their lives a little
+                easier.</p>
+       </lcInstruction>
+    </learningContentbody>
+</learningContent>

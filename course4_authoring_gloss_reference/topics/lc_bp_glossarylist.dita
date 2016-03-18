@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_ilc_qbn_vt">
+    <title>Adding a glossary to a bookmap</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-10-29"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>If you’re organizing your content using a bookmap, use the &lt;booklists> element (in
+                either the &lt;frontmatter> or &lt;backmatter> elements) and add a &lt;glossarylist>
+                element to indicate where the glossary should be generated in the output.  </p>
+            <pre>&lt;booklists>
+   ...
+   &lt;glossarylist>
+      &lt;topicref href="glossary.ditamap" format="ditamap"/>
+   &lt;/glossarylist>
+   ...
+&lt;/booklists></pre>
+            <p>If you need to point to the glossary DITA map, we advise using a nested &lt;topicref>
+                element, as shown here. </p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>
