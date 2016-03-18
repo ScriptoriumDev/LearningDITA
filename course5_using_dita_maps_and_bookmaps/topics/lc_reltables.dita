@@ -12,28 +12,16 @@
     <learningContentbody>
         <lcObjectives>
             <lcObjectivesGroup>
-                <lcObjective>State the purpose of a relationship table.</lcObjective>
-                <lcObjective>Create a relationship table and populate it with &lt;topicref>
-                    elements.</lcObjective>
-                <lcObjective>Use the collection-type and linking attributes to modify
-                    relationships.</lcObjective>
+                <lcObjective></lcObjective>
+                <lcObjective></lcObjective>
+                <lcObjective></lcObjective>
             </lcObjectivesGroup>
         </lcObjectives>
         <lcDuration>
             <lcTime value="45"/>
         </lcDuration>
         <lcIntro>
-            <p>This lesson introduces relationship tables, then shows how to create a relationship
-                table, how to populate it, and how to use the collection-type and linking
-                attributes. </p>
-            <draft-comment author="simonbate"
-                >https://jaymanalotoibm.wordpress.com/2013/11/08/dissecting-dita-relationship-tables/</draft-comment>
-            <draft-comment author="simonbate"
-                >http://dita.xml.org/improving-relationships-relationship-tables (another approach
-                to linking attribute)</draft-comment>
-            <draft-comment author="simonbate">Some things to try: * Setting linking attributes on
-                &lt;relcolspec>. * set collection-type="family" on topichead and topicref with
-                nested content. * Play with titles in &lt;relcolspec>. </draft-comment>
+            <p>This lesson shows how to create a relationship table, how to populate it, and use the linking attribute </p>
         </lcIntro>
     </learningContentbody>
     <related-links>

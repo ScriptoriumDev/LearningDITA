@@ -14,24 +14,40 @@
         </critdates>
     </prolog>
     <learningContentbody>
-        <lcInstruction>
-            <p>You can add metadata to a DITA map using the &lt;topicmeta> element. The
-                &lt;topicmeta> element can exist at the main map level (inside the &lt;map> element)
-                or inside any &lt;topicref> or &lt;mapref> element within the map.</p>
-            <p>A number of metadata elements are allowed inside the &lt;topicmeta> element. Some of
-                the most useful ones include:</p>
-            <ul id="ul_hrm_rvr_3v">
+        <lcInstruction><p>One of the major advantages of using bookmaps rather than maps is their
+                expanded metadata capabilitites. Bookmaps can contain an extensive metadata related
+                to ownership, identification, copyright, workflow, and publication of a book. There
+                are many more elements available for capturing metadata in more specific ways in
+                bookmaps than in maps. This means that a set of topics collected in a bookmap will
+                be more semantically rich, more easily searchable, and better suited to publication
+                than the same set of topics in a map.</p><p>You can add metadata to a bookmap in
+                several places:</p><ul id="ul_fqf_fyy_3v">
                 <li>
-                    <p>&lt;navtitle></p>
+                    <p>Inside the &lt;bookmap> element using &lt;bookmeta> element</p>
                 </li>
                 <li>
-                    <p>&lt;author></p>
+                    <p>Inside elements contained in the book's front matter using the &lt;topicmeta>
+                        element</p>
                 </li>
                 <li>
-                    <p>&lt;copyright></p>
+                    <p>Inside elements contained in the book's back matter using the &lt;topicmeta>
+                        element</p>
                 </li>
                 <li>
-                    <p>&lt;category></p>
+                    <p>Inside the book's chapters, topic references, and map references using the
+                        &lt;topicmeta> element</p>
+                </li>
+            </ul>The &lt;bookmeta> element in a bookmap can contain the same metadata elements that
+            the &lt;topicmeta> element in a map can contain, plus many more. Some of the most useful
+            ones include:<ul id="ul_xyc_qcz_3v">
+                <li>
+                    <p>&lt;authorinformation></p>
+                </li>
+                <li>
+                    <p>&lt;critdates></p>
+                </li>
+                <li>
+                    <p>&lt;bookid></p>
                 </li>
                 <li>
                     <p>
@@ -39,55 +55,103 @@
                             important/useful?</draft-comment>
                     </p>
                 </li>
-            </ul>
-            <p>The &lt;metadata> element, which can also contain most of these same metadata-related
-                elements, is allowed inside the &lt;topicmeta> element, as well.</p>
-            <p>The structure of a &lt;topicmeta> element might look something like this:</p>
-            <pre>&lt;topicmeta>
-&lt;navtitle>Navigation title&lt;/navtitle>
-&lt;author>Author name&lt;/author>
-&lt;copyright>
-     &lt;copyryear year="20XX"/>
-     &lt;copyrholder>Company name&lt;/copyrholder>
-&lt;/copyright>
-&lt;category>Category name&lt;/category>
-&lt;/topicmeta></pre>
-            <p>Including metadata in your map can be immensely helpful when it's time to publish and
-                distribute your content. <draft-comment author="gretyl">(flesh this out
-                    further)</draft-comment></p>
-            <draft-comment author="gretyl">Add something here about topic-level metadata that's
-                established in the topic &lt;prolog> vs. in &lt;topicmeta> elements in the map? Same
-                thing with map-level metadata that's established in one map that gets referenced in
-                another map?</draft-comment>
-            <note>
-                <p>This lesson covers basic use of the &lt;mapref> element and the elements it
+            </ul><p>The &lt;bookmeta> element is optional in the bookmap structure. If you use it,
+                it must be placed after the &lt;booktitle> element and before the &lt;frontmatter>
+                element. The structure of the &lt;bookmeta> element might look something like
+                this:</p><pre> &lt;bookmeta>
+        &lt;authorinformation>
+            &lt;personinfo>
+                &lt;namedetails>
+                    &lt;personname>&lt;firstname>Author first name&lt;/firstname>
+                    &lt;lastname>Author last name&lt;/lastname>&lt;/personname>
+                &lt;/namedetails>
+            &lt;/personinfo> 
+            &lt;organizationinfo>
+                &lt;namedetails>
+                    &lt;organizationnamedetails>
+                        &lt;organizationname>Company name&lt;/organizationname>
+                    &lt;/organizationnamedetails>
+                &lt;/namedetails>
+            &lt;/organizationinfo>
+        &lt;/authorinformation>
+        &lt;critdates>
+            &lt;created date="1/1/2001"/>
+            &lt;revised modified="1/1/2016"/>
+        &lt;/critdates>
+        &lt;bookid>
+            &lt;edition>4&lt;/edition>
+            &lt;booknumber>ID-9999&lt;/booknumber>
+            &lt;volume>2&lt;/volume>
+        &lt;/bookid> 
+    &lt;/bookmeta></pre><p>This
+                example shows how the metadata element structure for tracking author information is
+                much more sophisticated in bookmaps than it is in maps. Although the &lt;author>
+                element is available in both bookmaps and maps, the &lt;authorinformation> element,
+                which can contain more information tagged in a way that provides more semantic
+                value, is only available in bookmaps.</p><p>The &lt;topicmeta> element is available
+                in both maps and bookmaps, but the bookmap structure allows it to be used in more
+                places. For example, you can apply the &lt;topicmeta> element to a preface in the
+                book's frontmatter, or to a glossary in the book's backmatter. You can also apply
+                the &lt;topicmeta> element to a chapter, topic reference, or map reference in a
+                bookmap. When used in a bookmap, the &lt;topicmeta> element can contain all the same
+                &lt;metadata> elements that it can contain in a map, plus the &lt;authorinformation>
+                element.</p><note>
+                <p>This lesson covers basic use of the &lt;bookmeta> element and the elements it
                     contains. For the full specifications for each element, see the <xref
                         href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/concept.html"
                         format="html" scope="external">OASIS DITA Version 1.2 Standard</xref>.</p>
-            </note>
-        </lcInstruction>
+            </note></lcInstruction>
     </learningContentbody>
     <task id="task_at5_jgd_3v">
         <title/>
         <taskbody>
             <steps id="steps_umd_lgd_3v">
                 <step>
-                    <cmd>Continue using the file map_samples/_m_ducks_start.ditamap.</cmd>
+                    <cmd>Continue using the file bookmap_samples/_b_ducks_start.ditamap.</cmd>
                 </step>
                 <step>
-                    <cmd>Inside the &lt;map> element, after the &lt;title> element, add a
+                    <cmd>Inside the &lt;bookmap> element, after the closing tag of the
+                        &lt;booktitle> element, add a &lt;bookmeta> element and add content to it as
+                        shown in the following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+&lt;bookmap id="ducks">
+...
+&lt;/booktitle>
+<ph outputclass="newchanged">&lt;bookmeta>&lt;/bookmeta></ph>
+&lt;/bookmap></pre>
+                    </stepxmp>
+                    <info>The &lt;bookmeta> element you just added establishes the following
+                        bookmap-level metadata:<ul id="ul_tyt_qds_3v">
+                            <li>
+                                <p>
+                                    <draft-comment author="gretyl">Fill out this list based on
+                                        updated sample file</draft-comment>
+                                </p>
+                            </li>
+                        </ul></info>
+                </step>
+                <step>
+                    <cmd>Inside the &lt;chapter> element that links to c_wild_ducks.dita, add a
                         &lt;topicmeta> element and add content to it as shown in the following
                         example:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
-&lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
-&lt;map id="ducks">
-&lt;title>Ducks&lt;/title>
-<ph outputclass="newchanged">&lt;topicmeta>&lt;/topicmeta></ph>
-&lt;/map></pre>
+&lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+&lt;bookmap id="ducks">
+...
+&lt;/bookmeta>
+&lt;chapter href="c_wild_ducks.dita">
+<ph outputclass="newchanged">&lt;topicmeta>
+&lt;category>Wild ducks&lt;/category>
+&lt;/topicmeta></ph>
+...
+&lt;/chapter>
+&lt;/bookmap></pre>
                     </stepxmp>
                     <info>The &lt;topicmeta> element you just added establishes the following
-                        map-level metadata:<ul id="ul_tyt_qds_3v">
+                        topic-level metadata:<ul id="ul_xfr_jgz_3v">
                             <li>
                                 <p>
                                     <draft-comment author="gretyl">Fill out this list based on
@@ -102,45 +166,20 @@
                         example:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
-&lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
-&lt;map id="ducks">
-&lt;title>Ducks&lt;/title>
+&lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+&lt;bookmap id="ducks">
 ...
+&lt;chapter href="c_duckdb.dita">
 &lt;topicref href="c_writing_about_ducks.dita" locktitle="yes">
 <ph outputclass="newchanged">&lt;topicmeta>
 &lt;navtitle>add command&lt;/navtitle>
 &lt;/topicmeta></ph>
 &lt;/topicref>
-&lt;/map></pre>
+&lt;/chapter>
+&lt;/bookmap></pre>
                     </stepxmp>
                     <info>The &lt;topicmeta> element you just added establishes the following
                         topic-level metadata:<ul id="ul_r1r_sds_3v">
-                            <li>
-                                <p>
-                                    <draft-comment author="gretyl">Fill out this list based on
-                                        updated sample file</draft-comment>
-                                </p>
-                            </li>
-                        </ul></info>
-                </step>
-                <step>
-                    <cmd>Inside the &lt;mapref> element that links to g_duck_glossorg.ditamap, add a
-                        &lt;topicmeta> element and add content to it as shown in the following
-                        example:</cmd>
-                    <stepxmp>
-                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
-&lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
-&lt;map id="ducks">
-&lt;title>Ducks&lt;/title>
-...
-&lt;mapref href="g_duck_glossorg.ditamap" format="ditamap">
-<ph outputclass="newchanged">&lt;topicmeta>
-&lt;/topicmeta></ph>
-&lt;/mapref>
-&lt;/map></pre>
-                    </stepxmp>
-                    <info>The &lt;topicmeta> element you just added establishes the following
-                            metadata:<ul id="ul_ekq_yds_3v">
                             <li>
                                 <p>
                                     <draft-comment author="gretyl">Fill out this list based on
