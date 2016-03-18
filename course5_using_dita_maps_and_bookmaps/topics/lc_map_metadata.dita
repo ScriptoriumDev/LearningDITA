@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_pgf_3gt_qt">
+    <title>Adding metadata to a map</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <critdates>
+            <created date="2016-03-07"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>You can add metadata to a DITA map using the &lt;topicmeta> element. The
+                &lt;topicmeta> element can exist at the main map level (inside the &lt;map> element)
+                or inside any &lt;topicref> or &lt;mapref> element within the map.</p>
+            <p>A number of metadata elements are allowed inside the &lt;topicmeta> element. Some of
+                the most useful ones include:</p>
+            <ul id="ul_hrm_rvr_3v">
+                <li>
+                    <p>&lt;navtitle></p>
+                </li>
+                <li>
+                    <p>&lt;author></p>
+                </li>
+                <li>
+                    <p>&lt;copyright></p>
+                </li>
+                <li>
+                    <p>&lt;category></p>
+                </li>
+                <li>
+                    <p>
+                        <draft-comment author="gretyl">Any others that our audience would find
+                            important/useful?</draft-comment>
+                    </p>
+                </li>
+            </ul>
+            <p>The &lt;metadata> element, which can also contain most of these same metadata-related
+                elements, is allowed inside the &lt;topicmeta> element, as well.</p>
+            <p>The structure of a &lt;topicmeta> element might look something like this:</p>
+            <pre>&lt;topicmeta>
+&lt;navtitle>Navigation title&lt;/navtitle>
+&lt;author>Author name&lt;/author>
+&lt;copyright>
+     &lt;copyryear year="20XX"/>
+     &lt;copyrholder>Company name&lt;/copyrholder>
+&lt;/copyright>
+&lt;category>Category name&lt;/category>
+&lt;/topicmeta></pre>
+            <p>Including metadata in your map can be immensely helpful when it's time to publish and
+                distribute your content. Metadata that's applied at the map level makes it easier
+                for a tech pubs team to keep track of which maps they're responsible for updating
+                and reviewing—or, depending on what kind of content management solution they're
+                using, helps automate their content development workflow. It also adds semantic
+                value to each map, which allows end users to search for the published documents they
+                need and get better results.</p>
+            <p>Metadata that's applied to individual &lt;topicref> or &lt;mapref> elements increases
+                the map's semantic value even further. For example, if some of the topics in a map
+                should only be published in electronic outputs, metadata applied to those topic
+                references can tell the output transforms to filter out those topics during print
+                    publication.<draft-comment author="gretyl">Add something here about topic-level
+                    metadata that's established in the topic &lt;prolog> vs. in &lt;topicmeta>
+                    elements in the map? Same thing with map-level metadata that's established in
+                    one map that gets referenced in another map?</draft-comment></p>
+            <note>
+                <p>This lesson covers basic use of the &lt;mapref> element and the elements it
+                    contains. For the full specifications for each element, see the <xref
+                        href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/concept.html"
+                        format="html" scope="external">OASIS DITA Version 1.2 Standard</xref>.</p>
+            </note>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_at5_jgd_3v">
+        <title/>
+        <taskbody>
+            <steps id="steps_umd_lgd_3v">
+                <step>
+                    <cmd>Continue using the file map_samples/_m_ducks_start.ditamap.</cmd>
+                </step>
+                <step>
+                    <cmd>Inside the &lt;map> element, after the &lt;title> element, add a
+                        &lt;topicmeta> element and add content to it as shown in the following
+                        example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+&lt;map id="ducks">
+&lt;title>Ducks&lt;/title>
+<ph outputclass="newchanged">&lt;topicmeta>&lt;/topicmeta></ph>
+&lt;/map></pre>
+                    </stepxmp>
+                    <info>The &lt;topicmeta> element you just added establishes the following
+                        map-level metadata:<ul id="ul_tyt_qds_3v">
+                            <li>
+                                <p>
+                                    <draft-comment author="gretyl">Fill out this list based on
+                                        updated sample file</draft-comment>
+                                </p>
+                            </li>
+                        </ul></info>
+                </step>
+                <step>
+                    <cmd>Inside the &lt;topicref> element that links to c_writing_about_ducks.dita,
+                        add a &lt;topicmeta> element and add content to it as shown in the following
+                        example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+&lt;map id="ducks">
+&lt;title>Ducks&lt;/title>
+...
+&lt;topicref href="c_writing_about_ducks.dita" locktitle="yes">
+<ph outputclass="newchanged">&lt;topicmeta>
+&lt;navtitle>add command&lt;/navtitle>
+&lt;/topicmeta></ph>
+&lt;/topicref>
+&lt;/map></pre>
+                    </stepxmp>
+                    <info>The &lt;topicmeta> element you just added establishes the following
+                        topic-level metadata:<ul id="ul_r1r_sds_3v">
+                            <li>
+                                <p>
+                                    <draft-comment author="gretyl">Fill out this list based on
+                                        updated sample file</draft-comment>
+                                </p>
+                            </li>
+                        </ul></info>
+                </step>
+                <step>
+                    <cmd>Inside the &lt;mapref> element that links to g_duck_glossorg.ditamap, add a
+                        &lt;topicmeta> element and add content to it as shown in the following
+                        example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+&lt;map id="ducks">
+&lt;title>Ducks&lt;/title>
+...
+&lt;mapref href="g_duck_glossorg.ditamap" format="ditamap">
+<ph outputclass="newchanged">&lt;topicmeta>
+&lt;/topicmeta></ph>
+&lt;/mapref>
+&lt;/map></pre>
+                    </stepxmp>
+                    <info>The &lt;topicmeta> element you just added establishes the following
+                            metadata:<ul id="ul_ekq_yds_3v">
+                            <li>
+                                <p>
+                                    <draft-comment author="gretyl">Fill out this list based on
+                                        updated sample file</draft-comment>
+                                </p>
+                            </li>
+                        </ul></info>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

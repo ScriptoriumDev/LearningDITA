@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_pgf_3gt_qt">
+    <title>Overview: maps vs. bookmaps</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <critdates>
+            <created date="2016-03-07"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>A bookmap is a DITA map file that uses the &lt;bookmap> element rather than the
+                &lt;map> element as a container for its topic and map references. While maps and
+                bookmaps have a similar structure, a bookmap contains a different and more expansive
+                set of elements. This makes it more flexible and better suited to publishing larger
+                amounts of content in book format.</p>
+            <p>One of the main differences between bookmaps and maps is the ability to have chapters
+                in a bookmap. In a map, you can nest second-level topics under a first-level topic
+                to create a hierarchy. In a bookmap, you can designate these first-level topics as
+                container topics for chapters. Although the hierarchical structure of topics is the
+                same, there is added semantic value in calling a first-level topic and the topics
+                contained within it a chapter. When you publish the same set of topics in a map
+                versus a bookmap, your output transforms can apply different styling based on the
+                presence of chapters.</p>
+            <p>Bookmaps also give you much more flexible options than maps for defining metadata.
+                    <draft-comment author="gretyl">Flesh this out with a brief overview of what will
+                    be covered in the advanced bookmap concepts lesson (frontmatter, backmatter,
+                    etc.)</draft-comment></p>
+            <p>Here are some tips to keep in mind when trying to decide whether your content is
+                better suited to a map or a bookmap:</p>
+            <ul id="ul_alf_dyx_3v">
+                <li>
+                    <p>
+                        <draft-comment author="gretyl">Add tips/best practices</draft-comment>
+                    </p>
+                </li>
+            </ul>
+            <note>
+                <p>This lesson covers basic use of the &lt;bookmap> element and the elements it
+                    contains. For the full specifications for each element, see the <xref
+                        href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/concept.html"
+                        format="html" scope="external">OASIS DITA Version 1.2 Standard</xref>.</p>
+            </note>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>
