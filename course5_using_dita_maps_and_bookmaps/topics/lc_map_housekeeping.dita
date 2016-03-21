@@ -20,6 +20,28 @@
                     format="zip" scope="external">map_samples.zip</xref> now. It contains the sample
                 files for the entire DITA map and bookmap course. Extract the contents and put them
                 in a directory that you can access easily.</p>
+<p>Inside the samples folder, you will find the following content:</p>
+            <ul id="ul_k3n_dbd_3v">
+                <li>
+                    <p>map_samples</p>
+                </li>
+                <li>
+                    <p>map_exercises</p>
+                </li>
+                <li>
+                    <p>bookmap_samples</p>
+                </li>
+                <li>
+                    <p>bookmap_exercises</p>
+                </li>
+                <li>
+                    <p>map_start</p>
+                </li>
+                <li>
+                    <p>bookmap_start</p>
+                </li>
+            </ul>
+            <draft-comment author="gretyl">Need samples and exercises for reltables.</draft-comment>
 <!--            <p>Inside the samples folder, you will find four files: l_glossentry_start.dita,
                 l_glossgroup_start.dita, l_glossorg_start.ditamap, and l_reference_start.dita, which
                 you will use to complete exercises throughout the course. You will also find the
