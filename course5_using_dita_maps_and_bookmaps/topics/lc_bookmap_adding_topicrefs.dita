@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_pgf_3gt_qt">
-    <title>Adding topic and map references to a bookmap</title>
+    <title>Adding chapters to a bookmap</title>
     <prolog>
         <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
             Scriptorium</author>
@@ -15,19 +15,17 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>The &lt;topicref> element is structured as follows:</p>
-            <pre>&lt;topicref href="filepath/filename.dita"></pre>
-            <p>The href attribute contains a link to a topic that should be included in the map. In
-                DITA, a map should not point to a topic that lives above it in your folder
-                structure, so it is best to store your maps at the top level.<draft-comment
-                    author="gretyl">Probably a better way to phrase this. Also, need to make sure we
-                    give users just enough here without getting too deep into folder
-                    structure/content management.</draft-comment></p>
-            <p>The &lt;topicref> element may contain the following elements:</p>
+            <p>The &lt;chapter> element is structured as follows:</p>
+            <pre>&lt;chapter href="filepath/filename.dita"></pre>
+            <p>Except for the element name, the structure of a &lt;chapter> element matches the
+                structure of the &lt;topicref> element. In a &lt;chapter> element, the href
+                attribute contains a link to a topic that should be included in the bookmap at the
+                first level, or chapter level. </p>
+            <p>The &lt;chapter> element may contain the following elements:</p>
             <ul id="ul_oc4_2fd_3v">
                 <li>
                     <p>The &lt;topicmeta> element, which defines metadata about the referenced
-                        topic.</p>
+                        chapter-level topic.</p>
                 </li>
                 <li>
                     <p>Any number of &lt;topicref> elements.</p>
@@ -36,20 +34,16 @@
                     <p>Any number of &lt;mapref> elements.</p>
                 </li>
             </ul>
-            <p>By nesting &lt;topicref> or &lt;mapref> elements inside of a &lt;topicref> element,
-                you can create a hierarchy in your map. This can make it easier for you to organize
-                your topics. The hierarchy you create in the map's structure can also be reflected
-                in a table of contents when the map is published.</p>
-            <p>When nesting &lt;topicref> elements, it's important to keep your final output in
-                mind. In DITA, there is no structural limit to the number of &lt;topicref> elements
-                that can be nested. However, each nested &lt;topicref> will typically equate to a
-                new heading level in your published output. Therefore, it is generally considered
-                best practice to avoid nesting &lt;topicref> elements more than five levels deep
-                (and, ideally, no more than two or three).<draft-comment author="gretyl">Probably
-                    also a better way to phrase this.</draft-comment></p>
+            <p>If you're using a bookmap, you're almost certainly going to be distributing your
+                content in print or PDF form, so it's important to think about the physical space
+                limitations of this type of output when you're building your hierarchy of topics. If
+                you nest too many levels of topics within a chapter, you risk running out of ways to
+                differentiate your heading levels, whether it's by decreasing font sizes or
+                increasing indents. This could cause confusion for end users who are trying to
+                consume your content.</p>
             <note>
-                <p>This lesson covers basic use of the &lt;map> element and the map-level elements
-                    it contains. For the full specifications for each element, see the <xref
+                <p>This lesson covers basic use of the &lt;chapter> element and the elements it
+                    contains. For the full specifications for each element, see the <xref
                         href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/concept.html"
                         format="html" scope="external">OASIS DITA Version 1.2 Standard</xref>.</p>
             </note>
@@ -60,92 +54,87 @@
         <taskbody>
             <steps id="steps_umd_lgd_3v">
                 <step>
-                    <cmd>Continue using the file map_samples/_m_ducks_start.ditamap.</cmd>
+                    <cmd>Continue using the file bookmap_samples/_b_ducks_start.ditamap.</cmd>
                 </step>
                 <step>
-                    <cmd>After the &lt;title> element, add a &lt;topicref> element and add content
-                        to it as shown in the following example:</cmd>
-                    <stepxmp>
-                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
-&lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
-&lt;map id="ducks">
-&lt;title>Ducks&lt;/title>
-<ph outputclass="newchanged">   &lt;topicref href="c_wild_ducks.dita">
-&lt;/topicref></ph>
-&lt;/map></pre>
-                    </stepxmp>
-                    <info>This &lt;topicref> element creates a link to the concept topic
-                        c_wild_ducks.dita.</info>
-                </step>
-                <step>
-                    <cmd>Inside the &lt;topicref> element you just added, add another &lt;topicref>
+                    <cmd>After the closing tag of the &lt;booktitle> element, add a &lt;chapter>
                         element and add content to it as shown in the following example:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
-&lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
-&lt;map id="ducks">
-&lt;title>Ducks&lt;/title>
-&lt;topicref href="c_wild_ducks.dita">
-<ph outputclass="newchanged">   &lt;topicref href="c_wild_duck_types.dita"/></ph>
-&lt;/topicref>
-&lt;/map></pre>
+&lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+&lt;bookmap id="ducks">
+...
+&lt;/booktitle>
+<ph outputclass="newchanged">&lt;chapter href="c_wild_ducks.dita">
+&lt;/chapter></ph>
+&lt;/bookmap></pre>
                     </stepxmp>
-                    <info>By placing this &lt;topicref> element inside the first one, you have
-                        nested the topic c_wild_duck_types.dita at the next level beneath
-                        c_wild_ducks.dita in the hierarchy of your map.</info>
+                    <info>This &lt;chapter> element creates a link to the concept topic
+                        c_wild_ducks.dita.</info>
+                </step>
+                <step>
+                    <cmd>Inside the &lt;chapter> element you just added, add a &lt;topicref> element
+                        and add content to it as shown in the following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+&lt;bookmap id="ducks">
+...
+&lt;chapter href="c_wild_ducks.dita">
+<ph outputclass="newchanged">   &lt;topicref href="c_wild_duck_types.dita"/></ph>
+&lt;/chapter>
+&lt;/bookmap></pre>
+                    </stepxmp>
+                    <info>By placing this &lt;topicref> element inside &lt;chapter> element, you
+                        have nested the topic c_wild_duck_types.dita within the chapter
+                        c_wild_ducks.dita in the hierarchy of your bookmap.</info>
                 </step>
                 <step>
                     <cmd>After the &lt;topicref> element you just added, add two more &lt;topicref>
                         elements and add content to them as shown in the following example:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
-&lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
-&lt;map id="ducks">
-&lt;title>Ducks&lt;/title>
-&lt;topicref href="c_wild_ducks.dita">
+&lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+&lt;bookmap id="ducks">
+...
+&lt;chapter href="c_wild_ducks.dita">
        &lt;topicref href="c_wild_duck_types.dita"/>
 <ph outputclass="newchanged">   &lt;topicref href="c_wild_duck_species.dita"/>
        &lt;topicref href="t_watching_wild_ducks.dita"/></ph>
-&lt;/topicref>
-&lt;/map></pre>
+&lt;/chapter>
+&lt;/bookmap></pre>
                     </stepxmp>
-                    <info>These new &lt;topicref> elements make the hierarchy in your DITA map even
-                        clearer. The topics c_wild_duck_types.dita, c_wild_duck_species.dita, and
-                        t_watching_wild_ducks.dita are related to each other because they pertain to
-                        wild ducks, and as such, they are nested under the topic
-                        c_wild_ducks.dita.</info>
+                    <info>The chapter c_wild_ducks.dita now contains three nested topics:
+                        c_wild_duck_types.dita, c_wild_duck_species.dita, and
+                        t_watching_wild_ducks.dita.</info>
                 </step>
                 <step>
-                    <cmd>Add more &lt;topicref> elements and add content to them as shown in the
-                        following example:</cmd>
+                    <cmd>After the closing tag of the &lt;chapter> element, add more &lt;chapter>
+                        elements and add content to them as shown in the following example:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
-&lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
-&lt;map id="ducks">
-&lt;title>Ducks&lt;/title>
-&lt;topicref href="c_wild_ducks.dita">
-       &lt;topicref href="c_wild_duck_types.dita"/>
-       &lt;topicref href="c_wild_duck_species.dita"/>
-       &lt;topicref href="t_watching_wild_ducks.dita"/>
-&lt;/topicref>
-<ph outputclass="newchanged">&lt;topicref href="c_domestic_ducks.dita">
-       &lt;topicref href="c_duckling_growth.dita"/>
-       &lt;topicref href="c_feeding_ducklings.dita">
+&lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+&lt;bookmap id="ducks">
+...
+&lt;/chapter>
+<ph outputclass="newchanged">&lt;chapter href="c_domestic_ducks.dita">
+        &lt;topicref href="c_duckling_growth.dita"/>
+        &lt;topicref href="c_feeding_ducklings.dita">
             &lt;topicref href="c_duck_weight.dita"/>
-       &lt;/topicref>
-&lt;/topicref>
-&lt;topicref href="c_duckdb.dita">
-       &lt;topicref href="c_writing_about_ducks.dita" locktitle="yes"/>
-       &lt;topicref href="r_tnav.dita"/>
-&lt;/topicref></ph>
+        &lt;/topicref>
+    &lt;/chapter>
+    &lt;chapter href="c_duckdb.dita">
+        &lt;topicref href="c_writing_about_ducks.dita" locktitle="yes">
+        &lt;/topicref>
+        &lt;topicref href="r_tnav.dita"/>
+    &lt;/chapter></ph>
 &lt;/map></pre>
                     </stepxmp>
-                    <info>The map hierarchy now contains three first-level &lt;topicref> elements:
-                        c_wild_ducks.dita, c_domestic_ducks.dita, and c_duckdb.dita. Each of these
-                        &lt;topicref> elements contains nested second-level &lt;topicref> elements.
-                        One of these second-level &lt;topicref> elements, c_feeding_ducklings.dita,
-                        contains a nested third-level &lt;topicref> element,
-                        c_duck_weight.dita.</info>
+                    <info>The  bookmap hierarchy now contains chapters: c_wild_ducks.dita,
+                        c_domestic_ducks.dita, and c_duckdb.dita. Each of these chapters contains
+                        nested &lt;topicref> elements. One of these second-level &lt;topicref>
+                        elements, c_feeding_ducklings.dita, contains a nested third-level
+                        &lt;topicref> element, c_duck_weight.dita.</info>
                 </step>
             </steps>
         </taskbody>
