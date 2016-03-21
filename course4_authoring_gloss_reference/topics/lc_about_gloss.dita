@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_pmk_ltg_tt">
+    <title>About glossary entry and glossary group topics</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-10-16"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcIntro>
+            <p>Use a glossary entry topic to define a specific term or concept contained within your
+                content.</p>
+            <p>Each glossary entry contains a single term and its definition. This means that each
+                glossary entry is a separate file. </p>
+            <p>In some cases maintaining one file for each glossary entry can be an inconvenience,
+                so where it would be beneficial to keep a number of glossary entries together in a
+                single file, DITA provides the glossary group topic type. The glossary group topic
+                type contains one or more glossary entries, each of which is structured just like
+                the stand-alone glossary entry topic.  </p>
+            <p dir="ltr" id="docs-internal-guid-ebae93a0-b028-c690-b4e3-fcb3cf097d1a">Initially, the
+                idea of having each glossary term in a separate DITA topic (in other words, a
+                separate file) seems like a lot of trouble. But there are a number of good reasons
+                for maintaining glossary entries as separate topics:</p>
+            <ul id="ul_edj_y5g_vt">
+                <li dir="ltr">
+                    <p dir="ltr"><b>Reuse</b>. Once you’ve created your glossary entries, you—or
+                        anyone else on your team—can use those same glossary entries in multiple
+                        work products. If the glossary entries are buried in a glossary group, they
+                        are much harder to reuse. </p>
+                </li>
+                <li dir="ltr">
+                    <p dir="ltr"><b>Ownership</b>. Typically the glossary entries in a glossary
+                        group are specific to a product or team. Trying to integrate new glossary
+                        entries for your product into an existing glossary group can be difficult.
+                    </p>
+                </li>
+                <li dir="ltr">
+                    <p dir="ltr"><b>Localization</b>. If your glossary will be translated, it will
+                        probably need to be sorted according to the translated glossary terms.
+                        Maintaining the entries in a glossary group topic may create an impediment
+                        to the sorting process. </p>
+                </li>
+                <li dir="ltr">
+                    <p dir="ltr"><b>References</b>. There are several DITA elements that you can use
+                        to create a reference from text to a glossary entry. These references are
+                        easy to build when each glossary entry is in a separate file. It requires
+                        much more work when the glossary entries are gathered in a glossary group
+                        file. </p>
+                </li>
+            </ul>
+            <p>Despite these arguments, a reasonable case can be made for using glossary groups. As
+                a result, this lesson describes both how to create glossary entry topics and how to
+                create glossary group topics. </p>
+        </lcIntro>
+
+    </learningContentbody>
+</learningContent>

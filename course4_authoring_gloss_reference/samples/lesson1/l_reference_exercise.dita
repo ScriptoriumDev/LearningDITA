@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_jgf_3df_vt">
+  <title>addEntry</title>
+  <refbody>
+    <section>The <cmdname>addEntry</cmdname> command is used to enter a new documentation release
+      into the content analysis database.</section>
+    <refsyn>
+      <synph>-addEntry {nLanguage | nVersion | nOutput}</synph>
+    </refsyn>
+    <properties id="properties_qxt_3df_vt">
+      <prophead>
+        <proptypehd>Required?</proptypehd>
+        <propvaluehd>Parameter</propvaluehd>
+        <propdeschd>Description</propdeschd>
+      </prophead>
+      <property>
+        <proptype>Yes</proptype>
+        <propvalue>nLanguage</propvalue>
+        <propdesc>The language displayed by default</propdesc>
+      </property>
+      <property>
+        <proptype></proptype>
+        <propvalue>nVersion</propvalue>
+        <propdesc>The version of the content displayed by default</propdesc>
+      </property>
+      <property>
+        <proptype></proptype>
+        <propvalue>nOutput</propvalue>
+        <propdesc>The required delivery format</propdesc>
+      </property>
+    </properties>
+  </refbody>
+</reference>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_qrk_dnq_bt">
+    <title>Best practices for glossary entries and groups</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-10-13"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup id="lcObjectivesGroup_ipl_14q_bt">
+                <lcObjective>Identify best practices for authoring glossary entries</lcObjective>
+                <lcObjective>Identify best practices for authoring glossary groups</lcObjective>
+                <lcObjective>Show examples of best practices in a glossary entry</lcObjective>
+                <lcObjective>Show examples of best practices in a glossary group</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="1"/>
+        </lcDuration>
+        <lcInstruction>
+            <p>This lesson covers best practices for authoring glossary entries and glossary groups.
+                You will learn about file naming and ids, how to build a useful glossary, how to add
+                glossary entries to a bookmap, and how to manage glossary creation. </p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

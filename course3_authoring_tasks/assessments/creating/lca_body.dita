@@ -3,10 +3,10 @@
      github.com. See the accompanying LICENSE file for
      applicable licenses.-->
 <!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
-<learningAssessment id="assessment_hwg_z1b_dt">
+<learningAssessment id="assessment_hwg_z1b_dt1">
  <title>Taskbody</title>
  <prolog>
-  <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+  <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
    Scriptorium</author>
   <critdates>
    <created date="2015-08-24"/>
@@ -22,6 +22,7 @@
      </lcAnswerOption>
      <lcAnswerOption>
       <lcAnswerContent>&lt;taskbody></lcAnswerContent>
+      <lcCorrectResponse/>
      </lcAnswerOption>
      <lcAnswerOption>
       <lcAnswerContent>&lt;tasktrunk></lcAnswerContent>
@@ -33,19 +34,6 @@
     <lcFeedbackIncorrect>The &lt;taskbody> element contains the actual content of the task topic.
     </lcFeedbackIncorrect>
    </lcSingleSelect>
-   <lcTrueFalse id="link8">
-    <lcQuestion>Template question.</lcQuestion>
-    <lcAnswerOptionGroup id="lcAnswerOptionGroup_nkd_1bb_dt">
-     <lcAnswerOption>
-      <lcAnswerContent>False</lcAnswerContent>
-      <lcCorrectResponse/>
-     </lcAnswerOption>
-     <lcAnswerOption>
-      <lcAnswerContent>True</lcAnswerContent>
-     </lcAnswerOption>
-    </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect>Template question.</lcFeedbackIncorrect>
-   </lcTrueFalse>
   </lcInteraction>
  </learningAssessmentbody>
 </learningAssessment>

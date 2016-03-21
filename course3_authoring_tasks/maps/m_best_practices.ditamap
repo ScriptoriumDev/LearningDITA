@@ -7,8 +7,23 @@
  <title>Best practices for tasks</title>
  <topicref href="../topics/lc_bp_intro.dita">
   <topicmeta lockmeta="yes">
-   <data name="lesson_id" value="9999"></data>
+   <data name="lesson_id" value="9518"/>
   </topicmeta>
   <topicref href="../topics/lc_bp_planning.dita"/>
+  <topicref href="../topics/lc_bp_context.dita"/>
+  <topicref href="../topics/lc_bp_short.dita"/>
+  <topicref href="../topics/lc_bp_substeps.dita"/>
+  <topicref href="../topics/lc_bp_reuse.dita"/>
+  <topicref href="../topics/lcc_assessment.dita" copy-to="lcc_bestp.dita" locktitle="yes">
+   <topicmeta>
+    <navtitle>Assessment for Best practices for tasks</navtitle>
+   </topicmeta>
+   <topicref href="../assessments/best_practices/lca_planning.dita"/>
+   <topicref href="../assessments/best_practices/lca_context.dita"/>
+   <topicref href="../assessments/best_practices/lca_steps.dita"/>
+   <topicref href="../assessments/best_practices/lca_substeps.dita"/>
+   <topicref href="../assessments/best_practices/lca_uses.dita"/>
+   <topicref href="../assessments/best_practices/lca_reuse.dita"/>
+  </topicref>
  </topicref>
 </map>

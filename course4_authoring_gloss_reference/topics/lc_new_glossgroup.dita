@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_r51_zzt_qt">
+    <title>Creating a new glossary group topic</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-10-12"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Similar to the glossary entry topic, the glossary group topic must contain a
+                single &lt;glossgroup> root element with an id attribute that contains one
+                &lt;title> element and one or more &lt;glossterm> or &lt;glossgroup> elements, each
+                with an id attribute.</p>
+            <note>
+                <p>This lesson covers basic use of the glossary group elements. For the full
+                    specifications for each element, see the <xref
+                        href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/glossgroup.html"
+                        format="html" scope="external">OASIS DITA Version 1.2 Standard</xref>.</p>
+            </note>
+            <p><xref href="https://youtu.be/csP8WUT7EEs" format="html" scope="external">Video: Creating a DITA glossary group</xref></p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_f1n_y2h_tt">
+        <title/>
+        <taskbody>
+            <steps>
+                <step>
+                    <cmd>Make a copy of the file l_glossgroup_start.dita and open it in your
+                        editor.</cmd>
+                    <info>
+                        <note>If you are using a DITA editor, make sure you are in text mode, rather
+                            than author or visual mode. </note>
+                    </info>
+                    <stepxmp>
+                        <p>You should see this:</p>
+                        <pre>&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;!DOCTYPE glossgroup PUBLIC "-//OASIS//DTD DITA Glossary Group//EN" "glossgroup.dtd">
+&lt;glossgroup id="duck_equipment">
+    &lt;title>&lt;/title>
+&lt;/glossgroup>
+</pre>
+                    </stepxmp>
+                    <info>
+                        <p>The first line (which begins with <tt>&lt;?xml</tt>) is an XML
+                            declaration, which is a standard part of all XML files.</p>
+                        <p>The second line is the DOCTYPE declaration, which tells DITA editors or
+                            DITA output generators that this is a DITA glossgroup topic. The
+                            programs then use that information when validating the content of the
+                            topic. The DOCTYPE will be specific to each topic type that you create. </p>
+                        <p>The third line contains the opening tag of the &lt;glossgroup> element.
+                            The id attribute associated with the &lt;glossgroup> element is
+                            required.</p>
+                        <p>The fourth line contains the &lt;title> element. </p>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Inside the &lt;title> element, add a title to help identify the glossary
+                        group. </cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE glossgroup PUBLIC "-//OASIS//DTD DITA Glossary Group//EN" "glossgroup.dtd">
+&lt;glossgroup id="duck_equipment">
+<ph outputclass="newchanged">   &lt;title>Duck watching equipment&lt;/title></ph>
+
+&lt;/glossgroup></pre>
+                    </stepxmp>
+                    <info>
+                        <p>While the &lt;title> element is required as a part of the content model,
+                            you don't necessarily have to add content.</p>
+                    </info>
+                </step>
+                <step>
+                    <cmd>After the &lt;title> element, add four &lt;glossentry> elements with id
+                        attributes.</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE glossgroup PUBLIC "-//OASIS//DTD DITA Glossary Group//EN" "glossgroup.dtd">
+&lt;glossgroup id="duck_equipment">
+    &lt;title>Duck watching equipment&lt;/title>
+    <ph outputclass="newchanged">&lt;glossentry id="">&lt;/glossentry>
+    &lt;glossentry id="">&lt;/glossentry>
+    &lt;glossentry id="">&lt;/glossentry>
+    &lt;glossentry id="">&lt;/glossentry></ph>
+    
+&lt;/glossgroup></pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Within each &lt;glossentry> element, add a &lt;glossterm> element, and fill
+                        in the id attributes.</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE glossgroup PUBLIC "-//OASIS//DTD DITA Glossary Group//EN" "glossgroup.dtd">
+&lt;glossgroup id="duck_equipment">
+    &lt;title>Duck watching equipment&lt;/title>
+    <ph outputclass="newchanged">&lt;glossentry id="binoculars">
+        &lt;glossterm>binoculars&lt;/glossterm>    
+    &lt;/glossentry>
+    &lt;glossentry id="duck_bait">
+        &lt;glossterm>duck bait&lt;/glossterm>   
+    &lt;/glossentry>
+    &lt;glossentry id="duck_call">
+        &lt;glossterm>duck call&lt;/glossterm>   
+    &lt;/glossentry>
+    &lt;glossentry id="spotting_scope">
+        &lt;glossterm>spotting scope&lt;/glossterm>   
+    &lt;/glossentry></ph>
+    
+&lt;/glossgroup></pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>After each &lt;glossterm> element, add a &lt;glossdef> element with
+                        definitions.</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE glossgroup PUBLIC "-//OASIS//DTD DITA Glossary Group//EN" "glossgroup.dtd">
+&lt;glossgroup id="duck_equipment">
+    &lt;title>Duck watching equipment&lt;/title>
+    <ph outputclass="newchanged">&lt;glossentry id="binoculars">
+        &lt;glossterm>binoculars&lt;/glossterm>
+        &lt;glossdef>An optical device for use with both eyes used to view distant objects&lt;/glossdef>
+    &lt;/glossentry>
+    &lt;glossentry id="duck_bait">
+        &lt;glossterm>duck bait&lt;/glossterm>
+        &lt;glossdef>Bait used to attract ducks. Can range from specialty pellets to cheap white bread&lt;/glossdef>
+    &lt;/glossentry>
+    &lt;glossentry id="duck_call">
+        &lt;glossterm>duck call&lt;/glossterm>
+        &lt;glossdef>A device consisting of a tube with a reed contained inside it, used to imitate and attract ducks&lt;/glossdef>
+    &lt;/glossentry>
+    &lt;glossentry id="spotting_scope">
+        &lt;glossterm>spotting scope&lt;/glossterm>
+        &lt;glossdef>An optical device for use with a single eye, which tends towards greater detail view than binoculars&lt;/glossdef>
+    &lt;/glossentry></ph>
+    
+&lt;/glossgroup></pre>
+                    </stepxmp>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

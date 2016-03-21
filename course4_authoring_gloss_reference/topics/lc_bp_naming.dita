@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_bsq_ccn_vt">
+    <title>Naming files and ids</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-10-29"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>If you are using a file system to manage your DITA content—or if your content
+                management system allows you to specify filenames and id attributes—we advocate
+                these conventions:</p>
+            <ul id="ul_fz4_mcn_vt">
+                <li>When possible, start all filenames for your glossary entry topics with “g_”. The
+                    rest of the filename should reflect the content of the &lt;glossterm> element in
+                    the glossary entry topic. This helps you find all your glossary entries within
+                    your filesystem. However, use the underscore (“_”) character to separate words,
+                    rather than a space (spaces in DITA filenames can cause problems). </li>
+                <li>The id attribute for the glossary entry topic should be the same as the filename
+                    (minus the .dita extension). You may opt to omit the "g_" from the id attribute
+                    as well, so long as the id attribute value matches the same term used in the
+                    filename. So, if a topic is named "g_mallard.dita", the id of the glossary entry
+                    topic should be "g_mallard" or "mallard".</li>
+                <li>Although this topic does not address the concept of keys in DITA, we also advise
+                    using the value of the id attribute as the key name.</li>
+            </ul>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

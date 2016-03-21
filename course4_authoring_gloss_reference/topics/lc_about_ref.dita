@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_szn_n3t_qt">
+    <title>About reference topics</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-10-12"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcIntro>
+            <p>Reference topics answer the question “What?”, as in:</p>
+            <ul id="ul_ohh_x3t_qt">
+                <li>What value do I enter here?</li>
+                <li>What does it mean when the LED flashes three times?</li>
+                <li>What command parameters should I use?</li>
+                <li>What status values can I expect from this function call?</li>
+                <li>What does this error message mean?</li>
+            </ul>
+            <p>Reference topics provide information about a specific item. While a concept topic may
+                provide general background information and answer the question “Why?”, the reference
+                topic provices specific information. Typical readers of reference topics find the
+                information they need, then continue with what they were doing; they typically do
+                not read or browse any additional information. </p>
+            <p>The format of content within a reference is determined by the authoring organization,
+                and ideally codified within a style guide. The examples in this lesson show only one
+                way that you can organize information.</p>
+            <p>While reference topics can contain many of the elements that we've already covered in
+                previous courses, this course will focus on new ones.</p>
+            <p>Reference topics fall into two general categories:</p>
+            <ul id="ul_uvg_gkt_qt">
+                <li>
+                    <p>Single, stand-alone topics containing a small number of tables or figures.
+                        Examples include:</p>
+                    <ul id="ul_gyb_hlt_qt">
+                        <li>
+                            <p>Matrix tables of devices and specific values or tolerances </p>
+                        </li>
+                        <li>
+                            <p>Illustrations of device ports or pinouts</p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p>Multiple, related topics that provide information about related items, one
+                        topic per item. These topics usually have a parallel structure so that the
+                        reader can consistently locate information. Examples include:</p>
+                    <ul id="ul_jty_qlt_qt">
+                        <li>Command line reference</li>
+                        <li>API function reference</li>
+                        <li>Error code reference</li>
+                        <li>Device data sheet</li>
+                    </ul>
+                </li>
+            </ul>
+        </lcIntro>
+    </learningContentbody>
+</learningContent>

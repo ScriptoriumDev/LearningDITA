@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_d5j_1rb_q2">
+ <title>Extending the game experience into content</title>
+ <conbody>
+  <p><indexterm>wiki</indexterm><indexterm>content<indexterm>extending game
+    experience</indexterm></indexterm><indexterm>game experience in
+    content</indexterm><indexterm>experience, game</indexterm>The computer game industry has been at
+   the forefront of collaborative authoring and user-generated content. Many games come with minimal
+   documentation that explains only how to operate basic controls. After that, it is up to the
+   player to explore the game world. In online role-playing games (such as World of Warcraft), there
+   are hundreds of locations to explore, objects to find or buy, and monsters to fight. Even without
+   explicit support from the game developer, the user community often gets together to create
+   reference information for the game. </p>
+  <p>For gamers, providing too much documentation can actually work against the gameplay experience.
+   It might be wise, though, to provide support for the community to create their own documentation,
+   perhaps by delivering a wiki with page stubs (starting points) along with user forums where
+   players can discuss the game to their hearts’ content.</p>
+  <p>
+   <fig>
+    <title>Star Wars The Old Republic wiki example (swtor.wikia.com/wiki/Jedi_Knight, captured
+     February 29, 2012)</title>
+    <image href="images/oldrepublic_book.png" id="image_j14_wk3_lf"
+     width="425px" audience="book"/>
+    <image href="images/oldrepublic.png" id="image_j14_wk3_lz" width="425px" audience="color"/>
+   </fig>
+  </p>
+ </conbody>
+</concept>

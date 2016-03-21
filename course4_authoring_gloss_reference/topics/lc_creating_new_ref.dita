@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_rcq_vht_qt">
+    <title>Creating a new reference topic</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-10-12"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>At a minimum, the reference topic must contain a &lt;reference> root element (with an
+                id attribute) that contains a &lt;title> element. </p>
+            <p>Following the &lt;title> element and an optional &lt;shortdesc> element, a
+                &lt;refbody> element contains the reference content. By design, the content in the
+                &lt;refbody> element is limited to a handful of elements. In other words, a
+                reference topic is not as flexible in its content as a concept topic.</p>
+            <p>The body of the reference topic can contain elements that have been introduced in
+                previous courses: &lt;table>, &lt;fig> (figure) or &lt;image>, &lt;example>, and
+                &lt;section>. You usually use the &lt;section> element within a &lt;refbody> element to
+                organize the common sections of a reference topic, such as command descriptions,
+                usage guidelines, error codes, and the like. In addition, the &lt;refbody> element
+                can contain two elements that are specific to reference topic types: &lt;refsyn>
+                (reference syntax) and &lt;properties>. </p>
+            <p>The body of the reference can contain any number of these elements, in any order.</p>
+            <p>The &lt;example>, &lt;section>, and &lt;refsyn> elements can contain the &lt;title>
+                element. This allows you to create subdivisions within a reference topic. If
+                necessary, an output transform can insert its own titles for &lt;properties> elements. </p>
+            <p><xref href="https://youtu.be/B3FVRhrfwkA" format="html" scope="external">Video:
+                    Creating a DITA reference topic</xref></p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_i3g_jkh_1t">
+        <title/>
+        <taskbody>
+            <steps id="steps_f5k_kkh_1t">
+                <step>
+                    <cmd>Make a copy of the file l_reference_start.dita and open it in your editor.</cmd>
+                    <info>
+                        <note>If you are using a DITA editor, make sure you are in text mode, rather
+                            than author or visual mode. </note>
+                    </info>
+                    <stepxmp>
+                        <p>You should see this:</p>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+&lt;reference id="my_first_ref">
+   &lt;title>&lt;/title>
+
+&lt;/reference></pre>
+                    </stepxmp>
+                    <info>
+                        <p>The first line (which begins with <tt>&lt;?xml</tt>) is an XML
+                            declaration, which is a standard part of all XML files.</p>
+                        <p>The second line is the DOCTYPE declaration, which tells DITA editors or
+                            DITA output generators that this is a DITA reference topic. The programs
+                            then use that information when validating the content of the topic. The
+                            DOCTYPE will be specific to each topic type that you create. </p>
+                        <p>The third line contains the opening tag of the &lt;reference>
+                            element.</p>
+                        <p>The fourth line contains the &lt;title> element.</p>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Inside the &lt;title> element, update the text of the reference
+                        title.</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+&lt;reference id="my_first_ref">
+<ph outputclass="newchanged">   &lt;title>tNav&lt;/title></ph>
+
+&lt;/reference></pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>After the &lt;title> element, add a &lt;refbody> element.</cmd>
+                    <info>The &lt;refbody> element contains all the actual content in the reference. </info>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+&lt;reference id="my_first_ref">
+   &lt;title>tNav&lt;/title>
+   <ph outputclass="newchanged">&lt;refbody>
+   &lt;/refbody>
+</ph>
+&lt;/reference></pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Within the &lt;refbody> element, add a &lt;section> element and add content
+                        to it as shown.</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+&lt;reference id="my_first_ref">
+   &lt;title>tNav&lt;/title>
+   &lt;refbody>
+    <ph outputclass="newchanged">&lt;section>&lt;p>The &lt;cmdname>tNav&lt;/cmdname> command is used in the 
+     Duck Database to navigate to a different table or view.&lt;/p>&lt;/section></ph>
+   &lt;/refbody> 
+&lt;/reference></pre>
+                    </stepxmp>
+                    <info>
+                        <note><p>The &lt;cmdname> (command name) element denotes the name of a command
+                            when referenced as a part of software, and is a part of the programming
+                            domain. For more information on the programming domain, see the <xref
+                                href="http://docs.oasis-open.org/dita/v1.2/os/spec/common/pr-d.html"
+                                scope="external" format="html">OASIS DITA Version 1.2
+                                Standard</xref>.</p></note>
+                    </info>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

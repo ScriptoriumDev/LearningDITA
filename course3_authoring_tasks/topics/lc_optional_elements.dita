@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_hrm_xjh_1t">
+    <title>Adding introductory elements to a task topic</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-08-12"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>The &lt;prereq> (prerequisite) and &lt;context> elements are optional elements that
+                introduce the instructional content in a task topic.</p>
+            <p>The &lt;prereq> element describes what the reader needs before performing the task,
+                which can include:</p>
+            <ul id="ul_glj_1pb_bt">
+                <li>Things the reader must have, such as binoculars or a smartphone with a bird
+                    identification app </li>
+                <li>Information the reader must have, such as knowledge of migratory patterns</li>
+                <li>Previous tasks the reader must have accomplished, such as completing a basic
+                    duck identification course</li>
+            </ul>
+            <p>The &lt;context> element provides background information about the task, such as the
+                purpose of the task and what the reader will gain. The &lt;context> element content
+                should be relatively brief; if you need to provide more detailed background
+                information, consider creating a concept topic. </p>
+            <p>Although &lt;prereq&gt; and &lt;context&gt; are optional, they occur in order—the
+                &lt;prereq> element must go before the &lt;context> element.</p>
+            <p><xref href="https://youtu.be/Bhaeafcemis" format="html" scope="external">Video:
+                    Strict sequence of introductory elements in a DITA Task</xref></p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_i3g_jkh_1t">
+        <title/>
+        <taskbody>
+            <steps id="steps_f5k_kkh_1t">
+                <step>
+                    <cmd>Continue working in the file l_task_start.dita.</cmd>
+                </step>
+                <step>
+                    <cmd>Inside the &lt;taskbody> element, add a &lt;prereq> element.</cmd>
+                    <stepxmp><pre>&lt;taskbody>
+<ph outputclass="newchanged">   &lt;prereq>
+         &lt;p>Before you go watching wild ducks, make sure you know what a wild duck looks like.&lt;/p>
+   &lt;/prereq></ph>
+
+&lt;/taskbody></pre></stepxmp>
+                </step>
+                <step>
+                    <cmd>After the &lt;prereq> element, add a &lt;context> element.</cmd>
+                    <stepxmp>
+                        <pre>&lt;taskbody>
+   ...
+   &lt;/prereq>
+<ph outputclass="newchanged">   &lt;context>
+      &lt;p>Watching wild ducks can be calming and recreational. &lt;/p>
+      &lt;p>Read this to learn more about what you need to have a satisfying duck-watching
+         experience.&lt;/p>
+   &lt;/context></ph>
+
+&lt;/taskbody></pre>
+                    </stepxmp>
+                </step>
+            </steps>
+            <result>Your task now has a title, a set of prerequisites, and a context. The next
+                lesson covers how to add steps to the task. </result>
+        </taskbody>
+    </task>
+    <task id="task_ynz_fgy_3t">
+        <title>Exercise</title>
+        <taskbody>
+            <steps id="steps_r11_1kx_dt">
+                <step>
+                    <cmd>Open the file lesson1/l_new_task_exercise_start.dita and use it to convert
+                        the following content from <xref href="http://contentstrategy101.com/"
+                            format="html" scope="external">Content Strategy 101</xref> into
+                        DITA:</cmd>
+                    <info>
+                        <pre outputclass="passthru"><![CDATA[
+<hr />
+<h3>Creating a business case for your content strategy</h3>
+<p><strong>Before you begin:</strong> Thoroughly assess your content and content development process so that you can understand the gap between the strategy you need and the strategy currently in place.</p>
+<p><strong>About this task:</strong> These instructions will show you how to develop a business case that you can use to show that your company needs a new content strategy.</p>
+<p>You may find that your company could save money on content production in the following areas:</p>
+<ul>
+<li>Automation</li>
+<li>Reuse</li>
+<li>Localization</li>
+</ul> 
+<hr />
+]]></pre>
+                    </info>
+                    <info/>
+                </step>
+                <step>
+                    <cmd>Check your file lesson1/l_new_task_exercise_start.dita against the sample
+                        file lesson1/l_new_task_exercise.dita.</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

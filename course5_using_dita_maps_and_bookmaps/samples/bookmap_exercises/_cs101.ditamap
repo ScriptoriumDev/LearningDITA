@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap>
+    <booktitle>
+        <mainbooktitle>Main book title</mainbooktitle>
+    </booktitle>
+    <chapter href="cost_reduction_intro.dita">
+        <topicref href="meh.dita"/>
+        <topicref href="costcontainment.dita"/>
+        <topicref href="supportvolume.dita">
+            <topicref href="fewer_calls.dita"/>
+            <topicref href="better_info_for_support_team.dita"/>
+        </topicref>
+        <topicref href="reduce_training_costs.dita">
+            <topicref href="collab_not_free_for_all.dita"/>
+        </topicref>
+    </chapter>
+    <chapter href="marketing_visibility_intro.dita">
+        <topicref href="marcommsupport.dita">
+            <topicref href="reinforce_marketing_message.dita"/>
+            <topicref href="techcomm_vs_marketing.dita"/>
+        </topicref>
+        <topicref href="productvisibility.dita">
+            <topicref href="third_party_books.dita"/>
+        </topicref>
+        <topicref href="community.dita">
+            <topicref href="wikis.dita"/>
+        </topicref>
+    </chapter>
+    <chapter href="legal_regulatory_intro.dita">
+        <topicref href="legalexposure.dita"/>
+        <topicref href="regulatory.dita">
+            <topicref href="contentreqs.dita"/>
+            <topicref href="tech_reqs.dita"/>
+        </topicref>
+    </chapter>
+</bookmap>

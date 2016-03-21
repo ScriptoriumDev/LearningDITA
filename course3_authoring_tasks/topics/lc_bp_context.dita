@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_cxl_nwy_lt">
+    <title>Provide appropriate context</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-09-25"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcIntro>
+            <p>The &lt;context> element should provide enough context for readers to understand why
+                they need to perform a task or what the task accomplishes. The &lt;context> element
+                should not be used for extensive conceptual or background information. </p>
+            <p>If you need to provide additional conceptual information, background information, or
+                operating principles, create a concept topic and provide a link to the concept from
+                your task.</p>
+            <p>Note that there can be some similarity between the &lt;context> element and the
+                &lt;shortdesc> (short description) element. Both provide information about the
+                purpose of a task. However, the &lt;shortdesc> element typically provides succinct
+                information used in link previews or search results, whereas the &lt;context>
+                element can be slightly more detailed and can provide additional information about
+                what the task can accomplish. </p>
+        </lcIntro>
+    </learningContentbody>
+</learningContent>

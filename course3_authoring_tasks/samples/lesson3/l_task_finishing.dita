@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="my_first_task">
+    <title>Watching wild ducks</title>
+    <shortdesc/>
+    <taskbody>
+        <prereq>
+            <p>Before you go watching wild ducks, make sure you know what a wild duck looks
+                like.</p>
+        </prereq>
+        <context>
+            <p>Watching wild ducks can be calming and recreational. </p>
+            <p>Read this to learn more about what you need to have a satisfying duck-watching
+                experience.   </p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Choose a location to watch ducks.</cmd>
+                <info>
+                    <p>Generally, ducks are found in wild locations, near water.</p>
+                </info>
+            </step>
+            <step>
+                <cmd>Pick a field guide to identify the ducks.</cmd>
+                <choices id="choices_z5d_2mc_bt">
+                    <choice>Many modern duck watchers rely on the Sibley guide</choice>
+                    <choice>A traditional favorite is the Peterson guide </choice>
+                </choices>
+            </step>
+            <step>
+                <cmd>Find some good optics</cmd>
+                <choicetable frame="all" relcolwidth="1.0* 1.0*" id="choicetable_bwc_czc_bt">
+                    <chhead>
+                        <choptionhd>
+                            <p>Type</p>
+                        </choptionhd>
+                        <chdeschd>
+                            <p>Advantages</p>
+                        </chdeschd>
+                    </chhead>
+                    <chrow>
+                        <choption>
+                            <p>Binoculars</p>
+                        </choption>
+                        <chdesc>
+                            <p>Wide field of view, allows quick observations</p>
+                        </chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>
+                            <p>Spotting scope</p>
+                        </choption>
+                        <chdesc>
+                            <p>Higher magnification, better light-gathering</p>
+                        </chdesc>
+                    </chrow>
+                </choicetable>
+            </step>
+            <step>
+                <cmd>Go watch some birds.</cmd>
+                <substeps id="substeps_hmn_vvc_bt">
+                    <substep>
+                        <cmd>Walk around</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>When you see one, stop</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Identify it</cmd>
+                    </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd>When you have definitively identified a duck, make a note in your guide.</cmd>
+                <stepxmp>
+                    <lines>Ducks,
+☒ Harlequin
+☐ Mallard
+☐ Ruddy
+☐ Wood</lines>
+                </stepxmp>
+                <stepresult><p>You’ll now have a record you can keep for the rest of your
+                    life.</p></stepresult>
+            </step>
+            <stepsection>Once you’ve identified the duck, you can spend some time noting its
+                behavior.</stepsection>
+            <step>
+                <note>Don’t disturb the ducks while observing their behavior; they behave
+                    differently when humans are present.</note>
+                <cmd>Watch how the ducks interact with one another, what they’re eating, or how and
+                    when they preen.</cmd>
+            </step>
+        </steps>
+        <result>
+            <p>The fresh air, exercise, and thrill of seeing wild ducks should give you an enhanced
+                feeling of well-being.</p>
+        </result>
+        <example>
+            <p>Don’t expect this kind of behavior: <xref href="http://dai.ly/x2j6pt1" format="html"
+                    scope="external">Duck Amuck</xref>
+            </p>
+            <!--Could also use: https://youtu.be/nAA3DCEkVHs-->
+        </example>
+        <postreq>
+            <ul>
+                <li>Watch the ducks again with a camera</li>
+                <li>Go look for other birds</li>
+            </ul>
+        </postreq>
+    </taskbody>
+</task>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glossgroup PUBLIC "-//OASIS//DTD DITA Glossary Group//EN" "glossgroup.dtd">
+<glossgroup id="content_strategy_terms">
+  <title>Content strategy terms</title>
+  <glossentry id="structured_authoring">
+    <glossterm>structured authoring</glossterm>
+    <glossdef>An environment for creating content where the required structure is enforced by the
+      authoring software and following the template is not optional</glossdef>
+  </glossentry>
+  <glossentry id="structured_content">
+    <glossterm>structured content</glossterm>
+    <glossdef>Information that is organized in a predictable way</glossdef>
+  </glossentry>
+  <glossentry id="searchable_content">
+    <glossterm>searchable content</glossterm>
+    <glossdef>Information that is available via an Internet search</glossdef>
+  </glossentry>
+  <glossentry id="findable_content">
+    <glossterm>findable content</glossterm>
+    <glossdef>Information that performs well for relevant keywords</glossdef>
+  </glossentry>
+  <glossentry id="discoverable_content">
+    <glossterm>discoverable content</glossterm>
+    <glossdef>Information that has in-bound links, especially on social media</glossdef>
+  </glossentry>
+</glossgroup>

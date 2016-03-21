@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_t3w_2tt_kf">
+ <title>Avoiding legal exposure</title>
+ <conbody>
+  <p><indexterm>avoiding legal exposure</indexterm><indexterm>tech comm<indexterm>avoiding legal
+     exposure</indexterm></indexterm><indexterm>legal issues<indexterm>avoiding
+    exposure</indexterm></indexterm><indexterm>liability for content</indexterm>The risk of legal
+   liability for product documentation varies greatly across industries and locales. That said,
+   products that can harm people are of greater concern than others. Farm equipment with sharp
+   blades carries higher risks than a smartphone. A software application that controls a medical
+   radiation–dispensing device carries higher risks than a computer game.</p>
+  <p>But as you explore how to handle legal requirements, what <i>really</i> matters is the opinion
+   of your organization’s legal counsel. If the legal team wants two pages of at the beginning of
+   each document warning about the possibility of decapitation by manual can opener, they will
+   probably get their way.</p>
+  <p>Unfortunately, most of the legal document priorities are directly at odds with creating useful
+   content. An organization can focus on eliminating any legal risks in the documentation, and for a
+   potentially dangerous product, this might even be appropriate. But if instructions are buried
+   under extensive warnings, readers may instead turn to disclaimer-free (and maybe unreliable)
+   third-party content. The risk is that maximizing legal protection may also minimize content
+   consumption.</p>
+  <note>
+   <p>None of the information in this section is a substitute for advice from an actual legal
+    professional with expertise in your specific industry and jurisdictions. (See? We all need
+    disclaimers.)</p>
+  </note>
+  <section>
+   <title>Intellectual property, patents, and limiting product claims</title>
+   <p><indexterm>legal issues<indexterm>intellectual
+     property</indexterm></indexterm><indexterm>intellectual property</indexterm>Intellectual
+    property considerations may require content restrictions. Your legal team may ask you to limit
+    the amount of information you provide, or require that readers must log into a corporate site
+    (and agree to the site’s terms of service) before viewing information. Establishing a
+    registration requirement means that:<ul id="ul_ovf_3fz_1h">
+     <li>Your web content will not be visible to Google and other search engines. Visitors cannot
+      discover the information through a standard web search.</li>
+     <li>The number of people who visit the site will be reduced. </li>
+    </ul></p>
+   <p>If there is litigation regarding a specific product claim, the legal team may provide you with
+    guidelines on how to document that claim.</p>
+  </section>
+  <section>
+   <title>Warnings, cautions, and other admonitions</title>
+   <p><indexterm>legal
+     issues<indexterm>admonishments</indexterm></indexterm><indexterm>admonishments</indexterm><indexterm>warnings</indexterm><indexterm>trademarks</indexterm>Some
+    industries use standardized warnings. In the United States, for example, the ANSI warnings
+    labels are common. There are some generally accepted principles for admonishments—for example,
+    Danger indicates a possibility of death or injury. For software products, these standards are
+    sometimes modified to indicate the risk to data rather than humans.</p>
+   <p>It is common to see a raft of warnings at the beginning of a document. From a legal
+    perspective, putting warnings at the front of a document makes the document more defensible.
+    From a reader’s perspective, it probably makes more sense to put the warning very close to the
+    step that is potentially problematic.</p>
+  </section>
+  <section>
+   <title>Trademarks</title>
+   <p><indexterm>legal
+     issues<indexterm>trademarks</indexterm></indexterm><indexterm>trademarks</indexterm>Here are
+    some examples of trademarks used incorrectly:<ul id="ul_yft_rt2_rg">
+     <li>I Skyped my brother last week.</li>
+     <li>I googled, but I couldn’t find anything useful.</li>
+    </ul></p>
+   <p>Cease-and-desist letters notwithstanding, it is unlikely that you can stop people from
+    misusing trademarks in this way in casual conversation or in social media. For more formal
+    content, however, trademarks should be used correctly (even though it is highly awkward):<ul
+     id="ul_pp5_yt2_rg">
+     <li>I used Skype to call my brother. (Or, for the real sticklers: I used Skype software to call
+      my brother.)</li>
+     <li>My Google search didn’t find anything useful.</li>
+    </ul></p>
+   <p>Verbifying (or nominalizing) trademarks is frowned upon by the trademark owners.</p>
+   <p>Most technical documents have a list of trademarks at the beginning of the book, which looks
+    something like the following:<lq>Oracle, JD Edwards, PeopleSoft, and Retek are registered
+     trademarks of Oracle Corporation and/or its affiliates. Other names may be trademarks of their
+     respective owners.<fn><xref
+       href="http://docs.oracle.com/cd/B19306_01/server.102/b14200/title.htm" scope="external"
+       format="html">docs.oracle.com/cd/B19306_01/server.102/b14200/title.htm</xref>, captured May
+      30, 2012</fn></lq></p>
+    <p>A more detailed version from Microsoft:</p>
+    <lq>
+     <p>Information in this document is subject to change without notice.</p>
+     <p>Companies, names, and data used in examples herein are fictitious unless otherwise noted. No
+      part of this document may be reproduced or transmitted in any form or by any means, electronic
+      or mechanical, for any purpose, without the express written permission of Microsoft
+      Corporation. </p>
+     <p>© 1995–96 Microsoft Corporation. All rights reserved. </p>
+     <p>Microsoft, MS, MS-DOS, ActiveX, AutoSum, Bookshelf, Encarta, FoxPro, FrontPage,
+      IntelliMouse, IntelliSense, MSN, Microsoft At Work, Microsoft Press, Multiplan, Outlook,
+      PivotTable, PowerPoint, Rushmore, Visual Basic, Windows, Windows NT, Wingdings, XL and design
+      (the Microsoft Excel logo) are either registered trademarks or trademarks of Microsoft
+      Corporation in the United States and/or other countries.</p>
+     <p>Apple and TrueType are registered trademarks of Apple Computer, Inc. </p>
+     <p>The Mac OS Logo is a trademark of Apple Computer, Inc. used under license. </p>
+     <p>MathType is a trademark of Design Science, Inc. </p>
+     <p>Genigraphics and In Focus Systems are registered trademarks of In Focus Systems, Inc. </p>
+     <p>NetWare and Novell are registered trademarks of Novell, Inc.</p>
+     <p>Other product and company names mentioned herein may be the trademarks of their respective
+        owners.<fn><xref href="http://www.biggs.org/office/gettingresults/OFCCPYRT.HTM"
+        scope="external" format="html"
+        >biggs.org/office/gettingresults/OFCCPYRT.HTM</xref>, captured May 30,
+      2012</fn></p>
+    </lq>
+   <p>As with all of these matters, you should consult your legal counsel to determine whether a
+    blanket “other names may be trademarks” (as in the first example) is acceptable or whether an
+    explicit list of trademarks is required (as in the second example). If you are required to
+    provide a detailed list, automate the production of this list, as it is in no
+    way a value-added technical communication project. A few techniques that we have used are:<ul
+     id="ul_1lr_rst_kg">
+     <li><i>Default copyright/trademark list.</i> All deliverables get the same list of copyrights
+      and trademarks, so the list is set up once and then reused.</li>
+     <li><i>Automatically generated list from explicit markup.</i> Each trademark that occurs in
+      text is marked as a trademark (or registered trademark). The trademark list is generated from
+      the marked-up items. For
+      example:<codeblock>We use &lt;trademark type="tm">MathType&lt;/trademark> to create equations.</codeblock></li>
+     <li>Automatically generated list from reference list: We create a universal list of trademarks
+      in a separate file. When it’s time to generate output, the trademark list is generated by
+      filtering the global list to include only the items that occur in that deliverable.</li>
+    </ul></p>
+   <p>The last option requires the most setup and the least ongoing maintenance work. The middle
+    option requires the author to do some ongoing work. The first option is the simplest and most
+    appealing if you can get your legal team to agree to it.</p>
+   <p>In addition to the trademark list in the front matter, you may also need to mark trademarks in
+    the actual text. The traditional rule is that you must indicate a trademark on the first
+    occurrence of that item. Unfortunately, that works better in books than in online content, where
+    “first occurrence” a bit hard to define. Your choices for trademark indicators are as
+     follows:<ul id="ul_pgj_5tt_kg">
+     <li>Do not mark any trademarks in text.</li>
+     <li>Mark the first occurrence in a book, chapter, or web page (preferably in an automated way;
+      otherwise, your authors will be annoyed).</li>
+     <li>Mark every occurrence of a trademarked term (guaranteed to annoy your readers and, if done
+      manually, infuriate your authors).</li>
+    </ul></p>
+  </section>
+ </conbody>
+</concept>

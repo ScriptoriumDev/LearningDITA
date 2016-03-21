@@ -8,6 +8,8 @@
     <prolog>
         <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
             Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
         <critdates>
             <created date="2015-08-18"/>
         </critdates>
@@ -23,6 +25,8 @@
                 <li>Documenting or logging the task completion</li>
                 <li>Performing subsequent tasks </li>
             </ul>
+            <p><xref href="https://youtu.be/scYD2nY7NMA" format="html" scope="external">Video:
+                    Strict sequence of finishing elements in a DITA task</xref></p>
         </lcInstruction>
     </learningContentbody>
     <task id="task_mv2_lbq_bt">
@@ -30,21 +34,17 @@
         <taskbody>
             <steps id="steps_ihp_lbq_bt">
                 <step>
-                    <cmd>After the &lt;example> element, add a &lt;postreq> element.</cmd>
+                    <cmd>Continue working in the file l_task_start.dita.</cmd>
+                </step>
+                <step>
+                    <cmd>After the closing tag of the &lt;example> element, add a &lt;postreq>
+                        element.</cmd>
                     <stepxmp>
-                        <pre>
-&lt;?xml version="1.0" encoding="UTF-8"?>
-&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-&lt;task id="task_z5g_kkc_bt">
-    &lt;title>Watching wild ducks&lt;/title>
-    &lt;shortdesc/>
-    &lt;taskbody>
-        &lt;example>
-           ...
+                        <pre>...
         &lt;/example>
 <ph outputclass="newchanged">        &lt;postreq>
 
-        &lt;/postreq></ph>
+        &lt;/postreq> </ph>
     &lt;/taskbody>
 &lt;/task>
 </pre>
@@ -52,7 +52,61 @@
                 </step>
                 <step>
                     <cmd>Add the following content to the &lt;postreq> element:</cmd>
-                    <stepxmp/>
+                    <stepxmp>
+                        <pre>...
+        &lt;/example>
+        &lt;postreq>
+<ph outputclass="newchanged">            &lt;ul>
+                &lt;li>Watch the ducks again with a camera&lt;/li>
+                &lt;li>Go look for other birds&lt;/li>
+            &lt;/ul> 
+</ph>        &lt;/postreq>
+    &lt;/taskbody>
+&lt;/task>
+</pre>
+                    </stepxmp>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+    <task id="task_ynz_fgy_3t">
+        <title>Exercise</title>
+        <taskbody>
+            <steps id="steps_r11_1kx_dt">
+                <step>
+                    <cmd>Open the file lesson3/l_task_finishing_exercise_start.dita and use it to
+                        convert the following content from <xref
+                            href="http://contentstrategy101.com/" format="html" scope="external"
+                            >Content Strategy 101</xref> into DITA:</cmd>
+                    <info>
+                        <pre outputclass="passthru"><![CDATA[
+                            <hr />
+                            <h3>Managing change</h3>
+                            <ol>
+                                <li>Demonstrate value to upper management and those in the trenches.</li>
+                                <li>Offer training and knowledge transfer.
+                                    <p><strong>Example:</strong></p>
+                                    <ul>
+                                        <li>Classroom training</li>
+                                        <li>Live web-based training</li>
+                                        <li>Train the trainer</li>
+                                    </ul>
+                                </li>
+                                <li>Differentiate between legitimate issues with the new workflow and reflexive recalcitrance.</li>
+                                <li>Enlist participants in a pilot project to explain process change.</li>
+                            </ol>
+                            <p>&#160;</p>
+                            <p><strong>Results:</strong> Good management is critical when a company changes workflow; without it, the implementation of new processes will likely fail. Bad management kills implementations, and things can get ugly for everyone involved.</p>
+                            <p><strong>Example:</strong> Without good change management, a percentage of staff who will be dead set against changes on general principle could gain the support of other team members, until almost everyone refuses to use the new system.</p>
+                            <p><strong>What to do next:</strong> When you have managed change successfully, you can start creating useful content in the new system.</p>
+                            <hr />
+                            ]]></pre>
+                    </info>
+                    <info/>
+                </step>
+                <step>
+                    <cmd>Check your file lesson3/l_task_finishing_exercise_start.dita against the
+                        sample file lesson3/l_task_finishing_exercise.dita.</cmd>
                 </step>
             </steps>
         </taskbody>

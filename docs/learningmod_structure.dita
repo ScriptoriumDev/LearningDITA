@@ -17,13 +17,21 @@
  
    <p>Each module should have a container topic, which provides the following:<ul id="ul_jn1_rwz_vr">
      <li>A list of objectives for the module, using the &lt;lcObjectives>
-     elements:<codeblock> &lt;lcObjectives>
+            elements:<codeblock> &lt;lcObjectives>
    &lt;lcObjectivesGroup>
     &lt;lcObjective>What kind of topics exist in DITA&lt;/lcObjective>
     &lt;lcObjective>What information goes in different types of topics&lt;/lcObjective>
     &lt;lcObjective>What are constraints and specialization?&lt;/lcObjective>
    &lt;/lcObjectivesGroup>
-  &lt;/lcObjectives></codeblock></li>
+  &lt;/lcObjectives></codeblock><p>The
+            objectives should state what the reader will be learning, rather than what the reader
+            will be doing in the following exercise. If we used an &lt;lcObjectivesStem> element it
+            would say “The user will learn:”. </p><dl>
+            <dlentry>
+              <dt>Good objective</dt>
+              <dd>“”</dd>
+            </dlentry>
+          </dl></li>
      <li>An estimated duration for the module, using the &lt;lcDuration> element (provide a value in
      minutes):<codeblock>&lt;lcDuration>
   &lt;lcTime value="30"/>
