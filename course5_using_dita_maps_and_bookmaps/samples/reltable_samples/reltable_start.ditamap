@@ -41,34 +41,6 @@
  </topicref>
  
  <mapref href="g_duck_glossorg.ditamap" format="ditamap"/>
- <reltable title="Ducks reltable">
-  <relheader>
-   <relcolspec type="concept"/>
-   <relcolspec type="task"/>
-   <relcolspec type="reference"/>
-  </relheader>
-  <relrow>
-   <relcell>
-    <topicref href="c_writing_about_ducks.dita"/>
-   </relcell>
-   <relcell>
-    <topicref href="t_adding_entry.dita"/>
-   </relcell>
-   <relcell>
-    <topicref href="r_add.dita"/>
-   </relcell>
-  </relrow>
-  <relrow>
-   <relcell/>
-   <relcell/>
-   <relcell/>
-  </relrow>
-  <relrow>
-   <relcell/>
-   <relcell/>
-   <relcell/>
-  </relrow>
- </reltable>
- 
+
  
 </map>
