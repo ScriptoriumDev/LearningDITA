@@ -4,6 +4,14 @@
     <booktitle>
         <mainbooktitle>Main book title</mainbooktitle>
     </booktitle>
+    <frontmatter>
+        <notices><!-- placeholder --></notices>
+        <booklists>
+            <toc/>
+        </booklists>
+        <preface><!-- placeholder --></preface>
+
+    </frontmatter>
     <chapter href="c_wild_ducks.dita">
         <topicref href="c_wild_duck_types.dita"/>
         <topicref href="c_wild_duck_species.dita"/>
@@ -23,4 +31,11 @@
         </topicref>
         <topicref href="r_tnav.dita"/>
     </chapter>
+    
+    <backmatter>
+        <mapref href="g_duck_glossorg.ditamap" format="ditamap"/>
+        <booklists>
+            <indexlist/>
+        </booklists>
+    </backmatter>
 </bookmap>
