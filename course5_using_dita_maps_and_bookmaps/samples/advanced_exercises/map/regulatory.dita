@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_tnn_3ss_kf">
+ <title>Meeting regulatory requirements</title>
+ <conbody>
+  <p><indexterm>regulatory<indexterm>requirements</indexterm></indexterm><indexterm>requirements<indexterm>regulatory</indexterm></indexterm>Regulatory
+   requirements can be tedious, but at least the business imperative is clear: without documentation
+   that meets the requirements, the organization will not be allowed to sell its products (or, in
+   some cases, operate at all). Other business goals may exist but are secondary.</p>
+  <p>To begin, you need to understand the actual requirement. Some requirements are technical. For
+      example, the U.S. Food and Drug Administration requires
+        <indexterm>labeling</indexterm><indexterm>SPL</indexterm><indexterm>XML<indexterm>SPL</indexterm></indexterm><indexterm>Structured
+        Product Labeling<index-see>SPL</index-see></indexterm>that content of labeling (drug
+      information) be submitted electronically using the Structured Product Labeling (SPL)
+          standard.<fn><xref
+          href="http://www.fda.gov/ForIndustry/DataStandards/StructuredProductLabeling/default.htm"
+          scope="external" format="html"
+          >fda.gov/ForIndustry/DataStandards/StructuredProductLabeling/default.htm</xref></fn> SPL
+      is an XML standard. Any content strategy that involves these regulated submissions must
+      support the delivery of content encoded in SPL.</p>
+  <p>Other regulations, such as those in the <indexterm>European
+     Union<indexterm>standards</indexterm></indexterm>European Union for product documentation,
+   establish standards for what information needs to be included, as described by
+    <indexterm>TCEurope standards</indexterm>TCEurope in <i>Usable and safe operating manuals for
+    consumer goods</i> (2004)<fn><xref
+     href="http://docbox.etsi.org/STF/Archive/STF285_HF_MobileEservices/STF285%20Work%20area/UG/Inputs%20to%20consider/TCeurope_Securedoc_1_Usable%20and%20safe%20operating%20manuals%20for%20consumer%20DKE-AKDFA_2004-01-01.pdf"
+     scope="external" format="pdf"
+     >docbox.etsi.org/STF/Archive/STF285_HF_MobileEservices/STF285%20Work%20area/UG/Inputs%20to%20consider/TCeurope_Securedoc_1_Usable%20and%20safe%20operating%20manuals%20for%20consumer%20DKE-AKDFA_2004-01-01.pdf</xref>
+   </fn>:<lq><indexterm>European Union<indexterm>product directive</indexterm></indexterm>European
+    Union legislation specifies that a technical product is only complete when accompanied by an
+    operating manual. Delivery or sale of a product without an operating manual or with an
+    inadequate manual breaks the law. In this case, users are entitled to assistance. </lq></p>
+  <p><indexterm>regulatory<indexterm>documentation</indexterm></indexterm><indexterm>content<indexterm>regulated</indexterm></indexterm><indexterm>technical
+          content<indexterm>regulated</indexterm></indexterm>In the United States, only a few
+      categories of product documentation are regulated, but concerns about legal liability may
+      drive content decisions. One notable exception is the nuclear power plant licensing process.
+      The U.S. Nuclear Regulatory Commission provides detailed requirements for the content of a
+      licensing application.<fn><xref
+          href="http://www.nrc.gov/reading-rm/doc-collections/fact-sheets/licensing-process-bg.html"
+          format="html" scope="external"
+          >nrc.gov/reading-rm/doc-collections/fact-sheets/licensing-process-bg.html</xref></fn></p>
+  <p>Another category of regulation is for component manufacturers, such as in the aerospace
+      industry. If you make aircraft components, such as emergency exits or seats, your product
+      documentation is subject to the requirements of your customer (such as Boeing or Airbus). If
+      your customer informs you that you must deliver product documentation using
+        <indexterm>S1000D</indexterm><indexterm>XML<indexterm>S1000D</indexterm></indexterm>S1000D
+      (another XML standard) or a military standard, you have no choice but to comply. (Technically,
+      these requirements are not “regulations,” but in your role as a supplier, the distinction is
+      at best semantic.)</p>
+  <p>Regulatory requirements are best seen as prerequisites—they affect your content strategy
+      decisions long before you can start thinking about how to create effective, useful
+      content.</p>
+ </conbody>
+</concept>

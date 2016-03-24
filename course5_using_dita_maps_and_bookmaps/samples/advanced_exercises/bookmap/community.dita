@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_qx3_1lc_jf">
+ <title>Building user community and loyalty</title>
+ <conbody>
+  <p><indexterm>community, building</indexterm><indexterm>marketing<indexterm>building user
+     community</indexterm></indexterm><indexterm>user
+    community<indexterm>building</indexterm></indexterm><indexterm>technical
+     content<indexterm>building user
+     community</indexterm></indexterm><indexterm>building<indexterm>user
+    community</indexterm></indexterm>Customers expect to participate in a conversation about your
+   products, although the level of community participation that you can reasonably expect varies for
+   different industries. But even in highly regulated, restricted environments, the user community
+   can offer critical feedback. Your community’s motivation level is important—you want to invite
+   users to participate, but you do not want them to feel as though you are sloughing off content
+   responsibilities onto them. Open source projects are built on community participation, but many
+   of them also have terrible, outdated technical content precisely because only the community is
+   providing content. (A notable exception to this is WordPress, which provides excellent technical
+   documentation via the <indexterm>WordPress<indexterm>Codex</indexterm></indexterm>WordPress
+     Codex.<fn><xref href="http://codex.wordpress.org/Main_Page" format="html" scope="external"
+     >codex.wordpress.org/Main_Page</xref></fn> Because WordPress is a publishing platform, we
+   speculate many people in the community have good writing skills.)</p>
+  <p>The general purpose of a user community is to engage users—to shift people from passively
+      consuming content to participating actively in evaluating or modifying content. In increasing
+      order of engagement, they might:</p>
+  <p>
+   <ul id="ul_wxd_vmv_sf">
+    <li>Read content</li>
+    <li>Rate content with stars, likes/dislikes, or votes</li>
+    <li>Attend an online event, such as a webcast</li>
+    <li>Send email with comments</li>
+    <li>Write a public comment</li>
+    <li>Edit or update content</li>
+    <li>Write original content</li>
+    <li>Attend a user conference</li>
+   </ul>
+  </p>
+  <p><indexterm>participation rate in user community</indexterm>Remember that only a small
+      percentage of users will participate. The general rule of thumb is that for every 100 users,
+      90 are lurkers (passive readers), 10 will participate, and only 1 participant will be very
+        active.<indexterm>Nielsen, Jakob</indexterm><fn>Jakob Nielsen, Alertbox, October 9, 2006,
+          <xref href="http://www.useit.com/alertbox/participation_inequality.html" scope="external" format="html">useit.com/alertbox/participation_inequality.html</xref>, accessed March 27,
+        2012</fn> That implies that you need thousands of users to have a successful community. </p>
+  <p><indexterm>content<indexterm>user</indexterm></indexterm><indexterm>risk<indexterm>user
+          content</indexterm></indexterm><indexterm>user community<indexterm>risk in user-created
+          content</indexterm></indexterm><indexterm>user
+        content<indexterm>risk</indexterm></indexterm>Assuming that your user base is a reasonable
+      size, you need to weigh the risks of user participation. First, if you are in a regulated
+      industry, such as medical devices or pharmaceuticals, your organization may be held
+      accountable for user content. Unlike other industries, you cannot simply disclaim
+      responsibility for user-generated content in the web site terms of service. This rules out
+      uncontrolled submissions, such as unmoderated (and often raucous) user forums. You might,
+      however, consider allowing industry partners to create content that is reviewed before being
+      made available to your customers. For example, a medical device manufacturer could ask
+      physicians to contribute articles about how they use a device. These articles would be
+      reviewed by the manufacturer before publication on the corporate web site or perhaps in a
+      newsletter distributed only to other physicians.</p>
+  <p>If your product is generally not dangerous to use (for example, most software and consumer
+      electronics), then the risk of allowing user content is minimized. For these products, you
+      need to carefully consider the risks that come from <i>not</i> allowing user
+      participation:</p>
+  <p>
+   <ul id="ul_t2c_bsw_sf">
+    <li>Do your customers expect a community? Does failure to provide a community have negative
+     implications for your product positioning?</li>
+    <li>If you do not provide a community, will a third-party community spring up over which you
+     have no control at all?</li>
+    <li>Are your competitors providing user communities for their customers?</li>
+   </ul>
+  </p>
+  <p>If you have a vibrant community, you have:</p>
+  <p>
+   <ul id="ul_rzg_4nc_jf">
+    <li>Access to product testers.</li>
+    <li>Access to end users. You can ask them questions, send out surveys, and use metrics from user
+     discussions to direct product decisions.</li>
+    <li>Access to people who write additional content for you. They will probably focus on edge
+     cases, and that is acceptable. You need to produce the basic technical content.</li>
+   </ul>
+  </p>
+  <section>
+   <title>Differentiating user content from official content</title>
+   <p>If you allow users to contribute content, be sure that user-contributed content is clearly
+    differentiated from corporate content<indexterm>user content<indexterm>differentiating from
+      official</indexterm></indexterm>.</p>
+  
+  <p>
+   <fig>
+     <title>User-added text is flagged with a change bar and an author name</title>
+     <image href="images/ducklings.png" id="image_l2z_tsk_tf" width="425"/>
+    </fig>
+  </p>
+  <p>This approach helps you to maintain the distinction between official content and user
+    content.</p>
+  </section>
+ </conbody>
+</concept>
