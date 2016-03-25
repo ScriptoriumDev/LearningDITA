@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
- <title>Advanced bookmap concepts</title>
- <topicref href="../topics/lc_advanced_bookmaps.dita">
+ <title>Advanced DITAmap concepts</title>
+ <topicref href="../topics/lc_advanced_ditamaps.dita">
   <topicmeta lockmeta="yes">
    <data name="lesson_id" value=""/>
   </topicmeta>
   <!--  <topicref href="../topics/lc_creating_new_ref.dita"/>
   <topicref href="../topics/lc_adding_refsyn.dita"/>
   <topicref href="../topics/lc_adding_properties.dita"/>-->
+  <topicref href="../topics/lc_map_metadata.dita"/>
+  <topicref href="../topics/lc_bookmap_metadata.dita"/>
   <topicref href="../topics/lcc_assessment.dita" copy-to="lcc_advanced_bookmaps.dita"
    locktitle="yes">
    <topicmeta>
-    <navtitle>Assessment for Advanced bookmap concepts</navtitle>
+    <navtitle>Assessment for Advanced DITAmap concepts</navtitle>
    </topicmeta>
    <!--   <topicref href="../assessments/creating_ref/lca_body.dita"/>
    <topicref href="../assessments/creating_ref/lca_properties.dita"/>
