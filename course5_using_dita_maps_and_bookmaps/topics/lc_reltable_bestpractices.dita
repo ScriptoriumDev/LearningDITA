@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
 <learningContent id="lc_reltable_bestpractices">
+    <!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
     <title>Best practices for relationship tables</title>
     <prolog>
         <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
@@ -10,6 +16,35 @@
         </critdates>
     </prolog>
     <learningContentbody>
-        <lcIntro/>
+        <section>
+            <title>Consider the number of columns</title>
+            <p>Although the relationship table can contain any number of columns, too many columns
+                can make the relationship table difficult to edit. </p>
+            <p>If multiple columns cannot be avoided, one alternative is to create multiple
+                relationship tables with different columns for different sets of relationships. As
+                stated earlier: column order or relative position has no meaning in relationship
+                tables. </p>
+        </section>
+        <section>
+            <title>Consider the number of topicref elements in a cell</title>
+            <p>The &lt;relcell> element can contain any number of &lt;topicref> elements, however a
+                large number of &lt;topicref> elements in a &lt;relcell> gets to be very difficult
+                to read (whether viewed in text or author mode of your DITA editor). </p>
+            <p>If you find a &lt;relrow> is getting crowded, create one or more new &lt;relrow>
+                elements and distribute the &lt;topicref> elements among the rows.</p>
+        </section>
+        <section>
+            <title>Reuse and relationship tables</title>
+            <p>A map can contain any number of relationship tables. When the relationship tables are
+                processed, the contents of the relationship tables are usually seen as a single
+                collection (depending out the output processor and the intent of the relationship
+                table). Thus, if you have a block of topics that are reused across a number of
+                different maps, you can create a submap of those topics and create a relationship
+                table that is specific to those topics. When the submap is included with a
+                &lt;mapref>, the relationship table will be included, also. </p>
+            <p>You can apply filtering to relationship tables, using DITA filtering attributes.
+                Individual rows in the relationship table can be filtered, or you can divide rows
+                among multiple relationship tables and then filter on the tables. </p>
+        </section>
     </learningContentbody>
 </learningContent>
