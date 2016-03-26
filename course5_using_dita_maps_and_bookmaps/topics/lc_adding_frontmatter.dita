@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_lwj_t3w_kv">
+    <title>Adding frontmatter and backmatter to a bookmap</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <critdates>
+            <created date="2016-03-07"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>The &lt;frontmatter> and &lt;backmatter> elements are optional in a bookmap. Use them
+                to contain information about the document that appears before or after the main body
+                content, respectively. The &lt;frontmatter> element must appear before the first
+                &lt;chapter> element but after the &lt;bookmeta> element, if present. The
+                &lt;backmatter> element must appear before the &lt;reltable> element but after the
+                &lt;appendix> element, if present.</p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_t55_thx_kv">
+        <title/>
+        <taskbody>
+            <steps>
+                <step>
+                    <cmd/>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>
