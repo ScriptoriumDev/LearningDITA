@@ -34,7 +34,7 @@
                 can also use metadata to add semantic value to each topic or map reference within a
                 map. One of the most useful examples of this is by adding a navigation title, which
                 overrides the title of a topic with a different title that may be more appropriate
-                for use in a table of contents or website navigation.</p>
+                for use in a table of contents or website navigation, and will be covered in detail later.</p>
             <p>You can use metadata at the topic reference level to override metadata that already
                 exists in the referenced topic. For example, if a referenced topic contains a
                 &lt;prolog> or &lt;shortdesc> element, the metadata you add for that topic reference
@@ -57,12 +57,6 @@
                 </li>
                 <li>
                     <p>&lt;category></p>
-                </li>
-                <li>
-                    <p>
-                        <draft-comment author="gretyl">Any others that our audience would find
-                            important/useful?</draft-comment>
-                    </p>
                 </li>
             </ul>
             <p>The &lt;metadata> element, which can also contain most of these same metadata-related

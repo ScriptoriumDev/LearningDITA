@@ -15,9 +15,13 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>In the title of a topic in a map or bookmap is insufficient for an entry in a table
-                of contents, you can use the &lt;navtitle; element to specify a different title to
-                appear in its place. In the body, the original title will be used.</p>
+            <p>Occasionally, the title of a topic will lack sufficient context to be useful if it
+                appears within a table of contents. If it is important that this topic appear within
+                your table of contents, like a topic about a specific command in a chapter that
+                lists several of them in sequence, use a &lt;navtitle> element to specify a more
+                appropriate title.</p>
+            <p>In the main body of text, the original title will appear instead of the one used in
+                the &lt;navtitle></p>
         </lcInstruction>
     </learningContentbody>
     <task id="task_cwx_c3x_kv">

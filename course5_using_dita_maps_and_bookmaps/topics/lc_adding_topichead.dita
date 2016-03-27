@@ -16,9 +16,12 @@
     <learningContentbody>
         <lcInstruction>
             <p>The &lt;topichead> element allows you to specify a title-only entry in a map that
-                applies to one or more topics.. The &lt;topichead> element requires either a
-                navtitle attribute or a &lt;navtitle> element within a &lt;topicmeta> element. The
-                title will appear within a table of contents or as a header within the text.</p>
+                applies to one or more topics. The &lt;topichead> element requires either a navtitle
+                attribute or a &lt;navtitle> element within a &lt;topicmeta> element. The title will
+                appear within a table of contents or as a header within the text.</p>
+            <p>This is useful because it allows you to group topics together that are contextually
+                related without implying a hierarchical relationship, and prevents you from having
+                to create a container topic to create a title.</p>
         </lcInstruction>
     </learningContentbody>
     <task id="task_qff_13x_kv">

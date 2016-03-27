@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_lwj_t3w_kv">
-    <title>Adding frontmatter and backmatter to a bookmap</title>
+    <title>Frontmatter, backmatter, and booklists</title>
     <prolog>
         <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
             Scriptorium</author>
@@ -21,6 +21,15 @@
                 &lt;chapter> element but after the &lt;bookmeta> element, if present. The
                 &lt;backmatter> element must appear before the &lt;reltable> element but after the
                 &lt;appendix> element, if present.</p>
+            <p>These elements can contain various content, but are most commonly used to contain the
+                &lt;booklists> element. This element is a container used to indicate to the
+                processor that you want a list of a specific type in that location. Common lists
+                include:</p>
+            <ul>
+                <li><p>&lt;toc></p></li>
+                <li><p>&lt;indexlist></p></li>
+                <li><p>&lt;glossarylist></p></li>
+            </ul>
         </lcInstruction>
     </learningContentbody>
     <task id="task_t55_thx_kv">
