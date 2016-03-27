@@ -19,23 +19,23 @@
      the &lt;bookmap> element.</lcQuestion>
     <lcSequenceOptionGroup id="lcSequenceOptionGroup_qyy_lny_kv">
      <lcSequenceOption>
-      <lcAnswerContent>&lt;booktitle></lcAnswerContent>
+      <lcAnswerContent>&lt;booktitle>&lt;bookmap></lcAnswerContent>
       <lcSequence value="1"/>
      </lcSequenceOption>
      <lcSequenceOption>
-      <lcAnswerContent>&lt;bookmeta></lcAnswerContent>
+      <lcAnswerContent>&lt;bookmeta>&lt;bookmeta></lcAnswerContent>
       <lcSequence value="2"/>
      </lcSequenceOption>
      <lcSequenceOption>
-      <lcAnswerContent>&lt;frontmatter></lcAnswerContent>
+      <lcAnswerContent>&lt;frontmatter>&lt;frontmatter></lcAnswerContent>
       <lcSequence value="3"/>
      </lcSequenceOption>
      <lcSequenceOption>
-      <lcAnswerContent>&lt;chapter></lcAnswerContent>
+      <lcAnswerContent>&lt;chapter>&lt;chapter></lcAnswerContent>
       <lcSequence value="4"/>
      </lcSequenceOption>
      <lcSequenceOption>
-      <lcAnswerContent>&lt;backmatter></lcAnswerContent>
+      <lcAnswerContent>&lt;backmatter>&lt;backmatter></lcAnswerContent>
       <lcSequence value="5"/>
      </lcSequenceOption>
     </lcSequenceOptionGroup>
