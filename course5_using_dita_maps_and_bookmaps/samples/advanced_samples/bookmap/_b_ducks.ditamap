@@ -48,8 +48,10 @@
     </chapter>
     
     <backmatter>
-        <mapref href="g_duck_glossorg.ditamap" format="ditamap"/>
         <booklists>
+            <glossarylist>
+                <mapref href="g_duck_glossgroup.dita"/>
+            </glossarylist>
             <indexlist/>
         </booklists>
     </backmatter>
