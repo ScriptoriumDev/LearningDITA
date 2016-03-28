@@ -49,12 +49,6 @@
                 <li>
                     <p>&lt;bookid></p>
                 </li>
-                <li>
-                    <p>
-                        <draft-comment author="gretyl">Any others that our audience would find
-                            important/useful?</draft-comment>
-                    </p>
-                </li>
             </ul><p>The &lt;bookmeta> element is optional in the bookmap structure. If you use it,
                 it must be placed after the &lt;booktitle> element and before the &lt;frontmatter>
                 element. The structure of the &lt;bookmeta> element might look something like
@@ -98,7 +92,7 @@
                 element.</p><note>
                 <p>This lesson covers basic use of the &lt;bookmeta> element and the elements it
                     contains. For the full specifications for each element, see the <xref
-                        href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/concept.html"
+                        href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/bookmeta.html"
                         format="html" scope="external">OASIS DITA Version 1.2 Standard</xref>.</p>
             </note></lcInstruction>
     </learningContentbody>
@@ -162,7 +156,7 @@
                 </step>
                 <step>
                     <cmd>Inside the &lt;topicref> element that links to c_writing_about_ducks.dita,
-                        add a &lt;topicmeta> element and add content to it as shown in the following
+                        add a locktitle attribute and &lt;topicmeta> element and add content to it as shown in the following
                         example:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
@@ -170,8 +164,8 @@
 &lt;bookmap id="ducks">
 ...
 &lt;chapter href="c_duckdb.dita">
-&lt;topicref href="c_writing_about_ducks.dita" locktitle="yes">
-<ph outputclass="newchanged">&lt;topicmeta>
+<ph outputclass="newchanged">&lt;topicref href="c_writing_about_ducks.dita" locktitle="yes">
+&lt;topicmeta>
 &lt;navtitle>add command&lt;/navtitle>
 &lt;/topicmeta></ph>
 &lt;/topicref>

@@ -34,7 +34,8 @@
                 can also use metadata to add semantic value to each topic or map reference within a
                 map. One of the most useful examples of this is by adding a navigation title, which
                 overrides the title of a topic with a different title that may be more appropriate
-                for use in a table of contents or website navigation.</p>
+                for use in a table of contents or website navigation, and will be covered in detail
+                later.</p>
             <p>You can use metadata at the topic reference level to override metadata that already
                 exists in the referenced topic. For example, if a referenced topic contains a
                 &lt;prolog> or &lt;shortdesc> element, the metadata you add for that topic reference
@@ -58,12 +59,6 @@
                 <li>
                     <p>&lt;category></p>
                 </li>
-                <li>
-                    <p>
-                        <draft-comment author="gretyl">Any others that our audience would find
-                            important/useful?</draft-comment>
-                    </p>
-                </li>
             </ul>
             <p>The &lt;metadata> element, which can also contain most of these same metadata-related
                 elements, is allowed inside the &lt;topicmeta> element, as well.</p>
@@ -78,9 +73,9 @@
 &lt;category>Category name&lt;/category>
 &lt;/topicmeta></pre>
             <note>
-                <p>This lesson covers basic use of the &lt;mapref> element and the elements it
+                <p>This lesson covers basic use of the &lt;topicmeta> element and the elements it
                     contains. For the full specifications for each element, see the <xref
-                        href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/concept.html"
+                        href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicmeta.html"
                         format="html" scope="external">OASIS DITA Version 1.2 Standard</xref>.</p>
             </note>
         </lcInstruction>
@@ -101,22 +96,23 @@
 &lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 &lt;map id="ducks">
 &lt;title>Ducks&lt;/title>
-<ph outputclass="newchanged">&lt;topicmeta>&lt;/topicmeta></ph>
+<ph outputclass="newchanged">&lt;topicmeta>
+    &lt;critdates>
+      &lt;created date="2016-03-25"/>
+      &lt;category>Sample&lt;/category>
+  &lt;/topicmeta></ph>
+...
 &lt;/map></pre>
                     </stepxmp>
                     <info>The &lt;topicmeta> element you just added establishes the following
                         map-level metadata:<ul id="ul_tyt_qds_3v">
-                            <li>
-                                <p>
-                                    <draft-comment author="gretyl">Fill out this list based on
-                                        updated sample file</draft-comment>
-                                </p>
-                            </li>
+                            <li><p>The map was created on Marche 25, 2016</p></li>
+                            <li><p>This is a sample map</p></li>
                         </ul></info>
                 </step>
                 <step>
-                    <cmd>Inside the &lt;topicref> element that links to c_writing_about_ducks.dita,
-                        add a &lt;topicmeta> element and add content to it as shown in the following
+                    <cmd>Inside the &lt;topicref> element that links to c_duckdb.dita, add a
+                        &lt;topicmeta> element and add content to it as shown in the following
                         example:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
@@ -124,22 +120,22 @@
 &lt;map id="ducks">
 &lt;title>Ducks&lt;/title>
 ...
-&lt;topicref href="c_writing_about_ducks.dita" locktitle="yes">
+&lt;topicref href="c_duckdb.dita">
 <ph outputclass="newchanged">&lt;topicmeta>
-&lt;navtitle>add command&lt;/navtitle>
+&lt;audience type="user" experiencelevel="expert"/>
 &lt;/topicmeta></ph>
 &lt;/topicref>
+...
 &lt;/map></pre>
                     </stepxmp>
                     <info>The &lt;topicmeta> element you just added establishes the following
                         topic-level metadata:<ul id="ul_r1r_sds_3v">
                             <li>
-                                <p>
-                                    <draft-comment author="gretyl">Fill out this list based on
-                                        updated sample file</draft-comment>
-                                </p>
+                                <p>This section is intended for users of the Duck Database</p>
                             </li>
-                        </ul></info>
+                            <li><p>This section is intended for expert users</p></li>
+                        </ul>
+                    </info>
                 </step>
                 <step>
                     <cmd>Inside the &lt;mapref> element that links to g_duck_glossorg.ditamap, add a
@@ -160,12 +156,10 @@
                     <info>The &lt;topicmeta> element you just added establishes the following
                             metadata:<ul id="ul_ekq_yds_3v">
                             <li>
-                                <p>
-                                    <draft-comment author="gretyl">Fill out this list based on
-                                        updated sample file</draft-comment>
-                                </p>
+                                <p>The file format of a referenced topic is a ditamap</p>
                             </li>
-                        </ul></info>
+                        </ul>
+                    </info>
                 </step>
             </steps>
         </taskbody>
