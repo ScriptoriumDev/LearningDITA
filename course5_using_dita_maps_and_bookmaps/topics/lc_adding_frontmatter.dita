@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_lwj_t3w_kv">
+    <title>Frontmatter, backmatter, and booklists</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <critdates>
+            <created date="2016-03-07"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>The &lt;frontmatter> and &lt;backmatter> elements are optional in a bookmap. Use them
+                to contain information about the document that appears before or after the main body
+                content, respectively. The &lt;frontmatter> element must appear before the first
+                &lt;chapter> element but after the &lt;bookmeta> element, if present. The
+                &lt;backmatter> element must appear before the &lt;reltable> element but after the
+                &lt;appendix> element, if present.</p>
+            <p>These elements can contain various content, but are most commonly used to contain the
+                &lt;booklists> element. This element is a container used to indicate to the
+                processor that you want a list of a specific type in that location. Common lists
+                include:</p>
+            <ul>
+                <li><p>&lt;toc></p></li>
+                <li><p>&lt;indexlist></p></li>
+                <li><p>&lt;glossarylist></p></li>
+            </ul>
+            <p>The &lt;toc> element will generate a table of contents where it is placed. No special
+                elements are required, as the hierarchical structure of the map will be used.</p>
+            <p>The &lt;indexlist> element will generate an index where it is placed. The processor
+                will use &lt;indexterm> elements to generate the index. If there are no
+                &lt;indexterms> in the document, no index entries will be created.</p>
+            <p>The &lt;glossarylist> element can contain either one or more &lt;topicref> elements
+                linking to glossary entries or one or more &lt;mapref> elements linking to glossary
+                maps. Glossary entries and glossary maps may be used outside of a &lt;glossarylist>,
+                but grouping them within a &lt;glossarylist> allows you to filter and format them
+                more uniformly.</p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_t55_thx_kv">
+        <title/>
+        <taskbody>
+            <steps>
+                <step>
+                    <cmd>Continue using the file advanced_samples/bookmap/_b_ducks.ditamap</cmd>
+                </step>
+                <step>
+                    <cmd>After the &lt;bookmeta> element, add a &lt;frontmatter> element and add
+                        content to it as follows.</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+&lt;bookmap id="ducks">
+...
+&lt;/bookmeta>
+&lt;frontmatter>
+&lt;booklists>
+&lt;toc/>
+&lt;/booklists>
+&lt;/frontmatter></pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>After the final &lt;chapter> element, add a &lt;backmatter> element and add
+                        content to it as follows.</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+&lt;bookmap id="ducks">
+...
+&lt;/chapter>
+
+&lt;backmatter>
+&lt;booklists>
+&lt;glossarylist>
+&lt;mapref href="g_duck_glossgroup.dita"/>
+&lt;/glossarylist>
+&lt;indexlist/>
+&lt;/booklists>
+&lt;/backmatter></pre>
+                    </stepxmp>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

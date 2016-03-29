@@ -139,4 +139,80 @@
             </steps>
         </taskbody>
     </task>
+    <task id="task_mgj_3xt_lv">
+        <title>Exercise</title>
+        <taskbody>
+            <steps id="steps_exercise_bookmaps">
+                <step>
+                    <cmd>Open the file map_exercises/_b_cs101_start.ditamap and use it to assemble
+                        topics from <xref href="http://contentstrategy101.com/" format="html"
+                            scope="external">Content Strategy 101</xref> into a DITA map, using the
+                        following table of contents structure as a guide:</cmd>
+                    <info>
+                        <pre outputclass="passthru"><![CDATA[
+                            <hr />
+                            <ul>
+                            <li><strong>Chapter 1: Controlling technical communication costs</strong>
+                                <ul>
+                                <li>The fallacy of low-cost documentation</li>
+                                <li>Efficient technical content development</li>
+                                <li>Reducing the cost of technical support
+                                    <ul>
+                                    <li>Better technical information, fewer support calls</li>
+                                    <li>More efficient support operations</li>
+                                    </ul>
+                                </li>
+                                <li>Content collaboration across the organization
+                                    <ul>
+                                    <li>“Collaboration” ≠ “content free-for-all”</li>
+                                    </ul>
+                                </li>
+                                </ul>
+                            </li>
+                            <li><strong>Chapter 2: Marketing and product visibility</strong>
+                                <ul>
+                                <li>Supporting marketing with technical content
+                                    <ul>
+                                    <li>Reinforcing the marketing message</li>
+                                    <li>When technical content contradicts marketing</li>
+                                    </ul>
+                                </li>
+                                </ul>
+                                <ul>
+                                <li>Increasing product visibility
+                                    <ul>
+                                    <li>Third-party books</li>
+                                    </ul>
+                                </li>
+                                </ul>
+                                <ul>
+                                <li>Building user community and loyalty
+                                    <ul>
+                                    <li>Extending the game experience into content</li>
+                                    </ul>
+                                </li>
+                                </ul>
+                            </li>
+                            <li><strong>Chapter 3: Legal and regulatory issues</strong>
+                                <ul>
+                                <li>Avoiding legal exposure</li>
+                                <li>Meeting regulatory requirements
+                                    <ul>
+                                    <li>Information delivery</li>
+                                    <li>Technical standards</li>
+                                    </ul>
+                                </li>
+                                </ul>
+                            </li>
+                            </ul>
+                            <hr/>]]></pre>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Check your file map_exercises/_b_cs101_start.ditamap against the sample
+                        file map_exercises/_b_cs101.ditamap.</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
 </learningContent>

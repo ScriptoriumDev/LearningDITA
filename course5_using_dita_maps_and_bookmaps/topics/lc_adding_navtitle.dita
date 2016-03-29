@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_qns_trw_kv">
+    <title>Adding a navtitle to a bookmap</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <critdates>
+            <created date="2016-03-07"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Occasionally, the title of a topic will lack sufficient context to be useful if it
+                appears within a table of contents. If it is important that this topic appear within
+                your table of contents, like a topic about a specific command in a chapter that
+                lists several of them in sequence, use a &lt;navtitle> element to specify a more
+                appropriate title.</p>
+            <p>In the main body of text, the original title will appear instead of the one used in
+                the &lt;navtitle></p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_cwx_c3x_kv">
+        <title/>
+        <taskbody>
+            <steps>
+                <step>
+                    <cmd>Continue using the file advanced_samples/bookmap/_b_ducks.ditamap</cmd>
+                </step>
+                <step>
+                    <cmd>Inside the opening &lt;topicref> tag that links to r_tnav.dita, add a
+                        locktitle attribute and set it to "yes" as shown:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+&lt;bookmap id="ducks">
+...
+<ph outputclass="newchanged">&lt;topicref href="r_tnav.dita" locktitle="yes"/></ph>
+...
+&lt;/bookmap></pre>
+                    </stepxmp>
+                    <info><note>If you want the navtitle to be used in the table of contents rather
+                            than the title, you must set this attribute to "yes." Setting it to "no"
+                            or omitting it will result in the navtitle not being used.</note></info>
+                </step>
+                <step>
+                    <cmd>Inside the &lt;topicref> element that links to c_writing_about_ducks.dita,
+                        add a &lt;topicmeta> element and add content to it as shown in the following
+                        example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+&lt;bookmap id="ducks">
+...
+&lt;topicref href="r_tnav.dita" locktitle="yes">
+&lt;topicmeta>
+<ph outputclass="newchanged">&lt;navtitle>The tNav command&lt;/navtitle>
+&lt;/topicmeta></ph>
+&lt;/topicref>
+...
+&lt;/bookmap></pre>
+                    </stepxmp>
+                    <info>Now that you've specified a navtitle, the phrase "The tNav command" will
+                        appear in the table of contents instead of the title in that topic, which is
+                        simply "tNav."</info>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>
