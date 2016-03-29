@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_vlq_hbm_dg">
+ <title>Information delivery</title>
+ <conbody>
+  <p><indexterm>regulatory<indexterm>information
+     delivery</indexterm></indexterm><indexterm>information<indexterm>delivery for regulatory
+     requirements</indexterm></indexterm>To ensure that you meet regulatory requirements for
+   information delivery, you need to know what content must be included in your information
+   products. This varies greatly by industry, regulatory agency, and locale. (For example, the
+   European Union may have different rules than the United States.)</p>
+  <p>Once you determine the content requirements, you need a content strategy that ensures that you
+   always deliver the required content. For new drug applications, for example, you may be required
+   to include detailed information about clinical trials in a specific format. That implies advance
+   planning years before the application is submitted to an entity like the U.S. Food and Drug
+   Administration.</p>
+  <p>From a content strategy point of view, you want to make sure that the appropriate information
+   is being collected, and is available to be processed into the information product required by the
+   regulatory body.</p>
+  <p>Although reuse is encouraged in most technical content, it may be problematic in regulatory
+   submissions because you do not want to change a document that has already been submitted.
+   Therefore, you may need to break the link between the original file and the reused content to
+   ensure that any updates do not change the source document.</p>
+  <p>Some compliance requirements can affect content strategy. The most critical ones are:<ul
+    id="ul_gzv_ymz_1h">
+    <li><indexterm>audit trail</indexterm><i>Audit trails for content changes and reviews.</i> You
+     may need a system that allows you to audit changes after the fact. Some organizations use
+     cumbersome manual processes to create audit trails, but software is available that can automate
+     this process.</li>
+    <li><indexterm>change tracking</indexterm><i>Change tracking.</i> You may need the ability to
+     deliver content updates with all changes marked so that regulators can easily identify
+     differences from one version to the next.</li>
+    <li><indexterm>traceability</indexterm><i>Traceability.</i> You may need to be able to show the
+     roots of each piece of content, so that you can justify its accuracy.</li>
+   </ul></p>
+ </conbody>
+</concept>
