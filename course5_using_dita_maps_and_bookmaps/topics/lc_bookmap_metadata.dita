@@ -101,7 +101,8 @@
         <taskbody>
             <steps id="steps_umd_lgd_3v">
                 <step>
-                    <cmd>Continue using the file bookmap_samples/_b_ducks_start.ditamap.</cmd>
+                    <cmd>Make a copy of the file advanced_samples/map/_b_ducks_start.ditamap and open it in
+                        your editor.</cmd>
                 </step>
                 <step>
                     <cmd>Inside the &lt;bookmap> element, after the closing tag of the
@@ -113,16 +114,31 @@
 &lt;bookmap id="ducks">
 ...
 &lt;/booktitle>
-<ph outputclass="newchanged">&lt;bookmeta>&lt;/bookmeta></ph>
+<ph outputclass="newchanged">  &lt;bookmeta>
+    &lt;author>Your Name Here&lt;/author>
+    &lt;bookrights>
+      &lt;copyrfirst>
+        &lt;year>2015&lt;/year>
+      &lt;/copyrfirst>
+      &lt;copyrlast>
+        &lt;year>2016&lt;/year>
+      &lt;/copyrlast>
+      &lt;bookowner>
+        &lt;organization>BookCo&lt;/organization>
+      &lt;/bookowner>
+    &lt;/bookmeta></ph>
 &lt;/bookmap></pre>
                     </stepxmp>
                     <info>The &lt;bookmeta> element you just added establishes the following
                         bookmap-level metadata:<ul id="ul_tyt_qds_3v">
                             <li>
-                                <p>
-                                    <draft-comment author="gretyl">Fill out this list based on
-                                        updated sample file</draft-comment>
-                                </p>
+                                <p>You authored this book</p>
+                            </li>
+                            <li>
+                                <p>The initial copyright was in 2015, and was renewed in 2016</p>
+                            </li>
+                            <li>
+                                <p>The book was produced by BookCo</p>
                             </li>
                         </ul></info>
                 </step>
@@ -147,38 +163,7 @@
                     <info>The &lt;topicmeta> element you just added establishes the following
                         topic-level metadata:<ul id="ul_xfr_jgz_3v">
                             <li>
-                                <p>
-                                    <draft-comment author="gretyl">Fill out this list based on
-                                        updated sample file</draft-comment>
-                                </p>
-                            </li>
-                        </ul></info>
-                </step>
-                <step>
-                    <cmd>Inside the &lt;topicref> element that links to c_writing_about_ducks.dita,
-                        add a locktitle attribute and &lt;topicmeta> element and add content to it as shown in the following
-                        example:</cmd>
-                    <stepxmp>
-                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
-&lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
-&lt;bookmap id="ducks">
-...
-&lt;chapter href="c_duckdb.dita">
-<ph outputclass="newchanged">&lt;topicref href="c_writing_about_ducks.dita" locktitle="yes">
-&lt;topicmeta>
-&lt;navtitle>add command&lt;/navtitle>
-&lt;/topicmeta></ph>
-&lt;/topicref>
-&lt;/chapter>
-&lt;/bookmap></pre>
-                    </stepxmp>
-                    <info>The &lt;topicmeta> element you just added establishes the following
-                        topic-level metadata:<ul id="ul_r1r_sds_3v">
-                            <li>
-                                <p>
-                                    <draft-comment author="gretyl">Fill out this list based on
-                                        updated sample file</draft-comment>
-                                </p>
+                                <p>This chapter pertains to wild ducks</p>
                             </li>
                         </ul></info>
                 </step>

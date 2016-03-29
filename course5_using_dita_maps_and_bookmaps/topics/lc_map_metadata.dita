@@ -85,7 +85,8 @@
         <taskbody>
             <steps id="steps_umd_lgd_3v">
                 <step>
-                    <cmd>Continue using the file map_samples/_m_ducks_start.ditamap.</cmd>
+                    <cmd>Make a copy of the file advanced_samples/map/_m_ducks_start.ditamap and open it in
+                        your editor.</cmd>
                 </step>
                 <step>
                     <cmd>Inside the &lt;map> element, after the &lt;title> element, add a
