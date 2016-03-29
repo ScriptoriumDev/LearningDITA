@@ -71,4 +71,88 @@
             </steps>
         </taskbody>
     </task>
+    <task id="task_advanced">
+        <title>Exercise</title>
+        <taskbody>
+            <steps id="steps_exercise_advanced">
+                <step>
+                    <cmd>Open the file advanced_exercises/bookmap/_b_cs101_start.ditamap and use it
+                        add metadata, frontmatter, and backmatter to the bookmap for <xref
+                            href="http://contentstrategy101.com/" format="html" scope="external"
+                            >Content Strategy 101</xref>, using the following bookmap structure as a
+                        guide:</cmd>
+                    <info>
+                        <pre outputclass="passthru"><![CDATA[
+                            <hr />
+                            <p><strong>Author:</strong> Sarah O'Keefe</p>
+                            <p><strong>Author:</strong> Alan S. Pringle</p>
+                            <p><strong>Publisher:</strong> Scriptorium Publishing Services, Inc.</p>
+                            <p><strong>Created:</strong> 2012</p>
+                            <p><strong>Revised:</strong> 2014</p>
+                            <p><strong>Table of Contents:</strong></p>
+                            <ul>
+                            <li><strong>Chapter 1: Controlling technical communication costs</strong>
+                                <ul>
+                                <li>The fallacy of low-cost documentation</li>
+                                <li>Efficient technical content development</li>
+                                <li>Reducing the cost of technical support
+                                    <ul>
+                                    <li>Better technical information, fewer support calls</li>
+                                    <li>More efficient support operations</li>
+                                    </ul>
+                                </li>
+                                <li>Content collaboration across the organization
+                                    <ul>
+                                    <li>“Collaboration” ≠ “content free-for-all”</li>
+                                    </ul>
+                                </li>
+                                </ul>
+                            </li>
+                            <li><strong>Chapter 2: Marketing and product visibility</strong>
+                                <ul>
+                                <li>Supporting marketing with technical content
+                                    <ul>
+                                    <li>Reinforcing the marketing message</li>
+                                    <li>When technical content contradicts marketing</li>
+                                    </ul>
+                                </li>
+                                </ul>
+                                <ul>
+                                <li>Increasing product visibility
+                                    <ul>
+                                    <li>Third-party books</li>
+                                    </ul>
+                                </li>
+                                </ul>
+                                <ul>
+                                <li>Building user community and loyalty
+                                    <ul>
+                                    <li>Extending the game experience into content</li>
+                                    </ul>
+                                </li>
+                                </ul>
+                            </li>
+                            <li><strong>Chapter 3: Legal and regulatory issues</strong>
+                                <ul>
+                                <li>Avoiding legal exposure</li>
+                                <li>Meeting regulatory requirements
+                                    <ul>
+                                    <li>Information delivery</li>
+                                    <li>Technical standards</li>
+                                    </ul>
+                                </li>
+                                </ul>
+                            </li>
+                            </ul>
+                            <p><strong>Index:</strong></p>
+                            <hr/>]]></pre>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Check your file advanced_exercises/bookmap/_b_cs101_start.ditamap against
+                        the sample file advanced_exercises/bookmap/_b_cs101.ditamap.</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
 </learningContent>
