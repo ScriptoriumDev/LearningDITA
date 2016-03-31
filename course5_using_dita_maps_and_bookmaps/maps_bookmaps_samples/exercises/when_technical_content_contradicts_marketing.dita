@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_qvz_qfy_jf">
+ <title>When technical content contradicts marketing</title>
+ <conbody>
+
+
+   <p><indexterm>marketing<indexterm>contradicted by technical
+    content</indexterm></indexterm><indexterm>technical content<indexterm>contradicting
+     marketing</indexterm></indexterm><indexterm>contradictory information<indexterm>marketing and
+     technical
+    content</indexterm></indexterm><indexterm>content<indexterm>contradictory</indexterm></indexterm>If
+   your technical content contradicts your intended marketing message, you are in good company. Many
+   organizations have this problem, often because of these factors:</p>
+   <p>
+    <ul id="ul_tmc_rs2_rf">
+     <li>Marketing and technical communication groups are in different parts of the
+      organization.</li>
+     <li>Marcom and tech comm do not coordinate their efforts.</li>
+     <li>Marcom and tech comm staff do not respect each others’ work. (Marcom tends to view tech
+     comm as a bunch of introverted nerds who can’t communicate normally; tech comm thinks that
+     marcom is full of liars who don’t understand technology. Neither stereotype is
+      <i>completely</i> incorrect.)</li>
+     <li>Executive management does not believe that technical content is relevant to market
+      positioning.</li>
+     <li>Technical content creators cling to outdated but familiar ways of delivering content.</li>
+    </ul>
+   </p>
+   <p><indexterm>marketing<indexterm>aligning with technical
+    content</indexterm></indexterm><indexterm>technical content<indexterm>aligning with
+     marketing</indexterm></indexterm><indexterm>aligning marketing and technical
+    content</indexterm>In this situation, you need to align the technical content with the marketing
+   message by changing the message, changing the content, or both. Until this happens, your
+   marketing efforts will be undermined.<table frame="all" id="table_zb5_rm2_rf">
+    <title>Aligning technical content with the marketing message</title>
+    <tgroup cols="3">
+     <colspec colname="c1" colnum="1" colwidth="1*"/>
+     <colspec colname="newCol2" colnum="2" colwidth="2*"/>
+     <colspec colname="c2" colnum="3" colwidth="2*"/>
+     <thead>
+      <row>
+       <entry>Marketing message</entry>
+       <entry>Misaligned content</entry>
+       <entry>Aligned content</entry>
+      </row>
+     </thead>
+     <tbody>
+      <row>
+       <entry>Easy to use</entry>
+       <entry>User documentation is convoluted and full of obscure jargon</entry>
+       <entry>User documentation is easy to understand</entry>
+      </row>
+      <row>
+       <entry>Easy to install</entry>
+       <entry>Installation guide is 100 pages</entry>
+       <entry>Installation process and guide are short</entry>
+      </row>
+      <row>
+       <entry>Cutting edge</entry>
+       <entry>Technical content is delivered in a three-ring binder</entry>
+       <entry>Technical content is delivered in lots of different formats (text, audio, video,
+        mobile, ebooks)</entry>
+      </row>
+      <row>
+       <entry>Personalized</entry>
+       <entry>Technical content is generic</entry>
+       <entry>Technical content is customized for different readers</entry>
+      </row>
+      <row>
+       <entry>Powerful</entry>
+       <entry>No advanced information in the technical content</entry>
+       <entry>Detailed technical content, customization scenarios, software API
+        documentation</entry>
+      </row>
+      <row>
+       <entry>Fun</entry>
+       <entry>Content is ugly (or uses default templates), boring, and has no visual appeal</entry>
+       <entry>Creative delivery of technical content, such as comics, interesting visuals,
+        entertaining examples, or edgy graphic design</entry>
+      </row>
+      <row>
+       <entry>Global audience</entry>
+       <entry>Technical content is available in only one language</entry>
+       <entry>Technical content is available in customer languages</entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table></p>
+  
+ </conbody>
+</concept>

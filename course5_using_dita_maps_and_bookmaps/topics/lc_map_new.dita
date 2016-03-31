@@ -5,9 +5,9 @@
     <prolog>
         <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
             Scriptorium</author>
-        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
-            Scriptorium</author>
         <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
             Scriptorium</author>
         <critdates>
             <created date="2016-03-07"/>
@@ -15,19 +15,24 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>Maps are used to compile, organize, and define the relationships among DITA topics.
-                For example, a map might contain all of the concept and reference topics with
-                information about a single product, along with all the task topics that give
-                instructions for using that product, and a glossary of related terms. Although a
-                single topic can be published on its own, many authors collect topics in maps to
-                prepare them for publication.</p>
-            <p>Using maps can add flexibility and facilitate reuse in your publishing workflow. If
-                you have content that applies to multiple products, such as common safety
-                information, you can write that topic once and reference it in multiple maps. You
-                can also reference other maps within a map, which allows you to group related sets
-                of topics together (such as compiling maps for individual products into a single map
-                for a product family). Maps can also contain metadata, which can be used to help
-                your company distribute your content or your customers find it more easily.</p>
+            <p>Maps are used to compile, organize, and define the relationships
+                        among DITA topics. A map might contain the following:</p>
+            <ul id="ul_stb_33l_mv">
+                <li>
+                    <p>all of the concept and reference topics with information about a single product</p>
+                </li>
+                <li>
+                    <p>all of the task topics that give instructions for using that product</p>
+                </li>
+                <li>
+                    <p>a glossary of related terms</p>
+                </li>
+            </ul>
+            <p>Although a single DITA topic can be published on its own, many authors collect topics in maps to prepare them for publication.
+            </p>
+            <p>Using maps can add flexibility and facilitate reuse in your publishing workflow. If you have a topic with content that applies to multiple products (such as common safety information), you can write that topic once and reference it in multiple maps.</p>
+            <p>You can also reference other maps from within a map. This allows you to group related sets of topics together. For example, you might need to compile all the maps for individual products into a single map for a product family.</p>
+            <p>Maps can contain metadata, such as authors, copyright, and publication date. Metadata in maps can be used to help your company manage and distribute your content more effectively—or help your customers find the content they need more easily.</p>
             <p>At a minimum, a map must contain a root &lt;map> element. The &lt;map> element may
                 contain the following elements:</p>
             <ul id="ul_oc4_2fd_3v">
@@ -36,12 +41,12 @@
                         User Guide").</p>
                 </li>
                 <li>
-                    <p>Any number of &lt;topicref> elements, which allow you to link to topics that
+                    <p>Any number of &lt;topicref> elements, which allow you to reference topics that
                         should be included in the map. A &lt;topicref> element can contain other
                         &lt;topicref> elements.</p>
                 </li>
                 <li>
-                    <p>Any number of &lt;mapref> elements, which allow you to link to other maps
+                    <p>Any number of &lt;mapref> elements, which allow you to reference other maps
                         that should be included in the main map.</p>
                 </li>
                 <li>
@@ -49,15 +54,14 @@
                         define relationships in your content.</p>
                 </li>
                 <li>
-                    <p>The &lt;topicmeta> element, which defines map-level metadata. The
-                        &lt;topicref> elements in your map (along with most other map-level
-                        elements) can also contain a &lt;topicmeta> element.</p>
+                    <p>The &lt;topicref> elements in your map (along with most other map-level
+                        elements) may also contain a &lt;topicmeta> element.</p>
                 </li>
             </ul>
             <note>
-                <p>This lesson covers basic use of the &lt;map> element and the map-level elements
-                    it contains. For the full specifications for each element, see the <xref
-                        href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/concept.html"
+                <p>This lesson covers basic use of the &lt;map> element and the elements it
+                    contains. For the full specifications for each element, see the <xref
+                        href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/map.html"
                         format="html" scope="external">OASIS DITA Version 1.2 Standard</xref>.</p>
             </note>
         </lcInstruction>
@@ -67,8 +71,9 @@
         <taskbody>
             <steps id="steps_umd_lgd_3v">
                 <step>
-                    <cmd>Make a copy of the file map_samples/_m_ducks_start.ditamap and open it in
-                        your editor.</cmd>
+                    <cmd>Make a copy of the file
+                        maps_bookmaps_samples/samples/_m_ducks_start.ditamap and open it in your
+                        editor.</cmd>
                     <info>
                         <note>
                             <p>If you are using a DITA-aware text editor, make sure you are in text

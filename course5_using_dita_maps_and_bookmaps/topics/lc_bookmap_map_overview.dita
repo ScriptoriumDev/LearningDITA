@@ -5,9 +5,9 @@
     <prolog>
         <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
             Scriptorium</author>
-        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
-            Scriptorium</author>
         <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
             Scriptorium</author>
         <critdates>
             <created date="2016-03-07"/>
@@ -29,23 +29,9 @@
                 better if you plan to publish in both print and electronic formats.</p>
             <p>One of the main differences between bookmaps and maps is the ability to have chapters
                 in a bookmap. In a map, you can nest second-level topics under a first-level topic
-                to create a hierarchy. In a bookmap, you can designate these first-level topics as
-                container topics for chapters. Although the hierarchical structure of topics is the
-                same, there is added semantic value in calling a first-level topic and the topics
-                contained within it a chapter. When you publish the same set of topics in a map
-                versus a bookmap, your output transforms can apply different styling based on the
-                presence of chapters.</p>
-            <p>Bookmaps also give you much more flexible options than maps for defining metadata.
-                You can define metadata in the bookmap, in the frontmatter and backmatter, and in
-                each chapter, topic reference, or map reference you add to the bookmap. There are
-                more metadata elements available for bookmaps than there are for maps, and many of
-                these elements are specific to book-like structures and therefore better suited to
-                publishing your content.</p>
-            <p>A bookmap is a DITA map file that uses the &lt;bookmap> element rather than the
-                &lt;map> element as a container for its topic and map references. While maps and
-                bookmaps have a similar structure, a bookmap contains a different and more expansive
-                set of elements. This makes it more flexible and better suited to publishing larger
-                amounts of content in book format.</p>
+                to create a hierarchy. In a bookmap, you these first-level topics are designated as container topics for chapters. Although the hierarchical structure of topics is the same, there is added semantic value in calling the first-level topics chapters. When you publish the same set of topics in a bookmap instead of a map, your output transforms can apply different styling based on the presence of chapters.</p>
+            <p>Bookmaps also give you much more flexible options for defining metadata than maps. You can add metadata to the bookmap, to the frontmatter and backmatter, and to each chapter, topic reference, or map reference in the bookmap. There are more metadata elements available for bookmaps than there are for maps, and many of these elements are better suited to publishing book-like structures.
+            </p>
             <p><xref href="https://youtu.be/1zVA2Spuy_c" format="html" scope="external">Video:
                 DITA maps and bookmaps</xref></p>
         </lcInstruction>

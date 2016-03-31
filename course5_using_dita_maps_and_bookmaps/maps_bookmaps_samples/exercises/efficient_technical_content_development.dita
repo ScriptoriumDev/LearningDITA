@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_d1s_ylm_dg">
+ <title>Efficient technical content development</title>
+ <conbody>
+  <p>The process of creating technical information includes writing text, creating graphics,
+      recording audio, and the like. A basic prerequisite for good content strategy is that the
+      content should be of good quality—accurate, concise, and complete. </p>
+  <p><indexterm>tech comm<indexterm>efficient
+          development</indexterm></indexterm><indexterm>costs<indexterm>efficient
+          development</indexterm></indexterm><indexterm>controlling costs<indexterm>efficient
+          development</indexterm></indexterm><indexterm>content<indexterm>efficient
+          development</indexterm></indexterm><indexterm>efficient content development</indexterm>An
+      efficient workflow with professional technical communicators creating high-value information
+      is typically <i>the least expensive</i> option (better, faster, <i>and</i> cheaper). This
+      correlation is explained by the following factors:</p>
+  <p>
+   <ul id="ul_qwz_hp2_w2">
+    <li><indexterm>copy and paste</indexterm><i>Reuse versus copy and paste.</i> Copying and pasting
+          is quick and easy initially, but it is hard to maintain over time because of information
+          duplication. Formal reuse, where a linked copy of information appears in multiple places,
+          is easier to maintain. Given several thousand pages of content, the savings on content
+          maintenance add up quickly.</li>
+    <li><indexterm>formatting<indexterm>template</indexterm></indexterm><indexterm>template<indexterm>formatting</indexterm></indexterm><i>Formatting.</i>
+          “Quick-and-dirty” formatting is also unmaintainable. Investing in content standards, such
+          as templates, means that content creators spend more time writing and less time
+          formatting. Better tools also mean less time wrestling with pagination, tables of
+          contents, and similar components.</li>
+    <li><indexterm>automating localization and
+              production</indexterm><indexterm>production<indexterm>automation</indexterm></indexterm><i>Production.</i>
+          Instead of converting content from one format to another manually, a professional workflow
+          generates the proper outputs automatically. A one-time configuration effort replaces the
+          repeated conversion task.</li>
+    <li><indexterm>localization<indexterm>automation</indexterm></indexterm><i>Localization.</i>
+          Better-organized content and automated production result in much lower localization costs.
+          The “cheap way”—slamming everything into a word processor and throwing it over the transom
+          to the translation vendor—results in escalating translation costs because content must be
+          reformatted in every language. Also, translation costs skyrocket when source files for
+          content are duplicated to accommodate even slight variations in similar products;
+          systematic reuse of content eliminates the expense of translating shared content again and
+          again.</li>
+   </ul>
+  </p>
+  <p><indexterm>formatting<indexterm>workload</indexterm></indexterm>A rough estimate is that
+      writers spend around 20 percent of their time on formatting tasks in less-efficient content
+      development environments (although we have seen much higher numbers).</p>
+  <section><title>For mature audiences only</title><indexterm>content<indexterm>maturity
+          level</indexterm></indexterm><indexterm>maturity level of content process</indexterm>One
+      critical aspect of content development is to understand the maturity level of the process used
+      to develop the content:<p><ol id="ol_4kk_1w1_vf">
+          <li><indexterm>crap on a page</indexterm><i>Crap on a page.</i> There is no consistency in
+            content. For example, two white papers from the same company are formatted
+            inconsistently, are often badly written, and do not use consistent terminology. Two
+            audio files might be encoded differently or have wildly varying levels of audio
+            quality.</li>
+          <li><indexterm>design consistency</indexterm><i>Design consistency. </i>Content appearance
+            is consistent, but the methods used to achieve the look and feel vary. For example, two
+            HTML files might render the same way in a browser, but one uses a CSS file and the other
+            uses local overrides.</li>
+          <li><indexterm>template<indexterm>content based
+              on</indexterm></indexterm><i>Template-based content.</i> Content appearance is
+            consistent, and the methods used to achieve the look and feel are consistent. For
+            example, all HTML files use a common CSS file, or page layout files use the same
+            formatting template. Graphics are created, scaled, and rendered the same way.</li>
+          <li><indexterm>content<indexterm>structured</indexterm></indexterm><indexterm>structured<indexterm>content</indexterm></indexterm><i>Structured
+              content.</i> Content is validated against a template by the software. This usually
+            means that XML is the underlying file format. Information is organized in predictable,
+            consistent ways.</li>
+          <li><indexterm>database
+                publishing</indexterm><indexterm>content<indexterm>database</indexterm></indexterm><i>Content
+              in a database.</i> Information is stored in a database and can be searched and
+            manipulated in interesting ways.</li>
+        </ol>The bigger the gap between the current authoring environment and the environment needed
+        to implement your strategy, the more difficult the transition will be. For example, if your
+        content strategy requires structured content (level 4), and authors are currently producing
+        whatever they want (level 1), expect significant training challenges, change resistance, and
+        probably staff turnover.</p><p>A high maturity level for your process is the means, not the
+        end. The goal of your content development efforts is to support your business goals. A
+        mature process, indicated by template-based content, structured content, or database
+        publishing (levels 3–5), can support business goals because of the following:<ul
+          id="ul_2bz_q5c_vf">
+          <li>Consistency in development and delivery results in a consistent user experience for
+            the content consumer, which increases their trust in the product. Put another way, if
+            the documentation looks terrible for a premium product, the appearance of the
+            documentation undercuts the premium positioning.</li>
+          <li>Accelerating the content delivery process means that you can provide information to
+            end users faster, which makes it more relevant to the end user.</li>
+          <li><indexterm>formatting<indexterm>automated</indexterm></indexterm><indexterm>production<index-see-also>formatting</index-see-also></indexterm>Formatting
+            is automated, which reduces the overall cost of developing content. This effect is
+            multiplied for each delivery medium (PDF, HTML, and the like) and each language.</li>
+        </ul></p><p>For example, a less mature, ad hoc approach (typically, a collection of messy
+        Word files) may be feasible for 500 pages delivered in PDF and HTML in two languages. But
+        once you have more than 2,000 pages, add another output format, or need more than two
+        languages, you need to pay attention to your process and your content quality to ensure that
+        you can scale up to this level—or expect costs to balloon and quality to
+            decrease.<indexterm>scalability<indexterm>process</indexterm></indexterm><indexterm>workflow<index-see>process</index-see></indexterm><indexterm>process<indexterm>scalability</indexterm></indexterm></p><fig>
+        <title>For scalability, you need efficient workflows and high-value content</title>
+        <image href="images/scaling.svg" id="image_sbl_h35_3f"
+          alt="Scalability increases with better process and better content"/>
+      </fig><p>This book concerns itself mainly with the upper right quadrant—creating high-value
+        technical content efficiently.</p><p>The right tools and technologies will make your content
+        development process more efficient. (The less pleasant corollary: The wrong tools, even when
+        they are “free,” can be very expensive.) An efficient process is one where the tools and
+        technologies that are in place help you produce the content you need, in the formats you
+        need, and when you need it.</p></section>
+ </conbody>
+</concept>

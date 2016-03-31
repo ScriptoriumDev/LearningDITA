@@ -5,9 +5,9 @@
     <prolog>
         <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
             Scriptorium</author>
-        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
-            Scriptorium</author>
         <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
             Scriptorium</author>
         <critdates>
             <created date="2016-03-07"/>
@@ -32,15 +32,9 @@
                 be published in electronic outputs, metadata applied to those topic references can
                 tell the output transforms to filter out those topics during print publication. You
                 can also use metadata to add semantic value to each topic or map reference within a
-                map. One of the most useful examples of this is by adding a navigation title, which
-                overrides the title of a topic with a different title that may be more appropriate
-                for use in a table of contents or website navigation, and will be covered in detail
-                later.</p>
-            <p>You can use metadata at the topic reference level to override metadata that already
-                exists in the referenced topic. For example, if a referenced topic contains a
-                &lt;prolog> or &lt;shortdesc> element, the metadata you add for that topic reference
-                in your map will take precedence. You can also override metadata in a referenced map
-                using the same method.</p>
+                map. One of the most useful examples of this is by adding a navigation title, which overrides the title of a topic with a different title that may be more appropriate for use in a table of contents or website navigation. This will be covered in detail later in this lesson.
+            </p>
+            <p>You can use metadata at the &lt;topicref> element level to override metadata that already exists in the referenced topic. For example, if a referenced topic contains a &lt;prolog> or &lt;shortdesc> element, the metadata you add to that &lt;topicref> element in your map will take precedence. You can also override metadata in a referenced map using the same method.</p>
             <p>You can add metadata to a DITA map using the &lt;topicmeta> element. The
                 &lt;topicmeta> element can exist at the main map level (inside the &lt;map> element)
                 or inside any &lt;topicref> or &lt;mapref> element within the map.</p>
@@ -85,7 +79,8 @@
         <taskbody>
             <steps id="steps_umd_lgd_3v">
                 <step>
-                    <cmd>Make a copy of the file advanced_samples/map/_m_ducks_start.ditamap and open it in
+                    <cmd>Make a copy of the file
+                        maps_bookmaps_samples/samples/_m_ducks_advanced_start.ditamap and open it in
                         your editor.</cmd>
                 </step>
                 <step>
@@ -107,7 +102,7 @@
                     </stepxmp>
                     <info>The &lt;topicmeta> element you just added establishes the following
                         map-level metadata:<ul id="ul_tyt_qds_3v">
-                            <li><p>The map was created on Marche 25, 2016</p></li>
+                            <li><p>The map was created on March 25, 2016</p></li>
                             <li><p>This is a sample map</p></li>
                         </ul></info>
                 </step>
@@ -161,6 +156,11 @@
                             </li>
                         </ul>
                     </info>
+                </step>
+                <step>
+                    <cmd>Check your file
+                        maps_bookmaps_samples/samples/_m_ducks_advanced_start.ditamap against the
+                        sample file maps_bookmaps_samples/samples/_m_ducks_advanced.ditamap.</cmd>
                 </step>
             </steps>
         </taskbody>

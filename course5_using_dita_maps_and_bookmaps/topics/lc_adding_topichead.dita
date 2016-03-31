@@ -5,9 +5,9 @@
     <prolog>
         <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
             Scriptorium</author>
-        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
-            Scriptorium</author>
         <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
             Scriptorium</author>
         <critdates>
             <created date="2016-03-07"/>
@@ -28,6 +28,12 @@
             <p>This is useful because it allows you to group topics together that are contextually
                 related without implying a hierarchical relationship, and prevents you from having
                 to create a container topic to create a title.</p>
+            <note>
+                <p>This lesson covers basic use of the &lt;topichead> element and the elements it
+                    contains. For the full specifications for each element, see the <xref
+                        href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/topichead.html"
+                        format="html" scope="external">OASIS DITA Version 1.2 Standard</xref>.</p>
+            </note>
         </lcInstruction>
     </learningContentbody>
     <task id="task_qff_13x_kv">
@@ -35,7 +41,8 @@
         <taskbody>
             <steps>
                 <step>
-                    <cmd>Continue using the file advanced_samples/bookmap/_b_ducks.ditamap</cmd>
+                    <cmd>Continue using the file
+                        maps_bookmaps_samples/samples/_b_ducks_advanced_start.ditamap.</cmd>
                 </step>
                 <step>
                     <cmd>Add a &lt;topichead> element before the &lt;topicref> referencing

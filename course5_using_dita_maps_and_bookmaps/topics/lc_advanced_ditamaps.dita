@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="lc_advanced_bookmaps">
-    <title>Advanced DITAmap concepts</title>
+    <title>Advanced DITA map and bookmap concepts</title>
     <prolog>
         <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
             Scriptorium</author>
@@ -17,8 +17,8 @@
         <lcObjectives>
             <lcObjectivesGroup>
                 <lcObjective>Understand map and bookmap metadata</lcObjective>
-                <lcObjective>Understand the difference between &lt;frontmatter> and &lt;backmatter>
-                    elements</lcObjective>
+                <lcObjective>Understand the difference between the &lt;frontmatter> and
+                    &lt;backmatter> elements</lcObjective>
                 <lcObjective>Understand the purpose of the &lt;booklists> element</lcObjective>
 
             </lcObjectivesGroup>
@@ -27,9 +27,7 @@
             <lcTime value="45"/>
         </lcDuration>
         <lcIntro>
-            <p>This lesson presents advanced concepts about maps and bookmaps, including metadata,
-                content grouping, and using the &lt;booklists> element to create things like a table
-                of contents or index.</p>
+            <p>This lesson presents advanced concepts about maps and bookmaps, including metadata, content grouping, and using the &lt;booklists> element to create items such as a table of contents or an index.</p>
         </lcIntro>
     </learningContentbody>
     <related-links>
