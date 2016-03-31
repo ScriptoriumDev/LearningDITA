@@ -17,17 +17,14 @@
         </critdates>
     </prolog>
     <learningContentbody>
-        <lcIntro/>
-        <section>
-            <title>The collection-type attribute</title>
+        <lcIntro>
+            <p><b>The collection-type attribute</b></p>
             <p>The DITA specification states that when a cell in the relationship table contains
                 multiple &lt;topicref> elements, the generated topics indicated in that cell do not
-                link to one another. However, if the collection-type attribute on  the &lt;relcell>
+                link to one another. However, if the collection-type attribute on the &lt;relcell>
                 element has the value "family", all of the topics referenced in in that &lt;relcell>
-                element will link to one another.  </p>
-        </section>
-        <section>
-            <title>The linking attribute</title>
+                element will link to one another. </p>
+            <p><b>The linking attribute</b></p>
             <p>Typically, when two topics (topic A and topic B) are found in the same row of a
                 relationship table (but in different columns), the output topic A will contain a
                 link to topic B, and topic B will contain a link to topic A. However, in some cases
@@ -36,19 +33,16 @@
                 concepts. We might want topic A (and other topics) to link to topic B, but we don't
                 want topic B to link back to topic A (or any of the other topics). In this case, we
                 modify the &lt;topicref> element for topic B by adding the linking attribute and
-                setting it to the value "targetonly".  </p>
+                setting it to the value "targetonly". </p>
             <p>Conversely, topic A might be a “landing page” for a help system; we may want to use
                 it as an entry point that links to a number of different topics, but we don't want
                 the topics to refer back to the page (for whatever reason). In this case, we add the
-                linking attribute to the &lt;topicref> for topic A and use the value "sourceonly".
-            </p>
-        </section>
-        <section>
-            <title>Labeling columns</title>
+                linking attribute to the &lt;topicref> for topic A and use the value "sourceonly". </p>
+            <p><b>Labeling columns</b></p>
             <p>When generating output, the DITA Open Toolkit can use the topic types in the
                 &lt;relcolspec> to group sets of related links (typically into sections labeled
                 “Concept”, “Task”, and “Reference”). Other output generators can follow this same
-                practice.  You can override this labeling by using a &lt;title> element in the
+                practice. You can override this labeling by using a &lt;title> element in the
                 &lt;relcolspec> element</p>
             <pre>&lt;relcolspec type="task">
    &lt;title>Referenced in these tasks&lt;/title>
@@ -58,6 +52,6 @@
                 the &lt;relcolspec> element, see <xref
                     href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/relcolspec.html"
                     format="html" scope="external"/></p>
-        </section>
+        </lcIntro>
     </learningContentbody>
 </learningContent>
