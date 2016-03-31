@@ -37,8 +37,8 @@
                 contain the following elements:</p>
             <ul id="ul_oc4_2fd_3v">
                 <li>
-                    <p>The &lt;title> element, which allows you to name the map (such as "Product X
-                        User Guide").</p>
+                    <p>The &lt;title> element, which allows you to name the map (such as “Product X
+                        User Guide”).</p>
                 </li>
                 <li>
                     <p>Any number of &lt;topicref> elements, which allow you to reference topics that
@@ -111,7 +111,7 @@
 <ph outputclass="newchanged">   &lt;title>Ducks&lt;/title></ph>
 &lt;/map></pre>
                     </stepxmp>
-                    <info>Now that you've set up the base structure for your map, you can begin
+                    <info>Now that you’ve set up the base structure for your map, you can begin
                         adding topic references.</info>
                 </step>
             </steps>

@@ -22,7 +22,7 @@
             <p>The DITA specification states that when a cell in the relationship table contains
                 multiple &lt;topicref> elements, the generated topics indicated in that cell do not
                 link to one another. However, if the collection-type attribute on the &lt;relcell>
-                element has the value "family", all of the topics referenced in in that &lt;relcell>
+                element has the value “family”, all of the topics referenced in in that &lt;relcell>
                 element will link to one another. </p>
             <p><b>The linking attribute</b></p>
             <p>Typically, when two topics (topic A and topic B) are found in the same row of a
@@ -30,14 +30,14 @@
                 link to topic B, and topic B will contain a link to topic A. However, in some cases
                 this behavior is not necessary or is not wanted. </p>
             <p>Topic B might be a common task or a glossary term that is associated with a many
-                concepts. We might want topic A (and other topics) to link to topic B, but we don't
+                concepts. We might want topic A (and other topics) to link to topic B, but we don’t
                 want topic B to link back to topic A (or any of the other topics). In this case, we
                 modify the &lt;topicref> element for topic B by adding the linking attribute and
-                setting it to the value "targetonly". </p>
+                setting it to the value “targetonly”. </p>
             <p>Conversely, topic A might be a “landing page” for a help system; we may want to use
-                it as an entry point that links to a number of different topics, but we don't want
+                it as an entry point that links to a number of different topics, but we don’t want
                 the topics to refer back to the page (for whatever reason). In this case, we add the
-                linking attribute to the &lt;topicref> for topic A and use the value "sourceonly". </p>
+                linking attribute to the &lt;topicref> for topic A and use the value “sourceonly”. </p>
             <p><b>Labeling columns</b></p>
             <p>When generating output, the DITA Open Toolkit can use the topic types in the
                 &lt;relcolspec> to group sets of related links (typically into sections labeled
