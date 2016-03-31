@@ -45,7 +45,7 @@
                 tables. </note><p>Each <i>cell</i> in the relationship table contains one or more
                 &lt;topicref> elements that indicate linked topics in the map. </p><p>Here is a
                 brief example of a relationship table. </p><image href="../images/reltable.png"
-                id="image_gbh_dt5_jv"/><p>The column heads indicate the types of information that
+                id="image_gbh_dt5_jv" base="2016/03"/><p>The column heads indicate the types of information that
                 are in each column. The first body row contains references to topics that are
                 related to feeding; the second body row refers to topics related to housing. Two
                 additional things to note about this example:</p><ul id="ul_k5c_nt5_jv">
@@ -67,10 +67,10 @@
                         contains. For the full specifications for each element, see the <xref
                             href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/reltable.html"
                             format="html" scope="external">OASIS DITA Version 1.2 Standard</xref>.</p>
-                </note><draft-comment>In maps and bookmaps, the &lt;topicref> elements indicates the order
+                </note><!--<draft-comment>In maps and bookmaps, the &lt;topicref> elements indicates the order
                 and hierarchical structure of the content. The &lt;topicref> elements are also used
                 in relationship tables, but in that case the position of the &lt;topicref> in the
                 table indicates the topics relationship with other topics.
-            </draft-comment></lcIntro>
+            </draft-comment>--></lcIntro>
     </learningContentbody>
 </learningContent>
