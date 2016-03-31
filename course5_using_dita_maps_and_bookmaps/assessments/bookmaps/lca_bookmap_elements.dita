@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_dfp_4cp_dt">
+ <title>Bookmap elements</title>
+ <prolog>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+   Scriptorium</author>
+  <critdates>
+   <created date="2015-08-26"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcSequencing id="bookmaps_1">
+    <lcQuestion>Arrange the following elements into the sequence in which they are allowed within
+     the &lt;bookmap> element.</lcQuestion>
+    <lcSequenceOptionGroup id="lcSequenceOptionGroup_qyy_lny_kv">
+     <lcSequenceOption>
+      <lcAnswerContent>&lt;booktitle></lcAnswerContent>
+      <lcSequence value="1"/>
+     </lcSequenceOption>
+     <lcSequenceOption>
+      <lcAnswerContent>&lt;bookmeta></lcAnswerContent>
+      <lcSequence value="2"/>
+     </lcSequenceOption>
+     <lcSequenceOption>
+      <lcAnswerContent>&lt;frontmatter></lcAnswerContent>
+      <lcSequence value="3"/>
+     </lcSequenceOption>
+     <lcSequenceOption>
+      <lcAnswerContent>&lt;chapter></lcAnswerContent>
+      <lcSequence value="4"/>
+     </lcSequenceOption>
+     <lcSequenceOption>
+      <lcAnswerContent>&lt;backmatter></lcAnswerContent>
+      <lcSequence value="5"/>
+     </lcSequenceOption>
+    </lcSequenceOptionGroup>
+   </lcSequencing>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

@@ -8,6 +8,10 @@
     <prolog>
         <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
             Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
         <critdates>
             <created date="2016-03-21"/>
         </critdates>
@@ -17,12 +21,17 @@
             <p>The rows in a relationship table contain &lt;topicref> elements for related
                 information. In the exercise, you will add references to topics that mention the
                 "add" command in the fictitious Duck database.</p>
+            <p><xref href="https://youtu.be/GHW_STBkr54" format="html" scope="external">Video: DITA relationship tables</xref></p>
         </lcInstruction>
     </learningContentbody>
     <task id="task_xhw_4j5_jv">
         <title/>
         <taskbody>
             <steps id="steps_jkg_pj5_jv">
+                <step>
+                    <cmd>Continue using the file
+                        maps_bookmaps_samples/samples/_reltable_start.ditamap.</cmd>
+                </step>
                 <step>
                     <cmd>After the &lt;relheader> element, add a &lt;relrow> element.</cmd>
                     <stepxmp>
