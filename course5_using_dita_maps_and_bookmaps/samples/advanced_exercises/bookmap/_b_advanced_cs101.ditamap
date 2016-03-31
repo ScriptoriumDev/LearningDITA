@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap>
+    <booktitle>
+        <mainbooktitle>Content Strategy 101</mainbooktitle>
+    </booktitle>
+    <bookmeta>
+        <author>Sarah O'Keefe</author>
+        <author>Alan S. Pringle</author>
+        <publisherinformation>
+            <organization>Scriptorium Publishing Services, Inc.</organization>
+        </publisherinformation>
+        <critdates>
+            <created date="2012"/>
+            <revised modified="2014"/>
+        </critdates>
+    </bookmeta>
+    <frontmatter>
+        <booklists>
+            <toc/>
+        </booklists>
+    </frontmatter>
+    <chapter href="controlling_technical_communication_costs.dita">
+        <topicref href="the_fallacy_of_low_cost_documentation.dita"></topicref>
+        <topicref href="efficient_technical_content_development.dita"/>
+        <topicref href="reducing_the_cost_of_technical_support.dita">
+            <topicref href="better_technical_information_fewer_support_calls.dita"/>
+            <topicref href="more_efficient_support_operations.dita"/>
+        </topicref>
+        <topicref href="content_collaboration_across_the_organization.dita">
+            <topicref href="collaboration_not_content_free_for_all.dita"/>
+        </topicref>
+    </chapter>
+    <chapter href="marketing_and_product_visibility.dita">
+        <topicref href="supporting_marketing_with_technical_content.dita">
+            <topicref href="reinforcing_the_marketing_message.dita"/>
+            <topicref href="when_technical_content_contradicts_marketing.dita"/>
+        </topicref>
+        <topicref href="increasing_product_visibility.dita">
+            <topicref href="third_party_books.dita"/>
+        </topicref>
+        <topicref href="building_user_community_and_loyalty.dita">
+            <topicref href="extending_the_game_experience_into_content.dita"/>
+        </topicref>
+    </chapter>
+    <chapter href="legal_and_regulatory_issues.dita">
+        <topicref href="avoiding_legal_exposure.dita"/>
+        <topicref href="meeting_regulatory_requirements.dita">
+            <topicref href="information_delivery.dita"/>
+            <topicref href="technical_standards.dita"/>
+        </topicref>
+    </chapter>
+    <backmatter>
+        <booklists>
+            <indexlist/>
+        </booklists>
+    </backmatter>
+</bookmap>

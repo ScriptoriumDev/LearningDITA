@@ -8,6 +8,10 @@
     <prolog>
         <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
             Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
         <critdates>
             <created date="2016-03-21"/>
         </critdates>
@@ -24,6 +28,10 @@
         <title/>
         <taskbody>
             <steps id="steps_jkg_pj5_jv">
+                <step>
+                    <cmd>Continue using the file
+                        maps_bookmaps_samples/samples/_reltable_start.ditamap.</cmd>
+                </step>
                 <step>
                     <cmd>After the &lt;relheader> element, add a &lt;relrow> element.</cmd>
                     <stepxmp>

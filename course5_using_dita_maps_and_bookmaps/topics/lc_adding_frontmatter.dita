@@ -5,9 +5,9 @@
     <prolog>
         <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
             Scriptorium</author>
-        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
-            Scriptorium</author>
         <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
             Scriptorium</author>
         <critdates>
             <created date="2016-03-07"/>
@@ -15,15 +15,12 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>The &lt;frontmatter> and &lt;backmatter> elements are optional in a bookmap. Use them
-                to contain information about the document that appears before or after the main body
-                content, respectively. The &lt;frontmatter> element must appear before the first
+            <p>The &lt;frontmatter> and &lt;backmatter> elements are optional in a bookmap. They contain information about the document that appears before or after the main body content, respectively. The &lt;frontmatter> element must appear before the first
                 &lt;chapter> element but after the &lt;bookmeta> element, if present. The
                 &lt;backmatter> element must appear before the &lt;reltable> element but after the
                 &lt;appendix> element, if present.</p>
             <p>These elements can contain various content, but are most commonly used to contain the
-                &lt;booklists> element. This element is a container used to indicate to the
-                processor that you want a list of a specific type in that location. Common lists
+                &lt;booklists> element. This element indicates to the processor that you want a list of a specific type in that location. Common lists
                 include:</p>
             <ul>
                 <li><p>&lt;toc></p></li>
@@ -34,12 +31,20 @@
                 elements are required, as the hierarchical structure of the map will be used.</p>
             <p>The &lt;indexlist> element will generate an index where it is placed. The processor
                 will use &lt;indexterm> elements to generate the index. If there are no
-                &lt;indexterms> in the document, no index entries will be created.</p>
+                &lt;indexterm> elements in the document, no index entries will be created.</p>
             <p>The &lt;glossarylist> element can contain either one or more &lt;topicref> elements
                 linking to glossary entries or one or more &lt;mapref> elements linking to glossary
                 maps. Glossary entries and glossary maps may be used outside of a &lt;glossarylist>,
                 but grouping them within a &lt;glossarylist> allows you to filter and format them
-                more uniformly.</p>
+                more uniformly.</p><note>
+                    <p>This lesson covers basic use of the &lt;frontmatter> and &lt;backmatter>
+                    elements and the elements they contain. For the full specifications for each
+                    element, see the OASIS DITA Version 1.2 Standard for <xref
+                        href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/frontmatter.html"
+                        format="html" scope="external">frontmatter</xref> and <xref
+                            href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/backmatter.html"
+                            format="html" scope="external">backmatter</xref>.</p>
+                </note>
             <p><xref href="https://youtu.be/Z6Df7sG4Olk" format="html" scope="external">Video: The DITA booklists element</xref></p>
         </lcInstruction>
     </learningContentbody>
@@ -48,11 +53,12 @@
         <taskbody>
             <steps>
                 <step>
-                    <cmd>Continue using the file advanced_samples/bookmap/_b_ducks.ditamap</cmd>
+                    <cmd>Continue using the file
+                        maps_bookmaps_samples/samples/_b_ducks_advanced_start.ditamap.</cmd>
                 </step>
                 <step>
                     <cmd>After the &lt;bookmeta> element, add a &lt;frontmatter> element and add
-                        content to it as follows.</cmd>
+                        content to it as shown in the following example:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
@@ -68,7 +74,7 @@
                 </step>
                 <step>
                     <cmd>After the final &lt;chapter> element, add a &lt;backmatter> element and add
-                        content to it as follows.</cmd>
+                        content to it as shown in the following example:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
