@@ -5,9 +5,9 @@
     <prolog>
         <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
             Scriptorium</author>
-        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
-            Scriptorium</author>
         <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
             Scriptorium</author>
         <critdates>
             <created date="2016-03-07"/>
@@ -15,8 +15,7 @@
     </prolog>
     <learningContentbody>
         <lcInstruction><p>One of the major advantages of using bookmaps rather than maps is their
-                expanded metadata capabilitites. Bookmaps can contain an extensive metadata related
-                to ownership, identification, copyright, workflow, and publication of a book. There
+            expanded metadata capabilitites. Bookmaps can contain extensive metadata related to ownership, identification, copyright, workflow, and publication of a book. There
                 are many more elements available for capturing metadata in more specific ways in
                 bookmaps than in maps. This means that a set of topics collected in a bookmap will
                 be more semantically rich, more easily searchable, and better suited to publication
@@ -101,7 +100,8 @@
         <taskbody>
             <steps id="steps_umd_lgd_3v">
                 <step>
-                    <cmd>Make a copy of the file advanced_samples/map/_b_ducks_start.ditamap and open it in
+                    <cmd>Make a copy of the file
+                        maps_bookmaps_samples/samples/_b_ducks_advanced_start.ditamap and open it in
                         your editor.</cmd>
                 </step>
                 <step>
