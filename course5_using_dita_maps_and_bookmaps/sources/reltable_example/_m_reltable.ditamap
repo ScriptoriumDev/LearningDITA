@@ -45,4 +45,35 @@
  </reltable>
  
  
+ <reltable title="External references">
+  <relheader>
+   <relcolspec type="concept"/>
+   <relcolspec type="task"/>
+   <relcolspec type="reference"/>
+   <relcolspec >
+    <title>Web links</title>
+   </relcolspec>
+  </relheader>
+  <relrow>
+   <relcell>
+    <topicref href="c_nourishment.dita"/>
+   </relcell>
+   <relcell>
+    <topicref href="t_feeding.dita"/>
+   </relcell>
+   <relcell>
+    <topicref href="r_food.dita"/>
+    <topicref href="r_feeders.dita"/>
+   </relcell>
+   <relcell>
+    <topicref href="http://www.example.com" scope="external" format="html">
+     <topicmeta>
+      <navtitle>A duck food source.</navtitle>
+     </topicmeta>
+    </topicref>
+   </relcell>
+  </relrow>
+ </reltable>
+ 
+ 
 </map>
