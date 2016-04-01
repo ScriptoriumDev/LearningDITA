@@ -19,7 +19,8 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcTrueFalse id="bookmaps_4">
-    <lcQuestion>The &lt;topicref> element is allowed inside the &lt;bookmap> element.</lcQuestion>
+    <lcQuestion>The &lt;topicref> element is allowed at the first level inside the &lt;bookmap>
+     element.</lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_wvy_hty_kv">
      <lcAnswerOption>
       <lcAnswerContent>True</lcAnswerContent>

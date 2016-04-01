@@ -19,8 +19,8 @@
             <pre>&lt;chapter href="filepath/filename.dita"></pre>
             <p>Except for the element name, the structure of a &lt;chapter> element matches the
                 structure of the &lt;topicref> element. In a &lt;chapter> element, the href
-                attribute contains a link to a topic that should be included in the bookmap at the
-                first level, or chapter level. </p>
+                attribute contains a link to a topic that is included in the bookmap at the first
+                level, or chapter level. </p>
             <p>The &lt;chapter> element may contain the following elements:</p>
             <ul id="ul_oc4_2fd_3v">
                 <li>
@@ -39,8 +39,8 @@
                 limitations of this type of output when you’re building your hierarchy of topics. If
                 you nest too many levels of topics within a chapter, you risk running out of ways to
                 differentiate your heading levels, whether it’s by decreasing font sizes or
-                increasing indents. This could cause confusion for end users who are trying to
-                consume your content.</p>
+                increasing indents. This could cause confusion for people who are trying to read
+                your content.</p>
             <note>
                 <p>This lesson covers basic use of the &lt;chapter> element and the elements it
                     contains. For the full specifications for each element, see the <xref

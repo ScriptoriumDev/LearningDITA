@@ -17,8 +17,8 @@
         <lcInstruction>
             <p>The &lt;mapref> element is structured as follows:</p>
             <pre>&lt;mapref href="filepath/filename.ditamap" format="ditamap"></pre>
-            <p>The href attribute contains a link to another map that should be referenced in your
-                main map. The format attribute specifies that you are linking to a DITA map.</p>
+            <p>The href attribute contains a link to another map that is referenced in your main
+                map. The format attribute specifies that you are linking to a DITA map.</p>
             <p>The &lt;mapref> element may only contain the &lt;topicmeta>, &lt;data>, and
                 &lt;data-about> metadata elements. You cannot nest &lt;topicref> or &lt;mapref>
                 elements inside a &lt;mapref> element in DITA.</p>
