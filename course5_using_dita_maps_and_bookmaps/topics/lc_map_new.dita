@@ -32,30 +32,30 @@
             </p>
             <p>Using maps can add flexibility and facilitate reuse in your publishing workflow. If you have a topic with content that applies to multiple products (such as common safety information), you can write that topic once and reference it in multiple maps.</p>
             <p>You can also reference other maps from within a map. This allows you to group related sets of topics together. For example, you might need to compile all the maps for individual products into a single map for a product family.</p>
-            <p>Maps can contain metadata, such as authors, copyright, and publication date. Metadata in maps can be used to help your company manage and distribute your content more effectively—or help your customers find the content they need more easily.</p>
+            <p>Maps can contain metadata, such as product information, copyright, and publication
+                date. Metadata in maps can be used to help your company manage and distribute your
+                content more effectively—or help your customers find the content they need more
+                easily.</p>
             <p>At a minimum, a map must contain a root &lt;map> element. The &lt;map> element may
                 contain the following elements:</p>
             <ul id="ul_oc4_2fd_3v">
                 <li>
                     <p>The &lt;title> element, which allows you to name the map (such as “Product X
-                        User Guide”).</p>
+                        User Guide”). The text in the &lt;title> element can also be used as the
+                        title of your output document.</p>
                 </li>
                 <li>
-                    <p>Any number of &lt;topicref> elements, which allow you to reference topics that
-                        should be included in the map. A &lt;topicref> element can contain other
+                    <p>Any number of &lt;topicref> elements, which allow you to reference topics
+                        that are included in the map. A &lt;topicref> element can contain other
                         &lt;topicref> elements.</p>
                 </li>
                 <li>
                     <p>Any number of &lt;mapref> elements, which allow you to reference other maps
-                        that should be included in the main map.</p>
+                        that are included in the main map.</p>
                 </li>
                 <li>
-                    <p>Any number of &lt;reltable> elements, which allow you to create tables that
-                        define relationships in your content.</p>
-                </li>
-                <li>
-                    <p>The &lt;topicref> elements in your map (along with most other map-level
-                        elements) may also contain a &lt;topicmeta> element.</p>
+                    <p>Any number of &lt;reltable> elements, which allow you to define relationships
+                        in your content.</p>
                 </li>
             </ul>
             <note>
