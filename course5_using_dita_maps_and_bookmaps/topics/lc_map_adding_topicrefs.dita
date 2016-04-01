@@ -36,7 +36,7 @@
             </ul>
             <p>By nesting &lt;topicref> or &lt;mapref> elements inside of a &lt;topicref> element,
                 you can create a hierarchy in your map. This makes it easier for you to organize your topics. You can reflect the hierarchy of topics in a table of contents when you publish the map.</p>
-            <p>When nesting &lt;topicref> elements, it's important to keep your final output in
+            <p>When nesting &lt;topicref> elements, it’s important to keep your final output in
                 mind. In DITA, there is no structural limit to the number of &lt;topicref> elements
                 that can be nested—any &lt;topicref> element in a map can contain any number of
                 &lt;topicref> elements. However, each nested &lt;topicref> element will typically

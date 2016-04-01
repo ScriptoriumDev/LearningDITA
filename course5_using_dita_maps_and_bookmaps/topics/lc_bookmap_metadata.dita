@@ -25,15 +25,15 @@
                     <p>Inside the &lt;bookmap> element using &lt;bookmeta> element</p>
                 </li>
                 <li>
-                    <p>Inside elements contained in the book's front matter using the &lt;topicmeta>
+                    <p>Inside elements contained in the book’s front matter using the &lt;topicmeta>
                         element</p>
                 </li>
                 <li>
-                    <p>Inside elements contained in the book's back matter using the &lt;topicmeta>
+                    <p>Inside elements contained in the book’s back matter using the &lt;topicmeta>
                         element</p>
                 </li>
                 <li>
-                    <p>Inside the book's chapters, topic references, and map references using the
+                    <p>Inside the book’s chapters, topic references, and map references using the
                         &lt;topicmeta> element</p>
                 </li>
             </ul>The &lt;bookmeta> element in a bookmap can contain the same metadata elements that
@@ -84,7 +84,7 @@
                 value, is only available in bookmaps.</p><p>The &lt;topicmeta> element is available
                 in both maps and bookmaps, but the bookmap structure allows it to be used in more
                 places. For example, you can apply the &lt;topicmeta> element to a preface in the
-                book's frontmatter, or to a glossary in the book's backmatter. You can also apply
+                book’s frontmatter, or to a glossary in the book’s backmatter. You can also apply
                 the &lt;topicmeta> element to a chapter, topic reference, or map reference in a
                 bookmap. When used in a bookmap, the &lt;topicmeta> element can contain all the same
                 &lt;metadata> elements that it can contain in a map, plus the &lt;authorinformation>
