@@ -17,10 +17,10 @@
         <lcInstruction>
             <p>The &lt;topicref> element is structured as follows:</p>
             <pre>&lt;topicref href="filepath/filename.dita"></pre>
-            <p>The href attribute contains a link to a topic that should be included in the map. In
-                DITA, a &lt;topicref> element in a map should not point to a topic that lives above
-                the map in your folder structure. Therefore, it is best to store your maps at the
-                top level.</p>
+            <p>The href attribute contains a link to a topic that is included in the map. In DITA, a
+                &lt;topicref> element in a map should not point to a topic that lives above the map
+                in your folder structure, as this can cause problems with some output types.
+                Therefore, it is best to store your maps at the top level.</p>
             <p>The &lt;topicref> element may contain the following elements:</p>
             <ul id="ul_oc4_2fd_3v">
                 <li>
