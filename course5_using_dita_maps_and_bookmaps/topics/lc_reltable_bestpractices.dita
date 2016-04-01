@@ -20,25 +20,21 @@
         </critdates>
     </prolog>
     <learningContentbody>
-        <section>
-            <title>Consider the number of columns</title>
+        <lcIntro>
+            <p><b>Consider the number of columns</b></p>
             <p>Although the relationship table can contain any number of columns, too many columns
                 can make the relationship table difficult to edit. </p>
             <p>If multiple columns cannot be avoided, one alternative is to create multiple
                 relationship tables with different columns for different sets of relationships. As
                 stated earlier: column order or relative position has no meaning in relationship
                 tables. </p>
-        </section>
-        <section>
-            <title>Consider the number of topicref elements in a cell</title>
+            <p><b>Consider the number of topicref elements in a cell</b></p>
             <p>The &lt;relcell> element can contain any number of &lt;topicref> elements, however a
                 large number of &lt;topicref> elements in a &lt;relcell> gets to be very difficult
                 to read (whether viewed in text or author mode of your DITA editor). </p>
             <p>If you find a &lt;relrow> is getting crowded, create one or more new &lt;relrow>
                 elements and distribute the &lt;topicref> elements among the rows.</p>
-        </section>
-        <section>
-            <title>Reuse and relationship tables</title>
+            <p><b>Reuse and relationship tables</b></p>
             <p>A map can contain any number of relationship tables. When the relationship tables are
                 processed, the contents of the relationship tables are usually seen as a single
                 collection (depending out the output processor and the intent of the relationship
@@ -49,6 +45,6 @@
             <p>You can apply filtering to relationship tables, using DITA filtering attributes.
                 Individual rows in the relationship table can be filtered, or you can divide rows
                 among multiple relationship tables and then filter on the tables. </p>
-        </section>
+        </lcIntro>
     </learningContentbody>
 </learningContent>

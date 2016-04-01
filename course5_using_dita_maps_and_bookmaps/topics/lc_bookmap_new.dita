@@ -14,18 +14,15 @@
         </critdates>
     </prolog>
     <learningContentbody>
-        <lcInstruction> <p>While maps and
-            bookmaps have a similar structure, a bookmap contains a different and more expansive
-            set of elements. This makes it more flexible and better suited to publishing larger
-            amounts of content in book format.</p>
-            <p>A bookmap is a DITA map file that uses the &lt;bookmap> element rather than the
-                &lt;map> element as a container for its topic and map references. At a minimum, a bookmap must
-                contain a root &lt;bookmap> element. The &lt;bookmap> element may contain the
-                following elements:</p>
+        <lcInstruction>
+            <p>A bookmap is a specialization of a DITA map file, which uses the &lt;bookmap> element
+                rather than the &lt;map> element as a container for its topic and map references. At
+                a minimum, a bookmap must contain a root &lt;bookmap> element. The &lt;bookmap>
+                element may contain the following elements:</p>
             <ul id="ul_oc4_2fd_3v">
                 <li>
                     <p>The &lt;booktitle> element, which allows you to name the bookmap (such as
-                        "Product X Manual").</p>
+                        “Product X Manual”).</p>
                 </li>
                 <li>
                     <p>The &lt;bookmeta> element, which defines metadata about the bookmap.</p>
@@ -36,7 +33,7 @@
                 </li>
                 <li>
                     <p>Any number of &lt;chapter> elements. Each &lt;chapter> element contains a
-                        link to a topic that should be included in the bookmap at the first level. A
+                        link to a topic that is included in the bookmap at the first level. A
                         &lt;chapter> element can also contain any number of subordinate
                         &lt;topicref> elements.</p>
                 </li>
@@ -97,12 +94,10 @@
 &lt;/bookmap>
 </pre>
                     </stepxmp>
-                    <info>Inside the &lt;booktitle> element, add the &lt;mainbooktitle> element and
-                        add content to it as shown in the following example.</info>
                 </step>
                 <step>
-                    <cmd>Inside the &lt;bookmap> element, add the &lt;booktitle> element as shown in
-                        the following example.</cmd>
+                    <cmd>Inside the &lt;booktitle> element, add the &lt;mainbooktitle> element and
+                        add content to it as shown in the following example.</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
