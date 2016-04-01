@@ -26,7 +26,7 @@
                 <li>In a map, the &lt;reltable> elements can occur anywhere in the map. However, it is usually placed at the end of the &lt;map> (after the last of the &lt;topicref> elements).
                 </li>
                     <li>In a bookmap, the &lt;reltable> elements must occur as the last elements in
-                        the bookmap.</li>
+                        the bookmap (that is, before the &lt;/bookmap> tag).</li>
                 </ul></p>
             <p>Each column in a relationship table contains a similar type of information. The types
                 of information in each of the columns is defined by &lt;relcolspec> elements in the
