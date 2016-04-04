@@ -15,14 +15,15 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>Occasionally, the title of a topic will lack sufficient context to be useful if it appears within a table of contents. For example, you might have a series of topics about specific commands in a chapter, and each topic uses the command as its title. If it is important that these topics appear in your table of contents, you can use the &lt;navtitle> element to specify more appropriate titles for them.
-            </p>
-            <p>In the main body of text, the original title will appear instead of the one used in
-                the &lt;navtitle> element.</p> <note>
-                    <p>This lesson covers basic use of the &lt;navtitle> element and the elements it
-                        contains. For the full specifications for each element, see the <xref
-                            href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/navtitle.html"
-                            format="html" scope="external">OASIS DITA Version 1.2 Standard</xref>.</p>
+            <p>Occasionally, you may find that the title of a topic—particularly a reused topic—is
+                not consistent with the titles of the other topics in a map. For example, all your
+                task topics might use an infinitive form (“To print the...”), but the reused topic
+                might use a present participle form (“Printing the...”). To make the title of a
+                topic consistent in your text and table of contents, use the &lt;navtitle> element
+                to specify a more consistent or appropriate title. </p> <note>
+                    <p>For more information about the &lt;navtitle> element, see the <xref
+                        href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/navtitle.html"
+                        format="html" scope="external">OASIS DITA Version 1.2 Standard</xref>.</p>
                 </note>
         </lcInstruction>
     </learningContentbody>
@@ -35,8 +36,8 @@
                         maps_bookmaps_samples/samples/_b_ducks_advanced_start.ditamap.</cmd>
                 </step>
                 <step>
-                    <cmd>Inside the opening &lt;topicref> tag that links to r_tnav.dita, add a
-                        locktitle attribute and set it to "yes" as shown:</cmd>
+                    <cmd>Find the  &lt;topicref> element that links to r_tnav.dita and add a
+                        locktitle attribute and set it to “yes” as shown:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
@@ -46,25 +47,32 @@
 ...
 &lt;/bookmap></pre>
                     </stepxmp>
-                    <info><note>If you want the navtitle to be used in the table of contents rather
-                            than the title, you must set this attribute to "yes." Setting it to "no"
-                            or omitting it will result in the navtitle not being used.</note></info>
+                    <info>
+                        <note>If you want the navtitle to be used, you must set the locktitle
+                            attribute to “yes.” Setting it to “no” or omitting it will result in the
+                            navtitle not being used.</note>
+                    </info>
                 </step>
                 <step>
-                    <cmd>Inside the &lt;topicref> element that links to c_writing_about_ducks.dita,
-                        add a &lt;topicmeta> element and add content to it as shown in the following
-                        example:</cmd>
+                    <cmd>Change the &lt;topicref>  element from an empty tag (“&lt;topicref … />”)
+                        to an open and close tag (“&lt;topicref...>&lt;/topicref>”)</cmd>
+                    <stepxmp>
+                        <pre>&lt;topicref href="r_tnav.dita" locktitle="yes">
+&lt;/topicref></pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Inside the &lt;topicref> elementm add a &lt;topicmeta> element and add
+                        content to it as shown in the following example:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
 &lt;bookmap id="ducks">
 ...
 &lt;topicref href="r_tnav.dita" locktitle="yes">
-<ph outputclass="newchanged">
-&lt;topicmeta>
-&lt;navtitle>The tNav command&lt;/navtitle>
-&lt;/topicmeta>
-</ph>
+    <ph outputclass="newchanged">&lt;topicmeta>
+        &lt;navtitle>The tNav command&lt;/navtitle>
+    &lt;/topicmeta></ph>
 &lt;/topicref>
 ...
 &lt;/bookmap></pre>

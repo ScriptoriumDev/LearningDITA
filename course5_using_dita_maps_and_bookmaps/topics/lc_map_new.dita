@@ -46,12 +46,12 @@
                 </li>
                 <li>
                     <p>Any number of &lt;topicref> elements, which allow you to reference topics
-                        that are included in the map. A &lt;topicref> element can contain other
-                        &lt;topicref> elements.</p>
+                        within the map. A &lt;topicref> element can contain other &lt;topicref>
+                        elements.</p>
                 </li>
                 <li>
                     <p>Any number of &lt;mapref> elements, which allow you to reference other maps
-                        that are included in the main map.</p>
+                        within the main map.</p>
                 </li>
                 <li>
                     <p>Any number of &lt;reltable> elements, which allow you to define relationships

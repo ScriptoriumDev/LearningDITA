@@ -4,17 +4,17 @@
  <title>Advanced DITA map and bookmap concepts</title>
  <topicref href="../topics/lc_advanced_ditamaps.dita">
   <topicmeta lockmeta="yes">
-   <data name="lesson_id" value="9896"/>
+   <data name="lesson_id" value="10013"/>
   </topicmeta>
   <topicref href="../topics/lc_map_metadata.dita"/>
   <topicref href="../topics/lc_bookmap_metadata.dita"/>
   <topicref href="../topics/lc_adding_frontmatter.dita"/>
-  <topicref href="../topics/lc_adding_topichead.dita"/>
   <topicref href="../topics/lc_adding_navtitle.dita"/>
+  <topicref href="../topics/lc_adding_topichead.dita"/>
   <topicref href="../topics/lcc_assessment.dita" copy-to="lcc_advanced_bookmaps.dita"
    locktitle="yes">
    <topicmeta>
-    <navtitle>Assessment for Advanced DITAmap concepts</navtitle>
+    <navtitle>Assessment for Advanced DITA map concepts</navtitle>
    </topicmeta>
    <!--   <topicref href="../assessments/creating_ref/lca_body.dita"/>
    <topicref href="../assessments/creating_ref/lca_properties.dita"/>

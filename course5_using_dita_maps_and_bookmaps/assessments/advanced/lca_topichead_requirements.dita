@@ -16,15 +16,15 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcMultipleSelect id="advanced_3">
-    <lcQuestion>A &lt;topichead> element requres which of the following? (select all that apply)</lcQuestion>
+    <lcQuestion>A &lt;topichead> element requires which of the following? (select all that
+     apply)</lcQuestion>
     <lcAnswerOptionGroup>
      <lcAnswerOption>
       <lcAnswerContent>A &lt;navtitle> element</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>A navtitle attribute</lcAnswerContent>
-      <lcCorrectResponse/>
+      <lcAnswerContent>A &lt;mapmeta> element</lcAnswerContent>
      </lcAnswerOption>
      <lcAnswerOption>
       <lcAnswerContent>A &lt;title> element</lcAnswerContent>

@@ -19,7 +19,7 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcTrueFalse id="bookmaps_7">
-    <lcQuestion>You can define metadata for the &lt;bookmap> element using the &lt;topicmeta>
+    <lcQuestion>You define top-level metadata for the &lt;bookmap> element using the &lt;topicmeta>
      element.</lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_x2p_r5y_kv">
      <lcAnswerOption>
@@ -30,6 +30,8 @@
       <lcCorrectResponse/>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>Top-level metadata ina &lt;bookmap> element is defined with the
+     &lt;bookmeta> element.</lcFeedbackIncorrect>
    </lcTrueFalse>
   </lcInteraction>
  </learningAssessmentbody>
