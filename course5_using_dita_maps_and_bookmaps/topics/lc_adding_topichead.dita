@@ -48,15 +48,19 @@
 ...
 &lt;chapter href="c_duckdb.dita">
 <ph outputclass="newchanged">&lt;topichead></ph>
-&lt;topicref href="t_create_table.dita">
-&lt;topicref href="t_adding_entry.dita">
-&lt;topicref href="t_modify_entry.dita">
-&lt;topicref href="t_deleting_entry.dita">
-&lt;topicref href="t_queries.dita">
-&lt;topicref href="t_modify_table.dita">
+   &lt;topicref href="t_create_table.dita">
+   &lt;topicref href="t_adding_entry.dita">
+   &lt;topicref href="t_modify_entry.dita">
+   &lt;topicref href="t_deleting_entry.dita">
+   &lt;topicref href="t_queries.dita">
+   &lt;topicref href="t_modify_table.dita">
 <ph outputclass="newchanged">&lt;/topichead></ph>
 </pre>
                     </stepxmp>
+                </step>
+                <step>
+                    <cmd>Add a &lt;topicmeta> element after the opening &lt;topichead> element you
+                        just added and add a &lt;navtitle> element to it as shown:</cmd>
                 </step>
                 <step>
                     <cmd>Add a navtitle attribute to the &lt;topichead> element that you just
@@ -67,65 +71,16 @@
 &lt;bookmap id="ducks">
 ...
 &lt;chapter href="c_duckdb.dita">
-&lt;topichead <ph outputclass="newchanged">navtitle="Common tasks"</ph>>
-&lt;topicref href="t_create_table.dita">
-&lt;topicref href="t_adding_entry.dita">
-&lt;topicref href="t_modify_entry.dita">
-&lt;topicref href="t_deleting_entry.dita">
-&lt;topicref href="t_queries.dita">
-&lt;topicref href="t_modify_table.dita">
-&lt;/topichead>
-</pre>
-                    </stepxmp>
-                </step>
-                <step>
-                    <cmd>Add a &lt;topichead> element before the &lt;topicref> referencing
-                        r_tnav.dita and close it after the &lt;topicref> referencing
-                        r_modify_table.dita</cmd>
-                    <stepxmp>
-                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
-&lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
-&lt;bookmap id="ducks">
-...
-&lt;topicref href="t_modify_table.dita">
-<ph outputclass="newchanged">&lt;topichead></ph>
-&lt;topicref href="r_tnav.dita" locktitle="yes">
-    &lt;topicmeta>
-        &lt;navtitle>The tNav command&lt;/navtitle>
-    &lt;/topicmeta>
-&lt;/topicref>
-&lt;topicref href="r_add.dita">
-&lt;topicref href="r_delete.dita">
-&lt;topicref href="r_edit.dita">
-&lt;topicref href="r_newtable.dita">
-&lt;topicref href="r_modify_table.dita">
-<ph outputclass="newchanged">&lt;/topichead></ph>
-</pre>
-                    </stepxmp>
-                </step>
-                <step>
-                    <cmd>Add a &lt;topicmeta> element after the opening &lt;topichead> element you
-                        just added and add a &lt;navtitle> element to it as shown:</cmd>
-                    <stepxmp>
-                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
-&lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
-&lt;bookmap id="ducks">
-...
-&lt;topicref href="t_modify_table.dita">
 &lt;topichead>
-<ph outputclass="newchanged">&lt;topicmeta>
-&lt;navtitle>Command reference&lt;/navtitle>
-&lt;/topicmeta></ph>
-&lt;topicref href="r_tnav.dita" locktitle="yes">
-    &lt;topicmeta>
-        &lt;navtitle>The tNav command&lt;/navtitle>
-    &lt;/topicmeta>
-&lt;/topicref>
-&lt;topicref href="r_add.dita">
-&lt;topicref href="r_delete.dita">
-&lt;topicref href="r_edit.dita">
-&lt;topicref href="r_newtable.dita">
-&lt;topicref href="r_modify_table.dita">
+<ph outputclass="newchanged">   &lt;topicmeta>
+      &lt;navtitle>Common tasks&lt;/navtitle>
+   &lt;/topicmeta></ph>
+   &lt;topicref href="t_create_table.dita">
+   &lt;topicref href="t_adding_entry.dita">
+   &lt;topicref href="t_modify_entry.dita">
+   &lt;topicref href="t_deleting_entry.dita">
+   &lt;topicref href="t_queries.dita">
+   &lt;topicref href="t_modify_table.dita">
 &lt;/topichead>
 </pre>
                     </stepxmp>

@@ -95,6 +95,9 @@
         &lt;indexlist/>
     &lt;/booklists>
 &lt;/backmatter></ph></pre>
+                        <p>The &lt;glossarylist> element indicates that the glossary comes from a
+                            specific file. The &lt;indexlist> element indicates that the DITA
+                            processor should generate an index from the topics in the map. </p>
                     </stepxmp>
                 </step>
             </steps>
