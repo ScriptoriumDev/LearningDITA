@@ -61,10 +61,6 @@
                 <step>
                     <cmd>Add a &lt;topicmeta> element after the opening &lt;topichead> element you
                         just added and add a &lt;navtitle> element to it as shown:</cmd>
-                </step>
-                <step>
-                    <cmd>Add a navtitle attribute to the &lt;topichead> element that you just
-                        created and add content to it as follows:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
