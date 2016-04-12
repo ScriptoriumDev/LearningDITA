@@ -20,7 +20,10 @@
                 task topics might use an infinitive form (“To print the...”), but the reused topic
                 might use a present participle form (“Printing the...”). To make the title of a
                 topic consistent in your text and table of contents, use the &lt;navtitle> element
-                to specify a more consistent or appropriate title. </p> <note>
+                to specify a more consistent or appropriate title. </p>
+            <p>In some older DITA maps and bookmaps, you might encounter navtitle as an attribute for
+                &lt;topicref> and other elements. This is an older form and its use is discouraged.
+                Always use the &lt;navtitle> element when creating new content. </p> <note>
                     <p>For more information about the &lt;navtitle> element, see the <xref
                         href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/navtitle.html"
                         format="html" scope="external">OASIS DITA Version 1.2 Standard</xref>.</p>
@@ -62,7 +65,7 @@
                     </stepxmp>
                 </step>
                 <step>
-                    <cmd>Inside the &lt;topicref> elementm add a &lt;topicmeta> element and add
+                    <cmd>Inside the &lt;topicref> element add a &lt;topicmeta> element and add
                         content to it as shown in the following example:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
@@ -169,7 +172,7 @@
                 <step>
                     <cmd>Check your file maps_bookmaps_samples/exercises/_b_cs101_start.ditamap
                         against the sample
-                        filemaps_bookmaps_samples/exercises/_b_cs101.ditamap.</cmd>
+                        filemaps_bookmaps_samples/exercises/_b_cs101_advanced.ditamap.</cmd>
                 </step>
             </steps>
         </taskbody>
