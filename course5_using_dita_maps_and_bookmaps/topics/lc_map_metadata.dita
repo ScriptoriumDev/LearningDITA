@@ -15,36 +15,22 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>Metadata, or data about data, allows you to define information about your map and the
-                topic references it contains. It adds semantic value to your map and can help
-                facilitate filtering and search for both content creators and end users. Metadata is
-                typically not shown in the final published output, but it can influence the way that
-                your content is published—for example, by specifying how an output transform should
-                generate cover information.</p>
-            <p>Including metadata in your map can be immensely helpful when it’s time to publish and
-                distribute your content. Metadata that’s applied at the map level makes it easier
-                for a tech pubs team to keep track of which maps they’re responsible for updating
-                and reviewing—or, depending on what kind of content management solution they’re
-                using, helps automate their content development workflow. It also facilitates better
-                results when searching for published documents.</p>
-            <p>Applying metadata to individual topic or map references increases the map’s semantic
-                value even further. For example:</p>
-            <ul>
-                <li>Restricting topics based on output. If a topic should only be published in a
-                    physical format, metadata can filter web-targeted content on output.</li>
-                <li>Applying more contextually-appropriate information. Using the &lt;navtitle>
-                    element, which will be covered later in this lesson, you can override the title
-                    of a topic in a table of contents or site navigation to be more appropriate than
-                    the topic's own title.</li>
-            </ul>
-            <p>You can use metadata at the &lt;topicref> element level to override metadata that
-                already exists in the referenced topic. For example, if a referenced topic contains
-                a &lt;prolog> or &lt;shortdesc> element, the metadata you add to that &lt;topicref>
-                element in your map will take precedence. You can also override metadata in a
-                referenced map using the same method.</p>
-            <p>You can add metadata to a DITA map using the &lt;topicmeta> element. The
-                &lt;topicmeta> element can exist at the main map level (inside the &lt;map> element)
-                or inside any &lt;topicref> or &lt;mapref> element within the map.</p>
+            <p>Just as topic metadata allows you define information about topics, map metadata
+                allows you to define information about a DITA map and the topic references contained
+                in the map. </p>
+            <p>You add metadata to a DITA map using the &lt;topicmeta> element. The &lt;topicmeta>
+                element can exist at the main map level (inside the &lt;map> element) or inside any
+                &lt;topicref> or &lt;mapref> element within the map.</p>
+            <p>When used at the map level, map metadata adds information to a map and facilitates
+                searching and filtering. In most cases, map metadata is not shown in the final
+                published output, but it can influence the way that your content is published—for
+                example, by specifying how an output transform should generate cover
+                information.</p>
+            <p>When applied to &lt;topicref> or &lt;mapref> elements, map metadata provides
+                additional information about the referenced topics or maps and can even override
+                metadata contained in those topics and maps. For example, if a referenced topic
+                contains a &lt;prolog> or &lt;shortdesc> element,  metadata in a &lt;topicref>
+                element that contains &lt;prolog> or &lt;shortdesc> elements takes precedence. </p>
             <p>A number of metadata elements are allowed inside the &lt;topicmeta> element. Some of
                 the most useful ones include:</p>
             <ul id="ul_hrm_rvr_3v">
@@ -74,8 +60,8 @@
 &lt;category>Category name&lt;/category>
 &lt;/topicmeta></pre>
             <note>
-                <p>This lesson covers basic use of the &lt;topicmeta> element and the elements it
-                    contains. For the full specifications for each element, see the <xref
+                <p>For more information about the &lt;topicmeta> element and the elements it
+                    contains, see the <xref
                         href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicmeta.html"
                         format="html" scope="external">OASIS DITA Version 1.2 Standard</xref>.</p>
             </note>
@@ -89,6 +75,24 @@
                     <cmd>Make a copy of the file
                         maps_bookmaps_samples/samples/_m_ducks_advanced_start.ditamap and open it in
                         your editor.</cmd>
+                    <stepxmp>
+                        <p>You should see content that begins like this (the file is much longer
+                            that what is shown here):</p>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+&lt;map id="ducks">
+    &lt;title>Ducks&lt;/title>
+    &lt;topicref href="c_wild_ducks.dita">
+        &lt;topicref href="c_wild_duck_types.dita"/>
+        &lt;topicref href="c_wild_duck_species.dita"/>
+        &lt;topicref href="c_habitats.dita"/>
+        &lt;topicref href="t_watching_wild_ducks.dita"/>
+    &lt;/topicref>
+        &lt;topicref href="c_domestic_ducks.dita">
+        &lt;topicref href="c_duckling_growth.dita"/>
+        &lt;topicref href="c_housing.dita"/>
+        ...</pre>
+                    </stepxmp>
                 </step>
                 <step>
                     <cmd>Inside the &lt;map> element, after the &lt;title> element, add a

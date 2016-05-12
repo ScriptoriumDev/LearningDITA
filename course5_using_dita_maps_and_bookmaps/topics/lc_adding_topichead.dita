@@ -18,19 +18,12 @@
             <p>The &lt;topichead> element allows you to specify a title-only entry in a map that
                 applies to one or more topics. The specified title will appear in both the table of
                 contents, if present, and as a header in the main body of the text. The
-                &lt;topichead> element requires one of two things:</p>
-            <ul>
-                <li>A navtitle attribute on the &lt;topichead> element</li>
-                <li>A &lt;navtitle> element within a &lt;topicmeta> element</li>
-            </ul>
-            <p>You can use both of these to indicate to your processor that you want to handle the
-                supplied navtitle differently.</p>
-            <p>This is useful because it allows you to group topics together that are contextually
-                related without implying a hierarchical relationship, and prevents you from having
-                to create a container topic to create a title.</p>
+                &lt;topichead> element must contain a &lt;navtitle> element. </p>
+            <p>The &lt;topichead> element is useful because it allows you to group topics together
+                that are contextually related without implying a hierarchical relationship, and
+                prevents you from having to create a container topic to create a title.</p>
             <note>
-                <p>This lesson covers basic use of the &lt;topichead> element and the elements it
-                    contains. For the full specifications for each element, see the <xref
+                <p>For more information about the &lt;topichead> element, see the <xref
                         href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/topichead.html"
                         format="html" scope="external">OASIS DITA Version 1.2 Standard</xref>.</p>
             </note>
@@ -45,9 +38,9 @@
                         maps_bookmaps_samples/samples/_b_ducks_advanced_start.ditamap.</cmd>
                 </step>
                 <step>
-                    <cmd>Add a &lt;topichead> element before the &lt;topicref> referencing
-                        t_create_table.dita and close it after the &lt;topicref> referencing
-                        t_modify_table.dita as follows:</cmd>
+                    <cmd>Add a &lt;topichead> tag before the &lt;topicref> referencing
+                        t_create_table.dita and add a closing &lt;/topichead> tag after the
+                        &lt;topicref> referencing t_modify_table.dita as follows:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
@@ -55,53 +48,12 @@
 ...
 &lt;chapter href="c_duckdb.dita">
 <ph outputclass="newchanged">&lt;topichead></ph>
-&lt;topicref href="t_create_table.dita">
-&lt;topicref href="t_adding_entry.dita">
-&lt;topicref href="t_modify_entry.dita">
-&lt;topicref href="t_deleting_entry.dita">
-&lt;topicref href="t_queries.dita">
-&lt;topicref href="t_modify_table.dita">
-<ph outputclass="newchanged">&lt;/topichead></ph>
-</pre>
-                    </stepxmp>
-                </step>
-                <step>
-                    <cmd>Add a navtitle attribute to the &lt;topichead> element that you just
-                        created and add content to it as follows:</cmd>
-                    <stepxmp>
-                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
-&lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
-&lt;bookmap id="ducks">
-...
-&lt;chapter href="c_duckdb.dita">
-&lt;topichead <ph outputclass="newchanged">navtitle="Common tasks"</ph>>
-&lt;topicref href="t_create_table.dita">
-&lt;topicref href="t_adding_entry.dita">
-&lt;topicref href="t_modify_entry.dita">
-&lt;topicref href="t_deleting_entry.dita">
-&lt;topicref href="t_queries.dita">
-&lt;topicref href="t_modify_table.dita">
-&lt;/topichead>
-</pre>
-                    </stepxmp>
-                </step>
-                <step>
-                    <cmd>Add a &lt;topichead> element before the &lt;topicref> referencing
-                        r_tnav.dita and close it after the &lt;topicref> referencing
-                        r_modify_table.dita</cmd>
-                    <stepxmp>
-                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
-&lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
-&lt;bookmap id="ducks">
-...
-&lt;topicref href="t_modify_table.dita">
-<ph outputclass="newchanged">&lt;topichead></ph>
-&lt;topicref href="r_tnav.dita">
-&lt;topicref href="r_add.dita">
-&lt;topicref href="r_delete.dita">
-&lt;topicref href="r_edit.dita">
-&lt;topicref href="r_newtable.dita">
-&lt;topicref href="r_modify_table.dita">
+   &lt;topicref href="t_create_table.dita">
+   &lt;topicref href="t_adding_entry.dita">
+   &lt;topicref href="t_modify_entry.dita">
+   &lt;topicref href="t_deleting_entry.dita">
+   &lt;topicref href="t_queries.dita">
+   &lt;topicref href="t_modify_table.dita">
 <ph outputclass="newchanged">&lt;/topichead></ph>
 </pre>
                     </stepxmp>
@@ -114,17 +66,17 @@
 &lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
 &lt;bookmap id="ducks">
 ...
-&lt;topicref href="t_modify_table.dita">
+&lt;chapter href="c_duckdb.dita">
 &lt;topichead>
-<ph outputclass="newchanged">&lt;topicmeta>
-&lt;navtitle>Command reference&lt;/navtitle>
-&lt;/topicmeta></ph>
-&lt;topicref href="r_tnav.dita">
-&lt;topicref href="r_add.dita">
-&lt;topicref href="r_delete.dita">
-&lt;topicref href="r_edit.dita">
-&lt;topicref href="r_newtable.dita">
-&lt;topicref href="r_modify_table.dita">
+<ph outputclass="newchanged">   &lt;topicmeta>
+      &lt;navtitle>Common tasks&lt;/navtitle>
+   &lt;/topicmeta></ph>
+   &lt;topicref href="t_create_table.dita">
+   &lt;topicref href="t_adding_entry.dita">
+   &lt;topicref href="t_modify_entry.dita">
+   &lt;topicref href="t_deleting_entry.dita">
+   &lt;topicref href="t_queries.dita">
+   &lt;topicref href="t_modify_table.dita">
 &lt;/topichead>
 </pre>
                     </stepxmp>
