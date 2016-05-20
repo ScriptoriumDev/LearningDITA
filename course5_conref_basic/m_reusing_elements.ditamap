@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Learning Map//EN" "learningmap.dtd">
+<map id="learningMap-782" class="- map/map ">
+   <title class="- topic/title ">Reusing Elements</title>
+
+   <learningGroup class="+ map/topicref learningmap-d/learningGroup ">
+      <learningOverviewRef href="topics/lco_reusing_elements_between_topics.dita" class="+ map/topicref learningmap-d/learningOverviewRef "/>
+   </learningGroup>
+
+   <learningGroup class="+ map/topicref learningmap-d/learningGroup ">
+      <learningObject href="topics/conref_1_what_is_it/lc_what_is_a_content_reference.dita" class="+ map/topicref learningmap-d/learningObject ">
+         <learningContentRef class="+ map/topicref learningmap-d/learningContentRef "/>
+      </learningObject>
+
+      <learningObject href="topics/conref_2_how_to_do_it/lc_the_conref_attribute.dita" class="+ map/topicref learningmap-d/learningObject ">
+         <learningContentRef class="+ map/topicref learningmap-d/learningContentRef "/>
+      </learningObject>
+
+      <learningPostAssessmentRef href="assessments/lca_quiz_1.dita" class="+ map/topicref learningmap-d/learningPostAssessmentRef "/>
+   </learningGroup>
+
+   <learningGroup class="+ map/topicref learningmap-d/learningGroup ">
+      <learningObject href="topics/conref_2_how_to_do_it/lc_conref_element_requirements.dita" class="+ map/topicref learningmap-d/learningObject ">
+         <learningContentRef class="+ map/topicref learningmap-d/learningContentRef "/>
+      </learningObject>
+
+      <learningObject href="topics/conref_2_how_to_do_it/lc_reachable_by_map.dita" class="+ map/topicref learningmap-d/learningObject ">
+         <learningContentRef class="+ map/topicref learningmap-d/learningContentRef "/>
+      </learningObject>
+
+      <learningObject href="topics/conref_3_details/lc_attributes_of_conref.dita" class="+ map/topicref learningmap-d/learningObject ">
+         <learningContentRef class="+ map/topicref learningmap-d/learningContentRef "/>
+      </learningObject>
+
+      <learningPostAssessmentRef href="assessments/lca_quiz_2.dita" class="+ map/topicref learningmap-d/learningPostAssessmentRef "/>
+   </learningGroup>
+
+   <learningGroup class="+ map/topicref learningmap-d/learningGroup ">
+      <learningOverviewRef href="topics/conref_4_best_practice/lc_chosing_what_to_conref_-_overview.dita" class="+ map/topicref learningmap-d/learningOverviewRef "/>
+
+      <learningObject href="topics/conref_4_best_practice/lc_choosing_what_to_conref.dita" class="+ map/topicref learningmap-d/learningObject ">
+         <learningContentRef class="+ map/topicref learningmap-d/learningContentRef "/>
+      </learningObject>
+
+      <learningObject href="topics/conref_4_best_practice/lc_storing_your_reused_content.dita" class="+ map/topicref learningmap-d/learningObject ">
+         <learningContentRef class="+ map/topicref learningmap-d/learningContentRef "/>
+      </learningObject>
+
+      <learningPostAssessmentRef href="assessments/lca_quiz_3.dita" class="+ map/topicref learningmap-d/learningPostAssessmentRef "/>
+   </learningGroup>
+</map>
