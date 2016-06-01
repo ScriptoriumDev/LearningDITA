@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<!DOCTYPE learningOverview PUBLIC "-//OASIS//DTD DITA Learning Overview//EN" "http://docs.oasis-open.org/dita/v1.2/os/dtd1.2/learning/dtd/learningOverview.dtd">
+<learningOverview xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="learningAssessment-9112" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic learningInteractionBase-d)                            (topic learningInteractionBase-d learning-d)                            (topic learningmeta-d)                             (topic learningBase+learningInteractionBase-d)                            (topic learningBase learningOverview)    " ditaarch:DITAArchVersion="1.2" class="- topic/topic learningBase/learningBase     learningOverview/learningOverview "><title class="- topic/title ">Chosing What to Conref</title><shortdesc class="- topic/shortdesc "/>
+   <prolog class="- topic/prolog ">
+      <author type="creator" href="http://easydita.com/" format="html" scope="external"
+         class="- topic/author ">Mike Rice</author>
+      <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+         class="- topic/author ">Annie Chen</author>
+      <critdates>
+         <created golive="2016-07-01" date="2016-05-11"/>
+      </critdates>
+   </prolog><learningOverviewbody class="- topic/body  learningBase/learningBasebody learningOverview/learningOverviewbody "><lcIntro class="- topic/section learningBase/lcIntro ">
+         <p>What might seem to work well when using conrefs in English content might not work well
+            when the content is translated. Here are a few guidelines that you will understand after
+            completing this lesson: </p>
+         <ul class="- topic/ul ">
+            <li class="- topic/li ">
+               <p class="- topic/p ">Don’t use conref with ph to replace parts of a sentence.</p>
+            </li>
+            <li class="- topic/li ">
+               <p class="- topic/p ">Use extreme caution when using conref to reuse whole sentences.
+               </p>
+            </li>
+            <li class="- topic/li ">
+               <p class="- topic/p ">When you do conref, do it with whole block elements that meet
+                  the following requirements: <ul class="- topic/ul ">
+                     <li class="- topic/li ">
+                        <p class="- topic/p ">The reused content is grammatically independent.</p>
+                     </li>
+                     <li class="- topic/li ">
+                        <p class="- topic/p ">The referenced element and referencing element are
+                           within the same context.</p>
+                     </li>
+                  </ul>
+               </p>
+            </li>
+         </ul>
+      </lcIntro></learningOverviewbody></learningOverview>
