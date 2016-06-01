@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningTreeContent.dtd">
+<learningContent xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="lt-content-4677" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic concept)                             (topic reference)                             (topic task)                             (topic learningInteractionBase-d)                            (topic learningInteractionBase-d learning-d)                            (topic learningmeta-d)                             (topic learningBase+learningInteractionBase-d)                            (topic learningBase+learningInteractionBase-d learningContent)                            (topic learningBase learningSummary)                             (topic learningBase+learningInteractionBase-d learningAssessment)   " ditaarch:DITAArchVersion="1.2" class="- topic/topic learningBase/learningBase learningContent/learningContent "><title class="- topic/title ">How to reuse safely</title>
+   <prolog class="- topic/prolog ">
+      <author type="creator" href="http://easydita.com/" format="html" scope="external"
+         class="- topic/author ">Mike Rice</author>
+      <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+         class="- topic/author ">Annie Chen</author>
+      <critdates>
+         <created golive="2016-07-01" date="2016-05-11"/>
+      </critdates>
+   </prolog><learningContentbody class="- topic/body  learningBase/learningBasebody learningContent/learningContentbody "><lcInstruction class="- topic/section learningBase/lcInstruction ">
+         <p class="- topic/p ">Not every language works the same as English. Some languages require
+            a word to take a different form depending on whether it’s in the subject or object of
+            the sentence. Some languages have grammatical gender, and so words with gender can
+            affect words that are related to it in the sentence. Some languages have a different
+            number of plural forms than in English, where we’re used to the concepts of zero, one,
+            and more than one.</p>
+         <p class="- topic/p ">Each language has different rules of grammar and syntax. It’s not the
+            point of this lesson to understand the rules for every language. Instead, we’ll use
+            English to illustrate why substituting words isn’t a good idea when your content will be
+            translated into other languages with other rules.</p>
+         <p class="- topic/p ">Example:</p>
+         <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Casey ate an orange.</b>
+         </p>
+         <p class="- topic/p ">What if we were to substitute another word for orange?</p>
+         <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Casey ate an <u class="+ topic/ph hi-d/u ">apple</u>.</b>
+         </p>
+         <p class="- topic/p ">Still OK. But what if we substituted a different word?</p>
+         <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Casey ate an <u class="+ topic/ph hi-d/u ">tomato</u>.</b>
+         </p>
+         <p class="- topic/p "><note type="tip" class="- topic/note "><q class="- topic/q "
+                  >Knowledge is knowing that a tomato is a fruit. Wisdom is not putting it in a
+                  fruit salad</q> - Miles Kington</note>Now we have a problem. In English, we need
+            the article <b class="+ topic/ph hi-d/b ">a</b> instead of <b class="+ topic/ph hi-d/b "
+               >an</b> when the word starts with a consonant sound. Maybe not every language has a
+            rule like that, but English does.&#160;Substituting a fruit breaks the a/an rule in some
+            cases.</p>
+         <p class="- topic/p ">But that’s not the only way we can break our sample sentence.</p>
+         <p class="- topic/p ">Example:</p>
+         <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Casey ate an apple.</b>
+         </p>
+         <p class="- topic/p ">What if we substituted the plural?</p>
+         <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Casey ate an <u class="+ topic/ph hi-d/u ">apples</u>.</b>
+         </p>
+         <p class="- topic/p ">You’re probably getting the idea. English has rules that are broken
+            easily by substituting words within sentences. Other languages have other rules that are
+            also broken easily by substituting words within sentences. Just because you’re following
+            the rules for English doesn’t mean you’re not breaking the rules for another language.
+            You probably don’t know all the rules for all the languages your English content will be
+            translated into. So, <b class="+ topic/ph hi-d/b ">you should not use conref within
+               sentences (using ph or similar elements) to substitute parts of the sentence. </b>The
+            same goes for other reuse techniques like conkeyref and conditional filtering (profiling
+            with ditaval). If you use these on parts of a sentence, you’re just asking for trouble
+            because you will have bad content when it’s translated. </p>
+      </lcInstruction><section class="- topic/section "><title class="- topic/title ">How to reuse safely</title><p class="- topic/p ">You can reuse content safely across topics. Here are some examples. </p></section><section class="- topic/section "><title class="- topic/title ">Whole paragraphs</title><p class="- topic/p ">Whole, <i class="+ topic/ph hi-d/i ">grammatically independent</i> paragraphs can be reused safely <i class="+ topic/ph hi-d/i ">within the same context</i>. This would include the p element, or any element that grammatically is a paragraph, even if it has only one sentence. Let’s break that down.</p></section><section class="- topic/section "><title class="- topic/title ">Grammatically independent</title><p class="- topic/p ">A paragraph that is grammatically independent doesn’t rely on anything outside the paragraph to complete its meaning. For example, if pronouns within the paragraph refer to something outside the paragraph then it would not be grammatically independent. Substituting pronouns for nouns to make a paragraph less specific does not make it a good candidate for reuse. Substituting less specific nouns, however, is a good strategy. <q class="- topic/q ">Your computer</q> in place of <q class="- topic/q ">The Compu-Master 5000</q>, for example.</p><p class="- topic/p ">Example:</p><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Yes</b>: Your computer is equipped with an attractive protective case. To avoid  losing your computer, please do not paint or wallpaper the case to match your décor.</p><p class="- topic/p "><b class="+ topic/ph hi-d/b ">No</b>: This may not appear because it requires an additional license. Please call our office for more information.</p><p class="- topic/p ">(<q class="- topic/q ">This</q> and <q class="- topic/q ">it</q> refer to something outside the paragraph.)&#160;</p></section><section class="- topic/section "><title class="- topic/title ">Within the same context</title><p class="- topic/p ">Some words have multiple meanings that still make sense in English even if they’re not being used in their original context. Take the word <q class="- topic/q ">key</q> as an example. It might refer to a small piece of cut metal that’s used to open a lock, or it might refer to something on a rotating shaft that keeps another machine component such as a gear rotating along with the shaft.  The word <q class="- topic/q ">key</q> also has other meanings related to maps or cryptography. </p><p class="- topic/p ">If we were told to <q class="- topic/q ">examine the key for defects</q>, it might make sense to us in English in all of those contexts. In our minds we substitute a different concept for the word <q class="- topic/q ">key</q> depending on the context. But we can’t count on those different concepts sharing the same word in other languages.</p><p class="- topic/p ">This can be a tricky one to spot, because we usually substitute the correct concepts in our minds without even being conscious of it. So here’s another example. In English the word <q class="- topic/q ">battery</q> could refer to something in an automobile or to something in a watch. Both supply electrical current, so we might think that it’s the same concept and context. But when we stop and think about it, a watch is not at all the same context as an automobile and their batteries are very different in their construction. So it’s not safe to reuse between those two contexts, even if there are similarities in the concepts. And in fact, different words are used for those two kinds of batteries in some languages.</p><p class="- topic/p ">The main point to keep in mind is that  in other languages an entirely different word might be used for different concepts or contexts, so reusing in English across different contexts is not helpful for translated content.</p></section><section class="- topic/section "><title class="- topic/title ">Whole steps</title><p class="- topic/p ">Like paragraphs, whole grammatically independent steps can be reused in the same context. </p><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Yes</b>: <q class="- topic/q ">Close the window.</q></p><p class="- topic/p "><b class="+ topic/ph hi-d/b ">No</b>: <q class="- topic/q ">Close it.</q></p></section><section class="- topic/section "><title class="- topic/title ">Structured parts of steps</title><p class="- topic/p ">Step Example, Info, Choices,  Tutorial Information, and elements like them can be reused if they are grammatically independent and in the same context.</p></section><section class="- topic/section "><title class="- topic/title ">List items</title><p class="- topic/p ">You can probably already guess that a list item that you want to reuse needs to be in the same context and grammatically independent - without pronouns that refer to something outside the list item. But there’s more to it because lists are often introduced by an incomplete or complete sentence. The incomplete introductions are sometimes called stem sentences. A list preamble is a broader term that would include the complete sentence introductions.</p><p class="- topic/p ">Items in ordered or unordered lists that are  independent clauses or are introduced by independent clauses can be reused and conditionally filtered. <q class="- topic/q ">What’s an independent clause?</q>, you say? &#160;It stands on its own and expresses a complete thought.</p><p class="- topic/p ">The problem with the incomplete sentences introducing a list is that in some languages the list items that complete the sentence need to be inflected - changed - based on the stem that introduced them. If you were to reuse the items with a different stem, it might not be correct.  If the list preamble relies on the list items to complete the sentence, you should rewrite the preamble so that it stands alone grammatically.</p><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Yes</b>: You can choose one of the following colors:</p><ul class="- topic/ul "><li class="- topic/li ">
+               <p class="- topic/p ">yellow</p>
+            </li><li class="- topic/li ">
+               <p class="- topic/p ">red</p>
+            </li><li class="- topic/li ">
+               <p class="- topic/p ">green</p>
+            </li></ul><p class="- topic/p "><b class="+ topic/ph hi-d/b ">No</b>: You can ride:</p><ul class="- topic/ul "><li class="- topic/li ">
+               <p class="- topic/p ">a bus</p>
+            </li><li class="- topic/li ">
+               <p class="- topic/p ">a bicycle</p>
+            </li><li class="- topic/li ">
+               <p class="- topic/p ">a train</p>
+            </li></ul></section><section class="- topic/section "><title class="- topic/title ">Probably not a good idea: sentences</title><p class="- topic/p ">It’s possible to reuse independent sentences. (Are you thinking <q class="- topic/q ">in the same context</q>?) But it still might not be a good idea for translated content. If you decide to do it anyway, there are some details that you’ll need to get right.&#160;</p><p class="- topic/p ">Here’s the problem for translation: The order of sentences that feels natural in one language is not necessarily an order that feels right in another language. Translators might reorder the sentences in your paragraph to achieve a more natural flow in the target language. Occasionally, they might even add a sentence or two. As you can imagine, putting reused sentences into a paragraph can make it much more difficult - if not impossible - to arrange the sentences in a way that will make the most sense to the reader of translated content. The same principle applies if you’re using conditional filtering to choose which sentences are included in a paragraph.</p><p class="- topic/p ">If you do decide to go ahead and reuse sentences within paragraphs, you should work out some conventions about how punctuation and spaces will be reused. Think through all of the possible combinations to be sure that in every case the punctuation and spacing will be correct.<?ezd-review-start 5ab64245-823f-48e4-9ccf-695648daa525:comment:mike.rice@easydita.com?><?ezd-review-end 5ab64245-823f-48e4-9ccf-695648daa525?></p></section></learningContentbody>
+   <task id="task_at5_jgd_3v">
+      <title>Practice</title>
+      <taskbody/>
+   </task></learningContent>
