@@ -30,7 +30,7 @@
      <lcAnswerOption class="+ topic/li learningInteractionBase-d/li learning-d/lcAnswerOption ">
       <lcAnswerContent class="+ topic/p learningInteractionBase-d/p learning-d/lcAnswerContent ">Use
        a topicref to include the topic in the map, and set the proceesing-role attribute of the
-       topicref to “no”.</lcAnswerContent>
+       topicref to “resource-only”.</lcAnswerContent>
       <lcCorrectResponse name="lcCorrectResponse" value="lcCorrectResponse"
        class="+ topic/data learningInteractionBase-d/data learning-d/lcCorrectResponse "/>
      </lcAnswerOption>
@@ -43,8 +43,9 @@
     <lcFeedbackIncorrect
      class="+ topic/p learningInteractionBase-d/p learning-d/lcFeedbackIncorrect ">Setting three
      attributes - toc, linking, and search - to “no” has the same effect as setting the
-     processing-role attribute to “no”, but setting just one attribute is a simpler
-     solution.</lcFeedbackIncorrect>
+     processing-role attribute to “resource-only”, but setting just one attribute is a simpler
+     solution.<draft-comment author="simonbate">Can't set linking to "no"; should be "none".</draft-comment>
+    </lcFeedbackIncorrect>
     <!--<lcFeedbackCorrect class="+ topic/p learningInteractionBase-d/p learning-d/lcFeedbackCorrect ">This is the best answer. Setting the toc, linking, and search attributes to “no” has the same effect.</lcFeedbackCorrect>-->
    </lcSingleSelect>
   </lcInteraction>
