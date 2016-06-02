@@ -19,15 +19,19 @@
                 if a referenced paragraph contains a &lt;uicontrol> element, the paragraph and the
                 &lt;uicontrol> element contained within it are inserted at the location of the
                 referencing element. This also means that a reference to a &lt;ol> element includes
-                all the &lt;li> elelments that are contained by the &lt;ol> element. </p>
+                all the &lt;li> elelments that are contained by the &lt;ol> element. <draft-comment
+                    author="simonbate">"are inserted" is passive. </draft-comment></p>
             <p class="- topic/p ">A conref directly references a reused element using its id and
                 location. The location is the path to the topic that contains the reused content,
                 and the id is the id of the element to be reused. In DITA not every element requires
-                an id, but it is required for any reused element.</p>
+                an id, but it is required for any reused element. <draft-comment author="simonbate"
+                    >id and location should be transposed, because that's the way they are in the
+                    conref.</draft-comment></p>
             <note type="note" class="- topic/note ">If the element you want to reuse does not have
                 an id, your content management system might prompt you to create an id for the
                 reused element as one of the steps in creating the conref. ids must start with a
-                letter, number, or underscore.</note>
+                letter, number, or underscore. <draft-comment author="simonbate">Avoid starting a
+                    sentence with a lower-case letter.</draft-comment></note>
             <draft-comment author="gretyl">Fill in "Practice" section (continue from previous topic)
                 and add on your own excercise</draft-comment>
         </lcInstruction>

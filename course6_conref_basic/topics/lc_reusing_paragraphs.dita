@@ -37,13 +37,16 @@
       </section>
       <section class="- topic/section ">
          <title class="- topic/title ">Within the same context</title>
+         <draft-comment author="simonbate">Not quite sure what the point is here. </draft-comment>
          <p class="- topic/p ">Some words have multiple meanings that still make sense in English
             even if they’re not being used in their original context. Take the word <q
                class="- topic/q ">key</q> as an example. It might refer to a small piece of cut
             metal that’s used to open a lock, or it might refer to something on a rotating shaft
             that keeps another machine component such as a gear rotating along with the shaft. The
             word <q class="- topic/q ">key</q> also has other meanings related to maps or
-            cryptography. </p>
+            cryptography. <draft-comment author="simonbate">"key" has another meaning within DITA.
+               Let's not go there.</draft-comment>
+         </p>
          <p class="- topic/p ">If we were told to <q class="- topic/q ">examine the key for
                defects</q>, it might make sense to us in English in all of those contexts. In our
             minds we substitute a different concept for the word <q class="- topic/q ">key</q>

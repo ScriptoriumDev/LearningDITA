@@ -28,8 +28,10 @@
             different stem, it might not be correct. If the list preamble relies on the list items
             to complete the sentence, you should rewrite the preamble so that it stands alone
             grammatically.</p>
-         <p class="- topic/p "><b class="+ topic/ph hi-d/b ">Yes</b>: You can choose one of the
-            following colors:</p>
+         <p class="- topic/p "><draft-comment author="simonbate">Would be a better example if they
+               both used nouns or if they both used adjectives. As it stands, this could seem to be
+               an argument not to put nouns in a ul. </draft-comment><b class="+ topic/ph hi-d/b "
+               >Yes</b>: You can choose one of the following colors:</p>
          <ul class="- topic/ul " id="ul_uzz_tty_dw">
             <li class="- topic/li ">
                <p class="- topic/p ">yellow</p>

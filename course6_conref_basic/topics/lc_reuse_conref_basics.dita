@@ -12,10 +12,16 @@
         </critdates>
     </prolog>
     <learningContentbody>
-        <lcInstruction><p class="- topic/p ">The original reused element stays where it is, and a
-                content reference (conref) to that element is inserted in each topic where the
+        <lcInstruction><p class="- topic/p "><draft-comment author="simonbate">Recast. Not clear
+                    what action precipitates this behavior (conref). "Stays where it is" is useless.
+                    The "content reference (conref)" part is circular definition...use other terms.
+                    "is inserted" is passive. Need to be clear about when and how conrefs are
+                    resolved. Lots of passive voice. The conref is usually resolved in the DITA
+                    editor, and always resolved at publishing time. That way it becomes clear who is
+                    doing the action. </draft-comment>The original reused element stays where it is,
+                and a content reference (conref) to that element is inserted in each topic where the
                 reused element and its content should appear. If the original content changes, those
-                changes also appear where that content has been referenced once the references are
+                changes also appear where that content has been referenced, once the references are
                 resolved by a DITA authoring or publishing tool.</p><image
                 href="../images/conref-conceptual.png" id="image_dnb_z4y_dw"/><p class="- topic/p "
                 >A conref has two parts: <dl class="- topic/dl ">

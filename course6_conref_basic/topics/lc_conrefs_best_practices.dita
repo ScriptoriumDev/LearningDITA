@@ -17,8 +17,8 @@
     <learningContentbody>
         <lcIntro>
             <p>What might seem to work well when using conrefs in English content might not work
-                well when the content is translated. Here are a few guidelines that you will
-                understand after completing this lesson: </p>
+                well when the content is translated. Here are a few guidelines that will make more
+                sense after completing this lesson: </p>
             <ul class="- topic/ul " id="ul_qcd_xry_dw">
                 <li class="- topic/li ">
                     <p class="- topic/p ">Don’t use conref with ph to replace parts of a
@@ -37,7 +37,8 @@
                             </li>
                             <li class="- topic/li ">
                                 <p class="- topic/p ">The referenced element and referencing element
-                                    are within the same context.</p>
+                                    are within the same context.<draft-comment author="simonbate"
+                                        >"context" is not defined; not clear.</draft-comment></p>
                             </li>
                         </ul>
                     </p>
