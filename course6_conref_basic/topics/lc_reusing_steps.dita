@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningTreeContent.dtd">
+<learningContent xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="lt-content-4677" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic concept)                             (topic reference)                             (topic task)                             (topic learningInteractionBase-d)                            (topic learningInteractionBase-d learning-d)                            (topic learningmeta-d)                             (topic learningBase+learningInteractionBase-d)                            (topic learningBase+learningInteractionBase-d learningContent)                            (topic learningBase learningSummary)                             (topic learningBase+learningInteractionBase-d learningAssessment)   " ditaarch:DITAArchVersion="1.2" class="- topic/topic learningBase/learningBase learningContent/learningContent "><title class="- topic/title ">Reusing steps</title>
+   <prolog class="- topic/prolog ">
+      <author type="creator" href="http://easydita.com/" format="html" scope="external"
+         class="- topic/author ">Mike Rice</author>
+      <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+         class="- topic/author ">Annie Chen</author>
+      <critdates>
+         <created golive="2016-07-01" date="2016-05-11"/>
+      </critdates>
+   </prolog><learningContentbody class="- topic/body  learningBase/learningBasebody learningContent/learningContentbody ">
+      <lcInstruction>
+         <p class="- topic/p ">Like paragraphs, whole grammatically independent steps can be reused
+            in the same context. </p>
+         <p class="- topic/p "><b class="+ topic/ph hi-d/b ">Yes</b>: <q class="- topic/q ">Close
+               the window.</q></p>
+         <p class="- topic/p "><b class="+ topic/ph hi-d/b ">No</b>: <q class="- topic/q ">Close
+               it.</q></p>
+      </lcInstruction>
+      <section class="- topic/section ">
+         <title class="- topic/title ">Structured parts of steps</title>
+         <p class="- topic/p ">Step Example, Info, Choices, Tutorial Information, and elements like
+            them can be reused if they are grammatically independent and in the same context.</p>
+      </section></learningContentbody>
+   <task id="task_at5_jgd_3v">
+      <title>Practice</title>
+      <taskbody/>
+   </task></learningContent>
