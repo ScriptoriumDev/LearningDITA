@@ -11,6 +11,16 @@
          <created golive="2016-07-01" date="2016-05-11"/>
       </critdates>
    </prolog><learningContentbody class="- topic/body  learningBase/learningBasebody learningContent/learningContentbody "><lcInstruction class="- topic/section learningBase/lcInstruction ">
+         <p class="- topic/p ">When first learning about conrefs in DITA, it might be tempting to
+            use it in any number of situations. However, it’s wise to proceed with some caution,
+            especially if your content will be translated. And even if your content is not being
+            translated today, assuming that it will be translated someday will avoid problems when
+               <q class="- topic/q ">someday</q> comes. </p>
+         <p class="- topic/p ">In general, just because it works in DITA, and it works well in
+            English, it does not mean that it’s a good thing to do to content that will be
+            translated into other languages. Languages vary in their vocabulary, but it goes far
+            beyond that. They also vary in how words can be put together and in the effect that
+            words might have on the surrounding words.</p>
          <p class="- topic/p ">Not every language works the same as English. Some languages require
             a word to take a different form depending on whether it’s in the subject or object of
             the sentence. Some languages have grammatical gender, and so words with gender can
