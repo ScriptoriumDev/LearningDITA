@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="lc_creating_a_map">
+    <title>Introduction to reuse</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Mike Rice,
+            easyDITA</author>
+        <critdates>
+            <created golive="2016-07-01" date="2016-05-11"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup id="lcObjectivesGroup_tvl_vbh_1t">
+                <lcObjective class="- topic/li learningBase/lcObjective ">Describe how to reuse
+                    elements across topcs</lcObjective>
+                <lcObjective class="- topic/li learningBase/lcObjective ">Create a content
+                    reference</lcObjective>
+                <lcObjective class="- topic/li learningBase/lcObjective ">Identify requirements for
+                    elements that are reused</lcObjective>
+                <lcObjective class="- topic/li learningBase/lcObjective "><draft-comment
+                        author="simonbate">"Understand" is a covert objective; make overt
+                        (demonstrable)</draft-comment>Understand the limits on element
+                    reuse</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="45"/>
+        </lcDuration>
+        <lcIntro>
+            <p>This lesson shows...<draft-comment author="gretyl">add intro</draft-comment></p>
+            <draft-comment author="gretyl">add related links</draft-comment>
+        </lcIntro>
+    </learningContentbody>
+    <related-links/>
+</learningContent>
