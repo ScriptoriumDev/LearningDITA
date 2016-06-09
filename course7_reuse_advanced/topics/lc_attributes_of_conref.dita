@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningTreeContent.dtd">
+<learningContent xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="lt-content-1989" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic concept)                             (topic reference)                             (topic task)                             (topic learningInteractionBase-d)                            (topic learningInteractionBase-d learning-d)                            (topic learningmeta-d)                             (topic learningBase+learningInteractionBase-d)                            (topic learningBase+learningInteractionBase-d learningContent)                            (topic learningBase learningSummary)                             (topic learningBase+learningInteractionBase-d learningAssessment)   " ditaarch:DITAArchVersion="1.2" class="- topic/topic learningBase/learningBase learningContent/learningContent "><title class="- topic/title ">Attributes of content references</title><shortdesc class="- topic/shortdesc "/>
+   <prolog class="- topic/prolog ">
+      <author type="creator" href="http://easydita.com/" format="html" scope="external"
+         class="- topic/author ">Mike Rice</author>
+      <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+         class="- topic/author ">Annie Chen</author>
+      <critdates>
+         <created golive="2016-07-01" date="2016-05-11"/>
+      </critdates>
+   </prolog><learningContentbody class="- topic/body  learningBase/learningBasebody learningContent/learningContentbody "><lcInstruction class="- topic/section learningBase/lcInstruction ">
+         <title class="- topic/title ">Instruction</title>
+         <p class="- topic/p ">Sometimes your reused content will use attributes. For example, a
+            &lt;tm&gt; element is required to have a tmtype attribute. Or, you might conref an
+            element that has conditional filtering values set. When you reuse an element that has an
+            attribute value, which value gets used in the referencing element? Is it the value from
+            the referenced element or the value from the referencing element?</p>
+         <p class="- topic/p ">The answer is that by default, the referencing element value gets
+            used if there is one. If the referencing element doesn’t have a value, then the
+            referenced element value gets used, if there is one. The exception is when the
+            referenced element uses the value -dita-use-conref-target. The referenced element value
+            will be used in this case. For elements where an attribute value from a defined list is
+            required, the -dita-use-conref-target value enables the referenced element value to be
+            used, just as it would if the referencing element value were blank.<draft-comment
+               author="simonbate">Simplify. Greatly.</draft-comment></p>
+
+         <p class="- topic/p ">
+            <draft-comment author="simonbate">This table is more confusing than helpful. I tried
+               adding xml:lang to the table, but got confused. If I got confused, readers will be
+               entirely lost. Consider non-table alternatives. Also, what does blank and not blank
+               mean? The attribute itself, or the attribute value?</draft-comment>
+            <table class="- topic/table "><title class="- topic/title ">Results of merging the values of referencing element and referenced element values in conrefs</title><tgroup cols="6" class="- topic/tgroup ">
+                  <colspec colname="c0" colnum="0" class="- topic/colspec "/>
+                  <colspec colname="c1" colnum="1" class="- topic/colspec "/>
+                  <colspec colname="c2" colnum="2" class="- topic/colspec "/>
+                  <colspec colname="c3" colnum="3" class="- topic/colspec "/>
+                  <colspec colname="c4" colnum="4" class="- topic/colspec "/>
+                  <colspec colname="newCol6" colnum="6" colwidth="1*"/>
+                  <tbody class="- topic/tbody ">
+                     <row class="- topic/row ">
+                        <entry colname="c0" class="- topic/entry "/>
+                        <entry namest="c2" nameend="newCol6" align="center" class="- topic/entry "
+                           >Referencing Value</entry>
+                     </row>
+                     <row class="- topic/row ">
+                        <entry colname="c0" morerows="4" class="- topic/entry ">Referenced
+                           Value</entry>
+                        <entry colname="c1" class="- topic/entry "/>
+                        <entry colname="c2" class="- topic/entry ">
+                           <b class="+ topic/ph hi-d/b ">blank</b>
+                        </entry>
+                        <entry colname="c3" class="- topic/entry ">
+                           <b class="+ topic/ph hi-d/b ">not blank</b>
+                        </entry>
+                        <entry colname="c4" class="- topic/entry ">
+                           <b class="+ topic/ph hi-d/b ">-dita-use-conref-target</b>
+                        </entry>
+                        <entry><b>xml:lang</b></entry>
+                     </row>
+                     <row class="- topic/row ">
+                        <entry colname="c1" class="- topic/entry ">
+                           <b class="+ topic/ph hi-d/b ">blank</b>
+                        </entry>
+                        <entry colname="c2" class="- topic/entry ">blank</entry>
+                        <entry colname="c3" class="- topic/entry ">referencing element value</entry>
+                        <entry colname="c4" class="- topic/entry ">blank</entry>
+                        <entry>referencing element value</entry>
+                     </row>
+                     <row class="- topic/row ">
+                        <entry colname="c1" class="- topic/entry ">
+                           <b class="+ topic/ph hi-d/b ">not blank</b>
+                        </entry>
+                        <entry colname="c2" class="- topic/entry ">referenced element value</entry>
+                        <entry colname="c3" class="- topic/entry ">referencing element value</entry>
+                        <entry colname="c4" class="- topic/entry ">referenced element value</entry>
+                        <entry>n/a</entry>
+                     </row>
+                     <row class="- topic/row ">
+                        <entry colname="c1" align="-dita-use-conref-target" class="- topic/entry ">
+                           <b class="+ topic/ph hi-d/b ">-dita-use-conref-target </b>
+                        </entry>
+                        <entry colname="c2" class="- topic/entry ">referenced element value (of the
+                           referenced element’s referenced element)</entry>
+                        <entry colname="c3" class="- topic/entry ">referencing element value</entry>
+                        <entry colname="c4" class="- topic/entry ">referenced element value (of the
+                           referenced element’s referenced element)</entry>
+                        <entry>n/a</entry>
+                     </row>
+                     <row>
+                        <entry colname="c1" align="-dita-use-conref-target"><b>xml:lang</b></entry>
+                        <entry colname="c2">referenced element value</entry>
+                        <entry colname="c3">n/a</entry>
+                        <entry colname="c4">n/a</entry>
+                        <entry>referenced element value</entry>
+                     </row>
+                  </tbody>
+               </tgroup></table>
+            <note type="note" id="note" class="- topic/note ">Normally, you wouldn’t use
+               -dita-use-conref-target as a referenced element value, since it implies that the
+               element with that value is the referencing element of a conref. But it could be the
+               case that you conref an element that itself is a conref. In this case, if both
+               elements with a conref attribute have the same attribute set to <q class="- topic/q "
+                  >-dita-use-conref-target</q>, the value of the attribute will match the value in
+               the referenced element of the referenced element.</note>
+         </p>
+         <draft-comment author="gretyl">Add "Practice" section and "on your own"
+            exercise</draft-comment>
+      </lcInstruction></learningContentbody>
+   <task id="task_at5_jgd_3v">
+      <title>Practice</title>
+      <taskbody/>
+   </task>
+   <task id="task_f5z_2qy_dw">
+      <title>Exercise</title>
+      <taskbody/>
+   </task></learningContent>

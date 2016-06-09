@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningTreeContent.dtd">
+<learningContent xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="lt-content-4677" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic concept)                             (topic reference)                             (topic task)                             (topic learningInteractionBase-d)                            (topic learningInteractionBase-d learning-d)                            (topic learningmeta-d)                             (topic learningBase+learningInteractionBase-d)                            (topic learningBase+learningInteractionBase-d learningContent)                            (topic learningBase learningSummary)                             (topic learningBase+learningInteractionBase-d learningAssessment)   " ditaarch:DITAArchVersion="1.2" class="- topic/topic learningBase/learningBase learningContent/learningContent "><title class="- topic/title ">Reusing sentences</title>
+   <prolog class="- topic/prolog ">
+      <author type="creator" href="http://easydita.com/" format="html" scope="external"
+         class="- topic/author ">Mike Rice</author>
+      <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+         class="- topic/author ">Annie Chen</author>
+      <critdates>
+         <created golive="2016-07-01" date="2016-05-11"/>
+      </critdates>
+   </prolog><learningContentbody class="- topic/body  learningBase/learningBasebody learningContent/learningContentbody ">
+      <lcInstruction>
+         <p>Reusing sentences is probably not a good idea.</p>
+         <draft-comment author="simonbate">Bill thinks this topic is not a good
+            idea.</draft-comment>
+         <p class="- topic/p ">It’s possible to reuse independent sentences. (Are you thinking <q
+               class="- topic/q ">in the same context</q>?) But it still might not be a good idea
+            for translated content. If you decide to do it anyway, there are some details that
+            you’ll need to get right.&#160;</p>
+         <p class="- topic/p ">Here’s the problem for translation: The order of sentences that feels
+            natural in one language is not necessarily an order that feels right in another
+            language. Translators might reorder the sentences in your paragraph to achieve a more
+            natural flow in the target language. Occasionally, they might even add a sentence or
+            two. As you can imagine, putting reused sentences into a paragraph can make it much more
+            difficult - if not impossible - to arrange the sentences in a way that will make the
+            most sense to the reader of translated content. The same principle applies if you’re
+            using conditional filtering to choose which sentences are included in a paragraph.</p>
+         <p class="- topic/p ">If you do decide to go ahead and reuse sentences within paragraphs,
+            you should work out some conventions about how punctuation and spaces will be reused.
+            Think through all of the possible combinations to be sure that in every case the
+            punctuation and spacing will be
+            correct.<?ezd-review-start 5ab64245-823f-48e4-9ccf-695648daa525:comment:mike.rice@easydita.com?><?ezd-review-end 5ab64245-823f-48e4-9ccf-695648daa525?></p>
+      </lcInstruction></learningContentbody>
+   <task id="task_at5_jgd_3v">
+      <title>Practice</title>
+      <taskbody/>
+   </task>
+   <task id="task_jz4_n5y_dw">
+      <title>Exercise</title>
+      <taskbody/>
+   </task></learningContent>
