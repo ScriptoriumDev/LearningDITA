@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_pgf_3gt_qt">
-    <title>Filtering (conditions)</title>
+    <title>Reusable topics</title>
     <prolog class="- topic/prolog ">
         <author type="creator" href="http://easydita.com/" format="html" scope="external"
             class="- topic/author ">Simon Bate</author>
@@ -15,22 +15,13 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>Content differences</p>
-            <ul id="ul_htg_rjh_hw">
-                <li>Different processes</li>
-                <li>Different definitions</li>
-                <li>Different details</li>
-                <li>Locale differences (ex. units)</li>
-            </ul>
-            <p>Subset of content</p>
-            <ul id="ul_yfp_q2c_3w">
-                <li>Subset of information (quick-reference guides)</li>
-                <li>Subset of capabilities (lower-end platform)</li>
-            </ul>
-            <p>Filtering is achieved through metadata</p> <ul id="ul_kvj_2rm_4v">
-                <li>Cultivate the habit of metadata</li>
-                <li>Necessary for searches</li>
-            </ul>
+            <p>
+                <draft-comment author="gretyl">Can reuse a topic in multiple places</draft-comment>
+                <draft-comment author="gretyl">Be careful about who edits your reusable
+                    topics</draft-comment>
+                <draft-comment author="gretyl">Creating a reusable topic (create sibling topic to
+                    this one)</draft-comment>
+            </p>
         </lcInstruction>
     </learningContentbody>
 </learningContent>

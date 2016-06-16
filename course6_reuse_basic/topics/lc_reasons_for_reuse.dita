@@ -15,7 +15,68 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p/>
+            <ul id="ul_ljs_rbn_wf">
+                <li>Reduce replication</li>
+                <li>Reduces costs</li>
+                <li>Increases consistency</li>
+                <li>Allows customer-specific output</li>
+            </ul>
+            <p>Reusing content can reduce costs in the following areas:</p>
+            <ul id="ul_shn_mpb_3w">
+                <li>Content creation<ul id="ul_u2g_4pb_3w">
+                        <li>Editing</li>
+                        <li>Review</li>
+                        <li>DTP</li>
+                    </ul></li>
+                <li>Translation/localization</li>
+                <li>Consistency</li>
+            </ul>
+            <p>Benefits of reuse will usually be seen in update or maintenance costs. Most benefits
+                will be seen after (not during) initial release.</p>
+            <p>An analysis of your content can help you decide whether you can benefit from
+                reuse:</p>
+            <ul id="ul_nh4_cqb_3w">
+                <li>No match. No case for reuse if you have no chunks of content that match each
+                    other.</li>
+                <li>Exact match. If you have identical content in more than one place, that content
+                    should be reused (as opposed to copied and pasted)</li>
+                <li>Gray area (inexact or partial match). If you have content that almost matches/is
+                    similar to other content, you can probably still benefit from reusing it. Here
+                    are some examples of content that fall into this gray area:<ul
+                        id="ul_gtr_jqb_3w">
+                        <li>Naming (product, company, devices, and so on) - keys</li>
+                        <li>Different process, definition, or details (or locale) - conditions,
+                            conrefpush</li>
+                        <li>Different order - conref (?)</li>
+                        <li>Subset - conditions</li>
+                        <li>Necessary specifics - conrefpush, conrefend</li>
+                        <li>Superfluous specifics - rewrite</li>
+                        <li>Usage and phrasing - rewrite</li>
+                    </ul></li>
+            </ul><ul id="ul_kvj_2rm_4v">
+                <li>Consider predictable vs unpredictable<ul id="ul_svj_gnh_hw">
+                    <li>Differences among existing content</li>
+                    <li>Differences with content yet to be created</li>
+                </ul></li>
+                <li>Consider derivative use<ul id="ul_hbz_d5h_hw">
+                    <li>How will you handle it?</li>
+                </ul></li>
+            </ul>
+            <ul id="ul_rhj_cl4_bn">
+                <li>Informal reuse<ul id="ul_nn2_bnw_dw">
+                        <li>Cut and paste (FORBIDDEN!)</li>
+                        <li>Off-the-cuff reuse (avoid)<p>“Hey Mary, can I use that topic?”</p><p>“I
+                                think I’ll use that topic.”</p></li>
+                    </ul></li>
+                <li>Formal (planned reuse)<ul id="ul_lrq_3lk_ln">
+                        <li>Controlled content<ul id="ul_arv_tq4_bn">
+                                <li>Regulatory information</li>
+                                <li>Consistent admonitions</li>
+                            </ul></li>
+                        <li>Identifying reusable content</li>
+                        <li>Write-once, use-many topics</li>
+                    </ul></li>
+            </ul>
         </lcInstruction>
     </learningContentbody>
 </learningContent>

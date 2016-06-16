@@ -8,12 +8,7 @@
   </topicmeta>
   <topicref href="../topics/lc_reuse_housekeeping.dita"/>
   <topicref href="../topics/lc_reasons_for_reuse.dita"/>
-  <topicref href="../topics/lc_types_of_reuse.dita">
-   <topicref href="../topics/lc_reuse_topic.dita"/>
-   <topicref href="../topics/lc_reuse_fragment.dita"/>
-   <topicref href="../topics/lc_reuse_variable.dita"/>
-   <topicref href="../topics/lc_reuse_filtering.dita"/>
-  </topicref>
+  <topicref href="../topics/lc_types_of_reuse.dita"/>
 
   <topicref href="../topics/lcc_assessment.dita" copy-to="lcc_create_maps.dita" locktitle="yes">
    <topicmeta>
