@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="lc_creating_a_map">
-    <title>Maps and topics</title>
+    <title>Reusable maps and topics</title>
     <prolog>
         <author type="creator" href="http://easydita.com/" format="html" scope="external"
             class="- topic/author ">Simon Bate</author>
@@ -16,7 +16,12 @@
     <learningContentbody>
         <lcObjectives>
             <lcObjectivesGroup id="lcObjectivesGroup_tvl_vbh_1t">
-                <lcObjective class="- topic/li learningBase/lcObjective "/>
+                <lcObjective class="- topic/li learningBase/lcObjective ">Explain the purpose of
+                    reusing topics or maps at the map level</lcObjective>
+                <lcObjective class="- topic/li learningBase/lcObjective ">Write topics that are
+                    reusable and localization ready</lcObjective>
+                <lcObjective class="- topic/li learningBase/lcObjective ">Demonstrate proper storage
+                    of reusable content</lcObjective>
             </lcObjectivesGroup>
         </lcObjectives>
         <lcDuration>
