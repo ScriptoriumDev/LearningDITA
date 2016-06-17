@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningTreeContent.dtd">
+<learningContent xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="lt-content-6076" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic concept)                             (topic reference)                             (topic task)                             (topic learningInteractionBase-d)                            (topic learningInteractionBase-d learning-d)                            (topic learningmeta-d)                             (topic learningBase+learningInteractionBase-d)                            (topic learningBase+learningInteractionBase-d learningContent)                            (topic learningBase learningSummary)                             (topic learningBase+learningInteractionBase-d learningAssessment)   " ditaarch:DITAArchVersion="1.2" class="- topic/topic learningBase/learningBase learningContent/learningContent "><title class="- topic/title ">Reusing across topics</title><shortdesc class="- topic/shortdesc "/>
+   <prolog class="- topic/prolog ">
+      <author type="creator" href="http://easydita.com/" format="html" scope="external"
+         class="- topic/author ">Mike Rice</author>
+      <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+         class="- topic/author ">Annie Chen</author>
+      <critdates>
+         <created golive="2016-07-01" date="2016-05-11"/>
+      </critdates>
+   </prolog><learningContentbody class="- topic/body  learningBase/learningBasebody learningContent/learningContentbody "><lcInstruction class="- topic/section learningBase/lcInstruction ">
+         <title class="- topic/title ">Instruction</title>
+
+         <p class="- topic/p ">When publishing a topic that reuses content from another topic, the content references can  be resolved only if the referenced elements are reachable through the publication map. For example:
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            <ul class="- topic/ul "><li class="- topic/li ">
+                  <p class="- topic/p ">If the  topics containing the referenced element and referencing element  are  in the same map then conrefs between those topics can be resolved through the context of that map.</p>
+               </li><li class="- topic/li ">
+                  <p class="- topic/p ">If the topics containing the referenced element and referencing element are in separate maps but those maps are part of the overall map structure of the same published map, the conrefs between those topics can be resolved through the context of the publication map.</p>
+               </li></ul></p>
+
+         <p class="- topic/p ">In a later lesson you’ll learn about best practices for reusing content. Among these practices is using warehouse topics - storing your reused content separately from the main body of content. </p>
+         <p class="- topic/p ">Ordinarily, if a topic is included by a topicref in one of the maps, it will be published along with all the other topics. But clearly you wouldn’t want to publish a warehouse of reusable content along with your publication. To mark resources of this sort that aren’t intended for publication, set the topicref’s processing-role attribute to resource-only.
+
+            
+
+            </p>
+         <p class="- topic/p ">In the following example, task.dita will be published, but warnings.dita will not. However, warnings.dita is available for resolving references from  task.dita or any other topics in the map.
+
+            
+
+            
+
+            
+
+            
+
+		   </p>
+
+         <p class="- topic/p ">
+            <fig class="- topic/fig "><title class="- topic/title ">Using resource-only in the topicref processing-role attribute</title><pre xml:space="preserve" class="- topic/pre ">&lt;map&gt;
+... 
+  &lt;topicref href="warehouse/warnings.dita" processing-role="resource-only"/&gt;
+...
+  &lt;topicref href="topics/task.dita"/&gt;
+...
+&lt;/map&gt;
+		   </pre></fig>
+         </p>
+
+         <p class="- topic/p ">
+            <note type="note" class="- topic/note ">When working in a component content management system, the system might resolve conrefs and other direct references that appear in a topic you’re viewing or editing, even without a common context set through a map. But, depending on your publishing configuration, those references might not resolve when the topic is published. The best practice is to have topics with the referenced element and referencing element in the same map or one of its submaps.</note>
+         </p>
+         <draft-comment author="gretyl">Add "Practice" section</draft-comment>
+      </lcInstruction></learningContentbody>
+   <task id="task_at5_jgd_3v">
+      <title>Practice</title>
+      <taskbody/>
+   </task></learningContent>
