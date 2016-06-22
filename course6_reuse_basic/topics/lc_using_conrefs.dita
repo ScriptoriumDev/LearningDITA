@@ -20,10 +20,8 @@
         <lcDuration>
             <lcTime value="45"/>
         </lcDuration>
-        <lcIntro>
-            <draft-comment author="gretyl">Add intro</draft-comment>
-            <draft-comment author="gretyl">Add related links</draft-comment>
-        </lcIntro>
+        <lcIntro>This lesson shows how to create and use conrefs to achieve fragment-level
+                reuse.<draft-comment author="gretyl">Add related links</draft-comment></lcIntro>
     </learningContentbody>
     <related-links/>
 </learningContent>
