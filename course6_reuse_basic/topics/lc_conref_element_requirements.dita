@@ -12,12 +12,12 @@
         </critdates>
     </prolog><learningContentbody class="- topic/body  learningBase/learningBasebody learningContent/learningContentbody "><lcInstruction class="- topic/section learningBase/lcInstruction ">
          <title class="- topic/title ">Instruction</title>
-         <p class="- topic/p ">Generally, you will conref only elements that are alike, so that both
-                the referenced element and the referencing element are the same type of element.
-                There are few exceptions, and the rules that allow these exceptions are complex and
-                beyond the scope of this course.<draft-comment author="simonbate">"Generally" is too
-                    loose; "Amost always" or something is much better. Not a good way to introduce
-                    the requirement. Start out with the rule. Period.</draft-comment></p>
+         <p class="- topic/p ">In most cases, you will conref only elements that are alike, so that
+                both the referenced element and the referencing element are the same type of
+                element. There are few exceptions, and the rules that allow these exceptions are
+                complex and beyond the scope of this course.<draft-comment author="simonbate">Not a
+                    good way to introduce the requirement. Start out with the rule.
+                    Period.</draft-comment></p>
          <p class="- topic/p ">Some elements are invalid without other elements inside them. For example, in a task, the &lt;step&gt; element requires a &lt;cmd&gt; element within it. When elements have required contents, those elements must be present in the  referencing element and in the referenced element. This requirement can be satisfied by inserting empty required elements inside the  referencing element. These empty elements are replaced with the actual required elements when the conref is resolved.
 
             
@@ -55,7 +55,8 @@
 &lt;/task&gt;</pre>
          </p></fig>
          </p>
-            <draft-comment author="gretyl">Add "Practice" section</draft-comment>
+            <draft-comment author="gretyl">Fill in "Practice" section (continue from previous
+                topic)</draft-comment>
 
          
       </lcInstruction></learningContentbody>
