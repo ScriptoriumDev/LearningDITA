@@ -16,19 +16,20 @@
     <learningContentbody>
         <lcObjectives>
             <lcObjectivesGroup id="lcObjectivesGroup_tvl_vbh_1t">
-                <lcObjective class="- topic/li learningBase/lcObjective ">Explain the purpose of
-                    reusing topics or maps at the map level</lcObjective>
-                <lcObjective class="- topic/li learningBase/lcObjective ">Write topics that are
-                    reusable and localization ready</lcObjective>
-                <lcObjective class="- topic/li learningBase/lcObjective ">Demonstrate proper storage
-                    of reusable content</lcObjective>
+                <lcObjective class="- topic/li learningBase/lcObjective ">Demonstrate reuse at the
+                    map and topic levels</lcObjective>
+                <lcObjective class="- topic/li learningBase/lcObjective ">Create reusable
+                    topics</lcObjective>
+                <lcObjective class="- topic/li learningBase/lcObjective ">Write content in ways that
+                    maximize its potential for reuse</lcObjective>
             </lcObjectivesGroup>
         </lcObjectives>
         <lcDuration>
             <lcTime value="45"/>
         </lcDuration>
         <lcIntro>
-            <p>This lesson shows...<draft-comment author="gretyl">add intro</draft-comment></p>
+            <p>This lesson shows how to create reusable maps and topics in DITA, and how to write
+                content with reuse in mind.</p>
             <draft-comment author="gretyl">add related links</draft-comment>
         </lcIntro>
     </learningContentbody>

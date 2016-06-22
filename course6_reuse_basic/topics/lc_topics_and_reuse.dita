@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_pgf_3gt_qt">
-    <title>Reusable topics</title>
+    <title>Creating a reusable topic</title>
     <prolog class="- topic/prolog ">
         <author type="creator" href="http://easydita.com/" format="html" scope="external"
             class="- topic/author ">Simon Bate</author>
@@ -15,13 +15,7 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>
-                <draft-comment author="gretyl">Can reuse a topic in multiple places</draft-comment>
-                <draft-comment author="gretyl">Be careful about who edits your reusable
-                    topics</draft-comment>
-                <draft-comment author="gretyl">Creating a reusable topic (create sibling topic to
-                    this one)</draft-comment>
-            </p>
+            <p/>
         </lcInstruction>
     </learningContentbody>
 </learningContent>

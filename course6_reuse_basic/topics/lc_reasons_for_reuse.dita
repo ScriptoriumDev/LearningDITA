@@ -15,68 +15,38 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
+            <p>Reuse—storing content in a single source and using it in multiple places where
+                relevant—is one of the benefits of maintaining content in a structured form such as
+                DITA. Reusing content offers the following advantages:</p>
             <ul id="ul_ljs_rbn_wf">
-                <li>Reduce replication</li>
-                <li>Reduces costs</li>
-                <li>Increases consistency</li>
-                <li>Allows customer-specific output</li>
+                <li>Reduces replication. Keeping content in one place and reusing it when necessary
+                    eliminates the need to copy and paste information, or to write nearly identical
+                    content multiple times in multiple locations. This saves time and helps ensure
+                    greater accuracy.</li>
+                <li>Reduces costs. By reusing content, you reduce the cost of time that would have
+                    been spent duplicating information manually. This makes content creation faster
+                    and reviews more straightforward. Reuse can also help reduce localization costs;
+                    replicated content is translated separately every time it appears, but a single
+                    source of content that is reused is only translated once.</li>
+                <li>Increases consistency. Every time you manually duplicate content, you introduce
+                    the risk of human error. Having multiple copies of the same information also
+                    increases the risk that the content will be updated in some places but not in
+                    others, or that the various copies will become slightly different from each
+                    other over time. Maintaining a single source means that the reused content will
+                    always be up-to-date and consistent wherever it is used.</li>
+                <li>Allows customer-specific output. If you keep content that should appear in
+                    multiple places in separate, reusable topics, you can combine topics in
+                    different maps for different customers. For example, you might have a series of
+                    product manuals that contain some information that's identical and other
+                    information that's more product-specific. Rather than writing a separate manual
+                    for each product, you can combine product-specific topics with common topics in
+                    a map for each product, which allows you to write each of the common topics only
+                    once.</li>
             </ul>
-            <p>Reusing content can reduce costs in the following areas:</p>
-            <ul id="ul_shn_mpb_3w">
-                <li>Content creation<ul id="ul_u2g_4pb_3w">
-                        <li>Editing</li>
-                        <li>Review</li>
-                        <li>DTP</li>
-                    </ul></li>
-                <li>Translation/localization</li>
-                <li>Consistency</li>
-            </ul>
-            <p>Benefits of reuse will usually be seen in update or maintenance costs. Most benefits
-                will be seen after (not during) initial release.</p>
-            <p>An analysis of your content can help you decide whether you can benefit from
-                reuse:</p>
-            <ul id="ul_nh4_cqb_3w">
-                <li>No match. No case for reuse if you have no chunks of content that match each
-                    other.</li>
-                <li>Exact match. If you have identical content in more than one place, that content
-                    should be reused (as opposed to copied and pasted)</li>
-                <li>Gray area (inexact or partial match). If you have content that almost matches/is
-                    similar to other content, you can probably still benefit from reusing it. Here
-                    are some examples of content that fall into this gray area:<ul
-                        id="ul_gtr_jqb_3w">
-                        <li>Naming (product, company, devices, and so on) - keys</li>
-                        <li>Different process, definition, or details (or locale) - conditions,
-                            conrefpush</li>
-                        <li>Different order - conref (?)</li>
-                        <li>Subset - conditions</li>
-                        <li>Necessary specifics - conrefpush, conrefend</li>
-                        <li>Superfluous specifics - rewrite</li>
-                        <li>Usage and phrasing - rewrite</li>
-                    </ul></li>
-            </ul><ul id="ul_kvj_2rm_4v">
-                <li>Consider predictable vs unpredictable<ul id="ul_svj_gnh_hw">
-                    <li>Differences among existing content</li>
-                    <li>Differences with content yet to be created</li>
-                </ul></li>
-                <li>Consider derivative use<ul id="ul_hbz_d5h_hw">
-                    <li>How will you handle it?</li>
-                </ul></li>
-            </ul>
-            <ul id="ul_rhj_cl4_bn">
-                <li>Informal reuse<ul id="ul_nn2_bnw_dw">
-                        <li>Cut and paste (FORBIDDEN!)</li>
-                        <li>Off-the-cuff reuse (avoid)<p>“Hey Mary, can I use that topic?”</p><p>“I
-                                think I’ll use that topic.”</p></li>
-                    </ul></li>
-                <li>Formal (planned reuse)<ul id="ul_lrq_3lk_ln">
-                        <li>Controlled content<ul id="ul_arv_tq4_bn">
-                                <li>Regulatory information</li>
-                                <li>Consistent admonitions</li>
-                            </ul></li>
-                        <li>Identifying reusable content</li>
-                        <li>Write-once, use-many topics</li>
-                    </ul></li>
-            </ul>
+            <p>Implementing reuse is a long-term investment. You will usually see the benefits of
+                reuse in update or maintenance costs. Most of these benefits will occur after, not
+                during, the initial release.</p>
+            <!--<p>Reusing content can reduce costs in the following areas:</p><ul id="ul_shn_mpb_3w"><li>Content creation<ul id="ul_u2g_4pb_3w"><li>Editing</li><li>Review</li><li>DTP</li></ul></li><li>Translation/localization</li><li>Consistency</li></ul>-->
         </lcInstruction>
     </learningContentbody>
 </learningContent>
