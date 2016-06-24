@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
-<learningContent id="content_pgf_3gt_qt">
-    <title>Creating a reusable topic</title>
+<learningContent id="lc_creating_and_using_a_reusable_map">
+    <title>Creating and using a reusable map</title>
     <prolog class="- topic/prolog ">
         <author type="creator" href="http://easydita.com/" format="html" scope="external"
             class="- topic/author ">Simon Bate</author>
@@ -10,17 +10,9 @@
         <author type="contributor" href="http://easydita.com/" format="html" scope="external"
             class="- topic/author ">Gretyl Kinsey</author>
         <critdates>
-            <created golive="2016-07-01" date="2016-05-11"/>
+            <created golive="2016-07-01" date="2016-06-24"/>
         </critdates>
     </prolog>
     <learningContentbody>
-        <lcInstruction>
-            <p/>
-            <ul id="ul_qwy_pgb_kw">
-                <li>Consistent</li>
-                <li>Context-free</li>
-                <li>Generalized</li>
-            </ul>
-        </lcInstruction>
     </learningContentbody>
 </learningContent>
