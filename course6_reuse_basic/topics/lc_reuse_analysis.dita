@@ -15,54 +15,55 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>An analysis of your content can help you decide whether you can benefit from reuse.
-                Evaluate your content for content that occurs in more than one place to determine
-                what level of reuse, if any, you need:</p>
+            <p>Most content contains some information that can be reused. An analysis of your
+                content can help you find what is reusable. You might find entire topics that are
+                reusable, or you might find individual elements (such as paragraphs, notes, or list
+                items) that are reusable. </p>
+            <p>When analyzing your content you can find:</p>
             <ul id="ul_nh4_cqb_3w">
                 <li>
-                    <p>No match. If you have no chunks of content that match each other, you don't
-                        have a case for reuse.</p>
+                    <p>No match. If chunks of content do not match each other, you don’t have a case
+                        for reuse.</p>
                 </li>
                 <li>
-                    <p>Exact match. If you have identical content in more than one place, you should
-                        reuse that content (as opposed to replicating it manually, for example,
-                        through copy and paste).</p>
+                    <p>Exact match. If you find chunks of content (or even entire topics) that are
+                        identical, you should reuse them. </p>
                 </li>
                 <li>
-                    <p>Gray area (inexact or partial match). If you have content that almost matches
-                        or is similar to other content, you can probably benefit from reusing it.
-                        Here are some examples of content that fall into this gray area:</p>
+                    <p>Gray area (inexact or partial match). If you find content that almost matches
+                        or is similar to other content, you can probably benefit from reusing it,
+                        with some minor changes. Here are some examples of content that fall into
+                        this gray area:</p>
                     <ul id="ul_gtr_jqb_3w">
-                        <li>Naming: You might need to reuse your company name or different product
-                            or device names throughout your content.</li>
+                        <li>Naming: Content can be almost the same, except for the occurrence of
+                            product or device names, model numbers, or company names. </li>
                         <li>Different processes, definitions, or details: You might have several
                             product manuals that are mostly the same except for certain pieces of
                             information—for example, a different set of installation instructions
                             for one version of a product, or some additional safety information for
-                            another. You might also have slightly different versions of content
-                            based on locale.</li>
+                            another. </li>
+                        <li>Locale: Different units might be used in versions of content intended
+                            for different locales. </li>
                         <li>Different order: The same content might appear in a different sequence
                             from one deliverable to another.</li>
                         <li>Subset of content: If you have a shorter version of your content—for
                             example, a quick guide for a user manual—common content between the
                             shorter and longer versions should be reused.</li>
                         <li>Necessary specifics: Your content might be identical except for a few
-                            pieces of information that need to be specific (to a certain product,
-                            for example).</li>
+                            pieces of information that need to be specific (such as the size or
+                            number of screws). </li>
                     </ul>
                     <p>In some cases, it makes more sense to rewrite content than to try to reuse it
                         as-is:</p>
                     <ul id="ul_nqd_11v_jw">
-                        <li>Superfluous specifics: If you have two pieces of content that would be
-                            identical if not for numerous specifics—for example, two sets of
-                            instructions that would be the same if the product's specific name and
-                            parts weren't mentioned in every step—the best way to reuse this content
-                            is to rewrite it to be generic and move the specific information into an
-                            introduction.</li>
+                        <li>Superfluous specifics: If you have two pieces of content that are almost
+                            identical, except for unnecessary specifics—such as the color of a panel
+                            or the number of optional components—it is best to rewrite the content
+                            using generic terms (or eliminate the specifics altogether).</li>
                         <li>Usage and phrasing: If two pieces of content convey basically the same
-                            information, but are written differently, it makes the most sense to
-                            rewrite this content once (or choose the previously written version that
-                            works best in all locations) and reuse that as a single source.</li>
+                            information, but are written differently,consider merging them into a
+                            single reusable chunk (or choose the version that works best in all
+                            locations).</li>
                     </ul>
                 </li>
             </ul>

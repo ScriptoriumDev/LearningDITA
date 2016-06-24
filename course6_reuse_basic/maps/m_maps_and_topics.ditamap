@@ -5,14 +5,10 @@
  <topicref href="../topics/lc_maps_and_topics.dita">
   <topicref href="../topics/lc_maps_and_reuse.dita"/>
   <topicref href="../topics/lc_topics_and_reuse.dita"/>
-  <topicref href="../topics/lc_writing_reusable_topics.dita">
-   <topicref href="../topics/lc_understanding_the_problem.dita"/>
-   <topicref href="../topics/lc_reusing_paragraphs.dita"/>
-   <topicref href="../topics/lc_reusing_steps.dita"/>
-   <topicref href="../topics/lc_reusing_list_items.dita"/>
-   <topicref href="../topics/lc_storing_your_reused_content.dita"/>
-  </topicref>
-  <topicref href="../topics/lcc_assessment.dita">
+  <topicref href="../topics/lcc_assessment.dita" copy-to="lcc_Maps_and_topics.dita" locktitle="yes">
+   <topicmeta>
+    <navtitle>Assessment for Maps and topics</navtitle>
+   </topicmeta>
    <topicref href="../assessments/using_conrefs/lca_across_publications.dita"/>
    <topicref href="../assessments/using_conrefs/lca_candidate.dita"/>
    <topicref href="../assessments/using_conrefs/lca_stored.dita"/>
