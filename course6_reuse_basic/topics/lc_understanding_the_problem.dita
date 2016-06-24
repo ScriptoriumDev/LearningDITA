@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningTreeContent.dtd">
-<learningContent xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="lt-content-4677" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic concept)                             (topic reference)                             (topic task)                             (topic learningInteractionBase-d)                            (topic learningInteractionBase-d learning-d)                            (topic learningmeta-d)                             (topic learningBase+learningInteractionBase-d)                            (topic learningBase+learningInteractionBase-d learningContent)                            (topic learningBase learningSummary)                             (topic learningBase+learningInteractionBase-d learningAssessment)   " ditaarch:DITAArchVersion="1.2" class="- topic/topic learningBase/learningBase learningContent/learningContent "><title class="- topic/title ">Understanding the problem</title>
+<learningContent xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="lt-content-4677" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic concept)                             (topic reference)                             (topic task)                             (topic learningInteractionBase-d)                            (topic learningInteractionBase-d learning-d)                            (topic learningmeta-d)                             (topic learningBase+learningInteractionBase-d)                            (topic learningBase+learningInteractionBase-d learningContent)                            (topic learningBase learningSummary)                             (topic learningBase+learningInteractionBase-d learningAssessment)   " ditaarch:DITAArchVersion="1.2" class="- topic/topic learningBase/learningBase learningContent/learningContent "><title class="- topic/title ">Reuse and translation</title>
    <prolog class="- topic/prolog ">
       <author type="creator" href="http://easydita.com/" format="html" scope="external"
          class="- topic/author ">Mike Rice</author>
@@ -11,16 +11,16 @@
          <created golive="2016-07-01" date="2016-05-11"/>
       </critdates>
    </prolog><learningContentbody class="- topic/body  learningBase/learningBasebody learningContent/learningContentbody "><lcInstruction class="- topic/section learningBase/lcInstruction ">
-         <p class="- topic/p ">When first learning about conrefs in DITA, it might be tempting to
-            use it in any number of situations. However, it’s wise to proceed with some caution,
-            especially if your content will be translated. And even if your content is not being
-            translated today, assuming that it will be translated someday will avoid problems when
-               <q class="- topic/q ">someday</q> comes. </p>
-         <p class="- topic/p ">In general, just because it works in DITA, and it works well in
-            English, it does not mean that it’s a good thing to do to content that will be
-            translated into other languages. Languages vary in their vocabulary, but it goes far
-            beyond that. They also vary in how words can be put together and in the effect that
-            words might have on the surrounding words.</p>
+         <p class="- topic/p ">When you first learn about the reuse mechanisms in DITA, it might be
+            tempting to use them in any number of situations. However, it’s wise to proceed with
+            some caution, especially if your content will be translated. And even if your content is
+            not being translated today, assuming that it will be translated someday will avoid
+            problems when <q class="- topic/q ">someday</q> comes. </p>
+         <p class="- topic/p ">In general, just because something works in English content marked up
+            with DITA , that does not mean that it will work equally well when your content is
+            translated into other languages. Languages vary in their vocabulary, but more than that,
+            they also vary structure. That is, how words can be put together and in the effect that
+            words might have on their surrounding words.</p>
          <p class="- topic/p ">Not every language works the same as English. Some languages require
             a word to take a different form depending on whether it’s in the subject or object of
             the sentence. Some languages have grammatical gender, and so words with gender can
@@ -28,7 +28,7 @@
             number of plural forms than in English, where we’re used to the concepts of zero, one,
             and more than one.</p>
          <p class="- topic/p ">Each language has different rules of grammar and syntax. It’s not the
-            point of this lesson to understand the rules for every language. Instead, we’ll use
+            point of this lesson to show you the rules for every language. Instead, we’ll use
             English to illustrate why substituting words isn’t a good idea when your content will be
             translated into other languages with other rules.</p>
          <p class="- topic/p ">Example:</p>

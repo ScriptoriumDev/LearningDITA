@@ -14,7 +14,10 @@
   <topicref href="../topics/lc_reachable_by_map.dita"/>
   <topicref href="../topics/lc_attributes_of_conref.dita"/>
   <topicref href="../topics/lc_conrefs_best_practices.dita"/>
-  <topicref href="../topics/lcc_assessment.dita">
+  <topicref href="../topics/lcc_assessment.dita" copy-to="lcc_using_conrefs.dita" locktitle="yes">
+   <topicmeta>
+    <navtitle>Assessment for Using conrefs</navtitle>
+   </topicmeta>
    <topicref href="../assessments/how_conrefs_work/lca_referencing_element.dita"/>
    <topicref href="../assessments/how_conrefs_work/lca_resolve.dita"/>
    <topicref href="../assessments/how_conrefs_work/lca_topic.dita"/>
