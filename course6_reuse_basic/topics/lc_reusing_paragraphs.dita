@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<!-- This file is part of the DITA Training project hosted on github.com. See the accompanying LICENSE file for 
+     applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningTreeContent.dtd">
 <learningContent xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="lt-content-4677" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic concept)                             (topic reference)                             (topic task)                             (topic learningInteractionBase-d)                            (topic learningInteractionBase-d learning-d)                            (topic learningmeta-d)                             (topic learningBase+learningInteractionBase-d)                            (topic learningBase+learningInteractionBase-d learningContent)                            (topic learningBase learningSummary)                             (topic learningBase+learningInteractionBase-d learningAssessment)   " ditaarch:DITAArchVersion="1.2" class="- topic/topic learningBase/learningBase learningContent/learningContent "><title class="- topic/title ">Reusing paragraphs</title>
    <prolog class="- topic/prolog ">
@@ -7,6 +8,8 @@
          class="- topic/author ">Mike Rice</author>
       <author type="contributor" href="http://easydita.com/" format="html" scope="external"
          class="- topic/author ">Annie Chen</author>
+      <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+         class="- topic/author ">Simon Bate</author>
       <critdates>
          <created golive="2016-07-01" date="2016-05-11"/>
       </critdates>
@@ -14,8 +17,8 @@
       <lcInstruction>
          <p class="- topic/p ">Whole, <i class="+ topic/ph hi-d/i ">grammatically independent</i>
             paragraphs can be reused safely <i class="+ topic/ph hi-d/i ">within the same
-               context</i>. This would include the p element, or any element that grammatically is a
-            paragraph, even if it has only one sentence. Let’s break that down.</p>
+               context</i>. This includes the &lt;p> element and any element that grammatically is a
+            paragraph, even if it has only one sentence. Let’s take a closer look. </p>
       </lcInstruction>
       <section class="- topic/section ">
          <title class="- topic/title ">Grammatically independent</title>
@@ -24,29 +27,47 @@
             the paragraph refer to something outside the paragraph then it would not be
             grammatically independent. Substituting pronouns for nouns to make a paragraph less
             specific does not make it a good candidate for reuse. Substituting less specific nouns,
-            however, is a good strategy. <q class="- topic/q ">Your computer</q> in place of <q
-               class="- topic/q ">The Compu-Master 5000</q>, for example.</p>
-         <p class="- topic/p ">Example:</p>
-         <p class="- topic/p "><b class="+ topic/ph hi-d/b ">Yes</b>: Your computer is equipped with
-            an attractive protective case. To avoid losing your computer, please do not paint or
-            wallpaper the case to match your décor.</p>
-         <p class="- topic/p "><b class="+ topic/ph hi-d/b ">No</b>: This may not appear because it
-            requires an additional license. Please call our office for more information.</p>
-         <p class="- topic/p ">(<q class="- topic/q ">This</q> and <q class="- topic/q ">it</q>
-            refer to something outside the paragraph.)&#160;</p>
+            however, is a good strategy. For example:</p>
+         <dl>
+            <dlentry>
+               <dt>Do not use this</dt>
+               <dd>The Compu-Master 5000 is equipped with an attractive protective case. To avoid
+                  losing your computer, please do not paint or wallpaper the case to match your
+                  décor.</dd>
+            </dlentry>
+            <dlentry>
+               <dt>Use this</dt>
+               <dd>Your computer is equipped with an attractive protective case. To avoid losing
+                  your computer, please do not paint or wallpaper the case to match your
+                  décor.</dd>
+            </dlentry>
+         </dl>
+         <p class="- topic/p ">Here is another example:</p>
+         <dl>
+            <dlentry>
+               <dt>Do not use this</dt>
+               <dd>This may not appear because it requires an additional license. Please call our
+                  office for more information.</dd>
+            </dlentry>
+            <dlentry>
+               <dt>Use this</dt>
+               <dd>The database access module may not appear because it requires an additional
+                  license. Please call our office for more information.</dd>
+            </dlentry>
+         </dl>
       </section>
       <section class="- topic/section ">
          <title class="- topic/title ">Within the same context</title>
-         <draft-comment author="simonbate">Not quite sure what the point is here. </draft-comment>
+         <draft-comment author="simonbate">Not quite sure what the point is here. How does this
+            relate to reusing paragraphs? I need to see more examples of how a paragraph might not
+            be reusable if it's not used in the same context. </draft-comment>
          <p class="- topic/p ">Some words have multiple meanings that still make sense in English
             even if they’re not being used in their original context. Take the word <q
                class="- topic/q ">key</q> as an example. It might refer to a small piece of cut
             metal that’s used to open a lock, or it might refer to something on a rotating shaft
             that keeps another machine component such as a gear rotating along with the shaft. The
             word <q class="- topic/q ">key</q> also has other meanings related to maps or
-            cryptography. <draft-comment author="simonbate">"key" has another meaning within DITA.
-               Let's not go there.</draft-comment>
-         </p>
+            cryptography.  </p>
          <p class="- topic/p ">If we were told to <q class="- topic/q ">examine the key for
                defects</q>, it might make sense to us in English in all of those contexts. In our
             minds we substitute a different concept for the word <q class="- topic/q ">key</q>
