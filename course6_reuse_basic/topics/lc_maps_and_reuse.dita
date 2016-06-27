@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_pgf_3gt_qt">
-    <title>Reusable maps and topics</title>
+    <title>Reusable topics and maps</title>
     <prolog class="- topic/prolog ">
         <author type="creator" href="http://easydita.com/" format="html" scope="external"
             class="- topic/author ">Simon Bate</author>
@@ -15,9 +15,18 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>In the simplest form of reuse, you can reuse a DITA topic in any number of maps. </p>
-            <p/>
-            <p>You can reuse a topic in multiple maps</p>
+            <p>In the most basic form of reuse, you can reuse a DITA topic in any number of maps. </p>
+            <p>In is important that each reusable topic follows the guidelines presented in the
+                previous lesson. That is, each topic should be:</p>
+            <ul id="ul_qwy_pgb_kw">
+                <li>Consistent</li>
+                <li>Context-free</li>
+                <li>Generalized</li>
+            </ul>
+            <p>As described in the LearningDITA course on <cite>Using DITA maps and bookmaps</cite>,
+                you use the DITA &lt;topicref> element in a map or bookmap to include a topic in a
+                map.</p>
+            <pre>&lt;topicref href="filepath/filename.dita"/></pre>
             <p>You can reuse a map in multiple ways (for example, publishing it as a standalone
                 deliverable or including it in other maps</p>
             <p>Be careful about who edits your reusable topics or maps. Make sure that no one adds

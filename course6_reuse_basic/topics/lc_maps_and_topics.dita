@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="lc_creating_a_map">
-    <title>Reusable maps and topics</title>
+    <title>Reusable topics and maps</title>
     <prolog>
         <author type="creator" href="http://easydita.com/" format="html" scope="external"
             class="- topic/author ">Simon Bate</author>
@@ -18,18 +18,17 @@
             <lcObjectivesGroup id="lcObjectivesGroup_tvl_vbh_1t">
                 <lcObjective class="- topic/li learningBase/lcObjective ">Demonstrate reuse at the
                     map and topic levels</lcObjective>
-                <lcObjective class="- topic/li learningBase/lcObjective ">Create reusable
-                    topics</lcObjective>
-                <lcObjective class="- topic/li learningBase/lcObjective ">Write content in ways that
-                    maximize its potential for reuse</lcObjective>
+                <lcObjective class="- topic/li learningBase/lcObjective ">Add a reusable topic to a
+                    map</lcObjective>
+                <lcObjective>Create a reusable map</lcObjective>
+                <lcObjective>Add a map to a map</lcObjective>
             </lcObjectivesGroup>
         </lcObjectives>
         <lcDuration>
             <lcTime value="45"/>
         </lcDuration>
         <lcIntro>
-            <p>This lesson shows how to create reusable maps and topics in DITA, and how to write
-                content with reuse in mind.</p>
+            <p>This lesson shows how to reuse topics and maps in DITA. </p>
             <draft-comment author="gretyl">add related links</draft-comment>
         </lcIntro>
     </learningContentbody>

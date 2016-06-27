@@ -12,15 +12,27 @@
       </critdates>
    </prolog><learningContentbody class="- topic/body  learningBase/learningBasebody learningContent/learningContentbody ">
       <lcInstruction>
-         <p class="- topic/p ">Like paragraphs, whole grammatically independent steps can be reused
-            in the same context. </p>
-         <p class="- topic/p "><b class="+ topic/ph hi-d/b ">Yes</b>: <q class="- topic/q ">Close
-               the window.</q></p>
-         <p class="- topic/p "><b class="+ topic/ph hi-d/b ">No</b>: <q class="- topic/q ">Close
-               it.</q></p>
+         <p class="- topic/p ">As with paragraphs, when you &lt;step> elements, the contents of the
+            &lt;cmd> element must be grammatically independent and should be reused in the same
+            context. For example:</p>
+         <dl>
+            <dlentry>
+               <dt>Do not use this:</dt>
+               <dd>
+                  <pre>&lt;step>&lt;cmd>Close it.&lt;/cmd>&lt;/step></pre>
+               </dd>
+            </dlentry>
+            <dlentry>
+               <dt>Use this:</dt>
+               <dd>
+                  <pre>&lt;step>&lt;cmd>Close the window.&lt;/cmd>&lt;/step></pre>
+               </dd>
+            </dlentry>
+         </dl>
       </lcInstruction>
       <section class="- topic/section ">
          <title class="- topic/title ">Structured parts of steps</title>
-         <p class="- topic/p ">Step Example, Info, Choices, Tutorial Information, and elements like
-            them can be reused if they are grammatically independent and in the same context.</p>
+         <p class="- topic/p ">Similarly, you can reuse other parts of the &lt;step> element, such
+            as &lt;stepxmp> (step example), &lt;stepinfo>, &lt;choices>, &lt;tutorialinfo>, and
+            others, as long as they are grammatically independent and in the same context.</p>
       </section></learningContentbody></learningContent>
