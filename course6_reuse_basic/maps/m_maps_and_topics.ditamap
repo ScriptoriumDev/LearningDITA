@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
- <title>Maps and topics</title>
+ <title>Reusable topics and maps</title>
  <topicref href="../topics/lc_maps_and_topics.dita">
   <topicref href="../topics/lc_maps_and_reuse.dita"/>
   <topicref href="../topics/lc_topics_and_reuse.dita"/>
@@ -9,7 +9,7 @@
   <topicref href="../topics/lc_creating_and_using_a_reusable_map.dita"/>
   <topicref href="../topics/lcc_assessment.dita" copy-to="lcc_Maps_and_topics.dita" locktitle="yes">
    <topicmeta>
-    <navtitle>Assessment for Maps and topics</navtitle>
+    <navtitle>Assessment for Reusable topics and maps</navtitle>
    </topicmeta>
    <topicref href="../assessments/using_conrefs/lca_across_publications.dita"/>
    <topicref href="../assessments/using_conrefs/lca_candidate.dita"/>
