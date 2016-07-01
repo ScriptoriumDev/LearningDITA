@@ -13,18 +13,15 @@
         </critdates>
     </prolog>
     <learningContentbody>
-        <lcInstruction><p class="- topic/p ">A conref has two parts: <dl class="- topic/dl ">
-                    <dlentry class="- topic/dlentry ">
-                        <dt class="- topic/dt ">referenced element</dt>
-                        <dd class="- topic/dd ">the element that contains the content you want to
-                            reuse</dd>
-                    </dlentry>
-                    <dlentry class="- topic/dlentry ">
-                        <dt class="- topic/dt ">referencing element</dt>
-                        <dd class="- topic/dd ">the element that marks where the reused content
-                            should be inserted</dd>
-                    </dlentry>
-                </dl></p><image
+        <lcInstruction><p class="- topic/p ">A conref has two parts: </p><ul id="ul_ndg_4q3_mw">
+                <li>The <b><i>referenced element</i></b>, which contains the content you want to
+                    reuse. This element must have an id attribute.</li>
+                <li>The <b><i>referencing element</i></b>, which marks where the reused content
+                    should be inserted</li>
+            </ul><note type="note" class="- topic/note ">If the element you want to reuse does not
+                have an ID, your DITA editor or content management system might prompt you to create
+                an ID for the reused element as one of the steps in creating the conref. An ID must
+                start with a letter, number, or underscore. </note><image
                 href="../images/conref-conceptual-with-referenced-referencing-labels.png"
                 id="image_tb2_1py_dw"/><note type="tip" class="- topic/note ">In writing about
                 content references, the word conref is often used as a verb to mean “reuse an

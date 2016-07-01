@@ -10,32 +10,25 @@
             <li>The ID of the topic that contains the referenced element</li>
             <li>The ID of the referenced element</li>
          </ul>
-         <p>If the referenced element is in the same file as the referencing element (not a common
-            occurrence), the path to the file can be omitted.</p>
-         <p class="- topic/p ">In DITA not every element requires an ID, but it is required for any
-            reused element. </p>
-         <note type="note" class="- topic/note ">If the element you want to reuse does not have an
-            ID, your DITA editor or content management system might prompt you to create an ID for
-            the reused element as one of the steps in creating the conref. An ID must start with a
-            letter, number, or underscore. </note>
-         <p class="- topic/p ">The value of the conref attribute contains the location of the
-            referenced element. In the example below, the warehouse topic warnings.dita contains a
-            reusable &lt;note> element.</p>
+         <p>The path to the file and the topic ID are separated by a pound sign (#); the topic ID
+            and the element ID are separated by a slash (/).</p>
+         <note>If the referenced element is in the same file as the referencing element (not a
+            common occurrence), the path to the file can be omitted, but the pound sign is still
+            required.</note>
+         <p class="- topic/p ">In this example a warehouse topic (stored in the file
+            ../warehouse/warnings.dita) contains a reusable &lt;note> element.</p>
          <pre xml:space="preserve" class="- topic/pre ">&lt;topic id="warehouseWarnings"&gt;
    ...
    &lt;note type="danger" id="hotWarning"&gt;Surfaces are hot.&lt;/note&gt;
    ...</pre>
-         <p class="- topic/p ">To reuse the &lt;note> element in another topic, create an empty
-            &lt;note> element, and use the conref attribute to identify the element to be reused.
-            In this example, the files are stored in a local filesystem; the folder named
-            “warehouse” contains the warnings topic with the &lt;note> element you want to reuse is
-            stored in the warehouse folder. </p>
+         <p class="- topic/p ">To reuse this &lt;note> element in another topic, create an empty
+            &lt;note> element at the appropriate location, and use the conref attribute to identify
+            the element to be reused. </p>
          <pre xml:space="preserve" class="- topic/pre ">...
 &lt;note conref="../warehouse/warnings.dita#warehouseWarnings/hotWarning"/&gt;
 ...</pre>
-         <p class="- topic/p ">The contents of the conref attribute might look a bit intimidating.
-            Most DITA authoring tools help you fill in the conref attribute.   value to correctly
-            identify the location of the reused target element as in this easyDITA example:</p>
+         <p class="- topic/p ">The contents of the conref attribute might look a bit intimidating or
+            hard to remember. Most DITA authoring tools help you fill in the conref attribute.  </p>
          <p class="- topic/p "> The following table shows some examples of how the conref attribute
             value is formatted in various situations. You would replace the placeholders in these
             examples:</p>
