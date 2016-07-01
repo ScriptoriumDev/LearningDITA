@@ -27,13 +27,8 @@
                 you use the DITA &lt;topicref> element in a map or bookmap to include a topic in a
                 map.</p>
             <pre>&lt;topicref href="filepath/filename.dita"/></pre>
-            <p>You can reuse a map in multiple ways (for example, publishing it as a standalone
-                deliverable or including it in other maps</p>
-            <p>Be careful about who edits your reusable topics or maps. Make sure that no one adds
-                phrases such as "in the previous chapter" to your topics, or writes content that
-                depends on the other topics in one of the maps where the reused topic is referenced.
-                Remember that a change in a reused topic will be reflected everywhere that topic is
-                referenced. The same applies to reused maps.</p>
+            <p>If your topic meets all of the reusable guidelines, you should be able to re-use the
+                topic in just about any type of map, at just about any level in the hierarchy.</p>
         </lcInstruction>
     </learningContentbody>
 </learningContent>
