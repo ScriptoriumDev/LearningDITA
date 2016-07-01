@@ -58,29 +58,4 @@
                 &lt;topicref>) at the top level, therefore you cannot create a submap that contains
                 one of these top-level containers.</p>
         </lcInstruction>
-    </learningContentbody>
-<task id="task_ytj_kkt_lw">
-        <title>Exercise</title>
-        <taskbody>
-            <steps id="steps_dfp_lkt_lw">
-                <step>
-                    <cmd>Open the map file
-                        samples/reusing_topics_and_maps/_m_ducks_start.ditamap.</cmd>
-                </step>
-                <step>
-                    <cmd>Reuse the topic file c_duck_safety.dita by making it the last topic in the
-                        following submaps:</cmd>
-                    <info>
-                        <ul id="ul_yd1_rdz_lw">
-                            <li>_m_wild_ducks_start.ditamap</li>
-                            <li>_m_domestic_ducks_start.ditamap</li>
-                        </ul>
-                    </info>
-                </step>
-                <step>
-                    <cmd>Check your final map file _m_ducks_start.ditamap against the map file
-                        _m_ducks.ditamap.</cmd>
-                </step>
-            </steps>
-        </taskbody>
-</task></learningContent>
+    </learningContentbody></learningContent>
