@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_advanced">
+ <title>Documenting ducks</title>
+ <conbody>
+  <p>Domestic duck owners should document their ducks in a database to keep track of the ducks'
+   growth.</p>
+  <p>The database contains an entry for each duck. Each entry contains a chart for documenting the
+   duck's height, weight, and wingspan week by week.</p>
+  <p>To add an entry for a duck to the database, type <codeph>add entry</codeph> followed by the
+   name of the duck in parentheses into the command line and press Enter.</p>
+ </conbody>
+</concept>

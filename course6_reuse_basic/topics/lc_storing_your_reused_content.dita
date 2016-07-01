@@ -33,6 +33,33 @@
 				reuse, be stored in a folder beneath the folder that holds the map. Check the
 				requirements of your CCMS if you’re in doubt.</p>
 			<p>Other CCMS provide access control for warehoused content. </p>
-			<draft-comment author="gretyl">Do we want to add some kind of "Practice" and/or "On Your Own" to
-				this lesson? (maybe something like "rewrite this content to be more reusable") </draft-comment>
-					</lcInstruction></learningContentbody></learningContent>
+			</lcInstruction></learningContentbody>
+	<task id="task_dh4_mnv_jw">
+		<title>Exercise</title>
+		<taskbody>
+			<steps id="steps_gjh_3bz_lw">
+				<step>
+					<cmd>Open the file
+						samples/writing_for_reuse/c_documenting_ducks_start.dita.</cmd>
+				</step>
+				<step>
+					<cmd>Rewrite the following content to make this topic more reusable:</cmd>
+					<info>
+						<pre>In the previous chapter, you learned about ownership and care of domestic ducks. In this
+   chapter, you'll learn how to document valuable information about your ducks using the Magic
+   Mallard duck database.
+   Every duck owner should keep track of her ducks' growth. With the Magic Mallard database, you
+   can create an entry for each duck. Each entry contains a chart where you can type in the duck's
+   height, weight, and wingspan week by week.
+   To add an entry for a duck to your database, type &lt;codeph>add entry&lt;/codeph> followed by the
+   name of the duck in parentheses into the command line and press Enter.</pre>
+					</info>
+				</step>
+				<step>
+					<cmd>Check your rewritten content against the file
+						samples/writing_for_reuse/c_documenting_ducks.dita. (Results may
+						vary.)</cmd>
+				</step>
+			</steps>
+		</taskbody>
+	</task></learningContent>

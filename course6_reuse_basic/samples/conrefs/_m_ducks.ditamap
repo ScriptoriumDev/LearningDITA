@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ducks">
+ <title>Ducks</title>
+ <topicref href="c_duck_safety.dita"/>
+ <topicref href="c_wild_ducks.dita">
+  <topicref href="c_wild_duck_types.dita"/>
+  <topicref href="c_wild_duck_species.dita"/>
+  <topicref href="c_habitats.dita"/>
+  <topicref href="t_watching_wild_ducks.dita"/>
+ </topicref>
+ <topicref href="c_domestic_ducks.dita">
+  <topicref href="c_duckling_growth.dita"/>
+  <topicref href="c_housing.dita"/>
+  <topicref href="c_feeding_ducklings.dita">
+   <topicref href="c_duck_weight.dita"/>
+  </topicref>
+ </topicref>
+ <topicref href="c_duckdb.dita">
+  <topicref href="c_writing_about_ducks.dita"/>
+   <topicref href="t_create_table.dita"/>
+   <topicref href="t_adding_entry.dita"/>
+   <topicref href="t_modify_entry.dita"/>
+   <topicref href="t_queries.dita"/>
+   <topicref href="t_modify_table.dita"/>
+   <topicref href="t_deleting_entry.dita"/>  
+   <topicref href="r_tnav.dita"/>
+   <topicref href="r_add.dita"/>
+   <topicref href="r_delete.dita"/>
+   <topicref href="r_edit.dita"/>
+   <topicref href="r_modify_table.dita"/>
+   <topicref href="r_newtable.dita"/>  
+ </topicref>
+ 
+ 
+</map>
