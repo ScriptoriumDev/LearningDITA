@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_advanced">
+ <title>Writing about ducks</title>
+ <conbody>
+  <codeblock>duckdata> add entry (mallard)
+;
+1 entry added (0.05 sec)
+duckdata> _
+</codeblock>
+  <p>To add a duck species to your database, type <codeph>add entry</codeph> followed by the name of
+   the duck in parentheses into the command line and press Enter.</p>
+  <lq href="http://classiclit.about.com/library/bl-etexts/hdthoreau/bl-hdtho-wald-9.htm" format="html" scope="external">How much fairer than the pool before the farmers door, in which his ducks swim! Hither the
+   clean wild ducks come. Nature has no human inhabitant who appreciates her. The birds with their
+   plumage and their notes are in harmony with the flowers, but what youth or maiden conspires with
+   the wild luxuriant beauty of Nature?
+ </lq>
+  <section>
+   <title>Sharing your duck database</title>
+   <p>Export your duck database as HTML output to make it easy to share on your website. You can
+    also offer your database to users as a download.</p>
+   <draft-comment>Are you sure you want to offer a download?</draft-comment>
+   <required-cleanup>
+    <p>Consider giving users the option to send feedback or suggested entries for your duck
+     database.</p>
+   </required-cleanup>
+  </section>
+ </conbody>
+</concept>

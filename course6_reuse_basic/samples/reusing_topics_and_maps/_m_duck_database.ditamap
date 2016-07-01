@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ducks">
+ <title>Using the Duck Database</title>
+ <topicref href="c_duckdb.dita">
+  <topicref href="c_writing_about_ducks.dita"/>
+   <topicref href="t_create_table.dita"/>
+   <topicref href="t_adding_entry.dita"/>
+   <topicref href="t_modify_entry.dita"/>
+   <topicref href="t_queries.dita"/>
+   <topicref href="t_modify_table.dita"/>
+   <topicref href="t_deleting_entry.dita"/>  
+   <topicref href="r_tnav.dita"/>
+   <topicref href="r_add.dita"/>
+   <topicref href="r_delete.dita"/>
+   <topicref href="r_edit.dita"/>
+   <topicref href="r_modify_table.dita"/>
+   <topicref href="r_newtable.dita"/>  
+ </topicref>
+ 
+ 
+</map>

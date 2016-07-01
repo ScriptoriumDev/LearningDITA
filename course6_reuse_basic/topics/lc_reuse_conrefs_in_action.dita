@@ -13,22 +13,23 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p class="- topic/p ">When you conref an element, the element itself, and all its
-                contents are inserted at the location of the referencing element. This includes any
-                other elements that the referenced element contains. This means, for example, that
-                if a referenced paragraph contains a &lt;uicontrol> element, the paragraph and the
-                &lt;uicontrol> element contained within it are inserted at the location of the
-                referencing element. This also means that a reference to a &lt;ol> element includes
-                all the &lt;li> elelments that are contained by the &lt;ol> element. <draft-comment
-                    author="simonbate">"are inserted" is passive. </draft-comment></p>
+            <p class="- topic/p ">When a DITA topic containing a conref referencing element is
+                processed for output (or displayed in some DITA editors), the output generator
+                replaces the referencing element with the referenced element and all the content of
+                referenced element. This includes any elements contained within the referenced
+                element. For example, if a referenced &lt;p> element contains a &lt;uicontrol>
+                element, the referencing &lt;p> element is replaced by the referenced &lt;p> element
+                and the &lt;uicontrol> element contained within it. Similarly, a conref to an
+                &lt;ol> element includes all the &lt;li> elements that are contained by the &lt;ol>
+                element. </p>
             <p class="- topic/p ">A conref directly references a reused element using its location
                 and ID. The location is the path to the topic that contains the reused content, and
                 the id is the ID of the element to be reused. In DITA not every element requires an
                 ID, but it is required for any reused element. </p>
             <note type="note" class="- topic/note ">If the element you want to reuse does not have
-                an ID your content management system might prompt you to create an ID for the reused
-                element as one of the steps in creating the conref. An ID must start with a letter,
-                number, or underscore. </note>
+                an ID, your DITA editor or content management system might prompt you to create an
+                ID for the reused element as one of the steps in creating the conref. An ID must
+                start with a letter, number, or underscore. </note>
             <draft-comment author="gretyl">Fill in "Practice" section (continue from previous
                 topic)</draft-comment>
         </lcInstruction>
