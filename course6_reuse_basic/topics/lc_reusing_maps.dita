@@ -21,8 +21,9 @@
                 appendixes might also appear in many related publications.</p>
             <p>For these repeating sets of information, you can create a map (often called a
                 “submap”), then reuse the submap in other maps or bookmaps. Here’s an example of a
-                submap (named m_breeds.ditamap) for reference information on duck breeds.  Using the
-                “m_” helps to group and quickly find maps in the file system. </p>
+                submap (named m_breeds.ditamap) for reference information on duck breeds. Using the
+                “m_” helps to group all the maps together in the file system so that you can find
+                them quickly. </p>
             <pre>&lt;map>
    &lt;title>Duck breed reference&lt;/title>
    &lt;topicmeta>
@@ -48,11 +49,13 @@
    &lt;mapref href="m_breeds.ditamap"/>
    ...
 &lt;/map></pre>
-            <p>Note that the submap (m_breeds.ditamap) contains &lt;title> and &lt;topicmeta>
-                elements. It’s a good idea to use these elements to provide information to other
-                writers to describe the purpose of the submap and to provide metadata for searches.
-                However, when the submap is merged into the main map or bookmap, the &lt;title> and
-                &lt;topicmeta> elements are not copied into the final, merged map. </p>
+            <p>A reusable map itself can contain refererences to other reusable maps (using
+                &lt;mapref> or &lt;topic format="ditamap>).</p>
+            <p>In these examples, the submap (m_breeds.ditamap) contains &lt;title> and
+                &lt;topicmeta> elements. It’s a good idea to use these elements to provide
+                information to other writers to describe the purpose of the submap and to provide
+                metadata for searches. But note that these are not retained in final processing.
+                This is discussed in the next topic.</p>
         </lcInstruction>
     </learningContentbody>
 </learningContent>

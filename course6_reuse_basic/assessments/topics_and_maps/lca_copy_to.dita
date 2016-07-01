@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<learningAssessment id="lca_copy_to" xml:lang="en-US">
+ <title>Copy-to</title>
+ <shortdesc/>
+ <prolog>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+   Scriptorium</author>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+   Scriptorium</author>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+   Scriptorium</author>
+  <critdates>
+   <created date="2016-06-30"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcSingleSelect id="lcSingleSelect_u4w_thb_mw">
+    <lcQuestion>When you need to use the same topic multiple times in the same map, you use (choose
+     the best answer):</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_v4w_thb_mw">
+     <lcAnswerOption>
+      <lcAnswerContent>The copy-to attribute</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>The copy-of attribute</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>The copy-from attribute</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>The &lt;copy-of> element</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>You can’t use a topic more than once.</lcAnswerContent>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>To use the same topic multiple times in the same map, use the copy-to
+     attribute. </lcFeedbackIncorrect>
+   </lcSingleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

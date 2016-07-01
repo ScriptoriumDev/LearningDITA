@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="lc_creating_and_using_a_reusable_map">
-    <title>Creating and using a reusable map</title>
+    <title>Merging maps</title>
     <prolog class="- topic/prolog ">
         <author type="creator" href="http://easydita.com/" format="html" scope="external"
             class="- topic/author ">Simon Bate</author>
@@ -14,5 +14,57 @@
         </critdates>
     </prolog>
     <learningContentbody>
+        <lcInstruction id="lcInstruction_obp_3kb_mw">
+            <p>When you generate output from a map or bookmap, all submaps are merged into a final
+                map, which is used to generate your output.</p>
+            <p>This table lists some of the more common elements you might use in a submap and what
+                happesn to them when the submap is merged in to a final map. </p>
+            <table frame="all" rowsep="1" colsep="1" id="table_ftg_hlb_mw">
+                <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="3.03*"/>
+                    <thead>
+                        <row>
+                            <entry>Element</entry>
+                            <entry>How used in the merged map</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>&lt;title></entry>
+                            <entry>Deleted</entry>
+                        </row>
+                        <row>
+                            <entry>&lt;topicmeta></entry>
+                            <entry>Deleted</entry>
+                        </row>
+                        <row>
+                            <entry>&lt;topicref > to DITA topic</entry>
+                            <entry>Copied exactly</entry>
+                        </row>
+                        <row>
+                            <entry>&lt;topicref format="ditamap"></entry>
+                            <entry>Replaced with content from href attribute</entry>
+                        </row>
+                        <row>
+                            <entry>&lt;mapref></entry>
+                            <entry>Replaced with content from href attribute</entry>
+                        </row>
+                        <row>
+                            <entry>&lt;topichead></entry>
+                            <entry>Copied exactly</entry>
+                        </row>
+                        <row>
+                            <entry>&lt;topicgroup></entry>
+                            <entry>Copied exactly</entry>
+                        </row>
+                        <row>
+                            <entry>&lt;reltable></entry>
+                            <entry>Copied exactly</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </lcInstruction>
     </learningContentbody>
 </learningContent>
