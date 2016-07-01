@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="lc_reusing_maps">
+    <title>Reusing maps</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey</author>
+        <critdates>
+            <created golive="2016-07-01" date="2016-06-24"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction id="lcInstruction_i5j_t4s_lw">
+            <p>You can create reusable maps for content that occurs in multiple published documents.
+                For instance, many components of a preface might be used all prefaces for a set of
+                documents. A reference section might be necessary in multiple books; glossaries and
+                appendixes might also appear in many related publications.</p>
+            <p>For these repeating sets of information, you can create a map (often called a
+                “submap”), then reuse the submap in other maps or bookmaps. Here’s an example of a
+                submap (named m_breeds.ditamap) for reference information on duck breeds. Using the
+                “m_” helps to group all the maps together in the file system so that you can find
+                them quickly. </p>
+            <pre>&lt;map>
+   &lt;title>Duck breed reference&lt;/title>
+   &lt;topicmeta>
+      &lt;category>reference map&lt;/category>
+   &lt;/topicmeta>
+    ...
+   &lt;topicref href="r_mallard.dita"/>
+   &lt;topicref href="r_muscovy.dita"/>
+   ...
+&lt;/map></pre>
+            <p>To use this submap in other maps or bookmaps, use the &lt;topicref> element with
+                format="ditamap". </p>
+            <pre>&lt;map>
+   &lt;title>Keeping ducks&lt;/title>
+   ...
+   &lt;topicref href="m_breeds.ditamap" format="ditamap"/>
+   ...
+&lt;/map></pre>
+            <p>Alternatively, you can use the &lt;mapref> element to reference a submap:</p>
+            <pre>&lt;map>
+   &lt;title>Keeping ducks&lt;/title>
+   ...
+   &lt;mapref href="m_breeds.ditamap"/>
+   ...
+&lt;/map></pre>
+            <p>A reusable map itself can contain refererences to other reusable maps (using
+                &lt;mapref> or &lt;topic format="ditamap>).</p>
+            <p>In these examples, the submap (m_breeds.ditamap) contains &lt;title> and
+                &lt;topicmeta> elements. It’s a good idea to use these elements to provide
+                information to other writers to describe the purpose of the submap and to provide
+                metadata for searches. But note that these are not retained in final processing.
+                This is discussed in the next topic.</p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

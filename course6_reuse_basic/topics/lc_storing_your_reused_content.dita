@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningTreeContent.dtd">
-<learningContent xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="lt-content-8477" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic concept)                             (topic reference)                             (topic task)                             (topic learningInteractionBase-d)                            (topic learningInteractionBase-d learning-d)                            (topic learningmeta-d)                             (topic learningBase+learningInteractionBase-d)                            (topic learningBase+learningInteractionBase-d learningContent)                            (topic learningBase learningSummary)                             (topic learningBase+learningInteractionBase-d learningAssessment)   " ditaarch:DITAArchVersion="1.2" class="- topic/topic learningBase/learningBase learningContent/learningContent "><title class="- topic/title ">Storing your reused content</title><shortdesc class="- topic/shortdesc "/>
+<learningContent xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="lt-content-8477" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic concept)                             (topic reference)                             (topic task)                             (topic learningInteractionBase-d)                            (topic learningInteractionBase-d learning-d)                            (topic learningmeta-d)                             (topic learningBase+learningInteractionBase-d)                            (topic learningBase+learningInteractionBase-d learningContent)                            (topic learningBase learningSummary)                             (topic learningBase+learningInteractionBase-d learningAssessment)   " ditaarch:DITAArchVersion="1.2" class="- topic/topic learningBase/learningBase learningContent/learningContent "><title class="- topic/title ">Storing your reusable content</title><shortdesc class="- topic/shortdesc "/>
 	<prolog class="- topic/prolog ">
 		<author type="creator" href="http://easydita.com/" format="html" scope="external"
 			class="- topic/author ">Mike Rice</author>
@@ -11,7 +11,28 @@
 			<created golive="2016-07-01" date="2016-05-11"/>
 		</critdates>
 	</prolog><learningContentbody class="- topic/body  learningBase/learningBasebody learningContent/learningContentbody "><lcInstruction class="- topic/section learningBase/lcInstruction ">
-						<p class="- topic/p ">It’s good practice to hold your reusable elements in warehouse topics. These are topics that are written specifically for reuse rather than for direct publication. By following this practice you will avoid creating <q class="- topic/q ">spaghetti references</q> - referenced elements at random points within a publication. Having unpredictable  referenced element locations means that you can’t easily manage the dependencies of one topic to another. </p><p class="- topic/p ">By keeping your reusable elements in defined locations, your referenced element won’t be removed from the map unintentionally. As long as the warehouse topics are included in the publication map, their referenced elements will be available to resolve conrefs.</p><p class="- topic/p ">Some component content management systems may have specific requirements for where reused content must be stored. For example, some systems require that all content included in a map, including content included solely for reuse, be stored in a folder beneath the folder that holds the map. Check the requirements of your CCMS if you’re in doubt.</p>
+						<p class="- topic/p ">It’s good practice to maintain all your reusable information (topics,
+				elements, and inline content) in a set of common, shared folders and topics. These
+				are called “warehoused” folders and topics. All content creators should be aware of
+				the warehoused topics and should understand the rules for modifying the topics.</p>
+			<p>If you reuse content from an arbitrary topic, the author of that topic might not know
+				that you are reusing their content. If they do not know, they could possibly change
+				or even delete their content, which could make your content incorrect. At worst,
+				their changes could make your information dangerously wrong. </p>
+			<p class="- topic/p ">Keeping all reused content in warehoused folders and topics gives
+				all content creators tighter control on the information: </p>
+			<ul id="ul_mbh_j2f_lw">
+				<li>You can manage dependencies from one topic to another.</li>
+				<li>You can manage changes and deletions to warehoused content. </li>
+				<li>You can communicate those changes once they have been made.</li>
+				<li>You can ensure that warehoused information does not contain links to other
+					topics (which would create additional dependencies when reusing them)</li>
+			</ul><p class="- topic/p ">Some component content management systems (CCMS) may have specific
+				requirements for where reused content must be stored. For example, some systems
+				require that all content included in a map, including content included solely for
+				reuse, be stored in a folder beneath the folder that holds the map. Check the
+				requirements of your CCMS if you’re in doubt.</p>
+			<p>Other CCMS provide access control for warehoused content. </p>
 			<draft-comment author="gretyl">Do we want to add some kind of "Practice" and/or "On Your Own" to
 				this lesson? (maybe something like "rewrite this content to be more reusable") </draft-comment>
 					</lcInstruction></learningContentbody></learningContent>

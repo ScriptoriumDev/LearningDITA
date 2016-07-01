@@ -11,10 +11,15 @@
   <topicref href="../topics/lc_reuse_analysis.dita"/>
   <topicref href="../topics/lc_types_of_reuse.dita"/>
 
-  <topicref href="../topics/lcc_assessment.dita" copy-to="lcc_create_maps.dita" locktitle="yes">
+  <topicref href="../topics/lcc_assessment.dita" copy-to="lcc_reuse_intro.dita" locktitle="yes">
    <topicmeta>
     <navtitle>Assessment for Introduction to reuse</navtitle>
    </topicmeta>
+   <topicref href="../assessments/intro_to_reuse/lca_reasons_for_reuse.dita"/>
+   <topicref href="../assessments/intro_to_reuse/lca_subset.dita"/>
+   <topicref href="../assessments/intro_to_reuse/lca_reuse_types.dita"/>
+   <topicref href="../assessments/intro_to_reuse/lca_translation_cost.dita"/>
+   <topicref href="../assessments/intro_to_reuse/lca_rewrite.dita"/>
 
   </topicref>
   

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_pgf_3gt_qt">
-    <title>Creating a reusable topic</title>
+    <title>Reusing a topic in the same map</title>
     <prolog class="- topic/prolog ">
         <author type="creator" href="http://easydita.com/" format="html" scope="external"
             class="- topic/author ">Simon Bate</author>
@@ -15,7 +15,36 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p/>
+            <p>On occasion, you’ll need to use the same topic in more than one location in the same
+                map. </p>
+            <p>However, to ensure that links and cross-references point to the correct instance of
+                the file, use the copy-to attribute in any &lt;topicref> element that references a
+                common topic file.</p>
+            <pre>&lt;map>
+   ...
+   &lt;topicref href="my_topic.dita"/>
+   &lt;topicref href="my_topic.dita" copy-to="copy_of_my_topic.dita"/>
+   ...
+&lt;/map></pre>
+            <p>If your main map or bookmap references two or more submaps and each of those submaps
+                reference the same topic, you must still use the copy-to attribute in those
+                &lt;topicref> elements. When you generate output, preprocessing pulls all submaps
+                into the main map to create a complete, merged map. The merged map is then used to
+                generate output. </p>
+            <p>Use the &lt;navtitle>, &lt;linktext>, and &lt;shortdesc> elements to provide unique
+                title and description information for the copied topic: </p>
+            <pre>&lt;map>
+   ...
+   &lt;topicref href="my_topic.dita"/>
+   &lt;topicref href="my_topic.dita" copy-to="copy_of_my_topic.dita">
+      &lt;topicmeta>
+         &lt;navtitle>New name for my topic&lt;/navtitle>
+         &lt;linktext>New name for my topic&lt;/linktext>
+         &lt;shortdesc>Modified information about the copy of the topic.&lt;/shortdesc>
+      &lt;/topicmeta>
+   &lt;/topicref>
+   ...
+&lt;/map></pre>
         </lcInstruction>
     </learningContentbody>
 </learningContent>

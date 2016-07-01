@@ -12,47 +12,42 @@
       </critdates>
    </prolog><learningContentbody class="- topic/body  learningBase/learningBasebody learningContent/learningContentbody ">
       <lcInstruction>
-         <p class="- topic/p ">You can probably already guess that a list item that you want to
-            reuse needs to be in the same context and grammatically independent - without pronouns
-            that refer to something outside the list item. But there’s more to it because lists are
-            often introduced by an incomplete or complete sentence. The incomplete introductions are
-            sometimes called stem sentences. A list preamble is a broader term that would include
-            the complete sentence introductions.</p>
-         <p class="- topic/p ">Items in ordered or unordered lists that are independent clauses or
-            are introduced by independent clauses can be reused and conditionally filtered. <q
-               class="- topic/q ">What’s an independent clause?</q>, you say? &#160;It stands on its
-            own and expresses a complete thought.</p>
-         <p class="- topic/p ">The problem with the incomplete sentences introducing a list is that
-            in some languages the list items that complete the sentence need to be inflected -
-            changed - based on the stem that introduced them. If you were to reuse the items with a
-            different stem, it might not be correct. If the list preamble relies on the list items
-            to complete the sentence, you should rewrite the preamble so that it stands alone
-            grammatically.</p>
-         <p class="- topic/p "><draft-comment author="simonbate">Would be a better example if they
-               both used nouns or if they both used adjectives. As it stands, this could seem to be
-               an argument not to put nouns in a ul. </draft-comment><b class="+ topic/ph hi-d/b "
-               >Yes</b>: You can choose one of the following colors:</p>
-         <ul class="- topic/ul " id="ul_uzz_tty_dw">
-            <li class="- topic/li ">
-               <p class="- topic/p ">yellow</p>
-            </li>
-            <li class="- topic/li ">
-               <p class="- topic/p ">red</p>
-            </li>
-            <li class="- topic/li ">
-               <p class="- topic/p ">green</p>
-            </li>
-         </ul>
-         <p class="- topic/p "><b class="+ topic/ph hi-d/b ">No</b>: You can ride:</p>
-         <ul class="- topic/ul " id="ul_vzz_tty_dw">
-            <li class="- topic/li ">
-               <p class="- topic/p ">a bus</p>
-            </li>
-            <li class="- topic/li ">
-               <p class="- topic/p ">a bicycle</p>
-            </li>
-            <li class="- topic/li ">
-               <p class="- topic/p ">a train</p>
-            </li>
-         </ul>
+         <p class="- topic/p ">As with paragraphs and &lt;step> element contents, you can reuse
+            &lt;li> (list item) elements, as long as they're used in the same context and are
+            grammatically independent (that is, they do not use pronouns that refer to something
+            outside the list item). But there is an additional caution when a list is introduced by
+            an incomplete sentence (a “stem sentence”). </p>
+         <p class="- topic/p ">When an incomplete sentence introduces a list, the list items must
+            fit with the grammar of the stem sentence. List items that are written to fit with a
+            stem sentence might not work well with other stem sentences, making them poor candidates
+            for reuse.</p>
+         <p class="- topic/p ">When creating reusable items for a list, introduce them with a
+            complete sentence or independent clause (or write the list so that the introduction is
+            not necessary), and make sure that the contents of the list item are also independent
+            clauses. (An independent clause stands on its own an expresses a complete thought.)</p>
+         <draft-comment author="simonbate">Example TBD...</draft-comment>
+         <dl>
+            <dlentry>
+               <dt>Not reusable:</dt>
+               <dd>
+                  <pre>&lt;p>&lt;/p>
+&lt;ol>
+   &lt;li>&lt;/li>
+   &lt;li>&lt;/li>
+   &lt;li>&lt;/li>
+&lt;/ol></pre>
+               </dd>
+            </dlentry>
+            <dlentry>
+               <dt>Reusable:</dt>
+               <dd>
+                  <pre>&lt;p>&lt;/p>
+&lt;ol>
+   &lt;li>&lt;/li>
+   &lt;li>&lt;/li>
+   &lt;li>&lt;/li>
+&lt;/ol></pre>
+               </dd>
+            </dlentry>
+         </dl>
       </lcInstruction></learningContentbody></learningContent>
