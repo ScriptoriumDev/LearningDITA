@@ -32,5 +32,8 @@
             <draft-comment author="gretyl">add related links</draft-comment>
         </lcIntro>
     </learningContentbody>
-    <related-links/>
+    <related-links>
+        <link href="https://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Content_Reuse/c_Embedded_Topics.html" format="html"><linktext>Embedded topics and ditamaps</linktext></link>
+        <link href="http://blog.oxygenxml.com/2015/11/dita-reuse-strategies-short-tutorial.html" format="html"><linktext>DITA Reuse Strategies</linktext></link>
+    </related-links>
 </learningContent>

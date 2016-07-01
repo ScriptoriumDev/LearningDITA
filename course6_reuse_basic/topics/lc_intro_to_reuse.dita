@@ -33,5 +33,8 @@
             <draft-comment author="gretyl">add related links</draft-comment>
         </lcIntro>
     </learningContentbody>
-    <related-links/>
+    <related-links>
+        <link href="https://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Content_Reuse/c_Content_Reuse_Definition.html" format="html"><linktext>Content re-use definition</linktext></link>
+        <link href="https://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Content_Reuse/c_Reuse_Maturity_Model.html" format="html"><linktext>Re-use and the DITA Maturity Model</linktext></link>
+    </related-links>
 </learningContent>
