@@ -23,5 +23,11 @@
         <lcIntro>This lesson shows how to create and use conrefs to achieve fragment-level
                 reuse.<draft-comment author="gretyl">Add related links</draft-comment></lcIntro>
     </learningContentbody>
-    <related-links/>
+    <related-links>
+        <link
+            href="http://docs.oasis-open.org/dita/v1.2/os/spec/common/theconrefattribute.html#theconrefattribute"
+            format="html" scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard</linktext>
+        </link>
+    </related-links>
 </learningContent>

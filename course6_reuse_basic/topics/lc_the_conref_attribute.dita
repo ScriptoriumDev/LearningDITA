@@ -1,35 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningTreeContent.dtd">
-<learningContent xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="lt-content-4710" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic concept)                             (topic reference)                             (topic task)                             (topic learningInteractionBase-d)                            (topic learningInteractionBase-d learning-d)                            (topic learningmeta-d)                             (topic learningBase+learningInteractionBase-d)                            (topic learningBase+learningInteractionBase-d learningContent)                            (topic learningBase learningSummary)                             (topic learningBase+learningInteractionBase-d learningAssessment)   " ditaarch:DITAArchVersion="1.2" class="- topic/topic learningBase/learningBase learningContent/learningContent "><title class="- topic/title ">The conref attribute</title><shortdesc class="- topic/shortdesc "/><prolog class="- topic/prolog "><author type="creator" href="http://easydita.com/" format="html" scope="external" class="- topic/author ">Mike Rice</author><author type="contributor" href="http://easydita.com/" format="html" scope="external" class="- topic/author ">Annie Chen</author><metadata class="- topic/metadata "><keywords class="- topic/keywords "><keyword class="- topic/keyword "/></keywords></metadata></prolog><learningContentbody class="- topic/body  learningBase/learningBasebody learningContent/learningContentbody "><lcInstruction class="- topic/section learningBase/lcInstruction "><title class="- topic/title "
-            >Instruction</title><p class="- topic/p ">The conref attribute holds a value that
-            identifies the referenced element. In the example below, the warehouse topic
-            warnings.dita contains a reusable note.</p><p class="- topic/p ">
-            <fig class="- topic/fig ">
-               <title class="- topic/title ">The warehouse topic containing a reusable note</title>
-               <pre xml:space="preserve" class="- topic/pre ">&lt;topic id="warehouseWarnings"&gt;
-...
-&lt;note type="danger" id="hotWarning"&gt;Surfaces are hot.&lt;/note&gt;
-...</pre>
-            </fig>
-         </p><p class="- topic/p ">In this example, the files are stored in a local filesystem, and
-            the warehouse topic with the note you want to reuse is stored in the warehouse folder.
-            You can reuse the note in another topic by making reference to the note’s id using a
-            value in the conref attribute of an empty note element:</p><p class="- topic/p ">
-            <fig class="- topic/fig ">
-               <title class="- topic/title ">Using the reusable note in a topic</title>
-               <pre xml:space="preserve" class="- topic/pre ">...
+<learningContent xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="lt-content-4710" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic concept)                             (topic reference)                             (topic task)                             (topic learningInteractionBase-d)                            (topic learningInteractionBase-d learning-d)                            (topic learningmeta-d)                             (topic learningBase+learningInteractionBase-d)                            (topic learningBase+learningInteractionBase-d learningContent)                            (topic learningBase learningSummary)                             (topic learningBase+learningInteractionBase-d learningAssessment)   " ditaarch:DITAArchVersion="1.2" class="- topic/topic learningBase/learningBase learningContent/learningContent "><title class="- topic/title ">The conref attribute</title><shortdesc class="- topic/shortdesc "/><prolog class="- topic/prolog "><author type="creator" href="http://easydita.com/" format="html" scope="external" class="- topic/author ">Mike Rice</author><author type="contributor" href="http://easydita.com/" format="html" scope="external" class="- topic/author ">Annie Chen</author>
+      <author type="contributor" href="http://www.scriptorium.com">Simon Bate</author><metadata class="- topic/metadata "><keywords class="- topic/keywords "><keyword class="- topic/keyword "/></keywords></metadata></prolog><learningContentbody class="- topic/body  learningBase/learningBasebody learningContent/learningContentbody "><lcInstruction class="- topic/section learningBase/lcInstruction ">
+         <p class="- topic/p ">A conref directly references a reused element using three pieces of
+            information:</p>
+         <ul id="ul_sgw_fj3_mw">
+            <li>The path to the topic file containing the referenced element</li>
+            <li>The ID of the topic that contains the referenced element</li>
+            <li>The ID of the referenced element</li>
+         </ul>
+         <p>If the referenced element is in the same file as the referencing element (not a common
+            occurrence), the path to the file can be omitted.</p>
+         <p class="- topic/p ">In DITA not every element requires an ID, but it is required for any
+            reused element. </p>
+         <note type="note" class="- topic/note ">If the element you want to reuse does not have an
+            ID, your DITA editor or content management system might prompt you to create an ID for
+            the reused element as one of the steps in creating the conref. An ID must start with a
+            letter, number, or underscore. </note>
+         <p class="- topic/p ">The value of the conref attribute contains the location of the
+            referenced element. In the example below, the warehouse topic warnings.dita contains a
+            reusable &lt;note> element.</p>
+         <pre xml:space="preserve" class="- topic/pre ">&lt;topic id="warehouseWarnings"&gt;
+   ...
+   &lt;note type="danger" id="hotWarning"&gt;Surfaces are hot.&lt;/note&gt;
+   ...</pre>
+         <p class="- topic/p ">To reuse the &lt;note> element in another topic, create an empty
+            &lt;note> element, and use the conref attribute to identify the element to be reused.
+            In this example, the files are stored in a local filesystem; the folder named
+            “warehouse” contains the warnings topic with the &lt;note> element you want to reuse is
+            stored in the warehouse folder. </p>
+         <pre xml:space="preserve" class="- topic/pre ">...
 &lt;note conref="../warehouse/warnings.dita#warehouseWarnings/hotWarning"/&gt;
 ...</pre>
-            </fig>
-         </p><p class="- topic/p "><note type="note" class="- topic/note ">A reused element must
-               have an id. ids must start with a letter, number, or underscore.</note>Your DITA
-            authoring tool probably will help you fill in the conref attribute value to correctly
-            identify the location of the reused target element as in this easyDITA
-            example:</p><image href="../images/choose-element.png" id="image_v5j_hxb_3w"/><p
-            class="- topic/p "> The following table shows some examples of how the conref attribute
+         <p class="- topic/p ">The contents of the conref attribute might look a bit intimidating.
+            Most DITA authoring tools help you fill in the conref attribute.   value to correctly
+            identify the location of the reused target element as in this easyDITA example:</p>
+         <p class="- topic/p "> The following table shows some examples of how the conref attribute
             value is formatted in various situations. You would replace the placeholders in these
-            examples:</p><p class="- topic/p ">
+            examples:</p>
+         <p class="- topic/p ">
             <ul class="- topic/ul ">
                <li class="- topic/li ">
                   <p class="- topic/p "><b class="+ topic/ph hi-d/b ">topicID</b> is the id of the
@@ -52,7 +62,8 @@
                      name of a network computer</p>
                </li>
             </ul>
-         </p><simpletable class="- topic/simpletable ">
+         </p>
+         <simpletable class="- topic/simpletable ">
             <sthead class="- topic/sthead ">
                <stentry class="- topic/stentry ">Target location</stentry>
                <stentry class="- topic/stentry ">Conref attribute value</stentry>
@@ -70,8 +81,10 @@
                <stentry class="- topic/stentry "
                   >http://example.com/file.dita#topicID/targetID</stentry>
             </strow>
-         </simpletable><draft-comment author="gretyl">Fill in "Practice" section (continue from
-            previous topic)</draft-comment></lcInstruction></learningContentbody>
+         </simpletable>
+         <draft-comment author="gretyl">Fill in "Practice" section (continue from previous
+            topic)</draft-comment>
+      </lcInstruction></learningContentbody>
    <task id="task_f5z_2qy_dw">
       <title>Practice</title>
       <taskbody/>

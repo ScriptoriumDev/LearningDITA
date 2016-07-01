@@ -17,35 +17,30 @@
    <lcSingleSelect id="ss1"
     class="+ topic/fig learningInteractionBase-d/lcInteractionBase learning-d/lcSingleSelect ">
     <lcQuestion class="+ topic/p learningInteractionBase-d/lcQuestionBase learning-d/lcQuestion ">If
-     you need to include a topic in a map for reuse purposes only, how should you do it? Choose the
-     best answer.</lcQuestion>
+     you need to include a topic in a map for reuse purposes only, how should you do it (choose the
+     best answer):</lcQuestion>
     <lcAnswerOptionGroup
      class="+ topic/ul learningInteractionBase-d/ul learning-d/lcAnswerOptionGroup "
      id="lcAnswerOptionGroup_yvf_vqy_dw">
      <lcAnswerOption class="+ topic/li learningInteractionBase-d/li learning-d/lcAnswerOption ">
       <lcAnswerContent class="+ topic/p learningInteractionBase-d/p learning-d/lcAnswerContent ">Use
-       a topicref to include the topic in a submap with the toc attribute set to “no” on the
-       topicref to the submap.</lcAnswerContent>
+       a &lt;topicref> to include the topic in a submap with toc="no".</lcAnswerContent>
      </lcAnswerOption>
      <lcAnswerOption class="+ topic/li learningInteractionBase-d/li learning-d/lcAnswerOption ">
       <lcAnswerContent class="+ topic/p learningInteractionBase-d/p learning-d/lcAnswerContent ">Use
-       a topicref to include the topic in the map, and set the proceesing-role attribute of the
-       topicref to “resource-only”.</lcAnswerContent>
+       a &lt;topicref> to include the topic in the map, with processing-role="resource-only". </lcAnswerContent>
       <lcCorrectResponse name="lcCorrectResponse" value="lcCorrectResponse"
        class="+ topic/data learningInteractionBase-d/data learning-d/lcCorrectResponse "/>
      </lcAnswerOption>
      <lcAnswerOption class="+ topic/li learningInteractionBase-d/li learning-d/lcAnswerOption ">
       <lcAnswerContent class="+ topic/p learningInteractionBase-d/p learning-d/lcAnswerContent ">Use
-       a topicref to include the topic in the map, and set the toc, linking, and search attributes
-       of the topicref to “no”.</lcAnswerContent>
+       a &lt;topicref> to include the topic in the map, and set toc="no", linking="none", and
+       search="no".</lcAnswerContent>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
     <lcFeedbackIncorrect
-     class="+ topic/p learningInteractionBase-d/p learning-d/lcFeedbackIncorrect ">Setting three
-     attributes - toc, linking, and search - to “no” has the same effect as setting the
-     processing-role attribute to “resource-only”, but setting just one attribute is a simpler
-     solution.<draft-comment author="simonbate">Can't set linking to "no"; should be "none".</draft-comment>
-    </lcFeedbackIncorrect>
+     class="+ topic/p learningInteractionBase-d/p learning-d/lcFeedbackIncorrect ">A &lt;topicref>
+     with processing-role="resource-only" will ensure that the topic is only used  </lcFeedbackIncorrect>
     <!--<lcFeedbackCorrect class="+ topic/p learningInteractionBase-d/p learning-d/lcFeedbackCorrect ">This is the best answer. Setting the toc, linking, and search attributes to “no” has the same effect.</lcFeedbackCorrect>-->
    </lcSingleSelect>
   </lcInteraction>

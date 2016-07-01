@@ -44,16 +44,24 @@
                     </p>
                 </li>
             </ul>
-            <draft-comment author="gretyl">Fill in "Practice" section (continue from previous topic)
-                and on-your-own "Exercise" section</draft-comment>
         </lcIntro>
     </learningContentbody>
-    <task id="task_at5_jgd_3v">
-        <title>Practice</title>
-        <taskbody/>
-    </task>
     <task id="task_dh4_mnv_jw">
         <title>Exercise</title>
-        <taskbody/>
+        <taskbody>
+            <steps id="steps_nby_y3z_lw">
+    <step>
+    <cmd>Open the file samples/conrefs/t_watching_wild_ducks_start.dita.</cmd>
+        </step>
+                <step>
+                    <cmd>After the first paragraph in the prerequisities, create a conref to the
+                        only paragraph in the topic file samples/conrefs/c_duck_safety.dita.</cmd>
+        </step>
+                <step>
+    <cmd>Check your file samples/conrefs/t_watching_wild_ducks_start.dita against
+                        the file samples/conrefs/t_watching_wild_ducks.dita.</cmd>
+</step>
+            </steps>
+        </taskbody>
     </task>
 </learningContent>

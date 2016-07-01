@@ -15,10 +15,14 @@
     </prolog>
     <learningContentbody>
         <lcInstruction id="lcInstruction_obp_3kb_mw">
+            <p>In the previous examples, the submap (m_breeds.ditamap) contains &lt;title> and
+                &lt;topicmeta> elements. It’s a good idea to use these elements to provide
+                information to other writers to describe the purpose of the submap and to provide
+                metadata for searches. But note that these are not retained in final processing. </p>
             <p>When you generate output from a map or bookmap, all submaps are merged into a final
                 map, which is used to generate your output.</p>
             <p>This table lists some of the more common elements you might use in a submap and what
-                happesn to them when the submap is merged in to a final map. </p>
+                happens to them when the submap is merged in to a final map. </p>
             <table frame="all" rowsep="1" colsep="1" id="table_ftg_hlb_mw">
                 <tgroup cols="2">
                     <colspec colname="c1" colnum="1" colwidth="1*"/>
