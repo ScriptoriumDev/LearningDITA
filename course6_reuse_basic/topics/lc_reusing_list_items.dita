@@ -24,28 +24,27 @@
          <p class="- topic/p ">When creating reusable items for a list, introduce them with a
             complete sentence or independent clause (or write the list so that the introduction is
             not necessary), and make sure that the contents of the list item are also independent
-            clauses. (An independent clause stands on its own an expresses a complete thought.)</p>
-         <draft-comment author="simonbate">Example TBD...</draft-comment>
+            clauses. (An independent clause stands on its own and expresses a complete thought.)</p>
          <dl>
             <dlentry>
                <dt>Not reusable:</dt>
                <dd>
-                  <pre>&lt;p>&lt;/p>
+                  <pre>&lt;p>Before using your computer, you should...&lt;/p>
 &lt;ol>
-   &lt;li>&lt;/li>
-   &lt;li>&lt;/li>
-   &lt;li>&lt;/li>
+   &lt;li>Connect the monitor.&lt;/li>
+   &lt;li>Connect the mouse.&lt;/li>
+   &lt;li>Connect the keyboard.&lt;/li>
 &lt;/ol></pre>
                </dd>
             </dlentry>
             <dlentry>
                <dt>Reusable:</dt>
                <dd>
-                  <pre>&lt;p>&lt;/p>
+                  <pre>&lt;p>Before using your computer, make sure the following items are connected:&lt;/p>
 &lt;ol>
-   &lt;li>&lt;/li>
-   &lt;li>&lt;/li>
-   &lt;li>&lt;/li>
+   &lt;li>Monitor&lt;/li>
+   &lt;li>Mouse&lt;/li>
+   &lt;li>Keyboard&lt;/li>
 &lt;/ol></pre>
                </dd>
             </dlentry>
