@@ -32,7 +32,7 @@
 				require that all content included in a map, including content included solely for
 				reuse, be stored in a folder beneath the folder that holds the map. Check the
 				requirements of your CCMS if you’re in doubt.</p>
-			<p>Other CCMS provide access control for warehoused content. </p>
+			<p>Other CCMS options provide access control for warehoused content. </p>
 			</lcInstruction></learningContentbody>
 	<task id="task_dh4_mnv_jw">
 		<title>Exercise</title>
@@ -40,10 +40,10 @@
 			<steps id="steps_gjh_3bz_lw">
 				<step>
 					<cmd>Open the file
-						samples/writing_for_reuse/c_documenting_ducks_start.dita.</cmd>
+						reuse_basics_samples/writing_for_reuse/c_documenting_ducks_start.dita.</cmd>
 				</step>
 				<step>
-					<cmd>Rewrite the following content to make this topic more reusable:</cmd>
+					<cmd>Rewrite the following content in this topic to make it reusable:</cmd>
 					<info>
 						<pre>In the previous chapter, you learned about ownership and care of domestic ducks. In this
    chapter, you'll learn how to document valuable information about your ducks using the Magic
@@ -57,8 +57,8 @@
 				</step>
 				<step>
 					<cmd>Check your rewritten content against the file
-						samples/writing_for_reuse/c_documenting_ducks.dita. (Results may
-						vary.)</cmd>
+						reuse_basic_samples/writing_for_reuse/c_documenting_ducks.dita. (Results
+						will vary slightly based on rewriting choices.)</cmd>
 				</step>
 			</steps>
 		</taskbody>

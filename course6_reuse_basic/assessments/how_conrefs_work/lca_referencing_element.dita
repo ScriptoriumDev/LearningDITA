@@ -28,20 +28,20 @@
      id="lcAnswerOptionGroup_b2c_kqy_dw">
      <lcAnswerOption class="+ topic/li learningInteractionBase-d/li learning-d/lcAnswerOption ">
       <lcAnswerContent class="+ topic/p learningInteractionBase-d/p learning-d/lcAnswerContent ">The
-       &lt;step&gt; element is missing required content.</lcAnswerContent>
+       &lt;step> element is missing required content.</lcAnswerContent>
      </lcAnswerOption>
      <lcAnswerOption class="+ topic/li learningInteractionBase-d/li learning-d/lcAnswerOption ">
       <lcAnswerContent class="+ topic/p learningInteractionBase-d/p learning-d/lcAnswerContent ">The
-       &lt;cmd&gt; element is missing required content.</lcAnswerContent>
+       &lt;cmd> element is missing required content.</lcAnswerContent>
      </lcAnswerOption>
      <lcAnswerOption class="+ topic/li learningInteractionBase-d/li learning-d/lcAnswerOption ">
       <lcAnswerContent class="+ topic/p learningInteractionBase-d/p learning-d/lcAnswerContent ">The
-       &lt;cmd&gt; element is not required here because the &lt;step&gt; element will be replaced
-       when the conref is resolved.</lcAnswerContent>
+       &lt;cmd> element is not required here because the &lt;step> element will be replaced when the
+       conref is resolved.</lcAnswerContent>
      </lcAnswerOption>
      <lcAnswerOption class="+ topic/li learningInteractionBase-d/li learning-d/lcAnswerOption ">
       <lcAnswerContent class="+ topic/p learningInteractionBase-d/p learning-d/lcAnswerContent ">The
-       &lt;cmd&gt; element is required here even though the &lt;step&gt; element is a referencing
+       &lt;cmd> element is required here even though the &lt;step> element is a referencing
        element.</lcAnswerContent>
       <lcCorrectResponse name="lcCorrectResponse" value="lcCorrectResponse"
        class="+ topic/data learningInteractionBase-d/data learning-d/lcCorrectResponse "/>
@@ -49,11 +49,10 @@
     </lcAnswerOptionGroup>
     <lcFeedbackIncorrect
      class="+ topic/p learningInteractionBase-d/p learning-d/lcFeedbackIncorrect ">The content must
-     be valid both before and after the conref is resolved. Since the &lt;step&gt; element requires
-     the &lt;cmd&gt; element, the &lt;cmd&gt; element is required even though it will be repaced
-     when the conref is resolved. The &lt;cmd&gt; element does not require any content. So, this
-     example has all of the required structure to be valid before the conref is
-     resolved.</lcFeedbackIncorrect>
+     be valid both before and after the conref is resolved. Since the &lt;step> element requires the
+     &lt;cmd> element, the &lt;cmd> element is required even though it will be repaced when the
+     conref is resolved. The &lt;cmd> element does not require any content. So, this example has all
+     of the required structure to be valid before the conref is resolved.</lcFeedbackIncorrect>
     <!--<lcFeedbackCorrect class="+ topic/p learningInteractionBase-d/p learning-d/lcFeedbackCorrect ">Correct. Even though the &lt;step&gt; element is a referencing element it must be valid before the conref is resolved.</lcFeedbackCorrect>-->
    </lcMultipleSelect>
   </lcInteraction>

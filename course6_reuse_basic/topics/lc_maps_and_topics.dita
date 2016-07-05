@@ -21,7 +21,7 @@
                 <lcObjective class="- topic/li learningBase/lcObjective ">Add a reusable topic to a
                     map</lcObjective>
                 <lcObjective>Create a reusable map</lcObjective>
-                <lcObjective>Add a map to a map</lcObjective>
+                <lcObjective>Add a reusable map to a map</lcObjective>
             </lcObjectivesGroup>
         </lcObjectives>
         <lcDuration>
@@ -29,11 +29,22 @@
         </lcDuration>
         <lcIntro>
             <p>This lesson shows how to reuse topics and maps in DITA. </p>
-            <draft-comment author="gretyl">add related links</draft-comment>
         </lcIntro>
     </learningContentbody>
     <related-links>
-        <link href="https://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Content_Reuse/c_Embedded_Topics.html" format="html"><linktext>Embedded topics and ditamaps</linktext></link>
-        <link href="http://blog.oxygenxml.com/2015/11/dita-reuse-strategies-short-tutorial.html" format="html"><linktext>DITA Reuse Strategies</linktext></link>
+        <link
+            href="https://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Content_Reuse/c_Embedded_Topics.html"
+            format="html">
+            <linktext>Embedded topics and ditamaps</linktext>
+        </link>
+        <link href="http://blog.oxygenxml.com/2015/11/dita-reuse-strategies-short-tutorial.html"
+            format="html">
+            <linktext>DITA Reuse Strategies</linktext>
+        </link>
+        <link
+            href="http://dita.xml.org/reuse-strategies"
+            format="html">
+            <linktext>Reuse strategies and the mechanisms that support them</linktext>
+        </link>
     </related-links>
 </learningContent>

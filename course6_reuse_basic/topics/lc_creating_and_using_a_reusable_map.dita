@@ -15,7 +15,7 @@
     </prolog>
     <learningContentbody>
         <lcInstruction id="lcInstruction_obp_3kb_mw">
-            <p>In the previous examples, the submap (m_breeds.ditamap) contains &lt;title> and
+            <p>In the previous examples, the submap (_m_breeds.ditamap) contains &lt;title> and
                 &lt;topicmeta> elements. It’s a good idea to use these elements to provide
                 information to other writers to describe the purpose of the submap and to provide
                 metadata for searches. But note that these are not retained in final processing. </p>
@@ -72,26 +72,37 @@
         </lcInstruction>
     </learningContentbody>
     <task id="task_ytj_kkt_lw">
-        <title>Exercise</title>
+        <title>On Your Own</title>
         <taskbody>
             <steps id="steps_dfp_lkt_lw">
                 <step>
-                    <cmd>Open the map file
-                        samples/reusing_topics_and_maps/_m_ducks_start.ditamap.</cmd>
-                </step>
-                <step>
-                    <cmd>Reuse the topic file c_duck_safety.dita by making it the last topic in the
-                        following submaps:</cmd>
+                    <cmd>Open the following submap files:</cmd>
                     <info>
-                        <ul id="ul_yd1_rdz_lw">
-                            <li>_m_wild_ducks_start.ditamap</li>
-                            <li>_m_domestic_ducks_start.ditamap</li>
+                        <ul id="ul_spy_dnl_nw">
+                            <li>reuse_basic_samples/reusing_topics_and_maps/_m_wild_ducks_start.ditamap</li>
+                            <li>reuse_basic_samples/reusing_topics_and_maps/_m_domestic_ducks_start.ditamap</li>
                         </ul>
                     </info>
                 </step>
                 <step>
-                    <cmd>Check your final map file _m_ducks_start.ditamap against the map file
-                        _m_ducks.ditamap.</cmd>
+                    <cmd>Reuse the topic file c_duck_safety.dita by adding it as the last topic in
+                        each of the submap files you just opened.</cmd>
+                </step>
+                <step>
+                    <cmd>Save and close both of the submap files.</cmd>
+                </step>
+                <step>
+                    <cmd>Open the map file
+                        reuse_basic_samples/reusing_topics_and_maps/_m_ducks_start.ditamap. The
+                        submap files you just edited are reused in this map. Therefore, you should
+                        be able to see the topic file you added (c_duck_safety.dita) in each submap
+                        within the main map.</cmd>
+                </step>
+                <step>
+                    <cmd>Check your work in
+                        reuse_basic_samples/reusing_topics_and_maps/_m_ducks_start.ditamap against
+                        the map file
+                        reuse_basic_samples/reusing_topics_and_maps/_m_ducks.ditamap.</cmd>
                 </step>
             </steps>
         </taskbody>
