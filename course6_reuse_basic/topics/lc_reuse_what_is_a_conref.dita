@@ -17,12 +17,12 @@
             <p>A content reference (conref) enables you to reuse an element from one topic in one or
                 more other topics. In DITA, the conref provides fragment-level reuse. </p>
             <p>In typical use, you create a shared piece of content (such as an element), and then
-                reuse that content in other documents, where it is required. One of the best
-                examples of a conref is a DITA &lt;note> element. You can create the &lt;note>
-                element once, make sure it is approved by all whom it affects
-                (including—possibly—your legal department), and make it available through a
-                warehouse topic. Then any writer who needs to use the &lt;note> element can use a
-                conref to add it to their content where it is appropriate. </p>
+                reuse that content in other documents where it is required. One of the best examples
+                of a conref is a DITA &lt;note> element. You can create the &lt;note> element once,
+                make sure it is approved by all whom it affects (including—possibly—your legal
+                department), and make it available through a warehouse topic. Then any writer who
+                needs to use the &lt;note> element can use a conref to add it to their content where
+                it is appropriate. </p>
             <p>When pieces of content are repeated in multiple topics or publications, using conrefs
                 can make your content easier to maintain. Unlike copy and paste, where content is
                 duplicated, conrefs insert reused elements <i class="+ topic/ph hi-d/i ">by

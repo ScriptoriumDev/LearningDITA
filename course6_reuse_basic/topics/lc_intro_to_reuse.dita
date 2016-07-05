@@ -30,11 +30,23 @@
         <lcIntro>
             <p>This lesson shows how reuse in DITA can improve the content development process and
                 reduce costs.</p>
-            <draft-comment author="gretyl">add related links</draft-comment>
         </lcIntro>
     </learningContentbody>
     <related-links>
-        <link href="https://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Content_Reuse/c_Content_Reuse_Definition.html" format="html"><linktext>Content re-use definition</linktext></link>
-        <link href="https://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Content_Reuse/c_Reuse_Maturity_Model.html" format="html"><linktext>Re-use and the DITA Maturity Model</linktext></link>
+        <link
+            href="https://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Content_Reuse/c_Content_Reuse_Definition.html"
+            format="html">
+            <linktext>Content re-use definition</linktext>
+        </link>
+        <link
+            href="https://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Content_Reuse/c_Reuse_Maturity_Model.html"
+            format="html">
+            <linktext>Re-use and the DITA Maturity Model</linktext>
+        </link>
+        <link
+            href="http://www.learningdita.com/wp-content/uploads/2016/07/Module-7-Content-Reuse.pptx"
+            format="html">
+            <linktext>Content Reuse</linktext>
+        </link>
     </related-links>
 </learningContent>

@@ -15,7 +15,7 @@
          <note>If the referenced element is in the same file as the referencing element (not a
             common occurrence), the path to the file can be omitted, but the pound sign is still
             required.</note>
-         <p class="- topic/p ">In this example a warehouse topic (stored in the file
+         <p class="- topic/p ">For example, a warehouse topic (stored in the file
             ../warehouse/warnings.dita) contains a reusable &lt;note> element.</p>
          <pre xml:space="preserve" class="- topic/pre ">&lt;topic id="warehouseWarnings"&gt;
    ...
@@ -75,10 +75,4 @@
                   >http://example.com/file.dita#topicID/targetID</stentry>
             </strow>
          </simpletable>
-         <draft-comment author="gretyl">Fill in "Practice" section (continue from previous
-            topic)</draft-comment>
-      </lcInstruction></learningContentbody>
-   <task id="task_f5z_2qy_dw">
-      <title>Practice</title>
-      <taskbody/>
-   </task></learningContent>
+      </lcInstruction></learningContentbody></learningContent>

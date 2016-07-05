@@ -34,5 +34,6 @@
          <title class="- topic/title ">Structured parts of steps</title>
          <p class="- topic/p ">Similarly, you can reuse other parts of the &lt;step> element, such
             as &lt;stepxmp> (step example), &lt;stepinfo>, &lt;choices>, &lt;tutorialinfo>, and
-            others, as long as they are grammatically independent and in the same context.</p>
+            others, as long as they are grammatically independent and reused in the same
+            context.</p>
       </section></learningContentbody></learningContent>
