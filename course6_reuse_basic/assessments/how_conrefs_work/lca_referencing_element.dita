@@ -15,45 +15,32 @@
  <learningAssessmentbody>
   <lcIntro id="lcIntro_pjs_rhh_mw"/>
   <lcInteraction>
-   <lcMultipleSelect id="ms1"
-    class="+ topic/fig learningInteractionBase-d/lcInteractionBase learning-d/lcMultipleSelect ">
-    <lcQuestion class="+ topic/p learningInteractionBase-d/lcQuestionBase learning-d/lcQuestion "
-     >The &lt;step> shown in this sample conrefs a &lt;step> from a warehouse topic. Select all the
-     answers that are true about this sample: (choose all that apply)</lcQuestion>
-    <lcAsset class="+ topic/p learningInteractionBase-d/p learning-d/lcAsset ">
-     <image href="../../images/conref-referencing_element.png" id="image_ocs_kqy_dw"/>
-    </lcAsset>
-    <lcAnswerOptionGroup
-     class="+ topic/ul learningInteractionBase-d/ul learning-d/lcAnswerOptionGroup "
-     id="lcAnswerOptionGroup_b2c_kqy_dw">
-     <lcAnswerOption class="+ topic/li learningInteractionBase-d/li learning-d/lcAnswerOption ">
-      <lcAnswerContent class="+ topic/p learningInteractionBase-d/p learning-d/lcAnswerContent ">The
-       &lt;step> element is missing required content.</lcAnswerContent>
+   <lcMultipleSelect id="lcMultipleSelect_qxd_tk1_4w">
+    <lcQuestion>When a &lt;step> element is the referencing element in a conref (that is, it
+     contains the conref attribute) what must be true? (choose all that apply):</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_rxd_tk1_4w">
+     <lcAnswerOption>
+      <lcAnswerContent>The referencing &lt;step> element can contain normal step
+       content.</lcAnswerContent>
      </lcAnswerOption>
-     <lcAnswerOption class="+ topic/li learningInteractionBase-d/li learning-d/lcAnswerOption ">
-      <lcAnswerContent class="+ topic/p learningInteractionBase-d/p learning-d/lcAnswerContent ">The
-       &lt;cmd> element is missing required content.</lcAnswerContent>
+     <lcAnswerOption>
+      <lcAnswerContent>The &lt;cmd> element within the referencing &lt;step> element can contain
+       normal content.</lcAnswerContent>
      </lcAnswerOption>
-     <lcAnswerOption class="+ topic/li learningInteractionBase-d/li learning-d/lcAnswerOption ">
-      <lcAnswerContent class="+ topic/p learningInteractionBase-d/p learning-d/lcAnswerContent ">The
-       &lt;cmd> element is not required here because the &lt;step> element will be replaced when the
-       conref is resolved.</lcAnswerContent>
-     </lcAnswerOption>
-     <lcAnswerOption class="+ topic/li learningInteractionBase-d/li learning-d/lcAnswerOption ">
-      <lcAnswerContent class="+ topic/p learningInteractionBase-d/p learning-d/lcAnswerContent ">The
-       &lt;cmd> element is required here even though the &lt;step> element is a referencing
+     <lcAnswerOption>
+      <lcAnswerContent>The &lt;cmd> element is not required within the referencing &lt;step>
        element.</lcAnswerContent>
-      <lcCorrectResponse name="lcCorrectResponse" value="lcCorrectResponse"
-       class="+ topic/data learningInteractionBase-d/data learning-d/lcCorrectResponse "/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>An empty &lt;cmd> element is required, even though the referencing &lt;step>
+       element is replaced when the conref is resolved. </lcAnswerContent>
+      <lcCorrectResponse/>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
     <lcFeedbackIncorrect
-     class="+ topic/p learningInteractionBase-d/p learning-d/lcFeedbackIncorrect ">The content must
-     be valid both before and after the conref is resolved. Since the &lt;step> element requires the
-     &lt;cmd> element, the &lt;cmd> element is required even though it will be repaced when the
-     conref is resolved. The &lt;cmd> element does not require any content. So, this example has all
-     of the required structure to be valid before the conref is resolved.</lcFeedbackIncorrect>
-    <!--<lcFeedbackCorrect class="+ topic/p learningInteractionBase-d/p learning-d/lcFeedbackCorrect ">Correct. Even though the &lt;step&gt; element is a referencing element it must be valid before the conref is resolved.</lcFeedbackCorrect>-->
+     class="+ topic/p learningInteractionBase-d/p learning-d/lcFeedbackIncorrect ">The referencing
+     &lt;step> element must contain an empty &lt;cmd> element, because the &lt;cmd> element is
+     required. A topic must be valid, even before conrefs are resolved.</lcFeedbackIncorrect>
    </lcMultipleSelect>
   </lcInteraction>
  </learningAssessmentbody>
