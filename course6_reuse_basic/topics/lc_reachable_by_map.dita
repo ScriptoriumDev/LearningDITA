@@ -9,11 +9,11 @@
    <shortdesc class="- topic/shortdesc "/>
    <prolog class="- topic/prolog ">
       <author type="creator" href="http://easydita.com/" format="html" scope="external"
-         class="- topic/author ">Mike Rice</author>
+         class="- topic/author ">Mike Rice, easyDITA</author>
       <author type="contributor" href="http://easydita.com/" format="html" scope="external"
-         class="- topic/author ">Annie Chen</author>
+         class="- topic/author ">Annie Chen, easyDITA</author>
       <critdates>
-         <created golive="2016-07-01" date="2016-05-11"/>
+         <created golive="2016-07-11" date="2016-05-11"/>
       </critdates>
    </prolog>
    <learningContentbody
@@ -35,10 +35,10 @@
                </li>
             </ul></p>
          <p class="- topic/p ">Ordinarily, if a topic is included by a topicref in one of the maps,
-            it will be published along with all the other topics. But clearly you wouldn’t want to
-            publish a warehouse of reusable content along with your publication. To mark resources
-            of this sort that aren’t intended for publication, set the topicref’s processing-role
-            attribute to resource-only. </p>
+            it will be published along with all the other topics. But you wouldn’t want to publish a
+            warehouse of reusable content along with your publication. To mark resources of this
+            sort that aren’t intended for publication, set the topicref’s processing-role attribute
+            to resource-only. </p>
          <p class="- topic/p ">In the following example, task.dita will be published, but
             warnings.dita will not. However, warnings.dita is available for resolving references
             from task.dita or any other topics in the map. </p>

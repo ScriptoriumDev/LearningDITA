@@ -5,13 +5,13 @@
 <learningContent xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="lt-content-4677" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic concept)                             (topic reference)                             (topic task)                             (topic learningInteractionBase-d)                            (topic learningInteractionBase-d learning-d)                            (topic learningmeta-d)                             (topic learningBase+learningInteractionBase-d)                            (topic learningBase+learningInteractionBase-d learningContent)                            (topic learningBase learningSummary)                             (topic learningBase+learningInteractionBase-d learningAssessment)   " ditaarch:DITAArchVersion="1.2" class="- topic/topic learningBase/learningBase learningContent/learningContent "><title class="- topic/title ">Reusing paragraphs</title>
    <prolog class="- topic/prolog ">
       <author type="creator" href="http://easydita.com/" format="html" scope="external"
-         class="- topic/author ">Mike Rice</author>
+         class="- topic/author ">Mike Rice, easyDITA</author>
       <author type="contributor" href="http://easydita.com/" format="html" scope="external"
-         class="- topic/author ">Annie Chen</author>
-      <author type="contributor" href="http://easydita.com/" format="html" scope="external"
-         class="- topic/author ">Simon Bate</author>
+         class="- topic/author ">Annie Chen, easyDITA</author>
+      <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+         class="- topic/author ">Simon Bate, Scriptorium</author>
       <critdates>
-         <created golive="2016-07-01" date="2016-05-11"/>
+         <created golive="2016-07-11" date="2016-05-11"/>
       </critdates>
    </prolog><learningContentbody class="- topic/body  learningBase/learningBasebody learningContent/learningContentbody ">
       <lcInstruction>
@@ -60,7 +60,7 @@
          <title class="- topic/title ">Within the same context</title>
          <draft-comment author="simonbate">Not quite sure what the point is here. How does this
             relate to reusing paragraphs? I need to see more examples of how a paragraph might not
-            be reusable if it's not used in the same context. </draft-comment>
+            be reusable if it’s not used in the same context. </draft-comment>
          <p class="- topic/p ">Some words have multiple meanings that still make sense in English
             even if they’re not being used in their original context. Take the word <q
                class="- topic/q ">key</q> as an example. It might refer to a small piece of cut

@@ -4,11 +4,11 @@
 <learningContent xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="lt-content-8477" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic concept)                             (topic reference)                             (topic task)                             (topic learningInteractionBase-d)                            (topic learningInteractionBase-d learning-d)                            (topic learningmeta-d)                             (topic learningBase+learningInteractionBase-d)                            (topic learningBase+learningInteractionBase-d learningContent)                            (topic learningBase learningSummary)                             (topic learningBase+learningInteractionBase-d learningAssessment)   " ditaarch:DITAArchVersion="1.2" class="- topic/topic learningBase/learningBase learningContent/learningContent "><title class="- topic/title ">Storing your reusable content</title><shortdesc class="- topic/shortdesc "/>
 	<prolog class="- topic/prolog ">
 		<author type="creator" href="http://easydita.com/" format="html" scope="external"
-			class="- topic/author ">Mike Rice</author>
+			class="- topic/author ">Mike Rice, easyDITA</author>
 		<author type="contributor" href="http://easydita.com/" format="html" scope="external"
-			class="- topic/author ">Annie Chen</author>
+			class="- topic/author ">Annie Chen, easyDITA</author>
 		<critdates>
-			<created golive="2016-07-01" date="2016-05-11"/>
+			<created golive="2016-07-11" date="2016-05-11"/>
 		</critdates>
 	</prolog><learningContentbody class="- topic/body  learningBase/learningBasebody learningContent/learningContentbody "><lcInstruction class="- topic/section learningBase/lcInstruction ">
 						<p class="- topic/p ">It’s good practice to maintain all your reusable information (topics,
@@ -45,14 +45,16 @@
 				<step>
 					<cmd>Rewrite the following content in this topic to make it reusable:</cmd>
 					<info>
-						<pre>In the previous chapter, you learned about ownership and care of domestic ducks. In this
-   chapter, you'll learn how to document valuable information about your ducks using the Magic
-   Mallard duck database.
-   Every duck owner should keep track of her ducks' growth. With the Magic Mallard database, you
+						<pre outputclass="passthru">	<![CDATA[
+                            <hr />
+                            <p>In the previous chapter, you learned about ownership and care of domestic ducks. In this chapter, you'll learn how to document valuable information about your ducks using the Magic Mallard duck database.</p>
+   <p>Every duck owner should keep track of her ducks' growth. With the Magic Mallard database, you
    can create an entry for each duck. Each entry contains a chart where you can type in the duck's
-   height, weight, and wingspan week by week.
-   To add an entry for a duck to your database, type &lt;codeph>add entry&lt;/codeph> followed by the
-   name of the duck in parentheses into the command line and press Enter.</pre>
+   height, weight, and wingspan week by week.</p>
+   <p>To add an entry for a duck to your database, type <codeph>add entry</codeph> followed by the
+   name of the duck in parentheses into the command line and press Enter.</p>
+   <hr/>]]>
+   </pre>
 					</info>
 				</step>
 				<step>

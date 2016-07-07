@@ -9,7 +9,7 @@
   <author href="http://www.easydita.com" scope="external" format="html">Mike Rice,
    easyDITA</author>
   <critdates>
-   <created golive="2016-07-01" date="2016-05-11"/>
+   <created golive="2016-07-11" date="2016-05-11"/>
   </critdates>
  </prolog>
  <learningAssessmentbody>
@@ -18,8 +18,8 @@
    <lcMultipleSelect id="ms1"
     class="+ topic/fig learningInteractionBase-d/lcInteractionBase learning-d/lcMultipleSelect ">
     <lcQuestion class="+ topic/p learningInteractionBase-d/lcQuestionBase learning-d/lcQuestion "
-     >The &lt;step> shown in this sample conrefs a &lt;step> from a warehouse topic, select all the
-     answers that are true about this sample (choose all that apply): </lcQuestion>
+     >The &lt;step> shown in this sample conrefs a &lt;step> from a warehouse topic. Select all the
+     answers that are true about this sample: (choose all that apply)</lcQuestion>
     <lcAsset class="+ topic/p learningInteractionBase-d/p learning-d/lcAsset ">
      <image href="../../images/conref-referencing_element.png" id="image_ocs_kqy_dw"/>
     </lcAsset>

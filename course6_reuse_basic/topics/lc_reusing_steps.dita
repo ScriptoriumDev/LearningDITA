@@ -4,17 +4,17 @@
 <learningContent xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="lt-content-4677" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic concept)                             (topic reference)                             (topic task)                             (topic learningInteractionBase-d)                            (topic learningInteractionBase-d learning-d)                            (topic learningmeta-d)                             (topic learningBase+learningInteractionBase-d)                            (topic learningBase+learningInteractionBase-d learningContent)                            (topic learningBase learningSummary)                             (topic learningBase+learningInteractionBase-d learningAssessment)   " ditaarch:DITAArchVersion="1.2" class="- topic/topic learningBase/learningBase learningContent/learningContent "><title class="- topic/title ">Reusing steps</title>
    <prolog class="- topic/prolog ">
       <author type="creator" href="http://easydita.com/" format="html" scope="external"
-         class="- topic/author ">Mike Rice</author>
+         class="- topic/author ">Mike Rice, easyDITA</author>
       <author type="contributor" href="http://easydita.com/" format="html" scope="external"
-         class="- topic/author ">Annie Chen</author>
+         class="- topic/author ">Annie Chen, easyDITA</author>
       <critdates>
-         <created golive="2016-07-01" date="2016-05-11"/>
+         <created golive="2016-07-11" date="2016-05-11"/>
       </critdates>
    </prolog><learningContentbody class="- topic/body  learningBase/learningBasebody learningContent/learningContentbody ">
       <lcInstruction>
-         <p class="- topic/p ">As with paragraphs, when you &lt;step> elements, the contents of the
-            &lt;cmd> element must be grammatically independent and should be reused in the same
-            context. For example:</p>
+         <p class="- topic/p ">As with paragraphs, when you reuse &lt;step> elements, the contents
+            of the &lt;cmd> element must be grammatically independent and should be reused in the
+            same context. For example:</p>
          <dl>
             <dlentry>
                <dt>Do not use this:</dt>
