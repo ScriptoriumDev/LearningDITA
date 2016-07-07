@@ -69,17 +69,19 @@
         <title>On Your Own</title>
         <taskbody>
             <steps id="steps_nby_y3z_lw">
-    <step>
-    <cmd>Open the file samples/conrefs/t_watching_wild_ducks_start.dita.</cmd>
-        </step>
+                <step>
+                    <cmd>Open the file samples/conrefs/t_watching_wild_ducks_start.dita.</cmd>
+                </step>
                 <step>
                     <cmd>After the first paragraph in the prerequisities, create a conref to the
                         only paragraph in the topic file samples/conrefs/c_duck_safety.dita.</cmd>
-        </step>
+                </step>
                 <step>
-    <cmd>Check your file samples/conrefs/t_watching_wild_ducks_start.dita against
-                        the file samples/conrefs/t_watching_wild_ducks.dita.</cmd>
-</step>
+                    <cmd>Check your file samples/conrefs/t_watching_wild_ducks_start.dita against
+                        the file samples/conrefs/t_watching_wild_ducks.dita.<xref
+                            href="../../../../../../../!SimonWork/Harmonic/Training_and_Travel/June%20Training/Materials/ReuseSurvey/handouts/ReuseSurvey.pdf"
+                            format="pdf"/></cmd>
+                </step>
             </steps>
         </taskbody>
     </task>
