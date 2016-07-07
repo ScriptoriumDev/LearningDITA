@@ -7,11 +7,11 @@
     <title>Best practices for using conrefs</title>
     <prolog class="- topic/prolog ">
         <author type="creator" href="http://easydita.com/" format="html" scope="external"
-            class="- topic/author ">Mike Rice</author>
+            class="- topic/author ">Mike Rice, easyDITA</author>
         <author type="contributor" href="http://easydita.com/" format="html" scope="external"
-            class="- topic/author ">Annie Chen</author>
+            class="- topic/author ">Annie Chen, easyDITA</author>
         <critdates>
-            <created golive="2016-07-01" date="2016-05-11"/>
+            <created golive="2016-07-11" date="2016-05-11"/>
         </critdates>
     </prolog>
     <learningContentbody>
@@ -32,6 +32,9 @@
                 <li>Establish a clearing house for all ID values, so that you can quickly determine
                     if an ID is unique. This might be as simple as a shared spreadsheet or even a
                     text document, but can also be much more complicated, if necessary.</li>
+                <li>Use a map in the warehouse folder to validate newly added reusable elements. The
+                    validator will flag duplicate IDs. Do this before committing content updates to
+                    your CCMS or source control. </li>
             </ul>
             <p><b>Make sure your topics and elements are reusable</b></p>
             <p>As was explained in the lesson on creating reusable topics, what might seem to work
@@ -78,9 +81,7 @@
                 </step>
                 <step>
                     <cmd>Check your file samples/conrefs/t_watching_wild_ducks_start.dita against
-                        the file samples/conrefs/t_watching_wild_ducks.dita.<xref
-                            href="../../../../../../../!SimonWork/Harmonic/Training_and_Travel/June%20Training/Materials/ReuseSurvey/handouts/ReuseSurvey.pdf"
-                            format="pdf"/></cmd>
+                        the file samples/conrefs/t_watching_wild_ducks.dita.</cmd>
                 </step>
             </steps>
         </taskbody>

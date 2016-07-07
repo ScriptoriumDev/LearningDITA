@@ -3,11 +3,22 @@
 <learningAssessment id="lca_reuse">
  <title>Subset</title>
  <shortdesc/>
+ <prolog>
+  <author type="creator" href="http://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Simon Bate, Scriptorium</author>
+  <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Jake Campbell, Scriptorium</author>
+  <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+  <critdates>
+   <created golive="2016-07-11" date="2016-05-11"/>
+  </critdates>
+ </prolog>
  <learningAssessmentbody>
   <lcInteraction id="lcInteraction_ljf_xv1_mw">
    <lcTrueFalse id="lcTrueFalse_g3n_xv1_mw">
     <lcQuestion>If two lists contain the exact same list items, but one list contains a few
-     additional list items, are the lists a candidate for reuse? (answer Yes or No)</lcQuestion>
+     additional list items, are the lists a candidate for reuse?</lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_h3n_xv1_mw">
      <lcAnswerOption>
       <lcAnswerContent>Yes</lcAnswerContent>
