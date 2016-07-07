@@ -2,15 +2,15 @@
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_pgf_3gt_qt">
     <title>Reasons for reuse</title>
-    <prolog class="- topic/prolog ">
-        <author type="creator" href="http://easydita.com/" format="html" scope="external"
-            class="- topic/author ">Simon Bate</author>
-        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
-            class="- topic/author ">Jake Campbell</author>
-        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
-            class="- topic/author ">Gretyl Kinsey</author>
+    <prolog>
+        <author type="creator" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
         <critdates>
-            <created golive="2016-07-01" date="2016-05-11"/>
+            <created golive="2016-07-11" date="2016-05-11"/>
         </critdates>
     </prolog>
     <learningContentbody>
@@ -21,7 +21,7 @@
             <ul id="ul_ljs_rbn_wf">
                 <li>Reduces replication. Reusing content eliminates the need to copy and paste
                     information, or to write nearly identical content multiple times in multiple
-                    locations. This saves time and helps ensure greater accuracy.</li>
+                    locations. This saves time and increases content accuracy.</li>
                 <li>Reduces costs. By reusing content, you reduce the cost of time that would have
                     been spent duplicating information manually. This makes content creation faster
                     and eliminates multiple reviews. Reuse reduces localization costs. Replicated
@@ -38,7 +38,7 @@
                     might have a series of product manuals that contain some information that’s
                     identical and other information that’s more product-specific. Rather than
                     writing a separate manual for each product, you can combine product-specific
-                    topics with common topics in a map for each product, which allows you to write
+                    topics with common topics in a map for each product. This allows you to write
                     each of the common topics only once.</li>
             </ul>
             <p>Implementing reuse is a long-term investment. You will usually see the benefits of

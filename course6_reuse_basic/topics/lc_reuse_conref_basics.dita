@@ -4,18 +4,19 @@
     <title>Conref basics</title>
     <prolog class="- topic/prolog ">
         <author type="creator" href="http://easydita.com/" format="html" scope="external"
-            class="- topic/author ">Mike Rice</author>
+            class="- topic/author ">Mike Rice, easyDITA</author>
         <author type="contributor" href="http://easydita.com/" format="html" scope="external"
-            class="- topic/author ">Annie Chen</author>
-        <author type="contributor" href="http://www.scriptorium.com">Simon Bate</author>
+            class="- topic/author ">Annie Chen, easyDITA</author>
+        <author type="contributor" href="http://www.scriptorium.com">Simon Bate,
+            Scriptorium</author>
         <critdates>
-            <created golive="2016-07-01" date="2016-05-11"/>
+            <created golive="2016-07-11" date="2016-05-11"/>
         </critdates>
     </prolog>
     <learningContentbody>
         <lcInstruction><p class="- topic/p ">A conref has two parts: </p><ul id="ul_ndg_4q3_mw">
                 <li>The <b><i>referenced element</i></b>, which contains the content you want to
-                    reuse. This element must have an id attribute.</li>
+                    reuse. This element must have an ID attribute.</li>
                 <li>The <b><i>referencing element</i></b>, which marks where the reused content
                     should be inserted</li>
             </ul><note type="note" class="- topic/note ">If the element you want to reuse does not
@@ -32,10 +33,10 @@
                 element with the referenced element and all of its content. This includes any
                 elements contained within the referenced element. For example, if a referenced
                 &lt;p> element contains a &lt;uicontrol> element, the referencing &lt;p> element is
-                replaced by the referenced &lt;p> element and the &lt;uicontrol> element contained
-                within it. Similarly, a conref to &lt;ol> element includes all the &lt;li> elements
-                that are contained by the referenced &lt;ol> element. </p><p>If the original content
-                changes, those changes appear in the referencing content the next time it is
-                published. </p></lcInstruction>
+                replaced by the referenced &lt;p> element, including the &lt;uicontrol> element
+                contained within it. Similarly, a conref to an &lt;ol> element includes all the
+                &lt;li> elements that are contained by the referenced &lt;ol> element. </p><p>When
+                the original content changes, those changes appear everywhere that content is
+                referenced the next time it is published. </p></lcInstruction>
     </learningContentbody>
 </learningContent>

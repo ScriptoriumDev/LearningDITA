@@ -7,21 +7,21 @@
  <title>Reuse Types</title>
  <shortdesc/>
  <prolog>
-  <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
-   Scriptorium</author>
-  <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
-   Scriptorium</author>
-  <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
-   Scriptorium</author>
+  <author type="creator" href="http://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Simon Bate, Scriptorium</author>
+  <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Jake Campbell, Scriptorium</author>
+  <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
   <critdates>
-   <created date="2016-06-30"/>
+   <created golive="2016-07-11" date="2016-05-11"/>
   </critdates>
  </prolog>
  <learningAssessmentbody>
   <lcInteraction>
    <lcSingleSelect id="lcSingleSelect_oqx_3y1_mw">
-    <lcQuestion>Which of the following is <b><i>not</i></b> a  DITA reuse mechanism (choose
-     one):</lcQuestion>
+    <lcQuestion>Which of the following is <b><i>not</i></b> a DITA reuse mechanism? (choose
+     one)</lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_pqx_3y1_mw">
      <lcAnswerOption>
       <lcAnswerContent>Topics and maps</lcAnswerContent>

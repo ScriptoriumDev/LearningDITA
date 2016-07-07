@@ -2,15 +2,15 @@
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="lc_creating_and_using_a_reusable_map">
     <title>Merging maps</title>
-    <prolog class="- topic/prolog ">
-        <author type="creator" href="http://easydita.com/" format="html" scope="external"
+    <prolog>
+        <author type="creator" href="http://www.scriptorium.com/" format="html" scope="external"
             class="- topic/author ">Simon Bate</author>
-        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+        <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
             class="- topic/author ">Jake Campbell</author>
-        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+        <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
             class="- topic/author ">Gretyl Kinsey</author>
         <critdates>
-            <created golive="2016-07-01" date="2016-06-24"/>
+            <created golive="2016-07-11" date="2016-05-11"/>
         </critdates>
     </prolog>
     <learningContentbody>
@@ -43,11 +43,11 @@
                             <entry>Deleted</entry>
                         </row>
                         <row>
-                            <entry>&lt;topicref > to DITA topic</entry>
+                            <entry>&lt;topicref> to DITA topic</entry>
                             <entry>Copied exactly</entry>
                         </row>
                         <row>
-                            <entry>&lt;topicref format="ditamap"></entry>
+                            <entry>&lt;topicref format=“ditamap”></entry>
                             <entry>Replaced with content from href attribute</entry>
                         </row>
                         <row>
@@ -99,9 +99,7 @@
                         within the main map.</cmd>
                 </step>
                 <step>
-                    <cmd>Check your work in
-                        reuse_basic_samples/reusing_topics_and_maps/_m_ducks_start.ditamap against
-                        the map file
+                    <cmd>Check your work in your main map file against the map file
                         reuse_basic_samples/reusing_topics_and_maps/_m_ducks.ditamap.</cmd>
                 </step>
             </steps>

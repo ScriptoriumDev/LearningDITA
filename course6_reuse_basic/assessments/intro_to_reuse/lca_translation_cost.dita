@@ -7,20 +7,20 @@
  <title>Translation cost</title>
  <shortdesc/>
  <prolog>
-  <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
-   Scriptorium</author>
-  <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
-   Scriptorium</author>
-  <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
-   Scriptorium</author>
+  <author type="creator" href="http://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Simon Bate, Scriptorium</author>
+  <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Jake Campbell, Scriptorium</author>
+  <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
   <critdates>
-   <created date="2016-06-30"/>
+   <created golive="2016-07-11" date="2016-05-11"/>
   </critdates>
  </prolog>
  <learningAssessmentbody>
   <lcInteraction>
    <lcTrueFalse id="lcTrueFalse_nxc_bz1_mw">
-    <lcQuestion>Translation costs can be reduced through reuse (true or false):</lcQuestion>
+    <lcQuestion>Translation costs can be reduced through reuse.</lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_oxc_bz1_mw">
      <lcAnswerOption>
       <lcAnswerContent>True</lcAnswerContent>

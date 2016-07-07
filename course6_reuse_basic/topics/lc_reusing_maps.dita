@@ -2,15 +2,15 @@
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="lc_reusing_maps">
     <title>Reusing maps</title>
-    <prolog class="- topic/prolog ">
-        <author type="creator" href="http://easydita.com/" format="html" scope="external"
+    <prolog>
+        <author type="creator" href="http://www.scriptorium.com/" format="html" scope="external"
             class="- topic/author ">Simon Bate</author>
-        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+        <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
             class="- topic/author ">Jake Campbell</author>
-        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+        <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
             class="- topic/author ">Gretyl Kinsey</author>
         <critdates>
-            <created golive="2016-07-01" date="2016-06-24"/>
+            <created golive="2016-07-11" date="2016-05-11"/>
         </critdates>
     </prolog>
     <learningContentbody>
@@ -51,28 +51,31 @@
         <step>
                     <cmd>Open the file _m_keeping_ducks_start.ditamap. To reuse the submap
                         _m_breeds.ditamap in this map, add it using the &lt;topicref> element with
-                        format="ditamap".</cmd>
+                        format=“ditamap”.</cmd>
                     <info>
                         <pre>&lt;map>
    &lt;title>Keeping ducks&lt;/title>
    ...
    &lt;topicref href="_m_breeds.ditamap" format="ditamap"/>
    ...
-&lt;/map></pre><p>Alternatively, you can use the &lt;mapref> element to reference the
-    submap:</p><pre>&lt;map>
+&lt;/map></pre>
+                        <p>Alternatively, you can use the &lt;mapref> element to reference the
+                            submap:</p>
+                        <pre>&lt;map>
    &lt;title>Keeping ducks&lt;/title>
    ...
    &lt;mapref href="_m_breeds.ditamap"/>
    ...
-&lt;/map></pre> <p>A reusable map itself can contain refererences to other reusable maps
-    (using &lt;mapref> or &lt;topic format="ditamap>).</p>
-                        <p><b>A note about bookmaps and reusable submaps </b>You can reuse maps from
-                            within bookmaps, but only from <i>inside</i> the bookmap top-level
+&lt;/map></pre>
+                        <p>A reusable map itself can contain refererences to other reusable maps
+                            (using &lt;mapref> or &lt;topic format=“ditamap”>).</p>
+                        <p><b>A note about bookmaps and reusable submaps: </b>You can reuse maps
+                            from within bookmaps, but only from <i>inside</i> the bookmap top-level
                             containers (&lt;frontmatter>, &lt;chapter>, &lt;part>, &lt;appendixes>,
-                            &lt;appendix>, and &lt;backmatter>). The content model for a bookmap
-                            does not allow &lt;mapref> (or &lt;topicref>) at the top level,
-                            therefore you cannot create a submap that contains one of these
-                            top-level containers.</p>
+                            &lt;appendix>, and &lt;backmatter>). You cannot have &lt;mapref> or
+                            &lt;topicref format=“ditamap”> elements <i>at</i> the top level, as the
+                            content model for a bookmap does not allow it. Therefore, you cannot
+                            create a submap that contains one of these top-level containers.</p>
                     </info>
                 </step>
        
