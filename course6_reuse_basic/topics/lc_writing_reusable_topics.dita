@@ -44,7 +44,7 @@
                 <li>Do not assume the type of the document in which the content is used. Avoid using
                     phrases such as “in this chapter” or “in this section.” </li>
                 <li>Do not use inline cross-references. In your version of the content, the
-                    cross-reference target exists; but it might not be in the next map where your
+                    cross-reference target exists, but it might not be in the next map where your
                     content is reused. Instead, use DITA relationship tables to automatically
                     generate links to releated topics. </li>
             </ul>
@@ -58,9 +58,9 @@
                     relevant as products change over time.</li>
             </ul>
             <p>To strike a balance between making content generic for reuse and including necessary
-                specifics, consider a table at the beginning of each deliverable that identifies
-                certain product information. By providing that information up-front, you can then
-                remove keywords from the content and rely on generic terms.  </p>
+                specifics, consider adding a table or list to the beginning of each deliverable that
+                identifies certain product information. By providing that information up-front, you
+                can then remove keywords from the content and rely on generic terms. </p>
             <p>Generic content will not only help facilitate reuse, but will also better prepare you
                 for localization. Reusing content also means that you will have fewer topics overall
                 to translate, which will help reduce localization costs.</p>
