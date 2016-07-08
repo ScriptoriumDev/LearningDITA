@@ -24,7 +24,7 @@
                 an ID for the reused element as one of the steps in creating the conref. An ID must
                 start with a letter, number, or underscore. </note><image
                 href="../images/conref-conceptual-with-referenced-referencing-labels.png"
-                id="image_tb2_1py_dw"/><note type="tip" class="- topic/note ">In writing about
+                id="image_tb2_1py_dw" base="2016/07"/><note type="tip" class="- topic/note ">In writing about
                 content references, the word conref is often used as a verb to mean “reuse an
                 element by using the conref attribute.”</note><p>Conrefs are resolved at publishing
                 time by an output generator. Many DITA editors can also resolve conrefs while you
