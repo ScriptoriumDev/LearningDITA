@@ -51,7 +51,7 @@
         <step>
                     <cmd>Open the file _m_keeping_ducks_start.ditamap. To reuse the submap
                         _m_breeds.ditamap in this map, add it using the &lt;topicref> element with
-                        format=“ditamap”.</cmd>
+                        format="ditamap".</cmd>
                     <info>
                         <pre>&lt;map>
    &lt;title>Keeping ducks&lt;/title>
@@ -69,13 +69,13 @@
 &lt;/map></pre>
                         <p>A reusable map itself can contain refererences to other reusable maps
                             (using &lt;mapref> or &lt;topic format=“ditamap”>).</p>
-                        <p><b>A note about bookmaps and reusable submaps: </b>You can reuse maps
-                            from within bookmaps, but only from <i>inside</i> the bookmap top-level
-                            containers (&lt;frontmatter>, &lt;chapter>, &lt;part>, &lt;appendixes>,
-                            &lt;appendix>, and &lt;backmatter>). You cannot have &lt;mapref> or
-                            &lt;topicref format=“ditamap”> elements <i>at</i> the top level, as the
-                            content model for a bookmap does not allow it. Therefore, you cannot
-                            create a submap that contains one of these top-level containers.</p>
+                        <p><b>A note about bookmaps and reusable submaps:</b> When using a bookmap,
+                            you cannot add a &lt;mapref> (or &lt;topicref format="ditamap">) element
+                            at the top level (&lt;frontmatter>, &lt;chapter>, &lt;part>,
+                            &lt;appendixes>, &lt;appendix>, and &lt;backmatter>). You can reuse maps
+                            from within bookmaps, but only from <i>inside</i> the top-level
+                            containers. Therefore, you cannot create a submap that contains one of
+                            these top-level containers.</p>
                     </info>
                 </step>
        

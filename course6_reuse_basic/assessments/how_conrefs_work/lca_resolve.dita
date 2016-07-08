@@ -16,8 +16,8 @@
   <lcInteraction>
    <lcTrueFalse id="tf1"
     class="+ topic/fig learningInteractionBase-d/lcInteractionBase learning-d/lcTrueFalse ">
-    <lcQuestion class="+ topic/p learningInteractionBase-d/lcQuestionBase learning-d/lcQuestion ">A
-     conref will always resolve correctly when published even if the topic that contains the
+    <lcQuestion class="+ topic/p learningInteractionBase-d/lcQuestionBase learning-d/lcQuestion ">
+     A conref will always resolve correctly when published even if the topic that contains the
      referenced element is not in the published map nor any of its submaps.</lcQuestion>
     <lcAnswerOptionGroup
      class="+ topic/ul learningInteractionBase-d/ul learning-d/lcAnswerOptionGroup "

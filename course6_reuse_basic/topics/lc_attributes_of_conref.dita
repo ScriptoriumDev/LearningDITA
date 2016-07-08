@@ -20,11 +20,9 @@
             same attribute), the attribute in the referencing element is used. </p>
          <p class="- topic/p ">There are two exceptions:</p>
          <ul id="ul_gpj_5v3_mw">
-            <li>If you want to ensure that the attribute value in the referenced element is used,
-               use the special attribute value “-dita-use-conref-target” in the referencing element.
-               This value is particularly useful when creating referencing conref elements when the
-               element has a required attribute and the attribute value is from a predefined list
-               (such as the tmtype attribute for the &lt;tm> element). </li>
+            <li>To force the conref to use an attribute value in the referenced element, use the
+               special attribute value “-dita-use-conref-target” in the referencing element.
+               <!--This value is particularly useful when creating referencing conref elements when the element has a required attribute and the attribute value is from a predefined list (such as the tmtype attribute for the <tm> element). --></li>
             <li>If the referenced element has an xml:lang attribute, it is used, rather than
                xml:lang in the referencing element.</li>
          </ul>
