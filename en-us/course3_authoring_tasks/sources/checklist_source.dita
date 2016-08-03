@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="my_first_task">
+    <title>Checklist image source</title>
+    <shortdesc>This file contains the lines element that makes up the checklist for
+        checklist.png.</shortdesc>
+    <taskbody>
+        <context id="context_ks5_rmh_vw">Before taking a screenshot, turn all tags off
+            (Oxygen).</context>
+        <steps>
+            <step>
+                <cmd>When you have definitively identified a duck, make a note in your guide.</cmd>
+                <stepxmp>
+                    <lines>Ducks,
+☒ Harlequin
+☐ Mallard
+☐ Ruddy
+☐ Wood</lines>
+                </stepxmp>
+                <stepresult><p>You’ll now have a record you can keep for the rest of your
+                    life.</p></stepresult>
+            </step>
+            <stepsection>Once you’ve identified the duck, you can spend some time noting its
+                behavior.</stepsection>
+            <step>
+                <note>Don’t disturb the ducks while observing their behavior; they behave
+                    differently when humans are present.</note>
+                <cmd>Watch how the ducks interact with one another, what they’re eating, or how and
+                    when they preen.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

@@ -17,8 +17,8 @@
                 organizations in the generic topic are also used by the specific topic types. </p>
             <p>All DITA topics have this general structure:  </p>
             <pre>&lt;topic id="sample">
-   &lt;shortdesc>A short description&lt;/shortdesc>
    &lt;title>Topic title goes here&lt;/title>
+   &lt;shortdesc>A short description&lt;/shortdesc>
    &lt;body>
         <i>(Most of the elements go here.)</i>
    &lt;/body>

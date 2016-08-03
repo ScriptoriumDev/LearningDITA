@@ -10,20 +10,36 @@
   </fig>
   <simpletable>
    <sthead>
-    <stentry>Age</stentry>
-    <stentry>Milestone</stentry>
+    <stentry>
+     <p>Age</p>
+    </stentry>
+    <stentry>
+     <p>Milestone</p>
+    </stentry>
    </sthead>
    <strow>
-    <stentry>7 weeks</stentry>
-    <stentry>Attempt flight for the first time</stentry>
+    <stentry>
+     <p>7 weeks</p>
+    </stentry>
+    <stentry>
+     <p>Attempt flight for the first time</p>
+    </stentry>
    </strow>
    <strow>
-    <stentry>12-14 weeks</stentry>
-    <stentry>Reach adult body weight</stentry>
+    <stentry>
+     <p>12-14 weeks</p>
+    </stentry>
+    <stentry>
+     <p>Reach adult body weight</p>
+    </stentry>
    </strow>
    <strow>
-    <stentry>1 year</stentry>
-    <stentry>Capable of reproduction</stentry>
+    <stentry>
+     <p>1 year</p>
+    </stentry>
+    <stentry>
+     <p>Capable of reproduction</p>
+    </stentry>
    </strow>
   </simpletable>
   <table frame="all" rowsep="1" colsep="1" id="table_tkb_tnk_bt">
@@ -33,25 +49,42 @@
     <colspec colname="c2" colnum="2" colwidth="1.0*"/>
     <thead>
      <row>
-      <entry>Age</entry>
-      <entry>Milestone</entry>
+      <entry>
+       <p>Age</p>
+      </entry>
+      <entry>
+       <p>Milestone</p>
+      </entry>
      </row>
     </thead>
     <tbody>
      <row>
-      <entry>7 weeks</entry>
-      <entry>Attempt flight for the first time</entry>
+      <entry>
+       <p>7 weeks</p>
+      </entry>
+      <entry>
+       <p>Attempt flight for the first time</p>
+      </entry>
      </row>
      <row>
-      <entry>12-14 weeks</entry>
-      <entry>Reach adult body weight</entry>
+      <entry>
+       <p>12-14 weeks</p>
+      </entry>
+      <entry>
+       <p>Reach adult body weight</p>
+      </entry>
      </row>
      <row>
-      <entry>1 year</entry>
-      <entry>Capable of reproduction</entry>
+      <entry>
+       <p>1 year</p>
+      </entry>
+      <entry>
+       <p>Capable of reproduction</p>
+      </entry>
      </row>
     </tbody>
    </tgroup>
   </table>
+  <p>This is just to keep the conbody and concept out of the table screen shot.</p>
  </conbody>
 </concept>
