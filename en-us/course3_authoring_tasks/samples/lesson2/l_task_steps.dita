@@ -72,13 +72,7 @@
             </step>
             <step>
                 <cmd>When you have definitively identified a duck, make a note in your guide.</cmd>
-                <stepxmp>
-                    <lines>Ducks,
-☒ Harlequin
-☐ Mallard
-☐ Ruddy
-☐ Wood</lines>
-                </stepxmp>
+                <stepxmp><image href="checklist.png"/></stepxmp>
                 <stepresult><p>You’ll now have a record you can keep for the rest of your
                     life.</p></stepresult>
             </step>

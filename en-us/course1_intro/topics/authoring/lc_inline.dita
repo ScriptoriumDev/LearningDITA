@@ -26,14 +26,14 @@
                 it. So if you have two &lt;p> tags in a row, they are separated by a line break when
                 the information is rendered. Note that any line breaks characters in XML itself are
                 irrelevant.</p>
-            <pre>&lt;p>This is a paragraph&lt;/p>&lt;p>A second paragraph&lt;/p></pre>
+            <pre>&lt;p>This is a paragraph. &lt;/p>&lt;p>A second paragraph. &lt;/p></pre>
             <p>The result, in oXygen’s Author view:</p>
             <image placement="break" base="2015/07" href="../../media/authoring/parabreaks.png"
                 id="image_z1k_rsl_2s"/>
             <p>An <i>inline element</i> is an element that provides for markup inside a paragraph,
                 such as &lt;tm> (trademark), &lt;i> (italics), &lt;xref> (cross-reference), or
                 &lt;term> (term). Inline elements, by default, do not result in line breaks.</p>
-            <pre>&lt;p>An inline element &lt;i>does not&lt;/i> result in line breaks.&lt;/p>
+            <pre>&lt;p>An inline element &lt;i>does not&lt;/i> result in line breaks. &lt;/p>
 &lt;p>The line breaks in the XML are
    &lt;i>irrelevant&lt;/i>
 to the output formatting.&lt;/p></pre>

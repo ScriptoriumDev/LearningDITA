@@ -111,7 +111,7 @@ You can also offer your database to users as a download.&lt;/p></ph>
                     <info>Only one &lt;title> element is allowed inside the &lt;concept> element
                         where a title already exists. However, by adding a &lt;section> element, you
                         are able to have multiple subtitles in your concept topic. Like the
-                        &lt;conbody> element, each &lt;section> element can only contain one
+                        &lt;concept> element, each &lt;section> element can only contain one
                         &lt;title> element.</info>
                     <info>A &lt;section> element can contain all the same body elements as a
                         &lt;conbody>, with the exception of another &lt;section> (that is, you
@@ -124,6 +124,7 @@ You can also offer your database to users as a download.&lt;/p></ph>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="concept_advanced">
+&lt;title>Writing about ducks&lt;/title>
 &lt;conbody>
 ...
 &lt;/p>
@@ -142,7 +143,7 @@ You can also offer your database to users as a download.&lt;/p></ph>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="concept_advanced">
-
+&lt;title>Writing about ducks&lt;/title>
 &lt;conbody>
 ...
 &lt;/section>
@@ -200,8 +201,8 @@ duck database.&lt;/p>
                     </info>
                 </step>
                 <step>
-                    <cmd>Check your file lesson4/l_concept_advanced_start.dita against the sample file
-                        lesson4/l_concept_advanced_exercise.dita.</cmd>
+                    <cmd>Check your file lesson4/l_concept_advanced_exercise_start.dita against the
+                        sample file lesson4/l_concept_advanced_exercise.dita.</cmd>
                 </step>
             </steps>
         </taskbody>

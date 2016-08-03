@@ -43,8 +43,8 @@
       <lcSequence value="2"/>
      </lcSequenceOption>
     </lcSequenceOptionGroup>
-    <lcFeedbackIncorrect>These elements must appear in the following sequence: &lt;steps>,
-     &lt;result>, &lt;example>, &lt;postreq>.</lcFeedbackIncorrect>
+    <lcFeedbackIncorrect>These elements must appear in the following sequence: &lt;prereq>,
+     &lt;context>, &lt;steps>, &lt;result>, &lt;example>, &lt;postreq>.</lcFeedbackIncorrect>
    </lcSequencing>
   </lcInteraction>
  </learningAssessmentbody>
