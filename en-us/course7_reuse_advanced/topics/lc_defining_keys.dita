@@ -15,7 +15,12 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p/>
+            <p>A key can be defined either with a &lt;topicref> element or a &lt;keydef> element. </p>
+            <p>There is no difference in the end which one you use, only the &lt;keydef> element
+                indicates much more precisely what you are doing. </p>
+            <p>To define a key for a path, you use a &lt;topicref> or &lt;keydef> element with the
+                href attribute:</p>
+            <pre>&lt;topicref </pre>
         </lcInstruction>
     </learningContentbody>
 </learningContent>

@@ -15,7 +15,18 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p/>
+            <p>The <cite>Introduction to Reuse</cite> course covered these topics: </p>
+            <ul id="ul_sby_1v5_cx">
+                <li>Creating reusable topics—how to write for reuse, along with best practices for
+                    reusing paragraphs, steps, and list items.</li>
+                <li>Reusing topics and maps—how to use DITA map elements to reuse topics and
+                    submaps.</li>
+                <li>Using content references—how to use the conref attribute, how content references
+                    behave in different situations, what to look out for, and some best practices in
+                    using content references. </li>
+            </ul>
+            <p>This course builds on these principles and ideas by introducing you to keys, advanced
+                content references, and conditions (filtering).</p>
         </lcInstruction>
     </learningContentbody>
 </learningContent>

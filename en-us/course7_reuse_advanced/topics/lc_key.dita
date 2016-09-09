@@ -15,7 +15,29 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p/>
+            <p>A DITA key has two parts: a name and a definition. The name is used by any DITA topic
+                or map that needs to use the key. The key defintion is a string of text, which can
+                be be used in two ways. The key definition can represent: </p>
+            <ul id="ul_hkf_dw5_cx">
+                <li>A word or phrase in text</li>
+                <li>A path to a resource (such as a DITA topic, an image file, or a URL)</li>
+            </ul>
+            <p>The ultimate purpose of keys is to help you to create reusable topics. Instead of
+                hard-coding strings and paths in your DITA topics, your topic indicates keys by
+                their names. Each map that references your topic can create a map-specific
+                definition for each of the keys.</p>
+            <p>For instance, you might create a reusable topic that uses two keys: <ul
+                    id="ul_r5v_jz5_cx">
+                    <li>k_product_name, which contains the name of a product</li>
+                    <li>k_product_image, which contains the path to a picture of the product</li>
+                </ul></p>
+            <p>In the map for Product A, k_product_name could be defined as “Product A” and
+                k_product_image as “images/ProductA.png”. </p>
+            <p>In the map for Product B, k_product_name could be defined as “Product B” and
+                k_product_image as “images/ProductB.png”. </p>
+            <p>When your topic is used in the map for Product A, the product name “Product A” is
+                used and the product image shows the correct product. When your topic is used in the
+                map for Product B, the correct product name and image are show for that product.</p>
         </lcInstruction>
     </learningContentbody>
 </learningContent>
