@@ -10,34 +10,39 @@
         <author type="contributor" href="http://easydita.com/" format="html" scope="external"
             class="- topic/author ">Gretyl Kinsey</author>
         <critdates>
-            <created golive="2016-07-01" date="2016-05-11"/>
+            <created golive="2016-07-01" date="2016-10-14"/>
         </critdates>
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>A DITA key has two parts: a name and a definition. The name is used by any DITA topic
-                or map that needs to use the key. The key defintion is a string of text, which can
-                be be used in two ways. The key definition can represent: </p>
-            <ul id="ul_hkf_dw5_cx">
-                <li>A word or phrase in text</li>
-                <li>A path to a resource (such as a DITA topic, an image file, or a URL)</li>
-            </ul>
-            <p>The ultimate purpose of keys is to help you to create reusable topics. Instead of
-                hard-coding strings and paths in your DITA topics, your topic indicates keys by
-                their names. Each map that references your topic can create a map-specific
-                definition for each of the keys.</p>
+            <p>A DITA key allows you to create a placeholder for a file path or a short piece of
+                text. You create the key definition (the text to use in place of the key) in a DITA
+                map. All keys are resolved when topics and maps are transformed into an output
+                format. This allows you to create reusable topics and maps. </p>
             <p>For instance, you might create a reusable topic that uses two keys: <ul
                     id="ul_r5v_jz5_cx">
-                    <li>k_product_name, which contains the name of a product</li>
-                    <li>k_product_image, which contains the path to a picture of the product</li>
+                    <li>The key <term>product_name</term> contains the name of a product</li>
+                    <li>The key <term>product_image</term> contains the path to a picture of the
+                        product</li>
                 </ul></p>
-            <p>In the map for Product A, k_product_name could be defined as “Product A” and
-                k_product_image as “images/ProductA.png”. </p>
-            <p>In the map for Product B, k_product_name could be defined as “Product B” and
-                k_product_image as “images/ProductB.png”. </p>
+            <p>In the map for Product A, <term>product_name</term> could be defined as “Product A”
+                and <term>product_image</term> as “images/ProductA.png”. </p>
+            <p>In the map for Product B, <term>product_name</term> could be defined as “Product B”
+                and <term>product_image</term> as “images/ProductB.png”. </p>
             <p>When your topic is used in the map for Product A, the product name “Product A” is
                 used and the product image shows the correct product. When your topic is used in the
                 map for Product B, the correct product name and image are show for that product.</p>
+            <p>You define keys with the &lt;keydef> element, which is a specialization of the
+                &lt;topicref> element. </p>
+            <p>There are some differences between keys used for paths and keys used for text
+                strings; these differences occur in how you define the keys and how you use them.
+                These two uses are described in the next two topics. </p>
+            <note>This description of keys does not address scoped keys, which were introduced in
+                DITA 1.3. The concept of scoped keys will be addressed in a future LearningDITA
+                course.</note>
+            <note>There is a third use for keys: they can be used to specify a path to conref
+                content. These “conkeyrefs” are addressed in the next lesson (“Advanced
+                conrefs”).</note>
         </lcInstruction>
     </learningContentbody>
 </learningContent>
