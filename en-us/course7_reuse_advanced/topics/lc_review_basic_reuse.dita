@@ -10,20 +10,19 @@
         <author type="contributor" href="http://easydita.com/" format="html" scope="external"
             class="- topic/author ">Gretyl Kinsey</author>
         <critdates>
-            <created golive="2016-07-01" date="2016-05-11"/>
+            <created golive="2016-12-01" date="2016-10-18"/>
         </critdates>
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>The <cite>Introduction to Reuse</cite> course covered these topics: </p>
+            <p>In the <cite>Introduction to Reuse</cite> course you learned that: </p>
             <ul id="ul_sby_1v5_cx">
-                <li>Creating reusable topics—how to write for reuse, along with best practices for
-                    reusing paragraphs, steps, and list items.</li>
-                <li>Reusing topics and maps—how to use DITA map elements to reuse topics and
-                    submaps.</li>
-                <li>Using content references—how to use the conref attribute, how content references
-                    behave in different situations, what to look out for, and some best practices in
-                    using content references. </li>
+                <li>The key to reuse is in creating reusable topics. Reusable topics are consistent,
+                    context-free, and generalized. </li>
+                <li>You can reuse topics and maps in many different maps. You can also reuse a topic
+                    in the same map multiple times.</li>
+                <li>You can use content references (or “conrefs”) to reuse an element across many
+                    different topics.   </li>
             </ul>
             <p>This course builds on these principles and ideas by introducing you to keys, advanced
                 content references, and conditions (filtering).</p>

@@ -10,12 +10,31 @@
         <author type="contributor" href="http://easydita.com/" format="html" scope="external"
             class="- topic/author ">Gretyl Kinsey</author>
         <critdates>
-            <created golive="2016-07-01" date="2016-05-11"/>
+            <created golive="2016-12-01" date="2016-10-18"/>
         </critdates>
     </prolog>
     <learningContentbody>
-        <lcInstruction>
+        <lcInstruction id="lcInstruction_w1w_d5m_qx">
+            <p>To define a key that will contain a text string, use the keys attribute to name the
+                key, then nest a &lt;topicmeta> containing a keyword definition inside the
+                &lt;keydef> element. For example:</p>
+            <pre>&lt;keydef keys="product_name">
+   &lt;topicmeta>
+      &lt;keywords>
+         &lt;keyword>Duck Database&lt;/keyword>
+      &lt;/keywords>
+   &lt;/topicmeta>
+&lt;/keydef></pre>
             <p/>
+            <p><b>Using the key</b></p>
+            <p>To use a key for a text string, use the keyref attribute with these elements (and any
+                element specialized from these elements):</p>
+            <sl>
+                <sli>&lt;ph></sli>
+                <sli>&lt;term></sli>
+                <sli>&lt;keyword></sli>
+            </sl>
+            <pre>Congratulations on purchasing &lt;ph keyref="product_name"/>!</pre>
         </lcInstruction>
     </learningContentbody>
 </learningContent>

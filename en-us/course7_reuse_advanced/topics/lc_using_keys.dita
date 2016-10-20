@@ -10,13 +10,19 @@
         <author type="contributor" href="http://easydita.com/" format="html" scope="external"
             class="- topic/author ">Gretyl Kinsey</author>
         <critdates>
-            <created golive="2016-07-01" date="2016-05-11"/>
+            <created golive="2016-12-01" date="2016-10-18"/>
         </critdates>
     </prolog>
     <learningContentbody>
         <lcObjectives>
             <lcObjectivesGroup id="lcObjectivesGroup_tvl_vbh_1t">
-                <lcObjective class="- topic/li learningBase/lcObjective "/>
+                <lcObjective class="- topic/li learningBase/lcObjective ">Define a key for a path
+                    resource</lcObjective>
+                <lcObjective>Use a key for a path resource</lcObjective>
+                <lcObjective>Define a key for a text string resource</lcObjective>
+                <lcObjective>Use a key for a text string resource</lcObjective>
+                <lcObjective>Assemble key definitions in a submap</lcObjective>
+                <lcObjective/>
             </lcObjectivesGroup>
         </lcObjectives>
         <lcDuration>

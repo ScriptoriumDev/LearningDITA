@@ -10,24 +10,29 @@
         <author type="contributor" href="http://easydita.com/" format="html" scope="external"
             class="- topic/author ">Gretyl Kinsey</author>
         <critdates>
-            <created golive="2016-07-01" date="2016-05-11"/>
+            <created golive="2016-12-01" date="2016-10-18"/>
         </critdates>
     </prolog>
     <learningContentbody>
         <lcObjectives>
             <lcObjectivesGroup id="lcObjectivesGroup_obp_5py_dw">
-                <lcObjective>
-                    <draft-comment author="gretyl">Add objectives</draft-comment>
-                </lcObjective>
+                <lcObjective>Create and use a conkeyref.</lcObjective>
+                <lcObjective>Reference a range of elements with conrefend.</lcObjective>
+                <lcObjective>Add an element to a topic with conref push (conaction).</lcObjective>
             </lcObjectivesGroup>
         </lcObjectives>
         <lcDuration>
             <lcTime value="45"/>
         </lcDuration>
-        <lcIntro>
-            <draft-comment author="gretyl">Add intro</draft-comment>
-            <draft-comment author="gretyl">Add related links</draft-comment>
-        </lcIntro>
+        <lcIntro>Content references allow you to reuse a single element (and its content) in other
+            topics. This lesson introduces three additional ways you can use content references:<ul
+                id="ul_ogy_wdv_qx">
+                <li>Conkeyrefs, in which the file path portion of a conref uses a key </li>
+                <li>Content reference ranges, which allow content references to pull in multiple
+                    elements (and their content)</li>
+                <li>Content reference push, which allows maps to insert elements into topics in
+                    arbitrary locations</li>
+            </ul><draft-comment author="gretyl">Add related links</draft-comment></lcIntro>
     </learningContentbody>
     <related-links/>
 </learningContent>

@@ -10,11 +10,31 @@
         <author type="contributor" href="http://easydita.com/" format="html" scope="external"
             class="- topic/author ">Gretyl Kinsey</author>
         <critdates>
-            <created golive="2016-07-01" date="2016-05-11"/>
+            <created golive="2016-12-01" date="2016-10-18"/>
         </critdates>
     </prolog>
     <learningContentbody>
+        <!--I'm making a conscious choice here not to mention topicref, because it clouds the issue. -->
         <lcInstruction>
+            <p><b>Defining the key</b></p>
+            <p>To define a key that will contain a path (file path or URL), add the &lt;keydef>
+                element to a map. Use these attributes with the &lt;keydef> element:</p>
+            <ul>
+                <li><b>keys</b> specifies the name of the key </li>
+                <li><b>href</b> specifies the definition of the key </li>
+            </ul>
+            <p>For example:</p>
+            <pre>&lt;keydef keys="product_image" href="images/product_B.png"/></pre>
+            <p>If you’re defining a key for an external resource, such as a URL, you must use
+                    <tt>scope="external"</tt> with the &lt;keydef> element:</p>
+            <pre>&lt;keydef keys="our_url" href="http://www.scriptorium.com" scope="external" format="html"/></pre>
+            <p>The scope attribute prevents the DITA Open Toolkit (and other processors) from
+                attempting to resolve the href target as part of the definition. Because the href
+                attribute points to a web page, the format attribute must specify html. </p>
+            <p><b>Using the key</b></p>
+            <p>To use a key for a file path or URL, use the keyref attribute in place of the href
+                attribute:</p>
+            <pre>&lt;image keyref="product_image"/></pre>
             <p/>
         </lcInstruction>
     </learningContentbody>

@@ -10,12 +10,33 @@
         <author type="contributor" href="http://easydita.com/" format="html" scope="external"
             class="- topic/author ">Gretyl Kinsey</author>
         <critdates>
-            <created golive="2016-07-01" date="2016-05-11"/>
+            <created golive="2016-12-01" date="2016-10-18"/>
         </critdates>
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p/>
+            <p>The conref attribute allows you to pull content from a single element (and its
+                content) into another topic. </p>
+            <p>If you want to pull a sequence of two or more elements into a topic, you can use the
+                conrefend attribute in combination with the conref attribute. The two attributes
+                specify the starting and ending elements in a sequence of elements. All element,
+                including the starting and ending elements are pulled into the referencing
+                topic.</p>
+            <p>If you use conrefend, keep in mind that:</p>
+            <ul id="ul_zvy_qnv_qx">
+                <li>Both of the elements identified by the conref and conrefend attributes must be
+                    the same element name as the referencing element. For instance, if the
+                    referencing element is a &lt;p> element, the elements indicated by the conref
+                    and conrefend attributes must also be &lt;p> elements.</li>
+                <li>The elements that occur between the elements indicated by the conref and
+                    conrefend attribute <i>do not</i> have to be the type. Thus, in the preceding
+                    example, if there were &lt;note> or &lt;image> elements between the first and
+                    last &lt;p> elements, those elements would be included in the content reference.
+                </li>
+            </ul>
+            <p>You can also use conrefend with conkeyrefs. If conrefend is combined with a
+                conkeyref, the filename in the conrefend attribute is ignored and is replaced with
+                the filename used by the key specified in the conkeyref.</p>
         </lcInstruction>
     </learningContentbody>
 </learningContent>
