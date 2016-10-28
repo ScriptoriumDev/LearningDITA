@@ -15,7 +15,44 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p/>
+            <p>When generating output from sources that use the filtering attributes, you need to be
+                able to tell the output processor what to hide and what to show. </p>
+            <p>In most output generators, you use a <term>ditaval</term> file, which indicates which
+                attributes with what values to filter out of your content. (Some output generators
+                do not use ditaval files; they use filtering mechanisms of their own design, but the
+                principles are still the same.)</p>
+            <p>The ditaval file is an XML file, but it is not a DITA file (that is, it does not use
+                the DITA doctypes or elements). The ditaval file is not included in DITA maps; the
+                file path to your ditaval file is passed to output generators using a command
+                argument.</p>
+            <p>You can name the ditaval file what ever makes sense to you, although it's a good idea
+                to use a filename that indicates the file's purpose. Typically you store the ditaval
+                file along with your maps, although it can reside anywhere that is accessible by
+                your output generator. </p>
+            <p>The root element in the ditaval file is the &lt;val> element; in a typical file the
+                &lt;val> element contains one or more &lt;props> elements.</p>
+            <pre>&lt;val>
+   &lt;prop att="platform" val="iphone" action="exclude" />
+&lt;/val></pre>
+            <p>This example shows the basic form of a &lt;prop> element. </p>
+            <ul id="ul_zpk_hxp_tx">
+                <li>The att attribute indicates one of the filtering attributes. In this case,
+                    platform.</li>
+                <li>The val attribute indicates what value to match in the att attribute. In this
+                    case, all elements that contain platform="iphone".</li>
+                <li>The action attribute indicates what to do when a match for the attribute and
+                    value is found. In this case, any element that contains platform="iphone" is
+                    excluded from output (that is, it is hidden). </li>
+            </ul>
+            <p>In addition to excluding content, ditaval files allow you to add indicators to the
+                output (depending on what is supported in your transforms and the output generator).
+                You can:</p>
+            <ul id="ul_bz3_jyp_tx">
+                <li/>
+            </ul>
+            <p>For more information about ditaval files and how to use them, see <xref
+                    href="http://docs.oasis-open.org/dita/v1.2/os/spec/common/about-ditaval.html#ditaval"
+                    format="html" scope="external"/></p>
         </lcInstruction>
     </learningContentbody>
 </learningContent>

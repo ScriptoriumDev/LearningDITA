@@ -3,10 +3,21 @@
 <map>
  <title>Using conditions</title>
  <topicref href="../topics/lc_using_conditions.dita">
+  <topicref href="../../shared/topics/lc_general_housekeeping.dita"/>
+  <topicref href="../topics/lc_review_basic_reuse.dita"/>
   <topicref href="../topics/lc_conditions_filtering_attributes.dita"/>
+  <topicref href="../topics/lc_conditions_allowed_elements.dita"/>
   <topicref href="../topics/lc_conditions_ditaval.dita"/>
   <topicref href="../topics/lc_conditions_rev_attribute.dita"/>
   <topicref href="../topics/lc_conditions_best_practices.dita"/>
-  <topicref href="../topics/lcc_assessment.dita"/>
+  <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_using_conditions.dita"
+   locktitle="yes">
+   <topicmeta>
+    <navtitle>Assessment for Using conditions</navtitle>
+   </topicmeta>
+   <!-- Assessment topics, TBD. -->
+<!--   <topicref href="../assessments/how_conrefs_work/lca_referencing_element.dita"/>-->
+  </topicref>
+  
  </topicref>
 </map>

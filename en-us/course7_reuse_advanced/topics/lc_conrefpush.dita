@@ -31,15 +31,15 @@
             <p>The conref push mechanism allows you to push in three ways. You can push an
                 element:</p>
             <ul id="ul_xz4_ppv_qx">
-                <li>so that it is inserted before a specific element</li>
-                <li>so that it replaces a specific element</li>
-                <li>So that it is inserted after a specific element</li>
+                <li>To be inserted before a specific element</li>
+                <li>To replace a specific element</li>
+                <li>To be inserted after a specific element</li>
             </ul>
-            <p>Just as with a normal conref operation, the source and target elements must be the
-                same.</p>
+            <p>Just as with a normal conref operation, the source and target elements used in the
+                conref push must be the same.</p>
             <p>To use conref push, the only thing you need in the target topic is an id attribute on
                 the element you want to push your element before, after, or in place of. </p>
-            <pre>&lt;li id="somethingorother">This is an innocent list item element in the target topic.&lt;/p></pre>
+            <pre>&lt;li id="somethingorother">This is a list item element in the target topic.&lt;/p></pre>
             <p>Typically, you create the source topic specifically for the conref push operation.
                 The topic should contain all necessary elements to make sure that the element being
                 pushed is valid. So, if you need to conref push a &lt;li> element, your topic should
@@ -67,8 +67,8 @@ This list item will be pushed before the target element.
                 </ol></p>
             <p><b>Inserting an element after the target element</b></p>
             <p>To insert the element after the target element, you use the same two elements, but
-                the element containing conref and conaction="mark" must come before the element
-                containing conaction="pushafter".</p>
+                the element containing conref and conaction="mark" must come <i>before</i> the
+                element containing conaction="pushafter".</p>
             <pre>&lt;li conref="target_topic.dita#topic/somethingorother" conaction="mark"/>
 &lt;li conaction="pushafter">
 This list item will be pushed after the target element. 

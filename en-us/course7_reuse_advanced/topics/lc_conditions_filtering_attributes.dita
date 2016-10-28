@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_pgf_3gt_qt">
-    <title>Filtering attributes</title>
+    <title>Marking conditional elements</title>
     <prolog class="- topic/prolog ">
         <author type="creator" href="http://easydita.com/" format="html" scope="external"
             class="- topic/author ">Simon Bate</author>
@@ -15,7 +15,35 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p/>
+            <p>DITA conditional filtering allows to choose what to show and hide in your DITA topics
+                when they are processed for output. </p>
+            <p>You mark DITA elements for filtering by adding attributes to elements; the value you
+                use with an attribute is used to determine whether the element should be hidden
+                (filtered out) or shown.  </p>
+            <p>The four basic attributes that you use to filter elements are: <sl>
+                    <sli>audience</sli>
+                    <sli>platform</sli>
+                    <sli>product</sli>
+                    <sli>otherprops</sli>
+                </sl></p>
+            <p>For example, you might use the platform attribute to indicate whether content is
+                intended for iPhone or Android users. </p>
+            <pre>&lt;p platform="android">Visit Google Play for more information.&lt;/p> 
+&lt;p platform="iphone">Visit the App Store for more information.&lt;/p></pre>
+            <p>When generating output for Android users, you can tell the DITA filtering mechanism
+                to hide elements where platform="iphone" and show elements where platform="android".
+                To generate output for iPhone users, you show elements where platform="iphone" and
+                hide elements where platform="android". (How to hide and show content is described
+                later in this lesson.)</p>
+            <p>The names of these attributes are simply a starting point; it’s up to you to
+                determine how you want to use each one. Similarly, the values you use with each of
+                the filtering attributes is up to you to decide. </p>
+            <p>The single most important thing, however, is that all content creators in your group,
+                team, company, or organization agree on the purpose of each of the attributes and
+                the values to use with the attributes. </p>
+            <note>The four attributes listed here are just a starting point. It is possible to use
+                DITA specialization to create additional filtering attributes that have meaning for
+                your content. </note>
         </lcInstruction>
     </learningContentbody>
 </learningContent>

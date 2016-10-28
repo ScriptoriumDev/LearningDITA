@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_oyt_5r4_tx">
+  <title>Conref push elements</title>
+  <body>
+    <!-- This description omits the Oxygen editor. -->
+    <p conref="../../shared/topics/lc_general_housekeeping.dita#editor_info" conaction="pushreplace">
+      In the instructions and examples, we show you the DITA code for the sample files.
+      Most DITA editors have auto-complete or other similar features to guide you through
+      the process of adding elements (for example, if you type the opening tag of an
+      element, most DITA editors will automatically add the closing tag for you).
+      Therefore, you will probably not need to create every piece of code from scratch as
+      you work.</p>
+  </body>
+</topic>
