@@ -16,7 +16,8 @@
     <learningContentbody>
         <lcInstruction>
             <p>A conkeyref is a content reference that uses a key in place of a file path.</p>
-            <p>In normal use, a content reference to an element in another file takes the form: </p>
+            <p>In normal use, a content reference to an element in another file might look like
+                this:  </p>
             <pre>&lt;ul conref="domestic_ducks.dita#domestic_warehouse/diet_list">&lt;li/>&lt;/ul></pre>
             <p>This conref pulls a &lt;ul> element from a warehouse topic that contains reusable
                 elements relevant to domestic ducks. </p>

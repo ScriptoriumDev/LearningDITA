@@ -3,33 +3,27 @@
 <learningContent id="content_pgf_3gt_qt">
     <title>Housekeeping and sample files</title>
     <prolog>
-        <author href="http://www.scriptorium.com" scope="external" format="html">Mike Rice,
-            easyDITA</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey</author>
         <critdates>
             <created golive="2016-12-01" date="2016-10-18"/>
         </critdates>
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>Download <draft-comment author="gretyl">link to folder of sample files (on WordPress)
-                    once it has been created</draft-comment> now. It contains the sample files for
-                the entire introduction to reuse course. Extract the contents and put them in a
-                directory that you can access easily.</p>
-            <p>Inside the samples folder, you will find the following sub-folders:</p>
-            <ul id="ul_k3n_dbd_3v">
-                <li>
-                    <p>exercises</p>
-                </li>
-                <li>
-                    <p>samples</p>
-                </li>
-            </ul>
+            <p>Download <xref keyref="sample_file"/> now. It contains the sample files for the
+                entire <keyword keyref="course_name"/> course. Extract the contents and put them in
+                a directory that you can access easily.</p>
+            <p conkeyref="sample_contents/folder_contents"/>
             <p>Each lesson will instruct you on which folders and files to use for the samples and
                 exercises. Save your file as you complete each step to avoid losing your work. </p>
             <p>Create a local copy of each file to work in as you complete the lessons. That way, if
                 you reach a point where your working file doesn’t match the examples, or is broken
                 for any reason, you can make a fresh copy and resume your work or start over.</p>
-            <p>In the instructions and examples, we show you the DITA code for each sample file.
+            <p id="editor_info">In the instructions and examples, we show you the DITA code for each sample file.
                 Most DITA editors have auto-complete or other similar features to guide you through
                 the process of adding elements (for example, if you type the opening tag of an
                 element, most DITA editors will automatically add the closing tag for you).
