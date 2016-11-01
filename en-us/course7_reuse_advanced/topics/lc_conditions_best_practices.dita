@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_pgf_3gt_qt">
-    <title>Best practices</title>
+    <title>Best practices for conditions</title>
     <prolog class="- topic/prolog ">
         <author type="creator" href="http://easydita.com/" format="html" scope="external"
             class="- topic/author ">Simon Bate</author>
@@ -15,7 +15,19 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p/>
+            <p>
+                <ul id="ul_osj_wpk_5x">
+                    <li>As described in the basic course on reusing elements, never use filtering
+                        attibutes on an inline element. </li>
+                    <li>Develop a style guide or similar so that everyone uses filtering attributes
+                        consistently. One of the important points of DITA filtering is that everyone
+                        must use the same attribute values (case is important). The best way to do
+                        this is to have a document where all the agreed-upon values are all listed. </li>
+                    <li>Have a naming convention for filtering attribute values</li>
+                    <li>Be consistent in how you use attribute values, including case.</li>
+                    <li/>
+                </ul>
+            </p>
         </lcInstruction>
     </learningContentbody>
 </learningContent>
