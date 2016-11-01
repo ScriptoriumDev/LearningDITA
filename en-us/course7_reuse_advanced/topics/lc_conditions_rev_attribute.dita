@@ -15,7 +15,23 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p/>
+            <p>You can use the rev attribute to indicate elements that pertain to a particular
+                revision of your product or service. </p>
+            <pre>&lt;p rev="v2.1">Use the key-table feature to speed access.&lt;/p></pre>
+            <p>The values you use with the rev attribute are up to you and your organization. The
+                important thing is to be consistent in how you use the values.</p>
+            <p>As with the filtering attributes you can specify multiple revision values in the rev
+                attribute; separate the values with one or more spaces. </p>
+            <p><b>Showing rev in output</b></p>
+            <p>You control the display of the rev attribute with the &lt;revprop> element in the
+                ditaval file. You can apply styling just as with the &lt;prop> element (color,
+                background color, and style). You can also use the &lt;startflag> and &lt;endflag>
+                elements to add images before and after the element marked with the rev attribute.  </p>
+            <pre>&lt;revprop action="flag" value="v2.1" color="red"/></pre>
+            <p>Depending on the format of your output and your output generator, you can also use
+                the &lt;revprop> element to place change bars in the margins next to text marked
+                with a rev attribute.  However, the capabilities and the syntax vary. </p>
+            <!--<p>You can also use the &lt;revprop> element to place change bars in the margins next to text marked with a rev attribute (if supported by your output generator). There are not separate attributes to indicate each of the changebar properties. Instead, the changebar value contains one or more property-value pairs. The value is separated from the property name with a colon (:), multiple property-value pairs are separated by semicolons (;).</p><p>The properties you can specify are:<ul id="ul_o3r_jxs_5x"><li>color - either using a 6-digit hex code or a color name</li><li>width - </li><li>style</li><li>offset</li><li>placement</li></ul>  </p>-->
         </lcInstruction>
     </learningContentbody>
 </learningContent>

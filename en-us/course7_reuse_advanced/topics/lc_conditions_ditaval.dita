@@ -22,10 +22,11 @@
                 do not use ditaval files; they use filtering mechanisms of their own design, but the
                 principles are still the same.)</p>
             <p>The ditaval file is an XML file, but it is not a DITA file (that is, it does not use
-                the DITA doctypes or elements). The ditaval file is not included in DITA maps; the
-                file path to your ditaval file is passed to output generators using a command
-                argument.</p>
-            <p>You can name the ditaval file what ever makes sense to you, although it's a good idea
+                the DITA doctypes or elements). In DITA 1.2, the ditaval file is not included in
+                DITA maps; the file path to your ditaval file is passed to output generators using a
+                command argument. (In DITA 1.3, you can use the &lt;ditavalref> element to include
+                ditaval files in a DITA map.)  </p>
+            <p>You can name the ditaval file whatever makes sense to you, although it's a good idea
                 to use a filename that indicates the file's purpose. Typically you store the ditaval
                 file along with your maps, although it can reside anywhere that is accessible by
                 your output generator. </p>
@@ -44,13 +45,35 @@
                     value is found. In this case, any element that contains platform="iphone" is
                     excluded from output (that is, it is hidden). </li>
             </ul>
-            <p>In addition to excluding content, ditaval files allow you to add indicators to the
-                output (depending on what is supported in your transforms and the output generator).
-                You can:</p>
-            <ul id="ul_bz3_jyp_tx">
-                <li/>
+            <p><b>Beyond filtering: flagging</b></p>
+            <p>In addition to filtering (excluding) content, the &lt;prop> element also allows you
+                to flag text with color, background color, text styles, and images (depending on
+                what is supported in your transforms and the output generator). For example:</p>
+            <pre>&lt;prop att="platform" val="android" action="flag" color="purple"/></pre>
+            <p>This &lt;prop> element says to flag any element in which the platform attribute
+                contains the value "android"; to flag, all text in the element is output in the
+                color purple. When flagging, you can use these attributes to flag text:</p>
+            <ul id="ul_qr5_k1t_5x">
+                <li><b>color</b> - style the text using the specified color</li>
+                <li><b>background</b> - place the specified color behind the text</li>
+                <li><b>style</b> - format the text using a specific style (italics, bold, underline,
+                    double-underline, or overline). </li>
             </ul>
-            <p>For more information about ditaval files and how to use them, see <xref
+            <p>The color and background attributes can use either a 6-digit hex color code (such as
+                "#0000FF") or a color name (aqua, black, blue, fuchsia, gray, green, lime, maroon,
+                navy, olive, purple, red, silver, teal, white, or yellow).</p>
+            <p>You can also specify images to place before and after the flagged element. Use the
+                &lt;startflag> and &lt;endflag> elements as children of a &lt;prop action="flag">
+                element. The imageref attribute indicates the path to the image to use.</p>
+            <pre>&lt;prop att="platform" val="android" action="flag">
+   &lt;startflag imageref="images/android_icon.png">
+      &lt;alt-text>Android icon&lt;/alt-text>
+   &lt;/startflag>
+&lt;/prop></pre>
+            <p>The &lt;startflag> and &lt;endflag> elements can optionally contain an &lt;alt-text>
+                element that contains alternate text for the image. </p>
+            <p>For more information about ditaval files and how to use them for filtering or
+                flagging, see <xref
                     href="http://docs.oasis-open.org/dita/v1.2/os/spec/common/about-ditaval.html#ditaval"
                     format="html" scope="external"/></p>
         </lcInstruction>
