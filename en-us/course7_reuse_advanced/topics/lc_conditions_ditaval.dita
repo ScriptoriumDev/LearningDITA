@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <learningContent id="content_pgf_3gt_qt">
     <title>The ditaval file</title>
     <prolog class="- topic/prolog ">
@@ -28,8 +29,9 @@
                 ditaval files in a DITA map.)  </p>
             <p>You can name the ditaval file whatever makes sense to you, although it's a good idea
                 to use a filename that indicates the file's purpose. Typically you store the ditaval
-                file along with your maps, although it can reside anywhere that is accessible by
+                file along with your maps, although it can reside anywhere that is accessible to
                 your output generator. </p>
+            <p>Typically you will have one ditaval file for each main map or bookmap file.</p>
             <p>The root element in the ditaval file is the &lt;val> element; in a typical file the
                 &lt;val> element contains one or more &lt;props> elements.</p>
             <pre>&lt;val>
@@ -39,11 +41,14 @@
             <ul id="ul_zpk_hxp_tx">
                 <li>The att attribute indicates one of the filtering attributes. In this case,
                     platform.</li>
-                <li>The val attribute indicates what value to match in the att attribute. In this
-                    case, all elements that contain platform="iphone".</li>
+                <li>The val attribute indicates what value to match in the att attribute. In the
+                    example, all elements where platform="iphone" are filtered.<note>When specifying
+                        the val attribute, case is important. A val attribute containing "iPhone"
+                        would <i>not</i> match a filtering attribute with the value "iphone".
+                    </note></li>
                 <li>The action attribute indicates what to do when a match for the attribute and
-                    value is found. In this case, any element that contains platform="iphone" is
-                    excluded from output (that is, it is hidden). </li>
+                    value is found. In this case, any element that contains
+                        <tt>platform="iphone"</tt> is excluded from output (that is, it is hidden). </li>
             </ul>
             <p><b>Beyond filtering: flagging</b></p>
             <p>In addition to filtering (excluding) content, the &lt;prop> element also allows you

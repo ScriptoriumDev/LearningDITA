@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <learningContent id="content_pgf_3gt_qt">
     <title>Conkeyrefs</title>
     <prolog class="- topic/prolog ">
@@ -15,30 +16,32 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>A conkeyref is a content reference that uses a key in place of a file path.</p>
-            <p>In normal use, a content reference to an element in another file might look like
-                this:  </p>
-            <pre>&lt;ul conref="domestic_ducks.dita#domestic_warehouse/diet_list">&lt;li/>&lt;/ul></pre>
+            <p>A conkeyref is a content reference that uses a key instead of a file path. In normal
+                use, a content reference to an element in another file might look like this: </p>
+            <pre>&lt;ul conref="domestic_duck_warehouse.dita#domestic_warehouse/diet_list">
+   &lt;li/>
+&lt;/ul></pre>
             <p>This conref pulls a &lt;ul> element from a warehouse topic that contains reusable
                 elements relevant to domestic ducks. </p>
             <p>If the topic containing this conref needs to be reusable, the hard-coded filename
                 might be a problem. To use the reusable topic in a map that discusses wild ducks,
-                the conref needs to point to a different warehouse topic file.  </p>
+                the conref needs to point to a different warehouse topic file
+                (wild_duck_warehouse.dita). </p>
             <p>Rather than hard code the path to a file, you can use the conkeyref attribute to
                 create a content reference that uses a key, rather than a filename. </p>
             <p>To use a conkeyref, start by defining a key (in the map used for domestic ducks): </p>
-            <pre>&lt;keydef keys="diet_topic" href="domestic_ducks.dita"/></pre>
-            <p>Within domestic_ducks.dita, make sure there is a paragraph with the
-                    <tt>id="diet"</tt>.</p>
+            <pre>&lt;keydef keys="diet_warehouse" href="domestic_duck_warehouse.dita"/></pre>
+            <p>Within domestic_duck_warehouse.dita, make sure there is an unordered list with the
+                    <tt>id="diet_list"</tt>.</p>
             <pre>&lt;ul id="diet_list">&lt;li>Corn&lt;/li>...&lt;/ul></pre>
             <p>To ensure our topic is reusable, use a conkeyref: </p>
-            <pre>&lt;ul conkeyref="diet_topic/diet_list"/></pre>
-            <p>When the topic containing the conkeyref is processed, the key diet_topic is replace
-                with the current key definition, which is domestic_ducks.dita. </p>
-            <p>To reuse the topic containing the conkeyref, add a &lt;keydef> for the diet_topic key
-                to the map for wild duck content, but in this &lt;keydef>, the href attribute points
-                to the warehouse topic file wild_ducks.dita:</p>
-            <pre>&lt;keydef keys="diet_topic" href="wild_ducks.dita"/></pre>
+            <pre>&lt;ul conkeyref="diet_warehouse/diet_list"/></pre>
+            <p>When the topic containing the conkeyref is processed, the key diet_warehouse is
+                replace with the current key definition, which is domestic_duck_warehouse.dita. </p>
+            <p>To reuse the topic containing the conkeyref, add a &lt;keydef> for the diet_warehouse
+                key to the map for wild duck content, but in this &lt;keydef>, the href attribute
+                points to the warehouse topic file wild_duck_warehouse.dita:</p>
+            <pre>&lt;keydef keys="diet_warehouse" href="wild_duck_warehouse.dita"/></pre>
             <p>All the same rules that apply to conrefs still apply to conkeyrefs</p>
             <ul id="ul_gzh_wmv_qx">
                 <li>The referencing element must be the same type (element name) as the referenced

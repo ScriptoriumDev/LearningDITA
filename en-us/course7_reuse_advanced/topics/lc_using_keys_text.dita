@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <learningContent id="content_pgf_3gt_qt">
     <title>Using keys for text</title>
     <prolog class="- topic/prolog ">
@@ -15,6 +16,18 @@
     </prolog>
     <learningContentbody>
         <lcInstruction id="lcInstruction_w1w_d5m_qx">
+            <p>You can use a key as a variable for replaceable text in your DITA topics. Typical
+                uses of keys for text variables include:</p>
+            <ul>
+                <li>Product names</li>
+                <li>Company names</li>
+                <li>Names of other books in a document set</li>
+            </ul>
+            <p>
+                <draft-comment author="simonbate">I'm torn about saying anything here about our
+                    previous prohibition on replacing anything smaller than a sentence. But people
+                    will notice the contradiction. Thoughts?</draft-comment>
+            </p>
             <p>To define a key that will contain a text string, use the keys attribute to name the
                 key, then nest a &lt;topicmeta> containing a keyword definition inside the
                 &lt;keydef> element. For example:</p>
@@ -25,7 +38,8 @@
       &lt;/keywords>
    &lt;/topicmeta>
 &lt;/keydef></pre>
-            <p/>
+            <p>This syntax is quite verbose. The good thing is: you define it once, then forget
+                about it. </p>
             <p><b>Using the key</b></p>
             <p>To use a key for a text string, use the keyref attribute with these elements (and any
                 element specialized from these elements):</p>

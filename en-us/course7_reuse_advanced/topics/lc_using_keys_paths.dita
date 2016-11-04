@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <learningContent id="content_pgf_3gt_qt">
     <title>Using keys for paths</title>
     <prolog class="- topic/prolog ">
@@ -28,14 +29,14 @@
             <p>If you’re defining a key for an external resource, such as a URL, you must use
                     <tt>scope="external"</tt> with the &lt;keydef> element:</p>
             <pre>&lt;keydef keys="our_url" href="http://www.scriptorium.com" scope="external" format="html"/></pre>
-            <p>The scope attribute prevents the DITA Open Toolkit (and other processors) from
+            <p>The scope attribute prevents the DITA Open Toolkit (or other processors) from
                 attempting to resolve the href target as part of the definition. Because the href
-                attribute points to a web page, the format attribute must specify html. </p>
+                attribute points to a web page, the format attribute must contain the value
+                    <tt>html</tt>. </p>
             <p><b>Using the key</b></p>
-            <p>To use a key for a file path or URL, use the keyref attribute in place of the href
+            <p>To use a key for a file path or URL, use the keyref attribute instead of the href
                 attribute:</p>
             <pre>&lt;image keyref="product_image"/></pre>
-            <p/>
         </lcInstruction>
     </learningContentbody>
 </learningContent>

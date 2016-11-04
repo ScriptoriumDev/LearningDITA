@@ -3,6 +3,9 @@
 <map>
  <title>Using keys</title>
  <topicref href="../topics/lc_using_keys.dita">
+  <topicmeta lockmeta="yes">
+   <data name="lesson_id" value="000000"/>
+  </topicmeta>
   <topicref href="../topics/lc_key.dita"/>
   <topicref href="../topics/lc_using_keys_paths.dita"/>
   <topicref href="../topics/lc_using_keys_text.dita"/>
@@ -13,7 +16,18 @@
    <topicmeta>
     <navtitle>Assessment for Using keys</navtitle>
    </topicmeta>
-   <!-- Assessment topics, TBD. -->
+   <!-- Assessment types: T/F, Single Select, multiple select, sorting -->
+   
+   <!-- Assessment topics:
+         - what is a key (T/F, keys are defined in DITA maps or bookmaps)
+         - using keys for paths
+            Defining the key (Something about keydef?)
+            Using the key (
+         - using keys for text
+            Defining the key
+            Using the key - Choose which inline elements you an use to pull in text keys
+         - advanced key uses
+   -->
    <!--   <topicref href="../assessments/how_conrefs_work/lca_referencing_element.dita"/>-->
   </topicref>
  </topicref>

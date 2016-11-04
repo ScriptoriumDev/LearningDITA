@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <learningContent id="content_pgf_3gt_qt">
     <title>Best practices for keys</title>
     <prolog class="- topic/prolog ">
@@ -28,7 +29,7 @@
                     things like that)</li>
             </ul>
             <p><b>Gather keys in submaps</b></p>
-            <p>It’s a good idea to gather all related key together in a submap. There are two main
+            <p>It’s a good idea to gather all related keys together in a submap. There are two main
                 reasons for doing this: </p>
             <ul id="ul_lkz_mwq_px">
                 <li>Once you have gathered all related key definitions together in a single submap,
@@ -37,15 +38,13 @@
                 <li>To change the key definitions used by the map or bookmap, you just change the
                     &lt;mapref> target (rather than having to change all the keydef lines).
                     Additionally, you can add multiple &lt;mapref> elements to the map or bookmap
-                    and use DITA conditional filtering to hide all but one of the &lt;mapref>
-                    elements. Conditional filtering is described in a later lesson in this
-                    course.</li>
+                    and use DITA conditional filtering (as described in the first lesson of this
+                    course) to hide all but one of the &lt;mapref> elements. </li>
             </ul>
-            <p><b>Key definitions and bookmaps</b></p>
+            <p><b>Adding key definitions to bookmaps</b></p>
             <p>The structure of the &lt;bookmap> element does not allow &lt;topicref>, &lt;keydef>,
-                or &lt;mapref> elements at the top level (as a sibling of &lt;chapter>,
-                &lt;appendix>, and so on), so there is no obvious or standard location for key
-                definitions.  </p>
+                or &lt;mapref> elements as children of the &lt;bookmap> element, so there is no
+                obvious place in a bookmap to place your key definitions. </p>
             <p>A number of DITA users place &lt;keydef> or &lt;mapref> elements as children of  the
                 &lt;frontmatter> element. This ensure that they’re immediately visible to people
                 editing the bookmap. </p>

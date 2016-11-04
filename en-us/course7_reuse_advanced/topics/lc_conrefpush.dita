@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <learningContent id="content_pgf_3gt_qt">
     <title>Conref push (conaction)</title>
     <prolog class="- topic/prolog ">
@@ -16,35 +17,36 @@
     <learningContentbody>
         <lcInstruction>
             <p>When a topic uses a content reference, content is “pulled” from the referenced topic
-                into the referencing topic. </p>
-            <p>However, there are times when you need to insert an element into an arbitrary
-                location of a reusable topic. </p>
+                into the referencing topic. However, there are times when you need to insert an
+                element into an arbitrary location of a reusable topic. </p>
             <p>For instance, you might have a reusable topic which does its job well most of the
-                time when it is used. However, in one case, you need to add an extra paragraph to
-                that reusable topic. One solution might be to add the paragraph and use conditional
-                filtering to only display the paragraph for that one use. But what if you don’t own
-                (or have the rights to modify) the reused topic? What if the reused topic is
-                maintained in a publicly visible area (say on GitHub), and you don't want your
-                addition to be visible to the rest of the world?</p>
+                time when it is used. However, in one case (for one product, or for one customer),
+                you need to add an extra paragraph to that reusable topic. One solution might be to
+                add the paragraph and use conditional filtering to only display the paragraph for
+                that one use. But what if you don’t own (or have the rights to modify) the reused
+                topic? What if the reused topic is maintained in a publicly visible area (say on
+                GitHub), and you don't want your addition to be visible to the rest of the
+                world?</p>
             <p>The conref push (or conaction) mechanism allows you to “push” content from one topic
                 in a map (the source topic) into another topic in the same map (the target topic). </p>
-            <p>The conref push mechanism allows you to push in three ways. You can push an
-                element:</p>
+            <p>The conref push mechanism allows you to push in three ways. You can push an element
+                so that it:</p>
             <ul id="ul_xz4_ppv_qx">
-                <li>To be inserted before a specific element</li>
-                <li>To replace a specific element</li>
-                <li>To be inserted after a specific element</li>
+                <li>Is inserted before a specific element</li>
+                <li>Replaces a specific element</li>
+                <li>Is inserted after a specific element</li>
             </ul>
             <p>Just as with a normal conref operation, the source and target elements used in the
-                conref push must be the same.</p>
+                conref push must be the same type.</p>
             <p>To use conref push, the only thing you need in the target topic is an id attribute on
-                the element you want to push your element before, after, or in place of. </p>
+                the target element (the element you want to push your element before, after, or in
+                place of). </p>
             <pre>&lt;li id="somethingorother">This is a list item element in the target topic.&lt;/p></pre>
             <p>Typically, you create the source topic specifically for the conref push operation.
                 The topic should contain all necessary elements to make sure that the element being
                 pushed is valid. So, if you need to conref push a &lt;li> element, your topic should
                 contain a &lt;body> (depending on the topic type), a &lt;ul> element, and the
-                &lt;li> you need to push.  </p>
+                &lt;li> you need to push. </p>
             <p><b>Replacing the target element</b></p>
             <p>To replace an element in the target topic, use the element’s conref attribute to
                 identify the element to replace, and set the conaction attribute to
@@ -66,9 +68,9 @@ This list item will be pushed before the target element.
                         “mark”.<pre>&lt;li conref="target_topic.dita#topic/somethingorother" conaction="mark"/></pre></li>
                 </ol></p>
             <p><b>Inserting an element after the target element</b></p>
-            <p>To insert the element after the target element, you use the same two elements, but
-                the element containing conref and conaction="mark" must come <i>before</i> the
-                element containing conaction="pushafter".</p>
+            <p>To insert the element after the target element, use the same two elements, but the
+                element containing conref and conaction="mark" must come <i>before</i> the element
+                containing conaction="pushafter".</p>
             <pre>&lt;li conref="target_topic.dita#topic/somethingorother" conaction="mark"/>
 &lt;li conaction="pushafter">
 This list item will be pushed after the target element. 
