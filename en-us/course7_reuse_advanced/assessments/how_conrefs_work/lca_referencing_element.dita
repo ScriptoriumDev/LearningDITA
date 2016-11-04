@@ -48,7 +48,7 @@
     <lcFeedbackIncorrect
      class="+ topic/p learningInteractionBase-d/p learning-d/lcFeedbackIncorrect ">The content must
      be valid both before and after the conref is resolved. Since the &lt;step&gt; element requires
-     the &lt;cmd&gt; element, the &lt;cmd&gt; element is required even though it will be repaced
+     the &lt;cmd&gt; element, the &lt;cmd&gt; element is required even though it will be replaced
      when the conref is resolved. The &lt;cmd&gt; element does not require any content. So, this
      example has all of the required structure to be valid before the conref is
      resolved.</lcFeedbackIncorrect>
