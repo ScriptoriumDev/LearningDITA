@@ -3,6 +3,9 @@
 <map>
  <title>Using keys</title>
  <topicref href="../topics/lc_using_keys.dita">
+  <topicmeta lockmeta="yes">
+   <data name="lesson_id" value="000000"/>
+  </topicmeta>
   <topicref href="../topics/lc_key.dita"/>
   <topicref href="../topics/lc_using_keys_paths.dita"/>
   <topicref href="../topics/lc_using_keys_text.dita"/>
@@ -13,8 +16,13 @@
    <topicmeta>
     <navtitle>Assessment for Using keys</navtitle>
    </topicmeta>
-   <!-- Assessment topics, TBD. -->
-   <!--   <topicref href="../assessments/how_conrefs_work/lca_referencing_element.dita"/>-->
+   <!-- Assessment types: T/F, Single Select, multiple select, matching, sequencing -->
+   <topicref href="../assessments/using_keys/lca_where_defined.dita"/>
+   <topicref href="../assessments/using_keys/lca_paths_and_strings.dita"/>
+   <topicref href="../assessments/using_keys/lca_defining_file_key.dita"/>
+   <topicref href="../assessments/using_keys/lca_file_path_usage.dita"/>
+   <topicref href="../assessments/using_keys/lca_definining_text_key.dita"/>
+   <topicref href="../assessments/using_keys/lca_text_keyref.dita"/>
   </topicref>
  </topicref>
 </map>

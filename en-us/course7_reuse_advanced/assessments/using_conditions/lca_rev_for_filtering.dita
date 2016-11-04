@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<learningAssessment id="lca_rev_for_filtering">
+ <title>rev for filtering</title>
+ <prolog>
+  <author type="creator" href="http://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Simon Bate</author>
+  <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Jake Campbell</author>
+  <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Gretyl Kinsey</author>
+  <critdates>
+   <created golive="2016-11-30" date="2016-11-03"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction id="lcInteraction_n1f_tqh_vx">
+   <lcTrueFalse id="lcTrueFalse_pm5_tqh_vx">
+    <lcQuestion>You can use the rev attribute to filter content. (Answer true or
+     false.)</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_qm5_tqh_vx">
+     <lcAnswerOption>
+      <lcAnswerContent>True</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>False</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>You cannot use the rev attribute to filter content. It is only used to
+     identify revisions. </lcFeedbackIncorrect>
+   </lcTrueFalse>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <learningContent id="content_pgf_3gt_qt">
     <title>Marking conditional elements</title>
     <prolog class="- topic/prolog ">
@@ -31,20 +32,31 @@
             <pre>&lt;p platform="android">Visit Google Play for more information.&lt;/p> 
 &lt;p platform="iphone">Visit the App Store for more information.&lt;/p></pre>
             <p>When generating output for Android users, you can tell the DITA filtering mechanism
-                to hide elements where platform="iphone" and show elements where platform="android".
-                To generate output for iPhone users, you show elements where platform="iphone" and
-                hide elements where platform="android". (How to hide and show content is described
-                later in this lesson.)</p>
-            <p>The names of these attributes are simply a starting point; it’s up to you to
-                determine how you want to use each one. Similarly, the values you use with each of
-                the filtering attributes is up to you to decide. You can specify multiple values in
-                these attributes; separate each value with one or more spaces. </p>
+                to hide elements where <tt>platform="iphone"</tt> and show elements where
+                    <tt>platform="android"</tt>. To generate output for iPhone users, you show
+                elements where <tt>platform="iphone"</tt> and hide elements where
+                    <tt>platform="android"</tt>. (How to hide and show content is described later in
+                this lesson.)</p>
+            <p>The names of the attributes are defined in the DITA specification. The names
+                “audience,” “platform,” and “product” are a suggestion about how you might use them, but
+                you should not feel locked into using them specifically for audience, platform, or
+                product filtering; it’s up to you to determine how you want to use each one. </p>
+            <p>Also, the values you use with each of the filtering attributes is up to you to
+                decide. You can use any characters you want for the filtering attribute values,
+                except for the space character. Case is important in the filtering attribute values,
+                so choose one form of capitalization and use it consistently. </p>
+            <p>You can specify multiple values in these attributes; separate each value with one or
+                more spaces. </p>
             <p>The single most important thing, however, is that all content creators in your group,
                 team, company, or organization agree on the purpose of each of the attributes and
                 the values to use with the attributes. </p>
             <note>The four attributes listed here are just a starting point. It is possible to use
                 DITA specialization to create additional filtering attributes that have meaning for
-                your content. </note>
+                your content. The DITA specification identifies another filtering attribute: props.
+                This attribute is used as the basis for specialization. </note>
+            <p>Keep in mind that filtering of elements extends to any element in a DITA map, such as
+                &lt;topicref> and &lt;mapref>. This way, you can use filtering to remove entire
+                topics or chapters from your output. </p>
         </lcInstruction>
     </learningContentbody>
 </learningContent>

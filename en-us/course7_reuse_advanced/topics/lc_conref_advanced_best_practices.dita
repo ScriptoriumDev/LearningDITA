@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <learningContent id="content_pgf_3gt_qt">
     <title>Best practices for advanced conrefs</title>
     <prolog class="- topic/prolog ">
@@ -15,6 +16,7 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
+            <p><b>To use conkeyref or conref push?</b></p>
             <p>A good rule of thumb for deciding between using conkeyref and conref push: </p>
             <ul>
                 <li>If the element will always be present, but will change depending on the intended
@@ -22,6 +24,9 @@
                 <li>If the element will only be present for one or two intended targets (out of
                     many), use conref push.</li>
             </ul>
+            <p><b>Gather keys in submaps</b></p>
+            <p>As recommended in the lesson on using keys, it is a good idea to use submaps to
+                gather the key defininitions for conkeyrefs. </p>
             <p/>
         </lcInstruction>
     </learningContentbody>
