@@ -18,31 +18,55 @@
         <lcInstruction>
             <p>A conkeyref is a content reference that uses a key instead of a file path. In normal
                 use, a content reference to an element in another file might look like this: </p>
-            <pre>&lt;ul conref="domestic_duck_warehouse.dita#domestic_warehouse/diet_list">
+            <pre>&lt;ul conref="domestic_duck_warehouse.dita#domestic_warehouse/nesting_materials">
    &lt;li/>
 &lt;/ul></pre>
             <p>This conref pulls a &lt;ul> element from a warehouse topic that contains reusable
                 elements relevant to domestic ducks. </p>
-            <p>If the topic containing this conref needs to be reusable, the hard-coded filename
-                might be a problem. To use the reusable topic in a map that discusses wild ducks,
-                the conref needs to point to a different warehouse topic file
-                (wild_duck_warehouse.dita). </p>
+            <p>If the topic containing this conref must be reusable, a hard-coded filename will be a
+                problem. To use the reusable topic in a map that discusses wild ducks, the conref
+                needs to point to a different warehouse topic file (wild_duck_warehouse.dita). </p>
             <p>Rather than hard code the path to a file, you can use the conkeyref attribute to
                 create a content reference that uses a key, rather than a filename. </p>
-            <p>To use a conkeyref, start by defining a key (in the map used for domestic ducks): </p>
-            <pre>&lt;keydef keys="diet_warehouse" href="domestic_duck_warehouse.dita"/></pre>
-            <p>Within domestic_duck_warehouse.dita, make sure there is an unordered list with the
-                    <tt>id="diet_list"</tt>.</p>
-            <pre>&lt;ul id="diet_list">&lt;li>Corn&lt;/li>...&lt;/ul></pre>
-            <p>To ensure our topic is reusable, use a conkeyref: </p>
-            <pre>&lt;ul conkeyref="diet_warehouse/diet_list"/></pre>
-            <p>When the topic containing the conkeyref is processed, the key diet_warehouse is
+            <p>The first step in using a conkeyref is to creating a DITA topic
+                (domestic_duck_warehouse.dita) that contains a reusable element (including an id
+                attribute):</p>
+            <pre>&lt;ul id="nesting_materials">
+   &lt;li>Sawdust&lt;/li>
+   &lt;li>Wood shavings&lt;/li>
+   &lt;li>Sand&lt;/li>
+   ...
+&lt;/ul></pre>
+            <p>In a map that references the topic that will use the conkeyref, define a key for the
+                warehouse file: </p>
+            <pre>&lt;keydef keys="duck_warehouse" href="domestic_duck_warehouse.dita"/></pre>
+            <p>The example at the beginning of this topic shows a &lt;ul> element with a conref.
+                Replace the conref attribute with a conkeyref attribute that contains the key, a
+                slash ('/'), and the id of the element to be pulled: </p>
+            <pre>&lt;ul conkeyref="diet_warehouse/nesting_materials"/></pre>
+            <note>When using conkeyrefs you do not need to use the topic id of the referenced
+                element. </note>
+            <p>When the topic containing the conkeyref is processed, the key duck_warehouse is
                 replace with the current key definition, which is domestic_duck_warehouse.dita. </p>
-            <p>To reuse the topic containing the conkeyref, add a &lt;keydef> for the diet_warehouse
-                key to the map for wild duck content, but in this &lt;keydef>, the href attribute
-                points to the warehouse topic file wild_duck_warehouse.dita:</p>
-            <pre>&lt;keydef keys="diet_warehouse" href="wild_duck_warehouse.dita"/></pre>
-            <p>All the same rules that apply to conrefs still apply to conkeyrefs</p>
+            <p>In another map, you might want to reuse the topic containing the conkeyref so that it
+                pulls content from a different file. To do this, add a &lt;keydef> element to your
+                new map that defines the key so that it points to a different file. </p>
+            <p>In this example, the topic is being reused in the context of wild ducks, rather than
+                domestic ducks. The file wild_duck_warehouse.dita defines a different &lt;ul>
+                element (but with the same id attribute):</p>
+            <pre>&lt;ul id="nesting_materials">
+   &lt;li>Ferns&lt;/li>
+   &lt;li>Twigs&lt;/li>
+   &lt;li>Grass&lt;/li>
+   ...
+&lt;/ul></pre>
+            <p>The new, wild duck map defines the duck_warehouse key to point to
+                wild_duck_warehouse.dita: </p>
+            <pre>&lt;keydef keys="duck_warehouse" href="wild_duck_warehouse.dita"/></pre>
+            <p>When this new key is use in the new map, the unordered list of wild duck nesting
+                materials is used.</p>
+            <p>To wrap up the discussion of conkeyrefs, all the same rules that apply to conrefs
+                still apply to conkeyrefs</p>
             <ul id="ul_gzh_wmv_qx">
                 <li>The referencing element must be the same type (element name) as the referenced
                     element. </li>

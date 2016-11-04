@@ -33,10 +33,10 @@
             <p>When your topic is used in the map for Product A, the product name “Product A” is
                 used and the product image shows the correct product. When your topic is used in the
                 map for Product B, the correct product name and image are show for that product.</p>
-            <p>You define keys with the &lt;keydef> element, which is a specialization of the
-                &lt;topicref> element. </p>
+            <p>You define keys in a DITA map with the &lt;keydef> element, which is a specialization
+                of the &lt;topicref> element. </p>
             <p>There are some differences between keys used for paths and keys used for text
-                strings; these differences occur in how you define the keys and how you use them.
+                strings. There are differences in how you define the keys and how you use them.
                 These two uses are described in the next two topics. </p>
             <note>This description of keys does not address scoped keys, which were introduced in
                 DITA 1.3. The concept of scoped keys will be addressed in a future LearningDITA

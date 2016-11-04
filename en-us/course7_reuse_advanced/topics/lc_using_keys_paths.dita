@@ -37,6 +37,15 @@
             <p>To use a key for a file path or URL, use the keyref attribute instead of the href
                 attribute:</p>
             <pre>&lt;image keyref="product_image"/></pre>
+            <p>You can use keys (with the keyref attribute) in any element that uses an href
+                attribute to indicate a file path. These elements include (but are not limited to):<sl>
+                    <sli>&lt;image></sli>
+                    <sli>&lt;xref></sli>
+                    <sli>&lt;link></sli>
+                    <sli>&lt;coderef></sli>
+                    <sli>&lt;topicref></sli>
+                    <sli>&lt;mapref></sli>
+                </sl></p>
         </lcInstruction>
     </learningContentbody>
 </learningContent>
