@@ -63,8 +63,8 @@ This list item element will replace the target element.
 This list item will be pushed before the target element. 
 &lt;/li></pre></li>
                     <li>The second element doesn’t contain any content but uses both the conref
-                        attribute (to identify the target element) and the conaction attribut set to
-                        the value
+                        attribute (to identify the target element) and the conaction attribute set
+                        to the value
                         “mark”.<pre>&lt;li conref="target_topic.dita#topic/somethingorother" conaction="mark"/></pre></li>
                 </ol></p>
             <p><b>Inserting an element after the target element</b></p>
@@ -78,11 +78,11 @@ This list item will be pushed after the target element.
             <p>Two final notes on conref push:</p>
             <ul id="ul_hvm_2sc_rx">
                 <li>
-                    <p>You cannot use the conrefend attribute with the conrefpush mechanism.</p>
+                    <p>You cannot use the conrefend attribute with the conref push mechanism.</p>
                 </li>
                 <li>
-                    <p>You <i>can</i> use the conkeyref attribute to indicate the target of a
-                        conrefpush. </p>
+                    <p>You <i>can</i> use the conkeyref attribute to indicate the target of a conref
+                        push. </p>
                 </li>
             </ul>
         </lcInstruction>

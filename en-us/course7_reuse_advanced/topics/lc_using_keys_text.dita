@@ -25,13 +25,14 @@
             </ul>
             <p>Although there is no limit on the length of the string defined by a key, strings in
                 keys are usually fairly short. </p>
-            <p>
-                <draft-comment author="simonbate">I'm torn about saying anything here about our
-                    previous prohibition on replacing anything smaller than a sentence. But people
-                    will notice the contradiction. Thoughts?</draft-comment>
-            </p>
+            <note>The previous course (<xref keyref="reuse_basic_url"/>) pointed out that it was not
+                a good idea to use replaceable text in anything smaller than a sentence. Overall,
+                this is good advice. However, if you are using keys for a company or product name,
+                particularly when documenting a product that might be rebranded or OEMed, the
+                convenience and consistency provided by keys may outweigh some considerations of
+                localization. </note>
             <p>To define a key that will contain a text string, use the keys attribute to name the
-                key, then nest a &lt;topicmeta> containing a keyword definition inside the
+                key, then nest a &lt;topicmeta> element containing a keyword definition inside the
                 &lt;keydef> element. For example:</p>
             <pre>&lt;keydef keys="product_name">
    &lt;topicmeta>

@@ -30,7 +30,13 @@
             <lcTime value="45"/>
         </lcDuration>
         <lcIntro>
-            <p>This lesson shows...<draft-comment author="gretyl">add intro</draft-comment></p>
+            <p>A DITA key is a placeholder for short text strings and file paths (or URLs). When you
+                create a reusable topic, you can use keys in places where the text strings or file
+                paths are different each time the topic is used. You define the final value for a
+                key in a DITA map. When the reusable topic is used in different maps, the key values
+                can be defined differently in each map. </p>
+            <p>This lesson describes how to define and use keys for short text strings and file
+                paths. </p>
             <draft-comment author="gretyl">add related links</draft-comment>
         </lcIntro>
     </learningContentbody>

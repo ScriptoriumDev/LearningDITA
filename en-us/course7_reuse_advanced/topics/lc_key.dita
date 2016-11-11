@@ -32,7 +32,8 @@
                 and <term>product_image</term> as “images/ProductB.png”. </p>
             <p>When your topic is used in the map for Product A, the product name “Product A” is
                 used and the product image shows the correct product. When your topic is used in the
-                map for Product B, the correct product name and image are show for that product.</p>
+                map for Product B, the correct product name and image are shown for that
+                product.</p>
             <p>You define keys in a DITA map with the &lt;keydef> element, which is a specialization
                 of the &lt;topicref> element. </p>
             <p>There are some differences between keys used for paths and keys used for text

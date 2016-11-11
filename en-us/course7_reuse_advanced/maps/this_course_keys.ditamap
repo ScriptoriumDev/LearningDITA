@@ -12,11 +12,12 @@
  <keydef keys="course_name">
   <topicmeta>
    <keywords>
-    <keyword>Reusing content in DITA: advanced</keyword>
+    <keyword>Advanced reuse in DITA</keyword>
    </keywords>
   </topicmeta>
  </keydef>
  
+ <!-- key for warehouse file containing conkeyref elements. -->
  <keydef keys="sample_contents" href="../topics/z_conkeyref_elements.dita"/>
  
 </map>
