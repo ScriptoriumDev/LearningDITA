@@ -50,7 +50,7 @@
                 list (&lt;ul>) and filtering removes them all, the empty &lt;ul> element will be
                 invalid. Other elements that have required children include &lt;ol>, &lt;sl>,
                 &lt;steps>, &lt;substeps>, &lt;properties>, &lt;table>, &lt;simpletable>. If you are
-                not sure which child elements are required, check the DITA specification. </p>
+                not sure which child elements are required, check the <xref keyref="dita_12_url"/>. </p>
             <p><b>What you cannot filter</b></p>
             <p>There are a number of elements that cannot be filtered out. These include:<sl>
                     <sli>topic titles</sli>

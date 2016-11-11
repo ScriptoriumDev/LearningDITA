@@ -23,6 +23,7 @@
                 important thing is to be consistent in how you use the values.</p>
             <p>As with the filtering attributes you can specify multiple revision values in the rev
                 attribute; separate the values with one or more spaces. </p>
+            <pre>&lt;p rev="v2.7 v2.8">The field is limited to 32 characters.&lt;/p></pre>
             <note>It is important to note that you cannot use the rev attribute for filtering
                 content. It's purpose is for identifying revisions.</note>
             <p><b>Showing rev in output</b></p>

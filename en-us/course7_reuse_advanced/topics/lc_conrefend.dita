@@ -50,7 +50,7 @@
                     referencing element is a &lt;p> element, the elements indicated by the conref
                     and conrefend attributes must also be &lt;p> elements.</li>
                 <li>The elements that occur between the elements indicated by the conref and
-                    conrefend attribute <i>do not</i> have to be the same type. For example,iIf
+                    conrefend attribute <i>do not</i> have to be the same type. For example, if
                     there are &lt;note> or &lt;image> elements between the first and last &lt;p>
                     elements, those elements will also be included in the content reference. </li>
             </ul>

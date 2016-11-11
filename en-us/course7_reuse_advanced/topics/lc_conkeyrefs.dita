@@ -28,7 +28,7 @@
                 needs to point to a different warehouse topic file (wild_duck_warehouse.dita). </p>
             <p>Rather than hard code the path to a file, you can use the conkeyref attribute to
                 create a content reference that uses a key, rather than a filename. </p>
-            <p>The first step in using a conkeyref is to creating a DITA topic
+            <p>The first step in using a conkeyref is to create a DITA topic
                 (domestic_duck_warehouse.dita) that contains a reusable element (including an id
                 attribute):</p>
             <pre>&lt;ul id="nesting_materials">
@@ -43,7 +43,7 @@
             <p>The example at the beginning of this topic shows a &lt;ul> element with a conref.
                 Replace the conref attribute with a conkeyref attribute that contains the key, a
                 slash ('/'), and the id of the element to be pulled: </p>
-            <pre>&lt;ul conkeyref="diet_warehouse/nesting_materials"/></pre>
+            <pre>&lt;ul conkeyref="duck_warehouse/nesting_materials"/></pre>
             <note>When using conkeyrefs you do not need to use the topic id of the referenced
                 element. </note>
             <p>When the topic containing the conkeyref is processed, the key duck_warehouse is
@@ -66,11 +66,11 @@
             <p>When this new key is use in the new map, the unordered list of wild duck nesting
                 materials is used.</p>
             <p>To wrap up the discussion of conkeyrefs, all the same rules that apply to conrefs
-                still apply to conkeyrefs</p>
+                still apply to conkeyrefs: </p>
             <ul id="ul_gzh_wmv_qx">
                 <li>The referencing element must be the same type (element name) as the referenced
                     element. </li>
-                <li>The referencing element must be valid (for instance a &lt;ul> element must
+                <li>The referencing element must be valid (for instance, a &lt;ul> element must
                     contain at least one &lt;li> element). </li>
             </ul>
         </lcInstruction>

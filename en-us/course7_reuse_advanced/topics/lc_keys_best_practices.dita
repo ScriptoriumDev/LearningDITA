@@ -45,8 +45,8 @@
             <p>The structure of the &lt;bookmap> element does not allow &lt;topicref>, &lt;keydef>,
                 or &lt;mapref> elements as children of the &lt;bookmap> element, so there is no
                 obvious place in a bookmap to place your key definitions. </p>
-            <p>A number of DITA users place &lt;keydef> or &lt;mapref> elements as children of  the
-                &lt;frontmatter> element. This ensure that they’re immediately visible to people
+            <p>A number of DITA users place &lt;keydef> or &lt;mapref> elements as children of the
+                &lt;frontmatter> element. This ensures that they are immediately visible to people
                 editing the bookmap. </p>
         </lcInstruction>
     </learningContentbody>
