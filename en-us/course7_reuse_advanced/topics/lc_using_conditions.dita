@@ -27,9 +27,30 @@
             <lcTime value="45"/>
         </lcDuration>
         <lcIntro>
-            <draft-comment author="gretyl">Add intro</draft-comment>
-            <draft-comment author="gretyl">Add related links</draft-comment>
+            <p>This lesson shows how to use conditional filtering to create reusable topics. </p>
         </lcIntro>
     </learningContentbody>
-    <related-links/>
+    <related-links>
+        <link
+            href="http://docs.oasis-open.org/dita/v1.2/os/spec/archSpec/condproc.html"
+            format="html">
+            <linktext>DITA Specification, Conditional processing (profiling)</linktext>
+        </link>
+        
+        <link
+            href="https://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Metadata_Conditional/c_Conditional_Processing_Concepts.html"
+            format="html">
+            <linktext>DITA Style Guide, Conditional processing concepts</linktext>
+        </link>
+        <link
+            href="https://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Metadata_Conditional/c_Select_Attributes.html"
+            format="html">
+            <linktext>DITA Style Guide, Condition (or select) attributes</linktext>
+        </link>
+        <link
+            href="https://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Metadata_Conditional/c_Filtering_and_Flagging.html"
+            format="html">
+            <linktext>DITA Style Guide, Filtering and flagging</linktext>
+        </link>
+    </related-links>
 </learningContent>

@@ -33,7 +33,18 @@
                     elements (and their content)</li>
                 <li>Content reference push, which allows maps to insert elements into topics in
                     arbitrary locations</li>
-            </ul><draft-comment author="gretyl">Add related links</draft-comment></lcIntro>
+            </ul></lcIntro>
     </learningContentbody>
-    <related-links/>
+    <related-links>
+        <link
+            href="https://docs.oasis-open.org/dita/v1.2/os/spec/common/complexattributedefinitions.html"
+            format="html">
+            <linktext>DITA Specification, Complex attribute definitions</linktext>
+        </link>
+        <link
+            href="https://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Content_Reuse/c_Advanced_conref_Principles.html"
+            format="html">
+            <linktext>DITA Style Guide, Advanced conref principles</linktext>
+        </link>
+    </related-links>
 </learningContent>
