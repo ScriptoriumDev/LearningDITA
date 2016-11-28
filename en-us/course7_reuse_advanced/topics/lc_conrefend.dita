@@ -16,8 +16,9 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>The conref attribute allows you to pull content from a single element (and its
-                content) into another topic. </p>
+            <p>The conref attribute is fine when you want to pull content from a single element (and
+                its content) into another topic. But what if you want to pull in a series of
+                elements? </p>
             <p>To pull a sequence of two or more elements into a topic, use the conrefend attribute
                 in combination with the conref attribute. The two attributes specify the starting
                 and ending elements in a sequence of elements. The starting element, the ending

@@ -137,8 +137,8 @@ You can also offer your database to users as a download.&lt;/p></ph>
                         this topic to rethink the decision to offer a download.</info>
                 </step>
                 <step>
-                    <cmd>After the &lt;section> element, add a &lt;required-cleanup> element and
-                        at content to it as shown in the following example:</cmd>
+                    <cmd>At the end of the &lt;section> element, add a &lt;required-cleanup> element
+                        and add content to it as shown in the following example:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
@@ -146,11 +146,11 @@ You can also offer your database to users as a download.&lt;/p></ph>
 &lt;title>Writing about ducks&lt;/title>
 &lt;conbody>
 ...
-&lt;/section>
 <ph outputclass="newchanged">&lt;required-cleanup>
 &lt;p>Consider giving users the option to send feedback or suggested entries for your 
 duck database.&lt;/p>
 &lt;/required-cleanup></ph>
+&lt;/section>
 &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>

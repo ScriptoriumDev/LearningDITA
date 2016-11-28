@@ -16,14 +16,14 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p><b>Should short strings use text keys or conkeyrefs</b></p>
+            <p><b>Should short strings use text keys or conkeyrefs?</b></p>
             <p>If you want to use keys to reference a short string, such as your company name, a
                 text key is the easiest way to do it. </p>
             <p>However, the &lt;keyword> element used to define text keys can only contain text, the
                 &lt;text> element, or the &lt;tm> (trademark) element. If the string requires
-                internal markup, it's better to use a warehouse file to define a &lt;ph> (phrase)
+                internal markup, it’s better to use a warehouse file to define a &lt;ph> (phrase)
                 element containing the string and its markup. </p>
-            <p>For example, for the company name "Pure-H<sub>2</sub>O", could not store this in a
+            <p>For example, for the company name “Pure-H<sub>2</sub>O”, could not store this in a
                 &lt;keyword> element; you would need to use a &lt;ph> element:</p>
             <pre>&lt;ph id="company_name">Pure-H&lt;sub>2&lt;/sub>O&lt;/ph></pre>
             <p>To create a reusable topic that referenced a company name, use a &lt;ph> element with

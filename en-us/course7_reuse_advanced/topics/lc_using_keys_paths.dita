@@ -21,11 +21,18 @@
             <p>To define a key that will contain a path (file path or URL), add the &lt;keydef>
                 element to a map. Use these attributes with the &lt;keydef> element:</p>
             <ul>
-                <li><b>keys</b> specifies the name of the key </li>
-                <li><b>href</b> specifies the definition of the key </li>
+                <li><b>keys</b> the name of the key</li>
+                <li><b>href</b> the key target </li>
+                <li><b>format</b> the type of file indicated by the key</li>
             </ul>
             <p>For example:</p>
-            <pre>&lt;keydef keys="product_image" href="images/product_B.png"/></pre>
+            <pre>&lt;keydef keys="product_image" href="images/product_B.png" format="png"/></pre>
+            <p>Although the key name can contain some special characters, it is a good practice to
+                limit names to letters, numbers, and the underscore character. If you need to use
+                other special characters, check the <xref keyref="dita_12_url"/>. </p>
+            <p>It is also a good practice to use the format attribute when defining a key. Possible
+                values include “dita”, “ditamap”, “pdf”, “html”, and  graphic formats, such as “png”
+                or “svg”.</p>
             <p>If you’re defining a key for an external resource, such as a URL, you must use
                     <tt>scope="external"</tt> with the &lt;keydef> element:</p>
             <pre>&lt;keydef keys="our_url" href="http://www.scriptorium.com" scope="external" format="html"/></pre>
