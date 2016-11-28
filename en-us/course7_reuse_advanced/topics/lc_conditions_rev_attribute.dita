@@ -25,7 +25,7 @@
                 attribute; separate the values with one or more spaces. </p>
             <pre>&lt;p rev="v2.7 v2.8">The field is limited to 32 characters.&lt;/p></pre>
             <note>It is important to note that you cannot use the rev attribute for filtering
-                content. It's purpose is for identifying revisions.</note>
+                content. It’s purpose is for identifying revisions.</note>
             <p><b>Showing rev in output</b></p>
             <p>You control the display of the rev attribute with the &lt;revprop> element in the
                 ditaval file. You can apply styling just as with the &lt;prop> element (color,
@@ -36,8 +36,8 @@
                 the &lt;revprop> element to place change bars in the margins next to text marked
                 with a rev attribute. However, the capabilities and the syntax of the changebar
                 attribute vary depending on the output format and the output generator. If you need
-                to use this feature, it's best to review the documentation for your output
-                generator.   </p>
+                to use this feature, it’s best to review the documentation for your output
+                generator. </p>
             <!--<p>You can also use the &lt;revprop> element to place change bars in the margins next to text marked with a rev attribute (if supported by your output generator). There are not separate attributes to indicate each of the changebar properties. Instead, the changebar value contains one or more property-value pairs. The value is separated from the property name with a colon (:), multiple property-value pairs are separated by semicolons (;).</p><p>The properties you can specify are:<ul id="ul_o3r_jxs_5x"><li>color - either using a 6-digit hex code or a color name</li><li>width - </li><li>style</li><li>offset</li><li>placement</li></ul>  </p>-->
         </lcInstruction>
     </learningContentbody>

@@ -18,9 +18,9 @@
         <lcInstruction>
             <p>DITA conditional filtering allows to choose what to show and hide in your DITA topics
                 when they are processed for output. </p>
-            <p>You mark DITA elements for filtering by adding attributes to elements; the value you
-                use with an attribute is used to determine whether the element should be hidden
-                (filtered out) or shown.  </p>
+            <p>You mark DITA elements for filtering by adding special filtering attributes to
+                elements; the value you use with a filtering attribute is used to determine whether
+                the element should be hidden (filtered out) or shown. </p>
             <p>The four basic filtering attributes and their <i>suggested</i> uses are: <dl>
                     <dlentry>
                         <dt>audience</dt>
@@ -39,7 +39,7 @@
                     </dlentry>
                     <dlentry>
                         <dt>otherprops</dt>
-                        <dd>Content is specific to an aspect that is up to you to decide. </dd>
+                        <dd>Content is specific to a a custom aspect. </dd>
                     </dlentry>
                 </dl></p>
             <p>The names of the attributes are defined in the DITA specification. They are a
@@ -53,11 +53,11 @@
             <p>When generating output for Android users, you can tell the DITA filtering mechanism
                 to hide elements where <tt>platform="iphone"</tt> and show elements where
                     <tt>platform="android"</tt>. To generate output for iPhone users, you show
-                elements where <tt>platform="iphone"</tt> and hide elements where
-                    <tt>platform="android"</tt>. (How to hide and show content is described later in
-                this lesson.)</p>
+                elements where platform has the value “iphone” and hide elements where platform has
+                the value “android”. (How to hide and show content is described later in this
+                lesson.)</p>
             <p>As with the attributes themselves, the values you use with each of the filtering
-                attributes is up to you to decide. You can use any characters you want for the
+                attributes are up to you to decide. You can use any characters you want for the
                 filtering attribute values, except for the space character. Case is important in the
                 filtering attribute values, so choose one form of capitalization and use it
                 consistently. </p>
@@ -70,7 +70,7 @@
                 DITA specialization to create additional filtering attributes that have meaning for
                 your content. The DITA specification identifies another filtering attribute: props.
                 This attribute is used as the basis for specialization. </note>
-            <p>Keep in mind that filtering of elements extends to any element in a DITA map, such as
+            <p>Keep in mind that filtering of elements extends to DITA map elements, such as
                 &lt;topicref> and &lt;mapref>. This way, you can use filtering to remove entire
                 topics or chapters from your output. </p>
         </lcInstruction>

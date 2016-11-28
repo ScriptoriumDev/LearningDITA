@@ -44,19 +44,20 @@
                 concern. The previous course (<cite>Introduction to Reuse</cite>) convered this to
                 some degree: what makes sense in one language when it is filtered out might not make
                 good sense (or translate well) when it is presented in another language.</p>
-            <p>You need to be careful when filtering elements that may result in invalid structure.
-                If filtering removes required elements, it will result in an invalid topic. For
-                example, if you add filtering attributes to all &lt;li> elements in an unordered
-                list (&lt;ul>) and filtering removes them all, the empty &lt;ul> element will be
-                invalid. Other elements that have required children include &lt;ol>, &lt;sl>,
-                &lt;steps>, &lt;substeps>, &lt;properties>, &lt;table>, &lt;simpletable>. If you are
-                not sure which child elements are required, check the <xref keyref="dita_12_url"/>. </p>
+            <p>You need to be careful when filtering elements that have required children, or
+                otherwise might result in invalid structure. If filtering removes required elements,
+                it will result in an invalid topic. For example, if you add filtering attributes to
+                all &lt;li> elements in an unordered list (&lt;ul>) and filtering removes them all,
+                the empty &lt;ul> element will be invalid. Other elements that have required
+                children include &lt;ol>, &lt;sl>, &lt;steps>, &lt;substeps>, &lt;properties>,
+                &lt;table>, &lt;simpletable>. If you are not sure which child elements are required,
+                check the <xref keyref="dita_12_url"/>. </p>
             <p><b>What you cannot filter</b></p>
             <p>There are a number of elements that cannot be filtered out. These include:<sl>
                     <sli>topic titles</sli>
-                    <sli>individual table entries</sli>
+                    <sli>individual table &lt;entry> elements</sli>
                     <sli>step command (&lt;cmd>) elements </sli>
-                    <sli>choice table entries</sli>
+                    <sli>choicetable entries</sli>
                 </sl></p>
         </lcInstruction>
     </learningContentbody>

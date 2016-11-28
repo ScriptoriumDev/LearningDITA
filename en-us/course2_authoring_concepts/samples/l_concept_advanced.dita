@@ -20,10 +20,10 @@ duckdata> _
    <p>Export your duck database as HTML output to make it easy to share on your website. You can
     also offer your database to users as a download.</p>
    <draft-comment>Are you sure you want to offer a download?</draft-comment>
+   <required-cleanup>
+    <p>Consider giving users the option to send feedback or suggested entries for your duck
+     database.</p>
+   </required-cleanup>
   </section>
-  <required-cleanup>
-   <p>Consider giving users the option to send feedback or suggested entries for your duck
-    database.</p>
-  </required-cleanup>
  </conbody>
 </concept>

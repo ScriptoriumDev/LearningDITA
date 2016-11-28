@@ -16,8 +16,8 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>When generating output from sources that use the filtering attributes, you need to be
-                able to tell the output processor what to hide and what to show. </p>
+            <p>When generating output from sources that use the filtering attributes, you need to
+                tell the output processor what to hide and what to show. </p>
             <p>In most output generators, you use a <term>ditaval</term> file, which indicates which
                 attributes with what values to filter out of your content. (Some output generators
                 do not use ditaval files; they use filtering mechanisms of their own design, but the
@@ -25,12 +25,12 @@
             <p>The ditaval file is an XML file, but it is not a DITA file (that is, it does not use
                 the DITA doctypes or elements). In DITA 1.2, the ditaval file is not included in
                 DITA maps; the file path to your ditaval file is passed to output generators using a
-                command argument. (In DITA 1.3, you can use the &lt;ditavalref> element to include
-                ditaval files in a DITA map.)  </p>
-            <p>You can name the ditaval file whatever makes sense to you, although it's a good idea
-                to use a filename that indicates the file's purpose. Typically you store the ditaval
-                file along with your maps, although it can reside anywhere that is accessible to
-                your output generator. </p>
+                command argument. (In DITA 1.3, you can use the &lt;ditavalref> element to include a
+                ditaval file in a DITA map.) </p>
+            <p>The name of your ditaval file is up to you, although it’s a good idea to use a
+                filename that indicates the file’s purpose. Typically you store the ditaval file
+                along with your maps, although it can reside anywhere that is accessible to your
+                output generator. </p>
             <p>Typically you will have one ditaval file for each main map or bookmap file.</p>
             <p>The root element in the ditaval file is the &lt;val> element; in a typical file the
                 &lt;val> element contains one or more &lt;props> elements.</p>
@@ -43,8 +43,8 @@
                     platform.</li>
                 <li>The val attribute indicates what value to match in the att attribute. In the
                     example, all elements where platform="iphone" are filtered.<note>When specifying
-                        the val attribute, case is important. A val attribute containing "iPhone"
-                        would <i>not</i> match a filtering attribute with the value "iphone".
+                        the val attribute, case is important. A val attribute containing “iPhone”
+                        would <i>not</i> match a filtering attribute with the value “iphone”.
                     </note></li>
                 <li>The action attribute indicates what to do when a match for the attribute and
                     value is found. In this case, any element that contains
@@ -56,7 +56,7 @@
                 what is supported in your transforms and the output generator). For example:</p>
             <pre>&lt;prop att="platform" val="android" action="flag" color="purple"/></pre>
             <p>This &lt;prop> element says to flag any element in which the platform attribute
-                contains the value "android"; to flag, all text in the element is output in the
+                contains the value “android”; to flag, all text in the element is output in the
                 color purple. When flagging, you can use these attributes to flag text:</p>
             <ul id="ul_qr5_k1t_5x">
                 <li><b>color</b> - style the text using the specified color</li>
