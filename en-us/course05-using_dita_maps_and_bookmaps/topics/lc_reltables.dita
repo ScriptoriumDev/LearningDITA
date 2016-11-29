@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="lc_reltables">
+    <title>Relationship tables</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <critdates>
+            <created date="2016-03-07"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup>
+                <lcObjective>State the purpose of a relationship table.</lcObjective>
+                <lcObjective>Create a relationship table and populate it with &lt;topicref&gt; elements.</lcObjective>
+                <lcObjective>Identify the meaning of rows, columns, and cells in a relationship table</lcObjective>
+                <lcObjective>Use the collection-type and linking attributes to modify relationships.</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="45"/>
+        </lcDuration>
+        <lcIntro>
+            <p>This lesson introduces relationship tables, then shows how to create a relationship
+                table, how to populate it, and how to use the collection-type and linking
+                attributes.</p>
+        </lcIntro>
+    </learningContentbody>
+    <related-links>
+        <link href="https://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Maps/c_Understanding_Relationship_Tables.html"
+            format="html" scope="external">
+            <linktext>DITA Style Guide, Relationship tables</linktext>
+        </link>
+        <link href="https://jaymanalotoibm.wordpress.com/2013/11/08/dissecting-dita-relationship-tables"
+            format="html" scope="external">
+            <linktext>Dissecting DITA relationship tables</linktext>
+        </link>
+        <link href="http://dita.xml.org/improving-relationships-relationship-tables"
+            format="html" scope="external">
+            <linktext>Improving Relationships in Relationship Tables</linktext>
+        </link>
+    </related-links>
+</learningContent>

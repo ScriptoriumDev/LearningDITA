@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Using content references</title>
+ <topicref href="../topics/lc_using_conrefs.dita">
+  <topicmeta lockmeta="yes">
+   <data name="lesson_id" value="10436"/>
+  </topicmeta>
+  <topicref href="../topics/lc_reuse_what_is_a_conref.dita"/>
+  <topicref href="../topics/lc_reuse_conref_basics.dita"/>
+  <topicref href="../topics/lc_the_conref_attribute.dita"/>
+  <topicref href="../topics/lc_conref_element_requirements.dita"/>
+  <topicref href="../topics/lc_reachable_by_map.dita"/>
+  <topicref href="../topics/lc_attributes_of_conref.dita"/>
+  <topicref href="../topics/lc_conrefs_best_practices.dita"/>
+  <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_using_conrefs.dita" locktitle="yes">
+   <topicmeta>
+    <navtitle>Assessment for Using conrefs</navtitle>
+   </topicmeta>
+   <topicref href="../assessments/how_conrefs_work/lca_referencing_element.dita"/>
+   <topicref href="../assessments/how_conrefs_work/lca_resolve.dita"/>
+   <topicref href="../assessments/how_conrefs_work/lca_conref_contents.dita"/>
+   <topicref href="../assessments/how_conrefs_work/lca_conref_attributes.dita"/>
+   <topicref href="../assessments/how_conrefs_work/lca_conref_requirements.dita"/>
+  </topicref>
+ </topicref>
+</map>

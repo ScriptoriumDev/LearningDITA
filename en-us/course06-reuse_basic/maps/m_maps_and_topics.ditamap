@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Reusing topics and maps</title>
+ <topicref href="../topics/lc_maps_and_topics.dita">
+  <topicmeta lockmeta="yes">
+   <data name="lesson_id" value="10435"/>
+  </topicmeta>
+  <topicref href="../topics/lc_maps_and_reuse.dita"/>
+  <topicref href="../topics/lc_topics_and_reuse.dita"/>
+  <topicref href="../topics/lc_reusing_maps.dita"/>
+  <topicref href="../topics/lc_creating_and_using_a_reusable_map.dita"/>
+  <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_Maps_and_topics.dita" locktitle="yes">
+   <topicmeta>
+    <navtitle>Assessment for Reusing topics and maps</navtitle>
+   </topicmeta>
+   <topicref href="../assessments/topics_and_maps/lca_topicref.dita"/>
+   <topicref href="../assessments/topics_and_maps/lca_copy_to.dita"/>
+   <topicref href="../assessments/topics_and_maps/lca_submap_purpose.dita"/>
+   <topicref href="../assessments/topics_and_maps/lca_mapref.dita"/>
+   <topicref href="../assessments/topics_and_maps/lca_mapref_metadata.dita"/>
+  </topicref>
+ </topicref>
+</map>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Creating a map</title>
+ <topicref href="../topics/lc_creating_a_map.dita">
+  <topicmeta lockmeta="yes">
+   <data name="lesson_id" value="10011"/>
+  </topicmeta>
+  <topicref href="../../shared/topics/lc_general_housekeeping.dita"/>
+  <topicref href="../topics/lc_map_new.dita"/>
+  <topicref href="../topics/lc_map_adding_topicrefs.dita"/>
+  <topicref href="../topics/lc_map_adding_maprefs.dita"/>
+<!--  <topicref href="../topics/lc_about_ref.dita"/>
+  <topicref href="../topics/lc_creating_new_ref.dita"/>
+  <topicref href="../topics/lc_adding_refsyn.dita"/>
+  <topicref href="../topics/lc_adding_properties.dita"/>-->
+  <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_create_maps.dita" locktitle="yes">
+   <topicmeta>
+    <navtitle>Assessment for Creating a map</navtitle>
+   </topicmeta>
+<!--   <topicref href="../assessments/creating_ref/lca_body.dita"/>
+   <topicref href="../assessments/creating_ref/lca_properties.dita"/>
+   <topicref href="../assessments/creating_ref/lca_prophead.dita"/>
+   <topicref href="../assessments/creating_ref/lca_refsyn.dita"/>
+   <topicref href="../assessments/creating_ref/lca_syntax_diagrams.dita"/>
+   <topicref href="../assessments/creating_ref/lca_proptype.dita"/>
+   <topicref href="../assessments/maps/lca_map_elements.dita"/>
+
+   <topicref href="../assessments/maps/lca_publishing.dita"/>
+   <topicref href="../assessments/maps/lca_mapref.dita"/>
+   <topicref href="../assessments/maps/lca_topicref.dita"/>
+   <topicref href="../assessments/maps/lca_topicref_elements.dita"/>
+   <topicref href="../assessments/maps/lca_nesting.dita"/>-->
+
+   <topicref href="../assessments/maps/lca_mapref.dita"/>
+   <topicref href="../assessments/maps/lca_nesting.dita"/>
+   <topicref href="../assessments/maps/lca_publishing.dita"/>
+   <topicref href="../assessments/maps/lca_topicref.dita"/>
+   <topicref href="../assessments/maps/lca_topicref_elements.dita"/>
+
+  </topicref>
+  
+ </topicref>
+</map>

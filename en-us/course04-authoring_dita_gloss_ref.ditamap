@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on 
+     github.com. See the accompanying LICENSE file for 
+     applicable licenses.-->
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Authoring DITA glossary and reference topics</title>
+ <topicmeta>
+  <critdates>
+   <created date="2015-10-12"/>
+  </critdates>
+ </topicmeta>
+ <mapref href="course04-authoring_gloss_reference/maps/m_creating_reference.ditamap"/> 
+ <mapref href="course04-authoring_gloss_reference/maps/m_best_practices_ref.ditamap"/>
+ <mapref href="course04-authoring_gloss_reference/maps/m_creating_glossary.ditamap"/>
+ <mapref href="course04-authoring_gloss_reference/maps/m_best_practices_gloss.ditamap"/>
+ 
+ <mapref href="course04-authoring_gloss_reference/maps/this_course_keys.ditamap" processing-role="resource-only"/>
+ <mapref href="shared/maps/course_keys.ditamap" processing-role="resource-only"/>
+ 
+</map>
