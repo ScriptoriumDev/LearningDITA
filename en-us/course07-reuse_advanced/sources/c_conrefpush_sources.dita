@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_conrefp_source">
+ <title>Conref push sources</title>
+ <conbody>
+  
+<!--  <p conref="c_conrefpush_target.dita#c_install/install_intro" conaction="pushreplace">
+   To install the Duck Data base on Windows, follow these instructions. </p>-->
+  
+<!--  <p conaction="pushbefore">
+   Make sure you have performed the pre-configuration steps. </p>
+  <p conref="c_conrefpush_target.dita#c_install/install_intro" conaction="mark"/>-->
+  
+     <p conref="c_conrefpush_target.dita#c_install/install_intro" conaction="mark"/>
+   <p conaction="pushafter">
+   To install on Ubuntu, see the subsequent section. </p>
+    
+  
+ </conbody>
+</concept>

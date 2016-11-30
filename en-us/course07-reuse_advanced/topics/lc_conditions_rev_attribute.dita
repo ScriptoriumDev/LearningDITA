@@ -40,7 +40,7 @@
                 </p><pre>&lt;val>
     &lt;prop action="flag" att="product" val="wild_ducks" color="red" style="underline"/>
 &lt;/val></pre><p>The
-                output looks like this:</p><image keyref="i_flagging_product" id="image_zmb_xj4_cy"
+                output looks like this:</p><image keyref="i_flagging_product" id="image_zmb_xj4_cy" base="2016/11"
                 /><p>You can also specify images to place before and after the flagged element. Use
                 the &lt;startflag> and &lt;endflag> elements as children of a &lt;prop
                 action="flag"> element. The imageref attribute indicates the path to the image to
@@ -76,7 +76,7 @@
                 containing:</p><pre>&lt;val>
     &lt;revprop action="flag" val="2.1" backcolor="aqua"/>
 &lt;/val></pre><p>The
-                output might look like this:</p><image keyref="i_show_rev" id="image_gxw_5k4_cy"
+    output might look like this:</p><image keyref="i_show_rev" id="image_gxw_5k4_cy" base="2016/11"
                 /><p>Depending on the format of your output and your output generator, you can also
                 use the &lt;revprop> element to place change bars in the margins next to text marked
                 with a rev attribute. However, the capabilities and the syntax of the changebar

@@ -36,7 +36,7 @@
                     keydef elements). Additionally, you can add multiple &lt;mapref> elements to the
                     map or bookmap and use DITA conditional filtering (as described in the first
                     lesson of this course) to hide all but one of the &lt;mapref> elements. </li>
-            </ul><image keyref="i_keysubmap" id="image_fbl_w4l_zx"/><p><b>Adding key definitions to
+                </ul><image keyref="i_keysubmap" id="image_fbl_w4l_zx" base="2016/11"/><p><b>Adding key definitions to
                     bookmaps</b></p><p>The structure of the &lt;bookmap> element does not allow
                 &lt;topicref>, &lt;keydef>, or &lt;mapref> elements as children of the &lt;bookmap>
                 element, so there is no obvious place in a &lt;bookmap> element to place your key

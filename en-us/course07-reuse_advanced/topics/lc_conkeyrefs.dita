@@ -16,8 +16,8 @@
     </prolog>
     <learningContentbody>
         <lcInstruction><p>A conkeyref is a content reference that uses a key instead of a file path.
-                In normal use, a content reference to an element in another file might look like
-                this:
+                As described in the <ph keyref="reuse_basic_url"/> course, a content reference to an
+                element in another file might look like this:
                 </p><pre>&lt;ul conref="domestic_duck_warehouse.dita#domestic_warehouse/nesting_materials">
    &lt;li/>
 &lt;/ul></pre><p>This
@@ -28,7 +28,7 @@
                 topic file (wild_duck_warehouse.dita). </p><p>Rather than hard code the path to a
                 file, you can use the conkeyref attribute to create a content reference that uses a
                 key, rather than a filename. </p><image keyref="i_conkeyref" id="image_j4p_ysl_zx"
-                /><p>The first step in using a conkeyref is to create a DITA topic
+                base="2016/11"/><p>The first step in using a conkeyref is to create a DITA topic
                 (domestic_duck_warehouse.dita) that contains a reusable element (including an id
                 attribute):</p><pre>&lt;ul id="nesting_materials">
    &lt;li>Sawdust&lt;/li>
@@ -43,27 +43,27 @@
                 Replace the conref attribute with a conkeyref attribute that contains the key, a
                 slash ('/'), and the id of the element to be pulled:
                 </p><pre>&lt;ul conkeyref="duck_warehouse/nesting_materials"/></pre><note>When using
-                conkeyrefs you do not need to use the topic id of the referenced element.
-                </note><p>When the topic containing the conkeyref is processed, the key
+                conkeyrefs you do not need to use the id of the topic that contains the referenced
+                element. </note><p>When the topic containing the conkeyref is processed, the key
                 duck_warehouse is replace with the current key definition, which is
-                domestic_duck_warehouse.dita. </p><p>In another map, you might want to reuse the
-                topic containing the conkeyref so that it pulls content from a different file. To do
-                this, add a &lt;keydef> element to your new map that defines the key so that it
-                points to a different file. </p><p>In this example, the topic is being reused in the
-                context of wild ducks, rather than domestic ducks. The file wild_duck_warehouse.dita
-                defines a different &lt;ul> element (but with the same id
-                attribute):</p><pre>&lt;ul id="nesting_materials">
+                domestic_duck_warehouse.dita. </p><p>You can reuse the topic containing the
+                conkeyref in another DITA map, but you might need it to pull content from a file
+                that is specific to the new map. To do this, add a &lt;keydef> element to the new
+                map that defines the key so that it points to a different file. In this example, the
+                new map (that addresses wild ducks) defines the duck_warehouse key to point to
+                wild_duck_warehouse.dita:
+                </p><pre>&lt;keydef keys="duck_warehouse" href="wild_duck_warehouse.dita"/></pre><p>The
+                file wild_duck_warehouse.dita defines a different &lt;ul> element; however, it must
+                use the same id
+                attribute:</p><pre>&lt;ul id="nesting_materials">
    &lt;li>Ferns&lt;/li>
    &lt;li>Twigs&lt;/li>
    &lt;li>Grass&lt;/li>
    ...
-&lt;/ul></pre><p>The
-                new, wild duck map defines the duck_warehouse key to point to
-                wild_duck_warehouse.dita:
-                </p><pre>&lt;keydef keys="duck_warehouse" href="wild_duck_warehouse.dita"/></pre><p>When
-                this new key is use in the new map, the unordered list of wild duck nesting
-                materials is used.</p><p>To wrap up the discussion of conkeyrefs, all the same rules
-                that apply to conrefs still apply to conkeyrefs: </p><ul id="ul_gzh_wmv_qx">
+&lt;/ul></pre><p>When
+                this new key is used in the wile duck map, the unordered list of wild duck nesting
+                materials is used.</p><p>Finally, note that all the same rules that apply to conrefs
+                also apply to conkeyrefs: </p><ul id="ul_gzh_wmv_qx">
                 <li>The referencing element must be the same type (element name) as the referenced
                     element. </li>
                 <li>The referencing element must be valid (for instance, a &lt;ul> element must

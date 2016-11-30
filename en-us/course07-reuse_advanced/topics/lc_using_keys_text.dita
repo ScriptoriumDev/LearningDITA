@@ -58,7 +58,11 @@
                 <sli>&lt;term></sli>
                 <sli>&lt;keyword></sli>
             </sl>
+            <p>This example show how a key can be used with a &lt;ph> (phrase) element:</p>
             <pre>Congratulations on purchasing &lt;ph keyref="product_name"/>!</pre>
+            <p>When the DITA map includes the &lt;keydef> element shown above, the output would
+                contain:</p>
+            <pre>Congratulations on purchasing Duck Database! </pre>
         </lcInstruction>
     </learningContentbody>
 </learningContent>
