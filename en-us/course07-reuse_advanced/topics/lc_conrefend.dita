@@ -16,15 +16,14 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>The conref attribute is fine when you want to pull content from a single element (and
-                its content) into another topic. But what if you want to pull in a series of
-                elements? </p>
+            <p>The conref attribute is useful for pulling content from a single element into another
+                topic. But what if you want to pull in content from a series of elements? </p>
             <p>To pull a sequence of two or more elements into a topic, use the conrefend attribute
                 in combination with the conref attribute. The two attributes specify the starting
                 and ending elements in a sequence of elements. The starting element, the ending
                 element, and all elements in between are pulled into the referencing topic.</p>
-            <p>For example, you might have a warehouse topic (wh.dita) that contains this &lt;ul>
-                element:</p>
+            <p>For example, you might have a warehouse topic (named wh.dita) that contains this
+                &lt;ul> element:</p>
             <pre>&lt;concept id="wh_elements">
    ... 
    &lt;ul>
@@ -36,7 +35,6 @@
       &lt;li id="food_fruit">berries and nuts&lt;/li>
    &lt;/ul>
 &lt;/concept></pre>
-            <!--<p>Actual duck diet list: <ul id="ul_g53_hv1_vx"><li>Small fish and fish eggs</li><li>Snails, worms and mollusks</li><li>Small <xref href="http://marinelife.about.com/od/invertebrates/g/crustaceans.htm" format="html" scope="external">crustaceans</xref></li><li>Grass and weeds</li><li><xref href="http://marinelife.about.com/od/plants/tp/typesofalgae.htm" format="html" scope="external">Algae</xref> and aquatic plants and roots</li><li>Frogs, salamanders and other <xref href="http://animals.about.com/od/amphibians/p/amphibians.htm" format="html" scope="external">amphibians</xref></li><li>Aquatic and land insects</li><li>Seeds and grain</li><li>Small berries, fruits and <xref href="http://birding.about.com/od/Foods/a/Birds-That-Eat-Nuts.htm" format="html" scope="external">nuts</xref></li></ul></p>-->
             <p>To pull the four list items from “fish” through “frogs” into a list in another topic,
                 use this conref and conrefend combination:</p>
             <pre>&lt;ul>
@@ -50,10 +48,12 @@
                     the same element name as the referencing element. For instance, if the
                     referencing element is a &lt;p> element, the elements indicated by the conref
                     and conrefend attributes must also be &lt;p> elements.</li>
-                <li>The elements that occur between the elements indicated by the conref and
-                    conrefend attribute <i>do not</i> have to be the same type. For example, if
-                    there are &lt;note> or &lt;image> elements between the first and last &lt;p>
-                    elements, those elements will also be included in the content reference. </li>
+                <li>The elements that occur <i>between</i> the elements indicated by the conref and
+                    conrefend attribute <i>do not</i> have to be the same type. For example, if the
+                    conref and conrefend attributes indicate &lt;p> (paragraph) elements, and if
+                    there are non-&lt;p> elements (such as &lt;note> or &lt;image>) between the
+                    conref and conrefend &lt;p> elements, those elements will also be included in
+                    the content reference. </li>
             </ul>
             <p>You can also use conrefend with conkeyrefs. If conrefend is combined with a
                 conkeyref, the filename in the conrefend attribute is ignored and is replaced with
