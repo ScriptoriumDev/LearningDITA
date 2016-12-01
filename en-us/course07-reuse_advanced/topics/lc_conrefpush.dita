@@ -32,9 +32,9 @@
                 <li>Is inserted before a specific element.</li>
                 <li>Replaces a specific element. </li>
                 <li>Is inserted after a specific element. </li>
-            </ul><image keyref="i_conref_push" id="image_a4s_nvd_dy"/><p>Just as with a normal
-                conref operation, the source and target elements used in the conref push must be the
-                same type.</p><p>To use conref push you need to do three things:<ul
+            </ul><image keyref="i_conref_push" id="image_a4s_nvd_dy" base="2016/12"/><p>Just as with
+                a normal conref operation, the source and target elements used in the conref push
+                must be the same type.</p><p>To use conref push you need to do three things:<ul
                     id="ul_gcs_k2p_cy">
                     <li>
                         <p>Make sure that the target element (the element you want to push your
