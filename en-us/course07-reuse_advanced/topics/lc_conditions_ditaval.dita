@@ -30,8 +30,8 @@
                 maps, although it can reside anywhere that is accessible to your output generator.
                 </p><p>Typically you will have one ditaval file for each main map or bookmap
                 file.</p><p>The root element in the ditaval file is the &lt;val> element; in a
-                typical file the &lt;val> element contains one or more &lt;props>
-                elements.</p><pre>&lt;val>
+                typical file, the &lt;val> element contains one or more &lt;props> elements:
+                </p><pre>&lt;val>
    &lt;prop att="platform" val="iphone" action="exclude" />
 &lt;/val></pre><p>This
                 example shows the basic form of a &lt;prop> element. </p><ul id="ul_zpk_hxp_tx">
@@ -49,7 +49,7 @@
             </ul><p><b>Conditional filtering example</b></p><p>In this example DITA topic, the
                 second &lt;p> element contains a sentence within a &lt;ph> (phrase) element. The
                 product conditional attribute has the value
-                “wild_ducks".</p><pre id="feed_example">&lt;p>For the healthiest ducks, we recommend using our feeds.&lt;/p>
+                “wild_ducks":</p><pre id="feed_example">&lt;p>For the healthiest ducks, we recommend using our feeds.&lt;/p>
 &lt;p>All our duck feeds are composed of cracked corn, oats, rice, and milo seed. 
 &lt;ph product="wild_ducks">Our wild duck feed also includes worm meal and fish meal. &lt;/ph>
 &lt;/p>
@@ -62,7 +62,7 @@
     &lt;prop action="exclude" att="product" val="wild_ducks" />
 &lt;/val></pre><p>The
                 output looks like this:</p><image keyref="i_with_filtering" id="image_ucd_c34_cy"
-                base="2016/11"/><p>For more information about ditaval files and how to use them for
+                base="2016/12"/><p>For more information about ditaval files and how to use them for
                 filtering, see <xref
                     href="http://docs.oasis-open.org/dita/v1.2/os/spec/common/about-ditaval.html#ditaval"
                     format="html" scope="external"/></p></lcInstruction>

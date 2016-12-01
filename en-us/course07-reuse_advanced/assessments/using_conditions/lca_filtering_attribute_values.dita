@@ -23,7 +23,8 @@
      (Choose all that apply)</lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_rrr_4kh_vx">
      <lcAnswerOption>
-      <lcAnswerContent>conditional attribute values are fixed and cannot be changed.</lcAnswerContent>
+      <lcAnswerContent>Conditional attribute values are fixed and cannot be
+       changed.</lcAnswerContent>
      </lcAnswerOption>
      <lcAnswerOption>
       <lcAnswerContent>You can specify more than one value with a filtering
@@ -39,8 +40,8 @@
        your team.</lcAnswerContent>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect>conditional attributes are entirely up to you. You can specify more than one
-     value with a conditional attribute (separated by spaces).  Case is important in filtering
+    <lcFeedbackIncorrect>Conditional attributes are entirely up to you. You can specify more than
+     one value with a conditional attribute (separated by spaces). Case is important in filtering
      attribute values. Everyone on your team should agreee to use the same conditional attribute
      values.</lcFeedbackIncorrect>
    </lcMultipleSelect>

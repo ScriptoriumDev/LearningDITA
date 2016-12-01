@@ -19,12 +19,12 @@
                 &lt;keydef> element is a specialization of the &lt;topicref> element. Although you
                 can use the &lt;topicref> element to define keys, it’s better to use &lt;keydef>
                 because:</p><ul>
-                <li>It indicates specifically what you’re doing (semantics)</li>
+                <li>It indicates specifically what you’re doing (semantics). </li>
                 <li>It automatically specifies <tt>processing-role="resource-only"</tt>. Without
                     this attribute, the output generator uses the referenced topic exactly where it
                     occurs in the map, which is probably not what you want. </li>
                 <li>It requires you to use the keys attribute (which helps if you tend to forget
-                    things like that)</li>
+                    things like that). </li>
             </ul><p><b>Gather keys in submaps</b></p><p>It’s a good idea to gather all related keys
                 together in a submap. There are two main reasons for doing this: </p><ul
                 id="ul_lkz_mwq_px">
@@ -36,7 +36,7 @@
                     keydef elements). Additionally, you can add multiple &lt;mapref> elements to the
                     map or bookmap and use DITA conditional filtering (as described in the first
                     lesson of this course) to hide all but one of the &lt;mapref> elements. </li>
-                </ul><image keyref="i_keysubmap" id="image_fbl_w4l_zx" base="2016/11"/><p><b>Adding key definitions to
+                </ul><image keyref="i_keysubmap" id="image_fbl_w4l_zx" base="2016/12"/><p><b>Adding key definitions to
                     bookmaps</b></p><p>The structure of the &lt;bookmap> element does not allow
                 &lt;topicref>, &lt;keydef>, or &lt;mapref> elements as children of the &lt;bookmap>
                 element, so there is no obvious place in a &lt;bookmap> element to place your key

@@ -35,7 +35,7 @@
             <pre>For more information, see &lt;cite keyref="initing_ddb"/>. </pre>
             <p>When this is processed, the &lt;linktext> content will be used in the &lt;cite>
                 element: </p>
-            <pre>For more information, see <i>Initializing the Duck Database</i>. </pre>
+            <lq>For more information, see <i>Initializing the Duck Database</i>. </lq>
             <p><b>Key references with fall-backs</b></p>
             <p>If you use both a keyref and an href attribute in an element, a DITA output generator
                 will attempt to resolve the keyref first. If the key is not defined, the href target

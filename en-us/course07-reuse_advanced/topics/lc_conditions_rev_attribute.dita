@@ -25,24 +25,24 @@
                 (depending on what is supported in your transforms and the output generator). For
                 example:</p><pre>&lt;prop att="platform" val="android" action="flag" color="purple"/></pre><p>The
                 &lt;prop> element show here directs the output generator to use purple text on any
-                element in which the platform attribute contains the value “android”.  </p><p>When
+                element in which the platform attribute contains the value “android”. </p><p>When
                 flagging, you can use these &lt;prop> attributes to flag text:</p><ul
                 id="ul_qr5_k1t_5x">
-                <li><b>color</b> - style the text using the specified color</li>
-                <li><b>background</b> - place the specified color behind the text</li>
-                <li><b>style</b> - format the text using a specific style (italics, bold, underline,
+                <li><b>color</b>: style the text using the specified color</li>
+                <li><b>background</b>: place the specified color behind the text</li>
+                <li><b>style</b>: format the text using a specific style (italics, bold, underline,
                     double-underline, or overline). </li>
             </ul><p>The color and background attributes can use either a 6-digit hex color code
                 (such as "#0000FF") or a color name (aqua, black, blue, fuchsia, gray, green, lime,
                 maroon, navy, olive, purple, red, silver, teal, white, or yellow).</p><p>For
                 example, if you use this example (from the previous
-                topic):</p><pre conkeyref="ditaval_topic/feed_example"/><p>With this ditaval file
-                </p><pre>&lt;val>
+                topic):</p><pre conkeyref="ditaval_topic/feed_example"/><p>With this ditaval
+                file:</p><pre>&lt;val>
     &lt;prop action="flag" att="product" val="wild_ducks" color="red" style="underline"/>
 &lt;/val></pre><p>The
-                output looks like this:</p><image keyref="i_flagging_product" id="image_zmb_xj4_cy" base="2016/11"
-                /><p>You can also specify images to place before and after the flagged element. Use
-                the &lt;startflag> and &lt;endflag> elements as children of a &lt;prop
+                output looks like this:</p><image keyref="i_flagging_product" id="image_zmb_xj4_cy"
+                base="2016/11"/><p>You can also specify images to place before and after the flagged
+                element. Use the &lt;startflag> and &lt;endflag> elements as children of a &lt;prop
                 action="flag"> element. The imageref attribute indicates the path to the image to
                 use.</p><pre>&lt;prop att="platform" val="android" action="flag">
    &lt;startflag imageref="images/android_icon.png">
@@ -76,12 +76,12 @@
                 containing:</p><pre>&lt;val>
     &lt;revprop action="flag" val="2.1" backcolor="aqua"/>
 &lt;/val></pre><p>The
-    output might look like this:</p><image keyref="i_show_rev" id="image_gxw_5k4_cy" base="2016/11"
-                /><p>Depending on the format of your output and your output generator, you can also
-                use the &lt;revprop> element to place change bars in the margins next to text marked
-                with a rev attribute. However, the capabilities and the syntax of the changebar
-                attribute vary depending on the output format and the output generator. If you need
-                to use this feature, it is best to review the documentation for your output
+                output might look like this:</p><image keyref="i_show_rev" id="image_gxw_5k4_cy"
+                base="2016/11"/><p>Depending on the format of your output and your output generator,
+                you can also use the &lt;revprop> element to place change bars in the margins next
+                to text marked with a rev attribute. However, the capabilities and the syntax of the
+                changebar attribute vary depending on the output format and the output generator. If
+                you need to use this feature, it is best to review the documentation for your output
                 generator. </p><p>For more information about ditaval files and how to use them for
                 flagging, see <xref
                     href="http://docs.oasis-open.org/dita/v1.2/os/spec/common/about-ditaval.html#ditaval"
