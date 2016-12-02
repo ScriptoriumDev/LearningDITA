@@ -16,8 +16,8 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>DITA conditional filtering allows to choose what to show and hide in your DITA topics
-                when they are processed for output. </p>
+            <p>DITA conditional filtering allows you to choose what to show and hide in your DITA
+                topics when they are processed for output. </p>
             <p>You mark DITA elements for filtering by adding special conditional attributes to
                 elements; the value you use with a conditional attribute is used to determine whether
                 the element should be hidden (filtered out) or shown. </p>
@@ -25,9 +25,8 @@
                     <dlentry>
                         <dt>audience</dt>
                         <dd>Content is intended for a specific group of readers. The audience can be
-                            seen a number of different ways, it might be the experience level, role,
-                            security clearance, or some other way of grouping potential readers
-                        </dd>
+                            seen a number of different ways; it might be the experience level, role,
+                            security clearance, or some other way of grouping potential readers. </dd>
                     </dlentry>
                     <dlentry>
                         <dt>platform</dt>
@@ -47,7 +46,7 @@
                 them specifically for audience, platform, or product filtering; it’s up to you to
                 determine how you want to use each one. </p>
             <p>For example, you might use the platform attribute to indicate whether content is
-                intended for iPhone or Android users. </p>
+                intended for iPhone or Android users: </p>
             <pre>&lt;p platform="android">Visit Google Play for more information.&lt;/p> 
 &lt;p platform="iphone">Visit the App Store for more information.&lt;/p></pre>
             <p>When generating output for Android users, you can tell the DITA filtering mechanism

@@ -28,7 +28,7 @@
                 topic file (wild_duck_warehouse.dita). </p><p>Rather than hard code the path to a
                 file, you can use the conkeyref attribute to create a content reference that uses a
                 key, rather than a filename. </p><image keyref="i_conkeyref" id="image_j4p_ysl_zx"
-                base="2016/11"/><p>The first step in using a conkeyref is to create a DITA topic
+                base="2016/12"/><p>The first step in using a conkeyref is to create a DITA topic
                 (domestic_duck_warehouse.dita) that contains a reusable element (including an id
                 attribute):</p><pre>&lt;ul id="nesting_materials">
    &lt;li>Sawdust&lt;/li>

@@ -23,7 +23,7 @@
                 <li>Product numbers</li>
                 <li>Company names</li>
                 <li>Telephone numbers</li>
-                <li>Title of other books in a document set</li>
+                <li>Titles of other books in a document set</li>
             </ul>
             <p>Although there is no limit on the length of the string defined by a key, strings in
                 keys are usually fairly short. </p>
@@ -62,7 +62,7 @@
             <pre>Congratulations on purchasing &lt;ph keyref="product_name"/>!</pre>
             <p>When the DITA map includes the &lt;keydef> element shown above, the output would
                 contain:</p>
-            <pre>Congratulations on purchasing Duck Database! </pre>
+            <lq>Congratulations on purchasing Duck Database! </lq>
         </lcInstruction>
     </learningContentbody>
 </learningContent>

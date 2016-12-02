@@ -21,9 +21,9 @@
             <p>To define a key that will contain a path (file path or URL), add the &lt;keydef>
                 element to a map. Use these attributes with the &lt;keydef> element:</p>
             <ul>
-                <li><b>keys</b> the name of the key</li>
-                <li><b>href</b> the key target </li>
-                <li><b>format</b> the type of file indicated by the key</li>
+                <li><b>keys</b>: the name of the key</li>
+                <li><b>href</b>: the key target </li>
+                <li><b>format</b>: the type of file indicated by the key</li>
             </ul>
             <p>For example:</p>
             <pre>&lt;keydef keys="product_image" href="images/product_B.png" format="png"/></pre>
