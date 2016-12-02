@@ -40,8 +40,8 @@
             <p>There are two areas where you need to exercise some caution in filtering: inline
                 elements and elements that have required children.</p>
             <p>It is not a good idea to filter inline elements. This is mostly a localization
-                concern. The previous course (<cite keyref="reuse_basic_url"/>) covered this to some
-                degree: what makes sense in one language when it is filtered out might not make good
+                concern. The previous course (<xref keyref="reuse_basic_url"/>) covered this to some
+                degree: what makes sense in one language when it is filtered out might not make
                 sense (or translate well) when it is presented in another language.</p>
             <p>You need to be careful when filtering elements that have required children, otherwise
                 this might result in an invalid structure. If filtering removes required elements,

@@ -41,10 +41,6 @@
                         <dd>Content is specific to a custom aspect. </dd>
                     </dlentry>
                 </dl></p>
-            <p>The names of the attributes are defined in the DITA specification. They are a
-                suggestion about how you might use them, but you should not feel locked into using
-                them specifically for audience, platform, or product filtering; it’s up to you to
-                determine how you want to use each one. </p>
             <p>For example, you might use the platform attribute to indicate whether content is
                 intended for iPhone or Android users: </p>
             <pre>&lt;p platform="android">Visit Google Play for more information.&lt;/p> 
@@ -55,6 +51,10 @@
                 elements where platform has the value “iphone” and hide elements where platform has
                 the value “android”. (How to hide and show content is described later in this
                 lesson.)</p>
+            <p>The names of the attributes are defined in the DITA specification. They are a
+                suggestion about how you might use them, but you should not feel locked into using
+                them specifically for audience, platform, or product filtering; it’s up to you to
+                determine how you want to use each one. </p>
             <p>As with the attributes themselves, the values you use with each of the conditional
                 attributes are up to you to decide. You can use any characters you want for the
                 conditional attribute values, except for the space character. Case is important in

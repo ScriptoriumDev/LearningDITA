@@ -62,7 +62,7 @@
             <pre>Congratulations on purchasing &lt;ph keyref="product_name"/>!</pre>
             <p>When the DITA map includes the &lt;keydef> element shown above, the output would
                 contain:</p>
-            <lq>Congratulations on purchasing Duck Database! </lq>
+            <lines>Congratulations on purchasing Duck Database! </lines>
         </lcInstruction>
     </learningContentbody>
 </learningContent>

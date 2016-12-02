@@ -17,9 +17,17 @@
     <learningContentbody>
         <lcInstruction>
             <p>A DITA key allows you to create a placeholder for a file path or a short piece of
-                text. You create the key definition (the text to use in place of the key) in a DITA
-                map. All keys are resolved when topics and maps are transformed into an output
-                format. This allows you to create reusable topics and maps. </p>
+                text. You create the key name and definition (the text to use in place of the key)
+                in a DITA map;. You refer to a key by specifying the key name in a keyref attribute.
+                The keyref attributes are resolved when topics and maps are transformed into an
+                output format. </p>
+            <p>The advantage of using a key is that you define the key in one place (in the map),
+                then refer to that key by name throughout all your topics. If the file path or text
+                changes, you only need to change the definition and the new definition is reflected
+                everywhere that the keyref attribute is used.</p>
+            <p>Keys make it easy to create reusable topics. Because key definitions can be different
+                for each map, a reusable topic that uses keys can contain different file paths or
+                strings, depending on which map it is used in. </p>
             <p>For instance, you might create a reusable topic that uses two keys: <ul
                     id="ul_r5v_jz5_cx">
                     <li>The key <term>product_name</term> contains the name of a product</li>

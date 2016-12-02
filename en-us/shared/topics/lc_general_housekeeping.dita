@@ -15,11 +15,11 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>Download <xref keyref="sample_file"/> now. It contains the sample files for the
+            <p id="download">Download <xref keyref="sample_file"/> now. It contains the sample files for the
                 entire <keyword keyref="course_name"/> course. Extract the contents and put them in
                 a directory that you can access easily.</p>
             <p conkeyref="sample_contents/folder_contents"/>
-            <p>Each lesson will instruct you on which folders and files to use for the samples and
+            <p id="saving">Each lesson will instruct you on which folders and files to use for the samples and
                 exercises. Save your file as you complete each step to avoid losing your work. </p>
             <p>Create a local copy of each file to work in as you complete the lessons. That way, if
                 you reach a point where your working file doesn’t match the examples, or is broken
