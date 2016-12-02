@@ -31,11 +31,8 @@
             <p>If you reference this key in a cross-reference (&lt;xref> element), the link will
                 target init_ddb.dita and the text for the link will be “Initializing the Duck
                 Database”:<pre>&lt;xref keyref="initing_ddb"/></pre></p>
-            <p>In addition, you can use the key if you just need to refer to the linktext:</p>
-            <pre>For more information, see &lt;cite keyref="initing_ddb"/>. </pre>
-            <p>When this is processed, the &lt;linktext> content will be used in the &lt;cite>
-                element: </p>
-            <lq>For more information, see <i>Initializing the Duck Database</i>. </lq>
+            <!--The following works fine in Oxygen, but DOES NOT WORK in the OT. -->
+            <!--<p>In addition, you can use the key if you just need to refer to the linktext:</p><pre>For more information, see &lt;cite keyref="initing_ddb"/>. </pre><p>When this is processed, the &lt;linktext> content will be used in the &lt;cite> element: </p><lq>For more information, see <i>Initializing the Duck Database</i>. </lq>-->
             <p><b>Key references with fall-backs</b></p>
             <p>If you use both a keyref and an href attribute in an element, a DITA output generator
                 will attempt to resolve the keyref first. If the key is not defined, the href target

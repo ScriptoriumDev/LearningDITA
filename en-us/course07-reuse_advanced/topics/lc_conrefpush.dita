@@ -32,17 +32,16 @@
                 <li>Is inserted before a specific element.</li>
                 <li>Replaces a specific element. </li>
                 <li>Is inserted after a specific element. </li>
-            </ul><image keyref="i_conref_push" id="image_a4s_nvd_dy"/><p>Just as with a normal
-                conref operation, the source and target elements used in the conref push must be the
-                same type.</p><p>To use conref push you need to do three things:<ul
+            </ul><image keyref="i_conref_push" id="image_a4s_nvd_dy" base="2016/12"/><p>Just as with
+                a normal conref operation, the source and target elements used in the conref push
+                must be the same type.</p><p>To use conref push you need to do three things:<ul
                     id="ul_gcs_k2p_cy">
                     <li>
                         <p>Make sure that the target element (the element you want to push your
                             element before, after, or in place of) has an id attribute. </p>
                         <p>For example, to push an element before, after, or in place of this
                             element, it must have an id: </p>
-                        <pre>&lt;p id="install_intro">This chapter describes how to install and configure the Duck Database on
-   Windows and Macintosh.&lt;/p></pre>
+                        <pre>&lt;p id="install_intro">This chapter describes how to install and configure the Duck Database on Windows and Macintosh.&lt;/p></pre>
                     </li>
                     <li>
                         <p>Create a DITA topic containing the element to be pushed.</p>
@@ -73,7 +72,10 @@
 &lt;/concept>
 </pre><p>Output
                 from this topic, without any conref push looks like this:</p><image
-                keyref="i_no_push" id="image_px1_dbv_cy" base="2016/11"/><p><b>Replacing the target
+                keyref="i_no_push" id="image_px1_dbv_cy" base="2016/11"/><note>The DITA sources
+                shown in these examples are in the downloadable samples file <xref
+                    keyref="sample_file"/>. The target DITA file is c_conrefpush_target.dita; the
+                source DITA file is c_conrefpush_target.dita. </note><p><b>Replacing the target
                     element</b></p><p>To replace an element in the target topic, use the element’s
                 conref attribute to identify the element to replace, and set the conaction attribute
                 to

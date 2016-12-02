@@ -16,8 +16,8 @@
     </prolog>
     <learningContentbody>
         <lcInstruction><p>A conkeyref is a content reference that uses a key instead of a file path.
-                As described in the <ph keyref="reuse_basic_url"/> course, a content reference to an
-                element in another file might look like this:
+                As described in the <xref keyref="reuse_basic_url"/> course, a content reference to
+                an element in another file might look like this:
                 </p><pre>&lt;ul conref="domestic_duck_warehouse.dita#domestic_warehouse/nesting_materials">
    &lt;li/>
 &lt;/ul></pre><p>This
@@ -42,10 +42,12 @@
                 example at the beginning of this topic shows a &lt;ul> element with a conref.
                 Replace the conref attribute with a conkeyref attribute that contains the key, a
                 slash ('/'), and the id of the element to be pulled:
-                </p><pre>&lt;ul conkeyref="duck_warehouse/nesting_materials"/></pre><note>When using
-                conkeyrefs you do not need to use the id of the topic that contains the referenced
-                element. </note><p>When the topic containing the conkeyref is processed, the key
-                duck_warehouse is replace with the current key definition, which is
+                </p><pre>&lt;ul conkeyref="duck_warehouse/nesting_materials">
+   &lt;li/>
+&lt;/ul></pre><note>When
+                using conkeyrefs you do not need to use the id of the topic that contains the
+                referenced element. </note><p>When the topic containing the conkeyref is processed,
+                the key duck_warehouse is replace with the current key definition, which is
                 domestic_duck_warehouse.dita. </p><p>You can reuse the topic containing the
                 conkeyref in another DITA map, but you might need it to pull content from a file
                 that is specific to the new map. To do this, add a &lt;keydef> element to the new

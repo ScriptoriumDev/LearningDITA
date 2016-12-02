@@ -21,4 +21,7 @@
 -->
  <mapref href="course07-reuse_advanced/maps/this_course_keys.ditamap" processing-role="resource-only"/>
  <mapref href="shared/maps/course_keys.ditamap" processing-role="resource-only"/>
+ <!-- conref push elements -->
+ <topicref href="course07-reuse_advanced/topics/z_conref_push_elements.dita" processing-role="resource-only"/>
+ 
 </map>

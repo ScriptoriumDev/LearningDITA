@@ -18,11 +18,14 @@
         <lcInstruction><p>In addition to filtering, you can use conditional attributes to flag (or
                 highlight) content that is intended for different readers or different products. You
                 can use any conditional attribute for flagging, and you can use the rev attribute to
-                indicate and flag a specific revision of your product or service. </p><p><b>Flagging
-                    the conditional attributes</b></p><p>To use the conditional attributes for
-                flagging, you use the ditaval &lt;prop> element with the action="flag" attribute.
-                This allows you to flag text with color, background color, text styles, and images
-                (depending on what is supported in your transforms and the output generator). For
+                indicate and flag a specific revision of your product or service. </p><note>The DITA
+                sources shown in the following examples are in the downloadable samples file <xref
+                    keyref="sample_file"/>. The DITA file is c_filtering_and_flagging.dita; the
+                ditaval files are wild.ditaval and show_rev.ditaval. </note><p><b>Flagging the
+                    conditional attributes</b></p><p>To use the conditional attributes for flagging,
+                use the ditaval &lt;prop> element with the action="flag" attribute. This allows you
+                to flag text with color, background color, text styles, and images (depending on
+                what is supported in your transforms and the output generator). For
                 example:</p><pre>&lt;prop att="platform" val="android" action="flag" color="purple"/></pre><p>The
                 &lt;prop> element show here directs the output generator to use purple text on any
                 element in which the platform attribute contains the value “android”. </p><p>When
