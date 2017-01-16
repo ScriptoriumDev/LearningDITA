@@ -19,7 +19,7 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>CALS tables (&lt;table>) use the following elements to represent and organize tabular
+            <p>DITA tables (&lt;table>) use the following elements to represent and organize tabular
                 data:</p>
             <table frame="all" rowsep="1" colsep="1" id="table_uj4_tzk_ns">
                 <tgroup cols="3">
@@ -79,7 +79,7 @@
                     </tbody>
                 </tgroup>
             </table>
-            <p>This is an example of a minimal CALS table structure (one heading row, one body row,
+            <p>This is an example of a minimal DITA table structure (one heading row, one body row,
                 and three columns). Note that in this case, the &lt;tgroup> specifies only the cols
                 attribute, which is required:</p>
             <pre> &lt;table>

@@ -18,7 +18,7 @@
         <lcInstruction>
             <p>A DITA key allows you to create a placeholder for a file path or a short piece of
                 text. You create the key name and definition (the text to use in place of the key)
-                in a DITA map;. You refer to a key by specifying the key name in a keyref attribute.
+                in a DITA map. You refer to a key by specifying the key name in a keyref attribute.
                 The keyref attributes are resolved when topics and maps are transformed into an
                 output format. </p>
             <p>The advantage of using a key is that you define the key in one place (in the map),

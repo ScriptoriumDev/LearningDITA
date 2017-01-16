@@ -17,9 +17,9 @@
     <learningContentbody>
         <lcObjectives>
             <lcObjectivesGroup>
-                <lcObjective>Distinguish simple tables and CALS tables.</lcObjective>
+                <lcObjective>Distinguish simpletables and tables.</lcObjective>
                 <lcObjective>Describe the elements in a simpletable.</lcObjective>
-                <lcObjective>Describe the elements in a CALS table.</lcObjective>
+                <lcObjective>Describe the elements in a table.</lcObjective>
                 <lcObjective>Present best practices for DITA tables</lcObjective>
             </lcObjectivesGroup>
         </lcObjectives>
@@ -43,9 +43,7 @@
                 initiative of the United States Department of Defense. HTML tables also use the CALS
                 model, so if you are familiar with HTML table markup, you will recognize
                 similarities in DITA tables. </p>
-            <draft-comment author="simonbate">I don't believe this statement is true: Both
-                &lt;table> and &lt;simpletable> are based on CALS. </draft-comment>
-            <p>DITA tables are always described row by row.</p>
+            <p>Tables in DITA are always described row by row.</p>
         </lcIntro>
 
         <lcIntro>
