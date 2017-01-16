@@ -15,24 +15,23 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcSingleSelect id="tablesq1">
-    <lcQuestion>What types of tables does DITA support (choose one)?</lcQuestion>
+    <lcQuestion>What table elements does DITA support (choose one)?</lcQuestion>
     <lcAnswerOptionGroup>
      <lcAnswerOption>
-      <lcAnswerContent>Tables and simpletables</lcAnswerContent>
+      <lcAnswerContent>&lt;complextable> and &lt;simpletable></lcAnswerContent>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>CALS tables and simpletables</lcAnswerContent>
+      <lcAnswerContent>&lt;table> and &lt;simpletable></lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>DITA tables and simpletables</lcAnswerContent>
+      <lcAnswerContent>&lt;ditatable> and &lt;simpletable></lcAnswerContent>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>DITA tables and CALS tables</lcAnswerContent>
+      <lcAnswerContent>&lt;ditatable> and &lt;calstable></lcAnswerContent>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect>&lt;table> elements are CALS tables. There is no such thing as a “DITA
-     table.”</lcFeedbackIncorrect>
+    <lcFeedbackIncorrect>The two table elements in DITA are &lt;table> and &lt;simpletable>. </lcFeedbackIncorrect>
    </lcSingleSelect>
   </lcInteraction>
  </learningAssessmentbody>

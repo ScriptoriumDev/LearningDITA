@@ -55,7 +55,7 @@
                     the content reference. </li>
             </ul><p>You can also use conrefend with conkeyrefs. If conrefend is combined with a
                 conkeyref, the filename in the conrefend attribute is ignored and is replaced with
-                the filename used by the key specified in the conkeyref.</p><note>Not all CCMS
+                the filename used by the key specified in the conkeyref.</p><note>Not all CCMSs
                 support the conrefend attribute. Test or check with your vendor before using this
                 attribute. </note></lcInstruction>
     </learningContentbody>
