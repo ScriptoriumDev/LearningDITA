@@ -15,7 +15,7 @@
   <topicref href="../topics/lc_gloss.dita"/>
 <!--  <topicref href="../topics/lc_constraints.dita"/>-->
   <topicref href="../topics/lc_specialization.dita"/>
-  <topicref href="../topics/lcc_assessment.dita" copy-to="lcc_assess_topics.dita" locktitle="yes">
+  <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_assess_topics.dita" locktitle="yes">
    <topicmeta>
     <navtitle>Assessment for DITA Topics</navtitle>
    </topicmeta>

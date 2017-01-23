@@ -13,7 +13,7 @@
   <topicref href="../topics/lc_formatting.dita"/>
   <topicref href="../topics/lc_consistency.dita"/>
   <topicref href="../topics/lc_semantic.dita"/>
-  <topicref href="../topics/lcc_assessment.dita" copy-to="lcc_best_practices.dita" locktitle="yes">
+  <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_best_practices.dita" locktitle="yes">
    <topicmeta>
     <navtitle>Assessment for XML overview and best practices</navtitle>
    </topicmeta>

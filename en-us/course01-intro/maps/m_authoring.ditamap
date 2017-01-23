@@ -14,7 +14,7 @@
   <topicref href="../topics/authoring/lc_lists.dita"/>
   <topicref href="../topics/authoring/lc_inline.dita"/>
  
-  <topicref href="../topics/lcc_assessment.dita" copy-to="lcc_assess_author.dita" locktitle="yes">
+  <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_assess_author.dita" locktitle="yes">
    <topicmeta>
     <navtitle>Assessment for Creating DITA content</navtitle>
    </topicmeta>
