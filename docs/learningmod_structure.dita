@@ -19,19 +19,20 @@
      <li>A list of objectives for the module, using the &lt;lcObjectives>
             elements:<codeblock> &lt;lcObjectives>
    &lt;lcObjectivesGroup>
-    &lt;lcObjective>What kind of topics exist in DITA&lt;/lcObjective>
-    &lt;lcObjective>What information goes in different types of topics&lt;/lcObjective>
-    &lt;lcObjective>What are constraints and specialization?&lt;/lcObjective>
+    &lt;lcObjective>Describe the kinds of topics exist in DITA&lt;/lcObjective>
+    &lt;lcObjective>State the information goes in different types of topics&lt;/lcObjective>
+    &lt;lcObjective>Give examples of constraints and specialization&lt;/lcObjective>
    &lt;/lcObjectivesGroup>
   &lt;/lcObjectives></codeblock><p>The
-            objectives should state what the reader will be learning, rather than what the reader
-            will be doing in the following exercise. If we used an &lt;lcObjectivesStem> element it
-            would say “The user will learn:”. </p><dl>
-            <dlentry>
-              <dt>Good objective</dt>
-              <dd>“”</dd>
-            </dlentry>
-          </dl></li>
+            objectives should state what the reader will be able to do upon completion of the
+            module. </p><p>For a good discussion of writing objectives, see <xref
+              href="http://depts.washington.edu/eproject/objectives.htm" format="html"
+              scope="external"/>. This site makes a distinction between covert and overt objectives.
+            An overt objective is one that can be observed or measured; these are the types of
+            objectives you should create.  Avoid creating covert objectives; they usually contains
+            words like “understand,” “know,” and “select.”.</p><note>Our understanding and
+            expectations of objectives has grown over time. Do not look to the first few classes for
+            exemplary objectives!</note></li>
      <li>An estimated duration for the module, using the &lt;lcDuration> element (provide a value in
      minutes):<codeblock>&lt;lcDuration>
   &lt;lcTime value="30"/>
