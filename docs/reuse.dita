@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_m11_2kg_sy">
+ <title>Reuse</title>
+ <conbody>
+  <p>When we first created LearningDITA, we didn't think much about reusing content. It was a shock
+   to learn that we had been advocating reuse, but didn't use it ourselves! However, our first foray
+   into localization showed us how important it was to think about reuse.</p>
+  <p>At present, we use reuse for:</p>
+  <ul id="ul_zfj_kkg_sy">
+   <li>
+    <p><b>The housekeeping topic</b>. Every course begins with information about how to download
+     exercise files and how to work with them. The reusable file for this information is in
+      <filepath>shared/topics/lc_general_housekeeping.dita</filepath>. </p>
+    <p>The first paragraph uses a &lt;xref> element with a keyref to sample_file. This key should be
+     defined in your <filepath>this_course_keys.ditamap</filepath> file (see below). This paragraph
+     also uses a key (course_name) to refer to the course name.</p>
+    <p>Because the content of the exercise files varies from course to course, the second paragraph
+     of this file is a conkeyref:</p>
+    <codeblock>&lt;p conkeyref="sample_contents/folder_contents"/></codeblock>
+    <p>You define the sample_contents key in your <filepath>this_course_keys.ditamap</filepath>
+     file. The ID folder_contents identifies a &lt;p> element in
+      <filepath>z_conkeyref_elements.dita</filepath> in your topics folder.</p>
+    <note>We're still working on reuse with this topic. Some of the earlier courses had different
+     content in each housekeeping topic. Making this truly reusable is a work in progress.</note>
+   </li>
+   <li>
+    <p><b>Assessment intro</b>. At the end of every lesson is an assessment that begins with the
+     same text. The topic with this text is in
+      <filepath>shared/topics/lcc_assessment.dita</filepath>. </p>
+    <p>Because this topic is reused across all lessons, we need to avoid naming collisions, which
+     might confuse WordPress, so we use a copy-to attribute in the &lt;topicref> element to give
+     each use a new name. We also use a &lt;navtitle> in the &lt;topicref> to give the topic and
+     appropriate name. </p>
+   </li>
+   <li>
+    <p><b>maps/this_course_keys.ditamap</b>. Use this file to define keys used by your course. Use
+     this file to define these keys:<ul id="ul_zby_rmg_sy">
+      <li>course_name - the name of your course</li>
+      <li>sample_file - the href and linktext for the sample file in your LearningDITA WordPress
+       site</li>
+      <li>sample_contents - a &lt;p> element that describes the content of your sample files</li>
+     </ul></p>
+    <p>We also strongly recommend using keys to refer to the images used in your </p>
+   </li>
+   <li>
+    <p><b>shared/maps/course_keys.ditamap</b>. This file contains keydefs for course links and
+     linktext for their titles. Whenever you refer to another course, create an &lt;xref> element
+     using a keyref from <filepath>course_keys.ditamap</filepath>.</p>
+   </li>
+  </ul>
+ </conbody>
+</concept>
