@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Generating output</title>
+ <topicref href="../topics/lc_generating_output.dita">
+  <topicmeta lockmeta="yes">
+   <data name="lesson_id" value="020817"/>
+  </topicmeta>
+  <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_using_conditions.dita"
+   locktitle="yes">
+   <topicmeta>
+    <navtitle>Assessment for Using conditions</navtitle>
+   </topicmeta>
+  </topicref>
+</topicref>
+</map>
