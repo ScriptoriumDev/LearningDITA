@@ -6,11 +6,16 @@
   <topicmeta lockmeta="yes">
    <data name="lesson_id" value="020817"/>
   </topicmeta>
+  <topicref href="../topics/lc_output_commands.dita"/>
+  <topicref href="../topics/lc_generating_pdf.dita"/>
+  <topicref href="../topics/lc_generating_html.dita"/>
+  <topicref href="../topics/lc_troubleshooting.dita"/>
   <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_using_conditions.dita"
    locktitle="yes">
    <topicmeta>
-    <navtitle>Assessment for Using conditions</navtitle>
+    <navtitle>Assessment for Generating output</navtitle>
    </topicmeta>
+   <topicref href="../assessments/generating_output/lca_assessment_question.dita"/>
   </topicref>
 </topicref>
 </map>
