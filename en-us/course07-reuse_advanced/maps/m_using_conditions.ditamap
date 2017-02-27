@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Using conditions</title>
+ <topicref href="../topics/lc_using_conditions.dita">
+  <topicmeta lockmeta="yes">
+   <data name="lesson_id" value="10835"/>
+  </topicmeta>
+  <topicref href="../../shared/topics/lc_general_housekeeping.dita"/>
+  <topicref href="../topics/lc_review_basic_reuse.dita"/>
+  <topicref href="../topics/lc_conditions_filtering_attributes.dita"/>
+  <topicref href="../topics/lc_conditions_allowed_elements.dita"/>
+  <topicref href="../topics/lc_conditions_ditaval.dita"/>
+  <topicref href="../topics/lc_conditions_rev_attribute.dita"/>
+  <topicref href="../topics/lc_conditions_best_practices.dita"/>
+  <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_using_conditions.dita"
+   locktitle="yes">
+   <topicmeta>
+    <navtitle>Assessment for Using conditions</navtitle>
+   </topicmeta>
+   <!-- Assessment types: T/F, Single Select, multiple select, sorting -->
+   <topicref href="../assessments/using_conditions/lca_filtering_attributes.dita"/>
+   <topicref href="../assessments/using_conditions/lca_filtering_attribute_values.dita"/>
+   <topicref href="../assessments/using_conditions/lca_what_can_you_filter.dita"/>
+   <topicref href="../assessments/using_conditions/lca_filtering_map_elements.dita"/>
+   <topicref href="../assessments/using_conditions/lca_ditaval_prop_attributes.dita"/>
+   <topicref href="../assessments/using_conditions/lca_rev_for_filtering.dita"/>
+  </topicref>
+  
+ </topicref>
+</map>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="content_pgf_3gt_qt_allowed">
+    <title>What can you filter?</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey</author>
+        <critdates>
+            <created golive="2016-12-01" date="2016-10-18"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction id="lcInstruction_rm4_vnq_rx">
+            <p>The DITA filtering mechanism is quite powerful and flexible. You can use it to filter
+                out almost any type of element in DITA topics and in DITA maps. </p>
+            <p>In DITA topics, some of the elements you can filter are:<sl>
+                    <sli>sections</sli>
+                    <sli>paragraphs</sli>
+                    <sli>ordered and bulleted lists</sli>
+                    <sli>list items</sli>
+                    <sli>notes</sli>
+                    <sli>tables</sli>
+                    <sli>table rows</sli>
+                    <sli>figures</sli>
+                    <sli>images</sli>
+                </sl></p>
+            <p>In DITA maps and bookmaps, some of the elements you can filter are: <sl>
+                    <sli>topic references</sli>
+                    <sli>map references</sli>
+                    <sli>key definitions</sli>
+                    <sli>chapters and appendixes</sli>
+                    <sli>frontmatter, backmatter, and their elements</sli>
+                </sl></p>
+            <p><b>Where to be careful</b></p>
+            <p>There are two areas where you need to exercise some caution in filtering: inline
+                elements and elements that have required children.</p>
+            <p>It is not a good idea to filter inline elements. This is mostly a localization
+                concern. The previous course (<xref keyref="reuse_basic_url"/>) covered this to some
+                degree: what makes sense in one language when it is filtered out might not make
+                sense (or translate well) when it is presented in another language.</p>
+            <p>You need to be careful when filtering elements that have required children, otherwise
+                this might result in an invalid structure. If filtering removes required elements,
+                it will result in an invalid topic. For example, if you add conditional attributes
+                to all &lt;li> elements in an unordered list (&lt;ul>) and filtering removes them
+                all, the empty &lt;ul> element will be invalid. Other elements that have required
+                children include &lt;ol>, &lt;sl>, &lt;steps>, &lt;substeps>, &lt;properties>,
+                &lt;table>, &lt;simpletable>. If you are not sure which child elements are required,
+                check the <xref keyref="dita_12_url"/>. </p>
+            <p><b>What you cannot filter</b></p>
+            <p>There are a number of elements that cannot be filtered out. These include:<sl>
+                    <sli>topic titles</sli>
+                    <sli>individual table &lt;entry> elements</sli>
+                    <sli>step command (&lt;cmd>) elements </sli>
+                    <sli>choicetable entries</sli>
+                </sl></p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

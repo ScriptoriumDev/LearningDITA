@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_exh_p5j_bt">
+    <title>Showing examples and results</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-08-18"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>A step can include an example of how the step is performed and some text about the
+                result of having successfully completed the steps. </p>
+            <ul id="ul_xjf_prx_kt">
+                <li>
+                    <p>Use &lt;stepxmp> (step example) to show an example of how to perform the
+                        step. </p>
+                </li>
+                <li>
+                    <p>Use &lt;stepresult> to describe the result of the step.</p>
+                </li>
+            </ul>
+            <p>A step can contain any number of either of these elements, in any order. </p>
+            <note>The &lt;stepxmp> element shows an example for the current step; to show an example
+                of the entire task, use the &lt;example> element, which is discussed in the next
+                lesson.</note>
+            <p><xref href="https://youtu.be/-9JWoT1HdWk" format="html" scope="external">Video:
+                    Adding a step example in a DITA task</xref></p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_mjr_q5j_bt">
+        <title/>
+        <taskbody>
+            <steps id="steps_y31_r5j_bt">
+                <step>
+                    <cmd>Continue working in the file l_task_start.dita.</cmd>
+                </step>
+                <step>
+                    <cmd>After the closing tag of the last &lt;step> element, create a new &lt;step>
+                        element, containing a &lt;cmd> element and the text shown here. </cmd>
+                    <stepxmp>
+                        <pre>...&lt;step>&lt;cmd>When you have definitively identified a duck, make a note in your guide.&lt;/cmd>
+&lt;/step>...</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>After the &lt;cmd> element, add a &lt;stepxmp> element. </cmd>
+                    <stepxmp>
+                        <pre>...&lt;step>&lt;cmd>When you have definitively identified a duck, make a note in your guide.&lt;/cmd>
+<ph outputclass="newchanged">   &lt;stepxmp>
+   &lt;/stepxmp> </ph>
+&lt;/step>...</pre>
+                    </stepxmp>
+                    <info>The &lt;stepxmp> element contains an example that illustrates or clarifies
+                        the step.</info>
+                    <info>The &lt;stepxmp> element can contain any of the elements that you can use
+                        inside an &lt;li> element.  To show examples where line breaks and spaces
+                        are important, you can use the &lt;pre> element or the &lt;codeblock>
+                        element.</info>
+                </step>
+                <step>
+                    <cmd>Inside the &lt;stepxmp> element, add a &lt;p> element, then insert an
+                        &lt;image> element inside the &lt;p> element.</cmd>
+                    <stepxmp>
+                        <pre>...&lt;step>&lt;cmd>When you have definitively identified a duck, make a note in your guide.&lt;/cmd>
+   &lt;stepxmp>
+<ph outputclass="newchanged">      &lt;p>&lt;image href="checklist.png"/>&lt;/p>
+</ph>
+   &lt;/stepxmp>
+&lt;/step>...</pre>
+                    </stepxmp>
+                    <info>
+                        <note>The file checklist.png is in the sample files, in the lesson2
+                            folder.</note>
+                    </info>
+                </step>
+                <stepsection>
+                    <p>The &lt;stepresult> element describes the result of the successful completion
+                        of the step.</p>
+                    <p>The &lt;stepresult> element must be the last element in a &lt;step> element;
+                        no other elements can come after it.</p>
+                </stepsection>
+                <step>
+                    <cmd>After the closing tag of the &lt;stepxmp> element, add a &lt;stepresult>
+                        element. </cmd>
+                    <stepxmp>
+                        <pre>...
+   &lt;/stepxmp>
+<ph outputclass="newchanged">   &lt;stepresult>
+   &lt;/stepresult></ph>
+&lt;/step>
+...</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Inside the &lt;stepresult> element, add a &lt;p> element and add content to
+                        it as shown here.</cmd>
+                    <stepxmp>
+                        <pre>...
+   &lt;/stepxmp>
+<ph outputclass="newchanged">   &lt;stepresult>
+&lt;p>You'll now have a record you can keep for the rest of your life.&lt;/p>
+   &lt;/stepresult></ph>
+&lt;/step>
+...</pre>
+                    </stepxmp>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

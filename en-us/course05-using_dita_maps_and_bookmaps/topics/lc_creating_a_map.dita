@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="lc_creating_a_map">
+    <title>Creating a map</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <critdates>
+            <created date="2016-03-07"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup id="lcObjectivesGroup_tvl_vbh_1t">
+                <lcObjective>Explain the structure and organization of a DITA map.</lcObjective>
+                <lcObjective>Create a DITA map and add &lt;topicref> and &lt;mapref> elements to
+                    it.</lcObjective>
+                <lcObjective>Use a DITA map to create a hierarchy of referenced topics and
+                    maps.</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="45"/>
+        </lcDuration>
+        <lcIntro>
+            <p>This lesson shows how to create a new DITA map and how to add references to other
+                topics and maps.  </p>
+        </lcIntro>
+    </learningContentbody>
+    <related-links>
+        <link
+            href="https://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Maps/c_Working_with_Map_Files.html"
+            format="html" scope="external">
+            <linktext>DITA Style Guide, Purpose of ditamap files</linktext>
+        </link>
+        <link
+            href="https://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Maps/c_DITA_Map_Vocabulary.html"
+            format="html" scope="external">
+            <linktext>DITA Style Guide, DITA map vocabulary</linktext>
+        </link>
+        <link
+            href="https://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Maps/c_The_topicref_Element.html"
+            format="html" scope="external">
+            <linktext>DITA Style Guide, The topicref element</linktext>
+        </link>
+        <link href="http://www.learningdita.com/wp-content/uploads/2016/04/Module-6-Ditamaps.pptx" format="html" scope="external"><linktext>Ditamaps, contributed by Pam Noreault, Tracey Chalmers, 
+            and Julie Landman</linktext></link>
+    </related-links>
+</learningContent>

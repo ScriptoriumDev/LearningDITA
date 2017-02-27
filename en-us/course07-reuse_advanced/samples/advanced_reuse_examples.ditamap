@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Examples for advanced reuse</title>
+ <topicref href="c_filtering_and_flagging.dita"/>
+ <topicref href="c_conrefpush_target.dita"/>
+ <topicref href="c_conrefpush_sources.dita" processing-role="resource-only"/>
+ 
+ 
+</map>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on 
+     github.com. See the accompanying LICENSE file for 
+     applicable licenses.-->
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>
+  <ph keyref="course_name"/>
+ </title>
+ <topicmeta>
+  <critdates>
+   <created date="2016-03-07"/>
+  </critdates>
+ </topicmeta>
+ <mapref href="course07-reuse_advanced/maps/m_using_conditions.ditamap"/>
+ <mapref href="course07-reuse_advanced/maps/m_using_keys.ditamap"/>
+ <mapref href="course07-reuse_advanced/maps/m_advanced_conrefs.ditamap"/>
+ <!-- We may or may not want to use this next topic: -->
+ <!--  
+ <mapref href="course7_reuse_advanced/maps/m_best_practices_map.ditamap"/>
+-->
+ <mapref href="course07-reuse_advanced/maps/this_course_keys.ditamap" processing-role="resource-only"/>
+ <mapref href="shared/maps/course_keys.ditamap" processing-role="resource-only"/>
+ <!-- conref push elements -->
+ <topicref href="course07-reuse_advanced/topics/z_conref_push_elements.dita" processing-role="resource-only"/>
+ 
+</map>

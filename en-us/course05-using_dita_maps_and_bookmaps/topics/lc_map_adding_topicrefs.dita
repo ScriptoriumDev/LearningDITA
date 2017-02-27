@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_pgf_3gt_qt">
+    <title>Adding topic references to a map</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <critdates>
+            <created date="2016-03-07"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>The &lt;topicref> element is structured as follows:</p>
+            <pre>&lt;topicref href="filepath/filename.dita"></pre>
+            <p>The href attribute contains a link to a topic that is included in the map. In DITA, a
+                &lt;topicref> element in a map should not point to a topic that lives above the map
+                in your folder structure, as this can cause problems with some output types.
+                Therefore, it is best to store your maps at the top level.</p>
+            <p>The &lt;topicref> element may contain the following elements:</p>
+            <ul id="ul_oc4_2fd_3v">
+                <li>
+                    <p>The &lt;topicmeta> element, which defines metadata about the referenced
+                        topic.</p>
+                </li>
+                <li>
+                    <p>Any number of &lt;topicref> elements.</p>
+                </li>
+                <li>
+                    <p>Any number of &lt;mapref> elements.</p>
+                </li>
+            </ul>
+            <p>By nesting &lt;topicref> or &lt;mapref> elements inside of a &lt;topicref> element,
+                you can create a hierarchy in your map. This makes it easier for you to organize your topics. You can reflect the hierarchy of topics in a table of contents when you publish the map.</p>
+            <p>When nesting &lt;topicref> elements, it’s important to keep your final output in
+                mind. In DITA, there is no structural limit to the number of &lt;topicref> elements
+                that can be nested—any &lt;topicref> element in a map can contain any number of
+                &lt;topicref> elements. However, each nested &lt;topicref> element will typically
+                equate to a new heading level in your published output. Therefore, it is generally
+                considered best practice to avoid nesting &lt;topicref> elements more than five
+                levels deep (and, ideally, no more than two or three).</p>
+            <p><xref href="https://youtu.be/3rDlOvDguiw" format="html" scope="external">Video:
+                Creating a DITA map</xref></p>
+            <note>
+                <p>For more information about the &lt;topicref> element, see the <xref
+                        href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicref.html"
+                        format="html" scope="external">OASIS DITA Version 1.2 Standard</xref>.</p>
+            </note>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_at5_jgd_3v">
+        <title>Practice</title>
+        <taskbody>
+            <steps id="steps_umd_lgd_3v">
+                <step>
+                    <cmd>Continue using the file
+                        maps_bookmaps_samples/samples/_m_ducks_start.ditamap.</cmd>
+                </step>
+                <step>
+                    <cmd>After the &lt;title> element, add a &lt;topicref> element and add content
+                        to it as shown in the following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+&lt;map id="ducks">
+&lt;title>Ducks&lt;/title>
+<ph outputclass="newchanged">   &lt;topicref href="c_wild_ducks.dita">
+&lt;/topicref></ph>
+&lt;/map></pre>
+                    </stepxmp>
+                    <info>This &lt;topicref> element creates a link to the concept topic
+                        c_wild_ducks.dita.</info>
+                </step>
+                <step>
+                    <cmd>Inside the &lt;topicref> element you just added, add another &lt;topicref>
+                        element and add content to it as shown in the following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+&lt;map id="ducks">
+&lt;title>Ducks&lt;/title>
+&lt;topicref href="c_wild_ducks.dita">
+<ph outputclass="newchanged">   &lt;topicref href="c_wild_duck_types.dita"/></ph>
+&lt;/topicref>
+&lt;/map></pre>
+                    </stepxmp>
+                    <info>By placing this &lt;topicref> element inside the first one, you have
+                        nested the topic c_wild_duck_types.dita at the next level beneath
+                        c_wild_ducks.dita in the hierarchy of your map.</info>
+                </step>
+                <step>
+                    <cmd>After the &lt;topicref> element you just added, add two more &lt;topicref>
+                        elements and add content to them as shown in the following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+&lt;map id="ducks">
+&lt;title>Ducks&lt;/title>
+&lt;topicref href="c_wild_ducks.dita">
+       &lt;topicref href="c_wild_duck_types.dita"/>
+<ph outputclass="newchanged">   
+       &lt;topicref href="c_wild_duck_species.dita"/>
+       &lt;topicref href="t_watching_wild_ducks.dita"/></ph>
+&lt;/topicref>
+&lt;/map></pre>
+                    </stepxmp>
+                    <info>These new &lt;topicref> elements make the hierarchy in your DITA map even
+                        clearer. The topics c_wild_duck_types.dita, c_wild_duck_species.dita, and t_watching_wild_ducks.dita all pertain to wild ducks, and as such, they are nested under the topic c_wild_ducks.dita.</info>
+                </step>
+                <step>
+                    <cmd>After the closing tag of the &lt;topicref> element for c_wild_ducks.dita,
+                        add more &lt;topicref> elements and add content to them as shown in the
+                        following example: </cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+&lt;map id="ducks">
+&lt;title>Ducks&lt;/title>
+&lt;topicref href="c_wild_ducks.dita">
+       &lt;topicref href="c_wild_duck_types.dita"/>
+       &lt;topicref href="c_wild_duck_species.dita"/>
+       &lt;topicref href="t_watching_wild_ducks.dita"/>
+&lt;/topicref>
+<ph outputclass="newchanged">&lt;topicref href="c_domestic_ducks.dita">
+       &lt;topicref href="c_duckling_growth.dita"/>
+       &lt;topicref href="c_feeding_ducklings.dita">
+            &lt;topicref href="c_duck_weight.dita"/>
+       &lt;/topicref>
+&lt;/topicref>
+&lt;topicref href="c_duckdb.dita">
+       &lt;topicref href="c_writing_about_ducks.dita" locktitle="yes"/>
+       &lt;topicref href="r_tnav.dita"/>
+&lt;/topicref></ph>
+&lt;/map></pre>
+                    </stepxmp>
+                    <info>The map hierarchy now contains three first-level &lt;topicref> elements:
+                        c_wild_ducks.dita, c_domestic_ducks.dita, and c_duckdb.dita. Each of these
+                        &lt;topicref> elements contains several nested second-level &lt;topicref>
+                        elements. One of these second-level &lt;topicref> elements,
+                        c_feeding_ducklings.dita, contains a nested third-level &lt;topicref>
+                        element, c_duck_weight.dita.</info>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

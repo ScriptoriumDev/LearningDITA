@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningTreeContent.dtd">
+<learningContent xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="lt-content-4677" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic concept)                             (topic reference)                             (topic task)                             (topic learningInteractionBase-d)                            (topic learningInteractionBase-d learning-d)                            (topic learningmeta-d)                             (topic learningBase+learningInteractionBase-d)                            (topic learningBase+learningInteractionBase-d learningContent)                            (topic learningBase learningSummary)                             (topic learningBase+learningInteractionBase-d learningAssessment)   " ditaarch:DITAArchVersion="1.2" class="- topic/topic learningBase/learningBase learningContent/learningContent "><title class="- topic/title ">Reuse and translation</title>
+   <prolog class="- topic/prolog ">
+      <author type="creator" href="http://easydita.com/" format="html" scope="external"
+         class="- topic/author ">Mike Rice, easyDITA</author>
+      <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+         class="- topic/author ">Annie Chen, easyDITA</author>
+      <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+         class="- topic/author ">Simon Bate, Scriptorium</author>
+      <critdates>
+         <created golive="2016-07-11" date="2016-05-11"/>
+      </critdates>
+   </prolog><learningContentbody class="- topic/body  learningBase/learningBasebody learningContent/learningContentbody "><lcInstruction class="- topic/section learningBase/lcInstruction ">
+         <p class="- topic/p ">When you first learn about the reuse mechanisms in DITA, it might be
+            tempting to use them in any number of situations. However, it’s wise to proceed with
+            some caution, especially if your content will be translated. And even if your content is
+            not being translated today, assuming that it will be translated someday will avoid
+            problems when <q class="- topic/q ">someday</q> comes. </p>
+         <p class="- topic/p ">Every language has its own rules of grammar and syntax. Just because
+            replacing or inserting a piece of text works in English does not mean that it will work
+            in another language. </p>
+         <p class="- topic/p ">Some languages require words to take a different form depending on
+            whether they are the subject or object of the sentence. Some languages have grammatical
+            gender, and so words with gender can affect words that are related to it in the
+            sentence. The plural forms in some languages are quite different from the English
+            constructs for zero, one, and more than one object. </p>
+         <p class="- topic/p ">It would be difficult to describe the rules for every language, but
+            we can use some English examples to illustrate why substituting words isn’t a good idea
+            when your content will be translated into other languages with other rules. </p>
+         <p class="- topic/p ">Take, for example, this simple sentence:</p>
+         <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Casey ate an orange.</b>
+         </p>
+         <p class="- topic/p ">What if we were to substitute another word for orange?</p>
+         <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Casey ate an <u class="+ topic/ph hi-d/u ">apple</u>.</b>
+         </p>
+         <p class="- topic/p ">In this case, the substition works because both words begin with a
+            vowel. But what if we substituted a word that begins with a consonant?</p>
+         <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Casey ate an <u class="+ topic/ph hi-d/u ">tomato</u>.</b>
+         </p>
+         <p class="- topic/p ">Now we have a problem. In English, we use
+            the article <b class="+ topic/ph hi-d/b ">a</b> when the word starts with a consonant
+            sound and the article <b class="+ topic/ph hi-d/b ">an</b> when the word starts with a
+            vowel sound. Other languages have rules similar to this; some are even more complex. </p>
+      <q class="- topic/q "
+         >Knowledge is knowing that a tomato is a fruit. Wisdom is not putting it in a
+         fruit salad - Miles Kington</q>
+         <p class="- topic/p ">Other substitutions can also cause problems in our sample sentence.
+            So far, our example has used a singular noun; for example:</p>
+         <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Casey ate an apple.</b>
+         </p>
+         <p class="- topic/p ">What if we substituted the plural of “apple”?</p>
+         <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Casey ate an <u class="+ topic/ph hi-d/u ">apples</u>.</b>
+         </p>
+         <p class="- topic/p ">You’re probably getting the idea. English has rules that are broken
+            easily by substituting words within sentences. Other languages have other rules that are
+            also broken easily by substituting words within sentences. And just because you’re
+            following the rules for English doesn’t mean you’re not breaking the rules for another
+            language. </p>
+         <p class="- topic/p ">You probably don’t know all the rules for all the languages your
+            English content will be translated into. So, <b class="+ topic/ph hi-d/b ">you should
+               not use replaceable text within sentences to substitute parts of the sentence.</b> If
+            you use replaceable text on parts of a sentence, you will have unpredictable results
+            when the content is translated. </p>
+      </lcInstruction></learningContentbody></learningContent>

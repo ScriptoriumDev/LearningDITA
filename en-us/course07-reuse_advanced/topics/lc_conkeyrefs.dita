@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="content_pgf_3gt_qt">
+    <title>Conkeyrefs</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey</author>
+        <critdates>
+            <created golive="2016-12-01" date="2016-10-18"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction><p>A conkeyref is a content reference that uses a key instead of a file path.
+                As described in the <xref keyref="reuse_basic_url"/> course, a content reference to
+                an element in another file might look like this:
+                </p><pre>&lt;ul conref="domestic_duck_warehouse.dita#domestic_warehouse/nesting_materials">
+   &lt;li/>
+&lt;/ul></pre><p>This
+                conref pulls a &lt;ul> element from a warehouse topic that contains reusable
+                elements relevant to domestic ducks. </p><p>If the topic containing this conref must
+                be reusable, a hard-coded filename will be a problem. To use the reusable topic in a
+                map that discusses wild ducks, the conref needs to point to a different warehouse
+                topic file (wild_duck_warehouse.dita). </p><p>Rather than hard code the path to a
+                file, you can use the conkeyref attribute to create a content reference that uses a
+                key, rather than a filename. </p><image keyref="i_conkeyref" id="image_j4p_ysl_zx"
+                base="2016/12"/><p>The first step in using a conkeyref is to create a DITA topic
+                (domestic_duck_warehouse.dita) that contains a reusable element (including an id
+                attribute):</p><pre>&lt;ul id="nesting_materials">
+   &lt;li>Sawdust&lt;/li>
+   &lt;li>Wood shavings&lt;/li>
+   &lt;li>Sand&lt;/li>
+   ...
+&lt;/ul></pre><p>In
+                a map that references the topic that will use the conkeyref, define a key for the
+                warehouse file:
+                </p><pre>&lt;keydef keys="duck_warehouse" href="domestic_duck_warehouse.dita"/></pre><p>The
+                example at the beginning of this topic shows a &lt;ul> element with a conref.
+                Replace the conref attribute with a conkeyref attribute that contains the key, a
+                slash ('/'), and the id of the element to be pulled:
+                </p><pre>&lt;ul conkeyref="duck_warehouse/nesting_materials">
+   &lt;li/>
+&lt;/ul></pre><note>When
+                using conkeyrefs you do not need to use the id of the topic that contains the
+                referenced element. </note><p>When the topic containing the conkeyref is processed,
+                the key duck_warehouse is replace with the current key definition, which is
+                domestic_duck_warehouse.dita. </p><p>You can reuse the topic containing the
+                conkeyref in another DITA map, but you might need it to pull content from a file
+                that is specific to the new map. To do this, add a &lt;keydef> element to the new
+                map that defines the key so that it points to a different file. In this example, the
+                new map (that addresses wild ducks) defines the duck_warehouse key to point to
+                wild_duck_warehouse.dita:
+                </p><pre>&lt;keydef keys="duck_warehouse" href="wild_duck_warehouse.dita"/></pre><p>The
+                file wild_duck_warehouse.dita defines a different &lt;ul> element; however, it must
+                use the same id
+                attribute:</p><pre>&lt;ul id="nesting_materials">
+   &lt;li>Ferns&lt;/li>
+   &lt;li>Twigs&lt;/li>
+   &lt;li>Grass&lt;/li>
+   ...
+&lt;/ul></pre><p>When
+                this new key is used in the wile duck map, the unordered list of wild duck nesting
+                materials is used.</p><p>Finally, note that all the same rules that apply to conrefs
+                also apply to conkeyrefs: </p><ul id="ul_gzh_wmv_qx">
+                <li>The referencing element must be the same type (element name) as the referenced
+                    element. </li>
+                <li>The referencing element must be valid (for instance, a &lt;ul> element must
+                    contain at least one &lt;li> element). </li>
+            </ul></lcInstruction>
+    </learningContentbody>
+</learningContent>

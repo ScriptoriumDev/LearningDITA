@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="content_pgf_3gt_qt">
+    <title>Review of content reference basics</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey</author>
+        <critdates>
+            <created golive="2016-12-01" date="2016-10-18"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>In the <xref keyref="reuse_basic_url"/> course you learned how to use the conref
+                attribute to reuse elements. The conref attribute allows you to pull content from
+                one element (possibly from a different topic) into another element. </p>
+            <p>To use a content reference: </p>
+            <ul id="ul_cpw_s1v_qx">
+                <li>The referenced element (the information being pulled) must have an id
+                    attribute.<pre>&lt;p id="use_me">This is a reusable paragraph.&lt;/p></pre></li>
+                <li>The referencing element (which is nominally empty) uses the conref attribute to
+                    specify the id of the containing topic and the id of the referenced element. For
+                        example:<pre>&lt;p conref="#my_topic/use_me"/></pre><p>or, if the referenced
+                        element is in another
+                    file:</p><pre>&lt;p conref="topic_file.dita#my_topic/use_me"/></pre></li>
+            </ul>
+            <p>The content reference is resolved when the topic containing the referencing element
+                is processed for output. Some DITA editors can also display the referenced content
+                (as read-only text). </p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

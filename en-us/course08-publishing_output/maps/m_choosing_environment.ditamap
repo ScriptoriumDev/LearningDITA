@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Choosing a publishing environment</title>
+ <topicref href="../topics/lc_choosing_environment.dita">
+  <topicmeta lockmeta="yes">
+  <data name="lesson_id" value="020617"/>
+ </topicmeta>
+  <topicref href="../topics/lc_determining_outputs.dita"/>
+  <topicref href="../topics/lc_publishing_considerations.dita"/>
+  <topicref href="../topics/lc_standalone_ot.dita"/>
+  <topicref href="../topics/lc_oxygen.dita"/>
+  <topicref href="../topics/lc_ccms.dita"/>
+  <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_using_conditions.dita"
+   locktitle="yes">
+   <topicmeta>
+    <navtitle>Assessment for Choosing a publishing environment</navtitle>
+   </topicmeta>
+   <topicref href="../assessments/choosing_environment/lca_assessment_question.dita"/>
+  </topicref>
+ </topicref>
+</map>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<learningContent id="lc_advanced_reltable">
+    <title>Advanced relationship tables</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <critdates>
+            <created date="2016-03-25"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcIntro><p><b>The collection-type attribute</b></p><p>The DITA specification states that
+                when a cell in the relationship table contains multiple &lt;topicref> elements, the
+                generated topics indicated in that cell do not link to one another. However, if the
+                collection-type attribute on the &lt;relcell> element has the value “family”, all of
+                the topics referenced in in that &lt;relcell> element will link to one another.
+                </p><p>In the following example, topics A and B will link to each
+                    other:</p><pre>&lt;relcell collection-type="family">
+   &lt;topicref href="a.dita"/>
+   &lt;topicref href="b.dita"/>
+&lt;/relcell></pre><p><b>The
+                    linking attribute</b></p><p>Typically, when two topics (topic A and topic B) are
+                found in the same row of a relationship table (but in different columns), the output
+                topic A will contain a link to topic B, and topic B will contain a link to topic A.
+                </p><pre>&lt;relrow>
+   &lt;relcell>
+      &lt;topicref href="a.dita"/>
+   &lt;/relcell>
+   &lt;relcell>
+      &lt;topicref href="b.dita"/>
+   &lt;/relcell>
+&lt;/relrow></pre><p>However,
+                in some cases this behavior is not necessary or is not wanted. </p><p>Topic B might
+                be a common task or a glossary term that is associated with a many concepts. We
+                might want topic A (and other topics) to link to topic B, but we don’t want topic B
+                to link back to topic A (or any of the other topics). In this case, we modify the
+                &lt;topicref> element for topic B by adding the linking attribute and setting it to
+                the value “targetonly”.
+                </p><pre>&lt;relrow>
+   &lt;relcell>
+      &lt;topicref href="a.dita"/>
+   &lt;/relcell>
+   &lt;relcell>
+      &lt;topicref href="b.dita" linking="targetonly"/>
+   &lt;/relcell>
+&lt;/relrow></pre><p>Conversely,
+                topic A might be a “landing page” for a help system; we may want to use it as an
+                entry point that links to a number of different topics, but we don’t want the topics
+                to refer back to the page (for whatever reason). In this case, we add the linking
+                attribute to the &lt;topicref> for topic A and use the value “sourceonly”.
+                    </p><pre>&lt;relrow>
+   &lt;relcell>
+      &lt;topicref href="a.dita" linking="sourceonly"/>
+   &lt;/relcell>
+   &lt;relcell>
+      &lt;topicref href="b.dita"/>
+   &lt;/relcell>
+&lt;/relrow></pre><p><b>Labeling
+                    columns</b></p><p>When generating output, the DITA Open Toolkit can use the
+                topic types in the &lt;relcolspec> to group sets of related links (typically into
+                sections labeled “Concept”, “Task”, and “Reference”). Other output generators can
+                follow this same practice. You can override this labeling by using a &lt;title>
+                element in the &lt;relcolspec>
+                element</p><pre>&lt;relcolspec type="task">
+   &lt;title>Referenced in these tasks&lt;/title>
+&lt;/relcolspec></pre><p>The
+                &lt;relcolspec> element can also contain a &lt;topicref> to a topic that provides
+                more information about the column itself. For a full description of the contents of
+                the &lt;relcolspec> element, see <xref
+                    href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/relcolspec.html"
+                    format="html" scope="external"/></p><p><b>Linking to external
+                resources</b></p><p>A relationship table can contain links to external resources. To
+                do this, the &lt;relcolspec> element and the contents of the &lt;relcell> element
+                are slightly different that what has been shown before.</p><p>In this screen shot of
+                a relationship table, the fourth column contains links to an external
+                resource.</p><image href="../images/external_ref.png" id="image_gqy_nsv_mv"
+                base="2016/04"/><p>Because the fourth column is not pointing to DITA resources, the
+                &lt;relcolspec> element has no type attribute. However, it includes a &lt;title>
+                element to defines the purpose of the column.
+                </p><pre>&lt;relcolspec>
+    &lt;title>Web links&lt;/title>
+&lt;/relcolspec>
+</pre><p>In
+                the &lt;topicref> element, the href attribute indicates the URL, the scope attribute
+                is “external”, and the format attribute is “html”. In addition, the &lt;topicref>
+                includes a &lt;navtitle> element so that the link is more
+            reader-friendly:</p><pre>&lt;relcell>
+    &lt;topicref href="http://www.example.com" scope="external" format="html">
+        &lt;topicmeta>
+            &lt;navtitle>A duck food source.&lt;/navtitle>
+        &lt;/topicmeta>
+    &lt;/topicref>
+&lt;/relcell>
+</pre></lcIntro>
+    </learningContentbody>
+</learningContent>

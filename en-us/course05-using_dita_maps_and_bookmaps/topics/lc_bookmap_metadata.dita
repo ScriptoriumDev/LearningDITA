@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_pgf_3gt_qt">
+    <title>Adding metadata to a bookmap</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <critdates>
+            <created date="2016-03-07"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction><p>One of the major advantages of using bookmaps rather than maps is their
+                expanded metadata capabilitites. Bookmaps can contain extensive metadata related to
+                ownership, identification, copyright, workflow, and publication of a book. There are
+                many more elements available for capturing metadata in more specific ways in
+                bookmaps than in maps. This means that a set of topics collected in a bookmap will
+                be more semantically rich, more easily searchable, and better suited to publication
+                than the same set of topics in a map.</p><p>You can add metadata to a bookmap in
+                several places:</p><ul id="ul_fqf_fyy_3v">
+                <li>
+                    <p>Inside the &lt;bookmap> element using &lt;bookmeta> element</p>
+                </li>
+                <li>
+                    <p>Inside elements contained in the book’s frontmatter and backmatter using the
+                        &lt;topicmeta> element</p>
+                </li>
+                <li>
+                    <p>Inside the book’s chapters, topic references, and map references using the
+                        &lt;topicmeta> element</p>
+                </li>
+            </ul>The &lt;bookmeta> element in a bookmap can contain the same metadata elements that
+            the &lt;topicmeta> element in a map can contain, plus many more. Some of the most useful
+            ones include:<ul id="ul_xyc_qcz_3v">
+                <li>
+                    <p>&lt;authorinformation></p>
+                </li>
+                <li>
+                    <p>&lt;publisherinformation></p>
+                </li>
+                <li>
+                    <p>&lt;critdates></p>
+                </li>
+                <li>
+                    <p>&lt;bookid></p>
+                </li>
+            </ul><p>The &lt;bookmeta> element is optional in the bookmap structure. If you use it,
+                it must be placed after the &lt;booktitle> element and before the &lt;frontmatter>
+                element. The structure of the &lt;bookmeta> element might look something like
+                this:</p><pre> &lt;bookmeta>
+        &lt;authorinformation>
+            &lt;personinfo>
+                &lt;namedetails>
+                    &lt;personname>&lt;firstname>Author first name&lt;/firstname>
+                    &lt;lastname>Author last name&lt;/lastname>&lt;/personname>
+                &lt;/namedetails>
+            &lt;/personinfo> 
+            &lt;organizationinfo>
+                &lt;namedetails>
+                    &lt;organizationnamedetails>
+                        &lt;organizationname>Company name&lt;/organizationname>
+                    &lt;/organizationnamedetails>
+                &lt;/namedetails>
+            &lt;/organizationinfo>
+        &lt;/authorinformation>
+        &lt;critdates>
+            &lt;created date="1/1/2001"/>
+            &lt;revised modified="1/1/2016"/>
+        &lt;/critdates>
+        &lt;bookid>
+            &lt;edition>4&lt;/edition>
+            &lt;booknumber>ID-9999&lt;/booknumber>
+            &lt;volume>2&lt;/volume>
+        &lt;/bookid> 
+    &lt;/bookmeta></pre><p>This
+                example also shows how the  information is much more sophisticated in bookmaps than
+                it is in maps. Although the &lt;author> element is available in both bookmaps and
+                maps, the &lt;authorinformation> element is only available in bookmaps. The
+                &lt;authorinformation> element can contain far more information, tagged in a way
+                that provides more semantic value.  </p><p>The &lt;topicmeta> element is available
+                in both maps and bookmaps, but the bookmap structure allows it to be used in more
+                places. For example, you can apply the &lt;topicmeta> element to a preface in the
+                book’s frontmatter, or to a glossary in the book’s backmatter. You can also apply
+                the &lt;topicmeta> element to a chapter, topic reference, or map reference in a
+                bookmap. When used in a bookmap, the &lt;topicmeta> element can contain all the same
+                &lt;metadata> elements that it can contain in a map, plus the &lt;authorinformation>
+                element.</p><note>
+                <p>For more information about the &lt;bookmeta> element and the elements it
+                    contains, see the <xref
+                        href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/bookmeta.html"
+                        format="html" scope="external">OASIS DITA Version 1.2 Standard</xref>.</p>
+            </note></lcInstruction>
+    </learningContentbody>
+    <task id="task_at5_jgd_3v">
+        <title/>
+        <taskbody>
+            <steps id="steps_umd_lgd_3v">
+                <step>
+                    <cmd>Make a copy of the file
+                        maps_bookmaps_samples/samples/_b_ducks_advanced_start.ditamap and open it in
+                        your editor.</cmd>
+                </step>
+                <step>
+                    <cmd>Inside the &lt;bookmap> element, after the closing tag of the
+                        &lt;booktitle> element, add a &lt;bookmeta> element and add content to it as
+                        shown in the following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+&lt;bookmap id="ducks">
+...
+&lt;/booktitle>
+<ph outputclass="newchanged">  &lt;bookmeta>
+    &lt;author>Your Name Here&lt;/author>
+    &lt;bookrights>
+      &lt;copyrfirst>
+        &lt;year>2015&lt;/year>
+      &lt;/copyrfirst>
+      &lt;copyrlast>
+        &lt;year>2016&lt;/year>
+      &lt;/copyrlast>
+      &lt;bookowner>
+        &lt;organization>BookCo&lt;/organization>
+      &lt;/bookowner>
+    &lt;/bookrights>
+    &lt;/bookmeta></ph>
+&lt;/bookmap></pre>
+                    </stepxmp>
+                    <info>The &lt;bookmeta> element you just added establishes the following
+                        bookmap-level metadata:<ul id="ul_tyt_qds_3v">
+                            <li>
+                                <p>You authored this book</p>
+                            </li>
+                            <li>
+                                <p>The initial copyright was in 2015, and was renewed in 2016</p>
+                            </li>
+                            <li>
+                                <p>The book was produced by BookCo</p>
+                            </li>
+                        </ul></info>
+                </step>
+                <step>
+                    <cmd>Inside the &lt;chapter> element that links to c_wild_ducks.dita, add a
+                        &lt;topicmeta> element and add content to it as shown in the following
+                        example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+&lt;bookmap id="ducks">
+...
+&lt;/bookmeta>
+&lt;chapter href="c_wild_ducks.dita">
+<ph outputclass="newchanged">&lt;topicmeta>
+&lt;category>Wild ducks&lt;/category>
+&lt;/topicmeta></ph>
+...
+&lt;/chapter>
+&lt;/bookmap></pre>
+                    </stepxmp>
+                    <info>The &lt;topicmeta> element you just added establishes the following
+                        topic-level metadata:<ul id="ul_xfr_jgz_3v">
+                            <li>
+                                <p>This chapter pertains to wild ducks</p>
+                            </li>
+                        </ul></info>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap>
+    <booktitle>
+        <mainbooktitle>Main book title</mainbooktitle>
+    </booktitle>
+    <bookmeta>
+        <author>Your Name</author>
+        <bookrights>
+            <copyrfirst>
+                <year>2015</year>
+            </copyrfirst>
+            <copyrlast>
+                <year>2016</year>
+            </copyrlast>
+            <bookowner>
+                <organization>BookCo</organization>
+            </bookowner>
+        </bookrights>
+    </bookmeta>
+    <frontmatter>
+        <notices><!-- placeholder --></notices>
+        <booklists>
+            <toc/>
+        </booklists>
+        <preface><!-- placeholder --></preface>
+
+    </frontmatter>
+    <chapter href="c_wild_ducks.dita">
+        <topicmeta>
+            <category>Wild ducks</category>
+        </topicmeta>
+        <topicref href="c_wild_duck_types.dita"/>
+        <topicref href="c_wild_duck_species.dita"/>
+        <topicref href="t_watching_wild_ducks.dita"/>
+    </chapter>
+    <chapter href="c_domestic_ducks.dita">
+        <topicref href="c_duckling_growth.dita"/>
+        <topicref href="c_feeding_ducklings.dita">
+            <topicref href="c_duck_weight.dita"/>
+        </topicref>
+    </chapter>
+    <chapter href="c_duckdb.dita">
+        <topicref href="c_writing_about_ducks.dita"/>
+        <topichead>
+            <topicmeta>
+                <navtitle>Common tasks</navtitle>
+            </topicmeta>
+            <topicref href="t_create_table.dita"/>
+            <topicref href="t_adding_entry.dita"/>
+            <topicref href="t_modify_entry.dita"/>
+            <topicref href="t_deleting_entry.dita"/>
+            <topicref href="t_queries.dita"/>
+            <topicref href="t_modify_table.dita"/>
+        </topichead>
+        <topicref href="r_tnav.dita" locktitle="yes">
+            <topicmeta>
+                <navtitle>The tNav command</navtitle>
+            </topicmeta>
+        </topicref>
+        <topicref href="r_add.dita"/>
+        <topicref href="r_delete.dita"/>
+        <topicref href="r_edit.dita"/>
+        <topicref href="r_newtable.dita"/>
+        <topicref href="r_modify_table.dita"/>
+    </chapter>
+
+    <backmatter>
+        <booklists>
+            <glossarylist>
+                <mapref href="g_duck_glossgroup.dita"/>
+            </glossarylist>
+            <indexlist/>
+        </booklists>
+    </backmatter>
+</bookmap>

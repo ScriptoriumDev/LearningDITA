@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_pgf_3gt_qt">
+    <title>Analyzing content for reuse</title>
+    <prolog>
+        <author type="creator" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <critdates>
+            <created golive="2016-07-11" date="2016-05-11"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Most content contains some information that can be reused. An analysis of your
+                content can help you find what is reusable. You might find entire topics that are
+                reusable, or you might find individual elements (such as paragraphs, notes, or list
+                items) that are reusable. </p>
+            <p>When analyzing your content you might find:</p>
+            <ul id="ul_nh4_cqb_3w">
+                <li>
+                    <p>No match. If chunks of content do not match each other, you don’t have a case
+                        for reuse.</p>
+                </li>
+                <li>
+                    <p>Exact match. If you find chunks of content (or even entire topics) that are
+                        identical, you should reuse them. </p>
+                </li>
+                <li>
+                    <p>Fuzzy (inexact or partial) match. If you find content that almost matches or
+                        is similar to other content, you can probably benefit from reusing it, with
+                        some minor changes. Here are some examples of content that would be
+                        considered a fuzzy match:</p>
+                    <ul id="ul_gtr_jqb_3w">
+                        <li>Naming: Content can be almost the same, except for the occurrence of
+                            product or device names, model numbers, or company names. </li>
+                        <li>Different processes, definitions, or details: You might have several
+                            product manuals that are mostly the same except for certain pieces of
+                            information—for example, a different set of installation instructions
+                            for one version of a product, or some additional safety information for
+                            another. </li>
+                        <li>Locale: Different units of measure might be used in versions of content
+                            intended for different locales. </li>
+                        <li>Different order: The same content might appear in a different sequence
+                            from one deliverable to another.</li>
+                        <li>Subset of content: A shorter version of your content—for example, a
+                            quick guide version of a user manual—constitutes a partial match. Common
+                            content between the shorter and longer versions should be reused.</li>
+                        <li>Specifics: Your content might be identical except for a few pieces of
+                            information (such as the size or number of screws). In many cases,
+                            simply eliminating the specifics makes your content reusable.</li>
+                    </ul>
+                    
+                </li>
+            </ul>
+            <p>Sometimes it makes more sense to rewrite content than to try to reuse it as-is. This
+                is particularly true when two pieces of content are almost the same, except for some
+                differences in usage or phrasing (or both). If two pieces of content convey
+                basically the same information, but are written differently, consider merging them
+                into a single reusable chunk (or choose the version that works best in all
+                locations).</p>
+            <!--<ul id="ul_kvj_2rm_4v"><li>Consider predictable vs unpredictable<ul id="ul_svj_gnh_hw"><li>Differences among existing content</li><li>Differences with content yet to be created</li></ul></li><li>Consider derivative use<ul id="ul_hbz_d5h_hw"><li>How will you handle it?</li></ul></li></ul><ul id="ul_rhj_cl4_bn"><li>Informal reuse<ul id="ul_nn2_bnw_dw"><li>Cut and paste (FORBIDDEN!)</li><li>Off-the-cuff reuse (avoid)<p>“Hey Mary, can I use that topic?”</p><p>“I think I’ll use that topic.”</p></li></ul></li><li>Formal (planned reuse)<ul id="ul_lrq_3lk_ln"><li>Controlled content<ul id="ul_arv_tq4_bn"><li>Regulatory information</li><li>Consistent admonitions</li></ul></li><li>Identifying reusable content</li><li>Write-once, use-many topics</li></ul></li></ul>-->
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

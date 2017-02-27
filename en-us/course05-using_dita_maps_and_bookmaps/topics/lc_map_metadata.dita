@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_pgf_3gt_qt">
+    <title>Adding metadata to a map</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <critdates>
+            <created date="2016-03-07"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Just as topic metadata allows you define information about topics, map metadata
+                allows you to define information about a DITA map and the topic references contained
+                in the map. </p>
+            <p>You add metadata to a DITA map using the &lt;topicmeta> element. The &lt;topicmeta>
+                element can exist at the main map level (inside the &lt;map> element) or inside any
+                &lt;topicref> or &lt;mapref> element within the map.</p>
+            <p>When used at the map level, map metadata adds information to a map and facilitates
+                searching and filtering. In most cases, map metadata is not shown in the final
+                published output, but it can influence the way that your content is published—for
+                example, by specifying how an output transform should generate cover
+                information.</p>
+            <p>When applied to &lt;topicref> or &lt;mapref> elements, map metadata provides
+                additional information about the referenced topics or maps and can even override
+                metadata contained in those topics and maps. For example, if a referenced topic
+                contains a &lt;prolog> or &lt;shortdesc> element,  metadata in a &lt;topicref>
+                element that contains &lt;prolog> or &lt;shortdesc> elements takes precedence. </p>
+            <p>A number of metadata elements are allowed inside the &lt;topicmeta> element. Some of
+                the most useful ones include:</p>
+            <ul id="ul_hrm_rvr_3v">
+                <li>
+                    <p>&lt;navtitle></p>
+                </li>
+                <li>
+                    <p>&lt;author></p>
+                </li>
+                <li>
+                    <p>&lt;copyright></p>
+                </li>
+                <li>
+                    <p>&lt;category></p>
+                </li>
+            </ul>
+            <p>The &lt;metadata> element, which can also contain most of these same metadata-related
+                elements, is allowed inside the &lt;topicmeta> element, as well.</p>
+            <p>The structure of a &lt;topicmeta> element might look something like this:</p>
+            <pre>&lt;topicmeta>
+&lt;navtitle>Navigation title&lt;/navtitle>
+&lt;author>Author name&lt;/author>
+&lt;copyright>
+     &lt;copyryear year="20XX"/>
+     &lt;copyrholder>Company name&lt;/copyrholder>
+&lt;/copyright>
+&lt;category>Category name&lt;/category>
+&lt;/topicmeta></pre>
+            <note>
+                <p>For more information about the &lt;topicmeta> element and the elements it
+                    contains, see the <xref
+                        href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicmeta.html"
+                        format="html" scope="external">OASIS DITA Version 1.2 Standard</xref>.</p>
+            </note>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_at5_jgd_3v">
+        <title/>
+        <taskbody>
+            <steps id="steps_umd_lgd_3v">
+                <step>
+                    <cmd>Make a copy of the file
+                        maps_bookmaps_samples/samples/_m_ducks_advanced_start.ditamap and open it in
+                        your editor.</cmd>
+                    <stepxmp>
+                        <p>You should see content that begins like this (the file is much longer
+                            that what is shown here):</p>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+&lt;map id="ducks">
+    &lt;title>Ducks&lt;/title>
+    &lt;topicref href="c_wild_ducks.dita">
+        &lt;topicref href="c_wild_duck_types.dita"/>
+        &lt;topicref href="c_wild_duck_species.dita"/>
+        &lt;topicref href="c_habitats.dita"/>
+        &lt;topicref href="t_watching_wild_ducks.dita"/>
+    &lt;/topicref>
+        &lt;topicref href="c_domestic_ducks.dita">
+        &lt;topicref href="c_duckling_growth.dita"/>
+        &lt;topicref href="c_housing.dita"/>
+        ...</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Inside the &lt;map> element, after the &lt;title> element, add a
+                        &lt;topicmeta> element and add content to it as shown in the following
+                        example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+&lt;map id="ducks">
+&lt;title>Ducks&lt;/title>
+<ph outputclass="newchanged">&lt;topicmeta>
+    &lt;critdates>
+      &lt;created date="2016-03-25"/>
+      &lt;category>Sample&lt;/category>
+  &lt;/topicmeta></ph>
+...
+&lt;/map></pre>
+                    </stepxmp>
+                    <info>The &lt;topicmeta> element you just added establishes the following
+                        map-level metadata:<ul id="ul_tyt_qds_3v">
+                            <li><p>The map was created on March 25, 2016</p></li>
+                            <li><p>This is a sample map</p></li>
+                        </ul></info>
+                </step>
+                <step>
+                    <cmd>Inside the &lt;topicref> element that links to c_duckdb.dita, add a
+                        &lt;topicmeta> element and add content to it as shown in the following
+                        example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+&lt;map id="ducks">
+&lt;title>Ducks&lt;/title>
+...
+&lt;topicref href="c_duckdb.dita">
+<ph outputclass="newchanged">&lt;topicmeta>
+&lt;audience type="user" experiencelevel="expert"/>
+&lt;/topicmeta></ph>
+&lt;/topicref>
+...
+&lt;/map></pre>
+                    </stepxmp>
+                    <info>The &lt;topicmeta> element you just added establishes the following
+                        topic-level metadata:<ul id="ul_r1r_sds_3v">
+                            <li>
+                                <p>This section is intended for users of the product, as opposed to
+                                    administrators or casual readers.</p>
+                            </li>
+                            <li><p>This section is intended for expert users</p></li>
+                        </ul>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Inside the &lt;mapref> element that links to g_duck_glossorg.ditamap, add a
+                        &lt;topicmeta> element and add content to it as shown in the following
+                        example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+&lt;map id="ducks">
+&lt;title>Ducks&lt;/title>
+...
+&lt;mapref href="g_duck_glossorg.ditamap" format="ditamap">
+<ph outputclass="newchanged">&lt;topicmeta>
+&lt;searchtitle>Duck Glossary&lt;/searchtitle>
+&lt;/topicmeta></ph>
+&lt;/mapref>
+&lt;/map></pre>
+                    </stepxmp>
+                    <info>The &lt;topicmeta> element you just added establishes the following
+                            metadata:<ul id="ul_ekq_yds_3v">
+                            <li>
+                                <p>When someone uses a search tool and locates this topic, the title
+                                    should be "Duck Glossary" instead of the title in the topic.</p>
+                            </li>
+                        </ul>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Check your file
+                        maps_bookmaps_samples/samples/_m_ducks_advanced_start.ditamap against the
+                        sample file maps_bookmaps_samples/samples/_m_ducks_advanced.ditamap.</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

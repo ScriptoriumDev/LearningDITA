@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="content_pgf_3gt_qt">
+    <title>Troubleshooting common issues with generating output</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Noelle Russell</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Ashley Stant</author>
+        <critdates>
+            <created golive="2017-03-06" date="2017-02-10"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>(from Google doc)</p>
+            <p>Why did my build fail? (go over how to use the log file to help with
+                troubleshooting)</p>
+            <p>Where did my out folder go?</p>
+            <p>Why did my second (PDF, HTML, webhelp, etc.) replace my first one?</p>
+            <p>Why are my images so big?</p>
+            <p>(any others?)</p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

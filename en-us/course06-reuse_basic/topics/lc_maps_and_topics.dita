@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="lc_creating_a_map">
+    <title>Reusing topics and maps</title>
+    <prolog>
+        <author type="creator" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate</author>
+        <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell</author>
+        <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey</author>
+        <critdates>
+            <created golive="2016-07-11" date="2016-05-11"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup id="lcObjectivesGroup_tvl_vbh_1t">
+                <lcObjective class="- topic/li learningBase/lcObjective ">Demonstrate reuse at the
+                    map and topic levels</lcObjective>
+                <lcObjective class="- topic/li learningBase/lcObjective ">Add a reusable topic to a
+                    map</lcObjective>
+                <lcObjective>Create a reusable map</lcObjective>
+                <lcObjective>Add a reusable map to a map</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="45"/>
+        </lcDuration>
+        <lcIntro>
+            <p>This lesson shows how to reuse topics and maps in DITA. </p>
+        </lcIntro>
+    </learningContentbody>
+    <related-links>
+        <link
+            href="https://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Content_Reuse/c_Embedded_Topics.html"
+            format="html">
+            <linktext>DITA Style Guide, Embedded topics and ditamaps</linktext>
+        </link>
+        <link href="http://blog.oxygenxml.com/2015/11/dita-reuse-strategies-short-tutorial.html"
+            format="html">
+            <linktext>DITA Reuse Strategies</linktext>
+        </link>
+        <link
+            href="http://dita.xml.org/reuse-strategies"
+            format="html">
+            <linktext>Reuse strategies and the mechanisms that support them</linktext>
+        </link>
+    </related-links>
+</learningContent>

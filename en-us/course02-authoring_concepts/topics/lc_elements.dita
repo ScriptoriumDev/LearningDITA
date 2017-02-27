@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_hrm_xjh_1t">
+    <title>Adding other elements</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-08-24"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>DITA uses many other important elements. Here are three more:</p>
+            <simpletable frame="all" relcolwidth="1.0* 1.0*" id="simpletable_i13_ml4_2t">
+                <strow>
+                    <stentry>
+                        <p>&lt;fn></p>
+                    </stentry>
+                    <stentry>
+                        <p>The element that inserts a footnote.</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;menucascade></p>
+                    </stentry>
+                    <stentry>
+                        <p>The element that indicates the order of a menu path, such as File > Save
+                            As. The &lt;menucascade> element must contain one or more &lt;uicontrol>
+                            elements. Each &lt;uicontrol> element contains the text for a menu
+                            item.</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;dl></p>
+                    </stentry>
+                    <stentry>
+                        <p>The element that contains a definition list. A definition list is a list
+                            of terms and their corresponding definitions, presented in a format
+                            similar to a two-column table by default. The definition list contains
+                            one or more entries, tagged with the &lt;dlentry> element, and each
+                            entry contains a term (tagged with the &lt;dt> element) and one or more
+                            definitions (tagged with the &lt;dd> element).</p>
+                    </stentry>
+                </strow>
+            </simpletable>
+     
+
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_i3g_jkh_1t">
+        <title/>
+        <taskbody>
+            <steps id="steps_f5k_kkh_1t">
+                <step>
+                    <cmd>Continue using the file lesson3/l_concept_elements_start.dita to add each of these
+                        elements to your example file.</cmd>
+                </step>
+                <step>
+                    <cmd>After the last &lt;p> element, add a new &lt;p> element with the &lt;fn>
+                        element inside it as shown in the following example.</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_elements">
+   &lt;title>Feeding ducklings&lt;/title>
+  &lt;conbody>
+...
+ <ph outputclass="newchanged">&lt;p>Ducklings need higher levels of protein in their diets than adult ducks.&lt;fn>A protein level of 18-20% is recommended for newborn ducklings.&lt;/fn>&lt;/p></ph>
+&lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>The &lt;fn> element indicates where the footnote reference number will
+                        appear inside the paragraph. By default, the text inside the &lt;fn> element
+                        is displayed at the bottom of the page (for PDF) or end of the topic (for
+                        HTML) when you generate output from the file.</info>
+                </step>
+                <step>
+                    <cmd>After the last &lt;p> element, add a new &lt;p> element with a
+                        &lt;menucascade> element inside it, as shown in the following example:</cmd>
+                    <info>Video: <xref href="https://www.youtube.com/watch?v=xGyf4q_Bipw"
+                            format="html" scope="external">Creating a menucascade in
+                        DITA</xref></info>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_elements">
+   &lt;title>Feeding ducklings&lt;/title>
+  &lt;conbody>
+...
+<ph outputclass="newchanged">&lt;p>To create a spreadsheet to keep track of when you need to replenish your 
+ducklings' food and water, go to 
+&lt;menucascade>
+&lt;/menucascade>.
+&lt;/p></ph>
+&lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>In the example you added, the &lt;menucascade> element will be used to
+                        show the menu options involved in creating a spreadsheet.</info>
+                </step>
+                <step>
+                    <cmd>Inside the &lt;menucascade> element, add a &lt;uicontrol> element and
+                        add content to it as shown in the following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_elements">
+   &lt;title>Feeding ducklings&lt;/title>
+   &lt;conbody>
+...
+&lt;menucascade>
+<ph outputclass="newchanged">&lt;uicontrol>File&lt;/uicontrol></ph>
+&lt;/menucascade>
+...
+&lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>In the example you added, the &lt;uicontrol> element contains the name of
+                        the first menu option involved in creating a spreadsheet: “File.”</info>
+                </step>
+                <step>
+                    <cmd>After the &lt;uicontrol> element, add two more &lt;uicontrol> elements and
+                        add content to them as shown in the following example.</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_elements">
+   &lt;title>Feeding ducklings&lt;/title>
+  &lt;conbody>
+... 
+&lt;menucascade>
+&lt;uicontrol>File&lt;/uicontrol>
+<ph outputclass="newchanged">&lt;uicontrol>New&lt;/uicontrol>
+&lt;uicontrol>Spreadsheet&lt;/uicontrol></ph>
+&lt;/menucascade>
+...
+&lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>By default, an arrow symbol is inserted between &lt;uicontrol> elements in
+                        the output to indicate the hierarchy of the menu options. </info>
+                    <info>With the &lt;menucascade> and &lt;uicontrol> elements in the example you
+                        added, the user now knows to click on “File,” then “New,” then
+                        “Spreadsheet.”</info>
+                    <info>You can use the &lt;uicontrol> element without the &lt;menucascade>
+                        element. For example, you can tag a word with the &lt;uicontrol> element to
+                        indicate a button the user should click. Because the &lt;uicontrol> element
+                        indicates that the text it surrounds will have special styling, avoid using
+                        the &lt;b> element or other inline styling elements inside the
+                        &lt;uicontrol> element.</info>
+                </step>
+                <step>
+                    <cmd>After the &lt;menucascade> element, add a new introductory &lt;p> element
+                        followed by a &lt;dl> element as shown in the following example:</cmd>
+                    <info>Video: <xref href="https://www.youtube.com/watch?v=3R9eN2TSepQ"
+                            format="html" scope="external">Creating a definition list in
+                        DITA</xref></info>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_elements">
+   &lt;title>Feeding ducklings&lt;/title>
+   &lt;conbody>
+...
+&lt;/menucascade>
+<ph outputclass="newchanged">&lt;p>Domestic ducks fall into categories based on weight. These weight classes may 
+help you choose a species based on how much you will need to feed your ducks.&lt;/p>
+&lt;dl>
+&lt;/dl></ph>
+&lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>The &lt;dl> element sets up the framework for a definition list.</info>
+                </step>
+                <step>
+                    <cmd>Inside the &lt;dl> element, add a &lt;dlentry> element as shown in the
+                        following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_elements">
+   &lt;title>Feeding ducklings&lt;/title>
+   &lt;conbody>
+...
+&lt;dl>
+<ph outputclass="newchanged"> &lt;dlentry>
+&lt;/dlentry></ph>
+...
+&lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>Each &lt;dlentry> element contains a term and its definition. The
+                        &lt;dlentry> element can contain one or more &lt;dd> elements.</info>
+                </step>
+                <step>
+                    <cmd>Inside the &lt;dlentry> element, add the &lt;dt> and &lt;dd> elements and
+                        add content to them as shown in the following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_elements">
+   &lt;title>Feeding ducklings&lt;/title>
+   &lt;conbody>
+...
+    &lt;dlentry>
+    <ph outputclass="newchanged">&lt;dt>Bantam&lt;/dt>
+        &lt;dd>The lightest-weight ducks and best fliers, such as the Mallard duck.&lt;/dd></ph>
+...
+&lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>The &lt;dt> element contains the term, and the &lt;dd> element contains
+                        its definition.</info>
+                </step>
+                <step>
+                    <cmd>After the &lt;dlentry> element, add three more &lt;dlentry> elements and
+                        add content to them with &lt;dt> and &lt;dd> elements as shown in the following
+                        example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_elements">
+   &lt;title>Feeding ducklings&lt;/title>
+  &lt;conbody>
+...
+    &lt;/dlentry>
+    <ph outputclass="newchanged">&lt;dlentry>
+        &lt;dt>Light&lt;/dt>
+        &lt;dd>The second lightest-weight ducks and best egg-layers, such as the Khaki 
+            Campbell duck.&lt;/dd>
+    &lt;/dlentry>
+    &lt;dlentry>
+        &lt;dt>Medium&lt;/dt>
+        &lt;dd>The mid-weight and generally calmest ducks, such as the Swedish duck.&lt;/dd>
+    &lt;/dlentry>
+    &lt;dlentry>
+        &lt;dt>Heavy&lt;/dt>
+        &lt;dd>The heaviest and generally friendliest ducks, such as the Pekin duck.&lt;/dd>
+    &lt;/dlentry></ph>
+...
+&lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Check your file lesson3/l_concept_elements_start.dita against the sample file
+                        lesson3/l_concept_elements.dita.</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+    <task id="task_as2_vjx_dt">
+        <title>Exercise</title>
+        <taskbody>
+            <steps id="steps_g32_wjx_dt">
+                <step>
+                    <cmd>Open the file lesson3/l_concept_elements_exercise_start.dita and use it to
+                        convert the following content from <xref
+                            href="http://contentstrategy101.com/" format="html" scope="external"
+                            >Content Strategy 101</xref> into DITA:</cmd>
+                    <info>
+                        <pre outputclass="passthru"><![CDATA[
+                           <hr />
+                           <h3>Increasing product visibility</h3>
+                           <p>Technical content can help organizations increase the visibility of their products in the marketplace. Officially, technical content is intended for <strong>product customers</strong>—people who buy a product and then look at the documentation.</p>
+                           <p>But one opinion poll indicates that about one-third of buyers<sup>1</sup> look at the documentation before buying a product, and the quality of the documentation will affect their purchasing decision.</p>
+                           <p>To reel in new prospects, your content must perform in three different ways: be searchable, findable, and discoverable.</p>
+                           <strong>Searchable</strong>
+                           Information must be available via an internet search.
+                           <strong>Findable</strong>
+                           Information must perform well for relevant keywords.
+                           <strong>Discoverable</strong>
+                           Information must increase the likelihood that people will link to your information.
+                           <p>To read more, go to <strong>Contents</strong> &gt; <strong>Business goals</strong> &gt; <strong>Marketing and product visibility</strong> &gt; <strong>Increasing product visibility</strong>.</p>
+                           <p><sup>1</sup> <em>"Consumer Feelings about Product Documentation,” an opinion poll conducted online by Sharon Burton</em></p>
+                           <hr />
+                           ]]></pre>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Check your file lesson3/l_concept_elements_exercise_start.dita against the
+                        sample file lesson3/l_concept_elements_exercise.dita.</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

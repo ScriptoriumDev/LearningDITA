@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_pgf_3gt_qt">
+    <title>Writing for reuse</title>
+    <prolog>
+        <author type="creator" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <critdates>
+            <created golive="2016-07-11" date="2016-05-11"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>When writing for reuse your content must be:</p>
+            <ul id="ul_qwy_pgb_kw">
+                <li>Consistent</li>
+                <li>Context-free</li>
+                <li>Generalized</li>
+            </ul>
+            <p>By separating specific information from common information wherever possible, you can
+                make sure that your common chunks of content are generic enough to be reused
+                wherever needed.</p>
+            <p>To make your content consistent:</p>
+            <ul id="ul_fq3_dhb_kw">
+                <li>Keep topics short and granular; this maximizes their reuse potential. A short
+                    topic with only one heading level can be reused in more places than a long topic
+                    that covers large amounts of information and contains multiple sections. </li>
+                <li>Establish a style guide for tagging and usage (or, at a minimum, agree on usage
+                    and set aside some time to document that agreement as the basis for a future
+                    formal style guide).</li>
+                <li>Use a consistent voice and specific vocabulary and terminology to make your
+                    topics more reusable. Limit your use of pronouns (particularly gender-specific
+                    ones) and avoid idioms and colloquialisms. A consistent voice will not only help
+                    with reuse, but also with localization.</li>
+            </ul>
+            <p>To make your content context-free: </p>
+            <ul id="ul_qr3_shb_kw">
+                <li>Do not assume anything about information that comes before or after the topic.
+                    Avoid using words such as “previous,” “next,” “earlier,” and “later.” </li>
+                <li>Do not assume the type of the document in which the content is used. Avoid using
+                    phrases such as “in this chapter” or “in this section.” </li>
+                <li>Do not use inline cross-references. In your version of the content, the
+                    cross-reference target exists, but it might not be in the next map where your
+                    content is reused. Instead, use DITA relationship tables to automatically
+                    generate links to releated topics. </li>
+            </ul>
+            <p>To make your writing more generalized:</p>
+            <ul id="ul_jpy_vlc_kw">
+                <li>Avoid using keywords or product dependencies (wherever possible). For example,
+                    if the same set of instructions can be used with multiple products, eliminate
+                    product-specific references. </li>
+                <li>Don’t be too specific unless it’s crucial. Avoid including gratuitous modifiers,
+                    such as number, size, or color, in your content, since they might not always be
+                    relevant as products change over time.</li>
+            </ul>
+            <p>To strike a balance between making content generic for reuse and including necessary
+                specifics, consider adding a table or list to the beginning of each deliverable that
+                identifies certain product information. By providing that information up-front, you
+                can then remove keywords from the content and rely on generic terms. </p>
+            <p>Generic content will not only help facilitate reuse, but will also better prepare you
+                for localization. Reusing content also means that you will have fewer topics overall
+                to translate, which will help reduce localization costs.</p>
+            <!--<ul id="ul_zfy_rsb_3w"><li>Consistent. <ul id="ul_qss_ssb_3w"><li>Topic depth and length</li><li>Tagging and usage<ul id="ul_xjw_tsb_3w"><li>create a style guide</li><li>agree on usage if you don’t create a style guide</li></ul></li><li>Neutral voice<ul id="ul_rlg_vsb_3w"><li>Limited vocabulary</li><li>Limit use of pronouns (particularly gender-specific)</li><li>Avoid idioms and colloquialisms</li></ul></li></ul></li><li>Context-free<ul id="ul_pdz_wsb_3w"><li>Do not assume context (avoid "previous", "next", "earlier", "later", etc.)</li><li>Do not assume document type (avoid references to chapters, manuals, etc.)</li><li>Use relationship tables instead of in-line cross-references</li></ul></li><li>Generalized<ul id="ul_gpx_nvb_3w"><li>Don’t be too specific (unless it’s crucial)</li><li>Avoid gratuitous modifiers (such as number, size, color)</li></ul></li></ul><p>Ways to make writing more generic/better equipped for reuse:</p><ul id="ul_iwq_wvb_3w"><li>Overall, try to reduce the use of keywords where possible.</li><li>Remove product dependencies where possible.</li><li>Consider a table at the beginning of each deliverable that identifies certain specific product information. By providing that information up-front, you can then remove keywords from the content and rely on generic terms.</li></ul><p>Writing more generic content will not only help facilitate reuse, but will also make your content better equipped for localization. Reusing content also means that you will have fewer topics/less content overall to translate, which will help reduce localization costs.</p>-->
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

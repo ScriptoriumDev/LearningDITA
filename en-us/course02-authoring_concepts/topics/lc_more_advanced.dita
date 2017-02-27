@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_hrm_xjh_1t">
+    <title>Adding more advanced elements</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-08-24"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Here are some more common advanced elements in DITA:</p>
+            <simpletable frame="all" relcolwidth="1.0* 1.0*" id="simpletable_fwj_dj4_2t">
+                <strow>
+                    <stentry>
+                        <p>&lt;section></p>
+                    </stentry>
+                    <stentry>
+                        <p>The element that divides the body of a topic into subsections with
+                            individual titles. The &lt;section> element can contain a &lt;title>
+                            element to give it a heading, along with most of the same elements
+                            allowed inside the &lt;conbody> element. However, the &lt;section>
+                            element cannot contain other &lt;section> elements and can only be
+                            followed by another &lt;section> element, an &lt;example> element, or a
+                            &lt;conbodydiv> element.</p>
+                        <note>
+                            <p>If you find that you are adding many sections or sections of
+                                substantial length to a topic, make each of those sections into its
+                                own topic instead so that you can reuse the information more easily.
+                            </p>
+                        </note>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;draft-comment></p>
+                    </stentry>
+                    <stentry>
+                        <p>The element that lets you insert comments and questions into the content
+                            while it is being developed. By default, the &lt;draft-comment> element
+                            is hidden in the final output, so you can render output without deleting
+                            all draft comments. (You have to decide whether you’re willing to risk
+                            it, though!)</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;required-cleanup></p>
+                    </stentry>
+                    <stentry>
+                        <p>The element that lets you wrap content that is tagged incorrectly and
+                            needs to be fixed. By default, any content inside the
+                            &lt;required-cleanup> element is hidden in output.</p>
+                    </stentry>
+                </strow>
+            </simpletable>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_i3g_jkh_1t">
+        <title/>
+        <taskbody>
+            <steps id="steps_f5k_kkh_1t">
+                <step>
+                    <cmd>Continue using the file lesson4/l_concept_advanced_start.dita to add each
+                        of these elements to your example file.</cmd>
+                    <info>Video: <xref href="https://www.youtube.com/watch?v=kmwUK7UFL_8"
+                            format="html" scope="external">Adding a section in DITA</xref></info>
+                </step>
+                <step>
+                    <cmd>After the &lt;lq> element, add a &lt;section> element as shown in the
+                        following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_advanced">
+&lt;title>Writing about ducks&lt;/title>
+&lt;conbody>
+...
+&lt;/lq>
+<ph outputclass="newchanged">&lt;section>
+&lt;/section></ph>
+&lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>In the example you added, you created a subsection of the “Writing about
+                        ducks” topic.</info>
+                </step>
+                <step>
+                    <cmd>Inside the &lt;section> element, add &lt;title> and &lt;p> elements and
+                        add content to them as shown in the following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_advanced">
+&lt;title>Writing about ducks&lt;/title>
+&lt;conbody>
+...
+&lt;section>
+<ph outputclass="newchanged">&lt;title>Sharing your duck database&lt;/title>
+&lt;p>Export your duck database as HTML output to make it easy to share on your website. 
+You can also offer your database to users as a download.&lt;/p></ph>
+&lt;/section>
+&lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>Only one &lt;title> element is allowed inside the &lt;concept> element
+                        where a title already exists. However, by adding a &lt;section> element, you
+                        are able to have multiple subtitles in your concept topic. Like the
+                        &lt;concept> element, each &lt;section> element can only contain one
+                        &lt;title> element.</info>
+                    <info>A &lt;section> element can contain all the same body elements as a
+                        &lt;conbody>, with the exception of another &lt;section> (that is, you
+                        cannot nest &lt;section> elements inside each other).</info>
+                </step>
+                <step>
+                    <cmd>After the &lt;p> element in the new section, add a &lt;draft-comment>
+                        element and add content to it as shown in the following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_advanced">
+&lt;title>Writing about ducks&lt;/title>
+&lt;conbody>
+...
+&lt;/p>
+<ph outputclass="newchanged">&lt;draft-comment>Are you sure you want to offer a download?&lt;/draft-comment></ph>
+...
+&lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>In the example you added, you are telling other authors who may work on
+                        this topic to rethink the decision to offer a download.</info>
+                </step>
+                <step>
+                    <cmd>At the end of the &lt;section> element, add a &lt;required-cleanup> element
+                        and add content to it as shown in the following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_advanced">
+&lt;title>Writing about ducks&lt;/title>
+&lt;conbody>
+...
+<ph outputclass="newchanged">&lt;required-cleanup>
+&lt;p>Consider giving users the option to send feedback or suggested entries for your 
+duck database.&lt;/p>
+&lt;/required-cleanup></ph>
+&lt;/section>
+&lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>In this example, you have surrounded the &lt;p> element with the
+                        &lt;required-cleanup> element to indicate that someone must move it to a
+                        valid position (such as inside the &lt;section> element) or re-tag it with a
+                        valid element (such as the &lt;example> element). Otherwise, you will not be
+                        able to produce output because of the presence of invalid elements. </info>
+                </step>
+                <step>
+                    <cmd>Check your file lesson4/l_concept_advanced_start.dita against the sample file
+                        l_concept_advanced.dita.</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+    <task id="task_as2_vjx_dt">
+        <title>Exercise</title>
+        <taskbody>
+            <steps id="steps_g32_wjx_dt">
+                <step>
+                    <cmd>Open the file lesson4/l_concept_advanced_exercise_start.dita and use it to
+                        convert the following content from <xref
+                            href="http://contentstrategy101.com/" format="html" scope="external"
+                            >Content Strategy 101</xref> into DITA:</cmd>
+                    <info>
+                        <pre outputclass="passthru"><![CDATA[
+                           <hr />
+                           <h3>Developing a technical content strategy</h3>
+                           <p>After reviewing the existing information products, you should have a list of content challenges and ideas for improvement. Here are some common scenarios.</p>
+                           <h5>Reuse between technical documentation and training materials</h5>
+                           The training department uses reference and task information created by the technical documentation team, but the instructional designers copy and paste instead of linking because the two groups use different, incompatible content creation tools.
+                           <em><strong>Comment:</strong> Add: "If the two teams standardized on a single workflow, they could share content seamlessly and avoid lots of tedious reworking."</em>
+                           <h5>HTML output is needed in addition to PDF</h5>
+                           <p>Your content may look like this in HTML:</p>
+                           <code>&lt;div class="p"&gt;You may produce high-value content, such as the following:
+                           &lt;ul class="ul"&gt;
+                           &lt;li class="li"&gt;&lt;p class="p"&gt;Training materials&lt;/p&gt;&lt;/li&gt;
+                           &lt;li class="li"&gt;&lt;p class="p"&gt;White papers&lt;/p&gt;&lt;/li&gt;
+                           &lt;li class="li"&gt;&lt;p class="p"&gt;Knowledge base articles&lt;/p&gt;&lt;/li&gt;
+                           &lt;/ul&gt;
+                           &lt;/div&gt; </code>
+                           <p>The <code>&lt;div&gt;</code> contains the unordered list.</p>
+                           <h5>Technical content is outdated because of inefficient updating process</h5>
+                           <blockquote>The book production process—generating tables of contents and indexes, checking pagination, creating change page logs, and similar tasks—takes a significant amount of time. As a result, books are only updated twice a year. But the product is changing quarterly or even monthly, so the technical documentation is almost always out of date. Readers are complaining about the lack of synchronization between the product updates and the content updates.</blockquote>
+                           <hr />
+                           ]]></pre>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Check your file lesson4/l_concept_advanced_exercise_start.dita against the
+                        sample file lesson4/l_concept_advanced_exercise.dita.</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

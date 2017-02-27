@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<learningAssessment id="lca_what_can_you_filter">
+ <title>what can you filter?</title>
+ <prolog>
+  <author type="creator" href="http://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Simon Bate</author>
+  <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Jake Campbell</author>
+  <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Gretyl Kinsey</author>
+  <critdates>
+   <created golive="2016-11-30" date="2016-11-03"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction id="lcInteraction_z3y_f4h_vx">
+   <lcMultipleSelect id="lcMultipleSelect_lc2_h4h_vx">
+    <lcQuestion>Which of the following DITA elements can you filter with conditional attributes?
+     (Choose all that apply) </lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_mc2_h4h_vx">
+     <lcAnswerOption>
+      <lcAnswerContent>Step commands (&lt;cmd>)</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Paragraphs (&lt;p>)</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Step elements (&lt;step>)</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Table entries (&lt;entry>)</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Topic titles (&lt;title>)</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Notes (&lt;note>)</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Figures (&lt;fig>)</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>Of the elements listed here, you can filter &lt;p>, &lt;step>, &lt;note>,
+     and &lt;fig>. You cannot filter &lt;entry>, &lt;title> (when used in a topic), and &lt;cmd>.
+    </lcFeedbackIncorrect>
+   </lcMultipleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

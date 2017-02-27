@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_pgf_3gt_qt">
+    <title>Housekeeping and sample files</title>
+    <prolog>
+        <author type="creator" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <critdates>
+            <created golive="2016-07-11" date="2016-05-11"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Download reuse_basic_samples.zip now. It contains the sample files for the entire
+                Introduction to reuse in DITA course. Extract the contents and put them in a
+                directory that you can access easily.</p>
+            <p>Inside the samples folder, you will find the following sub-folders:</p>
+            <ul id="ul_k3n_dbd_3v">
+                <li>
+                    <p>conrefs</p>
+                </li>
+                <li>reusing_topics_and_maps</li>
+                <li>writing_for_reuse</li>
+            </ul>
+            <p>Each lesson will instruct you on which folders and files to use for the exercises.
+                Save your file as you complete each step to avoid losing your work. </p>
+            <p>Create a local copy of each file to work in as you complete the lessons. That way, if
+                you reach a point where your working file doesn’t match the examples, or is broken
+                for any reason, you can make a fresh copy and resume your work or start over.</p>
+            <p>In the instructions and examples, we show you the DITA code for the sample files.
+                Most DITA editors have auto-complete or other similar features to guide you through
+                the process of adding elements (for example, if you type the opening tag of an
+                element, most DITA editors will automatically add the closing tag for you).
+                Therefore, you will probably not need to create every piece of code from scratch as
+                you work.</p>
+            <!--<p>The sample files for AuthoringDITA task topics are in the zip file task_samples.zip. Download this file to a location on your hard drive that you’ll remember, then extract the contents to a folder. </p><p>The exercises in this course follow in sequence, each exercise builds on the work completed in the previous exercise. You can use the first sample file as a starting point for the exercises in this course.</p><p>Use the subsequent sample files to check your work. If you reach a point where your exercise file doesn’t match the examples, or is broken for any reason, you can use the sample file from the previous exercise to resume your work. </p>-->
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

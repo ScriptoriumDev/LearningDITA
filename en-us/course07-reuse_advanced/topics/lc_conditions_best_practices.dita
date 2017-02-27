@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="content_pgf_3gt_qt">
+    <title>Best practices for conditions</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey</author>
+        <critdates>
+            <created golive="2016-12-01" date="2016-10-18"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p><b>Do not filter sentence fragments</b></p>
+            <p>As described in the basic course on reusing elements, do not use filtering on
+                anything smaller than a sentence. </p>
+            <p>It’s better to have two instances of an entire sentence that are grammatically
+                correct (and will remain correct when translated) than to risk ending up with poorly
+                constructed—or even non-sensical—sentences.</p>
+            <p><b>Communicate your choices</b></p>
+            <p>Create a style guide or some other form of documentation so that everyone on your
+                team, organization, or company uses conditional attributes and values consistently. </p>
+            <p>Make sure you have agreement on:<ul id="ul_anz_mxg_vx">
+                    <li>How and why everyone uses the audience, platform, product, and otherprops
+                        attributes. </li>
+                    <li>The precise values everyone uses with those attributes and the meaning of
+                        each value. Remember that case matters when comparing attribute values with
+                        the val attribute in ditaval file. </li>
+                </ul></p>
+            <p><b>Consider specialization</b></p>
+            <p>If the there are not enough conditional attributes for your needs, or if the names of
+                the attributes do not fit with how you are using them, consider using the DITA
+                specialization mechanisms to create additional conditional attributes. </p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_pgf_3gt_qt">
+    <title>What is a content reference?</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Mike Rice, easyDITA</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Annie Chen, easyDITA</author>
+        <author type="contributor" href="http://www.scriptorium.com">Simon Bate,
+            Scriptorium</author>
+        <critdates>
+            <created golive="2016-07-11" date="2016-05-11"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>A content reference (conref) enables you to reuse an element from one topic in one or
+                more other topics. In DITA, the conref provides fragment-level reuse. </p>
+            <p>In typical use, you create a shared piece of content (such as an element), and then
+                reuse that content in other documents where it is required. One of the best examples
+                of a conref is a DITA &lt;note> element. You can create the &lt;note> element once,
+                make sure it is approved by all whom it affects (including—possibly—your legal
+                department), and make it available through a warehouse topic. Then any writer who
+                needs to use the &lt;note> element can use a conref to add it to their content where
+                it is appropriate. </p>
+            <p>When pieces of content are repeated in multiple topics or publications, using conrefs
+                can make your content easier to maintain. Unlike copy and paste, where content is
+                duplicated, conrefs insert reused elements <i class="+ topic/ph hi-d/i ">by
+                    reference</i> into a topic.</p>
+            <!--<p>Using copy and paste is not a good strategy, primarily because the pasted content is not automatically updated from the source. If the source is changed later on, it’s very difficult to make sure that change gets back to all the places where that content is used. </p>-->
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

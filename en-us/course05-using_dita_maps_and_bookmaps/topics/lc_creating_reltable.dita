@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<learningContent id="lc_creating_reltable">
+    <title>Creating a relationship table</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <critdates>
+            <created date="2016-03-21"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>A relationship table is contained in the &lt;reltable> element. The &lt;reltable>
+                element is always a child of the &lt;map> or &lt;bookmap> element. A map or bookmap
+                can contain multiple &lt;reltable> elements. </p>
+            <p>The location of the &lt;reltable> is different for maps and bookmaps:<ul
+                    id="ul_mbv_stx_3v">
+                <li>In a map, the &lt;reltable> elements can occur anywhere in the map. However, it is usually placed at the end of the &lt;map> (after the last of the &lt;topicref> elements).
+                </li>
+                    <li>In a bookmap, the &lt;reltable> elements must occur as the last elements in
+                        the bookmap (that is, before the &lt;/bookmap> tag).</li>
+                </ul></p>
+            <p>Each column in a relationship table contains a similar type of information. The types
+                of information in each of the columns is defined by &lt;relcolspec> elements in the
+                relationship table header row (&lt;relheader>). </p>
+            <p>In the relationship table’s most common form, the &lt;relcolspec> elements define columns for concept, task, and reference topics. However, a relationship table is not limited to those types.
+            </p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_zh2_srt_jv">
+        <title/>
+        <taskbody>
+            <steps id="steps_bms_trt_jv">
+                <step>
+                    <cmd>Open the file maps_bookmaps_samples/samples/_reltable_start.ditamap. </cmd>
+                    <info>This map is already populated with &lt;topicref> elements. </info>
+                </step>
+                <step>
+                    <cmd>At the end of the file, before the &lt;/map> tag, add a &lt;reltable>
+                        element.</cmd>
+                    <stepxmp>
+                        <pre>...
+    &lt;/topichead>
+    &lt;/topicref>
+    
+    &lt;mapref href="g_duck_glossorg.ditamap" format="ditamap"/>
+    
+<ph outputclass="newchanged">    &lt;reltable title="Ducks reltable">
+    &lt;/reltable>
+ </ph>
+&lt;/map>
+</pre>
+                    </stepxmp>
+                    <info>Note that you can use the title attribute in the &lt;reltable> element to
+                        help identify the purpose of the relationship table, but the title is never
+                        displayed on output. </info>
+                </step>
+                <step>
+                    <cmd>Inside the relationship table, add a &lt;relheader> element that contains
+                        three &lt;relcolspec> elements. </cmd>
+                    <stepxmp>
+                        <pre>&lt;reltable title="Ducks reltable">
+<ph outputclass="newchanged">    &lt;relheader>
+        &lt;relcolspec/>
+        &lt;relcolspec/>
+        &lt;relcolspec/>
+    &lt;/relheader>
+</ph>&lt;/reltable>
+</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Add type attributes to each of the three &lt;relcolspec> elements for
+                        concept, task, and reference. </cmd>
+                    <stepxmp>
+                        <pre>
+&lt;relheader><ph outputclass="newchanged">
+    &lt;relcolspec type="concept"/>
+    &lt;relcolspec type="task"/>
+    &lt;relcolspec type="reference"/>
+</ph>&lt;/relheader>
+</pre>
+                    </stepxmp>
+                </step>
+            </steps>
+            <postreq>Continue populating the &lt;reltable> elment in the next topic.</postreq>
+        </taskbody>
+    </task>
+</learningContent>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_pgf_3gt_qt">
+    <title>Creating a new DITA map</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <critdates>
+            <created date="2016-03-07"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Maps are used to compile, organize, and define the relationships
+                        among DITA topics. A map might contain the following:</p>
+            <ul id="ul_stb_33l_mv">
+                <li>
+                    <p>all of the concept and reference topics with information about a single product</p>
+                </li>
+                <li>
+                    <p>all of the task topics that give instructions for using that product</p>
+                </li>
+                <li>
+                    <p>a glossary of related terms</p>
+                </li>
+            </ul>
+            <p>Although a single DITA topic can be published on its own, many authors collect topics in maps to prepare them for publication.
+            </p>
+            <p>Using maps can add flexibility and facilitate reuse in your publishing workflow. If you have a topic with content that applies to multiple products (such as common safety information), you can write that topic once and reference it in multiple maps.</p>
+            <p>You can also reference other maps from within a map. This allows you to group related sets of topics together. For example, you might need to compile all the maps for individual products into a single map for a product family.</p>
+            <p>Maps can contain metadata, such as product information, copyright, and publication
+                date. Metadata in maps can be used to help your company manage and distribute your
+                content more effectively—or help your customers find the content they need more
+                easily.</p>
+            <p>At a minimum, a map must contain a root &lt;map> element. The &lt;map> element may
+                contain the following elements:</p>
+            <ul id="ul_oc4_2fd_3v">
+                <li>
+                    <p>The &lt;title> element, which allows you to name the map (such as “Product X
+                        User Guide”). The text in the &lt;title> element can also be used as the
+                        title of your output document.</p>
+                </li>
+                <li>
+                    <p>Any number of &lt;topicref> elements, which allow you to reference topics
+                        within the map. A &lt;topicref> element can contain other &lt;topicref>
+                        elements.</p>
+                </li>
+                <li>
+                    <p>Any number of &lt;mapref> elements, which allow you to reference other maps
+                        within the main map.</p>
+                </li>
+                <li>
+                    <p>Any number of &lt;reltable> elements, which allow you to define relationships
+                        in your content.</p>
+                </li>
+            </ul>
+            <note>
+                <p>For more information about the &lt;map> element, see the <xref
+                        href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/map.html"
+                        format="html" scope="external">OASIS DITA Version 1.2 Standard</xref>.</p>
+            </note>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_at5_jgd_3v">
+        <title>Practice</title>
+        <taskbody>
+            <steps id="steps_umd_lgd_3v">
+                <step>
+                    <cmd>Make a copy of the file
+                        maps_bookmaps_samples/samples/_m_ducks_start.ditamap and open it in your
+                        editor.</cmd>
+                    <info>
+                        <note>
+                            <p>If you are using a DITA-aware text editor, make sure you are in text
+                                mode, rather than author or visual mode.</p>
+                        </note>
+                    </info>
+                    <stepxmp>
+                        <p>You should see this:</p>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+&lt;map id="ducks">
+ &lt;title>xyz&lt;/title>
+&lt;/map></pre>
+                    </stepxmp>
+                    <info>
+                        <p>The first line (which begins with <tt>&lt;?xml</tt>) is an XML
+                            declaration, which is a standard part of all XML files.</p>
+                        <p>The DOCTYPE declaration on the second line identifies this file as a DITA
+                            map. </p>
+                        <p>The third line is the opening tag of the &lt;map> element, which uses the
+                            unique ID "ducks".</p>
+                        <p>The &lt;title> element on the fourth line contains the title of the
+                            map.</p>
+                        <p>The fifth line uses the closing tag &lt;/map> to show where the &lt;map>
+                            element ends.</p>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Inside the &lt;title> element, change the text of the title as shown in the
+                        following example.</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+&lt;map id="ducks">
+<ph outputclass="newchanged">   &lt;title>Ducks&lt;/title></ph>
+&lt;/map></pre>
+                    </stepxmp>
+                    <info>Now that you’ve set up the base structure for your map, you can begin
+                        adding topic references.</info>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

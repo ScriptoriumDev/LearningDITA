@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_hwg_z1b_dt16">
+ <title>Sequence</title>
+ <prolog>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+   Scriptorium</author>
+  <critdates>
+   <created date="2015-08-24"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcSequencing id="sequencing_elements">
+    <lcQuestion>Arrange the following elements in the order in which they must appear in a
+     task.</lcQuestion>
+    <lcSequenceOptionGroup id="lcSequenceOptionGroup_qqp_qzb_kt">
+     <lcSequenceOption>
+      <lcAnswerContent>&lt;example></lcAnswerContent>
+      <lcSequence value="5"/>
+     </lcSequenceOption>
+     <lcSequenceOption>
+      <lcAnswerContent>&lt;steps></lcAnswerContent>
+      <lcSequence value="3"/>
+     </lcSequenceOption>
+     <lcSequenceOption>
+      <lcAnswerContent>&lt;postreq></lcAnswerContent>
+      <lcSequence value="6"/>
+     </lcSequenceOption>
+     <lcSequenceOption>
+      <lcAnswerContent>&lt;result></lcAnswerContent>
+      <lcSequence value="4"/>
+     </lcSequenceOption>
+     <lcSequenceOption>
+      <lcAnswerContent>&lt;prereq></lcAnswerContent>
+      <lcSequence value="1"/>
+     </lcSequenceOption>
+     <lcSequenceOption>
+      <lcAnswerContent>&lt;context></lcAnswerContent>
+      <lcSequence value="2"/>
+     </lcSequenceOption>
+    </lcSequenceOptionGroup>
+    <lcFeedbackIncorrect>These elements must appear in the following sequence: &lt;prereq>,
+     &lt;context>, &lt;steps>, &lt;result>, &lt;example>, &lt;postreq>.</lcFeedbackIncorrect>
+   </lcSequencing>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

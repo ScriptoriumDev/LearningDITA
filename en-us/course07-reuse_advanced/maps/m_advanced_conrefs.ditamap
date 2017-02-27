@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Advanced conrefs</title>
+    <topicref href="../topics/lc_advanced_conrefs.dita">
+        <topicmeta lockmeta="yes">
+            <data name="lesson_id" value="10837"/>
+        </topicmeta>
+        <topicref href="../topics/lc_conref_basic_review.dita"/>
+        <topicref href="../topics/lc_conkeyrefs.dita"/>
+        <topicref href="../topics/lc_conrefend.dita"/>
+        <topicref href="../topics/lc_conrefpush.dita"/>
+        <topicref href="../topics/lc_conref_advanced_best_practices.dita"/>
+        <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_advanced_conrefs.dita"
+            locktitle="yes">
+            <topicmeta>
+                <navtitle>Assessment for Advanced conrefs</navtitle>
+            </topicmeta>
+            <!-- Assessment types: T/F, Single Select, multiple select, matching, sequence  -->
+
+            <topicref href="../assessments/advanced_conrefs/lca_reason_for_conkeyrefs.dita"/>
+            <topicref href="../assessments/advanced_conrefs/lca_invalid_reference.dita"/>
+            <topicref href="../assessments/advanced_conrefs/lca_conrefend_requirements.dita"/>
+            <topicref href="../assessments/advanced_conrefs/lca_conrefend_conkeyref.dita"/>
+            <topicref href="../assessments/advanced_conrefs/lca_conref_push_requirements.dita"/>
+        </topicref>
+    </topicref>
+</map>

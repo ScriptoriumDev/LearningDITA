@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_kw5_5ls_zs">
+    <title>Adding tables to a concept topic</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-08-24"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction><p>Use the &lt;table> element when you need to create a larger or more complex table than you can
+                with the &lt;simpletable> element. If you need a title or caption for your table, or
+                more than one header row, use the &lt;table> element.</p>
+            <p>The elements contained in the &lt;table> element include:</p>
+            <simpletable frame="all" relcolwidth="1.0* 1.0*" id="simpletable_btz_t3n_2t">
+                <strow>
+                    <stentry>&lt;title></stentry>
+                    <stentry>The container element for the text of a &lt;table> element’s title or
+                        caption. A &lt;table> element can only contain one &lt;title>
+                        element.</stentry>
+                </strow>
+                <strow>
+                    <stentry>&lt;tgroup></stentry>
+                    <stentry>The container element for the main content of a &lt;table> element. The
+                        &lt;tgroup> element contains the &lt;colspec>, &lt;thead>, and &lt;tbody>
+                        elements. A &lt;table> element can contain one or more &lt;tgroup>
+                        elements.</stentry>
+                </strow>
+                <strow>
+                    <stentry>&lt;colspec></stentry>
+                    <stentry>The element that provides information about the columns in a &lt;table>
+                        element. The column specifications are defined using the colname (the name
+                        of the column), colnum (the order in which the column appears), and colwidth
+                        (the relative width of the column) attributes.</stentry>
+                </strow>
+                <strow>
+                    <stentry>&lt;thead></stentry>
+                    <stentry>The container element for the header in a &lt;table> element. The
+                        &lt;thead> element can contain one or more &lt;row> elements and is
+                        optional.</stentry>
+                </strow>
+                <strow>
+                    <stentry>&lt;tbody></stentry>
+                    <stentry>The container element for the body rows in a &lt;table> element. The
+                        &lt;tbody> element can contain one or more &lt;row> elements.</stentry>
+                </strow>
+                <strow>
+                    <stentry>&lt;row></stentry>
+                    <stentry>The container element for a row of cells in a &lt;table> element. The
+                        &lt;row> element contains one or more &lt;entry> elements.</stentry>
+                </strow>
+                <strow>
+                    <stentry>&lt;entry></stentry>
+                    <stentry>The container element for a single cell in a &lt;table> element. The
+                        &lt;entry> element contains the text of a cell in the &lt;table> element,
+                        which should be wrapped in a &lt;p> element according to best
+                        practice.</stentry>
+                </strow>
+            </simpletable><p>This lesson will cover the basics of using the &lt;table> element. To highlight the differences
+                between the &lt;table> and &lt;simpletable> elements, you will be using the same
+                sample content for your &lt;table> exercise as you used for your &lt;simpletable>
+                exercise.</p><fig>
+                <title>Example &lt;table> in a visual format</title>
+                <image href="../media/images_and_tables/table.png" id="image_ulh_wmn_2t" base="2016/08"/>
+            </fig><p>Continue using the file lesson2/l_concept_images_tables_start.dita to add the &lt;table>
+                element.</p>
+            <note>
+                <p>If you are using a DITA editor, some child elements of the &lt;table> element
+                    will automatically be inserted as you work through the examples.</p>
+            </note>
+            <p>Video: <xref href="https://www.youtube.com/watch?v=PFWz_Vsyxwg" format="html"
+                    scope="external">Creating a table in DITA</xref></p>
+            <note>
+                <p>This video shows an alternative way to create a table in DITA using the <xref
+                        href="http://oxygenxml.com/" format="html" scope="external">oXygen XML
+                        Editor</xref> table wizard. The exercises show you how to create a table
+                    using DITA code.</p>
+            </note></lcInstruction>
+    </learningContentbody>
+    <task id="task_w23_tv1_dt">
+        <title>Adding the &lt;table> element</title>
+        <taskbody>
+            <steps id="steps_qtc_qx1_dt">
+                <step>
+                    <cmd>After the &lt;simpletable> element, add a &lt;table> element as shown in
+                        the following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_images_tables">
+   &lt;title>Duckling growth and development&lt;/title>
+  &lt;conbody>
+...
+&lt;/simpletable>
+<ph outputclass="newchanged">&lt;table>
+&lt;/table></ph>
+   &lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Inside the &lt;table> element, add a &lt;title> element and add content to it as
+                        shown in the following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_images_tables">
+   &lt;title>Duckling growth and development&lt;/title>
+  &lt;conbody>
+...
+&lt;table>
+<ph outputclass="newchanged">&lt;title>Typical development of mallard ducks&lt;/title></ph>
+&lt;/table>
+&lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>The &lt;title> element is optional, but it allows you to add context to
+                        your table, just as it does for images when used inside the &lt;fig>
+                        element.</info>
+                </step>
+                <step>
+                    <cmd>After the &lt;title> element, add the &lt;tgroup> element as shown in the
+                        following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_images_tables">
+   &lt;title>Duckling growth and development&lt;/title>
+   &lt;conbody>
+...
+&lt;title>Typical development of mallard ducks&lt;/title>
+<ph outputclass="newchanged">&lt;tgroup cols="2">
+&lt;/tgroup></ph>
+...
+&lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>The &lt;tgroup> element contains the body of the table. The number of
+                        table columns is set inside the &lt;tgroup> element using the cols
+                        attribute. In the example you added, cols="2" shows that this table will
+                        contain two columns.</info>
+                    <info>A single &lt;table> element can contain more than one &lt;tgroup> element,
+                        which is useful if you need to show more than one table with different
+                        headers or numbers of columns under the same title.</info>
+                </step>
+                <step>
+                    <cmd>Inside the &lt;tgroup> element, add two &lt;colspec> elements and add content to
+                        them as shown in the following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_images_tables">
+   &lt;title>Duckling growth and development&lt;/title>
+   &lt;conbody>
+...
+&lt;tgroup cols="2">
+<ph outputclass="newchanged">&lt;colspec colname="c1" colnum="1" colwidth="1.0*"/>
+&lt;colspec colname="c2" colnum="2" colwidth="1.0*"/></ph>
+...
+&lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>The &lt;colspec> element sets up your table columns and specifies
+                        information about them (such as their names, sequence, and widths) using
+                        attributes. In the example you added, the colname attribute was used to name
+                        your columns "c1" and "c2" and the colnum attribute was used to designate
+                        the order in which these columns appear. </info>
+                    <info>The optional colwidth attribute can be used to control the proportions of
+                        the column widths. In the example you added, the colwidth attribute is the
+                        same for each column, meaning that they will display at equal widths.</info>
+                </step>
+                <step>
+                    <cmd>After the last &lt;colspec> element, add the &lt;thead> element as shown in
+                        the following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_images_tables">
+   &lt;title>Duckling growth and development&lt;/title>
+   &lt;conbody>
+...
+&lt;colspec colname="c2" colnum="2" colwidth="1.0*"/>
+<ph outputclass="newchanged">&lt;thead>
+&lt;/thead></ph>
+...
+&lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>The &lt;thead> element contains the elements associated with the table
+                        header. Unlike the &lt;sthead> element in a &lt;simpletable> element, the
+                        &lt;thead> element in a &lt;table> element can contain more than one header
+                        row.</info>
+                </step>
+                <step>
+                    <cmd>Inside the &lt;thead> element, add the &lt;row> element as shown in the
+                        following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_images_tables">
+   &lt;title>Duckling growth and development&lt;/title>
+   &lt;conbody>
+...
+&lt;thead>
+<ph outputclass="newchanged"> &lt;row>
+&lt;/row></ph>
+...
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>The &lt;row> element contains the elements associated with a table
+                        row.</info>
+                </step>
+                <step>
+                    <cmd>Inside the &lt;row> element, add two &lt;entry> elements and add content to them
+                        as shown in the following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_images_tables">
+   &lt;title>Duckling growth and development&lt;/title>
+  &lt;conbody>
+...
+&lt;row>
+<ph outputclass="newchanged">&lt;entry>&lt;p>Age&lt;/p>&lt;/entry>
+&lt;entry>&lt;p>Milestone&lt;/p>&lt;/entry></ph>
+...
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>Each &lt;entry> element corresponds to a single table cell in a row. In
+                        the example you added, each &lt;entry> element follows the best practice of
+                        wrapping a &lt;p> element surrounding the text.</info>
+                </step>
+                <step>
+                    <cmd>After the &lt;thead> element, add the &lt;tbody> element as shown in the
+                        following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_images_tables">
+   &lt;title>Duckling growth and development&lt;/title>
+  &lt;conbody>
+...
+&lt;/thead>
+<ph outputclass="newchanged">&lt;tbody>
+&lt;/tbody></ph>
+...
+&lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>The &lt;tbody> element is for the main body of the table. Following
+                        the same structure as the &lt;thead> element, the &lt;tbody> element can
+                        contain &lt;row> elements with &lt;entry> elements inside them.</info>
+                </step>
+                <step>
+                    <cmd>Inside the &lt;tbody> element, add a &lt;row> element and add content to it with
+                        &lt;entry> elements and their containing text as shown in the following
+                        example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_images_tables">
+   &lt;title>Duckling growth and development&lt;/title>
+  &lt;conbody>
+...
+&lt;tbody>
+<ph outputclass="newchanged">&lt;row>
+&lt;entry>&lt;p>7 weeks&lt;/p>&lt;/entry>
+&lt;entry>&lt;p>Attempt flight for the first time&lt;/p>&lt;/entry>
+&lt;/row></ph>
+...
+&lt;/concept></pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>After the &lt;row> element you just added, add two more rows and add content to
+                        them as shown in the following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_images_tables">
+   &lt;title>Duckling growth and development&lt;/title>
+   &lt;conbody>
+...
+&lt;/row>
+<ph outputclass="newchanged">&lt;row>
+&lt;entry>&lt;p>12-14 weeks&lt;/p>&lt;/entry>
+&lt;entry>&lt;p>Reach adult body weight&lt;/p>&lt;/entry>
+&lt;/row>
+&lt;row>
+&lt;entry>&lt;p>1 year&lt;/p>&lt;/entry>
+&lt;entry>&lt;p>Capable of reproduction&lt;/p>&lt;/entry>
+&lt;/row></ph>
+...
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>The &lt;tbody> element can contain one or more &lt;row> elements.</info>
+                    <info>Video: <xref href="https://www.youtube.com/watch?v=PFWz_Vsyxwg"
+                            format="html" scope="external">Creating a table in DITA</xref></info>
+                </step>
+                <step>
+                    <cmd>Check your file lesson2/l_concept_images_tables_start.dita against the sample file
+                        lesson2/l_concept_images_tables.dita.</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+    <task id="task_as2_vjx_dt">
+        <title>Exercise</title>
+        <taskbody>
+            <steps id="steps_g32_wjx_dt">
+                <step>
+                    <cmd>Open the file lesson2/l_concept_images_tables_exercise_start.dita and use
+                        it to convert the following content from <xref
+                            href="http://contentstrategy101.com/" format="html" scope="external"
+                            >Content Strategy 101</xref> into DITA:</cmd>
+                    <info>Use the sample image lesson2/images/configurebetter1.png for this
+                        exercise.</info>
+                    <info>
+                        <pre outputclass="passthru"><![CDATA[
+                            <hr />
+                            <h3>Supporting marketing with technical content</h3>
+                            Tech comm and marcom have long occupied opposite ends of the content spectrum. The stereotype is that tech comm is text-heavy, dense, and badly formatted whereas marcom is shiny, beautiful, and content-free. From there, the debate just intensifies:
+                            <em>Marcom versus tech comm: the stereotypes</em>
+                            <table class="simpletable" border="1" summary="" cellspacing="0" cellpadding="4">
+                            <tbody>
+                            <tr class="strow">
+                            <td class="stentry" valign="top" width="33%"></td>
+                            <td class="stentry" valign="top" width="33%"><strong>Marcom</strong></td>
+                            <td class="stentry" valign="top" width="33%"><strong>Tech comm</strong></td>
+                            </tr>
+                            <tr class="strow">
+                            <td class="stentry" valign="top">Design or automation?</td>
+                            <td class="stentry" valign="top">Design</td>
+                            <td class="stentry" valign="top">Automation</td>
+                            </tr>
+                            <tr class="strow">
+                            <td class="stentry" valign="top">How much detail?</td>
+                            <td class="stentry" valign="top">As little as possible</td>
+                            <td class="stentry" valign="top">As much as possible</td>
+                            </tr>
+                            <tr class="strow">
+                            <td class="stentry" valign="top">Assumed impact on revenue</td>
+                            <td class="stentry" valign="top">A lot</td>
+                            <td class="stentry">None</td>
+                            </tr>
+                            <tr class="strow">
+                            <td class="stentry" valign="top">Primary purpose</td>
+                            <td class="stentry" valign="top">Persuade people to buy</td>
+                            <td class="stentry" valign="top">Inform people</td>
+                            </tr>
+                            </tbody>
+                            </table>
+                            <p>Give people a friendly interface that lets them quickly narrow down their options and choose the one they want. You don’t have to expose all of the fields in the database—just the ones that help people narrow down their choices.</p>
+                            <p><em>The product list on the right updates as you make selections on the left</em></p>
+                            <img src="http://www.learningdita.com/wp-content/uploads/2015/08/configurebetter1.png"/>
+                            <hr/>]]></pre>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Check your file lesson2/l_concept_images_tables_start.dita against the sample file
+                        lesson2/l_concept_images_tables_exercise.dita.</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

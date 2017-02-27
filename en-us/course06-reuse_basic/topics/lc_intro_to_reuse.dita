@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="lc_creating_a_map">
+    <title>Introduction to reuse</title>
+    <prolog>
+        <author type="creator" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <critdates>
+            <created golive="2016-07-11" date="2016-05-11"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup id="lcObjectivesGroup_tvl_vbh_1t">
+                <lcObjective class="- topic/li learningBase/lcObjective ">Demonstrate the advantages
+                    of reusing content</lcObjective>
+                <lcObjective class="- topic/li learningBase/lcObjective ">Analyze content for
+                    reusability</lcObjective>
+                <lcObjective class="- topic/li learningBase/lcObjective ">Explain the types of reuse
+                    available in DITA</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="45"/>
+        </lcDuration>
+        <lcIntro>
+            <p>This lesson shows how reuse in DITA can improve the content development process and
+                reduce costs.</p>
+        </lcIntro>
+    </learningContentbody>
+    <related-links>
+        <link
+            href="https://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Content_Reuse/c_Content_Reuse_Definition.html"
+            format="html">
+            <linktext>DITA Style Guide, Content re-use definition</linktext>
+        </link>
+        <link
+            href="https://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Content_Reuse/c_Reuse_Maturity_Model.html"
+            format="html">
+            <linktext>DITA Style Guide, Re-use and the DITA Maturity Model</linktext>
+        </link>
+        <link
+            href="http://www.learningdita.com/wp-content/uploads/2016/07/Module-7-Content-Reuse.pptx"
+            format="html">
+            <linktext>Content Reuse, contributed by Pam Noreault, Tracey Chalmers,
+                and Julie Landman</linktext>
+        </link>
+    </related-links>
+</learningContent>

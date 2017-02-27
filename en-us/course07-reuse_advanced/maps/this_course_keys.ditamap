@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<map>
+ <title>Keys for reusing elements advanced</title>
+ <keydef keys="sample_file" href="http://www.learningdita.com/wp-content/uploads/2016/12/reuse_advanced_samples.zip" format="zip" scope="external">
+  <topicmeta>
+   <linktext>reuse_advanced_samples.zip</linktext>
+  </topicmeta>
+ </keydef>
+ 
+ <keydef keys="course_name">
+  <topicmeta>
+   <keywords>
+    <keyword>Advanced reuse in DITA</keyword>
+   </keywords>
+  </topicmeta>
+ </keydef>
+ 
+ <!-- keys for other conkeyref elements: -->
+ <keydef keys="ditaval_topic" href="../topics/lc_conditions_ditaval.dita" format="dita"/>
+ 
+ 
+ <!-- key for warehouse file containing conkeyref elements. -->
+ <keydef keys="sample_contents" href="../topics/z_conkeyref_elements.dita"/>
+ 
+ <!-- IMAGES -->
+ <keydef keys="i_conkeyref" href="../images/conkeyref-01.png" format="png"/>
+ <keydef keys="i_conrefend" href="../images/conrefend-01.png" format="png"/>
+ <keydef keys="i_keysubmap" href="../images/submap_of_keys-01.png" format="png"/>
+ <keydef keys="i_conref_push" href="../images/conref_push-01.png" format="png"/>
+ 
+ <!-- Screen shots -->
+ <keydef keys="i_with_filtering" href="../images/with_filtering.png" format="png"/>
+ <keydef keys="i_without_filtering" href="../images/without_filtering.png" format="png"/>
+ <keydef keys="i_flagging_product" href="../images/flagging_product.png" format="png"/>
+ <keydef keys="i_show_rev" href="../images/show_rev.png" format="png"/>
+ <keydef keys="i_no_push" href="../images/no_conref_push.png" format="png"/>
+ <keydef keys="i_ex_push_replace" href="../images/ex_push_replace.png" format="png"/>
+ <keydef keys="i_ex_push_before" href="../images/ex_push_before.png" format="png"/>
+ <keydef keys="i_ex_push_after" href="../images/ex_push_after.png" format="png"/>
+ 
+</map>

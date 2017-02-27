@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="content_pgf_3gt_qt">
+    <title>Flagging content</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey</author>
+        <critdates>
+            <created golive="2016-12-01" date="2016-10-18"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction><p>In addition to filtering, you can use conditional attributes to flag (or
+                highlight) content that is intended for different readers or different products. You
+                can use any conditional attribute for flagging, and you can use the rev attribute to
+                indicate and flag a specific revision of your product or service. </p><note>The DITA
+                sources shown in the following examples are in the downloadable samples file <xref
+                    keyref="sample_file"/>. The DITA file is c_filtering_and_flagging.dita; the
+                ditaval files are wild.ditaval and show_rev.ditaval. </note><p><b>Flagging the
+                    conditional attributes</b></p><p>To use the conditional attributes for flagging,
+                use the ditaval &lt;prop> element with the action="flag" attribute. This allows you
+                to flag text with color, background color, text styles, and images (depending on
+                what is supported in your transforms and the output generator). For
+                example:</p><pre>&lt;prop att="platform" val="android" action="flag" color="purple"/></pre><p>The
+                &lt;prop> element show here directs the output generator to use purple text on any
+                element in which the platform attribute contains the value “android”. </p><p>When
+                flagging, you can use these &lt;prop> attributes to flag text:</p><ul
+                id="ul_qr5_k1t_5x">
+                <li><b>color</b>: style the text using the specified color</li>
+                <li><b>background</b>: place the specified color behind the text</li>
+                <li><b>style</b>: format the text using a specific style (italics, bold, underline,
+                    double-underline, or overline). </li>
+            </ul><p>The color and background attributes can use either a 6-digit hex color code
+                (such as "#0000FF") or a color name (aqua, black, blue, fuchsia, gray, green, lime,
+                maroon, navy, olive, purple, red, silver, teal, white, or yellow).</p><p>For
+                example, if you use this example (from the previous
+                topic):</p><pre conkeyref="ditaval_topic/feed_example"/><p>With this ditaval
+                file:</p><pre>&lt;val>
+    &lt;prop action="flag" att="product" val="wild_ducks" color="red" style="underline"/>
+&lt;/val></pre><p>The
+                output looks like this:</p><image keyref="i_flagging_product" id="image_zmb_xj4_cy"
+                base="2016/11"/><p>You can also specify images to place before and after the flagged
+                element. Use the &lt;startflag> and &lt;endflag> elements as children of a &lt;prop
+                action="flag"> element. The imageref attribute indicates the path to the image to
+                use.</p><pre>&lt;prop att="platform" val="android" action="flag">
+   &lt;startflag imageref="images/android_icon.png">
+      &lt;alt-text>Android icon&lt;/alt-text>
+   &lt;/startflag>
+&lt;/prop></pre><p>The
+                &lt;startflag> and &lt;endflag> elements can optionally contain an &lt;alt-text>
+                element that contains alternate text for the image. </p><p><b>The rev
+                attribute</b></p><p>You use the rev attribute to indicate and flag a specific
+                revision of your product or service. The rev attribute is available on almost all
+                DITA elements. You use it just as you would a conditional
+                attribute:</p><pre>&lt;p rev="v2.1">If you have additional needs, consider using the custom table feature. &lt;/p></pre><p>The
+                values you use with the rev attribute are up to you and your organization. The
+                important thing is to be consistent in how you use the values.</p><p>As with the
+                conditional attributes you can specify multiple revision values in the rev
+                attribute; separate the values with one or more spaces.
+                </p><pre>&lt;p rev="v2.7 v2.8">The field is limited to 32 characters.&lt;/p></pre><note>It
+                is important to note that you cannot use the rev attribute for filtering content.
+                Its only purpose is for flagging.</note><p><b>Showing rev flagging in
+                output</b></p><p>You control the display of the rev attribute with the &lt;revprop>
+                element in the ditaval file. You can apply styling just as with the &lt;prop>
+                element (using the color, background color, and style attributes). You can also use
+                the &lt;startflag> and &lt;endflag> elements to add images before and after the
+                element marked with the rev attribute. </p><p>For example, if a DITA topic contains
+                this
+                content:</p><pre>&lt;p>The Duck Database tables will handle most of your duck needs.&lt;/p>
+&lt;p rev="2.1">If you have additional needs, consider using the custom table feature.&lt;/p>
+&lt;p>For more information on the standard tables, see Appendix C.&lt;/p>
+</pre><p>And
+                you generate output using a ditaval file
+                containing:</p><pre>&lt;val>
+    &lt;revprop action="flag" val="2.1" backcolor="aqua"/>
+&lt;/val></pre><p>The
+                output might look like this:</p><image keyref="i_show_rev" id="image_gxw_5k4_cy"
+                base="2016/11"/><p>Depending on the format of your output and your output generator,
+                you can also use the &lt;revprop> element to place change bars in the margins next
+                to text marked with a rev attribute. However, the capabilities and the syntax of the
+                changebar attribute vary depending on the output format and the output generator. If
+                you need to use this feature, it is best to review the documentation for your output
+                generator. </p><p>For more information about ditaval files and how to use them for
+                flagging, see <xref
+                    href="http://docs.oasis-open.org/dita/v1.2/os/spec/common/about-ditaval.html#ditaval"
+                    format="html" scope="external"
+            /></p><!--<p>You can also use the &lt;revprop> element to place change bars in the margins next to text marked with a rev attribute (if supported by your output generator). There are not separate attributes to indicate each of the changebar properties. Instead, the changebar value contains one or more property-value pairs. The value is separated from the property name with a colon (:), multiple property-value pairs are separated by semicolons (;).</p><p>The properties you can specify are:<ul id="ul_o3r_jxs_5x"><li>color - either using a 6-digit hex code or a color name</li><li>width - </li><li>style</li><li>offset</li><li>placement</li></ul>  </p>--></lcInstruction>
+    </learningContentbody>
+</learningContent>

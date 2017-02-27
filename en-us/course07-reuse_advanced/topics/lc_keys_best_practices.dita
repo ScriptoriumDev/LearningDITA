@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="content_pgf_3gt_qt">
+    <title>Best practices for keys</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey</author>
+        <critdates>
+            <created golive="2016-12-01" date="2016-10-18"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction><p><b>Use the &lt;keydef> element, rather than &lt;topicref></b></p><p>The
+                &lt;keydef> element is a specialization of the &lt;topicref> element. Although you
+                can use the &lt;topicref> element to define keys, it’s better to use &lt;keydef>
+                because:</p><ul>
+                <li>It indicates specifically what you’re doing (semantics). </li>
+                <li>It automatically specifies <tt>processing-role="resource-only"</tt>. Without
+                    this attribute, the output generator uses the referenced topic exactly where it
+                    occurs in the map, which is probably not what you want. </li>
+                <li>It requires you to use the keys attribute (which helps if you tend to forget
+                    things like that). </li>
+            </ul><p><b>Gather keys in submaps</b></p><p>It’s a good idea to gather all related keys
+                together in a submap. There are two main reasons for doing this: </p><ul
+                id="ul_lkz_mwq_px">
+                <li>Once you have gathered all related key definitions together in a single submap,
+                    you (and others on your team) can reuse that submap in maps or bookmaps for
+                    other output targets</li>
+                    <li>To change the key definitions used by the map or bookmap, it’s just a matter of
+                    switching out one key submap for another (rather than having to update all the
+                    keydef elements). Additionally, you can add multiple &lt;mapref> elements to the
+                    map or bookmap and use DITA conditional filtering (as described in the first
+                    lesson of this course) to hide all but one of the &lt;mapref> elements. </li>
+                </ul><image keyref="i_keysubmap" id="image_fbl_w4l_zx" base="2016/12"/><p><b>Adding key definitions to
+                    bookmaps</b></p><p>The structure of the &lt;bookmap> element does not allow
+                &lt;topicref>, &lt;keydef>, or &lt;mapref> elements as children of the &lt;bookmap>
+                element, so there is no obvious place in a &lt;bookmap> element to place your key
+                definitions. </p><p>A number of DITA users place &lt;keydef> or &lt;mapref> elements
+                as children of the &lt;frontmatter> element. This ensures that they are immediately
+                visible to people editing the bookmap. </p></lcInstruction>
+    </learningContentbody>
+</learningContent>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningAssessment id="lca_defining_file_key">
+ <title>defining file key</title>
+ <prolog>
+  <author type="creator" href="http://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Simon Bate</author>
+  <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Jake Campbell</author>
+  <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Gretyl Kinsey</author>
+  <critdates>
+   <created golive="2016-11-30" date="2016-11-04"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction id="lcInteraction_ovn_g4n_vx">
+   <lcSingleSelect id="lcSingleSelect_w2w_g4n_vx">
+    <lcQuestion> Which of the following is the correct form for a key definition? (Choose
+     one)</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_x2w_g4n_vx">
+     <lcAnswerOption>
+      <lcAnswerContent><tt>&lt;keydef keys="duck_diet"
+       href="topics/duck_diet.dita"/></tt></lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent><tt>&lt;keydef name="duck_diet"
+       href="topics/duck_diet.dita"/></tt></lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent><tt>&lt;keydef keys="duck_diet"
+       file="topics/duck_diet.dita"/></tt></lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent><tt>&lt;keydef keys="topics/duck_diet.dita"
+       href="duck_diet"/></tt></lcAnswerContent>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>A &lt;keydef> element for a file path should define the key with the keys
+     attribute and define the file path assigned to the key with the href attribute.
+    </lcFeedbackIncorrect>
+   </lcSingleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

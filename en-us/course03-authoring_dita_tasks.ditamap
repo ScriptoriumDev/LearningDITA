@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on 
+     github.com. See the accompanying LICENSE file for 
+     applicable licenses.-->
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Authoring DITA task topics</title>
+ <topicmeta>
+  <critdates>
+   <created date="2015-08-12"/>
+  </critdates>
+ </topicmeta>
+ <mapref href="course03-authoring_tasks/maps/m_creating.ditamap"/>
+ <mapref href="course03-authoring_tasks/maps/m_steps.ditamap"/>
+ <mapref href="course03-authoring_tasks/maps/m_finishing.ditamap"/>
+ <mapref href="course03-authoring_tasks/maps/m_best_practices.ditamap"/>
+ 
+ <mapref href="course03-authoring_tasks/maps/this_course_keys.ditamap" processing-role="resource-only"/>
+ <mapref href="shared/maps/course_keys.ditamap" processing-role="resource-only"/>
+ 
+ 
+</map>

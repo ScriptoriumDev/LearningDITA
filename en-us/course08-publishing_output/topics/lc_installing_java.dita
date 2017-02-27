@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="content_pgf_3gt_qt">
+    <title>Installing JAVA</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Noelle Russell</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Ashley Stant</author>
+        <critdates>
+            <created golive="2017-03-06" date="2017-02-10"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>(including Jake's instructions from Slack for installing JAVA on a PC)</p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_igy_wd5_xy">
+        <title>Installing JAVA on a PC</title>
+        <taskbody>
+            <steps id="steps_b2z_yd5_xy">
+                <step>
+                    <cmd>Right click on "This PC" in the file explorer, then click
+                        "Properties"</cmd>
+                </step>
+                <step>
+                    <cmd>Click "Advanced System Settings" in the left of the window that comes up;
+                        it should bring up the System Properties window, in the Advanced tab</cmd>
+                </step>
+                <step>
+                    <cmd>Click the "Environment Variables" button in the lower right</cmd>
+                    <info>
+                        <p>In the "System Variables" pane at the bottom, there should be a "Path"
+                            variable. Is there something like C:/ProgramData/Oracle/Java/javapath in
+                            there?</p>
+                        <p>You might also need to make a new system variable named "JAVA_HOME" and
+                            then for the value, point it to the directory where you installed the
+                            JDK (probably C:/Program Files/Java/{jdk_folder_name}</p>
+                    </info>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+    <task id="task_nyf_yd5_xy">
+        <title>Installing JAVA on a Mac</title>
+    </task>
+</learningContent>

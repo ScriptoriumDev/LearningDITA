@@ -18,11 +18,11 @@
  
  <conbody>
   <section>
-   <title>Referring to elements</title>
+   <title>Referring to elements and attributes</title>
    <p>When referring to elements use angle brackets around the element and add the word “element”.
     For example: “This table is built using a &lt;simpletable> element.” When refering to elements
     in plural, always use the singular element in angle brackets, followed by the plural “elements”.
-    For example, “Each row can contain one or more &lt;stentry> elements”</p>
+    For example, “Each row can contain one or more &lt;stentry> elements.”</p>
    <p>When referring to attributes, use the word “attribute”. Do not use an at-sign (@) before an
     attribute name; this is an XPath convention and means nothing to those learning DITA. </p>
   </section>

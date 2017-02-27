@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningTreeContent.dtd">
+<learningContent xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="lt-content-4677" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic concept)                             (topic reference)                             (topic task)                             (topic learningInteractionBase-d)                            (topic learningInteractionBase-d learning-d)                            (topic learningmeta-d)                             (topic learningBase+learningInteractionBase-d)                            (topic learningBase+learningInteractionBase-d learningContent)                            (topic learningBase learningSummary)                             (topic learningBase+learningInteractionBase-d learningAssessment)   " ditaarch:DITAArchVersion="1.2" class="- topic/topic learningBase/learningBase learningContent/learningContent "><title class="- topic/title ">Reusing list items</title>
+   <prolog class="- topic/prolog ">
+      <author type="creator" href="http://easydita.com/" format="html" scope="external"
+         class="- topic/author ">Mike Rice, easyDITA</author>
+      <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+         class="- topic/author ">Annie Chen, easyDITA</author>
+      <critdates>
+         <created golive="2016-07-11" date="2016-05-11"/>
+      </critdates>
+   </prolog><learningContentbody class="- topic/body  learningBase/learningBasebody learningContent/learningContentbody ">
+      <lcInstruction>
+         <p class="- topic/p ">As with paragraphs and &lt;step> element contents, you can reuse
+            &lt;li> (list item) elements, as long as they’re used in the same context and are
+            grammatically independent (that is, they do not use pronouns that refer to something
+            outside the list item). But there is an additional caution when a list is introduced by
+            an incomplete sentence (a “stem sentence”). </p>
+         <p class="- topic/p ">When an incomplete sentence introduces a list, the list items must
+            fit with the grammar of the stem sentence. List items that are written to fit with a
+            stem sentence might not work well with other stem sentences, making them poor candidates
+            for reuse.</p>
+         <p class="- topic/p ">When creating reusable items for a list, introduce them with a
+            complete sentence or independent clause (or write the list so that the introduction is
+            not necessary), and make sure that the contents of the list item are also independent
+            clauses. (An independent clause stands on its own and expresses a complete thought.)</p>
+         <dl>
+            <dlentry>
+               <dt>Not reusable:</dt>
+               <dd>
+                  <pre>&lt;p>Before using your computer, you should...&lt;/p>
+&lt;ol>
+   &lt;li>Connect the monitor.&lt;/li>
+   &lt;li>Connect the mouse.&lt;/li>
+   &lt;li>Connect the keyboard.&lt;/li>
+&lt;/ol></pre>
+               </dd>
+            </dlentry>
+            <dlentry>
+               <dt>Reusable:</dt>
+               <dd>
+                  <pre>&lt;p>Before using your computer, make sure the following 
+items are connected:&lt;/p>
+&lt;ol>
+   &lt;li>Monitor&lt;/li>
+   &lt;li>Mouse&lt;/li>
+   &lt;li>Keyboard&lt;/li>
+&lt;/ol></pre>
+               </dd>
+            </dlentry>
+         </dl>
+      </lcInstruction></learningContentbody></learningContent>

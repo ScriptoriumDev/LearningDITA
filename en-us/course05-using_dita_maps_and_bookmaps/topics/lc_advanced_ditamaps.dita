@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="lc_advanced_bookmaps">
+    <title>Advanced DITA map and bookmap concepts</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <critdates>
+            <created date="2016-03-07"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup>
+                <lcObjective>Describe the difference between map and bookmap metadata</lcObjective>
+                <lcObjective>Demonstrate where &lt;frontmatter> and &lt;backmatter> elements would
+                    be used</lcObjective>
+                <lcObjective>Create and populate &lt;booklists> elements for a table of contents and
+                    an index</lcObjective>
+
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="45"/>
+        </lcDuration>
+        <lcIntro>
+            <p>This lesson presents advanced concepts about maps and bookmaps, including metadata, content grouping, and using the &lt;booklists> element to create items such as a table of contents or an index.</p>
+        </lcIntro>
+    </learningContentbody>
+    <related-links>
+        <link
+            href="https://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/c_Types_of_Metadata.html"
+            format="html" scope="external">
+            <linktext>DITA Style Guide, Metadata</linktext>
+        </link>
+    </related-links>
+</learningContent>

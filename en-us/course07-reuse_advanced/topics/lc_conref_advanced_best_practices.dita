@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="content_pgf_3gt_qt">
+    <title>Best practices for advanced conrefs</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey</author>
+        <critdates>
+            <created golive="2016-12-01" date="2016-10-18"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p><b>Should short strings use text keys or conkeyrefs?</b></p>
+            <p>If you want to use keys to reference a short string, such as your company name, a
+                text key is the easiest way to do it. </p>
+            <p>However, the &lt;keyword> element used to define text keys can only contain text, the
+                &lt;text> element, or the &lt;tm> (trademark) element. If the string requires
+                internal markup, it’s better to use a warehouse file to define a &lt;ph> (phrase)
+                element containing the string and its markup. </p>
+            <p>For example, for the company name “Pure-H<sub>2</sub>O”, you could not store this in
+                a &lt;keyword> element; you would need to use a &lt;ph> element:</p>
+            <pre>&lt;ph id="company_name">Pure-H&lt;sub>2&lt;/sub>O&lt;/ph></pre>
+            <p>To create a reusable topic that referenced a company name, use a &lt;ph> element with
+                a conkeyref to pull in the name.</p>
+            <p><b>To use conkeyref or conref push?</b></p>
+            <p>A good rule of thumb for deciding between using conkeyref and conref push: </p>
+            <ul>
+                <li>If the element will always be present, but will change depending on the intended
+                    target, use conkeyref.</li>
+                <li>If the element will only be present for one or two intended targets (out of
+                    many), use conref push.</li>
+            </ul>
+            <p><b>Gather keys in submaps</b></p>
+            <p>As recommended in the lesson on using keys, it is a good idea to use submaps to
+                gather the key defininitions for conkeyrefs. </p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

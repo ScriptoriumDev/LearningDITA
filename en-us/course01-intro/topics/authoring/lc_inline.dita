@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_xtm_jg2_cs">
+    <title>Block versus inline elements</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-05-20"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Separation of content and formatting was probably the first thing you learned about
+                XML.</p>
+            <p>There are a few cases, however, where formatting is built into DITA/XML/HTML content
+                itself. The distinction between block and inline elements is one of those cases:</p>
+            <p>A <i>block element</i> is a paragraph-level element, such as &lt;p> tag (paragraph),
+                &lt;li> (list item), or &lt;codeblock> (software code). As a general rule, a block
+                element is separated vertically on the page from the information before and after
+                it. So if you have two &lt;p> tags in a row, they are separated by a line break when
+                the information is rendered. Note that any line breaks characters in XML itself are
+                irrelevant.</p>
+            <pre>&lt;p>This is a paragraph. &lt;/p>&lt;p>A second paragraph. &lt;/p></pre>
+            <p>The result, in oXygen’s Author view:</p>
+            <image placement="break" base="2015/07" href="../../media/authoring/parabreaks.png"
+                id="image_z1k_rsl_2s"/>
+            <p>An <i>inline element</i> is an element that provides for markup inside a paragraph,
+                such as &lt;tm> (trademark), &lt;i> (italics), &lt;xref> (cross-reference), or
+                &lt;term> (term). Inline elements, by default, do not result in line breaks.</p>
+            <pre>&lt;p>An inline element &lt;i>does not&lt;/i> result in line breaks. &lt;/p>
+&lt;p>The line breaks in the XML are
+   &lt;i>irrelevant&lt;/i>
+to the output formatting.&lt;/p></pre>
+            <p>oXygen ignores the line breaks in the code when you look at Author view:</p>
+            <image placement="break" base="2015/07" href="../../media/authoring/linebreaks.png"
+                id="image_gn1_zxl_2s"/>
+            <p>XML itself does not distinguish between block and inline elements. They use the same
+                markup, so you have to know which elements are blocks and which are inline to figure
+                out how information will be presented. Inline elements are similar to character
+                styles in word processing tools. However, there are other inline elements, such as
+                &lt;fn> (footnote) and &lt;indexterm> (index entry) that are processed differently.
+                For example, &lt;indexterm> entries are processed to create a back-of-the-book
+                index. The text content of &lt;indexterm> does not generally appear at the location
+                where the inline element occurs.</p>
+            <pre>&lt;p>An inline element&lt;indexterm>inline element&lt;/indexterm> &lt;i>does not&lt;/i> result in line breaks.&lt;/p></pre>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

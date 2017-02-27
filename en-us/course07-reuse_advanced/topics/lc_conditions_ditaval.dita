@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="content_pgf_3gt_qt">
+    <title>The ditaval file</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey</author>
+        <critdates>
+            <created golive="2016-12-01" date="2016-10-18"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction><p>When generating output from sources that use the conditional attributes,
+                you need to tell the output processor what to hide and what to show. </p><p>In most
+                output generators, you use a <term>ditaval</term> file, which indicates which
+                attributes with what values to filter out of your content. (Some output generators
+                do not use ditaval files; they use filtering mechanisms of their own design, but the
+                principles are still the same.)</p><p>The ditaval file is an XML file, but it is not
+                a DITA file; that is, it does not use the DITA doctypes or elements. In DITA 1.2,
+                the ditaval file is not included in DITA maps; the file path to your ditaval file is
+                passed to output generators using a command argument. In DITA 1.3, you can use the
+                &lt;ditavalref> element to include a ditaval file in a DITA map.</p><p>The name of
+                your ditaval file is up to you, although it’s a good idea to use a filename that
+                indicates the file’s purpose. Typically you store the ditaval file along with your
+                maps, although it can reside anywhere that is accessible to your output generator.
+                </p><p>Typically you will have one ditaval file for each main map or bookmap
+                file.</p><p>The root element in the ditaval file is the &lt;val> element; in a
+                typical file, the &lt;val> element contains one or more &lt;props> elements:
+                </p><pre>&lt;val>
+   &lt;prop att="platform" val="iphone" action="exclude" />
+&lt;/val></pre><p>This
+                example shows the basic form of a &lt;prop> element. </p><ul id="ul_zpk_hxp_tx">
+                <li>The att attribute indicates one of the conditional attributes. In this case,
+                    platform.</li>
+                <li>The val attribute indicates what value to match in the att attribute. In the
+                    example, all elements where platform="iphone" are filtered.<note>When specifying
+                        the val attribute, case is important. A val attribute containing “iPhone”
+                        would <i>not</i> match a conditional attribute with the value “iphone”.
+                    </note></li>
+                <li>The action attribute indicates what to do when a match for the attribute and
+                    value is found. In this case, any element that contains
+                        <tt>platform="iphone"</tt> is excluded from output (that is, it is hidden).
+                </li>
+            </ul><note>The DITA sources shown in the following examples are in the downloadable
+                samples file <xref keyref="sample_file"/>. The DITA file is
+                c_filtering_and_flagging.dita; the ditaval files is domestic.ditaval.
+                    </note><p><b>Conditional filtering example</b></p><p>In this example DITA topic,
+                the second &lt;p> element contains a sentence within a &lt;ph> (phrase) element. The
+                product conditional attribute has the value
+                “wild_ducks":</p><pre id="feed_example">&lt;p>For the healthiest ducks, we recommend using our feeds.&lt;/p>
+&lt;p>All our duck feeds are composed of cracked corn, oats, rice, and milo seed. 
+&lt;ph product="wild_ducks">Our wild duck feed also includes worm meal and fish meal. &lt;/ph>
+&lt;/p>
+&lt;p>All feeds are available in 5, 10, and 20 pound sacks.&lt;/p>
+</pre><p>If
+                you generate output from this content without using a ditaval file, it looks like
+                this:</p><image keyref="i_without_filtering" id="image_l15_qh4_cy" base="2016/11"
+                /><p>But if you use this ditaval file to filter out content where
+                product="wild_ducks":</p><pre>&lt;val>
+    &lt;prop att="product" val="wild_ducks" action="exclude" />
+&lt;/val></pre><p>The
+                output looks like this:</p><image keyref="i_with_filtering" id="image_ucd_c34_cy"
+                base="2016/12"/><p>For more information about ditaval files and how to use them for
+                filtering, see <xref
+                    href="http://docs.oasis-open.org/dita/v1.2/os/spec/common/about-ditaval.html#ditaval"
+                    format="html" scope="external"/></p></lcInstruction>
+    </learningContentbody>
+</learningContent>

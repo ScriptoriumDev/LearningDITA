@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on 
+     github.com. See the accompanying LICENSE file for 
+     applicable licenses.-->
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Using DITA maps and bookmaps</title>
+ <topicmeta>
+  <critdates>
+   <created date="2016-03-07"/>
+  </critdates>
+ </topicmeta>
+ <mapref href="course05-using_dita_maps_and_bookmaps/maps/m_creating_map.ditamap"/>
+ <mapref href="course05-using_dita_maps_and_bookmaps/maps/m_creating_bookmap.ditamap"/>
+ <mapref href="course05-using_dita_maps_and_bookmaps/maps/m_advanced_ditamap_concepts.ditamap"/>
+ <mapref href="course05-using_dita_maps_and_bookmaps/maps/m_relationship_tables.ditamap"/>
+ 
+ <mapref href="course05-using_dita_maps_and_bookmaps/maps/this_course_keys.ditamap" processing-role="resource-only"/>
+ <mapref href="shared/maps/course_keys.ditamap" processing-role="resource-only"/>
+ 
+ <!-- We may or may not want to use this next topic: -->
+ <!--  
+ <mapref href="maps/m_best_practices_map.ditamap"/>
+-->
+</map>

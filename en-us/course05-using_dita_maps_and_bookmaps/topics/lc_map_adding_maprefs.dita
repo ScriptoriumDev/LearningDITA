@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_pgf_3gt_qt">
+    <title>Adding map references to a map</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <critdates>
+            <created date="2016-03-07"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>The &lt;mapref> element is structured as follows:</p>
+            <pre>&lt;mapref href="filepath/filename.ditamap" format="ditamap"></pre>
+            <p>The href attribute contains a link to another map that is referenced in your main
+                map. The format attribute specifies that you are linking to a DITA map.</p>
+            <p>The &lt;mapref> element may only contain the &lt;topicmeta>, &lt;data>, and
+                &lt;data-about> metadata elements. You cannot nest &lt;topicref> or &lt;mapref>
+                elements inside a &lt;mapref> element in DITA.</p>
+            <p>Just as the &lt;topicref> element allows you to reuse a topic in more than one map,
+                the &lt;mapref> element allows you to reuse a collection of topics. By building a
+                map once and referencing it in other maps, you can save the time and effort it would
+                have taken to re-create the same series or hierarchy of &lt;topicref> elements in
+                multiple maps.</p>
+            <p>In addition to reuse, the &lt;mapref> element gives you added flexibility when you
+                publish your content. You can group related maps together in a larger map so that you can quickly deliver all of the content for an entire product family. You can also use the &lt;mapref> element to add a glossary to a map, as you’ll learn to do in the following example.</p>
+            <note>
+                <p>For more information about the &lt;mapref> element, see the <xref
+                        href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/mapref.html"
+                        format="html" scope="external">OASIS DITA Version 1.2 Standard</xref>.</p>
+            </note>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_at5_jgd_3v">
+        <title>Practice</title>
+        <taskbody>
+            <steps id="steps_umd_lgd_3v">
+                <step>
+                    <cmd>Continue using the file
+                        maps_bookmaps_samples/samples/_m_ducks_start.ditamap.</cmd>
+                </step>
+                <step>
+                    <cmd>After the last &lt;topicref> element, add a &lt;mapref> element and add
+                        content to it as shown in the following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+&lt;map id="ducks">
+&lt;title>Ducks&lt;/title>
+...
+&lt;/topicref>
+<ph outputclass="newchanged">&lt;mapref href="g_duck_glossorg.ditamap" format="ditamap"/></ph>
+&lt;/map></pre>
+                    </stepxmp>
+                    <info>This &lt;mapref> element creates a link to the glossary
+                        g_duck_glossorg.ditamap. By using the &lt;mapref> element to link to the glossary, you can avoid the hassle of using &lt;topicref> elements to build the glossary directly into your map. This also make your glossary more easily available for reuse in other maps.
+                    </info>
+                </step>
+                <step>
+                    <cmd>Check your file maps_bookmaps_samples/samples/_m_ducks_start.ditamap
+                        against the sample file
+                        maps_bookmaps_samples/samples/_m_ducks.ditamap.</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+    <task id="task_maps">
+        <title>Exercise</title>
+        <taskbody>
+            <steps id="steps_exercise_maps">
+                <step>
+                    <cmd>Open the file maps_bookmaps_samples/exercises/_m_cs101_start.ditamap and
+                        use it to assemble topics from <xref href="http://contentstrategy101.com/"
+                            format="html" scope="external">Content Strategy 101</xref> into a DITA
+                        map, using the following hierarchical structure as a guide:</cmd>
+                    <info>
+                        <pre outputclass="passthru"><![CDATA[
+                            <hr />
+                            <ul>
+                            <li>Controlling technical communication costs
+                                <ul>
+                                <li>The fallacy of low-cost documentation</li>
+                                <li>Efficient technical content development</li>
+                                <li>Reducing the cost of technical support
+                                    <ul>
+                                    <li>Better technical information, fewer support calls</li>
+                                    <li>More efficient support operations</li>
+                                    </ul>
+                                </li>
+                                <li>Content collaboration across the organization
+                                    <ul>
+                                    <li>“Collaboration” ≠ “content free-for-all”</li>
+                                    </ul>
+                                </li>
+                                </ul>
+                            </li>
+                            <li>Marketing and product visibility
+                                <ul>
+                                <li>Supporting marketing with technical content
+                                    <ul>
+                                    <li>Reinforcing the marketing message</li>
+                                    <li>When technical content contradicts marketing</li>
+                                    </ul>
+                                </li>
+                                </ul>
+                                <ul>
+                                <li>Increasing product visibility
+                                    <ul>
+                                    <li>Third-party books</li>
+                                    </ul>
+                                </li>
+                                </ul>
+                                <ul>
+                                <li>Building user community and loyalty
+                                    <ul>
+                                    <li>Extending the game experience into content</li>
+                                    </ul>
+                                </li>
+                                </ul>
+                            </li>
+                            <li>Legal and regulatory issues
+                                <ul>
+                                <li>Avoiding legal exposure</li>
+                                <li>Meeting regulatory requirements
+                                    <ul>
+                                    <li>Information delivery</li>
+                                    <li>Technical standards</li>
+                                    </ul>
+                                </li>
+                                </ul>
+                            </li>
+                            </ul>
+                            <hr/>]]></pre>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Check your file maps_bookmaps_samples/exercises/_m_cs101_start.ditamap
+                        against the sample
+                        filemaps_bookmaps_samples/exercises/_m_cs101.ditamap.</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

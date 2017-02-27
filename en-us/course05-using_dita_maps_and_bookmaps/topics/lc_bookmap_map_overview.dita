@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_pgf_3gt_qt">
+    <title>Overview: maps vs. bookmaps</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <critdates>
+            <created date="2016-03-07"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Bookmaps extend the functionality of maps by providing elements that allow you to
+                create book-like structures. These include chapters, appendices, parts (which can be
+                used to group chapters or appendices), and optional front matter and back matter.
+                Although maps and bookmaps share a similar structure, bookmaps contain a more
+                expansive set of elements, which provide many more options for preparing your
+                content for publication—particularly if you have large amounts of content. This
+                makes bookmaps better suited to publishing content in a book format, and more
+                flexible than maps overall.</p>
+            <p>When you’re deciding whether to compile your topics into a map or a bookmap, your
+                publication and delivery process should be a major factor. If you need to deliver
+                your content in print or PDF form, it is generally recommended that you use bookmaps
+                instead of maps. Maps are sufficient for online-only distribution (such as HTML or
+                online help), but if you plan to publish the same set of topics in both print-based
+                and online formats, it's better to use a bookmap.</p>
+            <p>One of the main differences between bookmaps and maps is the ability to have chapters
+                in a bookmap. In a map, you can nest second-level topics under a first-level topic
+                to create a hierarchy. In a bookmap, these first-level topics are designated as
+                chapters. You can also designate a first-level topic as an appendix in a bookmap.
+                Although the hierarchical structure of topics is the same, there is added semantic
+                value in calling the first-level topics chapters. When you publish the same set of
+                topics in a bookmap instead of a map, your output transforms can format your chapter
+                topics differently than the other topics.</p>
+            <p>Bookmaps also give you an additional way to define metadata with the &lt;bookmeta>
+                element. The &lt;bookmeta> element, which contains publication-specific information,
+                can only be applied to the &lt;bookmap> element—it is not available in maps. The
+                ability to use the &lt;bookmeta> element is another reason that bookmaps are better
+                suited than maps for publishing book-like structures.</p>
+            <p><xref href="https://youtu.be/1zVA2Spuy_c" format="html" scope="external">Video:
+                DITA maps and bookmaps</xref></p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

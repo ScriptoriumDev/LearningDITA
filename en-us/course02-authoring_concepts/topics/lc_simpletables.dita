@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_kw5_5ls_zs">
+    <title>Adding simple tables to a concept topic</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-08-24"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction><p>There are two elements available for creating tables in a concept topic: &lt;simpletable> and
+                &lt;table>. </p><p>Use the &lt;simpletable> element whenever you can, especially for short tables. Use the
+                &lt;table> element for larger tables or tables that need more complex
+                formatting.</p>
+            <p>The elements contained in the &lt;simpletable> element include:</p>
+            <simpletable frame="all" relcolwidth="1.0* 1.0*" id="simpletable_rwy_l3n_2t">
+                <strow>
+                    <stentry>
+                        <p>&lt;sthead></p>
+                    </stentry>
+                    <stentry>
+                        <p>The container element for the header row of a &lt;simpletable> element.
+                            The &lt;sthead> element contains the &lt;stentry> element and is
+                            optional. There can only be one &lt;sthead> element in a
+                            &lt;simpletable> element.</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;strow></p>
+                    </stentry>
+                    <stentry>
+                        <p>The container element for the body rows of a &lt;simpletable> element.
+                            The &lt;strow> element contains the &lt;stentry> element. A
+                            &lt;simpletable> element can have one or more &lt;strow> elements.</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;stentry></p>
+                    </stentry>
+                    <stentry>
+                        <p>The container element for a single cell in a &lt;simpletable> element.
+                            The &lt;stentry> element contains the text of a cell in the
+                            &lt;simpletable> element, which should be wrapped in a &lt;p> element
+                            according to best practice.</p>
+                    </stentry>
+                </strow>
+            </simpletable><p>This lesson will cover the basics of using the &lt;simpletable> element.</p><fig>
+                <title>Example &lt;simpletable> in a visual format</title>
+                <image href="../media/images_and_tables/simpletable.png" id="image_rtn_xmn_2t" base="2016/08"/>
+            </fig><p>Continue using the file lesson2/l_concept_images_tables_start.dita to add the &lt;simpletable>
+                element.</p>
+            <note>
+                <p>If you are using a DITA editor, some child elements of the &lt;simpletable>
+                    element will automatically be inserted as you work through the examples.</p>
+            </note></lcInstruction>
+    </learningContentbody>
+    <task id="task_a2s_dvs_zs">
+        <title>Adding the &lt;simpletable> element</title>
+        <taskbody>
+            <steps id="steps_mrl_tf1_dt">
+                <step>
+                    <cmd>Inside the &lt;conbody> element after the &lt;fig> element, add a
+                        &lt;simpletable> element as shown in the following example:</cmd>
+                    <stepxmp/>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_images_tables">
+   &lt;title>Duckling growth and development&lt;/title>
+  &lt;conbody>
+...
+&lt;/fig>
+ <ph outputclass="newchanged">&lt;simpletable>
+ &lt;/simpletable></ph>
+   &lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Inside the &lt;simpletable> element, add the &lt;sthead> element as shown
+                        in the following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_images_tables">
+   &lt;title>Duckling growth and development&lt;/title>
+ &lt;conbody>
+...
+&lt;simpletable>
+<ph outputclass="newchanged">&lt;sthead>
+&lt;/sthead></ph>
+&lt;/simpletable>
+   &lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>The &lt;sthead> element sets up the header row of the &lt;simpletable>
+                        element.</info>
+                </step>
+                <step>
+                    <cmd>Inside the &lt;sthead> element, add two &lt;stentry> elements and add content to
+                        them as shown in the following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_images_tables">
+   &lt;title>Duckling growth and development&lt;/title>
+  &lt;conbody>
+...
+&lt;sthead>
+<ph outputclass="newchanged">&lt;stentry>&lt;p>Age&lt;/p>&lt;/stentry>
+&lt;stentry>&lt;p>Milestone&lt;/p>&lt;/stentry></ph>
+&lt;/sthead>
+...
+   &lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>The &lt;stentry> element represents a single cell. The number of
+                        &lt;stentry> elements inside the &lt;sthead> element will determine how many
+                        columns will be in your &lt;simpletable> element.</info>
+                    <info>Each &lt;stentry> element you added follows the best practice of wrapping
+                        a &lt;p> element around the text.</info>
+                </step>
+                <step>
+                    <cmd>After the &lt;sthead> element, add the &lt;strow> element as shown in the
+                        following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_images_tables">
+   &lt;title>Duckling growth and development&lt;/title>
+   &lt;conbody>
+...
+&lt;/sthead>
+<ph outputclass="newchanged">&lt;strow>
+&lt;/strow></ph>
+...
+   &lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>The &lt;strow> element sets up each body row following the header row of
+                        the &lt;simpletable> element.</info>
+                </step>
+                <step>
+                    <cmd>Inside the &lt;strow> element, add two &lt;stentry> elements and add content to
+                        them as shown in the following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_images_tables">
+   &lt;title>Duckling growth and development&lt;/title>
+  &lt;conbody>
+...
+&lt;strow>
+<ph outputclass="newchanged">&lt;stentry>&lt;p>7 weeks&lt;/p>&lt;/stentry>
+&lt;stentry>&lt;p>Attempt flight for the first time&lt;/p>&lt;/stentry></ph>
+&lt;/strow>
+...
+   &lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>
+                        <p>Every &lt;strow> element and the &lt;sthead> element should contain the
+                            same number of &lt;stentry> elements.</p>
+                    </info>
+                </step>
+                <step>
+                    <cmd>After the first &lt;strow> element, add two more rows to the
+                        &lt;simpletable> element and add content to them as shown in the following
+                        example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_images_tables">
+   &lt;title>Duckling growth and development&lt;/title>
+ &lt;conbody>
+...
+&lt;/strow>
+<ph outputclass="newchanged">&lt;strow>
+&lt;stentry>&lt;p>12-14 weeks&lt;/p>&lt;/stentry>
+&lt;stentry>&lt;p>Reach adult body weight&lt;/p>&lt;/stentry>
+&lt;/strow>
+&lt;strow>
+&lt;stentry>&lt;p>1 year&lt;/p>&lt;/stentry>
+&lt;stentry>&lt;p>Capable of reproduction&lt;/p>&lt;/stentry>
+&lt;/strow></ph>
+...
+   &lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>You can add one or more &lt;strow> elements to a &lt;simpletable>
+                        element.</info>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

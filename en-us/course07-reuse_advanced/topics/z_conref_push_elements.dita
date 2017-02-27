@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_oyt_5r4_tx">
+  <title>Conref push elements</title>
+  <body>
+    <p conref="../../shared/topics/lc_general_housekeeping.dita#download" conaction="pushreplace">
+      To view the sources for some of the examples in this course, 
+      download <xref keyref="sample_file"/> now. 
+      Extract the contents and put them in a directory that you can access easily.
+      If you have access to an output generator (usually the DITA Open Toolkit), you can 
+      use it to generate output and see these principles in action. 
+    </p>
+
+    <!-- This description omits the Oxygen editor and any mention of videos. -->
+    <p conref="../../shared/topics/lc_general_housekeeping.dita#editor_info" conaction="pushreplace">
+      In the instructions and examples, we show you the DITA code for the sample files.
+      Most DITA editors have auto-complete or other similar features to guide you through
+      the process of adding elements (for example, if you type the opening tag of an
+      element, most DITA editors will automatically add the closing tag for you).
+      Therefore, you will probably not need to create every piece of code from scratch as
+      you work.</p>
+
+    <p conref="../../shared/topics/lc_general_housekeeping.dita#saving" conaction="pushreplace">
+      The lessons will instruct you on which files to use for the samples. 
+       </p>
+    
+    <p conref="../../shared/topics/lc_general_housekeeping.dita#download" conaction="pushreplace">
+      Download <xref keyref="sample_file"/> now. It contains the sample files for the
+      entire <keyword keyref="course_name"/> course. Extract the contents and put them in
+      a directory that you can access easily.</p>
+  </body>
+</topic>
