@@ -22,7 +22,14 @@
         <lcInstruction>
             <p>conceptual overview of what's involved with publishing through oXygen</p>
             <p>circumstances in which publishing through oXygen makes sense</p>
-            <p>Hello!</p>
+            <p>The oXygen XML Editor utilizes a user-friendly GUI that makes publishing output as
+                easy as clicking a button. All users need to do is select their preferred output
+                from a list of scenarios, including PDFs, XHTML, and WebHelps, and apply that
+                transformation. This masks the process but may not be optimal for users who like to
+                see their builds run, such as seen when using the OT. If you are new to DITA, using
+                oXygen's simple interface to publish output may be the right choice for you.
+                However, oXygen is not free. Consumers must purchase an annual license to use the
+                software, which may not be a practical investment for smaller projects.</p>
         </lcInstruction>
     </learningContentbody>
 </learningContent>
