@@ -24,4 +24,97 @@
             <p>troubleshooting common issues with DITA OT installation, setup, first build</p>
         </lcInstruction>
     </learningContentbody>
+    <task id="task_q32_qtw_cz">
+        <title>Running a DITA OT test build on a PC</title>
+        <taskbody>
+            <steps id="steps_tyl_xtw_cz">
+                <step>
+                    <cmd>Click Start > Run</cmd>
+                </step>
+                <step>
+                    <cmd>Type cmd</cmd>
+                </step>
+                <step>
+                    <cmd>Type cd to navigate to the OT folder</cmd>
+                </step>
+                <step>
+                    <cmd>Type the following string of commands to run the DITA OT:</cmd>
+                    <info>
+                        <pre>bin\dita -i input-file -f transtype -o output-dir -v</pre>
+                        <p>bin\dita specifies that you are generating DITA output</p>
+                        <p>-i tells the DITA OT the name and filepath of the DITA map or file that
+                            needs to be transformed into output.<note>To enter the filepath and
+                                filename without typing it, navigate to the file on your system,
+                                click on the file's icon, and drag the icon directly into the
+                                command window.</note></p>
+                        <p>-f tells the DITA OT which transtype, or output transformation type, to
+                            use. The transtype value indicates whether the output type should be
+                            PDF, HTML, webhelp, or any other format.<note>For the purpose of this
+                                exercise, type pdf2 to generate output from the DITA OT's default
+                                PDF plugin.</note></p>
+                        <p>-o tells the DITA OT where to store the generated output. If no output
+                            directory is specified, the DITA OT will place the output into its
+                            default "out" folder. To specify a directory without typing it, navigate
+                            to the folder on your system, click on the folder's icon, and drag the
+                            icon directly into the command window.</p>
+                        <p>-v tells the DITA OT to display the command log as it generates the
+                            output. Typing this command is optional, but it is useful to watch the
+                            DITA OT run in realtime to help troubleshoot errors.</p>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Press ENTER to run the DITA Open Toolkit.</cmd>
+                </step>
+                <step>
+                    <cmd>Look in the output folder you specified with the -o command to see your
+                        generated output.</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+    <task id="task_pfs_wtw_cz">
+        <title>Running a DITA OT test build on a Mac</title>
+        <taskbody>
+            <steps id="steps_x1p_xtw_cz">
+                <step>
+                    <cmd>Launch the Terminal application</cmd>
+                </step>
+                <step>
+                    <cmd>Type cd to navigate to the OT folder</cmd>
+                </step>
+                <step>
+                    <cmd>Type the following string of commands to run the DITA OT:</cmd>
+                    <info>
+                        <pre>./bin/dita -i input-file -f transtype -o output-dir -v</pre>
+                        <p>./bin/dita specifies that you are generating DITA output</p>
+                        <p>-i tells the DITA OT the name and filepath of the DITA map or file that
+                            needs to be transformed into output.<note>To enter the filepath and
+                                filename without typing it, navigate to the file on your system,
+                                click on the file's icon, and drag the icon directly into the
+                                command window.</note></p>
+                        <p>-f tells the DITA OT which transtype, or output transformation type, to
+                            use. The transtype value indicates whether the output type should be
+                            PDF, HTML, webhelp, or any other format.<note>For the purpose of this
+                                exercise, type pdf2 to generate output from the DITA OT's default
+                                PDF plugin.</note></p>
+                        <p>-o tells the DITA OT where to store the generated output. If no output
+                            directory is specified, the DITA OT will place the output into its
+                            default "out" folder. To specify a directory without typing it, navigate
+                            to the folder on your system, click on the folder's icon, and drag the
+                            icon directly into the command window.</p>
+                        <p>-v tells the DITA OT to display the command log as it generates the
+                            output. Typing this command is optional, but it is useful to watch the
+                            DITA OT run in realtime to help troubleshoot errors.</p>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Press RETURN to run the DITA Open Toolkit.</cmd>
+                </step>
+                <step>
+                    <cmd>Look in the output folder you specified with the -o command to see your
+                        generated output.</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
 </learningContent>
