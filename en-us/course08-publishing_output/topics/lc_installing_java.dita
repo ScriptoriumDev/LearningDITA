@@ -20,31 +20,47 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>(including Jake's instructions from Slack for installing JAVA on a PC)</p>
+            <p>The DITA Open Toolkit requires JAVA to run the commands for publishing output. The
+                SoureForge website includes the minimum JAVA requirements for each version of the
+                DITA OT.</p>
         </lcInstruction>
     </learningContentbody>
     <task id="task_igy_wd5_xy">
         <title>Installing JAVA on a PC</title>
         <taskbody>
-            <steps id="steps_b2z_yd5_xy">
+            <steps>
                 <step>
-                    <cmd>Right click on "This PC" in the file explorer, then click
-                        "Properties"</cmd>
-                </step>
-                <step>
-                    <cmd>Click "Advanced System Settings" in the left of the window that comes up;
-                        it should bring up the System Properties window, in the Advanced tab</cmd>
-                </step>
-                <step>
-                    <cmd>Click the "Environment Variables" button in the lower right</cmd>
+                    <cmd>Download and install the latest version of the Java Development Kit (JDK).</cmd>
                     <info>
-                        <p>In the "System Variables" pane at the bottom, there should be a "Path"
-                            variable. Is there something like C:/ProgramData/Oracle/Java/javapath in
-                            there?</p>
-                        <p>You might also need to make a new system variable named "JAVA_HOME" and
-                            then for the value, point it to the directory where you installed the
-                            JDK (probably C:/Program Files/Java/{jdk_folder_name}</p>
+                        <p>At the time of this publication, the latest version of the JDK was
+                            version 8.</p>
                     </info>
+                </step>
+                <step>
+                    <cmd>Open File Explorer, right-click on "This PC," and then click "Properties."
+                        A new window will open.</cmd>
+                </step>
+                <step>
+                    <cmd>Click on the "Advanced System Settings" link in the left column of the new
+                        window. Another window will open.</cmd>
+                </step>
+                <step>
+                    <cmd>Click on the "Environment Variables" button found in the lower right of the new window.</cmd>
+                </step>
+                <step>
+                    <cmd>Find "JAVA_HOME" under the "System Variables" panel, and check that the value points to the directory where the JDK is installed. </cmd>
+                    <info>
+                        <p>If "JAVA_HOME" exists, and the value displays the correct location, then
+                            you are done. If not, continue to the following steps. </p>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Click "New..."</cmd>
+                </step>
+                <step>
+                    <cmd>Input "JAVA_HOME" (without quotation marks) under "Variable name" and the
+                        location of the JDK (for example, C:/Program Files/Java/{jdk_folder_name})
+                        under "Variable value."</cmd>
                 </step>
             </steps>
         </taskbody>

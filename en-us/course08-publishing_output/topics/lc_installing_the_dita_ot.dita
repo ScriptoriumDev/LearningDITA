@@ -20,7 +20,85 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>(instructions for downloading and installing the DITA OT)</p>
+            <p>In the previous lesson, you learned about different DITA publishing environments. The
+                rest of this course covers publishing through a standalone DITA Open Toolkit.</p>
+            <p>The following instructions show you how to install the DITA Open Toolkit on your
+                machine.</p>
         </lcInstruction>
     </learningContentbody>
+    <task id="task_h4s_gnw_cz">
+        <title>Downloading the DITA Open Toolkit</title>
+        <taskbody>
+            <steps id="steps_h3y_3nw_cz">
+                <step>
+                    <cmd>In a web browser, go to the SourceForge website (<xref
+                            href="http://www.dita-ot.org/" format="html" scope="external"/>), where
+                        the open-source DITA OT is available.</cmd>
+                </step>
+                <step>
+                    <cmd>Navigate to the "Download" page (<xref
+                            href="http://www.dita-ot.org/download" format="html" scope="external"
+                        />).</cmd>
+                    <info>
+                        <p>The latest DITA OT distribution package will be displayed at the top of
+                            the page. The page also contains a link to the latest version that is
+                            under development for testing, followed by a list of previous versions
+                            of the DITA OT.</p>
+                        <note>
+                            <p>At the time of this course's release, the latest version of the DITA
+                                OT was 2.4.4.</p>
+                        </note>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Click on the button to download the latest distribution package of the DITA
+                        OT.</cmd>
+                    <info>
+                        <p>The DITA OT will be downloaded as a zip folder.</p>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Locate the DITA OT zip folder in your system folder structure to ensure
+                        that the download completed successfully.</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+    <task id="task_wbg_z4w_cz">
+        <title>Installing the DITA Open Toolkit</title>
+        <taskbody>
+            <context id="context_ppt_bpw_cz">These instructions apply for both Windows and Mac
+                environments.</context>
+            <steps id="steps_lvr_1pw_cz">
+                <step>
+                    <cmd>Choose a folder on your machine where you want to install the DITA Open
+                        Toolkit.</cmd>
+                    <info>
+                        <note>
+                            <p>The commands used to publish output through the DITA OT don't do well
+                                with spaces or special characters in file and path names. Therefore,
+                                it's best to install the OT at the root level of your machine's
+                                system folder structure in a folder that only uses letters, numbers,
+                                underscores, or hyphens in its name.</p>
+                        </note>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Move the DITA OT zip folder you downloaded into the new folder you chose in
+                        the previous step.</cmd>
+                    <info>(include screenshot here of the DITA OT zip in a folder?)</info>
+                </step>
+                <step>
+                    <cmd>Unzip the DITA OT folder.</cmd>
+                    <info>
+                        <p>On a PC, right-click the zip folder and click "Extract" to unzip the
+                            contents into the new location. (Also mention something here about uzing
+                            a zip utility tool such as 7Zip?)</p>
+                        <p>On a Mac, double-click the zip folder. This will automatically unzip its
+                            contents into the new location.</p>
+                    </info>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
 </learningContent>
