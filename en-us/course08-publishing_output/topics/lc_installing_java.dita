@@ -67,5 +67,41 @@
     </task>
     <task id="task_nyf_yd5_xy">
         <title>Installing JAVA on a Mac</title>
+        <taskbody>
+            <steps>
+                <step>
+                    <cmd>If a pop up window appears and says you need to download a different version of Java, follow the link provided.</cmd>
+                </step>
+                <step>
+                    <cmd> For the DITA OT, the version of Java needed will most likely be the Java
+                        Development Kit (JDK). </cmd>
+                    <info>
+                        <p>At the time of this publication, the latest version of the JDK was
+                            version 8.</p>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Make sure you click on "Accept License Agreement" when asked. A pop up will appear if you've clicked download without selecting "Accept."</cmd>
+                </step>
+                <step>
+                    <cmd>Under the download column select the Java link that is specific to your computer's system. 
+                    </cmd>
+                    <info>Mac users choose MAC OS X.</info>
+                </step>
+                <step>
+                    <cmd>A dmg file will begin downloading.</cmd>
+                </step>
+                <step>
+                    <cmd>Once it has downloaded, click on the icon in your downloads folder.</cmd>
+                </step>
+                <step>
+                    <cmd>A window will appear with instructions.</cmd>
+                    <info>Double click on icon to install</info>
+                </step>
+                <step>
+                    <cmd>Click "Install," "Run," or equivalent.</cmd>
+                </step>
+            </steps>
+        </taskbody>
     </task>
 </learningContent>
