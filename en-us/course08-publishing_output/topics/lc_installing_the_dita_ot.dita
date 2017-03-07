@@ -67,8 +67,6 @@
     <task id="task_wbg_z4w_cz">
         <title>Installing the DITA Open Toolkit</title>
         <taskbody>
-            <context id="context_ppt_bpw_cz">These instructions apply for both Windows and Mac
-                environments.</context>
             <steps id="steps_lvr_1pw_cz">
                 <step>
                     <cmd>Choose a folder on your machine where you want to install the DITA Open
@@ -91,11 +89,11 @@
                 <step>
                     <cmd>Unzip the DITA OT folder.</cmd>
                     <info>
-                        <p>On a PC, right-click the zip folder and click "Extract" to unzip the
-                            contents into the new location. (Also mention something here about uzing
-                            a zip utility tool such as 7Zip?)</p>
-                        <p>On a Mac, double-click the zip folder. This will automatically unzip its
-                            contents into the new location.</p>
+                        <p><b>On a PC:</b> Right-click the zip folder and click "Extract" to unzip
+                            the contents into the new location. (Also mention something here about
+                            uzing a zip utility tool such as 7Zip?)</p>
+                        <p><b>On a Mac:</b> Double-click the zip folder. This will automatically
+                            unzip its contents into the new location.</p>
                     </info>
                 </step>
             </steps>
