@@ -20,16 +20,53 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>Discussion of why you would create custom plugins...</p>
-            <ul id="ul_ijc_mh5_xy">
-                <li>the default plugins provided with the DITA OT don't match your look and
-                    feel/branding</li>
-                <li>the default plugins don't have the functionality to support your structure</li>
-                <li>the DITA OT doesn't provide a default plugin for an output type you need</li>
+            <p>The DITA OT comes with default plugins for generating several output types. As you
+                saw in the previous lesson, these include the pdf2 plugin for PDF output and the
+                xhtml plugin for HTML output. These default plugins are helpful when you're learning
+                to publish content using the DITA OT. However, they are rarely used for publishing
+                in real-world situations.</p>
+            <p>Here are some reasons why the default plugins don't usually work for companies that
+                publish content:</p>
+            <ul id="ul_dnm_gkg_2z">
+                <li>
+                    <p><b>Look and feel.</b> The default plugins provided with the DITA OT use very
+                        basic, generic styling. Companies need the output to match the look and feel
+                        of their branding. The output needs to use company colors and fonts,
+                        incorporate the company logo, and include images or symbols associated with
+                        the company brand. </p>
+                    <p>Even for content where there are no corporate branding requirements–for
+                        example, academic articles, research, reports, or internal content–the group
+                        publishing the content will probably want to improve on the look and feel of
+                        the default plugins.</p>
+                </li>
+                <li>
+                    <p><b>Functionality.</b> In some cases, the default plugins cannot support
+                        certain aspects of the source content's structure. If you're using a DITA
+                        specialization, the default plugins will probably not display your content
+                        in the output as you intended. Depending on the nature of the
+                        specialization, the DITA OT may fail to build output at all.</p>
+                </li>
+                <li>
+                    <p><b>Output type.</b> You may need to generate a type of output that isn't
+                        included in the DITA OT's default plugins. One example of this is companies
+                        that need to send their DITA source content into InDesign for complex,
+                        highly-designed formatting before publishing it to PDF output. The DITA OT
+                        does not provide a default DITA-to-InDesign plugin.</p>
+                </li>
             </ul>
-            <p>Evaluating your customization needs (whether you need custom plugins, what kind of
-                customization)</p>
-            <p>Structure vs. appearance-based customization</p>
+            <p>If the DITA OT's default plugins don't suit your needs, you can install custom
+                plugins and use them to generate output. Some custom plugins are based on the
+                underlying structure of the DITA OT's default plugins; others, such as
+                DITA-to-InDesign plugins, are created independently.</p>
+            <p>When you're evaluating your need for custom plugins, ask yourself:</p>
+            <ul id="ul_nch_kpg_2z">
+                <li>Whether your customization requirements are based on look and feel, structure,
+                    or both</li>
+                <li>How the structure of your source content affects the DITA OT's publishing
+                    capabilities</li>
+                <li>What types of output you need and how much they differ from the DITA OT's
+                    default outputs</li>
+            </ul>
         </lcInstruction>
     </learningContentbody>
 </learningContent>

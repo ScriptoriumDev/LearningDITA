@@ -20,8 +20,45 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>further customize the xhtml plugin by updating the CSS</p>
-            <p>test updates to the xhtml plugin</p>
+            <p>If you're using custom plugins, you may need to update them over time. One of the
+                most common reasons for updating the styling of a custom plugin is a change in
+                company branding. You may also need to update a custom plugin to accommodate changes
+                to the source content's structure–for example, adding a new element to your
+                specialization, or specializing for the first time.</p>
+            <p>Customizing DITA OT plugins is difficult and requires lots of testing to ensure that
+                updates to the plugin have the desired results in the output. Because the DITA OT
+                plugins use XSL (Extensible Markup Language), special knowledge of XSL is required
+                to customize a default plugin or make updates to a custom plugin. For this reason,
+                most companies hire an XSL expert–whether an outside consultant or an in-house
+                employee–to customize plugins.</p>
+            <p>There is a more straightforward way that the xhtml plugin can be customized to update
+                the look and feel of the content: CSS, or cascading stylesheets. The xhtml plugin
+                includes a file called style.css, which is run through the DITA OT to give the HTML
+                output its styling and exported along with the HTML output. Because more people have
+                common knowledge of CSS than XSL, a company may not need to hire an XSL expert if it
+                only produces HTML output and can rebrand its content entirely through CSS.</p>
+            <p>The following instructions will show you how to make some simple updates to the CSS
+                for your custom xhtml plugin and generate HTML output to test the results.</p>
         </lcInstruction>
     </learningContentbody>
+    <task id="task_dng_jxg_2z">
+        <title>Updating the custom xhtml plugin's CSS on a PC</title>
+        <taskbody>
+            <steps id="steps_scx_mzg_2z">
+                <step>
+                    <cmd>In the </cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+    <task id="task_umb_lxg_2z">
+        <title>Updating the custom xhtml plugin's CSS on a Mac</title>
+        <taskbody>
+            <steps>
+                <step>
+                    <cmd/>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
 </learningContent>

@@ -20,8 +20,32 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>generating HTML output from the DITA OT using the default xhtml plugin</p>
-            <p>(we will provide sample DITA content from the maps course to run through the OT)</p>
+            <p>In addition to PDF output, this lesson also shows you how to generate HTML output
+                using the DITA Open Toolkit. The exercise for generating HTML output will use the
+                same content as the PDF exercise. Seeing the same content in two different output
+                types will give you a firsthand look at the way DITA separates content from
+                formatting.</p>
+            <p>The following instructions show you how to publish HTML output from the DITA OT:</p>
         </lcInstruction>
     </learningContentbody>
+    <task id="task_kth_1dh_2z">
+        <title>Generating HTML output on a PC</title>
+        <taskbody>
+            <steps id="steps_xtk_bdh_2z">
+                <step>
+                    <cmd/>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+    <task id="task_lqt_bdh_2z">
+        <title>Generating HTML output on a Mac</title>
+        <taskbody>
+            <steps id="steps_mqt_bdh_2z">
+                <step>
+                    <cmd/>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
 </learningContent>

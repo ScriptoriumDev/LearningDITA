@@ -20,8 +20,29 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>generating PDF output from the DITA OT using the default pdf2 plugin</p>
-            <p>(we will provide sample DITA content from the maps course to run through the OT)</p>
+            <p>In the previous lesson, your first test build with the DITA OT used the pdf2 plugin.
+                The following instructions show you how to use the DITA OT to see the differences
+                between PDF output generated from a map and PDF output generated from a bookmap.</p>
         </lcInstruction>
     </learningContentbody>
+    <task id="task_klm_zbh_2z">
+        <title>Generating PDF output on a PC</title>
+        <taskbody>
+            <steps id="steps_php_1ch_2z">
+                <step>
+                    <cmd/>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+    <task id="task_ht5_1ch_2z">
+        <title>Generating PDF output on a Mac</title>
+        <taskbody>
+            <steps id="steps_it5_1ch_2z">
+                <step>
+                    <cmd/>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
 </learningContent>

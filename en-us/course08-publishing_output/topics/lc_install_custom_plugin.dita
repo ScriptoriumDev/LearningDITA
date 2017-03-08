@@ -23,6 +23,98 @@
             <p>install a custom plugin (we will provide a simple customized xhtml plugin for
                 testing)</p>
             <p>run the integrator to begin using the custom plugin</p>
+            <p>The following instructions show how to install a custom plugin and generate output
+                from it using the DITA Open Toolkit.</p>
         </lcInstruction>
     </learningContentbody>
+    <task id="task_gln_ytg_2z">
+        <title>Installing a custom plugin on a PC</title>
+        <taskbody>
+            <steps id="steps_ezx_ztg_2z">
+                <step>
+                    <cmd>Locate the folder com.learningdita.xhtml in the samples folder you
+                        downloaded at the beginning of this course.</cmd>
+                </step>
+                <step>
+                    <cmd>Inside your DITA OT folder, copy com.learningdita.xhtml into the plugins
+                        folder.</cmd>
+                </step>
+                <step>
+                    <cmd>Inside the "outputs" folder you created earlier, create a new folder named
+                        "custom_output."</cmd>
+                </step>
+                <step>
+                    <cmd>Type the following commands into your command window:</cmd>
+                    <info>
+                        <pre>bin\dita integrator.xml -v</pre>
+                        <p>These commands run the integrator, which enables the DITA OT to generate
+                            output from the custom xhtml plugin.</p>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Press ENTER to run the DITA Open Toolkit.</cmd>
+                </step>
+                <step>
+                    <cmd>To test the integration by generating output, type the following commands
+                        into your command window:</cmd>
+                    <info>
+                        <pre>bin\dita [RUNOT_filename] -v</pre>
+                        <p>These commands use a RUNOT file to generate HTML output from the custom
+                            xhtml plugin.</p>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Press ENTER to run the DITA Open Toolkit.</cmd>
+                </step>
+                <step>
+                    <cmd>Look in the "custom_output" folder to see the generated HTML output.</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+    <task id="task_rqz_tvg_2z">
+        <title>Installing a custom plugin on a PC</title>
+        <taskbody>
+            <steps id="steps_sqz_tvg_2z">
+                <step>
+                    <cmd>Locate the folder com.learningdita.xhtml in the samples folder you
+                        downloaded at the beginning of this course.</cmd>
+                </step>
+                <step>
+                    <cmd>Inside your DITA OT folder, copy com.learningdita.xhtml into the plugins
+                        folder.</cmd>
+                </step>
+                <step>
+                    <cmd>Inside the "outputs" folder you created earlier, create a new folder named
+                        "custom_output."</cmd>
+                </step>
+                <step>
+                    <cmd>Type the following commands into your Terminal window:</cmd>
+                    <info>
+                        <pre>./bin/dita integrator.xml -v</pre>
+                        <p>These commands run the integrator, which enables the DITA OT to generate
+                            output from the custom xhtml plugin.</p>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Press ENTER to run the DITA Open Toolkit.</cmd>
+                </step>
+                <step>
+                    <cmd>To test the integration by generating output, type the following commands
+                        into your command window:</cmd>
+                    <info>
+                        <pre>./bin/dita [RUNOT_filename] -v</pre>
+                        <p>These commands use a RUNOT file to generate HTML output from the custom
+                            xhtml plugin.</p>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Press ENTER to run the DITA Open Toolkit.</cmd>
+                </step>
+                <step>
+                    <cmd>Look in the "custom_output" folder to see the generated HTML output.</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
 </learningContent>
