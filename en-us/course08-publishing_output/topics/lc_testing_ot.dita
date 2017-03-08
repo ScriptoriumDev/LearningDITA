@@ -32,48 +32,34 @@
         <taskbody>
             <steps id="steps_tyl_xtw_cz">
                 <step>
-                    <cmd>Click Start > Run</cmd>
+                    <cmd>Click Start > Run.</cmd>
                 </step>
                 <step>
-                    <cmd>Type cmd</cmd>
+                    <cmd>Type cmd.</cmd>
                 </step>
                 <step>
-                    <cmd>Type cd to navigate to the OT folder</cmd>
+                    <cmd>Type cd to navigate to the OT folder.</cmd>
                 </step>
                 <step>
                     <cmd>Type the following string of commands into the command window to run the
                         DITA OT:</cmd>
                     <info>
-                        <pre>bin\dita -i [input-file] -f pdf2 -o [output-dir] -v</pre>
-                        <p><b>bin\dita</b> specifies that you are generating DITA output</p>
-                        <p><b>-i</b> tells the DITA OT the name and filepath of the DITA map or file
-                            that needs to be transformed into output.<note>To enter the filepath and
-                                filename without typing it, navigate to the file on your system,
-                                click on the file's icon, and drag the icon directly into the
-                                command window.</note></p>
-                        <p><b>-f</b> tells the DITA OT which transtype, or output transformation
-                            type, to use. The transtype value indicates whether the output type
-                            should be PDF, HTML, webhelp, or any other format.<note>For the purpose
-                                of this exercise, you have entered <b>pdf2</b> as the transtype to
-                                generate output from the DITA OT's default PDF plugin.</note></p>
-                        <p><b>-o</b> tells the DITA OT where to store the generated output. If no
-                            output directory is specified, the DITA OT will place the output into
-                            its default "out" folder. To specify a directory without typing it,
-                            navigate to the folder on your system, click on the folder's icon, and
-                            drag the icon directly into the command window.</p>
-                        <p><b>-v</b> tells the DITA OT to display the command log as it generates
-                            the output. Typing this command is optional, but it is useful to watch
-                            the DITA OT run in realtime to help troubleshoot errors.</p>
+                        <pre>bin\dita -i [filepath]/sources/m_ducks.ditamap -f pdf2 -o [filepath]/outputs/m_ducks_output -v</pre>
+                        <note>To enter the filepath for the m_ducks.ditamap file without typing it,
+                            navigate to the file on your system, click on the file's icon, and drag
+                            the icon directly into the command window. You can use the same action
+                            to enter the filepath for the m_ducks_output folder without typing
+                            it.</note>
                     </info>
                 </step>
                 <step>
                     <cmd>Press ENTER to run the DITA Open Toolkit.</cmd>
-                    <info>Because you entered the optional -v command, you will see a log of the
-                        DITA OT's build process in realtime displayed in the command window.</info>
+                    <info>You will see a log of the DITA OT's build process in realtime displayed in
+                        the command window.</info>
                 </step>
                 <step>
-                    <cmd>Look in the output folder you specified to see your generated output. You
-                        should see a file called [filename].pdf.</cmd>
+                    <cmd>Look in the m_ducks_output folder to see your generated output. You should
+                        see a file called m_ducks.pdf.</cmd>
                 </step>
             </steps>
         </taskbody>
@@ -83,45 +69,31 @@
         <taskbody>
             <steps id="steps_x1p_xtw_cz">
                 <step>
-                    <cmd>Launch the Terminal application</cmd>
+                    <cmd>Launch the Terminal application.</cmd>
                 </step>
                 <step>
-                    <cmd>Type cd to navigate to the OT folder</cmd>
+                    <cmd>Type cd to navigate to the OT folder.</cmd>
                 </step>
                 <step>
                     <cmd>Type the following string of commands into the Terminal to run the DITA
                         OT:</cmd>
                     <info>
-                        <pre>./bin/dita -i [input-file] -f pdf2 -o [output-dir] -v</pre>
-                        <p><b>./bin/dita</b> specifies that you are generating DITA output</p>
-                        <p><b>-i</b> tells the DITA OT the name and filepath of the DITA map or file
-                            that needs to be transformed into output.<note>To enter the filepath and
-                                filename without typing it, navigate to the file on your system,
-                                click on the file's icon, and drag the icon directly into the
-                                command window.</note></p>
-                        <p><b>-f</b> tells the DITA OT which transtype, or output transformation
-                            type, to use. The transtype value indicates whether the output type
-                            should be PDF, HTML, webhelp, or any other format.<note>For the purpose
-                                of this exercise, you have entered <b>pdf2</b> as the transtype to
-                                generate output from the DITA OT's default PDF plugin.</note></p>
-                        <p><b>-o</b> tells the DITA OT where to store the generated output. If no
-                            output directory is specified, the DITA OT will place the output into
-                            its default "out" folder. To specify a directory without typing it,
-                            navigate to the folder on your system, click on the folder's icon, and
-                            drag the icon directly into the command window.</p>
-                        <p><b>-v</b> tells the DITA OT to display the command log as it generates
-                            the output. Typing this command is optional, but it is useful to watch
-                            the DITA OT run in realtime to help troubleshoot errors.</p>
+                        <pre>./bin/dita -i [filepath]/sources/m_ducks.ditamap -f pdf2 -o [filepath]/outputs/m_ducks_output -v</pre>
+                        <note>To enter the filepath for the m_ducks.ditamap file without typing it,
+                            navigate to the file on your system, click on the file's icon, and drag
+                            the icon directly into the Terminal window. You can use the same action
+                            to enter the filepath for the m_ducks_output folder without typing
+                            it.</note>
                     </info>
                 </step>
                 <step>
                     <cmd>Press RETURN to run the DITA Open Toolkit.</cmd>
-                    <info>Because you entered the optional -v command, you will see a log of the
-                        DITA OT's build process in realtime displayed in the Terminal.</info>
+                    <info>You will see a log of the DITA OT's build process in realtime displayed in
+                        the Terminal.</info>
                 </step>
                 <step>
-                    <cmd>Look in the output folder you specified to see your generated output. You
-                        should see a file called [filename].pdf.</cmd>
+                    <cmd>Look in the m_ducks_output folder to see your generated output. You should
+                        see a file called m_ducks.pdf.</cmd>
                 </step>
             </steps>
         </taskbody>
