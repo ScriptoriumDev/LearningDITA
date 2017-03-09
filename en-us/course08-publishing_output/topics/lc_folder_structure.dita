@@ -109,7 +109,7 @@
                 and output folders on your system for testing.</context>
             <steps id="steps_n2j_drf_2z">
                 <step>
-                    <cmd>Create a new folder and name it "sources."</cmd>
+                    <cmd>Create a new folder on your machine and name it "sources."</cmd>
                     <info>
                         <note>To ensure that there are no spaces in the filepath, we recommend
                             creating this folder at the root level of your machine.</note>
@@ -120,15 +120,14 @@
                         course.</cmd>
                 </step>
                 <step>
-                    <cmd>Copy the file "m_ducks.ditamap" and the folder "m_ducks" into the "sources"
-                        folder.</cmd>
+                    <cmd>Copy the "ducks" folder into the "sources" folder.</cmd>
                 </step>
                 <step>
                     <cmd>Create a new folder and name it "outputs."</cmd>
                 </step>
                 <step>
                     <cmd>Inside the "outputs" folder, create a new folder and name it
-                        "m_ducks_output."</cmd>
+                        "ducks_output."</cmd>
                 </step>
             </steps>
             <result id="result_kc1_srf_2z">You are now ready to test the DITA OT.</result>

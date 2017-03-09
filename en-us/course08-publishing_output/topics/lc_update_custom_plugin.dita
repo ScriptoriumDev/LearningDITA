@@ -46,7 +46,60 @@
         <taskbody>
             <steps id="steps_scx_mzg_2z">
                 <step>
-                    <cmd>In the </cmd>
+                    <cmd>Navigate to your "custom_output" folder and open the file ().xhtml in a
+                        browser.</cmd>
+                    <info><p>The HTML output should look like this:</p><image id="image_i25_smn_2z"
+                            /><note>Fonts and spacing may vary depending on which browser and
+                            version you are using.</note></info>
+                </step>
+                <step>
+                    <cmd>Locate the file style.css in your DITA OT folder under
+                        plugins/com.learningdita.xhtml/resource.</cmd>
+                </step>
+                <step>
+                    <cmd>Open style.css in a text editor.</cmd>
+                </step>
+                <step>
+                    <cmd>Make the following changes to style.css:</cmd>
+                    <info>
+                        <pre>.p {
+  margin-top: 1em;
+  font-family: "Lingua Franca", Palatino, serif;
+  font-size: 0.9em;
+  <b>color: #D48028;</b>
+}
+
+.topictitle1 {
+  margin-top: 0;
+  margin-bottom: .1em;
+  font-size: 2em;
+  font-family: "Gill Sans", Helvetica, sans-serif;
+  font-weight: normal;
+  <b>color: #86CCCC;</b>
+}</pre>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Save your changes to style.css.</cmd>
+                </step>
+                <step>
+                    <cmd>Enter the following commands into the Terminal window to test your updates
+                        to the custom plugin:</cmd>
+                    <info>
+                        <pre>bin\dita -i [filepath]/sources/ducks/m_ducks.ditamap -f xhtml(?) -o [filepath]/outputs/custom_output -v</pre>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Press ENTER to run the DITA Open Toolkit.</cmd>
+                </step>
+                <step>
+                    <cmd>Look inside your "custom_output" folder to view your generated custom HTML
+                        output.</cmd>
+                </step>
+                <step>
+                    <cmd>Open ().xhtml in a browser to see the CSS changes you made.</cmd>
+                    <info><p>The HTML output should now look like this:</p><image
+                            id="image_stg_3mn_2z"/></info>
                 </step>
             </steps>
         </taskbody>
@@ -54,9 +107,62 @@
     <task id="task_umb_lxg_2z">
         <title>Updating the custom xhtml plugin's CSS on a Mac</title>
         <taskbody>
-            <steps>
+            <steps id="steps_sqc_rpn_2z">
                 <step>
-                    <cmd/>
+                    <cmd>Navigate to your "custom_output" folder and open the file ().xhtml in a
+                        browser.</cmd>
+                    <info><p>The HTML output should look like this:</p><image id="image_tqc_rpn_2z"
+                            /><note>Fonts and spacing may vary depending on which browser and
+                            version you are using.</note></info>
+                </step>
+                <step>
+                    <cmd>Locate the file style.css in your DITA OT folder under
+                        plugins/com.learningdita.xhtml/resource.</cmd>
+                </step>
+                <step>
+                    <cmd>Open style.css in a text editor.</cmd>
+                </step>
+                <step>
+                    <cmd>Make the following changes to style.css:</cmd>
+                    <info>
+                        <pre>.p {
+  margin-top: 1em;
+  font-family: "Lingua Franca", Palatino, serif;
+  font-size: 0.9em;
+  <b>color: #D48028;</b>
+}
+
+.topictitle1 {
+  margin-top: 0;
+  margin-bottom: .1em;
+  font-size: 2em;
+  font-family: "Gill Sans", Helvetica, sans-serif;
+  font-weight: normal;
+  <b>color: #86CCCC;</b>
+}</pre>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Save your changes to style.css.</cmd>
+                </step>
+                <step>
+                    <cmd>Enter the following commands into the Terminal window to test your updates
+                        to the custom plugin:</cmd>
+                    <info>
+                        <pre>./bin/dita -i [filepath]/sources/ducks/m_ducks.ditamap -f xhtml(?) -o [filepath]/outputs/custom_output -v</pre>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Press RETURN to run the DITA Open Toolkit.</cmd>
+                </step>
+                <step>
+                    <cmd>Look inside your "custom_output" folder to view your generated custom HTML
+                        output.</cmd>
+                </step>
+                <step>
+                    <cmd>Open ().xhtml in a browser to see the CSS changes you made.</cmd>
+                    <info><p>The HTML output should now look like this:</p><image
+                            id="image_uqc_rpn_2z"/></info>
                 </step>
             </steps>
         </taskbody>
