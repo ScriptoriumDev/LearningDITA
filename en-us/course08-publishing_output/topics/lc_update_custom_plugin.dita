@@ -32,11 +32,12 @@
                 most companies hire an XSL expert–whether an outside consultant or an in-house
                 employee–to customize plugins.</p>
             <p>There is a more straightforward way that the xhtml plugin can be customized to update
-                the look and feel of the content: CSS, or cascading stylesheets. The xhtml plugin
-                includes a file called style.css, which is run through the DITA OT to give the HTML
-                output its styling and exported along with the HTML output. Because more people have
-                common knowledge of CSS than XSL, a company may not need to hire an XSL expert if it
-                only produces HTML output and can rebrand its content entirely through CSS.</p>
+                the look and feel of the content: CSS, or cascading stylesheets. Because more people
+                have common knowledge of CSS than XSL, a company may not need to hire an XSL expert
+                if it only produces HTML output and can rebrand its content entirely through
+                CSS.</p>
+            <note>(add disclaimer about why we customized this plugin the way we did/themore common
+                way to customize plugin for CSS)</note>
             <p>The following instructions will show you how to make some simple updates to the CSS
                 for your custom xhtml plugin and generate HTML output to test the results.</p>
         </lcInstruction>
@@ -46,21 +47,21 @@
         <taskbody>
             <steps id="steps_scx_mzg_2z">
                 <step>
-                    <cmd>Navigate to your "custom_output" folder and open the file ().xhtml in a
-                        browser.</cmd>
+                    <cmd>Navigate to your "custom_output" folder and open the file
+                        c_wild_duck_species.html in a browser.</cmd>
                     <info><p>The HTML output should look like this:</p><image id="image_i25_smn_2z"
                             /><note>Fonts and spacing may vary depending on which browser and
                             version you are using.</note></info>
                 </step>
                 <step>
-                    <cmd>Locate the file style.css in your DITA OT folder under
-                        plugins/com.learningdita.xhtml/resource.</cmd>
+                    <cmd>Locate the file ld_style.css in your DITA OT folder under
+                        plugins/com.learningdita.ld_xhtml/resource.</cmd>
                 </step>
                 <step>
-                    <cmd>Open style.css in a text editor.</cmd>
+                    <cmd>Open ld_style.css in a text editor.</cmd>
                 </step>
                 <step>
-                    <cmd>Make the following changes to style.css:</cmd>
+                    <cmd>Make the following changes to ld_style.css:</cmd>
                     <info>
                         <pre>.p {
   margin-top: 1em;
@@ -80,13 +81,13 @@
                     </info>
                 </step>
                 <step>
-                    <cmd>Save your changes to style.css.</cmd>
+                    <cmd>Save your changes to ld_style.css.</cmd>
                 </step>
                 <step>
                     <cmd>Enter the following commands into the Terminal window to test your updates
                         to the custom plugin:</cmd>
                     <info>
-                        <pre>bin\dita -i [filepath]/sources/ducks/m_ducks.ditamap -f xhtml(?) -o [filepath]/outputs/custom_output -v</pre>
+                        <pre>bin\dita -i [filepath]/sources/ducks/m_ducks.ditamap -f ld_xhtml -o [filepath]/outputs/custom_output -v</pre>
                     </info>
                 </step>
                 <step>
@@ -97,7 +98,8 @@
                         output.</cmd>
                 </step>
                 <step>
-                    <cmd>Open ().xhtml in a browser to see the CSS changes you made.</cmd>
+                    <cmd>Open c_wild_duck_species.html in a browser to see the CSS changes you
+                        made.</cmd>
                     <info><p>The HTML output should now look like this:</p><image
                             id="image_stg_3mn_2z"/></info>
                 </step>
@@ -109,21 +111,21 @@
         <taskbody>
             <steps id="steps_sqc_rpn_2z">
                 <step>
-                    <cmd>Navigate to your "custom_output" folder and open the file ().xhtml in a
-                        browser.</cmd>
+                    <cmd>Navigate to your "custom_output" folder and open the file
+                        c_wild_duck_species.html in a browser.</cmd>
                     <info><p>The HTML output should look like this:</p><image id="image_tqc_rpn_2z"
                             /><note>Fonts and spacing may vary depending on which browser and
                             version you are using.</note></info>
                 </step>
                 <step>
-                    <cmd>Locate the file style.css in your DITA OT folder under
-                        plugins/com.learningdita.xhtml/resource.</cmd>
+                    <cmd>Locate the file ld_style.css in your DITA OT folder under
+                        plugins/com.learningdita.ld_xhtml/resource.</cmd>
                 </step>
                 <step>
-                    <cmd>Open style.css in a text editor.</cmd>
+                    <cmd>Open ld_style.css in a text editor.</cmd>
                 </step>
                 <step>
-                    <cmd>Make the following changes to style.css:</cmd>
+                    <cmd>Make the following changes to ld_style.css:</cmd>
                     <info>
                         <pre>.p {
   margin-top: 1em;
@@ -143,13 +145,13 @@
                     </info>
                 </step>
                 <step>
-                    <cmd>Save your changes to style.css.</cmd>
+                    <cmd>Save your changes to ld_style.css.</cmd>
                 </step>
                 <step>
                     <cmd>Enter the following commands into the Terminal window to test your updates
                         to the custom plugin:</cmd>
                     <info>
-                        <pre>./bin/dita -i [filepath]/sources/ducks/m_ducks.ditamap -f xhtml(?) -o [filepath]/outputs/custom_output -v</pre>
+                        <pre>./bin/dita -i [filepath]/sources/ducks/m_ducks.ditamap -f ld_xhtml -o [filepath]/outputs/custom_output -v</pre>
                     </info>
                 </step>
                 <step>
@@ -160,7 +162,8 @@
                         output.</cmd>
                 </step>
                 <step>
-                    <cmd>Open ().xhtml in a browser to see the CSS changes you made.</cmd>
+                    <cmd>Open c_wild_duck_species.html in a browser to see the CSS changes you
+                        made.</cmd>
                     <info><p>The HTML output should now look like this:</p><image
                             id="image_uqc_rpn_2z"/></info>
                 </step>
