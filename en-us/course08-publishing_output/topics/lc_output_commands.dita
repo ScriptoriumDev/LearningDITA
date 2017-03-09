@@ -60,12 +60,16 @@
                 running. For example, you can tell the DITA OT to display any draft-comments in the
                 source content, which are hidden by default. In cases where you need more complex
                 build parameters, it makes sense to use a RUNOT file.</p>
-            <p>A RUNOT file is a series of commands stored in an XML file. Instead of entering each
+            <p>A RUNOT file is a series of commands stored in an XML file. RUNOT files help save
+                time for those who need to run numerous test builds. Instead of entering each
                 command into the command or Terminal window, you can simply enter the following:</p>
             <pre>(RUNOT command)</pre>
-            <p>RUNOT files help save time for those who need to run numerous test builds. We have
-                provided RUNOT files in the samples folder for use with the rest of the exercises in
-                this course.</p>
+            <draft-comment author="gretylkinsey">
+                <p>We have provided RUNOT files in the samples folder for use with the rest of the
+                    exercises in this course. (are we still planning to do this? or does it make
+                    more sense to just provide the commands since they're only doing simple
+                    builds?)</p>
+            </draft-comment>
         </lcInstruction>
     </learningContentbody>
 </learningContent>

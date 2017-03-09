@@ -30,7 +30,26 @@
         <taskbody>
             <steps id="steps_php_1ch_2z">
                 <step>
-                    <cmd/>
+                    <cmd>Type the following commands into your command window:</cmd>
+                    <info>
+                        <pre>bin\dita -i [filepath]/sources/ducks/b_ducks.ditamap -f pdf2 -o [filepath]/outputs/ducks_output -v</pre>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Press ENTER to run the DITA Open Toolkit.</cmd>
+                </step>
+                <step>
+                    <cmd>Navigate to your "ducks_output" folder and locate the PDF file you just
+                        generated, b_ducks.pdf.</cmd>
+                </step>
+                <step>
+                    <cmd>Open both b_ducks.pdf and m_ducks.pdf in a PDF viewer.</cmd>
+                    <info><p>Note the way the DITA OT's default PDF plugin displays output from
+                            bookmaps versus output from maps. Although both the map and the bookmap
+                            contain the same content, the PDF files look different.</p><p>The
+                            content generated from a map (m_ducks.PDF) looks like this:</p><image
+                            id="image_v2c_drn_2z"/><p>The content generated from a bookmap
+                            (b_ducks.PDF) looks like this:</p><image id="image_c53_drn_2z"/></info>
                 </step>
             </steps>
         </taskbody>
@@ -38,9 +57,28 @@
     <task id="task_ht5_1ch_2z">
         <title>Generating PDF output on a Mac</title>
         <taskbody>
-            <steps id="steps_it5_1ch_2z">
+            <steps id="steps_tk3_2rn_2z">
                 <step>
-                    <cmd/>
+                    <cmd>Type the following commands into your Terminal window:</cmd>
+                    <info>
+                        <pre>./bin/dita -i [filepath]/sources/ducks/b_ducks.ditamap -f pdf2 -o [filepath]/outputs/ducks_output -v</pre>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Press RETURN to run the DITA Open Toolkit.</cmd>
+                </step>
+                <step>
+                    <cmd>Navigate to your "ducks_output" folder and locate the PDF file you just
+                        generated, b_ducks.pdf.</cmd>
+                </step>
+                <step>
+                    <cmd>Open both b_ducks.pdf and m_ducks.pdf in a PDF viewer.</cmd>
+                    <info><p>Note the way the DITA OT's default PDF plugin displays output from
+                            bookmaps versus output from maps. Although both the map and the bookmap
+                            contain the same content, the PDF files look different.</p><p>The
+                            content generated from a map (m_ducks.PDF) looks like this:</p><image
+                            id="image_uk3_2rn_2z"/><p>The content generated from a bookmap
+                            (b_ducks.PDF) looks like this:</p><image id="image_vk3_2rn_2z"/></info>
                 </step>
             </steps>
         </taskbody>
