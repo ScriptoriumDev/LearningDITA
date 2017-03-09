@@ -20,9 +20,6 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>install a custom plugin (we will provide a simple customized xhtml plugin for
-                testing)</p>
-            <p>run the integrator to begin using the custom plugin</p>
             <p>The following instructions show how to install a custom plugin and generate output
                 from it using the DITA Open Toolkit.</p>
         </lcInstruction>
@@ -58,9 +55,7 @@
                     <cmd>To test the integration by generating output, type the following commands
                         into your command window:</cmd>
                     <info>
-                        <pre>bin\dita [RUNOT_filename] -v</pre>
-                        <p>These commands use a RUNOT file to generate HTML output from the custom
-                            xhtml plugin.</p>
+                        <pre>bin\dita -i [filepath]/sources/ducks/m_ducks.ditamap -f xhtml(?) -o [filepath]/outputs/custom_output -v</pre>
                     </info>
                 </step>
                 <step>
@@ -69,11 +64,20 @@
                 <step>
                     <cmd>Look in the "custom_output" folder to see the generated HTML output.</cmd>
                 </step>
+                <step>
+                    <cmd>Open the file ().xhtml in a browser and compare it to the version of
+                        ().xhtml in your "ducks_output" folder.</cmd>
+                    <info><p>The version of ().xhtml generated from the custom plugin should look
+                            like this:</p><image id="image_bpx_znn_2z"/><p>The version of ().xhtml
+                            generated from the default plugin should look like this:</p><image
+                            id="image_kh2_b4n_2z"/><note>Fonts and spacing may vary depending on
+                            which browser and version you are using.</note></info>
+                </step>
             </steps>
         </taskbody>
     </task>
     <task id="task_rqz_tvg_2z">
-        <title>Installing a custom plugin on a PC</title>
+        <title>Installing a custom plugin on a Mac</title>
         <taskbody>
             <steps id="steps_sqz_tvg_2z">
                 <step>
@@ -101,18 +105,25 @@
                 </step>
                 <step>
                     <cmd>To test the integration by generating output, type the following commands
-                        into your command window:</cmd>
+                        into your Terminal window:</cmd>
                     <info>
-                        <pre>./bin/dita [RUNOT_filename] -v</pre>
-                        <p>These commands use a RUNOT file to generate HTML output from the custom
-                            xhtml plugin.</p>
+                        <pre>./bin/dita -i [filepath]/sources/ducks/m_ducks.ditamap -f xhtml(?) -o [filepath]/outputs/custom_output -v</pre>
                     </info>
                 </step>
                 <step>
-                    <cmd>Press ENTER to run the DITA Open Toolkit.</cmd>
+                    <cmd>Press RETURN to run the DITA Open Toolkit.</cmd>
                 </step>
                 <step>
                     <cmd>Look in the "custom_output" folder to see the generated HTML output.</cmd>
+                </step>
+                <step>
+                    <cmd>Open the file ().xhtml in a browser and compare it to the version of
+                        ().xhtml in your "ducks_output" folder.</cmd>
+                    <info><p>The version of ().xhtml generated from the custom plugin should look
+                            like this:</p><image id="image_hmf_c4n_2z"/><p>The version of ().xhtml
+                            generated from the default plugin should look like this:</p><image
+                            id="image_imf_c4n_2z"/><note>Fonts and spacing may vary depending on
+                            which browser and version you are using.</note></info>
                 </step>
             </steps>
         </taskbody>

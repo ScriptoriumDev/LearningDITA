@@ -44,11 +44,11 @@
                     <cmd>Type the following string of commands into the command window to run the
                         DITA OT:</cmd>
                     <info>
-                        <pre>bin\dita -i [filepath]/sources/m_ducks.ditamap -f pdf2 -o [filepath]/outputs/m_ducks_output -v</pre>
+                        <pre>bin\dita -i [filepath]/sources/ducks/m_ducks.ditamap -f pdf2 -o [filepath]/outputs/ducks_output -v</pre>
                         <note>To enter the filepath for the m_ducks.ditamap file without typing it,
                             navigate to the file on your system, click on the file's icon, and drag
                             the icon directly into the command window. You can use the same action
-                            to enter the filepath for the m_ducks_output folder without typing
+                            to enter the filepath for the ducks_output folder without typing
                             it.</note>
                     </info>
                 </step>
@@ -58,7 +58,7 @@
                         the command window.</info>
                 </step>
                 <step>
-                    <cmd>Look in the m_ducks_output folder to see your generated output. You should
+                    <cmd>Look in the ducks_output folder to see your generated output. You should
                         see a file called m_ducks.pdf.</cmd>
                 </step>
             </steps>
@@ -78,11 +78,11 @@
                     <cmd>Type the following string of commands into the Terminal to run the DITA
                         OT:</cmd>
                     <info>
-                        <pre>./bin/dita -i [filepath]/sources/m_ducks.ditamap -f pdf2 -o [filepath]/outputs/m_ducks_output -v</pre>
+                        <pre>./bin/dita -i [filepath]/sources/ducks/m_ducks.ditamap -f pdf2 -o [filepath]/outputs/ducks_output -v</pre>
                         <note>To enter the filepath for the m_ducks.ditamap file without typing it,
                             navigate to the file on your system, click on the file's icon, and drag
                             the icon directly into the Terminal window. You can use the same action
-                            to enter the filepath for the m_ducks_output folder without typing
+                            to enter the filepath for the ducks_output folder without typing
                             it.</note>
                     </info>
                 </step>
@@ -92,7 +92,7 @@
                         the Terminal.</info>
                 </step>
                 <step>
-                    <cmd>Look in the m_ducks_output folder to see your generated output. You should
+                    <cmd>Look in the ducks_output folder to see your generated output. You should
                         see a file called m_ducks.pdf.</cmd>
                 </step>
             </steps>
