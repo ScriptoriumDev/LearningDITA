@@ -20,10 +20,52 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>list/define the commands most commonly used to generate output (borrow from Simon's
-                documentation on running the DITA OT)</p>
-            <p>discuss RUNOT files and how they can help with publishing</p>
-            <p>(we will provide RUNOT files for generating PDF and HTML output)</p>
+            <p>In the previous lesson, you tested the DITA OT by entering the following set of
+                commands for
+                PC:<pre>bin\dita -i [filepath]/sources/m_ducks.ditamap -f pdf2 -o [output-dir] -v</pre></p>
+            <p>Or for
+                Mac:<pre>./bin/dita -i [filepath]/sources/m_ducks.ditamap -f pdf2 -o [filepath]/outputs/m_ducks_output -v</pre></p>
+            <p>These are the standard commands of a basic DITA OT build. Here is what each command
+                means:</p>
+            <ul id="ul_dx2_csf_2z">
+                <li>
+                    <p><b>bin\dita</b> (PC) or <b>./bin/dita</b> (Mac) specifies that you are
+                        generating DITA output.</p>
+                </li>
+                <li>
+                    <p><b>-i</b> tells the DITA OT the name and filepath of the DITA map or file
+                        that needs to be transformed into output.</p>
+                </li>
+                <li>
+                    <p><b>-f</b> tells the DITA OT which transtype, or output transformation type,
+                        to use. The transtype value indicates whether the output type should be PDF,
+                        HTML, webhelp, or any other format.</p>
+                    <note>
+                        <p>In the previous lesson, you entered <b>pdf2</b> as the transtype to
+                            generate output using the DITA OT's default PDF plugin.</p>
+                    </note>
+                </li>
+                <li>
+                    <p><b>-o</b> tells the DITA OT where to store the generated output. If you do
+                        not use the -o command to specify an output directory, the DITA OT will
+                        place the output into its default "out" folder.</p>
+                </li>
+                <li>
+                    <p><b>-v</b> tells the DITA OT to display the command log as it generates the
+                        output. This command is optional, but it is useful to watch the DITA OT run
+                        in realtime to help troubleshoot errors.</p>
+                </li>
+            </ul>
+            <p>You can use additional commands to add more specifcations about the build you're
+                running. For example, you can tell the DITA OT to display any draft-comments in the
+                source content, which are hidden by default. In cases where you need more complex
+                build parameters, it makes sense to use a RUNOT file.</p>
+            <p>A RUNOT file is a series of commands stored in an XML file. Instead of entering each
+                command into the command or Terminal window, you can simply enter the following:</p>
+            <pre>(RUNOT command)</pre>
+            <p>RUNOT files help save time for those who need to run numerous test builds. We have
+                provided RUNOT files in the samples folder for use with the rest of the exercises in
+                this course.</p>
         </lcInstruction>
     </learningContentbody>
 </learningContent>

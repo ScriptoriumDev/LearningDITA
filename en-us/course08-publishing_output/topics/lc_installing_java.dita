@@ -20,7 +20,16 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>(including Jake's instructions from Slack for installing JAVA on a PC)</p>
+            <p>The DITA Open Toolkit requires JAVA to run the commands for publishing output. The
+                SoureForge website includes the minimum JAVA requirements for each version of the
+                DITA OT.</p>
+            <p>When you try to generate output, the DITA OT will alert you if your system does not
+                meet the JAVA requirements. A pop-up window may appear indicating that you need a
+                different version of JAVA and providing a link where you can download the correct
+                version. For the DITA OT, the version of JAVA you need will most likely be the JAVA
+                Development Kit (JDK).</p>
+            <p>Follow the instructions below to ensure that your version of the JDK is up to date.
+                Separate instructions are provided for PC and Mac users.</p>
         </lcInstruction>
     </learningContentbody>
     <task id="task_igy_wd5_xy">
@@ -28,9 +37,10 @@
         <taskbody>
             <steps>
                 <step>
-                    <cmd>Download and install the latest version of the Java Development Kit (JDK).</cmd>
+                    <cmd>Download and install the latest version of the JAVA Development Kit
+                        (JDK).</cmd>
                     <info>
-                        <p>At the time of this publication, the latest version of the JDK was
+                        <p>At the time of this course's release, the latest version of the JDK was
                             version 8.</p>
                     </info>
                 </step>
@@ -65,5 +75,38 @@
     </task>
     <task id="task_nyf_yd5_xy">
         <title>Installing JAVA on a Mac</title>
+        <taskbody>
+            <steps>
+                <step>
+                    <cmd> Download and install the latest version of the JAVA Development Kit
+                        (JDK).</cmd>
+                    <info>
+                        <p>At the time of this course's release, the latest version of the JDK was
+                            version 8.</p>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Make sure you click on "Accept License Agreement" when asked. A pop up will appear if you've clicked download without selecting "Accept."</cmd>
+                </step>
+                <step>
+                    <cmd>Under the download column select the JAVA link that is specific to your
+                        computer's system. </cmd>
+                    <info>Mac users choose MAC OS X.</info>
+                </step>
+                <step>
+                    <cmd>A dmg file will begin downloading.</cmd>
+                </step>
+                <step>
+                    <cmd>Once it has downloaded, click on the icon in your downloads folder. A
+                        window will appear with instructions.</cmd>
+                </step>
+                <step>
+                    <cmd>Double click on the icon.</cmd>
+                </step>
+                <step>
+                    <cmd>Click "Install," "Run," or equivalent.</cmd>
+                </step>
+            </steps>
+        </taskbody>
     </task>
 </learningContent>
