@@ -16,11 +16,7 @@
         </topicref>
     </chapter>
     <chapter href="c_duckdb.dita">
-        <topicref href="c_writing_about_ducks.dita" locktitle="yes">
-            <topicmeta>
-                <navtitle>add command</navtitle>
-            </topicmeta>
-        </topicref>
         <topicref href="r_tnav.dita"/>
+        <topicref href="c_writing_about_ducks.dita"/>
     </chapter>
 </bookmap>

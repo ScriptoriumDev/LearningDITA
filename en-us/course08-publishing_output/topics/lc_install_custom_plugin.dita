@@ -29,12 +29,12 @@
         <taskbody>
             <steps id="steps_ezx_ztg_2z">
                 <step>
-                    <cmd>Locate the folder com.learningdita.xhtml in the samples folder you
+                    <cmd>Locate the zip file com.learningdita.ld_xhtml.zip in the samples folder you
                         downloaded at the beginning of this course.</cmd>
                 </step>
                 <step>
-                    <cmd>Inside your DITA OT folder, copy com.learningdita.xhtml into the plugins
-                        folder.</cmd>
+                    <cmd>Inside your DITA OT folder, copy com.learningdita.ld_xhtml.zip into the
+                        plugins folder.</cmd>
                 </step>
                 <step>
                     <cmd>Inside the "outputs" folder you created earlier, create a new folder named
@@ -43,9 +43,9 @@
                 <step>
                     <cmd>Type the following commands into your command window:</cmd>
                     <info>
-                        <pre>bin\dita integrator.xml -v</pre>
-                        <p>These commands run the integrator, which enables the DITA OT to generate
-                            output from the custom xhtml plugin.</p>
+                        <pre>bin\dita install [filepath]/dita-ot-2.4.4/plugins/com.learningdita.ld_xhtml.zip -v</pre>
+                        <p>These are the commands for the integrator, which enables the DITA OT to
+                            generate output from the custom xhtml plugin.</p>
                     </info>
                 </step>
                 <step>
@@ -55,7 +55,7 @@
                     <cmd>To test the integration by generating output, type the following commands
                         into your command window:</cmd>
                     <info>
-                        <pre>bin\dita -i [filepath]/sources/ducks/m_ducks.ditamap -f xhtml(?) -o [filepath]/outputs/custom_output -v</pre>
+                        <pre>bin\dita -i [filepath]/sources/ducks/m_ducks.ditamap -f ld_xhtml -o [filepath]/outputs/custom_output -v</pre>
                     </info>
                 </step>
                 <step>
@@ -65,13 +65,14 @@
                     <cmd>Look in the "custom_output" folder to see the generated HTML output.</cmd>
                 </step>
                 <step>
-                    <cmd>Open the file ().xhtml in a browser and compare it to the version of
-                        ().xhtml in your "ducks_output" folder.</cmd>
-                    <info><p>The version of ().xhtml generated from the custom plugin should look
-                            like this:</p><image id="image_bpx_znn_2z"/><p>The version of ().xhtml
-                            generated from the default plugin should look like this:</p><image
-                            id="image_kh2_b4n_2z"/><note>Fonts and spacing may vary depending on
-                            which browser and version you are using.</note></info>
+                    <cmd>Open the file c_wild_duck_species.html in a browser and compare it to the
+                        version of c_wild_duck_species.html in your "ducks_output" folder.</cmd>
+                    <info><p>The version of c_wild_duck_species.html generated from the custom
+                            plugin should look like this:</p><image id="image_bpx_znn_2z"/><p>The
+                            version of c_wild_duck_species.html generated from the default plugin
+                            should look like this:</p><image id="image_kh2_b4n_2z"/><note>Fonts and
+                            spacing may vary depending on which browser and version you are
+                            using.</note></info>
                 </step>
             </steps>
         </taskbody>
@@ -81,11 +82,11 @@
         <taskbody>
             <steps id="steps_sqz_tvg_2z">
                 <step>
-                    <cmd>Locate the folder com.learningdita.xhtml in the samples folder you
+                    <cmd>Locate the folder com.learningdita.ld_xhtml in the samples folder you
                         downloaded at the beginning of this course.</cmd>
                 </step>
                 <step>
-                    <cmd>Inside your DITA OT folder, copy com.learningdita.xhtml into the plugins
+                    <cmd>Inside your DITA OT folder, copy com.learningdita.ld_xhtml into the plugins
                         folder.</cmd>
                 </step>
                 <step>
@@ -95,9 +96,9 @@
                 <step>
                     <cmd>Type the following commands into your Terminal window:</cmd>
                     <info>
-                        <pre>./bin/dita integrator.xml -v</pre>
-                        <p>These commands run the integrator, which enables the DITA OT to generate
-                            output from the custom xhtml plugin.</p>
+                        <pre>./bin/dita install [filepath]/dita-ot-2.4.4/plugins/com.learningdita.ld_xhtml.zip -v</pre>
+                        <p>These are the commands for the integrator, which enables the DITA OT to
+                            generate output from the custom xhtml plugin.</p>
                     </info>
                 </step>
                 <step>
@@ -107,7 +108,7 @@
                     <cmd>To test the integration by generating output, type the following commands
                         into your Terminal window:</cmd>
                     <info>
-                        <pre>./bin/dita -i [filepath]/sources/ducks/m_ducks.ditamap -f xhtml(?) -o [filepath]/outputs/custom_output -v</pre>
+                        <pre>./bin/dita -i [filepath]/sources/ducks/m_ducks.ditamap -f ld_xhtml -o [filepath]/outputs/custom_output -v</pre>
                     </info>
                 </step>
                 <step>
@@ -117,13 +118,14 @@
                     <cmd>Look in the "custom_output" folder to see the generated HTML output.</cmd>
                 </step>
                 <step>
-                    <cmd>Open the file ().xhtml in a browser and compare it to the version of
-                        ().xhtml in your "ducks_output" folder.</cmd>
-                    <info><p>The version of ().xhtml generated from the custom plugin should look
-                            like this:</p><image id="image_hmf_c4n_2z"/><p>The version of ().xhtml
-                            generated from the default plugin should look like this:</p><image
-                            id="image_imf_c4n_2z"/><note>Fonts and spacing may vary depending on
-                            which browser and version you are using.</note></info>
+                    <cmd>Open the file c_wild_duck_species.html in a browser and compare it to the
+                        version of c_wild_duck_species.html in your "ducks_output" folder.</cmd>
+                    <info><p>The version of c_wild_duck_species.html generated from the custom
+                            plugin should look like this:</p><image id="image_hmf_c4n_2z"/><p>The
+                            version of c_wild_duck_species.html generated from the default plugin
+                            should look like this:</p><image id="image_imf_c4n_2z"/><note>Fonts and
+                            spacing may vary depending on which browser and version you are
+                            using.</note></info>
                 </step>
             </steps>
         </taskbody>
