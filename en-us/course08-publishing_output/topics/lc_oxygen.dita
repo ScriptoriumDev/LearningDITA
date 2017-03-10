@@ -20,8 +20,54 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>conceptual overview of what's involved with publishing through oXygen</p>
-            <p>circumstances in which publishing through oXygen makes sense</p>
+            <p>Instead of using the DITA OT in a standalone environment, you can publish content by
+                running the DITA Open Toolkit through the oXygen XML Editor. With oXygen's
+                user-friendly GUI, publishing output is as easy as clicking a button. All you need
+                to do is select the required output from a list of scenarios and apply the
+                transformation to your source content. The publishing scenarios include PDF, XHTML,
+                webhelp, and other output types.</p>
+            <p>oXygen is not free–customers must purchase an annual license to use the software.
+                This may not be a practical investment for students or writers working on very small
+                projects. However, licensing oXygen for a small team of writers who need to publish
+                their DITA content is generally much less costly than licensing a CCMS.</p>
+            <p>Publishing through oXygen makes sense for those in the following situations:</p>
+            <ul id="ul_th3_q24_2z">
+                <li>
+                    <p><b>New DITA users.</b> If you are new to DITA, using oXygen's simple
+                        interface to publish output may be the right choice for you. Generating
+                        output through oXygen is less confusing and requires less effort than using
+                        the DITA OT in a standalone environment.</p>
+                    <p>oXygen's interface largely masks the process of running the DITA OT, which
+                        may not be optimal for users who like to watch their builds run and generate
+                        a log in real time. If you're one of these users, you may prefer to work
+                        with a standalone DITA OT.</p>
+                </li>
+                <li>
+                    <p><b>Small content volume.</b> If you don't have enough DITA content for a
+                        major CCMS installation, oXygen might be the right solution. Authors can
+                        create, edit, and publish their content from a single, capable tool.</p>
+                </li>
+                <li>
+                    <p><b>Single writers or small content teams.</b> oXygen is not free–customers
+                        must purchase an annual license to use the software. Licensing oXygen for a
+                        single writer or small team of writers for DITA publishing is generally much
+                        less costly than licensing a CCMS.</p>
+                    <p>Licensing oXygen may not always be a practical investment for students or
+                        writers working on very small projects. Companies and individuals need to
+                        evaluate whether the cost of oXygen makes sense for them.</p>
+                </li>
+            </ul>
+            <draft-comment author="gretylkinsey">
+                <p>The oXygen XML Editor utilizes a user-friendly GUI that makes publishing output
+                    as easy as clicking a button. All users need to do is select their preferred
+                    output from a list of scenarios, including PDFs, XHTML, and WebHelps, and apply
+                    that transformation. This masks the process but may not be optimal for users who
+                    like to see their builds run, such as seen when using the OT. If you are new to
+                    DITA, using oXygen's simple interface to publish output may be the right choice
+                    for you. However, oXygen is not free. Consumers must purchase an annual license
+                    to use the software, which may not be a practical investment for smaller
+                    projects.</p>
+            </draft-comment>
         </lcInstruction>
     </learningContentbody>
 </learningContent>
