@@ -84,16 +84,21 @@
                 <step>
                     <cmd>Move the DITA OT zip folder you downloaded into the new folder you chose in
                         the previous step.</cmd>
-                    <info>(include screenshot here of the DITA OT zip in a folder?)</info>
                 </step>
                 <step>
                     <cmd>Unzip the DITA OT folder.</cmd>
                     <info>
                         <p><b>On a PC:</b> Right-click the zip folder and click "Extract" to unzip
-                            the contents into the new location. (Also mention something here about
-                            uzing a zip utility tool such as 7Zip?)</p>
+                            the contents into the new location. <draft-comment author="gretylkinsey"
+                                >Also mention something here about uzing a zip utility tool such as
+                                7Zip?</draft-comment></p>
                         <p><b>On a Mac:</b> Double-click the zip folder. This will automatically
                             unzip its contents into the new location.</p>
+                    </info>
+                    <info>
+                        <draft-comment author="gretylkinsey">Add video link</draft-comment>
+                        <draft-comment author="gretylkinsey">Need any screenshots in this topic? Or
+                            just the video?</draft-comment>
                     </info>
                 </step>
             </steps>

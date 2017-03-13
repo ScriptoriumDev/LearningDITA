@@ -24,7 +24,7 @@
                 Kit and set up your folder structure, you're ready to run your first test build.
                 Follow the instructions below to generate a sample PDF file using the DITA OT.
                 Separate instructions are provided for PC and Mac users.</p>
-            <note>These instructions only apply to 2.x versions of the DITA Open Toolkit.</note>
+            <note>These instructions only apply to the 2.x versions of the DITA Open Toolkit.</note>
         </lcInstruction>
     </learningContentbody>
     <task id="task_q32_qtw_cz">
@@ -60,6 +60,9 @@
                 <step>
                     <cmd>Look in the ducks_output folder to see your generated output. You should
                         see a file called m_ducks.pdf.</cmd>
+                    <info>
+                        <draft-comment author="gretylkinsey">Add video link</draft-comment>
+                    </info>
                 </step>
             </steps>
         </taskbody>

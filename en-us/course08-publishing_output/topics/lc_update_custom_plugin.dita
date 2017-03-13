@@ -36,8 +36,10 @@
                 have common knowledge of CSS than XSL, a company may not need to hire an XSL expert
                 if it only produces HTML output and can rebrand its content entirely through
                 CSS.</p>
-            <note>(add disclaimer about why we customized this plugin the way we did/themore common
-                way to customize plugin for CSS)</note>
+            <draft-comment author="gretylkinsey">
+                <note>(add disclaimer about why we customized this plugin the way we did/themore
+                    common way to customize plugin for CSS)</note>
+            </draft-comment>
             <p>The following instructions will show you how to make some simple updates to the CSS
                 for your custom xhtml plugin and generate HTML output to test the results.</p>
         </lcInstruction>
