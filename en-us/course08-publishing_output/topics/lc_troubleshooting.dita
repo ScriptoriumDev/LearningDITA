@@ -33,7 +33,7 @@
                 time. (This is true whether you're running your first build ever, or whether you're
                 an experienced DITA user running your first build on a new set of source files.) In
                 the DITA OT's log file, a problem is typically indicated by the message "build
-                failed;" however, you may also have a successful build but find issues with the
+                failed." However, you may also have a successful build but find issues with the
                 output. Here are some common problems and tips for troubleshooting them:</p>
             <ul id="ul_ylx_hqz_dz">
                 <li>
@@ -89,7 +89,9 @@
                 failure that doesn't match one of these common issues, use the DITA OT's log for
                 your build as a starting point for identifying the issue. Once you know what's
                 causing the problem, you may need to run more test builds to continue
-                troubleshooting it until you can resolve it.</note>
+                troubleshooting it until you can resolve it.<draft-comment author="gretylkinsey">Add
+                    something to this disclaimer to discourage tons of emails about build
+                    failures?</draft-comment></note>
         </lcInstruction>
     </learningContentbody>
 </learningContent>
