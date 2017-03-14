@@ -39,16 +39,14 @@
                     <cmd>Navigate to the "Download" page (<xref
                             href="http://www.dita-ot.org/download" format="html" scope="external"
                         />).</cmd>
-                    <info>
-                        <p>The latest DITA OT distribution package will be displayed at the top of
+                    <info><p>The latest DITA OT distribution package will be displayed at the top of
                             the page. The page also contains a link to the latest version that is
                             under development for testing, followed by a list of previous versions
-                            of the DITA OT.</p>
-                        <note>
+                            of the DITA OT.</p><image href="images/download_ot.png" width="450"
+                            id="image_lf3_gmq_fz"/><note>
                             <p>At the time of this course's release, the latest version of the DITA
                                 OT was 2.4.4.</p>
-                        </note>
-                    </info>
+                        </note></info>
                 </step>
                 <step>
                     <cmd>Click on the button to download the latest distribution package of the DITA
@@ -97,8 +95,6 @@
                     </info>
                     <info>
                         <draft-comment author="gretylkinsey">Add video link</draft-comment>
-                        <draft-comment author="gretylkinsey">Need any screenshots in this topic? Or
-                            just the video?</draft-comment>
                     </info>
                 </step>
             </steps>
