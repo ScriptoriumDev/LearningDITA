@@ -36,8 +36,10 @@
                 have common knowledge of CSS than XSL, a company may not need to hire an XSL expert
                 if it only produces HTML output and can rebrand its content entirely through
                 CSS.</p>
-            <note>(add disclaimer about why we customized this plugin the way we did/themore common
-                way to customize plugin for CSS)</note>
+            <draft-comment author="gretylkinsey">
+                <note>(add disclaimer about why we customized this plugin the way we did/themore
+                    common way to customize plugin for CSS)</note>
+            </draft-comment>
             <p>The following instructions will show you how to make some simple updates to the CSS
                 for your custom xhtml plugin and generate HTML output to test the results.</p>
         </lcInstruction>
@@ -49,7 +51,8 @@
                 <step>
                     <cmd>Navigate to your "custom_output" folder and open the file
                         c_wild_duck_species.html in a browser.</cmd>
-                    <info><p>The HTML output should look like this:</p><image id="image_i25_smn_2z"
+                    <info><p>The HTML output should look like this:</p><image
+                            href="images/xhtml_custom.png" width="500" id="image_n24_3dy_fz"
                             /><note>Fonts and spacing may vary depending on which browser and
                             version you are using.</note></info>
                 </step>
@@ -101,7 +104,8 @@
                     <cmd>Open c_wild_duck_species.html in a browser to see the CSS changes you
                         made.</cmd>
                     <info><p>The HTML output should now look like this:</p><image
-                            id="image_stg_3mn_2z"/></info>
+                            href="images/xhtml_updated.png" width="500" id="image_ojr_kdy_fz"
+                        /></info>
                 </step>
             </steps>
         </taskbody>
@@ -113,7 +117,8 @@
                 <step>
                     <cmd>Navigate to your "custom_output" folder and open the file
                         c_wild_duck_species.html in a browser.</cmd>
-                    <info><p>The HTML output should look like this:</p><image id="image_tqc_rpn_2z"
+                    <info><p>The HTML output should look like this:</p><image
+                            href="images/xhtml_custom.png" width="500" id="image_qgq_jdy_fz"
                             /><note>Fonts and spacing may vary depending on which browser and
                             version you are using.</note></info>
                 </step>
@@ -165,7 +170,8 @@
                     <cmd>Open c_wild_duck_species.html in a browser to see the CSS changes you
                         made.</cmd>
                     <info><p>The HTML output should now look like this:</p><image
-                            id="image_uqc_rpn_2z"/></info>
+                            href="images/xhtml_updated.png" width="500" id="image_vs1_ldy_fz"
+                        /></info>
                 </step>
             </steps>
         </taskbody>

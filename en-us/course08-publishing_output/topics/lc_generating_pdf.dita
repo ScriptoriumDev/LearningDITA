@@ -19,11 +19,15 @@
         </critdates>
     </prolog>
     <learningContentbody>
-        <lcInstruction>
-            <p>In the previous lesson, your first test build with the DITA OT used the pdf2 plugin.
-                The following instructions show you how to use the DITA OT to see the differences
-                between PDF output generated from a map and PDF output generated from a bookmap.</p>
-        </lcInstruction>
+        <lcInstruction><p>In the previous lesson, your first test build with the DITA OT used the
+                pdf2 plugin to generate PDF output. The plugin handles maps and bookmaps
+                differently.</p><p>For map content, the plugin generates a table of contents for the
+                entire document:</p><image href="images/map.png" width="450" id="image_gph_3sx_fz"
+                /><p>For bookmap content, the plugin generates an individual table of contents for
+                each chapter:</p><image href="images/bookmap.png" width="450" id="image_hph_3sx_fz"
+                /><p>The following instructions show you how to use the DITA OT to create PDF output
+                from the same collection of topics stored in both a map and a
+            bookmap.</p></lcInstruction>
     </learningContentbody>
     <task id="task_klm_zbh_2z">
         <title>Generating PDF output on a PC</title>
@@ -43,13 +47,8 @@
                         generated, b_ducks.pdf.</cmd>
                 </step>
                 <step>
-                    <cmd>Open both b_ducks.pdf and m_ducks.pdf in a PDF viewer.</cmd>
-                    <info><p>Note the way the DITA OT's default PDF plugin displays output from
-                            bookmaps versus output from maps. Although both the map and the bookmap
-                            contain the same content, the PDF files look different.</p><p>The
-                            content generated from a map (m_ducks.PDF) looks like this:</p><image
-                            id="image_v2c_drn_2z"/><p>The content generated from a bookmap
-                            (b_ducks.PDF) looks like this:</p><image id="image_c53_drn_2z"/></info>
+                    <cmd>Open both b_ducks.pdf and m_ducks.pdf in a PDF viewer and note the
+                        differences between the two outputs.</cmd>
                 </step>
             </steps>
         </taskbody>
@@ -72,13 +71,8 @@
                         generated, b_ducks.pdf.</cmd>
                 </step>
                 <step>
-                    <cmd>Open both b_ducks.pdf and m_ducks.pdf in a PDF viewer.</cmd>
-                    <info><p>Note the way the DITA OT's default PDF plugin displays output from
-                            bookmaps versus output from maps. Although both the map and the bookmap
-                            contain the same content, the PDF files look different.</p><p>The
-                            content generated from a map (m_ducks.PDF) looks like this:</p><image
-                            id="image_uk3_2rn_2z"/><p>The content generated from a bookmap
-                            (b_ducks.PDF) looks like this:</p><image id="image_vk3_2rn_2z"/></info>
+                    <cmd>Open both b_ducks.pdf and m_ducks.pdf in a PDF viewer and note the
+                        differences between the two outputs.</cmd>
                 </step>
             </steps>
         </taskbody>
