@@ -36,5 +36,18 @@
                 OT plugin, and evaluate your need for customized output.</p>
         </lcIntro>
     </learningContentbody>
-    <related-links/>
+    <related-links>
+        <link href="http://www.scriptorium.com/2009/12/hacking-the-dita-open-toolkit/" format="html">
+            <linktext>Hacking the DITA Open Toolkit</linktext>
+        </link>
+        <link href="http://www.dita-ot.org/2.0/dev_ref/plugins-overview.html" format="html">
+            <linktext>Creating DITA-OT plug-ins</linktext>
+        </link>
+        <link href="http://www.dita-ot.org/2.0/readme/plugins-installing.html" format="html">
+            <linktext>Installing plug-ins</linktext>
+        </link>
+        <link href="http://dita-ot.sourceforge.net/doc/ot-userguide/xhtml/customizing/xhtml_frameset.html" format="html">
+            <linktext>Publishing XHTML output as a frameset</linktext>
+        </link>
+    </related-links>
 </learningContent>

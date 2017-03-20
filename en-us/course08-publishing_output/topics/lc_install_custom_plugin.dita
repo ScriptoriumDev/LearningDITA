@@ -67,12 +67,10 @@
                 <step>
                     <cmd>Open the file c_wild_duck_species.html in a browser and compare it to the
                         version of c_wild_duck_species.html in your "ducks_output" folder.</cmd>
-                    <info><p>The version of c_wild_duck_species.html generated from the custom
-                            plugin should look like this:</p><image id="image_bpx_znn_2z"/><p>The
-                            version of c_wild_duck_species.html generated from the default plugin
-                            should look like this:</p><image id="image_kh2_b4n_2z"/><note>Fonts and
-                            spacing may vary depending on which browser and version you are
-                            using.</note></info>
+                    <info>
+                        <p><xref href="https://youtu.be/YpvVqbnSKBY" format="html" scope="external">Video:
+                            Installing Custom Plugins</xref></p>
+                    </info>
                 </step>
             </steps>
         </taskbody>
@@ -105,6 +103,12 @@
                     <cmd>Press ENTER to run the DITA Open Toolkit.</cmd>
                 </step>
                 <step>
+                    <cmd>Type the following commands into your Terminal window to integrate your new custom plugin:</cmd>
+                    <info>
+                        <pre>ant -f integrator.xml</pre>
+                    </info>
+                </step>
+                <step>
                     <cmd>To test the integration by generating output, type the following commands
                         into your Terminal window:</cmd>
                     <info>
@@ -120,14 +124,15 @@
                 <step>
                     <cmd>Open the file c_wild_duck_species.html in a browser and compare it to the
                         version of c_wild_duck_species.html in your "ducks_output" folder.</cmd>
-                    <info><p>The version of c_wild_duck_species.html generated from the custom
-                            plugin should look like this:</p><image id="image_hmf_c4n_2z"/><p>The
-                            version of c_wild_duck_species.html generated from the default plugin
-                            should look like this:</p><image id="image_imf_c4n_2z"/><note>Fonts and
-                            spacing may vary depending on which browser and version you are
-                            using.</note></info>
                 </step>
             </steps>
+            <result id="result_ong_2dy_fz"><p>The version of c_wild_duck_species.html generated from
+                    the default plugin should look like this:</p><image
+                    href="images/xhtml_default.png" width="500" id="image_bbl_fdy_fz"/><p>The
+                    version of c_wild_duck_species.html generated from the custom plugin should look
+                    like this:</p><image href="images/xhtml_custom.png" width="500"
+                    id="image_lk2_gdy_fz"/><note>Fonts and spacing may vary depending on which
+                    browser and version you are using.</note></result>
         </taskbody>
     </task>
 </learningContent>
