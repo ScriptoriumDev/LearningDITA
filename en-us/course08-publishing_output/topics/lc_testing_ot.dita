@@ -38,7 +38,8 @@
                     <cmd>Type cmd.</cmd>
                 </step>
                 <step>
-                    <cmd>Type cd to navigate to the OT folder.</cmd>
+                    <cmd>In the command window, type cd followed by the filepath to navigate to the
+                        DITA OT folder.</cmd>
                 </step>
                 <step>
                     <cmd>Type the following string of commands into the command window to run the
@@ -61,7 +62,8 @@
                     <cmd>Look in the ducks_output folder to see your generated output. You should
                         see a file called m_ducks.pdf.</cmd>
                     <info>
-                        <draft-comment author="gretylkinsey">Add video link</draft-comment>
+                        <p><xref href="https://youtu.be/HFhhrmaR1R8" format="html" scope="external">Video:
+                            Testing the DITA OT</xref></p>
                     </info>
                 </step>
             </steps>
