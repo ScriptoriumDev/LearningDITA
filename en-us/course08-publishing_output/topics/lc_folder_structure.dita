@@ -41,14 +41,12 @@
                         the filepaths of your source folders to see that they only use letters,
                         numbers, hyphens, or underscores.</p>
                 </li>
-                <li>
-                    <p><b>Don't disrupt the DITA hierarchy.</b> The way you store your DITA content
+                <li><p><b>Don't disrupt the DITA hierarchy.</b> The way you store your DITA content
                         in folders may interfere with the DITA OT's ability to parse the content and
                         generate output from it. If you store a map file in a folder that lives
                         below the topic files referenced in the map, the DITA OT will most likely
-                        fail to build output.<draft-comment author="gretylkinsey">Create graphic
-                            illustrating this?</draft-comment></p>
-                </li>
+                        fail to build output.</p><image href="images/folder_structure.png"
+                        width="500" id="image_u1d_1nw_fz"/></li>
                 <li>
                     <p><b>Mange your shared content.</b> If you have topics that are referenced in
                         multiple maps, keep them together in a folder (named something like "shared"
@@ -120,6 +118,8 @@
                 </step>
                 <step>
                     <cmd>Copy the "ducks" folder into the "sources" folder.</cmd>
+                    <info><image href="images/source_folders.png" width="500" id="image_e1t_wpq_fz"
+                        /></info>
                 </step>
                 <step>
                     <cmd>In the same location as your "sources" folder, create a new folder and name
@@ -128,10 +128,8 @@
                 <step>
                     <cmd>Inside the "outputs" folder, create a new folder and name it
                         "ducks_output."</cmd>
-                    <info>
-                        <draft-comment author="gretylkinsey">Add screenshot of folder
-                            structure</draft-comment>
-                    </info>
+                    <info><image href="images/output_folders" width="500" id="image_qpx_xpq_fz"
+                        /></info>
                 </step>
             </steps>
             <result id="result_kc1_srf_2z">You are now ready to test the DITA OT.</result>
