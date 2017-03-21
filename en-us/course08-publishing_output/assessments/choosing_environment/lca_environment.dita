@@ -2,7 +2,7 @@
 <!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
 <!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <learningAssessment id="lca_conref_push_requirements">
- <title>(assessment question title)</title>
+ <title>Determining Environment key</title>
  <prolog class="- topic/prolog ">
   <author type="creator" href="http://easydita.com/" format="html" scope="external"
    class="- topic/author ">Gretyl Kinsey</author>
@@ -19,6 +19,21 @@
   </critdates>
  </prolog>
  <learningAssessmentbody>
-  <lcInteraction id="lcInteraction_vtg_qhp_vx"/>
+  <lcInteraction>
+   <lcTrueFalse id="standalone">
+    <lcQuestion> When determining a publishing environment, users are limited to two at a time. True
+     or False? </lcQuestion>
+    <lcAnswerOptionGroup>
+     <lcAnswerOption>
+      <lcAnswerContent>True</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>False</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>Users are not limited to how many publishing environments they desire.</lcFeedbackIncorrect>
+   </lcTrueFalse>
+  </lcInteraction>
  </learningAssessmentbody>
 </learningAssessment>

@@ -67,6 +67,10 @@
                 <step>
                     <cmd>Open the file c_wild_duck_species.html in a browser and compare it to the
                         version of c_wild_duck_species.html in your "ducks_output" folder.</cmd>
+                    <info>
+                        <p><xref href="https://youtu.be/YpvVqbnSKBY" format="html" scope="external">Video:
+                            Installing Custom Plugins</xref></p>
+                    </info>
                 </step>
             </steps>
         </taskbody>
@@ -97,6 +101,12 @@
                 </step>
                 <step>
                     <cmd>Press ENTER to run the DITA Open Toolkit.</cmd>
+                </step>
+                <step>
+                    <cmd>Type the following commands into your Terminal window to integrate your new custom plugin:</cmd>
+                    <info>
+                        <pre>ant -f integrator.xml</pre>
+                    </info>
                 </step>
                 <step>
                     <cmd>To test the integration by generating output, type the following commands
