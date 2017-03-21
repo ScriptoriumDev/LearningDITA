@@ -4,7 +4,9 @@
      applicable licenses.-->
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
- <title>Publishing output from DITA sources</title>
+ <title>
+  <ph keyref="course_name"/>
+ </title>
  <topicmeta>
   <critdates>
    <created date="2017-02-06"/>
@@ -14,5 +16,11 @@
  <mapref href="course08-publishing_output/maps/m_setting_up.ditamap"/>
  <mapref href="course08-publishing_output/maps/m_generating_output.ditamap"/> 
  <mapref href="course08-publishing_output/maps/m_custom_plugins.ditamap"/>
- <topicref href="shared/maps/course_keys.ditamap" format="ditamap"/>
+ 
+ <!-- common and specific keys -->
+ <mapref href="shared/maps/course_keys.ditamap" processing-role="resource-only"/>
+ <mapref href="course08-publishing_output/maps/this_course_keys.ditamap" processing-role="resource-only"/>
+ <!-- conref push elements -->
+ <topicref href="course08-publishing_output/topics/z_conref_push_elements.dita" processing-role="resource-only"/>
+ 
 </map>
