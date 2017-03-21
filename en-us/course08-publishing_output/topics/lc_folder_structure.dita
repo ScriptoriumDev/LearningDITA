@@ -45,7 +45,7 @@
                         in folders may interfere with the DITA OT's ability to parse the content and
                         generate output from it. If you store a map file in a folder that lives
                         below the topic files referenced in the map, the DITA OT will most likely
-                        fail to build output.</p><image href="images/folder_structure.png"
+                        fail to build output.</p><image href="images/folder_structure.png" base="2017/03"
                         width="500" id="image_u1d_1nw_fz"/></li>
                 <li>
                     <p><b>Mange your shared content.</b> If you have topics that are referenced in
@@ -118,7 +118,7 @@
                 </step>
                 <step>
                     <cmd>Copy the "ducks" folder into the "sources" folder.</cmd>
-                    <info><image href="images/source_folders.png" width="500" id="image_e1t_wpq_fz"
+                    <info><image href="images/source_folders.png" width="500" id="image_e1t_wpq_fz" base="2017/03"
                         /></info>
                 </step>
                 <step>
@@ -128,7 +128,7 @@
                 <step>
                     <cmd>Inside the "outputs" folder, create a new folder and name it
                         "ducks_output."</cmd>
-                    <info><image href="images/output_folders" width="500" id="image_qpx_xpq_fz"
+                    <info><image href="images/output_folders.png" width="500" id="image_qpx_xpq_fz" base="2017/03"
                         /></info>
                 </step>
             </steps>
