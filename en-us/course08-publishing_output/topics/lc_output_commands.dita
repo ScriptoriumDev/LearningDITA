@@ -21,10 +21,11 @@
     <learningContentbody>
         <lcInstruction>
             <p>In the previous lesson, you tested the DITA OT by entering the following set of
-                commands for
-                PC:<pre>bin\dita -i [filepath]/sources/m_ducks.ditamap -f pdf2 -o [output-dir] -v</pre></p>
-            <p>Or for
-                Mac:<pre>./bin/dita -i [filepath]/sources/m_ducks.ditamap -f pdf2 -o [filepath]/outputs/m_ducks_output -v</pre></p>
+                commands:</p>
+            <p><b>On Windows:</b></p>
+            <pre>bin\dita -i [filepath]/sources/m_ducks.ditamap -f pdf2 -o [output-dir] -v</pre>
+            <p><b>On Mac:</b></p>
+            <pre>./bin/dita -i [filepath]/sources/m_ducks.ditamap -f pdf2 -o [filepath]/outputs/m_ducks_output -v</pre>
             <p>These are the standard commands of a basic DITA OT build. Here is what each command
                 means:</p>
             <ul id="ul_dx2_csf_2z">

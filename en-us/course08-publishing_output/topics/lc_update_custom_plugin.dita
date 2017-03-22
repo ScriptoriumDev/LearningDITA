@@ -45,7 +45,7 @@
         </lcInstruction>
     </learningContentbody>
     <task id="task_dng_jxg_2z">
-        <title>Updating the custom xhtml plugin's CSS on a PC</title>
+        <title>Updating the custom xhtml plugin's CSS</title>
         <taskbody>
             <steps id="steps_scx_mzg_2z">
                 <step>
@@ -87,10 +87,13 @@
                     <cmd>Save your changes to ld_style.css.</cmd>
                 </step>
                 <step>
-                    <cmd>Enter the following commands into the Terminal window to test your updates
+                    <cmd>Enter the following commands into the command window to test your updates
                         to the custom plugin:</cmd>
                     <info>
+                        <p><b>On Windows:</b></p>
                         <pre>bin\dita -i [filepath]/sources/ducks/m_ducks.ditamap -f ld_xhtml -o [filepath]/outputs/custom_output -v</pre>
+                        <p><b>On Mac:</b></p>
+                        <pre>./bin/dita -i [filepath]/sources/ducks/m_ducks.ditamap -f ld_xhtml -o [filepath]/outputs/custom_output -v</pre>
                     </info>
                 </step>
                 <step>
@@ -105,72 +108,6 @@
                         made.</cmd>
                     <info><p>The HTML output should now look like this:</p><image
                         href="images/xhtml_updated.png" width="500" id="image_ojr_kdy_fz" base="2017/03"
-                        /></info>
-                </step>
-            </steps>
-        </taskbody>
-    </task>
-    <task id="task_umb_lxg_2z">
-        <title>Updating the custom xhtml plugin's CSS on a Mac</title>
-        <taskbody>
-            <steps id="steps_sqc_rpn_2z">
-                <step>
-                    <cmd>Navigate to your "custom_output" folder and open the file
-                        c_wild_duck_species.html in a browser.</cmd>
-                    <info><p>The HTML output should look like this:</p><image
-                        href="images/xhtml_custom.png" width="500" id="image_qgq_jdy_fz" base="2017/03"
-                            /><note>Fonts and spacing may vary depending on which browser and
-                            version you are using.</note></info>
-                </step>
-                <step>
-                    <cmd>Locate the file ld_style.css in your DITA OT folder under
-                        plugins/com.learningdita.ld_xhtml/resource.</cmd>
-                </step>
-                <step>
-                    <cmd>Open ld_style.css in a text editor.</cmd>
-                </step>
-                <step>
-                    <cmd>Make the following changes to ld_style.css:</cmd>
-                    <info>
-                        <pre>.p {
-  margin-top: 1em;
-  font-family: "Lingua Franca", Palatino, serif;
-  font-size: 0.9em;
-  <b>color: #D48028;</b>
-}
-
-.topictitle1 {
-  margin-top: 0;
-  margin-bottom: .1em;
-  font-size: 2em;
-  font-family: "Gill Sans", Helvetica, sans-serif;
-  font-weight: normal;
-  <b>color: #86CCCC;</b>
-}</pre>
-                    </info>
-                </step>
-                <step>
-                    <cmd>Save your changes to ld_style.css.</cmd>
-                </step>
-                <step>
-                    <cmd>Enter the following commands into the Terminal window to test your updates
-                        to the custom plugin:</cmd>
-                    <info>
-                        <pre>./bin/dita -i [filepath]/sources/ducks/m_ducks.ditamap -f ld_xhtml -o [filepath]/outputs/custom_output -v</pre>
-                    </info>
-                </step>
-                <step>
-                    <cmd>Press RETURN to run the DITA Open Toolkit.</cmd>
-                </step>
-                <step>
-                    <cmd>Look inside your "custom_output" folder to view your generated custom HTML
-                        output.</cmd>
-                </step>
-                <step>
-                    <cmd>Open c_wild_duck_species.html in a browser to see the CSS changes you
-                        made.</cmd>
-                    <info><p>The HTML output should now look like this:</p><image
-                        href="images/xhtml_updated.png" width="500" id="image_vs1_ldy_fz" base="2017/03"
                         /></info>
                 </step>
             </steps>

@@ -30,41 +30,20 @@
             bookmap.</p></lcInstruction>
     </learningContentbody>
     <task id="task_klm_zbh_2z">
-        <title>Generating PDF output on a PC</title>
+        <title>Generating PDF output</title>
         <taskbody>
             <steps id="steps_php_1ch_2z">
                 <step>
                     <cmd>Type the following commands into your command window:</cmd>
                     <info>
+                        <p><b>On Windows:</b></p>
                         <pre>bin\dita -i [filepath]/sources/ducks/b_ducks.ditamap -f pdf2 -o [filepath]/outputs/ducks_output -v</pre>
-                    </info>
-                </step>
-                <step>
-                    <cmd>Press ENTER to run the DITA Open Toolkit.</cmd>
-                </step>
-                <step>
-                    <cmd>Navigate to your "ducks_output" folder and locate the PDF file you just
-                        generated, b_ducks.pdf.</cmd>
-                </step>
-                <step>
-                    <cmd>Open both b_ducks.pdf and m_ducks.pdf in a PDF viewer and note the
-                        differences between the two outputs.</cmd>
-                </step>
-            </steps>
-        </taskbody>
-    </task>
-    <task id="task_ht5_1ch_2z">
-        <title>Generating PDF output on a Mac</title>
-        <taskbody>
-            <steps id="steps_tk3_2rn_2z">
-                <step>
-                    <cmd>Type the following commands into your Terminal window:</cmd>
-                    <info>
+                        <p><b>On Mac:</b></p>
                         <pre>./bin/dita -i [filepath]/sources/ducks/b_ducks.ditamap -f pdf2 -o [filepath]/outputs/ducks_output -v</pre>
                     </info>
                 </step>
                 <step>
-                    <cmd>Press RETURN to run the DITA Open Toolkit.</cmd>
+                    <cmd>Press ENTER to run the DITA Open Toolkit.</cmd>
                 </step>
                 <step>
                     <cmd>Navigate to your "ducks_output" folder and locate the PDF file you just
