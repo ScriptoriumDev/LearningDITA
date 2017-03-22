@@ -34,7 +34,7 @@
         <taskbody>
             <steps id="steps_h3y_3nw_cz">
                 <step>
-                    <cmd>In a web browser, go to the SourceForge website (<xref
+                    <cmd>In a web browser, go to the DITA OT SourceForge website (<xref
                             href="http://www.dita-ot.org/" format="html" scope="external"/>), where
                         the open-source DITA OT is available.</cmd>
                 </step>
@@ -62,29 +62,32 @@
                         that the download completed successfully.</cmd>
                 </step>
                 <step>
-                    <cmd>Choose a folder on your machine where you want to install the DITA
-                        OT.</cmd>
+                    <cmd>Choose a folder on your machine to install the DITA OT.</cmd>
                     <info>
-                        <note>The commands used to publish output through the DITA OT don’t do well
-                            with spaces or special characters in file and path names. Therefore,
-                            it’s best to install the OT at the root level of your machine’s system
-                            folder structure in a folder that only uses letters, numbers,
-                            underscores, or hyphens in its name.</note>
+                        <note>Certain operations of the DITA OT don’t do well with spaces or special
+                            characters in file and path names. Therefore, it’s best to install the
+                            OT at the root level of your machine’s system folder structure in a
+                            folder that only uses letters, numbers, underscores (_), or hyphens (-)
+                            in its name.</note>
+                        <p><b>Example on Windows:</b></p>
+                        <pre>C:\dita-ot-2.4.4</pre>
+                        <p><b>Example on Mac:</b></p>
+                        <pre>/Users/[yourname]/dita-ot-2.4.4</pre>
                     </info>
                 </step>
                 <step>
-                    <cmd>Move the DITA OT zip file you downloaded into the new folder you chose in
-                        the previous step.</cmd>
+                    <cmd>Move the DITA OT zip file you downloaded into the folder you chose in the
+                        previous step.</cmd>
                 </step>
                 <step>
                     <cmd>Unzip the DITA OT folder.</cmd>
                     <info>
-                        <p><b>On Windows:</b> Right-click the zip file and click “Extract” to
-                            unzip the contents into the new location. <draft-comment
+                        <p><b>On Windows:</b> Right-click the zip file and click “Extract” to unzip
+                            the contents into the current location. <draft-comment
                                 author="gretylkinsey">Also mention something here about uzing a zip
                                 utility tool such as 7Zip?</draft-comment></p>
                         <p><b>On Mac:</b> Double-click the zip file. This will automatically unzip
-                            its contents into the new location.</p>
+                            its contents into the current location.</p>
                     </info>
                     <info>
                         <draft-comment author="gretylkinsey">Add video link</draft-comment>
