@@ -2,7 +2,7 @@
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <learningContent id="content_pgf_3gt_qt">
-    <title>Installing JAVA</title>
+    <title>Installing Java</title>
     <prolog class="- topic/prolog ">
         <author type="creator" href="http://easydita.com/" format="html" scope="external"
             class="- topic/author ">Gretyl Kinsey</author>
@@ -20,27 +20,26 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>The DITA Open Toolkit requires JAVA to run the commands for publishing output. The
-                SoureForge website includes the minimum JAVA requirements for each version of the
-                DITA OT.</p>
+            <p>The DITA OT requires Java to run the commands for publishing output. The SoureForge
+                website includes the minimum Java requirements for each version of the DITA OT.</p>
             <p>When you try to generate output, the DITA OT will alert you if your system does not
-                meet the JAVA requirements. A pop-up window may appear indicating that you need a
-                different version of JAVA and providing a link where you can download the correct
-                version. For the DITA OT, the version of JAVA you need will most likely be the JAVA
+                meet the Java requirements. A pop-up window may appear indicating that you need a
+                different version of Java and providing a link where you can download the correct
+                version. For the DITA OT, the version of Java you need will most likely be the Java
                 Development Kit (JDK).</p>
             <p>Follow the instructions below to ensure that your version of the JDK is up to date.
                 Separate instructions are provided for Windows and Mac users.</p>
             <p><xref href="https://youtu.be/5P9hgZnpWDo" format="html" scope="external">Video:
-                Installing JAVA</xref></p>
+                Installing Java</xref></p>
         </lcInstruction>
     </learningContentbody>
     <task id="task_igy_wd5_xy">
-        <title>Installing JAVA</title>
+        <title>Installing Java</title>
         <taskbody>
-            <context id="context_a4w_xvc_3z"><b>Installing JAVA on Windows</b></context>
+            <context id="context_a4w_xvc_3z"><b>Installing Java on Windows</b></context>
             <steps>
                 <step>
-                    <cmd>Download and install the latest version of the JAVA Development Kit
+                    <cmd>Download and install the latest version of the Java Development Kit
                         (JDK).</cmd>
                     <info>
                         <note>At the time of this course’s release, the latest version of the JDK
@@ -77,12 +76,12 @@
         </taskbody>
     </task>
     <task id="task_nyf_yd5_xy">
-        <title>Installing JAVA on Mac</title>
+        <title>Installing Java on Mac</title>
         <taskbody>
-            <context id="context_hby_zvc_3z"><b>Installing JAVA on Mac</b></context>
+            <context id="context_hby_zvc_3z"><b>Installing Java on Mac</b></context>
             <steps>
                 <step>
-                    <cmd>Download and install the latest version of the JAVA Development Kit
+                    <cmd>Download and install the latest version of the Java Development Kit
                         (JDK).</cmd>
                     <info>
                         <note>At the time of this course’s release, the latest version of the JDK
@@ -94,7 +93,7 @@
                         appear if you’ve clicked download without selecting “Accept.”</cmd>
                 </step>
                 <step>
-                    <cmd>Under the download column select the JAVA link that is specific to your
+                    <cmd>Under the download column select the Java link that is specific to your
                         computer’s system. </cmd>
                     <info>Mac users choose MAC OS X.</info>
                 </step>

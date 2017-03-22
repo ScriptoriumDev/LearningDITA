@@ -32,12 +32,15 @@
         </lcDuration>
         <lcIntro>
             <p>This lesson shows how to publish DITA content in PDF and HTML output formats using
-                the DITA Open Toolkit.</p>
+                the DITA OT.</p>
         </lcIntro>
     </learningContentbody>
     <related-links>
         <link href="http://dita.xml.org/wiki/plugins-for-the-dita-open-toolkit" format="html">
             <linktext>Plugins for the DITA Open Toolkit</linktext>
+        </link>
+        <link href="http://www.dita-ot.org/2.4/parameters/index.html" format="html">
+            <linktext>DITA Open Toolkit Parameter Reference</linktext>
         </link>
         <link href="http://www.scriptorium.com/2013/03/webcast-pros-and-cons-of-the-dita-open-toolkit/" format="html">
             <linktext>Webcast: Pros and cons of the DITA Open Toolkit</linktext>
