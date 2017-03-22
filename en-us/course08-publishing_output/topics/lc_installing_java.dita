@@ -20,13 +20,16 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>The DITA OT requires Java to run the commands for publishing output. The SoureForge
-                website includes the minimum Java requirements for each version of the DITA OT.</p>
+            <p>The DITA OT requires Java. The SoureForge website includes the minimum Java
+                requirements for each version of the DITA OT.</p>
             <p>When you try to generate output, the DITA OT will alert you if your system does not
-                meet the Java requirements. A pop-up window may appear indicating that you need a
-                different version of Java and providing a link where you can download the correct
-                version. For the DITA OT, the version of Java you need will most likely be the Java
-                Development Kit (JDK).</p>
+                meet the Java requirements. For the DITA OT, you will most likely need to download
+                the Java Development Kit (JDK). </p>
+            <p>On Windows, you may see the following error message if your system does not meet the
+                DITA OT’s Java
+                requirements:<pre>“java.exe" is not recognized as an internal or external command, operable program or batch file.</pre></p>
+            <p>On Mac, a pop-up window may appear indicating that you need a different version of
+                Java and providing a link where you can download the correct version.</p>
             <p>Follow the instructions below to ensure that your version of the JDK is up to date.
                 Separate instructions are provided for Windows and Mac users.</p>
             <p><xref href="https://youtu.be/5P9hgZnpWDo" format="html" scope="external">Video:
@@ -39,8 +42,10 @@
             <context id="context_a4w_xvc_3z"><b>Installing Java on Windows</b></context>
             <steps>
                 <step>
-                    <cmd>Download and install the latest version of the Java Development Kit
-                        (JDK).</cmd>
+                    <cmd>Download and install the latest version of the Java Development Kit (JDK)
+                        from the Oracle website (<xref
+                            href="http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html"
+                            format="html" scope="external"/>).</cmd>
                     <info>
                         <note>At the time of this course’s release, the latest version of the JDK
                             was version 8.</note>
@@ -59,30 +64,26 @@
                         new window.</cmd>
                 </step>
                 <step>
-                    <cmd>Find “JAVA_HOME” under the “System Variables” panel, and check that the
+                    <cmd>Find “JAVA_HOME” under the “System Variables” panel, and make sure that the
                         value points to the directory where the JDK is installed. </cmd>
-                    <info>If “JAVA_HOME” exists, and the value displays the correct location, then
-                        you are done. If not, continue to the following steps.</info>
-                </step>
-                <step>
-                    <cmd>Click “New...”</cmd>
-                </step>
-                <step>
-                    <cmd>Input “JAVA_HOME” (without quotation marks) under “Variable name” and the
-                        location of the JDK (for example, C:/Program Files/Java/{jdk_folder_name})
-                        under “Variable value.”</cmd>
                 </step>
             </steps>
+            <postreq id="postreq_wbw_zp2_3z">If “JAVA_HOME” does not exist, or exists but does not
+                display the correct location, click “New...” and input JAVA_HOME under “Variable
+                name” and the location of the JDK (for example, C:/Program
+                Files/Java/[jdk_folder_name]) under “Variable value.”</postreq>
         </taskbody>
     </task>
     <task id="task_nyf_yd5_xy">
-        <title>Installing Java on Mac</title>
+        <title>Installing Java</title>
         <taskbody>
             <context id="context_hby_zvc_3z"><b>Installing Java on Mac</b></context>
             <steps>
                 <step>
-                    <cmd>Download and install the latest version of the Java Development Kit
-                        (JDK).</cmd>
+                    <cmd>Download and install the latest version of the Java Development Kit (JDK)
+                        from the Oracle website (<xref
+                            href="http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html"
+                            format="html" scope="external"/>).</cmd>
                     <info>
                         <note>At the time of this course’s release, the latest version of the JDK
                             was version 8.</note>
