@@ -2,7 +2,7 @@
 <!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
 <!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <learningAssessment id="lca_conref_push_requirements">
- <title>(assessment question title)</title>
+ <title>Updating Custom Plugins</title>
  <prolog class="- topic/prolog ">
   <author type="creator" href="http://easydita.com/" format="html" scope="external"
    class="- topic/author ">Gretyl Kinsey</author>
@@ -18,7 +18,24 @@
    <created golive="2017-03-06" date="2017-02-06"/>
   </critdates>
  </prolog>
- <learningAssessmentbody>
-  <lcInteraction id="lcInteraction_vtg_qhp_vx"/>
- </learningAssessmentbody>
+
+<learningAssessmentbody>
+ <lcInteraction>
+  <lcTrueFalse id="updating">
+   <lcQuestion>
+    Do custom plugins need to be updated over time?
+   </lcQuestion>
+   <lcAnswerOptionGroup>
+    <lcAnswerOption>
+     <lcAnswerContent>True</lcAnswerContent>
+     <lcCorrectResponse/>
+    </lcAnswerOption>
+    <lcAnswerOption>
+     <lcAnswerContent>False</lcAnswerContent>
+    </lcAnswerOption>
+   </lcAnswerOptionGroup>
+   <lcFeedbackIncorrect>You may need to update custom plugins to accommodate changes to the source content's structure, including company branding, specializing for the first time, or adding a new element to your specialization.</lcFeedbackIncorrect>
+  </lcTrueFalse>
+ </lcInteraction>
+</learningAssessmentbody>
 </learningAssessment>
