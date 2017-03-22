@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="lc_creating_a_map">
-    <title>Choosing a publishing environment</title>
+    <title>Choosing a DITA publishing environment</title>
     <prolog class="- topic/prolog ">
         <author type="creator" href="http://easydita.com/" format="html" scope="external"
             class="- topic/author ">Gretyl Kinsey</author>
@@ -20,7 +20,7 @@
     <learningContentbody>
         <lcObjectives>
             <lcObjectivesGroup id="lcObjectivesGroup_tvl_vbh_1t">
-                <lcObjective>Determine what type(s) of output you need to publish.</lcObjective>
+                <lcObjective>Determine what types of output you need to publish.</lcObjective>
                 <lcObjective>Evaluate different publishing tools and environments.</lcObjective>
                 <lcObjective>Choose the best publishing scenario for your content.</lcObjective>
             </lcObjectivesGroup>
@@ -29,7 +29,7 @@
             <lcTime value="45"/>
         </lcDuration>
         <lcIntro>
-            <p>This lesson covers some common publishing environments and shows how you can
+            <p>This lesson covers some common DITA publishing environments and shows how you can
                 determine which one is the best fit for your content.</p>
         </lcIntro>
     </learningContentbody>

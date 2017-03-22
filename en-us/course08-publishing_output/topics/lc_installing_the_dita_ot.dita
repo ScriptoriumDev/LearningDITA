@@ -3,7 +3,7 @@
 <!--
  This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <learningContent id="content_pgf_3gt_qt">
-    <title>Installing the DITA Open Toolkit</title>
+    <title>Installing the DITA OT</title>
     <prolog class="- topic/prolog ">
         <author type="creator" href="http://easydita.com/" format="html" scope="external"
             class="- topic/author ">Gretyl Kinsey</author>
@@ -22,15 +22,15 @@
     <learningContentbody>
         <lcInstruction>
             <p>In the previous lesson, you learned about different DITA publishing environments. The
-                rest of this course covers publishing through a standalone DITA Open Toolkit.</p>
-            <p>The following instructions show you how to download and install the DITA Open Toolkit
-                on your machine.</p>
+                rest of this course covers publishing through a standalone DITA OT.</p>
+            <p>The following instructions show you how to download and install the DITA OT on your
+                machine.</p>
             <p><xref href="https://youtu.be/UDMAWXc9alY" format="html" scope="external">Video:
                 Installing the DITA Open Toolkit</xref></p>
         </lcInstruction>
     </learningContentbody>
     <task id="task_h4s_gnw_cz">
-        <title>Downloading and installing the DITA Open Toolkit</title>
+        <title>Downloading and installing the DITA OT</title>
         <taskbody>
             <steps id="steps_h3y_3nw_cz">
                 <step>
@@ -55,16 +55,15 @@
                     <cmd>Click on the button to download the latest distribution package of the DITA
                         OT.</cmd>
                     <info><image href="images/download_ot.png" width="450" base="2017/03"
-                            id="image_ssm_trc_3z"/><p>The DITA OT will be downloaded as a zip
-                            folder.</p></info>
+                        id="image_ssm_trc_3z"/><p>The DITA OT will be downloaded as a zip file.</p></info>
                 </step>
                 <step>
-                    <cmd>Locate the DITA OT zip folder in your system folder structure to ensure
+                    <cmd>Locate the DITA OT zip file in your system folder structure to ensure
                         that the download completed successfully.</cmd>
                 </step>
                 <step>
-                    <cmd>Choose a folder on your machine where you want to install the DITA Open
-                        Toolkit.</cmd>
+                    <cmd>Choose a folder on your machine where you want to install the DITA
+                        OT.</cmd>
                     <info>
                         <note>The commands used to publish output through the DITA OT don’t do well
                             with spaces or special characters in file and path names. Therefore,
@@ -74,17 +73,17 @@
                     </info>
                 </step>
                 <step>
-                    <cmd>Move the DITA OT zip folder you downloaded into the new folder you chose in
+                    <cmd>Move the DITA OT zip file you downloaded into the new folder you chose in
                         the previous step.</cmd>
                 </step>
                 <step>
                     <cmd>Unzip the DITA OT folder.</cmd>
                     <info>
-                        <p><b>On Windows:</b> Right-click the zip folder and click “Extract” to
+                        <p><b>On Windows:</b> Right-click the zip file and click “Extract” to
                             unzip the contents into the new location. <draft-comment
                                 author="gretylkinsey">Also mention something here about uzing a zip
                                 utility tool such as 7Zip?</draft-comment></p>
-                        <p><b>On Mac:</b> Double-click the zip folder. This will automatically unzip
+                        <p><b>On Mac:</b> Double-click the zip file. This will automatically unzip
                             its contents into the new location.</p>
                     </info>
                     <info>

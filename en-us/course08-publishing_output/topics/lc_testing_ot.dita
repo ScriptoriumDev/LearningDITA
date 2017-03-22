@@ -2,7 +2,7 @@
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <learningContent id="content_pgf_3gt_qt">
-    <title>Testing the DITA Open Toolkit installation</title>
+    <title>Testing the DITA OT installation</title>
     <prolog class="- topic/prolog ">
         <author type="creator" href="http://easydita.com/" format="html" scope="external"
             class="- topic/author ">Gretyl Kinsey</author>
@@ -20,11 +20,11 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>Now that you have installed the DITA Open Toolkit and the required JAVA Development
-                Kit and set up your folder structure, you’re ready to run your first test build.
-                Follow the instructions below to generate a sample PDF file using the DITA OT.
-                Separate instructions are provided for Windows and Mac users.</p>
-            <note>These instructions only apply to the 2.x versions of the DITA Open Toolkit.</note>
+            <p>Now that you have installed the DITA OT and the required Java Development Kit and set
+                up your folder structure, you’re ready to run your first test build. Follow the
+                instructions below to generate a sample PDF file using the DITA OT. Separate
+                instructions are provided for Windows and Mac users.</p>
+            <note>These instructions only apply to the 2.x versions of the DITA OT.</note>
         </lcInstruction>
     </learningContentbody>
     <task id="task_q32_qtw_cz">
@@ -59,7 +59,7 @@
                     </info>
                 </step>
                 <step>
-                    <cmd>Press ENTER to run the DITA Open Toolkit.</cmd>
+                    <cmd>Press ENTER to run the DITA OT.</cmd>
                     <info>
                         <note>You will see a log of the DITA OT’s build process in realtime
                             displayed in the command window.</note>

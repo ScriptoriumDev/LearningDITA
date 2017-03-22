@@ -21,10 +21,9 @@
     <learningContentbody>
         <lcInstruction>
             <p>In addition to PDF output, this lesson also shows you how to generate HTML output
-                using the DITA Open Toolkit. The exercise for generating HTML output will use the
-                same content as the PDF exercise. Seeing the same content in two different output
-                types will give you a firsthand look at the way DITA separates content from
-                formatting.</p>
+                using the DITA OT. The exercise for generating HTML output will use the same content
+                as the PDF exercise. Seeing the same content in two different output types will give
+                you a firsthand look at the way DITA separates content from formatting.</p>
             <p>The following instructions show you how to publish HTML output from the DITA OT:</p>
         </lcInstruction>
     </learningContentbody>
@@ -42,7 +41,7 @@
                     </info>
                 </step>
                 <step>
-                    <cmd>Press ENTER to run the DITA Open Toolkit.</cmd>
+                    <cmd>Press ENTER to run the DITA OT.</cmd>
                 </step>
                 <step>
                     <cmd>Navigate to your “ducks_output” folder.</cmd>

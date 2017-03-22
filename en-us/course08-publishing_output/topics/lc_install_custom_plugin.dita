@@ -21,7 +21,7 @@
     <learningContentbody>
         <lcInstruction>
             <p>The following instructions show how to install a custom plugin and generate output
-                from it using the DITA Open Toolkit.</p>
+                from it using the DITA OT.</p>
         </lcInstruction>
     </learningContentbody>
     <task id="task_gln_ytg_2z">
@@ -52,7 +52,7 @@
                     </info>
                 </step>
                 <step>
-                    <cmd>Press ENTER to run the DITA Open Toolkit.</cmd>
+                    <cmd>Press ENTER to run the DITA OT.</cmd>
                 </step>
                 <step>
                     <cmd>To test the integration by generating output, type the following commands
@@ -65,7 +65,7 @@
                     </info>
                 </step>
                 <step>
-                    <cmd>Press ENTER to run the DITA Open Toolkit.</cmd>
+                    <cmd>Press ENTER to run the DITA OT.</cmd>
                 </step>
                 <step>
                     <cmd>Look in the “custom_output” folder to see the generated HTML output.</cmd>

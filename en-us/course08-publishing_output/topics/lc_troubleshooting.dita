@@ -42,15 +42,13 @@
                         typographical errors.</p>
                 </li>
                 <li>
-                    <p><b>Wrong version of JAVA.</b> If you do not have the correct version of JAVA,
+                    <p><b>Wrong version of Java.</b> If you do not have the correct version of Java,
                         the log file will show that the build failed or even refused to run. Follow
-                        the previous instructions in this lesson on installing JAVA to solve this
+                        the previous instructions in this lesson on installing Java to solve this
                         issue.</p>
-                    <note>
-                        <p>In some cases, the DITA OT’s log will show JAVA errors, but the DITA OT
-                            will still build the output successfully. In this case, you can ignore
-                            the JAVA errors.</p>
-                    </note>
+                    <note>In some cases, the DITA OT’s log will show Java errors, but the DITA OT
+                        will still build the output successfully. In this case, you can ignore the
+                        Java errors.</note>
                 </li>
                 <li>
                     <p><b>Invalid source content.</b> If one of the topic files in your map or the

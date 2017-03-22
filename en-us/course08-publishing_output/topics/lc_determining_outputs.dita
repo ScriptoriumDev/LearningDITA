@@ -24,8 +24,25 @@
                 and helps increase reuse. In this course, you will learn about the benefits of DITA
                 for publishing and gain hands-on experience with generating various types of output
                 from DITA source content.</p>
+            <p>When you’re going to publish your DITA content, one of the first questions you might
+                ask yourself is, “What sort of publishing environment do I need?” The first step in
+                choosing the right publishing environment for your DITA workflow is determining your
+                output requirements.</p>
+            <p>Some types of output you might need for your content include:</p>
+            <ul id="ul_djq_frh_cz">
+                <li>PDF</li>
+                <li>HTML</li>
+                <li>EPUB</li>
+                <li>WebHelp</li>
+            </ul>
+            <note>For some output types, such as highly-designed printed materials or complex data
+                sheets, you may find that automated publishing does not meet your needs. However,
+                you still want to maintain a single set of source files. In this case, you may need
+                to transform your DITA source content into a format that can be opened in a desktop
+                publishing program (such as Adobe InDesign) so that you can manually adjust the
+                formatting before publishing PDF or printed output.</note>
             <p>DITA helps make publishing more efficient by:</p>
-            <ul id="ul_xcs_rph_cz">
+            <ul id="ul_g2j_mc2_3z">
                 <li><b>Separating content from formatting.</b> In an unstructured environment,
                     authors might maintain one set of source files for print publication and another
                     for electronic publication. The files for print might be authored and formatted
@@ -36,31 +53,12 @@
                     reduces inconsistencies between printed and electronic versions of the same
                     content and ensures that an update made in the source will be reflected in all
                     outputs.</li>
-                <li><b>Allowing for automated publishing.</b> Because DITA content is separated from
+                <li><b>Allowing for automated formatting.</b> Because DITA content is separated from
                     formatting, the formatting can be applied automatically during the publishing
                     process rather than manually. Content creators can focus on the content itself
                     rather than how it is displayed on the page, and publishing becomes a faster,
                     push-button process.</li>
             </ul>
-            <p>When you’re going to publish your DITA content, one of the first questions you might
-                ask yourself is, “What sort of publishing environment do I need?” The first step in
-                choosing the right publishing environment for your DITA workflow is determining your
-                output requirements.</p>
-            <p>Some types of output you might need for your content include:</p>
-            <ul id="ul_djq_frh_cz">
-                <li>PDF (which can be printed or delivered electronically)</li>
-                <li>HTML</li>
-                <li>EPUB</li>
-                <li>Webhelp</li>
-            </ul>
-            <note>
-                <p>For some output types, such as highly-designed printed materials or complex data
-                    sheets, you may find that automated publishing is lacking. However, you still
-                    want to maintain a single set of source files. In this case, you may need to
-                    transform your DITA source content into a format that can be opened in a desktop
-                    publishing program (such as Adobe InDesign or Microsoft Word) so that you can
-                    manually adjust the formatting before publishing PDF or printed output.</p>
-            </note>
         </lcInstruction>
     </learningContentbody>
 </learningContent>

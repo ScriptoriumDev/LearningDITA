@@ -58,9 +58,9 @@
     <concept id="concept_yzs_q4f_2z">
         <title>Setting up output folders</title>
         <conbody>
-            <p>The DITA Open Toolkit provides a default folder for output called “out,” located in
-                the main DITA OT folder. If you do not set up an output folder and specify that the
-                DITA OT should use it, the DITA OT will use its own “out” folder instead.</p>
+            <p>The DITA OT provides a default folder for output called “out,” located in the main
+                DITA OT folder. If you do not set up an output folder and specify that the DITA OT
+                should use it, the DITA OT will use its own “out” folder instead.</p>
             <p>If you use the default “out” folder, be aware that the DITA OT replaces the
                 previously generated output with new output each time you run the DITA OT on the
                 same set of source content for the same type of output. For example, if you
