@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<topic id="topic_nxn_1t4_tx">
+  <title>Conkeyref elements for reuse advanced</title>
+  <body>
+    <!-- List the folders that are in the sample zip file for this course. -->
+    <!-- This content is pulled in by conkeyref to the reusable housekeeping file. -->
+    <p id="folder_contents">The samples folder contains two folders: <filepath>ducks</filepath> and
+        <filepath>plugins</filepath>. <ul>
+        <li>The <filepath>ducks</filepath> folder contains a DITA map, a bookmap, and 11 DITA topic
+          files. You use these to test aspects of publishing output from DITA sources</li>
+        <li>The <filepath>plugins</filepath> folder contains a single zip file
+            (<filepath>com.learningdita.ld_xhtml.zip</filepath>), which is a DITA plugin. You use
+          this to explore how to work with custom plugins.</li>
+      </ul></p>
+  </body>
+</topic>
