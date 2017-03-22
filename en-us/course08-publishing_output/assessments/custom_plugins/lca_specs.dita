@@ -2,7 +2,7 @@
 <!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
 <!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <learningAssessment id="lca_conref_push_requirements">
- <title>DITA OT key</title>
+ <title>Gathering Specs</title>
  <prolog class="- topic/prolog ">
   <author type="creator" href="http://easydita.com/" format="html" scope="external"
    class="- topic/author ">Gretyl Kinsey</author>
@@ -18,36 +18,27 @@
    <created golive="2017-03-06" date="2017-02-06"/>
   </critdates>
  </prolog>
- <learningAssessmentbody>
-  <lcInteraction>
-   
-   
- <lcMultipleSelect id="DITAOT">
-  <lcQuestion>The DITA Open Toolkit includes publishing into (choose all that apply)</lcQuestion>
-  <lcAnswerOptionGroup>
-   <lcAnswerOption>
-    <lcAnswerContent>Webhelp</lcAnswerContent>
-    <lcCorrectResponse/>
-   </lcAnswerOption>
-   <lcAnswerOption>
-    <lcAnswerContent>Customized output</lcAnswerContent>
-   </lcAnswerOption>
-   <lcAnswerOption>
-    <lcAnswerContent>InDesign</lcAnswerContent>
-   </lcAnswerOption>
-   <lcAnswerOption>
-    <lcAnswerContent>PDF</lcAnswerContent>
-    <lcCorrectResponse/>
-   </lcAnswerOption>
-   <lcAnswerOption>
-    <lcAnswerContent>HTML</lcAnswerContent>
-    <lcCorrectResponse/>
-   </lcAnswerOption>
-  </lcAnswerOptionGroup>
 
- 
-    <lcFeedbackIncorrect>The DITA Open Toolkit includes publishing into webhelp, PDF, and HTML.</lcFeedbackIncorrect>
-   </lcMultipleSelect>
-  </lcInteraction>
- </learningAssessmentbody>
+<learningAssessmentbody>
+ <lcInteraction>
+  <lcMultipleSelect id="specs">
+   <lcQuestion>Having a clear and consistent method for gathering specs for a custom plugin is important. A good starting point is a ______ that your company's marketing department can answer to provide specs about the look and feel of the output. Check all that apply.
+</lcQuestion>
+   <lcAnswerOptionGroup>
+    <lcAnswerOption>
+     <lcAnswerContent>Checklist</lcAnswerContent>
+     <lcCorrectResponse/>
+    </lcAnswerOption>
+    <lcAnswerOption>
+     <lcAnswerContent>Menu</lcAnswerContent>
+    </lcAnswerOption>
+    <lcAnswerOption>
+     <lcAnswerContent>Questionnaire</lcAnswerContent>
+     <lcCorrectResponse/>
+    </lcAnswerOption>
+   </lcAnswerOptionGroup>
+  </lcMultipleSelect>
+  
+ </lcInteraction>
+</learningAssessmentbody>
 </learningAssessment>
