@@ -2,7 +2,7 @@
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <learningContent id="content_pgf_3gt_qt">
-    <title>Publishing through oXygen XML Editor</title>
+    <title>Publishing through the oXygen XML Editor</title>
     <prolog class="- topic/prolog ">
         <author type="creator" href="http://easydita.com/" format="html" scope="external"
             class="- topic/author ">Gretyl Kinsey</author>
@@ -20,12 +20,12 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>Instead of using the DITA OT in a standalone environment, you can publish content by
-                running the DITA OT through the oXygen XML Editor. With oXygen’s user-friendly GUI,
-                publishing output is as easy as clicking a button. All you need to do is select the
-                required output from a list of scenarios and apply the transformation to your source
-                content. The publishing scenarios include PDF, XHTML, webhelp, and other output
-                types.</p>
+            <p>Another way to publish content is by running the DITA OT through the oXygen XML
+                Editor. With oXygen’s user-friendly GUI, publishing output is as easy as clicking a
+                button. All you need to do is select the required output from a list of scenarios
+                and apply the transformation to your source content. The publishing scenarios
+                include the default DITA OT outputs, plus some custom scenarios, including
+                WebHelp.</p>
             <p>Publishing through oXygen makes sense for those in the following situations:</p>
             <ul id="ul_th3_q24_2z">
                 <li>
@@ -33,18 +33,16 @@
                         interface to publish output may be the right choice for you. Generating
                         output through oXygen is less confusing and requires less effort than using
                         the DITA OT in a standalone environment.</p>
-                    <p>oXygen’s interface largely masks the process of running the DITA OT, which
-                        may not be optimal for users who like to watch their builds run and generate
-                        a log in real time. If you’re one of these users, you may prefer to work
-                        with a standalone DITA OT.</p>
                 </li>
                 <li>
                     <p><b>Small content volume.</b> If you don’t have enough DITA content for a
-                        major CCMS installation, oXygen might be the right solution. Authors can
-                        create, edit, and publish their content from a single, capable tool.</p>
+                        major CCMS installation, oXygen might be the right solution. In addition to
+                        its DITA publishing capabilities, oXygen also offers SVN integration for
+                        version control. Authors can create, edit, manage, and publish their content
+                        from a single, capable tool.</p>
                 </li>
                 <li>
-                    <p><b>Single writers or small content teams.</b> oXygen is not free—customers
+                    <p><b>Single writers or small content teams.</b> oXygen is not free; customers
                         must purchase an annual license to use the software. Licensing oXygen for a
                         single writer or small team of writers for DITA publishing is generally much
                         less costly than licensing a CCMS.</p>
