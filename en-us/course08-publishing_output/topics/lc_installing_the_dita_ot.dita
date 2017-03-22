@@ -39,7 +39,7 @@
                         the open-source DITA OT is available.</cmd>
                 </step>
                 <step>
-                    <cmd>Navigate to the "Download" page (<xref
+                    <cmd>Navigate to the “Download” page (<xref
                             href="http://www.dita-ot.org/download" format="html" scope="external"
                         />).</cmd>
                     <info>
@@ -47,7 +47,7 @@
                             the page. The page also contains a link to the latest version that is
                             under development for testing, followed by a list of previous versions
                             of the DITA OT.</p>
-                        <note>At the time of this course's release, the latest version of the DITA
+                        <note>At the time of this course’s release, the latest version of the DITA
                             OT was 2.4.4.</note>
                     </info>
                 </step>
@@ -66,9 +66,9 @@
                     <cmd>Choose a folder on your machine where you want to install the DITA Open
                         Toolkit.</cmd>
                     <info>
-                        <note>The commands used to publish output through the DITA OT don't do well
+                        <note>The commands used to publish output through the DITA OT don’t do well
                             with spaces or special characters in file and path names. Therefore,
-                            it's best to install the OT at the root level of your machine's system
+                            it’s best to install the OT at the root level of your machine’s system
                             folder structure in a folder that only uses letters, numbers,
                             underscores, or hyphens in its name.</note>
                     </info>
@@ -80,7 +80,7 @@
                 <step>
                     <cmd>Unzip the DITA OT folder.</cmd>
                     <info>
-                        <p><b>On Windows:</b> Right-click the zip folder and click "Extract" to
+                        <p><b>On Windows:</b> Right-click the zip folder and click “Extract” to
                             unzip the contents into the new location. <draft-comment
                                 author="gretylkinsey">Also mention something here about uzing a zip
                                 utility tool such as 7Zip?</draft-comment></p>

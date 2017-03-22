@@ -37,8 +37,8 @@
                         plugins folder.</cmd>
                 </step>
                 <step>
-                    <cmd>Inside the "outputs" folder you created earlier, create a new folder named
-                        "custom_output."</cmd>
+                    <cmd>Inside the “outputs” folder you created earlier, create a new folder named
+                        “custom_output.”</cmd>
                 </step>
                 <step>
                     <cmd>Type the following commands into your command window:</cmd>
@@ -68,14 +68,14 @@
                     <cmd>Press ENTER to run the DITA Open Toolkit.</cmd>
                 </step>
                 <step>
-                    <cmd>Look in the "custom_output" folder to see the generated HTML output.</cmd>
+                    <cmd>Look in the “custom_output” folder to see the generated HTML output.</cmd>
                 </step>
                 <step>
                     <cmd>Open the file c_wild_duck_species.html in a browser and compare it to the
-                        version of c_wild_duck_species.html in your "ducks_output" folder.</cmd>
+                        version of c_wild_duck_species.html in your “ducks_output” folder.</cmd>
                     <info>
-                        <p><xref href="https://youtu.be/YpvVqbnSKBY" format="html" scope="external">Video:
-                            Installing Custom Plugins</xref></p>
+                        <p><xref href="https://youtu.be/YpvVqbnSKBY" format="html" scope="external"
+                                >Video: Installing Custom Plugins</xref></p>
                     </info>
                 </step>
             </steps>

@@ -29,74 +29,77 @@
                 version. For the DITA OT, the version of JAVA you need will most likely be the JAVA
                 Development Kit (JDK).</p>
             <p>Follow the instructions below to ensure that your version of the JDK is up to date.
-                Separate instructions are provided for PC and Mac users.</p>
+                Separate instructions are provided for Windows and Mac users.</p>
             <p><xref href="https://youtu.be/5P9hgZnpWDo" format="html" scope="external">Video:
                 Installing JAVA</xref></p>
         </lcInstruction>
     </learningContentbody>
     <task id="task_igy_wd5_xy">
-        <title>Installing JAVA on a PC</title>
+        <title>Installing JAVA</title>
         <taskbody>
+            <context id="context_a4w_xvc_3z"><b>Installing JAVA on Windows</b></context>
             <steps>
                 <step>
                     <cmd>Download and install the latest version of the JAVA Development Kit
                         (JDK).</cmd>
                     <info>
-                        <p>At the time of this course's release, the latest version of the JDK was
-                            version 8.</p>
+                        <note>At the time of this course’s release, the latest version of the JDK
+                            was version 8.</note>
                     </info>
                 </step>
                 <step>
-                    <cmd>Open File Explorer, right-click on "This PC," and then click "Properties."
+                    <cmd>Open File Explorer, right-click on “This PC,” and then click “Properties.”
                         A new window will open.</cmd>
                 </step>
                 <step>
-                    <cmd>Click on the "Advanced System Settings" link in the left column of the new
+                    <cmd>Click on the “Advanced System Settings” link in the left column of the new
                         window. Another window will open.</cmd>
                 </step>
                 <step>
-                    <cmd>Click on the "Environment Variables" button found in the lower right of the new window.</cmd>
+                    <cmd>Click on the “Environment Variables” button found in the lower right of the
+                        new window.</cmd>
                 </step>
                 <step>
-                    <cmd>Find "JAVA_HOME" under the "System Variables" panel, and check that the value points to the directory where the JDK is installed. </cmd>
-                    <info>
-                        <p>If "JAVA_HOME" exists, and the value displays the correct location, then
-                            you are done. If not, continue to the following steps. </p>
-                    </info>
+                    <cmd>Find “JAVA_HOME” under the “System Variables” panel, and check that the
+                        value points to the directory where the JDK is installed. </cmd>
+                    <info>If “JAVA_HOME” exists, and the value displays the correct location, then
+                        you are done. If not, continue to the following steps.</info>
                 </step>
                 <step>
-                    <cmd>Click "New..."</cmd>
+                    <cmd>Click “New...”</cmd>
                 </step>
                 <step>
-                    <cmd>Input "JAVA_HOME" (without quotation marks) under "Variable name" and the
+                    <cmd>Input “JAVA_HOME” (without quotation marks) under “Variable name” and the
                         location of the JDK (for example, C:/Program Files/Java/{jdk_folder_name})
-                        under "Variable value."</cmd>
+                        under “Variable value.”</cmd>
                 </step>
             </steps>
         </taskbody>
     </task>
     <task id="task_nyf_yd5_xy">
-        <title>Installing JAVA on a Mac</title>
+        <title>Installing JAVA on Mac</title>
         <taskbody>
+            <context id="context_hby_zvc_3z"><b>Installing JAVA on Mac</b></context>
             <steps>
                 <step>
-                    <cmd> Download and install the latest version of the JAVA Development Kit
+                    <cmd>Download and install the latest version of the JAVA Development Kit
                         (JDK).</cmd>
                     <info>
-                        <p>At the time of this course's release, the latest version of the JDK was
-                            version 8.</p>
+                        <note>At the time of this course’s release, the latest version of the JDK
+                            was version 8.</note>
                     </info>
                 </step>
                 <step>
-                    <cmd>Make sure you click on "Accept License Agreement" when asked. A pop up will appear if you've clicked download without selecting "Accept."</cmd>
+                    <cmd>Make sure you click on “Accept License Agreement” when asked. A pop up will
+                        appear if you’ve clicked download without selecting “Accept.”</cmd>
                 </step>
                 <step>
                     <cmd>Under the download column select the JAVA link that is specific to your
-                        computer's system. </cmd>
+                        computer’s system. </cmd>
                     <info>Mac users choose MAC OS X.</info>
                 </step>
                 <step>
-                    <cmd>A dmg file will begin downloading.</cmd>
+                    <cmd>A .dmg file will begin downloading.</cmd>
                 </step>
                 <step>
                     <cmd>Once it has downloaded, click on the icon in your downloads folder. A
@@ -106,7 +109,7 @@
                     <cmd>Double click on the icon.</cmd>
                 </step>
                 <step>
-                    <cmd>Click "Install," "Run," or equivalent.</cmd>
+                    <cmd>Click “Install,” “Run,” or equivalent.</cmd>
                 </step>
             </steps>
         </taskbody>

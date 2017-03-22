@@ -45,7 +45,7 @@
                     <cmd>Press ENTER to run the DITA Open Toolkit.</cmd>
                 </step>
                 <step>
-                    <cmd>Navigate to your "ducks_output" folder.</cmd>
+                    <cmd>Navigate to your “ducks_output” folder.</cmd>
                     <info>In addition to the PDF files you generated earlier, you should now see
                         multiple HTML files and an images folder.</info>
                 </step>
@@ -53,7 +53,7 @@
                     <cmd>Open the file index.html in a browser.</cmd>
                     <info>
                         <p>This index file serves as an electronic table of contents, showing the
-                            hierarchy of your map with links to each topic file. The DITA OT's
+                            hierarchy of your map with links to each topic file. The DITA OT’s
                             default xhtml plugin does not provide navigation, but the index file can
                             help you find the topics you need.</p>
                     </info>

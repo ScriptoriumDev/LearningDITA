@@ -21,7 +21,7 @@
     <learningContentbody>
         <lcInstruction>
             <p>Now that you have installed the DITA Open Toolkit and the required JAVA Development
-                Kit and set up your folder structure, you're ready to run your first test build.
+                Kit and set up your folder structure, you’re ready to run your first test build.
                 Follow the instructions below to generate a sample PDF file using the DITA OT.
                 Separate instructions are provided for Windows and Mac users.</p>
             <note>These instructions only apply to the 2.x versions of the DITA Open Toolkit.</note>
@@ -43,7 +43,7 @@
                         DITA OT folder.</cmd>
                     <info>
                         <note>To enter a filepath without typing it, navigate to the file on your
-                            system, click on the file's icon, and drag the icon directly into the
+                            system, click on the file’s icon, and drag the icon directly into the
                             command window. You can use the same action to enter the filepath for
                             the ducks_output folder without typing it.</note>
                     </info>
@@ -61,7 +61,7 @@
                 <step>
                     <cmd>Press ENTER to run the DITA Open Toolkit.</cmd>
                     <info>
-                        <note>You will see a log of the DITA OT's build process in realtime
+                        <note>You will see a log of the DITA OT’s build process in realtime
                             displayed in the command window.</note>
                     </info>
                 </step>
