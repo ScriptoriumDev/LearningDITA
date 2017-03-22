@@ -21,15 +21,16 @@
     <learningContentbody>
         <lcInstruction>
             <p>In the previous lesson, you tested the DITA OT by entering the following set of
-                commands for
-                PC:<pre>bin\dita -i [filepath]/sources/m_ducks.ditamap -f pdf2 -o [output-dir] -v</pre></p>
-            <p>Or for
-                Mac:<pre>./bin/dita -i [filepath]/sources/m_ducks.ditamap -f pdf2 -o [filepath]/outputs/m_ducks_output -v</pre></p>
+                commands:</p>
+            <p><b>On Windows:</b></p>
+            <pre>bin\dita -i [filepath]/sources/m_ducks.ditamap -f pdf2 -o [output-dir] -v</pre>
+            <p><b>On Mac:</b></p>
+            <pre>./bin/dita -i [filepath]/sources/m_ducks.ditamap -f pdf2 -o [filepath]/outputs/m_ducks_output -v</pre>
             <p>These are the standard commands of a basic DITA OT build. Here is what each command
                 means:</p>
             <ul id="ul_dx2_csf_2z">
                 <li>
-                    <p><b>bin\dita</b> (PC) or <b>./bin/dita</b> (Mac) specifies that you are
+                    <p><b>bin\dita</b> (Windows) or <b>./bin/dita</b> (Mac) specifies that you are
                         generating DITA output.</p>
                 </li>
                 <li>
@@ -42,13 +43,13 @@
                         HTML, webhelp, or any other format.</p>
                     <note>
                         <p>In the previous lesson, you entered <b>pdf2</b> as the transtype to
-                            generate output using the DITA OT's default PDF plugin.</p>
+                            generate output using the DITA OT’s default PDF plugin.</p>
                     </note>
                 </li>
                 <li>
                     <p><b>-o</b> tells the DITA OT where to store the generated output. If you do
                         not use the -o command to specify an output directory, the DITA OT will
-                        place the output into its default "out" folder.</p>
+                        place the output into its default “out” folder.</p>
                 </li>
                 <li>
                     <p><b>-v</b> tells the DITA OT to display the command log as it generates the
@@ -56,7 +57,7 @@
                         in realtime to help troubleshoot errors.</p>
                 </li>
             </ul>
-            <p>You can use additional commands to add more specifcations about the build you're
+            <p>You can use additional commands to add more specifcations about the build you’re
                 running. For example, you can tell the DITA OT to display any draft-comments in the
                 source content, which are hidden by default. In cases where you need more complex
                 build parameters, it makes sense to use a RUNOT file.</p>
@@ -67,7 +68,7 @@
             <draft-comment author="gretylkinsey">
                 <p>We have provided RUNOT files in the samples folder for use with the rest of the
                     exercises in this course. (are we still planning to do this? or does it make
-                    more sense to just provide the commands since they're only doing simple builds?
+                    more sense to just provide the commands since they’re only doing simple builds?
                     I would argue against RUNOT files since it will probably take more effort to
                     tell people how to edit them for the input/output)</p>
             </draft-comment>

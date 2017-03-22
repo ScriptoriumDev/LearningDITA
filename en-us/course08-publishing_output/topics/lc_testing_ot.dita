@@ -21,42 +21,49 @@
     <learningContentbody>
         <lcInstruction>
             <p>Now that you have installed the DITA Open Toolkit and the required JAVA Development
-                Kit and set up your folder structure, you're ready to run your first test build.
+                Kit and set up your folder structure, you’re ready to run your first test build.
                 Follow the instructions below to generate a sample PDF file using the DITA OT.
-                Separate instructions are provided for PC and Mac users.</p>
+                Separate instructions are provided for Windows and Mac users.</p>
             <note>These instructions only apply to the 2.x versions of the DITA Open Toolkit.</note>
         </lcInstruction>
     </learningContentbody>
     <task id="task_q32_qtw_cz">
-        <title>Running a DITA OT test build on a PC</title>
+        <title>Running a DITA OT test build</title>
         <taskbody>
             <steps id="steps_tyl_xtw_cz">
                 <step>
-                    <cmd>Click Start > Run.</cmd>
-                </step>
-                <step>
-                    <cmd>Type cmd.</cmd>
+                    <cmd>Open a command window.</cmd>
+                    <info>
+                        <p><b>On Windows:</b> Click Start > Run and type cmd.</p>
+                        <p><b>On Mac:</b> Launch the Terminal application.</p>
+                    </info>
                 </step>
                 <step>
                     <cmd>In the command window, type cd followed by the filepath to navigate to the
                         DITA OT folder.</cmd>
+                    <info>
+                        <note>To enter a filepath without typing it, navigate to the file on your
+                            system, click on the file’s icon, and drag the icon directly into the
+                            command window. You can use the same action to enter the filepath for
+                            the ducks_output folder without typing it.</note>
+                    </info>
                 </step>
                 <step>
                     <cmd>Type the following string of commands into the command window to run the
                         DITA OT:</cmd>
                     <info>
+                        <p><b>On Windows:</b></p>
                         <pre>bin\dita -i [filepath]/sources/ducks/m_ducks.ditamap -f pdf2 -o [filepath]/outputs/ducks_output -v</pre>
-                        <note>To enter the filepath for the m_ducks.ditamap file without typing it,
-                            navigate to the file on your system, click on the file's icon, and drag
-                            the icon directly into the command window. You can use the same action
-                            to enter the filepath for the ducks_output folder without typing
-                            it.</note>
+                        <p><b>On Mac:</b></p>
+                        <pre>./bin/dita -i [filepath]/sources/ducks/m_ducks.ditamap -f pdf2 -o [filepath]/outputs/ducks_output -v</pre>
                     </info>
                 </step>
                 <step>
                     <cmd>Press ENTER to run the DITA Open Toolkit.</cmd>
-                    <info>You will see a log of the DITA OT's build process in realtime displayed in
-                        the command window.</info>
+                    <info>
+                        <note>You will see a log of the DITA OT’s build process in realtime
+                            displayed in the command window.</note>
+                    </info>
                 </step>
                 <step>
                     <cmd>Look in the ducks_output folder to see your generated output. You should
@@ -65,40 +72,6 @@
                         <p><xref href="https://youtu.be/HFhhrmaR1R8" format="html" scope="external">Video:
                             Testing the DITA OT</xref></p>
                     </info>
-                </step>
-            </steps>
-        </taskbody>
-    </task>
-    <task id="task_pfs_wtw_cz">
-        <title>Running a DITA OT test build on a Mac</title>
-        <taskbody>
-            <steps id="steps_x1p_xtw_cz">
-                <step>
-                    <cmd>Launch the Terminal application.</cmd>
-                </step>
-                <step>
-                    <cmd>Type cd to navigate to the OT folder.</cmd>
-                </step>
-                <step>
-                    <cmd>Type the following string of commands into the Terminal to run the DITA
-                        OT:</cmd>
-                    <info>
-                        <pre>./bin/dita -i [filepath]/sources/ducks/m_ducks.ditamap -f pdf2 -o [filepath]/outputs/ducks_output -v</pre>
-                        <note>To enter the filepath for the m_ducks.ditamap file without typing it,
-                            navigate to the file on your system, click on the file's icon, and drag
-                            the icon directly into the Terminal window. You can use the same action
-                            to enter the filepath for the ducks_output folder without typing
-                            it.</note>
-                    </info>
-                </step>
-                <step>
-                    <cmd>Press RETURN to run the DITA Open Toolkit.</cmd>
-                    <info>You will see a log of the DITA OT's build process in realtime displayed in
-                        the Terminal.</info>
-                </step>
-                <step>
-                    <cmd>Look in the ducks_output folder to see your generated output. You should
-                        see a file called m_ducks.pdf.</cmd>
                 </step>
             </steps>
         </taskbody>

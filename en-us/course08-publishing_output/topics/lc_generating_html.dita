@@ -29,20 +29,23 @@
         </lcInstruction>
     </learningContentbody>
     <task id="task_kth_1dh_2z">
-        <title>Generating HTML output on a PC</title>
+        <title>Generating HTML output</title>
         <taskbody>
             <steps id="steps_php_1ch_2z">
                 <step>
                     <cmd>Type the following commands into your command window:</cmd>
                     <info>
+                        <p><b>On Windows:</b></p>
                         <pre>bin\dita -i [filepath]/sources/ducks/m_ducks.ditamap -f xhtml -o [filepath]/outputs/ducks_output -v</pre>
+                        <p><b>On Mac:</b></p>
+                        <pre>./bin/dita -i [filepath]/sources/ducks/m_ducks.ditamap -f xhtml -o [filepath]/outputs/ducks_output -v</pre>
                     </info>
                 </step>
                 <step>
                     <cmd>Press ENTER to run the DITA Open Toolkit.</cmd>
                 </step>
                 <step>
-                    <cmd>Navigate to your "ducks_output" folder.</cmd>
+                    <cmd>Navigate to your “ducks_output” folder.</cmd>
                     <info>In addition to the PDF files you generated earlier, you should now see
                         multiple HTML files and an images folder.</info>
                 </step>
@@ -50,7 +53,7 @@
                     <cmd>Open the file index.html in a browser.</cmd>
                     <info>
                         <p>This index file serves as an electronic table of contents, showing the
-                            hierarchy of your map with links to each topic file. The DITA OT's
+                            hierarchy of your map with links to each topic file. The DITA OT’s
                             default xhtml plugin does not provide navigation, but the index file can
                             help you find the topics you need.</p>
                     </info>
@@ -62,40 +65,6 @@
                         <p><xref href="https://youtu.be/EvRKU9ZTyAo" format="html" scope="external">Video:
                             Generating HTML Output</xref></p>
                     </info>
-                </step>
-            </steps>
-        </taskbody>
-    </task>
-    <task id="task_lqt_bdh_2z">
-        <title>Generating HTML output on a Mac</title>
-        <taskbody>
-            <steps id="steps_n1g_fsn_2z">
-                <step>
-                    <cmd>Type the following commands into your Terminal window:</cmd>
-                    <info>
-                        <pre>./bin/dita -i [filepath]/sources/ducks/m_ducks.ditamap -f xhtml -o [filepath]/outputs/ducks_output -v</pre>
-                    </info>
-                </step>
-                <step>
-                    <cmd>Press RETURN to run the DITA Open Toolkit.</cmd>
-                </step>
-                <step>
-                    <cmd>Navigate to your "ducks_output" folder.</cmd>
-                    <info>In addition to the PDF files you generated earlier, you should now see
-                        multiple HTML files and an images folder.</info>
-                </step>
-                <step>
-                    <cmd>Open the file index.html in a browser.</cmd>
-                    <info>
-                        <p>This index file serves as an electronic table of contents, showing the
-                            hierarchy of your map with links to each topic file. The DITA OT's
-                            default xhtml plugin does not provide navigation, but the index file can
-                            help you find the topics you need.</p>
-                    </info>
-                </step>
-                <step>
-                    <cmd>Open the file c_duckling_growth.html in a browser to see how the default
-                        XHTML plugin displays images and tables.</cmd>
                 </step>
             </steps>
         </taskbody>
