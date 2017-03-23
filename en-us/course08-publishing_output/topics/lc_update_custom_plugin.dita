@@ -23,14 +23,14 @@
             <p>If you’re using custom plugins, you may need to update them over time. One of the
                 most common reasons for updating the styling of a custom plugin is a change in
                 company branding. You may also need to update a custom plugin to accommodate changes
-                to the source content’s structure–for example, adding a new element to your
+                to the source content’s structure—for example, adding a new element to your
                 specialization, or specializing for the first time.</p>
             <p>Customizing DITA OT plugins is difficult and requires lots of testing to ensure that
                 updates to the plugin have the desired results in the output. Because the DITA OT
                 plugins use XSL (Extensible Markup Language), special knowledge of XSL is required
                 to customize a default plugin or make updates to a custom plugin. For this reason,
-                most companies hire an XSL expert–whether an outside consultant or an in-house
-                employee–to customize plugins.</p>
+                most companies hire an XSL expert—whether an outside consultant or an in-house
+                employee—to customize plugins.</p>
             <p>There is a more straightforward way that the xhtml plugin can be customized to update
                 the look and feel of the content: CSS, or cascading stylesheets. Because more people
                 have common knowledge of CSS than XSL, a company may not need to hire an XSL expert
@@ -97,7 +97,7 @@
                     </info>
                 </step>
                 <step>
-                    <cmd>Press ENTER to run the DITA Open Toolkit.</cmd>
+                    <cmd>Press ENTER to run the DITA OT.</cmd>
                 </step>
                 <step>
                     <cmd>Look inside your “custom_output” folder to view your generated custom HTML

@@ -2,7 +2,7 @@
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <learningContent id="content_pgf_3gt_qt">
-    <title>Publishing environment considerations</title>
+    <title>DITA publishing environment considerations</title>
     <prolog class="- topic/prolog ">
         <author type="creator" href="http://easydita.com/" format="html" scope="external"
             class="- topic/author ">Gretyl Kinsey</author>
@@ -20,21 +20,17 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>Publishing environments may include anything from free, open-source tools used on a
+            <p>DITA publishing environments may include anything from open-source tools used on a
                 standalone basis to commercial, enterprise-level systems that manage the entire
                 content lifecycle. This lesson covers three common DITA publishing environments:</p>
             <ul id="ul_xdz_2zh_cz">
-                <li>A standalone instance of the DITA Open Toolkit</li>
-                <li>The DITA Open Toolkit used in oXygen XML Editor</li>
-                <li>The DITA Open Toolkit used in a component content management system (CCMS)</li>
+                <li>A standalone instance of the DITA Open Toolkit (DITA OT)</li>
+                <li>The DITA OT used in oXygen XML Editor</li>
+                <li>The DITA OT used in a component content management system (CCMS)</li>
             </ul>
-            <note>
-                <p>These publishing environments will be covered in more detail later in this
-                    lesson.</p>
-            </note>
-            <p>Once you’ve determined which output types you need, you’re well on your way to
-                deciding which publishing environment works best for you. The following factors can
-                also help you evaluate publishing options:</p>
+            <note>These DITA publishing environments will be covered in more detail later in this
+                lesson.</note>
+            <p>The following factors can help you evaluate publishing options:</p>
             <ul id="ul_zxj_ywh_cz">
                 <li><b>How many outputs you need.</b> Do you only need to publish one type of
                     output, or do you need multiple types? For each type of output, how many
@@ -46,10 +42,9 @@
                     needs.</li>
                 <li><b>How much content you have.</b> If you plan to publish a high volume of
                     content, you will more likely need an enterprise-level, commercial publishing
-                    environment. A free, open-source publishing tool might work for one or two
-                    manuals that contain a few hundred pages of content; it probably won’t be
-                    feasible for publishing hundreds of manuals with thousands of pages of
-                    content.</li>
+                    environment. An open-source publishing tool might work for one or two manuals
+                    that contain a few hundred pages of content; it probably won’t be feasible for
+                    publishing hundreds of manuals with thousands of pages of content.</li>
                 <li><b>How frequently you update your content.</b> The more often you update your
                     content, the more often you will need to generate new output to keep your
                     published material up-to-date. If you have a regular, frequent update schedule,
@@ -60,7 +55,9 @@
                     consider starting with a publishing environment that will accommodate these
                     future requirements. Depending on budget concerns, you may also begin in a
                     smaller or standalone publishing environment and move to a larger one when it
-                    becomes necessary. If you choose to start in a smaller environment, </li>
+                    becomes necessary. If you choose to start in a smaller environment, it is
+                    important to determine whether the tools you use allow you to export your
+                    content and use it in a larger environment later.</li>
                 <li><b>Localization requirements.</b> Are you translating your content into other
                     languages? If so, are you responsible for publishing the translated content? If
                     you’re not translating, will you be in the future? All of these questions are
@@ -69,12 +66,14 @@
                     output type (such as one PDF format for English, another for Spanish, and yet
                     another for Chinese), which increases your total number of outputs.</li>
             </ul>
-            <p>If you need to publish PDF output, your publishing environment will need to include a
-                rendering engine. The type of rendering engine you choose depends on the formatting
-                and design of your PDF output. An open-source rendering engine (such as Apache FOP)
-                may be capable of producing simple, straightforward designs. However, a commercial
-                rendering engine (such as Antenna House Formatter or RenderX XEP) will be better for
-                publishing PDF files with more complex page layouts.</p>
+            <p>If you need to publish PDF output, your publishing environment will need to include
+                an FO formatter. The type of formatter you choose depends on the formatting and
+                design of your PDF output. An open-source formatter (such as Apache FOP) may be
+                capable of producing simple, straightforward designs. However, a commercial
+                formatter (such as Antenna House Formatter or RenderX XEP) will be better for
+                publishing PDF files with more complex page layouts. You should consider your
+                localization requirements when choosing a formatter, as different formatters have
+                different degrees of language character support.</p>
         </lcInstruction>
     </learningContentbody>
 </learningContent>

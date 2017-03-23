@@ -2,7 +2,7 @@
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <learningContent id="content_pgf_3gt_qt">
-    <title>Testing the DITA Open Toolkit installation</title>
+    <title>Testing the DITA OT installation</title>
     <prolog class="- topic/prolog ">
         <author type="creator" href="http://easydita.com/" format="html" scope="external"
             class="- topic/author ">Gretyl Kinsey</author>
@@ -20,11 +20,16 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>Now that you have installed the DITA Open Toolkit and the required JAVA Development
-                Kit and set up your folder structure, you’re ready to run your first test build.
-                Follow the instructions below to generate a sample PDF file using the DITA OT.
-                Separate instructions are provided for Windows and Mac users.</p>
-            <note>These instructions only apply to the 2.x versions of the DITA Open Toolkit.</note>
+            <p>Now that you have installed the DITA OT and the required Java Development Kit and set
+                up your folder structure, you’re ready to run your first test build. The test build
+                shows you how the DITA OT transforms DITA source files into output. Since PDF is a
+                common output requirement for many companies that publish DITA content, the test
+                build involves generating PDF output.</p>
+            <p>Follow the instructions below to run a test build and publish a sample PDF file using
+                the DITA OT. Separate instructions are provided for Windows and Mac users.</p>
+            <note>These instructions only apply to the 2.x versions of the DITA OT.</note>
+            <p><xref href="https://youtu.be/HFhhrmaR1R8" format="html" scope="external">Video:
+                    Testing the DITA OT</xref></p>
         </lcInstruction>
     </learningContentbody>
     <task id="task_q32_qtw_cz">
@@ -39,18 +44,16 @@
                     </info>
                 </step>
                 <step>
-                    <cmd>In the command window, type cd followed by the filepath to navigate to the
-                        DITA OT folder.</cmd>
+                    <cmd>In the command window, type cd followed by the filepath to the DITA OT
+                        folder.</cmd>
                     <info>
-                        <note>To enter a filepath without typing it, navigate to the file on your
-                            system, click on the file’s icon, and drag the icon directly into the
-                            command window. You can use the same action to enter the filepath for
-                            the ducks_output folder without typing it.</note>
+                        <note>To avoid typing the filepath, find the file in Windows Explorer (on
+                            Windows) or the Finder (on Mac), then drag the file directly into the
+                            command window.</note>
                     </info>
                 </step>
                 <step>
-                    <cmd>Type the following string of commands into the command window to run the
-                        DITA OT:</cmd>
+                    <cmd>Type the following command into the command window:</cmd>
                     <info>
                         <p><b>On Windows:</b></p>
                         <pre>bin\dita -i [filepath]/sources/ducks/m_ducks.ditamap -f pdf2 -o [filepath]/outputs/ducks_output -v</pre>
@@ -59,19 +62,15 @@
                     </info>
                 </step>
                 <step>
-                    <cmd>Press ENTER to run the DITA Open Toolkit.</cmd>
+                    <cmd>Press ENTER to run the DITA OT.</cmd>
                     <info>
-                        <note>You will see a log of the DITA OT’s build process in realtime
-                            displayed in the command window.</note>
+                        <note>You will see a log of the DITA OT’s build process in the command
+                            window.</note>
                     </info>
                 </step>
                 <step>
                     <cmd>Look in the ducks_output folder to see your generated output. You should
                         see a file called m_ducks.pdf.</cmd>
-                    <info>
-                        <p><xref href="https://youtu.be/HFhhrmaR1R8" format="html" scope="external">Video:
-                            Testing the DITA OT</xref></p>
-                    </info>
                 </step>
             </steps>
         </taskbody>

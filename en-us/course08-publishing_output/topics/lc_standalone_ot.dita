@@ -2,7 +2,7 @@
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <learningContent id="content_pgf_3gt_qt">
-    <title>Publishing with a standalone DITA Open Toolkit</title>
+    <title>Publishing with a standalone DITA OT</title>
     <prolog class="- topic/prolog ">
         <author type="creator" href="http://easydita.com/" format="html" scope="external"
             class="- topic/author ">Gretyl Kinsey</author>
@@ -20,37 +20,32 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>The DITA Open Toolkit (DITA OT) is an open-source publishing engine for DITA content.
-                The DITA OT contains <i>plugins</i>, or collections of XSL files, used to transform
-                the DITA source content into various outputs. </p>
-            <p>By default, the DITA OT is equipped with plugins for producing PDF, HTML, and
-                webhelp; these plugins can be updated to change the look and feel of the outputs.
-                DITA OT users can also install their own plugins for more highly customized
-                output.</p>
-            <p>The DITA OT can be used to generate output on its own or in conjunction with certain
-                tools for authoring, editing, and content management. Without one of these tools,
-                you can download and install the DITA OT onto your machine to create a standalone
-                environment for publishing.</p>
-            <note>
-                <p>This course will include detailed instructions for publishing with a standalone
-                    DITA OT in subsequent lessons.</p>
-            </note>
-            <p>Most companies that publish output from DITA source content will do so through a
-                tool. However, a standalone DITA OT environment might work better for some
-                situations, such as:</p>
+            <p>The DITA OT is an open-source publishing engine for DITA content. The DITA OT
+                contains <i>plugins</i>, which are used to transform the DITA source content into
+                various outputs. </p>
+            <p>Default plugins for the DITA OT include PDF, HTML, WebHelp, and others. These plugins
+                can be updated to change the look and feel of the outputs. DITA OT users can also
+                install their own plugins for more highly customized output.</p>
+            <p>The DITA OT can be used to generate output on its own or in conjunction with software
+                for DITA authoring, editing, and content management. You can also download and
+                install the DITA OT onto your machine to create a standalone environment for
+                publishing.</p>
+            <note>This course includes detailed instructions for publishing with a standalone DITA
+                OT in subsequent lessons.</note>
+            <p>Most companies that publish output from DITA source content do so in conjunction with
+                other software, such as XML editors or content management systems. However, a
+                standalone DITA OT environment might work better for some situations, such as:</p>
             <ul id="ul_xp4_3k4_cz">
                 <li><b>Small content volume.</b> If your company produces a very small amount of
                     content and has an infrequent updating or publishing schedule, a standalone DITA
-                    OT may be easier to justify financially than a DITA OT-compatible tool or
-                    system.</li>
+                    OT may be more cost effective than a DITA OT-compatible tool or system.</li>
                 <li><b>Pilot projects.</b> If you’re using a small subset of content as a proof of
                     concept to show your manager the benefits of automated publishing, a standalone
-                    DITA OT is a no-cost way to help prove your point.</li>
-                <li><b>Single authors.</b> A company that employs only a single technical writer or
-                    a very small documentation team may not need more than a standalone DITA OT for
-                    publishing.</li>
-                <li><b>Students.</b> If you’re teaching yourself DITA–for a class, for career
-                    advancement, or to determine whether it’s a good fit for your company–a
+                    DITA OT is a cost effective way to help prove your point.</li>
+                <li><b>Small teams.</b> A company that employs only a very small documentation team
+                    may not need more than a standalone DITA OT for publishing.</li>
+                <li><b>Students.</b> If you’re teaching yourself DITA—for a class, for career
+                    advancement, or to determine whether it’s a good fit for your company—a
                     standalone DITA OT is perfect for testing the publishing process.</li>
             </ul>
         </lcInstruction>
