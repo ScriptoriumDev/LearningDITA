@@ -2,7 +2,7 @@
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <learningContent id="content_pgf_3gt_qt">
-    <title>Setting up source and output folders</title>
+    <title>Source and output folders</title>
     <prolog class="- topic/prolog ">
         <author type="creator" href="http://easydita.com/" format="html" scope="external"
             class="- topic/author ">Gretyl Kinsey</author>
@@ -27,7 +27,7 @@
         </lcInstruction>
     </learningContentbody>
     <concept id="concept_rbg_1nf_2z">
-        <title>Setting up source folders</title>
+        <title>Source folders</title>
         <conbody>
             <p>When you’re working in a standalone DITA OT publishing environment, a well-organized
                 folder structure helps you keep track of your DITA source content. Here are some
@@ -49,71 +49,44 @@
         </conbody>
     </concept>
     <concept id="concept_yzs_q4f_2z">
-        <title>Setting up output folders</title>
+        <title>Output folders</title>
         <conbody>
-            <p>By default, the DITA Open Toolkit creates a default output folder named “out.” If you
-                use the default “out” folder, be aware that the DITA OT replaces the previously
-                generated output with new output each time you run the DITA OT on the same set of
-                source content for the same type of output. For example, if you generated PDF output
-                of b_ducks.ditamap yesterday and you generate PDF output of the same map today,
-                yesterday’s PDF is deleted and today’s PDF replaces it. (If you generate PDF output
-                from a different map, or generate HTML output from the same map, yesterday’s PDF
-                remains in place.)</p>
-            <p>Here are some options for setting up your own output folders instead of using the
-                default “out” folder:</p>
-            <ul id="ul_kz4_ypf_2z">
-                <li>
-                    <p><b>Create output folders on your system.</b> As with your DITA OT folder and
-                        source folders, make sure that the filepaths for your output folders do not
-                        contain any spaces or special characters. There are many ways you can
-                        organize your output folders, including:</p>
-                    <ul id="ul_wcz_dqf_2z">
-                        <li>By set of source content</li>
-                        <li>By output type</li>
-                        <li>By date</li>
-                        <li>By test iteration</li>
-                    </ul>
-                    <p>It may help to keep all of your output folders under one main “output” or
-                        “testing” folder.</p>
-                </li>
-                <li>
-                    <p><b>Create sub-folders in the default “out” folder.</b> The DITA OT only
-                        generates output directly into the “out” folder by default, not into any
-                        sub-folders you add. Therefore, you can either tell the DITA OT to send your
-                        output into one of the subfolders, or allow the DITA OT to generate output
-                        into the default “out” folder and then move it into the correct
-                        sub-folder.</p>
-                </li>
+            <p>By default, the DITA Open Toolkit creates a default output folder named <b>out</b>.
+                If you use the default <b>out</b> folder, be aware that the DITA OT replaces the
+                previously generated output with new output each time you run the DITA OT on the
+                same set of source content for the same type of output. For example, if you
+                generated PDF output from the file <b>b_ducks.ditamap</b> yesterday and you generate
+                PDF output of the same file today, yesterday’s PDF is deleted and today’s PDF
+                replaces it. (If you generate PDF output from a different map, or generate HTML
+                output from the same map, yesterday’s PDF remains in place.)</p>
+            <p>To keep the DITA OT from replacing your output, you can set up subfolders in the
+                    <b>out</b> folder. When you run the DITA OT, you can instruct it to generate
+                output into the subfolder of your choice. There are many ways you can organize your
+                output subfolders, including:</p>
+            <ul id="ul_mlt_zql_3z">
+                <li>By set of source content</li>
+                <li>By output type</li>
+                <li>By date</li>
+                <li>By test iteration</li>
             </ul>
         </conbody>
     </concept>
     <task id="task_kmx_yqf_2z">
-        <title>Exercise</title>
+        <title>Setting up your sources folder</title>
         <taskbody>
-            <context id="context_syk_brf_2z">Use these instructions to set up source and output
-                folders on your system for testing.</context>
+            <context id="context_syk_brf_2z">Use these instructions to set up a sources folder on
+                your system for testing.</context>
             <steps id="steps_n2j_drf_2z">
                 <step>
-                    <cmd>Create a new folder on your machine and name it “sources.”</cmd>
+                    <cmd>Create a new folder on your machine and name it <b>sources</b>.</cmd>
                 </step>
                 <step>
-                    <cmd>Locate the samples folder you downloaded at the beginning of this
+                    <cmd>Locate the <b>samples</b> folder you downloaded at the beginning of this
                         course.</cmd>
                 </step>
                 <step>
-                    <cmd>Copy the “ducks” folder into the “sources” folder.</cmd>
-                    <info><image href="images/source_folders.png" width="500" id="image_e1t_wpq_fz"
-                            base="2017/03"/></info>
-                </step>
-                <step>
-                    <cmd>In the same location as your “sources” folder, create a new folder and name
-                        it “outputs.”</cmd>
-                </step>
-                <step>
-                    <cmd>Inside the “outputs” folder, create a new folder and name it
-                        “ducks_output.”</cmd>
-                    <info><image href="images/output_folders.png" width="500" id="image_qpx_xpq_fz"
-                            base="2017/03"/></info>
+                    <cmd>Copy the <b>ducks</b> folder from the <b>samples</b> folder into the
+                            <b>sources</b> folder you just created.</cmd>
                 </step>
             </steps>
             <result id="result_kc1_srf_2z">You are now ready to test the DITA OT.</result>
