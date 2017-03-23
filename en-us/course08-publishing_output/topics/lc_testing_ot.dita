@@ -39,7 +39,7 @@
                 <step>
                     <cmd>Open a command window.</cmd>
                     <info>
-                        <p><b>On Windows:</b> Click START > RUN and type <tt>cmd</tt>.</p>
+                        <p><b>On Windows:</b> Click on Start > Run and type <tt>cmd</tt>.</p>
                         <p><b>On Mac:</b> Launch the Terminal application.</p>
                     </info>
                 </step>
@@ -53,7 +53,7 @@
                     </info>
                 </step>
                 <step>
-                    <cmd>Type the following command into the command window:</cmd>
+                    <cmd>Type the following command:</cmd>
                     <info>
                         <p><b>On Windows:</b></p>
                         <pre>bin\dita -i [filepath]/sources/ducks/m_ducks.ditamap -f pdf2 -o out/ducks_output -v</pre>
