@@ -56,8 +56,9 @@
                         commands on the same source files, your most recent build will replace your
                         previous build. If you wish to keep each iteration of output you build (for
                         example, to keep track of testing or troubleshooting results), you can
-                        either rename the previous output before you run a new build or set the -o
-                        command to a different output directory every time you run the build.</p>
+                        either rename the previous output before you run a new build or set the
+                            <tt>-o</tt> command to a different output directory every time you run
+                        the build.</p>
                 </li>
                 <li>
                     <p><b>Incorrect output display.</b> Sometimes your output doesn’t look the way
@@ -65,8 +66,9 @@
                         PDF may be so large they run off the page, or the columns in a table may not
                         be optimal for text display. These issues are the result of not defining
                         measurements for image and table display in the source files. </p>
-                    <p>To control the specific size of your images, you can set the &lt;image>
-                        element’s width attribute to a certain number of pixels.</p>
+                    <p>To control the specific size of your images, you can set the
+                            <tt>&lt;image></tt> element’s width attribute to a certain number of
+                        pixels.</p>
                     <fig id="fig_cm1_jzx_fz">
                         <title>Image with a width specified vs. image with no width specified in PDF
                             output</title>
