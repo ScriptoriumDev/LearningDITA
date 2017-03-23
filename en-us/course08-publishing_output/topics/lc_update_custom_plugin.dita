@@ -20,28 +20,23 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>If you’re using custom plugins, you may need to update them over time. One of the
-                most common reasons for updating the styling of a custom plugin is a change in
-                company branding. You may also need to update a custom plugin to accommodate changes
-                to the source content’s structure—for example, adding a new element to your
-                specialization, or specializing for the first time.</p>
+            <p>One of the most common reasons for updating the styling of a custom plugin is a
+                change in company branding. You may also need to update a custom plugin to
+                accommodate changes to the source content’s structure—for example, adding a new
+                element to your specialization, or specializing for the first time.</p>
             <p>Customizing DITA OT plugins is difficult and requires lots of testing to ensure that
-                updates to the plugin have the desired results in the output. Because the DITA OT
-                plugins use XSL (Extensible Markup Language), special knowledge of XSL is required
-                to customize a default plugin or make updates to a custom plugin. For this reason,
-                most companies hire an XSL expert—whether an outside consultant or an in-house
-                employee—to customize plugins.</p>
-            <p>There is a more straightforward way that the xhtml plugin can be customized to update
-                the look and feel of the content: CSS, or cascading stylesheets. Because more people
-                have common knowledge of CSS than XSL, a company may not need to hire an XSL expert
-                if it only produces HTML output and can rebrand its content entirely through
-                CSS.</p>
-            <draft-comment author="gretylkinsey">
-                <note>(add disclaimer about why we customized this plugin the way we did/themore
-                    common way to customize plugin for CSS)</note>
-            </draft-comment>
-            <p>The following instructions will show you how to make some simple updates to the CSS
-                for your custom xhtml plugin and generate HTML output to test the results.</p>
+                updates to the plugin have the desired results in the output. Special knowledge is
+                required to customize plugins or update custom plugins, such as knowledge of Ant and
+                DTDs for the base plugin architecture, plus other knowledge of the output types,
+                including XHTML, JavaScript, and XSL-FO. For this reason, most companies hire an
+                expert—whether an outside consultant or an in-house employee—to customize
+                plugins.</p>
+            <p>CSS, or cascading stylesheets, can be used to modify the appearance of output from
+                the xhtml plugin. Because many people have common knowledge of CSS, a company may
+                not need to hire an expert if the only required output type is XHTML and all
+                branding aspects can be handled through changes to the CSS.</p>
+            <p>The following instructions show you how to make simple updates to the CSS for your
+                custom ld_xhtml plugin and generate XHTML output to test the results.</p>
         </lcInstruction>
     </learningContentbody>
     <task id="task_dng_jxg_2z">
@@ -66,6 +61,7 @@
                 <step>
                     <cmd>Make the following changes to ld_style.css:</cmd>
                     <info>
+                        <p>(Areas where changes are required are indicated in bold.)</p>
                         <pre>.p {
   margin-top: 1em;
   font-family: "Lingua Franca", Palatino, serif;
@@ -100,15 +96,15 @@
                     <cmd>Press ENTER to run the DITA OT.</cmd>
                 </step>
                 <step>
-                    <cmd>Look inside your “custom_output” folder to view your generated custom HTML
+                    <cmd>Look inside your “custom_output” folder to view your generated custom XHTML
                         output.</cmd>
                 </step>
                 <step>
                     <cmd>Open c_wild_duck_species.html in a browser to see the CSS changes you
                         made.</cmd>
-                    <info><p>The HTML output should now look like this:</p><image
-                        href="images/xhtml_updated.png" width="500" id="image_ojr_kdy_fz" base="2017/03"
-                        /></info>
+                    <info><p>The XHTML output should now look like this:</p><image
+                            href="images/xhtml_updated.png" width="500" id="image_ojr_kdy_fz"
+                            base="2017/03"/></info>
                 </step>
             </steps>
         </taskbody>

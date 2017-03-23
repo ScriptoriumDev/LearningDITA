@@ -22,9 +22,10 @@
         <lcInstruction>
             <p>The DITA OT comes with default plugins for generating several output types. As you
                 saw in the previous lesson, these include the pdf2 plugin for PDF output and the
-                xhtml plugin for HTML output. These default plugins are helpful when you’re learning
-                to publish content using the DITA OT. However, they are rarely used for publishing
-                in real-world situations.</p>
+                xhtml plugin for HTML output. The default plugins are best considered as demos, or
+                the basis for building “production” plugins.</p>
+            <p>The default plugins are helpful when you’re learning to publish content using the
+                DITA OT. However, they are rarely used for publishing in real-world situations.</p>
             <p>Here are some reasons why the default plugins don’t usually work for companies that
                 publish content:</p>
             <ul id="ul_dnm_gkg_2z">
@@ -43,8 +44,7 @@
                     <p><b>Functionality.</b> In some cases, the default plugins cannot support
                         certain aspects of the source content’s structure. If you’re using a DITA
                         specialization, the default plugins will probably not display your content
-                        in the output as you intended. Depending on the nature of the
-                        specialization, the DITA OT may fail to build output at all.</p>
+                        in the output as you intended.</p>
                 </li>
                 <li>
                     <p><b>Output type.</b> You may need to generate a type of output that isn’t
@@ -58,6 +58,9 @@
                 plugins and use them to generate output. Some custom plugins are based on the
                 underlying structure of the DITA OT’s default plugins; others, such as
                 DITA-to-InDesign plugins, are created independently.</p>
+            <p>You can develop custom plugins yourself, find them on the web, or hire or contract
+                with someone to develop them. Custom plugins are often developed by consultants as
+                part of a content strategy solution.</p>
             <p>When you’re evaluating your need for custom plugins, ask yourself:</p>
             <ul id="ul_nch_kpg_2z">
                 <li>Whether your customization requirements are based on look and feel, structure,
