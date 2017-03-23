@@ -23,7 +23,7 @@
    
    
  <lcMultipleSelect id="DITAOT">
-  <lcQuestion>The DITA Open Toolkit includes publishing into (choose all that apply)</lcQuestion>
+  <lcQuestion>The DITA OT includes publishing into (choose all that apply)</lcQuestion>
   <lcAnswerOptionGroup>
    <lcAnswerOption>
     <lcAnswerContent>Webhelp</lcAnswerContent>
@@ -33,7 +33,7 @@
     <lcAnswerContent>Customized output</lcAnswerContent>
    </lcAnswerOption>
    <lcAnswerOption>
-    <lcAnswerContent>XHTML</lcAnswerContent>
+    <lcAnswerContent>InDesign</lcAnswerContent>
    </lcAnswerOption>
    <lcAnswerOption>
     <lcAnswerContent>PDF</lcAnswerContent>
@@ -46,7 +46,8 @@
   </lcAnswerOptionGroup>
 
  
-    <lcFeedbackIncorrect>The DITA Open Toolkit includes publishing into webhelp, PDF, and HTML.</lcFeedbackIncorrect>
+    <lcFeedbackIncorrect>The DITA OT includes publishing into webhelp, PDF, and
+     HTML.</lcFeedbackIncorrect>
    </lcMultipleSelect>
   </lcInteraction>
  </learningAssessmentbody>

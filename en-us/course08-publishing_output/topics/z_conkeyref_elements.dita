@@ -8,7 +8,7 @@
     <!-- This content is pulled in by conkeyref to the reusable housekeeping file. -->
     <p id="folder_contents">The samples folder contains two folders: <filepath>ducks</filepath> and
         <filepath>plugins</filepath>. <ul>
-        <li>The <filepath>ducks</filepath> folder contains a DITA map, a bookmap, and 11 DITA topic
+        <li>The <filepath>ducks</filepath> folder contains a DITA map, a bookmap, an images folder, and 11 DITA topic
           files. You use these to test aspects of publishing output from DITA sources</li>
         <li>The <filepath>plugins</filepath> folder contains a single zip file
             (<filepath>com.learningdita.ld_xhtml.zip</filepath>), which is a DITA plugin. You use

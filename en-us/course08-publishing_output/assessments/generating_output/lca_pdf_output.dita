@@ -2,7 +2,7 @@
 <!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
 <!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <learningAssessment id="lca_conref_push_requirements">
- <title>Standalone OT key</title>
+ <title>Generating PDFs</title>
  <prolog class="- topic/prolog ">
   <author type="creator" href="http://easydita.com/" format="html" scope="external"
    class="- topic/author ">Gretyl Kinsey</author>
@@ -20,29 +20,18 @@
  </prolog>
  <learningAssessmentbody>
   <lcInteraction>
-  <lcSingleSelect id="standalone">
-   <lcQuestion>A standalone DITA OT is compatible with (choose one):</lcQuestion>
-  
+   <lcTrueFalse id="output">
+    <lcQuestion>The PDF plugin for bookmap content generates an individual table of contents for each chapter and for map content generates a table of contents for the entire document. True or False?</lcQuestion>
     <lcAnswerOptionGroup>
      <lcAnswerOption>
-      <lcAnswerContent>Single authors</lcAnswerContent>
-     </lcAnswerOption>
-     <lcAnswerOption>
-      <lcAnswerContent>Students</lcAnswerContent>
-     </lcAnswerOption>
-     <lcAnswerOption>
-      <lcAnswerContent>Pilot projects</lcAnswerContent>
-     </lcAnswerOption>
-     <lcAnswerOption>
-      <lcAnswerContent>Small content volume</lcAnswerContent>
-     </lcAnswerOption>
-     <lcAnswerOption>
-      <lcAnswerContent>All of the above</lcAnswerContent>
+      <lcAnswerContent>True</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>False</lcAnswerContent>
+     </lcAnswerOption>
     </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect>A Standalone OT is compatible with single authors, students, pilot projects, and small content volume.</lcFeedbackIncorrect>
-  </lcSingleSelect>
+   </lcTrueFalse>
   </lcInteraction>
  </learningAssessmentbody>
 </learningAssessment>

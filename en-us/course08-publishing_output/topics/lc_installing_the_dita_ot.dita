@@ -3,7 +3,7 @@
 <!--
  This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <learningContent id="content_pgf_3gt_qt">
-    <title>Installing the DITA Open Toolkit</title>
+    <title>Installing the DITA OT</title>
     <prolog class="- topic/prolog ">
         <author type="creator" href="http://easydita.com/" format="html" scope="external"
             class="- topic/author ">Gretyl Kinsey</author>
@@ -22,79 +22,72 @@
     <learningContentbody>
         <lcInstruction>
             <p>In the previous lesson, you learned about different DITA publishing environments. The
-                rest of this course covers publishing through a standalone DITA Open Toolkit.</p>
-            <p>The following instructions show you how to install the DITA Open Toolkit on your
+                rest of this course covers publishing through a standalone DITA OT.</p>
+            <p>The following instructions show you how to download and install the DITA OT on your
                 machine.</p>
             <p><xref href="https://youtu.be/UDMAWXc9alY" format="html" scope="external">Video:
                 Installing the DITA Open Toolkit</xref></p>
         </lcInstruction>
     </learningContentbody>
     <task id="task_h4s_gnw_cz">
-        <title>Downloading the DITA Open Toolkit</title>
+        <title>Downloading and installing the DITA OT</title>
         <taskbody>
             <steps id="steps_h3y_3nw_cz">
                 <step>
-                    <cmd>In a web browser, go to the SourceForge website (<xref
+                    <cmd>In a web browser, go to the DITA OT SourceForge website (<xref
                             href="http://www.dita-ot.org/" format="html" scope="external"/>), where
                         the open-source DITA OT is available.</cmd>
                 </step>
                 <step>
-                    <cmd>Navigate to the "Download" page (<xref
+                    <cmd>Navigate to the “Download” page (<xref
                             href="http://www.dita-ot.org/download" format="html" scope="external"
                         />).</cmd>
-                    <info><p>The latest DITA OT distribution package will be displayed at the top of
+                    <info>
+                        <p>The latest DITA OT distribution package will be displayed at the top of
                             the page. The page also contains a link to the latest version that is
                             under development for testing, followed by a list of previous versions
-                            of the DITA OT.</p><image href="images/download_ot.png" width="450" base="2017/03"
-                            id="image_lf3_gmq_fz"/><note>
-                            <p>At the time of this course's release, the latest version of the DITA
-                                OT was 2.4.4.</p>
-                        </note></info>
+                            of the DITA OT.</p>
+                        <note>At the time of this course’s release, the latest version of the DITA
+                            OT was 2.4.4.</note>
+                    </info>
                 </step>
                 <step>
                     <cmd>Click on the button to download the latest distribution package of the DITA
                         OT.</cmd>
-                    <info>
-                        <p>The DITA OT will be downloaded as a zip folder.</p>
-                    </info>
+                    <info><image href="images/download_ot.png" width="450" base="2017/03"
+                        id="image_ssm_trc_3z"/><p>The DITA OT will be downloaded as a zip file.</p></info>
                 </step>
                 <step>
-                    <cmd>Locate the DITA OT zip folder in your system folder structure to ensure
+                    <cmd>Locate the DITA OT zip file in your system folder structure to ensure
                         that the download completed successfully.</cmd>
                 </step>
-            </steps>
-        </taskbody>
-    </task>
-    <task id="task_wbg_z4w_cz">
-        <title>Installing the DITA Open Toolkit</title>
-        <taskbody>
-            <steps id="steps_lvr_1pw_cz">
                 <step>
-                    <cmd>Choose a folder on your machine where you want to install the DITA Open
-                        Toolkit.</cmd>
+                    <cmd>Choose a folder on your machine to install the DITA OT.</cmd>
                     <info>
-                        <note>
-                            <p>The commands used to publish output through the DITA OT don't do well
-                                with spaces or special characters in file and path names. Therefore,
-                                it's best to install the OT at the root level of your machine's
-                                system folder structure in a folder that only uses letters, numbers,
-                                underscores, or hyphens in its name.</p>
-                        </note>
+                        <note>Certain operations of the DITA OT don’t do well with spaces or special
+                            characters in file and path names. Therefore, it’s best to install the
+                            OT at the root level of your machine’s system folder structure in a
+                            folder that only uses letters, numbers, underscores (_), or hyphens (-)
+                            in its name.</note>
+                        <p><b>Example on Windows:</b></p>
+                        <pre>C:\dita-ot-2.4.4</pre>
+                        <p><b>Example on Mac:</b></p>
+                        <pre>/Users/[yourname]/dita-ot-2.4.4</pre>
                     </info>
                 </step>
                 <step>
-                    <cmd>Move the DITA OT zip folder you downloaded into the new folder you chose in
-                        the previous step.</cmd>
+                    <cmd>Move the DITA OT zip file you downloaded into the folder you chose in the
+                        previous step.</cmd>
                 </step>
                 <step>
                     <cmd>Unzip the DITA OT folder.</cmd>
                     <info>
-                        <p><b>On a PC:</b> Right-click the zip folder and click "Extract" to unzip
-                            the contents into the new location. <draft-comment author="gretylkinsey"
-                                >Also mention something here about uzing a zip utility tool such as
-                                7Zip?</draft-comment></p>
-                        <p><b>On a Mac:</b> Double-click the zip folder. This will automatically
-                            unzip its contents into the new location.</p>
+                        <p><b>On Windows:</b> Right-click the zip file and click “Extract” to unzip
+                            the contents into the current location. <draft-comment
+                                author="gretylkinsey">Also mention something here about uzing a zip
+                                utility tool such as 7Zip?</draft-comment></p>
+                        <p><b>On Mac:</b> Double-click the zip file. This will automatically unzip
+                            its contents into the current location.</p>
                     </info>
                     <info>
                         <draft-comment author="gretylkinsey">Add video link</draft-comment>

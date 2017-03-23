@@ -20,13 +20,14 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>If you use custom DITA plugins, you will need to maintain them over time. This may
-                include updating your plugins and testing the changes, or adding new plugins as your
+            <p>If you use custom DITA plugins, you will need to maintain them over time. Eventually,
+                you might need to make further changes to the appearance of your custom plugins’
+                output and test those changes. You may also need to add new custom plugins as your
                 output requirements grow.</p>
             <p>Here are some best practices for maintaining custom DITA plugins:</p>
             <ul id="ul_jmj_42h_2z">
                 <li>
-                    <p><b>Establish a consistent way to collect specifications.</b> When you're
+                    <p><b>Establish a consistent way to collect specifications.</b> When you’re
                         developing a new custom plugin, you will need to gather specifications for
                         how the output should look. For print-based outputs such as PDF, these specs
                         typically include fonts, sizes, colors, page margins, rules for image and
@@ -36,7 +37,7 @@
                         audience?</p>
                     <p>Creating a custom plugin will be easier if you have a clear and consistent
                         method for gathering these specs. A good starting point is a checklist or
-                        questionnaire that your company's marketing department can answer to provide
+                        questionnaire that your company’s marketing department can answer to provide
                         specs about the look and feel of the output. Once you have these specs and
                         have created your first draft of the custom plugin, you will most likely
                         need several rounds of testing and review to fine-tune the output. The
@@ -44,10 +45,10 @@
                         efficient the testing process will be.</p>
                 </li>
                 <li>
-                    <p><b>Support special structures, not misuse of structures.</b> A custom plugin
+                    <p><b>Support special structures; don’t misuse structures.</b> A custom plugin
                         is a great way to ensure that a specialized DITA structure looks its best in
                         the various required output formats. However, custom plugins should not be
-                        used to support "tag abuse" or purposeful misuse of the DITA structure,
+                        used to support “tag abuse” or purposeful misuse of the DITA structure,
                         standard or specialized. </p>
                     <p>For example, it may be tempting to create hundreds of outputclasses in the
                         DITA source to represent exceptions to the PDF styling, and hundreds of
@@ -60,7 +61,7 @@
                 <li>
                     <p><b>Document custom plugin updates.</b> When you need to make a change to the
                         custom plugin, add a comment with your name or company name, the date, and a
-                        brief explanation of your update. Comment out what you're changing in the
+                        brief explanation of your update. Comment out what you’re changing in the
                         plugin rather than replacing it completely; you never know when you may be
                         asked to revert a change back to its original state. If you ever need to
                         transfer your custom plugins over to another developer, this will show them

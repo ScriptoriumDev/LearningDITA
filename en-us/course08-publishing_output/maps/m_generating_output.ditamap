@@ -10,12 +10,15 @@
   <topicref href="../topics/lc_generating_pdf.dita"/>
   <topicref href="../topics/lc_generating_html.dita"/>
   <topicref href="../topics/lc_troubleshooting.dita"/>
-  <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_generating_output.dita"
-   locktitle="yes">
+
+  <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_generating_output.dita" locktitle="yes">
    <topicmeta>
-    <navtitle>Assessment for Generating output</navtitle>
+    <navtitle>Assessment for Generating Output</navtitle>
    </topicmeta>
-   <topicref href="../assessments/generating_output/lca_assessment_question.dita"/>
+   <topicref href="../assessments/generating_output/lca_generating_output.dita"/>
+   <topicref href="../assessments/generating_output/lca_pdf_output.dita"/>
+   <topicref href="../assessments/generating_output/lca_troubleshooting.dita"/>
+   <topicref href="../assessments/generating_output/lca_build_fails.dita"/>
   </topicref>
 </topicref>
 </map>

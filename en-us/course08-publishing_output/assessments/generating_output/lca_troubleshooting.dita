@@ -2,7 +2,7 @@
 <!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
 <!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <learningAssessment id="lca_conref_push_requirements">
- <title>Standalone OT key</title>
+ <title>Troubleshooting</title>
  <prolog class="- topic/prolog ">
   <author type="creator" href="http://easydita.com/" format="html" scope="external"
    class="- topic/author ">Gretyl Kinsey</author>
@@ -20,29 +20,31 @@
  </prolog>
  <learningAssessmentbody>
   <lcInteraction>
-  <lcSingleSelect id="standalone">
-   <lcQuestion>A standalone DITA OT is compatible with (choose one):</lcQuestion>
-  
-    <lcAnswerOptionGroup>
-     <lcAnswerOption>
-      <lcAnswerContent>Single authors</lcAnswerContent>
-     </lcAnswerOption>
-     <lcAnswerOption>
-      <lcAnswerContent>Students</lcAnswerContent>
-     </lcAnswerOption>
-     <lcAnswerOption>
-      <lcAnswerContent>Pilot projects</lcAnswerContent>
-     </lcAnswerOption>
-     <lcAnswerOption>
-      <lcAnswerContent>Small content volume</lcAnswerContent>
-     </lcAnswerOption>
-     <lcAnswerOption>
-      <lcAnswerContent>All of the above</lcAnswerContent>
-      <lcCorrectResponse/>
-     </lcAnswerOption>
-    </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect>A Standalone OT is compatible with single authors, students, pilot projects, and small content volume.</lcFeedbackIncorrect>
-  </lcSingleSelect>
+  <lcMultipleSelect id="troubleshooting">
+   <lcQuestion>Common troubleshooting problems with the DITA OT include (choose all that apply):</lcQuestion>
+   <lcAnswerOptionGroup>
+    <lcAnswerOption>
+     <lcAnswerContent>Wrong version of Java</lcAnswerContent>
+     <lcCorrectResponse/>
+    </lcAnswerOption>
+    <lcAnswerOption>
+     <lcAnswerContent>Incorrectly typed commands</lcAnswerContent>
+     <lcCorrectResponse/>
+    </lcAnswerOption>
+    <lcAnswerOption>
+     <lcAnswerContent>Output replaced or missing</lcAnswerContent>
+     <lcCorrectResponse/>
+    </lcAnswerOption>
+    <lcAnswerOption>
+     <lcAnswerContent>Invalid source content</lcAnswerContent>
+     <lcCorrectResponse/>
+    </lcAnswerOption>
+    <lcAnswerOption>
+     <lcAnswerContent>Incorrect output display</lcAnswerContent>
+     <lcCorrectResponse/>
+    </lcAnswerOption>
+   </lcAnswerOptionGroup>
+  </lcMultipleSelect>
   </lcInteraction>
  </learningAssessmentbody>
 </learningAssessment>
