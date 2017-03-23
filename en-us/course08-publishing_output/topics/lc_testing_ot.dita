@@ -39,13 +39,13 @@
                 <step>
                     <cmd>Open a command window.</cmd>
                     <info>
-                        <p><b>On Windows:</b> Click Start > Run and type cmd.</p>
+                        <p><b>On Windows:</b> Click Start > Run and type <tt>cmd</tt>.</p>
                         <p><b>On Mac:</b> Launch the Terminal application.</p>
                     </info>
                 </step>
                 <step>
-                    <cmd>In the command window, type cd followed by the filepath to the DITA OT
-                        folder.</cmd>
+                    <cmd>In the command window, type <tt>cd</tt> followed by the filepath to the
+                        DITA OT folder.</cmd>
                     <info>
                         <note>To avoid typing the filepath, find the file in Windows Explorer (on
                             Windows) or the Finder (on Mac), then drag the file directly into the
@@ -71,6 +71,8 @@
                 <step>
                     <cmd>Look in the ducks_output folder to see your generated output. You should
                         see a file called m_ducks.pdf.</cmd>
+                    <info>Keep the file m_ducks.pdf in your ducks_output folder. You will need it
+                        later in this course.</info>
                 </step>
             </steps>
         </taskbody>

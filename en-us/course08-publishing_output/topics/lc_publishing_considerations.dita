@@ -68,12 +68,12 @@
             </ul>
             <p>If you need to publish PDF output, your publishing environment will need to include
                 an FO formatter. The type of formatter you choose depends on the formatting and
-                design of your PDF output. An open-source formatter (such as Apache FOP) may be
-                capable of producing simple, straightforward designs. However, a commercial
-                formatter (such as Antenna House Formatter or RenderX XEP) will be better for
-                publishing PDF files with more complex page layouts. You should consider your
-                localization requirements when choosing a formatter, as different formatters have
-                different degrees of language character support.</p>
+                design of your PDF output. An open-source formatter (such as Apache FOP, the default
+                FO formatter for the DITA OT) may be capable of producing simple, straightforward
+                designs. However, a commercial formatter (such as Antenna House Formatter or RenderX
+                XEP) will be better for publishing PDF files with more complex page layouts. You
+                should consider your localization requirements when choosing a formatter, as
+                different formatters have different degrees of language character support.</p>
         </lcInstruction>
     </learningContentbody>
 </learningContent>
