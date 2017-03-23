@@ -20,11 +20,13 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>In addition to PDF output, this lesson also shows you how to generate HTML output
-                using the DITA OT. The exercise for generating HTML output will use the same content
-                as the PDF exercise. Seeing the same content in two different output types will give
-                you a firsthand look at the way DITA separates content from formatting.</p>
-            <p>The following instructions show you how to publish HTML output from the DITA OT:</p>
+            <p>The DITA OT can produce HTML output using the xhtml and html5 plugins. This lesson
+                uses the xhtml plugin to demonstrate the process of publishing to HTML. </p>
+            <p>To generate XHTML output, use the same content as the PDF exercise. Seeing the same
+                content in two different output types gives you a firsthand look at the way DITA
+                separates content from formatting.</p>
+            <p><xref href="https://youtu.be/EvRKU9ZTyAo" format="html" scope="external">Video:
+                    Generating HTML Output</xref></p>
         </lcInstruction>
     </learningContentbody>
     <task id="task_kth_1dh_2z">
@@ -46,7 +48,7 @@
                 <step>
                     <cmd>Navigate to your “ducks_output” folder.</cmd>
                     <info>In addition to the PDF files you generated earlier, you should now see
-                        multiple HTML files and an images folder.</info>
+                        multiple XHTML files and an images folder.</info>
                 </step>
                 <step>
                     <cmd>Open the file index.html in a browser.</cmd>
@@ -58,12 +60,8 @@
                     </info>
                 </step>
                 <step>
-                    <cmd>Open the file c_duckling_growth.html in a browser to see how the default
-                        XHTML plugin displays images and tables.</cmd>
-                    <info>
-                        <p><xref href="https://youtu.be/EvRKU9ZTyAo" format="html" scope="external">Video:
-                            Generating HTML Output</xref></p>
-                    </info>
+                    <cmd>Open the file c_duckling_growth.html in a browser to see how the xhtml
+                        plugin displays images and tables.</cmd>
                 </step>
             </steps>
         </taskbody>

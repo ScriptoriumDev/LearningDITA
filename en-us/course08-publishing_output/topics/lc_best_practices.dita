@@ -20,8 +20,9 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>If you use custom DITA plugins, you will need to maintain them over time. This may
-                include updating your plugins and testing the changes, or adding new plugins as your
+            <p>If you use custom DITA plugins, you will need to maintain them over time. Eventually,
+                you might need to make further changes to the appearance of your custom plugins’
+                output and test those changes. You may also need to add new custom plugins as your
                 output requirements grow.</p>
             <p>Here are some best practices for maintaining custom DITA plugins:</p>
             <ul id="ul_jmj_42h_2z">
@@ -44,7 +45,7 @@
                         efficient the testing process will be.</p>
                 </li>
                 <li>
-                    <p><b>Support special structures, not misuse of structures.</b> A custom plugin
+                    <p><b>Support special structures; don’t misuse structures.</b> A custom plugin
                         is a great way to ensure that a specialized DITA structure looks its best in
                         the various required output formats. However, custom plugins should not be
                         used to support “tag abuse” or purposeful misuse of the DITA structure,
