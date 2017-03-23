@@ -21,7 +21,7 @@
     <learningContentbody>
         <lcObjectives>
             <lcObjectivesGroup id="lcObjectivesGroup_tvl_vbh_1t">
-                <lcObjective>Download and install the DITA Open Toolkit (OT).</lcObjective>
+                <lcObjective>Download and install the DITA OT.</lcObjective>
                 <lcObjective>Set up a folder structure for your source and output files that works
                     with the DITA OT.</lcObjective>
                 <lcObjective>Troubleshoot common problems with installing the DITA OT.</lcObjective>
@@ -31,10 +31,24 @@
             <lcTime value="45"/>
         </lcDuration>
         <lcIntro>
-            <p>The DITA Open Toolkit is a free, open-source, standalone publishing environment for
-                DITA content. This lesson shows how to download and install the DITA Open Toolkit
-                and set it up to generate output.</p>
+            <p>The DITA OT is an open-source, standalone publishing environment for DITA content.
+                This lesson shows how to download and install the DITA OT and set it up to generate
+                output.</p>
         </lcIntro>
     </learningContentbody>
-    <related-links/>
+    <related-links>
+        <link href="http://www.dita-ot.org/2.0/readme/DITA-readme.html" format="html">
+            <linktext>DITA Open Toolkit Overview</linktext>
+        </link>
+        <link href="http://www.dita-ot.org/2.0/quickstartguide/installing-client.html"
+            format="html">
+            <linktext>Installing the distribution package</linktext>
+        </link>
+        <link href="http://www.dita-ot.org/2.0/quickstartguide/using-dita-command.html" format="html">
+            <linktext>Building output using the dita command</linktext>
+        </link>
+        <link href="http://www.dita-ot.org/2.0/readme/troubleshooting-overview.html" format="html">
+            <linktext>Error messages and troubleshooting</linktext>
+        </link>
+    </related-links>
 </learningContent>

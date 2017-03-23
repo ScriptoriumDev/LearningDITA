@@ -4,17 +4,17 @@
  <title>Setting up your publishing environment</title>
  <topicref href="../topics/lc_setting_up.dita">
   <topicmeta lockmeta="yes">
-   <data name="lesson_id" value="020717"/>
+   <data name="lesson_id" value="10992"/>
   </topicmeta>
   <topicref href="../topics/lc_installing_the_dita_ot.dita"/>
   <topicref href="../topics/lc_installing_java.dita"/>
   <topicref href="../topics/lc_folder_structure.dita"/>
   <topicref href="../topics/lc_testing_ot.dita"/>
-  <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_using_conditions.dita"
+  <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_setting_up.dita"
    locktitle="yes">
    <topicmeta>
     <navtitle>Assessment for Setting up your publishing environment</navtitle>
    </topicmeta>
-   <topicref href="../assessments/setting_up/lca_assessment_question.dita"/>
+   <topicref href="../assessments/setting_up/lca_installing_ot.dita"/>
   </topicref>
  </topicref></map>

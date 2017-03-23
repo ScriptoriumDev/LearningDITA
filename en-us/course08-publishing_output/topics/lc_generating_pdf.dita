@@ -2,7 +2,7 @@
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <learningContent id="content_pgf_3gt_qt">
-    <title>Generating PDF output</title>
+    <title>Generating PDF Output</title>
     <prolog class="- topic/prolog ">
         <author type="creator" href="http://easydita.com/" format="html" scope="external"
             class="- topic/author ">Gretyl Kinsey</author>
@@ -19,60 +19,52 @@
         </critdates>
     </prolog>
     <learningContentbody>
-        <lcInstruction><p>In the previous lesson, your first test build with the DITA OT used the
-                pdf2 plugin to generate PDF output. The plugin handles maps and bookmaps
-                differently.</p><p>For map content, the plugin generates a table of contents for the
-                entire document:</p><image href="images/map.png" width="450" id="image_gph_3sx_fz"
-                /><p>For bookmap content, the plugin generates an individual table of contents for
-                each chapter:</p><image href="images/bookmap.png" width="450" id="image_hph_3sx_fz"
-                /><p>The following instructions show you how to use the DITA OT to create PDF output
-                from the same collection of topics stored in both a map and a
-            bookmap.</p></lcInstruction>
+        <lcInstruction>
+            <p>In an earlier lesson, your first test build with the DITA OT used the pdf2 plugin to
+                generate PDF output. In this lesson, you will see how the pdf2 plugin handles maps
+                and bookmaps differently.</p>
+            <p>For map content, the pdf2 plugin generates a cover page and table of contents by
+                default.</p>
+            <p>For bookmap content, the pdf2 plugin generates a cover page. Any subsequent
+                structures in the output reflect the specifications set in the bookmap. For example,
+                the pdf2 plugin will generate a table of contents if the bookmap uses the elements
+                    <tt>&lt;frontmatter>/&lt;booklists>/&lt;toc/></tt>; however, if the bookmap does
+                not specify that there should be a table of contents, the pdf2 plugin will not build
+                one.</p>
+            <p>During your first DITA OT test build, you generated the file m_ducks.pdf from content
+                stored in a map. The following instructions show you how to generate PDF output from
+                the same content stored in a bookmap and compare the two different output files.</p>
+        </lcInstruction>
     </learningContentbody>
     <task id="task_klm_zbh_2z">
-        <title>Generating PDF output on a PC</title>
+        <title>Generating PDF output</title>
         <taskbody>
             <steps id="steps_php_1ch_2z">
                 <step>
                     <cmd>Type the following commands into your command window:</cmd>
                     <info>
+                        <p><b>On Windows:</b></p>
                         <pre>bin\dita -i [filepath]/sources/ducks/b_ducks.ditamap -f pdf2 -o [filepath]/outputs/ducks_output -v</pre>
-                    </info>
-                </step>
-                <step>
-                    <cmd>Press ENTER to run the DITA Open Toolkit.</cmd>
-                </step>
-                <step>
-                    <cmd>Navigate to your "ducks_output" folder and locate the PDF file you just
-                        generated, b_ducks.pdf.</cmd>
-                </step>
-                <step>
-                    <cmd>Open both b_ducks.pdf and m_ducks.pdf in a PDF viewer and note the
-                        differences between the two outputs.</cmd>
-                </step>
-            </steps>
-        </taskbody>
-    </task>
-    <task id="task_ht5_1ch_2z">
-        <title>Generating PDF output on a Mac</title>
-        <taskbody>
-            <steps id="steps_tk3_2rn_2z">
-                <step>
-                    <cmd>Type the following commands into your Terminal window:</cmd>
-                    <info>
+                        <p><b>On Mac:</b></p>
                         <pre>./bin/dita -i [filepath]/sources/ducks/b_ducks.ditamap -f pdf2 -o [filepath]/outputs/ducks_output -v</pre>
                     </info>
                 </step>
                 <step>
-                    <cmd>Press RETURN to run the DITA Open Toolkit.</cmd>
+                    <cmd>Press ENTER to run the DITA OT.</cmd>
                 </step>
                 <step>
-                    <cmd>Navigate to your "ducks_output" folder and locate the PDF file you just
+                    <cmd>Navigate to your “ducks_output” folder and locate the PDF file you just
                         generated, b_ducks.pdf.</cmd>
                 </step>
                 <step>
                     <cmd>Open both b_ducks.pdf and m_ducks.pdf in a PDF viewer and note the
                         differences between the two outputs.</cmd>
+                    <info><p>The file m_ducks.pdf includes a table of contents, generated by
+                            default:</p><image href="images/map.png" width="450" base="2017/03"
+                            id="image_hpq_c2k_3z"/><p>By contrast, the file b_ducks.pdf includes a
+                            mini-table of contents for each chapter, as specified in the
+                            bookmap:</p><image href="images/bookmap.png" width="450" base="2017/03"
+                            id="image_ipq_c2k_3z"/></info>
                 </step>
             </steps>
         </taskbody>

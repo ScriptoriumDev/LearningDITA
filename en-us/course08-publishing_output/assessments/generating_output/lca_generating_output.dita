@@ -2,7 +2,7 @@
 <!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
 <!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <learningAssessment id="lca_conref_push_requirements">
- <title>(assessment question title)</title>
+ <title>Generating Output</title>
  <prolog class="- topic/prolog ">
   <author type="creator" href="http://easydita.com/" format="html" scope="external"
    class="- topic/author ">Gretyl Kinsey</author>
@@ -19,6 +19,21 @@
   </critdates>
  </prolog>
  <learningAssessmentbody>
-  <lcInteraction id="lcInteraction_vtg_qhp_vx"/>
+  <lcInteraction>
+   <lcTrueFalse id="output">
+    <lcQuestion>When using the DITA OT, the output commands for PC and Mac are the
+     same.</lcQuestion>
+    <lcAnswerOptionGroup>
+     <lcAnswerOption>
+      <lcAnswerContent>True</lcAnswerContent>
+     
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>False</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+   </lcTrueFalse>
+  </lcInteraction>
  </learningAssessmentbody>
 </learningAssessment>
