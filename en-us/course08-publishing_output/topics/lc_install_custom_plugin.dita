@@ -20,8 +20,12 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>The following instructions show how to install a custom plugin and generate output
-                from it using the DITA OT.</p>
+            <p>This lesson shows how to install a custom plugin and generate output from it using
+                the DITA OT. The custom plugin used in this lesson is called ld_xhtml, and is based
+                on the default xhtml plugin. The ld_xhtml plugin modifies the behavior of the xhtml
+                plugin and adds links to its own CSS file.</p>
+            <p><xref href="https://youtu.be/YpvVqbnSKBY" format="html" scope="external">Video:
+                    Installing Custom Plugins</xref></p>
         </lcInstruction>
     </learningContentbody>
     <task id="task_gln_ytg_2z">
@@ -73,10 +77,6 @@
                 <step>
                     <cmd>Open the file c_wild_duck_species.html in a browser and compare it to the
                         version of c_wild_duck_species.html in your “ducks_output” folder.</cmd>
-                    <info>
-                        <p><xref href="https://youtu.be/YpvVqbnSKBY" format="html" scope="external"
-                                >Video: Installing Custom Plugins</xref></p>
-                    </info>
                 </step>
             </steps>
         </taskbody>
