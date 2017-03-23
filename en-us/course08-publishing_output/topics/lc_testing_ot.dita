@@ -39,40 +39,43 @@
                 <step>
                     <cmd>Open a command window.</cmd>
                     <info>
-                        <p><b>On Windows:</b> Click Start > Run and type <tt>cmd</tt>.</p>
+                        <p><b>On Windows:</b> Click START > RUN and type <tt>cmd</tt>.</p>
                         <p><b>On Mac:</b> Launch the Terminal application.</p>
                     </info>
                 </step>
                 <step>
-                    <cmd>In the command window, type <tt>cd</tt> followed by the filepath to the
-                        DITA OT folder.</cmd>
+                    <cmd>In the command window, type <tt>cd</tt> followed by the filepath to your
+                            <b>dita-ot-2.4.4</b> folder.</cmd>
                     <info>
-                        <note>To avoid typing the filepath, find the file in Windows Explorer (on
-                            Windows) or the Finder (on Mac), then drag the file directly into the
-                            command window.</note>
+                        <note>To avoid typing a filepath, find the file or folder in Windows
+                            Explorer (on Windows) or the Finder (on Mac), then drag it directly into
+                            the command window.</note>
                     </info>
                 </step>
                 <step>
                     <cmd>Type the following command into the command window:</cmd>
                     <info>
                         <p><b>On Windows:</b></p>
-                        <pre>bin\dita -i [filepath]/sources/ducks/m_ducks.ditamap -f pdf2 -o [filepath]/outputs/ducks_output -v</pre>
+                        <pre>bin\dita -i [filepath]/sources/ducks/m_ducks.ditamap -f pdf2 -o out/ducks_output -v</pre>
                         <p><b>On Mac:</b></p>
-                        <pre>./bin/dita -i [filepath]/sources/ducks/m_ducks.ditamap -f pdf2 -o [filepath]/outputs/ducks_output -v</pre>
+                        <pre>./bin/dita -i [filepath]/sources/ducks/m_ducks.ditamap -f pdf2 -o out/ducks_output -v</pre>
+                        <note>Typing <tt>-o out/ducks_output</tt> generates a folder called
+                                <b>ducks_output</b> inside the DITA OT’s default <b>out</b>
+                            folder.</note>
                     </info>
                 </step>
                 <step>
                     <cmd>Press ENTER to run the DITA OT.</cmd>
                     <info>
-                        <note>You will see a log of the DITA OT’s build process in the command
-                            window.</note>
+                        <note>The command window displays a log of the DITA OT’s build
+                            process.</note>
                     </info>
                 </step>
                 <step>
-                    <cmd>Look in the ducks_output folder to see your generated output. You should
-                        see a file called m_ducks.pdf.</cmd>
-                    <info>Keep the file m_ducks.pdf in your ducks_output folder. You will need it
-                        later in this course.</info>
+                    <cmd>Look in the <b>ducks_output</b> folder to see your generated output. You
+                        should see a file called <b>m_ducks.pdf</b>.</cmd>
+                    <info>Keep the file <b>m_ducks.pdf</b> in your <b>ducks_output</b> folder for
+                        use later in this course.</info>
                 </step>
             </steps>
         </taskbody>
