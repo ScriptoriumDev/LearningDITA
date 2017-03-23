@@ -30,33 +30,30 @@
                 these commands and parameters mean:</p>
             <ul id="ul_dx2_csf_2z">
                 <li>
-                    <p><b>bin\dita</b> (Windows) or <b>./bin/dita</b> (Mac) is the command that
-                        specifies that you are generating DITA output.</p>
+                    <p><b>bin\dita</b> (Windows) or <b>./bin/dita</b> (Mac) is the DITA command,
+                        which specifies that you are generating output from DITA.</p>
                 </li>
                 <li>
-                    <p><b>-i</b> (input) is the parameter that tells the DITA OT the name and
-                        filepath of the DITA map or file that needs to be transformed into
-                        output.</p>
+                    <p><b>-i</b> (input) is the parameter indicates that the following filepath to a
+                        DITA map or file needs to be transformed into output.</p>
                 </li>
                 <li>
-                    <p><b>-f</b> (transtype) is the parameter that tells the DITA OT which
-                        transtype, or output transformation type, to use. The transtype value
-                        indicates whether the output type should be PDF, HTML, webhelp, or any other
-                        format.</p>
-                    <note>In the previous lesson, you entered <b>pdf2</b> as the transtype value to
-                        generate output using the DITA OT’s default PDF plugin.</note>
+                    <p><b>-f</b> (transtype) is the parameter that indicates that the following
+                        string is the output transformation type (also called the “transtype”). Some
+                        common transtype values include “pdf2” for PDF output, “xhtml” for HTML
+                        output, and “webhelp” for WebHelp output.</p>
                 </li>
                 <li>
-                    <p><b>-o</b> (output) is the parameter that tells the DITA OT where to store the
-                        generated output. If you do not use the -o parameter to specify an output
-                        directory, the DITA OT will place the output into its default “out”
-                        folder.</p>
+                    <p><b>-o</b> (output) is the parameter that indicates where to store the
+                        generated output. This parameter is optional; if you do not use it to
+                        specify an output directory, the output is placed in the DITA OT’s default
+                        “out” folder.</p>
                 </li>
                 <li>
-                    <p><b>-v</b> (verbose) is the parameter that tells the DITA OT to display the
-                        command log as it generates the output. This parameter is optional, but it
-                        is useful to watch the DITA OT run in realtime to help troubleshoot
-                        errors.</p>
+                    <p><b>-v</b> (verbose) is the parameter that indicates verbose output, which
+                        displays a log of the DITA OT build in the command window. This parameter is
+                        optional, but it is useful to watch the DITA OT run in realtime to help
+                        troubleshoot errors.</p>
                 </li>
             </ul>
             <p>You can use additional parameters to add more specifcations about the build you’re
