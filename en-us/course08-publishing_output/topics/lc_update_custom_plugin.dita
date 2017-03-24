@@ -26,10 +26,10 @@
                 element to your specialization, or specializing for the first time.</p>
             <p>Customizing DITA OT plugins is difficult and requires lots of testing to ensure that
                 updates to the plugin have the desired results in the output. Special knowledge is
-                required to customize plugins or update custom plugins, such as knowledge of Ant and
-                DTDs for the base plugin architecture, plus other knowledge of the output types,
-                including XHTML, JavaScript, and XSL-FO. For this reason, most companies hire an
-                expert—whether an outside consultant or an in-house employee—to customize
+                required to customize plugins or update custom plugins, such as knowledge of Ant,
+                XSL, and DTDs for the base plugin architecture, plus other knowledge of the output
+                types, including XHTML, JavaScript, and XSL-FO. For this reason, most companies hire
+                an expert—whether an outside consultant or an in-house employee—to customize
                 plugins.</p>
             <p>CSS, or cascading stylesheets, can be used to modify the appearance of output from
                 the xhtml plugin. Because many people have common knowledge of CSS, a company may
@@ -58,7 +58,8 @@
                 <step>
                     <cmd>Make the following changes to <b>ld_style.css</b>:</cmd>
                     <info>
-                        <p>(Areas where changes are required are indicated in bold.)</p>
+                        <p>(Areas where changes are required are indicated in bold, highlighted
+                            text.)</p>
                         <pre>.p {
   margin-top: 1em;
   font-family: "Lingua Franca", Palatino, serif;
