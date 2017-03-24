@@ -2,7 +2,7 @@
 <!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
 <!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <learningAssessment id="lca_conref_push_requirements">
- <title>Evaluating Custom Plugins</title>
+ <title>Running a Build</title>
  <prolog class="- topic/prolog ">
   <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
    class="- topic/author ">Gretyl Kinsey</author>
@@ -19,25 +19,25 @@
   </critdates>
  </prolog>
  <learningAssessmentbody>
-  
+ 
   <lcInteraction>
-   <lcMultipleSelect id="evaluating">
-    <lcQuestion>When evaluating the need for custom plugins, what needs to be asked? Choose all that apply.</lcQuestion>
+   <lcTrueFalse id="bindita">
+    <lcQuestion>When running a build in the DITA OT, bin\dita is used on a Mac and ./bin/dita is
+     used on a PC. True or False?</lcQuestion>
     <lcAnswerOptionGroup>
      <lcAnswerOption>
-      <lcAnswerContent>What types of output you need and how much they differ from the DITA OT's default outputs</lcAnswerContent>
-      <lcCorrectResponse/>
+      <lcAnswerContent>True</lcAnswerContent>
+      
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>Whether your customization requirements are based on look and feel, structure, or both</lcAnswerContent>
+      <lcAnswerContent>False</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
-     <lcAnswerOption>
-      <lcAnswerContent>How the structure of your source content affects the DITA OT's publishing capabilities</lcAnswerContent>
-      <lcCorrectResponse/>
-     </lcAnswerOption>
+     
     </lcAnswerOptionGroup>
-   </lcMultipleSelect>
+    <lcFeedbackIncorrect>On a Mac, ./bin/dita is used and bin\dita is used on a
+     PC.</lcFeedbackIncorrect>
+   </lcTrueFalse>
   </lcInteraction>
  </learningAssessmentbody>
 </learningAssessment>

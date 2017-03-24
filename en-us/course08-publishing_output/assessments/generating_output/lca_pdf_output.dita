@@ -4,15 +4,15 @@
 <learningAssessment id="lca_conref_push_requirements">
  <title>Generating PDFs</title>
  <prolog class="- topic/prolog ">
-  <author type="creator" href="http://easydita.com/" format="html" scope="external"
+  <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
    class="- topic/author ">Gretyl Kinsey</author>
-  <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+  <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
    class="- topic/author ">Simon Bate</author>
-  <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+  <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
    class="- topic/author ">Jake Campbell</author>
-  <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+  <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
    class="- topic/author ">Noelle Russell</author>
-  <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+  <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
    class="- topic/author ">Ashley Stant</author>
   <critdates>
    <created golive="2017-03-06" date="2017-02-06"/>
@@ -21,16 +21,18 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcTrueFalse id="output">
-    <lcQuestion>The PDF plugin for bookmap content generates an individual table of contents for each chapter and for map content generates a table of contents for the entire document. True or False?</lcQuestion>
+    <lcQuestion>The PDF plugin for bookmap content generates a table of contents for the entire document. True or False?</lcQuestion>
     <lcAnswerOptionGroup>
      <lcAnswerOption>
       <lcAnswerContent>True</lcAnswerContent>
-      <lcCorrectResponse/>
+     
      </lcAnswerOption>
      <lcAnswerOption>
       <lcAnswerContent>False</lcAnswerContent>
+      <lcCorrectResponse/>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>False, because the PDF plugin only generates by default what the bookmap tells it to.</lcFeedbackIncorrect>
    </lcTrueFalse>
   </lcInteraction>
  </learningAssessmentbody>

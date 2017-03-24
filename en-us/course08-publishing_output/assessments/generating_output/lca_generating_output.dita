@@ -4,15 +4,15 @@
 <learningAssessment id="lca_conref_push_requirements">
  <title>Generating Output</title>
  <prolog class="- topic/prolog ">
-  <author type="creator" href="http://easydita.com/" format="html" scope="external"
+  <author type="creator" href="http://www.scriptorium.com/" format="html" scope="external"
    class="- topic/author ">Gretyl Kinsey</author>
-  <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+  <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
    class="- topic/author ">Simon Bate</author>
-  <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+  <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
    class="- topic/author ">Jake Campbell</author>
-  <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+  <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
    class="- topic/author ">Noelle Russell</author>
-  <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+  <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
    class="- topic/author ">Ashley Stant</author>
   <critdates>
    <created golive="2017-03-06" date="2017-02-06"/>
@@ -21,18 +21,17 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcTrueFalse id="output">
-    <lcQuestion>When using the DITA OT, the output commands for PC and Mac are the
-     same.</lcQuestion>
+    <lcQuestion>The DITA command for PC and Mac is the same.</lcQuestion>
     <lcAnswerOptionGroup>
      <lcAnswerOption>
       <lcAnswerContent>True</lcAnswerContent>
-     
      </lcAnswerOption>
      <lcAnswerOption>
       <lcAnswerContent>False</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>The DITA command is different but the output command is the same.</lcFeedbackIncorrect>
    </lcTrueFalse>
   </lcInteraction>
  </learningAssessmentbody>
