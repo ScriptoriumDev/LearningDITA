@@ -80,8 +80,8 @@
                     <cmd>Save your changes to <b>ld_style.css</b>.</cmd>
                 </step>
                 <step>
-                    <cmd>Enter the following commands into the command window to test your updates
-                        to the custom plugin:</cmd>
+                    <cmd>Enter the following commands into the command line to test your updates to
+                        the custom plugin:</cmd>
                     <info>
                         <p><b>On Windows:</b></p>
                         <pre>bin\dita -i [filepath]/sources/ducks/m_ducks.ditamap -f ld_xhtml -o out/custom_output -v</pre>

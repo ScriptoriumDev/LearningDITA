@@ -21,10 +21,12 @@
     <learningContentbody>
         <lcInstruction>
             <p>Another way to publish content is by running the DITA OT using the oXygen XML Editor.
-                With oXygen’s user-friendly GUI, publishing output is as easy as clicking a button.
-                All you need to do is select the required output from a list of scenarios and apply
-                the transformation to your source content. The publishing scenarios include the
-                default DITA OT outputs, plus some custom scenarios, including WebHelp.</p>
+                oXygen performs all the same functions as the command line for DITA OT builds.
+                However, with oXygen’s graphical interface, publishing output is as easy as clicking
+                a button. All you need to do is select the required output from a list of scenarios
+                and apply the transformation to your source content. The publishing scenarios
+                include the default DITA OT outputs, plus some custom scenarios, including
+                WebHelp.</p>
             <p>Publishing with oXygen makes sense for those in the following situations:</p>
             <ul id="ul_th3_q24_2z">
                 <li>

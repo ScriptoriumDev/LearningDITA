@@ -22,7 +22,7 @@
         <lcInstruction>
             <p>Now that you have installed the DITA OT and the required Java Development Kit and set
                 up your folder structure, you’re ready to run your first test build. The test build
-                shows you how the DITA OT transforms DITA source files into output. Since PDF is a
+                shows you how the DITA OT transforms DITA source files into output. Because PDF is a
                 common output requirement for many companies that publish DITA content, the test
                 build involves generating PDF output.</p>
             <p>Follow the instructions below to run a test build and publish a sample PDF file using
@@ -37,19 +37,21 @@
         <taskbody>
             <steps id="steps_tyl_xtw_cz">
                 <step>
-                    <cmd>Open a command window.</cmd>
+                    <cmd>Open a command line.</cmd>
                     <info>
                         <p><b>On Windows:</b> Click on Start > Run and type <tt>cmd</tt>.</p>
+                        <note>If Run does not appear in the Start menu, type <tt>Run</tt> to search
+                            for it.</note>
                         <p><b>On Mac:</b> Launch the Terminal application.</p>
                     </info>
                 </step>
                 <step>
-                    <cmd>In the command window, type <tt>cd</tt> followed by the filepath to your
+                    <cmd>In the command line, type <tt>cd</tt> followed by the filepath to your
                             <b>dita-ot-2.4.4</b> folder.</cmd>
                     <info>
-                        <note>To avoid typing a filepath, find the file or folder in Windows
+                        <note>To avoid typing a filepath, locate the file or folder in Windows
                             Explorer (on Windows) or the Finder (on Mac), then drag it directly into
-                            the command window.</note>
+                            the command line.</note>
                     </info>
                 </step>
                 <step>
@@ -67,8 +69,7 @@
                 <step>
                     <cmd>Press ENTER to run the DITA OT.</cmd>
                     <info>
-                        <note>The command window displays a log of the DITA OT’s build
-                            process.</note>
+                        <note>The command line displays a log of the DITA OT’s build process.</note>
                     </info>
                 </step>
                 <step>
@@ -77,7 +78,7 @@
                         <b>m_ducks.pdf</b>.</cmd>
                     <info>
                         <note>If you do not see any output, your build was likely not successful.
-                            This course covers troubleshooting build failures in a subsequent
+                            This course covers troubleshooting for build failures in a subsequent
                             lesson.</note>
                         <p>Keep the file <b>m_ducks.pdf</b> in your <b>ducks_output</b> folder for
                             use later in this course.</p>
