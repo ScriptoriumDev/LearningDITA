@@ -21,7 +21,7 @@
     <learningContentbody>
         <lcInstruction>
             <p>The DITA OT can produce HTML output using the xhtml and html5 plugins. This lesson
-                uses the xhtml plugin to demonstrate the process of publishing to HTML. </p>
+                uses the xhtml plugin to demonstrate the process of publishing HTML output. </p>
             <p>To generate XHTML output, use the same content as the PDF exercise. Seeing the same
                 content in two different output types gives you a firsthand look at the way DITA
                 separates content from formatting.</p>
@@ -37,21 +37,21 @@
                     <cmd>Type the following commands into your command window:</cmd>
                     <info>
                         <p><b>On Windows:</b></p>
-                        <pre>bin\dita -i [filepath]/sources/ducks/m_ducks.ditamap -f xhtml -o [filepath]/outputs/ducks_output -v</pre>
+                        <pre>bin\dita -i [filepath]/sources/ducks/m_ducks.ditamap -f xhtml -o out/ducks_output -v</pre>
                         <p><b>On Mac:</b></p>
-                        <pre>./bin/dita -i [filepath]/sources/ducks/m_ducks.ditamap -f xhtml -o [filepath]/outputs/ducks_output -v</pre>
+                        <pre>./bin/dita -i [filepath]/sources/ducks/m_ducks.ditamap -f xhtml -o out/ducks_output -v</pre>
                     </info>
                 </step>
                 <step>
                     <cmd>Press ENTER to run the DITA OT.</cmd>
                 </step>
                 <step>
-                    <cmd>Navigate to your “ducks_output” folder.</cmd>
+                    <cmd>Navigate to your <b>ducks_output</b> folder.</cmd>
                     <info>In addition to the PDF files you generated earlier, you should now see
-                        multiple XHTML files and an images folder.</info>
+                        multiple XHTML files and an <b>images</b> folder.</info>
                 </step>
                 <step>
-                    <cmd>Open the file index.html in a browser.</cmd>
+                    <cmd>Open the file <b>index.html</b> in a browser.</cmd>
                     <info>
                         <p>This index file serves as an electronic table of contents, showing the
                             hierarchy of your map with links to each topic file. The DITA OT’s
@@ -60,8 +60,12 @@
                     </info>
                 </step>
                 <step>
-                    <cmd>Open the file c_duckling_growth.html in a browser to see how the xhtml
-                        plugin displays images and tables.</cmd>
+                    <cmd>Open the file <b>c_duckling_growth.html</b> in a browser to see how the
+                        xhtml plugin displays images and tables.</cmd>
+                    <info><p>The default XHTML output looks like this:</p><image
+                            href="images/xhtml_default_images.png" width="500" id="image_efp_dwl_3z"
+                            /><note>Fonts and spacing may vary depending on which browser and
+                            version you are using.</note></info>
                 </step>
             </steps>
         </taskbody>
