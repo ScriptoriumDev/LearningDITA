@@ -42,7 +42,7 @@
                             <b>dita-ot-2.4.4/plugins</b> folder.</cmd>
                 </step>
                 <step>
-                    <cmd>Type the following commands into your command window:</cmd>
+                    <cmd>Type the following commands into the command line:</cmd>
                     <info>
                         <p><b>On Windows:</b></p>
                         <pre>bin\dita install [filepath]/dita-ot-2.4.4/plugins/com.learningdita.ld_xhtml.zip -v</pre>
@@ -57,7 +57,7 @@
                 </step>
                 <step>
                     <cmd>To test the integration by generating output, type the following commands
-                        into your command window:</cmd>
+                        into the command line:</cmd>
                     <info>
                         <p><b>On Windows:</b></p>
                         <pre>bin\dita -i [filepath]/sources/ducks/m_ducks.ditamap -f ld_xhtml -o out/custom_output -v</pre>
