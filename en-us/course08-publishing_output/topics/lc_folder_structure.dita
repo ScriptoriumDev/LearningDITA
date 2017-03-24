@@ -59,6 +59,9 @@
                 PDF output of the same file today, yesterday’s PDF is deleted and today’s PDF
                 replaces it. (If you generate PDF output from a different map, or generate HTML
                 output from the same map, yesterday’s PDF remains in place.)</p>
+            <note>If you generate a new version of a previously generated PDF file, the DITA OT will
+                not overwrite the previous version if you have it open in Adobe Reader or Acrobat
+                Pro.</note>
             <p>To keep the DITA OT from replacing your output, you can set up subfolders in the
                     <b>out</b> folder. When you run the DITA OT, you can instruct it to generate
                 output into the subfolder of your choice. There are many ways you can organize your

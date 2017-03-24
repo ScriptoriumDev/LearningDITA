@@ -20,17 +20,18 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>The DITA OT is an open-source publishing engine for DITA content. The DITA OT
-                contains <i>plugins</i>, which are used to transform the DITA source content into
-                various outputs. </p>
+            <p>The DITA OT is an open-source publishing engine for DITA content. The DITA OT uses
+                plugins to transform the DITA source content into various outputs. You can add and
+                remove plugins as necessary.</p>
             <p>Default plugins for the DITA OT include PDF, HTML, WebHelp, and others. These plugins
                 can be updated to change the look and feel of the outputs. DITA OT users can also
                 install their own plugins for more highly customized output.</p>
             <p>The DITA OT can be used in conjunction with software for DITA authoring, editing, and
-                content management to generate output. You can also download and install the DITA OT
-                onto your machine to create a standalone environment for publishing.</p>
-            <note>This course includes detailed instructions for publishing with a standalone DITA
-                OT in subsequent lessons.</note>
+                content management to generate output. You can also use the DITA OT by itself in a
+                standalone environment for publishing.</p>
+            <note>The focus of this course is to introduce the standalone DITA OT. Demonstrating
+                DITA publishing through the oXygen XML Editor or a CCMS is beyond the scope of the
+                course.</note>
             <p>Most companies that publish output from DITA source content do so in conjunction with
                 other software, such as XML editors or content management systems. However, a
                 standalone DITA OT environment might work better for some situations, such as:</p>

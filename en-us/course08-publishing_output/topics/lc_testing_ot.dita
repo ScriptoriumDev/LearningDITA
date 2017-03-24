@@ -59,8 +59,8 @@
                         <pre>bin\dita -i [filepath]/sources/ducks/m_ducks.ditamap -f pdf2 -o out/ducks_output -v</pre>
                         <p><b>On Mac:</b></p>
                         <pre>./bin/dita -i [filepath]/sources/ducks/m_ducks.ditamap -f pdf2 -o out/ducks_output -v</pre>
-                        <note>Typing <tt>-o out/ducks_output</tt> generates a folder called
-                                <b>ducks_output</b> inside the DITA OT’s default <b>out</b>
+                        <note>Typing <tt>-o out/ducks_output</tt> generates an output folder and
+                            subfolder called <b>out/ducks_output</b> inside the DITA OT
                             folder.</note>
                     </info>
                 </step>
@@ -72,10 +72,16 @@
                     </info>
                 </step>
                 <step>
-                    <cmd>Look in the <b>ducks_output</b> folder to see your generated output. You
-                        should see a file called <b>m_ducks.pdf</b>.</cmd>
-                    <info>Keep the file <b>m_ducks.pdf</b> in your <b>ducks_output</b> folder for
-                        use later in this course.</info>
+                    <cmd>When the build has finished, look in the <b>ducks_output</b> folder to see
+                        your generated output. You should see a file called
+                        <b>m_ducks.pdf</b>.</cmd>
+                    <info>
+                        <note>If you do not see any output, your build was likely not successful.
+                            This course covers troubleshooting build failures in a subsequent
+                            lesson.</note>
+                        <p>Keep the file <b>m_ducks.pdf</b> in your <b>ducks_output</b> folder for
+                            use later in this course.</p>
+                    </info>
                 </step>
             </steps>
         </taskbody>
