@@ -61,11 +61,11 @@
                         the build.</p>
                 </li>
                 <li>
-                    <p><b>Incorrect output display.</b> Sometimes your output doesn’t look the way
-                        you expected, even if it builds successfully. For example, the images in a
-                        PDF may be so large they run off the page, or the columns in a table may not
-                        be optimal for text display. These issues are the result of not defining
-                        measurements for image and table display in the source files. </p>
+                    <p><b>Incorrect appearance of output.</b> Sometimes your output doesn’t look the
+                        way you expected, even if it builds successfully. For example, the images in
+                        a PDF may be so large they run off the page, or the columns in a table may
+                        not be optimal for text display. These issues are the result of not
+                        specifying measurements for your images and tables in the source files. </p>
                     <p>To control the specific size of your images, you can set the
                             <tt>&lt;image></tt> element’s width attribute to a certain number of
                         pixels.</p>

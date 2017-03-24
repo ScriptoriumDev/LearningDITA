@@ -2,7 +2,7 @@
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <learningContent id="content_pgf_3gt_qt">
-    <title>Publishing through a component content management system (CCMS)</title>
+    <title>Publishing with a component content management system (CCMS)</title>
     <prolog class="- topic/prolog ">
         <author type="creator" href="http://easydita.com/" format="html" scope="external"
             class="- topic/author ">Gretyl Kinsey</author>
@@ -28,8 +28,8 @@
                 almost all systems. Most CCMS options will connect with authoring tools (such as
                 oXygen) and publishing tools (such as DITA OT plugins and rendering engines for PDF
                 output). CCMS systems store DITA topics and maps and keep track of the content
-                development workflow, including authoring, review, editing, and publishing.</p><p>Your best option for publishing may be through a CCMS
-                if one or more of the following circumstances apply to you:</p><ul
+                development workflow, including authoring, review, editing, and publishing.</p><p>Your best option for publishing may be with a CCMS if one or more of the following circumstances
+                apply to you:</p><ul
                 id="ul_r2t_pm4_cz">
                 <li><b>Large content volume.</b> If you have thousands of pages of content
                     throughout many different documents, a CCMS will help make content storage and
@@ -40,7 +40,7 @@
                     allows you to set up automatic output builds—for example, nightly, weekly, or
                     monthly—to ensure that your published content is always up to date.</li>
                 <li><b>Multiple outputs.</b> The more outputs you need to produce, the more helpful
-                    a CCMS will be for publishing. Using a standalone DITA OT or publishing through
+                    a CCMS will be for publishing. Using a standalone DITA OT or publishing with
                     oXygen is reasonable if you only need to generate two different PDF outputs, for
                     example. If you need five PDF outputs, one HTML output, and two EPUB outputs, it
                     makes more sense to use the automated publishing capabilities of a CCMS.</li>
