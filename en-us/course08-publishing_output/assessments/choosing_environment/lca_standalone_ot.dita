@@ -20,29 +20,30 @@
  </prolog>
  <learningAssessmentbody>
   <lcInteraction>
-  <lcSingleSelect id="standalone">
-   <lcQuestion>A standalone DITA OT is compatible with (choose one):</lcQuestion>
+  <lcMultipleSelect id="standalone">
+   <lcQuestion>A standalone DITA OT is compatible with (choose all that apply):</lcQuestion>
   
     <lcAnswerOptionGroup>
      <lcAnswerOption>
-      <lcAnswerContent>Single authors</lcAnswerContent>
+      <lcAnswerContent>Small teams</lcAnswerContent>
+      <lcCorrectResponse/>
      </lcAnswerOption>
      <lcAnswerOption>
       <lcAnswerContent>Students</lcAnswerContent>
+      <lcCorrectResponse/>
      </lcAnswerOption>
      <lcAnswerOption>
       <lcAnswerContent>Pilot projects</lcAnswerContent>
+      <lcCorrectResponse/>
      </lcAnswerOption>
      <lcAnswerOption>
       <lcAnswerContent>Small content volume</lcAnswerContent>
-     </lcAnswerOption>
-     <lcAnswerOption>
-      <lcAnswerContent>All of the above</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
+     
     </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect>A Standalone OT is compatible with single authors, students, pilot projects, and small content volume.</lcFeedbackIncorrect>
-  </lcSingleSelect>
+    <lcFeedbackIncorrect>A Standalone OT is compatible with small teams, students, pilot projects, and small content volume.</lcFeedbackIncorrect>
+  </lcMultipleSelect>
   </lcInteraction>
  </learningAssessmentbody>
 </learningAssessment>

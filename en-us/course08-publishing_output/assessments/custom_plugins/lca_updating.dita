@@ -21,21 +21,32 @@
 
 <learningAssessmentbody>
  <lcInteraction>
-  <lcTrueFalse id="updating">
+  <lcMultipleSelect id="update">
    <lcQuestion>
-    Do custom plugins need to be updated over time?
+   Why do custom plugins need to be updated over time?
    </lcQuestion>
    <lcAnswerOptionGroup>
     <lcAnswerOption>
-     <lcAnswerContent>True</lcAnswerContent>
+     <lcAnswerContent>Accomodate changes to the source content's structure</lcAnswerContent>
      <lcCorrectResponse/>
     </lcAnswerOption>
     <lcAnswerOption>
-     <lcAnswerContent>False</lcAnswerContent>
+     <lcAnswerContent>Accomodate changes to a change in company branding</lcAnswerContent>
+     <lcCorrectResponse/>
+    </lcAnswerOption>
+    <lcAnswerOption>
+     <lcAnswerContent>Specializing for the first time</lcAnswerContent>
+     <lcCorrectResponse/>
+    </lcAnswerOption>
+    <lcAnswerOption>
+     <lcAnswerContent>Adding a new element to your specialization</lcAnswerContent>
+     <lcCorrectResponse/>
     </lcAnswerOption>
    </lcAnswerOptionGroup>
-   <lcFeedbackIncorrect>You may need to update custom plugins to accommodate changes to the source content's structure, including company branding, specializing for the first time, or adding a new element to your specialization.</lcFeedbackIncorrect>
-  </lcTrueFalse>
+   <lcFeedbackIncorrect>The truth is that you may need to update custom plugins to accommodate many
+     things. It is subjective for every user, since the customization is different for various
+     users.</lcFeedbackIncorrect>
+  </lcMultipleSelect>
  </lcInteraction>
 </learningAssessmentbody>
 </learningAssessment>

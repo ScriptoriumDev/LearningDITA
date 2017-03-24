@@ -21,23 +21,23 @@
 
 <learningAssessmentbody>
  <lcInteraction>
-  <lcMultipleSelect id="specs">
-   <lcQuestion>Having a clear and consistent method for gathering specs for a custom plugin is important. A good starting point is a ______ that your company's marketing department can answer to provide specs about the look and feel of the output. Check all that apply.
+  <lcSingleSelect id="specs">
+   <lcQuestion>Having a clear and consistent method for gathering specs for a custom plugin is important. A good starting point is (a) ______ that your company's marketing department can answer to provide specs about the look and feel of the output. Choose one that applies.
 </lcQuestion>
    <lcAnswerOptionGroup>
     <lcAnswerOption>
-     <lcAnswerContent>Checklist</lcAnswerContent>
+     <lcAnswerContent>Checklist, questionnaire, menu</lcAnswerContent>
      <lcCorrectResponse/>
     </lcAnswerOption>
     <lcAnswerOption>
-     <lcAnswerContent>Menu</lcAnswerContent>
+     <lcAnswerContent>Public opinion poll</lcAnswerContent>
     </lcAnswerOption>
     <lcAnswerOption>
-     <lcAnswerContent>Questionnaire</lcAnswerContent>
-     <lcCorrectResponse/>
+     <lcAnswerContent>Word of mouth</lcAnswerContent>
+     
     </lcAnswerOption>
    </lcAnswerOptionGroup>
-  </lcMultipleSelect>
+  </lcSingleSelect>
   
  </lcInteraction>
 </learningAssessmentbody>

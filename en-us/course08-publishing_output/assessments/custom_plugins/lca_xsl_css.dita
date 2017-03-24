@@ -22,16 +22,18 @@
 <learningAssessmentbody>
  <lcInteraction>
   <lcTrueFalse id="xsl_xss">
-   <lcQuestion>More people have common knowledge of XSL than CSS</lcQuestion>
+   <lcQuestion>More people have common knowledge of DITA base plugin architecture than CSS. True or False?</lcQuestion>
    <lcAnswerOptionGroup>
     <lcAnswerOption>
      <lcAnswerContent>True</lcAnswerContent>
-     <lcCorrectResponse/>
+    
     </lcAnswerOption>
     <lcAnswerOption>
      <lcAnswerContent>False</lcAnswerContent>
+     <lcCorrectResponse/>
     </lcAnswerOption>
    </lcAnswerOptionGroup>
+   <lcFeedbackIncorrect>More people have common knowledge of CSS than DITA base plugin architecture.</lcFeedbackIncorrect>
   </lcTrueFalse>
  </lcInteraction>
 </learningAssessmentbody>
