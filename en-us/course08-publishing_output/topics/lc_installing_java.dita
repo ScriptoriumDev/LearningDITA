@@ -25,9 +25,9 @@
             <p>When you try to generate output, the DITA OT will alert you if your system does not
                 meet the Java requirements. For the DITA OT, you will most likely need to download
                 the Java Development Kit (JDK). </p>
-            <p>On Windows, you may see the following error message if your system does not meet the
-                DITA OT’s Java
-                requirements:<pre>“java.exe" is not recognized as an internal or external command, operable program or batch file.</pre></p>
+            <p>On Windows, you may see the following error message if you try to run the DITA OT
+                when Java has not been installed on your
+                system:<pre>“java.exe" is not recognized as an internal or external command, operable program or batch file.</pre></p>
             <p>On Mac, a pop-up window may appear indicating that you need a different version of
                 Java and providing a link where you can download the correct version.</p>
             <p>Follow the instructions below to ensure that your version of the JDK is up to date.
@@ -52,26 +52,26 @@
                     </info>
                 </step>
                 <step>
-                    <cmd>Open File Explorer, right-click on “This PC,” and then click “Properties.”
-                        A new window will open.</cmd>
+                    <cmd>Open File Explorer, right-click on This PC, and then click on Properties. A
+                        new window will open.</cmd>
                 </step>
                 <step>
-                    <cmd>Click on the “Advanced System Settings” link in the left column of the new
+                    <cmd>Click on the Advanced System Settings link in the left column of the new
                         window. Another window will open.</cmd>
                 </step>
                 <step>
-                    <cmd>Click on the “Environment Variables” button found in the lower right of the
+                    <cmd>Click on the Environment Variables button found in the lower right of the
                         new window.</cmd>
                 </step>
                 <step>
-                    <cmd>Find “JAVA_HOME” under the “System Variables” panel, and make sure that the
+                    <cmd>Find JAVA_HOME under the System Variables panel, and make sure that the
                         value points to the directory where the JDK is installed. </cmd>
                 </step>
             </steps>
-            <postreq id="postreq_wbw_zp2_3z">If “JAVA_HOME” does not exist, or exists but does not
-                display the correct location, click “New...” and input JAVA_HOME under “Variable
-                name” and the location of the JDK (for example, C:/Program
-                Files/Java/[jdk_folder_name]) under “Variable value.”</postreq>
+            <postreq id="postreq_wbw_zp2_3z">If JAVA_HOME does not exist, or exists but does not
+                display the correct location, click New. Enter <tt>JAVA_HOME</tt> under Variable
+                name. Enter the location of the JDK (for example, <b>C:/Program
+                    Files/Java/[jdk_folder_name]</b>) under Variable value.</postreq>
         </taskbody>
     </task>
     <task id="task_nyf_yd5_xy">
@@ -90,26 +90,26 @@
                     </info>
                 </step>
                 <step>
-                    <cmd>Make sure you click on “Accept License Agreement” when asked. A pop up will
-                        appear if you’ve clicked download without selecting “Accept.”</cmd>
+                    <cmd>Click on Accept License Agreement when asked. A popup will appear if you’ve
+                        clicked Download without selecting Accept.</cmd>
                 </step>
                 <step>
                     <cmd>Under the download column select the Java link that is specific to your
-                        computer’s system. </cmd>
-                    <info>Mac users choose MAC OS X.</info>
+                        system. Mac users choose MAC OS X.</cmd>
+                    <info>
+                        <p>A .dmg file will begin downloading.</p>
+                    </info>
                 </step>
                 <step>
-                    <cmd>A .dmg file will begin downloading.</cmd>
-                </step>
-                <step>
-                    <cmd>Once it has downloaded, click on the icon in your downloads folder. A
-                        window will appear with instructions.</cmd>
+                    <cmd>Once the download is complete, click on the icon in your downloads
+                        folder.</cmd>
+                    <info>A window will appear with instructions.</info>
                 </step>
                 <step>
                     <cmd>Double click on the icon.</cmd>
                 </step>
                 <step>
-                    <cmd>Click “Install,” “Run,” or equivalent.</cmd>
+                    <cmd>Click on Install, Run, or equivalent.</cmd>
                 </step>
             </steps>
         </taskbody>

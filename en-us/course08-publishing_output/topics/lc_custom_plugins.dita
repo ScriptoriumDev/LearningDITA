@@ -20,12 +20,11 @@
     <learningContentbody>
         <lcObjectives>
             <lcObjectivesGroup id="lcObjectivesGroup_tvl_vbh_1t">
-                <lcObjective>Install a custom HTML plugin into the DITA OT
-                    environment.</lcObjective>
-                <lcObjective>Generate output using a custom DITA OT plugin.</lcObjective>
-                <lcObjective>Update the custom HTML plugin to make simple changes to the appearance
-                    of your output.</lcObjective>
-                <lcObjective>Evaluate your need for custom DITA OT plugins.</lcObjective>
+                <lcObjective>Install a custom  plugin into the DITA OT environment</lcObjective>
+                <lcObjective>Generate output using a custom DITA OT plugin</lcObjective>
+                <lcObjective>Update the custom plugin to make simple changes to the appearance of
+                    your output</lcObjective>
+                <lcObjective>Evaluate your need for custom DITA OT plugins</lcObjective>
             </lcObjectivesGroup>
         </lcObjectives>
         <lcDuration>
@@ -48,6 +47,11 @@
         </link>
         <link href="http://dita-ot.sourceforge.net/doc/ot-userguide/xhtml/customizing/xhtml_frameset.html" format="html">
             <linktext>Publishing XHTML output as a frameset</linktext>
+        </link>
+        <link
+            href="http://metadita.org/toolkit/morse.html"
+            format="html">
+            <linktext>But what if I <i>want</i> a whole new transform dot dot dot?</linktext>
         </link>
     </related-links>
 </learningContent>
