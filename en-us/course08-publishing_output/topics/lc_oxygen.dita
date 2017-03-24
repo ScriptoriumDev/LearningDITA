@@ -2,7 +2,7 @@
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <learningContent id="content_pgf_3gt_qt">
-    <title>Publishing through the oXygen XML Editor</title>
+    <title>Publishing with the oXygen XML Editor</title>
     <prolog class="- topic/prolog ">
         <author type="creator" href="http://easydita.com/" format="html" scope="external"
             class="- topic/author ">Gretyl Kinsey</author>
@@ -20,19 +20,20 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>Another way to publish content is by running the DITA OT through the oXygen XML
-                Editor. With oXygen’s user-friendly GUI, publishing output is as easy as clicking a
-                button. All you need to do is select the required output from a list of scenarios
+            <p>Another way to publish content is by running the DITA OT using the oXygen XML Editor.
+                oXygen performs all the same functions as the command line for DITA OT builds.
+                However, with oXygen’s graphical interface, publishing output is as easy as clicking
+                a button. All you need to do is select the required output from a list of scenarios
                 and apply the transformation to your source content. The publishing scenarios
                 include the default DITA OT outputs, plus some custom scenarios, including
                 WebHelp.</p>
-            <p>Publishing through oXygen makes sense for those in the following situations:</p>
+            <p>Publishing with oXygen makes sense for those in the following situations:</p>
             <ul id="ul_th3_q24_2z">
                 <li>
-                    <p><b>New DITA users.</b> If you are new to DITA, using oXygen’s simple
-                        interface to publish output may be the right choice for you. Generating
-                        output through oXygen is less confusing and requires less effort than using
-                        the DITA OT in a standalone environment.</p>
+                    <p><b>Infrequent DITA users.</b> If you don’t publish your DITA content
+                        frequently, using oXygen’s simple interface to publish output may be the
+                        right choice for you. Generating output with oXygen is less confusing and
+                        requires less effort than using the DITA OT in a standalone environment.</p>
                 </li>
                 <li>
                     <p><b>Small content volume.</b> If you don’t have enough DITA content for a
@@ -42,13 +43,13 @@
                         from a single, capable tool.</p>
                 </li>
                 <li>
-                    <p><b>Small content teams.</b> oXygen is not free; customers must purchase an
-                        annual license to use the software. Licensing oXygen for a small team of
-                        writers for DITA publishing is generally much less costly than licensing a
-                        CCMS.</p>
-                    <p>Licensing oXygen may not always be a practical investment for students or
-                        writers working on very small projects. Companies and individuals need to
-                        evaluate whether the cost of oXygen makes sense for them.</p>
+                    <p><b>Small content teams.</b> For teams that are too small to justify the
+                        effort of implementing a CCMS, oXygen may be a more cost effective option.
+                        oXygen does have licensing fees, but they typically cost less than a CCMS
+                        installation. <note>Licensing oXygen may not always be a practical
+                            investment for students or writers working on very small projects.
+                            Companies and individuals need to evaluate whether the cost of oXygen
+                            makes sense for them.</note></p>
                 </li>
             </ul>
             <draft-comment author="gretylkinsey">

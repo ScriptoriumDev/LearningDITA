@@ -21,7 +21,7 @@
     <learningContentbody>
         <lcInstruction>
             <p>In the previous lesson, you tested the DITA OT by entering the following command into
-                the command window:</p>
+                the command line:</p>
             <p><b>On Windows:</b></p>
             <pre>bin\dita -i [filepath]/sources/m_ducks.ditamap -f pdf2 -o [output-dir] -v</pre>
             <p><b>On Mac:</b></p>
@@ -34,31 +34,32 @@
                         specifies that you are generating output from DITA.</p>
                 </li>
                 <li>
-                    <p><b>-i</b> (input) indicates that the following filepath to a DITA map or file
-                        needs to be transformed into output.</p>
+                    <p><b>-i</b> (the input parameter) indicates that the following filepath to a
+                        DITA map or file needs to be transformed into output.</p>
                 </li>
                 <li>
-                    <p><b>-f</b> (transtype) indicates that the following string is the output
-                        transformation type (also called the “transtype”). Some common transtype
-                        values include “pdf2” for PDF output, “xhtml” for HTML output, and “webhelp”
-                        for WebHelp output.</p>
+                    <p><b>-f</b> (the transtype parameter) indicates that the following string is
+                        the output transformation type (also called the “transtype”). Some common
+                        transtype values include “pdf2” for PDF output, “xhtml” for HTML output, and
+                        “webhelp” for WebHelp output.</p>
                 </li>
                 <li>
-                    <p><b>-o</b> (output) indicates where to store the generated output. This
-                        parameter is optional; if you do not use it to specify an output directory,
-                        the output is placed in the DITA OT’s default “out” folder.</p>
+                    <p><b>-o</b> (the output parameter) indicates where to store the generated
+                        output. This parameter is optional; if you do not use it to specify an
+                        output directory, the output is placed in the DITA OT’s default “out”
+                        folder.</p>
                 </li>
                 <li>
-                    <p><b>-v</b> (verbose) indicates verbose output, which displays a log of the
-                        DITA OT build in the command window. This parameter is optional, but it is
-                        useful to watch the DITA OT run in realtime to help troubleshoot errors.</p>
+                    <p><b>-v</b> (the verbose parameter) indicates verbose output, which displays a
+                        log of the DITA OT build in the command window. This parameter is optional,
+                        but it is useful to watch the DITA OT run in realtime to help troubleshoot
+                        errors.</p>
                 </li>
             </ul>
             <p>You can use additional parameters to add more specifcations about the build you’re
-                running. For example, you can tell the DITA OT to display any draft-comments in the
-                source content, which are hidden by default. To explore all the options available to
-                you, see the <xref href="http://www.dita-ot.org/2.4/parameters/index.html"
-                    format="html" scope="external">DITA Open Toolkit Parameter Reference</xref>.</p>
+                running. To explore all the options available to you, see the <xref
+                    href="http://www.dita-ot.org/2.4/parameters/index.html" format="html"
+                    scope="external">DITA Open Toolkit Parameter Reference</xref>.</p>
             <draft-comment author="gretylkinsey">
                 <p>A RUNOT file is a series of commands stored in an XML file. RUNOT files help save
                     time for those who need to run numerous test builds. Instead of entering each

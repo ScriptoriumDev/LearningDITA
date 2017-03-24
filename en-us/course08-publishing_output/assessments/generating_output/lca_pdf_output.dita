@@ -21,16 +21,18 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcTrueFalse id="output">
-    <lcQuestion>The PDF plugin for bookmap content generates an individual table of contents for each chapter and for map content generates a table of contents for the entire document. True or False?</lcQuestion>
+    <lcQuestion>The PDF plugin for bookmap content generates a table of contents for the entire document. True or False?</lcQuestion>
     <lcAnswerOptionGroup>
      <lcAnswerOption>
       <lcAnswerContent>True</lcAnswerContent>
-      <lcCorrectResponse/>
+     
      </lcAnswerOption>
      <lcAnswerOption>
       <lcAnswerContent>False</lcAnswerContent>
+      <lcCorrectResponse/>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>False, because the PDF plugin only generates by default what the bookmap tells it to.</lcFeedbackIncorrect>
    </lcTrueFalse>
   </lcInteraction>
  </learningAssessmentbody>

@@ -25,7 +25,7 @@
             <p>To generate XHTML output, use the same content as the PDF exercise. Seeing the same
                 content in two different output types gives you a firsthand look at the way DITA
                 separates content from formatting.</p>
-            <p><xref href="https://youtu.be/EvRKU9ZTyAo" format="html" scope="external">Video:
+            <p><xref href="https://youtu.be/2qHoEHd7org" format="html" scope="external">Video:
                     Generating HTML Output</xref></p>
         </lcInstruction>
     </learningContentbody>
@@ -34,7 +34,7 @@
         <taskbody>
             <steps id="steps_php_1ch_2z">
                 <step>
-                    <cmd>Type the following commands into your command window:</cmd>
+                    <cmd>Type the following commands into the command line:</cmd>
                     <info>
                         <p><b>On Windows:</b></p>
                         <pre>bin\dita -i [filepath]/sources/ducks/m_ducks.ditamap -f xhtml -o out/ducks_output -v</pre>

@@ -30,7 +30,7 @@
     </lcAnswerOption>
     <lcAnswerOption>
      <lcAnswerContent>Close the DITA OT</lcAnswerContent>
-     <lcCorrectResponse/>
+    
     </lcAnswerOption>
     <lcAnswerOption>
      <lcAnswerContent>Give up</lcAnswerContent>
@@ -40,6 +40,7 @@
      <lcAnswerContent>Check your output display</lcAnswerContent>
     </lcAnswerOption>
    </lcAnswerOptionGroup>
+   <lcFeedbackIncorrect>Since builds fail all the time, any of the above options would help besides giving up. Oftentimes closing the OT and rebooting your system entirely can be beneficial.</lcFeedbackIncorrect>
   </lcMultipleSelect>
   </lcInteraction>
  </learningAssessmentbody>

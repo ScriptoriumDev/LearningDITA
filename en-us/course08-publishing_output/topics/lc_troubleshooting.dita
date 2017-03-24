@@ -61,11 +61,11 @@
                         the build.</p>
                 </li>
                 <li>
-                    <p><b>Incorrect output display.</b> Sometimes your output doesn’t look the way
-                        you expected, even if it builds successfully. For example, the images in a
-                        PDF may be so large they run off the page, or the columns in a table may not
-                        be optimal for text display. These issues are the result of not defining
-                        measurements for image and table display in the source files. </p>
+                    <p><b>Incorrect appearance of output.</b> Sometimes your output doesn’t look the
+                        way you expected, even if it builds successfully. For example, the images in
+                        a PDF may be so large they run off the page, or the columns in a table may
+                        not be optimal for text display. These issues are the result of not
+                        specifying measurements for your images and tables in the source files. </p>
                     <p>To control the specific size of your images, you can set the
                             <tt>&lt;image></tt> element’s width attribute to a certain number of
                         pixels.</p>
@@ -84,13 +84,15 @@
                     </fig>
                 </li>
             </ul>
-            <note>More complex issues require deeper troubleshooting. If you encounter a build
-                failure that doesn’t match one of these common issues, use the DITA OT’s log for
-                your build as a starting point for identifying the issue. Once you know what’s
-                causing the problem, you may need to run more test builds to continue
-                troubleshooting it until you can resolve it.<draft-comment author="gretylkinsey">Add
-                    something to this disclaimer to discourage tons of emails about build
-                    failures?</draft-comment></note>
+            <p>More complex issues require deeper troubleshooting. If you encounter a build failure
+                that doesn’t match one of these common issues, use the DITA OT’s log for your build
+                as a starting point for identifying the issue. Once you know what’s causing the
+                problem, you may need to run more test builds to continue troubleshooting it until
+                you can resolve it. The DITA OT’s documentation on log files (<xref
+                    href="http://www.dita-ot.org/2.4/user-guide/log-files.html" format="html"
+                    scope="external"/>) is a helpful resource for troubleshooting.</p>
+            <note>Unfortunately, we cannot offer one-on-one technical support for this free
+                site.</note>
         </lcInstruction>
     </learningContentbody>
 </learningContent>

@@ -21,18 +21,17 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcTrueFalse id="output">
-    <lcQuestion>When using the DITA OT, the output commands for PC and Mac are the
-     same.</lcQuestion>
+    <lcQuestion>The DITA command for PC and Mac is the same.</lcQuestion>
     <lcAnswerOptionGroup>
      <lcAnswerOption>
       <lcAnswerContent>True</lcAnswerContent>
-     
      </lcAnswerOption>
      <lcAnswerOption>
       <lcAnswerContent>False</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>The DITA command is different but the output command is the same.</lcFeedbackIncorrect>
    </lcTrueFalse>
   </lcInteraction>
  </learningAssessmentbody>

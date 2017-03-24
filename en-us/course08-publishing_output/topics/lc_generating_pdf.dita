@@ -42,7 +42,7 @@
         <taskbody>
             <steps id="steps_php_1ch_2z">
                 <step>
-                    <cmd>Type the following command into your command window:</cmd>
+                    <cmd>Type the following command into the command line:</cmd>
                     <info>
                         <p><b>On Windows:</b></p>
                         <pre>bin\dita -i [filepath]/sources/ducks/b_ducks.ditamap -f pdf2 -o out/ducks_output -v</pre>

@@ -63,7 +63,7 @@
   margin-top: 1em;
   font-family: "Lingua Franca", Palatino, serif;
   font-size: 0.9em;
-  <b>color: #D48028;</b>
+  <ph outputclass="newchanged">color: #D48028;</ph>
 }
 
 .topictitle1 {
@@ -72,7 +72,7 @@
   font-size: 2em;
   font-family: "Gill Sans", Helvetica, sans-serif;
   font-weight: normal;
-  <b>color: #86CCCC;</b>
+  <ph outputclass="newchanged">color: #86CCCC;</ph>
 }</pre>
                     </info>
                 </step>
@@ -80,8 +80,8 @@
                     <cmd>Save your changes to <b>ld_style.css</b>.</cmd>
                 </step>
                 <step>
-                    <cmd>Enter the following commands into the command window to test your updates
-                        to the custom plugin:</cmd>
+                    <cmd>Enter the following commands into the command line to test your updates to
+                        the custom plugin:</cmd>
                     <info>
                         <p><b>On Windows:</b></p>
                         <pre>bin\dita -i [filepath]/sources/ducks/m_ducks.ditamap -f ld_xhtml -o out/custom_output -v</pre>

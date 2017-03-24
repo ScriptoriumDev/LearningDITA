@@ -2,7 +2,7 @@
 <!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
 <!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <learningAssessment id="lca_conref_push_requirements">
- <title>(assessment question title)</title>
+ <title>Installing the DITA OT</title>
  <prolog class="- topic/prolog ">
   <author type="creator" href="http://easydita.com/" format="html" scope="external"
    class="- topic/author ">Gretyl Kinsey</author>
@@ -19,6 +19,24 @@
   </critdates>
  </prolog>
  <learningAssessmentbody>
-  <lcInteraction id="lcInteraction_vtg_qhp_vx"/>
+ 
+  <lcInteraction>
+   <lcSingleSelect id="installingot">
+    <lcQuestion>Installing the DITA OT can be tedious, but it is beneficial to have access to the OT. When trying to install, which website do you go to?</lcQuestion>
+    <lcAnswerOptionGroup>
+     <lcAnswerOption>
+      <lcAnswerContent>Adobe</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Apple</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>SourceForge</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>SourceForge is the site you visit in order to download the DITA OT.</lcFeedbackIncorrect>
+   </lcSingleSelect>
+  </lcInteraction>
  </learningAssessmentbody>
 </learningAssessment>
