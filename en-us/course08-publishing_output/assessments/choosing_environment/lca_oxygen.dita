@@ -21,18 +21,18 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcTrueFalse id="oxygen">
-    <lcQuestion> Publishing through oXygen gives users more options in terms of publishing and customization than the standalone DITA OT.</lcQuestion>
+    <lcQuestion> The DITA OT lets you publish through an intuitive graphical interface.</lcQuestion>
     <lcAnswerOptionGroup>
      <lcAnswerOption>
       <lcAnswerContent>True</lcAnswerContent>
-      <lcCorrectResponse/>
+      
      </lcAnswerOption>
      <lcAnswerOption>
       <lcAnswerContent>False</lcAnswerContent>
-      
+      <lcCorrectResponse/>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect>Publishing through oXygen gives users more options than the DITA OT.</lcFeedbackIncorrect>
+    <lcFeedbackIncorrect>The DITA OT does not let you publish through an intuitive graphical interface, but Oxygen does.</lcFeedbackIncorrect>
    </lcTrueFalse>
   </lcInteraction>
  </learningAssessmentbody>
