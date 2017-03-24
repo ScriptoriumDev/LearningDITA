@@ -38,17 +38,13 @@
                         course.</cmd>
                 </step>
                 <step>
-                    <cmd>Copy <b>com.learningdita.ld_xhtml.zip</b> into your
-                            <b>dita-ot-2.4.4/plugins</b> folder.</cmd>
-                </step>
-                <step>
                     <cmd>Type the following commands into the command line:</cmd>
                     <info>
                         <p><b>On Windows:</b></p>
-                        <pre>bin\dita install [filepath]/dita-ot-2.4.4/plugins/com.learningdita.ld_xhtml.zip -v</pre>
+                        <pre>bin\dita -install [filepath]/com.learningdita.ld_xhtml.zip -v</pre>
                         <p><b>On Mac:</b></p>
-                        <pre>./bin/dita install [filepath]/dita-ot-2.4.4/plugins/com.learningdita.ld_xhtml.zip -v</pre>
-                        <note>These are the commands for the integrator, which installs the custom
+                        <pre>./bin/dita -install [filepath]/com.learningdita.ld_xhtml.zip -v</pre>
+                        <note>The <tt>-install</tt> parameter integrates and installs the custom
                             xhtml plugin and enables the DITA OT to generate output from it.</note>
                     </info>
                 </step>

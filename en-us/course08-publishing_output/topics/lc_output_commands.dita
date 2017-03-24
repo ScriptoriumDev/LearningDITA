@@ -30,16 +30,16 @@
                 these commands and parameters mean:</p>
             <ul id="ul_dx2_csf_2z">
                 <li>
-                    <p><b>bin&#92;dita</b> (Windows) or <b>./bin/dita</b> (Mac) is the DITA command that
-                        specifies that you are generating output from DITA.</p>
+                    <p><b>bin&#92;dita</b> (Windows) or <b>./bin/dita</b> (Mac) is the command that
+                        generates output from DITA</p>
                 </li>
                 <li>
-                    <p><b>-i</b> (the input parameter) indicates that the following filepath to a
-                        DITA map or file needs to be transformed into output.</p>
+                    <p><b>-i</b> (the input parameter) indicates that the filepath that follows it
+                        to a DITA map or file needs to be transformed into output.</p>
                 </li>
                 <li>
-                    <p><b>-f</b> (the transtype parameter) indicates that the following string is
-                        the output transformation type (also called the “transtype”). Some common
+                    <p><b>-f</b> (the transtype parameter) indicates that the string that follows it
+                        is the output transformation type (also called the “transtype”). Some common
                         transtype values include “pdf2” for PDF output, “xhtml” for HTML output, and
                         “webhelp” for WebHelp output.</p>
                 </li>
