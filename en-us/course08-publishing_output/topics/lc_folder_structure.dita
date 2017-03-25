@@ -4,15 +4,15 @@
 <learningContent id="content_pgf_3gt_qt">
     <title>Source and output folders</title>
     <prolog class="- topic/prolog ">
-        <author type="creator" href="http://easydita.com/" format="html" scope="external"
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
             class="- topic/author ">Gretyl Kinsey</author>
-        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
             class="- topic/author ">Simon Bate</author>
-        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
             class="- topic/author ">Jake Campbell</author>
-        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
             class="- topic/author ">Noelle Russell</author>
-        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
             class="- topic/author ">Ashley Stant</author>
         <critdates>
             <created golive="2017-03-06" date="2017-02-10"/>
@@ -20,19 +20,17 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>Once you have installed the DITA OT and the required Java Development Kit , the next
+            <p>Once you have installed the DITA OT and the required Java Development Kit, the next
                 step is setting up a folder structure for testing its publishing capabilities.
                 Establishing folders for your DITA source files and published output files will help
                 you avoid confusion and make the process of using the DITA OT run more smoothly.</p>
         </lcInstruction>
-    </learningContentbody>
-    <concept id="concept_rbg_1nf_2z">
-        <title>Source folders</title>
-        <conbody>
+        <section id="section_j4b_zht_3z">
+            <title>Source folders</title>
             <p>When you’re working in a standalone DITA OT publishing environment, a well-organized
                 folder structure helps you keep track of your DITA source content. Here are some
                 best practices for setting up your source folders:</p>
-            <ul id="ul_wm4_3nf_2z">
+            <ul id="ul_hys_zht_3z">
                 <li>
                     <p><b>Don’t disrupt the DITA hierarchy.</b> The way you store your DITA content
                         in folders may interfere with the DITA OT’s ability to parse the content and
@@ -46,11 +44,9 @@
                         or “reused”) where they are easy to find.</p>
                 </li>
             </ul>
-        </conbody>
-    </concept>
-    <concept id="concept_yzs_q4f_2z">
-        <title>Output folders</title>
-        <conbody>
+        </section>
+        <section id="section_rf4_13t_3z">
+            <title>Output folders</title>
             <p>By default, the DITA Open Toolkit creates a default output folder named <b>out</b>.
                 If you use the default <b>out</b> folder, be aware that the DITA OT replaces the
                 previously generated output with new output each time you run the DITA OT on the
@@ -59,18 +55,21 @@
                 PDF output of the same file today, yesterday’s PDF is deleted and today’s PDF
                 replaces it. (If you generate PDF output from a different map, or generate HTML
                 output from the same map, yesterday’s PDF remains in place.)</p>
+            <note>If you generate a new version of a previously generated PDF file, the DITA OT will
+                not overwrite the previous version if you have it open in Adobe Reader or Acrobat
+                Pro.</note>
             <p>To keep the DITA OT from replacing your output, you can set up subfolders in the
                     <b>out</b> folder. When you run the DITA OT, you can instruct it to generate
                 output into the subfolder of your choice. There are many ways you can organize your
                 output subfolders, including:</p>
-            <ul id="ul_mlt_zql_3z">
+            <ul id="ul_xt3_d3t_3z">
                 <li>By set of source content</li>
                 <li>By output type</li>
                 <li>By date</li>
                 <li>By test iteration</li>
             </ul>
-        </conbody>
-    </concept>
+        </section>
+    </learningContentbody>
     <task id="task_kmx_yqf_2z">
         <title>Setting up your sources folder</title>
         <taskbody>

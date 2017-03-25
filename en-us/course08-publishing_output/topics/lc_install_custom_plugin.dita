@@ -4,15 +4,15 @@
 <learningContent id="content_pgf_3gt_qt">
     <title>Installing a custom plugin</title>
     <prolog class="- topic/prolog ">
-        <author type="creator" href="http://easydita.com/" format="html" scope="external"
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
             class="- topic/author ">Gretyl Kinsey</author>
-        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
             class="- topic/author ">Simon Bate</author>
-        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
             class="- topic/author ">Jake Campbell</author>
-        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
             class="- topic/author ">Noelle Russell</author>
-        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
             class="- topic/author ">Ashley Stant</author>
         <critdates>
             <created golive="2017-03-06" date="2017-02-10"/>
@@ -38,17 +38,13 @@
                         course.</cmd>
                 </step>
                 <step>
-                    <cmd>Copy <b>com.learningdita.ld_xhtml.zip</b> into your
-                            <b>dita-ot-2.4.4/plugins</b> folder.</cmd>
-                </step>
-                <step>
-                    <cmd>Type the following commands into your command window:</cmd>
+                    <cmd>Type the following commands into the command line:</cmd>
                     <info>
                         <p><b>On Windows:</b></p>
-                        <pre>bin\dita install [filepath]/dita-ot-2.4.4/plugins/com.learningdita.ld_xhtml.zip -v</pre>
+                        <pre>bin\dita -install [filepath]/com.learningdita.ld_xhtml.zip -v</pre>
                         <p><b>On Mac:</b></p>
-                        <pre>./bin/dita install [filepath]/dita-ot-2.4.4/plugins/com.learningdita.ld_xhtml.zip -v</pre>
-                        <note>These are the commands for the integrator, which installs the custom
+                        <pre>./bin/dita -install [filepath]/com.learningdita.ld_xhtml.zip -v</pre>
+                        <note>The <tt>-install</tt> parameter integrates and installs the custom
                             xhtml plugin and enables the DITA OT to generate output from it.</note>
                     </info>
                 </step>
@@ -57,7 +53,7 @@
                 </step>
                 <step>
                     <cmd>To test the integration by generating output, type the following commands
-                        into your command window:</cmd>
+                        into the command line:</cmd>
                     <info>
                         <p><b>On Windows:</b></p>
                         <pre>bin\dita -i [filepath]/sources/ducks/m_ducks.ditamap -f ld_xhtml -o out/custom_output -v</pre>

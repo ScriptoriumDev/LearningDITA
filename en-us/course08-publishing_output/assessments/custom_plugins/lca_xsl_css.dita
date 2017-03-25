@@ -4,15 +4,15 @@
 <learningAssessment id="lca_conref_push_requirements">
  <title>XSL and CSS</title>
  <prolog class="- topic/prolog ">
-  <author type="creator" href="http://easydita.com/" format="html" scope="external"
+  <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
    class="- topic/author ">Gretyl Kinsey</author>
-  <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+  <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
    class="- topic/author ">Simon Bate</author>
-  <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+  <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
    class="- topic/author ">Jake Campbell</author>
-  <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+  <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
    class="- topic/author ">Noelle Russell</author>
-  <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+  <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
    class="- topic/author ">Ashley Stant</author>
   <critdates>
    <created golive="2017-03-06" date="2017-02-06"/>
@@ -22,16 +22,18 @@
 <learningAssessmentbody>
  <lcInteraction>
   <lcTrueFalse id="xsl_xss">
-   <lcQuestion>More people have common knowledge of XSL than CSS</lcQuestion>
+   <lcQuestion>More people have common knowledge of DITA base plugin architecture than CSS. True or False?</lcQuestion>
    <lcAnswerOptionGroup>
     <lcAnswerOption>
      <lcAnswerContent>True</lcAnswerContent>
-     <lcCorrectResponse/>
+    
     </lcAnswerOption>
     <lcAnswerOption>
      <lcAnswerContent>False</lcAnswerContent>
+     <lcCorrectResponse/>
     </lcAnswerOption>
    </lcAnswerOptionGroup>
+   <lcFeedbackIncorrect>More people have common knowledge of CSS than DITA base plugin architecture.</lcFeedbackIncorrect>
   </lcTrueFalse>
  </lcInteraction>
 </learningAssessmentbody>

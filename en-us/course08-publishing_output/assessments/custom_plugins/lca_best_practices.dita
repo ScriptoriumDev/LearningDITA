@@ -2,7 +2,7 @@
 <!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
 <!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <learningAssessment id="lca_conref_push_requirements">
- <title>Evaluating Custom Plugins</title>
+ <title>Best Practices for Custom Plugins</title>
  <prolog class="- topic/prolog ">
   <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
    class="- topic/author ">Gretyl Kinsey</author>
@@ -18,26 +18,31 @@
    <created golive="2017-03-06" date="2017-02-06"/>
   </critdates>
  </prolog>
- <learningAssessmentbody>
-  
-  <lcInteraction>
-   <lcMultipleSelect id="evaluating">
-    <lcQuestion>When evaluating the need for custom plugins, what needs to be asked? Choose all that apply.</lcQuestion>
-    <lcAnswerOptionGroup>
-     <lcAnswerOption>
-      <lcAnswerContent>What types of output you need and how much they differ from the DITA OT's default outputs</lcAnswerContent>
-      <lcCorrectResponse/>
-     </lcAnswerOption>
-     <lcAnswerOption>
-      <lcAnswerContent>Whether your customization requirements are based on look and feel, structure, or both</lcAnswerContent>
-      <lcCorrectResponse/>
-     </lcAnswerOption>
-     <lcAnswerOption>
-      <lcAnswerContent>How the structure of your source content affects the DITA OT's publishing capabilities</lcAnswerContent>
-      <lcCorrectResponse/>
-     </lcAnswerOption>
-    </lcAnswerOptionGroup>
-   </lcMultipleSelect>
-  </lcInteraction>
- </learningAssessmentbody>
+
+<learningAssessmentbody>
+ <lcInteraction>
+  <lcMultipleSelect id="update">
+   <lcQuestion> What are best practices for maintaining custom DITA plugins? Check all that apply. </lcQuestion>
+   <lcAnswerOptionGroup>
+    <lcAnswerOption>
+     <lcAnswerContent>Establish a consistent way to collect specifications</lcAnswerContent>
+     <lcCorrectResponse/>
+    </lcAnswerOption>
+    <lcAnswerOption>
+     <lcAnswerContent>Support special structures</lcAnswerContent>
+     <lcCorrectResponse/>
+    </lcAnswerOption>
+    <lcAnswerOption>
+     <lcAnswerContent>Document custom plugin updates</lcAnswerContent>
+     <lcCorrectResponse/>
+    </lcAnswerOption>
+    <lcAnswerOption>
+     <lcAnswerContent>Add a new element to your specialization</lcAnswerContent>
+ 
+    </lcAnswerOption>
+   </lcAnswerOptionGroup>
+   
+  </lcMultipleSelect>
+ </lcInteraction>
+</learningAssessmentbody>
 </learningAssessment>

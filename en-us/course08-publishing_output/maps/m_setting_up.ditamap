@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
- <title>Setting up your publishing environment</title>
+ <title>Setting up your DITA publishing environment</title>
  <topicref href="../topics/lc_setting_up.dita">
   <topicmeta lockmeta="yes">
-   <data name="lesson_id" value="11110"/>
+   <data name="lesson_id" value="11167"/>
   </topicmeta>
   <topicref href="../topics/lc_installing_the_dita_ot.dita"/>
   <topicref href="../topics/lc_installing_java.dita"/>
@@ -13,8 +13,12 @@
   <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_setting_up.dita"
    locktitle="yes">
    <topicmeta>
-    <navtitle>Assessment for Setting up your publishing environment</navtitle>
+    <navtitle>Assessment for Setting up your DITA publishing environment</navtitle>
    </topicmeta>
    <topicref href="../assessments/setting_up/lca_installing_ot.dita"/>
+   <topicref href="../assessments/setting_up/lca_java.dita"/>
+   <topicref href="../assessments/setting_up/lca_pc_mac.dita"/>
+   <topicref href="../assessments/setting_up/lca_output_folder.dita"/>
+   <topicref href="../assessments/setting_up/lca_builds.dita"/>
   </topicref>
  </topicref></map>

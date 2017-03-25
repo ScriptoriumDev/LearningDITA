@@ -4,15 +4,15 @@
 <learningAssessment id="lca_conref_push_requirements">
  <title>Updating Custom Plugins</title>
  <prolog class="- topic/prolog ">
-  <author type="creator" href="http://easydita.com/" format="html" scope="external"
+  <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
    class="- topic/author ">Gretyl Kinsey</author>
-  <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+  <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
    class="- topic/author ">Simon Bate</author>
-  <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+  <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
    class="- topic/author ">Jake Campbell</author>
-  <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+  <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
    class="- topic/author ">Noelle Russell</author>
-  <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+  <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
    class="- topic/author ">Ashley Stant</author>
   <critdates>
    <created golive="2017-03-06" date="2017-02-06"/>
@@ -21,21 +21,32 @@
 
 <learningAssessmentbody>
  <lcInteraction>
-  <lcTrueFalse id="updating">
+  <lcMultipleSelect id="update">
    <lcQuestion>
-    Do custom plugins need to be updated over time?
+   Why do custom plugins need to be updated over time?
    </lcQuestion>
    <lcAnswerOptionGroup>
     <lcAnswerOption>
-     <lcAnswerContent>True</lcAnswerContent>
+     <lcAnswerContent>Accomodate changes to the source content's structure</lcAnswerContent>
      <lcCorrectResponse/>
     </lcAnswerOption>
     <lcAnswerOption>
-     <lcAnswerContent>False</lcAnswerContent>
+     <lcAnswerContent>Accomodate changes to a change in company branding</lcAnswerContent>
+     <lcCorrectResponse/>
+    </lcAnswerOption>
+    <lcAnswerOption>
+     <lcAnswerContent>Specializing for the first time</lcAnswerContent>
+     <lcCorrectResponse/>
+    </lcAnswerOption>
+    <lcAnswerOption>
+     <lcAnswerContent>Adding a new element to your specialization</lcAnswerContent>
+     <lcCorrectResponse/>
     </lcAnswerOption>
    </lcAnswerOptionGroup>
-   <lcFeedbackIncorrect>You may need to update custom plugins to accommodate changes to the source content's structure, including company branding, specializing for the first time, or adding a new element to your specialization.</lcFeedbackIncorrect>
-  </lcTrueFalse>
+   <lcFeedbackIncorrect>The truth is that you may need to update custom plugins to accommodate many
+     things. It is subjective for every user, since the customization is different for various
+     users.</lcFeedbackIncorrect>
+  </lcMultipleSelect>
  </lcInteraction>
 </learningAssessmentbody>
 </learningAssessment>

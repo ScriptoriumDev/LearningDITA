@@ -4,15 +4,15 @@
 <learningContent id="content_pgf_3gt_qt">
     <title>Troubleshooting common issues with generating output</title>
     <prolog class="- topic/prolog ">
-        <author type="creator" href="http://easydita.com/" format="html" scope="external"
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
             class="- topic/author ">Gretyl Kinsey</author>
-        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
             class="- topic/author ">Simon Bate</author>
-        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
             class="- topic/author ">Jake Campbell</author>
-        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
             class="- topic/author ">Noelle Russell</author>
-        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
             class="- topic/author ">Ashley Stant</author>
         <critdates>
             <created golive="2017-03-06" date="2017-02-10"/>
@@ -21,11 +21,9 @@
     <learningContentbody>
         <lcInstruction>
             <p>Many people encounter problems with the DITA OT when running a build for the first
-                time. (This is true whether you’re running your first build ever, or whether you’re
-                an experienced DITA user running your first build on a new set of source files.) In
-                the DITA OT’s log file, a problem is typically indicated by the message “build
-                failed.” However, you may also have a successful build but find issues with the
-                output. Here are some common problems and tips for troubleshooting them:</p>
+                time. In the DITA OT’s log file, a problem is typically indicated by the message
+                “build failed.” However, you may also have a successful build but find issues with
+                the output. Here are some common problems and tips for troubleshooting them:</p>
             <ul id="ul_ylx_hqz_dz">
                 <li>
                     <p><b>Incorrectly typed commands.</b> If your build fails, check your commands
@@ -47,9 +45,9 @@
                 </li>
                 <li>
                     <p><b>Output missing.</b> If the log indicates that the build was successful,
-                        but you are unable to find your output, double check your commands to make
-                        sure you specified an output location. If you did not, the output will be in
-                        the default “out” folder provided by the DITA OT.</p>
+                        but you are unable to find your output, double check your <tt>-o</tt>
+                        parameter to make sure you specified an output location. If you did not, the
+                        output will be built in the DITA OT folder.</p>
                 </li>
                 <li>
                     <p><b>Output replaced.</b> Every time you run the DITA OT with the same set of
@@ -57,26 +55,28 @@
                         previous build. If you wish to keep each iteration of output you build (for
                         example, to keep track of testing or troubleshooting results), you can
                         either rename the previous output before you run a new build or set the
-                            <tt>-o</tt> command to a different output directory every time you run
+                            <tt>-o</tt> parameter to a different output directory every time you run
                         the build.</p>
                 </li>
                 <li>
-                    <p><b>Incorrect output display.</b> Sometimes your output doesn’t look the way
-                        you expected, even if it builds successfully. For example, the images in a
-                        PDF may be so large they run off the page, or the columns in a table may not
-                        be optimal for text display. These issues are the result of not defining
-                        measurements for image and table display in the source files. </p>
-                    <p>To control the specific size of your images, you can set the
-                            <tt>&lt;image></tt> element’s width attribute to a certain number of
-                        pixels.</p>
+                    <p><b>Incorrect appearance of output.</b> Sometimes your output doesn’t look the
+                        way you expected, even if it builds successfully. For example, the images in
+                        a PDF may be so large they run off the page, or the columns in a table may
+                        not be optimal for text display. These issues are the result of not
+                        specifying measurements for your images and tables in the source files. </p>
+                    <p>To control the specific size of your images, you can use the
+                            <tt>&lt;image></tt> element’s width attribute.</p>
                     <fig id="fig_cm1_jzx_fz">
                         <title>Image with a width specified vs. image with no width specified in PDF
                             output</title>
                         <image href="images/image_display.png" base="2017/03" width="500" id="image_dm1_jzx_fz"/>
                     </fig>
-                    <p>For tables, you can use the colspec attribute to adjust the column widths
-                        from their default setting of equal widths into widths that work better for
-                        your content.</p>
+                    <p>For tables, you can use the <tt>&lt;colspec></tt> element to adjust the
+                        column widths from their default setting of equal widths into widths that
+                        work better for your content.</p>
+                    <note>Visual XML editors (such as oXygen) allow you to modify table column
+                        widths through a graphical interface that manages the <tt>&lt;colspec></tt>
+                        values for you.</note>
                     <fig id="fig_jyr_jzx_fz">
                         <title>Table with colspecs adjusted vs. table with default colspecs in PDF
                             output</title>
@@ -84,13 +84,15 @@
                     </fig>
                 </li>
             </ul>
-            <note>More complex issues require deeper troubleshooting. If you encounter a build
-                failure that doesn’t match one of these common issues, use the DITA OT’s log for
-                your build as a starting point for identifying the issue. Once you know what’s
-                causing the problem, you may need to run more test builds to continue
-                troubleshooting it until you can resolve it.<draft-comment author="gretylkinsey">Add
-                    something to this disclaimer to discourage tons of emails about build
-                    failures?</draft-comment></note>
+            <p>More complex issues require deeper troubleshooting. If you encounter a build failure
+                that doesn’t match one of these common issues, use the DITA OT’s log for your build
+                as a starting point for identifying the issue. Once you know what’s causing the
+                problem, you may need to run more test builds to continue troubleshooting it until
+                you can resolve it. The DITA OT’s documentation on log files (<xref
+                    href="http://www.dita-ot.org/2.4/user-guide/log-files.html" format="html"
+                    scope="external"/>) is a helpful resource for troubleshooting.</p>
+            <note>Unfortunately, we cannot offer one-on-one technical support for this free
+                site.</note>
         </lcInstruction>
     </learningContentbody>
 </learningContent>

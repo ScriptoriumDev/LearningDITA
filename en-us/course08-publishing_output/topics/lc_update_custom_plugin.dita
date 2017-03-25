@@ -4,15 +4,15 @@
 <learningContent id="content_pgf_3gt_qt">
     <title>Updating a custom plugin</title>
     <prolog class="- topic/prolog ">
-        <author type="creator" href="http://easydita.com/" format="html" scope="external"
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
             class="- topic/author ">Gretyl Kinsey</author>
-        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
             class="- topic/author ">Simon Bate</author>
-        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
             class="- topic/author ">Jake Campbell</author>
-        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
             class="- topic/author ">Noelle Russell</author>
-        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
             class="- topic/author ">Ashley Stant</author>
         <critdates>
             <created golive="2017-03-06" date="2017-02-10"/>
@@ -26,10 +26,10 @@
                 element to your specialization, or specializing for the first time.</p>
             <p>Customizing DITA OT plugins is difficult and requires lots of testing to ensure that
                 updates to the plugin have the desired results in the output. Special knowledge is
-                required to customize plugins or update custom plugins, such as knowledge of Ant and
-                DTDs for the base plugin architecture, plus other knowledge of the output types,
-                including XHTML, JavaScript, and XSL-FO. For this reason, most companies hire an
-                expert—whether an outside consultant or an in-house employee—to customize
+                required to customize plugins or update custom plugins, such as knowledge of Ant,
+                XSL, and DTDs for the base plugin architecture, plus other knowledge of the output
+                types, including XHTML, JavaScript, and XSL-FO. For this reason, most companies hire
+                an expert—whether an outside consultant or an in-house employee—to customize
                 plugins.</p>
             <p>CSS, or cascading stylesheets, can be used to modify the appearance of output from
                 the xhtml plugin. Because many people have common knowledge of CSS, a company may
@@ -58,12 +58,13 @@
                 <step>
                     <cmd>Make the following changes to <b>ld_style.css</b>:</cmd>
                     <info>
-                        <p>(Areas where changes are required are indicated in bold.)</p>
+                        <p>(Areas where changes are required are indicated in bold, highlighted
+                            text.)</p>
                         <pre>.p {
   margin-top: 1em;
   font-family: "Lingua Franca", Palatino, serif;
   font-size: 0.9em;
-  <b>color: #D48028;</b>
+  <ph outputclass="newchanged">color: #D48028;</ph>
 }
 
 .topictitle1 {
@@ -72,7 +73,7 @@
   font-size: 2em;
   font-family: "Gill Sans", Helvetica, sans-serif;
   font-weight: normal;
-  <b>color: #86CCCC;</b>
+  <ph outputclass="newchanged">color: #86CCCC;</ph>
 }</pre>
                     </info>
                 </step>
@@ -80,8 +81,8 @@
                     <cmd>Save your changes to <b>ld_style.css</b>.</cmd>
                 </step>
                 <step>
-                    <cmd>Enter the following commands into the command window to test your updates
-                        to the custom plugin:</cmd>
+                    <cmd>Enter the following commands into the command line to test your updates to
+                        the custom plugin:</cmd>
                     <info>
                         <p><b>On Windows:</b></p>
                         <pre>bin\dita -i [filepath]/sources/ducks/m_ducks.ditamap -f ld_xhtml -o out/custom_output -v</pre>

@@ -4,15 +4,15 @@
 <learningContent id="content_pgf_3gt_qt">
     <title>Best practices for custom plugins</title>
     <prolog class="- topic/prolog ">
-        <author type="creator" href="http://easydita.com/" format="html" scope="external"
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
             class="- topic/author ">Gretyl Kinsey</author>
-        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
             class="- topic/author ">Simon Bate</author>
-        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
             class="- topic/author ">Jake Campbell</author>
-        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
             class="- topic/author ">Noelle Russell</author>
-        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
             class="- topic/author ">Ashley Stant</author>
         <critdates>
             <created golive="2017-03-06" date="2017-02-10"/>
@@ -20,10 +20,10 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>If you use custom DITA plugins, you will need to maintain them over time. Eventually,
-                you might need to make further updates to the appearance of your custom plugins’
-                output and test those changes. You may also need to add new custom plugins as your
-                output requirements grow.</p>
+            <p>If you use custom DITA plugins, eventually they will probably need to be updated or
+                refreshed. You might need to make further updates to the appearance of your custom
+                plugins’ output and test those changes. You may also need to add new custom plugins
+                as your output requirements grow.</p>
             <p>Here are some best practices for maintaining custom DITA plugins:</p>
             <ul id="ul_jmj_42h_2z">
                 <li>
@@ -32,7 +32,7 @@
                         how the output should look. For print-based outputs such as PDF, these specs
                         typically include fonts, sizes, colors, page margins, rules for image and
                         table display, placement of running headers and footers, and so on. For
-                        electronic formats such as HTML, these specs are also function-based; for
+                        online formats such as HTML, these specs are also function-based; for
                         example, what kind of navigation and search will work best for your
                         audience?</p>
                     <p>Creating a custom plugin will be easier if you have a clear and consistent
