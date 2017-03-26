@@ -21,8 +21,8 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcTrueFalse id="output">
-    <lcQuestion>By default, the pdf2 plugin generates a table of contents for the entire document
-     when publishing from a bookmap. True or False?</lcQuestion>
+    <lcQuestion>By default, the pdf2 plugin always generates a table of contents for the entire
+     document when publishing from a bookmap. True or False?</lcQuestion>
     <lcAnswerOptionGroup>
      <lcAnswerOption>
       <lcAnswerContent>True</lcAnswerContent>
@@ -33,9 +33,9 @@
       <lcCorrectResponse/>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect>By default, the pdf2 plugin only generates a cover page; a table of
-     contents must be defined in the bookmap for the pdf2 plugin to generate
-     one.</lcFeedbackIncorrect>
+    <lcFeedbackIncorrect>By default, the pdf2 plugin always generates a cover page for bookmap
+     content; however, a table of contents must be defined in the bookmap for the pdf2 plugin to
+     generate one.</lcFeedbackIncorrect>
    </lcTrueFalse>
   </lcInteraction>
  </learningAssessmentbody>
