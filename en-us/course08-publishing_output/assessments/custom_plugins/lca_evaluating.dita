@@ -29,13 +29,12 @@
       <lcCorrectResponse/>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>How much your output requirements differ from the default outputs offered by
-       the DITA OT.</lcAnswerContent>
+      <lcAnswerContent>How much your output requirements differ from the DITA OT’s default
+       outputs.</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>Whether your customization requirements are based on look and feel,
-       structure, or both.</lcAnswerContent>
+      <lcAnswerContent>The way your output should look.</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
      <lcAnswerOption>
@@ -45,10 +44,9 @@
      </lcAnswerOption>
     </lcAnswerOptionGroup>
     <lcFeedbackIncorrect>When evaluating your need for custom plugins, you should consider what
-     types of output you need, how much your output requirements differ from the default outputs
-     offered by the DITA OT, whether your customization requirements are based on look and feel,
-     structure, or both, and how the structure of your source content affects the DITA OT’s
-     publishing capabilities.</lcFeedbackIncorrect>
+     types of output you need, how much your output requirements differ from the DITA OT’s default
+     outputs, the way your output should look, and how the structure of your source content affects
+     the DITA OT’s publishing capabilities.</lcFeedbackIncorrect>
    </lcMultipleSelect>
   </lcInteraction>
  </learningAssessmentbody>

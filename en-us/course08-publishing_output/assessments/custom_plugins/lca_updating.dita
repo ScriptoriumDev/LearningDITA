@@ -22,12 +22,11 @@
 <learningAssessmentbody>
  <lcInteraction>
   <lcMultipleSelect id="update">
-   <lcQuestion> Why might your custom plugins need to be updated over time? (Choose all that
+   <lcQuestion> Why might you need to update your custom plugins? (Choose all that
      apply)</lcQuestion>
    <lcAnswerOptionGroup>
     <lcAnswerOption>
-      <lcAnswerContent>To accommodate changes in the structure of your source
-       content.</lcAnswerContent>
+      <lcAnswerContent>To allow you to start specializing for the first time.</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
     <lcAnswerOption>
@@ -42,8 +41,8 @@
       <lcAnswerContent>To allow you to publish a larger volume of content.</lcAnswerContent>
      </lcAnswerOption>
    </lcAnswerOptionGroup>
-   <lcFeedbackIncorrect>You may need to update your custom plugins to accommodate changes in the
-     structure of your source content, accommodate a new element added to your specialization, or
+   <lcFeedbackIncorrect>You may need to update your custom plugins to allow you to start
+     specializing for the first time, accommodate a new element added to your specialization, or
      reflect a change in your company’s branding. You can publish a larger volume of content without
      needing to update your custom plugins.</lcFeedbackIncorrect>
   </lcMultipleSelect>
