@@ -21,7 +21,8 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcTrueFalse id="oxygen">
-    <lcQuestion> The DITA OT lets you publish through an intuitive graphical interface.</lcQuestion>
+    <lcQuestion> A standalone DITA OT lets you publish through an intuitive graphical interface.
+     True or False?</lcQuestion>
     <lcAnswerOptionGroup>
      <lcAnswerOption>
       <lcAnswerContent>True</lcAnswerContent>
@@ -32,7 +33,8 @@
       <lcCorrectResponse/>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect>The DITA OT does not let you publish through an intuitive graphical interface, but Oxygen does.</lcFeedbackIncorrect>
+    <lcFeedbackIncorrect>A standalone DITA OT lets you publish through a command line. For an
+     intuitive graphical interface, use the DITA OT with oXygen XML Editor.</lcFeedbackIncorrect>
    </lcTrueFalse>
   </lcInteraction>
  </learningAssessmentbody>

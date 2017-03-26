@@ -2,7 +2,7 @@
 <!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
 <!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <learningAssessment id="lca_conref_push_requirements">
- <title>Installing Java on a PC or Mac</title>
+ <title>Filepath</title>
  <prolog class="- topic/prolog ">
   <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
    class="- topic/author ">Gretyl Kinsey</author>
@@ -22,22 +22,23 @@
  
   <lcInteraction>
   <lcTrueFalse id="java">
-   <lcQuestion>The process for installing Java on a PC or Mac is the same. True or
-     False?</lcQuestion>
+   <lcQuestion>The DITA OT should be installed in a location without spaces or special characters in
+     the filepath. True or False?</lcQuestion>
    <lcAnswerOptionGroup>
     <lcAnswerOption>
      <lcAnswerContent>True</lcAnswerContent>
+      <lcCorrectResponse/>
    
     </lcAnswerOption>
     <lcAnswerOption>
      <lcAnswerContent>False</lcAnswerContent>
-       <lcCorrectResponse/>
     </lcAnswerOption>
    </lcAnswerOptionGroup>
   
    
-    <lcFeedbackIncorrect>The process for installing Java on a PC or Mac is not the same, and
-     requires different steps.</lcFeedbackIncorrect>
+    <lcFeedbackIncorrect>The DITA OT does not always handle spaces or special characters well in the
+     filepath, so it should be installed in a location that only has letters, numbers, hyphens (-),
+     or underscores (_) in the filepath.</lcFeedbackIncorrect>
   </lcTrueFalse>
   </lcInteraction>
  </learningAssessmentbody>

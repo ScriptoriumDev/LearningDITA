@@ -22,26 +22,25 @@
  
   <lcInteraction>
    <lcSingleSelect id="installingot">
-    <lcQuestion>When running a build in the DITA OT, it is important to see the build being run in
-     real time to help troubleshoot errors. Which command do you use? Choose one. </lcQuestion>
+    <lcQuestion>When running a build in the DITA OT, which parameter displays a log of the build in
+     the command line? (Choose one)</lcQuestion>
     <lcAnswerOptionGroup>
      <lcAnswerOption>
-      <lcAnswerContent>-o</lcAnswerContent>
+      <lcAnswerContent><tt>-o</tt></lcAnswerContent>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>-v</lcAnswerContent>
+      <lcAnswerContent><tt>-v</tt></lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>-i</lcAnswerContent>
-      
+      <lcAnswerContent><tt>-i</tt></lcAnswerContent>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>-t</lcAnswerContent>
+      <lcAnswerContent><tt>-t</tt></lcAnswerContent>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect>You use -v in the OT to view your build being run in real
-     time.</lcFeedbackIncorrect>
+    <lcFeedbackIncorrect>The <tt>-v</tt> (verbose) parameter displays a log of the build in the
+     command line.</lcFeedbackIncorrect>
    </lcSingleSelect>
   </lcInteraction>
  </learningAssessmentbody>

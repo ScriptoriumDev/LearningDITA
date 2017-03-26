@@ -23,12 +23,9 @@
    
    
  <lcMultipleSelect id="DITAOT">
-  <lcQuestion>By default, the DITA OT includes plugins for publishing into: (choose all that apply)</lcQuestion>
+  <lcQuestion>By default, the DITA OT includes plugins for publishing into: (Choose all that
+     apply)</lcQuestion>
   <lcAnswerOptionGroup>
-   <lcAnswerOption>
-    <lcAnswerContent>Webhelp</lcAnswerContent>
-   
-   </lcAnswerOption>
    <lcAnswerOption>
     <lcAnswerContent>Customized output</lcAnswerContent>
    </lcAnswerOption>

@@ -47,19 +47,19 @@
         </section>
         <section id="section_rf4_13t_3z">
             <title>Output folders</title>
-            <p>By default, the DITA Open Toolkit creates a default output folder named <b>out</b>.
-                If you use the default <b>out</b> folder, be aware that the DITA OT replaces the
-                previously generated output with new output each time you run the DITA OT on the
-                same set of source content for the same type of output. For example, if you
-                generated PDF output from the file <b>b_ducks.ditamap</b> yesterday and you generate
-                PDF output of the same file today, yesterday’s PDF is deleted and today’s PDF
-                replaces it. (If you generate PDF output from a different map, or generate HTML
-                output from the same map, yesterday’s PDF remains in place.)</p>
+            <p>By default, the DITA OT generates output in the DITA OT folder (previous versions of
+                the DITA OT used a default output folder called <b>out</b>). The DITA OT replaces
+                the previously generated output with new output each time you generate the same type
+                of output from the same source content. For example, if you generated PDF output
+                from the file <b>m_ducks.ditamap</b> yesterday and you generate PDF output of the
+                same file today, yesterday’s PDF is deleted and today’s PDF replaces it. (If you
+                generate PDF output from a different map, or generate HTML output from the same map,
+                yesterday’s PDF remains in place.)</p>
             <note>If you generate a new version of a previously generated PDF file, the DITA OT will
                 not overwrite the previous version if you have it open in Adobe Reader or Acrobat
                 Pro.</note>
-            <p>To keep the DITA OT from replacing your output, you can set up subfolders in the
-                    <b>out</b> folder. When you run the DITA OT, you can instruct it to generate
+            <p>To make sure the DITA OT does not replace your output, set up an <b>out</b> folder
+                with subfolders. That way, when you run the DITA OT, you can instruct it to generate
                 output into the subfolder of your choice. There are many ways you can organize your
                 output subfolders, including:</p>
             <ul id="ul_xt3_d3t_3z">

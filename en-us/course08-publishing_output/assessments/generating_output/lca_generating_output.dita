@@ -19,20 +19,30 @@
   </critdates>
  </prolog>
  <learningAssessmentbody>
-  <lcInteraction>
-   <lcTrueFalse id="output">
-    <lcQuestion>The DITA command for PC and Mac is the same.</lcQuestion>
-    <lcAnswerOptionGroup>
+  <lcInteraction id="lcInteraction_dsq_1gg_jz">
+   <lcSingleSelect id="bindita">
+    <lcQuestion>What is the purpose of the <tt>bin\dita</tt> (Windows) or <tt>./bin/dita</tt> (Mac)
+     command? (Choose one)</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_esq_1gg_jz">
      <lcAnswerOption>
-      <lcAnswerContent>True</lcAnswerContent>
+      <lcAnswerContent>To specify which type of output should be generated from
+       DITA.</lcAnswerContent>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>False</lcAnswerContent>
+      <lcAnswerContent>To generate output from DITA.</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>To specify the location where the output from DITA should be
+       generated.</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>To specify which DITA file should be published into output.</lcAnswerContent>
+     </lcAnswerOption>
     </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect>The DITA command is different but the output command is the same.</lcFeedbackIncorrect>
-   </lcTrueFalse>
+    <lcFeedbackIncorrect>The <tt>bin\dita</tt> (Windows) or <tt>./bin/dita</tt> (Mac) command
+     generates output from DITA.</lcFeedbackIncorrect>
+   </lcSingleSelect>
   </lcInteraction>
  </learningAssessmentbody>
 </learningAssessment>
