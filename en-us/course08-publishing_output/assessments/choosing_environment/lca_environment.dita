@@ -21,8 +21,8 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcTrueFalse id="standalone">
-    <lcQuestion> When determining a publishing environment, users are limited to two outputs at a time. True
-     or False? </lcQuestion>
+    <lcQuestion> When determining which publishing environment works best for you, you are limited
+     to two outputs at a time. True or False?</lcQuestion>
     <lcAnswerOptionGroup>
      <lcAnswerOption>
       <lcAnswerContent>True</lcAnswerContent>
@@ -32,7 +32,7 @@
       <lcCorrectResponse/>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect>Users are not limited to how many publishing environments they desire.</lcFeedbackIncorrect>
+    <lcFeedbackIncorrect>You can publish into as many outputs as you need.</lcFeedbackIncorrect>
    </lcTrueFalse>
   </lcInteraction>
  </learningAssessmentbody>

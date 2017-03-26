@@ -22,7 +22,7 @@
   <lcInteraction>
    <lcSingleSelect id="ccms">
    
-   <lcQuestion>CCMS stands for:</lcQuestion>
+   <lcQuestion>CCMS stands for: (Choose one)</lcQuestion>
     <lcAnswerOptionGroup>
      <lcAnswerOption>
       <lcAnswerContent>Content Component Management System</lcAnswerContent>

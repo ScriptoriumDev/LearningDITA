@@ -22,25 +22,30 @@
 <learningAssessmentbody>
  <lcInteraction>
   <lcMultipleSelect id="update">
-   <lcQuestion> What are best practices for maintaining custom DITA plugins? Check all that apply. </lcQuestion>
+   <lcQuestion> What are some best practices for maintaining custom DITA plugins? (Choose all that
+     apply)</lcQuestion>
    <lcAnswerOptionGroup>
     <lcAnswerOption>
-     <lcAnswerContent>Establish a consistent way to collect specifications</lcAnswerContent>
-     <lcCorrectResponse/>
-    </lcAnswerOption>
+      <lcAnswerContent>Establish a consistent way to collect specifications.</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
     <lcAnswerOption>
-     <lcAnswerContent>Support special structures</lcAnswerContent>
-     <lcCorrectResponse/>
-    </lcAnswerOption>
+      <lcAnswerContent>Support special structures; don’t misuse structures.</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
     <lcAnswerOption>
-     <lcAnswerContent>Document custom plugin updates</lcAnswerContent>
-     <lcCorrectResponse/>
-    </lcAnswerOption>
+      <lcAnswerContent>Document any updates you make to your custom plugins.</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
     <lcAnswerOption>
-     <lcAnswerContent>Add a new element to your specialization</lcAnswerContent>
- 
-    </lcAnswerOption>
+      <lcAnswerContent>Add a new element to your specialization.</lcAnswerContent>
+     </lcAnswerOption>
    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>Some best practices for maintaining custom DITA plugins include
+     establishing a consistent way to collect specifications, supporting special structures and not
+     misusing structures, and documenting any updates you make to your custom plugins. Adding a new
+     element to your specialization is not a method of maintaining your custom DITA
+     plugins.</lcFeedbackIncorrect>
    
   </lcMultipleSelect>
  </lcInteraction>

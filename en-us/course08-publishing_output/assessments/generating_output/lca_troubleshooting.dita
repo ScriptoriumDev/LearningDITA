@@ -21,28 +21,28 @@
  <learningAssessmentbody>
   <lcInteraction>
   <lcMultipleSelect id="troubleshooting">
-   <lcQuestion>Common troubleshooting problems with the DITA OT include (choose all that apply):</lcQuestion>
+   <lcQuestion>If your DITA OT build fails, what are some ways you can troubleshoot the failure?
+     (Choose all that apply)</lcQuestion>
    <lcAnswerOptionGroup>
     <lcAnswerOption>
-     <lcAnswerContent>Wrong version of Java</lcAnswerContent>
-     <lcCorrectResponse/>
-    </lcAnswerOption>
+      <lcAnswerContent>Update your version of Java.</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
     <lcAnswerOption>
-     <lcAnswerContent>Incorrectly typed commands</lcAnswerContent>
-     <lcCorrectResponse/>
-    </lcAnswerOption>
+      <lcAnswerContent>Make sure you typed the commands correctly.</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
     <lcAnswerOption>
-     <lcAnswerContent>Output replaced or missing</lcAnswerContent>
-     <lcCorrectResponse/>
-    </lcAnswerOption>
+      <lcAnswerContent>Check your source content to see if it is valid.</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
     <lcAnswerOption>
-     <lcAnswerContent>Invalid source content</lcAnswerContent>
-     <lcCorrectResponse/>
-    </lcAnswerOption>
+      <lcAnswerContent>Install an older version of the DITA OT.</lcAnswerContent>
+     </lcAnswerOption>
     <lcAnswerOption>
-     <lcAnswerContent>Incorrect output display</lcAnswerContent>
-     <lcCorrectResponse/>
-    </lcAnswerOption>
+      <lcAnswerContent>Run the exact same build again and see if you get a different
+       result.</lcAnswerContent>
+     </lcAnswerOption>
    </lcAnswerOptionGroup>
   </lcMultipleSelect>
   </lcInteraction>

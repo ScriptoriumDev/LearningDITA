@@ -21,7 +21,8 @@
  <learningAssessmentbody>
   <lcInteraction>
   <lcMultipleSelect id="standalone">
-   <lcQuestion>A standalone DITA OT is compatible with (choose all that apply):</lcQuestion>
+   <lcQuestion>A standalone DITA OT publishing environment is ideal for: (Choose all that
+     apply)</lcQuestion>
   
     <lcAnswerOptionGroup>
      <lcAnswerOption>
@@ -42,7 +43,8 @@
      </lcAnswerOption>
      
     </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect>A Standalone OT is compatible with small teams, students, pilot projects, and small content volume.</lcFeedbackIncorrect>
+    <lcFeedbackIncorrect>A standalone DITA OT publishing environment is ideal for small teams,
+     students, pilot projects, and small content volume.</lcFeedbackIncorrect>
   </lcMultipleSelect>
   </lcInteraction>
  </learningAssessmentbody>
