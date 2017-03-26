@@ -22,7 +22,8 @@
  
   <lcInteraction>
   <lcTrueFalse id="java">
-   <lcQuestion>Your version of Java needs to be up to date in order to use the DITA OT. True or False?</lcQuestion>
+   <lcQuestion>The DITA OT requires your version of Java to be up to date. True or
+     False?</lcQuestion>
    <lcAnswerOptionGroup>
     <lcAnswerOption>
      <lcAnswerContent>True</lcAnswerContent>
@@ -34,7 +35,8 @@
    </lcAnswerOptionGroup>
   
    
-    <lcFeedbackIncorrect>Your version of Java does need to be up to date in order to use the DITA OT.</lcFeedbackIncorrect>
+    <lcFeedbackIncorrect>Your version of Java needs to be up to date in order to use the DITA
+     OT.</lcFeedbackIncorrect>
   </lcTrueFalse>
   </lcInteraction>
  </learningAssessmentbody>

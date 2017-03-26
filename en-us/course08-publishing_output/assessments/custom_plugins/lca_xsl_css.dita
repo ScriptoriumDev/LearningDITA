@@ -2,7 +2,7 @@
 <!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
 <!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <learningAssessment id="lca_conref_push_requirements">
- <title>XSL and CSS</title>
+ <title>Acquiring custom plugins</title>
  <prolog class="- topic/prolog ">
   <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
    class="- topic/author ">Gretyl Kinsey</author>
@@ -21,20 +21,31 @@
 
 <learningAssessmentbody>
  <lcInteraction>
-  <lcTrueFalse id="xsl_xss">
-   <lcQuestion>More people have common knowledge of DITA base plugin architecture than CSS. True or False?</lcQuestion>
-   <lcAnswerOptionGroup>
-    <lcAnswerOption>
-     <lcAnswerContent>True</lcAnswerContent>
-    
-    </lcAnswerOption>
-    <lcAnswerOption>
-     <lcAnswerContent>False</lcAnswerContent>
-     <lcCorrectResponse/>
-    </lcAnswerOption>
-   </lcAnswerOptionGroup>
-   <lcFeedbackIncorrect>More people have common knowledge of CSS than DITA base plugin architecture.</lcFeedbackIncorrect>
-  </lcTrueFalse>
- </lcInteraction>
+   <lcMultipleSelect id="lcMultipleSelect_zgv_kjh_jz">
+    <lcQuestion>What are some ways that you can acquire custom DITA plugins? (Choose all that
+     apply)</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_ahv_kjh_jz">
+     <lcAnswerOption>
+      <lcAnswerContent>Create them yourself.</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Hire or contract someone to create them.</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Find them on the web.</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Download them as part of the DITA OT package from
+       SourceForge.</lcAnswerContent>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>You can create custom plugins yourself, find them on the web, or hire or
+     contract someone to create them. The DITA OT’s default plugins are available as part of the
+     DITA OT package from SourceForge, but custom plugins are not.</lcFeedbackIncorrect>
+   </lcMultipleSelect>
+  </lcInteraction>
 </learningAssessmentbody>
 </learningAssessment>

@@ -22,30 +22,29 @@
 <learningAssessmentbody>
  <lcInteraction>
   <lcMultipleSelect id="update">
-   <lcQuestion>
-   Why do custom plugins need to be updated over time?
-   </lcQuestion>
+   <lcQuestion> Why might you need to update your custom plugins? (Choose all that
+     apply)</lcQuestion>
    <lcAnswerOptionGroup>
     <lcAnswerOption>
-     <lcAnswerContent>Accomodate changes to the source content's structure</lcAnswerContent>
-     <lcCorrectResponse/>
-    </lcAnswerOption>
+      <lcAnswerContent>To allow you to start specializing for the first time.</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
     <lcAnswerOption>
-     <lcAnswerContent>Accomodate changes to a change in company branding</lcAnswerContent>
-     <lcCorrectResponse/>
-    </lcAnswerOption>
+      <lcAnswerContent>To reflect a change in your company’s branding.</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
     <lcAnswerOption>
-     <lcAnswerContent>Specializing for the first time</lcAnswerContent>
-     <lcCorrectResponse/>
-    </lcAnswerOption>
+      <lcAnswerContent>To accommodate a new element added to your specialization.</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
     <lcAnswerOption>
-     <lcAnswerContent>Adding a new element to your specialization</lcAnswerContent>
-     <lcCorrectResponse/>
-    </lcAnswerOption>
+      <lcAnswerContent>To allow you to publish a larger volume of content.</lcAnswerContent>
+     </lcAnswerOption>
    </lcAnswerOptionGroup>
-   <lcFeedbackIncorrect>The truth is that you may need to update custom plugins to accommodate many
-     things. It is subjective for every user, since the customization is different for various
-     users.</lcFeedbackIncorrect>
+   <lcFeedbackIncorrect>You may need to update your custom plugins to allow you to start
+     specializing for the first time, accommodate a new element added to your specialization, or
+     reflect a change in your company’s branding. You can publish a larger volume of content without
+     needing to update your custom plugins.</lcFeedbackIncorrect>
   </lcMultipleSelect>
  </lcInteraction>
 </learningAssessmentbody>

@@ -2,7 +2,7 @@
 <!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
 <!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <learningAssessment id="lca_conref_push_requirements">
- <title>Build Fails</title>
+ <title>Generating HTML</title>
  <prolog class="- topic/prolog ">
   <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
    class="- topic/author ">Gretyl Kinsey</author>
@@ -20,28 +20,22 @@
  </prolog>
  <learningAssessmentbody>
   <lcInteraction>
-  <lcMultipleSelect id="builds">
-   <lcQuestion>Builds fail. It happens all the time. It can happen to a first time user or a regular
-     user. If a build fails, you should <b>not</b> (choose all that apply):</lcQuestion>
-   <lcAnswerOptionGroup>
-    <lcAnswerOption>
-     <lcAnswerContent>Check your version of Java, check for incorrect commands, check for invalid source content</lcAnswerContent>
-     
-    </lcAnswerOption>
-    <lcAnswerOption>
-     <lcAnswerContent>Close the DITA OT</lcAnswerContent>
-    
-    </lcAnswerOption>
-    <lcAnswerOption>
-     <lcAnswerContent>Give up</lcAnswerContent>
-     <lcCorrectResponse/>
-    </lcAnswerOption>
-    <lcAnswerOption>
-     <lcAnswerContent>Check your output display</lcAnswerContent>
-    </lcAnswerOption>
-   </lcAnswerOptionGroup>
-   <lcFeedbackIncorrect>Since builds fail all the time, any of the above options would help besides giving up. Oftentimes closing the OT and rebooting your system entirely can be beneficial.</lcFeedbackIncorrect>
-  </lcMultipleSelect>
+   <lcTrueFalse id="lcTrueFalse_jdk_gxg_jz">
+    <lcQuestion>By default, the xhtml plugin generates a menu for navigation. True or
+     False?</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_kdk_gxg_jz">
+     <lcAnswerOption>
+      <lcAnswerContent>True</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>False</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>By default, the xhtml plugin does not generate any kind of navigation.
+     However, the index file shows the hierarchy of topics from the source map with a link to the
+     xhtml file for each topic.</lcFeedbackIncorrect>
+   </lcTrueFalse>
   </lcInteraction>
  </learningAssessmentbody>
 </learningAssessment>

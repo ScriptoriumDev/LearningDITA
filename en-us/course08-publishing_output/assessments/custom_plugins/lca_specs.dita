@@ -2,7 +2,7 @@
 <!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
 <!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <learningAssessment id="lca_conref_push_requirements">
- <title>Gathering Specs</title>
+ <title>Installing a custom plugin</title>
  <prolog class="- topic/prolog ">
   <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
    class="- topic/author ">Gretyl Kinsey</author>
@@ -22,21 +22,29 @@
 <learningAssessmentbody>
  <lcInteraction>
   <lcSingleSelect id="specs">
-   <lcQuestion>Having a clear and consistent method for gathering specs for a custom plugin is important. A good starting point is (a) ______ that your company's marketing department can answer to provide specs about the look and feel of the output. Choose one that applies.
-</lcQuestion>
+   <lcQuestion>What should you type into the command line to install a custom plugin into the DITA
+     OT? (Choose one)</lcQuestion>
    <lcAnswerOptionGroup>
     <lcAnswerOption>
-     <lcAnswerContent>Checklist, questionnaire, menu</lcAnswerContent>
-     <lcCorrectResponse/>
-    </lcAnswerOption>
+      <lcAnswerContent><tt>-install</tt> followed by the filepath to the custom plugin zip
+       file</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
     <lcAnswerOption>
-     <lcAnswerContent>Public opinion poll</lcAnswerContent>
-    </lcAnswerOption>
+      <lcAnswerContent><tt>-i</tt> followed by the filepath to the custom plugin zip
+       file</lcAnswerContent>
+     </lcAnswerOption>
     <lcAnswerOption>
-     <lcAnswerContent>Word of mouth</lcAnswerContent>
-     
-    </lcAnswerOption>
+      <lcAnswerContent><tt>-install</tt> followed by the filepath to the source content you want to
+       publish through the custom plugin</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent><tt>-i</tt> followed by the filepath to the source content you want to
+       publish through the custom plugin</lcAnswerContent>
+     </lcAnswerOption>
    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>You should type <tt>-install</tt> followed by the filepath to the custom
+     plugin zip file into the command line to install a custom plugin.</lcFeedbackIncorrect>
   </lcSingleSelect>
   
  </lcInteraction>

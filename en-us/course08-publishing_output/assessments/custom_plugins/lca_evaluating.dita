@@ -19,24 +19,34 @@
   </critdates>
  </prolog>
  <learningAssessmentbody>
-  
   <lcInteraction>
    <lcMultipleSelect id="evaluating">
-    <lcQuestion>When evaluating the need for custom plugins, what needs to be asked? Choose all that apply.</lcQuestion>
+    <lcQuestion>When evaluating your need for custom plugins, what should you consider? (Choose all
+     that apply)</lcQuestion>
     <lcAnswerOptionGroup>
      <lcAnswerOption>
-      <lcAnswerContent>What types of output you need and how much they differ from the DITA OT's default outputs</lcAnswerContent>
+      <lcAnswerContent>What types of output you need.</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>Whether your customization requirements are based on look and feel, structure, or both</lcAnswerContent>
+      <lcAnswerContent>How much your output requirements differ from the DITA OT’s default
+       outputs.</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>How the structure of your source content affects the DITA OT's publishing capabilities</lcAnswerContent>
+      <lcAnswerContent>The way your output should look.</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>How the structure of your source content affects the DITA OT’s publishing
+       capabilities.</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>When evaluating your need for custom plugins, you should consider what
+     types of output you need, how much your output requirements differ from the DITA OT’s default
+     outputs, the way your output should look, and how the structure of your source content affects
+     the DITA OT’s publishing capabilities.</lcFeedbackIncorrect>
    </lcMultipleSelect>
   </lcInteraction>
  </learningAssessmentbody>

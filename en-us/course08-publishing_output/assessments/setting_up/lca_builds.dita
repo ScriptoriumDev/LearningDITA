@@ -21,23 +21,27 @@
  <learningAssessmentbody>
  
   <lcInteraction>
-   <lcTrueFalse id="bindita">
-    <lcQuestion>When running a build in the DITA OT, bin\dita is used on a Mac and ./bin/dita is
-     used on a PC. True or False?</lcQuestion>
-    <lcAnswerOptionGroup>
+   <lcSingleSelect id="lcSingleSelect_kq1_qmg_jz">
+    <lcQuestion>To make sure that you installed the DITA OT successfully, you should: (Choose
+     one)</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_lq1_qmg_jz">
      <lcAnswerOption>
-      <lcAnswerContent>True</lcAnswerContent>
-      
-     </lcAnswerOption>
-     <lcAnswerOption>
-      <lcAnswerContent>False</lcAnswerContent>
+      <lcAnswerContent>Run a test build to generate output.</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
-     
+     <lcAnswerOption>
+      <lcAnswerContent>Move the DITA OT into a different location on your machine.</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Update your version of Java.</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Set up your source folders.</lcAnswerContent>
+     </lcAnswerOption>
     </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect>On a Mac, ./bin/dita is used and bin\dita is used on a
-     PC.</lcFeedbackIncorrect>
-   </lcTrueFalse>
+    <lcFeedbackIncorrect>To make sure that you installed the DITA OT successfully, you should run a
+     test build to generate output.</lcFeedbackIncorrect>
+   </lcSingleSelect>
   </lcInteraction>
  </learningAssessmentbody>
 </learningAssessment>

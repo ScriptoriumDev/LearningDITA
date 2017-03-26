@@ -21,26 +21,34 @@
  <learningAssessmentbody>
  
   <lcInteraction>
-  <lcTrueFalse id="java">
-   <lcQuestion>If using the default out folder, the DITA OT creates a duplicate output file with
-     your previously generated output each time you run the DITA OT on the same set of source
-     content for the same type of output. True or False?</lcQuestion>
-   <lcAnswerOptionGroup>
-    <lcAnswerOption>
-     <lcAnswerContent>True</lcAnswerContent>
-     
-    </lcAnswerOption>
-    <lcAnswerOption>
-     <lcAnswerContent>False</lcAnswerContent>
-     <lcCorrectResponse/>
-    </lcAnswerOption>
-   </lcAnswerOptionGroup>
+  <lcSingleSelect id="output_folders">
+   <lcQuestion>To make sure the DITA OT does not replace a previous version of the output you are
+     generating, you should: (Choose one)</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_k13_fcg_jz">
+     <lcAnswerOption>
+      <lcAnswerContent>Specify a new sub-folder inside the out folder for your
+       output.</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Not specify anything for the <tt>-o</tt> parameter in the command
+       line.</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Specify the same output folder you used before for the <tt>-o</tt> parameter
+       in the command line.</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Specify the out folder for the <tt>-o</tt> parameter in the command
+       line.</lcAnswerContent>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
   
    
-    <lcFeedbackIncorrect>If you use the default out folder, the DITA OT replaces the previously
-     generated output with new output each time you run the DITA OT on the same set of source
-     content for the same type of output.</lcFeedbackIncorrect>
-  </lcTrueFalse>
+    <lcFeedbackIncorrect>To make sure the DITA OT does not replace a previous version of the output
+     you are generating, you should specify a new sub-folder inside the out folder for your
+     output.</lcFeedbackIncorrect>
+  </lcSingleSelect>
   </lcInteraction>
  </learningAssessmentbody>
 </learningAssessment>

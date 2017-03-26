@@ -22,10 +22,14 @@
  
   <lcInteraction>
    <lcSingleSelect id="installingot">
-    <lcQuestion>Installing the DITA OT can be tedious, but it is beneficial to have access to the OT. When trying to install, which website do you go to?</lcQuestion>
+    <lcQuestion>Which website should you visit to download and install the latest version of the
+     DITA OT? (Choose one)</lcQuestion>
     <lcAnswerOptionGroup>
      <lcAnswerOption>
       <lcAnswerContent>Adobe</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>oXygen</lcAnswerContent>
      </lcAnswerOption>
      <lcAnswerOption>
       <lcAnswerContent>Apple</lcAnswerContent>
