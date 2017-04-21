@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Overview</title>
+ <topicref href="../topics/lc_learning_overview.dita">
+  <topicmeta lockmeta="yes">
+   <data name="lesson_id" value="11277"/>
+  </topicmeta>
+  <topicref href="../../shared/topics/lc_general_housekeeping.dita"/>
+  <topicref href="../topics/foo.dita"/>
+  <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_learning_overview.dita"
+   locktitle="yes">
+   <topicmeta>
+    <navtitle>Assessment for Choosing a DITA publishing environment</navtitle>
+   </topicmeta>
+   <topicref href="../assessments/choosing_environment/lca_foo.dita"/>
+  </topicref>
+ </topicref>
+ 
+</map>
