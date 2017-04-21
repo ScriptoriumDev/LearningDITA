@@ -5,22 +5,25 @@
     <title>Installing Java</title>
     <prolog class="- topic/prolog ">
         <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
-            class="- topic/author ">Gretyl Kinsey</author>
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
         <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
-            class="- topic/author ">Simon Bate</author>
+            class="- topic/author ">Noelle Russell, Scriptorium</author>
         <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
-            class="- topic/author ">Jake Campbell</author>
+            class="- topic/author ">Ashley Stant, Scriptorium</author>
         <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
-            class="- topic/author ">Noelle Russell</author>
+            class="- topic/author ">Simon Bate, Scriptorium</author>
         <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
-            class="- topic/author ">Ashley Stant</author>
+            class="- topic/author ">Bill Swallow, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Jake Campbell, Scriptorium</author>
         <critdates>
-            <created golive="2017-03-06" date="2017-02-10"/>
+            <created golive="2017-03-27" date="2017-02-06"/>
         </critdates>
     </prolog>
+    
     <learningContentbody>
         <lcInstruction>
-            <p>The DITA OT requires Java. The SourceForge website includes the minimum Java
+            <p>The DITA OT requires Java. The DITA Open Toolkit website includes the minimum Java
                 requirements for each version of the DITA OT.</p>
             <p>When you try to generate output, the DITA OT will alert you if your system does not
                 meet the Java requirements. For the DITA OT, you will most likely need to download
@@ -28,7 +31,7 @@
             <p>On Windows, you may see the following error message if you try to run the DITA OT
                 when Java has not been installed on your system:</p>
             <p>
-                <pre>“java.exe" is not recognized as an internal or external command, 
+                <pre>“java.exe” is not recognized as an internal or external command, 
 operable program or batch file.</pre>
             </p>
             <p>On Mac, a pop-up window may appear indicating that you need a different version of
