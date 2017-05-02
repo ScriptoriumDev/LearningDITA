@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_qn1_dd1_wr">
+ <title></title>
+ <prolog>
+  <author>Sharon Burton</author>
+  <author href="http://www.scriptorium.com"  scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+  <critdates>
+   <created date="2015-04-28"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction><lcSingleSelect id="5">
+   <lcQuestion>DITA是一个开放标准，这即是（选择一个）：</lcQuestion>
+   <lcAnswerOptionGroup>
+    <lcAnswerOption>
+     <lcAnswerContent>任何人都可以使用它，而不用付费。</lcAnswerContent>
+     <lcCorrectResponse/>
+    </lcAnswerOption>
+    <lcAnswerOption>
+     <lcAnswerContent>当升级版本发布时，你必须付费升级，否则你之前的信息将会无法登录访问。</lcAnswerContent>
+     
+    </lcAnswerOption>
+    <lcAnswerOption>
+      <lcAnswerContent>升级由国际标准化组织（ISO）控制。</lcAnswerContent>
+     </lcAnswerOption>
+   </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>DITA由结构化信息标准促进组织（OASIS）控制。开放标准是免费的。</lcFeedbackIncorrect>
+  </lcSingleSelect></lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

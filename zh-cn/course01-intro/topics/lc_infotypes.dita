@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="topics">
+ <title>DITA Topic</title>
+ <prolog><author>Sharon Burton</author>
+  <author href="http://www.scriptorium.com"  scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+  <critdates>
+   <created date="2015-04-28"/>
+  </critdates></prolog>
+ <learningContentbody>
+  <lcObjectives>
+   <lcObjectivesGroup>
+    <lcObjective>识别在所有Topic中找到的常见元素。</lcObjective>
+    <lcObjective>引用DITA中定义的标准主题类型。</lcObjective>
+    <lcObjective>标识通常在各个Topic类型中可以找到的元素。</lcObjective>
+    <lcObjective>定义专门化和约束。</lcObjective>
+   </lcObjectivesGroup>
+  </lcObjectives>
+  <lcDuration >
+   <lcTime value="45"/>
+  </lcDuration>
+  <lcInstruction>
+   <p>DITA Topic是内容的构建模块。 </p>
+   <p>DITA的基本原则之一是不同类型的内容需要不同的载体（Topic类型）。这样，Topic中的元素可以特定于所描述的信息。 </p>
+   <p>所有DITA Topic类型都与共同或通用Topic类型相关。通用Topic类型被“专门化”成多个特定Topic类型，每个特定Topic类型用来保存某种特有的信息。“标准”DITA Topic类型包括：</p>
+   <ul id="ul_ekl_mcx_rs">
+    <li>Concept——包含概念信息，回答“为什么？”的问题。</li>
+    <li>Task——包含分步过程信息，回答“如何做？”的问题。</li>
+    <li>Reference——包含参考信息，回答“是什么？”的问题。</li>
+    <li>Glossary Entry——定义单个术语，回答“这是什么意思？”的问题。</li>
+   </ul>
+   <p>本课程将介绍通用Topic类型，然后介绍每种标准Topic类型以及如何使用它们。  </p>
+  </lcInstruction>
+  
+ </learningContentbody>
+ <related-links>
+  <link href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/c_Topics_and_Information_Types.html" format="html" scope="external"><linktext>DITA风格指南第1章</linktext></link>
+  <link href="http://www.scriptorium.com/books" scope="external" format="html">
+   <linktext>技术写作101第7章</linktext>
+  </link>
+ </related-links>
+ 
+</learningContent>

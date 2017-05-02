@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_xyj_ddc_bt">
+    <title>给读者以选择</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey, Scriptorium</author>
+        <critdates>
+            <created date="2015-08-14"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>要给读者以指导，可能要提供给读者不止一个选项。例如，要使用自动立体音箱系统时，读者可以有多种模式选择，如：AM、FM、CD、line-in，等等。 </p>
+            <p>要呈现这类信息，并且赋予其语义恰当的标签，你可以使用&lt;choices&gt;或&lt;choicetable&gt;元素。 </p>
+            <ul id="ul_nsn_tqx_kt">
+                <li>
+                    <p>当选项只要求一个简要描述时，请使用&lt;choices&gt;元素。</p>
+                </li>
+                <li>
+                    <p>使用&lt;choicetable&gt;（之后的课程会详细介绍）提供具体的关键字，以及每个关键字的附加描述。 </p>
+                </li>
+            </ul>
+            <p>通常&lt;choices&gt;元素以有序列表的形式呈现。&lt;choices&gt;元素的结构就和&lt;ul&gt;元素的结构一样。 </p>
+            <simpletable frame="all" relcolwidth="1.0* 1.0*" id="simpletable_mdl_bsw_mt">
+                <sthead>
+                    <stentry>&lt;ul&gt;元素</stentry>
+                    <stentry>&lt;choices&gt;元素</stentry>
+                </sthead>
+                <strow>
+                    <stentry>
+                        <pre>&lt;ul&gt;
+   &lt;li&gt;一件事&lt;/li&gt;
+   &lt;li&gt;另一件事&lt;/li&gt;
+&lt;/ul&gt;</pre>
+                    </stentry>
+                    <stentry>
+                        <pre>&lt;choices&gt;
+   &lt;choice&gt;一件事&lt;/choice&gt;
+   &lt;choice&gt;另一件事&lt;/choice&gt;
+&lt;/choices&gt;</pre>
+                    </stentry>
+                </strow>
+            </simpletable>
+            <p>&lt;choices&gt;元素中包含一个或多个&lt;choice&gt;元素。每个&lt;choice&gt;元素给读者呈现一个选项。&lt;choice&gt;元素的内容可以是&lt;li&gt;元素内的任何内容。</p>
+          
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_pcm_2dc_bt">
+        <title/>
+        <taskbody>
+            <steps id="steps_qjd_3fc_bt">
+                <step>
+                    <cmd>继续使用文件l_task_start.dita。</cmd>
+                </step>
+                <step>
+                    <!--<note>These steps resume the example that runs continuously through this course. In the first step here the complete task topic is shown; in subsequent steps, only the elements central to the discussion will be shown. </note>-->
+                    <cmd>在第一个&lt;step&gt;元素结束标签后，添加一个新的&lt;step&gt;元素。在&lt;step&gt;内创建一个&lt;cmd&gt;元素。请将以下内容添加至&lt;cmd&gt;元素中。</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"&gt;
+&lt;task id="my_first_task"&gt;
+   ...
+         &lt;/step&gt;
+<ph outputclass="newchanged">         &lt;step&gt;
+            &lt;cmd&gt;选择一本野外指南来识别鸭子。&lt;/cmd&gt;
+         &lt;/step&gt;
+</ph>      &lt;/steps&gt;
+   &lt;/taskbody&gt;
+&lt;/task&gt;</pre>
+                    </stepxmp>
+                </step>
+                <step id="step_dd4_244_ft">
+                    <cmd>在新的&lt;cmd&gt;元素之后，添加一个&lt;choices&gt;元素。 </cmd>
+                    <stepxmp>
+                        <pre>&lt;step&gt;
+   &lt;cmd&gt;选择一本野外指南来识别鸭子。&lt;/cmd&gt;<ph outputclass="newchanged">
+   &lt;choices&gt;
+   &lt;/choices&gt;</ph>
+&lt;/step&gt;
+</pre>
+                    </stepxmp>
+                </step>
+                <step id="step_ed4_244_ft">
+                    <cmd>若你的编辑器不会自动在&lt;choices&gt;内添加第一个&lt;choice&gt;元素，现在手动添加一个吧。</cmd>
+                    <stepxmp>
+                        <pre>&lt;step&gt;
+   &lt;cmd&gt;Pick a field guide to identify the ducks.&lt;/cmd&gt;
+   &lt;choices&gt;
+<ph outputclass="newchanged">      &lt;choice&gt;不少摩登观鸟者依靠《希波利观鸟手册》（The Sibley Guide to Birds）这本书来指导观察鸭子&lt;/choice&gt;
+</ph>   &lt;/choices&gt;
+&lt;/step&gt;
+</pre>
+                    </stepxmp>
+                    <info>默认情况下，多数的DITA输出编辑器认为&lt;choices&gt;元素是一个有序列表。</info>
+                </step>
+                <step>
+                    <cmd>再添加一个&lt;choice&gt;元素。</cmd>
+                    <stepxmp>
+                        <pre>&lt;step&gt;
+   &lt;cmd&gt;Pick a field guide to identify the ducks.&lt;/cmd&gt;
+   &lt;choices&gt;
+      &lt;choice&gt;不少摩登观鸟者依靠《希波利观鸟手册》（The Sibley Guide to Birds）这本书来指导观察鸭子&lt;/choice&gt;
+<ph outputclass="newchanged">      &lt;choice&gt;传统喜好《彼得森指南》&lt;/choice&gt;
+</ph>   &lt;/choices&gt;
+&lt;/step&gt;
+</pre>
+                    </stepxmp>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

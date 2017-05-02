@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_hwg_z1b_dt12">
+ <title>Note</title>
+ <prolog>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey, Scriptorium</author>
+  <critdates>
+   <created date="2015-08-24"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcSingleSelect id="single_select_notes">
+    <lcQuestion>在step中，不允许&lt;note&gt;元素出现在下列哪个位置？（单选）</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_sn2_rwb_kt">
+     <lcAnswerOption>
+      <lcAnswerContent>位于&lt;cmd&gt;元素前</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>&lt;cmd&gt;元素后</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>位于&lt;cmd&gt;元素内</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>位于&lt;info&gt;元素内</lcAnswerContent>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>&lt;note&gt;不允许出现在&lt;cmd&gt;元素内。</lcFeedbackIncorrect>
+   </lcSingleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

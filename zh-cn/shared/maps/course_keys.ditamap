@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>课程Key（所有课程的标题、URL等Key)</title>
+ 
+ <!-- General purpose (OT, etc) -->
+ <keydef keys="dita_12_url" href="http://docs.oasis-open.org/dita/v1.2/os/spec/DITA1.2-spec.html" scope="external" format="html">
+  <topicmeta>
+   <linktext>DITA 1.2规范</linktext>
+  </topicmeta>
+ </keydef>
+ 
+ 
+ <!-- Course 1, Introduction to DITA. -->
+ <keydef keys="dita_intro_url" href="http://www.learningdita.com/courses/introduction-to-dita/" scope="external" format="html">
+  <topicmeta>
+   <linktext>DITA介绍</linktext>
+  </topicmeta>
+ </keydef>
+
+ <!-- Course 2, title. -->
+ <keydef keys="concepts_url" href="http://www.learningdita.com/courses/the-dita-concept-topic-type/" scope="external" format="html">
+  <topicmeta>
+   <linktext>DITA Concept类型的Topic</linktext>
+  </topicmeta>
+ </keydef>
+ 
+ <!-- Course 3, title. -->
+ <keydef keys="tasks_url" href="http://www.learningdita.com/courses/the-dita-task-topic-type/" scope="external" format="html">
+  <topicmeta>
+   <linktext>DITA Task类型的Topic</linktext>
+  </topicmeta>
+ </keydef>
+ 
+ <!-- Course 4, title. -->
+ <keydef keys="ref_glossary_url" href="http://www.learningdita.com/courses/the-dita-reference-and-glossary-topic-types/" scope="external" format="html">
+  <topicmeta>
+   <linktext>DITA Reference和Glossary类型的Topic</linktext>
+  </topicmeta>
+ </keydef>
+ 
+ <!-- Course 5, title. -->
+ <keydef keys="maps_bookmaps_url" href="http://www.learningdita.com/courses/using-dita-maps-and-bookmaps/" scope="external" format="html">
+  <topicmeta>
+   <linktext>使用DITA Map和Bookmap</linktext>
+  </topicmeta>
+ </keydef>
+  
+ <!-- Course 6, title. -->
+ <keydef keys="reuse_basic_url" href="http://www.learningdita.com/courses/intro-to-reuse-in-dita" scope="external" format="html">
+  <topicmeta>
+   <linktext>DITA重用入门</linktext>
+  </topicmeta>
+ </keydef>
+
+<!-- <!-\- Course 7, title. -\->
+ <keydef keys="reuse_advanced_url" href="http://www.learningdita.com/courses/intro-to-reuse-in-dita" scope="external" format="html">
+  <topicmeta>
+   <linktext>Introduction to Reuse</linktext>
+  </topicmeta>
+ </keydef>-->
+</map>

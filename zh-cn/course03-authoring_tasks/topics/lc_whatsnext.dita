@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_usl_x1q_bt">
+    <title>接下来做什么？</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey, Scriptorium</author>
+        <critdates>
+            <created date="2015-08-18"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>&lt;taskbody&gt;元素中最后一个元素为&lt;postreq&gt;（后置条件）。 </p>
+            <p>使用&lt;postreq&gt;元素记录读者在完成任务之后必须要做的事情。例如：</p>
+            <ul id="ul_hj2_wbq_bt">
+                <li>将设备收拾好或者关闭文件。</li>
+                <li>存档或记录任务的完成信息。</li>
+                <li>执行后续任务。 </li>
+            </ul>
+            <p><xref href="https://youtu.be/7E7RYKHQ6C4" format="html" scope="external">视频：在DITA task中以严格顺序完成元素</xref></p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_mv2_lbq_bt">
+        <title/>
+        <taskbody>
+            <steps id="steps_ihp_lbq_bt">
+                <step>
+                    <cmd>继续使用文件l_task_start.dita。</cmd>
+                </step>
+                <step>
+                    <cmd>在&lt;example&gt;元素结束标签之后，添加一个&lt;postreq&gt;元素。</cmd>
+                    <stepxmp>
+                        <pre>...
+        &lt;/example&gt;
+<ph outputclass="newchanged">        &lt;postreq&gt;
+
+        &lt;/postreq&gt; </ph>
+    &lt;/taskbody&gt;
+&lt;/task&gt;
+</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>将下列内容添加至&lt;postreq&gt;元素中：</cmd>
+                    <stepxmp>
+                        <pre>...
+        &lt;/example&gt;
+        &lt;postreq&gt;
+<ph outputclass="newchanged">            &lt;ul&gt;
+                &lt;li&gt;通过相机再次观察鸭子&lt;/li&gt;
+                &lt;li&gt;去找找别的鸟类&lt;/li&gt;
+            &lt;/ul&gt; 
+</ph>        &lt;/postreq&gt;
+    &lt;/taskbody&gt;
+&lt;/task&gt;
+</pre>
+                    </stepxmp>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+    <task id="task_ynz_fgy_3t">
+        <title>练习</title>
+        <taskbody>
+            <steps id="steps_r11_1kx_dt">
+                <step>
+                    <cmd>打开文件lesson3/l_task_finishing_exercise_start.dita，使用该文件将下列内容从<xref href="http://contentstrategy101.com/" format="html" scope="external">Content Strategy 101</xref>转换至DITA中：</cmd>
+                    <info>
+                        <pre outputclass="passthru"><![CDATA[
+                            <hr /> <h3>变化管理</h3>    <ol>   <li>向高层管理和保守者演示。</li>     <li>主动提供培训和知识传递。<p><strong>例如：</strong></p> <ul> <li>现场培训</li>    <li>在线培训</li> <li>培训者的培训</li>       </ul> </li> <li>辨认合理的问题与对新流程条件反射式的抗拒。</li> <li>将参与者列入一个先行项目，并解释过程的变化。</li> </ol> <p>&#160;</p>    <p><strong>结果：</strong>当公司的流程发生改变时，管理起到非常关键的作用；如果没有好的管理，新流程的实施很可能会失败。坏的管理会扼杀新流程，后果让每个参与者避之不及。</p> <p><strong>例如：</strong>如果没有好的变更管理，一 部分反对变化的员工会受到别的团队成员的支持，至到每一个人都拒绝使用新系统。</p>    <p><strong>下一步做什么：</strong>当你成功管理好变化后，你就可以在新系统中创建有用的内容了。</p>   <hr />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            ]]></pre>
+                    </info>
+                    <info/>
+                </step>
+                <step>
+                    <cmd>对照样例文件lesson3/l_task_finishing_exercise.dita，检查你自己的文件lesson3/l_task_finishing_exercise_start.dita。</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

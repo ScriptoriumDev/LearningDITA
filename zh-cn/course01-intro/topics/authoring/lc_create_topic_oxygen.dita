@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="authoring_oxygen">
+    <title>在oXygen中创建一个topic</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+        <critdates>
+            <created date="2015-05-18"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction><p>在文本编辑器中阅读DITA文件相当有挑战。重要信息不突出，元素的层次结构不明显（因为空格和回车对XML没有意义）。大多数人发现使用可视化编辑器（例如SyncROSoft &lt;oXygen/&gt;）来编辑DITA文件更容易，因为在这样的文本编辑器中DITA文件内容是以适当的格式呈现出来的。</p><note>可视化编辑器（例如&lt;oXygen/&gt;）看似一个文字处理器，但是在屏幕上看到的格式会和最终输出的格式一样。不要认为文本的外观（行尾、字体、字符样式等）会和发布之后的内容形式一样。 </note><p>按照下列步骤在oXygen中创建一个Topic：</p><ol
+                id="ol_gl3_tzq_bs">
+                <li>点击New图标（<image href="../../media/authoring/oxygen_new_icon.png" base="2015/07" id="image_jqz_d1r_bs" />）。</li>
+                <li>导航到Framework Templates/DITA/Topic，单击Topic Entry，然后单击Create。oXygen将创建一个含有占位符内容的新的Topic：</li>
+            </ol><pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"&gt;
+&lt;topic id="topic_xks_f1r_bs"&gt;
+  &lt;title&gt;&lt;/title&gt;
+  &lt;body&gt;
+    &lt;p&gt;&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/topic&gt;
+</pre><p>oXygen自动创建一个唯一的topic ID。你也可以将其更改为你认为有意义的ID，但需谨记，每个ID必须是唯一的，并且必须遵守严格的规则。在“作者”视图中，启用标签后，你会看到：<draft-comment author="okeefe">这使我突然想到我所需要的就是一个视频版本。</draft-comment></p><image href="../../media/authoring/oxygen_editor.png" base="2015/07" id="image_vgb_q1r_bs" /><p>您现在可以点击p（它是&lt;p&gt;标记的占位符），然后开始输入内容。要创建新段落，请按两次回车。如果要切换到另一个元素，请按一次回车，然后从出现在光标位置的下拉菜单中进行选择。</p></lcInstruction>
+    </learningContentbody>
+</learningContent>

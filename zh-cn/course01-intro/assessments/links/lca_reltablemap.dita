@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_f33_1kp_wr9">
+ <title></title>
+ <prolog>
+  <author>Sharon Burton</author>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+  <critdates>
+   <created date="2015-04-30"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcTrueFalse id="link7">
+    <lcQuestion>要创建相关topic链接，最佳做法是在每个topic的末尾创建一个列表。</lcQuestion>
+    <lcAnswerOptionGroup>
+     <lcAnswerOption>
+      <lcAnswerContent>错</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>对</lcAnswerContent>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>reltable在每个topic中创建链接更加高效和易于维护。</lcFeedbackIncorrect>
+   </lcTrueFalse>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

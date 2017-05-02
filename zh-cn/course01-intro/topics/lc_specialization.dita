@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_uxj_kp5_vr">
+    <title>专门化</title>
+    <prolog><author>Sharon Burton</author>
+        <author href="http://www.scriptorium.com"  scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+        <author href="http://www.scriptorium.com"  scope="external" format="html">Simon Bate, Scriptorium</author>
+        <critdates>
+        <created date="2015-04-28"/>
+    </critdates></prolog>
+    <learningContentbody>
+       <lcInstruction> <p>
+            
+   <draft-comment>不知道专门化应不应该放在这里，但在视频中就是这样的</draft-comment>     </p>
+       <p>专门化使信息架构师能够创建比DITA本身默认设置更好的更适合你组织所需要的元素和属性。通过专门化创建的元素都是基于DITA中的现有元素。 </p>
+            <p>组织通常专门支持他们的独特需求，例如：<ul
+                    id="ul_m12_fq5_vr">
+                    <li>创建新元素，使其含有特定的顺序和特定的信息</li>
+                    <li>创建新属性，使其来识别特定信息</li>
+                    <li>创建与作者更加有关联的元素名称</li>
+                </ul></p>
+            <p>例如，你可能需要一组用于特定语言的&lt;codeblock&gt;元素，例如&lt;codeblock-java&gt;或&lt;codeblock-php&gt;来区分Java和PHP代码示例。这也可以通过为&lt;codeblock&gt;元素创建新的语言属性来实现：&lt;codeblock language="java"&gt;或&lt;codeblock language="php"&gt;。 </p>
+        <note type="important">使用专门化时要小心。在用专门化时，可以使标记更为具体，但专门化会增加实施成本。你必须权衡从专门化获得的价值与实施和维护专门化的成本。</note>
+            <p>除了专门化，<i>约束</i>允许信息架构师删除不需要或不想使用的元素。例如，如果你的组织不用记录软件代码，那么你的信息架构中可以去掉&lt;codeblock&gt;和&lt;codeph&gt;。约束可以减少向编辑人员展示的元素数量，从而让他们工作更加轻松。</p>
+       </lcInstruction>
+    </learningContentbody>
+</learningContent>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_rvk_fwz_vr">
+    <title>DITA是结构化写作</title>
+    <shortdesc></shortdesc>
+    <prolog>
+        <author>Sharon Burton</author>
+        <author href="http://www.scriptorium.com"  scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+        <critdates>
+            <created date="2015-04-28"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p><i>结构化写作</i>是一种发布流程，让你在文档写作中定义并强制用一致的方式管理信息。</p>
+            <p>DITA中定义的元素具有非常具体的层次结构和关系。也就是说，在DITA里，每个元素都有一组特定的元素可以包含它，也有一组特定的元素可以被它包含。DITA还指定哪些元素可以（或必须）在元素之前或之后，以及允许特定元素的数量。  </p>
+            <p>例如，DITA的simpletable可以包含一个可选的simpletable表头，后面必须跟有一个或多个simpletable行。这样的规则可以防止技术写作人员在创建simpletable时，表头写到了中间行，或者创建一个不包含任何行的表。</p>
+            <p>DITA标记语言定义了此结构的规则。计算机程序可以使用相同的语言来确保DITA文档的结构正确。如果特殊文档集合需要不同的规则或不同的元素名称，则信息架构师可以定义这些名称和规则。 </p>
+            <p>尽管DITA是一种广泛使用的结构化的写作方法，但还有其他结构化写作标准，包括DocBook、S1000D、NLM等。</p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

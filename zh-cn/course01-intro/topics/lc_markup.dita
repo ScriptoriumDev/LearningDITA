@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_il4_bwz_vr">
+    <title>标记语言</title>
+    <prolog>
+        <author>Sharon Burton</author>
+        <author href="http://www.scriptorium.com"  scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+        <critdates>
+            <created date="2015-04-28"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+     
+       <lcInstruction>
+            <p>标记语言是在纯文本文件（可以使用Windows记事本编辑的文件）中标记内容的一种方式。可能你最熟悉的标记语言是HTML，它是万维网的基本标记语言。 </p>
+            <p>DITA是基于XML标记语言构建的。XML看起来很像HTML。它们都使用尖括号（&lt;和&gt;）来分辨标记标签（例如&lt;title&gt;）。在这两种语言中，正斜杠标识了一个结束标签（&lt;/title&gt;）</p>
+            <pre>&lt;title&gt;这是一个标题&lt;/title&gt;</pre>
+            <p> 在HTML和XML中，标签也有属性（标签中<tt>attribute=”value”</tt>）提供了关于标签的更多信息：</p>
+            <pre>&lt;note type="warning"&gt;请勿将手和脚伸出车外。&lt;/note&gt;</pre>
+            <p>HTML和XML之间有两个主要区别：</p>
+            <ul id="ul_mst_hvg_rs">
+                <li>HTML可以允许你忘记关闭标签或在属性值周围加上引号；但 XML的格式则不允许这样。</li>
+                <li>HTML使用一组预定义的标签（&lt;body&gt;、&lt;p&gt;、&lt;span&gt;等）。在XML中，标签在单独的文件中定义，并且可以由信息架构师来更改和添加。 </li>
+            </ul>
+            <p>在XML中可以命名标签的规则同样适用于DITA，使用此标签命名功能来定义自己的一组标签名称或“元素”。DITA元素的标签名称为内容赋予意义，例如用于注释的&lt;note&gt;，用于章节的&lt;section&gt;，用于图像的&lt;image&gt;等。然而，由于许多HTML标记名称是有意义的，因此它们的名称也用于DITA元素，例如用于段落的&lt;p&gt;，用于无序列表的&lt;ul&gt;和用于有序列表的&lt;ol&gt;。 </p>
+            <p>命名中的另一个区别：在HTML中，最外沿的或“根”标签是&lt;html&gt;。在DITA中，根标记的名称取决于所创建topic的类型，例如比较典型的&lt;concept&gt;，&lt;task&gt;或&lt;reference&gt;。 </p>
+            <note>了解标签在XML和DITA中的作用非常有用。但是，大多数时候，你将会使用智能制作工具来创建DITA内容，这些工具会处理各种标签和属性。 </note>
+            <!--<p>The most commonly used markup language is HTML. XML is similar to HTML. It also uses angle brackets to indicate elements (like &lt;p>). Many of the tags in DITA XML are also found in HTML.</p><p>In XML, you must be careful to open and close all tags properly. HTML is forgiving when you make mistakes. XML requires you to provide a file that is tagged correctly. If you make any error in the encoding, parsing stops. This is known as draconian error handling, and it is a controversial part of the XML specification.</p><p>DITA is a markup language and is a flavor of XML. DITA allows you to mark up content semantically. The tag markup tells the author about the meaning of the markup.</p>-->
+       <p>视频：<xref href="https://youtu.be/1cYP5six9ww" format="html" scope="external">HTML标记区别于DITA标记的概述</xref></p>
+           
+        </lcInstruction>
+        
+    </learningContentbody>
+</learningContent>

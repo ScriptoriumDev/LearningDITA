@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_elc_fg2_2t">
+ <title>required-cleanup元素</title>
+ <prolog>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+  <critdates>
+   <created date="2015-08-28"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcSingleSelect id="lcSingleSelect_b4h_3f2_2t">
+    <lcQuestion>选择下列元素哪个最适合标记以下评论：<q>这个元素需要一个ID。</q>（单选）</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_c4h_3f2_2t">
+     <lcAnswerOption>
+      <lcAnswerContent>&lt;draft-comment&gt;</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>&lt;required-cleanup&gt;</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>&lt;lq&gt;</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>&lt;dd&gt;</lcAnswerContent>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>最适合的标记元素为&lt;required-cleanup&gt;元素。</lcFeedbackIncorrect>
+   </lcSingleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

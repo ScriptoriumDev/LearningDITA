@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_dgl_qc1_wr_e">
+ <title>主题内容</title>
+ <prolog>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+  <critdates>
+   <created date="2015-07-13"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcTrueFalse id="lcTrueFalse_axs_bd3_rs">
+    <lcQuestion>&lt;body&gt;包含主题中大部分的有用内容。 </lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_bxs_bd3_rs">
+     <lcAnswerOption>
+      <lcAnswerContent>对</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>错</lcAnswerContent>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>&lt;shortdesc&gt;和&lt;related-links&gt;元素确实有一些内容，但最有用的内容通常在&lt;body&gt;中。 </lcFeedbackIncorrect>
+   </lcTrueFalse>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_mrc_fd1_wr">
+ <title></title>
+ <prolog>
+  <author>Sharon Burton</author>
+  <author href="http://www.scriptorium.com"  scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+  <critdates>
+   <created date="2015-04-28"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction><lcMultipleSelect id="6">
+   <lcQuestion>元素是（选择所有适用）：</lcQuestion>
+   <lcAnswerOptionGroup>
+    <lcAnswerOption>
+     <lcAnswerContent>内容的标签。</lcAnswerContent>
+     <lcCorrectResponse/>
+    </lcAnswerOption>
+    <lcAnswerOption>
+     <lcAnswerContent>在生成以控制格式的输出时插入。</lcAnswerContent>
+    </lcAnswerOption>
+    <lcAnswerOption>
+     <lcAnswerContent>用尖括号标识（例如&lt;p&gt;）。</lcAnswerContent>
+     <lcCorrectResponse/>
+    </lcAnswerOption>
+    <lcAnswerOption>
+     <lcAnswerContent>用于对内容索引的DITA术语。</lcAnswerContent>
+    </lcAnswerOption>
+   </lcAnswerOptionGroup>
+  </lcMultipleSelect></lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_xnm_d2x_kt">
+    <title>严格任务（strict task）和常规任务（general task）</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+        <critdates>
+            <created date="2015-09-21"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcIntro>
+            <p>DITA定义了两种任务主题类型：严格任务（strict task）和常规任务（general task）。 </p>
+            <p>strict task主体中的主要元素必须按明确的顺序排列，且只能包含一组步骤。另外，用户操作的步骤必须使用明确的元素（&lt;steps&gt;和&lt;step&gt;）。 </p>
+            <p>就元素排序而言，general task不如strict task要求严格。general task中允许有一组或多组步骤。步骤中使用的元素可以是DITA &lt;section&gt;元素所允许包含的任何元素。 </p>
+            <p>尽管听起来编写一个general task更容易些，但在不少情况下，使用strict task却能带来一系列的好处。这些包括：</p>
+            <ul id="ul_efs_sfx_kt">
+                <li>一致性。你创作的单个文档或多个文档中所有的任务主题使用相同的组织形式。 </li>
+                <li>可靠性。如果组织形式保持一致，用户可放心地在相同的位置查找相似的信息。</li>
+                <li>易于创作。DITA编辑器能引导作者到下一个需要添加的元素。</li>
+                <li>简洁性。多数任务仅要求有限的步骤就可完成。 </li>
+                <li>语义性。在strict task中使用&lt;steps&gt;和&lt;step&gt;元素能高质量地传达信息，体现其语义价值。</li>
+            </ul>
+            <p>本节课程侧重介绍strict task，一旦你熟悉了strict task的各种元素，就很容易触类旁通地应用到general task。 </p>
+            <p>更多信息，请参见<xref href="http://docs.oasis-open.org/dita/v1.2/os/spec/DITA1.2-spec.html" format="html" scope="external">DITA标准</xref>和<xref href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/steps-informal.html#steps-informal" format="html" scope="external">&lt;steps-informal&gt;</xref>元素的内容。 </p>
+        </lcIntro>
+    </learningContentbody>
+</learningContent>

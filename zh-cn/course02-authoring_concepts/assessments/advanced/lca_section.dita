@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_k1d_qc2_2t">
+ <title>section元素</title>
+ <prolog>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+  <critdates>
+   <created date="2015-08-28"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcTrueFalse id="link8">
+    <lcQuestion>&lt;section&gt;元素可以包含其他&lt;section&gt;元素。</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_fnf_zc2_2t">
+     <lcAnswerOption>
+      <lcAnswerContent>错</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>对</lcAnswerContent>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>DITA不允许&lt;section&gt;元素之间的嵌套。
+    </lcFeedbackIncorrect>
+   </lcTrueFalse>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

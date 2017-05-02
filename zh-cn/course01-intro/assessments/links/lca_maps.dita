@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_f33_1kp_wrb">
+ <title></title>
+ <prolog>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+  <critdates>
+   <created date="2015-04-30"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcMultipleSelect id="links12">
+   <lcQuestion>DITA map文件执行以下操作（选择所有适用的选项）：
+   </lcQuestion>
+   <lcAnswerOptionGroup>
+    <lcAnswerOption>
+     <lcAnswerContent>描述reference topic的顺序</lcAnswerContent>
+     <lcCorrectResponse/>
+    </lcAnswerOption>
+    <lcAnswerOption>
+     <lcAnswerContent>描述reference topic的层次结构</lcAnswerContent>
+     <lcCorrectResponse/>
+    </lcAnswerOption>
+    <lcAnswerOption>
+     <lcAnswerContent>创建指向网络内容的链接</lcAnswerContent>
+    </lcAnswerOption>
+    <lcAnswerOption>
+     <lcAnswerContent>提供在topic中创建内联链接的方法</lcAnswerContent>
+    </lcAnswerOption>
+   </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>使用xref来创建外部Web链接。通常，应避免内联链接。map文件列出主题的集合，但不列出主题中的内容。</lcFeedbackIncorrect>
+   </lcMultipleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

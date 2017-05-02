@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_yys_qbh_1t">
+    <title>创建一个Concept类型的Topic</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey, Scriptorium</author>
+        <critdates>
+            <created date="2015-08-19"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup id="lcObjectivesGroup_tvl_vbh_1t">
+                <lcObjective>创建一个concept类型topic文件</lcObjective>
+                <lcObjective>学习concept DOCTYPE</lcObjective>
+                <lcObjective>为一个concept添加根元素</lcObjective>
+
+                <lcObjective>添加基本内容元素，包括段落元素&lt;p&gt;；无序列表元素&lt;ul&gt;；有序列表元素&lt;ol&gt;；以及注意元素&lt;note&gt;。</lcObjective>
+
+
+
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="45"/>
+        </lcDuration>
+        <lcIntro>
+            <p>DITA concept类型topic为特定主题提供信息。</p>
+            <p>concept类型topic帮助人们理解指导说明的含义或目的。一个concept类型topic将提供背景信息、概念信息，以及必要内容。</p>
+            <p>一个典型concept类型topic主要包含段落和列表。但是，你可以使用图像、表格，以及concept中的其他元素。为了更好地表达，你也可以将一个concept拆分为多个章节。</p>
+            <p>本课时展示了如何创建一个新的concept类型topic，以及如何添加常用元素。除了&lt;conbody&gt;元素，本课时以及余下的整个课程中的元素并不是concept类型特有的，并可用于其他DITA类型（task类型和reference类型）。</p>
+            <note>
+                <p>本课包含这些元素的基本应用。每个元素的详细说明请参见<xref href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/concept.html" format="html" scope="external">OASIS DITA 1.2版本标准</xref>。</p>
+            </note>
+        </lcIntro>
+    </learningContentbody>
+    <related-links>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Topics_and_Information_Types/c_Concept.html"
+            format="html" scope="external">
+            <linktext>DITA风格指南，Concept</linktext>
+        </link>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Syntax_and_Markup/c_Paragraphs.html"
+            format="html" scope="external">
+            <linktext>DITA风格指南，段落</linktext>
+        </link>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Syntax_and_Markup/c_Lists.html"
+            format="html" scope="external">
+            <linktext>DITA风格指南，列表</linktext>
+        </link>
+        <!--   <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/concept.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;concept></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/title.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;title></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/conbody.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;conbody></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/p.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;p></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/ul.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;ul></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/ol.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;ol></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/note.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;note></linktext>
+        </link>-->
+    </related-links>
+</learningContent>

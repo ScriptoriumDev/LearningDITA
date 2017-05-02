@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_bkn_skb_wr6">
+ <title></title>
+ <prolog>
+  <author>Sharon Burton</author>
+  <author href="http://www.scriptorium.com"  scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+  <critdates>
+   <created date="2015-04-28"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+  <lcMatching id="md7">
+   <lcQuestion>匹配元数据的含义：</lcQuestion>
+   <lcMatchTable>
+    <lcMatchingPair>
+     <lcItem>序言中的&lt;vrm&gt;元素</lcItem>
+     <lcMatchingItem>内容的版本</lcMatchingItem>
+    </lcMatchingPair>
+    <lcMatchingPair>
+     <lcItem>root上的xml：lang属性（例如，&lt;topic&gt;或&lt;concept&gt;</lcItem>
+     <lcMatchingItem>内容的语言</lcMatchingItem>
+    </lcMatchingPair>
+    <lcMatchingPair>
+     <lcItem>元素的受众属性</lcItem>
+     <lcMatchingItem>内容的目标受众</lcMatchingItem>
+    </lcMatchingPair>
+    <lcMatchingPair>
+     <lcItem>元素的平台属性</lcItem>
+     <lcMatchingItem>内容的目标平台</lcMatchingItem>
+    </lcMatchingPair>
+    <lcMatchingPair>
+     <lcItem>序言中的&lt;author&gt;元素</lcItem>
+     <lcMatchingItem>创建内容的人</lcMatchingItem>
+    </lcMatchingPair>
+   </lcMatchTable>
+  </lcMatching>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

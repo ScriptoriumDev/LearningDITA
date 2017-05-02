@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_gxd_rry_5r1">
+    <title>什么是DITA?</title>
+    <shortdesc/>
+    <prolog>
+        <author>Sharon Burton</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+        <critdates>
+            <created date="2015-04-28"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup>
+                <lcObjective>介绍DITA的背景和起源。</lcObjective>
+                <lcObjective>鉴别DITA标记。</lcObjective>
+                <lcObjective>描述为什么一个topic可以被重用。</lcObjective>
+                <lcObjective>显示最小topic。</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="30"/>
+        </lcDuration>
+        <lcIntro>
+            <p>DITA代表Darwin Information Typing Architecture。它是一个开放标准，最初由IBM创建。在2005年IBM将DITA捐赠给<xref href="https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=dita" format="html" scope="external">OASIS</xref>（促进结构化信息标准组织）。</p>
+            <p>DITA是一种基于XML的方法，它与工具无关，用于创建、组织和管理内容。DITA构建于：<ul id="ul_dwl_1ty_5r">
+                    <li>基于Topic的写作</li>
+                    <li>将内容与格式分离</li>
+                    <li>极简主义</li>
+                    <li>结构化写作概念</li>
+                </ul>DITA是一个开放的基于XML的标准，这意味着有一组不同的工具可用于编写、编辑、格式化和存储DITA文件。随着业务需求的变化，你可以使用最适合你需求的工具。 </p>
+        </lcIntro>
+    </learningContentbody>
+    <related-links>
+        <link href="http://dita.xml.org/book/export/html/1047" scope="external" format="html">
+            <linktext>DITA的历史</linktext>
+        </link>
+        <link href="http://www.w3.org/html/wg/wiki/DraconianErrorHandling" format="html"
+            scope="external">
+            <linktext>严重错误处理</linktext>
+        </link>
+        <link href="http://www.scriptorium.com/2013/07/the-ten-commandments-of-dita/" format="html"
+            scope="external">
+            <linktext>DITA十诫，Scriptorium博客</linktext>
+        </link>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/c_Syntax_and_Markup.html"
+            format="html" scope="external">
+            <linktext>DITA风格指南第3章，语法与标记</linktext>
+        </link>
+        <link href="https://github.com/flicstar/DITA-Mini-Manual" format="html" scope="external">
+            <linktext>示例DITA内容：基于由Felicity Brand提供的20世纪60年代迷你型用户手册的文档项目。</linktext>
+        </link>
+    </related-links>
+
+</learningContent>

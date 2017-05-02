@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_kqs_rks_zs">
+    <title>创建步骤</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey, Scriptorium</author>
+        <critdates>
+            <created date="2015-08-12"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup id="lcObjectivesGroup_e2g_sks_zs">
+                <lcObjective>指定&lt;taskbody&gt;中&lt;steps&gt;元素的位置。 </lcObjective>
+                <lcObjective>识别步骤中的核心元素以及它们是如何使用的。</lcObjective>
+                <lcObjective>区分&lt;choices&gt;和&lt;choicetable&gt;元素。</lcObjective>
+                <lcObjective>理解如何创建substeps以及它们与steps的区别。</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="1"/>
+        </lcDuration>
+        <lcInstruction>
+            <p>&lt;steps&gt;元素（注意是复数）中包含&lt;step&gt;元素（单数）。&lt;step&gt;元素包含每个步骤的指导说明。 </p>
+            <p>输出任务主题（task topic）时，步骤通常以有序列表的形式呈现。输出编辑器决定用于识别每个step的标签（例如数字、某些标点符号或者跟着数字编号的“Step”字样）。创作step时，大多数的DITA编辑器在每个步骤边上显示步骤编号。</p>
+
+            <note>
+                <p>本课包含这些元素的基本应用。每个元素的详细说明请参见<xref href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/task.html" format="html" scope="external">OASIS DITA 1.2版本标准</xref>。</p>
+            </note>
+        </lcInstruction>
+    </learningContentbody>
+    <related-links>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Syntax_and_Markup/c_Semantics_in_Steps.html"
+            format="html" scope="external">
+            <linktext>DITA风格指南，steps中的语义</linktext>
+        </link>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Syntax_and_Markup/c_The_command_Element.html"
+            format="html" scope="external">
+            <linktext>DITA风格指南，command元素</linktext>
+        </link>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Syntax_and_Markup/c_Required_and_Optional_Steps.html"
+            format="html" scope="external">
+            <linktext>DITA风格指南，必需和可选步骤</linktext>
+        </link>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Syntax_and_Markup/c_Choice_Tables.html"
+            format="html" scope="external">
+            <linktext>DITA风格指南，Choicetable</linktext>
+        </link>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Syntax_and_Markup/c_Sub_Steps.html"
+            format="html" scope="external">
+            <linktext>DITA风格指南，步骤中的子步骤</linktext>
+        </link>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Syntax_and_Markup/c_Notes_in_Steps.html"
+            format="html" scope="external">
+            <linktext>DITA风格指南，步骤中的说明和额外信息</linktext>
+        </link>
+    </related-links>
+</learningContent>

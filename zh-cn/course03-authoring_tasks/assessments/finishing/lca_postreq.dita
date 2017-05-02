@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_hwg_z1b_dt18">
+ <title>Postreq</title>
+ <prolog>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey, Scriptorium</author>
+  <critdates>
+   <created date="2015-08-24"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcSingleSelect id="lcSingleSelect_eh4_bbb_dt">
+    <lcQuestion>&lt;postreq&gt;元素主要用途是什么？（单选）</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_fh4_bbb_dt">
+     <lcAnswerOption>
+      <lcAnswerContent>告知读者下一步的动作</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>提供如何执行任务的示例</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>给读者展示执行任务的结果</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>提供给读者执行任务的背景信息</lcAnswerContent>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>&lt;postreq&gt;元素告知读者下一步动作。 </lcFeedbackIncorrect>
+   </lcSingleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>
