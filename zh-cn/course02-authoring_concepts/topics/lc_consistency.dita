@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_hrm_xjh_1t">
+    <title>保持一致</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey, Scriptorium</author>
+        <critdates>
+            <created date="2015-08-24"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>因为DITA内容与格式分离，使用一致的DITA的结构和标签对于确保所有的输出形符合预期是至关重要的。</p>
+            <p>不一致的标签的一个负面影响是内容混杂。假设有以下的无序列表：</p>
+            <pre>&lt;ul&gt;
+&lt;li&gt;text&lt;/li&gt;
+&lt;li&gt;text&lt;/li&gt;
+&lt;li&gt;text
+&lt;p&gt;text&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</pre>
+            <p>在这个例子中，最后一个列表条目包含两个段落。因为&lt;p&gt;元素在 &lt;li&gt;元素中是有效的，因此可以将每一个段落分别标注一个段落元素。但是，如例子中标注这些内容意味着内容混杂：最后一个&lt;li&gt;元素只有一行是标注着&lt;li&gt;元素，另一行却标注着&lt;p&gt;元素。这将影响到该列表条目的最终输出中的文字排版。</p>
+            <p>为了避免内容混杂，在&lt;li&gt;元素汇总，给所有的文字加上&lt;p&gt;标签，无论加一个或多个:</p>
+            <pre>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;text&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;text&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;text&lt;/p&gt;
+&lt;p&gt;text&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</pre>
+            <p>除了&lt;li&gt;元素，当存在多个段落时，推荐在&lt;note&gt;元素、&lt;entry&gt;元素，以及&lt;stentry&gt;元素中的文本都加上&lt;p&gt;标签。为了确保一致性，避免内容混杂，给任何没有特定标签的文本加上&lt;p&gt;标签。</p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

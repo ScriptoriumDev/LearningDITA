@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_kqs_rks_zs">
+    <title>更多元素</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey, Scriptorium</author>
+        <critdates>
+            <created date="2015-08-19"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup id="lcObjectivesGroup_e2g_sks_zs">
+                <lcObjective>学习更多元素，并识别出将它们添加到concept中的最佳实践。</lcObjective>
+                <lcObjective>添加&lt;b&gt;、&lt;i&gt;、&lt;u&gt;、&lt;term&gt;、&lt;cite&gt;、&lt;varname&gt;、&lt;sub&gt;、&lt;sup&gt;、&lt;dl&gt;、&lt;menucascade&gt;，以及&lt;fn&gt;到concept中。</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="1"/>
+        </lcDuration>
+        <lcIntro>
+            <p>除了基本正文元素，图片元素和表格元素，你可能需要更多具体的元素。可能你需要表明某个词语或词组比较重要，或者你需要一种更复杂的方式定义术语或提供引用。</p>
+            <p>DITA中一些常用于句中的元素包括：&lt;b&gt;、&lt;i&gt;、&lt;u&gt;、&lt;sub&gt;，以及&lt;sup&gt;。DITA也提供了&lt;term&gt;、&lt;cite&gt;和&lt;varname&gt;元素，作为句中元素的补充，它们具有更大的语义价值，或者提供更多的内容信息。</p>
+            <p>另外的有用元素包括：&lt;fn&gt;用于插入脚注，&lt;menucascade&gt;用于显示软件菜单项顺序，以及&lt;dl&gt;用于创造术语和它们的定义列表。</p>
+            <p>本课时介绍了这些元素，并展示如何将它们添加到concept中。与本课中介绍的其他元素一样，这些元素并不是concept类型topic特有的，也可以用于其他类型topic中（task和reference）。</p>
+            <note>
+                <p>本课包含这些元素的基本应用。每个元素的详细说明请参见<xref href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/concept.html" format="html" scope="external">OASIS DITA 1.2版本标准</xref>。</p>
+            </note>
+        </lcIntro>
+    </learningContentbody>
+    <related-links>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Syntax_and_Markup/c_Phrases.html"
+            format="html" scope="external">
+            <linktext>DITA风格指南，短语</linktext>
+        </link>
+        <!--<link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/b.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;b></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/i.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;i></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/u.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;u></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/term.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;term></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/cite.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;cite></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/varname.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;varname></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/sub.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;sub></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/sup.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;sup></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/fn.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;fn></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/menucascade.html"
+            format="html" scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;menucascade></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/dl.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;dl></linktext>
+        </link>-->
+    </related-links>
+</learningContent>

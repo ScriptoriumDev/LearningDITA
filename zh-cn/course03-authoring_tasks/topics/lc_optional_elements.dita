@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_hrm_xjh_1t">
+    <title>为任务主题添加介绍性元素</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey, Scriptorium</author>
+        <critdates>
+            <created date="2015-08-12"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>元素&lt;prereq&gt;（前提presrequsite）和&lt;context&gt;可供选择，用于在任务主题中引入指导性内容。</p>
+            <p>&lt;prereq&gt;元素描述读者在执行任务前的须知，包括：</p>
+            <ul id="ul_glj_1pb_bt">
+                <li>读者必须要准备的东西，例如双筒望远镜和安装有鸟类识别app的智能手机 </li>
+                <li>读者应知道的背景信息，例如鸟类迁徙模式的知识</li>
+                <li>读者必须提前完成的任务，例如在此之前需完成基本的认识鸭子相关的课程</li>
+            </ul>
+            <p>&lt;context&gt;元素提供任务的背景信息，例如任务的目的和任务的结果，即读者通过任务能收获什么。&lt;context&gt;元素应尽量简洁，如需提供更多更详细的背景信息，请考虑创建一个概念主题（concept topic）。 </p>
+            <p>尽管&lt;prereq&gt;和&lt;context&gt;是可选元素，它们必须按顺序出现，元素&lt;prereq&gt;必须在&lt;context&gt;元素之前。</p>
+            <p><xref href="https://youtu.be/Bhaeafcemis" format="html" scope="external">视频：DITA Task中介绍性元素的严格顺序</xref></p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_i3g_jkh_1t">
+        <title/>
+        <taskbody>
+            <steps id="steps_f5k_kkh_1t">
+                <step>
+                    <cmd>继续使用文件l_task_start.dita。</cmd>
+                </step>
+                <step>
+                    <cmd>在&lt;taskbody&gt;元素内插入一个&lt;prereq&gt;元素。</cmd>
+                    <stepxmp><pre>&lt;taskbody&gt;
+<ph outputclass="newchanged">   &lt;prereq&gt;
+         &lt;p&gt;在观察野鸭之前，确保了解野鸭长什么样。&lt;/p&gt;
+   &lt;/prereq&gt;</ph>
+
+&lt;/taskbody&gt;</pre></stepxmp>
+                </step>
+                <step>
+                    <cmd>在&lt;prereq&gt;元素后添加一个&lt;context&gt;元素。</cmd>
+                    <stepxmp>
+                        <pre>&lt;taskbody&gt;
+   ...
+   &lt;/prereq&gt;
+<ph outputclass="newchanged">   &lt;context&gt;
+      &lt;p&gt;观察野鸭是一件可以让人静下心和放松的事。&lt;/p&gt;
+      &lt;p&gt;阅读下面内容以了解关于如何获得令人满意的鸭子观赏体验。
+         experience.&lt;/p&gt;
+   &lt;/context&gt;</ph>
+
+&lt;/taskbody&gt;</pre>
+                    </stepxmp>
+                </step>
+            </steps>
+            <result>现在，您创建的任务主题有标题、一系列前置条件以及语境信息。下一课将讲述如何为任务主题添加步骤。 </result>
+        </taskbody>
+    </task>
+    <task id="task_ynz_fgy_3t">
+        <title>练习</title>
+        <taskbody>
+            <steps id="steps_r11_1kx_dt">
+                <step>
+                    <cmd>打开文件file lesson1/l_new_task_exercise_start.dita，将下列内容从<xref href="http://contentstrategy101.com/" format="html" scope="external">Content Strategy 101</xref>转换至DITA：</cmd>
+                    <info>
+                        <pre outputclass="passthru"><![CDATA[
+<hr />
+<h3>为你的内容战略创建一个商业案例</h3>
+<p><strong>开始前：</strong>透彻地评估你的内容和内容开发过程，这样你才能理解目前的战略与需要的战略之间的差距。</p>
+<p><strong>关于该任务：</strong>这些指导内容将向你展示如何创建一个商业案例，你可以用这个练习向公司说明需要一个新的内容战略。</p>
+<p>你可能会在以下内容生产的领域发现省钱的机会：</p>
+<ul>
+<li>自动化</li>
+<li>重用</li>
+<li>本地化</li>
+</ul> 
+<hr />
+]]></pre>
+                    </info>
+                    <info/>
+                </step>
+                <step>
+                    <cmd>对照示例文件lesson1/l_new_task_exercise.dita，检查自己的lesson1/l_new_task_exercise_start.dita文件。</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

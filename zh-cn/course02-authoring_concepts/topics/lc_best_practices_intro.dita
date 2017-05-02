@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_kqs_rks_zs">
+    <title>XML简介与最佳实践</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey, Scriptorium</author>
+        <critdates>
+            <created date="2015-08-19"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup id="lcObjectivesGroup_e2g_sks_zs">
+                <lcObjective>辨别编辑concept类型topic的最佳实践。</lcObjective>
+                <lcObjective>展示concept类型topic最佳实践案例。</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="1"/>
+        </lcDuration>
+        <lcIntro>本课包含了编辑concept类型topic的最佳实践。你将体会到内容从排版中脱离出来，使用一致DITA元素以及创建语义丰富内容的优越性。</lcIntro>
+    </learningContentbody>
+    <related-links>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Authoring_Concepts/c_Introduction_to_the_Separation_of_Content.html"
+            format="html" scope="external">
+            <linktext>DITA风格指南，内容与格式分离</linktext>
+        </link>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/c_Content_Re-use.html"
+            format="html" scope="external">
+            <linktext>DITA风格指南，内容重用</linktext>
+        </link>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/c_Language_and_Punctuation.html"
+            format="html" scope="external">
+            <linktext>DITA风格指南，语言和标点</linktext>
+        </link>
+       <!-- <link href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html"
+            format="html" scope="external">
+            <linktext>The DITA Style Guide—Best Practices for Authors (Tony Self)</linktext>
+        </link>
+        <link href="http://www.scriptorium.com/structure.pdf" format="html" scope="external">
+            <linktext>Structured Authoring and XML (Sarah O’Keefe)</linktext>
+        </link>
+        <link
+            href="http://www.scriptorium.com/2014/03/making-the-most-of-your-conversion-to-xml-part-1/"
+            format="html" scope="external">
+            <linktext>Making the most of your conversion to XML (Scriptorium.com)</linktext>
+        </link>
+        <link
+            href="http://www.scriptorium.com/2012/09/perils-of-dita-publishing-part-4-pdf-acrobatics/"
+            format="html" scope="external">
+            <linktext>Perils of DITA publishing (Scriptorium.com)</linktext>
+        </link>-->
+    </related-links>
+</learningContent>

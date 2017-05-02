@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="content_pgf_3gt_qt">
+    <title>作业和样本文件</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey</author>
+        <critdates>
+            <created golive="2016-12-01" date="2016-10-18"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p id="download">下载<xref keyref="sample_file" />它包含了整个<keyword keyref="course_name" />课程的样本文件。提取内容并将其置于易于查找的目录中。</p>
+            <p conkeyref="sample_contents/folder_contents"/>
+            <p id="saving">每个课程都会告诉你练习时需要使用的文件夹和文件名称。请在完成每一步后保存文件以免内容丢失。 </p>
+            <p>在完成课程后，为每个要处理的文件创建本地副本。你做着做着发现你的文件与例子不匹配，或者是文件坏掉了，那么你可以做一个全新的副本接着往下做，也可以重头再来。</p>
+            <p id="editor_info">我们将展示每个样例文件的DITA代码。大多数DITA编辑器支持自动添加元素标签或类似的功能（例如，在你输入一个元素的起始标记后，大多数的DITA编辑器会自动添加一个相应的结束标签）。因此你可能不需要从头编写代码我们的演示视频展示了<xref href="http://www.oxygenxml.com/" format="html" scope="external">oXygen XML编辑器</xref>的两个视图的不同之处，一个是将DITA内容更友好地展示给作者的可视化的写作视图，另一个是显示DITA源代码的文本视图。</p>
+            <!--<p>The sample files for AuthoringDITA task topics are in the zip file task_samples.zip. Download this file to a location on your hard drive that you’ll remember, then extract the contents to a folder. </p><p>The exercises in this course follow in sequence, each exercise builds on the work completed in the previous exercise. You can use the first sample file as a starting point for the exercises in this course.</p><p>Use the subsequent sample files to check your work. If you reach a point where your exercise file doesn’t match the examples, or is broken for any reason, you can use the sample file from the previous exercise to resume your work. </p>-->
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

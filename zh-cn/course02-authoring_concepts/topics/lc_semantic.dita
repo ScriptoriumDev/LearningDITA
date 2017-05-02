@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_hrm_xjh_1t">
+    <title>创建语义丰富的内容</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey, Scriptorium</author>
+        <critdates>
+            <created date="2015-08-24"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>DIT优势之一就是可以创建语义丰富的内容，或者元素标签包含相关信息的内容。</p>
+            <p>比如，使用&lt;term&gt;元素虽然让词语在输出上简单地呈现为粗体，但是该标签包含的信息不仅仅是“呈现为粗体”，它还表明该词语是需被定义的术语。</p>
+            <p>为了利用DITA语义丰富的优点，赋予每一段内容最能反应内容实质及其功能的元素。比如，使用&lt;term&gt;元素或&lt;cite&gt;元素突出重要词语，而不是简单地使用&lt;b&gt;元素或&lt;i&gt;元素。</p>
+            <p>正确使用topic类型也可以使内容的语义更加丰富。比如，在task类型topic中，而不是concept类型topic中，使用步骤说明。这样，你可以使用DITA提供的结构创建步骤，这比在concept类型topic中使用&lt;ol&gt;元素，提供了更好的步骤信息。</p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

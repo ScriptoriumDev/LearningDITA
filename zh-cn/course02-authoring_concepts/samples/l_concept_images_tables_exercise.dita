@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_images_tables_exercise">
+ <title>用技术内容支持市场营销</title>
+ <conbody>
+  <p>技术传播和市场传播长久以来都是在内容范畴的两个对立端。陈旧的观点认为，技术传播的文档定然是文字厚重，密密麻麻，格式糟糕；而市场传播的文档定然是光彩夺目，美轮美奂，没有实质内容的。从那里，辩论加剧：</p>
+  <table frame="all" rowsep="1" colsep="1" id="table_ech_1ww_dt">
+   <title>市场传播VS.技术传播</title>
+   <tgroup cols="3">
+    <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+    <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+    <colspec colname="c3" colnum="3" colwidth="1.0*"/>
+    <thead>
+     <row>
+      <entry/>
+      <entry>
+       <p>市场传播</p>
+      </entry>
+      <entry>
+       <p>技术传播</p>
+      </entry>
+     </row>
+    </thead>
+    <tbody>
+     <row>
+      <entry>
+       <p>设计或是自动化？</p>
+      </entry>
+      <entry>
+       <p>设计</p>
+      </entry>
+      <entry>
+       <p>自动化</p>
+      </entry>
+     </row>
+     <row>
+      <entry>
+       <p>多少细节？</p>
+      </entry>
+      <entry>
+       <p>越少越好</p>
+      </entry>
+      <entry>
+       <p>越多越好</p>
+      </entry>
+     </row>
+     <row>
+      <entry>
+       <p>假定对收入的影响</p>
+      </entry>
+      <entry>
+       <p>许多</p>
+      </entry>
+      <entry>
+       <p>没有</p>
+      </entry>
+     </row>
+     <row>
+      <entry>
+       <p>主要目的</p>
+      </entry>
+      <entry>
+       <p>说服大家去买</p>
+      </entry>
+      <entry>
+       <p>告知大家</p>
+      </entry>
+     </row>
+    </tbody>
+   </tgroup>
+  </table>
+  <p>给用户一个友好的界面，让他们可以快速缩小选择范围，然后选一个他们想要的产品。你不必摆出数据库中的所有字段，那些只是为了帮助人们缩小他们的选择</p>
+  <fig>
+   <title>当你从左边进行选择后，右边的产品列表就会更新。</title>
+   <image href="../media/images_and_tables/configurebetter1.png" id="image_pqx_pww_dt" />
+  </fig>
+ </conbody>
+</concept>

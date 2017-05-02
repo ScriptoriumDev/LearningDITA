@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_qyn_3sb_wr">
+
+    <title>Map文件</title>
+    <prolog>
+        <author>Sharon Burton</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Alan Pringle, Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O'Keefe, Scriptorium</author>
+        <critdates>
+            <created date="2015-04-28"/>
+            <revised modified="2015-05-15"/>
+        </critdates>
+    </prolog>
+
+    <learningContentbody>
+        <lcInstruction>
+            <p>Map文件用于根据输出的需要来组织内容结构。它们就像一个目录：在各种topic之间创建序列和层次结构。从map文件生成PDF文件或帮助系统时，读者会看到按照map文件所定义的顺序和层次结构来组织的主题。 </p>
+            <p>通常来讲，不要将所有可用的topic添加到map文件中——只需要添加需要交付输出的topic。此外，多个不同的map文件可以包含相同的topic，这是DITA中关于内容重用的另一个示例。</p>
+            <p>视频：<xref href="https://www.youtube.com/watch?v=I_yvE9_ECRw" format="html" scope="external">DITA map文件示例</xref></p>
+          
+         <p>Map文件主要由以下组件组成：<ul id="ul_dy2_k3q_wr">
+                    <li>topicref元素，提供特定主题的链接。</li>
+                    <li>mapref元素，提供另一个map的链接。</li>
+                </ul></p>
+            <p>在一个map文件中，从上到下按顺序安排topicref以指示序列。要指示层次结构，请嵌套主题。请看下面的例子：</p>
+            <pre>&lt;map&gt;
+ &lt;title&gt;我的第一个map&lt;/title&gt;
+ &lt;topicref href="ducks.dita"&gt;
+   &lt;topicref href="range.dita"/&gt;
+   &lt;topicref href="size.dita"/&gt;
+   &lt;topicref href="nests.dita"/&gt;
+  &lt;/topicref&gt;
+&lt;/map&gt;
+</pre>
+            <p>为了方便了解层级，例子中使用了代码缩进。需要强调是，第一个topicref（ducks）包含了其他三个文件。Range.dita、size.dita和nests.dita三个topic都从属于ducks.dita主题。结果是一个结构如下的目录：</p>
+            <ul id="ul_bkw_cjq_wr">
+                <li>鸭子<ul id="ul_j2d_djq_wr">
+                        <li>范围</li>
+                        <li>大小</li>
+                        <li>鸭子窝</li>
+                    </ul></li>
+            </ul>
+            <p>除了链接topic之外，还可以在map文件中引用其他的map文件。通过这种方法，子map（submap）通常是相关内容的集合。例如，你可以给书中的每个章节创建章节层面的map文件，然后在书的主map文件中引用这些章节级的map文件。</p>
+            <p>引用map的话，要用mapref来引用，而不是用topicref来引用。如果你想使用鸭子map内容作为另一个map的组件，你可以将它插入父map，如下所示：</p>
+            <pre>&lt;topicref href="fish.dita"&gt;
+&lt;topicref href="shorebirds.dita"&gt;
+<b>&lt;mapref href="ducks.ditamap" format="ditamap"/&gt;</b></pre>
+            <p>视频：<xref href="https://www.youtube.com/watch?v=5gXZN505XFQ" format="html" scope="external">在map文件中重复使用map文件</xref></p>
+            
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

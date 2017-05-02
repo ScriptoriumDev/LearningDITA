@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_f33_1kp_wr6">
+ <title></title>
+ <prolog>
+  <author>Sharon Burton</author>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+  <critdates>
+   <created date="2015-04-30"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+  <lcSingleSelect id="links6">
+   <lcQuestion>读取下列代码。此代码显示什么？<image href="../../media/links/linkcode.png" base="2015/07" />
+     </lcQuestion>
+   <lcAnswerOptionGroup>
+    <lcAnswerOption>
+      <lcAnswerContent>编号列表包括对频繁重复使用的步骤的conref。</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+    <lcAnswerOption>
+     <lcAnswerContent>关于哺养鸭子的concept topic。</lcAnswerContent>
+    </lcAnswerOption>
+    <lcAnswerOption>
+     <lcAnswerContent>名为DuckPelletSteps.dita的符号列表。</lcAnswerContent>
+    </lcAnswerOption>
+   </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>此片段仅显示ol和li列表，因此无法确定其主题类型。文件名引用是conref的一部分，而不是此列表的标签。并且&lt;ol&gt;是有序（编号）的列表。</lcFeedbackIncorrect>
+  </lcSingleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

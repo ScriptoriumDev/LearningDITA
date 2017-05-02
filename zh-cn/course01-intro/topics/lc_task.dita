@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_i4y_ttr_5r">
+    <title>Task类型的Topic</title>
+    <prolog><author>Sharon Burton</author>
+        <author href="http://www.scriptorium.com"  scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+        <author href="http://www.scriptorium.com"  scope="external" format="html">Alan Pringle, Scriptorium</author>
+        <critdates>
+            <created date="2015-04-28"/>
+            <revised modified="2015-07-13"/>
+        </critdates></prolog>
+    <learningContentbody>
+        <lcObjectives>
+           <lcObjectivesGroup>
+               <lcObjective>了解DITA Task的用途</lcObjective>
+               <lcObjective>了解一个Task的关键组件</lcObjective>
+               <lcObjective>创建一个DITA Task</lcObjective>
+           </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration >
+            <lcTime value="20" />
+        </lcDuration>
+        <lcInstruction>
+            <p>Task Topic回答“怎么做？”的问题，它包括完成过程的分步说明。DITA还允许包括步骤结果、图形、注释和一级子步骤。 </p>
+            <p>技术内容通常是由众多的Task组成。</p>
+            <p>DITA提供两种类型的Task：<ul id="ul_bbx_dn5_vr">
+                    <li>严格任务（Strict Task）</li>
+                    <li>一般任务（General Task）</li>
+                </ul></p>
+            <p>Strict Task要求所有元素以特定顺序出现，只允许一个&lt;example&gt;元素，并且对于步骤有两个非常正式的元素（&lt;steps&gt;或&lt;steps-unordered&gt;）。“General Task”，也称为“松散任务”，在元素排列的顺序上更为灵活，允许多个&lt;example&gt;元素，并且允许步骤元素&lt;steps-informal&gt;可以包含更多不同的内容。Strict Task适用于需要分步说明的项目，General Task对过程概述很有用。 </p>
+            <p>Strict Task中使用的常见元素包括：<ul id="ul_c5m_hm5_vr">
+                    <li>&lt;taskbody&gt;（Task的正文）</li>
+                    <li>&lt;steps&gt;（步骤序列）</li>
+                    <li>&lt;step&gt;（每个单独的步骤）<ul id="ul_hkh_3th_rs">
+                            <li>&lt;cmd&gt;（用户采取的动作，这是&lt;step&gt;中的必需元素）</li>
+                            <li>&lt;info&gt;（关于步骤的附加信息）</li>
+                            <li>&lt;stepresult&gt;（执行操作后会发生什么）</li>
+                            <li>&lt;stepxmp&gt;（举例说明如何做这个步骤）</li>
+                        </ul></li>
+                    <li>&lt;example&gt;（举例说明如何做整个Task）</li>
+                </ul></p>
+            <p>视频：<xref href="https://youtu.be/PWSRhPnMDNs" format="html" scope="external">DITA Task的代码概述</xref></p>
+        </lcInstruction>
+
+    </learningContentbody>
+
+</learningContent>

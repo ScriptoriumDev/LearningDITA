@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_ptp_gqy_lt">
+    <title>请留意重用性</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+        <critdates>
+            <created date="2015-09-25"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcIntro>
+            <p>尽管LearningDITA系列课程还未涵盖重用（DITA的优势之一），任务主题包含很多潜在的可重用的元素。 </p>
+            <p>当你为任务创建步骤时，请留意多个任务之间共同的步骤，例如：<pre>&lt;step&gt;&lt;cmd&gt;单击&lt;uicontrol&gt;OK&lt;/uicontrol&gt;。&lt;/cmd&gt;&lt;/step&gt;</pre>
+            </p>
+            <p>可能你创建的一些列任务中，都是以相同的步骤开始的，例如关闭设备，或者移走检修板。与之类似，不同的任务可能以相同的步骤结束。这些可都是重用的好选择。 </p>
+            <p>任务主题中另一块重用的材料是标准文本，例如伴随很多任务出现的注意或者警告文本。 </p>
+            <p>除了可重用&lt;step&gt;元素，任务主题中的&lt;prereq&gt;、&lt;example&gt;、&lt;choices&gt;和&lt;choicetable&gt;等元素都可能是重用的好选择。 </p>
+            <p>重用对于任务规划也是十分有用，这一点已经在最佳实践一节的第一个话题中讨论过了。进行任务规划时，识别那些在很多任务中出现的步骤能对你非常有帮助。进行重用的一个很重要的方面是识别那些你需要重用的元素，并且在独立的文件中维护这些需重用的内容。一旦审核通过，这些文件就确定了，只在必要时才进行修改。 </p>
+        </lcIntro>
+    </learningContentbody>
+</learningContent>

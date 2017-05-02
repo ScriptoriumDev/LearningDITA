@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_exh_p5j_bt">
+    <title>示例与结果展示</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey, Scriptorium</author>
+        <critdates>
+            <created date="2015-08-18"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>step可包含步骤如何进行的示例，以及成功完成步骤的结果。 </p>
+            <ul id="ul_xjf_prx_kt">
+                <li>
+                    <p>请使用&lt;stepxmp&gt;（step example）展示如何操作的示例。 </p>
+                </li>
+                <li>
+                    <p>请使用&lt;stepresult&gt;元素描述操作的结果。</p>
+                </li>
+            </ul>
+            <p>step中可包含任意数量的&lt;stepxmp&gt;和&lt;stepresult&gt;元素，顺序不限。 </p>
+            <note>&lt;stepxmp&gt;元素用于展示当前步骤的示例，要展示整个任务的示例，请使用&lt;example&gt;元素，在下一课中会讲到。</note>
+            <p><xref href="https://youtu.be/-9JWoT1HdWk" format="html" scope="external">视频：在DITA task中添加一个step</xref></p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_mjr_q5j_bt">
+        <title/>
+        <taskbody>
+            <steps id="steps_y31_r5j_bt">
+                <step>
+                    <cmd>继续使用文件l_task_start.dita。</cmd>
+                </step>
+                <step>
+                    <cmd>在最后一个&lt;step&gt;结束标签后，新建一个包含&lt;cmd&gt;及如下所示内容的&lt;step&gt;元素。 </cmd>
+                    <stepxmp>
+                        <pre>...&lt;step&gt;&lt;cmd&gt;当你确定认出一种鸭子后，在指南里作一下记录。&lt;/cmd&gt;
+&lt;/step&gt;...</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>在&lt;cmd&gt;元素后，添加一个&lt;stepxmp&gt;元素。 </cmd>
+                    <stepxmp>
+                        <pre>...&lt;step&gt;&lt;cmd&gt;当你确定认出一种鸭子后，在指南里作一下记录。&lt;/cmd&gt;
+<ph outputclass="newchanged">   &lt;stepxmp&gt;
+   &lt;/stepxmp&gt; </ph>
+&lt;/step&gt;...</pre>
+                    </stepxmp>
+                    <info>&lt;stepxmp&gt;包含示例，用以阐述或厘清任务步骤。</info>
+                    <info>&lt;stepxmp&gt;元素中可包含可在&lt;li&gt;元素中使用的任何类型的元素。你可以使用&lt;pre&gt;或&lt;codeblock&gt;元素展示换行和空格的重要性的例子。</info>
+                </step>
+                <step>
+                    <cmd>在&lt;stepxmp&gt;元素中，添加一个&lt;p&gt;，并在其中插入一个&lt;image&gt;元素。</cmd>
+                    <stepxmp>
+                        <pre>...&lt;step&gt;&lt;cmd&gt;当你确定认出一种鸭子后，在指南里作一下记录。&lt;/cmd&gt;
+   &lt;stepxmp&gt;
+<ph outputclass="newchanged">      &lt;p&gt;&lt;image href="checklist.png"/&gt;&lt;/p&gt;
+</ph>
+   &lt;/stepxmp&gt;
+&lt;/step&gt;...</pre>
+                    </stepxmp>
+                    <info>
+                        <note>checklist.png文件在lesson2文件夹的样例文件中。</note>
+                    </info>
+                </step>
+                <stepsection>
+                    <p>&lt;stepresult&gt;元素描述成功完成step的结果。</p>
+                    <p>&lt;step&gt;元素必须以&lt;stepresult&gt;结尾，之后不能再出现其他元素。</p>
+                </stepsection>
+                <step>
+                    <cmd>请在&lt;stepxmp&gt;元素结束标签后，添加一个&lt;stepresult&gt;元素。 </cmd>
+                    <stepxmp>
+                        <pre>...
+   &lt;/stepxmp&gt;
+<ph outputclass="newchanged">   &lt;stepresult&gt;
+   &lt;/stepresult&gt;</ph>
+&lt;/step&gt;
+...</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>请在&lt;stepresult&gt;元素中，添加一个&lt;p&gt;元素，并添加如下所示的内容：</cmd>
+                    <stepxmp>
+                        <pre>...
+   &lt;/stepxmp&gt;
+<ph outputclass="newchanged">   &lt;stepresult&gt;
+&lt;p&gt;你现在就会有一个可以留存终身的记录了。&lt;/p&gt;
+   &lt;/stepresult&gt;</ph>
+&lt;/step&gt;
+...</pre>
+                    </stepxmp>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

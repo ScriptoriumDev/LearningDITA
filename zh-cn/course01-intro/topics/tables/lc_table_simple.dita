@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_atj_lxq_xp">
+    <title>简单表元素</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Bill Swallow, Scriptorium</author>
+        <author>Sharon Burton</author>
+        <critdates>
+            <created date="2015-05-04"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>简单表（&lt;simpletable&gt;）使用以下元素来表示和组织表格数据：</p>
+            <simpletable frame="all" relcolwidth="1.0* 1.0* 1.0*" id="simpletable_gsw_jzk_ns">
+                <sthead>
+                    <stentry>元素</stentry>
+                    <stentry>描述</stentry>
+                    <stentry>数字</stentry>
+                </sthead>
+                <strow>
+                    <stentry>&lt;sthead&gt;</stentry>
+                    <stentry>标题行</stentry>
+                    <stentry>最多只能有一个标题行。</stentry>
+                </strow>
+                <strow>
+                    <stentry>&lt;strow&gt;</stentry>
+                    <stentry>正文行</stentry>
+                    <stentry>必须至少有一个正文行，但该表可以包含许多行。</stentry>
+                </strow>
+                <strow>
+                    <stentry>&lt;stentry&gt;</stentry>
+                    <stentry>一个简单表项 </stentry>
+                    <stentry>每行可以包含一个或多个&lt;stentry&gt;元素，但是每行（包括标题行）应当包括相同数量的&lt;stentry&gt;元素。</stentry>
+                </strow>
+            </simpletable>
+            <note>此表是使用&lt;simpletable&gt;元素来构建的。</note>
+            <p>&lt;stentry&gt;元素可以包含文本数据或其他公共块和内联元素。 </p>
+            <p>下面这个例子，包含一个标题行，两个正文行和两个列。</p>
+            <pre>&lt;simpletable&gt;
+   &lt;sthead&gt;
+      &lt;stentry&gt;第一列的标题&lt;/stentry&gt;
+      &lt;stentry&gt;第二列的标题&lt;/stentry&gt;
+   &lt;/sthead&gt;
+   &lt;strow&gt;
+      &lt;stentry&gt;第一行，第一列&lt;/stentry&gt;
+      &lt;stentry&gt;第一行，第二列&lt;/stentry&gt;
+   &lt;/strow&gt;
+   &lt;strow&gt;
+      &lt;stentry&gt;第二行，第一列&lt;/stentry&gt;
+      &lt;stentry&gt;第二行，第二列&lt;/stentry&gt;
+   &lt;/strow&gt;
+&lt;/simpletable&gt;</pre>
+            <p>该表视觉效果如下：<fig>
+                <image href="../../media/tables/simpletable.png" base="2015/07" id="image_xnd_zqt_xr" />
+                </fig></p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

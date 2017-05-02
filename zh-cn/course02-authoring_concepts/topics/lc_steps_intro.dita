@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_kqs_rks_zs">
+    <title>创建步骤</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+        <critdates>
+            <created date="2015-08-12"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup id="lcObjectivesGroup_e2g_sks_zs">
+                <lcObjective/>
+                <lcObjective>识别步骤中的核心元素。</lcObjective>
+                <lcObjective>向Task添加一个&lt;steps&gt;元素</lcObjective>
+                <lcObjective>在&lt;steps&gt;中添加&lt;step&gt;元素，使用&lt;cmd&gt;和&lt;info&gt;来提供额外信息。 </lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="1"/>
+        </lcDuration>
+        <lcInstruction>
+            <p>Task最核心的部分是用户需要执行的一系列步骤。 </p>
+            <p>在DITA Task类型的Topic中，读者要执行的整个步骤过程包含在一个&lt;steps&gt;元素中；过程中的单个步骤包含在&lt;step&gt;元素中。 </p>
+            <p>输出任务主题（task topic）时，步骤通常以有序列表的形式呈现。输出编辑器决定用于识别每个step的标签（例如数字、某些标点符号或者跟着数字编号的“Step”字样）。创作step时，大多数的DITA编辑器在每个步骤边上显示步骤编号。</p>
+            <p>DITA还允许你用&lt;steps-unordered&gt;元素为步骤创建无序列表。更多信息关于此元素的信息，请参见DITA标准。 </p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

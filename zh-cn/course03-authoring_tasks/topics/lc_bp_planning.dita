@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_fry_knq_bt">
+    <title>规划你的任务</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+        <critdates>
+            <created date="2015-09-24"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcIntro>
+            <p>很容易出现这样一个问题：直接开始创作任务主题，进行写作直到完成。但是，这种方式存在遗漏重要任务的风险，导致内容不完全。 </p>
+            <p>相比于想到任务的时候创建一个task主题，更好的策略是提前规划好你要成文的任务组。
+                <!--This planning is a four-step process:--></p>
+            <p>有不少资源和方法可用来进行任务分析。其中的关键点包括：  </p>
+            <ol id="ol_ovn_lhj_nt">
+                <li>收集读者需要完成的信息。</li>
+                <li>识别你要成文的任务。</li>
+                <li>理解任务的范围。</li>
+                <li>考虑读者的能力和需求。</li>
+                <li>规划你的task类型的topic。</li>
+            </ol>
+            <p>一旦你规划好任务，不妨找所有干系人评审完整的任务清单。包括作者、编辑、领域专家、项目经理、其他内容贡献者以及任何参与内容开发过程的人员。这一步骤非常重要，你找到的内容贡献者越多，遗漏重要任务的概率就越小。</p>
+            <p>任务清单能帮助你规划概念、参引、术语词条等其他主题。对于清单中的每项任务，考虑需要哪些概念主题和参引信息来支撑。同时，你也可以辨别任务中的词条，这些将会是术语主题的很好的素材。</p>
+        </lcIntro>
+    </learningContentbody>
+</learningContent>
