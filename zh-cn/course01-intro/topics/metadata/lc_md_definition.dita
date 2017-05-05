@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_rxt_zl5_vr2">
+    <title>何谓元数据？</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+        <author>Sharon Burton</author>
+        <critdates>
+            <created date="2015-05-01"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p><i>元数据</i>提供有关信息的信息。例如，文字处理器通常具有文档属性，记录创建文件的人员和上次修改的日期。文档属性中的作者和修改日期不显示为文本信息。文档属性是关于文档本身的元数据。 </p>
+            <p>元数据会以不同的方法来分类信息。例如，你可以：<ul
+                    id="ul_awn_k1w_wr">
+                    <li>给文档类型做标签信息，例如“白皮书”或“提案”</li>
+                    <li>将信息与特定产品编号相关联</li>
+                    <li>说明用户级别，如“初级”，“中级”或“专家级”</li>
+                    <li>说明内容的受众群体，例如“经理”或“员工” </li>
+                    <li>说明topic的状态信息，例如“草稿”，“审核”或“最终” </li>
+                    <li>在信息不再有效时说明失效日期</li>
+                </ul></p>
+            <p>将元数据分配到内容后，你（或你的读者）可以使用它来：<ul
+                    id="ul_ex4_11w_wr">
+                    <li>有效地查找信息 </li>
+                    <li>管控信息（控制何时公开信息或从网站删除信息）</li>
+                    <li>定制个性化信息（你的读者可以只查看初学者信息）</li>
+                    <li>为不同的发布要需求进行信息筛选（如Windows或Macintosh）</li>
+                    <li>高效地重用信息</li>
+                    <li>说明内容中使用的语言</li>
+                    <li>管理项目状态</li>
+                </ul></p>
+            <p>在DITA和其他XML格式中，元数据信息是被编码到topic里的，或是编在topic层级上，或是编在特定元素上。可以使用这些元数据值来操作DITA内容。</p>
+            <p>DITA至少需要一个元数据；每个topic必须有一个id属性。这些ID通常由写作工具或内容管理系统自动分配。以下是带有id属性的topic的示例：</p>
+            <pre>&lt;topic <b>id="xyz"</b>&gt;
+   &lt;title&gt;标题&lt;/title&gt;
+   &lt;body&gt;
+      ....
+ &lt;/body&gt;
+&lt;/topic&gt;</pre>
+            <p>其他元素可以使用id属性。例如，表上的id属性允许你对表进行交叉引用。大多数写作工具会自动将ID分配给可能被交叉引用的元素。  </p>
+            <p>你的组织或DITA设置可能需要其他的元数据。topic所用的语言，通常以xml:lang属性来表示。</p>
+            <pre>&lt;topic id="xyz" xml:lang="en-us"&gt;
+&lt;topic id="abc" xml:lang="de-de"&gt;</pre>
+            <p>一般而言，读者不会看到元数据；他们看到经元数据过滤后的内容或利用元数据搜索内容。</p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_a2v_gp5_vr">
+    <title>约束</title>
+    <prolog><author>Sharon Burton</author>
+        <author href="http://www.scriptorium.com"  scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+        <critdates>
+            <created date="2015-04-28"/>
+        </critdates></prolog>
+    <learningContentbody>
+     <lcInstruction>
+         <draft-comment author="okeefe">不能肯定约束的位置，但视频中是在这里。</draft-comment> <draft-comment author="asp">如果此内容是在这里的，需要强调info. architect处理约束和专门化（下一个主题）。</draft-comment>
+         <p>在DITA中，约束允许删除不需要或不想使用的元素。例如，如果你的组织不用记录软件代码，那么你的信息架构中可以去掉&lt;codeblock&gt;和&lt;codeph&gt;。约束可以减少向作者展示的元素数量，从而让他们工作更加轻松。</p>
+     </lcInstruction>
+    </learningContentbody>
+</learningContent>

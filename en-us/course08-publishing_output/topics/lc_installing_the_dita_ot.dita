@@ -6,26 +6,29 @@
     <title>Installing the DITA OT</title>
     <prolog class="- topic/prolog ">
         <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
-            class="- topic/author ">Gretyl Kinsey</author>
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
         <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
-            class="- topic/author ">Simon Bate</author>
+            class="- topic/author ">Noelle Russell, Scriptorium</author>
         <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
-            class="- topic/author ">Jake Campbell</author>
+            class="- topic/author ">Ashley Stant, Scriptorium</author>
         <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
-            class="- topic/author ">Noelle Russell</author>
+            class="- topic/author ">Simon Bate, Scriptorium</author>
         <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
-            class="- topic/author ">Ashley Stant</author>
+            class="- topic/author ">Bill Swallow, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Jake Campbell, Scriptorium</author>
         <critdates>
-            <created golive="2017-03-06" date="2017-02-10"/>
+            <created golive="2017-03-27" date="2017-02-06"/>
         </critdates>
     </prolog>
+    
     <learningContentbody>
         <lcInstruction>
             <p>In the previous lesson, you learned about different DITA publishing environments. The
                 rest of this course covers publishing with a standalone DITA OT.</p>
             <p>The following instructions show you how to download and install the DITA OT on your
                 machine.</p>
-            <p><xref href="https://youtu.be/UDMAWXc9alY" format="html" scope="external">Video:
+            <p><xref href="https://youtu.be/rCH1OQqBBB8" format="html" scope="external">Video:
                 Installing the DITA Open Toolkit</xref></p>
         </lcInstruction>
     </learningContentbody>
@@ -34,7 +37,7 @@
         <taskbody>
             <steps id="steps_h3y_3nw_cz">
                 <step>
-                    <cmd>In a web browser, go to the DITA OT SourceForge website (<xref
+                    <cmd>In a web browser, go to the DITA Open Toolkit website (<xref
                             href="http://www.dita-ot.org/" format="html" scope="external"/>), where
                         the open source DITA OT is available.</cmd>
                 </step>

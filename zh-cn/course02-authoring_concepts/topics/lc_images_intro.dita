@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_kqs_rks_zs">
+    <title>图片和表格</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey, Scriptorium</author>
+        <critdates>
+            <created date="2015-08-19"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup id="lcObjectivesGroup_e2g_sks_zs">
+                <lcObjective>识别为concept以及相关元素添加图片的最佳实践。</lcObjective>
+                <lcObjective>在concept中添加&lt;fig&gt;元素和&lt;image&gt;元素。</lcObjective>
+                <lcObjective>在concept中添加表格时，识别基本的相关元素。</lcObjective>
+                <lcObjective>在concept中添加&lt;simpletable&gt;元素和&lt;table&gt;元素。</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="1"/>
+        </lcDuration>
+        <lcIntro>
+            <p>图片和表格为呈现或阐述concept中的信息提供了一种可视化方式。</p>
+            <p>通过单独使用&lt;image&gt;元素或将它放入一个&lt;fig&gt;元素中，你可以把放置于网页上或本地服务器上的一张图片的位置链接到topic中。</p>
+            <p>通过&lt;simpletable&gt;标签和&lt;table&gt;标签，你可以创建表格，以清楚的可视化方式承载实际信息。&lt;simpletable&gt;元素适用于内容少的基础表格，而&lt;table&gt;元素适用于复杂的表格类型。</p>
+            <p>本课展示如何在concept类型topic中加入图片和表格。与本课中介绍的其他元素一样，图片和表格并不是concept类型topic特有的，也可以用于其他类型topic中。</p>
+            <note>
+                <p>本课包含这些元素的基本应用。每个元素的详细说明请参见<xref href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/concept.html" format="html" scope="external">OASIS DITA 1.2版本标准</xref>。</p>
+            </note>
+        </lcIntro>
+    </learningContentbody>
+    <related-links>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/c_Working_with_Graphics_and_Figures.html"
+            format="html" scope="external">
+            <linktext>DITA风格指南，图形和图片</linktext>
+        </link>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Syntax_and_Markup/c_Tables.html"
+            format="html" scope="external">
+            <linktext>DITA风格指南，表</linktext>
+        </link>
+       <!-- <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/image.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;image></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/fig.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;fig></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/simpletable.html"
+            format="html" scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;simpletable></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/table.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;table></linktext>
+        </link>-->
+    </related-links>
+</learningContent>

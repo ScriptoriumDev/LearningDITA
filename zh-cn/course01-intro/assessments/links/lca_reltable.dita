@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_f33_1kp_wra">
+ <title/>
+ <prolog>
+  <author>Sharon Burton</author>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+  <critdates>
+   <created date="2015-04-30"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcSingleSelect id="links7">
+    <lcQuestion>假设以下代码片段在当前map文件的reltable中，并且所有引用的topic也都在map文件中。在相关topic部分的结果是什么（选择一个）？ </lcQuestion>
+    <lcAsset>
+     <image href="../../media/links/reltable_wild.png" id="image_o5v_ml2_ss" base="2015/07" />
+    </lcAsset>
+    <lcAnswerOptionGroup>
+     <lcAnswerOption>
+      <lcAnswerContent>每个topic都将包含同一行中所列出的其他两个topic的链接。</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>每个topic都将包含同一行中所列出的所有三个topic的链接。
+      </lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>不会有任何链接，这些都不相关。</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>链接将始终在页面上自行列出。 </lcAnswerContent>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>当topic在reltable行中列出时，该topic将没有指向自己的链接。topicref置于此行，因为它们的内容是相关的。指向他topic的链接通常放置在topic末尾的一个部分（取决于输出格式）。 </lcFeedbackIncorrect>
+   </lcSingleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

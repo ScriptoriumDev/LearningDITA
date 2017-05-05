@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="links1">
+    <title>通过conref重复使用内容</title>
+    <prolog>
+        <author>Sharon Burton</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Alan Pringle, Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+        <critdates>
+            <created date="2015-04-28"/>
+            <revised modified="2015-05-07"/>
+            <revised modified="2015-06-30"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+    <lcInstruction>
+      <p>在DITA中，可以通过conref重复使用内容。这些内容可能是警告信息（注意、小心和警告）或标准文本（例如公司地址）等。例如，产品的描述可以设置为conref，因为它在所有文档中都是相同的。</p>
+            <p>如果你熟悉其它写作工具，可以把conref当作：</p>
+            <p>
+                <ul id="ul_iwx_n5b_wr">
+                    <li>Flare片段</li>
+                    <li>RoboHelp嵌入式主题</li>
+                    <li>FrameMaker文本插入和变量</li>
+                    <li>HTML服务器端引用</li>
+                </ul>
+                
+            </p>
+        <p>假设在名为location.dita的Topic中有以下注释：</p>
+            <pre>&lt;topic id="topicid"&gt;
+    ...
+    &lt;note id="whatduckslike"&gt;鸭子更偏爱湖，而不是沙漠。&lt;/note&gt;
+    ...
+&lt;/topic&gt;             </pre>
+            <p>要在另一个Topic中重复使用该注释，conref代码如下：</p>
+           <pre>&lt;note conref="location.dita#topicid/whatduckslike"/&gt;</pre>
+            <p>大多数DITA写作工具简化了插入conref代码的过程，因此你可能不会键入示例中文件路径、Topic ID等。 </p>
+            <note>目标元素必须与包含conref属性的元素具有相同的元素类型。比如你只能从一个&lt;note&gt;元素conref到另一个&lt;note&gt;元素；或者从一个&lt;li&gt;元素conref到另一个&lt;li&gt;元素，等等。</note>
+    <p>视频：<xref href="https://www.youtube.com/watch?v=oHmXBRVk3yo" format="html" scope="external">DITA conref代码示例</xref></p>
+            <note type="tip">单独创建包含可重用元素的Topic，而不是随机挑选一个Topic并用conref指向这个它。这有助于更好地为重用内容做标签，当需要变更的时候，你能更好地把握操作。</note>
+          
+    </lcInstruction>
+    </learningContentbody>
+  
+</learningContent>

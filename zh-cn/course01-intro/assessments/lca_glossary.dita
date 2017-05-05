@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_dwb_2f1_wr">
+ <title></title>
+ <prolog>
+  <author>Sharon Burton</author>
+  <author href="http://www.scriptorium.com"  scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+  <critdates>
+   <created date="2015-04-28"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   
+   
+   
+   
+   
+   <lcMatching id="topics7">
+    <lcQuestion>匹配词汇表元素的含义：</lcQuestion>
+    <lcMatchTable>
+     <lcMatchingPair>
+      <lcItem>&lt;glossterm&gt;</lcItem>
+      <lcMatchingItem>单词或短语 </lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>&lt;glossdef&gt;</lcItem>
+      <lcMatchingItem>单词或短语的定义</lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>&lt;glossentry&gt;</lcItem>
+      <lcMatchingItem>词汇表条目的载体</lcMatchingItem>
+     </lcMatchingPair>
+    </lcMatchTable>
+   </lcMatching>
+   
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_yf5_qjp_wr">
+    <title>相关链接</title>
+    <shortdesc/>
+    <learningContentbody>
+        <lcInstruction>
+            <p>在topic末尾，你可以插入相关链接（related-links）元素。使用相关链接来指向读者可能需要获取的额外信息。</p>
+            <p>相关链接包含一个链接和链接文本。请参见以下示例：</p>
+            <pre>&lt;topic id="sample"&gt;
+    &lt;title&gt;Sample title&lt;/title&gt;
+    &lt;body&gt;
+    ...
+ &lt;/body&gt;
+    &lt;related-links&gt;
+        &lt;link href="http://www.example.com" format="html" scope="external"&gt;
+            &lt;linktext&gt;Sample link&lt;/linktext&gt;
+        &lt;/link&gt;
+    &lt;/related-links&gt;
+&lt;/topic&gt;        </pre>
+            <p>在link元素中，要指定目标（通过href属性）、格式和范围。对于网页链接和当前map文件之外的任何其他链接，必须指定范围scope="external"。</p>
+            <p>linktext元素包含将成为链接热点的文本。</p>
+            <p>
+                <note>在map文件里，要避免直接用链接来关联不同的topic。它们受到与内联交叉引用相同的限制——链接可能会被断开。请改用关系表。</note>
+            </p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

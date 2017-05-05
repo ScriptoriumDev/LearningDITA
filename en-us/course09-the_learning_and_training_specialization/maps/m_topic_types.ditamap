@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>The Learning and Training topic types</title>
+ <topicref href="../topics/lc_types_intro.dita">
+  <topicmeta lockmeta="yes">
+   <data name="lesson_id" value="11277"/>
+  </topicmeta>
+  <topicref href="../topics/foo.dita"/>
+  <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_topic_types.dita"
+   locktitle="yes">
+   <topicmeta>
+    <navtitle>Assessment for Learning and Training topic types</navtitle>
+   </topicmeta>
+   <topicref href="../assessments/topic_types/lca_foo.dita"/>
+  </topicref>
+ </topicref>
+ 
+</map>

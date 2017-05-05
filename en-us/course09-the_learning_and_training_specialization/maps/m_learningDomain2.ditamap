@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+  <!-- Looking for a better title. -->
+  <title>Elements for questions and responses</title>
+   <topicref href="../topics/lc_learning-domain_intro.dita">
+     <topicmeta lockmeta="yes">
+       <data name="lesson_id" value="11277"/>
+     </topicmeta>
+     <topicref href="../topics/foo.dita"/>
+     <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_learning_domain.dita"
+       locktitle="yes">
+       <topicmeta>
+         <navtitle>Assessment for Elements for questions and responses</navtitle>
+       </topicmeta>
+       <topicref href="../assessments/topic_types/lca_foo.dita"/>
+     </topicref>
+   </topicref>
+</map>

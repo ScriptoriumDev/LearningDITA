@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_jcr_yn5_vr">
+    <title>Reference类型的Topic</title>
+    <prolog><author>Sharon Burton</author>
+        <author href="http://www.scriptorium.com"  scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+        <critdates>
+            <created date="2015-04-28"/>
+        </critdates></prolog>
+    <learningContentbody>
+        <lcInstruction>
+        <p>Reference类型的Topic回答“是什么？”的问题。Reference类型的Topic通常包含描述性事实，例如命令或API函数调用的语法，以表格的形式列出设备的操作特性和容限范围，或识别软件屏幕上的信息项。 </p>
+            <p>Reference不包括步骤或背景信息。Reference与词典条目类似，仅提供事实。</p>
+<p>Reference Topic中使用的常见元素包括： <ul id="ul_nj3_h45_vr">
+                    <li>&lt;refbody&gt;（Reference的正文）</li>
+                    <li>&lt;section&gt;（Reference的一部分，带有可选标题）</li>
+                    <li>&lt;table&gt;（表格）</li>
+                    <li>&lt;fig&gt;（图片，包含一个可选标题）</li>
+                    <li>&lt;properties&gt;（属性列表）</li>
+                    <li>&lt;refsyn&gt;（语法图）</li>
+                </ul></p>
+    <p>视频：<xref href="https://www.youtube.com/watch?v=l2y-MbYf2a4" format="html" scope="external">DITA Reference Topic的代码概述</xref></p>
+   </lcInstruction> </learningContentbody>
+</learningContent>

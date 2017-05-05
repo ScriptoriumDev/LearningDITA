@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_mp3_t3d_bt">
+    <title>获取更多详细信息</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey, Scriptorium</author>
+        <critdates>
+            <created date="2015-08-14"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>在创建一组步骤时，你可能需要提供一些关于如何操作的详细信息。这种情况下，你可以在&lt;step&gt;中添加一个&lt;substeps&gt;元素。 </p>
+            <p>&lt;substeps&gt;可包含一个或多个&lt;substep&gt;元素，其内容与&lt;step&gt;元素类似。&lt;substep&gt;元素中必须包含一个&lt;cmd&gt;元素。 </p>
+            <p>DITA仅允许使用两个层级的steps。第一层级使用&lt;steps&gt;元素，第二层级使用&lt;substeps&gt;元素。不能添加第三层级的steps。如果你确实需要添加第三层级的steps，请重新考虑下任务的信息层级。可能更好的方式是分一系列独立的任务主题来呈现这些信息。对于在substep层级需要提供大量细节的情况，以上建议也适用。 </p>
+            <p><xref href="https://youtu.be/7E7RYKHQ6C4" format="html" scope="external">视频：为DITA task添加substeps</xref></p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_mjk_bjd_bt">
+        <title/>
+        <taskbody>
+            <steps id="steps_ohz_bjd_bt">
+                <step>
+                    <cmd>继续使用文件l_task_start.dita。</cmd>
+                </step>
+                <step>
+                    <cmd>在最后一个&lt;step&gt;元素后，请新建一个&lt;step&gt;元素，需要包含一个&lt;cmd&gt;元素及如下所示的文本。 </cmd>
+                    <stepxmp>
+                        <pre>&lt;step&gt;&lt;cmd&gt;去观察一些鸟类。&lt;/cmd&gt;&lt;/step&gt;
+</pre>
+                    </stepxmp>
+                </step>
+                <step id="step_znr_444_ft">
+                    <cmd>在&lt;cmd&gt;元素结束标签后，添加一个&lt;substeps&gt;元素。</cmd>
+                    <stepxmp>
+                        <pre>&lt;step&gt;
+    &lt;cmd&gt;去观察一些鸟类。&lt;/cmd&gt;
+<ph outputclass="newchanged">    &lt;substeps&gt;
+    &lt;/substeps&gt;</ph>
+&lt;/step&gt;
+</pre>
+                    </stepxmp>
+                    <info>&lt;step&gt;元素内可包含一个或多个&lt;substeps&gt;元素。但是，这些&lt;substeps&gt;元素不能相互嵌套，只能作为同一层级的信息依次添加。</info>
+                </step>
+                <step id="step_a4r_444_ft">
+                    <cmd>若你的编辑器不会自动添加&lt;substep&gt;或在&lt;substeps&gt;元素内不能自动嵌套&lt;cmd&gt;，请手动添加吧。</cmd>
+                    <stepxmp>
+                        <pre>&lt;step&gt;
+    &lt;cmd&gt;去观察一些鸟类。&lt;/cmd&gt;
+    &lt;substeps&gt;
+<ph outputclass="newchanged">        &lt;substep&gt;
+            &lt;cmd&gt;&lt;/cmd&gt;
+        &lt;/substep&gt;</ph>
+    &lt;/substeps&gt;
+&lt;/step&gt;
+</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>在&lt;substep&gt;下的&lt;cmd&gt;元素中填充如下所示的内容。</cmd>
+                    <stepxmp>
+                        <pre>&lt;step&gt;
+    &lt;cmd&gt;去观察一些鸟类。&lt;/cmd&gt;
+    &lt;substeps&gt;
+        &lt;substep&gt;
+<ph outputclass="newchanged">            &lt;cmd&gt;四处逛逛。&lt;/cmd&gt;</ph>
+        &lt;/substep&gt;
+    &lt;/substeps&gt;
+&lt;/step&gt;
+</pre>
+                    </stepxmp>
+                    <info>你可以在&lt;substep&gt;中添加任何可在&lt;step&gt;中添加的可选元素，例如&lt;info&gt;元素。但是，不能在&lt;substep&gt;内添加&lt;substeps&gt;元素。</info>
+                </step>
+                <step>
+                    <cmd>在&lt;substep&gt;结束标签后面新加两个&lt;substep&gt;元素，并添加如下所示的内容。</cmd>
+                    <stepxmp>
+                        <pre>&lt;step&gt;
+    &lt;cmd&gt;去观察一些鸟类。&lt;/cmd&gt;
+    &lt;substeps&gt;
+        &lt;substep&gt;
+            &lt;cmd&gt;四处逛逛。&lt;/cmd&gt;
+        &lt;/substep&gt;
+<ph outputclass="newchanged">        &lt;substep&gt;
+            &lt;cmd&gt;看到一只，停下。&lt;/cmd&gt;
+        &lt;/substep&gt;
+        &lt;substep&gt;
+            &lt;cmd&gt;识别它。&lt;/cmd&gt;
+        &lt;/substep&gt;</ph>
+    &lt;/substeps&gt;
+&lt;/step&gt;
+</pre>
+                    </stepxmp>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>
