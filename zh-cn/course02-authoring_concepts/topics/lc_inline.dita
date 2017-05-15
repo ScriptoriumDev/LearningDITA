@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_hrm_xjh_1t">
+    <title>添加句中格式</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey, Scriptorium</author>
+        <critdates>
+            <created date="2015-08-24"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>DITA使用一些元素用于句中格式，或者段落中的文本块格式：</p>
+            <simpletable frame="all" relcolwidth="1.0* 1.0*" id="simpletable_brx_sl4_2t">
+                <strow>
+                    <stentry>
+                        <p>&lt;b&gt;</p>
+                    </stentry>
+                    <stentry>
+                        <p>粗体字</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;i&gt;</p>
+                    </stentry>
+                    <stentry>
+                        <p>斜体字</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;u&gt;</p>
+                    </stentry>
+                    <stentry>
+                        <p>下划线</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;term&gt;</p>
+                    </stentry>
+                    <stentry>
+                        <p>需要定义的词语或词组</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;cite&gt;</p>
+                    </stentry>
+                    <stentry>
+                        <p>引用的词语或词组</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;varname&gt;</p>
+                    </stentry>
+                    <stentry>
+                        <p>可能会随着用户环境而变化的词语或词组</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;sub&gt;</p>
+                    </stentry>
+                    <stentry>
+                        <p>下标文本</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;sup&gt;</p>
+                    </stentry>
+                    <stentry>
+                        <p>上标文本</p>
+                    </stentry>
+                </strow>
+            </simpletable>
+            <p>人们对句中元素&lt;b&gt;、&lt;i&gt;以及&lt;u&gt;比较熟悉且易于使用。但是，因为这些元素与文本最终呈现形式紧密相连，所以很容易导致乱用，将文本从格式中分离出来的目的也无法实现。注意不要滥用这些元素；在大部分情况下，推荐使用更有意义的元素，元素&lt;term&gt;、&lt;cite&gt;，或者&lt;varname&gt;。</p>
+            <p>在以下例子中，你将先学会如何插入这些简单的元素&lt;b&gt;、&lt;i&gt;以及&lt;u&gt;，然后学会如何用语义丰富的其他元素代替它们。</p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_i3g_jkh_1t">
+        <title/>
+        <taskbody>
+            <steps id="steps_f5k_kkh_1t">
+                <step>
+                    <cmd>复制文件lesson3/l_concept_elements_start.dita并在编辑器中打开。</cmd>
+                    <info>
+                        <note>
+                            <p>使用DITA文本编辑器时，需要确保你使用的是文本模式而不是作者模式或视觉模式。</p>
+                        </note>
+                    </info>
+                    <stepxmp>
+                        <p>请看下面的例子：</p>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"&gt;
+&lt;concept id="concept_elements"&gt;
+&lt;title&gt;喂鸭&lt;/title&gt;
+&lt;conbody&gt;
+&lt;/conbody&gt;
+&lt;/concept&gt;</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>添加一个包含&lt;b&gt;、&lt;i&gt;以及&lt;u&gt;的段落元素&lt;p&gt;，如以下例子所示：</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"&gt;
+&lt;concept id="concept_elements"&gt;
+&lt;title&gt;喂鸭&lt;/title&gt;
+&lt;conbody&gt;
+<ph outputclass="newchanged">&lt;p&gt;在鸭子生命的头&lt;u&gt;两周&lt;/u&gt;里，它们需要&lt;b&gt;持续摄入&lt;/b&gt;两样东西：&lt;i&gt;食物&lt;/i&gt;和&lt;i&gt;水&lt;/i&gt;。&lt;/p&gt;</ph>
+&lt;/conbody&gt;
+&lt;/concept&gt;
+</pre>
+                    </stepxmp>
+                    <info>通过添加&lt;b&gt;元素到这一段落，你就表明了词语“持续摄入”将会以粗体显示。相似地，通过添加&lt;i&gt;元素，你表明了词语“食物”和“水”将以斜体显示；通过添加&lt;u&gt;元素，你表明了词语“两周”将以下划线显示。</info>
+                    <info>尽管这些内联元素为重要的词语添加了强调效果，它们并不具有语义价值。假定你想要之后定义词语“持续摄入”，或者将它们编排成与其他描述喂养频率的词汇相同的格式。与其使用&lt;b&gt;元素将这个词汇简单地标注为粗体，你可以使用&lt;term&gt;元素将它们标注为重要的术语。 </info>
+                    <info>同时也存在比&lt;i&gt;和&lt;u&gt;元素语义更丰富的选择，你将在以下步骤中见到。</info>
+                </step>
+                <step>
+                    <cmd>在&lt;p&gt;元素之后，添加另一个包含与上一段落相同文本的&lt;p&gt;元素，将&lt;b&gt;元素改为&lt;term&gt;元素，将&lt;i&gt;元素改为&lt;cite&gt;元素，并将&lt;u&gt;元素改为&lt;varname&gt;元素，如以下例子所示：</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"&gt;
+&lt;concept id="concept_elements"&gt;
+&lt;title&gt;喂鸭&lt;/title&gt;
+&lt;conbody&gt;
+...
+<ph outputclass="newchanged">&lt;p&gt;在鸭子生命的头&lt;varname&gt;两周&lt;/varname&gt;里，它们需要&lt;term&gt;持续摄入&lt;/term&gt;两样东西：&lt;cite&gt;食物&lt;/cite&gt;和&lt;cite&gt;水&lt;/cite&gt;。&lt;/p&gt;</ph>
+&lt;/conbody&gt;
+&lt;/concept&gt;
+</pre>
+                    </stepxmp>
+                    <info>在该例子中，你将词语“持续摄入”标注为&lt;term&gt;元素显示了这个术语将在之后进行定义。你已将“食物”和“水”标注为&lt;cite&gt;元素，显示了这些词语将在需要的时候作为书目引用。最后，你已经将“两周”标注为&lt;varname&gt;元素，显示了这个词语由于用户环境的变化可能会被别的信息取代（比如，一些鸭子种类可能持续超过两周都需要能时刻得到食物和水）。</info>
+                </step>
+                <step>
+                    <cmd>在最后一个&lt;p&gt;元素之后，添加另一个包含&lt;sub&gt;元素的&lt;p&gt;元素，如以下例子所示：</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"&gt;
+&lt;concept id="concept_elements"&gt;
+&lt;title&gt;喂鸭&lt;/title&gt;
+&lt;conbody&gt;
+...
+<ph outputclass="newchanged">&lt;p&gt;因为鸭饲料质地干燥、粗糙，鸭子需要大量的H&lt;sub&gt;2&lt;/sub&gt;O来保持鸭嘴清洁。&lt;/p&gt;</ph>
+&lt;/conbody&gt;
+&lt;/concept&gt;
+</pre>
+                    </stepxmp>
+                    <info>&lt;sub&gt;元素用于标注下标文本，或者看起来更小或者比主文字更低的文本。在添加的例子中，&lt;sub&gt;元素用于确保或H<sub>2</sub>O中的“2”以下标显示。</info>
+                </step>
+                <step>
+                    <cmd>在最后一个&lt;p&gt;元素之后，添加另一个包含&lt;sup&gt;元素，如以下例子所示：</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"&gt;
+&lt;concept id="concept_elements"&gt;
+&lt;title&gt;喂鸭&lt;/title&gt;
+&lt;conbody&gt;
+...
+<ph outputclass="newchanged">&lt;p&gt;你可以用可回收的塑料容器制作自己的低无溢漏食品和饮料盘，或从E-Z-Feed&lt;sup&gt;2&lt;/sup&gt;购买现成的配好的喂养饲料。&lt;/p&gt;</ph>
+&lt;/conbody&gt;
+&lt;/concept&gt;
+</pre>
+                    </stepxmp>
+                    <info>&lt;sup&gt;元素用于标注上标文本，或者看起来更大或比主文字更高的文本。在添加的例子中，&lt;sup&gt;元素用于表明在鸭饲料公司名字（“E-Z-Feed<sup>2</sup>”）中的“2”（“squared”符号）应该以上标显示。 <note>不要使用&lt;sup&gt;元素创建注脚序号数字。而是使用DITA &lt;fn&gt;（footnote缩写）元素，我们稍后在本课时将介绍这个元素。</note>
+                    </info>
+                  
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_a2s_3wz_vr">
+    <title>什么是DITA topic？</title>
+    <shortdesc/>
+    <prolog>
+        <author>Sharon Burton</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Alan Pringle, Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+
+        <critdates>
+            <created date="2015-04-28"/>
+            <revised modified="2015-06-18"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>DITA topic是写作和重用的基本单位。 </p>
+            <p>在基于topic的写作中，可以创建多个单独的topic，每个topic分别描述单个概念或回答单个问题。然后可以在许多不同的文档中以任何顺序使用和重用这些topic。在DITA中，topic由<i>map</i>来组织，它更像是一个目录；map允许你指定topic顺序和层次结构。 </p>
+            <p>为了使topic可重用： </p>
+            <ul id="ul_kpb_fhh_rs">
+                <li>一个topic应该表述一个想法或回答一个问题。 </li>
+                <li>topic应该包含足够的信息来独立存在。</li>
+                <li>topic不应假设任何上下文。你不应该对topic前后的内容做出假设。 </li>
+                <li>单个文件应仅包含单个topic。 </li>
+            </ul>
+            <!--<p>Topics contain elements. Elements are the tags for the content. The tags available to a specific author depend on how that author’s environment is set up by the information architect. For example, if you are not writing in a software environment and don’t need code samples, your information architect could set up your DITA environment to eliminate the code-related element.</p><p>Elements have attributes. An attribute provides additional information about the element. For example, a topic might have an attribute called author, in which you specify who created a particular topic.</p>-->
+            <!--<p>Topics contain elements. Elements are the tags for the content. </p>-->
+            <p>所有DITA topic必须至少具有root topic的标题元素和id属性。也就是说，以下是个有效的DITA topic： </p>
+            <pre>&lt;topic id="sample"&gt;
+   &lt;title&gt;Topic标题&lt;/title&gt;
+&lt;/topic&gt; </pre>
+            <p>当然，一个<i>有用的</i>topic还需要其他的内容。 </p>
+        </lcInstruction>
+
+    </learningContentbody>
+</learningContent>

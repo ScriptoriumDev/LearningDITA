@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_bkn_skb_wr8">
+ <title></title>
+ <prolog>
+  <author>Sharon Burton</author>
+  <author href="http://www.scriptorium.com"  scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+  <critdates>
+   <created date="2015-04-28"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcTrueFalse id="md11">
+    <lcQuestion>如果在topic prolog中分配元数据，则无法为topic中的零散内容分配额外的元数据。</lcQuestion>
+    <lcAnswerOptionGroup>
+     <lcAnswerOption>
+      <lcAnswerContent>对</lcAnswerContent>
+      
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>错</lcAnswerContent>
+      <lcCorrectResponse/>
+      
+           </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>topic prolog包含topic级元数据。可以使用属性在元素级别分配元数据。</lcFeedbackIncorrect>
+   </lcTrueFalse>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

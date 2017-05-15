@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_rxt_zl5_vr3">
+    <title>如何使用元数据？</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+        <author>Sharon Burton</author>
+        <critdates>
+            <created date="2015-05-01"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>元数据可以分配在DITA内容中几个不同的位置：<ul
+                    id="ul_tnc_cgw_wr">
+                    <li>在topic层面</li>
+                    <li>在元素层面</li>
+                    <li>在map文件层面（map文件允许你集合多个topic以创建文档，帮助系统等；稍后的模块将更详细地解释map文件）</li>
+                </ul></p>
+           <p>在topic层面，DITA提供了一个&lt;prolog&gt;元素，其中存储整个topic的元数据。以下是一个基本的topic元数据的示例：</p>
+            <pre>&lt;topic id="xyz"&gt;
+  &lt;title&gt;元数据示例&lt;/title&gt;
+  &lt;prolog&gt;
+    &lt;author&gt;Sarah O’Keefe, Scriptorium&lt;/author&gt;
+    &lt;critdates&gt;
+      &lt;created date="2015-05-01"/&gt;
+    &lt;/critdates&gt;
+  &lt;/prolog&gt;
+  &lt;body&gt;
+    &lt;p&gt;正文在这里&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/topic&gt;</pre>
+            <p>作者在&lt;author&gt;元素中指定，&lt;critdates&gt;为&lt;created&gt;和&lt;revised&gt;日期元素留有了一个位置。</p>
+            <p>有用的prolog元素包括：<ul id="ul_mjh_2lw_wr">
+                    <li>&lt;author&gt;（内容作者）</li>
+                    <li>&lt;critdates&gt;（关键日期，例如&lt;created&gt;和&lt;revised&gt;）</li>
+                    <li>&lt;copyright&gt;（版权年&lt;copyryear&gt;和版权持有人&lt;copyrholder&gt;）</li>
+                    <li>&lt;vrm&gt;（产品版本，发布和修改信息）</li>
+                </ul></p>
+            <note type="important">仅对系统信息使用&lt;prolog&gt;元数据，例如作者和创建/修订日期。DITA不使用&lt;prolog&gt;元数据过滤topic。</note>
+            <p>在元素层面，通常使用元素中的属性来指定元数据。请参见以下示例：</p>
+            <pre>&lt;step&gt;
+    &lt;cmd&gt;放置喂鸭子的饲料盒。&lt;/cmd&gt;
+    &lt;info <b>audience="novice"</b>&gt;阅读饲料盒侧面的说明，确定
+          你的鸭子需要多少饲料。&lt;/info&gt;
+&lt;/step&gt;
+&lt;step&gt;
+    &lt;cmd&gt;称量出所需的饲料。&lt;/cmd&gt;
+&lt;/step&gt;
+&lt;step&gt;
+    &lt;cmd&gt;倒入搅拌器中。&lt;/cmd&gt;
+&lt;/step&gt;
+&lt;step&gt;
+    &lt;cmd&gt;放入饲料盘中。&lt;/cmd&gt;
+&lt;/step&gt; </pre>
+            <p>
+                <draft-comment author="okeefe">这里需要一个视频</draft-comment>
+            </p>
+            <p>仅需要提醒新手的是，盒子有测量功能。生成输出时，可以针对专家级受众禁止具有audience = "novice"元数据的&lt;info&gt;元素。 </p>
+            <p>在map层面，可以在引用topic的&lt;topicref&gt;元素中指定元数据。这样生成输出时就不会呈现出整个topic。请参见以下示例：</p>
+            <pre>&lt;topicref href="abc.dita"&gt;
+&lt;topicref href="def.dita" <b>audience="novice"</b>&gt;</pre>
+            <p>默认情况下，DITA提供三个支持过滤或条件处理的属性。它们是：<ul id="ul_qnb_2kw_wr">
+                    <li>受众</li>
+                    <li>产品</li>
+                    <li>平台</li>
+                </ul></p>
+            <p>如果需要其他或不同的过滤属性，信息架构师将需要专门定义额外的元数据。一些常见的要求是：<ul id="ul_byw_fkw_wr">
+                    <li>客户，用于特定客户的信息</li>
+                    <li>区域，仅适用于特定地理区域的信息</li>
+                    <li>产品系列，适用于一组产品的信息</li>
+                </ul></p> 
+        </lcInstruction>
+       
+    </learningContentbody>
+</learningContent>

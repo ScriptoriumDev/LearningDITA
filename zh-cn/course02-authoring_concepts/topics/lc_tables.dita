@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_kw5_5ls_zs">
+    <title>在concept中添加表格</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey, Scriptorium</author>
+        <critdates>
+            <created date="2015-08-24"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction><p>当需要创建&lt;simpletable&gt;元素更大或者更复杂的表格时，使用&lt;table&gt;元素。如果表格需要标题，或者表头行超过一个时，使用&lt;table&gt;元素。</p>
+            <p>&lt;table&gt;元素中个包含的元素如下：</p>
+            <simpletable frame="all" relcolwidth="1.0* 1.0*" id="simpletable_btz_t3n_2t">
+                <strow>
+                    <stentry>&lt;title&gt;</stentry>
+                    <stentry>&lt;table&gt;元素标题文字的容器元素。一个&lt;table&gt;元素只能包含一个&lt;title&gt;元素。</stentry>
+                </strow>
+                <strow>
+                    <stentry>&lt;tgroup&gt;</stentry>
+                    <stentry>&lt;table&gt;元素主要内容的容器元素。&lt;tgroup&gt;元素包含&lt;colspec&gt;元素、&lt;thead&gt;元素，以及&lt;tbody&gt;元素。一个&lt;table&gt;元素可以包含一个或多个&lt;tgroup&gt;元素。</stentry>
+                </strow>
+                <strow>
+                    <stentry>&lt;colspec&gt;</stentry>
+                    <stentry>该元素提供&lt;table&gt;中的列的信息。列的说明通过使用如下属性来定义：colname（列的名字）、colnum（列出现的顺序），以及colwidth（列的宽度）。</stentry>
+                </strow>
+                <strow>
+                    <stentry>&lt;thead&gt;</stentry>
+                    <stentry>&lt;table&gt;表头的容器元素。&lt;thead&gt;元素可以包含一个或多个&lt;row&gt;元素，且该元素不是必需。</stentry>
+                </strow>
+                <strow>
+                    <stentry>&lt;tbody&gt;</stentry>
+                    <stentry>&lt;table&gt;中正文行的容器元素。&lt;tbody&gt;元素可包含一个或多个&lt;row&gt;元素。</stentry>
+                </strow>
+                <strow>
+                    <stentry>&lt;row&gt;</stentry>
+                    <stentry>&lt;table&gt;中一行单元格的容器元素。&lt;row&gt;元素包含一个或多个&lt;entry&gt;元素。</stentry>
+                </strow>
+                <strow>
+                    <stentry>&lt;entry&gt;</stentry>
+                    <stentry>&lt;table&gt;中一个单元格的容器元素。&lt;entry&gt;元素包含&lt;table&gt;中单元格的文本。最佳实践认为这些文字需要包含在段落元素&lt;P&gt;中。</stentry>
+                </strow>
+            </simpletable><p>本课时将包含&lt;table&gt;元素的基本应用。为了突出&lt;table&gt;和&lt;simpletable&gt;的区别，你在做&lt;table&gt;练习时可使用与&lt;simpletable&gt;练习相同的内容。</p><fig>
+                <title>&lt;table&gt;示例的视觉呈现</title>
+                <image href="../media/images_and_tables/table.png" id="image_ulh_wmn_2t" base="2016/08" />
+            </fig><p>继续使用文件lesson2/l_concept_images_tables_start.dita添加&lt;table&gt;元素。</p>
+            <note>
+                <p>如使用DITA编辑器，在运行这些例子时，&lt;table&gt;元素中的一些子元素将被自动添加。</p>
+            </note>
+            <p>视频：<xref href="https://www.youtube.com/watch?v=PFWz_Vsyxwg" format="html" scope="external">在DITA中创建一个表格</xref></p>
+            <note>
+                <p>该视频展示了在使用<xref href="http://oxygenxml.com/" format="html" scope="external">oXygen编辑器</xref>表格导航时创建DITA表格的另一种方式。这个测试展示如何使用DITA代码创建表格。</p>
+            </note></lcInstruction>
+    </learningContentbody>
+    <task id="task_w23_tv1_dt">
+        <title>添加&lt;table&gt;元素</title>
+        <taskbody>
+            <steps id="steps_qtc_qx1_dt">
+                <step>
+                    <cmd>在&lt;simpletable&gt;元素之后，添加一个&lt;table&gt;元素，如以下例子所示：</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"&gt;
+&lt;concept id="concept_images_tables"&gt;
+   &lt;title&gt;鸭子的生长和发育&lt;/title&gt;
+  &lt;conbody&gt;
+...
+&lt;/simpletable&gt;
+<ph outputclass="newchanged">&lt;table&gt;
+&lt;/table&gt;</ph>
+   &lt;/conbody&gt;
+&lt;/concept&gt;</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>在&lt;table&gt;元素中，添加一个&lt;title&gt;元素，并向其中添加内容，如以下例子所示：</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"&gt;
+&lt;concept id="concept_images_tables"&gt;
+   &lt;title&gt;鸭子的生长和发育&lt;/title&gt;
+  &lt;conbody&gt;
+...
+&lt;table&gt;
+<ph outputclass="newchanged">&lt;title&gt;绿头鸭的典型发育&lt;/title&gt;</ph>
+&lt;/table&gt;
+&lt;/conbody&gt;
+&lt;/concept&gt;</pre>
+                    </stepxmp>
+                    <info>&lt;title&gt;元素是可选的，但是它为表格添加语境，正如它为用于&lt;fig&gt;元素中的图片一样。</info>
+                </step>
+                <step>
+                    <cmd>在&lt;title&gt;元素之后，添加一个&lt;tgroup&gt;元素，如以下例子所示：</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"&gt;
+&lt;concept id="concept_images_tables"&gt;
+   &lt;title&gt;鸭子的生长和发育&lt;/title&gt;
+   &lt;conbody&gt;
+...
+&lt;title&gt;绿头鸭的典型发育&lt;/title&gt;
+<ph outputclass="newchanged">&lt;tgroup cols="2"&gt;
+&lt;/tgroup&gt;</ph>
+...
+&lt;/conbody&gt;
+&lt;/concept&gt;</pre>
+                    </stepxmp>
+                    <info>&lt;tgroup&gt;元素包含表格正文。表格列的数量在&lt;tgroup&gt;元素中用cols属性设置。在添加的例子中，cols="2"表明该表格包含两列。</info>
+                    <info>一个&lt;table&gt;元素可以包含不止一个&lt;tgroup&gt;元素，&lt;tgroup&gt;元素用于展示表头不同列数不同但是共用一个标题的多个表格。</info>
+                </step>
+                <step>
+                    <cmd>在&lt;tgroup&gt;元素中，添加两个&lt;colspec&gt;元素并在其中添加内容，如以下例子所示：</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"&gt;
+&lt;concept id="concept_images_tables"&gt;
+   &lt;title&gt;鸭子的生长和发育&lt;/title&gt;
+   &lt;conbody&gt;
+...
+&lt;tgroup cols="2"&gt;
+<ph outputclass="newchanged">&lt;colspec colname="c1" colnum="1" colwidth="1.0*"/&gt;
+&lt;colspec colname="c2" colnum="2" colwidth="1.0*"/&gt;</ph>
+...
+&lt;/conbody&gt;
+&lt;/concept&gt;</pre>
+                    </stepxmp>
+                    <info>&lt;colspec&gt;元素设定表格列数，并使用属性表明列数信息（比如它们的名称，顺序以及宽度）。在添加的例子中，属性colname用于给每一列命名"c1"以及"c2"，属性colnum用于指定每一列出现的顺序。 </info>
+                    <info>可选的colwidth属性可用于控制每一列所占宽度的比例。在添加的例子中，属性colwidth对于每一列都是相同的，意思是每一列呈现的列宽相同。</info>
+                </step>
+                <step>
+                    <cmd>在最后一个&lt;colspec&gt;元素后，添加一个&lt;thead&gt;元素，如以下例子所示：</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"&gt;
+&lt;concept id="concept_images_tables"&gt;
+   &lt;title&gt;鸭子的生长和发育&lt;/title&gt;
+   &lt;conbody&gt;
+...
+&lt;colspec colname="c2" colnum="2" colwidth="1.0*"/&gt;
+<ph outputclass="newchanged">&lt;thead&gt;
+&lt;/thead&gt;</ph>
+...
+&lt;/conbody&gt;
+&lt;/concept&gt;</pre>
+                    </stepxmp>
+                    <info>&lt;thead&gt;元素包含与表头相关的元素。与&lt;simpletable&gt;中&lt;sthead&gt;不同的是，&lt;table&gt;中&lt;thead&gt;元素可以包含不止一个表头行。</info>
+                </step>
+                <step>
+                    <cmd>在&lt;thead&gt;元素中，添加&lt;row&gt;元素，如以下例子所示：</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"&gt;
+&lt;concept id="concept_images_tables"&gt;
+   &lt;title&gt;鸭子的生长和发育&lt;/title&gt;
+   &lt;conbody&gt;
+...
+&lt;thead&gt;
+<ph outputclass="newchanged"> &lt;row&gt;
+&lt;/row&gt;</ph>
+...
+&lt;/concept&gt;</pre>
+                    </stepxmp>
+                    <info>&lt;row&gt;元素包含与表格行有关的元素。</info>
+                </step>
+                <step>
+                    <cmd>在&lt;row&gt;元素中，添加两个&lt;entry&gt;元素并向其中添加内容，如以下例子所示：</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"&gt;
+&lt;concept id="concept_images_tables"&gt;
+   &lt;title&gt;鸭子的生长和发育&lt;/title&gt;
+  &lt;conbody&gt;
+...
+&lt;row&gt;
+<ph outputclass="newchanged">&lt;entry&gt;&lt;p&gt;年龄&lt;/p&gt;&lt;/entry&gt;
+&lt;entry&gt;&lt;p&gt;里程碑&lt;/p&gt;&lt;/entry&gt;</ph>
+...
+&lt;/concept&gt;</pre>
+                    </stepxmp>
+                    <info>&lt;entry&gt;元素对应一行中单独的表单元格。在添加的元素中，文字都包含在段落元素&lt;p&gt;中，每一个&lt;entry&gt;元素遵循了最佳实践。</info>
+                </step>
+                <step>
+                    <cmd>在&lt;thead&gt;元素后，添加一个元素，如以下例子所示：</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"&gt;
+&lt;concept id="concept_images_tables"&gt;
+   &lt;title&gt;鸭子的生长和发育&lt;/title&gt;
+  &lt;conbody&gt;
+...
+&lt;/thead&gt;
+<ph outputclass="newchanged">&lt;tbody&gt;
+&lt;/tbody&gt;</ph>
+...
+&lt;/conbody&gt;
+&lt;/concept&gt;</pre>
+                    </stepxmp>
+                    <info>&lt;tbody&gt;元素用于表格的正文部分。遵循和&lt;thead&gt;元素相同的结构，&lt;tbody&gt;元素包含&lt;row&gt;元素以及嵌套其中的&lt;entry&gt;元素。</info>
+                </step>
+                <step>
+                    <cmd>在&lt;tbody&gt;元素中，添加一个&lt;row&gt;元素，并使用&lt;entry&gt;元素和包含的文本在其中添加内容，如以下例子所示：</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"&gt;
+&lt;concept id="concept_images_tables"&gt;
+   &lt;title&gt;鸭子的生长和发育&lt;/title&gt;
+  &lt;conbody&gt;
+...
+&lt;tbody&gt;
+<ph outputclass="newchanged">&lt;row&gt;
+&lt;entry&gt;&lt;p&gt;7周&lt;/p&gt;&lt;/entry&gt;
+&lt;entry&gt;&lt;p&gt;第一次尝试飞行&lt;/p&gt;&lt;/entry&gt;
+&lt;/row&gt;</ph>
+...
+&lt;/concept&gt;</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>在刚添加的&lt;row&gt;元素之后，再添加两行并向其中添加内容，如以下例子所示：</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"&gt;
+&lt;concept id="concept_images_tables"&gt;
+   &lt;title&gt;鸭子的生长和发育&lt;/title&gt;
+   &lt;conbody&gt;
+...
+&lt;/row&gt;
+<ph outputclass="newchanged">&lt;row&gt;
+&lt;entry&gt;&lt;p&gt;12-14周&lt;/p&gt;&lt;/entry&gt;
+&lt;entry&gt;&lt;p&gt;达到成年鸭体重&lt;/p&gt;&lt;/entry&gt;
+&lt;/row&gt;
+&lt;row&gt;
+&lt;entry&gt;&lt;p&gt;1年&lt;/p&gt;&lt;/entry&gt;
+&lt;entry&gt;&lt;p&gt;能繁殖&lt;/p&gt;&lt;/entry&gt;
+&lt;/row&gt;</ph>
+...
+&lt;/concept&gt;</pre>
+                    </stepxmp>
+                    <info>&lt;tbody&gt;元素可包含一个或多个&lt;row&gt;元素。</info>
+                    <info>视频：<xref href="https://www.youtube.com/watch?v=PFWz_Vsyxwg" format="html" scope="external">在DITA中创建一个表格</xref></info>
+                </step>
+                <step>
+                    <cmd>将你的文件lesson2/l_concept_images_tables_start.dita 与样例文件 lesson2/l_concept_images_tables.dita作对比。</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+    <task id="task_as2_vjx_dt">
+        <title>练习</title>
+        <taskbody>
+            <steps id="steps_g32_wjx_dt">
+                <step>
+                    <cmd>打开文件lesson2/l_concept_images_tables_exercise_start.dita，并使用该文件，将以下<xref href="http://contentstrategy101.com/" format="html" scope="external">Content Strategy 101</xref>的内容转换成DITA：</cmd>
+                    <info>练习时使用样例图片 lesson2/images/configurebetter1.png。</info>
+                    <info>
+                        <pre outputclass="passthru"><![CDATA[
+                            <hr />
+                            <h3>用技术内容支持市场营销</h3>
+                            技术传播和市场传播长久以来都是在内容范畴的两个对立端。陈旧的观点认为，技术传播的文档定然是文字厚重，密密麻麻，格式糟糕；而市场传播的文档定然是光彩夺目，美轮美奂，没有实质内容的。从那里，辩论加剧：
+                            <em>市场传播VS.技术传播</em>
+                            <table class="simpletable" border="1" summary="" cellspacing="0" cellpadding="4">
+                            <tbody>
+                            <tr class="strow">
+                            <td class="stentry" valign="top" width="33%"></td>
+                            <td class="stentry" valign="top" width="33%"><strong>市场传播</strong></td>
+                            <td class="stentry" valign="top" width="33%"><strong>技术传播</strong></td>
+                            </tr>
+                            <tr class="strow">
+                            <td class="stentry" valign="top">Design or automation?</td>
+                            <td class="stentry" valign="top">设计</td>
+                            <td class="stentry" valign="top">自动化</td>
+                            </tr>
+                            <tr class="strow">
+                            <td class="stentry" valign="top">多少细节？</td>
+                            <td class="stentry" valign="top">越少越好</td>
+                            <td class="stentry" valign="top">越多越好</td>
+                            </tr>
+                            <tr class="strow">
+                            <td class="stentry" valign="top">假定对收入的影响</td>
+                            <td class="stentry" valign="top">许多</td>
+                            <td class="stentry">没有</td>
+                            </tr>
+                            <tr class="strow">
+                            <td class="stentry" valign="top">主要目的</td>
+                            <td class="stentry" valign="top">说服大家去买</td>
+                            <td class="stentry" valign="top">告知大家</td>
+                            </tr>
+                            </tbody>
+                            </table>
+                            <p>给用户一个友好的界面，让他们可以快速缩小选择范围，然后选一个他们想要的产品。你不必摆出数据库中的所有字段，那些只是为了帮助人们缩小他们的选择。</p>
+                            <p><em>当你从左边进行选择后，右边的产品列表就会更新。</em></p>
+                            <img src="http://www.learningdita.com/wp-content/uploads/2015/08/configurebetter1.png"/>
+                            <hr/>]]></pre>
+                    </info>
+                </step>
+                <step>
+                    <cmd>将你的文件lesson2/l_concept_images_tables_start.dita与样例文件lesson2/l_concept_images_tables_exercise.dita作对比。</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

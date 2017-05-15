@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_hrm_xjh_1t">
+    <title>新建一个任务主题（task topic）</title>
+
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey, Scriptorium</author>
+        <critdates>
+            <created date="2015-08-12"/>
+        </critdates>
+    </prolog>
+
+    <learningContentbody>
+        <lcInstruction>
+            <p>一个最简单的任务主题必须包含一个&lt;task&gt;根元素（包含id属性），该根元素中必须包含一个&lt;title&gt;元素。 </p>
+            <p>以下为&lt;title&gt;元素、&lt;shortdesc&gt;元素（可选）和包含任务内容的&lt;taskbody&gt;元素。&lt;taskbody&gt;中的各元素必须符合具体顺序。本节课程将按照各元素出现的固定顺序展示&lt;taskbody&gt;中的元素。 </p>
+            <p><xref href="https://youtu.be/7E7RYKHQ6C4" format="html" scope="external">视频：创建一个DITA Task类型的Topic</xref></p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_i3g_jkh_1t">
+        <title/>
+        <taskbody>
+            <steps id="steps_f5k_kkh_1t">
+                <step>
+                    <cmd>拷贝文件l_task_start.dita，并在编辑器中打开。</cmd>
+                    <info>
+                        <note>使用DITA文本编辑器时，需要确保你使用的是文本模式而不是作者模式或视觉模式。 </note>
+                    </info>
+                    <stepxmp>
+                        <p>请看下面的例子：</p>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"&gt;
+&lt;task id="my_first_task"&gt;
+   &lt;title&gt;xyz&lt;/title&gt;
+
+&lt;/task&gt;</pre>
+                    </stepxmp>
+                    <info>
+                        <p>第一行（以<tt>&lt;?xml</tt>开头）是XML声明，是所有XML文件的标准部分。</p>
+                        <p>DOCTYPE声明的第二行向DITA编辑器或者DITA输出编辑器传达这是一个DITA strict task类型的Topic。程序会利用这一信息，验证主题内容。你创建的每一个topic类型都有一个不同的DOCTYPE。 </p>
+                        <p>第三行包含&lt;task&gt;元素的起始标签。</p>
+                        <p>第四行包含标题元素。</p>
+                    </info>
+                </step>
+                <!--<step><cmd>Depending on the editor you are using: </cmd><choices id="choices_uy2_lkh_1t"><choice><p><b>DITA-aware editor</b>: Use the File > New... command to create a new task topic. Make sure you don't use the general task. </p></choice><choice><p><b>Text editor</b>: Create a new file that contains this text:</p><pre>&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+&lt;task id="my_first_task">
+
+&lt;/task></pre></choice><choice><p><b>Samples</b>: Make a copy of the file 1_new_task.dita and open it in your editor.</p></choice></choices></step>-->
+                <!--<step><cmd>If you are using a DITA-aware editor, switch to text view.</cmd><info>A DITA-aware editor will often create a </info></step>-->
+                <step>
+                    <cmd>在&lt;title&gt;元素内，更新任务标题的文本。</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"&gt;
+&lt;task id="my_first_task"&gt;
+<ph outputclass="newchanged">   &lt;title&gt;观察野鸭&lt;/title&gt;</ph>
+
+&lt;/task&gt;</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>在&lt;title&gt;元素后添加一个&lt;taskbody&gt;元素。</cmd>
+                    <info>&lt;taskbody&gt;元素内包含该任务的所有内容。 </info>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"&gt;
+&lt;task id="my_first_task"&gt;
+   &lt;title&gt;观察野鸭&lt;/title&gt;
+<ph outputclass="newchanged">   &lt;taskbody&gt;
+
+   &lt;/taskbody&gt; </ph>
+&lt;/task&gt;</pre>
+                    </stepxmp>
+                    <info>这是DITA strict task中最本质的部分。本课剩余部分将展示如何往&lt;taskbody&gt;元素内添加基本的两个子元素。</info>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

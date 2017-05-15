@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_bkn_skb_wra">
+ <title></title>
+ <prolog>
+  <author>Sharon Burton</author>
+  <author href="http://www.scriptorium.com"  scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+  <critdates>
+   <created date="2015-04-28"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+  <lcMultipleSelect id="md3">
+   <lcQuestion>topic需要以下元数据（选择所有适用的）：</lcQuestion>
+   <lcAnswerOptionGroup>
+    <lcAnswerOption>
+     <lcAnswerContent>&lt;title id="xxx"&gt;</lcAnswerContent>
+    </lcAnswerOption>
+    <lcAnswerOption>
+     <lcAnswerContent>&lt;topic author="xxx"&gt;</lcAnswerContent>
+    </lcAnswerOption>
+    <lcAnswerOption>
+     <lcAnswerContent>&lt;topic id="xxx"&gt;</lcAnswerContent>
+     <lcCorrectResponse/>
+    </lcAnswerOption>
+   </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>topic所必需的是id属性，而不是topic标题。不需要提供作者信息。当提供时，请使用&lt;prolog&gt;中的&lt;author&gt;元素。</lcFeedbackIncorrect>
+  </lcMultipleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

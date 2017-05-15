@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="my_first_task">
+    <title>观察野鸭</title>
+    <shortdesc/>
+    <taskbody>
+        <prereq>
+            <p>在你去看野鸭之前，确保你知道野鸭长什么样子。</p>
+        </prereq>
+        <context>
+            <p>观察野鸭是一件可以让人静下心和放松的事 </p>
+            <p>阅读下面内容以了解关于如何获得令人满意的鸭子观赏体验。   </p>
+        </context>
+        <steps>
+            <step>
+                <cmd>选择一个观察鸭子的地点。</cmd>
+                <info>
+                    <p>通常是野外靠近水源的地方</p>
+                </info>
+            </step>
+            <step>
+                <cmd>选择一本野外指南来识别鸭子。</cmd>
+                <choices id="choices_z5d_2mc_bt">
+                    <choice>不少摩登观鸟者依靠《希波利观鸟手册》（The Sibley Guide to Birds）这本书来指导观察鸭子。</choice>
+                    <choice>传统喜好《彼得森指南》 </choice>
+                </choices>
+            </step>
+            <step>
+                <cmd>找一些好的光学镜</cmd>
+                <choicetable frame="all" relcolwidth="1.0* 1.0*" id="choicetable_bwc_czc_bt">
+                    <chhead>
+                        <choptionhd>
+                            <p>种类</p>
+                        </choptionhd>
+                        <chdeschd>
+                            <p>优势</p>
+                        </chdeschd>
+                    </chhead>
+                    <chrow>
+                        <choption>
+                            <p>双目镜</p>
+                        </choption>
+                        <chdesc>
+                            <p>视野宽广，可快速观察</p>
+                        </chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>
+                            <p>检测范围</p>
+                        </choption>
+                        <chdesc>
+                            <p>更高的放大倍数，更好的光收集</p>
+                        </chdesc>
+                    </chrow>
+                </choicetable>
+            </step>
+            <step>
+                <cmd>观鸟</cmd>
+                <substeps id="substeps_hmn_vvc_bt">
+                    <substep>
+                        <cmd>走动</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>看到一只，停下</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>识别它</cmd>
+                    </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd>当你最终确定是一只鸭子，在你的指南中记录一下。</cmd>
+                <stepxmp>
+                    <lines>鸭子：
+☒ 丑鸭 
+☐ 绿头鸭
+☐ 棕硬尾鸭
+☐ 北美鸳鸯</lines>
+                </stepxmp>
+                <stepresult><p>现在你将获得一个你可以永远留存的记录</p></stepresult>
+            </step>
+            <stepsection>一旦您认识了这些鸭子，您可以花些时间观察他们的行为。</stepsection>
+            <step>
+                <note>观察鸭子行为时不要惊扰它们，因为有人在时它们表现完全不一样。</note>
+                <cmd>观看鸭子如何互相交流它们吃什么，或是在什么时间、怎么样用嘴整理它们的羽毛</cmd>
+            </step>
+        </steps>
+        <result>
+            <p>运动时呼吸新鲜空气和看到野鸭子时的兴奋，应该让你觉得倍感舒适。</p>
+        </result>
+        <example>
+            <p>不要做以下行为：<xref href="http://dai.ly/x2j6pt1" format="html" scope="external">混乱达菲鸭</xref>
+            </p>
+            <!--Could also use: https://youtu.be/nAA3DCEkVHs-->
+        </example>
+        <postreq>
+            <ul>
+                <li>用相机观察鸭子</li>
+                <li>去看看其他鸟</li>
+            </ul>
+        </postreq>
+    </taskbody>
+</task>

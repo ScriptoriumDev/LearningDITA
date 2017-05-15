@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_hrm_xjh_1t">
+    <title>添加其他元素</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey, Scriptorium</author>
+        <critdates>
+            <created date="2015-08-24"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>DITA使用其他重要元素。这里有三个：</p>
+            <simpletable frame="all" relcolwidth="1.0* 1.0*" id="simpletable_i13_ml4_2t">
+                <strow>
+                    <stentry>
+                        <p>&lt;fn&gt;</p>
+                    </stentry>
+                    <stentry>
+                        <p>元素用于插入脚注。</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;menucascade&gt;</p>
+                    </stentry>
+                    <stentry>
+                        <p>该元素用于表明菜单顺序，比如File &gt; Save As。&lt;menucascade&gt;元素必须包含一个或多个&lt;uicontrol&gt;元素。每一个&lt;uicontrol&gt;元素包含菜单项的文本。</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;dl&gt;</p>
+                    </stentry>
+                    <stentry>
+                        <p>该元素包含一个定义列表。定义列表是术语及其相应定义的列表，默认表现形式类似于两列表格。定义列表包含一个或多个词条，这些词条被标注&lt;dlentry&gt;元素，且每个词条包含一个术语（被标注为&lt;dt&gt;元素）以及包含一个或多个定义（被标注为&lt;dd&gt;元素）。</p>
+                    </stentry>
+                </strow>
+            </simpletable>
+     
+
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_i3g_jkh_1t">
+        <title/>
+        <taskbody>
+            <steps id="steps_f5k_kkh_1t">
+                <step>
+                    <cmd>继续使用文件lesson3/l_concept_elements_start.dita，从而将这些元素添加到案例文件。</cmd>
+                </step>
+                <step>
+                    <cmd>在最后一个&lt;p&gt;元素后，添加一个新的包含&lt;fn&gt;元素的&lt;p&gt;，如以下例子所示：</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"&gt;
+&lt;concept id="concept_elements"&gt;
+   &lt;title&gt;喂鸭&lt;/title&gt;
+  &lt;conbody&gt;
+...
+ <ph outputclass="newchanged">&lt;p&gt;小鸭子比成年鸭需要更高水平的蛋白质。&lt;fn&gt;新生鸭建议的蛋白水平在18-20%。&lt;/fn&gt;&lt;/p&gt;</ph>
+&lt;/conbody&gt;
+&lt;/concept&gt;</pre>
+                    </stepxmp>
+                    <info>&lt;fn&gt;元素表明脚注的引用序号将出现在段落中。默认情况下，当你将文件输出后，&lt;fn&gt;元素中的文本将出现在页面底端（针对PDF形式）或者topic末尾（针对HTML）。</info>
+                </step>
+                <step>
+                    <cmd>在最后一个&lt;p&gt;元素后，添加一个新的包含&lt;menucascade&gt;元素的&lt;p&gt;元素，如以下例子所示：</cmd>
+                    <info>视频：<xref href="https://www.youtube.com/watch?v=xGyf4q_Bipw" format="html" scope="external">在DITA中创建菜单项序列</xref></info>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"&gt;
+&lt;concept id="concept_elements"&gt;
+   &lt;title&gt;喂鸭&lt;/title&gt;
+  &lt;conbody&gt;
+...
+<ph outputclass="newchanged">&lt;p&gt;要创建一张数据表来跟踪何时需要补充小鸭子的食物和水，点击
+&lt;menucascade&gt;
+&lt;/menucascade&gt;。
+&lt;/p&gt;</ph>
+&lt;/conbody&gt;
+&lt;/concept&gt;
+</pre>
+                    </stepxmp>
+                    <info>在添加的例子中，&lt;menucascade&gt;元素将用于显示与创建一个数据表相关的菜单项。</info>
+                </step>
+                <step>
+                    <cmd>在&lt;menucascade&gt;元素中，添加一个&lt;uicontrol&gt;元素并向其中添加内容，如以下例子所示：</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"&gt;
+&lt;concept id="concept_elements"&gt;
+   &lt;title&gt;喂鸭&lt;/title&gt;
+   &lt;conbody&gt;
+...
+&lt;menucascade&gt;
+<ph outputclass="newchanged">&lt;uicontrol&gt;File&lt;/uicontrol&gt;</ph>
+&lt;/menucascade&gt;
+...
+&lt;/conbody&gt;
+&lt;/concept&gt;</pre>
+                    </stepxmp>
+                    <info>在添加的例子中，&lt;uicontrol&gt;元素包含与创建数据表相关的第一个菜单项名称：“File”。</info>
+                </step>
+                <step>
+                    <cmd>在&lt;uicontrol&gt;元素后，添加两个&lt;uicontrol&gt;元素并向其中添加内容，如以下例子所示：</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"&gt;
+&lt;concept id="concept_elements"&gt;
+   &lt;title&gt;喂鸭&lt;/title&gt;
+  &lt;conbody&gt;
+... 
+&lt;menucascade&gt;
+&lt;uicontrol&gt;File&lt;/uicontrol&gt;
+<ph outputclass="newchanged">&lt;uicontrol&gt;New&lt;/uicontrol&gt;
+&lt;uicontrol&gt;Spreadsheet&lt;/uicontrol&gt;</ph>
+&lt;/menucascade&gt;
+...
+&lt;/conbody&gt;
+&lt;/concept&gt;</pre>
+                    </stepxmp>
+                    <info>默认情况下，输出中的&lt;uicontrol&gt;元素之间会插入一个箭头符号，以表明菜单选项的层次结构。 </info>
+                    <info>通过添加例子中的&lt;menucascade&gt;元素和&lt;uicontrol&gt;元素，用户就知道点击“file"，然后点击“new"，然后选择“spreadsheet"。</info>
+                    <info>你可以直接使用&lt;uicontrol&gt;元素，不使用&lt;menucascade&gt;元素。例如，你可以直接将一个词语标注为&lt;uicontrol&gt;元素，表明用户应该点击该按钮。因为&lt;uicontrol&gt;元素表明它包含的文本具有特殊格式，所以避免在&lt;uicontrol&gt;元素中使用&lt;b&gt;元素或其他内联元素。</info>
+                </step>
+                <step>
+                    <cmd>在&lt;menucascade&gt;元素之后，添加一个新的介绍段落元素&lt;p&gt;，之后接着&lt;dl&gt;元素，如以下例子所示：</cmd>
+                    <info>视频：<xref href="https://www.youtube.com/watch?v=3R9eN2TSepQ" format="html" scope="external">在DITA中创建菜单定义表</xref></info>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"&gt;
+&lt;concept id="concept_elements"&gt;
+   &lt;title&gt;喂鸭&lt;/title&gt;
+   &lt;conbody&gt;
+...
+&lt;/menucascade&gt;
+<ph outputclass="newchanged">&lt;p&gt;家鸭按照体重分类。这些重量类别会帮助你根据喂养量的多少来选择鸭子的种类&lt;/p&gt;
+&lt;dl&gt;
+&lt;/dl&gt;</ph>
+&lt;/conbody&gt;
+&lt;/concept&gt;
+</pre>
+                    </stepxmp>
+                    <info>&lt;dl&gt;元素设定了定义列表的结构框架。</info>
+                </step>
+                <step>
+                    <cmd>在&lt;dl&gt;元素中，添加一个&lt;dlentry&gt;元素，如以下例子所示：</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"&gt;
+&lt;concept id="concept_elements"&gt;
+   &lt;title&gt;喂鸭&lt;/title&gt;
+   &lt;conbody&gt;
+...
+&lt;dl&gt;
+<ph outputclass="newchanged"> &lt;dlentry&gt;
+&lt;/dlentry&gt;</ph>
+...
+&lt;/conbody&gt;
+&lt;/concept&gt;</pre>
+                    </stepxmp>
+                    <info>每一个&lt;dlentry&gt;元素都包含一个术语及其定义。&lt;dlentry&gt;元素可包含一个或多个&lt;dd&gt;元素。</info>
+                </step>
+                <step>
+                    <cmd>在&lt;dlentry&gt;元素中，添加&lt;dt&gt;元素和&lt;dd&gt;元素，并向其中添加内容，如下例子所示：</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"&gt;
+&lt;concept id="concept_elements"&gt;
+   &lt;title&gt;喂鸭&lt;/title&gt;
+   &lt;conbody&gt;
+...
+    &lt;dlentry&gt;
+    <ph outputclass="newchanged">&lt;dt&gt;矮脚鸭&lt;/dt&gt;
+        &lt;dd&gt;最轻的而且也是飞得最快的鸭子，如绿头鸭。&lt;/dd&gt;</ph>
+...
+&lt;/conbody&gt;
+&lt;/concept&gt;</pre>
+                    </stepxmp>
+                    <info>&lt;dt&gt;元素包含术语，而&lt;dd&gt;元素包含术语的定义。</info>
+                </step>
+                <step>
+                    <cmd>在&lt;dlentry&gt;元素之后，添加三个&lt;dlentry&gt;元素，并在其中添加内容，及其&lt;dt&gt;元素和&lt;dd&gt;元素，如以下例子所示：</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"&gt;
+&lt;concept id="concept_elements"&gt;
+   &lt;title&gt;喂鸭&lt;/title&gt;
+  &lt;conbody&gt;
+...
+    &lt;/dlentry&gt;
+    <ph outputclass="newchanged">&lt;dlentry&gt;
+        &lt;dt&gt;轻&lt;/dt&gt;
+        &lt;dd&gt;重量第二轻的鸭子，最好的蛋鸭，譬如卡基-康贝尔鸭。&lt;/dd&gt;
+    &lt;/dlentry&gt;
+    &lt;dlentry&gt;
+        &lt;dt&gt;中等&lt;/dt&gt;
+        &lt;dd&gt;体重中等又性情平静的鸭子，如瑞典鸭。&lt;/dd&gt;
+    &lt;/dlentry&gt;
+    &lt;dlentry&gt;
+        &lt;dt&gt;重&lt;/dt&gt;
+        &lt;dd&gt;最重最友好的鸭子，如北京鸭。&lt;/dd&gt;
+    &lt;/dlentry&gt;</ph>
+...
+&lt;/conbody&gt;
+&lt;/concept&gt;
+</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>将你的文件lesson3/l_concept_elements_start.dita与样例文件lesson3/l_concept_elements.dita作对比。</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+    <task id="task_as2_vjx_dt">
+        <title>练习</title>
+        <taskbody>
+            <steps id="steps_g32_wjx_dt">
+                <step>
+                    <cmd>打开文件lesson3/l_concept_elements_exercise_start.dita，使用该文件将<xref href="http://contentstrategy101.com/" format="html" scope="external">Content Strategy 101</xref>书中的如下内容转换成如下内容：</cmd>
+                    <info>
+                        <pre outputclass="passthru"><![CDATA[
+                           <hr />
+                           <h3>提高产品知名度</h3>
+                           <p>技术内容可以帮助企业提高产品在市场中的知名度。技术内容用于<strong>产品用户</strong>——即已经购买产品的消费者</p>
+                           <p>但是一个民意调查表明大约三分之一的购买者<sup>1</sup>会在购买产品前查阅文档，文档的质量会影响他们的购买意愿。</p>
+                           <p>为了可持续性的新的前景，您的内容必须兼有三个特征：易搜索，易找到和易受关注。</p>
+                           <strong>易搜索</strong>
+                           信息必须可供互联网搜索。
+                           <strong>容易被找到。</strong>
+                           信息必须很好的体现对应关键字。
+                           <strong>易受关注</strong>
+                           让人们更有可能链接到信息。
+                           <p>更多信息，请参见<strong>Contents</strong> &gt; <strong>Business goals</strong> &gt; <strong>市场营销和产品知名度</strong> &gt; <strong>提升产品知名度</strong>.</p>
+                           <p><sup>1</sup> <em>“消费者对产品文档的感受”，一个由Sharon Burton发起的在线民意调查</em></p>
+                           <hr />
+                           ]]></pre>
+                    </info>
+                </step>
+                <step>
+                    <cmd>将你的文件lesson3/l_concept_elements_exercise_start.dita与样例文件lesson3/l_concept_elements_exercise.dita作对比。</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

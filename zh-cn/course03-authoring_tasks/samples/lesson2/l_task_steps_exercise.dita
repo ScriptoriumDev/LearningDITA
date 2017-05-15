@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_tlf_3h2_jt">
+    <title>开发并实施内容战略</title>
+    <taskbody>
+        <steps id="steps_xmc_nh2_jt">
+            <stepsection>创建一个内容战略。</stepsection>
+            <step>
+                <cmd>辨别并会见相关人员。</cmd>
+            </step>
+            <step>
+                <note>建立一个可以用于定义项目成功的商业案例。</note>
+                <cmd>建立实施目标和度量标准。</cmd>
+            </step>
+            <step>
+                <cmd>定义角色和职责。</cmd>
+                <stepxmp>
+                    <lines>角色
+☐ 教育
+☐ 开发
+☐ 评审
+☐ 同意</lines>
+                </stepxmp>
+            </step>
+            <step>
+                <cmd>建立时间表和里程碑。</cmd>
+            </step>
+            <stepsection>实施你的内容战略。</stepsection>
+            <step>
+                <cmd>建立内容创建系统。</cmd>
+            </step>
+            <step>
+                <cmd>转换传统内容。</cmd>
+                <choices id="choices_zwl_4h2_jt">
+                    <choice>将所有东西都转换到新系统中</choice>
+                    <choice>识别并转换高优先级内容</choice>
+                    <choice>及时转换</choice>
+                    <choice>评估转换</choice>
+                    <choice>什么都不转换</choice>
+                </choices>
+            </step>
+            <step>
+                <cmd>交付内容。</cmd>
+                <choicetable frame="all" relcolwidth="1.0* 1.0*" id="choicetable_g43_ph2_jt">
+                    <chhead>
+                        <choptionhd>交付方法</choptionhd>
+                        <chdeschd>好处</chdeschd>
+                    </chhead>
+                    <chrow>
+                        <choption>PDF</choption>
+                        <chdesc>视觉设计，可以印刷</chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>HTML</choption>
+                        <chdesc>可获取性，交互性，响应式设计</chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>EPUB</choption>
+                        <chdesc>不能上网时提供电子内容</chdesc>
+                    </chrow>
+                </choicetable>
+            </step>
+            <step>
+                <cmd>捕捉项目知识。</cmd>
+                <substeps id="substeps_fhj_qh2_jt">
+                    <substep>
+                        <cmd>记录你的内容模型、规范和最佳实践。</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>向在新环境中写作的作者提供培训。</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>向维护新系统的人员提供培训。</cmd>
+                    </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd>保证长期成功。</cmd>
+                <stepresult>
+                    <p>可以把在项目开始时列出的项勾掉，表示已经完成。</p>
+                </stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

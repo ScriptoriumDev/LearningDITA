@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_f33_1kp_wr">
+ <title></title>
+ <prolog>
+  <author>Sharon Burton</author>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+  <critdates>
+   <created date="2015-04-30"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+  <lcSingleSelect id="links2">
+   <lcQuestion>conref可用于：</lcQuestion>
+   <lcAnswerOptionGroup>
+    <lcAnswerOption>
+     <lcAnswerContent>指定相关主题</lcAnswerContent>
+     <lcFeedback>使用reltable（针对内容中的链接）或相关链接（针对外部参考）设置相关主题</lcFeedback>
+    </lcAnswerOption>
+    <lcAnswerOption>
+     <lcAnswerContent>链接到另一部分内容</lcAnswerContent>
+     <lcCorrectResponse/>
+    </lcAnswerOption>
+    <lcAnswerOption>
+     <lcAnswerContent>创建交叉引用</lcAnswerContent>
+     <lcFeedback>对于主题内的交叉引用，请使用&lt;xref&gt;元素。</lcFeedback>
+     
+    </lcAnswerOption>
+   </lcAnswerOptionGroup>
+  </lcSingleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

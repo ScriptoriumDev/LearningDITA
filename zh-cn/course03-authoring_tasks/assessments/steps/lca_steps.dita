@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_hwg_z1b_dt6">
+ <title>Steps</title>
+ <prolog>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey, Scriptorium</author>
+  <critdates>
+   <created date="2015-08-24"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcMatching id="matching_choicetable">
+    <lcQuestion>将左列创建steps涉及到的基本元素与其在strict task中对应的要求位置连线。</lcQuestion>
+    <lcMatchTable id="lcMatchTable_f2n_c5b_kt">
+     <lcMatchingPair>
+      <lcItem>&lt;steps&gt;</lcItem>
+      <lcMatchingItem>&lt;taskbody&gt;元素内</lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>&lt;step&gt;</lcItem>
+      <lcMatchingItem>&lt;steps&gt;元素内</lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>&lt;cmd&gt;</lcItem>
+      <lcMatchingItem>&lt;step&gt;元素内</lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>&lt;info&gt;</lcItem>
+      <lcMatchingItem>&lt;cmd&gt;元素后</lcMatchingItem>
+     </lcMatchingPair>
+    </lcMatchTable>
+   </lcMatching>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

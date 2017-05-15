@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_vdy_j3t_lt">
+    <title>使用合理数量的steps</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+        <critdates>
+            <created date="2015-09-24"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcIntro>
+            <p>在DITA任务主题中，对于steps的数量并没有明文的限制，但是，任务最好不要太长。</p>
+            <p>尽管一个任务的长度完全在于主观的自由选择，但是一个步骤太多、太长的任务可能会让读者不堪重负，尤其是初学者。</p>
+            <p>要给出明确的规则，限制一个任务中能使用的最大步骤数略有困难。一些作者会将steps数量控制至在10以内，但允许少数例外情况。几乎所有人都同意：一个超过20个步骤的任务是很有问题的。 </p>
+            <p>过长的任务还有个负面影响是，读者在执行任务过程中可能难以清楚地知道当前进程。对于一长串相似的步骤就更是如此了。 </p>
+            <p>创作更短的任务：你可能会遇到一些任务，只需要一两步就能完成。目标<i>涵盖</i>一组任务时，这类情况在所难免。尽管大多数的任务可能比较长，在必要时创建只包含一个或两个步骤的任务也绝对没有错。</p>
+        </lcIntro>
+    </learningContentbody>
+</learningContent>
