@@ -7,11 +7,12 @@
    <data name="lesson_id" value="11277"/>
   </topicmeta>
   <topicref href="../../shared/topics/lc_general_housekeeping.dita"/>
-  <topicref href="../topics/foo.dita"/>
+  <topicref href="../topics/lc_topics__maps__and_domains.dita"/>
+  <topicref href="../topics/lc_what_is_a_learning_object_.dita"/>
   <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_learning_overview.dita"
    locktitle="yes">
    <topicmeta>
-    <navtitle>Assessment for Choosing a DITA publishing environment</navtitle>
+    <navtitle>Assessment for Learning and Training Overview</navtitle>
    </topicmeta>
    <topicref href="../assessments/choosing_environment/lca_foo.dita"/>
   </topicref>
