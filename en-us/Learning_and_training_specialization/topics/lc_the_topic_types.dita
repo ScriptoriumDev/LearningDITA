@@ -14,15 +14,15 @@
     </prolog>
     <learningContentbody>
         <lcInstruction id="lcInstruction_dys_pnf_xz">
-            <p>The DITA Learning and Training specialization defines five topic types, which you use to describe the various parts of courses and course development. They are:<ul id="ul_okl_5nf_xz">
-                    <li><b>Planning</b> — contains your overall learning plan. It supports learning needs and goals, instructional design, and learning taxonomies. </li>
-                    <li><b>Overview</b>— contains objectives and prerequisites. It describes the learning objectives, course prerequisites, and intended audience.</li>
-                    <li><b>Content</b>—contains the actual learning conent. </li>
-                    <li><b>Summary</b>—contains review materials. This allows you to review the content and puts it in perspective with your learning objectives.</li>
-                    <li><b>Assessment</b>—contains exercises, quizzes, and tests. The assessment includes several interaction types that you can use to present questions. The interaction types include
-                        true-false, multiple-choice, open question, matching, sequence, and hot-spot (which allows the student to click on the appropriate area of an image).</li>
+            <p>The DITA Learning and Training specialization defines five topic types that you use to describe the various parts of courses and course development. They are:<ul id="ul_okl_5nf_xz">
+                    <li><b>learningPlan</b> — contains your overall learning plan. It supports learning needs and goals, instructional design, and learning taxonomies. </li>
+                    <li><b>learningOverview</b>— contains objectives and prerequisites. It describes the learning objectives, course prerequisites, and intended audience.</li>
+                    <li><b>learningContent</b>—contains the actual learning conent. </li>
+                    <li><b>learningSummary</b>—contains review materials. This allows you to review the content and puts it in perspective with your learning objectives.</li>
+                    <li><b>learningAssessment</b>—contains exercises, quizzes, and tests. The assessment includes several interaction types that you can use to present questions. The interaction types
+                        include true-false, multiple-choice, open question, matching, sequence, and hot-spot (which allows the student to click on the appropriate area of an image).</li>
                 </ul></p>
-            <p>These topic types describe a wide range of information, from planning to content to assessment. Not everyone will use all of these elements. Partly it depends on how rigorous your
+            <p>These topic types describe a wide range of information, from planning to content to assessment. Not everyone will use all of these topic types. Partly it depends on how rigorous your
                 course development is. </p>
         </lcInstruction>
     </learningContentbody>
