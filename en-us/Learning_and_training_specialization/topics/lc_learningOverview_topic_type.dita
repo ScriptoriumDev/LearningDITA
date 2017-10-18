@@ -3,8 +3,8 @@
 <!-- This file is part of the DITA Training project hosted on
      github.com. See the accompanying LICENSE file for
      applicable licenses.-->
-<learningAssessment id="lca_${id}" xml:lang="en-US">
- <title>${caret}</title>
+<learningAssessment id="lc_learningPlan_topic_type" xml:lang="en-US">
+ <title>The learningOverview topic type</title>
  <shortdesc/>
  <prolog>
   <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
@@ -14,7 +14,7 @@
   <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
    Scriptorium</author>
   <critdates>
-   <created date="${date(yyyy-MM-dd)}"/>
+   <created date="2017-09-21"/>
   </critdates>
  </prolog>
  <learningAssessmentbody>
