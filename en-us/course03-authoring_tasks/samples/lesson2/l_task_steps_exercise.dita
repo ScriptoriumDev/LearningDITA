@@ -13,15 +13,14 @@
                     successful.</note>
                 <cmd>Establish implementation goals and metrics.</cmd>
             </step>
-            <step>
+            <step id="step_bpk_cpb_4cb">
                 <cmd>Define roles and responsibilities.</cmd>
-                <stepxmp>
-                    <lines>Roles:
-☐ Education
-☐ Development
-☐ Review
-☐ Approval</lines>
-                </stepxmp>
+                <stepxmp>Roles<ul>
+                        <li>Education</li>
+                        <li>Development</li>
+                        <li>Review</li>
+                        <li>Approval</li>
+                    </ul></stepxmp>
             </step>
             <step>
                 <cmd>Establish timeline and milestones.</cmd>

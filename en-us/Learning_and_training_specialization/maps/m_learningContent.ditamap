@@ -2,20 +2,18 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
   <!-- Looking for a better title. -->
-  <title>Elements for questions and responses</title>
-   <topicref href="../topics/lc_learning-domain_intro.dita">
+  <title>Learning Content</title>
+   <topicref href="../topics/lc_learningContent_intro.dita">
      <topicmeta lockmeta="yes">
        <data name="lesson_id" value="11277"/>
      </topicmeta>
-     <topicref href="../topics/lc_assessment_and_interactions.dita"/>
-     <topicref href="../topics/lc_interaction_types.dita"/>
-     <topicref href="../topics/lc_planning_interactions.dita"/>
-     <topicref href="../topics/lc_assessment_best_practices.dita"/>
-     
+     <topicref href="../topics/lc_learningContent_topic_type.dita"/>
+     <topicref href="../topics/lc_learningContent_elements.dita"/>
+     <topicref href="../topics/lc_learningContent_embedded_topics.dita"/>
      <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_learning_domain.dita"
        locktitle="yes">
        <topicmeta>
-         <navtitle>Assessment for Elements for questions and responses</navtitle>
+         <navtitle>Assessment for Elements for learning content</navtitle>
        </topicmeta>
        <topicref href="../assessments/topic_types/lca_foo.dita"/>
      </topicref>
