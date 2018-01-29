@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningGroupMap PUBLIC "-//OASIS//DTD DITA 1.3 Learning Group Map//EN" "learningGroupMap.rng">
+<learningGroupMap>
+   <title>Feeding Ducks</title>
+   <learningGroup>
+      <learningPlanRef href="lp_feedingducks.dita"/>
+      <learningOverviewRef href="lo_feedingducks.dita"/>
+      <!-- To further divide content, we could add a module-level learningGroup here,
+           but I don't think that's necessary for this content. -->
+      
+      <!-- Lesson 1: Feed Quality-->
+      <learningGroup>
+         <learningOverviewRef href="lo_l1_overview.dita"/>
+         <!-- Lesson 1, topic 1 -->
+         <learningObject>
+            <learningPlanRef href="lp_l1_t1_plan.dita"/>
+            <learningOverviewRef href="lo_l1_t1_overview.dita"/>
+            <learningContentRef href="lc_l1_t1_content1.dita"/>
+            <learningContentRef href="lc_l1_t1_content2.dita"/>
+            <learningSummaryRef href="ls_l1_t1_summary.dita"/>
+            <learningPostAssessmentRef href="la_l1_t1_quiz.dita"/>
+         </learningObject>
+      </learningGroup>
+      <!--
+         Feed Quality
+Feed FormFeeders and waterersNutritional requirementsControlling diseaseAvoiding predation
+         -->
+         
+      <learningSummaryRef href="ls_course_summary.dita"/>
+      <learningPostAssessmentRef href="lg_final_exam.dita" type="learningGroup"/>
+   </learningGroup>
+</learningGroupMap>
