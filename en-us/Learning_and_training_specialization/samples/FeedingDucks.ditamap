@@ -10,15 +10,20 @@
       
       <!-- Lesson 1: Feed Quality-->
       <learningGroup>
-         <learningOverviewRef href="lo_l1_feed_quality.dita"/>
-         <!-- Lesson 1, topic 1 -->
+         <!-- If there were multiple topics under this lesson group, 
+              use the learningOverview to identify objectives for each of the topics. 
+              Not necessary here. -->
+              <!-- <learningOverviewRef href="lo_l1_feed_quality.dita"/>-->
+         <!-- Topic 1 -->
          <learningObject>
-            <learningPlanRef href="lp_l1_t1_plan.dita"/>
-            <learningOverviewRef href="lo_l1_t1_overview.dita"/>
-            <learningContentRef href="lc_l1_t1_content1.dita"/>
-            <learningContentRef href="lc_l1_t1_content2.dita"/>
+            <learningPlanRef href="lp_l1_t1_feed_quality.dita"/>
+            <learningOverviewRef href="lo_l1_t1_feed_quality.dita"/>
+            <learningContentRef href="lc_l1_t1_where_to_buy.dita"/>
+            <learningContentRef href="lc_l1_t1_storage.dita"/>
+            <learningContentRef href="lc_l1_t1_spoiling.dita"/>
+            <learningContentRef href="lc_l1_t1_ingredient_quality.dita"/>
             <learningSummaryRef href="ls_l1_t1_summary.dita"/>
-            <learningPostAssessmentRef href="la_l1_t1_quiz.dita"/>
+            <learningPostAssessmentRef href="lg_l1_t1_quiz.dita" type="learningGroup"/>
          </learningObject>
       </learningGroup>
 
