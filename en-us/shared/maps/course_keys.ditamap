@@ -53,10 +53,17 @@
   </topicmeta>
  </keydef>
 
-<!-- <!-\- Course 7, title. -\->
- <keydef keys="reuse_advanced_url" href="http://www.learningdita.com/courses/intro-to-reuse-in-dita" scope="external" format="html">
+ <!-- Course 7, title. -->
+ <keydef keys="reuse_advanced_url" href="http://www.learningdita.com/courses/advanced-reuse-in-dita" scope="external" format="html">
   <topicmeta>
-   <linktext>Introduction to Reuse</linktext>
+   <linktext>Advanced reuse in DITA</linktext>
   </topicmeta>
- </keydef>-->
+ </keydef>
+ 
+ <!-- Course 8, title. -->
+ <keydef keys="publishing_output_url" href="http://www.learningdita.com/courses/publishing-output-from-dita-sources/" scope="external" format="html">
+  <topicmeta>
+   <linktext>Publishing output from DITA sources</linktext>
+  </topicmeta>
+ </keydef>
 </map>

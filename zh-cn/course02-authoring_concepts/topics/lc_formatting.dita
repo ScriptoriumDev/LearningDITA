@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_hrm_xjh_1t">
+    <title>内容与格式分离</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey, Scriptorium</author>
+        <critdates>
+            <created date="2015-08-24"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>在DITA中创建结构化内容的最大好处之一就是将内容与格式分离。根据结构而不是格式来标注内容，在产生输出时更加灵活。 </p>
+            <p>比如，在创建一段非结构化内容时内心想着纸质排版，在打印时或输出成PDF格式时最奏效，而可能在输出成HTML格式时效果很差或完全行不通。一个结构化的DITA topic的内容即使不包含格式，在多种输出类型中都应该行得通。</p>
+            <p>对于习惯了格式为基础的写作环境（比如桌面排版程序）的写作者而言，他们很有可能乱用DITA标签来尝试着控制文本的呈现形式与风格。根据自己的目的而不是本身功能去使用标签将会降低它们的价值。标签滥用也可能造成不想要的结果。一个乱用的标签可能在一种输出形式达到预期的排版效果，但是将会摧毁该内容在另一种输出方式中的形式和风格。</p>
+            <p>一种标签滥用的形式就是强制换行。不要使用段落元素&lt;p&gt;去控制换行，这将在相应的输出形式中（比如HTML)产生问题。使用&lt;codeblock&gt;元素控制某些内容的换行（比如，代码例子）。</p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

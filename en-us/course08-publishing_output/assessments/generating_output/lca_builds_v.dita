@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningAssessment id="lca_conref_push_requirements">
+ <title>Running a Build</title>
+ <prolog class="- topic/prolog ">
+  <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+   class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+  <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+   class="- topic/author ">Noelle Russell, Scriptorium</author>
+  <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+   class="- topic/author ">Ashley Stant, Scriptorium</author>
+  <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+   class="- topic/author ">Simon Bate, Scriptorium</author>
+  <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+   class="- topic/author ">Bill Swallow, Scriptorium</author>
+  <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+   class="- topic/author ">Jake Campbell, Scriptorium</author>
+  <critdates>
+   <created golive="2017-03-27" date="2017-02-06"/>
+  </critdates>
+ </prolog>
+ 
+ <learningAssessmentbody>
+ 
+  <lcInteraction>
+   <lcSingleSelect id="installingot">
+    <lcQuestion>When running a build in the DITA OT, which parameter displays a log of the build in
+     the command line? (Choose one)</lcQuestion>
+    <lcAnswerOptionGroup>
+     <lcAnswerOption>
+      <lcAnswerContent><tt>-o</tt></lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent><tt>-v</tt></lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent><tt>-i</tt></lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent><tt>-t</tt></lcAnswerContent>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>The <tt>-v</tt> (verbose) parameter displays a log of the build in the
+     command line.</lcFeedbackIncorrect>
+   </lcSingleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

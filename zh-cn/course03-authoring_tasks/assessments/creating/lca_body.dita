@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_hwg_z1b_dt1">
+ <title>Taskbody</title>
+ <prolog>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey, Scriptorium</author>
+  <critdates>
+   <created date="2015-08-24"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcSingleSelect id="lcSingleSelect_eh4_bbb_dt">
+    <lcQuestion>以下哪一元素包含了task topic的实际内容？（单选）</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_fh4_bbb_dt">
+     <lcAnswerOption>
+      <lcAnswerContent>&lt;body&gt;</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>&lt;taskbody&gt;</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>&lt;tasktrunk&gt;</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>&lt;context&gt;</lcAnswerContent>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>&lt;taskbody&gt;元素包含任务主题的实际内容。
+    </lcFeedbackIncorrect>
+   </lcSingleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

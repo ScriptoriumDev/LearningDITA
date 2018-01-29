@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="my_first_task">
+    <title>检查图片来源</title>
+    <shortdesc>本文件包含组成checklist.png检查表的线元素。</shortdesc>
+    <taskbody>
+        <context id="context_ks5_rmh_vw">在截图前关闭所有的标签（Oxygen）。</context>
+        <steps>
+            <step>
+                <cmd>当你最终确定是一只鸭子，在你的指南中记录一下。</cmd>
+                <stepxmp>
+                    <lines>鸭子：
+☒ 丑鸭 
+☐ 绿头鸭
+☐ 棕硬尾鸭
+☐ 北美鸳鸯</lines>
+                </stepxmp>
+                <stepresult><p>现在你将获得一个你可以永远留存的记录</p></stepresult>
+            </step>
+            <stepsection>一旦您认识了这些鸭子，您可以花些时间观察他们的行为。</stepsection>
+            <step>
+                <note>观察鸭子行为时不要惊扰它们，因为有人在时它们表现完全不一样。</note>
+                <cmd>观看鸭子如何互相交流它们吃什么，或是在什么时间、怎么样用嘴整理它们的羽毛</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

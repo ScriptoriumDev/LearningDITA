@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_images_tables_exercise">
+ <title>Supporting marketing with technical content</title>
+ <conbody>
+  <p>Tech comm and marcom have long occupied opposite ends of the content spectrum. The stereotype
+   is that tech comm is text-heavy, dense, and badly formatted whereas marcom is shiny, beautiful,
+   and content-free. From there, the debate just intensifies:</p>
+  <table frame="all" rowsep="1" colsep="1" id="table_ech_1ww_dt">
+   <title>Marcom versus tech comm: the stereotypes</title>
+   <tgroup cols="3">
+    <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+    <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+    <colspec colname="c3" colnum="3" colwidth="1.0*"/>
+    <thead>
+     <row>
+      <entry/>
+      <entry>
+       <p>Marcom</p>
+      </entry>
+      <entry>
+       <p>Tech comm</p>
+      </entry>
+     </row>
+    </thead>
+    <tbody>
+     <row>
+      <entry>
+       <p>Design or automation?</p>
+      </entry>
+      <entry>
+       <p>Design</p>
+      </entry>
+      <entry>
+       <p>Automation</p>
+      </entry>
+     </row>
+     <row>
+      <entry>
+       <p>How much detail?</p>
+      </entry>
+      <entry>
+       <p>As little as possible</p>
+      </entry>
+      <entry>
+       <p>As much as possible</p>
+      </entry>
+     </row>
+     <row>
+      <entry>
+       <p>Assumed impact on revenue</p>
+      </entry>
+      <entry>
+       <p>A lot</p>
+      </entry>
+      <entry>
+       <p>None</p>
+      </entry>
+     </row>
+     <row>
+      <entry>
+       <p>Primary purpose</p>
+      </entry>
+      <entry>
+       <p>Persuade people to buy</p>
+      </entry>
+      <entry>
+       <p>Inform people</p>
+      </entry>
+     </row>
+    </tbody>
+   </tgroup>
+  </table>
+  <p>Give people a friendly interface that lets them quickly narrow down their options and choose
+   the one they want. You don’t have to expose all of the fields in the database—just the ones that
+   help people narrow down their choices.</p>
+  <fig>
+   <title>The product list on the right updates as you make selections on the left</title>
+   <image href="images/configurebetter1.png" id="image_pqx_pww_dt"/>
+  </fig>
+ </conbody>
+</concept>

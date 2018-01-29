@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_ajf_qch_1t">
+    <title>作业和样本文件</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey, Scriptorium</author>
+        <critdates>
+            <created date="2015-08-19"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>现在请下载压缩文件包：<xref keyref="sample_file" format="zip" scope="external">concept_samples.zip</xref>。它包含整个“编写DITA concept类型topic”课程的所有样例文件。提取内容并将其置于易于查找的目录中。</p>
+            <p>在样例文件夹中，你会看到课程中相应课时的文件夹：课时1，课时2，课时3，课时4。</p>
+            <p>在每一个课时文件夹中，你会看到四个DITA文件：</p>
+            <ul id="ul_lx2_fj2_2t">
+                <li>
+                    <p>l_<i>filename</i>_start.dita:内容为空的样例文件，用于学习每一个课时的过程。</p>
+                </li>
+                <li>
+                    <p>l_<i>filename</i>.dita:你完成学习后的样例文件，可用于检查。</p>
+                </li>
+                <li>
+                    <p>l_<i>filename</i>_exercise_start.dita:内容为空的文件，用于完成每一课时最后的练习。</p>
+                </li>
+                <li>
+                    <p>l_<i>filename</i>_exercise.dita:你完成练习后的文件，可用于检查。</p>
+                </li>
+            </ul>
+            <p>每个课程章节都会告诉你练习时需要使用的文件。请在完成每一步后保存文件以免内容丢失。 </p>
+            <p>在完成课程后，为每个要处理的文件创建本地副本。你做着做着发现你的文件与例子不匹配，或者是文件坏掉了，那么你可以做一个全新的副本接着往下做，也可以重头再来。</p>
+            <p>我们将展示每个样例文件的DITA代码。大多数DITA编辑器支持自动添加元素标签或类似的功能（例如，在你输入一个元素的起始标记后，大多数的DITA编辑器会自动添加一个相应的结束标签）。因此你可能不需要从头编写代码我们的演示视频展示了<xref href="http://www.oxygenxml.com/" format="html" scope="external">oXygen XML编辑器</xref>的两个视图的不同之处，一个是将DITA内容更友好地展示给作者的可视化的写作视图，另一个是显示DITA源代码的文本视图。</p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

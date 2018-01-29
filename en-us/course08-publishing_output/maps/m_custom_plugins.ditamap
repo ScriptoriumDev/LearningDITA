@@ -4,17 +4,21 @@
  <title>Custom plugins</title>
  <topicref href="../topics/lc_custom_plugins.dita">
   <topicmeta lockmeta="yes">
-   <data name="lesson_id" value="020917"/>
+   <data name="lesson_id" value="11280"/>
   </topicmeta>
   <topicref href="../topics/lc_why_customize.dita"/>
   <topicref href="../topics/lc_install_custom_plugin.dita"/>
   <topicref href="../topics/lc_update_custom_plugin.dita"/>
   <topicref href="../topics/lc_best_practices.dita"/>
-  <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_using_conditions.dita"
+  <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_custom_plugins.dita"
    locktitle="yes">
    <topicmeta>
     <navtitle>Assessment for Custom plugins</navtitle>
    </topicmeta>
-   <topicref href="../assessments/custom_plugins/lca_assessment_question.dita"/>
+   <topicref href="../assessments/custom_plugins/lca_evaluating.dita"/>
+   <topicref href="../assessments/custom_plugins/lca_updating.dita"/>
+   <topicref href="../assessments/custom_plugins/lca_specs.dita"/>
+   <topicref href="../assessments/custom_plugins/lca_xsl_css.dita"/>
+   <topicref href="../assessments/custom_plugins/lca_best_practices.dita"/>
   </topicref>
  </topicref></map>

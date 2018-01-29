@@ -2,26 +2,92 @@
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <learningContent id="content_pgf_3gt_qt">
-    <title>Testing the DITA Open Toolkit installation</title>
+    <title>Testing the DITA OT installation</title>
     <prolog class="- topic/prolog ">
-        <author type="creator" href="http://easydita.com/" format="html" scope="external"
-            class="- topic/author ">Gretyl Kinsey</author>
-        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
-            class="- topic/author ">Simon Bate</author>
-        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
-            class="- topic/author ">Jake Campbell</author>
-        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
-            class="- topic/author ">Noelle Russell</author>
-        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
-            class="- topic/author ">Ashley Stant</author>
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Noelle Russell, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Ashley Stant, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Bill Swallow, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Jake Campbell, Scriptorium</author>
         <critdates>
-            <created golive="2017-03-06" date="2017-02-10"/>
+            <created golive="2017-03-27" date="2017-02-06"/>
         </critdates>
     </prolog>
+    
     <learningContentbody>
         <lcInstruction>
-            <p>running a simple test build</p>
-            <p>troubleshooting common issues with DITA OT installation, setup, first build</p>
+            <p>Now that you have installed the DITA OT and the required Java Development Kit and set
+                up your folder structure, you’re ready to run your first test build. The test build
+                shows you how the DITA OT transforms DITA source files into output. Because PDF is a
+                common output requirement for many companies that publish DITA content, the test
+                build involves generating PDF output.</p>
+            <p>Follow the instructions below to run a test build and publish a sample PDF file using
+                the DITA OT. Separate instructions are provided for Windows and Mac users.</p>
+            <note>These instructions only apply to the 2.x versions of the DITA OT.</note>
+            <p><xref href="https://youtu.be/p_eBj6e0gBU" format="html" scope="external">Video:
+                    Testing the DITA OT</xref></p>
         </lcInstruction>
     </learningContentbody>
+    <task id="task_q32_qtw_cz">
+        <title>Running a DITA OT test build</title>
+        <taskbody>
+            <steps id="steps_tyl_xtw_cz">
+                <step>
+                    <cmd>Open a command line.</cmd>
+                    <info>
+                        <p><b>On Windows:</b> Click on Start > Run and type <tt>cmd</tt>.</p>
+                        <note>If Run does not appear in the Start menu, type <tt>Run</tt> to search
+                            for it.</note>
+                        <p><b>On Mac:</b> Launch the Terminal application.</p>
+                    </info>
+                </step>
+                <step>
+                    <cmd>In the command line, type <tt>cd</tt> followed by the filepath to your
+                            <b>dita-ot-2.4.4</b> folder.</cmd>
+                    <info>
+                        <note>To avoid typing a filepath, locate the file or folder in Windows
+                            Explorer (on Windows) or the Finder (on Mac), then drag it directly into
+                            the command line.</note>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Type the following command:</cmd>
+                    <info>
+                        <p><b>On Windows:</b></p>
+                        <pre>bin\dita -i [filepath]/sources/ducks/m_ducks.ditamap -f pdf2 -o out/ducks_output -v</pre>
+                        <p><b>On Mac:</b></p>
+                        <pre>./bin/dita -i [filepath]/sources/ducks/m_ducks.ditamap -f pdf2 -o out/ducks_output -v</pre>
+                        <note>Typing <tt>-o out/ducks_output</tt> generates an output folder and
+                            subfolder called <b>out/ducks_output</b> inside the DITA OT
+                            folder.</note>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Press ENTER to run the DITA OT.</cmd>
+                    <info>
+                        <note>The command line displays a log of the DITA OT’s build process.</note>
+                    </info>
+                </step>
+                <step>
+                    <cmd>When the build has finished, look in the <b>ducks_output</b> folder to see
+                        your generated output. You should see a file called
+                        <b>m_ducks.pdf</b>.</cmd>
+                    <info>
+                        <note>If you do not see any output, your build was likely not successful.
+                            This course covers troubleshooting for build failures in a subsequent
+                            lesson.</note>
+                        <p>Keep the file <b>m_ducks.pdf</b> in your <b>ducks_output</b> folder for
+                            use later in this course.</p>
+                    </info>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
 </learningContent>

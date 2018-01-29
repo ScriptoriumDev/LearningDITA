@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_vwq_jlh_rs">
+    <title>通用型topic</title>
+    <shortdesc></shortdesc>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+        <critdates>
+            <created date="2015-07-13"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>所有DITA topic类型都是基于一个单独的通用的topic类型。通用型topic是创作建特定topic类型的基础。通用topic中的许多元素和组织也用于特定类型的topic。 </p>
+            <p>所有DITA topic都具有以下这种基础性结构：  </p>
+            <pre>&lt;topic id="sample"&gt;
+   &lt;title&gt;Topic标题&lt;/title&gt;
+   &lt;shortdesc&gt;简短描述&lt;/shortdesc&gt;
+   &lt;body&gt;
+        <i>（主要元素放在这里）</i>
+  &lt;/body&gt;
+&lt;/topic&gt; </pre>
+            <p>
+                <ul id="ul_wwr_1nh_rs">
+                    <li>&lt;shortdesc&gt;（简短描述）元素通常用2-3句总结来描述topic内容。</li>
+                    <li>&lt;title&gt;是topic中唯一必需的元素。</li>
+                    <li>&lt;body&gt;包含topic的大部分信息。在特定topic类型中，body元素具有相关名称，例如对于概念的&lt;conbody&gt;和对于任务的&lt;taskbody&gt;。</li>
+                </ul>
+            </p>
+            <note>虽然你可以使用通用topic类型来创作内容，但最好使用某个特定topic类型，例如Concept、Task和Reference。 </note>
+            <p>通用topic类型中还有其他元素，但这些是常见的类型。</p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

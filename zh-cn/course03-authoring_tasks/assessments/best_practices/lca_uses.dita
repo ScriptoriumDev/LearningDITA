@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_f33_1kp_wr825">
+ <title>应用（Uses）</title>
+ <prolog>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey, Scriptorium</author>
+  <critdates>
+   <created date="2015-08-28"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcMultipleSelect id="multi_select_substeps">
+    <lcQuestion>在以下哪些情况下，使用子步骤是恰当的：（多选）</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_mxg_4q1_mt">
+     <lcAnswerOption>
+      <lcAnswerContent>任务中含有复杂的步骤</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>任务中的步骤不是同类型的</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>步骤中给用户提供选择</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>针对新用户的步骤</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>在以下情况下使用子步骤较为恰当：任务中含有复杂的步骤、任务中含有不同类型的步骤、专为新用户提供的步骤。给用户提供选项，使用&lt;choices&gt;或&lt;choicetable&gt;元素较恰当。</lcFeedbackIncorrect>
+   </lcMultipleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

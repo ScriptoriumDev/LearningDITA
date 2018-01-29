@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_kkl_rxy_xr">
+    <title>表格运用的最佳实践案例</title>
+    <shortdesc/>
+    <prolog>
+        <author>Sharon Burton</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+        <critdates>
+            <created date="2015-05-04"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <ul id="ul_zwh_qhd_ss">
+                <li>在表格中，总是将&lt;entry&gt;中的内容包裹在&lt;p&gt;标签内，否则表格中的内容可能会变成意想不到的格式。 </li>
+                <li>虽然DITA标准本身允许嵌套表格，但嵌套表格是一种Bad Idea™。 </li>
+                <li>在组织表格内容时，尽可能让表格包含更多行，而不是更多列。在输出内容时，分页问题可能会将多列展示成意想不到的样子。 </li>
+                <li>在许多文字处理工具中，人们使用隐形表格来直观地呈现内容，比如缩进列表。在DITA里千万不能这么做，否则会导致意外的结果。 </li>
+                <li>要考虑表格里的内容被本地化后是否放得下。如果可以的话，设计内容时，要考虑预留可增加到40％的文本扩展空间。 </li>
+                <li>DITA标准允许图形存在于单元格里。但是，在大多数情况下，最好将这些图形限制为单元格中的小图标。 </li>
+                <li>创建表格时要考虑到输出样式。在小屏幕上呈现表格，不同设备所呈现出的表格差异很大（并且难以阅读），例如移动设备。 </li>
+                <li>在某些情况下，您可能需要考虑使用其他元素，例如定义列表，可以作为表或词汇表样式列出，具体取决于目标输出。 </li>
+            </ul>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

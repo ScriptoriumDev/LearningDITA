@@ -2,28 +2,81 @@
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <learningContent id="content_pgf_3gt_qt">
-    <title>Commands for generating output</title>
+    <title>DITA OT commands and parameters</title>
     <prolog class="- topic/prolog ">
-        <author type="creator" href="http://easydita.com/" format="html" scope="external"
-            class="- topic/author ">Gretyl Kinsey</author>
-        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
-            class="- topic/author ">Simon Bate</author>
-        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
-            class="- topic/author ">Jake Campbell</author>
-        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
-            class="- topic/author ">Noelle Russell</author>
-        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
-            class="- topic/author ">Ashley Stant</author>
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Noelle Russell, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Ashley Stant, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Bill Swallow, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Jake Campbell, Scriptorium</author>
         <critdates>
-            <created golive="2017-03-06" date="2017-02-10"/>
+            <created golive="2017-03-27" date="2017-02-06"/>
         </critdates>
     </prolog>
+    
     <learningContentbody>
         <lcInstruction>
-            <p>list/define the commands most commonly used to generate output (borrow from Simon's
-                documentation on running the DITA OT)</p>
-            <p>discuss RUNOT files and how they can help with publishing</p>
-            <p>(we will provide RUNOT files for generating PDF and HTML output)</p>
+            <p>In the previous lesson, you tested the DITA OT by entering the following command into
+                the command line:</p>
+            <p><b>On Windows:</b></p>
+            <pre>bin\dita -i [filepath]/sources/m_ducks.ditamap -f pdf2 -o [output-dir] -v</pre>
+            <p><b>On Mac:</b></p>
+            <pre>./bin/dita -i [filepath]/sources/m_ducks.ditamap -f pdf2 -o [filepath]/outputs/m_ducks_output -v</pre>
+            <p>These are the standard commands and parameters of a basic DITA OT build. Here is what
+                these commands and parameters mean:</p>
+            <ul id="ul_dx2_csf_2z">
+                <li>
+                    <p><b>bin&#92;dita</b> (Windows) or <b>./bin/dita</b> (Mac) is the command that
+                        generates output from DITA</p>
+                </li>
+                <li>
+                    <p><b>-i</b> (the input parameter) indicates that the filepath that follows it
+                        to a DITA map or file needs to be transformed into output.</p>
+                </li>
+                <li>
+                    <p><b>-f</b> (the transtype parameter) indicates that the string that follows it
+                        is the output transformation type (also called the “transtype”). Some common
+                        transtype values include “pdf2” for PDF output, “xhtml” for HTML output, and
+                        “webhelp” for WebHelp output.</p>
+                </li>
+                <li>
+                    <p><b>-o</b> (the output parameter) indicates where to store the generated
+                        output. This parameter is optional; if you do not use it to specify an
+                        output directory, the output is placed in the DITA OT’s default “out”
+                        folder.</p>
+                </li>
+                <li>
+                    <p><b>-v</b> (the verbose parameter) indicates verbose output, which displays a
+                        log of the DITA OT build in the command window. This parameter is optional,
+                        but it is useful to watch the DITA OT run in realtime to help troubleshoot
+                        errors.</p>
+                </li>
+            </ul>
+            <p>You can use additional parameters to add more specifcations about the build you’re
+                running. To explore all the options available to you, see the <xref
+                    href="http://www.dita-ot.org/2.4/parameters/index.html" format="html"
+                    scope="external">DITA Open Toolkit Parameter Reference</xref>.</p>
+            <draft-comment author="gretylkinsey">
+                <p>A RUNOT file is a series of commands stored in an XML file. RUNOT files help save
+                    time for those who need to run numerous test builds. Instead of entering each
+                    command into the command or Terminal window, you can simply enter the
+                    following:</p>
+                <pre>(RUNOT command)</pre>
+            </draft-comment>
+            <draft-comment author="gretylkinsey">
+                <p>We have provided RUNOT files in the samples folder for use with the rest of the
+                    exercises in this course. (are we still planning to do this? or does it make
+                    more sense to just provide the commands since they’re only doing simple builds?
+                    I would argue against RUNOT files since it will probably take more effort to
+                    tell people how to edit them for the input/output)</p>
+            </draft-comment>
         </lcInstruction>
     </learningContentbody>
 </learningContent>

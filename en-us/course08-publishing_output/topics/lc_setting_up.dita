@@ -1,40 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="lc_creating_a_map">
-    <title><b id="docs-internal-guid-5ab6b104-1e58-2b59-d2cc-026179f07938">Setting up your
+    <title><b id="docs-internal-guid-5ab6b104-1e58-2b59-d2cc-026179f07938">Setting up your DITA
             publishing environment</b></title>
     <prolog class="- topic/prolog ">
-        <author type="creator" href="http://easydita.com/" format="html" scope="external"
-            class="- topic/author ">Gretyl Kinsey</author>
-        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
-            class="- topic/author ">Simon Bate</author>
-        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
-            class="- topic/author ">Jake Campbell</author>
-        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
-            class="- topic/author ">Noelle Russell</author>
-        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
-            class="- topic/author ">Ashley Stant</author>
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Noelle Russell, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Ashley Stant, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Bill Swallow, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Jake Campbell, Scriptorium</author>
         <critdates>
-            <created golive="2017-03-06" date="2017-02-06"/>
+            <created golive="2017-03-27" date="2017-02-06"/>
         </critdates>
     </prolog>
+    
     <learningContentbody>
         <lcObjectives>
             <lcObjectivesGroup id="lcObjectivesGroup_tvl_vbh_1t">
-                <lcObjective>Download and install the DITA Open Toolkit (OT).</lcObjective>
+                <lcObjective>Download and install the DITA OT</lcObjective>
                 <lcObjective>Set up a folder structure for your source and output files that works
-                    with the DITA OT.</lcObjective>
-                <lcObjective>Troubleshoot common problems with installing the DITA OT.</lcObjective>
+                    with the DITA OT</lcObjective>
+                <lcObjective>Run a test build with the DITA OT</lcObjective>
             </lcObjectivesGroup>
         </lcObjectives>
         <lcDuration>
             <lcTime value="45"/>
         </lcDuration>
         <lcIntro>
-            <p>The DITA Open Toolkit is a free, open-source, standalone publishing environment for
-                DITA content. This lesson shows how to install the DITA Open Toolkit and set it up
-                to generate output.</p>
+            <p>The DITA OT is an open-source, standalone publishing environment for DITA content.
+                This lesson shows how to download and install the DITA OT and set it up to generate
+                output.</p>
         </lcIntro>
     </learningContentbody>
-    <related-links/>
+    <related-links>
+        <link href="http://www.dita-ot.org/2.0/readme/DITA-readme.html" format="html">
+            <linktext>DITA Open Toolkit Overview</linktext>
+        </link>
+        <link href="http://www.dita-ot.org/2.0/quickstartguide/installing-client.html"
+            format="html">
+            <linktext>Installing the distribution package</linktext>
+        </link>
+        <link href="http://www.dita-ot.org/2.0/quickstartguide/using-dita-command.html" format="html">
+            <linktext>Building output using the dita command</linktext>
+        </link>
+        <link href="http://www.dita-ot.org/2.0/readme/troubleshooting-overview.html" format="html">
+            <linktext>Error messages and troubleshooting</linktext>
+        </link>
+    </related-links>
 </learningContent>

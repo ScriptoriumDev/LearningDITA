@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_j2z_xnx_kt">
+    <title>选项表</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey, Scriptorium</author>
+        <critdates>
+            <created date="2015-09-21"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcIntro>
+            <p>选项表是一个两列的表格。每行中，第一列包含一个选项（通常是关键字、命令行参数或变量值）。第二列包含该选项的详细描述，可包含多个段落、列表甚至是图片。详细描述可以包含多个段落、列表或图。 </p>
+            <p>&lt;choicetable&gt;内可包含以下元素：</p>
+            <simpletable frame="all" relcolwidth="1.0* 1.0*" id="simpletable_rwy_l3n_2t">
+                <strow>
+                    <stentry>
+                        <p>&lt;chhead&gt;</p>
+                    </stentry>
+                    <stentry>
+                        <p>&lt;choicetable&gt;元素行的表头行。&lt;chhead&gt;是可选元素，包括&lt;choptionhd&gt;和&lt;chdeschd&gt;。每个&lt;choicetable&gt;中只能有一个&lt;chhead&gt;。</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;choptionhd&gt;</p>
+                    </stentry>
+                    <stentry>
+                        <p>选项表选项列的表头文本。最佳实践认为这些文字需要包含在段落元素&lt;p&gt;当中。</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;chdeschd&gt;</p>
+                    </stentry>
+                    <stentry>
+                        <p>选项表描述列的表头文本。最佳实践认为这些文字需要包含在段落元素&lt;p&gt;当中。</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;chrow&gt;</p>
+                    </stentry>
+                    <stentry>
+                        <p>选项表的正文行。&lt;chrow&gt;元素包含&lt;choption&gt;和&lt;chdesc&gt;元素。每个&lt;choicetable&gt;中可以有一个或多个&lt;chrow&gt;。</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;choption&gt;</p>
+                    </stentry>
+                    <stentry>
+                        <p>选项表中一行的选项文本。最佳实践认为这些文字需要包含在段落元素&lt;p&gt;当中。</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;chdesc&gt;</p>
+                    </stentry>
+                    <stentry>
+                        <p>选项表中一行的描述文本。最佳实践认为这些文字需要包含在段落元素&lt;p&gt;当中。在&lt;chdesc&gt;元素中可以有多个元素。</p>
+                    </stentry>
+                </strow>
+            </simpletable>
+            <p><xref href="https://youtu.be/7E7RYKHQ6C4" format="html" scope="external">视频：在DITA任务</xref>主题中创建一个选项表，展示如何使用<xref href="http://www.oxygenxml.com/" format="html" scope="external">oXygen XML Editor</xref>的选项表向导。</p>
+        </lcIntro>
+    </learningContentbody>
+    <task id="task_ers_h4x_kt">
+        <title/>
+        <taskbody>
+            <steps id="steps_etg_j4x_kt">
+                <step>
+                    <cmd>继续使用文件l_task_start.dita。</cmd>
+                </step>
+                <step>
+                    <cmd>下面的&lt;step&gt;元素中包含了&lt;choices&gt;元素，请新建一个带&lt;cmd&gt;的step，并添加如下所示的文本：</cmd>
+                    <stepxmp>
+                        <pre><ph outputclass="newchanged">&lt;step&gt;
+   &lt;cmd&gt;找一些好的光学镜&lt;/cmd&gt;
+&lt;/step&gt;
+</ph></pre>
+                    </stepxmp>
+                    <info/>
+                </step>
+                <step>
+                    <cmd>在&lt;cmd&gt;元素之后，添加一个&lt;choicetable&gt;及它所有的子元素：</cmd>
+                    <stepxmp>
+                        <pre>&lt;step&gt;
+   &lt;cmd&gt;找一些好的光学镜&lt;/cmd&gt;
+<ph outputclass="newchanged">   &lt;choicetable&gt;
+     &lt;chrow&gt;
+         &lt;choption&gt;&lt;/choption&gt;
+         &lt;chdesc&gt;&lt;/chdesc&gt;
+     &lt;/chrow&gt;
+     &lt;chrow&gt;
+         &lt;choption&gt;&lt;/choption&gt;
+         &lt;chdesc&gt;&lt;/chdesc&gt;
+     &lt;/chrow&gt;
+   &lt;/choicetable&gt;</ph>
+&lt;/step&gt;
+</pre>
+                    </stepxmp>
+                    <info>在&lt;choicetable&gt;每行中，你需要一个&lt;chrow&gt;元素。表行中包含两个元素，并且都是必须元素：包含选项文本的&lt;choption&gt;元素和包含描述文本的&lt;chdesc&gt;元素。标准应用中，&lt;choption&gt;仅包含少数单词（通常是一个单词），而&lt;chdesc&gt;可包含多个句子，甚至是段落（即&lt;p&gt;元素）。 </info>
+                </step>
+                <stepsection>&lt;choicetable&gt;有一个可选表头（&lt;chhead&gt;），借此你能为选项表的两列添加标签。</stepsection>
+                <step>
+                    <cmd>在选项表中第一行前，添加一个&lt;chhead&gt;元素及其子元素，如下所示。</cmd>
+                    <stepxmp>
+                        <pre>&lt;step&gt;
+   &lt;cmd&gt;找一些好的光学镜&lt;/cmd&gt;
+   &lt;choicetable&gt;
+<ph outputclass="newchanged">     &lt;chhead&gt;
+         &lt;choptionhd&gt;&lt;/choptionhd&gt;
+         &lt;chdeschd&gt;&lt;/chdeschd&gt;
+     &lt;/chhead&gt;</ph>
+     &lt;chrow&gt;
+         &lt;choption&gt;&lt;/choption&gt;
+         &lt;chdesc&gt;&lt;/chdesc&gt;
+     &lt;/chrow&gt;
+     ...
+   &lt;/choicetable&gt;
+&lt;/step&gt;
+</pre>
+                    </stepxmp>
+                    <info>&lt;choptionhd&gt;提供选项列的表头信息，&lt;chdeschd&gt;提供描述列的表头信息。 </info>
+                </step>
+                <step>
+                    <cmd>为&lt;chhead&gt;添加内容及其子元素，如下所示。</cmd>
+                    <stepxmp>
+                        <pre>...
+<ph outputclass="newchanged">&lt;chhead&gt;
+   &lt;choptionhd&gt;
+      &lt;p&gt;Type&lt;/p&gt;
+   &lt;/choptionhd&gt;
+   &lt;chdeschd&gt;
+      &lt;p&gt;Advantages&lt;/p&gt;
+   &lt;/chdeschd&gt;
+&lt;/chhead&gt;
+</ph>...</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>为&lt;chrow&gt;添加内容及其子元素，如下所示。</cmd>
+                    <stepxmp>
+                        <pre>...
+<ph outputclass="newchanged">&lt;chrow&gt;
+   &lt;choption&gt;
+      &lt;p&gt;双筒望远镜&lt;/p&gt;
+   &lt;/choption&gt;
+   &lt;chdesc&gt;
+      &lt;p&gt;视野宽广，可快速观察&lt;/p&gt;
+   &lt;/chdesc&gt;
+&lt;/chrow&gt;
+</ph>...</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>在&lt;chrow&gt;结束标签后面添加一个新的&lt;chrow&gt;元素，并添加如下所示的内容。</cmd>
+                    <stepxmp>
+                        <pre>&lt;choicetable&gt;
+...
+&lt;/chrow&gt;
+<ph outputclass="newchanged">&lt;chrow&gt;
+   &lt;choption&gt;
+      &lt;p&gt;检测范围&lt;/p&gt;
+   &lt;/choption&gt;
+   &lt;chdesc&gt;
+      &lt;p&gt;更高的放大倍数，更好的光收集&lt;/p&gt;
+   &lt;/chdesc&gt;
+&lt;/chrow&gt;
+</ph>&lt;/choicetable&gt;</pre>
+                    </stepxmp>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

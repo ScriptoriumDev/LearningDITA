@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_dgl_qc1_wr_b">
+ <title>编号列表</title>
+ <prolog>
+  <author format="html" href="http://www.scriptorium.com" scope="external">Simon Bate, Scriptorium</author>
+  <critdates>
+   <created date="2015-04-23"/>
+   <revised modified="2015-05-15"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcTrueFalse id="lcTrueFalse_axs_bd3_rs">
+    <lcQuestion>有序列表（&lt;ol&gt;）上使用的标签序列由主题作者决定。</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_bxs_bd3_rs">
+     <lcAnswerOption>
+      <lcAnswerContent>对</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>错</lcAnswerContent>
+      <lcCorrectResponse name="lcCorrectResponse" value="lcCorrectResponse"/>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>标签序列取决于样式列表在输出生成器中输出时时间的先后顺序。 </lcFeedbackIncorrect>
+   </lcTrueFalse>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

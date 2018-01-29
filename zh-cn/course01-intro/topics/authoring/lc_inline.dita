@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_xtm_jg2_cs">
+    <title>块元素和内联元素</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+        <critdates>
+            <created date="2015-05-20"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>把内容和格式分开可能是你学习XML的第一件事。</p>
+            <p>但是，在一些情况下，格式内置于DITA/XML/HTML内容本身。块元素与内联元素之间的区别有以下几种情况：</p>
+            <p><i>块元素</i>是一个段落级的元素，比如&lt;p&gt;标记（段落），&lt;li&gt;（列表项）或者&lt;codeblock&gt;（软件代码）。一般来说，块元素在页面上与其前后的信息中垂直分离。因此，如果在一行中有两个&lt;p&gt;标记，则在呈现信息时，它们以换行符分隔。注意，XML中输入任何换行符都是无效的。</p>
+            <pre>&lt;p&gt;This is a paragraph.&lt;/p&gt;&lt;p&gt;A second paragraph. &lt;/p&gt;</pre>
+            <p>结果，在oXygen的编辑视图是这样呈现的：</p>
+            <image placement="break" base="2015/07" href="../../media/authoring/parabreaks.png" id="image_z1k_rsl_2s" />
+            <p><i>内联元素</i>是一个在段落中提供标记的元素，比如&lt;tm&gt;（商标）、&lt;i&gt;（斜体）、&lt;xref&gt;（交叉引用），或者&lt;term&gt;（术语）。默认情况下，内联元素不会导致内容换行。</p>
+            <pre>&lt;p&gt;一个内联元素&lt;i&gt;不会&lt;/i&gt;导致换行。&lt;/p&gt;
+&lt;p&gt;XML中的换行
+   &lt;i&gt;不会&lt;/i&gt;
+体现在输出格式中。&lt;/p&gt;</pre>
+            <p>你看编辑视图就知道oXygen会忽略代码中的换行符：</p>
+            <image placement="break" base="2015/07" href="../../media/authoring/linebreaks.png" id="image_gn1_zxl_2s" />
+            <p>XML本身并不会区分块元素和内联元素。它们使用相同的标记，所以你必须知道哪些元素是块元素，哪些是内联元素，以及了解它们会如何呈现信息。内联元素类似于文本处理工具中的字符样式。但是，还有其他内联元素，例如以不同方式处理的&lt;fn&gt;（脚注）和&lt;indexterm&gt;（索引条目）。例如，处理&lt;indexterm&gt;条目以创建书籍后页的索引。&lt;indexterm&gt;的文本内容通常不会出现在内联元素出现的位置。</p>
+            <pre>&lt;p&gt;一个内联元素&lt;indexterm&gt;内联元素&lt;/indexterm&gt;&lt;i&gt;不会&lt;/i&gt;导致换行。&lt;/p&gt;</pre>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

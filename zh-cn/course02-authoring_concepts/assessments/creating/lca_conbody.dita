@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_bfv_z2p_dt">
+ <title>Conbody</title>
+ <prolog>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+  <critdates>
+   <created date="2015-08-26"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcTrueFalse id="link8">
+    <lcQuestion>&lt;conbody&gt;元素包含段落，列表以及其他concept类型topic的主要组成部分。</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_bmt_bfp_dt">
+     <lcAnswerOption>
+      <lcAnswerContent>错</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>对</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>这句话是正确的：&lt;conbody&gt;元素包含concept类型topic中的所有实际内容。 </lcFeedbackIncorrect>
+   </lcTrueFalse>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_f33_1kp_wr4">
+ <title></title>
+ <prolog>
+  <author>Sharon Burton</author>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+  <author>Simon Bate, Scriptorium</author>
+  <critdates>
+   <created date="2015-04-30"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+  <lcSingleSelect id="links6">
+   <lcQuestion>Conref允许你：</lcQuestion>
+   <lcAnswerOptionGroup>
+    <lcAnswerOption>
+      <lcAnswerContent>创建交叉引用</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>重用内容</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+    <lcAnswerOption>
+      <lcAnswerContent>创建条件文本</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>指明内容可以被重用 </lcAnswerContent>
+     </lcAnswerOption>
+   </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>使用&lt;xref&gt;元素来创建交叉引用。使用过滤属性（受众群体、平台和产品）创建条件文本。用id属性定义可以被重用的内容（通过使用来自另一元素的conref）。 </lcFeedbackIncorrect>
+  </lcSingleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

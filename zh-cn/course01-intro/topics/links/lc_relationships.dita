@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="links2">
+    <title>关系表</title>
+    <prolog>
+        <author>Sharon Burton</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+        <critdates>
+            <created date="2015-04-28"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+    <lcInstruction><p>关系表或reltable用来描述非顺序或非层次化的topic关系。Reltable是map文件的一部分，它可以出现在map中的任何位置，但一般是在主map的末尾添加reltable时用到。关系表的每一行包含链接到相关topic的topicref元素。 </p><p>这个例子就是关于reltable的，在有这样的reltable行（和relable标题行）的表格里，表格列的内容包含用于topicref的概念、参考和任务信息。此处的行包含相关topic的topicref。
+                </p><image href="../../media/links/reltable_example.png" id="image_mj2_dj2_ss" base="2015/07" /><p>当通过DITA Open Toolkit生成输出时，reltable中描述的关系用于创建指向相关topic的链接列表。在默认HTML输出中，reltable条目在每个主题结尾处用来创建“相关主题”的部分。</p><p>在这里显示的relable行中：</p><ul id="ul_mxk_xj2_ss">
+                <li>Concept类型的topic文件c_about_ducks.dita包含指向r_breeedsofducks.dita、r_goodbreedsforpets.dita和t_feeding.dita的相关链接。</li>
+                <li>Reference类型的topic文件r_breedsofducks.dita包含指向c_about_ducks.dita、r_goodbreedsforpets.dita和t_feeding.dita的相关链接。</li>
+                <li>Reference类型的topic文件r_goodbreedsforpets.dita包含指向c_about_ducks.dita、r_breedsofducks.dita和t_feeding.dita的相关链接。</li>
+                <li>Task类型的topic文件t_feedng.dita包含指向c_about_ducks.dita、r_breedsofducks.dita和r_goodbreedsforpets.dita的相关链接。</li>
+            </ul><note>为了说明更大的概念，本示例包含一个简化：对于r_breedsofducks.dita和r_goodbreedsforpets.dita相互间的链接，包含这两个链接的单元格必须将它们标识为一个“family”。对于关系表里单元格的属性问题，在之后的课程中将会详细描述。 </note><p>Reltable对关系的解析通常是<i>不会</i>显示在写作主题里的。</p><p>视频：<xref href="https://www.youtube.com/watch?v=vMUxQpQvTZg" format="html" scope="external">关于DITA关系表（Reltable）的概述</xref>
+            </p><p>刚开始使用reltable是简单的。随后它可能变得非常复杂。</p><p>由于以下因素，在使用链接时，reltable优先于map文件里的related-links或xref：</p><ul id="ul_twh_tkp_wr">
+                <li>当前的map文件会分析reltable中的topicref。如果reltable里的一个链接所指向的文件并非包含在map文件里，那么它就不会在输出中生成链接。这就避免了可能由related-links和xref问题所导致的链接断开的窘境。 </li>
+                <li>reltable更容易维护，然后嵌入相关链接。reltable中的每一行都可以包含多个topic，并读取它们的相互关系。因此，如果你有8个关联的topic，在reltable中创建一行，列出这8个topic要更为容易一些。这样好过于在8个topic中创建8个略有不同的链接列表（共有8×7或56个链接）。如果需要从列表中删除一个topic，则在reltable里做一次变动就行了，而不需要在文件里做7次更改。</li>
+            </ul></lcInstruction>
+    </learningContentbody>
+  
+</learningContent>
