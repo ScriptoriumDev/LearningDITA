@@ -72,7 +72,7 @@
                         title.</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
-&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+&lt;!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 &lt;reference id="my_first_ref">
 <ph outputclass="newchanged">   &lt;title>tNav&lt;/title></ph>
 
@@ -84,7 +84,7 @@
                     <info>The &lt;refbody> element contains all the actual content in the reference. </info>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
-&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+&lt;!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 &lt;reference id="my_first_ref">
    &lt;title>tNav&lt;/title>
    <ph outputclass="newchanged">&lt;refbody>
@@ -98,7 +98,7 @@
                         to it as shown.</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
-&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+&lt;!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 &lt;reference id="my_first_ref">
    &lt;title>tNav&lt;/title>
    &lt;refbody>

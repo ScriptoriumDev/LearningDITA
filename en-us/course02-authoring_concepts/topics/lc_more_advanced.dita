@@ -137,8 +137,8 @@ You can also offer your database to users as a download.&lt;/p></ph>
                         this topic to rethink the decision to offer a download.</info>
                 </step>
                 <step>
-                    <cmd>At the end of the &lt;section> element, add a &lt;required-cleanup> element
-                        and add content to it as shown in the following example:</cmd>
+                    <cmd>At the end of the &lt;section> element content (before the &lt;/section> close tag), add a &lt;required-cleanup> element and add content to it as shown in the following
+                        example:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
@@ -154,11 +154,9 @@ duck database.&lt;/p>
 &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
-                    <info>In this example, you have surrounded the &lt;p> element with the
-                        &lt;required-cleanup> element to indicate that someone must move it to a
-                        valid position (such as inside the &lt;section> element) or re-tag it with a
-                        valid element (such as the &lt;example> element). Otherwise, you will not be
-                        able to produce output because of the presence of invalid elements. </info>
+                    <info>In this example, you have surrounded the &lt;p> element with the &lt;required-cleanup> element to indicate that someone must move it to a valid position (such as inside the
+                        &lt;section> element) or re-tag it with a valid element (such as the &lt;example> element). Otherwise, you will not be able to produce output because of the presence of invalid
+                        elements. </info>
                 </step>
                 <step>
                     <cmd>Check your file lesson4/l_concept_advanced_start.dita against the sample file
