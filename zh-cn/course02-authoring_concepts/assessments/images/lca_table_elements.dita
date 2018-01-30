@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_ynq_lvx_dt">
+ <title>table元素</title>
+ <prolog>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+  <critdates>
+   <created date="2015-08-24"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcMatching id="lcMatching_bvn_pvx_dt">
+    <lcQuestion>找出所有与描述相符合的table元素</lcQuestion>
+    <lcMatchTable id="lcMatchTable_cvn_pvx_dt">
+     <lcMatchingPair>
+      <lcItem>&lt;title&gt;</lcItem>
+      <lcMatchingItem>表格标题</lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>&lt;tgroup&gt;</lcItem>
+      <lcMatchingItem>表格的主要内容</lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>&lt;colspec&gt;</lcItem>
+      <lcMatchingItem>列信息</lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>&lt;thead&gt;</lcItem>
+      <lcMatchingItem>表格的标题行</lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>&lt;tbody&gt;</lcItem>
+      <lcMatchingItem>表格的正文行</lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>&lt;row&gt;</lcItem>
+      <lcMatchingItem>表格中的行</lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>&lt;entry&gt;</lcItem>
+      <lcMatchingItem>单元格内容</lcMatchingItem>
+     </lcMatchingPair>
+    </lcMatchTable>
+   </lcMatching>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

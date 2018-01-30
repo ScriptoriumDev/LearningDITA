@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="content_pgf_3gt_qt">
+    <title>Publishing with a component content management system (CCMS)</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Noelle Russell, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Ashley Stant, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Bill Swallow, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Jake Campbell, Scriptorium</author>
+        <critdates>
+            <created golive="2017-03-27" date="2017-02-06"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction><p>A component content management system, or CCMS, is a software system that stores content and
+                manages it at the topic or component level rather than at the document level. This
+                makes a CCMS an ideal way to manage XML content. There are many CCMS options
+                designed specifically for DITA content.</p>
+            <fig><title>Overview of a typical CCMS</title><image href="images/ccms.png" width="500px" base="2017/03"
+                id="image_atz_qlq_fz"/></fig><p>Different systems offer different sets of features; however, some features are common across
+                almost all systems. Most CCMS options will connect with authoring tools (such as
+                oXygen) and publishing tools (such as DITA OT plugins and rendering engines for PDF
+                output). CCMS systems store DITA topics and maps and keep track of the content
+                development workflow, including authoring, review, editing, and publishing.</p><p>Your best option for publishing may be with a CCMS if one or more of the following circumstances
+                apply to you:</p><ul
+                id="ul_r2t_pm4_cz">
+                <li><b>Large content volume.</b> If you have thousands of pages of content
+                    throughout many different documents, a CCMS will help make content storage and
+                    publishing easier. Some systems let you choose different types of installations
+                    at different price levels based on the number of topics you have. The CCMS will
+                    help you keep track of all of your DITA maps and topics and the updates you’ve
+                    made to them, which is especially helpful if you update frequently. A CCMS
+                    allows you to set up automatic output builds—for example, nightly, weekly, or
+                    monthly—to ensure that your published content is always up to date.</li>
+                <li><b>Multiple outputs.</b> The more outputs you need to produce, the more helpful
+                    a CCMS will be for publishing. Using a standalone DITA OT or publishing with
+                    oXygen is reasonable if you only need to generate two different PDF outputs, for
+                    example. If you need five PDF outputs, one HTML output, and two EPUB outputs, it
+                    makes more sense to use the automated publishing capabilities of a CCMS.</li>
+                <li><b>Many content creators.</b> A large content development team can benefit from
+                    the robust workflow management provided by a CCMS. The CCMS keeps track of every
+                    step of the content lifecycle, which helps content creators with version
+                    control, reviews, and approvals. The more writers, contributors, and editors you
+                    have, the more a CCMS can improve the efficiency of your content workflow.</li>
+                <li><b>Reuse and localization.</b> Managing reuse manually without support from
+                    tools is time-consuming and costly. If you’re reusing a large percentage of your
+                    content, you probably have a business case for working in a CCMS. If you’re also
+                    localizing content for other regions, your business case is even stronger.</li>
+            </ul>
+            <draft-comment author="gretylkinsey">
+                <note>LearningDITA might cover the use of a CCMS for DITA content creation in more
+                    detail in future courses.</note>
+            </draft-comment></lcInstruction>
+    </learningContentbody>
+</learningContent>

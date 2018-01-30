@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_hrm_xjh_1t_a">
+    <title>创建一个新的concept</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey, Scriptorium</author>
+        <critdates>
+            <created date="2015-08-24"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>concept类型topic包含一些基础DITA元素，例如段落、列表、图片、表格等。这些元素大部分也可用于其他topic类型（task和reference）。唯一的例外是&lt;conbody&gt;元素，它是concept特有的。</p>
+            <p>一个concept类型的topic必须至少包含一个根元素&lt;concept&gt;（id属性必须设置）以及根元素包含的&lt;title&gt;元素。 </p>
+            <p>在&lt;title&gt;元素后以及可选的&lt;shortdesc&gt;元素或&lt;abstract&gt;元素后，&lt;conbody&gt;元素包含自身概念。 </p>
+            <p>&lt;conbody&gt;元素的内容模型是开放的。意思是&lt;conbody&gt;中的元素无需遵守严格顺序。只要一个元素被包含在&lt;conbody&gt;中，它可以任何顺序出现。但是&lt;section&gt;元素和&lt;example&gt;元素是例外，它们之后只能出现其他&lt;section&gt;元素或&lt;example&gt;元素，或者&lt;conbodydiv&gt;元素。</p>
+            <p>视频：<xref href="https://www.youtube.com/watch?v=ebFdmsp4QAE" format="html" scope="external">创建一个DITA concept</xref></p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_i3g_jkh_1t">
+        <title/>
+        <taskbody>
+            <steps id="steps_f5k_kkh_1t">
+                <step>
+                    <cmd>复制文件lesson1/l_new_concept_start.dita，并在编辑器中打开这个文件。</cmd>
+                    <info>
+                        <note>
+                            <p>使用DITA文本编辑器时，需要确保你使用的是文本模式而不是作者模式或视觉模式。</p>
+                        </note>
+                    </info>
+                    <stepxmp>
+                        <p>请参见以下示例：</p>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"&gt;
+&lt;concept id="my_first_concept"&gt;
+&lt;title&gt;xyz&lt;/title&gt;
+&lt;/concept&gt;</pre>
+                    </stepxmp>
+                    <info>
+                        <p>第一行（以<tt>&lt;?xml</tt>开头）是XML声明，是所有XML文件的标准部分。</p>
+                        <p>第二行DOCTYPE声明表明该文件为concept类型的topic。 </p>
+                        <p>第三行是&lt;concept&gt;元素的开始标签，该元素使用唯一ID "my_first_concept"。</p>
+                        <p>第四行&lt;title&gt;元素包含此topic的标题。</p>
+                        <p>第五行使用“结束标签（closing tag）”&lt;/concept&gt;显示&lt;concept&gt;元素结束。</p>
+                    </info>
+                </step>
+                <step>
+                    <cmd>在&lt;title&gt;元素中，可修改标题文字，请参见以下示例。</cmd>
+                    <info>
+                        <note>
+                            <p>在元素中编辑时，在开始标签和结束标签中间插入内容。</p>
+                        </note>
+                    </info>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"&gt;
+&lt;concept id="my_first_concept"&gt;
+<ph outputclass="newchanged">   &lt;title&gt;野鸭种类&lt;/title&gt;</ph>
+&lt;/concept&gt;</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>在&lt;title&gt;元素后，添加一个&lt;conbody&gt;元素。</cmd>
+                    <info>
+                        <note>
+                            <p>当在一个元素后添加另一个元素时，在前一个元素的结束标签之后添加新元素。</p>
+                        </note>
+                    </info>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"&gt;
+&lt;concept id="my_first_concept"&gt;
+   &lt;title&gt;野鸭种类&lt;/title&gt;
+<ph outputclass="newchanged">   &lt;conbody&gt;
+&lt;/conbody&gt;</ph>
+&lt;/concept&gt;</pre>
+                    </stepxmp>
+                    <info>&lt;conbody&gt;元素将包含此concept中的所有实际内容。 </info>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_kw5_5ls_zs">
+    <title>在concept中添加简单表格</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey, Scriptorium</author>
+        <critdates>
+            <created date="2015-08-24"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction><p>在concept中创建表格，有两种元素：&lt;simpletable&gt;元素和&lt;table&gt;元素。 </p><p>尽量使用&lt;simpletable&gt;元素，尤其对于简短的表格。对于更庞大或者格式更复杂的表格，使用&lt;table&gt;元素。</p>
+            <p>&lt;simpletable&gt;元素包含以下元素：</p>
+            <simpletable frame="all" relcolwidth="1.0* 1.0*" id="simpletable_rwy_l3n_2t">
+                <strow>
+                    <stentry>
+                        <p>&lt;sthead&gt;</p>
+                    </stentry>
+                    <stentry>
+                        <p>&lt;simpletable&gt;元素行表头的容器元素。&lt;sthead&gt;元素包含&lt;stentry&gt;元素，&lt;stentry&gt;元素是可选的。&lt;simpletable&gt;元素中只能有一个&lt;sthead&gt;元素。</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;strow&gt;</p>
+                    </stentry>
+                    <stentry>
+                        <p>&lt;simpletable&gt;元素正文行的容器元素。&lt;strow&gt;元素包含&lt;stentry&gt;元素。&lt;simpletable&gt;元素可包含一个或多个&lt;strow&gt;元素。</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;stentry&gt;</p>
+                    </stentry>
+                    <stentry>
+                        <p>&lt;simpletable&gt;元素中单个单元格的容器元素。&lt;stentry&gt;元素包含&lt;simpletable&gt;元素中单元格的文本，最佳实践认为这些文字需要包含在段落元素&lt;p&gt;中。</p>
+                    </stentry>
+                </strow>
+            </simpletable><p>本课将包含&lt;simpletable&gt;元素的基本应用。</p><fig>
+                <title>&lt;simpletable&gt;示例的视觉呈现</title>
+                <image href="../media/images_and_tables/simpletable.png" id="image_rtn_xmn_2t" base="2016/08" />
+            </fig><p>继续使用文件lesson2/l_concept_images_tables_start.dita添加&lt;simpletable&gt;元素。</p>
+            <note>
+                <p>如果使用DITA编辑器，在运行这些例子时，&lt;simpletable&gt;元素中的一些子元素将被自动添加。</p>
+            </note></lcInstruction>
+    </learningContentbody>
+    <task id="task_a2s_dvs_zs">
+        <title>添加&lt;SIMPLETABLE&gt;元素</title>
+        <taskbody>
+            <steps id="steps_mrl_tf1_dt">
+                <step>
+                    <cmd>在&lt;conbody&gt;元素中，&lt;fig&gt;元素之后，添加一个&lt;simpletable&gt;元素，如以下例子所示：</cmd>
+                    <stepxmp/>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"&gt;
+&lt;concept id="concept_images_tables"&gt;
+   &lt;title&gt;鸭子的生长和发育&lt;/title&gt;
+  &lt;conbody&gt;
+...
+&lt;/fig&gt;
+ <ph outputclass="newchanged">&lt;simpletable&gt;
+ &lt;/simpletable&gt;</ph>
+   &lt;/conbody&gt;
+&lt;/concept&gt;</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>在&lt;simpletable&gt;元素中，添加&lt;sthead&gt;元素，如以下例子所示：</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"&gt;
+&lt;concept id="concept_images_tables"&gt;
+   &lt;title&gt;鸭子的生长和发育&lt;/title&gt;
+ &lt;conbody&gt;
+...
+&lt;simpletable&gt;
+<ph outputclass="newchanged">&lt;sthead&gt;
+&lt;/sthead&gt;</ph>
+&lt;/simpletable&gt;
+   &lt;/conbody&gt;
+&lt;/concept&gt;</pre>
+                    </stepxmp>
+                    <info>&lt;sthead&gt;元素建立了&lt;simpletable&gt;元素的行表头。</info>
+                </step>
+                <step>
+                    <cmd>在&lt;sthead&gt;元素中，添加两个&lt;stentry&gt;元素并在其中添加内容，如以下例子所示：</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"&gt;
+&lt;concept id="concept_images_tables"&gt;
+   &lt;title&gt;鸭子的生长和发育&lt;/title&gt;
+  &lt;conbody&gt;
+...
+&lt;sthead&gt;
+<ph outputclass="newchanged">&lt;stentry&gt;&lt;p&gt;年龄&lt;/p&gt;&lt;/stentry&gt;
+&lt;stentry&gt;&lt;p&gt;里程碑&lt;/p&gt;&lt;/stentry&gt;</ph>
+&lt;/sthead&gt;
+...
+   &lt;/conbody&gt;
+&lt;/concept&gt;</pre>
+                    </stepxmp>
+                    <info>&lt;stentry&gt;元素代表一个单独单元格。在&lt;sthead&gt;中元素&lt;stentry&gt;元素的数量将决定这个&lt;simpletable&gt;列的数量。</info>
+                    <info>每一个添加的&lt;stentry&gt;元素遵循了使用&lt;P&gt;元素的最佳实践。</info>
+                </step>
+                <step>
+                    <cmd>在&lt;sthead&gt;元素之后，添加一个&lt;strow&gt;元素，如以下例子所示：</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"&gt;
+&lt;concept id="concept_images_tables"&gt;
+   &lt;title&gt;鸭子的生长和发育&lt;/title&gt;
+   &lt;conbody&gt;
+...
+&lt;/sthead&gt;
+<ph outputclass="newchanged">&lt;strow&gt;
+&lt;/strow&gt;</ph>
+...
+   &lt;/conbody&gt;
+&lt;/concept&gt;</pre>
+                    </stepxmp>
+                    <info>&lt;strow&gt;元素建立&lt;simpletable&gt;表头行之后每行正文。</info>
+                </step>
+                <step>
+                    <cmd>在&lt;strow&gt;元素中，添加两个&lt;stentry&gt;元素并在其中添加内容，如以下例子所示：</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"&gt;
+&lt;concept id="concept_images_tables"&gt;
+   &lt;title&gt;鸭子的生长和发育&lt;/title&gt;
+  &lt;conbody&gt;
+...
+&lt;strow&gt;
+<ph outputclass="newchanged">&lt;stentry&gt;&lt;p&gt;7 weeks&lt;/p&gt;&lt;/stentry&gt;
+&lt;stentry&gt;&lt;p&gt;第一次尝试飞行&lt;/p&gt;&lt;/stentry&gt;</ph>
+&lt;/strow&gt;
+...
+   &lt;/conbody&gt;
+&lt;/concept&gt;</pre>
+                    </stepxmp>
+                    <info>
+                        <p>每个&lt;strow&gt;元素和每个&lt;sthead&gt;元素应该包含同样数量的&lt;stentry&gt;元素。</p>
+                    </info>
+                </step>
+                <step>
+                    <cmd>在第一个&lt;strow&gt;元素之后，添加两个或更多个行到&lt;simpletable&gt;元素中并向其中添加内容，如以下例子所示：</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"&gt;
+&lt;concept id="concept_images_tables"&gt;
+   &lt;title&gt;鸭子的生长和发育&lt;/title&gt;
+ &lt;conbody&gt;
+...
+&lt;/strow&gt;
+<ph outputclass="newchanged">&lt;strow&gt;
+&lt;stentry&gt;&lt;p&gt;12-14周&lt;/p&gt;&lt;/stentry&gt;
+&lt;stentry&gt;&lt;p&gt;达到成年鸭体重&lt;/p&gt;&lt;/stentry&gt;
+&lt;/strow&gt;
+&lt;strow&gt;
+&lt;stentry&gt;&lt;p&gt;1年&lt;/p&gt;&lt;/stentry&gt;
+&lt;stentry&gt;&lt;p&gt;能繁殖&lt;/p&gt;&lt;/stentry&gt;
+&lt;/strow&gt;</ph>
+...
+   &lt;/conbody&gt;
+&lt;/concept&gt;</pre>
+                    </stepxmp>
+                    <info>你可以添加一个或多个&lt;strow&gt;元素到&lt;simpletable&gt;元素中。</info>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

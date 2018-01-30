@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_apv_sgk_bt">
+    <title>完成task</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey, Scriptorium</author>
+        <critdates>
+            <created date="2015-08-18"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup id="lcObjectivesGroup_tvl_vbh_1t">
+                <lcObjective>理解&lt;result&gt;、&lt;example&gt;、&lt;postreq&gt;元素的用途。</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="45"/>
+        </lcDuration>
+        <lcInstruction>
+            <p>添加步骤（steps）之后，你可以使用以下三种额外元素描述该任务：</p>
+            <ul id="ul_rp1_w5w_mt">
+                <li>&lt;result&gt;用于描述成功完成该任务的结果。</li>
+                <li>&lt;example&gt;用于展示整个任务的示例。</li>
+                <li>&lt;postreq&gt;（后置条件）告知读者下一步的动作。</li>
+            </ul>
+            <note>
+                <p>本课包含这些元素的基本应用。每个元素的详细说明请参见<xref href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/task.html" format="html" scope="external">OASIS DITA 1.2版本标准</xref>。</p>
+            </note>
+        </lcInstruction>
+    </learningContentbody>
+    <related-links>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Language_and_Punctuation/c_Transitional_Information_in_Prerequisites.html"
+            format="html" scope="external">
+            <linktext>DITA风格指南，语义块中的过渡信息</linktext>
+        </link>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Syntax_and_Markup/c_Semantics_in_Steps.html"
+            format="html" scope="external">
+            <linktext>DITA风格指南，steps中的语义</linktext>
+        </link>
+    </related-links>
+</learningContent>

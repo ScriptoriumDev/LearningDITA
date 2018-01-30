@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_advanced_exercise">
+ <title>开发技术内容策略</title>
+ <conbody>
+  <p>当你在审阅当前的信息产品时，你应该准备一张表，列出内容的挑战和改善的想法。这里是一些常见场景：</p>
+  <section>
+   <title>技术文档和培训材料之间的内容重用</title>
+   <p>培训部门使用技术文档团队创建的参考和任务信息，但由于两个团队使用不同并且不兼容的内容创建工具，教学设计者只能复制并粘贴这些内容，而不是链接到这些内容。 </p>
+   <draft-comment>添加:“如果两个团队对整个流程进行标准化，他们可以无缝共享内容并且避免重复劳动。”</draft-comment>
+  </section>
+  <section>
+   <title>除了PDF输出外，还需要HTML输出</title>
+   <p>在HTML中你的内容可能看上去是这样的：</p>
+   <codeblock>&lt;div class="p"&gt;你可以生产高价值的内容，例如
+&lt;ul class="ul"&gt;
+&lt;li class="li"&gt;&lt;p class="p"&gt;培训材料&lt;/p&gt;&lt;/li&gt;
+&lt;li class="li"&gt;&lt;p class="p"&gt;白皮书&lt;/p&gt;&lt;/li&gt;
+&lt;li class="li"&gt;&lt;p class="p"&gt;知识库文章&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;</codeblock>
+   <p><codeph>&lt;div&gt;</codeph>包含无序列表。</p>
+  </section>
+  <section>
+   <title>由于更新流程没有效率，技术内容会过时</title>
+   <lq href="http://contentstrategy101.com/contents/developing/assessing-the-situation/analyzing-existing-information-products/" format="html" scope="external">生产书本的流程——生成目录和索引、检查分页、创建更改页日志，以及其它类似任务——非常耗费时间。结果书本每年只更新两次。但每季度甚至每月产品都在变化，所以技术文档基本都会过时。读者会抱怨产品更新和内容更新不同步。</lq>
+  </section>
+ </conbody>
+</concept>

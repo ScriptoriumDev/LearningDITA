@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_vqp_rxp_dt">
+ <title>图片都去哪了？</title>
+ <prolog>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+  <critdates>
+   <created date="2015-08-24"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcSingleSelect id="lcMultipleSelect_nzm_txp_dt">
+    <lcQuestion>&lt;image&gt;元素<b>不</b>属于哪一元素？（单选）</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_ozm_txp_dt">
+     <lcAnswerOption>
+      <lcAnswerContent>&lt;conbody&gt;中</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>&lt;concept&gt;中</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>&lt;fig&gt;中</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>&lt;p&gt;中</lcAnswerContent>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+   </lcSingleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

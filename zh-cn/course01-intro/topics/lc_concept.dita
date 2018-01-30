@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_rxt_zl5_vr1">
+    <title>Concept类型的Topic</title>
+    <prolog><author>Sharon Burton</author>
+        <author href="http://www.scriptorium.com"  scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+        <critdates>
+            <created date="2015-04-28"/>
+        </critdates></prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>一个Concept Topic回答“为什么？”的问题。它可以为读者正要了解的主题提供背景信息。</p>
+            <p>Concept Topic通常包含文本段落和列表，但也包括注释，表格和图形，这些都是理解特定主题背后的想法所需要的。</p>
+            <p>Concept Topic中使用的常见元素包括：<ul id="ul_c5m_hm5_vr">
+                    <li>&lt;conbody&gt;（Concept Topic的正文）</li>
+                    <li>&lt;p&gt;（一个段落）</li>
+                    <li>&lt;ul&gt;（一个无序列表或者项目符号列表）</li>
+                    <li>&lt;ol&gt;（一个有序列表或者编号列表）</li>
+                    <li>&lt;li&gt;（内嵌于&lt;ul&gt;或&lt;ol&gt;里的一个列表项）</li>
+                    <li>&lt;fig&gt;（图片，包含一个可选标题）</li>
+                    <li>&lt;image&gt;（Figure里的图片或文本行间的图片）</li>
+                    <li>&lt;section&gt;（Topic的一部分，带有可选标题） </li>
+                </ul><draft-comment author="okeefe">在此添加视频。2:02到2:48是一个描述小鸭的Concept Topic的代码的例子。请注意视频需要修改因为&lt;shortdesc&gt;没有充分地总结Topic。</draft-comment><draft-comment author="asp">直到后续修改完成之前，将不会添加视频到YouTube。</draft-comment></p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

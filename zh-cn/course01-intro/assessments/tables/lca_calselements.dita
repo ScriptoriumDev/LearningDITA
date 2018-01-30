@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_rqs_mlr_xr">
+ <title></title>
+ <prolog>
+  
+  <author href="http://www.scriptorium.com" scope="external" format="html">Bill Swallow, Scriptorium</author>
+  <critdates>
+   <created date="2015-05-04"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcMatching id="tablesq3">
+    <lcQuestion>匹配以下CALS表格元素及其功能。</lcQuestion>
+    <lcMatchTable>
+     <lcMatchingPair>
+      <lcItem>&lt;tgroup&gt;</lcItem>
+      <lcMatchingItem>定义列、行、标题和页脚</lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>&lt;colspec&gt;</lcItem>
+      <lcMatchingItem>指定宽度和跨度</lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>&lt;table&gt;</lcItem>
+      <lcMatchingItem>表格的主要载体</lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>&lt;tbody&gt;</lcItem>
+      <lcMatchingItem>包含列和行</lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>&lt;entry&gt;</lcItem>
+      <lcMatchingItem>单个表单元格</lcMatchingItem>
+     </lcMatchingPair>
+    </lcMatchTable>
+   </lcMatching>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

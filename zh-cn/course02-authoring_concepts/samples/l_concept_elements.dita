@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_elements">
+ <title>喂鸭</title>
+ <conbody>
+  <p>小鸭子在刚生下来的前<u>两周</u>需要<b>全天二十四</b>小时能够获得<i>食物</i>和<i>水</i>。</p>
+  <p>小鸭子在刚生下来的前<varname>两周</varname>需要<term>全天二十四</term>小时能够获得<cite>食物</cite>和<cite>水</cite>。</p>
+  <p>因为鸭饲料质地干燥、粗糙，鸭子需要大量的H<sub>2</sub>O来保持鸭嘴清洁。</p>
+  <p>你可以用可回收的塑料容器制作自己的低无溢漏食品和饮料盘，或从E-Z-Feed<sup>2</sup>购买现成的配好的喂养饲料</p>
+  <p>小鸭子比成年鸭需要更高水平的蛋白质。<fn>新生鸭建议的蛋白水平在18-20%</fn></p>
+  <p>点击<menucascade> <uicontrol>文件</uicontrol> <uicontrol>新建</uicontrol> <uicontrol>数据表</uicontrol> </menucascade>，来创建数据表来跟踪何时需要补充小鸭子的食物和水。</p>
+  <p>家鸭按照体重分类。这些重量类别会帮助你根据喂养量的多少来选择鸭子的种类</p>
+  <dl>
+   <dlentry>
+    <dt>矮脚鸭</dt>
+    <dd>最轻的而且也是飞得最快的鸭子，如绿头鸭。</dd>
+   </dlentry>
+   <dlentry>
+    <dt>轻</dt>
+    <dd>重量第二轻的鸭子，最好的蛋鸭，譬如卡基-康贝尔鸭</dd>
+   </dlentry>
+   <dlentry>
+    <dt>中等</dt>
+    <dd>体重中等又性情平静的鸭子，如瑞典鸭。</dd>
+   </dlentry>
+   <dlentry>
+    <dt>重</dt>
+    <dd>最重最友好的鸭子，如北京鸭。</dd>
+   </dlentry>
+  </dl>
+ </conbody>
+</concept>

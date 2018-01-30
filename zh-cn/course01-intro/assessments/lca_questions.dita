@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_n25_n21_wr">
+ <title></title>
+ <prolog>
+  <author>Sharon Burton</author>
+  <author href="http://www.scriptorium.com"  scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+  <critdates>
+   <created date="2015-04-28"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+ <lcInteraction> <lcMatching id="topics2">
+   <lcQuestion>对于每个topic类型，鉴别它所回答的问题：</lcQuestion>
+   <lcMatchTable>
+    <lcMatchingPair>
+     <lcItem>它是什么？</lcItem>
+     <lcMatchingItem>Reference Topic</lcMatchingItem>
+    </lcMatchingPair>
+    <lcMatchingPair>
+     <lcItem>这个术语或短语是什么意思？</lcItem>
+     <lcMatchingItem>Glossary Topic</lcMatchingItem>
+    </lcMatchingPair>
+    <lcMatchingPair>
+     <lcItem>我如何做？</lcItem>
+     <lcMatchingItem>Task Topic</lcMatchingItem>
+    </lcMatchingPair>
+    <lcMatchingPair>
+     <lcItem>为什么？</lcItem>
+     <lcMatchingItem>Concept类型的Topic</lcMatchingItem>
+    </lcMatchingPair>
+   </lcMatchTable>
+  </lcMatching></lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

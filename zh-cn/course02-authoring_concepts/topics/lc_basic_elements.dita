@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_hrm_xjh_1t">
+    <title>在concept类型topic中添加基本元素</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey, Scriptorium</author>
+        <critdates>
+            <created date="2015-08-24"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>一些concept类型topic中的常用元素包括： </p>
+            <simpletable frame="all" relcolwidth="1.0* 1.0*" id="simpletable_i4k_dm4_2t">
+                <strow>
+                    <stentry>
+                        <p>&lt;p&gt;</p>
+                    </stentry>
+                    <stentry>
+                        <p>段落</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;ul&gt;</p>
+                    </stentry>
+                    <stentry>
+                        <p>无序列表</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;ol&gt;</p>
+                    </stentry>
+                    <stentry>
+                        <p>有序列表</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;note&gt;</p>
+                    </stentry>
+                    <stentry>
+                        <p>警告</p>
+                    </stentry>
+                </strow>
+            </simpletable>
+            <p><xref href="http://www.learningdita.com/courses/introduction-to-dita/" format="html" scope="external">DITA介绍</xref>课程介绍了这些元素。本课简要回顾了这些元素，并展示了如何将它们添加到concept中。</p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_i3g_jkh_1t">
+        <title/>
+        <taskbody>
+            <steps id="steps_f5k_kkh_1t">
+                <step>
+                    <cmd>继续使用文件：lesson1/l_new_concept_start.dita。</cmd>
+                </step>
+                <step>
+                    <cmd>在&lt;conbody&gt;元素中，添加一个&lt;p&gt;元素并在其中添加内容，如下所示：</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"&gt;
+&lt;concept id="my_first_concept"&gt;
+   &lt;title&gt;野鸭种类&lt;/title&gt;
+ &lt;conbody&gt;
+<ph outputclass="newchanged">&lt;p&gt;北美野鸭主要分为以下几类：&lt;/p&gt;</ph>
+   &lt;/conbody&gt;
+&lt;/concept&gt;</pre>
+                    </stepxmp>
+                    <info>元素&lt;p&gt;用于正文文本。它既可用于&lt;conbody&gt;元素中，也可用于&lt;conbody&gt;元素包含的其他元素。</info>
+                    <info>
+                        <note>
+                            <p>当某些正文文本没有特定元素标签时，使用&lt;p&gt;元素。正如你在整个课程中的样例中看到的，我们推荐对列表项、注意以及表格条目的文本使用&lt;p&gt;元素。当列表条目有多个段落，比较长时，需要使用&lt;p&gt;元素对每一个段落使用&lt;p&gt;元素让这些段落保持一致。</p>
+                        </note>
+                    </info>
+                    <info>你刚创建的&lt;p&gt;元素用来介绍下一个元素：无序列表。</info>
+                </step>
+                <step>
+                    <cmd>在&lt;p&gt;元素之后，添加一个&lt;ul&gt;元素并在其中添加内容，如下所示：</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"&gt;
+&lt;concept id="my_first_concept"&gt;
+   &lt;title&gt;野鸭种类&lt;/title&gt;
+  &lt;conbody&gt;
+...
+<ph outputclass="newchanged">&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;钻水鸭&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;潜水鸭&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;海鸭&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;鸣鸭&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;天鹅和鹅&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</ph>
+   &lt;/conbody&gt;
+&lt;/concept&gt;</pre>
+                    </stepxmp>
+                    <info>
+                        <note>
+                            <p>使用DITA文本编辑器时，你可以在&lt;ul&gt;元素上自动插入一个ID属性。</p>
+                        </note>
+                    </info>
+                    <info>&lt;ul&gt;元素用于无序列表或项目列表。 </info>
+                    <info>&lt;ul&gt;元素只能包含&lt;li&gt;元素，并且至少有一个&lt;li&gt;元素。</info>
+                    <info>每一个&lt;li&gt;元素包含列表中每一个词条的文本。在这个例子中，&lt;li&gt;元素遵循了使用&lt;p&gt;元素的最佳实践。</info>
+                </step>
+                <step>
+                    <cmd>在&lt;ul&gt;元素后，添加一个&lt;ol&gt;元素，并使用&lt;p&gt;元素作为介绍，如下所示：</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"&gt;
+&lt;concept id="my_first_concept"&gt;
+   &lt;title&gt;野鸭种类&lt;/title&gt;
+   &lt;conbody&gt;
+...
+<ph outputclass="newchanged"> &lt;p&gt;北美地区身长最长的钻水鸭有：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;北部地区的尖尾鸭&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;绿头鸭&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;美国黑鸭&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</ph>
+   &lt;/conbody&gt;
+&lt;/concept&gt;</pre>
+                    </stepxmp>
+                    <info>
+                        <note>
+                            <p>如果你使用的是DITA编辑器，它可能会为&lt;ol&gt;元素自动分配一个ID属性。</p>
+                        </note>
+                    </info>
+                    <info>&lt;ol&gt;元素用于有序列表或序号列表。</info>
+                    <info>和&lt;ul&gt;元素一样，&lt;ol&gt;元素只能包含&lt;li&gt;元素，并且至少有一个&lt;li&gt;元素。 </info>
+                    <info>在这个例子中，每一个&lt;li&gt;元素遵循了使用&lt;p&gt;元素的最佳实践。 <note>
+                            <p>&lt;ol&gt;元素仅用于显示列表条目必须以某种顺序出现，而不用于创建步骤说明。对于步骤说明，使用task类型的topic。</p>
+                        </note></info>
+                   
+                </step>
+                <step>
+                    <cmd>在&lt;ol&gt;元素后，添加一个&lt;note&gt;元素并在其中添加内容，如下所示：</cmd>
+                    <info>视频：<xref href="https://www.youtube.com/watch?v=ByrO1K1OTIA" format="html" scope="external">在DITA中创建note</xref></info>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"&gt;
+&lt;concept id="my_first_concept"&gt;
+   &lt;title&gt;野鸭种类&lt;/title&gt;
+  &lt;conbody&gt;
+...
+<ph outputclass="newchanged">&lt;note&gt;&lt;p&gt;虽然北方尖尾鸭是体型最长的钻水鸭，绿头鸭
+却是公认最大的，因为它的体重更重。&lt;/p&gt;&lt;/note&gt;</ph>
+   &lt;/conbody&gt;
+&lt;/concept&gt;</pre>
+                    </stepxmp>
+                    <info>&lt;note&gt;元素用于在concept类型topic中添加警告信息，例如注意、警告或者小心。创建的&lt;note&gt;元素遵循了使用&lt;p&gt;元素的最佳实践。</info>
+                </step>
+                <step>
+                    <cmd>将你的文件lesson1/l_new_concept_start.dita与样例文件作对比：lesson1/l_new_concept.dita。</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+    <task id="task_rjg_zjx_dt">
+        <title>练习</title>
+        <taskbody>
+            <steps id="steps_r11_1kx_dt">
+                <step>
+                    <cmd>打开文件lesson1/l_new_concept_exercise_start.dita，使用该文件将<xref href="http://contentstrategy101.com/" format="html" scope="external">Content Strategy 101</xref>书中的如下内容转换成如下内容：</cmd>
+                    <info>
+                        <pre outputclass="passthru"><![CDATA[
+                            <hr />
+                            <h3>内容策略和商业目标</h3>
+                            <p>要考虑的是：</p>
+                            <ul>
+                            <li>低成本文档的实际成本</li>
+                            <li>如何创建一个有效的内容开发流程</li>
+                            <li>高质量文档是否可以降低技术支持的支出</li>
+                            <li>最有成效的方法是在企业范围内共享技术内容</li>
+                           </ul> 
+                           <p><strong>注意：</strong>忽略内容可能会为组织带来隐性成本。</p>
+                           <p>要实施你的项目并增加成功的可能性，我们推荐以下步骤：</p>
+                           <ol>
+                           <li>识别相关人员并与他们会面。</li>
+                           <li>建立实施目标和度量标准。</li>
+                           <li>定义角色和责任。</li>
+                           <li>创建时间计划和里程碑。</li>
+                           <li>建立内容创建系统。</li>
+                           <li>转换遗留内容。</li>
+                           <li>发布内容。</li>
+                           <li>捕捉项目知识。</li>
+                           <li>保证长期成功。</li>
+                           </ol>
+                           <hr />
+                            ]]></pre>
+                    </info>
+                    <info/>
+                </step>
+                <step>
+                    <cmd>将你的文件lesson1/l_new_concept_exercise_start.dita与样例文件lesson1/l_new_concept_exercise.dita作对比。</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

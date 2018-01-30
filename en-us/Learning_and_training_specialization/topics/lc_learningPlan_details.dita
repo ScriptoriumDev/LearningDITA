@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="lc_learningPlan_details">
+    <title>The learningPlan topic type</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external" class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external" class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <critdates>
+            <created date="2017-04-21"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction id="lcInstruction_js5_cqb_yz">
+            <p>The learningPlan topic type is designed to help you organize the information used to plan learning information. This includes: </p>
+            <ul id="ul_nsz_srb_yz">
+                <li>Project description, includes elements for describing the overall project.</li>
+                <li>Needs analysis, includes elements for describing organizational needs, audience needs, and the environment for delivering the training.</li>
+                <li>Gap analysis </li>
+                <li>approach and strategies </li>
+                <li>Technical requirements</li>
+            </ul>
+            <!--learning needs and goals, instructional design models, task analyses, learning taxonomies, and other information necessary to the lesson planning process.
+
+-->
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

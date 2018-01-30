@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_blz_bk3_rs">
+    <title>无序列表和有序列表</title>
+    <shortdesc></shortdesc>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+        <critdates>
+            <created date="2015-07-13"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>DITA中使用的最常用列表是无序（“符号”）列表（&lt;ul&gt;）和有序（“编号”）列表（&lt;ol&gt;）。 </p>
+            <p>有序和无序列表都包含一个或多个列表项元素（&lt;li&gt;）。这些示例中所显示的&lt;li&gt;元素非常简单。但是，&lt;li&gt;元素可以包含文本数据和最常见的块元素以及内联元素。 </p>
+            <pre>&lt;p&gt;鸭子的生命周期与大多数鸟类的生命周期相似：&lt;/p&gt;
+&lt;ol&gt;
+   &lt;li&gt;蛋&lt;/li&gt;
+   &lt;li&gt;孵化&lt;/li&gt;
+   &lt;li&gt;小鸭&lt;/li&gt;
+   &lt;li&gt;雏鸭&lt;/li&gt;
+   &lt;li&gt;成年鸭&lt;/li&gt;
+&lt;/ol&gt;</pre>
+            <p>请注意，作者没有在此有序列表中添加数字，与HTML一样，数字是在生成输出时自动插入的。为了帮助你能直观看到内容，大多数可视化编辑器将显示有序列表中的项目序号。 </p>
+            <p>有序列表适用于表述带有顺序的信息，但是，如果需要描述一个过程或步骤，则最好在Task Topic里使用&lt;steps&gt;元素。</p>
+            <p>可以在&lt;li&gt;元素里嵌套一个由新的&lt;ul&gt;或&lt;ol&gt;元素开头的列表。 </p>
+            <pre>&lt;p&gt;鸭子有这些特征：&lt;/p&gt;
+&lt;ul&gt;
+   &lt;li&gt;用于游泳的鸭蹼。&lt;/li&gt;
+   &lt;li&gt;比其他水禽更短的腿。&lt;/li&gt;
+   &lt;li&gt;突出的嘴。&lt;/li&gt;
+      &lt;ul&gt;
+         &lt;li&gt;有的又宽又扁，方便筛选食物。&lt;/li&gt;
+         &lt;li&gt;有的又长又窄，方便捕鱼（秋沙鸭）&lt;/li&gt;
+      &lt;/ul&gt;
+   &lt;/li&gt;
+&lt;/ul&gt;</pre>
+            <p>当最终输出列表时，如何显示列表中使用的符号或数字取决于用于输出的样式表和该列表在层次结构中的位置。如果列表是嵌套的，样式表将确定列表的缩进量。 </p>
+            <p>除了无序列表（&lt;ul&gt;），DITA还定义了一个简单列表元素（&lt;sl&gt;），一种每个列表项中只包含几个词的列表。简单列表中的列表项使用&lt;sli&gt;元素。 </p>
+            <pre>&lt;p&gt;鸭子有几种类型：&lt;/p&gt;
+&lt;sl&gt;
+   &lt;sli&gt;树鸭&lt;/sli&gt;
+   &lt;sli&gt;钻水鸭&lt;/sli&gt;
+   &lt;sli&gt;湾鸭&lt;/sli&gt;
+   &lt;sli&gt;海鸭&lt;/sli&gt;
+&lt;/sl&gt;</pre>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

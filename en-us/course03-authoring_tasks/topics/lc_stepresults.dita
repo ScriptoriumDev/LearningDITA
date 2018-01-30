@@ -20,14 +20,12 @@
                 result of having successfully completed the steps. </p>
             <ul id="ul_xjf_prx_kt">
                 <li>
-                    <p>Use &lt;stepxmp> (step example) to show an example of how to perform the
-                        step. </p>
+                    <p>Use &lt;stepxmp> (step example) to show an example of how to perform the step. A step can contain any number of &lt;stepxmp> elements.</p>
                 </li>
                 <li>
                     <p>Use &lt;stepresult> to describe the result of the step.</p>
                 </li>
             </ul>
-            <p>A step can contain any number of either of these elements, in any order. </p>
             <note>The &lt;stepxmp> element shows an example for the current step; to show an example
                 of the entire task, use the &lt;example> element, which is discussed in the next
                 lesson.</note>

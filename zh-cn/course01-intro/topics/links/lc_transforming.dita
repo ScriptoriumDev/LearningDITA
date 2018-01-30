@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_flw_1g3_wr">
+    <title>将map文件转换为输出</title>
+    <shortdesc/>
+    <prolog>
+        <author>Sharon Burton</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Alan Pringle, Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O'Keefe, Scriptorium</author>
+        <critdates>
+            <created date="2015-04-28"/>
+            <revised modified="2015-05-15"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <draft-comment author="asp">这是初步的课程，其中涵盖了文件转换的知识。不确定它是不是在这里，暂时就这样。</draft-comment>
+            <p>大多数内容不使用DITA文件交付。取而代之，是将样式表应用于DITA文件以创建HTML，PDF或其他格式。这个过程称之为<term>转换</term>。
+                <fig>
+                    <image href="../../media/links/transform.png" id="image_ahr_g55_1s" base="2015/07" />
+                </fig></p>
+            <p>DITA Open Toolkit是一个样式表集合，主要是用可扩展样式语言（XSL）编写的，为了更好的输出提供基础。用未修改的DITA Open Toolkit转换出来的默认结果显然是没有吸引力的。通常都会进行优化，以用于生产环境的内容转换和输出。</p>
+            <note>Open Toolkit不是从DITA生成输出的唯一方法。也可以使用一些商业工具来创建输出。有的工具仅支持发布信息，而有的工具既支持发布也支持DITA内容的写作。</note>
+            <p>转换与map文件无关，你可以将多个转换应用于单个map文件。例如，可以使用同一map文件进行转换获得两种不同的输出：一个是PDF文件，另一个是在线帮助系统。</p>
+        </lcInstruction>
+    </learningContentbody>
+    <related-links>
+        <link href="http://www.dita-ot.org" scope="external" format="html">
+            <linktext>DITA Open Toolkit</linktext>
+        </link>
+        <link href="https://www.youtube.com/watch?v=xFPRnJrRo8o" scope="external" format="html">
+            <linktext>开始使用DITA Open Toolkit，套件解决方案在线讲座（视频，53分钟）</linktext>
+        </link>
+
+    </related-links>
+</learningContent>

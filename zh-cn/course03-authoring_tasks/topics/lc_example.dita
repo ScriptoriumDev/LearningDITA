@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_bkq_xhk_bt">
+    <title>创建示例</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey, Scriptorium</author>
+        <critdates>
+            <created date="2015-08-18"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>&lt;example&gt;元素可用于展示整个任务的示例。&lt;stepxmp&gt;元素与之类似，但只用于展示关于单个步骤的一个示例，而非整个任务的示例。  </p>
+            <p><xref href="https://youtu.be/7E7RYKHQ6C4" format="html" scope="external">视频：在DITA task添加一个示例</xref></p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_bkt_c3k_bt">
+        <title/>
+        <taskbody>
+            <steps id="steps_pzh_d3k_bt">
+                <step>
+                    <cmd>继续使用文件l_task_start.dita。</cmd>
+                </step>
+                <step>
+                    <cmd>请在&lt;result&gt;元素结束标签后，添加一个&lt;example&gt;。</cmd>
+                    <stepxmp>
+                        <pre>...
+        &lt;/result&gt;
+<ph outputclass="newchanged">        &lt;example&gt;
+
+        &lt;/example&gt;</ph>
+    &lt;/taskbody&gt;
+&lt;/task&gt;
+</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>请将下列内容添加至&lt;example&gt;元素：</cmd>
+                    <stepxmp>
+                        <pre>...
+        &lt;/result&gt;
+<ph outputclass="newchanged">        &lt;example&gt;
+&lt;p&gt;不要做以下行为：&lt;xref href="http://dai.ly/x2j6pt1" format="html"
+                    scope="external"&gt;混乱达菲鸭&lt;/xref&gt;
+            &lt;/p&gt;
+        &lt;/example&gt;</ph>
+    &lt;/taskbody&gt;
+&lt;/task&gt;
+</pre>
+                    </stepxmp>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

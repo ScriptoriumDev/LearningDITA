@@ -39,13 +39,22 @@
     <li>maps: map files for learning modules</li>
     <li>media: for images, videos, and other non-text content</li>
     <li>resources: for example files or sources for screen shots.</li>
+    <li>sources: for sources used to create images, videos, and code samples for text. </li>
    </ul></p>
-  <p>The master map file, which references the map files for modules, is at the course-folder
-   level.</p>
+  <p>In addition to the course folders, the shared folder contains topics and maps that are reused
+   across all courses.  <ul id="ul_htx_4zf_sy">
+    <li>maps: contains course_keys.ditamap, which defines URLs and titles for the courses published,
+     thus far.</li>
+    <li>topics: contains lc_general_housekeeping.dita and lcc_assessment.dita which are common to
+     all courses. There are hooks in lc_general_housekeeping.dita for conrefpush actions.</li>
+   </ul></p>
+  <p>The master map file, which references the map files for modules, is at the language-folder
+   level (which is essentially considered the top-level folder).</p>
   <p>Use the following file name prefixes:<ul id="ul_k1j_gvh_ft">
     <li>m_ for map files</li>
     <li>lc_ for learning content</li>
     <li>lca_ for learning assessments</li>
+    <li>z_ conkeyref file</li>
    </ul></p>
   <section>
    <title>Standards for images</title>

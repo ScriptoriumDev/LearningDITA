@@ -12,7 +12,7 @@
   <topicref href="../topics/lc_adding_refsyn.dita"/>
   <!--<topicref href="../topics/lc_adding_parml.dita"/>-->
   <topicref href="../topics/lc_adding_properties.dita"/>
-  <topicref href="../topics/lcc_assessment.dita" copy-to="lcc_creating.dita" locktitle="yes">
+  <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_creating.dita" locktitle="yes">
    <topicmeta>
     <navtitle>Assessment for Creating a reference topic</navtitle>
    </topicmeta>

@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_adp_jbk_bt">
+    <title>打断你的操作步骤</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey, Scriptorium</author>
+        <critdates>
+            <created date="2015-08-18"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>以下两类元素可用于在steps中添加额外信息： </p>
+            <ul id="ul_u43_qbk_bt">
+                <li>
+                    <p>使用&lt;stepsection&gt;元素在两个步骤之间添加备注信息。 </p>
+                    <p>若需要提供给读者steps本身有关的备注信息，这点十分有用。例如，添加备注如“剩余步骤侧重介绍<i>x</i>部件”或“接下来两步骤必须在<i>y</i>环境下执行”。</p>
+                </li>
+                <li>
+                    <p>在&lt;step&gt;或&lt;substep&gt;元素中，&lt;cmd&gt;元素前，使用&lt;note&gt;或&lt;hazardstatement&gt;添加警告。  </p>
+                    <p>通常，可使用&lt;note&gt;和&lt;hazardstatement&gt;警示读者阅读或执行&lt;cmd&gt;动作<i>前</i>可能存在的风险或危险。 </p>
+                </li>
+            </ul>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_t31_jck_bt">
+        <title/>
+        <taskbody>
+            <steps id="steps_jnb_kck_bt">
+                <step>
+                    <cmd>继续使用文件l_task_start.dita。</cmd>
+                </step>
+                <step>
+                    <cmd>请在最后一个&lt;step&gt;元素的结束标签后，添加一个&lt;stepsection&gt;元素。</cmd>
+                    <stepxmp>
+                        <pre>...
+&lt;/step&gt;
+<ph outputclass="newchanged">&lt;stepsection&gt;
+&lt;/stepsection&gt;</ph>
+</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>如示例所示，请将内容添加至&lt;stepsection&gt;元素中。 </cmd>
+                    <info>最佳实践认为这些文字需要包含在段落元素&lt;p&gt;当中。</info>
+                    <stepxmp>
+                        <pre>...
+&lt;stepsection&gt;
+   <ph outputclass="newchanged">&lt;p&gt;你一旦认出了一种鸭子，你会花些时间去关注它的习性。&lt;/p&gt;
+&lt;/stepsection&gt;</ph>
+</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>在&lt;stepsection&gt;元素结束标签后，请添加一个&lt;step&gt;元素，进一步在其中添加一个&lt;note&gt;元素，并且包含如下所示的内容。</cmd>
+                    <stepxmp>
+                        <pre>...
+&lt;/stepsection&gt;
+<ph outputclass="newchanged">&lt;step&gt;
+&lt;note&gt;在观察鸭子习性时不要惊动它们；当有人在场时，它们的习性会变得不同。&lt;/note&gt;
+&lt;/step&gt;</ph></pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>在&lt;note&gt;结束标签后面添加一个新的&lt;cmd&gt;元素，并添加如下所示的内容。</cmd>
+                    <stepxmp>
+                        <pre>...
+&lt;/note&gt;
+<ph outputclass="newchanged">&lt;cmd&gt;观察鸭子之间是如何交流的，它们在吃什么，他们什么时候用嘴整理羽毛，是怎样整理的。&lt;/cmd&gt;</ph>
+&lt;/step&gt;</pre>
+                    </stepxmp>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+    <task id="task_ynz_fgy_3t">
+        <title>练习</title>
+        <taskbody>
+            <steps id="steps_r11_1kx_dt">
+                <step>
+                    <cmd>打开文件lesson2/l_task_steps_exercise_start.dita，使用该文件将下列内容从<xref href="http://contentstrategy101.com/" format="html" scope="external">Content Strategy 101</xref>转换至DITA中：</cmd>
+                    <info>
+                        <pre outputclass="passthru"><![CDATA[
+<hr />
+<h3>开发并实施内容战略</h3>
+<ol>
+<li>辨别并会见相关人员。</li>
+<li>建立实施目标和度量标准。</li>                            
+<li>定义角色和职责。
+    <p><strong>示例：</strong></p>
+    <ul>
+        <li>教育</li>
+        <li>开发</li>
+        <li>评审</li>
+        <li>同意</li>
+    </ul>
+</li>
+<li>建立时间表和里程碑。</li>
+<li>建立内容创建系统。</li>
+<li>转换传统内容。
+    <p><strong>选择一种做法：</strong></p>
+    <ul>
+        <li>将所有东西都转换到新系统中</li>
+        <li>识别并转换高优先级内容</li>
+        <li>及时转换</li>
+        <li>评估转换</li>
+        <li>什么都不转换</li>
+    </ul>
+</li>
+<li>交付内容
+     <table class="simpletable" border="1" summary="" cellspacing="0" cellpadding="4">
+     <tbody>
+     <tr class="strow">
+     <td class="stentry" valign="top" width="50%"><strong>交付方法</strong></td>
+     <td class="stentry" valign="top" width="50%"><strong>好处</strong></td>
+     </tr>
+     <tr class="strow">
+     <td class="stentry" valign="top"><em>PDF</em></td>
+     <td class="stentry" valign="top">视觉设计，可以印刷</td>
+     </tr>
+     <tr class="strow">
+     <td class="stentry" valign="top"><em>HTML</em></td>
+     <td class="stentry" valign="top">可获取性，交互性，响应式设计</td>
+     </tr>
+     <tr class="strow">
+     <td class="stentry" valign="top"><em>EPUB</em></td>
+     <td class="stentry">不能上网时提供电子内容</td>
+     </tr>
+     </tbody>
+     </table>
+ </li>
+ <li>捕捉项目知识。
+    <ol>
+        <li>记录你的内容模型、规范和最佳实践。</li>
+        <li>向在新环境中写作的作者提供培训。</li>
+        <li>向维护新系统的人员提供培训。</li>
+    </ol>
+ </li>
+ <li>保证长期成功。
+     <p><strong>结果：</strong>可以把在项目开始时列出的项勾掉，表示已经完成。</p>
+ </li>
+<hr />]]></pre>
+                    </info>
+                    <info/>
+                </step>
+                <step>
+                    <cmd>对照样例文件lesson2/l_task_steps_exercise.dita，检查你自己的lesson2/l_task_steps_exercise_start.dita练习成果。</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

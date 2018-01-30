@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_wjy_jyd_2t">
+ <title>dl元素</title>
+ <prolog>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+  <critdates>
+   <created date="2015-08-28"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcMatching id="lcMatching_t3l_lyd_2t">
+    <lcQuestion>将&lt;dl&gt;与它们的内容相匹配。</lcQuestion>
+    <lcMatchTable id="lcMatchTable_u3l_lyd_2t">
+     <lcMatchingPair>
+      <lcItem>&lt;dl&gt;</lcItem>
+      <lcMatchingItem>定义列表的容器元素</lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>&lt;dlentry&gt;</lcItem>
+      <lcMatchingItem>包含&lt;dt&gt;元素和&lt;dd&gt;元素</lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>&lt;dt&gt;</lcItem>
+      <lcMatchingItem>要定义的术语</lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>&lt;dd&gt;</lcItem>
+      <lcMatchingItem>定义</lcMatchingItem>
+     </lcMatchingPair>
+    </lcMatchTable>
+    <lcFeedbackIncorrect>&lt;dl&gt;元素包含一个或多个&lt;dlentry&gt;元素。每一个&lt;dlentry&gt;元素包含一个&lt;dt&gt;元素，&lt;dt&gt;元素包含术语，一个或多个包含定义的&lt;dd&gt;元素。 </lcFeedbackIncorrect>
+   </lcMatching>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

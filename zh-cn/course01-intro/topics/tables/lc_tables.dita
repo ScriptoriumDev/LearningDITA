@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_jyr_l4x_wr">
+    <title>表格</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Bill Swallow, Scriptorium</author>
+        <critdates>
+            <created date="2015-05-01"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup>
+                <lcObjective>区分简单表格和表格</lcObjective>
+                <lcObjective>描述简单表中的元素</lcObjective>
+                <lcObjective>描述表格中的元素</lcObjective>
+                <lcObjective>DITA表格的最佳实践</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcIntro>
+            <p>在结构和样式上，表格不是固定的。但是，表格又往往能更好地承载和传达内容。 </p>
+            <p>DITA包含两种类型的表格：</p>
+            <dl>
+                <dlentry>
+                    <dt>简单表格</dt>
+                    <dd>&lt;simpletable&gt;元素支持基础表格的呈现形式，可定制性不强。</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>表格</dt>
+                    <dd>&lt;table&gt;元素支持复杂的表格类型，可以跨行跨列，能根据属性的设定精确地呈现。</dd>
+                </dlentry>
+            </dl>
+            <p>大多数标记语言使用CALS表模型，这是根据美国国防部首创的一部分规则发展而来的。HTML表也使用CALS模型，因此如果你熟悉HTML表的标记，就会发现DITA表与之类似的地方。 </p>
+            <p>DITA表始终按行进行描述。</p>
+        </lcIntro>
+
+        <lcIntro>
+            <title>简单表格</title>
+            <p>对于在行和列里面就能基本表达出的内容，采用简单表格来呈现是理想的。你可以使用标题行，但不能使用表格标题，不能跨列或行，也不能定义每列的宽度。</p>
+        </lcIntro>
+        <lcIntro>
+            <title>表格</title>
+            <p>&lt;table&gt;元素适合更为复杂的表格内容。可以定义表格标题，可以跨列或行，可以包含多组行，还可以自定义每列的宽度。</p>
+        </lcIntro>
+        <lcIntro>
+            <title>其它类型的表格</title>
+            <p>另外还有两个非常独特的表格类型（基于&lt;simpletable&gt;元素）： </p>
+            <ul id="ul_x3m_vyc_ss">
+                <li>&lt;Properties&gt;，用在Reference Topic中，用于定义属性列表。</li>
+                <li>&lt;Choicetable&gt;，用在Task Topic中，用于显示各种选择之间的差异。</li>
+            </ul>
+        </lcIntro>
+    </learningContentbody>
+    <related-links>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Syntax_and_Markup/c_Tables.html"
+            scope="external" format="html">
+            <linktext>DITA风格指南第3章，表格部分</linktext>
+        </link>
+        <link href="http://www.afei.org/about/history/Pages/CALS.aspx" scope="external"
+            format="html">
+            <linktext>CALS的背景信息</linktext>
+        </link>
+    </related-links>
+</learningContent>

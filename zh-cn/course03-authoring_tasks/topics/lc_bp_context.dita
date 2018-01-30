@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_cxl_nwy_lt">
+    <title>提供适当的语境</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+        <critdates>
+            <created date="2015-09-25"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcIntro>
+            <p>&lt;context&gt;元素应该给读者提供足够的语境，帮助他们理解为什么要执行这项任务，任务的结果是什么。&lt;context&gt;元素不应该是扩展性的概念信息或者背景信息。 </p>
+            <p>若需要提供额外的概念性信息、背景信息或者操作原则信息，请创建一个概念主题，并在任务中创建链接，指向该概念主题。</p>
+            <p>需要注意的是，&lt;context&gt;和&lt;shortdesc&gt;元素可能有些类似。两类元素都用于提供任务目的的信息。但是，&lt;shortdesc&gt;元素常用于提供链接预览或检索结果等简短的信息，而&lt;context&gt;元素则可相对具体，用于提供诸如任务能达成何种结果等额外信息。 </p>
+        </lcIntro>
+    </learningContentbody>
+</learningContent>

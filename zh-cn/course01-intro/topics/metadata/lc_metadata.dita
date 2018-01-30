@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_gxd_rry_5r2">
+    <title>元数据</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+        <author>Sharon Burton</author>
+        <critdates>
+            <created date="2015-05-01"/>
+            <revised modified="2015-05-15"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup>
+                <lcObjective>定义元数据。</lcObjective>
+                <lcObjective>描述元数据的使用。</lcObjective>
+                <lcObjective>说明如何给topic添加元数据。 </lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="30"/>
+        </lcDuration>
+        <lcIntro>
+            <p>元数据意味着“超越数据”或关于数据的数据。在XML内容中，元数据允许你对信息进行分类和操作。在DITA中，你可以为topic、单个元素等分配元数据。 </p>
+        </lcIntro>
+    </learningContentbody>
+    <related-links>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/c_Types_of_Metadata.html"
+            format="html" scope="external">
+            <linktext>DITA风格指南第8章，元数据、条件处理和索引</linktext>
+        </link>
+        <link href="http://www.opentag.com/xfaq_lang.htm" scope="external" format="html">
+            <linktext>来自opentag.com的语言辨识常见问题（使用xml:lang来区分语言）</linktext>
+        </link>
+
+    </related-links>
+
+</learningContent>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="xrefs">
+    <title>交叉引用</title>
+    <prolog>
+        <author>Sharon Burton</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+        <critdates>
+            <created date="2015-04-28"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+    <lcInstruction>
+      <p>交叉引用让你可以创建各种链接：从文本到文本中的其他位置，从文本到图形，从文本到表格，或从文本到网站。 </p>
+            <p>所有交叉引用使用&lt;xref&gt;元素。href属性指定交叉引用的目标。   </p>
+            <p>&lt;xref&gt;元素可以选择性地包含文本。如果提供了文本，它将用作链接的热点文本。如果&lt;xref&gt;元素不包含任何文本，输出生成器将使用目标的标题作为链接的热点文本。 </p>
+            <note>尽管看起来像是正确的做法，但是，当创建对一个章节、图像或表格的交叉引用时，应该使用href属性来指定章节，图像或表格，而不是使用章节、图像，或表格中的&lt;title&gt;元素来指定。 </note>
+            <p>视频：<xref href="https://www.youtube.com/watch?v=Go2FyJl7uQY" format="html" scope="external">DITA交叉引用的代码示例</xref>
+            </p>
+            <p>还可以使用&lt;xref&gt;元素链接到DITA主题之外的资源。对于外部引用，需要设定一个值为external的scope属性和format属性，如下所示：</p>
+            <pre>&lt;xref href="http://www.learningdita.cn" scope="external" format="html"/&gt;</pre>
+            <note>对于指向PDF文件的链接，请使用format="pdf"。</note>
+            <p>从技术上讲，可以使用&lt;xref&gt;从一个topic链接到另一个topic。但此内联链接是一个bad idea，因为这个链接必须靠手动创建和维护。你必须指定要链接的内容。设置交叉引用时，map文件中应该包含源topic和目标topic。但是，如果在另一个不包含目标topic的map文件中重复使用源topic，那么该map文件生成输出时的链接会是坏的，然而你可能都没发现这个问题。因此，最好使用关系表来处理这种情况，而不是使用topic到topic的链接。 </p>
+    </lcInstruction>
+    </learningContentbody>
+  
+</learningContent>

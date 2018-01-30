@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_nmj_lmt_lt">
+    <title>恰当使用substeps</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+        <critdates>
+            <created date="2015-09-24"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcIntro>
+            <p>DITA&lt;substep&gt;元素很有用，但使用时也需稍加克制。</p>
+            <p>一旦你发现你正在大量地使用substeps或者你的一些substeps非常长，你可能需要重新看下任务分析。仔细考虑如何将主要任务细分为多个任务主题。有可能你之前对主要任务的处理还不够细致。</p>
+            <p>任务分析不完全的另一个明确的标志是：你已经使用了很多的子步骤（substeps），但却经常发现有必要继续使用“子子步骤”（sub-substeps）。</p>
+            <p>Substeps应该只在一些情境下使用，例如：</p>
+            <ul id="ul_pgk_3nt_lt">
+                <li>
+                    <p>你遇到的是一个复杂的步骤，读者能从附加细节信息中获益。</p>
+                </li>
+                <li>
+                    <p>你的读者（包括初学者）能从附加指导中获益。大多数的读者能够完全理解&lt;cmd&gt;元素要他们做什么，但也有少数经验不足的新手可能需要substeps提供更多细节。</p>
+                    <p>一些输出生成器能允许作者隐藏提供附加细节信息的子步骤，在读者要求更多信息时，又能展开。</p>
+                </li>
+                <li>
+                    <p>所包含的步骤不是同一类型的任务。偶尔，你也会碰到这类任务，任务中大多数的步骤需要连续级别的解释，但其中也有一两个步骤，虽然级别和其他步骤一样，但是需要更多详细的细节。</p>
+                </li>
+            </ul>
+            <p>请谨慎的使用子步骤，有些地方使用&lt;choice&gt;或&lt;choicetable&gt;元素更恰当。</p>
+        </lcIntro>
+    </learningContentbody>
+</learningContent>
