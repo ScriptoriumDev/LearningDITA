@@ -10,12 +10,18 @@
       
       <!-- Lesson 1: Feed Quality-->
       <learningGroup>
+         <topicmeta>
+            <navtitle>Feed Quality</navtitle>
+         </topicmeta>
          <!-- If there were multiple topics under this lesson group, 
               use the learningOverview to identify objectives for each of the topics. 
               Not necessary here. -->
               <!-- <learningOverviewRef href="lo_l1_feed_quality.dita"/>-->
          <!-- Topic 1 -->
          <learningObject>
+            <topicmeta>
+               <navtitle>Topic 1</navtitle>
+            </topicmeta>
             <learningPlanRef href="lp_l1_t1_feed_quality.dita"/>
             <learningOverviewRef href="lo_l1_t1_feed_quality.dita"/>
             <learningContentRef href="lc_l1_t1_where_to_buy.dita"/>
@@ -29,16 +35,41 @@
 
        <!-- Lesson 2: Feed Form -->
       <learningGroup>
+         <topicmeta>
+            <navtitle>Feed Form</navtitle>
+         </topicmeta>
          <learningOverviewRef href="lo_l1_feed_form.dita"/>
          <learningObject>
+            
             
             <learningContentRef/>
          </learningObject>
          
       </learningGroup>
-
+      
+      <!-- Lesson 3: Feeders and waterers -->
+      <learningGroup>
+         <topicmeta>
+            <navtitle>Feeders and Waterers</navtitle>
+         </topicmeta>
+         <learningOverviewRef href="lo_l3_feeders_waterers.dita"/>
+         <learningObject>
+            <!-- no need for a plan at this level. -->
+<!--            <learningPlanRef/>-->
+            <learningOverviewRef href="lo_l3_t1_feeders_waterers.dita"/>            
+            
+            <learningContentRef href="lc_l3_t1_height.dita"/>
+            <learningContentRef href="lc_l3_t1_cleanliness.dita"/>
+            <learningContentRef href="lc_l3_t1_ducklings.dita"/>
+            <learningContentRef href="lc_l3_t1_wet_litter.dita"/>
+            <learningSummaryRef href="ls_l3_t1_summary.dita"/>
+            <learningPostAssessmentRef href="lg_l3_t1_quiz.dita" type="learningGroup"/>
+         </learningObject>
+         
+      </learningGroup>
+      
       <!--
-         Feeders and waterers
+         
          Nutritional requirements
          Controlling disease
          Avoiding predation
