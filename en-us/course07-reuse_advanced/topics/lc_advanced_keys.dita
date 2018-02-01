@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="lc_advanced_keys">
+    <title>Advanced key uses</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey</author>
+        <critdates>
+            <created golive="2016-07-01" date="2016-10-17"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction id="lcInstruction_w1w_d5m_qx">
+            <p><b>Compound uses of the &lt;keydef> element</b></p>
+            <p>You can use keydefs to simultaneously define both file paths and text strings.
+                Consider the case where you need to cross-reference a topic in many different
+                places, but you want to use some text other than the topic title in the
+                cross-reference. In this case, you can create a &lt;keydef> element that associates
+                a key with an href to the topic, but also uses the nested &lt;topicmeta> to define a
+                &lt;linktext> element:</p>
+            <pre>&lt;keydef keys="initing_ddb" href="init_ddb.dita">
+    &lt;topicmeta>
+        &lt;linktext>Initializing the Duck Database&lt;/linktext>
+    &lt;/topicmeta>
+&lt;/keydef></pre>
+            <p>If you reference this key in a cross-reference (&lt;xref> element), the link will
+                target init_ddb.dita and the text for the link will be “Initializing the Duck
+                Database”:<pre>&lt;xref keyref="initing_ddb"/></pre></p>
+            <!--The following works fine in Oxygen, but DOES NOT WORK in the OT. -->
+            <!--<p>In addition, you can use the key if you just need to refer to the linktext:</p><pre>For more information, see &lt;cite keyref="initing_ddb"/>. </pre><p>When this is processed, the &lt;linktext> content will be used in the &lt;cite> element: </p><lq>For more information, see <i>Initializing the Duck Database</i>. </lq>-->
+            <p><b>Key references with fall-backs</b></p>
+            <p>If you use both a keyref and an href attribute in an element, a DITA output generator
+                will attempt to resolve the keyref first. If the key is not defined, the href target
+                is used as a fall-back. </p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

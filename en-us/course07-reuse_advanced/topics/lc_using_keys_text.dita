@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="content_pgf_3gt_qt">
+    <title>Using keys for text</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey</author>
+        <critdates>
+            <created golive="2016-12-01" date="2016-10-18"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction id="lcInstruction_w1w_d5m_qx">
+            <p>You can use a key as a variable for replaceable text in your DITA topics. Typical
+                uses of keys for text variables include:</p>
+            <ul>
+                <li>Product names</li>
+                <li>Product numbers</li>
+                <li>Company names</li>
+                <li>Telephone numbers</li>
+                <li>Titles of other books in a document set</li>
+            </ul>
+            <p>Although there is no limit on the length of the string defined by a key, strings in
+                keys are usually fairly short. </p>
+            <note>The previous course (<xref keyref="reuse_basic_url"/>) pointed out that it was not
+                a good idea to use replaceable text in anything smaller than a sentence. Overall,
+                this is good advice. However, if you are using keys for a company or product name,
+                particularly when documenting a product that might be rebranded or OEMed, the
+                convenience and consistency provided by keys may outweigh some considerations of
+                localization. </note>
+            <p>To define a key that will contain a text string, use the keys attribute to name the
+                key, then nest a &lt;topicmeta> element containing a keyword definition inside the
+                &lt;keydef> element. For example:</p>
+            <pre>&lt;keydef keys="product_name">
+   &lt;topicmeta>
+      &lt;keywords>
+         &lt;keyword>Duck Database&lt;/keyword>
+      &lt;/keywords>
+   &lt;/topicmeta>
+&lt;/keydef></pre>
+            <p>This syntax is quite verbose. The good thing is: you define it once, then forget
+                about it. </p>
+            <p>Note that the string is limited to the content that is allowed in the &lt;keyword>
+                element, that is: plain text, the &lt;text> element, and the &lt;tm> (trademark)
+                element. You cannot use other elements in the string to provide inline formatting or
+                cross-references. If you need additional elements within the string, consider using
+                a conref instead.</p>
+            <p><b>Using the key</b></p>
+            <p>To use a key for a text string, use the keyref attribute with these elements (or any
+                element specialized from these elements):</p>
+            <sl>
+                <sli>&lt;ph></sli>
+                <sli>&lt;term></sli>
+                <sli>&lt;keyword></sli>
+            </sl>
+            <p>This example show how a key can be used with a &lt;ph> (phrase) element:</p>
+            <pre>Congratulations on purchasing &lt;ph keyref="product_name"/>!</pre>
+            <p>When the DITA map includes the &lt;keydef> element shown above, the output would
+                contain:</p>
+            <lines>Congratulations on purchasing Duck Database! </lines>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

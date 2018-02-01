@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_hrm_xjh_1t">
+    <title>Adding inline styling</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-08-24"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>DITA uses several elements for inline styling, or styling of pieces of text inside a
+                paragraph:</p>
+            <simpletable frame="all" relcolwidth="1.0* 1.0*" id="simpletable_brx_sl4_2t">
+                <strow>
+                    <stentry>
+                        <p>&lt;b></p>
+                    </stentry>
+                    <stentry>
+                        <p>bold text</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;i></p>
+                    </stentry>
+                    <stentry>
+                        <p>italic text</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;u></p>
+                    </stentry>
+                    <stentry>
+                        <p>underlined text</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;term></p>
+                    </stentry>
+                    <stentry>
+                        <p>a word or phrase that needs a definition</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;cite></p>
+                    </stentry>
+                    <stentry>
+                        <p>a word or phrase that needs a citation</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;varname></p>
+                    </stentry>
+                    <stentry>
+                        <p>a word or phrase that may change based on the user’s circumstances</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;sub></p>
+                    </stentry>
+                    <stentry>
+                        <p>subscript text</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;sup></p>
+                    </stentry>
+                    <stentry>
+                        <p>superscript text</p>
+                    </stentry>
+                </strow>
+            </simpletable>
+            <p>The inline elements &lt;b>, &lt;i>, and &lt;u> are familiar and easy to use. However,
+                because they are closely linked with the appearance of text, it is easy to misuse
+                them and defeat the purpose of separating content from formatting. Use these
+                elements sparingly; in most cases, it is better to use more meaningful elements
+                instead, such as the &lt;term>, &lt;cite>, or &lt;varname> elements.</p>
+            <p>In the following examples, you will learn how to insert the simple &lt;b>, &lt;i>,
+                and &lt;u> elements first, then how to replace them with the semantically rich
+                alternatives.</p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_i3g_jkh_1t">
+        <title/>
+        <taskbody>
+            <steps id="steps_f5k_kkh_1t">
+                <step>
+                    <cmd>Make a copy of the file lesson3/l_concept_elements_start.dita and open it in your
+                        editor.</cmd>
+                    <info>
+                        <note>
+                            <p>If you are using a DITA-aware text editor, make sure you are in text
+                                mode, rather than author or visual mode.</p>
+                        </note>
+                    </info>
+                    <stepxmp>
+                        <p>You should see this:</p>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_elements">
+&lt;title>Feeding ducklings&lt;/title>
+&lt;conbody>
+&lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Add a &lt;p> element containing &lt;b>, &lt;i>, and &lt;u> elements as
+                        shown in the following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_elements">
+&lt;title>Feeding ducklings&lt;/title>
+&lt;conbody>
+<ph outputclass="newchanged">&lt;p>Ducklings need &lt;b>round-the-clock access&lt;/b> to both &lt;i>food&lt;/i> and &lt;i>water&lt;/i> 
+during the first &lt;u>two weeks&lt;/u> of their lives.&lt;/p></ph>
+&lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>By adding the &lt;b> element to this paragraph, you have indicated that
+                        the words “round-the-clock access” should be rendered in boldface.
+                        Similarly, by adding the &lt;i> element, you have indicated that the words
+                        “food” and “water” should be rendered in italic, and by adding the &lt;u>
+                        element, you have indicated that the words “two weeks” should be rendered
+                        with an underline.</info>
+                    <info>Although these inline elements add emphasis to important words, they have
+                        no other semantic value. Suppose you wanted to define the words
+                        “round-the-clock access” later, or to style them the same way as other words
+                        describing feeding frequency. Rather than using the &lt;b> element to tag
+                        the words simply as bold, you could use the &lt;term> element to tag them as
+                        an important term. </info>
+                    <info>There are similar, more semantically rich alternatives for the &lt;i> and
+                        &lt;u> elements, as you will see in the next step.</info>
+                </step>
+                <step>
+                    <cmd>After the &lt;p> element, add another &lt;p> element containing the same
+                        text as the previous paragraph, with the &lt;b> element changed to
+                        &lt;term>, the &lt;i> element changed to &lt;cite>, and the &lt;u> element
+                        changed to &lt;varname>, as shown in the following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_elements">
+&lt;title>Feeding ducklings&lt;/title>
+&lt;conbody>
+...
+<ph outputclass="newchanged">&lt;p>Ducklings need &lt;term>round-the-clock access&lt;/term> to both &lt;cite>food&lt;/cite> and 
+&lt;cite>water&lt;/cite> during the first &lt;varname>two weeks&lt;/varname> of their lives.&lt;/p></ph>
+&lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>In this example, you have tagged “round-the-clock access” with the
+                        &lt;term> element to show that it is a term that should be defined later.
+                        You have tagged “food” and “water” with the &lt;cite> element to show that
+                        they are words that could be given bibliographic citations should you need
+                        them. Finally, you have tagged “two weeks” with the &lt;varname> element to
+                        show that it may need to be substituted with other information based on the
+                        user’s circumstances (for example, certain breeds of ducks may need
+                        round-the-clock access to food and water longer than two weeks).</info>
+                </step>
+                <step>
+                    <cmd>After the last &lt;p> element, add another &lt;p> element containing a
+                        &lt;sub> element as shown in the following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_elements">
+&lt;title>Feeding ducklings&lt;/title>
+&lt;conbody>
+...
+<ph outputclass="newchanged">&lt;p>Because duck feed has a dry, gritty texture, ducklings need plenty of 
+H&lt;sub>2&lt;/sub>O to keep their bills clean.&lt;/p></ph>
+&lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>The &lt;sub> element is used to tag subscript text, or text that appears
+                        smaller and slightly below the main line. In the example you added, the
+                        &lt;sub> element is used to ensure that the “2” in H<sub>2</sub>O is
+                        displayed as subscript.</info>
+                </step>
+                <step>
+                    <cmd>After the last &lt;p> element, add another &lt;p> element containing a
+                        &lt;sup> element as shown in the following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_elements">
+&lt;title>Feeding ducklings&lt;/title>
+&lt;conbody>
+...
+<ph outputclass="newchanged">&lt;p>You can make your own low, no-spill food and water dishes out of recycled 
+plastic containers, or buy ready-made dishes from E-Z-Feed&lt;sup>2&lt;/sup>.&lt;/p></ph>
+&lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>The &lt;sup> element is used to tag superscript text, or text that appears
+                        smaller and slightly above the main line. In the example you added, the
+                        &lt;sup> element is used to indicate that the “2” (symbol for “squared”) in
+                        the name of the duck food company (“E-Z-Feed<sup>2</sup>”) should be
+                        displayed as superscript. <note>Do not use &lt;sup> elements
+                            to create raised numbers for footnotes. Instead, use the DITA &lt;fn>
+                            (footnote) element, which we will cover later in this lesson.</note>
+                    </info>
+                  
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

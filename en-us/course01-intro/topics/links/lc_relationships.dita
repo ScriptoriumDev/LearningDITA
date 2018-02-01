@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="links2">
+    <title>Relationship tables</title>
+    <prolog>
+        <author>Sharon Burton</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+        <critdates>
+            <created date="2015-04-28"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+    <lcInstruction><p>Relationship tables, or reltables, allow you to describe topic relationships
+                that are not sequential or hierarchical. A reltable is a part of a map file; it can
+                appear at any location in the map, but the convention is to add the reltable at the
+                end of the main map. Each row of the table contains topicref elements that link to
+                related topics. </p><p>Here is an example of a reltable row (and the reltable
+                heading row). in which the columns contain topicrefs for concept, reference, and
+                task information. The row shown here contains topicrefs to related topics.
+                </p><image href="../../media/links/reltable_example.png" id="image_mj2_dj2_ss"
+                base="2015/07"/><p>When you generate output through the DITA Open Toolkit, the
+                relationships described in the reltable are used to create a list of links to the
+                related topics. In the default HTML output, the reltable entries are used to create
+                a Related Topics section at the end of each topic.</p><p>In the reltable row shown
+                here:</p><ul id="ul_mxk_xj2_ss">
+                <li>The concept topic c_about_ducks.dita would have related links to
+                    r_breeedsofducks.dita, r_goodbreedsforpets.dita, and t_feeding.dita.</li>
+                <li>The reference topic r_breedsofducks.dita would have links to c_about_ducks.dita,
+                    r_goodbreedsforpets.dita, and t_feeding.dita.</li>
+                <li>The reference topic r_goodbreedsforpets.dita would have links to
+                    c_about_ducks.dita, r_breedsofducks.dita, and t_feeding.dita.</li>
+                <li>The task topic t_feeding.dita would have links to c_about_ducks,
+                    r_breedsofducks.dita, and r_goodbreedsforpets.dita.</li>
+            </ul><note>To illustrate a larger concept, this example contains a simplification: for
+                r_breedsofducks.dita and r_goodbreedsforpets.dita to link to one another, the cell
+                containing both links must identify them as a “family”. The details relationship
+                table cell attributes will be described in a future course. </note><p>The
+                relationships you capture in the reltable are <i>not</i> typically shown when you
+                are authoring topics.</p><p>Video: <xref
+                    href="https://www.youtube.com/watch?v=vMUxQpQvTZg" format="html"
+                    scope="external">Overview of DITA relationship table (reltable)</xref>
+            </p><p>Start simple with reltables. They can get very complex.</p><p>Reltables are
+                preferred over related links or xrefs for links within a map file because of the
+                following factors:</p><ul id="ul_twh_tkp_wr">
+                <li>The topicrefs in the reltable are evaluated against the current map file. If
+                    your reltable contains a link to a file that is not included in the map file,
+                    that link is not generated in the output. This prevents the broken link problem
+                    that can occur with related links and xrefs. </li>
+                <li>The reltables are easier to maintain then embedded related links. Each row in a
+                    reltable can contain multiple topics and captures their interrelationships. So,
+                    if you have eight related topics, it is much easier to create a single row in a
+                    reltable that lists those eight topics than it is to create eight slightly
+                    different related-links lists (consisting of 8×7 or 56 links) in your eight
+                    topics. If you need to remove one topic from the list, the reltable change is
+                    done once rather than seven times in the files.</li>
+            </ul></lcInstruction>
+    </learningContentbody>
+  
+</learningContent>

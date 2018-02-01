@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Using keys</title>
+ <topicref href="../topics/lc_using_keys.dita">
+  <topicmeta lockmeta="yes">
+   <data name="lesson_id" value="10836"/>
+  </topicmeta>
+  <topicref href="../topics/lc_key.dita"/>
+  <topicref href="../topics/lc_using_keys_paths.dita"/>
+  <topicref href="../topics/lc_using_keys_text.dita"/>
+  <topicref href="../topics/lc_advanced_keys.dita"/>
+  <topicref href="../topics/lc_keys_best_practices.dita"/>
+  <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_using_keys.dita"
+   locktitle="yes">
+   <topicmeta>
+    <navtitle>Assessment for Using keys</navtitle>
+   </topicmeta>
+   <!-- Assessment types: T/F, Single Select, multiple select, matching, sequencing -->
+   <topicref href="../assessments/using_keys/lca_where_defined.dita"/>
+   <topicref href="../assessments/using_keys/lca_paths_and_strings.dita"/>
+   <topicref href="../assessments/using_keys/lca_defining_file_key.dita"/>
+   <topicref href="../assessments/using_keys/lca_file_path_usage.dita"/>
+   <topicref href="../assessments/using_keys/lca_definining_text_key.dita"/>
+   <topicref href="../assessments/using_keys/lca_text_keyref.dita"/>
+  </topicref>
+ </topicref>
+</map>

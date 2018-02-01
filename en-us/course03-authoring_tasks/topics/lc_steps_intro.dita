@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_kqs_rks_zs">
+    <title>Creating the steps</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-08-12"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup id="lcObjectivesGroup_e2g_sks_zs">
+                <lcObjective>Specify the location of  the &lt;steps> element in the &lt;taskbody> </lcObjective>
+                <lcObjective>Identify the core elements found in a step and how they are
+                    used</lcObjective>
+                <lcObjective>Differentiate the &lt;choices> and &lt;choicetable>
+                    elements</lcObjective>
+                <lcObjective>Understand how to create substeps and how they differ from
+                    steps</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="1"/>
+        </lcDuration>
+        <lcInstruction>
+            <p>The &lt;steps> element (note plural) contains &lt;step> elements (singular). The
+                individual step instructions are inside the &lt;step> elements. </p>
+            <p>When output is generated from the task topic, the steps usually take the form of a
+                numbered list. The labels that identify each step (such as a number and some
+                punctuation or the word “Step” followed by a number) are determined by the output
+                generator. When you're authoring a step, most DITA editors will display step numbers
+                beside each step.</p>
+
+            <note>
+                <p>This lesson covers basic use of these elements. For the full specifications for
+                    each element, see the <xref
+                        href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/task.html"
+                        format="html" scope="external">OASIS DITA Version 1.2 Standard</xref>.</p>
+            </note>
+        </lcInstruction>
+    </learningContentbody>
+    <related-links>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Syntax_and_Markup/c_Semantics_in_Steps.html"
+            format="html" scope="external">
+            <linktext>DITA Style Guide, Semantics in steps</linktext>
+        </link>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Syntax_and_Markup/c_The_command_Element.html"
+            format="html" scope="external">
+            <linktext>DITA Style Guide, The command element</linktext>
+        </link>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Syntax_and_Markup/c_Required_and_Optional_Steps.html"
+            format="html" scope="external">
+            <linktext>DITA Style Guide, Required and optional steps</linktext>
+        </link>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Syntax_and_Markup/c_Choice_Tables.html"
+            format="html" scope="external">
+            <linktext>DITA Style Guide, Choice tables</linktext>
+        </link>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Syntax_and_Markup/c_Sub_Steps.html"
+            format="html" scope="external">
+            <linktext>DITA Style Guide, Substeps within steps</linktext>
+        </link>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Syntax_and_Markup/c_Notes_in_Steps.html"
+            format="html" scope="external">
+            <linktext>DITA Style Guide, Notes and extra information in a step</linktext>
+        </link>
+    </related-links>
+</learningContent>

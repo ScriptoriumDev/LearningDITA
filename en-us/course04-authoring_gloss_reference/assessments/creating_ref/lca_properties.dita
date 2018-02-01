@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_drj_4dg_vt">
+ <title>Properties</title>
+ <prolog>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+   Scriptorium</author>
+  <critdates>
+   <created date="2015-10-28"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody id="learningAssessmentbody_l3b_12g_vt">
+  <lcInteraction>
+   <lcSequencing id="lcSequencing_sjb_12g_vt">
+    <lcQuestion>Arrange the elements in their required order.</lcQuestion>
+    <lcSequenceOptionGroup id="lcSequenceOptionGroup_ukb_12g_vt">
+     <lcSequenceOption>
+      <lcAnswerContent>&lt;properties></lcAnswerContent>
+      <lcSequence value="1"/>
+     </lcSequenceOption>
+     <lcSequenceOption>
+      <lcAnswerContent>&lt;property></lcAnswerContent>
+      <lcSequence value="2"/>
+     </lcSequenceOption>
+     <lcSequenceOption>
+      <lcAnswerContent>&lt;proptype></lcAnswerContent>
+      <lcSequence value="3"/>
+     </lcSequenceOption>
+     <lcSequenceOption>
+      <lcAnswerContent>&lt;propvalue></lcAnswerContent>
+      <lcSequence value="4"/>
+     </lcSequenceOption>
+     <lcSequenceOption>
+      <lcAnswerContent>&lt;propdesc></lcAnswerContent>
+      <lcSequence value="5"/>
+     </lcSequenceOption>
+    </lcSequenceOptionGroup>
+   </lcSequencing>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

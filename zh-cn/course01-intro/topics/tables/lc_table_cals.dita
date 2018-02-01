@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_atj_lxq_xr">
+    <title>表元素</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Bill Swallow, Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+        <author>Sharon Burton</author>
+        <critdates>
+            <created date="2015-05-04"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>DITA表（&lt;table&gt;）使用以下元素来表示和组织表格数据：</p>
+            <table frame="all" rowsep="1" colsep="1" id="table_uj4_tzk_ns">
+                <tgroup cols="3">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1.02*"/>
+                    <colspec colname="newCol3" colnum="3" colwidth="1.01*"/>
+                    <thead>
+                        <row>
+                            <entry>元素</entry>
+                            <entry>描述</entry>
+                            <entry>数字</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>&lt;title&gt;</entry>
+                            <entry>包含表的标题。 </entry>
+                            <entry>零或一。</entry>
+                        </row>
+                        <row>
+                            <entry>&lt;tgroup&gt;</entry>
+                            <entry>包含列参数，标题行和正文行。 </entry>
+                            <entry>每个表必须至少包含一个&lt;group&gt;元素。</entry>
+                        </row>
+                        <row>
+                            <entry>&lt;colspec&gt;</entry>
+                            <entry>定义列的宽度和标识信息。 </entry>
+                            <entry>表格中每列应该有一个&lt;colspec&gt;元素。</entry>
+                        </row>
+                        <row>
+                            <entry>&lt;thead&gt;</entry>
+                            <entry>包含表标题行。</entry>
+                            <entry>&lt;group&gt;最多可以包含一个&lt;thead&gt;元素。
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>&lt;tbody&gt;</entry>
+                            <entry>包含表正文行。 </entry>
+                            <entry>一个&lt;tgroup&gt;有且只含有一个&lt;tbody&gt;元素。</entry>
+                        </row>
+                        <row>
+                            <entry>&lt;row&gt;</entry>
+                            <entry>在表中包含单个行。</entry>
+                            <entry>&lt;thead&gt;或&lt;tbody&gt;元素可以包含任意数量的&lt;row&gt;元素。</entry>
+                        </row>
+                        <row>
+                            <entry>&lt;entry&gt;</entry>
+                            <entry>包含表单元格的数据。可以包含文本数据或其他公共块和内联元素。</entry>
+                            <entry>一个&lt;row&gt;元素可以包含一个或多个&lt;entry&gt;元素。
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            <p>这是最小DITA表结构（一个标题行，一个主体行和三个列）的示例。请注意，在这种情况下，&lt;tgroup&gt;仅指定cols属性，这是必需的：</p>
+            <pre> &lt;table&gt;
+      &lt;tgroup cols="3"&gt;
+        &lt;thead&gt;
+          &lt;row&gt;
+            &lt;entry&gt;第一列，标题行&lt;/entry&gt;
+            &lt;entry&gt;第二列，标题行&lt;/entry&gt;
+            &lt;entry&gt;第三列，标题行&lt;/entry&gt;
+          &lt;/row&gt;
+        &lt;/thead&gt;
+        &lt;tbody&gt;
+          &lt;row&gt;
+            &lt;entry&gt;第一列，正文行&lt;/entry&gt;
+            &lt;entry&gt;第二列，正文行&lt;/entry&gt;
+            &lt;entry&gt;第三列，正文行&lt;/entry&gt;
+          &lt;/row&gt;
+        &lt;/tbody&gt;
+      &lt;/tgroup&gt;
+    &lt;/table&gt;</pre>
+            <p>结果如下所示：<fig>
+                    <image href="../../media/tables/simplecals.png" base="2015/07" id="image_hk3_krt_xr" />
+                </fig></p>
+            <p>这是一个更复杂的表：</p>
+            <pre> &lt;table&gt;
+        &lt;title&gt;我的第一个表格&lt;/title&gt;
+        &lt;tgroup cols="2"&gt;
+          &lt;colspec colname="c1" colnum="1" colwidth="1*"/&gt;
+          &lt;colspec colname="c2" colnum="2" colwidth="4*"/&gt;
+          &lt;thead&gt;
+            &lt;row&gt;
+              &lt;entry&gt;标题行，第一列&lt;/entry&gt;
+              &lt;entry&gt;标题行，第二列&lt;/entry&gt;
+            &lt;/row&gt;
+          &lt;/thead&gt;
+          &lt;tbody&gt;
+            &lt;row&gt;
+              &lt;entry&gt;第一行，第一列&lt;/entry&gt;
+              &lt;entry&gt;第一行，第二列&lt;/entry&gt;
+            &lt;/row&gt;
+            &lt;row&gt;
+              &lt;entry namest="c1" nameend="c2"&gt;该单元格占了两列。&lt;/entry&gt;
+            &lt;/row&gt;
+            &lt;row&gt;
+              &lt;entry morerows="1"&gt;该单元格占了两行。&lt;/entry&gt;
+              &lt;entry&gt;row 3, column 2&lt;/entry&gt;
+            &lt;/row&gt;
+            &lt;row&gt;
+              &lt;entry&gt;第四行，第二列&lt;/entry&gt;
+            &lt;/row&gt;
+          &lt;/tbody&gt;
+        &lt;/tgroup&gt;
+      &lt;/table&gt;</pre>
+            <p>看起来像这样： </p>
+            <fig id="fig_x2m_r34_rs">
+                <image href="../../media/tables/morecals.png" base="2015/07" id="image_twf_4rt_xr" />
+            </fig>
+            <p>表上的一些注释：</p>
+            <ul id="ul_g4v_lpt_xr">
+                <li>&lt;colspec&gt;元素使用属性定义好列的名称（colname）、列的数量（colnum）和列的宽度（colwidth）。在该示例中，colwidth是“1 *”和“4 *”。星号表示设置是成比例的，因此第一列获得20％的可用宽度，第二列获得80％。 </li>
+                <li>每行有&lt;row&gt;元素，每个单元格有&lt;entry&gt;元素。</li>
+                <li>注意，第2行只有一个&lt;entry&gt;。这是因为该entry跨越两个列，这是由name-start（namest）和name-end（nameend）属性指定的。</li>
+                <li>在第3行中，第一个entry跨越第3行和第4行，因此就要有一个morerows的属性。</li>
+            </ul>
+            <p>正确设置表代码的最简单易行的方法是使用一个编辑器来管理这些设置。手动编码表只是为胆大心细的人设定的。</p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

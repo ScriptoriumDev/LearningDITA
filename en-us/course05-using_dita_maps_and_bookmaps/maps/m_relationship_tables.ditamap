@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Relationship tables</title>
+ <topicref href="../topics/lc_reltables.dita">
+  <topicmeta lockmeta="yes">
+   <data name="lesson_id" value="10014"/>
+  </topicmeta>
+  <!--  <topicref href="../topics/lc_creating_new_ref.dita"/>
+  <topicref href="../topics/lc_adding_refsyn.dita"/>
+  <topicref href="../topics/lc_adding_properties.dita"/>-->
+  <topicref href="../topics/lc_about_reltables.dita"/>
+  <topicref href="../topics/lc_creating_reltable.dita"/>
+  <topicref href="../topics/lc_reltable_rows.dita"/>
+  <topicref href="../topics/lc_advanced_reltable.dita"/>
+  <topicref href="../topics/lc_reltable_bestpractices.dita"/>
+  <topicref href="../topics/lcc_assessment.dita" copy-to="lcc_relationship_tables.dita"
+   locktitle="yes">
+   <topicmeta>
+    <navtitle>Assessment for relationship tables</navtitle>
+   </topicmeta>
+   <!--   <topicref href="../assessments/creating_ref/lca_body.dita"/>
+   <topicref href="../assessments/creating_ref/lca_properties.dita"/>
+   <topicref href="../assessments/creating_ref/lca_prophead.dita"/>
+   <topicref href="../assessments/creating_ref/lca_refsyn.dita"/>
+   <topicref href="../assessments/creating_ref/lca_syntax_diagrams.dita"/>
+   <topicref href="../assessments/creating_ref/lca_proptype.dita"/>-->
+   <topicref href="../assessments/reltables/lca_definition.dita"/>
+   <topicref href="../assessments/reltables/lca_importance.dita"/>
+   <topicref href="../assessments/reltables/lca_row_column_cell.dita"/>
+   <topicref href="../assessments/reltables/lca_position_map.dita"/>
+   <topicref href="../assessments/reltables/lca_bookmap_position.dita"/>
+   <topicref href="../assessments/reltables/lca_too_many_topicrefs.dita"/>
+  </topicref>
+ </topicref>
+</map>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<!-- This file is part of the DITA Training project hosted on
+ github.com. See the accompanying LICENSE file for
+ applicable licenses.-->
+<map>
+ <title>Keys for The Learning and Training specialization </title>
+ <keydef keys="sample_file" href="http://www.learningdita.com/wp-content/uploads/2017/04/learning_and_training_samples.zip" format="zip" scope="external">
+  <topicmeta>
+   <linktext>learning_and_training_samples.zip</linktext>
+  </topicmeta>
+ </keydef>
+ 
+ <keydef keys="course_name">
+  <topicmeta>
+   <keywords>
+    <keyword>The Learning and Training specialization</keyword>
+   </keywords>
+  </topicmeta>
+ </keydef>
+ 
+ <!-- keys for other conkeyref elements: -->
+<!-- <keydef keys="ditaval_topic" href="../topics/lc_conditions_ditaval.dita" format="dita"/>
+--> 
+ <!-- key for warehouse file containing conkeyref elements. -->
+ <keydef keys="sample_contents" href="../topics/z_conkeyref_elements.dita"/>
+ 
+ <!-- IMAGES -->
+<!-- <keydef keys="i_name" href="../images/image-01.png" format="png"/>-->
+ 
+ <!-- Screen shots -->
+<!-- <keydef keys="s_name" href="../images/image-02.png" format="png"/>-->
+ 
+</map>

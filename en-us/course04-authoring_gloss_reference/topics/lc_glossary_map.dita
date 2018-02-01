@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_ls3_2yg_vt">
+    <title>Organizing glossary entries in a map</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-10-28"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Usually the glossary entry topics are gathered together in one or more DITA map
+                files. The content of the map files and their organization depend greatly on the
+                needs of your organization and the capabilities of your DITA output transforms. If
+                you have a robust output transform, you will have more options in how you can
+                structure your glossary map files.</p>
+            <p>The most straightforward strategy for glossary organization is to create a DITA map
+                file that contains &lt;topicref> elements for each of your glossary entries. </p>
+            <pre dir="ltr" id="docs-internal-guid-ab43f4b0-b484-eb92-a3ed-876226a0eddc">&lt;map&gt;
+   &lt;title&gt;Duck glossary&lt;/title&gt;
+   &lt;topicref href="g_acorns.dita"/&gt;
+   &lt;topicref href="g_aythyinae.dita"/&gt;
+   &lt;topicref href="g_canvasback.dita"/&gt;
+   ...
+&lt;/map&gt;</pre>
+            <p>If the contents of this single glossary map file are arranged alphabetically, you can
+                generate a usable glossary with the standard DITA output types without having to
+                sort entries in the output transform.</p>
+            <note>The contents of the &lt;title> in this map file are mostly there to assist the
+                writers. If this glossary map will be used in other maps, the contents of the
+                &lt;title> is ignored when the maps are merged.</note>
+            <p>Once you have created this glossary map, you can include it in any of your other maps
+                (with a &lt;topicref> or &lt;mapref> element).</p>
+            <p>However, the world of glossary creation is often much messier and complex than simply
+                organizing all entries in a single map. When your organization actually begins to
+                implement DITA as part of your content strategy, it’s a good idea to work with a
+                DITA stylesheet developer to handle glossary information that’s organized in a way
+                that works for you and to generate the glossary output you need.</p>
+            <p>Some things to keep in mind about glossary organization and output: </p>
+            <ul id="ul_dn3_n1n_vt">
+                <li>
+                    <p>If you have several different contributing organizations, each of them may
+                        maintain a separate set of glossary entries. These will need to be merged
+                        (and sorted) as part of the output process.</p>
+                </li>
+                <li>
+                    <p>Similarly, different product lines may have different glossaries that may
+                        need to be merged, depending on some conditions or requirements. </p>
+                </li>
+                <li>
+                    <p>There may be other reasons for maintaining a number of separate glossary maps
+                        and merging them later.</p>
+                </li>
+                <li>
+                    <p>An output transform can also incorporate glossary entries from glossary group
+                        topics into an output glossary. </p>
+                </li>
+                <li>
+                    <p>If your content will be translated, it’s highly likely that the glossary will
+                        need to be sorted for your target language. If your output transform handles
+                        the sorting tasks, your localization agency does not have to be responsible
+                        for sorting the translated glossary entries. </p>
+                </li>
+            </ul>
+            <p>All of these situations can be handled by a well-crafted output transform. </p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_pdh_s5m_vt">
+        <title/>
+        <taskbody>
+            <steps id="steps_f5k_kkh_1t">
+                <step>
+                    <cmd>Make a copy of the file l_glossorg_start.ditamap and open it in your
+                        editor.</cmd>
+                    <info>
+                        <note>Opening a map file in an XML editor will often open the file in a
+                            different interface than when opening a DITA file. You may need to go
+                            through an extra step to open it within the editing interface.</note>
+                    </info>
+                    <stepxmp>
+                        <p>You should see this:</p>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+&lt;map>
+   &lt;title>&lt;/title>
+&lt;/map>
+</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Inside the &lt;title> element, type a title for the map</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+&lt;map>
+<ph outputclass="newchanged">   &lt;title>Duck glossary&lt;/title></ph>
+&lt;/map>
+</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>After the &lt;title> element, add a &lt;topicref> element.</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+&lt;map>
+   &lt;title>Duck glossary&lt;/title>
+   <ph outputclass="newchanged">&lt;topicref href="l_glossentry.dita"/></ph>
+&lt;/map>
+</pre>
+                    </stepxmp>
+                    <info>If you used a different name when you saved your file from the glossary
+                        entry exercise, use that filename instead of l_glossentry.dita. </info>
+                </step>
+                <step>
+                    <cmd>If you created other glossary entry files, add topicref elements for each
+                        of those files. </cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+    <task id="task_fvl_13n_vt">
+        <title>Exercise</title>
+        <taskbody>
+            <steps>
+                <step>
+                    <cmd>Open the file lesson3/l_glossary_exercise_start.dita and use it to convert
+                        the following content into DITA:</cmd>
+                    <info>
+                        <note><p>While this exercise uses a single DITA file for conversion, it is
+                                also acceptable to convert it into a map with glossary
+                            entries.</p></note>
+                        <pre outputclass="passthru"><![CDATA[
+<hr/>
+<h3>Content strategy terms</h3>
+<i>structured authoring</i>
+<p>An environment for creating content where the required structure is enforced by the authoring software and following the template is not optional</p>
+
+<i>structured content</i>
+<p>Information that is organized in a predictable way</p>
+
+<i>searchable content</i>
+<p>Information that is available via an Internet search</p>
+
+<i>findable content</i>
+<p>Information that performs well for relevant keywords</p>
+
+<i>discoverable content</i>
+<p>Information that has in-bound links, especially on social media</p>
+
+]]></pre>
+                    </info>
+                </step>
+            </steps>
+
+        </taskbody>
+    </task>
+</learningContent>

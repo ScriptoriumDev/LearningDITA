@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_pgf_3gt_qt">
+    <title>Reusable topics and maps</title>
+    <prolog>
+        <author type="creator" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate</author>
+        <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell</author>
+        <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey</author>
+        <critdates>
+            <created golive="2016-07-11" date="2016-05-11"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>In the most basic form of reuse, you can reuse a DITA topic in any number of maps. </p>
+            <p>It is important that each reusable topic follows the guidelines presented in the
+                previous lesson. That is, each topic should be:</p>
+            <ul id="ul_qwy_pgb_kw">
+                <li>Consistent</li>
+                <li>Context-free</li>
+                <li>Generalized</li>
+            </ul>
+            <p>As described in the LearningDITA course on <cite>Using DITA maps and bookmaps</cite>,
+                you use the DITA &lt;topicref> element in a map or bookmap to include a topic in a
+                map.</p>
+            <pre>&lt;topicref href="filepath/filename.dita"/></pre>
+            <p>If your topic meets all of the reusable guidelines, you should be able to re-use the
+                topic in just about any type of map, at just about any level in the hierarchy.</p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="content_pgf_3gt_qt">
+    <title>Review of basic reuse</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey</author>
+        <critdates>
+            <created golive="2016-12-01" date="2016-10-18"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>In the <xref keyref="reuse_basic_url"/> course you learned that: </p>
+            <ul id="ul_sby_1v5_cx">
+                <li>You should keep reusability in mind when creating topics. Reusable topics are
+                    consistent, context-free, and generalized. </li>
+                <li>You can reuse topics in many different maps. </li>
+                <li>You can reuse maps in many different maps.</li>
+                <li>You can reuse same topic multiple times in the same map. </li>
+                <li>You can use content references (or “conrefs”) to reuse an element across many
+                    different topics.   </li>
+            </ul>
+            <p>This course builds on these principles and ideas by introducing you to conditions
+                (filtering), keys, and advanced content references. </p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

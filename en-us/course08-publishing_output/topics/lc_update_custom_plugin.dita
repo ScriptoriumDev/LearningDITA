@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="content_pgf_3gt_qt">
+    <title>Updating a custom plugin</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Noelle Russell, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Ashley Stant, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Bill Swallow, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Jake Campbell, Scriptorium</author>
+        <critdates>
+            <created golive="2017-03-27" date="2017-02-06"/>
+        </critdates>
+    </prolog>
+    
+    <learningContentbody>
+        <lcInstruction>
+            <p>One of the most common reasons for updating the styling of a custom plugin is a
+                change in company branding. You may also need to update a custom plugin to
+                accommodate changes to the source content’s structure—for example, adding a new
+                element to your specialization, or specializing for the first time.</p>
+            <p>Customizing DITA OT plugins is difficult and requires lots of testing to ensure that
+                updates to the plugin have the desired results in the output. Special knowledge is
+                required to customize plugins or update custom plugins, such as knowledge of Ant,
+                XSL, and DTDs for the base plugin architecture, plus other knowledge of the output
+                types, including XHTML, JavaScript, and XSL-FO. For this reason, most companies hire
+                an expert—whether an outside consultant or an in-house employee—to customize
+                plugins.</p>
+            <p>CSS, or cascading stylesheets, can be used to modify the appearance of output from
+                the xhtml plugin. Because many people have common knowledge of CSS, a company may
+                not need to hire an expert if the only required output type is XHTML and all
+                branding aspects can be handled through changes to the CSS.</p>
+            <p>The following instructions show you how to make simple updates to the CSS for your
+                custom ld_xhtml plugin and generate XHTML output to test the results.</p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_dng_jxg_2z">
+        <title>Updating the custom xhtml plugin’s CSS</title>
+        <taskbody>
+            <steps id="steps_scx_mzg_2z">
+                <step>
+                    <cmd>Navigate to your <b>dita-ot-2.4.4/out/custom_output</b> folder and open the
+                        file <b>c_wild_duck_species.html</b> in a browser.</cmd>
+                    <info><p>The XHTML output looks like this:</p><image base="2017/03"
+                            href="images/xhtml_custom.png" width="500" id="image_n24_3dy_fz"
+                        /></info>
+                </step>
+                <step>
+                    <cmd>Navigate to your
+                            <b>dita-ot-2.4.4/plugins/com.learningdita.ld_xhtml/resource</b> folder
+                        and open the file <b>ld_style.css</b> in a text editor.</cmd>
+                </step>
+                <step>
+                    <cmd>Make the following changes to <b>ld_style.css</b>:</cmd>
+                    <info>
+                        <p>(Areas where changes are required are indicated in bold, highlighted
+                            text.)</p>
+                        <pre>.p {
+  margin-top: 1em;
+  font-family: "Lingua Franca", Palatino, serif;
+  font-size: 0.9em;
+  <ph outputclass="newchanged">color: #D48028;</ph>
+}
+
+.topictitle1 {
+  margin-top: 0;
+  margin-bottom: .1em;
+  font-size: 2em;
+  font-family: "Gill Sans", Helvetica, sans-serif;
+  font-weight: normal;
+  <ph outputclass="newchanged">color: #86CCCC;</ph>
+}</pre>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Save your changes to <b>ld_style.css</b>.</cmd>
+                </step>
+                <step>
+                    <cmd>Enter the following commands into the command line to test your updates to
+                        the custom plugin:</cmd>
+                    <info>
+                        <p><b>On Windows:</b></p>
+                        <pre>bin\dita -i [filepath]/sources/ducks/m_ducks.ditamap -f ld_xhtml -o out/custom_output -v</pre>
+                        <p><b>On Mac:</b></p>
+                        <pre>./bin/dita -i [filepath]/sources/ducks/m_ducks.ditamap -f ld_xhtml -o out/custom_output -v</pre>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Press ENTER to run the DITA OT.</cmd>
+                </step>
+                <step>
+                    <cmd>Look inside your <b>custom_output</b> folder to view your generated custom
+                        XHTML output.</cmd>
+                </step>
+                <step>
+                    <cmd>Open <b>c_wild_duck_species.html</b> in a browser to see the CSS changes
+                        you made.</cmd>
+                    <info><p>The XHTML output now looks like this:</p><image
+                            href="images/xhtml_updated.png" width="500" id="image_ojr_kdy_fz"
+                            base="2017/03"/></info>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

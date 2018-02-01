@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_yys_qbh_1t">
+    <title>创建一个Task类型的Topic</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey, Scriptorium</author>
+        <critdates>
+            <created date="2015-08-14"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup id="lcObjectivesGroup_tvl_vbh_1t">
+                <lcObjective>创建一个任务主题文件夹</lcObjective>
+                <lcObjective>区分严格任务（strict task）和常规任务（general task）</lcObjective>
+                <lcObjective>介绍严格任务（strict task）主题的DOCTYPE</lcObjective>
+                <lcObjective>为任务添加根元素</lcObjective>
+                <lcObjective>理解&lt;prereq&gt;和&lt;context&gt;元素的作用 </lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="45"/>
+        </lcDuration>
+        <lcIntro>
+            <p>本节课程将展示如何创建一个task topic以及如何在task topic中添加常见的元素。 </p>
+            <note>
+                <p>本课包含任务主题中各元素的基本应用。每个元素的详细说明请参见<xref href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/task.html" format="html" scope="external">OASIS DITA 1.2版本标准</xref>。</p>
+            </note>
+
+        </lcIntro>
+    </learningContentbody>
+    <related-links>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Topics_and_Information_Types/c_Task.html"
+            format="html" scope="external">
+            <linktext>DITA风格指南，Task</linktext>
+        </link>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Topics_and_Information_Types/c_General_Tasks.html"
+            format="html" scope="external">
+            <linktext>DITA风格指南，General Task</linktext>
+        </link>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Syntax_and_Markup/c_Sentence_Syntax_in_prereq.html"
+            format="html" scope="external">
+            <linktext>DITA风格指南，prereq元素</linktext>
+        </link>
+    </related-links>
+</learningContent>

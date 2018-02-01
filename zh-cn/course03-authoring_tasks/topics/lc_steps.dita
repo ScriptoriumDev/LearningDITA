@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_kw5_5ls_zs">
+    <title>第一组steps</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+        <critdates>
+            <created date="2015-08-12"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>在&lt;context&gt;元素后面添加一个&lt;steps&gt;元素。 </p>
+            <pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"&gt;
+&lt;task id="task_topic"&gt;
+   &lt;title&gt;&lt;/title&gt;
+   &lt;taskbody&gt;
+      &lt;prereq&gt;
+      &lt;/prereq&gt;
+      &lt;context&gt;
+      &lt;/context&gt;
+<ph outputclass="newchanged">      &lt;steps&gt;
+      &lt;/steps&gt;</ph>
+   &lt;/taskbody&gt;
+&lt;/task&gt;</pre>
+            <p>和&lt;prereq&gt;、&lt;context&gt;元素一样，&lt;taskbody&gt;内只能包含一个&lt;steps&gt;元素。在坚持DITA理念的情况下（一个topic只包含一个意思），这一限制能帮助保证该主题只用于描述如何执行一个任务。</p>
+            <p>在&lt;steps&gt;内添加一个&lt;step&gt;元素。 </p>
+            <pre>...
+      &lt;steps&gt;
+<ph outputclass="newchanged">         &lt;step&gt;
+         &lt;/step&gt;</ph>
+      &lt;/steps&gt;
+...</pre>
+            <p>&lt;steps&gt;元素内必须包含至少一个&lt;step&gt;元素。大多数DITA编辑器会在&lt;steps&gt;元素中自动添加第一个&lt;step&gt;元素。 </p>
+            <p>DITA中，每个步骤的内容都有限制。读者需要采取的行动包含在&lt;cmd&gt;元素中，这在&lt;step&gt;中是一个必须元素。多数情况下，&lt;cmd&gt;包含单个的句子，用于明确指导读者如何操作。</p>
+            <p>在&lt;step&gt;内添加一个&lt;cmd&gt;元素（即“command”）。</p>
+            <pre>...
+      &lt;steps&gt;
+         &lt;step&gt;
+<ph outputclass="newchanged">            &lt;cmd&gt;&lt;/cmd&gt;</ph>
+         &lt;/step&gt;
+      &lt;/steps&gt;
+...</pre>
+            <p>由于&lt;step&gt;只能包含一个&lt;cmd&gt;元素，大多数DITA编辑器在添加&lt;step&gt;元素时会自动包含&lt;cmd&gt;元素。  </p>
+            <p>好了！我们在一个地方保存一些真实内容。请将第一个用户指令添加至&lt;cmd&gt;元素中。  </p>
+            <pre>...
+      &lt;steps&gt;
+         &lt;step&gt;
+<ph outputclass="newchanged">            &lt;cmd&gt;<ph outputclass="newchanged">Do something!</ph>&lt;/cmd&gt;</ph>
+         &lt;/step&gt;
+      &lt;/steps&gt;
+...</pre>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_a2s_dvs_zs">
+        <title/>
+    </task>
+</learningContent>

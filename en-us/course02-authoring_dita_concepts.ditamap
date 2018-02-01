@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on 
+     github.com. See the accompanying LICENSE file for 
+     applicable licenses.-->
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Authoring DITA concept topics</title>
+ <topicmeta>
+  <critdates>
+   <created date="2015-08-19"/>
+  </critdates>
+ </topicmeta>
+ <mapref href="course02-authoring_concepts/maps/m_creating.ditamap"/>
+ <topicref href="course02-authoring_concepts/maps/m_images_and_tables.ditamap" format="ditamap"/>
+ <topicref href="course02-authoring_concepts/maps/m_elements.ditamap" format="ditamap"/>
+ <topicref href="course02-authoring_concepts/maps/m_advanced.ditamap" format="ditamap"/>
+ <topicref href="course02-authoring_concepts/maps/m_best_practices.ditamap" format="ditamap"/>
+ 
+ <mapref href="course02-authoring_concepts/maps/this_course_keys.ditamap" processing-role="resource-only"/>
+ <mapref href="shared/maps/course_keys.ditamap" processing-role="resource-only"/>
+ 
+ 
+</map>

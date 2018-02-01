@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningAssessment id="lca_conref_push_requirements">
+ <title>Updating Custom Plugins</title>
+  <prolog class="- topic/prolog ">
+    <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+      class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+    <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+      class="- topic/author ">Noelle Russell, Scriptorium</author>
+    <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+      class="- topic/author ">Ashley Stant, Scriptorium</author>
+    <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+      class="- topic/author ">Simon Bate, Scriptorium</author>
+    <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+      class="- topic/author ">Bill Swallow, Scriptorium</author>
+    <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+      class="- topic/author ">Jake Campbell, Scriptorium</author>
+    <critdates>
+      <created golive="2017-03-27" date="2017-02-06"/>
+    </critdates>
+  </prolog>
+  
+<learningAssessmentbody>
+ <lcInteraction>
+  <lcMultipleSelect id="update">
+   <lcQuestion> Why might you need to update your custom plugins? (Choose all that
+     apply)</lcQuestion>
+   <lcAnswerOptionGroup>
+    <lcAnswerOption>
+      <lcAnswerContent>To allow you to start specializing for the first time.</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+    <lcAnswerOption>
+      <lcAnswerContent>To reflect a change in your company’s branding.</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+    <lcAnswerOption>
+      <lcAnswerContent>To accommodate a new element added to your specialization.</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+    <lcAnswerOption>
+      <lcAnswerContent>To allow you to publish a larger volume of content.</lcAnswerContent>
+     </lcAnswerOption>
+   </lcAnswerOptionGroup>
+   <lcFeedbackIncorrect>You may need to update your custom plugins to allow you to start
+     specializing for the first time, accommodate a new element added to your specialization, or
+     reflect a change in your company’s branding. You can publish a larger volume of content without
+     needing to update your custom plugins.</lcFeedbackIncorrect>
+  </lcMultipleSelect>
+ </lcInteraction>
+</learningAssessmentbody>
+</learningAssessment>

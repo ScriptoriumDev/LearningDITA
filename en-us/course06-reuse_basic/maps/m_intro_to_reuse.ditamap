@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Introduction to reuse</title>
+ <topicref href="../topics/lc_intro_to_reuse.dita">
+  <topicmeta lockmeta="yes">
+   <data name="lesson_id" value="10433"/>
+  </topicmeta>
+  <topicref href="../../shared/topics/lc_general_housekeeping.dita"/>
+  <topicref href="../topics/lc_reuse_housekeeping.dita"/>
+  <topicref href="../topics/lc_reasons_for_reuse.dita"/>
+  <topicref href="../topics/lc_reuse_analysis.dita"/>
+  <topicref href="../topics/lc_types_of_reuse.dita"/>
+
+  <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_reuse_intro.dita" locktitle="yes">
+   <topicmeta>
+    <navtitle>Assessment for Introduction to reuse</navtitle>
+   </topicmeta>
+   <topicref href="../assessments/intro_to_reuse/lca_reasons_for_reuse.dita"/>
+   <topicref href="../assessments/intro_to_reuse/lca_subset.dita"/>
+   <topicref href="../assessments/intro_to_reuse/lca_reuse_types.dita"/>
+   <topicref href="../assessments/intro_to_reuse/lca_translation_cost.dita"/>
+   <topicref href="../assessments/intro_to_reuse/lca_rewrite.dita"/>
+
+  </topicref>
+ </topicref>
+</map>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_psc_gxq_bs">
+    <title>在文本编辑器里创建一个Topic</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+        <critdates>
+            <created date="2015-05-18"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>DITA文件是XML，XML是纯文本。因此，可以在任何文本编辑器里创建一个XML文件。</p>
+            <p>一个基本的DITA Topic需要一个XML声明，一个DOCTYPE声明，一个topic，一个topic id属性，以及一个标题。仅此而已。</p>
+            <p>这是一个最小有效的Topic：</p>
+            <pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"&gt;
+&lt;topic id="myfirsttopic"&gt;
+  &lt;title&gt;Hello world&lt;/title&gt;
+&lt;/topic&gt;
+</pre>
+            <p>这个Topic是有效的，但这个Topic没有啥用，因为它不含任何主体内容。要使一个Topic有用，你需要更像这样的东西：</p>
+            <pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"&gt;
+&lt;topic id="myfirsttopic"&gt;
+  &lt;title&gt;Hello world&lt;/title&gt;
+&lt;body&gt;
+  &lt;p&gt;这是一段话&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;列表很不错&lt;/li&gt;
+    &lt;li&gt;尤其是你需要至少两个条目的时候&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;note&gt;别忘记注释了哟！&lt;/note&gt;
+&lt;/body&gt;
+&lt;/topic&gt;</pre>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

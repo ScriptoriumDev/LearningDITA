@@ -15,9 +15,10 @@
  </prolog>
  <conbody>
    <p>Assessments (test questions) come after the learning content in each module. In most cases you
-    can use the shared file <filepath>lcc_assessment.dita</filepath> that introduces the questions
-    in the LMS. If necessary (for example, if there are special instructions about the lesson's
-    assessment), you can create an introduction topic of your own.</p>
+   can use the shared file <filepath>lcc_assessment.dita</filepath> that introduces the questions in
+   the LMS. If necessary (for example, if there are special instructions about the lesson's
+   assessment), you can create an introduction topic of your own (or use conref push to insert
+   content).</p>
    <p>If you're using the shared introduction, create a &lt;topicref> pointing to the file
      <filepath>lcc_assessment.dita</filepath>, then use the copy-to attribute to specify a filename
     (starting with <filepath>lcc_assess_</filepath>), that uniquely identifies the copy. Add a
@@ -27,7 +28,8 @@
   &lt;topicref href="../topics/lcc_assessment.dita" copy-to="lcc_advanced.dita" locktitle="yes">
    &lt;topicmeta>
     &lt;navtitle>Assessment for Advanced elements&lt;/navtitle>
-   &lt;/topicmeta><b>&lt;topicref href="../topics/lcc_assessment.dita" copy-to="lcc_assess_basic.dita" locktitle="yes">
+   &lt;/topicmeta><b>&lt;topicref href="../../shared/topics/lcc_assessment.dita" 
+                            copy-to="lcc_assess_basic.dita" locktitle="yes">
     &lt;topicmeta>
       &lt;navtitle>Assessment for What is DITA?&lt;/navtitle>
     &lt;/topicmeta>
@@ -43,9 +45,9 @@
 </codeblock>
    <p>Each assessment question goes into its own &lt;learningAssessment> topic. It’s a good idea to
    include title text in assessment topics; the title is not displayed to the reader in the LMS, but
-   helps you locate the assessment when authoring. Each assessment requires a unique ID for the
-   question type (lcSingleSelect in the following sample). This is not the same as the ID of the
-   learningAssessment topic itself. </p>
+   helps you locate the assessment when authoring and editing. Each assessment requires a unique ID
+   for the question type (lcSingleSelect in the following sample). This is not the same as the ID of
+   the learningAssessment topic itself. </p>
    <codeblock>&lt;learningAssessment id="assessment_htp_t21_wr">
  &lt;title>Sample assessment&lt;/title>
  &lt;prolog>
@@ -70,6 +72,38 @@
    <p>Make sure you do not overlap with other IDs in the modules. Consider a unique ID prefix for
     your learning assessment content (for example, your initials or something related to the content
     you are developing).</p>
+  <section id="section_dzn_3k4_vx">
+   <title>Standard &lt;lcQuestion> forms</title>
+   <p>The DITA learning and training specialization (and LearnDashLMS) supports a number of
+    different question types. We encourage you to use a healtyh mix of question types when creating
+    your assessments. </p>
+   <p>So that students can have a consistent experience when taking assessments, we recommend the
+    following forms for these question types. Some questions or subjects might not fit well within
+    this form, please use these as a starting point for your questions. </p>
+   <dl>
+    <dlentry>
+     <dt>&lt;lcSingleSelect></dt>
+     <dd>"Which of the following __(items)__  ___(statement)___ most closely? (choose one)"</dd>
+    </dlentry>
+    <dlentry>
+     <dt>&lt;lcMultipleSelect></dt>
+     <dd>"Which of the following __(items)___  __(condition)___? (choose all that apply)"</dd>
+    </dlentry>
+    <dlentry>
+     <dt>&lt;lcTrueFalse></dt>
+     <dd>"___(statement)___ (true or false)."</dd>
+    </dlentry>
+    <dlentry>
+     <dt>&lt;lcSequencing></dt>
+     <dd>"Arrange the following ______ in the order in which they must__________." </dd>
+    </dlentry>
+    <dlentry>
+     <dt>&lt;lcMatching></dt>
+     <dd>"Drag the _______ to the _______ that matches most closely."</dd>
+     <dd>"Match the _______ to the _______ that matches most closely."</dd>
+    </dlentry>
+   </dl>
+  </section>
   <section><title>Providing answer feedback</title>
    <p>The ditatraining project is being published to LearningDITA.com. LearningDITA.com runs on
     WordPress and LearnDashLMS. Currently, LearnDashLMS does not support feedback at the answer

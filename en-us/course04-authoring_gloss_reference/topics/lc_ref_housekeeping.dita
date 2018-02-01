@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_pgf_3gt_qt">
+    <title>Housekeeping and sample files</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-10-12"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Download <xref
+                    href="http://www.learningdita.com/wp-content/uploads/2015/11/reference_samples.zip"
+                    format="zip" scope="external">reference_samples.zip</xref> now. It contains the
+                sample files for the entire DITA reference and glossary topic type course. Extract
+                the contents and put them in a directory that you can access easily.</p>
+            <p>Inside the samples folder, you will find four files: l_glossentry_start.dita,
+                l_glossgroup_start.dita, l_glossorg_start.ditamap, and l_reference_start.dita, which
+                you will use to complete exercises throughout the course. You will also find the
+                following folders corresponding to lessons in this course: lesson1 and lesson3.</p>
+            <p>In each lesson folder, you will find several DITA files:</p>
+            <ul id="ul_lx2_fj2_2t">
+                <li>
+                    <p>l_<i>filename</i>.dita: The completed version of the sample files you can use
+                        to check your work during each lesson.</p>
+                </li>
+                <li>
+                    <p>l_<i>filename</i>_exercise_start.dita: The empty file you will add content to
+                        as you complete the exercise at the end of each lesson.</p>
+                </li>
+                <li>
+                    <p>l_<i>filename</i>_exercise.dita: The completed version of the exercise file
+                        you can use to check your work.</p>
+                </li>
+                <li>
+                    <p>l_<i>filename</i>.ditamap: The completed version of the ditamap you can use
+                        to check your work in Lesson 3.</p>
+                </li>
+            </ul>
+            <p>Each lesson will instruct you on which files to use for the exercises. Save your file
+                as you complete each step to avoid losing your work. </p>
+            <p>Create a local copy of each file to work in as you complete the lessons. That way, if
+                you reach a point where your working file doesn’t match the examples, or is broken
+                for any reason, you can make a fresh copy and resume your work or start over.</p>
+            <p>In the instructions and examples, we show you the DITA code for each sample file.
+                Most DITA editors have auto-complete or other similar features to guide you through
+                the process of adding elements (for example, if you type the opening tag of an
+                element, most DITA editors will automatically add the closing tag for you).
+                Therefore, you will probably not need to create every piece of code from scratch as
+                you work. Our demo videos were created in <xref href="http://www.oxygenxml.com/"
+                    format="html" scope="external">oXygen XML Editor</xref> and show the differences
+                between working in author view, which presents the DITA content in a user-friendly
+                visual format, and working in text view, which shows the DITA code.</p>
+            <!--<p>The sample files for AuthoringDITA task topics are in the zip file task_samples.zip. Download this file to a location on your hard drive that you’ll remember, then extract the contents to a folder. </p><p>The exercises in this course follow in sequence, each exercise builds on the work completed in the previous exercise. You can use the first sample file as a starting point for the exercises in this course.</p><p>Use the subsequent sample files to check your work. If you reach a point where your exercise file doesn’t match the examples, or is broken for any reason, you can use the sample file from the previous exercise to resume your work. </p>-->
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

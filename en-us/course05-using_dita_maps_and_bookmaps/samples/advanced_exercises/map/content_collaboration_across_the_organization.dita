@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="topic_mzj_dcv_gg">
+  <title>Content collaboration across the organization</title>
+  <conbody>
+    <p><indexterm>tech
+          comm<indexterm>collaboration</indexterm></indexterm><indexterm>costs<indexterm>collaboration
+          to control</indexterm></indexterm><indexterm>controlling costs<indexterm>collaboration
+          strategy</indexterm></indexterm><indexterm>content<indexterm>collaboration</indexterm></indexterm><indexterm>collaboration<indexterm>cost
+          control method</indexterm></indexterm>Historically, technical communication, marketing,
+      and other departments developing content did not work closely with each other. Each group
+      offered the same justification: “Our content is completely different than theirs. We need to
+      work on our own.” </p>
+    <p>Today, collaboration is increasing. Instead of working in isolation, departments are
+      identifying shared content assets and pooling their resources to develop this content more
+      efficiently.</p>
+    <p>Technical communication and marketing usually “own” large amounts of content. But there are
+      other, less obvious places where high-value information is created:</p>
+    <ul id="ul_3j2_dzx_cg">
+      <li><indexterm>product design, collaboration with</indexterm><i>Product design and
+          development.</i> Product specifications, marketing requirements documents, and other
+        design documents exist before products are created and often include information needed for
+        technical and marketing content. Product developers are usually involved in content
+        development, either as contributors or as expert reviewers.</li>
+      <li><indexterm>training<indexterm>collaboration with</indexterm></indexterm><i>Training and
+          education.</i> For instructor-led training and e-learning, instructional designers develop
+        student guides, instructor guides, job aids, and more. These training materials often use
+        step-by-step instructions and other technical content. In our experience, about 50 percent
+        of instructional content is (or should be) identical to information found in tech comm.</li>
+      <li><indexterm>technical support<indexterm>collaboration
+          with</indexterm></indexterm><i>Technical support.</i> Technical support staff is usually
+        the heaviest internal user of technical content. As end users call in with problems and
+        questions, the technical support staff must find the answer—and quickly. In addition to
+        using technical content, the technical support team often creates condensed “cheat sheets,”
+        frequently asked question lists, troubleshooting procedures, or other information. Too
+        often, this content is not contributed back to the technical communication, instructional
+        design, and marketing teams. </li>
+      <li><indexterm>software development, collaboration with</indexterm><i>Software.</i> Software
+        products often contain technical content. For example, many complex software systems have
+        extensive error messages. These messages should be documented and explained in the technical
+        content. If the software and the error message explanations are generated from a single
+        source, you can ensure that both sets of information are synchronized.</li>
+      <li><indexterm>online help</indexterm><indexterm>help, online</indexterm><i>Online help.</i>
+        Software engineers create unique identifiers for various interface components. The technical
+        communication team creates content and matches the content up with the identifiers to enable
+        context-sensitive online help. The online help files are developed by the tech comm team and
+        then included in the software builds.</li>
+      <li><indexterm>labels, product interface</indexterm><i>Product interface labels.</i> These are
+        needed for hardware and software products. For example, a smartphone typically has a button
+        (either physical or on a touchscreen) for making phone calls, labeled <b>Call</b> or
+          <b>Send.</b> A common challenge for smartphone manufacturers is that this button has
+        dozens or even hundreds of variations—at least one per supported language and often
+        additional variations demanded by the cell phone carriers within a single language. And, of
+        course, each smartphone has many of these types of labels. One solution is to store all of
+        the labels in a database and extract the correct label based on the current language and
+        carrier setting. This requires close collaboration between the engineering and technical
+        content teams.</li>
+   
+      <li><i>Web services.</i> The web services team manages the presentation, organization, and
+        distribution of web content. Technical content published to the corporate web site should
+        match the look and feel of other web site content. </li>
+      <li><indexterm>sales<indexterm>collaboration
+            with</indexterm></indexterm><indexterm>sales<index-see-also>marketing</index-see-also></indexterm><indexterm>marketing<index-see-also>sales</index-see-also></indexterm><i>Sales.
+        </i>The sales team relies upon technical and marketing content for proposals and sales
+        support materials. For example, if a potential customer has questions about specific
+        features of a product, a salesperson may put together a custom package of information by
+        compiling pertinent sections from user manuals, data sheets, and marketing materials.</li>
+    </ul>
+    <p>Sharing content across departments improves the overall product quality by ensuring that
+      customers receive consistent information and a unified message. At the same time, content
+      sharing eliminates redundancy, which reduces the cost of content development. The challenge
+      with shared content is cross-departmental collaboration. It is time-consuming and often
+      difficult to establish strong working relationships across disparate teams.<fig>
+        <title>Collaboration across disparate teams</title>
+        <image href="images/infoflow.svg" id="image_ysz_rqj_jg"/>
+      </fig></p>
+    <p/>
+  </conbody>
+</concept>

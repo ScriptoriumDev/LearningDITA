@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="lc_creating_and_using_a_reusable_map">
+    <title>Merging maps</title>
+    <prolog>
+        <author type="creator" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate</author>
+        <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell</author>
+        <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey</author>
+        <critdates>
+            <created golive="2016-07-11" date="2016-05-11"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction id="lcInstruction_obp_3kb_mw">
+            <p>In the previous examples, the submap (_m_breeds.ditamap) contains &lt;title> and
+                &lt;topicmeta> elements. It’s a good idea to use these elements to provide
+                information to other writers to describe the purpose of the submap and to provide
+                metadata for searches. But note that these are not retained in final processing. </p>
+            <p>When you generate output from a map or bookmap, all submaps are merged into a final
+                map, which is used to generate your output.</p>
+            <p>This table lists some of the more common elements you might use in a submap and what
+                happens to them when the submap is merged in to a final map. </p>
+            <table frame="all" rowsep="1" colsep="1" id="table_ftg_hlb_mw">
+                <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="3.03*"/>
+                    <thead>
+                        <row>
+                            <entry>Element</entry>
+                            <entry>Merged map result</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>&lt;title></entry>
+                            <entry>Deleted</entry>
+                        </row>
+                        <row>
+                            <entry>&lt;topicmeta></entry>
+                            <entry>Deleted</entry>
+                        </row>
+                        <row>
+                            <entry>&lt;topicref> to DITA topic</entry>
+                            <entry>Copied exactly</entry>
+                        </row>
+                        <row>
+                            <entry>&lt;topicref format=“ditamap”></entry>
+                            <entry>Replaced with content from href attribute</entry>
+                        </row>
+                        <row>
+                            <entry>&lt;mapref></entry>
+                            <entry>Replaced with content from href attribute</entry>
+                        </row>
+                        <row>
+                            <entry>&lt;topichead></entry>
+                            <entry>Copied exactly</entry>
+                        </row>
+                        <row>
+                            <entry>&lt;topicgroup></entry>
+                            <entry>Copied exactly</entry>
+                        </row>
+                        <row>
+                            <entry>&lt;reltable></entry>
+                            <entry>Copied exactly</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_ytj_kkt_lw">
+        <title>On Your Own</title>
+        <taskbody>
+            <steps id="steps_dfp_lkt_lw">
+                <step>
+                    <cmd>Open the following submap files:</cmd>
+                    <info>
+                        <ul id="ul_spy_dnl_nw">
+                            <li>reuse_basic_samples/reusing_topics_and_maps/_m_wild_ducks_start.ditamap</li>
+                            <li>reuse_basic_samples/reusing_topics_and_maps/_m_domestic_ducks_start.ditamap</li>
+                        </ul>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Reuse the topic file c_duck_safety.dita by adding it as the last topic in
+                        each of the submap files you just opened.</cmd>
+                </step>
+                <step>
+                    <cmd>Save and close both of the submap files.</cmd>
+                </step>
+                <step>
+                    <cmd>Open the map file
+                        reuse_basic_samples/reusing_topics_and_maps/_m_ducks_start.ditamap. The
+                        submap files you just edited are reused in this map. Therefore, you should
+                        be able to see the topic file you added (c_duck_safety.dita) in each submap
+                        within the main map.</cmd>
+                </step>
+                <step>
+                    <cmd>Check your work in your main map file against the map file
+                        reuse_basic_samples/reusing_topics_and_maps/_m_ducks.ditamap.</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

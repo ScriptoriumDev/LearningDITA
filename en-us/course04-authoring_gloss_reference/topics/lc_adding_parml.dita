@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_jfg_2lq_5t">
+    <title>Adding a parameter list</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-10-26"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <draft-comment author="simonbate">Abandoned this as a part of the Reference topic
+                course. We might want to use this content later in a course on the programming
+                domain or somesuch, but for now, this is gone. </draft-comment>
+            <p>Use the &lt;parml> (parameter list) element when you need to document a list of
+                arguments for a function or API parameters. Some style guides call for the
+                &lt;parml> element to be contained within a separate &lt;section> element, while
+                others might put them in the &lt;refsyn> element. The &lt;parml> element is a
+                specialization of the &lt;dl> (definition list) element, and contains a list of
+                parameters and their use within a program. </p>
+            <p>The &lt;parml> element contains one or more &lt;plentry> (parameter list entry)
+                elements, which contains one or more &lt;pt> (parameter term) and &lt;pd> (parameter
+                definition) elements.</p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_e3s_llq_5t">
+        <title/>
+        <taskbody>
+            <steps>
+                <step>
+                    <cmd>Continue using l_reference_start.dita.</cmd>
+                </step>
+                <step>
+                    <cmd>After the &lt;codeblock> element, add a &lt;parml> element and add two
+                        &lt;plentry> elements.</cmd>
+                    <stepxmp>
+                        <pre>   &lt;title>tNav&lt;/title>
+   &lt;refbody>
+     &lt;section>&lt;p>The &lt;cmdname>tNav&lt;/cmdname> command is used in the 
+     Duck Database to navigate to a different table or view.&lt;/p>&lt;/section>
+     &lt;refsyn>
+         &lt;codeblock>
+             -tNav tName tView
+         &lt;/codeblock>
+         <ph outputclass="newchanged">&lt;parml>
+             &lt;plentry>
+             
+             &lt;/plentry>
+             &lt;plentry>
+             
+             &lt;/plentry>
+         &lt;/parml></ph>
+     &lt;/refsyn>
+   &lt;/refbody> 
+&lt;/reference></pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Within each &lt;plentry> element, add a &lt;pt> and &lt;pd> element and add
+                        content to them as shown.</cmd>
+                    <stepxmp>
+                        <pre>   &lt;title>tNav&lt;/title>
+   &lt;refbody>
+     &lt;section>&lt;p>The &lt;cmdname>tNav&lt;/cmdname> command is used in the 
+     Duck Database to navigate to a different table or view.&lt;/p>&lt;/section>
+     &lt;refsyn>
+         &lt;codeblock>
+             -tNav tName tView
+         &lt;/codeblock>
+         <ph outputclass="newchanged">&lt;parml>
+             &lt;plentry>
+                 &lt;pt>tName&lt;/pt>
+                 &lt;pd>The name of the destination table&lt;/pd>
+             &lt;/plentry>
+             &lt;plentry>
+                 &lt;pt>tView&lt;/pt>
+                 &lt;pd>The optional view of the destination table&lt;/pd>
+             &lt;/plentry>
+         &lt;/parml></ph>
+     &lt;/refsyn>
+   &lt;/refbody> 
+&lt;/reference></pre>
+                    </stepxmp>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

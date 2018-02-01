@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_p3h_frt_qt">
+    <title>Creating a new glossary entry</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-10-12"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>The glossary entry topic must contain at least a &lt;glossentry> (glossary entry)
+                root element (with an id attribute) that contains a &lt;glossterm> (glossary term)
+                element.</p>
+            <p>The &lt;glossterm> element is a specialization of the &lt;title> element. The
+                &lt;glossterm> element can contain any element that a &lt;title> element can
+                contain. </p>
+            <p>The &lt;glossdef> element must follow the &lt;glossterm> element, and contains the
+                definition. The &lt;glossdef> element can contain any element that is allowed in the
+                &lt;section> element, except a &lt;title> element. </p>
+            <p>The &lt;glossbody> (glossary body) element can optionally follow the glossdef
+                element, and can contain a series of specialized elements that can be used to
+                provide additional details about the glossary term. The &lt;glossbody> element is
+                beyond the scope of this exercise, and will be covered in a later lesson.</p>
+            <p><xref href="https://youtu.be/6JrvPjKwphM" format="html" scope="external">Video:
+                    Creating a DITA glossary entry</xref></p>
+            <note><p>Generally, it's a best practice to prepend "g_" to the filenames of your
+                    glossary entries in order to make it easier to find them in a file structure.
+                    However, in keeping with our other learning materials, we're using
+                "l_".</p></note>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_i3g_jkh_1t">
+        <title/>
+        <taskbody>
+            <steps id="steps_f5k_kkh_1t">
+                <step>
+                    <cmd>Make a copy of the file l_glossentry_start.dita and open it in your
+                        editor.</cmd>
+                    <info>
+                        <note>If you are using a DITA editor, make sure you are in text mode, rather
+                            than author or visual mode. </note>
+                    </info>
+                    <stepxmp>
+                        <p>You should see this:</p>
+                        <pre>&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd">
+&lt;glossentry id="duck">
+    &lt;glossterm>&lt;/glossterm>
+&lt;/glossentry>
+</pre>
+                    </stepxmp>
+                    <info>
+                        <p>The first line (which begins with <tt>&lt;?xml</tt>) is an XML
+                            declaration, which is a standard part of all XML files.</p>
+                        <p>The second line is the DOCTYPE declaration, which tells DITA editors or
+                            DITA output generators that this is a DITA glossentry topic. The
+                            programs then use that information when validating the content of the
+                            topic. The DOCTYPE will be specific to each topic type that you create. </p>
+                        <p>The third line contains the opening tag of the &lt;glossentry> element.
+                            The id attribute associated with the &lt;glossentry> element is
+                            required.</p>
+                        <p>The fourth line contains the &lt;glossterm> element. </p>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Inside the &lt;glossterm> element, insert the glossary term to be defined. </cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd">
+&lt;glossentry id="duck">
+<ph outputclass="newchanged">   &lt;glossterm>duck&lt;/glossterm></ph>
+
+&lt;/glossentry></pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>After the &lt;glossterm> element, add a &lt;glossdef> element.</cmd>
+                    <info>Whenever possible, the id attribute associated with the &lt;glossentry>
+                        attribute should be human readable for ease of referencing later, preferably
+                        as close as possible to the glossary term.</info>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd">
+&lt;glossentry id="duck">
+&lt;glossterm>duck&lt;/glossterm>
+<ph outputclass="newchanged">&lt;glossdef>&lt;p>A type of swimming bird characterized by webbed feet, a broad, flat bill, and quacking&lt;/p>&lt;/glossdef></ph>
+    
+&lt;/glossentry></pre>
+                    </stepxmp>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

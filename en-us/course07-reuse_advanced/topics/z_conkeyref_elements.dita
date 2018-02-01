@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<topic id="topic_nxn_1t4_tx">
+  <title>Conkeyref elements for reuse advanced</title>
+  <body>
+    <!-- List the folders that are in the sample zip file for this course. -->
+    <!-- This content is pulled in by conkeyref to the reusable housekeeping file. -->
+    <p id="folder_contents">The samples folder contains these files, which help illustrate
+      principles of conditional filtering and flagging and the conref push operation: <ul>
+        <li>advanced_reuse_examples.ditamap</li>
+        <li>c_conrefpush_sources.dita</li>
+        <li>c_conrefpush_target.dita</li>
+        <li>c_filtering_and_flagging.dita</li>
+        <li>domestic.ditaval</li>
+        <li>show_rev.ditaval</li>
+        <li>wild.ditaval</li>
+      </ul></p>
+  </body>
+</topic>

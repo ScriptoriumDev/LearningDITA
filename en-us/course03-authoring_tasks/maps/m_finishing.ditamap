@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Finishing up the task</title>
+ <topicref href="../topics/lc_finishing_intro.dita">
+  <topicmeta lockmeta="yes">
+   <data name="lesson_id" value="9517"/>
+  </topicmeta>
+  <topicref href="../topics/lc_results.dita"/>
+  <topicref href="../topics/lc_example.dita"/>
+  <topicref href="../topics/lc_whatsnext.dita"/>
+  <topicref href="../topics/lcc_assessment.dita" copy-to="lcc_finishing.dita" locktitle="yes">
+   <topicmeta>
+    <navtitle>Assessment for Finishing up the task</navtitle>
+   </topicmeta>
+   <topicref href="../assessments/finishing/lca_sequence.dita"/>
+   <topicref href="../assessments/finishing/lca_result.dita"/>
+   <topicref href="../assessments/finishing/lca_postreq.dita"/>
+   <topicref href="../assessments/finishing/lca_example.dita"/>
+   <topicref href="../assessments/finishing/lca_elements.dita"/>
+  </topicref>
+ </topicref>
+</map>
+ 

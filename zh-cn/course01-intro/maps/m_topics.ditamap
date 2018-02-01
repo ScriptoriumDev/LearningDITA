@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "technicalContent/dtd/map.dtd" [
+]>
+
+
+
+<map xmlns:ditaarch = "http://dita.oasis-open.org/architecture/2005/">
+<topicref href = "../topics/lc_infotypes.dita"><topicmeta><navtitle></navtitle>
+<data name = "lesson_id" value = "39"></data></topicmeta>
+<topicref href = "../topics/lc_topictype.dita"><topicmeta><navtitle></navtitle></topicmeta></topicref>
+<topicref href = "../topics/lc_concept.dita"><topicmeta><navtitle></navtitle></topicmeta></topicref>
+<topicref href = "../topics/lc_task.dita"><topicmeta><navtitle></navtitle></topicmeta></topicref>
+<topicref href = "../topics/lc_reference.dita"><topicmeta><navtitle></navtitle></topicmeta></topicref>
+<topicref href = "../topics/lc_gloss.dita"><topicmeta><navtitle></navtitle></topicmeta></topicref><!--  <topicref href="../topics/lc_constraints.dita"/>-->
+
+<topicref href = "../topics/lc_specialization.dita"><topicmeta>
+<navtitle></navtitle></topicmeta></topicref>
+<topicref href = "../../shared/topics/lcc_assessment.dita"
+    copy-to = "lcc_assess_topics.dita" locktitle = "yes"><topicmeta>
+<navtitle>DITA topic的评估</navtitle></topicmeta>
+<topicref href = "../assessments/lca_elementtopic.dita"><topicmeta>
+<navtitle></navtitle></topicmeta></topicref>
+<topicref href = "../assessments/lca_specialization.dita"><topicmeta>
+<navtitle></navtitle></topicmeta></topicref>
+<topicref href = "../assessments/lca_constraint.dita"><topicmeta>
+<navtitle></navtitle></topicmeta></topicref>
+<topicref href = "../assessments/lca_topicscope.dita"><topicmeta>
+<navtitle></navtitle></topicmeta></topicref>
+<topicref href = "../assessments/lca_questions.dita"><topicmeta>
+<navtitle></navtitle></topicmeta></topicref>
+<topicref href = "../assessments/lca_concept.dita"><topicmeta>
+<navtitle></navtitle></topicmeta></topicref>
+<topicref href = "../assessments/lca_topictypes.dita"><topicmeta>
+<navtitle></navtitle></topicmeta></topicref>
+<topicref href = "../assessments/lca_glossterm.dita"><topicmeta>
+<navtitle></navtitle></topicmeta></topicref>
+<topicref href = "../assessments/lca_task.dita"><topicmeta><navtitle></navtitle></topicmeta></topicref>
+<topicref href = "../assessments/lca_glossary.dita"><topicmeta>
+<navtitle></navtitle></topicmeta></topicref></topicref></topicref></map>

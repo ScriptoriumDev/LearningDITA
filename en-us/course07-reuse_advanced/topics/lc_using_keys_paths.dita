@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="content_pgf_3gt_qt">
+    <title>Using keys for paths</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey</author>
+        <critdates>
+            <created golive="2016-12-01" date="2016-10-18"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <!--I'm making a conscious choice here not to mention topicref, because it clouds the issue. -->
+        <lcInstruction>
+            <p><b>Defining the key</b></p>
+            <p>To define a key that will contain a path (file path or URL), add the &lt;keydef>
+                element to a map. Use these attributes with the &lt;keydef> element:</p>
+            <ul>
+                <li><b>keys</b>: the name of the key</li>
+                <li><b>href</b>: the key target </li>
+                <li><b>format</b>: the type of file indicated by the key</li>
+            </ul>
+            <p>For example:</p>
+            <pre>&lt;keydef keys="product_image" href="images/product_B.png" format="png"/></pre>
+            <p>Although the key name can contain some special characters, it is a good practice to
+                limit names to letters, numbers, and the underscore character. If you need to use
+                other special characters, check the <xref keyref="dita_12_url"/>. </p>
+            <p>It is also a good practice to use the format attribute when defining a key. Possible
+                values include “dita”, “ditamap”, “pdf”, “html”, and  graphic formats, such as “png”
+                or “svg”.</p>
+            <p>If you’re defining a key for an external resource, such as a URL, you must use
+                    <tt>scope="external"</tt> with the &lt;keydef> element:</p>
+            <pre>&lt;keydef keys="our_url" href="http://www.scriptorium.com" scope="external" format="html"/></pre>
+            <p>The scope attribute prevents the DITA Open Toolkit (or other processors) from
+                attempting to resolve the href target as part of the definition. Because the href
+                attribute points to a web page, the format attribute must contain the value
+                    <tt>html</tt>. </p>
+            <p><b>Using the key</b></p>
+            <p>To use a key for a file path or URL, use the keyref attribute instead of the href
+                attribute:</p>
+            <pre>&lt;image keyref="product_image"/></pre>
+            <p>You can use keys (with the keyref attribute) in any element that uses an href
+                attribute to indicate a file path. These elements include (but are not limited to):<sl>
+                    <sli>&lt;image></sli>
+                    <sli>&lt;xref></sli>
+                    <sli>&lt;link></sli>
+                    <sli>&lt;coderef></sli>
+                    <sli>&lt;topicref></sli>
+                    <sli>&lt;mapref></sli>
+                </sl></p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

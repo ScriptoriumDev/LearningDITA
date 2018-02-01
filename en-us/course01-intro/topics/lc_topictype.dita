@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_vwq_jlh_rs">
+    <title>The generic topic type</title>
+    <shortdesc></shortdesc>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-07-13"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>All DITA topic types are based on a single generic topic type. The generic topic type
+                is used as the basis to create the specific topic types. Many of the elements and
+                organizations in the generic topic are also used by the specific topic types. </p>
+            <p>All DITA topics have this general structure:  </p>
+            <pre>&lt;topic id="sample">
+   &lt;title>Topic title goes here&lt;/title>
+   &lt;shortdesc>A short description&lt;/shortdesc>
+   &lt;body>
+        <i>(Most of the elements go here.)</i>
+   &lt;/body>
+&lt;/topic> </pre>
+            <p>
+                <ul id="ul_wwr_1nh_rs">
+                    <li>The &lt;shortdesc> (short description) element provides a 2-3 sentence
+                        summary of the topic content.</li>
+                    <li>The &lt;title> is the only required element in a topic.</li>
+                    <li>The &lt;body> contains the bulk of the information in the topic. In the
+                        specific topic types the body element has a related name, such as
+                        &lt;conbody> for concepts and &lt;taskbody> for tasks.</li>
+                </ul>
+            </p>
+            <note>Although you can use the generic topic type for authoring content, it’s much better
+                to use one of the specific topic types, such as concept, task, and reference. </note>
+            <p>There are other elements in the generic topic type, but these are the common
+                ones.</p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<learningContent id="lc_reltable_rows">
+    <title>Adding rows to the relationship table</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <critdates>
+            <created date="2016-03-21"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>The rows in a relationship table contain &lt;topicref> elements for related
+                information. In the exercise, you will add references to topics that mention the
+                “add” command in the fictitious Duck database.</p>
+            <p><xref href="https://youtu.be/GHW_STBkr54" format="html" scope="external">Video: DITA relationship tables</xref></p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_xhw_4j5_jv">
+        <title/>
+        <taskbody>
+            <steps id="steps_jkg_pj5_jv">
+                <step>
+                    <cmd>Continue using the file
+                        maps_bookmaps_samples/samples/_reltable_start.ditamap.</cmd>
+                </step>
+                <step>
+                    <cmd>After the &lt;relheader> element, add a &lt;relrow> element.</cmd>
+                    <stepxmp>
+                        <pre>&lt;reltable title="Ducks reltable">
+    &lt;relheader>
+        &lt;relcolspec type="concept"/>
+        &lt;relcolspec type="task"/>
+        &lt;relcolspec type="reference"/>
+    &lt;/relheader>
+    
+<ph outputclass="newchanged">    &lt;relrow>
+    &lt;/relrow>
+</ph>&lt;/reltable>
+</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Inside the &lt;relrow> element, add three &lt;relcell> elements.</cmd>
+                    <stepxmp>
+                        <pre>
+&lt;relrow>
+<ph outputclass="newchanged">    &lt;relcell>
+    &lt;/relcell>
+    &lt;relcell>
+    &lt;/relcell>
+    &lt;relcell>
+    &lt;/relcell>
+</ph>&lt;/relrow>
+</pre>
+                    </stepxmp>
+                    <info>Because we defined three relcolspec elements, we know that there are three
+                        columns in the relationship table.</info>
+                </step>
+                <step>
+                    <cmd>In the first &lt;relcell> element, add a &lt;topicref> element; include an
+                        href attribute that contains the value <tt>c_writing_about_ducks.dita</tt>. </cmd>
+                    <stepxmp>
+                        <pre>
+&lt;relrow>
+    &lt;relcell>
+<ph outputclass="newchanged">        &lt;topicref href="c_writing_about_ducks.dita"/>
+</ph>    &lt;/relcell>
+    &lt;relcell>
+    &lt;/relcell>
+    &lt;relcell>
+    &lt;/relcell>
+&lt;/relrow>
+</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Add &lt;topicref> elements with href attributes to the other two
+                        &lt;relcell> elements, as shown here.</cmd>
+                    <stepxmp>
+                        <pre>
+&lt;relrow>
+    &lt;relcell>
+        &lt;topicref href="c_writing_about_ducks.dita"/>
+    &lt;/relcell>
+    &lt;relcell>
+<ph outputclass="newchanged">        &lt;topicref href="t_adding_entry.dita"/>
+</ph>    &lt;/relcell>
+    &lt;relcell>
+<ph outputclass="newchanged">        &lt;topicref href="r_add.dita"/>
+</ph>    &lt;/relcell>
+&lt;/relrow>
+</pre>
+                    </stepxmp>
+                </step>
+            </steps>
+            <result>The relationship table now indicates that there is a relationship among the
+                three topics indicated by the href attribute values. </result>
+        </taskbody>
+    </task>
+</learningContent>

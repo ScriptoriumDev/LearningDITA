@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="content_pgf_3gt_qt">
+    <title>Generating HTML output</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Noelle Russell, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Ashley Stant, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Bill Swallow, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Jake Campbell, Scriptorium</author>
+        <critdates>
+            <created golive="2017-03-27" date="2017-02-06"/>
+        </critdates>
+    </prolog>
+    
+    <learningContentbody>
+        <lcInstruction>
+            <p>The DITA OT can produce HTML output using the xhtml and html5 plugins. This lesson
+                uses the xhtml plugin to demonstrate the process of publishing HTML output. </p>
+            <p>To generate XHTML output, use the same content as the PDF exercise. Seeing the same
+                content in two different output types gives you a firsthand look at the way DITA
+                separates content from formatting.</p>
+            <p><xref href="https://youtu.be/lXhNZBJQAPs" format="html" scope="external">Video:
+                    Generating HTML Output</xref></p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_kth_1dh_2z">
+        <title>Generating HTML output</title>
+        <taskbody>
+            <steps id="steps_php_1ch_2z">
+                <step>
+                    <cmd>Type the following commands into the command line:</cmd>
+                    <info>
+                        <p><b>On Windows:</b></p>
+                        <pre>bin\dita -i [filepath]/sources/ducks/m_ducks.ditamap -f xhtml -o out/ducks_output -v</pre>
+                        <p><b>On Mac:</b></p>
+                        <pre>./bin/dita -i [filepath]/sources/ducks/m_ducks.ditamap -f xhtml -o out/ducks_output -v</pre>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Press ENTER to run the DITA OT.</cmd>
+                </step>
+                <step>
+                    <cmd>Navigate to your <b>ducks_output</b> folder.</cmd>
+                    <info>In addition to the PDF files you generated earlier, you should now see
+                        multiple XHTML files and an <b>images</b> folder.</info>
+                </step>
+                <step>
+                    <cmd>Open the file <b>index.html</b> in a browser.</cmd>
+                    <info>
+                        <p>This index file serves as an electronic table of contents, showing the
+                            hierarchy of your map with links to each topic file. The DITA OT’s
+                            default xhtml plugin does not provide navigation, but the index file can
+                            help you find the topics you need.</p>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Open the file <b>c_duckling_growth.html</b> in a browser to see how the
+                        xhtml plugin displays images and tables.</cmd>
+                    <info><p>The default XHTML output looks like this:</p><image
+                            href="images/xhtml_default_images.png" width="500" id="image_efp_dwl_3z" base="2017/03"
+                            /><note>Fonts and spacing may vary depending on which browser and
+                            version you are using.</note></info>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

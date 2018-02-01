@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="lc_creating_a_map">
+    <title>Custom plugins</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Noelle Russell, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Ashley Stant, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Bill Swallow, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Jake Campbell, Scriptorium</author>
+        <critdates>
+            <created golive="2017-03-27" date="2017-02-06"/>
+        </critdates>
+    </prolog>
+    
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup id="lcObjectivesGroup_tvl_vbh_1t">
+                <lcObjective>Install a custom plugin into the DITA OT environment</lcObjective>
+                <lcObjective>Generate output using a custom DITA OT plugin</lcObjective>
+                <lcObjective>Update the custom plugin to make simple changes to the appearance of
+                    your output</lcObjective>
+                <lcObjective>Evaluate your need for custom DITA OT plugins</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="45"/>
+        </lcDuration>
+        <lcIntro>
+            <p>This lesson shows how to install, use, and make simple modifications to a custom DITA
+                OT plugin, and evaluate your need for customized output.</p>
+        </lcIntro>
+    </learningContentbody>
+    <related-links>
+        <link href="http://www.scriptorium.com/2009/12/hacking-the-dita-open-toolkit/" format="html">
+            <linktext>Hacking the DITA Open Toolkit</linktext>
+        </link>
+        <link href="http://www.dita-ot.org/2.0/dev_ref/plugins-overview.html" format="html">
+            <linktext>Creating DITA-OT plug-ins</linktext>
+        </link>
+        <link href="http://www.dita-ot.org/2.0/readme/plugins-installing.html" format="html">
+            <linktext>Installing plug-ins</linktext>
+        </link>
+        <link href="http://dita-ot.sourceforge.net/doc/ot-userguide/xhtml/customizing/xhtml_frameset.html" format="html">
+            <linktext>Publishing XHTML output as a frameset</linktext>
+        </link>
+        <link
+            href="http://metadita.org/toolkit/morse.html"
+            format="html">
+            <linktext>But what if I <i>want</i> a whole new transform dot dot dot?</linktext>
+        </link>
+    </related-links>
+</learningContent>

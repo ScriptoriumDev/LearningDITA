@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_vnc_rpy_v2">
+ <title>The fallacy of low-cost documentation</title>
+ <conbody>
+  <p><indexterm>tech comm<indexterm>fallacy of low-cost
+     documentation</indexterm></indexterm><indexterm>costs<indexterm>fallacy of low-cost
+     documentation</indexterm></indexterm><indexterm>controlling costs<indexterm>fallacy of low-cost
+     documentation</indexterm></indexterm><indexterm>content<indexterm>fallacy of low-cost
+     documentation</indexterm></indexterm><indexterm>low-cost documentation, fallacy
+   of</indexterm>In many organizations, management pays as little attention as possible to content.
+   Content development is assigned to administrative staff using whatever tools are lying around
+   (usually Microsoft Office) or outsourced to the lowest bidder.</p>
+  <p>This approach does have advantages:</p>
+  <ul id="ul_qq4_qfb_hg">
+   <li><i>Minimal resources.</i> Management ignores content and focuses on other priorities.</li>
+   <li><i>Minimal budget.</i> The content budget looks small.</li>
+  </ul>
+  <p>A more careful assessment of this approach usually reveals a number of significant
+   problems:</p>
+  <ul id="ul_sq4_qfb_hg">
+   <li><indexterm>“Nobody reads the documentation”<index-sort-as>Nobody reads the
+      documentation</index-sort-as></indexterm>Content is not useful. (“Nobody reads the
+    documentation.”)</li>
+   <li>Content is available only in a single output format, such as PDF or perhaps the original Word
+    files.</li>
+   <li><indexterm>superficial documentation</indexterm><indexterm>infuriating
+          documentation</indexterm>Content creators don’t understand the product, so they are
+        producing superficial documentation guaranteed to infuriate anyone who does read it. (“In
+        the Name field, type the person’s name.”) </li>
+  </ul>
+  <p><indexterm>“meh” strategy<index-sort-as>meh
+    strategy</index-sort-as></indexterm><indexterm>strategy of “meh”</indexterm>It is acceptable to
+   assess your organization’s content requirements and embark on a strategy of producing indifferent
+   content cheaply (the “meh” strategy). The vast majority of organizations who adopt a
+   laissez-faire attitude, however, have not thought through the implications.</p>
+  <p>The arguments for a strategy of indifference are:</p>
+  <ul id="ul_5q4_qfb_hg">
+   <li>Our content is not important to ensure safe operation of our product.</li>
+   <li>Our content meets regulatory standards, if any, and customer requirements.</li>
+   <li>Providing better content will not help the business.</li>
+   <li>Providing content in more formats will not help the business.</li>
+   <li>We do not localize content and will never be required to do so.</li>
+  </ul>
+  <p><indexterm>business problems<indexterm>created by poor
+    documentation</indexterm></indexterm><indexterm>problems, poor documentation</indexterm>The
+   argument usually breaks down in the latter portion of this list. Here are some typical business
+   problems that have bad documentation as their root cause:</p>
+  <ul id="ul_wq4_qfb_hg">
+   <li><i>Call volume to technical support is high.</i> Customers give up on looking in the
+    (terrible) documentation and call instead, thus shifting the cost of bad documentation from the
+    customer back to your organization.</li>
+   <li><i>Product returns are high and sales are lost.</i> Customers fail at installing and
+    configuring the product, so they return it. The installation and configuration documentation is
+    impenetrable. There’s even a blog warning people not to buy the product because of these
+    problems. </li>
+   <li><i>Missing content. </i>A regulatory submission is delayed or rejected because it does not
+    conform to agency requirements. A critical section was left out inadvertently. </li>
+   <li><i>Cannot deliver required formats.</i> Use of a military standard for content is specified
+    in a defense contract. But content was developed in a word processor. Now, the profitability and
+    timely delivery on the contract are jeopardized by unexpected content conversion.</li>
+   <li><i>Ugly content contradicts premium product messaging.</i> The organization markets a product
+    as a high-end product at a premium price. But the documentation looks terrible, which
+    contradicts the marketing message. The manuals do not contribute positively to the initial
+    out-of-the-box experience. Things don’t get any better when customers look inside the manuals,
+    either.</li>
+   <li><i>Huge globalization costs.</i> The organization has identified opportunities in global
+    markets, but delivering localized content from the existing workflow is unsustainable—the
+    organization isn’t even keeping up with the content in the primary language.</li>
+   <li><i>Technical support and other internal organizations are creating content that duplicates
+     documentation.</i> Technical support, training, and other workgroups need the content in the
+    documentation, but they are unable to find it. The manuals are delivered as monolithic Word or
+    PDF files, and searching those files is tedious and time-consuming. Instead, the support group
+    resorts to re-creating content in an unofficial knowledge base.</li>
+  </ul>
+  <p><indexterm>costs<indexterm>of ignoring content<index-sort-as>ignoring content</index-sort-as></indexterm></indexterm>Ignoring content can have huge cost
+   implications across the organization.</p>
+ 
+ </conbody>
+</concept>

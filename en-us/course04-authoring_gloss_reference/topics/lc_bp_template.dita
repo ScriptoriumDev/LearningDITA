@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_kh2_b21_rt">
+    <title>Create templates</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-09-24"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcIntro>
+            <p>When a reference work consists of multiple topics—one for each command, function
+                call, or other serial component—each of the topics should follow the same
+                organization. For example, each topic in a command line reference could contain a
+                brief description, the command syntax, a description of the parameters, an in-depth
+                discussion, examples, and potential error messages. This allows readers to
+                consistently find the same type of information in the same area of each topic.</p>
+            <p>Each of these items should be contained in a &lt;section> element within the
+                &lt;refbody> element, along with a &lt;title> element that labels the section. </p>
+            <p>If you need to create many of these topics, consider creating a template. A template
+                is a standalone DITA topic that does not contain much content, but has the necessary
+                repeatable structure in place. For example, you could create a reference topic that
+                contains each of the sections and the &lt;title> element. Add text in each section
+                indicating that it is a placeholder section. </p>
+            <note>The template will need to include an id attribute on the &lt;reference> element;
+                make sure content creators know to avoid creating duplicate IDs. One way to do this
+                is to use an explicit placeholder value for the id attribute, like id="DUMMY", so
+                that content creators are know to replace it with a valid value. </note>
+        </lcIntro>
+    </learningContentbody>
+</learningContent>

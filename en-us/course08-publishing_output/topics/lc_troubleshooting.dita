@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="content_pgf_3gt_qt">
+    <title>Troubleshooting common issues with generating output</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Noelle Russell, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Ashley Stant, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Bill Swallow, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Jake Campbell, Scriptorium</author>
+        <critdates>
+            <created golive="2017-03-27" date="2017-02-06"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Many people encounter problems with the DITA OT when running a build for the first
+                time. In the DITA OT’s log file, a problem is typically indicated by the message
+                “build failed.” However, you may also have a successful build but find issues with
+                the output. Here are some common problems and tips for troubleshooting them:</p>
+            <ul id="ul_ylx_hqz_dz">
+                <li>
+                    <p><b>Incorrectly typed commands.</b> If your build fails, check your commands
+                        for extra spaces, transposed letters, missing parameters, or other
+                        typographical errors.</p>
+                </li>
+                <li>
+                    <p><b>Wrong version of Java.</b> If you do not have the correct version of Java,
+                        the log file will show that the build failed or even refused to run. Follow
+                        the previous instructions in this lesson on installing Java to solve this
+                        issue.</p>
+                </li>
+                <li>
+                    <p><b>Invalid source content.</b> If one of the topic files in your map or the
+                        map file itself is invalid, the DITA OT may not be able to build the output.
+                        If you encounter a build failure and the log shows errors relating to a
+                        particular source file, open that file and verify that its structure is
+                        valid.</p>
+                </li>
+                <li>
+                    <p><b>Output missing.</b> If the log indicates that the build was successful,
+                        but you are unable to find your output, double check your <tt>-o</tt>
+                        parameter to make sure you specified an output location. If you did not, the
+                        output will be built in the DITA OT folder.</p>
+                </li>
+                <li>
+                    <p><b>Output replaced.</b> Every time you run the DITA OT with the same set of
+                        commands on the same source files, your most recent build will replace your
+                        previous build. If you wish to keep each iteration of output you build (for
+                        example, to keep track of testing or troubleshooting results), you can
+                        either rename the previous output before you run a new build or set the
+                            <tt>-o</tt> parameter to a different output directory every time you run
+                        the build.</p>
+                </li>
+                <li>
+                    <p><b>Incorrect appearance of output.</b> Sometimes your output doesn’t look the
+                        way you expected, even if it builds successfully. For example, the images in
+                        a PDF may be so large they run off the page, or the columns in a table may
+                        not be optimal for text display. These issues are the result of not
+                        specifying measurements for your images and tables in the source files. </p>
+                    <p>To control the specific size of your images, you can use the
+                            <tt>&lt;image></tt> element’s width attribute.</p>
+                    <fig id="fig_cm1_jzx_fz">
+                        <title>Image with a width specified vs. image with no width specified in PDF
+                            output</title>
+                        <image href="images/image_display.png" base="2017/03" width="500" id="image_dm1_jzx_fz"/>
+                    </fig>
+                    <p>For tables, you can use the <tt>&lt;colspec></tt> element to adjust the
+                        column widths from their default setting of equal widths into widths that
+                        work better for your content.</p>
+                    <note>Visual XML editors (such as oXygen) allow you to modify table column
+                        widths through a graphical interface that manages the <tt>&lt;colspec></tt>
+                        values for you.</note>
+                    <fig id="fig_jyr_jzx_fz">
+                        <title>Table with colspecs adjusted vs. table with default colspecs in PDF
+                            output</title>
+                        <image href="images/table_display.png" base="2017/03" width="500" id="image_sjn_gcy_fz"/>
+                    </fig>
+                </li>
+            </ul>
+            <p>More complex issues require deeper troubleshooting. If you encounter a build failure
+                that doesn’t match one of these common issues, use the DITA OT’s log for your build
+                as a starting point for identifying the issue. Once you know what’s causing the
+                problem, you may need to run more test builds to continue troubleshooting it until
+                you can resolve it. The DITA OT’s documentation on log files (<xref
+                    href="http://www.dita-ot.org/2.4/user-guide/log-files.html" format="html"
+                    scope="external"/>) is a helpful resource for troubleshooting.</p>
+            <note>Unfortunately, we cannot offer one-on-one technical support for this free
+                site.</note>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

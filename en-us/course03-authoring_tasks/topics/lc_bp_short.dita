@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_vdy_j3t_lt">
+    <title>Use a reasonable number of steps</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-09-24"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcIntro>
+            <p>There is no technical limit to the number of steps you can have in a DITA task;
+                however, the task should not be too long.</p>
+            <p>Although the length of a task can be subjective, longer tasks with a large number of
+                steps can seem overwhelming to readers (particularly novice readers).</p>
+            <p>It is difficult to give an absolute rule for the maximum number of steps that you
+                should have in a task. Some writers use a ten-step maximum, but allow for limited
+                exceptions. Nearly everyone agrees that a procedure with more than twenty steps is
+                highly problematic. </p>
+            <p>An additional effect of longer tasks is that the reader may have difficulty keeping
+                track of where they are when performing the task. This is even more true when there
+                is a long list of very similar steps. </p>
+            <p>Addressing shorter tasks: you may encounter some tasks that only require one or two
+                steps. These might be unavoidable if the goal is <i>complete</i> coverage of a set
+                of tasks. Although most of your tasks will probably be longer, there is absolutely
+                nothing wrong with having a single-step or two-step task if necessary.</p>
+        </lcIntro>
+    </learningContentbody>
+</learningContent>

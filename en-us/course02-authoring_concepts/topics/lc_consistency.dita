@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_hrm_xjh_1t">
+    <title>Be consistent</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-08-24"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Because DITA content exists separately from formatting, consistent use of the DITA
+                structure and tags is key to ensuring that all of your output types will look the
+                way you expect.</p>
+            <p>One negative side effect of inconsistent tagging is mixed content. Suppose you have
+                the following unordered list:</p>
+            <pre>&lt;ul>
+&lt;li>text&lt;/li>
+&lt;li>text&lt;/li>
+&lt;li>text
+&lt;p>text&lt;/p>
+&lt;/li>
+&lt;/ul></pre>
+            <p>In this example, the last list item contains two paragraphs. Because the &lt;p>
+                element is valid inside the &lt;li> element, it is possible to tag each paragraph
+                separately. However, tagging this content as shown in the example means that you now
+                have mixed content—the last &lt;li> element has one line of text tagged simply with
+                the &lt;li> element, and another line with &lt;p> tags around it. This could affect
+                the styling of the text of this list item in the final output.</p>
+            <p>To avoid having mixed content, surround all text inside an &lt;li> element with
+                &lt;p> tags, whether you are tagging one paragraph or more:</p>
+            <pre>&lt;ul>
+&lt;li>&lt;p>text&lt;/p>&lt;/li>
+&lt;li>&lt;p>text&lt;/p>&lt;/li>
+&lt;li>
+&lt;p>text&lt;/p>
+&lt;p>text&lt;/p>
+&lt;/li>
+&lt;/ul></pre>
+            <p>In addition to the &lt;li> element, we recommend that text inside the &lt;note>,
+                &lt;entry>, and &lt;stentry> elements be surrounded with &lt;p> tags in case there
+                are multiple paragraphs. To help ensure consistency and avoid mixed content, use the
+                &lt;p> tag for any text that does not need to be tagged in a specific way.</p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

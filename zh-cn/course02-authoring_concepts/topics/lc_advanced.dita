@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_hrm_xjh_1t">
+    <title>添加高级元素</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey, Scriptorium</author>
+        <critdates>
+            <created date="2015-08-24"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>以下是DITA中常用高级元素：</p>
+            <simpletable frame="all" relcolwidth="1.0* 1.0*" id="simpletable_fwj_dj4_2t">
+                <strow>
+                    <stentry>
+                        <p>&lt;codeblock&gt;</p>
+                    </stentry>
+                    <stentry>
+                        <p>代码块的容器元素。通常，它在PDF或HTML输出中以monospace字体显示。将内容添加到&lt;codeblock&gt;元素，你可以自由换行。</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;codeph&gt;（代码段落）</p>
+                    </stentry>
+                    <stentry>
+                        <p>该容器元素将&lt;p&gt;元素中的单个单词或词组展示为代码样式。比如，当你在一个段落中提到一个元素并且想要将该元素的名称展示为monospace字体，可以使用&lt;codeph&gt;元素。</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;lq&gt;（长段引用）</p>
+                    </stentry>
+                    <stentry>
+                        <p>该容器元素用于从外部添加引用而不是（或不止是）链接到原文。</p>
+                    </stentry>
+                </strow>
+            </simpletable>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_i3g_jkh_1t">
+        <title/>
+        <taskbody>
+            <steps id="steps_f5k_kkh_1t">
+                <step>
+                    <cmd>复制文件lesson4/l_concept_advanced_start.dita并在编辑器中打开。</cmd>
+                    <info>
+                        <note>
+                            <p>使用DITA文本编辑器时，需要确保你使用的是文本模式而不是作者模式或视觉模式。</p>
+                        </note>
+                    </info>
+                    <stepxmp>
+                        <p>请看下面的例子：</p>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"&gt;
+&lt;concept id="concept_advanced"&gt;
+&lt;title&gt;关于鸭子&lt;/title&gt;
+&lt;conbody&gt;
+&lt;/conbody&gt;
+&lt;/concept&gt;</pre>
+                    </stepxmp>
+                    <info>视频：<xref href="https://www.youtube.com/watch?v=Ryzutuy-n_A" format="html" scope="external">在DITA中创建代码块</xref></info>
+                </step>
+                <step>
+                    <cmd>在&lt;conbody&gt;元素中，添加&lt;codeblock&gt;元素，并向其中添加内容，如以下例子所示：</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"&gt;
+&lt;concept id="concept_advanced"&gt;
+&lt;title&gt;关于鸭子&lt;/title&gt;
+&lt;conbody&gt;
+<ph outputclass="newchanged">&lt;codeblock&gt;
+duckdata&gt;增加条目（绿头鸭）
+;
+增加一条（0.05秒）
+duckdata&gt; _
+&lt;/codeblock&gt;</ph>
+&lt;/conbody&gt;
+&lt;/concept&gt;</pre>
+                    </stepxmp>
+                    <info>&lt;codeblock&gt;元素将代码内容隔离开来，这样代码中的标签可以正常显示，并且不会影响Concept中的DITA标签。 </info>
+                    <info>&lt;codeblock&gt;也允许你自由换行。在添加的例子中&lt;codeblock&gt;元素中的文本显示了使用该命令行将一条词条添加到了数据库。</info>
+                    <info>
+                        <note>
+                            <p>如需在&lt;codeblock&gt;元素中添加一个开始标签，请输入<tt>&amp;lt</tt>，而不是开始标签的符号（<tt>&lt;</tt>）。如果你在DITA编辑器中使用编辑模式或视图模式工作，你可以直接在&lt;codeblock&gt;元素中输入开始标签符号，&lt;codeblock&gt;元素将会自动将其在文本中转化为&lt;。</p>
+                        </note>
+                    </info>
+                </step>
+                <step>
+                    <cmd>在&lt;codeblock&gt;元素之后，添加一个包含&lt;codeph&gt;元素的&lt;p&gt;元素，并向其中添加内容，如以下内容所示：</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"&gt;
+&lt;concept id="concept_advanced"&gt;
+&lt;title&gt;Writing about ducks&lt;/title&gt;
+&lt;conbody&gt;
+...
+&lt;/codeblock&gt;
+<ph outputclass="newchanged">&lt;p&gt;将一种鸭子的种类加到数据库，在命令行中输入&lt;codeph&gt;add entry&lt;/codeph&gt;，再加打上括号的鸭子名字，
+然后按回车。&lt;/p&gt;</ph>
+&lt;/conbody&gt;
+&lt;/concept&gt;</pre>
+                    </stepxmp>
+                    <info>额外信息：在添加的例子中，&lt;codeph&gt;元素可将词语“add entry”与正文区别开来，表明它们必须以monospace字体显示来表明它们是命令。</info>
+                </step>
+                <step>
+                    <cmd>在&lt;p&gt;元素之后，添加一个&lt;lq&gt;元素并向其中添加内容，如以下例子所示：</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"&gt;
+&lt;concept id="concept_advanced"&gt;
+&lt;title&gt;关于鸭子&lt;/title&gt;
+&lt;conbody&gt;
+...
+&lt;/p&gt;
+<ph outputclass="newchanged">&lt;lq href="http://classiclit.about.com/library/bl-etexts/hdthoreau/bl-hdtho-wald-9.htm" 
+format="html" scope="external"&gt;农夫门前池塘美，池塘里面鸭儿游！
+来吧，洁净的鸭儿们。人类并不欣赏自然之美。
+鸟儿连同它们的羽毛和乐音和谐与世间花朵，可是有哪个少男少女，是同大自然的粗旷华丽之美而协调的呢？&lt;/lq&gt;</ph>&lt;/conbody&gt;&lt;/concept&gt;
+
+
+
+</pre>
+                    </stepxmp>
+                    <info>在添加的例子中，&lt;lq&gt;元素使你可以引用梭罗的瓦尔登湖中的引用。</info>
+                    <info>&lt;lq&gt;元素可以包含一个对引用原文的链接。在添加的例子中，&lt;lq&gt;元素包含一个指向原文url的href属性，一个表明原文为html的format属性，以及一个表明原文为来自外部的scope属性。</info>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

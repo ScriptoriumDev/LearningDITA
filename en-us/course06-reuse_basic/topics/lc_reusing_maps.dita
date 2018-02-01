@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="lc_reusing_maps">
+    <title>Reusing maps</title>
+    <prolog>
+        <author type="creator" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate</author>
+        <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell</author>
+        <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey</author>
+        <critdates>
+            <created golive="2016-07-11" date="2016-05-11"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction id="lcInstruction_i5j_t4s_lw">
+            <p>You can create reusable maps for content that occurs in multiple published documents.
+                For instance, many components of a preface might be used in all prefaces for a set
+                of documents. A reference section might be necessary in multiple books; glossaries
+                and appendixes might also appear in many related publications.</p>
+            <p>For these repeating sets of information, you can create a map (often called a
+                “submap”), then reuse the submap in other maps or bookmaps. </p>
+           
+            
+         
+            
+           
+        </lcInstruction>
+    </learningContentbody><task id="reuse1"><title>Practice</title><taskbody><steps>
+        <step>
+                    <cmd>Open the file
+                        reuse_basic_samples/reusing_topics_and_maps/_m_breeds.ditamap. This is an
+                        example of a submap (named _m_breeds.ditamap) for reference information on
+                        duck breeds. Using the “_m_” helps to group all the maps together in the
+                        file system and displays them at the top of the file list so that you can
+                        find them quickly.</cmd>
+                    <info>
+                        <pre>&lt;map>
+   &lt;title>Duck breed reference&lt;/title>
+   &lt;topicmeta>
+      &lt;category>reference map&lt;/category>
+   &lt;/topicmeta>
+    ...
+   &lt;topicref href="r_mallard.dita"/>
+   &lt;topicref href="r_muscovy.dita"/>
+   ...
+&lt;/map></pre>
+                    </info>
+                </step>
+        <step>
+                    <cmd>Open the file _m_keeping_ducks_start.ditamap. To reuse the submap
+                        _m_breeds.ditamap in this map, add it using the &lt;topicref> element with
+                        format="ditamap".</cmd>
+                    <info>
+                        <pre>&lt;map>
+   &lt;title>Keeping ducks&lt;/title>
+   ...
+   &lt;topicref href="_m_breeds.ditamap" format="ditamap"/>
+   ...
+&lt;/map></pre>
+                        <p>Alternatively, you can use the &lt;mapref> element to reference the
+                            submap:</p>
+                        <pre>&lt;map>
+   &lt;title>Keeping ducks&lt;/title>
+   ...
+   &lt;mapref href="_m_breeds.ditamap"/>
+   ...
+&lt;/map></pre>
+                        <p>A reusable map itself can contain refererences to other reusable maps
+                            (using &lt;mapref> or &lt;topic format=“ditamap”>).</p>
+                        <p><b>A note about bookmaps and reusable submaps:</b> When using a bookmap,
+                            you cannot add a &lt;mapref> (or &lt;topicref format="ditamap">) element
+                            at the top level (&lt;frontmatter>, &lt;chapter>, &lt;part>,
+                            &lt;appendixes>, &lt;appendix>, and &lt;backmatter>). You can reuse maps
+                            from within bookmaps, but only from <i>inside</i> the top-level
+                            containers. Therefore, you cannot create a submap that contains one of
+                            these top-level containers.</p>
+                    </info>
+                </step>
+       
+        <step>
+                    <cmd>Check your work in
+                        reuse_basic_samples/reusing_topics_and_maps/_m_keeping_ducks_start.ditamap
+                        against the file
+                        reuse_basic_samples/reusing_topics_and_maps/_m_keeping_ducks.ditamap.</cmd>
+                </step>
+    </steps>
+    </taskbody></task></learningContent>

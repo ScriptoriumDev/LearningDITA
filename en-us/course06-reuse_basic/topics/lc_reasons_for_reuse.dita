@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_pgf_3gt_qt">
+    <title>Reasons for reuse</title>
+    <prolog>
+        <author type="creator" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <critdates>
+            <created golive="2016-07-11" date="2016-05-11"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Reuse—storing content in a single source and using it in multiple places where
+                relevant—is one of the benefits of maintaining content in a structured form such as
+                DITA. Reusing content offers the following advantages:</p>
+            <ul id="ul_ljs_rbn_wf">
+                <li>Reduces replication. Reusing content eliminates the need to copy and paste
+                    information, or to write nearly identical content multiple times in multiple
+                    locations. This saves time and increases content accuracy.</li>
+                <li>Reduces costs. By reusing content, you reduce the cost of time that would have
+                    been spent duplicating information manually. This makes content creation faster
+                    and eliminates multiple reviews. Reuse reduces localization costs. Replicated
+                    content is translated separately every time it appears, but a single source of
+                    content that is reused is only translated once. </li>
+                <li>Increases consistency. Every time you manually duplicate content, you introduce
+                    the risk of human error. Having multiple copies of the same information also
+                    increases the risk that the content will be updated in some places but not in
+                    others, or that the various copies will become slightly different from each
+                    other over time. Maintaining a single source means that the reused content will
+                    always be up-to-date and consistent wherever it is used.</li>
+                <li>Allows product- or customer-specific output. You can combine different reusable
+                    topics in different maps for different products or customers. For example, you
+                    might have a series of product manuals that contain some information that’s
+                    identical and other information that’s more product-specific. Rather than
+                    writing a separate manual for each product, you can combine product-specific
+                    topics with common topics in a map for each product. This allows you to write
+                    each of the common topics only once.</li>
+            </ul>
+            <p>Implementing reuse is a long-term investment. You will usually see the benefits of
+                reuse in update or maintenance costs. Most of these benefits will occur after, not
+                during, the initial release.</p>
+            <!--<p>Reusing content can reduce costs in the following areas:</p><ul id="ul_shn_mpb_3w"><li>Content creation<ul id="ul_u2g_4pb_3w"><li>Editing</li><li>Review</li><li>DTP</li></ul></li><li>Translation/localization</li><li>Consistency</li></ul>-->
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

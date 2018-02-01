@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_advanced">
+ <title>关于鸭子</title>
+ <conbody>
+  <codeblock>duckdata&gt; add entry (mallard)
+;
+1 entry added (0.05 sec)
+duckdata&gt; _
+</codeblock>
+  <p>将一种鸭子的种类加到数据库，在命令行中输入<codeph>add entry</codeph>，再加打上括号的鸭子名字，然后按回车。</p>
+  <lq href="http://classiclit.about.com/library/bl-etexts/hdthoreau/bl-hdtho-wald-9.htm" format="html" scope="external">农夫门前池塘美，池塘里面鸭儿游！来吧，洁净的鸭儿们。人类并不欣赏自然之美。鸟儿连同它们的羽毛和乐音和谐与世间花朵，可是有哪个少男少女，是同大自然的粗旷华丽之美而协调的呢？
+ </lq>
+  <section>
+   <title>共享鸭子数据库</title>
+   <p>将鸭子数据库输出为HTML格式易于在网站上进行分享。您还可以提供数据库给您的用户下载</p>
+   <draft-comment>确认要提供下载么？</draft-comment><required-cleanup>
+    <p>考虑向用户提供选项用以发送反馈或对鸭子数据库的建议</p>
+   </required-cleanup>
+  </section>
+ </conbody>
+</concept>

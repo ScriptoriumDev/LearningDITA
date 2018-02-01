@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_om5_wjk_bt">
+    <title>任务结果</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey, Scriptorium</author>
+        <critdates>
+            <created date="2015-08-18"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>紧随&lt;steps&gt;元素之后，你可以使用&lt;result&gt;元素描述成功完成某一任务的最终结果。 </p>
+            <p>&lt;result&gt;元素与&lt;stepresult&gt;元素类似，不同之处在于：&lt;stepresult&gt;描述的是完成某个步骤的结果，而&lt;result&gt;是描述完成整个任务的结果。 </p>
+            <p>你可以使用&lt;stepresult&gt;描述一个确认信息，给用户提供简单的测试以验证最终结果，或者简单地给个祝贺信息。 </p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_vxg_4pp_bt">
+        <title/>
+        <taskbody>
+            <steps id="steps_jg1_ppp_bt">
+                <step>
+                    <cmd>继续使用文件l_task_start.dita。</cmd>
+                </step>
+                <step>
+                    <cmd>在&lt;steps&gt;结束标签后面添加一个&lt;result&gt;元素。</cmd>
+                    <stepxmp>
+                        <pre>  ...
+        &lt;/steps&gt;
+<ph outputclass="newchanged">        &lt;result&gt;
+
+        &lt;/result&gt;</ph>
+    &lt;/taskbody&gt;
+&lt;/task&gt;
+</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>将下列文本添加至&lt;result&gt;元素中。</cmd>
+                    <stepxmp>
+                        <pre>&lt;result&gt;
+<ph outputclass="newchanged">&lt;p&gt;新鲜空气、锻炼和看到野鸭时的激动心情，会让你的幸福感油然而生。&lt;/p&gt;</ph>
+&lt;/result&gt;
+</pre>
+                    </stepxmp>
+                    <info>根据最佳实践，请使用&lt;p&gt;包含这些文本。</info>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

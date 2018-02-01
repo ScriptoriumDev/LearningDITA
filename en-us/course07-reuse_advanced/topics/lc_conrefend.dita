@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="content_pgf_3gt_qt">
+    <title>Conrefend</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey</author>
+        <critdates>
+            <created golive="2016-12-01" date="2016-10-18"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction><p>The conref attribute is useful for pulling content from a single element
+                into another topic. But what if you want to pull in content from a series of
+                elements? </p><p>To pull a sequence of two or more elements into a topic, use the
+                conrefend attribute in combination with the conref attribute. The two attributes
+                specify the starting and ending elements in a sequence of elements. The starting
+                element, the ending element, and all elements in between are pulled into the
+                referencing topic.</p><p>For example, you might have a warehouse topic (named
+                wh.dita) that contains this &lt;ul>
+                element:</p><pre>&lt;concept id="wh_elements">
+   ... 
+   &lt;ul>
+      &lt;li id="food_insects">small insects&lt;/li>
+      &lt;li id="food_fish">small fish and fish eggs&lt;/li>
+      &lt;li id="food_crustaceans">crustaceans&lt;/li>
+      &lt;li id="food_snails">snails and mollusks&lt;/li>
+      &lt;li id="food_frogs">frogs and salamanders&lt;/li>
+      &lt;li id="food_fruit">berries and nuts&lt;/li>
+   &lt;/ul>
+&lt;/concept></pre><p>To
+                pull the four list items from “fish” through “frogs” into a list in another topic,
+                use this conref and conrefend
+                combination:</p><pre>&lt;ul>
+   &lt;li>cracked corn&lt;/li>
+   &lt;li conref="wh.dita#wh_elements/food_fish" conrefend="wh.dita#wh_elements/food_frogs"/>
+   ...
+&lt;/ul></pre><image
+                keyref="i_conrefend" id="image_ggs_r4d_dy" base="2016/12"/><p>If you use conrefend,
+                keep in mind that:</p><ul id="ul_zvy_qnv_qx">
+                <li>Both of the elements identified by the conref and conrefend attributes must be
+                    the same element name as the referencing element. For instance, if the
+                    referencing element is a &lt;p> element, the elements indicated by the conref
+                    and conrefend attributes must also be &lt;p> elements.</li>
+                <li>The elements that occur <i>between</i> the elements indicated by the conref and
+                    conrefend attribute <i>do not</i> have to be the same type. For example, if the
+                    conref and conrefend attributes indicate &lt;p> (paragraph) elements, and if
+                    there are non-&lt;p> elements (such as &lt;note> or &lt;image>) between the
+                    conref and conrefend &lt;p> elements, those elements will also be included in
+                    the content reference. </li>
+            </ul><p>You can also use conrefend with conkeyrefs. If conrefend is combined with a
+                conkeyref, the filename in the conrefend attribute is ignored and is replaced with
+                the filename used by the key specified in the conkeyref.</p><note>Not all CCMSs
+                support the conrefend attribute. Test or check with your vendor before using this
+                attribute. </note></lcInstruction>
+    </learningContentbody>
+</learningContent>

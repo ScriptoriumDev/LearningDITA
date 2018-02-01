@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_pgf_3gt_qt">
+    <title>Reusing a topic in the same map</title>
+    <prolog>
+        <author type="creator" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate</author>
+        <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell</author>
+        <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey</author>
+        <critdates>
+            <created golive="2016-07-11" date="2016-05-11"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>The phrase “reusing a topic” usually means using one topic in many different maps.
+                However, there are times when you might want to reuse the same topic several times
+                in the <i>same</i> map. </p>
+            <p>As an example, consider a DITA map for some course material where the content
+                introducing the tests is always the same. Rather than create separate topics for
+                each introduction, you could create a shared, reusable introduction, then reuse it
+                each time before each test.</p>
+            <p>However, when you reuse the same topic multiple times in one map, you need to use the
+                copy-to attribute in any &lt;topicref> element that references the common topic
+                file.</p>
+            <pre>&lt;map>
+   ...
+   &lt;topicref href="my_topic.dita" copy-to="first_copy.dita"/>
+   ...
+   &lt;topicref href="my_topic.dita" copy-to="second_copy.dita"/>
+   ...
+&lt;/map></pre>
+            <p>The main reason for using copy-to is to ensure that when you create a cross-reference
+                or some other link to the shared topic, that the cross-reference points to the
+                correct instance of the file. </p>
+            <p>It is a best practice to use the copy-to attribute on <i>all</i> &lt;topicref>
+                elements that reference the shared topic, rather than skipping the first
+                &lt;topicref> to the shared topic. If you reorganize your content, you might lose
+                track of the fact that the topic is shared.</p>
+            <p>If your main map or bookmap references several submaps and each of those submaps
+                reference the same topic, you must still use the copy-to attribute in those
+                &lt;topicref> elements. When you generate output, preprocessing pulls all submaps
+                into the main map to create a complete, merged map. The merged map is then used to
+                generate output. </p>
+            <p>You can use the &lt;navtitle>, &lt;linktext>, and &lt;shortdesc> elements to provide
+                unique title and description information for the copied topic: </p>
+            <pre>&lt;map>
+   ...
+   &lt;topicref href="my_topic.dita" copy-to="first_copy.dita">
+      &lt;topicmeta>
+         &lt;navtitle>Name for first copy&lt;/navtitle>
+         &lt;linktext>Name for first copy&lt;/linktext>
+         &lt;shortdesc>Modified information about the first copy of the topic.&lt;/shortdesc>
+      &lt;/topicmeta>
+   &lt;/topicref>
+   ...
+   &lt;topicref href="my_topic.dita" copy-to="second_copy.dita">
+      &lt;topicmeta>
+         &lt;navtitle>Name for second copy&lt;/navtitle>
+         &lt;linktext>Name for second copy&lt;/linktext>
+         &lt;shortdesc>Modified information about the second copy of the topic.&lt;/shortdesc>
+      &lt;/topicmeta>
+   &lt;/topicref>
+   ...
+&lt;/map></pre>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

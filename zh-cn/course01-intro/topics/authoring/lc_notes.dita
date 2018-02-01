@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_tvf_ycr_bs">
+    <title>注意、小心和警告</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+        <critdates>
+            <created date="2015-05-18"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>&lt;note&gt;元素用来创建注意、小心、警告和其他警告事项。 </p>
+            <pre>&lt;note&gt;
+大多数的钻水鸭非常灵活，会轻易窜到空中。慢慢地靠近这些鸭子。
+&lt;/note&gt;</pre>
+            <p>&lt;note&gt;元素的type属性用于指定不同类型的note。DITA为type属性定义了一些值：<ul
+                    id="ul_irt_jdr_bs">
+                    <li>note（默认）</li>
+                    <li>attention</li>
+                    <li>danger</li>
+                    <li>caution</li>
+                    <li>important</li>
+                    <li>tip</li>
+                </ul></p>
+            <pre>&lt;note type="warning"&gt;
+不要给鸭子喂面包。面包不是一种健康的天然食品。 
+最好喂它们葡萄和玉米碎粒。
+&lt;/note&gt;</pre>
+            <p>这些是最常见的属性值。还有其他可用的属性值，以及一个囊括所有的“other”属性值，可以与othertype属性一起使用，来指定备用note类型。 </p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

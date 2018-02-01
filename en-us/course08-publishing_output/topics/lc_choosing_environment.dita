@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="lc_creating_a_map">
+    <title>Choosing a DITA publishing environment</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Noelle Russell, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Ashley Stant, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Bill Swallow, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Jake Campbell, Scriptorium</author>
+        <critdates>
+            <created golive="2017-03-27" date="2017-02-06"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup id="lcObjectivesGroup_tvl_vbh_1t">
+                <lcObjective>Determine what types of output you need to publish</lcObjective>
+                <lcObjective>Evaluate different DITA publishing tools and environments</lcObjective>
+                <lcObjective>Choose the best DITA publishing scenario for your content</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="45"/>
+        </lcDuration>
+        <lcIntro>
+            <p>This lesson covers some common DITA publishing environments and shows how you can
+                determine which one is the best fit for your content.</p>
+        </lcIntro>
+    </learningContentbody>
+    <related-links>
+        <link href="http://www.scriptorium.com/tag/dita-publishing-perils/" format="html">
+            <linktext>Perils of DITA publishing series</linktext>
+        </link>
+        <link href="http://dita.xml.org/book/publishing-with-the-dita-open-toolkit" format="html">
+            <linktext>Publishing with the DITA Open Toolkit</linktext>
+        </link>
+        <link href="https://www.oxygenxml.com/doc/versions/18.1/ug-editor/tasks/use-new-dita-ot.html" format="html">
+            <linktext>Use an External DITA Open Toolkit in Oxygen XML Editor</linktext>
+        </link>
+        <link href="https://www.infomanagementcenter.com/publications/best-practices-newsletter/2008-best-practices-newsletter/selecting-a-component-content-management-system-for-dita/" format="html">
+            <linktext>Selecting a Component Content Management System for DITA</linktext>
+        </link>
+    </related-links>
+</learningContent>

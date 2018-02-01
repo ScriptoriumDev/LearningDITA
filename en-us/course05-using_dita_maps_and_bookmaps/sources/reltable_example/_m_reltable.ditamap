@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ducks">
+ <title>Raising Ducks (source for reltable example)</title>
+ <topicref href="c_intro.dita">
+  <topicref href="c_nourishment.dita"/>
+  <topicref href="t_feeding.dita"/>
+  <topicref href="r_food.dita"/>
+  <topicref href="r_feeders.dita"/>
+  <topicref href="c_shelters.dita"/>
+  <topicref href="t_building.dita"/>
+  <topicref href="r_houses.dita"/>
+  
+ </topicref>
+ <reltable title="Raising Ducks">
+  <relheader>
+   <relcolspec type="concept"/>
+   <relcolspec type="task"/>
+   <relcolspec type="reference"/>
+  </relheader>
+  <relrow>
+   <relcell>
+    <topicref href="c_nourishment.dita"/>
+   </relcell>
+   <relcell>
+    <topicref href="t_feeding.dita"/>
+   </relcell>
+   <relcell>
+    <topicref href="r_food.dita"/>
+    <topicref href="r_feeders.dita"/>
+   </relcell>
+  </relrow>
+  <relrow>
+   <relcell>
+    <topicref href="c_shelters.dita"/>
+   </relcell>
+   <relcell>
+    <topicref href="t_building.dita"/>
+   </relcell>
+   <relcell>
+    <topicref href="r_houses.dita"/>
+    <topicref href="r_feeders.dita"/>
+   </relcell>
+  </relrow>
+ </reltable>
+ 
+ 
+ <reltable title="External references">
+  <relheader>
+   <relcolspec type="concept"/>
+   <relcolspec type="task"/>
+   <relcolspec type="reference"/>
+   <relcolspec >
+    <title>Web links</title>
+   </relcolspec>
+  </relheader>
+  <relrow>
+   <relcell>
+    <topicref href="c_nourishment.dita"/>
+   </relcell>
+   <relcell>
+    <topicref href="t_feeding.dita"/>
+   </relcell>
+   <relcell>
+    <topicref href="r_food.dita"/>
+    <topicref href="r_feeders.dita"/>
+   </relcell>
+   <relcell>
+    <topicref href="http://www.example.com" scope="external" format="html">
+     <topicmeta>
+      <navtitle>A duck food source.</navtitle>
+     </topicmeta>
+    </topicref>
+   </relcell>
+  </relrow>
+ </reltable>
+ 
+ 
+</map>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_qns_trw_kv">
+    <title>Adding a navtitle to a bookmap</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <critdates>
+            <created date="2016-03-07"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Occasionally, you may find that the title of a topic—particularly a reused topic—is
+                not consistent with the titles of the other topics in a map. For example, all your
+                task topics might use an infinitive form (“To print the...”), but the reused topic
+                might use a present participle form (“Printing the...”). To make the title of a
+                topic consistent in your text and table of contents, use the &lt;navtitle> element
+                to specify a more consistent or appropriate title. </p>
+            <p>In some older DITA maps and bookmaps, you might encounter navtitle as an attribute for
+                &lt;topicref> and other elements. This is an older form and its use is discouraged.
+                Always use the &lt;navtitle> element when creating new content. </p> <note>
+                    <p>For more information about the &lt;navtitle> element, see the <xref
+                        href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/navtitle.html"
+                        format="html" scope="external">OASIS DITA Version 1.2 Standard</xref>.</p>
+                </note>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_cwx_c3x_kv">
+        <title/>
+        <taskbody>
+            <steps>
+                <step>
+                    <cmd>Continue using the file
+                        maps_bookmaps_samples/samples/_b_ducks_advanced_start.ditamap.</cmd>
+                </step>
+                <step>
+                    <cmd>Find the  &lt;topicref> element that links to r_tnav.dita and add a
+                        locktitle attribute and set it to “yes” as shown:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+&lt;bookmap id="ducks">
+...
+<ph outputclass="newchanged">&lt;topicref href="r_tnav.dita" locktitle="yes"/></ph>
+...
+&lt;/bookmap></pre>
+                    </stepxmp>
+                    <info>
+                        <note>If you want the navtitle to be used, you must set the locktitle
+                            attribute to “yes.” Setting it to “no” or omitting it will result in the
+                            navtitle not being used.</note>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Change the &lt;topicref>  element from an empty tag (“&lt;topicref … />”)
+                        to an open and close tag (“&lt;topicref...>&lt;/topicref>”)</cmd>
+                    <stepxmp>
+                        <pre>&lt;topicref href="r_tnav.dita" locktitle="yes">
+&lt;/topicref></pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Inside the &lt;topicref> element add a &lt;topicmeta> element and add
+                        content to it as shown in the following example:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+&lt;bookmap id="ducks">
+...
+&lt;topicref href="r_tnav.dita" locktitle="yes">
+    <ph outputclass="newchanged">&lt;topicmeta>
+        &lt;navtitle>The tNav command&lt;/navtitle>
+    &lt;/topicmeta></ph>
+&lt;/topicref>
+...
+&lt;/bookmap></pre>
+                    </stepxmp>
+                    <info>Now that you’ve specified a navtitle, the phrase "The tNav command" will
+                        appear in the table of contents instead of the title in that topic, which is
+                        simply "tNav."</info>
+                </step>
+                <step>
+                    <cmd>Check your file
+                        maps_bookmaps_samples/samples/_b_ducks_advanced_start.ditamap against the
+                        sample file maps_bookmaps_samples/samples/_b_ducks_advanced.ditamap.</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+    <task id="task_advanced">
+        <title>Exercise</title>
+        <taskbody>
+            <steps id="steps_exercise_advanced">
+                <step>
+                    <cmd>Open the file maps_bookmaps_samples/exercises/_b_cs101_start.ditamap and
+                        use it add metadata, frontmatter, and backmatter to the bookmap for <xref
+                            href="http://contentstrategy101.com/" format="html" scope="external"
+                            >Content Strategy 101</xref>, using the following bookmap structure as a
+                        guide:</cmd>
+                    <info>
+                        <pre outputclass="passthru"><![CDATA[
+                            <hr />
+                            <p><strong>Author:</strong> Sarah O'Keefe</p>
+                            <p><strong>Author:</strong> Alan S. Pringle</p>
+                            <p><strong>Publisher:</strong> Scriptorium Publishing Services, Inc.</p>
+                            <p><strong>Created:</strong> 2012</p>
+                            <p><strong>Revised:</strong> 2014</p>
+                            <p><strong>Table of Contents:</strong></p>
+                            <ul>
+                            <li><strong>Chapter 1: Controlling technical communication costs</strong>
+                                <ul>
+                                <li>The fallacy of low-cost documentation</li>
+                                <li>Efficient technical content development</li>
+                                <li>Reducing the cost of technical support
+                                    <ul>
+                                    <li>Better technical information, fewer support calls</li>
+                                    <li>More efficient support operations</li>
+                                    </ul>
+                                </li>
+                                <li>Content collaboration across the organization
+                                    <ul>
+                                    <li>“Collaboration” ≠ “content free-for-all”</li>
+                                    </ul>
+                                </li>
+                                </ul>
+                            </li>
+                            <li><strong>Chapter 2: Marketing and product visibility</strong>
+                                <ul>
+                                <li>Supporting marketing with technical content
+                                    <ul>
+                                    <li>Reinforcing the marketing message</li>
+                                    <li>When technical content contradicts marketing</li>
+                                    </ul>
+                                </li>
+                                </ul>
+                                <ul>
+                                <li>Increasing product visibility
+                                    <ul>
+                                    <li>Third-party books</li>
+                                    </ul>
+                                </li>
+                                </ul>
+                                <ul>
+                                <li>Building user community and loyalty
+                                    <ul>
+                                    <li>Extending the game experience into content</li>
+                                    </ul>
+                                </li>
+                                </ul>
+                            </li>
+                            <li><strong>Chapter 3: Legal and regulatory issues</strong>
+                                <ul>
+                                <li>Avoiding legal exposure</li>
+                                <li>Meeting regulatory requirements
+                                    <ul>
+                                    <li>Information delivery</li>
+                                    <li>Technical standards</li>
+                                    </ul>
+                                </li>
+                                </ul>
+                            </li>
+                            </ul>
+                            <p><strong>Index:</strong></p>
+                            <hr/>]]></pre>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Check your file maps_bookmaps_samples/exercises/_b_cs101_start.ditamap
+                        against the sample
+                        filemaps_bookmaps_samples/exercises/_b_cs101_advanced.ditamap.</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

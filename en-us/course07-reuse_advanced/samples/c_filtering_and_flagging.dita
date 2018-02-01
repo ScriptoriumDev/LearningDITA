@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_fjs_wpn_cy">
+ <title>Filtering and flagging</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <section id="section_dx1_c5n_cy">
+   <title>Conditional filtering and flagging</title>
+   <p>For the healthiest ducks, we recommend using our feeds.</p>
+   <p>All our duck feeds are composed of cracked corn, oats, rice, and milo seed. 
+     <ph product="wild_ducks">Our wild duck feed also includes worm meal and fish meal. </ph></p>
+   <p>All feeds are available in 5, 10, and 20 pound sacks.</p>
+  </section>
+  <section id="section_bcl_b5n_cy">
+   <title>Flagging with the rev attribute</title>
+   <p>The Duck Database tables will handle most of your duck needs.</p>
+   <p rev="2.1">If you have additional needs, consider using the custom table feature.</p>
+   <p>For more information on the standard tables, see Appendix C.</p>
+  </section>
+  
+ 
+ </conbody>
+</concept>

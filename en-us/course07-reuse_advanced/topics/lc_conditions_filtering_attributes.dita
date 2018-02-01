@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="content_pgf_3gt_qt">
+    <title>Marking conditional elements</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey</author>
+        <critdates>
+            <created golive="2016-12-01" date="2016-10-18"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>DITA conditional filtering allows you to choose what to show and hide in your DITA
+                topics when they are processed for output. </p>
+            <p>You mark DITA elements for filtering by adding special conditional attributes to
+                elements; the value you use with a conditional attribute is used to determine whether
+                the element should be hidden (filtered out) or shown. </p>
+            <p>The four basic conditional attributes and their <i>suggested</i> uses are: <dl>
+                    <dlentry>
+                        <dt>audience</dt>
+                        <dd>Content is intended for a specific group of readers. The audience can be
+                            seen a number of different ways; it might be the experience level, role,
+                            security clearance, or some other way of grouping potential readers. </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>platform</dt>
+                        <dd>Content is specific to a particular hardware or software platform. </dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>product</dt>
+                        <dd>Content is specific to a particular product.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>otherprops</dt>
+                        <dd>Content is specific to a custom aspect. </dd>
+                    </dlentry>
+                </dl></p>
+            <p>For example, you might use the platform attribute to indicate whether content is
+                intended for iPhone or Android users: </p>
+            <pre>&lt;p platform="android">Visit Google Play for more information.&lt;/p> 
+&lt;p platform="iphone">Visit the App Store for more information.&lt;/p></pre>
+            <p>When generating output for Android users, you can tell the DITA filtering mechanism
+                to hide elements where <tt>platform="iphone"</tt> and show elements where
+                    <tt>platform="android"</tt>. To generate output for iPhone users, you show
+                elements where platform has the value “iphone” and hide elements where platform has
+                the value “android”. (How to hide and show content is described later in this
+                lesson.)</p>
+            <p>The names of the attributes are defined in the DITA specification. They are a
+                suggestion about how you might use them, but you should not feel locked into using
+                them specifically for audience, platform, or product filtering; it’s up to you to
+                determine how you want to use each one. </p>
+            <p>As with the attributes themselves, the values you use with each of the conditional
+                attributes are up to you to decide. You can use any characters you want for the
+                conditional attribute values, except for the space character. Case is important in
+                the conditional attribute values, so choose one form of capitalization and use it
+                consistently. </p>
+            <p>You can specify multiple values in these attributes; separate each value with one or
+                more spaces. </p>
+            <p>The single most important thing, however, is that all content creators in your group,
+                team, company, or organization agree on the purpose of each of the attributes and
+                the values to use with the attributes. </p>
+            <note>The four attributes listed here are just a starting point. It is possible to use
+                DITA specialization to create additional conditional attributes that have meaning for
+                your content. The DITA specification identifies another conditional attribute: props.
+                This attribute is used as the basis for specialization. </note>
+            <p>Keep in mind that filtering of elements extends to DITA map elements, such as
+                &lt;topicref> and &lt;mapref>. This way, you can use conditional attributes and
+                filtering to remove entire topics or chapters from your output. </p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

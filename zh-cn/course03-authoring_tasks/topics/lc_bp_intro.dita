@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_qrk_dnq_bt">
+    <title>创作任务主题的最佳实践</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+        <critdates>
+            <created date="2015-08-18"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup id="lcObjectivesGroup_ipl_14q_bt">
+                <lcObjective>识别创作task类型主题的最佳实践示例</lcObjective>
+                <lcObjective>展示task类型主题中的最佳实践示例</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="1"/>
+        </lcDuration>
+        <lcInstruction>
+            <p>本课包含了创作task类型主题的最佳实践示例。你可以学习如何规划任务、为任务提供恰当的背景信息、使用合理数量的步骤、恰当地使用子步骤以及发现重用的可能。</p>
+        </lcInstruction>
+    </learningContentbody>
+    <related-links>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Syntax_and_Markup/c_Two_Tasks_on_One_Task_Topic.html"
+            format="html" scope="external">
+            <linktext>DITA风格指南，将任务限定于一个过程</linktext>
+        </link>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Syntax_and_Markup/c_Complex_Nested_Tasks.html"
+            format="html" scope="external">
+            <linktext>DITA风格指南，复杂的嵌套任务</linktext>
+        </link>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Content_Reuse/c_Management_of_conrefs.html"
+            format="html" scope="external">
+            <linktext>DITA风格指南，寻找可重用的元素</linktext>
+        </link>
+    </related-links>
+</learningContent>

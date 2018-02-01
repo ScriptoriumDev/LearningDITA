@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_tlf_3h2_jt">
+    <title>Managing change</title>
+    <taskbody>
+        <steps id="steps_dwr_jyf_jt">
+            <step>
+                <cmd>Demonstrate value to upper management and those in the trenches.</cmd>
+            </step>
+            <step>
+                <cmd>Offer training and knowledge transfer.</cmd>
+                <stepxmp>
+                    <lines>
+☐ Classroom training
+☐ Live web-based training
+☐ Train the trainer</lines>
+                </stepxmp>
+            </step>
+            <step>
+                <cmd>Differentiate between legitimate issues with the new workflow and reflexive
+                    recalcitrance.</cmd>
+            </step>
+            <step>
+                <cmd>Enlist participants in a pilot project to explain process change.</cmd>
+            </step>
+        </steps>
+        <result>
+            <p>Good management is critical when a company changes workflow; without it, the
+                implementation of new processes will likely fail. Bad management kills
+                implementations, and things can get ugly for everyone involved.</p>
+        </result>
+        <example>Without good change management, a percentage of staff who will be dead set against
+            changes on general principle could gain the support of other team members, until almost
+            everyone refuses to use the new system.</example>
+        <postreq>When you have managed change successfully, you can start creating useful content in
+            the new system.</postreq>
+    </taskbody>
+</task>

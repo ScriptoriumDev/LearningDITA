@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_dfp_4cp_dt">
+ <title>Basic elements</title>
+ <prolog>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+   Scriptorium</author>
+  <critdates>
+   <created date="2015-08-26"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcMatching id="lcMatching_ggd_zcp_dt">
+    <lcQuestion>Match the basic element with its purpose</lcQuestion>
+    <lcMatchTable id="lcMatchTable_hgd_zcp_dt">
+     <lcMatchingPair>
+      <lcItem>&lt;p></lcItem>
+      <lcMatchingItem>Paragraph</lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>&lt;ul></lcItem>
+      <lcMatchingItem>Unordered list</lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>&lt;ol></lcItem>
+      <lcMatchingItem>Ordered list</lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>&lt;note></lcItem>
+      <lcMatchingItem>Note or admonition</lcMatchingItem>
+     </lcMatchingPair>
+    </lcMatchTable>
+    <lcFeedbackIncorrect/>
+   </lcMatching>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

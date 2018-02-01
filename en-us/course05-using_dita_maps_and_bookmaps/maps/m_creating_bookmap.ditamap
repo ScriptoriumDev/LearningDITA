@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Creating a bookmap</title>
+ <topicref href="../topics/lc_creating_a_bookmap.dita">
+  <topicmeta lockmeta="yes">
+   <data name="lesson_id" value="10012"/>
+  </topicmeta>
+  <topicref href="../topics/lc_bookmap_map_overview.dita"/>
+  <topicref href="../topics/lc_bookmap_new.dita"/>
+  <topicref href="../topics/lc_bookmap_adding_topicrefs.dita"/>
+  <topicref href="../topics/lcc_assessment.dita" copy-to="lcc_create_bookmaps.dita" locktitle="yes">
+   <topicmeta>
+    <navtitle>Assessment for Creating a bookmap</navtitle>
+   </topicmeta>
+   <!--   <topicref href="../assessments/creating_ref/lca_body.dita"/>
+   <topicref href="../assessments/creating_ref/lca_properties.dita"/>
+   <topicref href="../assessments/creating_ref/lca_prophead.dita"/>
+   <topicref href="../assessments/creating_ref/lca_refsyn.dita"/>
+   <topicref href="../assessments/creating_ref/lca_syntax_diagrams.dita"/>
+   <topicref href="../assessments/creating_ref/lca_proptype.dita"/>
+
+   <topicref href="../assessments/bookmaps/lca_bookmap_elements.dita"/>
+   <topicref href="../assessments/bookmaps/lca_bookmap_metadata.dita"/>-->
+
+   <topicref href="../assessments/bookmaps/lca_bookmaps_vs_maps.dita"/>
+   <topicref href="../assessments/bookmaps/lca_chapter_elements.dita"/>
+   <topicref href="../assessments/bookmaps/lca_chapter_nesting.dita"/>
+   <topicref href="../assessments/bookmaps/lca_chapters.dita"/>
+   <topicref href="../assessments/bookmaps/lca_topicrefs.dita"/>
+  </topicref>
+ </topicref>
+</map>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningAssessment id="lca_conref_push_requirements">
+ <title>conref push requirements</title>
+ <prolog>
+  <author type="creator" href="http://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Simon Bate</author>
+  <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Jake Campbell</author>
+  <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Gretyl Kinsey</author>
+  <critdates>
+   <created golive="2016-11-30" date="2016-11-04"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction id="lcInteraction_vtg_qhp_vx">
+   <lcMultipleSelect id="lcMultipleSelect_osk_qhp_vx">
+    <lcQuestion>To use conref push to push an element before another element which must be true
+     about the pushing topic (choose all that apply)?</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_psk_qhp_vx">
+     <lcAnswerOption>
+      <lcAnswerContent>The topic must contain an empty element with a conref attribute indicating
+       the target file and attribute <tt>conaction="mark"</tt>. </lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>The element to be pushed must have the attribute
+        <tt>conaction="pushbefore".</tt></lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>The element with <tt>conaction="pushbefore"</tt> must come before the element
+       with <tt>conaction="mark"</tt>. </lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>All elements (the target, the pushed element, and the concation="mark"
+       element) must be the same.</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>All must be true. </lcFeedbackIncorrect>
+   </lcMultipleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

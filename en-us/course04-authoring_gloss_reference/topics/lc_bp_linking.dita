@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_nww_qsx_5t">
+    <title>Use relationship tables for links</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-10-27"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcIntro>
+            <p>A very useful feature of command line or API reference documentation is when each
+                topic contains links to related commands or functions.  For example, a command for
+                mounting a device links to the command for unmounting a device; a command for
+                configuring ports links to other commands that also pertain to ports; a function for
+                initiating a network connection links to the next function most network programmers
+                will need to call. </p>
+            <p>Before DITA, these lists of related links could be difficult to maintain,
+                particularly for products that are still under development. If a component changes
+                (or is added or deleted), you must find all the relevant links and modify them. </p>
+            <p>However, if you use a DITA relationship table to keep track of related reference
+                topics, the DITA Open Toolkit can create these links for you when your  document is
+                generated. If a component changes, you make one or two changes in the relationship
+                table, and the next time you generate your document, the change is reflected in all
+                the links. </p>
+            <p>Note also that if you are converting legacy content to DITA, your conversion process
+                can eliminate (or at least comment out) these lists of links.  </p>
+        </lcIntro>
+    </learningContentbody>
+</learningContent>

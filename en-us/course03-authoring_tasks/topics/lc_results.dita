@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_om5_wjk_bt">
+    <title>Task results</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-08-18"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Following the &lt;steps> element, you can use the &lt;result> element to describe the
+                end result of a successful completion of the task. </p>
+            <p>This element is similar to the &lt;stepresult> element, but while the &lt;stepresult>
+                element describes the result of completing a step, the &lt;result> element describes
+                the result of completing the entire task. </p>
+            <p>You can use &lt;stepresult> to describe a confirmation message, provide a simple test
+                the reader might perform to verify the end result, or merely include a
+                congratulatory message to the reader. </p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_vxg_4pp_bt">
+        <title/>
+        <taskbody>
+            <steps id="steps_jg1_ppp_bt">
+                <step>
+                    <cmd>Continue working in the file l_task_start.dita.</cmd>
+                </step>
+                <step>
+                    <cmd>After the closing tag of the &lt;steps> element, add a &lt;result>
+                        element.</cmd>
+                    <stepxmp>
+                        <pre>  ...
+        &lt;/steps>
+<ph outputclass="newchanged">        &lt;result>
+
+        &lt;/result></ph>
+    &lt;/taskbody>
+&lt;/task>
+</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Add the text shown here to the result element.</cmd>
+                    <stepxmp>
+                        <pre>&lt;result>
+<ph outputclass="newchanged">&lt;p>The fresh air, exercise, and thrill of seeing wild ducks should give you an enhanced feeling of well-being.&lt;/p></ph>
+&lt;/result>
+</pre>
+                    </stepxmp>
+                    <info>Wrap the text in a &lt;p> element according to best practice.</info>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_pgf_3gt_qt">
+    <title>Creating a new bookmap</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <critdates>
+            <created date="2016-03-07"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>A bookmap is a specialization of a DITA map file, which uses the &lt;bookmap> element
+                rather than the &lt;map> element as a container for its topic and map references. At
+                a minimum, a bookmap must contain a root &lt;bookmap> element. The &lt;bookmap>
+                element may contain the following elements:</p>
+            <ul id="ul_oc4_2fd_3v">
+                <li>
+                    <p>The &lt;booktitle> element, which allows you to name the bookmap (such as
+                        “Product X Manual”).</p>
+                </li>
+                <li>
+                    <p>The &lt;bookmeta> element, which defines metadata about the bookmap.</p>
+                </li>
+                <li>
+                    <p>The &lt;frontmatter> element, which contains information typically found at
+                        the beginning of a book, such as a table of contents or a preface.</p>
+                </li>
+                <li>
+                    <p>Any number of &lt;chapter> elements. Each &lt;chapter> element contains a
+                        link to a topic that is included in the bookmap at the first level. A
+                        &lt;chapter> element can also contain any number of subordinate
+                        &lt;topicref> elements.</p>
+                </li>
+                <li>
+                    <p>The &lt;backmatter> element, which contains information typically found at
+                        the end of a book, such as an index or a glossary.</p>
+                </li>
+            </ul>
+            <note>
+                <p>For more information about the &lt;bookmap> element, see the <xref
+                        href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/bookmap.html"
+                        format="html" scope="external">OASIS DITA Version 1.2 Standard</xref>.</p>
+            </note>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_at5_jgd_3v">
+        <title>Practice</title>
+        <taskbody>
+            <steps id="steps_umd_lgd_3v">
+                <step>
+                    <cmd>Make a copy of the file
+                        maps_bookmaps_samples/samples/_b_ducks_start.ditamap and open it in your
+                        editor.</cmd>
+                    <info>
+                        <note>
+                            <p>If you are using a DITA-aware text editor, make sure you are in text
+                                mode, rather than author or visual mode.</p>
+                        </note>
+                    </info>
+                    <stepxmp>
+                        <p>You should see this:</p>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+&lt;bookmap id="ducks">
+&lt;/bookmap></pre>
+                    </stepxmp>
+                    <info>
+                        <p>The first line (which begins with <tt>&lt;?xml</tt>) is an XML
+                            declaration, which is a standard part of all XML files.</p>
+                        <p>The DOCTYPE declaration on the second line identifies this file as a
+                            bookmap. </p>
+                        <p>The third line is the opening tag of the &lt;bookmap> element, which uses
+                            the unique ID "ducks".</p>
+                        <p>The fourth line uses the closing tag &lt;/bookmap> to show where the
+                            &lt;bookmap> element ends.</p>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Inside the &lt;bookmap> element, add the &lt;booktitle> element as shown in
+                        the following example.</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+&lt;bookmap id="ducks">
+<ph outputclass="newchanged">&lt;booktitle>
+&lt;/booktitle></ph>
+&lt;/bookmap>
+</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Inside the &lt;booktitle> element, add the &lt;mainbooktitle> element and
+                        add content to it as shown in the following example.</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+&lt;bookmap id="ducks">
+&lt;booktitle>
+<ph outputclass="newchanged">&lt;mainbooktitle>Main book title&lt;/mainbooktitle></ph>
+&lt;/booktitle>
+&lt;/bookmap></pre>
+                    </stepxmp>
+                    <info>Now that you have set up the basic framework of your bookmap, you can
+                        begin adding chapters.</info>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

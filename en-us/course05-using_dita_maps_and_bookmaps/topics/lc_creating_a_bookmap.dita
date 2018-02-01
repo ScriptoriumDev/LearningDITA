@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="lc_creating_a_bookmap">
+    <title>Creating a bookmap</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <critdates>
+            <created date="2016-03-07"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup id="lcObjectivesGroup_tvl_vbh_1t">
+                <lcObjective>Explain the structure and organization of a DITA bookmap.</lcObjective>
+                <lcObjective>Create a bookmap and add &lt;chapter> elements to it.</lcObjective>
+                <lcObjective>Add &lt;topicref> and &lt;mapref> elements to the chapters in a DITA
+                    bookmap.</lcObjective>
+                <lcObjective>Use a DITA bookmap to create a hierarchy of referenced topics and
+                    maps.</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="45"/>
+        </lcDuration>
+        <lcIntro>
+            <p>This lesson shows how to create a new DITA bookmap and how to develop a book-like
+                structure.</p>
+        </lcIntro>
+    </learningContentbody>
+    <related-links>
+        <link
+            href="https://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Maps/c_bookmap_application.html"
+            format="html" scope="external">
+            <linktext>DITA Style Guide, The bookmap feature</linktext>
+        </link>
+        <link
+            href="https://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Maps/c_Nesting_bookmaps_Within_ditmaps.html"
+            format="html" scope="external">
+            <linktext>DITA Style Guide, Nesting bookmaps within ditamaps</linktext>
+        </link>
+        <link
+            href="https://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Maps/c_bookmap_example.html"
+            format="html" scope="external">
+            <linktext>DITA Style Guide, Sample bookmap file</linktext>
+        </link>
+       
+    </related-links>
+</learningContent>

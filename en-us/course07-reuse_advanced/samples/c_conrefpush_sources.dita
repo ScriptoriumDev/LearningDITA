@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_conrefp_source">
+ <title>Conref push sources</title>
+ <conbody>
+  <!-- 
+      This sample demonstrates all three forms of conref push.
+      Comment out the conref push elements that you're not using. 
+      Or experiment. 
+      You can use multiple conref push operations on the same target element.
+  -->
+  
+   <!-- This p element does a conref push replace. -->   
+   <!--
+    <p conref="c_conrefpush_target.dita#c_install/install_intro" conaction="pushreplace">
+      To install the Duck Data base on Windows, follow these instructions. 
+    </p>
+   -->
+  
+  <!-- These two p elements perform a conref push before. -->   
+  <p conaction="pushbefore">
+     Make sure you have performed the pre-configuration steps. </p>
+  <p conref="c_conrefpush_target.dita#c_install/install_intro" conaction="mark"/>
+  
+  <!-- These two p elements perform a conref push after. -->   
+  <p conref="c_conrefpush_target.dita#c_install/install_intro" conaction="mark"/>
+  <!-- 
+  <p conaction="pushafter">
+     To install on Ubuntu, see the subsequent section. 
+  </p>
+  -->
+  
+ </conbody>
+</concept>

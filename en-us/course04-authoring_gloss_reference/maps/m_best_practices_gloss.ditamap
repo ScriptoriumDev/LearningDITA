@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Best practices for glossary entries and groups</title>
+ <topicref href="../topics/lc_bp_intro_gloss.dita">
+  <topicmeta lockmeta="yes">
+   <data name="lesson_id" value="9750"/>
+  </topicmeta>
+  <topicref href="../topics/lc_bp_naming.dita"/>
+  <topicref href="../topics/lc_bp_good_glossentry.dita"/>
+  <topicref href="../topics/lc_bp_glossarylist.dita"/>
+  <topicref href="../topics/lc_bp_control_glossaries.dita"/>
+  <topicref href="../topics/lcc_assessment.dita" copy-to="lcc_gloss_bestp.dita" locktitle="yes">
+   <topicmeta>
+    <navtitle>Assessment for Best practices for glossary entries and groups</navtitle>
+   </topicmeta>
+   <topicref href="../assessments/best_practice_gloss/lca_glossarylist.dita"/>
+   <topicref href="../assessments/best_practice_gloss/lca_bp_ids.dita"/>
+   <topicref href="../assessments/best_practice_gloss/lca_bp_entries.dita"/>
+   <topicref href="../assessments/best_practice_gloss/lca_bp_glossdefs.dita"/>
+   <topicref href="../assessments/best_practice_gloss/lca_gloss_management.dita"/>
+  </topicref>
+ </topicref>
+</map>

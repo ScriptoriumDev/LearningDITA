@@ -18,11 +18,11 @@
  
  <conbody>
   <section>
-   <title>Referring to elements</title>
+   <title>Referring to elements and attributes</title>
    <p>When referring to elements use angle brackets around the element and add the word “element”.
     For example: “This table is built using a &lt;simpletable> element.” When refering to elements
     in plural, always use the singular element in angle brackets, followed by the plural “elements”.
-    For example, “Each row can contain one or more &lt;stentry> elements”</p>
+    For example, “Each row can contain one or more &lt;stentry> elements.”</p>
    <p>When referring to attributes, use the word “attribute”. Do not use an at-sign (@) before an
     attribute name; this is an XPath convention and means nothing to those learning DITA. </p>
   </section>
@@ -46,6 +46,12 @@
     <codeblock>&lt;pre>Set up code examples like this. 
 &lt;ph outputclass="newchanged">Surround new stuff with the &lt;ph> element.
 &lt;/pre></codeblock></p>
+  </section>
+  <section>
+   <title>DITA Editors</title>
+   <p>When talking about a DITA-aware editor, just use the term “DITA editor”. No need for
+    “DITA-aware” or “DITA-savvy”.</p>
+   <p>When talking about Oxygen, use “oXygen XML Editor”.</p>
   </section>
  </conbody>
 </concept>

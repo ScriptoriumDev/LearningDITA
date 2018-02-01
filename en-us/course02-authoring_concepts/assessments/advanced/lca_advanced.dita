@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_dfg_xb2_2t">
+ <title>Advanced elements</title>
+ <prolog>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+   Scriptorium</author>
+  <critdates>
+   <created date="2015-08-28"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcMatching id="lcMatching_lcz_yb2_2t">
+    <lcQuestion>Match the advanced element with its content.</lcQuestion>
+    <lcMatchTable id="lcMatchTable_mcz_yb2_2t">
+     <lcMatchingPair>
+      <lcItem>&lt;codeblock></lcItem>
+      <lcMatchingItem>Several lines of code or commands</lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>&lt;codeph></lcItem>
+      <lcMatchingItem>Inline code snippet</lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>&lt;lq></lcItem>
+      <lcMatchingItem>Long quote</lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>&lt;section></lcItem>
+      <lcMatchingItem>Topic subsections</lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>&lt;draft-comment></lcItem>
+      <lcMatchingItem>Comment to other authors</lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>&lt;required-cleanup></lcItem>
+      <lcMatchingItem>Incorrectly tagged content</lcMatchingItem>
+     </lcMatchingPair>
+    </lcMatchTable>
+   </lcMatching>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningTreeContent.dtd">
+<learningContent xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="lt-content-9215"
+    domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic concept)                             (topic reference)                             (topic task)                             (topic learningInteractionBase-d)                            (topic learningInteractionBase-d learning-d)                            (topic learningmeta-d)                             (topic learningBase+learningInteractionBase-d)                            (topic learningBase+learningInteractionBase-d learningContent)                            (topic learningBase learningSummary)                             (topic learningBase+learningInteractionBase-d learningAssessment)   "
+    ditaarch:DITAArchVersion="1.2"
+    class="- topic/topic learningBase/learningBase learningContent/learningContent ">
+    <title class="- topic/title ">Element requirements for conrefs</title>
+    <shortdesc class="- topic/shortdesc "/>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Mike Rice, easyDITA</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Annie Chen, easyDITA</author>
+        <author type="contributor" href="http://www.scriptorium.com">Simon Bate,
+            Scriptorium</author>
+        <critdates>
+            <created golive="2016-07-11" date="2016-05-11"/>
+        </critdates>
+    </prolog>
+    <learningContentbody
+        class="- topic/body  learningBase/learningBasebody learningContent/learningContentbody ">
+        <lcInstruction class="- topic/section learningBase/lcInstruction ">
+            <p class="- topic/p ">In DITA, some elements are not valid without other elements inside
+                them. For example, in a task, the &lt;step> element requires a &lt;cmd> element
+                within it. When elements have required contents, those elements must be present in
+                the referencing element, even if the referencing element will be replaced when the
+                conref is resolved. To satisfy this requirement, you insert empty required elements
+                inside the referencing element. </p>
+            <p class="- topic/p ">In the following example, the empty &lt;cmd> element is a
+                necessary part of the referencing element for the step.</p>
+            <pre xml:space="preserve" class="- topic/pre ">&lt;task id="referencing-element"&gt;
+   &lt;title&gt;A task that reuses a step&lt;/title&gt;
+   ...
+   &lt;step conref="../warehouse/task-reuse.dita#warehouse-task/reusedStep"&gt;
+       <b class="+ topic/ph hi-d/b ">&lt;cmd/&gt;</b>
+   &lt;/step&gt;
+    ...
+&lt;/task&gt;</pre>
+            <p class="- topic/p ">This example shows the referenced &lt;step> element. </p>
+            <pre xml:space="preserve" class="- topic/pre ">&lt;task id="warehouse-task"&gt;
+   &lt;title&gt;A warehouse task topic&lt;/title&gt;
+   ...
+   &lt;step id="reusedStep"&gt;
+      &lt;cmd&gt;Lock out and tag the power source.&lt;/cmd&gt;
+   &lt;/step&gt;
+   ...
+&lt;/task&gt;</pre>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

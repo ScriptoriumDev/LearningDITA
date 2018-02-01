@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap>
+    <booktitle>
+        <mainbooktitle>Ducks</mainbooktitle>
+    </booktitle>
+    <chapter href="c_wild_ducks.dita">
+        <topicref href="c_wild_duck_types.dita"/>
+        <topicref href="c_wild_duck_species.dita"/>
+        <topicref href="t_watching_wild_ducks.dita"/>
+    </chapter>
+    <chapter href="c_domestic_ducks.dita">
+        <topicref href="c_duckling_growth.dita"/>
+        <topicref href="c_feeding_ducklings.dita">
+            <topicref href="c_duck_weight.dita"/>
+        </topicref>
+    </chapter>
+    <chapter href="c_duckdb.dita">
+        <topicref href="c_writing_about_ducks.dita" locktitle="yes">
+            <topicmeta>
+                <navtitle>add command</navtitle>
+            </topicmeta>
+        </topicref>
+        <topicref href="r_tnav.dita"/>
+    </chapter>
+</bookmap>

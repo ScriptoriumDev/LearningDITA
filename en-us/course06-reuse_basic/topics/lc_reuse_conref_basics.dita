@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_pgf_3gt_qt">
+    <title>Conref basics</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Mike Rice, easyDITA</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Annie Chen, easyDITA</author>
+        <author type="contributor" href="http://www.scriptorium.com">Simon Bate,
+            Scriptorium</author>
+        <critdates>
+            <created golive="2016-07-11" date="2016-05-11"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction><p class="- topic/p ">A conref has two parts: </p><ul id="ul_ndg_4q3_mw">
+                <li>The <b><i>referenced element</i></b>, which contains the content you want to
+                    reuse. This element must have an ID attribute.</li>
+                <li>The <b><i>referencing element</i></b>, which marks where the reused content
+                    should be inserted</li>
+            </ul><note type="note" class="- topic/note ">If the element you want to reuse does not
+                have an ID, your DITA editor or content management system might prompt you to create
+                an ID for the reused element as one of the steps in creating the conref. An ID must
+                start with a letter, number, or underscore. </note><image
+                href="../images/conref-conceptual-with-referenced-referencing-labels.png"
+                id="image_tb2_1py_dw" base="2016/07"/><note type="tip" class="- topic/note ">In writing about
+                content references, the word conref is often used as a verb to mean “reuse an
+                element by using the conref attribute.”</note><p>Conrefs are resolved at publishing
+                time by an output generator. Many DITA editors can also resolve conrefs while you
+                are editing a topic, which helps you see what the resolution of the conref will look
+                like.</p><p>To resolve a conref, the output generator replaces the referencing
+                element with the referenced element and all of its content. This includes any
+                elements contained within the referenced element. For example, if a referenced
+                &lt;p> element contains a &lt;uicontrol> element, the referencing &lt;p> element is
+                replaced by the referenced &lt;p> element, including the &lt;uicontrol> element
+                contained within it. Similarly, a conref to an &lt;ol> element includes all the
+                &lt;li> elements that are contained by the referenced &lt;ol> element. </p><p>When
+                the original content changes, those changes appear everywhere that content is
+                referenced the next time it is published. </p></lcInstruction>
+    </learningContentbody>
+</learningContent>

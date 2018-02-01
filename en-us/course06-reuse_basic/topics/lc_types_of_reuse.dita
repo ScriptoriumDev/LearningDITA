@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_pgf_3gt_qt">
+    <title>Types of reuse</title>
+    <prolog>
+        <author type="creator" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <critdates>
+            <created golive="2016-07-11" date="2016-05-11"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>DITA offers the following reuse facilities: topics and maps, fragments, variables,
+                and filtering.</p>
+            <p><i>Topics and maps:</i> Topic- and map-level reuse is one of the most straightforward
+                ways to reuse content. You can achieve this type of reuse by referencing the same
+                topic in more than one map. Such topics might include boilerplate safety information
+                or common installation instructions that apply to multiple products. Similarly, you
+                can reuse one map in multiple places. For example, the map for a product datasheet
+                might be published individually, and also as part of a larger bookmap for that
+                product’s user manual.</p>
+            <p><i>Fragments (conrefs):</i> Fragment-level reuse involves pulling shared pieces of
+                content (usually elements) from a common source into a topic. Examples of the shared
+                content include paragraphs, lists or list items, tables, or sections. In DITA, the
+                content reference (or conref) mechanism implements fragment-level reuse.
+                Fragment-level reuse can also be used in DITA maps. </p>
+            <p><i>Variables (keys):</i> In variable-level reuse, you add a placeholder to your
+                content that is replaced by a piece of text when you generate your output. The
+                replacement text varies depending on the circumstances. Variable-level reuse is used
+                for inline content, such as company names, product names, URLs, or filenames. </p>
+            <p><i>Filtering (conditions):</i> Filtering allows you to selectively remove certain
+                pieces of content, based on different conditions, to create product- or
+                customer-specific deliverables. For example, when documenting two similar products,
+                a basic version of the product does not have features that are available in a more
+                advanced version. Filtering allows you to create a single piece of content
+                containing all features, then filter out the advanced features when using the
+                content for the basic version. </p>
+            <p>This course covers topic- and map-level reuse and fragment-level reuse. Variables and
+                filtering will be addressed more thoroughly in future courses.</p>
+            <!--<ul id="ul_ybc_xqb_3w"><li>Fragment (conref)<ul id="ul_f1z_wqh_hw"><li>Single element (and its contents)</li><li>Simple pull</li><li>Conrefend<ul id="ul_hzk_gsd_3w"><li>Conref a series of elements</li><li>First and last must be the same type</li></ul></li><li>Conrefpush<ul id="ul_izk_gsd_3w"><li>Push element into another topic</li><li>Before, after, or in place of</li><li>Map-based</li><li>Works with conkeyref</li><li>Does not work with conrefend</li></ul></li></ul></li><li>Variable (key)<ul id="ul_kvj_2rm_4v"><li>Inline content</li><li>Filenames<ul id="ul_mnp_dtn_hw"><li>Images</li><li>Cross-references</li><li>External references</li><li>Conrefs (conkeyref)</li></ul></li><li>Naming keys (particularly for images)<ul id="ul_yqx_kqh_hw"><li>If unique naming strategy fails, create a database</li><li>Just make sure it’s not a bottleneck</li></ul></li><li>Scoped keys<ul id="ul_plj_5qh_hw"><li>Key definitions that are specific to a submap</li></ul></li><li>Logical and physical keys<ul id="ul_rsm_nqh_hw"><li>Physical keys name actual components</li><li>Logical keys associate concepts with physical keys<ul id="ul_tbh_pqh_hw"><li>this_component</li><li>other_component</li></ul></li></ul></li></ul><p>Differences in names: use keys</p><ul id="ul_ujj_ljh_hw"><li>Product names</li><li>Company names</li><li>Device names</li><li>Others</li></ul></li><li>Filtering (conditions)<ul id="ul_qvc_lsd_3w"><li>Content differences<ul id="ul_htg_rjh_hw"><li>Different processes</li><li>Different definitions</li><li>Different details</li><li>Locale differences (ex. units)</li></ul></li><li>Subset of content<ul id="ul_yfp_q2c_3w"><li>Subset of information (quick-reference guides)</li><li>Subset of capabilities (lower-end platform)</li></ul></li><li>Achieved through metadata<ul><li>Cultivate the habit of metadata</li><li>Necessary for searches</li></ul></li></ul></li></ul><draft-comment author="gretyl">Might be simpler to start with this:</draft-comment><p><ul id="ul_ebm_flt_fh"><li>Topic-based<p>Reusing different topics in different maps. </p></li><li>Fragment-based<p>Replacing pieces (either large or small) of documents from a common source. </p></li><li>Variable<p>Replacing a placeholder with text that depends on the circumstances. </p></li><li>Filtered<p>Selectively removing pieces of content, depending on filter settings.</p></li></ul></p>-->
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

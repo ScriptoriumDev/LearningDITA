@@ -28,8 +28,9 @@
    create a topic or make a significant contribution to an existing topic, remember to update the
    &lt;prolog> with author
    information.<codeblock>&lt;prolog>
-  &lt;author>Sharon Burton&lt;/author>
-  &lt;author href="http://www.scriptorium.com" scope="external" format="html">Sarah O'Keefe, Scriptorium&lt;/author>
+  &lt;author type="creator">Sharon Burton&lt;/author>
+  &lt;author type="contributor" 
+      href="http://www.scriptorium.com" scope="external" format="html">Sarah O'Keefe, Scriptorium&lt;/author>
   &lt;critdates>
    &lt;created date="2015-04-28"/>
    &lt;revised date="2015-09-01"/>
@@ -37,7 +38,8 @@
 &lt;/prolog></codeblock></p>
   <p>Contributors should be listed in order, so if you make updates, add a second &lt;author>
    element underneath the first author. If you include a web link, be sure to remember the scope
-   (external) and the format (html) attributes.</p>
+   (external) and the format (html) attributes. Use the author attribute to distinguish the primary
+   author (“creator”) and other contributors (“contributor”). </p>
   <p>When you create a topic, specify the creation date in the &lt;critdates> elements using the
    &lt;created> element. When you update a topic, do not change the &lt;created> element. Instead,
    add a &lt;revised> element with the current date. For both &lt;created> and &lt;revised>

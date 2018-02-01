@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<learningContent id="lc_about_reltables">
+    <title>Best practices for using conrefs</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Mike Rice, easyDITA</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Annie Chen, easyDITA</author>
+        <critdates>
+            <created golive="2016-07-11" date="2016-05-11"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcIntro>
+            <p><b>Use warehouse folders and topics</b></p>
+            <p>Avoid “spaghetti” documentation by maintaining all your reusable components in
+                warehouse folders and topics.</p>
+            <p>Organize the warehouse topics in reusable maps and incorporate those maps into your
+                maps with &lt;mapref processing-role="resource-only">.</p>
+            <p><b>Agree to naming conventions for files and IDs</b></p>
+            <p>Although most DITA editors will automatically assign unique IDs to elements that
+                might be reused, it is often preferable to give human-readable IDs to reusable
+                elements. The down side to this is that there’s a much greater chance of ID
+                collisions. You can do two things to help avoid these collisions</p>
+            <ul id="ul_drc_hz3_mw">
+                <li>Create a naming convention for the IDs so that there’s a much lower chance of
+                    collisions</li>
+                <li>Establish a clearing house for all ID values, so that you can quickly determine
+                    if an ID is unique. This might be as simple as a shared spreadsheet or even a
+                    text document, but can also be much more complicated, if necessary.</li>
+                <li>Use a map in the warehouse folder to validate newly added reusable elements. The
+                    validator will flag duplicate IDs. Do this before committing content updates to
+                    your CCMS or source control. </li>
+            </ul>
+            <p><b>Make sure your topics and elements are reusable</b></p>
+            <p>As was explained in the lesson on creating reusable topics, what might seem to work
+                well when using conrefs in English content might not work well when the content is
+                translated. </p>
+            <ul class="- topic/ul " id="ul_qcd_xry_dw">
+                <li class="- topic/li ">Don’t use conref with the &lt;ph> element to replace parts
+                    of a sentence.</li>
+                <li class="- topic/li ">Use extreme caution when using conref to reuse whole
+                    sentences. </li>
+                <li class="- topic/li ">When you do conref, do it with whole block elements that
+                    meet the following requirements: <ul class="- topic/ul " id="ul_rcd_xry_dw">
+                        <li class="- topic/li ">
+                            <p class="- topic/p ">The reused content is grammatically
+                                independent.</p>
+                        </li>
+                        <li class="- topic/li ">
+                            <p class="- topic/p ">The referenced element and referencing element use
+                                the same context.</p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <p><b>Communication is everything</b></p>
+            <p>Before you make changes to warehouse topics, make sure you know where the topics and
+                their contents are used. Some content management systems provide tools for finding
+                all referring topics or maps. If you have these tools, use them.</p>
+            <p>Involve all stakeholders in the decision to modify shared content. You might find
+                that to satisfy all consumers of shared content, you need to create a separate
+                version of the content. You want to avoid the situation where changes to shared
+                content breaks—or introduces falsehoods into—documents. </p>
+        </lcIntro>
+    </learningContentbody>
+    <task id="task_dh4_mnv_jw">
+        <title>On Your Own</title>
+        <taskbody>
+            <steps id="steps_nby_y3z_lw">
+                <step>
+                    <cmd>Open the file samples/conrefs/t_watching_wild_ducks_start.dita.</cmd>
+                </step>
+                <step>
+                    <cmd>After the first paragraph in the prerequisities, create a conref to the
+                        only paragraph in the topic file samples/conrefs/c_duck_safety.dita.</cmd>
+                </step>
+                <step>
+                    <cmd>Check your file samples/conrefs/t_watching_wild_ducks_start.dita against
+                        the file samples/conrefs/t_watching_wild_ducks.dita.</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

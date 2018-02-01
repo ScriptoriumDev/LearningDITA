@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_apv_sgk_bt">
+    <title>Finishing up the task</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-08-18"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup id="lcObjectivesGroup_tvl_vbh_1t">
+                <lcObjective>Understand the use of the &lt;result>, &lt;example>, and &lt;postreq>
+                    elements.</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="45"/>
+        </lcDuration>
+        <lcInstruction>
+            <p>After you’ve added the steps, you can use three additional elements to complete the
+                description of the task:</p>
+            <ul id="ul_rp1_w5w_mt">
+                <li>&lt;result> describes the result of having successfully performed the task</li>
+                <li>&lt;example> shows an example of the entire task</li>
+                <li>&lt;postreq> (postrequisites) tells what to do next</li>
+            </ul>
+            <note>
+                <p>This lesson covers basic use of these elements. For the full specifications for
+                    each element, see the <xref
+                        href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/task.html"
+                        format="html" scope="external">OASIS DITA Version 1.2 Standard</xref>.</p>
+            </note>
+        </lcInstruction>
+    </learningContentbody>
+    <related-links>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Language_and_Punctuation/c_Transitional_Information_in_Prerequisites.html"
+            format="html" scope="external">
+            <linktext>DITA Style Guide, Transitional information in semantic blocks</linktext>
+        </link>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Syntax_and_Markup/c_Semantics_in_Steps.html"
+            format="html" scope="external">
+            <linktext>DITA Style Guide, Semantics in steps</linktext>
+        </link>
+    </related-links>
+</learningContent>

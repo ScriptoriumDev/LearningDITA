@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_lyk_syn_tt">
+    <title>Adding a properties table to a reference</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-10-22"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>In most API reference or command line reference topics, the syntax diagram is
+                followed immediately by a list or table that describes the various keywords,
+                placeholders, and other options in detail. The syntax diagram shows the reader where
+                these objects are used; the properties table provides information about why the
+                reader would use the objects. </p>
+            <p dir="ltr" id="docs-internal-guid-c77ed3ad-b001-1114-c83c-33c5b4ac1257">For example,
+                in a graphics export command the <b>filetype</b> parameter might allow the values
+                “gif”, “png”, “bmp”, and “svg”; you might want to give specific information about
+                the implications of using each of the filetypes.</p>
+            <p>In the DITA reference topic type, the &lt;properties> element provides one way to
+                structure this information. The &lt;properties> element is one of the elements that
+                you can use within a &lt;refbody> element. </p>
+            <p>The &lt;properties> element contains one or more &lt;property> elements, each of
+                which describes a single property. The &lt;property> element can contain elements
+                for type (&lt;proptype>), value (&lt;propvalue>), and description (&lt;propdesc>).
+                In typical use, these might contain:</p>
+            <simpletable frame="all" relcolwidth="1.0* 1.0* 1.0* 1.0*" id="simpletable_ik5_bc5_vt">
+                <sthead>
+                    <stentry>Document type</stentry>
+                    <stentry>&lt;proptype></stentry>
+                    <stentry>&lt;propvalue></stentry>
+                    <stentry>&lt;propdesc></stentry>
+                </sthead>
+                <strow>
+                    <stentry><b>Command line reference</b></stentry>
+                    <stentry>Command parameter</stentry>
+                    <stentry>Value or keyword allowed for the parameter</stentry>
+                    <stentry>Description of the parameter (what it means, what its use
+                        implies)</stentry>
+                </strow>
+                <strow>
+                    <stentry><b>API reference</b></stentry>
+                    <stentry>Function argument</stentry>
+                    <stentry>Argument data type or object type</stentry>
+                    <stentry>Description of the argument and its effect on the API</stentry>
+                </strow>
+                <strow>
+                    <stentry><b>Database reference</b></stentry>
+                    <stentry>Database field or column name</stentry>
+                    <stentry>Data type</stentry>
+                    <stentry>Description of the content</stentry>
+                </strow>
+            </simpletable>
+            <p>In the case of a command parameter (&lt;proptype>) that has multiple keywords, you
+                can create a &lt;property> element with &lt;proptype>, &lt;propvalue>, and
+                &lt;propdesc> elements for the first keyword. Then for subsequent keywords, create
+                additional &lt;property> elements that only contain &lt;propvalue> and &lt;propdesc>
+                elements.</p>
+            <p>The &lt;properties> element is a specialization of the &lt;simpletable> element and
+                is often rendered in output as a table. If necessary, you can create column heads
+                for the type, value, and description columns using a &lt;prophead> element
+                containing &lt;proptypehd>, &lt;propvaluehd>, and &lt;propdeschd> elements. </p>
+            <p><xref href="https://youtu.be/njVoKQqltlA" format="html" scope="external">Video:
+                    Creating a DITA properties table</xref></p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_o3q_zd4_tt">
+        <title/>
+        <taskbody>
+            <steps>
+                <step>
+                    <cmd>Continue using l_reference_start.dita.</cmd>
+                </step>
+                <step>
+                    <cmd>After the &lt;refsyn> element, add a &lt;properties> element and add a
+                        &lt;prophead> element within it.</cmd>
+                    <stepxmp>
+                        <pre>       ...
+       &lt;/refsyn>
+       <ph outputclass="newchanged">&lt;properties>
+           &lt;prophead>
+           
+           &lt;/prophead>
+       &lt;/properties></ph>
+   &lt;/refbody> 
+&lt;/reference></pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Inside the &lt;prophead> element, add a &lt;proptypehd>, &lt;propvaluehd>,
+                        and &lt;propdeschd> element and add content to them as shown.</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+&lt;reference id="my_first_ref">
+   &lt;title>tNav&lt;/title>
+   &lt;refbody>
+       ...
+       &lt;/refsyn>
+       &lt;properties>
+           &lt;prophead>
+               <ph outputclass="newchanged">&lt;proptypehd>Type&lt;/proptypehd>
+               &lt;propvaluehd>Name&lt;/propvaluehd>
+               &lt;propdeschd>Description&lt;/propdeschd></ph>
+           &lt;/prophead>
+       &lt;/properties>
+   &lt;/refbody> 
+&lt;/reference></pre>
+                    </stepxmp>
+                    <info><note><p>While not all required, the elements added here must be in this
+                                specific order. If they are not, your document will not
+                                validate.</p></note></info>
+                </step>
+                <step>
+                    <cmd>After the &lt;prophead> element, add a &lt;property> element.</cmd>
+                    <stepxmp>
+                        <pre>       ...
+       &lt;/refsyn>
+       &lt;properties>
+           &lt;prophead>
+               &lt;proptypehd>Type&lt;/proptypehd>
+               &lt;propvaluehd>Name&lt;/propvaluehd>
+               &lt;propdeschd>Description&lt;/propdeschd>
+           &lt;/prophead>
+           <ph outputclass="newchanged">&lt;property>
+           &lt;/property></ph>
+
+       &lt;/properties>
+   &lt;/refbody> 
+&lt;/reference></pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Inside the &lt;property> element, add a &lt;proptype>, &lt;propvalue>, and
+                        &lt;propdesc> element and add content to them as shown.</cmd>
+                    <stepxmp>
+                        <pre>       ...
+       &lt;/refsyn>
+       &lt;properties>
+           &lt;prophead>
+               &lt;proptypehd>Type&lt;/proptypehd>
+               &lt;propvaluehd>Name&lt;/propvaluehd>
+               &lt;propdeschd>Description&lt;/propdeschd>
+           &lt;/prophead>
+           <ph outputclass="newchanged">&lt;property>
+               &lt;proptype>Table&lt;/proptype>
+               &lt;propvalue>dbo.DBBL&lt;/propvalue>
+               &lt;propdesc>Dabbling ducks&lt;/propdesc>
+           &lt;/property></ph>
+       &lt;/properties>
+   &lt;/refbody> 
+&lt;/reference></pre>
+                    </stepxmp>
+                    <info>
+                        <note><p>If you omit any of the headers, you should also omit the associated
+                                property element. For example, if your &lt;prophead> element does
+                                not contain a &lt;propdeschd>, you should omit the &lt;propdesc>
+                                element within your &lt;property> elements.</p></note>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Add additional &lt;property> elements and add content to them as
+                        shown.</cmd>
+                    <stepxmp>
+                        <pre>       ...
+       &lt;/refsyn>
+       &lt;properties>
+           &lt;prophead>
+               &lt;proptypehd>Type&lt;/proptypehd>
+               &lt;propvaluehd>Name&lt;/propvaluehd>
+               &lt;propdeschd>Description&lt;/propdeschd>
+           &lt;/prophead>
+           &lt;property>
+               &lt;proptype>Table&lt;/proptype>
+               &lt;propvalue>dbo.DBBL&lt;/propvalue>
+               &lt;propdesc>Dabbling ducks&lt;/propdesc>
+           &lt;/property>
+           <ph outputclass="newchanged">&lt;property>
+               &lt;proptype>&lt;/proptype>
+               &lt;propvalue>dbo.DVNG&lt;/propvalue>
+               &lt;propdesc>Diving ducks&lt;/propdesc>
+           &lt;/property>
+           &lt;property>
+               &lt;proptype>&lt;/proptype>
+               &lt;propvalue>dbo.WHST&lt;/propvalue>
+               &lt;propdesc>Whistling ducks&lt;/propdesc>
+           &lt;/property>
+           &lt;property>
+               &lt;proptype>View&lt;/proptype>
+               &lt;propvalue>regn.ne&lt;/propvalue>
+               &lt;propdesc>Ducks located primarily in the northeast&lt;/propdesc>
+           &lt;/property>
+           &lt;property>
+               &lt;proptype>&lt;/proptype>
+               &lt;propvalue>regn.se&lt;/propvalue>
+               &lt;propdesc>Ducks located primarily in the southeast&lt;/propdesc>
+           &lt;/property>
+           &lt;property>
+               &lt;proptype>&lt;/proptype>
+               &lt;propvalue>pttrn.migr&lt;/propvalue>
+               &lt;propdesc>Ducks organized by migratory pattern&lt;/propdesc>
+           &lt;/property></ph>
+       &lt;/properties>
+   &lt;/refbody> 
+&lt;/reference></pre>
+                    </stepxmp>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+    <task id="task_v51_m3m_vt">
+        <title>Exercise</title>
+        <taskbody>
+            <steps>
+                <step>
+                    <cmd>Open the file lesson1/l_reference_exercise_start.dita and use it to convert
+                        the following content into DITA:</cmd>
+                    <info>
+                        <pre outputclass="passthru"><![CDATA[
+                            <hr/>
+                            <h3>addEntry</h3>
+                            <p>The <i>addEntry</i> command is used to enter a new documentation release into the content analysis database.</p>
+                            <tt><i>-addEntry</i> {nLanguage | nVersion | nOutput}</tt>
+                            
+                            <table>
+                              <tr>
+                                <td>Required?</td>
+                                <td>Parameter</td>
+                                <td>Description</td>
+                              </tr>
+                              <tr>
+                                <td>Yes</td>
+                                <td>nLanguage</td>
+                                <td>The language displayed by default</td>
+                              </tr>
+                              <tr>
+                                <td></td>
+                                <td>nVersion</td>
+                                <td>The version of the content displayed by default</td>
+                              </tr>
+                              <tr>
+                                <td></td>
+                                <td>nOutput</td>
+                                <td>The required delivery format</td>
+                              </tr>
+                            </table>
+                            ]]></pre>
+                    </info>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

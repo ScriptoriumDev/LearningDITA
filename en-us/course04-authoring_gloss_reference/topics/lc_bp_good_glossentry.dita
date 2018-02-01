@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_v3d_lhn_vt">
+    <title>Building a useful glossary</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-10-29"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Some of the characteristics that make a good glossary definintion include:</p>
+            <ul id="ul_r4v_qhn_vt">
+                <li>Make your definitions short and to the point. Link to concept topics if
+                    additional explanation is needed.</li>
+                <li>Do not use the glossary term (or a form of the term) as part of the definition. </li>
+                <li>Avoid using terms that need further definition or require a search for another
+                    glossary term.</li>
+                <li>Provide links to other glossary entries, where needed.</li>
+                <li>Spell out abbreviations. </li>
+                <li>Do not create circular references. </li>
+            </ul>
+            <p>Useful glossaries have these qualities: </p>
+            <ul id="ul_iwj_y3n_vt">
+                <li>If a term has multiple meanings, create a separate glossary entry for each
+                    meaning. </li>
+                <li>Provide glossary entry topics for synonyms, particulary when creating glossary
+                    entries for concepts.</li>
+            </ul>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

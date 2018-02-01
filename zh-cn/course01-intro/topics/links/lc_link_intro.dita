@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_mbc_bsb_wr">
+    <title>创建topic之间的关联</title>
+    <prolog>
+        <author>Sharon Burton</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+        <critdates>
+            <created date="2015-04-28"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcDuration>
+            <lcTime value="45"/>
+        </lcDuration>
+        <lcObjectives>
+            <lcObjectivesGroup>
+                <lcObjective>描述map文件的目的和用途。</lcObjective>
+                <lcObjective>总结如何生成输出。</lcObjective>
+                <lcObjective>描述交叉引用（xref）和相关链接（related-links）的目的和用法。</lcObjective>
+                <lcObjective>描述关系表（reltable）的目的和用法。</lcObjective>
+                <lcObjective>描述内容引用（conref）的目的和用法。</lcObjective>
+                
+            </lcObjectivesGroup>
+  
+        </lcObjectives>
+        <lcIntro>
+            <p>Topic是独立的，但是一个Topic中的内容通常与其他Topic是有关联的。例如，一个map文件描述了交付文件的topic顺序和层次结构。</p>
+            <p>有多种不同的方式可以用来创建主题topic之间的关联：</p>
+            <ul id="ul_kfz_xtb_wr">
+                <li>Map文件</li>
+                <li>Conref</li>
+                <li>交叉引用</li>
+                <li>相关链接</li>
+                <li>关系表（Relationship table）</li>
+            </ul>
+        </lcIntro>
+    </learningContentbody>
+    <related-links>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Maps/c_DITA_Map_Files.html"
+            format="html" scope="external">
+            <linktext>DITA风格指南第2章（map文件和关系表）</linktext>
+        </link>
+        <link href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/c_Cross-referencing.html" scope="external" format="html"> 
+            <linktext>DITA风格指南第6章（交叉引用）</linktext>
+        </link>
+        <link href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/c_Content_Re-use.html" scope="external" format="html"> 
+            <linktext>DITA风格指南第7章（内容重用）</linktext>
+        </link>
+    </related-links>
+</learningContent>

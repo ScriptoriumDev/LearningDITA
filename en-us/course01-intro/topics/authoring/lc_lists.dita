@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_blz_bk3_rs">
+    <title>Bulleted and numbered lists</title>
+    <shortdesc></shortdesc>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-07-13"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>The most common lists used in DITA are unordered (“bulleted”) lists (&lt;ul>) and
+                ordered (“numbered”) lists (&lt;ol>). </p>
+            <p>Both ordered and unordered lists contain one or more list item (&lt;li>) element. The
+                &lt;li> elements shown in these examples are quite simple. However, an &lt;li>
+                element can contain text data and most common block and inline elements. </p>
+            <pre>&lt;p>The life cycle of a duck is similar to that of most birds:&lt;/p>
+&lt;ol>
+   &lt;li>Egg&lt;/li>
+   &lt;li>Hatchling&lt;/li>
+   &lt;li>Duckling&lt;/li>
+   &lt;li>Juvenile&lt;/li>
+   &lt;li>Adult&lt;/li>
+&lt;/ol></pre>
+            <p>Note that the author does not add numbers to this ordered list; as with HTML, the
+                numbers are inserted when the output is generated. To help you visualize things,
+                most visual editors will show you the numbers of items in an ordered list. </p>
+            <p>An ordered list is useful for showing things that have a sequence, however, if you
+                need to describe a process, you might be better off using the &lt;steps> element in
+                a task topic.</p>
+            <p>You can nest a list by starting a new &lt;ul> or &lt;ol> element inside an &lt;li>
+                element. </p>
+            <pre>&lt;p>Ducks have these features:&lt;/p>
+&lt;ul>
+   &lt;li>Webbed feet for swimming.&lt;/li>
+   &lt;li>Shorter legs than other waterfowl.&lt;/li>
+   &lt;li>Distinctive bill.
+      &lt;ul>
+         &lt;li>Wide and flat for filter feeding.&lt;/li>
+         &lt;li>Long and narrow for fishing (Mergansers)&lt;/li>
+      &lt;/ul>
+   &lt;/li>
+&lt;/ul></pre>
+            <p>When the list is finally output, the bullet character or the number used in the list
+                is determined by the stylesheet being used for output and the position in the list
+                in the hierarchy. If a list is nested, the stylesheet will determine the amount of
+                indentation for the list. </p>
+            <p>In addition to the unordered list (&lt;ul>), DITA defines a simple list (&lt;sl>)
+                element, which you can use for lists that contain just a few words in each item. The
+                item in a simple list uses the &lt;sli> element. </p>
+            <pre>&lt;p>There are several types of ducks:&lt;/p>
+&lt;sl>
+   &lt;sli>Tree ducks&lt;/sli>
+   &lt;sli>Surface-feeding ducks&lt;/sli>
+   &lt;sli>Bay ducks&lt;/sli>
+   &lt;sli>Sea ducks&lt;/sli>
+&lt;/sl></pre>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

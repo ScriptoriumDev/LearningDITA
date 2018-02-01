@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_kw5_5ls_zs">
+    <title>Adding images to a concept topic</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-08-24"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>You add images to a concept topic using the &lt;image> element. The &lt;image>
+                element uses the href attribute to create a link to the image's location on the web
+                or on a local server.</p>
+            <p>Much like a &lt;p> element, you can use the &lt;image> element anywhere in the
+                &lt;conbody> element. It is also fairly common to use images inline inside a &lt;p>
+                element.</p>
+            <p>If your image needs a title or caption, use the &lt;fig> (or figure) element. The
+                &lt;fig> element can contain a &lt;title> element and one or more &lt;image>
+                elements.</p>
+            <p>Video: <xref href="https://www.youtube.com/watch?v=QL25i6pALgw" format="html"
+                    scope="external">Creating a figure with an image in DITA</xref></p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_a2s_dvs_zs">
+        <title/>
+        <taskbody>
+            <steps id="steps_mrl_tf1_dt">
+                <step>
+                    <cmd>Make a copy of the file lesson2/l_concept_images_tables_start.dita and open it in
+                        your editor.</cmd>
+                    <info>You should see this:</info>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_images_tables">
+   &lt;title>Duckling growth and development&lt;/title>
+&lt;conbody>
+   &lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Inside the &lt;conbody> element, add an &lt;image> element as shown in the
+                        following example, using the file lesson2/images/ducklings_swimming.jpg for
+                        the sample image:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_images_tables">
+   &lt;title>Duckling growth and development&lt;/title>
+   &lt;conbody>
+<ph outputclass="newchanged">&lt;image href="images/ducklings_swimming.jpg"/></ph>
+   &lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>(Sample image source: <xref
+                            href="https://www.flickr.com/photos/robin1966/17023058470/in/photolist-rWgCd7-cmRK8u-9xVaxC-6gd5eJ-cmfJ5b-uWNaXd-otWNCc-uVT475-sMHAM3-9GKwiQ-6JKXJ2-82AHGf-hcZ8bP-7ZTsaQ-86yGNs-8fhwwj-cNBfgS-dHFgu4-uUW4LP-9LoRo5-9UDfm4-kxadgx-dE2sWn-n81ps-ekxvX6-9CbYgZ-9Viusx-vSQBdJ-2NanU-hnHyuZ-ccgxVs-9EhZaA-771RiR-878qcy-p1VysW-c7uSpG-ekDh7N-7xy72F-9EdriM-4U5pCv-uB8dho-9U5TSR-nN8BUB-n94kcF-brM2oC-7xeNDk-a85HG5-31beq8-c1Mh7A-cCVXxA"
+                            format="html" scope="external">Flickr, Micolo J</xref>)</info>
+                    <info>The &lt;image> element you added contains a link (href) to the location of
+                        the image file. A link inside an &lt;image> element can point to the
+                        filepath for an image on a server or to a web link for an image.</info>
+                </step>
+                <step>
+                    <cmd>After the &lt;image> element, add a &lt;fig> element as shown in the
+                        following example, the file lesson2/images/ducklings_running.jpg for the
+                        sample image:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_images_tables">
+   &lt;title>Duckling growth and development&lt;/title>
+  &lt;conbody>
+...
+<ph outputclass="newchanged">&lt;fig>
+&lt;title>Ducklings running&lt;/title>
+&lt;image href="images/ducklings_running.jpg"/>
+&lt;/fig></ph>
+   &lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>(Sample image source: <xref
+                            href="https://www.flickr.com/photos/24874528@N04/3453886876/in/photolist-6gd5eJ-cmfJ5b-uWNaXd-otWNCc-uVT475-sMHAM3-9GKwiQ-6JKXJ2-82AHGf-hcZ8bP-7ZTsaQ-86yGNs-8fhwwj-cNBfgS-dHFgu4-uUW4LP-9LoRo5-9UDfm4-kxadgx-dE2sWn-n81ps-ekxvX6-9CbYgZ-9Viusx-vSQBdJ-2NanU-hnHyuZ-ccgxVs-9EhZaA-771RiR-878qcy-p1VysW-c7uSpG-ekDh7N-7xy72F-9EdriM-4U5pCv-uB8dho-9U5TSR-nN8BUB-n94kcF-brM2oC-7xeNDk-a85HG5-31beq8-c1Mh7A-cCVXxA-2NaAm-9CWzqD-9ZfMhv"
+                            format="html" scope="external">Flickr, Airwolfhound</xref>)</info>
+                    <info>The &lt;fig> element is another way to add an image to a concept
+                        topic.</info>
+                    <info>The &lt;fig> element you added contains a &lt;title> element and an
+                        &lt;image> element. The &lt;title> element allows you to associate a caption
+                        with your image.</info>
+                    <info>The &lt;image> element is structured the same way inside the &lt;fig>
+                        element as it is inside the &lt;conbody> element.</info>
+                    <info>The &lt;fig> element can contain one or more &lt;image> elements (but only
+                        one &lt;title> element). </info>
+                    <info>
+                        <note>
+                            <p>In a &lt;fig> element, the &lt;title> element always goes before the
+                                &lt;image> element in DITA, but the caption could appear above or
+                                below the image (or elsewhere) in the final output.</p>
+                        </note>
+                    </info>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

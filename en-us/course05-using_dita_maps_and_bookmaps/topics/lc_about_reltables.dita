@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<learningContent id="lc_about_reltables">
+    <title>About relationship tables</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <critdates>
+            <created date="2016-03-17"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcIntro><p>Relationship tables specify how DITA topics in a map relate to one another. They
+                can also define associations among DITA topics and non-DITA resources. </p><p>The
+                information in the relationship table is most commonly used by a DITA processor to
+                generate lists of related links. However, the information can be used in many other
+                ways, depending on the capabilities of the output processor and the target output
+                format. </p><note>
+                <p>Although the information is maintained in a tabular format and the containers are
+                    called “relationship tables,” the table itself is never displayed in output.</p>
+            </note><ul id="ul_a1z_zpt_jv">
+                <li>Maintaining topic associations in a relationship table (rather than using
+                    embedded cross-references) ensures that the topics are reusable. If a topic
+                    contains embedded cross-references, the target topic for each cross-reference
+                    must also be available in the map, whether or not the topic is relevant to the
+                    map. (Then, of course, if that topic has cross-reference dependencies, they must
+                    also be present, and so on.) A relationship table eliminates these
+                    dependencies.</li>
+                <li>A network of links among related topics can be maintained in a single location
+                    (the relationship table), rather than being distributed across all topics. This
+                    makes the maintenance of networks or webs of links much easier.</li>
+            </ul><p>Relationship tables are contained in DITA maps and bookmaps. A map or bookmap
+                can contain any number of relationship tables.</p><p>Each <i>row</i> in a
+                relationship table contains a related set of content. For example, a row might
+                contain references to all topics that relate to a specific system component, or all
+                topics that are related to a particular operation. </p><p>Each <i>column</i> in the
+                relationship table contains a similar <i>type</i> of information. The most common
+                use of columns is to separate concept, task, and reference topic types. If you use
+                additional topic types, you could define separate columns for those. In some cases,
+                another column can contain links to external information, such as
+                websites.</p><note>Column order or relative position has no meaning in relationship
+                tables. </note><p>Each <i>cell</i> in the relationship table contains one or more
+                &lt;topicref> elements that indicate linked topics in the map. </p><p>Here is a
+                brief example of a relationship table. </p><image href="../images/reltable.png"
+                id="image_gbh_dt5_jv" base="2016/03"/><p>The column heads indicate the types of
+                information that are in each column. The first body row contains references to
+                topics that are related to feeding; the second body row refers to topics related to
+                housing. Two additional things to note about this example:</p><ul id="ul_k5c_nt5_jv">
+                <li>A &lt;topicref> element can appear in more than one row. For example, the
+                    topicref to r_feeders.dita appears in two different rows because it pertains to
+                    both feeding and housing. </li>
+                <li>The cells in the relationship table can contain any number of &lt;topicref>
+                    elements (including none). </li>
+            </ul><p>When an output generator creates output from your DITA topics, it uses the
+                relationship table to create links to related information. </p><ul
+                id="ul_gfs_1d5_jv">
+                <li>For all topics referenced in a row, the output generator creates links among
+                    those topics. Usually this takes the form of a list of links at the end of an
+                    output topic.</li>
+                <li>If required (and if supported by the output generator), the list of links can be
+                    grouped and labeled by the columns defined in the relationship table. </li>
+            </ul><note>
+                <p>For more information about the &lt;reltable> element and the elements it
+                    contains., see the <xref
+                        href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/reltable.html"
+                        format="html" scope="external">OASIS DITA Version 1.2 Standard</xref>.</p>
+            </note><!--<draft-comment>In maps and bookmaps, the &lt;topicref> elements indicates the order
+                and hierarchical structure of the content. The &lt;topicref> elements are also used
+                in relationship tables, but in that case the position of the &lt;topicref> in the
+                table indicates the topics relationship with other topics.
+            </draft-comment>--></lcIntro>
+    </learningContentbody>
+</learningContent>

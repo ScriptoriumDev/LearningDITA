@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_kqs_rks_zs">
+    <title>高级元素</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey, Scriptorium</author>
+        <critdates>
+            <created date="2015-08-19"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup id="lcObjectivesGroup_e2g_sks_zs">
+                <lcObjective>学习高级元素，并识别出将它们添加到concept中的最佳实践。</lcObjective>
+                <lcObjective>添加&lt;codeblock&gt;元素、&lt;codeph&gt;元素、&lt;lq&gt;元素、&lt;section&gt;元素、&lt;draft-comment&gt;元素，以及&lt;required-cleanup&gt;元素到concept中。</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="1"/>
+        </lcDuration>
+        <lcIntro>
+            <p>既然你已掌握如何使用基本DITA元素以及其他常用元素，你可以在concept中开始使用更多的高级元素了。</p>
+            <p>你可以使用&lt;codeblock&gt;元素和&lt;codeph&gt;元素添加代码片段到正文中了。使用&lt;lq&gt;元素，你可以添加引用并创建指向它的原文链接。</p>
+            <p>如需将topic分成几个小章节，你可添加一个或多个&lt;section&gt;元素。&lt;section&gt;元素有两个限制：你只能在&lt;conbody&gt;元素中使用该元素，而不能在其他&lt;section&gt;元素中使用；你只能在另一个&lt;section&gt;元素后，&lt;example&gt;元素后，或者&lt;conbodydiv&gt;元素后添加该元素。</p>
+            <p>你可以与其他作者协作，通过使用&lt;draft-comment&gt;元素为信息块添加注释，或你可以使用&lt;required-cleanup&gt;元素表明一个元素需要被正确标注。</p>
+            <p>本课时介绍这些高级元素并展示如何将它们添加到concept中。与本课中介绍的其他元素一样，这些元素并不是concept类型topic特有的，也可以用于其他类型topic中（task和reference）。</p>
+            <note>
+                <p>本课包含这些元素的基本应用。每个元素的详细说明请参见<xref href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/concept.html" format="html" scope="external">OASIS DITA 1.2版本标准</xref>。</p>
+            </note>
+        </lcIntro>
+    </learningContentbody>
+    <related-links>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Syntax_and_Markup/c_List_of_Domains.html"
+            format="html" scope="external">
+            <linktext>DITA风格指南，Element domains</linktext>
+        </link>
+        <!--<link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/codeblock.html"
+            format="html" scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;codeblock></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/codeph.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;codeph></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/lq.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;lq></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/section.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;section></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/draft-comment.html"
+            format="html" scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;draft-comment></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/required-cleanup.html"
+            format="html" scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;required-cleanup></linktext>
+        </link>-->
+    </related-links>
+</learningContent>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="content_pgf_3gt_qt">
+    <title>Conref push (conaction)</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey</author>
+        <critdates>
+            <created golive="2016-12-01" date="2016-10-18"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction><p>When a topic uses a content reference, content is “pulled” from the
+                referenced topic into the referencing topic. However, there are times when you need
+                to insert an element into an arbitrary location of a reusable topic. </p><p>For
+                instance, you might have a reusable topic that does its job well most of the time
+                when it is used. However, in one case (for one product, or for one customer), you
+                need to add an extra paragraph to that reusable topic. One solution might be to add
+                the paragraph and use conditional filtering to only display the paragraph for that
+                one use. But what if you don’t own (or have the rights to modify) the reused topic?
+                What if the reused topic is maintained in a publicly visible area (say on GitHub),
+                and you don’t want your addition to be visible to the rest of the world?</p><p>The
+                conref push (or conaction) mechanism allows you to “push” content from one topic in
+                a map (the source topic) into another topic in the same map (the target topic).
+                </p><p>The conref push mechanism allows you to push in three ways. You can push an
+                element so that it:</p><ul id="ul_xz4_ppv_qx">
+                <li>Is inserted before a specific element.</li>
+                <li>Replaces a specific element. </li>
+                <li>Is inserted after a specific element. </li>
+            </ul><image keyref="i_conref_push" id="image_a4s_nvd_dy" base="2016/12"/><p>Just as with
+                a normal conref operation, the source and target elements used in the conref push
+                must be the same type.</p><p>To use conref push you need to do three things:<ul
+                    id="ul_gcs_k2p_cy">
+                    <li>
+                        <p>Make sure that the target element (the element you want to push your
+                            element before, after, or in place of) has an id attribute. </p>
+                        <p>For example, to push an element before, after, or in place of this
+                            element, it must have an id: </p>
+                        <pre>&lt;p id="install_intro">This chapter describes how to install and configure the Duck Database on Windows and Macintosh.&lt;/p></pre>
+                    </li>
+                    <li>
+                        <p>Create a DITA topic containing the element to be pushed.</p>
+                        <p>The topic should contain all necessary elements to make sure that the
+                            element being pushed is valid. So, if you need to conref push a &lt;li>
+                            element, your topic should contain a &lt;body> (depending on the topic
+                            type), a &lt;ul> element, and the &lt;li> you need to push. </p>
+                        <p>The actual content and attributes of the element being pushed are
+                            described in the sections below.</p>
+                    </li>
+                    <li>
+                        <p>Add a &lt;topicref> element to your map that points to the topic
+                            containing the element to be pushed.</p>
+                        <pre> &lt;topicref href="c_conrefpush_sources.dita" processing-role="resource-only"/></pre>
+                        <p>Note that this &lt;topicref> element must use
+                            processing-role="resource-only" because the content should not appear in
+                            normal map order in the output.</p>
+                    </li>
+                </ul></p><p>The following sections show how to use conref push to replace an
+                element, insert an element before a target, and insert an element after a target.
+                All the examples use this topic as the target:
+                </p><pre>&lt;concept id="c_install">
+ &lt;title>Installing Duck Database&lt;/title>
+ &lt;conbody>
+  &lt;p id="install_intro">To install the Duck Database on Windows and Macintosh, follow these instructions.&lt;/p>
+  &lt;p>If at any time you need help in the installation process, please call our 24-hour hot line.&lt;/p>
+ &lt;/conbody>
+&lt;/concept>
+</pre><p>Output
+                from this topic, without any conref push looks like this:</p><image
+                keyref="i_no_push" id="image_px1_dbv_cy" base="2016/11"/><note>The DITA sources
+                shown in these examples are in the downloadable samples file <xref
+                    keyref="sample_file"/>. The target DITA file is c_conrefpush_target.dita; the
+                source DITA file is c_conrefpush_target.dita. </note><p><b>Replacing the target
+                    element</b></p><p>To replace an element in the target topic, use the element’s
+                conref attribute to identify the element to replace, and set the conaction attribute
+                to
+                “pushreplace”:</p><pre>&lt;concept id="c_conrefp_source">
+ &lt;title>Conref push sources&lt;/title>
+ &lt;conbody>
+  &lt;p conref="c_conrefpush_target.dita#c_install/install_intro" conaction="pushreplace">
+   To install the Duck Data base on Windows, follow these instructions. &lt;/p>
+ &lt;/conbody>
+&lt;/concept>
+</pre><p>The
+                output from the target topic now looks like this: </p><image
+                keyref="i_ex_push_replace" id="image_ohz_chv_cy" base="2016/11"/><p><b>Inserting an
+                    element before the target element</b></p><p>To insert the element before the
+                target element, you use two elements (both must be the same as the target
+                    element):<ol id="ol_yhs_jsc_rx">
+                    <li>The first element uses the conaction attribute set to the value “pushbefore”
+                        and contains the content to be pushed. </li>
+                    <li>The second element doesn’t contain any content but uses both the conref
+                        attribute (to identify the target element) and the conaction attribute set
+                        to the value “mark”.</li>
+                </ol></p><p>This example shows the two &lt;p>
+                elements:</p><pre>&lt;concept id="c_conrefp_source">
+ &lt;title>Conref push sources&lt;/title>
+ &lt;conbody> 
+ <ph outputclass="new_changed">  &lt;p conaction="pushbefore">
+   Make sure you have performed the pre-configuration steps. 
+   &lt;/p>
+   &lt;p conref="c_conrefpush_target.dita#c_install/install_intro" conaction="mark"/></ph>
+ &lt;/conbody>
+&lt;/concept>
+</pre><p>The
+                output from the target topic now looks like this: </p><image
+                keyref="i_ex_push_before" id="image_kst_x3v_cy" base="2016/11"/><p><b>Inserting an
+                    element after the target element</b></p><p>To insert the element after the
+                target element, use the same two elements, but the element containing conref and
+                conaction="mark" must come <i>before</i> the element containing
+                conaction="pushafter":</p><pre>&lt;concept id="c_conrefp_source">
+ &lt;title>Conref push sources&lt;/title>
+ &lt;conbody> 
+<ph outputclass="new_changed">    &lt;p conref="c_conrefpush_target.dita#c_install/install_intro" conaction="mark"/>
+    &lt;p conaction="pushafter">To install on Ubuntu, see the subsequent section. &lt;/p></ph>
+ &lt;/conbody>
+&lt;/concept>
+</pre><p>The
+                output from the target topic now looks like this: </p><image
+                keyref="i_ex_push_after" id="image_ktk_jjv_cy" base="2016/11"/><p>Two final notes on
+                conref push:</p><ul id="ul_hvm_2sc_rx">
+                <li>
+                    <p>You cannot use the conrefend attribute with the conref push mechanism.</p>
+                </li>
+                <li>
+                    <p>You <i>can</i> use the conkeyref attribute to indicate the target of a conref
+                        push. </p>
+                </li>
+            </ul></lcInstruction>
+    </learningContentbody>
+    
+    
+</learningContent>

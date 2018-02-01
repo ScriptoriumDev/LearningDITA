@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_ptp_gqy_lt">
+    <title>Keep an eye toward reuse</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-09-25"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcIntro>
+            <p>Although the LearningDITA courses have not yet covered reuse (which is one of the
+                advantages of DITA), task topics contain many potential areas for reuse. </p>
+            <p>As you create the steps in your tasks, watch out for steps that are the same from one
+                task to another, such
+                as:<pre>&lt;step>&lt;cmd>Click &lt;uicontrol>OK&lt;/uicontrol>.&lt;/cmd>&lt;/step></pre>
+            </p>
+            <p>You might create a series of tasks that all begin with the same set of step to start
+                the process, such as shutting down the equipment, or removing access panels.
+                Similarly, a series of tasks might use a common set of steps to finish the
+                procedure. These are excellent candidates for reuse. </p>
+            <p>Another common area for reuse in task topics is standard text, such as cautions or
+                warnings that accompany steps in many procedures. </p>
+            <p>In addition to reusing the &lt;step> element, the &lt;prereq>, &lt;example>,
+                &lt;choices>, and &lt;choicetable> elements in a task are all good candidates for
+                reuse. </p>
+            <p>Reuse is another reason to plan your tasks, as described in the first topic of this
+                Best Practices lesson. When doing your task planning, it is useful to identify steps
+                that are common to many tasks. An important aspect of reuse is to identify the
+                elements that you need to reuse and then maintain those elements in a separate file
+                (or files). Once approved, these files can be secured so that they are modified only
+                when necessary. </p>
+        </lcIntro>
+    </learningContentbody>
+</learningContent>
