@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE learningPlan PUBLIC "-//OASIS//DTD DITA Learning Plan//EN" "learningPlan.dtd">
+<learningPlan id="lp_feedingducks">
+    <title>Plan for Feeding Ducks</title>
+    <shortdesc></shortdesc>
+    <learningPlanbody>
+        <lcProject id="lcProject_dq2_c4r_rcb">
+            <lcClient id="lcClient_itm_4bs_rcb"/>
+            <lcPlanTitle id="lcPlanTitle_rty_4bs_rcb">
+                <p>Feeding Ducks</p>
+            </lcPlanTitle>
+            <lcCIN id="lcCIN_gml_qbs_rcb"/>
+            <lcDelivDate id="lcDelivDate_z3q_qbs_rcb"/>
+            <lcPlanSubject id="lcPlanSubject_lss_qbs_rcb">
+                <title>Course subject</title>
+                <p>How to feed a small- to medium -sized flock of domestic ducks.</p>
+            </lcPlanSubject>
+            <lcPlanDescrip id="lcPlanDescrip_dnw_3bs_rcb">
+                <title>Course Description</title>
+                <p>This course is intended for owners of small- to medium-sized flocks of domestic ducks. Topics covered include:</p>
+                <ul>
+                    <li>Feed Quality<ul id="ul_i2d_lds_rcb">
+                            <li>Source</li>
+                            <li>Protection</li>
+                            <li>Contamination and spoilage</li>
+                        </ul></li>
+                    <li>Feed Form</li>
+                    <li>Feeders and waterers</li>
+                    <li>Nutritional requirements</li>
+                    <li>Controlling disease</li>
+                    <li>Avoiding predation</li>
+                </ul>
+            </lcPlanDescrip>
+        </lcProject>
+        <lcNeedsAnalysis id="lcNeedsAnalysis_wf4_c4r_rcb">
+            <title>Needs analysis</title>
+        </lcNeedsAnalysis>
+        <lcGapAnalysis id="lcGapAnalysis_dk5_c4r_rcb"/>
+        <lcIntervention id="lcIntervention_xv2_d4r_rcb"/>
+        <lcTechnical id="lcTechnical_ump_d4r_rcb"/>
+    </learningPlanbody>
+</learningPlan>
