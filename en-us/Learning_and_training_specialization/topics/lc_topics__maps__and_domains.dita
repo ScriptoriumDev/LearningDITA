@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_fly_2dc_yz">
-    <title>What is in the L&amp;T specialization</title>
+    <title>What is in the Learning and Training specialization?</title>
     <shortdesc></shortdesc>
     <learningContentbody>
         <lcInstruction id="lcInstruction_ztx_ldc_yz">
-            <p>The DITA Learning and Training specialization comprises a number of topic types, map types, and domains. </p>
-            <p>This rich set of objects enables you to create DITA content that covers the entire process of planning, creating, and organizing learning content. </p>
+            <p>The DITA Learning and Training specialization is a set of DITA topic types and elements designed to meet the needs of those creating instructional content, such as course developers and
+                instructors. </p>
+            <p>The topic types and elements allow you to indicate the specific intent of each piece of content. For instance, the assessment topic type allows you create quizzes. Within that topic
+                type, there are specific elements for various styles of questions: true/false, multiple choice, and so on. Those elements can contain other elements that convey information such as the
+                correct answer, the point value for the answer, responses to give to the student for correct and incorrect answers, and so on. As with all elements in DITA, the names of these elements
+                describes for the author the precise type of information they are creating. </p>
+            <p>[[[Say something about multiple use of content, such as using assessment content for both a test (or exercise) and creating the instructor's answer key.]]]</p>
+            <p>This rich set of objects enables you to create DITA content that covers the entire process of planning, creating, and organizing learning content. The topic types and elements in the
+                L&amp;T specialization allow you to plan a great range of content from individual topics to lessons to courses, right up to entire curricula.    </p>
             <p>You use the Learning and Training topic types to plan your learning content, to list objectives, to author content, to create review materials, and to create assessments. </p>
             <p>You can use the Learning and Training map types to organize your learning topics into sets of learning objects and to group those learning objects.</p>
             <p>The three Learning and Training domains provide: </p>
