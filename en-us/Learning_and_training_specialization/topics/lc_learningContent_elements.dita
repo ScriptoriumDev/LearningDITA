@@ -12,7 +12,21 @@
     </prolog>
     <learningContentbody>
         <lcInstruction id="lcInstruction_js5_cqb_yz">
-            <p>About the topic...</p>
+            <p>learningContentbody: containing element for the other elements within the body of
+                this topic type; specialized from &lt;body>; analogous to &lt;conbody>,
+                &lt;taskbody>, etc.</p>
+            <p>lcInstruction: containing element for the instructional content in that lesson topic.
+                Can include conceptual information, examples, activities, exercises, etc.</p>
+            <p>Other optional elements inside learningContentbody:</p>
+            <ul id="ul_cfb_dfv_scb">
+                <li>lcIntro (introduces the lesson topic, often with a detailed description or
+                    instructor notes that &lt;shortdesc> may not adequately cover)</li>
+                <li>lcDuration (estimates the length of time it should take the student to read all
+                    materials and/or complete all activities within the topic)</li>
+                <li>lcObjectives (lists specific objectives, or things the student should know/be
+                    able to do after completing the lesson topic)</li>
+                <li>lcChallenge (explains what you want the student to practice)</li>
+            </ul>
         </lcInstruction>
     </learningContentbody>
 </learningContent>
