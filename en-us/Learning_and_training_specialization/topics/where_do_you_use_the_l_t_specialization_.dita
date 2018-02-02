@@ -2,20 +2,33 @@
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <learningContent id="where_do_you_use_the_l_t_specialization_">
-    <title>Where do you use the L&amp;T specialization?</title>
+    <title>L&amp;T Specialization use cases</title>
     <prolog class="- topic/prolog ">
         <author type="creator" href="http://www.scriptorium.com" format="html" scope="external" class="- topic/author ">Simon Bate, Scriptorium</author>
         <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external" class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
         <critdates>
-            <created date="2017-04-21"/>
+            <created date="2018-02-01"/>
         </critdates>
     </prolog>
     <learningContentbody>
         <lcInstruction id="lcInstruction_js5_cqb_yz">
-            <!--learning needs and goals, instructional design models, task analyses, learning taxonomies, and other information necessary to the lesson planning process.
-
+            <!--Some evaluation/examples of when you might want to use the L&T specialization: -->
+            <!--Developing content for 
+print and presentation delivery to support instructor-led training (ILT) 
+web delivery for distance learning 
+E-learning
+Shared content development between training and documentation teams
+mix of e-learning & printed classroom materials
 -->
-            <pre/>
+            <p>Here are just a few use cases for where you might use the DITA Learning &amp; Training specialization:</p>
+            <ul id="ul_bkv_s44_scb">
+                <li>Developing content for instructor-led training. You can use the Learning &amp; Training specialization to create the slides used for the presentation as well the printed materials
+                    handed out to students, including: course outlines, workbooks, review materials, and pre- and post-assessments.  </li>
+                <li>Developing content for web or learning management system (LMS) delivery. Just as Scriptorium does for LearningDITA, the Learning &amp; Training specialization allows you to prepare
+                    and organize learning content and assessments. </li>
+                <li>If both the training and documentation teams use DITA, both can develop and share content between the groups. While actual presentation and discussion of materials might take
+                    different forms, both groups can share common blocks of text, images, tables of data, and the like through DITA warehouse topics.  </li>
+            </ul>
         </lcInstruction>
     </learningContentbody>
 </learningContent>

@@ -1,23 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
-<learningContent id="benefits_of_using_the_learning___training_specialization">
-    <title>Benefits of using the Learning &amp; Training specialization</title>
+<learningContent id="lc_learning_maps">
+    <title>Learning Maps</title>
     <prolog class="- topic/prolog ">
         <author type="creator" href="http://www.scriptorium.com" format="html" scope="external" class="- topic/author ">Simon Bate, Scriptorium</author>
         <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external" class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
         <critdates>
-            <created date="2018-01-26"/>
+            <created date="2018-02-01"/>
         </critdates>
     </prolog>
     <learningContentbody>
-        <lcInstruction id="lcInstruction_js5_cqb_yz">
-            <p>Create learning content for elearning and in-person classes</p>
-            <p>Semantic elements</p>
-            <p>L&amp;T topic types help create consistent content structure, which leads to consistently structured information for consumers </p>
-            <p>Learning Objects good fit with DITA </p>
-            <p>DITA standard benefits reuse, localization, </p>
-            <p/>
-        </lcInstruction>
+        <lcInstruction id="lcInstruction_js5_cqb_yz"/>
     </learningContentbody>
 </learningContent>
