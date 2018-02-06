@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="lc_learningContent_details">
+    <title>The learningContent and learningAssessment topic types</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external" class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Alan Pringle, Scriptorium</author>
+        <critdates>
+            <created date="2017-04-21"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction id="lcInstruction_js5_cqb_yz">
+            <p>The &lt;learningContent> topic contains the actual learning content. In fact, the
+                source file for what you are reading now is a &lt;learningContent> topic!</p>
+            <p>A &lt;learningContent> topic can contain task, concept, and reference topics—and
+                therefore enables you to reuse such topics in your lessons.</p>
+            <p>Use &lt;learningAssessment> topics to create interactions to test a student’s
+                progress after a lesson. You can also use the &lt;learningAssessment> topics to
+                create preassessment interactions before a lesson. </p>
+            <p>There are several interaction types, including:</p>
+            <ul id="ul_n3z_24x_tcb">
+                <li>Multiple choice question</li>
+                <li>True/false question</li>
+                <li>Ordering exercise (for example, placing DITA elements in their correct
+                    hierarchical order) </li>
+            </ul>
+            <p>Because the majority of the training content developed in DITA is based on
+                &lt;learningContent> and &lt;learningAssessment> topics,  later lessons in this
+                course cover those topic types in detail.</p>
+        </lcInstruction>
+    </learningContentbody>
+    <related-links>
+        <link
+            href="http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/learningTraining/learningContent.html"
+            format="html" scope="external">
+            <linktext>DITA version 1.3 specification, learningContent</linktext>
+        </link>
+        <link
+            href="http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/learningTraining/learningAssessment.html"
+            format="html" scope="external">
+            <linktext>DITA version 1.3 specification, learningAssessment</linktext>
+        </link>
+        
+    </related-links>
+</learningContent>

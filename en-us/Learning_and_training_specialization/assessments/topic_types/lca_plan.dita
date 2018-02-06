@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_z5n_m3y_tcb">
+    <title></title>
+    <shortdesc></shortdesc>
+    <learningAssessmentbody><lcInteraction><lcMultipleSelect2>
+        <lcQuestion2>The learningPlan topic includes elements to specify (choose all that apply):</lcQuestion2>
+        <lcAnswerOptionGroup2>
+            <lcAnswerOption2>
+                <lcAnswerContent2>Needs analysis</lcAnswerContent2>
+                <lcCorrectResponse2/>
+            </lcAnswerOption2>
+            <lcAnswerOption2>
+                <lcAnswerContent2>Classroom environment</lcAnswerContent2>
+                <lcCorrectResponse2/>
+            </lcAnswerOption2>
+            <lcAnswerOption2>
+                <lcAnswerContent2>Duration</lcAnswerContent2>
+           <lcFeedback2>The &lt;lcDuration> element is in the &lt;learningOverview> topic. </lcFeedback2> </lcAnswerOption2>
+            <lcAnswerOption2>
+                <lcAnswerContent2>Delivery dates</lcAnswerContent2>
+                <lcCorrectResponse2/>
+            </lcAnswerOption2>
+           
+        </lcAnswerOptionGroup2>
+    </lcMultipleSelect2></lcInteraction> </learningAssessmentbody>
+</learningAssessment>
