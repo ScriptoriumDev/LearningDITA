@@ -42,7 +42,11 @@
                 these topic types. For example, the source content for LearningDITA lessons do not
                 use the &lt;learningPlan>, &lt;learningOverview>, or &lt;learningSummary> elements.
                 Your course development process may require those elements, however. </p>
+            <p>Like other DITA topics, an id attribute is required in learning topics. </p>
             <p>The following sections provide an overview of the topic types. </p>
+            <note>The examples shown in the topic descriptions are excerpts from files in <xref
+                    keyref="sample_file"/>. Review the sample files to see elements within the topic
+                types.</note>
         </lcInstruction>
     </learningContentbody>
     <related-links/>

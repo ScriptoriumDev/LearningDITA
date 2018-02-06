@@ -5,17 +5,37 @@
     <title>The learningOverview topic type</title>
     <prolog class="- topic/prolog ">
         <author type="creator" href="http://www.scriptorium.com" format="html" scope="external" class="- topic/author ">Simon Bate, Scriptorium</author>
-        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external" class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Alan Pringle, Scriptorium</author>
         <critdates>
             <created date="2017-04-21"/>
         </critdates>
     </prolog>
     <learningContentbody>
-        <lcInstruction id="lcInstruction_js5_cqb_yz">`<p>The learningOverview topic type contains
-                objectives and prerequisites. It describes the learning objectives (what students
-                should gain from the course), course prerequisites (what do students need before
-                beginning a course), and intended audience (expectations about the
-            students).</p></lcInstruction>
+        <lcInstruction id="lcInstruction_js5_cqb_yz">`<p>The &lt;learningOverview> topic type
+                contains course objectives and details helpful for students, including:</p><ul
+                id="ul_a4y_5qw_tcb">
+                <li>Intended audience</li>
+                <li>Course duration</li>
+                <li>Course prerequisites</li>
+            </ul><p>There are specific elements for these details, such as &lt;lcAudience> and
+                &lt;lcDuration>:</p>
+            <pre>
+        &lt;lcAudience id="lcAudience_rth_l4r_rcb">This course is intended for current or future owners of small- to medium-sized flocks of domestic ducks.  &lt;/lcAudience>
+        &lt;lcDuration id="lcDuration_ohs_l4r_rcb">
+            &lt;lcTime value="3 weeks"/>
+        &lt;/lcDuration>
+        &lt;lcObjectives id="lcObjectives_j3w_l4r_rcb">
+            &lt;lcObjectivesStem>At the end of this course, students will be able to:&lt;/lcObjectivesStem>
+            &lt;lcObjectivesGroup id="lcObjectivesGroup_cdr_2pr_rcb">
+                &lt;lcObjective>List the most important aspects of feed quality&lt;/lcObjective>
+                &lt;lcObjective>Describe the common forms of feed and their pros and cons.&lt;/lcObjective>
+                …
+            &lt;/lcObjectivesGroup>
+        &lt;/lcObjectives>             
+            </pre>
+        </lcInstruction>
+        
     </learningContentbody>
     <related-links>
         <link
