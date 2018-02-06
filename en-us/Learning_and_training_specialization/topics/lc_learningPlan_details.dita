@@ -5,24 +5,55 @@
     <title>The learningPlan topic type</title>
     <prolog class="- topic/prolog ">
         <author type="creator" href="http://www.scriptorium.com" format="html" scope="external" class="- topic/author ">Simon Bate, Scriptorium</author>
-        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external" class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Alan Pringle, Scriptorium</author>
         <critdates>
             <created date="2017-04-21"/>
         </critdates>
     </prolog>
     <learningContentbody>
         <lcInstruction id="lcInstruction_js5_cqb_yz">
-            <p>The learningPlan topic type is designed to help you organize the information used to plan learning information. This includes: </p>
+            <p>The &lt;learningPlan> topic type helps you organize information for planning lessons. This
+                information includes: </p>
             <ul id="ul_nsz_srb_yz">
-                <li>Project description, includes elements for describing the overall project.</li>
-                <li>Needs analysis, includes elements for describing organizational needs, audience needs, and the environment for delivering the training.</li>
+                <li>Project description, including title, dates (modification and delivery, for
+                    example), subject, and so on</li>
+                <li>Needs analysis, including organizational needs, audience needs, and the required
+                    environment for delivering the training</li>
                 <li>Gap analysis </li>
-                <li>approach and strategies </li>
-                <li>Technical requirements</li>
+                <li>Approach and strategies </li>
+                <li>Technical requirements, such as the classroom environment or what type of
+                    learning management system (LMS) will contain the content</li>
             </ul>
-            <!--learning needs and goals, instructional design models, task analyses, learning taxonomies, and other information necessary to the lesson planning process.
-
--->
+            <p>You specify the preceding information in elements within the learningPlan topic. For
+                example, to specify the description for a course, use the &lt;lcPlanDescrip>
+                element, which can contain paragraphs and unordered lists: </p>
+            <pre>
+             &lt;lcPlanDescrip id="lcPlanDescrip_dnw_3bs_rcb">
+                &lt;title>Course Description&lt;/title>
+                &lt;p>This course is intended for owners of small- to medium-sized flocks of domestic ducks. Topics covered include:&lt;/p>
+                &lt;ul>
+                    &lt;li>Feed Quality&lt;ul id="ul_i2d_lds_rcb">
+                            &lt;li>Source&lt;/li>
+                            &lt;li>Protection&lt;/li>
+                            &lt;li>Contamination and spoilage&lt;/li>
+                        &lt;/ul>&lt;/li>
+                    &lt;li>Feed Form&lt;/li>
+                    &lt;li>Feeders and waterers&lt;/li>
+                    &lt;li>Nutritional requirements&lt;/li>
+                    &lt;li>Controlling disease&lt;/li>
+                    &lt;li>Avoiding predation&lt;/li>
+                &lt;/ul>
+            &lt;/lcPlanDescrip>  
+            </pre>
         </lcInstruction>
     </learningContentbody>
+    <related-links>
+        <link
+            href="http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/learningTraining/learningPlan.html#learningPlan"
+            format="html" scope="external">
+            <linktext>DITA version 1.3 specification, learningPlan</linktext>
+        </link>
+       
+    </related-links>
 </learningContent>

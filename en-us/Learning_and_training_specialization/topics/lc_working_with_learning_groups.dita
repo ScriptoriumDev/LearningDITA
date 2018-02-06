@@ -7,12 +7,23 @@
         <author type="creator" href="http://www.scriptorium.com" format="html" scope="external" class="- topic/author ">Simon Bate, Scriptorium</author>
         <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external" class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
         <critdates>
-            <created date="2017-04-21"/>
+            <created date="2018-02-02"/>
         </critdates>
     </prolog>
     <learningContentbody>
         <lcInstruction id="lcInstruction_js5_cqb_yz">
-            <p>About the topic...</p>
+            <p>The point of learning objects is that once they are created, they can be reused. You can build a lesson, a course, or even a curriculum by referencing multiple learning objects from a
+                &lt;learningGroup>.</p>
+            <p>A learning group is similar in structure to a learning object. However, the learning group has two very large differences:<ul id="ul_skh_nk5_scb">
+                    <li>Instead of containing references to learning content, the learning group can include<ul id="ul_lg2_pk5_scb">
+                            <li>Other learning groups</li>
+                            <li>References to learning groups</li>
+                            <li>Learning Objects</li>
+                            <li>References to learning objects</li>
+                        </ul></li>
+                </ul></p>
+            <p>The organization of a &lt;learningGroup> is quite flexible, particularly because it can contain other &lt;learningGroup> elements. </p>
+            <p>Typically, </p>
         </lcInstruction>
     </learningContentbody>
 </learningContent>

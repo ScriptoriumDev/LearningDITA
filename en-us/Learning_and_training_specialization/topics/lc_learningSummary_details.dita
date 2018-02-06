@@ -12,7 +12,22 @@
     </prolog>
     <learningContentbody>
         <lcInstruction id="lcInstruction_js5_cqb_yz">
-            <p>The learningSummary topic type contains review materials. This allows you to review the content and puts it in perspective with your learning objectives.</p>
+            <p>The learningSummary topic type contains review materials. The summary enables
+                students to review the course content and puts it in perspective with course
+                learning objectives.</p>
+            <p>
+                <draft-comment author="asp">need some sample code here, but sample topic is
+                    currently blank. </draft-comment>
+            </p>
         </lcInstruction>
     </learningContentbody>
+    <related-links>
+        <link
+            href="http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/learningTraining/learningSummary.html"
+            format="html" scope="external">
+            <linktext>DITA version 1.3 specification, learningSummary</linktext>
+        </link>
+      
+        
+    </related-links>
 </learningContent>
