@@ -25,8 +25,8 @@
                 <li>Technical requirements, such as the classroom environment or what type of
                     learning management system (LMS) will contain the content</li>
             </ul>
-            <p>You specify the preceding information with elements within the learningPlan topic.
-                For example, to specify the description for a course, use the &lt;lcPlanDescrip>
+            <p>You specify the preceding information in elements within the learningPlan topic. For
+                example, to specify the description for a course, use the &lt;lcPlanDescrip>
                 element, which can contain paragraphs and unordered lists: </p>
             <pre>
              &lt;lcPlanDescrip id="lcPlanDescrip_dnw_3bs_rcb">
