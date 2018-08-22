@@ -4,8 +4,10 @@
 <learningContent id="lc_learningContent_embedded_topics">
     <title>LearningContent with embedded topics</title>
     <prolog class="- topic/prolog ">
-        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external" class="- topic/author ">Simon Bate, Scriptorium</author>
-        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external" class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
         <critdates>
             <created date="2017-04-21"/>
         </critdates>
@@ -13,8 +15,34 @@
     <learningContentbody>
         <lcInstruction id="lcInstruction_js5_cqb_yz">
             <p>In addition to the learningContent elements, learningContent topics can contain
-                embedded topics. For example, your instructional content might include a series of
-                steps for the student to follow to complete an activity.</p>
+                embedded topics.</p>
+            <p>Your instructional content might include a series of steps for the student to follow
+                to complete an activity. In this case, you can embed a task topic within the
+                learningContent topic to handle these steps:</p>
+            <pre>&lt;learningContent id="watching_ducks">
+        &lt;title>Watching ducks&lt;/title>
+        &lt;learningContentbody>
+            &lt;lcInstruction>
+                &lt;p>Read this to learn more about what you need to have a satisfying duck-watching experience.&lt;/p>
+            &lt;/lcInstruction>
+        &lt;/learningContentbody>
+        &lt;task id="how_to_watch_ducks">
+            &lt;title>How to watch ducks&lt;/title>
+            &lt;taskbody>
+                &lt;steps id="steps_watching_ducks">
+                    &lt;step>
+                        &lt;cmd>Choose a location to watch ducks.&lt;/cmd>
+                    &lt;/step>
+                    &lt;step>
+                        &lt;cmd>Pick a field guide to identify the ducks.&lt;/cmd>
+                    &lt;/step>
+                    &lt;step>
+                        &lt;cmd>Find some good optics.&lt;/cmd>
+                    &lt;/step>
+                &lt;/steps>
+            &lt;/taskbody>
+        &lt;/task>
+    &lt;/learningContent></pre>
             <p>There are several benefits to embedding a topic within a learningContent topic:</p>
             <ul id="ul_mwg_xp5_scb">
                 <li><i>Reuse.</i> If you need to reuse content in your training materials, embedding
@@ -39,4 +67,14 @@
                 topic</draft-comment>
         </lcInstruction>
     </learningContentbody>
+    <task id="task_hfc_ljx_tcb">
+        <title>Practice</title>
+        <taskbody>
+            <steps id="steps_h5t_ljx_tcb">
+                <step>
+                    <cmd/>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
 </learningContent>
