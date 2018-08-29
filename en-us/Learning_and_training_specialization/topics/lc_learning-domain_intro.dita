@@ -21,8 +21,11 @@
             <lcTime value="45"/>
         </lcDuration>
         <lcIntro>
-            <p>This lesson introduces you to the learningDomain2, which defines the elements you use for questions and responses. </p>
+            <p>This lesson introduces you to the learningDomain2, which defines the elements you use
+                for questions and responses within the learningAssessment topic.</p>
         </lcIntro>
     </learningContentbody>
-    <related-links/>
+    <related-links>
+        <link format="html" scope="external" href="https://www.oxygenxml.com/dita/1.3/specs/archSpec/learningTraining/lc-spec-Overview-domains.html#concept_cvq_vzc_ll__section_95070B5E06F6489A94C301B0D77DF71E"/>
+    </related-links>
 </learningContent>

@@ -4,17 +4,29 @@
 <learningContent id="lc_learningAssessment_details">
     <title>The learningAssessment topic type</title>
     <prolog class="- topic/prolog ">
-        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external" class="- topic/author ">Simon Bate, Scriptorium</author>
-        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external" class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
         <critdates>
             <created date="2017-04-21"/>
         </critdates>
     </prolog>
     <learningContentbody>
         <lcInstruction id="lcInstruction_js5_cqb_yz">
-            <p>The learningAssessment topic type contains exercises, quizzes, or tests. </p>
-            <p>The assessment type includes several interaction types that you can use to present questions. The interaction types include true-false, multiple-choice, open question, matching,
-                sequence, and hot-spot (which allows the student to click on the appropriate area of an image).About the topic...</p>
+            <p>The learningAssessment topic type contains exercises, quizzes, or tests. This
+                information can be included before learning content as a preliminary test, or after
+                content to reiforce content or assess understanding.</p>
+            <p>The assessment type includes several interaction types that you can use to present
+                questions. The interaction types include true-false, multiple-choice, open question,
+                matching, sequence, and hot-spot (which allows the student to click on the
+                appropriate area of an image). If these questions are meant for an interactive
+                learning environment, it will requirea specific output type as well as a learning
+                management system (LMS).</p>
+            <p>The main body elemenet is the learningAssessmentbody which can include lcIntro,
+                lcObjectives, lcDuration, lcInteraction, section, and lcSummary elements. Questions
+                types are included in the lcInteraction element.</p>
+            <p>The lesson on writing questions will teach this in more detail.</p>
         </lcInstruction>
     </learningContentbody>
 </learningContent>

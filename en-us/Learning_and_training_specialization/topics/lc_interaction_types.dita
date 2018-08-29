@@ -4,8 +4,10 @@
 <learningContent id="lc_interaction_types">
     <title>Interaction types</title>
     <prolog class="- topic/prolog ">
-        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external" class="- topic/author ">Simon Bate, Scriptorium</author>
-        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external" class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
         <critdates>
             <created date="2017-04-21"/>
         </critdates>
@@ -19,6 +21,37 @@
             <p>Sequencing</p>
             <p>Short answer</p>
             <p>Hotspot</p>
+            <pre>&lt;learningAssessment id="la_l1_t1_ingredient_quality"><!-- from file:/C:/Users/kheat/Documents/GitHub/New%20folder/LearningDITA/en-us/Learning_and_training_specialization/samples/la_l1_t1_ingredient_quality.dita -->
+    &lt;title>Ingredient quality&lt;/title>
+    &lt;shortdesc>Note that with an “all of the above” type answer, use the lcSingleSelect2 interaction type, rather than lcMultipleSelect2. If you use the lcMultipleSelect2 and a student selects all
+        correct answers (with or without the “all of the above” selection), most learning management systems (LMS) will mark this as an incorrect response. &lt;/shortdesc>
+    &lt;learningAssessmentbody>
+        &lt;lcInteraction id="lcInteraction_sqq_xws_rcb">
+            &lt;lcSingleSelect2>
+                &lt;lcQuestion2>Do not use grains that are contaminated with:&lt;/lcQuestion2>
+                &lt;lcAnswerOptionGroup2 id="lcAnswerOptionGroup2_skb_bxs_rcb">
+                    &lt;lcAnswerOption2>
+                        &lt;lcAnswerContent2>Molds&lt;/lcAnswerContent2>
+                        &lt;lcFeedback2>Not just molds, but weed seeds and dirt too.&lt;/lcFeedback2>
+                    &lt;/lcAnswerOption2>
+                    &lt;lcAnswerOption2>
+                        &lt;lcAnswerContent2>Weed seeds&lt;/lcAnswerContent2>
+                        &lt;lcFeedback2>Not just weed seeds, but molds and dirt too.&lt;/lcFeedback2>
+                    &lt;/lcAnswerOption2>
+                    &lt;lcAnswerOption2>
+                        &lt;lcAnswerContent2>Dirt&lt;/lcAnswerContent2>
+                        &lt;lcFeedback2>Not just dirt, but molds and weed seeds too.&lt;/lcFeedback2>
+                    &lt;/lcAnswerOption2>
+                    &lt;lcAnswerOption2>
+                        &lt;lcAnswerContent2>All of the above&lt;/lcAnswerContent2>
+                        &lt;lcCorrectResponse2/>
+                    &lt;/lcAnswerOption2>
+                &lt;/lcAnswerOptionGroup2>
+            &lt;/lcSingleSelect2>
+        &lt;/lcInteraction>
+    &lt;/learningAssessmentbody>
+&lt;/learningAssessment>
+            </pre>
         </lcInstruction>
     </learningContentbody>
 </learningContent>

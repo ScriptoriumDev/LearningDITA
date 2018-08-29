@@ -4,15 +4,38 @@
 <learningContent id="lc_learningSummary_details">
     <title>The learningSummary topic type</title>
     <prolog class="- topic/prolog ">
-        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external" class="- topic/author ">Simon Bate, Scriptorium</author>
-        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external" class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Kaitlyn Heath, Scriptorium</author>
         <critdates>
             <created date="2017-04-21"/>
         </critdates>
     </prolog>
     <learningContentbody>
         <lcInstruction id="lcInstruction_js5_cqb_yz">
-            <p>The learningSummary topic type contains review materials. This allows you to review the content and puts it in perspective with your learning objectives.</p>
+            <p>The learningSummary topic type contains review materials. This allows you to review
+                the content and puts it in perspective with your learning objectives. This is also
+                the topic to include instructions on what to do next.</p>
+            <p>Within a learningSummarybody element you can include the lcSummary, lcObjectives
+                (this time with the completed objectives), lcReview, lcNextSteps, lcResources, and
+                section elements.</p>
+            <p>The learningSummarybody looks like this:</p>
+            <pre>&lt;learningSummarybody> <draft-comment author="kheath">pre from "../LearningDITA/en-us/Learning_and_training_specialization/samples/ls_l3_t1_summary.dita"</draft-comment>
+        &lt;lcSummary id="lcSummary_igg_jd1_scb">
+            &lt;p>To summarize the overview of Feeders and Waterers:&lt;/p>
+            &lt;ul id="ul_dhl_md1_scb">
+                &lt;li>The height of the feeders and waterers is important to the ducks’ development.&lt;/li>
+                &lt;li>Feeders and waterers must be kept as clean as possible at all times.&lt;/li>
+                &lt;li>Feeder and waterer space is important for the development of ducklings.&lt;/li>
+                &lt;li>Ducks’ attraction to water can lead to wet litter problems.&lt;/li>
+            &lt;/ul>
+        &lt;/lcSummary>
+    &lt;/learningSummarybody>
+                
+            </pre>
         </lcInstruction>
     </learningContentbody>
 </learningContent>

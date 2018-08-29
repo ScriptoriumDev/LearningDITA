@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Users\kheat\Documents\GitHub\New folder\LearningDITA\en-us\temp\pdf\Learning_and_training_specialization\topics?><?workdir-uri file:/C:/Users/kheat/Documents/GitHub/New%20folder/LearningDITA/en-us/temp/pdf/Learning_and_training_specialization/topics/?><?path2project ..\..\?><?path2project-uri ../../?><?path2rootmap-uri ../../?><?doctype-public -//OASIS//DTD DITA Learning Content//EN?><?doctype-system learningContent.dtd?><learningContent xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/topic learningBase/learningBase learningContent/learningContent " ditaarch:DITAArchVersion="1.3" domains="(topic learningBase+learningInteractionBase-d+learningInteractionBase2)                            (topic task)                            (topic concept)                            (topic reference)                            (topic learningBase learningSummary)                             (topic learningBase+learningInteractionBase-d) (topic learningBase+learningInteractionBase-d learningAssessment)                            (topic learningBase+learningInteractionBase-d learningContent)                            a(props deliveryTarget)                            (topic hi-d)                            (topic indexing-d)                            (topic relmgmt-d)                            (topic ut-d)                            (topic learningInteractionBase-d)                            (topic learningInteractionBase2-d)                            (topic learningInteractionBase-d learning-d)                            (topic learningInteractionBase2-d learning2-d)                            (topic learningmeta-d)   " id="lc_learningContent_embedded_topics" xtrc="learningContent:1;4:58" xtrf="file:/C:/Users/kheat/Documents/GitHub/New%20folder/LearningDITA/en-us/Learning_and_training_specialization/topics/lc_learningContent_embedded_topics.dita">
+    <title class="- topic/title " xtrc="title:1;5:12" xtrf="file:/C:/Users/kheat/Documents/GitHub/New%20folder/LearningDITA/en-us/Learning_and_training_specialization/topics/lc_learningContent_embedded_topics.dita">LearningContent with embedded topics</title>
+    <prolog class="- topic/prolog " xtrc="prolog:1;6:37" xtrf="file:/C:/Users/kheat/Documents/GitHub/New%20folder/LearningDITA/en-us/Learning_and_training_specialization/topics/lc_learningContent_embedded_topics.dita">
+        <author class="- topic/author " format="html" href="http://www.scriptorium.com" scope="external" type="creator" xtrc="author:1;8:37" xtrf="file:/C:/Users/kheat/Documents/GitHub/New%20folder/LearningDITA/en-us/Learning_and_training_specialization/topics/lc_learningContent_embedded_topics.dita">Simon Bate, Scriptorium</author>
+        <author class="- topic/author " format="html" href="http://www.scriptorium.com" scope="external" type="contributor" xtrc="author:2;10:37" xtrf="file:/C:/Users/kheat/Documents/GitHub/New%20folder/LearningDITA/en-us/Learning_and_training_specialization/topics/lc_learningContent_embedded_topics.dita">Gretyl Kinsey, Scriptorium</author>
+        <author class="- topic/author " format="html" href="http://www.scriptorium.com" scope="external" type="contributor" xtrc="author:3;12:37" xtrf="file:/C:/Users/kheat/Documents/GitHub/New%20folder/LearningDITA/en-us/Learning_and_training_specialization/topics/lc_learningContent_embedded_topics.dita">Kaitlyn Heath, Scriptorium</author>
+        <critdates class="- topic/critdates " xtrc="critdates:1;8:14" xtrf="file:/C:/Users/kheat/Documents/GitHub/New%20folder/LearningDITA/en-us/Learning_and_training_specialization.ditamap">
+   <created class="- topic/created " date="2017-04-20" xtrc="created:1;9:32" xtrf="file:/C:/Users/kheat/Documents/GitHub/New%20folder/LearningDITA/en-us/Learning_and_training_specialization.ditamap"/>
+  </critdates>
+    </prolog>
+    <learningContentbody class="- topic/body  learningBase/learningBasebody learningContent/learningContentbody " xtrc="learningContentbody:1;17:26" xtrf="file:/C:/Users/kheat/Documents/GitHub/New%20folder/LearningDITA/en-us/Learning_and_training_specialization/topics/lc_learningContent_embedded_topics.dita">
+        <lcInstruction class="- topic/section learningBase/lcInstruction " id="lcInstruction_js5_cqb_yz" xtrc="lcInstruction:1;18:54" xtrf="file:/C:/Users/kheat/Documents/GitHub/New%20folder/LearningDITA/en-us/Learning_and_training_specialization/topics/lc_learningContent_embedded_topics.dita">
+            <p class="- topic/p " xtrc="p:1;19:16" xtrf="file:/C:/Users/kheat/Documents/GitHub/New%20folder/LearningDITA/en-us/Learning_and_training_specialization/topics/lc_learningContent_embedded_topics.dita">In addition to the learningContent elements, learningContent topics can contain
+                embedded topics.</p>
+            <p class="- topic/p " xtrc="p:2;21:16" xtrf="file:/C:/Users/kheat/Documents/GitHub/New%20folder/LearningDITA/en-us/Learning_and_training_specialization/topics/lc_learningContent_embedded_topics.dita">Your instructional content might include a series of steps for the student to follow
+                to complete an activity. In this case, you can embed a task topic within the
+                learningContent topic to handle these steps:</p>
+            <pre class="- topic/pre " xml:space="preserve" xtrc="pre:1;24:18" xtrf="file:/C:/Users/kheat/Documents/GitHub/New%20folder/LearningDITA/en-us/Learning_and_training_specialization/topics/lc_learningContent_embedded_topics.dita">&lt;learningContent id="watching_ducks"&gt;
+        &lt;title&gt;Watching ducks&lt;/title&gt;
+        &lt;learningContentbody&gt;
+            &lt;lcInstruction&gt;
+                &lt;p&gt;Read this to learn more about what you need to have a satisfying duck-watching experience.&lt;/p&gt;
+            &lt;/lcInstruction&gt;
+        &lt;/learningContentbody&gt;
+        &lt;task id="how_to_watch_ducks"&gt;
+            &lt;title&gt;How to watch ducks&lt;/title&gt;
+            &lt;taskbody&gt;
+                &lt;steps id="steps_watching_ducks"&gt;
+                    &lt;step&gt;
+                        &lt;cmd&gt;Choose a location to watch ducks.&lt;/cmd&gt;
+                    &lt;/step&gt;
+                    &lt;step&gt;
+                        &lt;cmd&gt;Pick a field guide to identify the ducks.&lt;/cmd&gt;
+                    &lt;/step&gt;
+                    &lt;step&gt;
+                        &lt;cmd&gt;Find some good optics.&lt;/cmd&gt;
+                    &lt;/step&gt;
+                &lt;/steps&gt;
+            &lt;/taskbody&gt;
+        &lt;/task&gt;
+    &lt;/learningContent&gt;</pre>
+            <p class="- topic/p " xtrc="p:3;48:16" xtrf="file:/C:/Users/kheat/Documents/GitHub/New%20folder/LearningDITA/en-us/Learning_and_training_specialization/topics/lc_learningContent_embedded_topics.dita">There are several benefits to embedding a topic within a learningContent topic:</p>
+            <ul class="- topic/ul " id="ul_mwg_xp5_scb" xtrc="ul:1;49:37" xtrf="file:/C:/Users/kheat/Documents/GitHub/New%20folder/LearningDITA/en-us/Learning_and_training_specialization/topics/lc_learningContent_embedded_topics.dita">
+                <li class="- topic/li " xtrc="li:1;50:21" xtrf="file:/C:/Users/kheat/Documents/GitHub/New%20folder/LearningDITA/en-us/Learning_and_training_specialization/topics/lc_learningContent_embedded_topics.dita"><i class="+ topic/ph hi-d/i " xtrc="i:1;50:24" xtrf="file:/C:/Users/kheat/Documents/GitHub/New%20folder/LearningDITA/en-us/Learning_and_training_specialization/topics/lc_learningContent_embedded_topics.dita">Reuse.</i> If you need to reuse content in your training materials, embedding
+                    topics allows you to use that content as written rather than re-structuring it
+                    into learningContent-specific elements. This can be especially useful for
+                    training departments that reuse a lot of content from other departments, such as
+                    tech comm or sales.</li>
+                <li class="- topic/li " xtrc="li:2;55:21" xtrf="file:/C:/Users/kheat/Documents/GitHub/New%20folder/LearningDITA/en-us/Learning_and_training_specialization/topics/lc_learningContent_embedded_topics.dita"><i class="+ topic/ph hi-d/i " xtrc="i:2;55:24" xtrf="file:/C:/Users/kheat/Documents/GitHub/New%20folder/LearningDITA/en-us/Learning_and_training_specialization/topics/lc_learningContent_embedded_topics.dita">Control.</i> The lcInstruction element in the body of a learningContent topic
+                    contains a limited element set. Embedding another topic type inside the
+                    learningContent topic allows you to use its element set instead. For example, if
+                    you need to give your students step-by-step instructions, you cannot use the
+                    &lt;steps&gt; element inside &lt;lcInstruction&gt;, but you can use it inside an
+                    embedded task topic.</li>
+                <li class="- topic/li " xtrc="li:3;61:21" xtrf="file:/C:/Users/kheat/Documents/GitHub/New%20folder/LearningDITA/en-us/Learning_and_training_specialization/topics/lc_learningContent_embedded_topics.dita"><i class="+ topic/ph hi-d/i " xtrc="i:3;61:24" xtrf="file:/C:/Users/kheat/Documents/GitHub/New%20folder/LearningDITA/en-us/Learning_and_training_specialization/topics/lc_learningContent_embedded_topics.dita">Flexibility.</i> You can embed more than one topic into the body of a
+                    learningContent topic. This adds flexibility to your learningContent topics; for
+                    example, you might embed a concept topic to explain an idea to your students,
+                    and then embed a task topic to provide hands-on instructions to enhance their
+                    understanding of that concept.</li>
+            </ul>
+            <draft-comment author="gretylkinsey" class="- topic/draft-comment " translate="no" xtrc="draft-comment:1;67:50" xtrf="file:/C:/Users/kheat/Documents/GitHub/New%20folder/LearningDITA/en-us/Learning_and_training_specialization/topics/lc_learningContent_embedded_topics.dita">Include examples of embedded topics; add an
+                exercise for the student to embed a topic within a learningContent
+                topic</draft-comment>
+        </lcInstruction>
+    </learningContentbody>
+    <task class="- topic/topic task/task " ditaarch:DITAArchVersion="1.3" domains="(topic learningBase+learningInteractionBase-d+learningInteractionBase2)                            (topic task)                            (topic concept)                            (topic reference)                            (topic learningBase learningSummary)                             (topic learningBase+learningInteractionBase-d) (topic learningBase+learningInteractionBase-d learningAssessment)                            (topic learningBase+learningInteractionBase-d learningContent)                            a(props deliveryTarget)                            (topic hi-d)                            (topic indexing-d)                            (topic relmgmt-d)                            (topic ut-d)                            (topic learningInteractionBase-d)                            (topic learningInteractionBase2-d)                            (topic learningInteractionBase-d learning-d)                            (topic learningInteractionBase2-d learning2-d)                            (topic learningmeta-d)   " id="task_hfc_ljx_tcb" xtrc="task:1;72:33" xtrf="file:/C:/Users/kheat/Documents/GitHub/New%20folder/LearningDITA/en-us/Learning_and_training_specialization/topics/lc_learningContent_embedded_topics.dita">
+        <title class="- topic/title " xtrc="title:2;73:16" xtrf="file:/C:/Users/kheat/Documents/GitHub/New%20folder/LearningDITA/en-us/Learning_and_training_specialization/topics/lc_learningContent_embedded_topics.dita">Practice</title>
+        <taskbody class="- topic/body task/taskbody " xtrc="taskbody:1;74:19" xtrf="file:/C:/Users/kheat/Documents/GitHub/New%20folder/LearningDITA/en-us/Learning_and_training_specialization/topics/lc_learningContent_embedded_topics.dita">
+            <steps class="- topic/ol task/steps " id="steps_h5t_ljx_tcb" xtrc="steps:1;75:43" xtrf="file:/C:/Users/kheat/Documents/GitHub/New%20folder/LearningDITA/en-us/Learning_and_training_specialization/topics/lc_learningContent_embedded_topics.dita">
+                <step class="- topic/li task/step " xtrc="step:1;76:23" xtrf="file:/C:/Users/kheat/Documents/GitHub/New%20folder/LearningDITA/en-us/Learning_and_training_specialization/topics/lc_learningContent_embedded_topics.dita">
+                    <cmd class="- topic/ph task/cmd " xtrc="cmd:1;77:27" xtrf="file:/C:/Users/kheat/Documents/GitHub/New%20folder/LearningDITA/en-us/Learning_and_training_specialization/topics/lc_learningContent_embedded_topics.dita"/>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

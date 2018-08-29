@@ -8,6 +8,8 @@
             class="- topic/author ">Simon Bate, Scriptorium</author>
         <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
             class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Kaitlyn Heath, Scriptorium</author>
         <critdates>
             <created date="2017-04-21"/>
         </critdates>
@@ -62,17 +64,14 @@
                     and then embed a task topic to provide hands-on instructions to enhance their
                     understanding of that concept.</li>
             </ul>
-            <draft-comment author="gretylkinsey">Include examples of embedded topics; add an
-                exercise for the student to embed a topic within a learningContent
-                topic</draft-comment>
         </lcInstruction>
     </learningContentbody>
-    <task id="task_hfc_ljx_tcb">
+    <task id="task_hfc_ljx_tcb"> <!-- USE a task saying to complete an exercise -->
         <title>Practice</title>
         <taskbody>
             <steps id="steps_h5t_ljx_tcb">
                 <step>
-                    <cmd/>
+                    <cmd>Open the file lesson3/</cmd>
                 </step>
             </steps>
         </taskbody>
