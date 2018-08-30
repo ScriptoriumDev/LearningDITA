@@ -12,18 +12,18 @@
     </prolog>
     <learningContentbody>
         <lcInstruction id="lcInstruction_js5_cqb_yz">
-            <p>Before describing how to create learning objects and learning groups, it's necessary to introduce two map types that you use to contain learning objects and learning groups.</p>
+            <p>Before describing how to create learning objects and learning groups, it’s necessary to introduce two map types that you use to contain learning objects and learning groups.</p>
             <ul id="ul_ptt_gq5_scb">
                 <li>The learningObject map type contains a single &lt;learningObject> element. </li>
                 <li>The learningGroup map type contains a single &lt;learningGroup> object.  </li>
             </ul>
-            <p>Both of these types are specializations of the base map type. While the content models in the DITA 1.3 Specification indicate you can use many of the map elements in these types, the
-                intent is that they should contain a single learning group or learning object element. However, it is possible to use &lt;topicref> elements to pull in keymaps and other supporting
-                content. </p>
-            <p>In practical terms, what this means is that although you can add standard map elements to these maps and the maps will validate correctly, most transforms and other applications that
-                handle these map types will only expect a single learning group or learning object element. </p>
+            <p>Both the learningObject map and learningGroup map are specializations of the base DITA map type. While the content models in the DITA 1.3 Specification indicate you can use many of the
+                map elements in these types, the intent is that they should contain a single learning group or learning object element. The specification does allow you to use &lt;topicref> elements
+                to reference  keymaps and other supporting content. </p>
+            <p>In practical terms, this means is that most transforms and other applications that handle these map types will only expect a single learning group or learning object element. You might
+                be able to add additional map elements, but you cannot expect that they will be handled correctly by all processors. </p>
             <p>A learning object map has this structure:</p>
-            <pre>&lt;!DOCTYPE learningObjectMap PUBLIC "-//OASIS//DTD DITA 1.3 Learning Object Map//EN" "learningObjectMap.rng">
+            <pre>&lt;!DOCTYPE learningObjectMap PUBLIC "-//OASIS//DTD DITA 1.3 Learning Object Map//EN" "learningObjectMap.dtd">
 &lt;learningObjectMap>
    &lt;learningObject>
       ...
@@ -31,7 +31,7 @@
 &lt;/learningObjectMap>
 </pre>
             <p>A learning group map has this structure:</p>
-            <pre>&lt;!DOCTYPE learningGroupMap PUBLIC "-//OASIS//DTD DITA 1.3 Learning Group Map//EN" "learningGroupMap.rng">
+            <pre>&lt;!DOCTYPE learningGroupMap PUBLIC "-//OASIS//DTD DITA 1.3 Learning Group Map//EN" "learningGroupMap.dtd">
 &lt;learningGroupMap>
    &lt;learningGroup>
       ...

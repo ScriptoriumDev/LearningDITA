@@ -13,15 +13,15 @@
     <learningContentbody>
         <lcInstruction id="lcInstruction_js5_cqb_yz">
             <p>The &lt;learningObject> element contains references to the topics that support the specific learning object. All of the reference elements inherit their behavior from the &lt;topicref>
-                element. The main reason for using these reference elements is that it becomes immediately apparent what type of topic the reference indicates.</p>
-            <p>A &lt;learningObject> can contain:<ul id="ul_vpx_bm5_scb">
+                element. The main reason you should use these reference elements is that  they show clearly what type of topic the reference indicates.</p>
+            <p>A &lt;learningObject> element can contain:<ul id="ul_vpx_bm5_scb">
                     <li>
                         <p>An optional &lt;learningPlanRef> element that indicates a learning plan topic.</p>
                         <p>If you're using the Learning Object Model, the learning plan topic should contain the needs and gap analysis, along with the approach and strategies for this specific
                             content.</p>
                     </li>
                     <li>Any number of &lt;learningOverviewRef> and &lt;learningPreAssessmentRef> elements. <ul id="ul_ajx_gm5_scb">
-                            <li>The &lt;learningOverviewRef> elements indicates learning overview topics.</li>
+                            <li>The &lt;learningOverviewRef> elements indicates learning overview topics</li>
                             <li>The &lt;learningPreAssessmentRef> element indicates learning assessment topics that are used as a pre-test or other initial assessment.</li>
                         </ul></li>
                     <li>One or more &lt;learningContentRef> elements that indicate the learning content for this learning object.</li>

@@ -12,18 +12,96 @@
     </prolog>
     <learningContentbody>
         <lcInstruction id="lcInstruction_js5_cqb_yz">
-            <p>The point of learning objects is that once they are created, they can be reused. You can build a lesson, a course, or even a curriculum by referencing multiple learning objects from a
-                &lt;learningGroup>.</p>
-            <p>A learning group is similar in structure to a learning object. However, the learning group has two very large differences:<ul id="ul_skh_nk5_scb">
+            <p>The point of creating reusable learning objects is to reuse them. The &lt;learningGroup> element allows you to build a lesson, a course, or even a curriculum by referencing multiple
+                learning objects.</p>
+            <p>A learning group is similar in structure to a learning object. However, the learning group has two very big differences:<ul id="ul_skh_nk5_scb">
                     <li>Instead of containing references to learning content, the learning group can include<ul id="ul_lg2_pk5_scb">
                             <li>Other learning groups</li>
                             <li>References to learning groups</li>
-                            <li>Learning Objects</li>
+                            <li>Learning objects</li>
                             <li>References to learning objects</li>
                         </ul></li>
                 </ul></p>
-            <p>The organization of a &lt;learningGroup> is quite flexible, particularly because it can contain other &lt;learningGroup> elements. </p>
-            <p>Typically, </p>
+            <p>Because the &lt;learningGroup> element can contain other &lt;learningGroup> elements, it is quite flexible. However, it's organization can also get quite convoluted. One possible way to
+                reduce the complexity of the &lt;learningGroup> element is to use references to learning groups and learning objects rather than directly including those elements. </p>
+            <p>Here is an example of a &lt;learningGroup> element, found in the materials for this course:</p>
+            <pre>&lt;learningGroupMap>
+   &lt;title>Feeding Ducks&lt;/title>
+   &lt;learningGroup>
+      &lt;learningPlanRef href="lp_feedingducks.dita"/>
+      &lt;learningOverviewRef href="lo_feedingducks.dita"/>
+      &lt;!-- To further divide content, we could add a module-level learningGroup here. -->
+      &lt;!-- Lesson 1: Feed Quality-->
+      &lt;learningGroup>
+         &lt;topicmeta>
+            &lt;navtitle>Feed Quality&lt;/navtitle>
+         &lt;/topicmeta>
+         &lt;!-- If there were multiple topics under this lesson group, 
+              use the learningOverview to identify objectives for each of the topics. -->
+         &lt;!-- Topic 1 -->
+         &lt;learningObject>
+            &lt;topicmeta>
+               &lt;navtitle>Topic 1&lt;/navtitle>
+            &lt;/topicmeta>
+            &lt;learningPlanRef href="lp_l1_t1_feed_quality.dita"/>
+            &lt;learningOverviewRef href="lo_l1_t1_feed_quality.dita"/>
+            &lt;learningContentRef href="lc_l1_t1_where_to_buy.dita"/>
+            &lt;learningContentRef href="lc_l1_t1_storage.dita"/>
+            &lt;learningContentRef href="lc_l1_t1_spoiling.dita"/>
+            &lt;learningContentRef href="lc_l1_t1_ingredient_quality.dita"/>
+            &lt;learningSummaryRef href="ls_l1_t1_summary.dita"/>
+            &lt;learningPostAssessmentRef href="lg_l1_t1_quiz.dita" type="learningGroup"/>
+         &lt;/learningObject>
+      &lt;/learningGroup>
+
+       &lt;!-- Lesson 2: Feed Form -->
+      &lt;learningGroup>
+         &lt;topicmeta>
+            &lt;navtitle>Feed Form&lt;/navtitle>
+         &lt;/topicmeta>
+         &lt;learningOverviewRef href="lo_l1_feed_form.dita"/>
+         &lt;learningObject>
+            &lt;!-- To be completed (later) -->
+            &lt;learningContentRef/>
+         &lt;/learningObject>
+      &lt;/learningGroup>
+      
+      &lt;!-- Lesson 3: Feeders and waterers -->
+      &lt;learningGroup>
+         &lt;topicmeta>
+            &lt;navtitle>Feeders and Waterers&lt;/navtitle>
+         &lt;/topicmeta>
+         &lt;learningOverviewRef href="lo_l3_feeders_waterers.dita"/>
+         &lt;learningObject>
+            &lt;topicmeta>
+               &lt;navtitle>Feeders and Waterers&lt;/navtitle>
+            &lt;/topicmeta>
+            &lt;!-- no need for a plan at this level. -->
+&lt;!--            &lt;learningPlanRef/>-->
+            &lt;learningOverviewRef href="lo_l3_t1_feeders_waterers.dita"/>            
+            
+            &lt;learningContentRef href="lc_l3_t1_height.dita"/>
+            &lt;learningContentRef href="lc_l3_t1_cleanliness.dita"/>
+            &lt;learningContentRef href="lc_l3_t1_ducklings.dita"/>
+            &lt;learningContentRef href="lc_l3_t1_wet_litter.dita"/>
+            &lt;learningSummaryRef href="ls_l3_t1_summary.dita"/>
+            &lt;learningPostAssessmentRef href="lg_l3_t1_quiz.dita" type="learningGroup"/>
+         &lt;/learningObject>
+         
+      &lt;/learningGroup>
+      
+      &lt;!--
+         
+         Nutritional requirements
+         Controlling disease
+         Avoiding predation
+         -->
+         
+      &lt;learningSummaryRef href="ls_course_summary.dita"/>
+      &lt;learningPostAssessmentRef href="lg_final_exam.dita" type="learningGroup"/>
+   &lt;/learningGroup>
+&lt;/learningGroupMap>
+</pre>
         </lcInstruction>
     </learningContentbody>
 </learningContent>

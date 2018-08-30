@@ -18,8 +18,9 @@
             <p>In addition, the L&amp;T specialization allows you to create learning objects (objective, content, assessment)</p>
             <!--Not sure this is the best place for the following, but I'll park it here for now.-->
             <p>The Learning and Training specialization defines many, many elements, so that it is quite flexible and can be adapted to many uses. However, transforming the content into materials,
-                exams, or e-learning content is entirely up to you. One of the reasons that there is no default plugin in the DITA Open Toolkit for Learning and Training content is that there are so
-                many possible output types, it would be hard to pick only a handful. Even if the output types could be narrowed, each output target has its own formatting requirements. </p>
+                exams, or e-learning content is left to implementors of learning content. One of the reasons that there is no default plugin in the DITA Open Toolkit for Learning and Training content
+                is that there are so many possible output types, it would be hard to pick only a handful. Even if the output types could be narrowed, each output target has its own formatting
+                requirements. </p>
             <p>If you are considering working with the DITA Learning and Training specialization, we strongly recommend that you either hire your own in-house DITA transform staff, or you find a
                 consultant who has experience creating the types of output you require. </p>
         </lcInstruction>

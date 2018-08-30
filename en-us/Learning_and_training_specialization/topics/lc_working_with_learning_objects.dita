@@ -17,10 +17,10 @@
                 that can be reused and repurposed, depending on how you need to deliver your learning content.</p>
             <p>A learning object is a “discrete reusable collection of content used to present and support a single learning objective.” </p>
             <p>The Learning &amp; Training specialization implements learningObjects with the &lt;learningObject> element. The &lt;learingObject> element inherits its behavior from the &lt;topicref>
-                element. It can contain references to the standard learning topics:<ul id="ul_epx_ch5_scb">
+                element and contains references to the standard learning topics:<ul id="ul_epx_ch5_scb">
                     <li>Learning plan (only one per learning object)</li>
                     <li>Learning overview topics</li>
-                    <li>Learning assessment topics (for pre- and post-testing)</li>
+                    <li>Learning assessment topics (for both pre- and post-testing)</li>
                     <li>Learning content topics</li>
                     <li>Learning summary topics</li>
                 </ul>The specific elements used in the &lt;learningObject> are presented after a brief look at learning maps. </p>
