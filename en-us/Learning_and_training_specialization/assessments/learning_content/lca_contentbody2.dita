@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="lca_contentbody2">
+    <title>learningContentbody 2</title>
+    <learningAssessmentbody>
+        <lcInteraction>
+            <lcMatching id="matching_choicetable">
+                <lcQuestion>Properly match the following learningContentbody elements with their descriptions:</lcQuestion>
+                <lcMatchTable id="lcMatchTable_f2n_c5b_kt">
+                    <lcMatchingPair>
+                        <lcItem>&lt;lcIntro></lcItem>
+                        <lcMatchingItem>Context for the topic</lcMatchingItem>
+                    </lcMatchingPair>
+                    <lcMatchingPair>
+                        <lcItem>&lt;lcDuration></lcItem>
+                        <lcMatchingItem>The estimated time for completion of the content</lcMatchingItem>
+                    </lcMatchingPair>
+                    <lcMatchingPair>
+                        <lcItem>&lt;lcObjectives></lcItem>
+                        <lcMatchingItem>One or more items you will have completed upon finishing the content</lcMatchingItem>
+                    </lcMatchingPair>
+                    <lcMatchingPair>
+                        <lcItem>&lt;lcChallenge></lcItem>
+                        <lcMatchingItem>One or more challenges that describe the reasons for the learning content</lcMatchingItem>
+                    </lcMatchingPair>
+                    <lcMatchingPair>
+                        <lcItem>&lt;lcInstruction></lcItem>
+                        <lcMatchingItem>The learning activity content</lcMatchingItem>
+                    </lcMatchingPair>
+                    <lcMatchingPair>
+                        <lcItem>&lt;section></lcItem>
+                        <lcMatchingItem>Any aditional learning information</lcMatchingItem>
+                    </lcMatchingPair>
+                </lcMatchTable>
+            </lcMatching>
+        </lcInteraction>
+    </learningAssessmentbody>
+</learningAssessment>

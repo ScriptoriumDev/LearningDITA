@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="lca_requirements">
+    <title>Required Elements</title>
+    <learningAssessmentbody>
+        <lcInteraction>
+            <lcMultipleSelect id="multi_select_requirements">
+                <lcQuestion>Planning your tasks should involve the following: (pick all that apply)</lcQuestion>
+                <lcAnswerOptionGroup id="lcAnswerOptionGroup_mxg_4q1_my">
+                    <lcAnswerOption>
+                        <lcAnswerContent>&lt;lcObjectives></lcAnswerContent>
+                    </lcAnswerOption>
+                    <lcAnswerOption>
+                        <lcAnswerContent>&lt;learningContentbody></lcAnswerContent>
+                        <lcCorrectResponse/>
+                    </lcAnswerOption>
+                    <lcAnswerOption>
+                        <lcAnswerContent>&lt;title></lcAnswerContent>
+                        <lcCorrectResponse/>
+                    </lcAnswerOption>
+                    <lcAnswerOption>
+                        <lcAnswerContent>&lt;lcInstruction></lcAnswerContent>
+                    </lcAnswerOption>
+                    <lcAnswerContent>&lt;lcIntro></lcAnswerContent>
+                    </lcAnswerOption>
+                </lcAnswerOptionGroup>
+                <lcFeedbackIncorrect>Planning a task should involve gathering information about what the user
+                    should accomplish, identifying the tasks and their scope, considering readers’ needs, and
+                    planning tasks acccordingly.</lcFeedbackIncorrect>
+            </lcMultipleSelect>
+        </lcInteraction>
+    </learningAssessmentbody>
+</learningAssessment>
+    </learningAssessmentbody>
+</learningAssessment>

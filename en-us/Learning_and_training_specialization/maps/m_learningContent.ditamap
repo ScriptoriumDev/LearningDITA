@@ -11,11 +11,14 @@
      <topicref href="../topics/lc_learningContent_elements.dita"/>
      <topicref href="../topics/lc_learningContent_embedded_topics.dita"/>
      <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_learning_domain.dita"
-       locktitle="yes">
+       locktitle="yes"/>
        <topicmeta>
          <navtitle>Assessment for Elements for learning content</navtitle>
        </topicmeta>
-       <topicref href="../assessments/topic_types/lca_foo.dita"/>
-     </topicref>
-   </topicref>
+       <topicref href="../assessments/learning_content/lca_lcontent.dita"/>
+       <topicref href="../assessments/learning_content/lca_contentbody2.dita"/>
+       <topicref href="../assessments/learning_content/lca_contentbody3.dita"/>
+       <topicref href="../assessments/learning_content/lca_lctopic.dita"/>
+       <topicref href="../assessments/learning_content/lca_requirements.dita"/>
+       <topicref href="../assessments/learning_content/lca_embed.dita"/>     
 </map>
