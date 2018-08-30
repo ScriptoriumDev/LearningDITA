@@ -4,20 +4,40 @@
      github.com. See the accompanying LICENSE file for
      applicable licenses.-->
 <learningAssessment id="lca_content" xml:lang="en-US">
- <title></title>
- <shortdesc/>
+ <title>learningContent</title>
  <prolog>
   <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
    Scriptorium</author>
-  <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
-   Scriptorium</author>
-  <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+  <author href="http://www.scriptorium.com" scope="external" format="html">Kaitlyn Heath,
    Scriptorium</author>
   <critdates>
-   <created date="2018-01-18"/>
+   <created date="2018-08-24"/>
   </critdates>
  </prolog>
  <learningAssessmentbody>
-  <lcInteraction/>
+  <lcInteraction>
+   <lcMultipleSelect id="multi_select_plan">
+    <lcQuestion>Which of the following topic types contain the &lt;lcIntruction> element: (pick all that apply)</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_lcintruction">
+     <lcAnswerOption>
+      <lcAnswerContent>&lt;learningContent</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>&lt;learningAssessment></lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>&lt;learningPlan></lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>&lt;learningInstruction></lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>&lt;learningSummary></lcAnswerContent>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>The &lt;lcInstruction> element belongs only in the &lt;learningContent> topic, where the bulk of student intruction is written.</lcFeedbackIncorrect>
+   </lcMultipleSelect>
+  </lcInteraction>
  </learningAssessmentbody>
 </learningAssessment>

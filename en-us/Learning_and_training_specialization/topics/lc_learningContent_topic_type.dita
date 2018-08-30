@@ -4,8 +4,10 @@
 <learningContent id="lc_learningContent_topic_type">
     <title>The learningContent topic type</title>
     <prolog class="- topic/prolog ">
-        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external" class="- topic/author ">Simon Bate, Scriptorium</author>
-        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external" class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
         <critdates>
             <created date="2017-04-21"/>
         </critdates>
@@ -16,6 +18,8 @@
                 Depending on how your course is structured, a learningContent topic can serve as a
                 single topic within a lesson, a lesson within a course, or an entire (short)
                 course.</p>
+            <p>The instructional content can be written in the main body element, learningContentbody, or it can
+                be written in other DITA topics that can be nested within the learningContent topic.</p>
         </lcInstruction>
     </learningContentbody>
 </learningContent>

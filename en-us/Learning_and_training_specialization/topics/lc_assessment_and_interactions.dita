@@ -4,15 +4,19 @@
 <learningContent id="lc_assessment_and_interactions">
     <title>The learningAssessment topic type and interactions</title>
     <prolog class="- topic/prolog ">
-        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external" class="- topic/author ">Simon Bate, Scriptorium</author>
-        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external" class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
         <critdates>
             <created date="2017-04-21"/>
         </critdates>
     </prolog>
     <learningContentbody>
         <lcInstruction id="lcInstruction_js5_cqb_yz">
-            <p>About the topic...</p>
+            <p>A learningAssessment topic is used to write assessment questions for students to
+                answer. Questions are contained elements from the learningDomain2.</p>
+            <draft-comment author="kheath">What else needs to go here?</draft-comment>
         </lcInstruction>
     </learningContentbody>
 </learningContent>
