@@ -8,15 +8,32 @@
             class="- topic/author ">Simon Bate, Scriptorium</author>
         <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
             class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Kaitlyn Heath, Scriptorium</author>
         <critdates>
             <created date="2017-04-21"/>
+            <revised modified="2012-08-30"/>
         </critdates>
     </prolog>
     <learningContentbody>
         <lcInstruction id="lcInstruction_js5_cqb_yz">
             <p>A learningAssessment topic is used to write assessment questions for students to
-                answer. Questions are contained elements from the learningDomain2.</p>
-            <draft-comment author="kheath">What else needs to go here?</draft-comment>
+                answer. Questions are contained elements from the learningDomain2. An assessment can
+                be one question or a series of questions and can be placed before or after other
+                learning content in a map. Assessments can act as pre-tests to place students or
+                post-tests to test students' retention of material. </p>
+            <p>This topic is particularly helpful since content for student versions and answer keys
+                can be created simultaneously.</p>
+            <p>The main section of the topic goes within the &lt;learningAssessmentbody> element.
+                Within that, questions are contained in the &lt;lcInteracion> element, but the body
+                can also include other optional elements: <ul>
+                    <li>&lt;lcIntro></li>
+                    <li>&lt;lcObjectives></li>
+                    <li>&lt;lcSummary></li>
+                </ul></p>
+            <p>There are various types of questions that all interact differently. These
+                interactions are defined in the learningDomain2, which is explained in detail in the
+                next lesson.</p>
         </lcInstruction>
     </learningContentbody>
 </learningContent>
