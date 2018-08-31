@@ -12,8 +12,25 @@
     </prolog>
     <learningContentbody>
         <lcInstruction id="lcInstruction_js5_cqb_yz">
-            <p>About the topic...</p>
-            <draft-comment author="kheath">I have no idea what goes here.</draft-comment>
+            <p>Best practices for writing good assessment questions:</p>
+            <ul id="ul_nbx_3gv_scb">
+                <li>Use the objectives in your lesson or course as a starting point. This will help
+                    you write questions that test whether the student achieved the learning goals
+                    you intended.</li>
+                <li>Avoid creating assessments that depend on other assessments. DITA allows
+                    questions to be displayed in a random order in your output. Therefore, writing a
+                    question that builds on a previous question makes no sense.</li>
+                <li>Just as the order of questions can be randomized, so can the order of the answer
+                    choices. Therefore, it's best to use a multi-select interaction type rather than
+                    a single-select with an "all of the above" answer choice, for example. If the
+                    order of your answer choices is important, see if that question might work best
+                    as a sequencing interaction type.</li>
+                <li>When choosing an interaction type to frame your question, think about what you
+                    want students to prove they know. True/false or single-select interactions
+                    typically work best for testing their knowledge of facts, while matching or
+                    sequencing interactions may work better for testing their understanding of more
+                    complex concepts.</li>
+            </ul>
         </lcInstruction>
     </learningContentbody>
 </learningContent>
