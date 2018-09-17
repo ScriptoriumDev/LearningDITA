@@ -5,9 +5,9 @@
     <learningAssessmentbody>
         <lcInteraction>
             <lcTrueFalse id="link8">
-                <lcQuestion>The instructional content can be written in the main body element,
-                    learningContentbody, or it can be written in other DITA topics that can be
-                    nested within the learningContent topic.</lcQuestion>
+                <lcQuestion>You can write instructional content in the main body element,
+                    &lt;learningContentbody> and in other DITA topics that can be
+                    nested within the &lt;learningContent> topic.</lcQuestion>
                 <lcAnswerOptionGroup>
                     <lcAnswerOption>
                         <lcAnswerContent>True</lcAnswerContent>

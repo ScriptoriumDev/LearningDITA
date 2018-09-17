@@ -11,11 +11,11 @@
     <learningAssessmentbody>
         <lcInteraction>
             <lcTrueFalse2>
-                <lcQuestion2>You must create a learningPlan in order to use the L&amp;T specialization. (true/false).</lcQuestion2>
+                <lcQuestion2>You must create a &lt;learningPlan> in order to use the L&amp;T specialization. (true/false).</lcQuestion2>
                 <lcAnswerOptionGroup2 id="optiongroup_lplan">
                     <lcAnswerOption2>
                         <lcAnswerContent2>True</lcAnswerContent2>
-                        <lcFeedback2>The learningPlan topic type is optional.</lcFeedback2>
+                        <lcFeedback2>The &lt;learningPlan> topic type is optional.</lcFeedback2>
                     </lcAnswerOption2>
                     <lcAnswerOption2>
                         <lcAnswerContent2>False</lcAnswerContent2>

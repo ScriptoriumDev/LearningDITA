@@ -16,7 +16,7 @@
     <learningAssessmentbody>
         <lcInteraction id="lcInteraction_pnx_5lq_4cb">
             <lcTrueFalse2>
-                <lcQuestion2>You use the learningAssessment topic type for quizzes, assignments, and
+                <lcQuestion2>You use the &lt;learningAssessment> topic type for quizzes, assignments, and
                     other exercises (true/false).</lcQuestion2>
                 <lcAnswerOptionGroup2 id="lcAnswerOptionGroup2_cdq_wlq_4cb">
                     <lcAnswerOption2>
@@ -25,7 +25,7 @@
                     </lcAnswerOption2>
                     <lcAnswerOption2>
                         <lcAnswerContent2>False</lcAnswerContent2>
-                        <lcFeedback2>The learningAssessment topic type can be used for any type of question posed to the student, including quizzes and assignments.</lcFeedback2>
+                        <lcFeedback2>The &lt;learningAssessment> topic type can be used for any type of question posed to the student, including quizzes and assignments.</lcFeedback2>
                     </lcAnswerOption2>
                 </lcAnswerOptionGroup2>
             </lcTrueFalse2>

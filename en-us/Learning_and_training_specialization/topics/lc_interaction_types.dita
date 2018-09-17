@@ -17,32 +17,31 @@
     </prolog>
     <learningContentbody>
         <lcInstruction id="lcInstruction_js5_cqb_yz">
-            <p>Interactions in the learnigDomain2 can include the following parts: <ul>
+            <p>Interactions in the learningDomain2 can include the following parts: <ul>
                     <li>A question</li>
                     <li>Images (optional)</li>
-                    <li>Correct and incorrent answer element tags</li>
+                    <li>Correct and incorrect answer element tags</li>
                     <li>Feedback for correct and incorrect answers (optional)</li>
                 </ul></p>
             <p>The bulk of the interaction will be the question content. Different types of
                 questions have different elements: <ul>
-                    <li>&lt;lcTrueFalse2> (true-false question)</li>
-                    <li>&lt;lcSingleSelect2> (multiple choice question with a single correct
-                        answer)</li>
-                    <li>&lt;lcMultipleSelect2> (multiple choice question with more than one correct
-                        answer)</li>
-                    <li>&lt;lcMatching2> (two columns of information that students must match into
-                        related pairs)</li>
-                    <li>&lt;lcSequencing2> (a series of items that students must re-arrange into the
-                        correct order.)</li>
-                    <li>&lt;lcOpenQuestion2> (a question that requires a written answer(e.g. short
-                        answer or essay responses)</li>
-                    <li>&lt;lcHotspot2> (an image with mapped regions on which students must
-                        click)</li>
+                    <li>&lt;lcTrueFalse2>: true-false question</li>
+                    <li>&lt;lcSingleSelect2>: multiple-choice question with a single correct
+                        answer</li>
+                    <li>&lt;lcMultipleSelect2>: multiple-choice question with more than one correct
+                        answer</li>
+                    <li>&lt;lcMatching2>: two columns of information that students must match into
+                        related pairs</li>
+                    <li>&lt;lcSequencing2>: a series of items that students must rearrange into the
+                        correct order</li>
+                    <li>&lt;lcOpenQuestion2>: a question that requires a written answer (such as
+                        short answer or essay responses)</li>
+                    <li>&lt;lcHotspot2>: an image with mapped regions on which students must
+                        click</li>
                 </ul></p>
-            <note>The "2" appending each element name is indicitive of the learningDomain2. There is
-                a first learningDomain, but its corresponding elements do not support block
-                elements. Elements as &lt;lcTrueFalse> will validate, but elements within may
-                not.</note>
+            <note>Notice the use of 2 as in learningDomain2, lcTrueFalse2, and so on. An earlier
+                version of L&amp;T used &lt;learningDomain>. The &lt;learningDomain2> elements are
+                more flexible and allow block elements like &lt;p> within question elements.</note>
             <p>Below is an example of a single select question.</p>
             <pre>&lt;learningAssessment id="la_l1_t1_ingredient_quality"><!-- from file:/C:/Users/kheat/Documents/GitHub/New%20folder/LearningDITA/en-us/Learning_and_training_specialization/samples/la_l1_t1_ingredient_quality.dita -->
     &lt;title>Ingredient quality&lt;/title>
@@ -79,6 +78,7 @@
     </learningContentbody>
     <task id="lc_matching">
         <title>Practice</title>
+        <shortdesc>Now you can practice creating an assessment question.</shortdesc>
         <taskbody>
             <steps id="steps_f5k_kkh_1t">
                 <step>
@@ -91,15 +91,15 @@
                     <stepxmp>
                         <p>You should see this:</p>
                         <pre>&lt;?xml version="1.0" encoding="utf-8"?>
-&lt;!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
-&lt;learningAssessment id="lca_practice">
-    &lt;title>Feed Quality Source&lt;/title>
-    &lt;learningAssessmentbody> &lt;/learningAssessmentbody>
-&lt;/learningAssessment></pre>
+                        &lt;!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+                            &lt;learningAssessment id="lca_practice">
+                               &lt;title>Feed Quality Source&lt;/title>
+                               &lt;learningAssessmentbody> &lt;/learningAssessmentbody>
+                            &lt;/learningAssessment></pre>
                     </stepxmp>
                     <info>
                         <p>Notice that the !DOCTYPE declaration calls out the learningAssessment
-                            DTD</p>
+                            DTD.</p>
                         <p>After the required title is the &lt;learningAssessmentbody></p>
                     </info>
                 </step>
@@ -108,29 +108,13 @@
                         and give it an id attribute.</cmd>
                     <stepxmp>
                         <pre>&lt;!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
-&lt;learningAssessment id="lca_practice">
-    &lt;title>Feed Quality Source&lt;/title>
-    &lt;learningAssessmentbody>
-        <ph outputclass="newchanged">&lt;lcInteraction id="lcInteraction_practice"> 
-        &lt;/lcInteraction></ph>
-     &lt;/learningAssessmentbody>
-     &lt;/learningAssessment></pre>
-                    </stepxmp>
-                </step>
-                <step>
-                    <cmd>After the &lt;lcInteraction> element, add the &lt;lcQuestion>
-                        element.</cmd>
-                    <stepxmp>
-                        <pre>&lt;!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
-&lt;learningAssessment id="lca_practice">
-    &lt;title>Feed Quality Source&lt;/title>
-    &lt;learningAssessmentbody>
-        &lt;lcInteraction id="lcInteraction_practice">
-        <ph outputclass="newchanged">&lt;lcQuestion>
-        &lt;/lcQuestion></ph>
-        &lt;/lcInteraction>
-     &lt;/learningAssessmentbody>
-     &lt;/learningAssessment></pre>
+                            &lt;learningAssessment id="lca_practice">
+                                &lt;title>Feed Quality Source&lt;/title>
+                                &lt;learningAssessmentbody>
+                                    <ph outputclass="newchanged">&lt;lcInteraction id="lcInteraction_practice"> 
+                                    &lt;/lcInteraction></ph>
+                                &lt;/learningAssessmentbody>
+                            &lt;/learningAssessment></pre>
                     </stepxmp>
                 </step>
                 <step>
@@ -142,13 +126,11 @@
     &lt;title>Feed Quality Source&lt;/title>
     &lt;learningAssessmentbody>
         &lt;lcInteraction id="lcInteraction_practice">
-        &lt;lcQuestion>
-        <ph outputclass="newchanged">&lt;lcMultipleSelect2>
+            <ph outputclass="newchanged">&lt;lcMultipleSelect2>
             &lt;/lcMultipleSelect2></ph>
-        &lt;/lcQuestion>
         &lt;/lcInteraction>
      &lt;/learningAssessmentbody>
-     &lt;/learningAssessment></pre>
+&lt;/learningAssessment></pre>
                     </stepxmp>
                 </step>
                 <step>
@@ -156,41 +138,42 @@
                     <stepxmp>
                         <pre>
                             . . .
-                             &lt;lcQuestion>
         &lt;lcMultipleSelect2>
-        <ph outputclass="newchanged">&lt;lcQuestion2>Good commercially prepared duck feed can be found where (answer all that apply):&lt;/lcQuestion2></ph>
-            &lt;/lcMultipleSelect2>
-        &lt;/lcQuestion>
+            <ph outputclass="newchanged">&lt;lcQuestion2>Good commercially prepared duck feed can be found where? (answer all that apply):&lt;/lcQuestion2></ph>
+        &lt;/lcMultipleSelect2>
         . . .
                         </pre>
                     </stepxmp>
                 </step>
                 <step>
-                    <cmd>Now you can start adding the group of answer choices. First, add the &lt;lcAnswerOptionGroup2> element and an id. Then, add the &lt;lcAnswerOption2>.</cmd>
+                    <cmd>Now you can start adding the group of answer choices. First, add the
+                        &lt;lcAnswerOptionGroup2> element and an id. Then, add the
+                        &lt;lcAnswerOption2> element and the &lt;lcAnswerContent2> element with the
+                        text of the first answer option.</cmd>
                     <stepxmp>
                         <pre>
                             . . .
-                            &lt;lcQuestion>
         &lt;lcMultipleSelect2>
-        &lt;lcQuestion2>Good commercially prepared duck feed can be found where (answer all that apply):&lt;/lcQuestion2>
+        &lt;lcQuestion2>Good commercially prepared duck feed can be found where? (answer all that apply):&lt;/lcQuestion2>
                 &lt;lcAnswerOptionGroup2 id="lcAnswerOptionGroup2_practice">
                     &lt;lcAnswerOption2>
                         <ph outputclass="newchanged">&lt;lcAnswerContent2>Local feed stores.&lt;/lcAnswerContent2></ph>
                      &lt;/lcAnswerOption2>
                 &lt;/lcAnswerOptionGroup2>
-            &lt;/lcMultipleSelect2>
+        &lt;/lcMultipleSelect2>
                             . . .
                         </pre>
                     </stepxmp>
                 </step>
                 <step>
-                    <cmd>Now if the answer option is correct, you can tag it as a correct answer choice</cmd>
+                    <cmd>Now, if the answer option is correct, you can tag it as a correct answer
+                        choice.</cmd>
                     <stepxmp>
                         <pre>
                             . . .
                             &lt;lcQuestion>
         &lt;lcMultipleSelect2>
-        &lt;lcQuestion2>Good commercially prepared duck feed can be found where (answer all that apply):&lt;/lcQuestion2>
+        &lt;lcQuestion2>Good commercially prepared duck feed can be found where? (answer all that apply):&lt;/lcQuestion2>
                 &lt;lcAnswerOptionGroup2 id="lcAnswerOptionGroup2_practice">
                     &lt;lcAnswerOption2>
                         &lt;lcAnswerContent2>Local feed stores.&lt;/lcAnswerContent2>
@@ -201,14 +184,15 @@
                             . . .
                         </pre>
                     </stepxmp>
-                    <info>You can add as many &lt;lcAnswerOption2> elements as you need and all of them can be tagged as correct.</info>
+                    <info>You can add as many &lt;lcAnswerOption2> elements as you need, and all of
+                        them can be tagged as correct.</info>
                 </step>
                 <step>
-                    <cmd>Try adding more answer options.</cmd>
+                    <cmd>Try adding another correct answer option.</cmd>
                     <stepxmp>
                         <pre>
                             . . .
-                             &lt;lcAnswerOptionGroup2 id="lcAnswerOptionGroup2_practice">
+                &lt;lcAnswerOptionGroup2 id="lcAnswerOptionGroup2_practice">
                     &lt;lcAnswerOption2>
                         &lt;lcAnswerContent2>Local feed stores.&lt;/lcAnswerContent2>
                         &lt;lcCorrectResponse2/>
@@ -223,9 +207,12 @@
                     </stepxmp>
                 </step>
                 <step>
-                    <cmd>To create an answer choice that is not a correct answer, just omit the &lt;lcCorrectResponse/> element. Then, provide feedback that will appear if the incorrect answer is chosen by using the &lt;lcFeedback2> element.</cmd>
-                <stepxmp>
-                    <pre>
+                    <cmd>To create an answer choice that is not a correct answer, just omit the
+                        &lt;lcCorrectResponse/> element. Then, provide feedback by using the
+                        &lt;lcFeedback2> element.(It will appear if the student chooses the wrong
+                        answer.)</cmd>
+                    <stepxmp>
+                        <pre>
                         . . .
                          &lt;lcAnswerOptionGroup2 id="lcAnswerOptionGroup2_practice">
                     &lt;lcAnswerOption2>
@@ -238,12 +225,12 @@
                      &lt;/lcAnswerOption2>
                      <ph outputclass="newchanged">&lt;lcAnswerOption2>
                         &lt;lcAnswerContent2>From the back of a stranger’s truck.&lt;/lcAnswerContent2>
-                        &lt;lcFeedback2>The more you know about the source, age, storage history, and the seller, the better off you are. This has none of those&lt;/lcFeedback2>
+                        &lt;lcFeedback2>The more you know about the source, age, storage history, and the seller, the better off you are. The back of a stranger's truck has none of this information.&lt;/lcFeedback2>
                     &lt;/lcAnswerOption2></ph>
                 &lt;/lcAnswerOptionGroup2>
                         . . .
                     </pre>
-                </stepxmp>
+                    </stepxmp>
                 </step>
             </steps>
         </taskbody>
@@ -256,11 +243,12 @@
         <taskbody>
             <steps id="steps_h5t_ljx_tcb">
                 <step>
-                    <cmd>Now try an exercise on your own. Open the file lesson3/lc_task_exercise_start.dita and use it to convert the
-                        following content from <xref
+                    <cmd>Now try an exercise on your own. Open the file
+                        lesson3/lc_task_exercise_start.dita and use it to convert the following
+                        content from <xref
                             href="https://learningdita.com/courses/the-dita-task-topic-type/">The
                             DITA task topic type</xref> LearningDITA course into a DITA
-                        &lt;learningAssessment>.</cmd>
+                        &lt;learningAssessment> topic.</cmd>
                     <info>The answer choices are matched correctly in this preview.</info>
                     <info>
                         <pre outputclass="passthru">
@@ -300,8 +288,8 @@
                     </info>
                 </step>
                 <step>
-                    <cmd>Check your file lesson/lca_exercise_start.dita against the completed
-                        sample file lesson4/lca_exercise.dita</cmd>
+                    <cmd>Check your file lesson/lca_exercise_start.dita against the completed sample
+                        file lesson4/lca_exercise.dita</cmd>
                 </step>
             </steps>
         </taskbody>

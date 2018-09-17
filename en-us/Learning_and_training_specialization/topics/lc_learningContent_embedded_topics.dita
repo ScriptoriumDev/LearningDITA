@@ -2,7 +2,7 @@
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <learningContent id="lc_learningContent_embedded_topics">
-    <title>LearningContent with embedded topics</title>
+    <title>&lt;learningContent> with embedded topics</title>
     <prolog class="- topic/prolog ">
         <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
             class="- topic/author ">Simon Bate, Scriptorium</author>
@@ -16,11 +16,11 @@
     </prolog>
     <learningContentbody>
         <lcInstruction id="lcInstruction_js5_cqb_yz">
-            <p>In addition to the learningContent elements, learningContent topics can contain
+            <p>In addition to the &lt;learningContent> elements, &lt;learningContent> topics can contain
                 embedded topics.</p>
             <p>Your instructional content might include a series of steps for the student to follow
                 to complete an activity. In this case, you can embed a task topic within the
-                learningContent topic to handle these steps:</p>
+                &lt;learningContent> topic to handle these steps:</p>
             <pre>&lt;learningContent id="watching_ducks">
         &lt;title>Watching ducks&lt;/title>
         &lt;learningContentbody>
@@ -45,21 +45,20 @@
             &lt;/taskbody>
         &lt;/task>
     &lt;/learningContent></pre>
-            <p>There are several benefits to embedding a topic within a learningContent topic:</p>
+            <p>There are several benefits to embedding a topic within a &lt;learningContent> topic:</p>
             <ul id="ul_mwg_xp5_scb">
                 <li><i>Reuse.</i> If you need to reuse content in your training materials, embedding
-                    topics allows you to use that content as written rather than re-structuring it
-                    into learningContent-specific elements. This can be especially useful for
+                    topics allows you to use that content as written rather than restructuring it
+                    into learningContent-specific elements. Embedding topics can be especially useful for
                     training departments that reuse a lot of content from other departments, such as
                     tech comm or sales.</li>
-                <li><i>Control.</i> The lcInstruction element in the body of a learningContent topic
-                    contains a limited element set. Embedding another topic type inside the
-                    learningContent topic allows you to use its element set instead. For example, if
-                    you need to give your students step-by-step instructions, you cannot use the
-                    &lt;steps> element inside &lt;lcInstruction>, but you can use it inside an
+                <li><i>Control.</i> The &lt;lcInstruction> element in the body of a &lt;learningContent> topic
+                    allows a limited element set. Embedding another topic type inside the
+                    &lt;learningContent> topic allows you to use its element set instead. For example, you cannot use the
+                    &lt;steps> element inside &lt;lcInstruction> for step-by-step instruction, but the &lt;steps> element is available inside an
                     embedded task topic.</li>
                 <li><i>Flexibility.</i> You can embed more than one topic into the body of a
-                    learningContent topic. This adds flexibility to your learningContent topics; for
+                    &lt;learningContent> topic, which adds flexibility to your &lt;learningContent> topics; for
                     example, you might embed a concept topic to explain an idea to your students,
                     and then embed a task topic to provide hands-on instructions to enhance their
                     understanding of that concept.</li>

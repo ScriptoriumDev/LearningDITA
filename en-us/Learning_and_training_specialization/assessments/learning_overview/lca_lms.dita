@@ -11,7 +11,7 @@
     <learningAssessmentbody>
         <lcInteraction>
             <lcTrueFalse id="t-f-lms">
-                <lcQuestion>When you are finished writing your course you can use the eLearning plugin to transform your content.</lcQuestion>
+                <lcQuestion>When you are finished writing your course you can use the DITA OT e-learning plug-in to transform your content.</lcQuestion>
                 <lcAnswerOptionGroup>
                     <lcAnswerOption>
                         <lcAnswerContent>True</lcAnswerContent>
@@ -21,7 +21,7 @@
                         <lcCorrectResponse/>
                     </lcAnswerOption>
                 </lcAnswerOptionGroup>
-                <lcFeedbackIncorrect>If eLearning is your goal, you will need to build your own transform or use a Learning Management System.</lcFeedbackIncorrect>
+                <lcFeedbackIncorrect>There is no default e-learning plug-in. If e-Learning is your goal, you will need to build your own transform or use a Learning Management System.</lcFeedbackIncorrect>
             </lcTrueFalse>
         </lcInteraction>
     </learningAssessmentbody>

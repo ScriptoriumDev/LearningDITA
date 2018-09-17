@@ -15,16 +15,16 @@
         <lcObjectives id="lcObjectives_ygk_w5w_qcb">
             <lcObjectivesGroup id="lcObjectivesGroup_tvl_vbh_1t">
                 <lcObjective>Describe the two common organizations of learning content.</lcObjective>
-                <lcObjective>Properly order elements within the learningContentbody element.</lcObjective>
-                <lcObjective>Give examples of when it is useful to use learningContent with an embedded topic.</lcObjective>
-                <lcObjective>Author an embedded task topic in a learningContent topic.</lcObjective>
+                <lcObjective>Properly order elements within the &lt;learningContentbody> element.</lcObjective>
+                <lcObjective>Give examples of when it is useful to use &lt;learningContent> with an embedded topic.</lcObjective>
+                <lcObjective>Author an embedded task topic in a &lt;learningContent> topic.</lcObjective>
             </lcObjectivesGroup>
         </lcObjectives>
         <lcDuration id="lcDuration_zgk_w5w_qcb">
             <lcTime value="45"/>
         </lcDuration>
         <lcInstruction id="lcInstruction_js5_cqb_yz">
-            <p>The learningContent topic type will likely contain the bulk of your course content. It is where the instructional part of the course should go.</p>
+            <p>The &lt;learningContent> topic type will likely contain the bulk of your instructional course content.</p>
         </lcInstruction>
     </learningContentbody>
 </learningContent>

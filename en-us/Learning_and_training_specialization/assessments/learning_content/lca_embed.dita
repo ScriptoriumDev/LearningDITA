@@ -5,8 +5,8 @@
     <learningAssessmentbody>
         <lcInteraction>
             <lcTrueFalse id="t-f_embed">
-                <lcQuestion>When embedding a task within a learningContent topic, it should go
-                    within the learningContent body.</lcQuestion>
+                <lcQuestion>When embedding a task within a &lt;learningContent> topic, it should go
+                    within the &lt;learningContentbody> element.</lcQuestion>
                 <lcAnswerOptionGroup>
                     <lcAnswerOption>
                         <lcAnswerContent>True</lcAnswerContent>
@@ -16,7 +16,7 @@
                         <lcCorrectResponse/>
                     </lcAnswerOption>
                 </lcAnswerOptionGroup>
-                <lcFeedbackIncorrect>Tasks within the the learning topic should be declared after
+                <lcFeedbackIncorrect>Tasks within the the &lt;learningContent> topic should be declared after
                     the &lt;learningContentbody> element.</lcFeedbackIncorrect>
             </lcTrueFalse>
         </lcInteraction>

@@ -21,7 +21,7 @@
                         <lcAnswerContent>&lt;learningContent></lcAnswerContent>
                     </lcAnswerOption>
                 </lcAnswerOptionGroup>
-                <lcFeedbackIncorrect>The learningContent is the <b>topic</b> that will contain most of your learning content but not the <b>element</b></lcFeedbackIncorrect>
+                <lcFeedbackIncorrect>The &lt;learningContent> is the <b>topic</b> that will contain most of your learning content but not the <b>element</b></lcFeedbackIncorrect>
             </lcSingleSelect>
         </lcInteraction>
     </learningAssessmentbody>

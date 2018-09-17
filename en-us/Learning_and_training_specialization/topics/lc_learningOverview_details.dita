@@ -2,7 +2,7 @@
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <learningContent id="lc_learningOverview_details">
-    <title>The learningOverview topic type</title>
+    <title>The &lt;learningOverview> topic type</title>
     <prolog class="- topic/prolog ">
         <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
             class="- topic/author ">Simon Bate, Scriptorium</author>
@@ -16,20 +16,19 @@
     </prolog>
     <learningContentbody>
         <lcInstruction id="lcInstruction_js5_cqb_yz">
-            <p>The learningOverview topic type contains objectives and prerequisites. It describes the learning objectives (what students should gain from the
-                course), course prerequisites (what do students need before beginning a course), and
-                intended audience (expectations about the students).</p>
-            <p>In a learningOverview the main body-level element is the learningOverviewbody. This element can include the following elements in this order:
+            <p>The &lt;learningOverview> topic type contains objectives and prerequisites. It
+                describes the learning objectives , course prerequisites , and intended audience .</p>
+            <p>In a &lt;learningOverview> topic the main body-level element is the &lt;learningOverviewbody>. This element can conatain the following elements in this order:
                 <ol>
-                    <li>lcIntro</li>
-                    <li>lcAudience</li>
-                    <li>lcDuration</li>
-                    <li>lcPrereqs</li>
-                    <li>lcObjectives</li>
-                    <li>lcResources</li>
+                    <li>&lt;lcIntro>: introduction to the overview</li>
+                    <li>&lt;lcAudience>: facts about the students for whom the course is intended </li>
+                    <li>&lt;lcDuration>: estimated time to complete the course</li>
+                    <li>&lt;lcPrereqs>: any requirements for students before they take the course</li>
+                    <li>&lt;lcObjectives>: what students should gain from the course </li>
+                    <li>&lt;lcResources>: any resources used or extra information for the course</li>
                 </ol>
-                These elements may be followed by an unlimited number of section elements.</p>
-            <p>Here is an example of a &lt;learningOverviewbody> with a few of the mentioned elements:</p>
+                These elements may be followed by an unlimited number of &lt;section> elements.</p>
+            <p>Here is an example of a &lt;learningOverviewbody>:</p>
             <pre>&lt;learningOverviewbody><draft-comment author="kheath">pre from "../LearningDITA/en-us/Learning_and_training_specialization/samples/lo_feedingducks.dita"</draft-comment>
         &lt;lcAudience id="lcAudience_rth_l4r_rcb">This course is intended for current or future owners of small- to medium-sized flocks of domestic ducks.&lt;/lcAudience>
         &lt;lcDuration id="lcDuration_ohs_l4r_rcb">
@@ -42,7 +41,7 @@
                 &lt;lcObjective>Describe the common forms of feed and their pros and cons.&lt;/lcObjective>
                 &lt;lcObjective>List the physical requirements of feeders and waterers.&lt;/lcObjective>
                 &lt;lcObjective>Summarize macro and micro nutritional needs of ducks.&lt;/lcObjective>
-                &lt;lcObjective>List the four most common diseases in ducks and how they can be controled by feeding.&lt;/lcObjective>
+                &lt;lcObjective>List the four most common diseases in ducks and how they can be controlled by feeding.&lt;/lcObjective>
                 &lt;lcObjective>Identify the most common predators for ducks and how to limit predation&lt;/lcObjective>
             &lt;/lcObjectivesGroup>
         &lt;/lcObjectives>

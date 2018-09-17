@@ -10,8 +10,8 @@
     </prolog>
     <learningAssessmentbody>
         <lcInteraction>
-            <lcSequencing>
-                <lcQuestion>Place these learningOverview elements in the correct order.</lcQuestion>
+            <lcSequencing id="match_loverview">
+                <lcQuestion>Place these &lt;learningOverview> elements in the correct order.</lcQuestion>
                 <lcSequenceOptionGroup>
                     <lcSequenceOption>
                         <lcAnswerContent>&lt;lcObjectives></lcAnswerContent>
