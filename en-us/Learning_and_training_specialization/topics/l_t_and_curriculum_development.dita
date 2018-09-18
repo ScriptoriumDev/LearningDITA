@@ -15,21 +15,19 @@
     <learningContentbody>
         <lcInstruction id="lcInstruction_js5_cqb_yz">
             <p>The L&amp;T specialization enables you to create learning materials, including
-                content and assessments, without modifications. </p>
-            <p>However, you might prefer a formalized approach, creating your content after careful
+                content and assessments.</p>
+            <p>You might prefer a formalized approach, creating your content after careful
                 planning and analysis. The L&amp;T specialization includes a planning topic type
                 that allows you to identify goals, needs, and objectives. The &lt;learningGroup> and
                 &lt;learningObject> elements allow you to use planning topic types at many levels of
                 your development. </p>
-            <p>In addition, the L&amp;T specialization allows you to create learning objects
-                (objective, content, assessment).</p>
             <!--Not sure this is the best place for the following, but I'll park it here for now.-->
             <p>The L&amp;T specialization provides many elements for instructional content. It does
                 not enforce a particular instructional design approach; you can pick and choose the
                 elements that you want and adapt the model to your requirements. Transforming the
                 content into materials, exams, or e-learning content is entirely up to you. While
                 you can use the DITA Open Toolkit to generate a PDF, RTF, and other standard
-                formats, there is no plug-in that can replace a learning management system.</p>
+                formats, there is no default course output type.</p>
         </lcInstruction>
     </learningContentbody>
 </learningContent>

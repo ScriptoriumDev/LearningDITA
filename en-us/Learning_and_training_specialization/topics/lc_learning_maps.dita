@@ -45,8 +45,8 @@
    &lt;/learningGroup>
 &lt;/learningGroupMap></pre>
             <p>Within a learning group element you can embed other learning groups and learning
-                objects. This allows you to reuse topics, lessons, chapters, etc. You can also reuse
-                other learning map types by using the &lt;learningObjectMapRef> and
+                objects. This allows you to reuse topics, lessons, etc. You can also reuse other
+                learning map types by using the &lt;learningObjectMapRef> and
                 &lt;learningGroupMapRef></p>
         </lcInstruction>
     </learningContentbody>

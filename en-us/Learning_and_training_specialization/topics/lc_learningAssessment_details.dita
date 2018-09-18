@@ -16,12 +16,12 @@
         <lcInstruction id="lcInstruction_js5_cqb_yz">
             <p>The &lt;learningAssessment> topic type contains exercises, quizzes, or tests. This
                 information can be included before learning content as a preliminary test, or after
-                content to re-enforce content or assess understanding.</p>
+                content to reinforce content or assess understanding.</p>
             <p>The assessment type includes several interaction types that you can use to present
                 questions. The interaction types include true-false, multiple-choice, open question,
                 matching, sequence, and hot-spot (which allows the student to click on the
                 designated area of an image). If these questions are meant for an interactive
-                e-learning environment, it will require a specific output type as well as a learning
+                e-learning environment,you will need a specific output type as well as a learning
                 management system (LMS).</p>
             <p>The main body element is the &lt;learningAssessmentbody> which can include &lt;lcIntro>,
                 &lt;lcObjectives>, &lt;lcDuration>, &lt;lcInteraction>, &lt;section>, and &lt;lcSummary> elements. Questions

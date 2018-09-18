@@ -15,9 +15,11 @@
     <learningContentbody>
         <lcInstruction id="lcInstruction_js5_cqb_yz">
             <p>The &lt;learningContent> topic type contains the instructional content of a course.
-                Depending on how your course is structured, a &lt;learningContent> topic can serve as a
-                single topic within a lesson or a lesson within a course by organizing the &lt;learningContent> topic within a map; or it can serve as an entire (short)
-                course if you embed other topic types like a &lt;task> or &lt;learningAssessment> within one &lt;learningContent> topic.</p>
+                Depending on how your course is structured, a &lt;learningContent> topic can serve
+                as a single topic within a lesson or a lesson within a course by organizing the
+                &lt;learningContent> topic within a map. It can also serve as an entire (short)
+                course if you embed other topic types like a &lt;task> or &lt;learningAssessment>
+                within one &lt;learningContent> topic.</p>
             <p>The instructional content is written in the main body element, &lt;learningContentbody>, or it can
                 be written in other DITA topics that can be nested within the &lt;learningContent> topic.</p>
         </lcInstruction>

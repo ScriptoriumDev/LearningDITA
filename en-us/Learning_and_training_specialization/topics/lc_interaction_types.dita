@@ -23,6 +23,9 @@
                     <li>Correct and incorrect answer element tags</li>
                     <li>Feedback for correct and incorrect answers (optional)</li>
                 </ul></p>
+            <p>Notice the use of 2 as in learningDomain2, lcTrueFalse2, and so on. An earlier
+                version of L&amp;T used &lt;learningDomain>. The &lt;learningDomain2> elements are
+                more flexible and allow block elements like &lt;p> within question elements.</p>
             <p>The bulk of the interaction will be the question content. Different types of
                 questions have different elements: <ul>
                     <li>&lt;lcTrueFalse2>: true-false question</li>
@@ -39,9 +42,6 @@
                     <li>&lt;lcHotspot2>: an image with mapped regions on which students must
                         click</li>
                 </ul></p>
-            <note>Notice the use of 2 as in learningDomain2, lcTrueFalse2, and so on. An earlier
-                version of L&amp;T used &lt;learningDomain>. The &lt;learningDomain2> elements are
-                more flexible and allow block elements like &lt;p> within question elements.</note>
             <p>Below is an example of a single select question.</p>
             <pre>&lt;learningAssessment id="la_l1_t1_ingredient_quality"><!-- from file:/C:/Users/kheat/Documents/GitHub/New%20folder/LearningDITA/en-us/Learning_and_training_specialization/samples/la_l1_t1_ingredient_quality.dita -->
     &lt;title>Ingredient quality&lt;/title>
@@ -245,7 +245,7 @@
                 <step>
                     <cmd>Now try an exercise on your own. Open the file
                         lesson3/lc_task_exercise_start.dita and use it to convert the following
-                        content from <xref
+                        assessment question from <xref
                             href="https://learningdita.com/courses/the-dita-task-topic-type/">The
                             DITA task topic type</xref> LearningDITA course into a DITA
                         &lt;learningAssessment> topic.</cmd>

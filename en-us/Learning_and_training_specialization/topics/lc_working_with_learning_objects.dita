@@ -14,18 +14,18 @@
     </prolog>
     <learningContentbody>
         <lcInstruction id="lcInstruction_e1n_dlc_yz">
-            <p>The DITA L&amp;T specialization was created with the reusable learning
-                object, or RLO, approach to learning content in mind. This derived from work by
-                learning content designers at Autodesk, Oracle, Cisco, and other companies. The idea is to
-                create a collection of information objects that you can reused and repurposed,
-                depending on how you need to deliver your learning content.</p>
+            <p>The L&amp;T specialization was created with the reusable learning object, or RLO,
+                approach to learning content in mind. This derived from work by learning content
+                designers at Autodesk, Oracle, Cisco, and other companies. The idea is to create a
+                collection of information objects that you can reuse and repurpose, depending on how
+                you need to deliver your learning content.</p>
             <p>A learning object is a “discrete reusable collection of content used to present and
                 support a single learning objective.” </p>
             <draft-comment author="kheath">Where is this quote from?</draft-comment>
-            <p>The Learning &amp; Training specialization implements learningObjects with the
-                &lt;learningObject> element. The &lt;learningObject> element inherits its behavior
-                from the &lt;topicref> element. It can contain references to the standard learning
-                    topics:<ul id="ul_epx_ch5_scb">
+            <p>The L&amp;T specialization implements learningObjects with the &lt;learningObject>
+                element. The &lt;learningObject> element inherits its behavior from the
+                &lt;topicref> element. It can contain references to the standard learning topics:<ul
+                    id="ul_epx_ch5_scb">
                     <li>Learning plan (only one per learning object)</li>
                     <li>Learning overview topics</li>
                     <li>Learning assessment topics (for pre- and post-testing)</li>

@@ -58,10 +58,10 @@
                     &lt;steps> element inside &lt;lcInstruction> for step-by-step instruction, but the &lt;steps> element is available inside an
                     embedded task topic.</li>
                 <li><i>Flexibility.</i> You can embed more than one topic into the body of a
-                    &lt;learningContent> topic, which adds flexibility to your &lt;learningContent> topics; for
-                    example, you might embed a concept topic to explain an idea to your students,
-                    and then embed a task topic to provide hands-on instructions to enhance their
-                    understanding of that concept.</li>
+                    &lt;learningContent> topic, which adds flexibility to your &lt;learningContent>
+                    topics. For example, you might embed a concept topic to explain an idea to your
+                    students, and then embed a task topic to provide hands-on instructions to
+                    enhance their understanding of that concept.</li>
             </ul>
         </lcInstruction>
     </learningContentbody>
@@ -71,10 +71,10 @@
             <steps id="steps_h5t_ljx_tcb">
                 <step>
                     <cmd>Open the file lesson3/lc_task_exercise_start.dita and use it to convert the
-                        following content from <xref
+                        following content from a LearningDITA course, <xref
                             href="https://learningdita.com/courses/the-dita-task-topic-type/">The
-                            DITA task topic type</xref> LearningDITA course into a DITA
-                        &lt;learningConcept> topic with an embedded task.</cmd>
+                            DITA task topic type</xref>, into a DITA &lt;learningConcept> topic with
+                        an embedded task.</cmd>
                     <info>
                         <pre outputclass="passthru">
                             <![CDATA[

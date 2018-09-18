@@ -16,8 +16,9 @@
     </prolog>
     <learningContentbody>
         <lcInstruction id="lcInstruction_js5_cqb_yz">
-            <p>The &lt;learningSummary> topic type contains review materials. This allows you to review
-                the content and puts it in perspective with your learning objectives. This topic can also include instructions on what to do next.</p>
+            <p>The &lt;learningSummary> topic type contains review materials. This topic provides a
+                review of the content and puts it in perspective with your learning objectives. This
+                topic can also include instructions on what to do next.</p>
             <p>In a &lt;learningSummary> topic, the main body element is the &lt;learningSummarybody>. The &lt;learningSummarybody> element can contain the following elements:
                 <ol>
                     <li>&lt;lcSummary> summary of the learned goals</li>

@@ -4,26 +4,21 @@
     <title>LearningDomain2</title>
     <learningAssessmentbody>
         <lcInteraction>
-            <lcMultipleSelect id="learningdomain2">
-                <lcQuestion>Why is it preferable to use elements from learningDomain2 as opposed to the first learningDomain? (select all that apply)</lcQuestion>
+            <lcTrueFalse id="all-above">
+                <lcQuestion>It is preferable to use elements from learningDomain2 as opposed to the
+                    first learningDomain.</lcQuestion>
                 <lcAnswerOptionGroup>
                     <lcAnswerOption>
-                        <lcAnswerContent>It is actually preferable to use the first learningDomain.</lcAnswerContent>
-                    </lcAnswerOption>
-                    <lcAnswerOption>
-                        <lcAnswerContent>The learningDomain2 supports block elements.</lcAnswerContent>
+                        <lcAnswerContent>True</lcAnswerContent>
                         <lcCorrectResponse/>
                     </lcAnswerOption>
                     <lcAnswerOption>
-                        <lcAnswerContent>The learningDomain2 can include &lt;p> (paragraph) tags within answer choices.</lcAnswerContent>
-                        <lcCorrectResponse/>
-                    </lcAnswerOption>
-                    <lcAnswerOption>
-                        <lcAnswerContent>You cannot include multiple select questions in the first learingDomain.</lcAnswerContent>
+                        <lcAnswerContent>False</lcAnswerContent>
                     </lcAnswerOption>
                 </lcAnswerOptionGroup>
-                <lcFeedbackIncorrect></lcFeedbackIncorrect>
-            </lcMultipleSelect>
+                <lcFeedbackIncorrect>It is preferable to use elements from learningDomain2 since it supports block elements like paragraphs.</lcFeedbackIncorrect>
+            </lcTrueFalse>
+            
         </lcInteraction>
     </learningAssessmentbody>
 </learningAssessment>
