@@ -14,7 +14,9 @@
     <learningContentbody>
         <lcObjectives>
             <lcObjectivesGroup id="lcObjectivesGroup_tvl_vbh_1t">
-                <lcObjective/>
+                <lcObjective>Understand the uses of the &lt;learningAssessment> topic.</lcObjective>
+                <lcObjective>Use various elements to create different question types.</lcObjective>
+                <lcObjective>Plan question formatting with DITA L&amp;T standards in mind.</lcObjective>
             </lcObjectivesGroup>
         </lcObjectives>
         <lcDuration>
@@ -22,7 +24,7 @@
         </lcDuration>
         <lcIntro>
             <p>This lesson introduces you to the learningDomain2, which defines the elements you use
-                for questions and responses within the learningAssessment topic.</p>
+                for questions and responses within the &lt;learningAssessment> topic.</p>
         </lcIntro>
     </learningContentbody>
     <related-links>

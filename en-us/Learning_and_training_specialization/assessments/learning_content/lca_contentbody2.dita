@@ -5,7 +5,7 @@
     <learningAssessmentbody>
         <lcInteraction>
             <lcMatching id="matching_choicetable">
-                <lcQuestion>Properly match the following learningContentbody elements with their descriptions:</lcQuestion>
+                <lcQuestion>Properly match the following &lt;learningContentbody> elements with their descriptions:</lcQuestion>
                 <lcMatchTable id="lcMatchTable_f2n_c5b_kt">
                     <lcMatchingPair>
                         <lcItem>&lt;lcIntro></lcItem>
@@ -17,11 +17,11 @@
                     </lcMatchingPair>
                     <lcMatchingPair>
                         <lcItem>&lt;lcObjectives></lcItem>
-                        <lcMatchingItem>One or more items you will have completed upon finishing the content</lcMatchingItem>
+                        <lcMatchingItem>One or more items you will complete upon finishing the content</lcMatchingItem>
                     </lcMatchingPair>
                     <lcMatchingPair>
                         <lcItem>&lt;lcChallenge></lcItem>
-                        <lcMatchingItem>One or more challenges that describe the reasons for the learning content</lcMatchingItem>
+                        <lcMatchingItem>One or more practice statements that describe the reasons for the learning content</lcMatchingItem>
                     </lcMatchingPair>
                     <lcMatchingPair>
                         <lcItem>&lt;lcInstruction></lcItem>
@@ -29,7 +29,7 @@
                     </lcMatchingPair>
                     <lcMatchingPair>
                         <lcItem>&lt;section></lcItem>
-                        <lcMatchingItem>Any aditional learning information</lcMatchingItem>
+                        <lcMatchingItem>Any additional learning information</lcMatchingItem>
                     </lcMatchingPair>
                 </lcMatchTable>
             </lcMatching>

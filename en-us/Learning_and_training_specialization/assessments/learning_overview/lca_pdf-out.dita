@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="lca_pdf-out">
+    <title>output</title>
+    <learningAssessmentbody>
+        <lcInteraction>
+            <lcTrueFalse id="t-f-pdf">
+                <lcQuestion>You can generate PDF output from the L&amp;T specialization with the DITA Open Toolkit</lcQuestion>
+                <lcAnswerOptionGroup>
+                    <lcAnswerOption>
+                        <lcAnswerContent>True</lcAnswerContent>
+                        <lcCorrectResponse/>
+                    </lcAnswerOption>
+                    <lcAnswerOption>
+                        <lcAnswerContent>False</lcAnswerContent>
+                    </lcAnswerOption>
+                </lcAnswerOptionGroup>
+                <lcFeedbackIncorrect>While there is no default course output type, you can still use the DITA OT to generate a PDF.</lcFeedbackIncorrect>
+            </lcTrueFalse>
+        </lcInteraction>
+    </learningAssessmentbody>
+</learningAssessment>

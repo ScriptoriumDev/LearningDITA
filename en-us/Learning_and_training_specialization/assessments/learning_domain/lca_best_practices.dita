@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="lca_best_practices">
+    <title>Assessment Best Practices</title>
+    <learningAssessmentbody>
+        <lcInteraction>
+            <lcTrueFalse id="all-above">
+                <lcQuestion>Creating a single select question with an “All of the Above” answer
+                    choice is a better alternative to making a multiple select question with every
+                    answer choice being correct.</lcQuestion>
+                <lcAnswerOptionGroup>
+                    <lcAnswerOption>
+                        <lcAnswerContent>True</lcAnswerContent>
+                    </lcAnswerOption>
+                    <lcAnswerOption>
+                        <lcAnswerContent>False</lcAnswerContent>
+                        <lcCorrectResponse/>
+                    </lcAnswerOption>
+                </lcAnswerOptionGroup>
+                <lcFeedbackIncorrect>It is preferable to create a multiple select question, so that the list of answer choices can be randomized.</lcFeedbackIncorrect>
+            </lcTrueFalse>
+        </lcInteraction>
+    </learningAssessmentbody>
+</learningAssessment>

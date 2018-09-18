@@ -2,7 +2,7 @@
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <learningContent id="lc_learningSummary_details">
-    <title>The learningSummary topic type</title>
+    <title>The &lt;learningSummary> topic type</title>
     <prolog class="- topic/prolog ">
         <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
             class="- topic/author ">Simon Bate, Scriptorium</author>
@@ -16,13 +16,20 @@
     </prolog>
     <learningContentbody>
         <lcInstruction id="lcInstruction_js5_cqb_yz">
-            <p>The learningSummary topic type contains review materials. This allows you to review
-                the content and puts it in perspective with your learning objectives. This is also
-                the topic to include instructions on what to do next.</p>
-            <p>Within a learningSummarybody element you can include the lcSummary, lcObjectives
-                (this time with the completed objectives), lcReview, lcNextSteps, lcResources, and
-                section elements.</p>
-            <p>The learningSummarybody looks like this:</p>
+            <p>The &lt;learningSummary> topic type contains review materials. This topic provides a
+                review of the content and puts it in perspective with your learning objectives. This
+                topic can also include instructions on what to do next.</p>
+            <p>In a &lt;learningSummary> topic, the main body element is the &lt;learningSummarybody>. The &lt;learningSummarybody> element can contain the following elements:
+                <ol>
+                    <li>&lt;lcSummary> summary of the learned goals</li>
+                    <li>&lt;lcObjectives> completed objectives</li>
+                    <li>&lt;lcReview> review of the main content</li>
+                    <li>&lt;lcNextSteps> directions for after the course</li>
+                    <li>&lt;lcResources> related information to the course</li>
+                    </ol>
+                These elements may be followed by an unlimited number of &lt;section> elements.
+             </p>
+            <p>Here is an example of a &lt;learningSummarybody>:</p>
             <pre>&lt;learningSummarybody> <draft-comment author="kheath">pre from "../LearningDITA/en-us/Learning_and_training_specialization/samples/ls_l3_t1_summary.dita"</draft-comment>
         &lt;lcSummary id="lcSummary_igg_jd1_scb">
             &lt;p>To summarize the overview of Feeders and Waterers:&lt;/p>

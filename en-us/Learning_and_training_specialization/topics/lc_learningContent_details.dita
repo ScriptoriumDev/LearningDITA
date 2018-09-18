@@ -2,7 +2,7 @@
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <learningContent id="lc_learningContent_details">
-    <title>The learningContent topic type</title>
+    <title>The &lt;learningContent> topic type</title>
     <prolog class="- topic/prolog ">
         <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
             class="- topic/author ">Simon Bate, Scriptorium</author>
@@ -16,16 +16,23 @@
     </prolog>
     <learningContentbody>
         <lcInstruction id="lcInstruction_js5_cqb_yz">
-            <p>The learningContent topic type contains the actual learning content.</p>
-            <p>Within the learningContent's main element, the learningContentbody element, you can
-                add elements lcIntro, lcDuration, lcObjectives, lcChallenge, lcInstruction, and
-                section.</p>
-            <p>The learningContent topic also allows you to use content from DITA task, concept, and
-                reference topics. You can nest these directly within the learningContent topic or
-                add them using a map. We will discuss this in further detail in the learningContent lesson, but it means that you can reference previous material from
-                outside of the learning and training specialization. If you were creating a course
-                from a previously written book, you could easily reference the existing DITA
-                material to include in your course.</p>
+            <p>The &lt;learningContent> topic type contains the actual learning content.</p>
+            <p>In a &lt;learningContent> topic, the main element is the &lt;learningContentbody>
+                element. The &lt;learningContentbody> element can contain the following elements:<ol>
+                    <li>&lt;lcIntro>: introduction to the content </li>
+                    <li>&lt;lcDuration>: estimated time to complete the following content</li>
+                    <li>&lt;lcObjectives>: what students should gain from the content in the topic</li>
+                    <li>&lt;lcChallenge>: explaination of what you want the student to practice</li>
+                    <li>&lt;lcInstruction>: the bulk of instructional content</li>
+                </ol>
+            These elements may be followed by an unlimited number of &lt;section> elements.</p>
+            <p>The &lt;learningContent> topic also allows you to use content from DITA task,
+                concept, and reference topics. You can nest these directly within the
+                &lt;learningContent> topic or add them using a map. We will discuss this in further
+                detail in the &lt;learningContent> lesson, but it means that you can reference
+                content written in standard DITA topics. If you were creating a course from a
+                previously written book, you could easily reference the existing DITA material to
+                include in your course.</p>
         </lcInstruction>
     </learningContentbody>
 </learningContent>

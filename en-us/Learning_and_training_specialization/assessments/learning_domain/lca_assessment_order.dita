@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="lca_assessment_order">
+    <title>learningAssessment Order</title>
+    <learningAssessmentbody>
+        <lcInteraction>
+            <lcTrueFalse id="link8">
+                <lcQuestion>&lt;LearningAssessment> topics must follow any &lt;learningContent> topics in a learning map.</lcQuestion>
+                <lcAnswerOptionGroup>
+                    <lcAnswerOption>
+                        <lcAnswerContent>True</lcAnswerContent>
+                    </lcAnswerOption>
+                    <lcAnswerOption>
+                        <lcAnswerContent>False</lcAnswerContent>
+                        <lcCorrectResponse/>
+                    </lcAnswerOption>
+                </lcAnswerOptionGroup>
+                <lcFeedbackIncorrect>&lt;LearningAssessments> are not required to follow &lt;learningContent>. Assessments can be placed in any order within a learning map.</lcFeedbackIncorrect>
+            </lcTrueFalse>
+        </lcInteraction>
+    </learningAssessmentbody>
+</learningAssessment>

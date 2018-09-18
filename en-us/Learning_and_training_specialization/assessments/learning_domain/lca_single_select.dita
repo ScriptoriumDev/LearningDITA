@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="lca_single_select">
+    <title>SingleSelect2</title>
+    <learningAssessmentbody>
+        <lcInteraction>
+            <lcSingleSelect id="lcSingleSelect_eh4_bbb_dt">
+                <lcQuestion>Which element is the best fit for a question with a multiple-choice answer selection and only one correct answer? (pick one)</lcQuestion>
+                <lcAnswerOptionGroup>
+                    <lcAnswerOption>
+                        <lcAnswerContent>&lt;lcMultipleSelect></lcAnswerContent>
+                    </lcAnswerOption>
+                    <lcAnswerOption>
+                        <lcAnswerContent>&lt;lcSingleSelect></lcAnswerContent>
+                        <lcFeedback>It is better to use the single select question from the learningDomain2</lcFeedback>
+                    </lcAnswerOption>
+                    <lcAnswerOption>
+                        <lcAnswerContent>&lt;lcSingleSelect2></lcAnswerContent>
+                        <lcCorrectResponse/>
+                    </lcAnswerOption>
+                    <lcAnswerOption>
+                        <lcAnswerContent>&lt;lcMultipleSelect2></lcAnswerContent>
+                    </lcAnswerOption>
+                    <lcAnswerOption>
+                        <lcAnswerContent>&lt;lcMultipleChoice2></lcAnswerContent>
+                    </lcAnswerOption>
+                </lcAnswerOptionGroup>
+            </lcSingleSelect>
+        </lcInteraction>
+    </learningAssessmentbody>
+</learningAssessment>

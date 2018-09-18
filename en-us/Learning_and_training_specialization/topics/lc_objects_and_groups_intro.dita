@@ -17,7 +17,7 @@
             <lcObjectivesGroup id="lcObjectivesGroup_tvl_vbh_1t">
                 <lcObjective>Describe the differences between the &lt;learningObject> element and the &lt;learningGroup> element.</lcObjective>
                 <lcObjective>State why the individual reference elements are important to learning maps.</lcObjective>
-                <lcObjective>Correctly construct a learningGroupMap and a learningObjectMap.</lcObjective>
+                <lcObjective>Correctly construct a &lt;learningGroupMap> and a &lt;learningObjectMap>.</lcObjective>
             </lcObjectivesGroup>
         </lcObjectives>
         <lcDuration>
@@ -25,7 +25,7 @@
         </lcDuration>
         <lcIntro>
             <p>This lesson introduces you to the learning objects and learning groups, 
-                which you can use to organize learning and training topics into courses, curricula, and other, larger structures. </p>
+                which you can use to organize L&amp;T topics into courses, curricula, and other, larger structures. </p>
         </lcIntro>
     </learningContentbody>
     <related-links>

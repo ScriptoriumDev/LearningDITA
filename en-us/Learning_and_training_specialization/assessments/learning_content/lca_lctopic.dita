@@ -8,22 +8,19 @@
                 <lcQuestion>To place an activity and learning content in the same topic you can (check all that apply):</lcQuestion>
                 <lcAnswerOptionGroup id="lcAnswerOptionGroup_mxg_4q1_mt">
                     <lcAnswerOption>
-                        <lcAnswerContent>embed a task topic within a learningContent topic</lcAnswerContent>
+                        <lcAnswerContent>Embed a &lt;task> topic within a &lt;learningContent> topic.</lcAnswerContent>
                         <lcCorrectResponse/>
                     </lcAnswerOption>
                     <lcAnswerOption>
-                        <lcAnswerContent>use the lcInteraction element within the learningContentbody</lcAnswerContent>
+                        <lcAnswerContent>Use the &lt;lcInteraction> element within the &lt;learningContentbody>.</lcAnswerContent>
                         <lcCorrectResponse/>
                     </lcAnswerOption>
                     <lcAnswerOption>
-                        <lcAnswerContent>write a learningContent topic within a task topic</lcAnswerContent>
-                        <lcCorrectResponse/>
+                        <lcAnswerContent>Write a &lt;learningContent> topic within a &lt;task> topic.</lcAnswerContent>
                     </lcAnswerOption>
                 </lcAnswerOptionGroup>
-                <lcFeedbackIncorrect>A learningContent topic cannot be nested in a task topic.</lcFeedbackIncorrect>
+                <lcFeedbackIncorrect>A &lt;learningContent> topic cannot be nested in a task topic.</lcFeedbackIncorrect>
             </lcMultipleSelect>
         </lcInteraction>
-    </learningAssessmentbody>
-</learningAssessment>
     </learningAssessmentbody>
 </learningAssessment>

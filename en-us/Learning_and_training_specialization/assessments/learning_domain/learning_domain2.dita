@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="learning_domain2">
+    <title>LearningDomain2</title>
+    <learningAssessmentbody>
+        <lcInteraction>
+            <lcTrueFalse id="all-above">
+                <lcQuestion>It is preferable to use elements from learningDomain2 as opposed to the
+                    first learningDomain.</lcQuestion>
+                <lcAnswerOptionGroup>
+                    <lcAnswerOption>
+                        <lcAnswerContent>True</lcAnswerContent>
+                        <lcCorrectResponse/>
+                    </lcAnswerOption>
+                    <lcAnswerOption>
+                        <lcAnswerContent>False</lcAnswerContent>
+                    </lcAnswerOption>
+                </lcAnswerOptionGroup>
+                <lcFeedbackIncorrect>It is preferable to use elements from learningDomain2 since it supports block elements like paragraphs.</lcFeedbackIncorrect>
+            </lcTrueFalse>
+            
+        </lcInteraction>
+    </learningAssessmentbody>
+</learningAssessment>

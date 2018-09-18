@@ -17,10 +17,13 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcMultipleSelect id="multi_select_plan">
-    <lcQuestion>Which of the following topic types contain the &lt;lcIntruction> element: (pick all that apply)</lcQuestion>
+    <lcQuestion>Which of the following topic types contain the &lt;lcInstruction> element: (pick all
+     that apply)</lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_lcintruction">
      <lcAnswerOption>
-      <lcAnswerContent>&lt;learningContent</lcAnswerContent>
+      <lcAnswerContent>&lt;learningContent>
+      
+      </lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
      <lcAnswerOption>
@@ -36,7 +39,7 @@
       <lcAnswerContent>&lt;learningSummary></lcAnswerContent>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect>The &lt;lcInstruction> element belongs only in the &lt;learningContent> topic, where the bulk of student intruction is written.</lcFeedbackIncorrect>
+    <lcFeedbackIncorrect>The &lt;lcInstruction> element belongs only in the &lt;learningContent> topic, where the bulk of student instruction is written.</lcFeedbackIncorrect>
    </lcMultipleSelect>
   </lcInteraction>
  </learningAssessmentbody>
