@@ -27,7 +27,7 @@
             <p id="editor_info">In the instructions and examples, we show you the DITA code for each sample file.
                 Most DITA editors have auto-complete or other similar features to guide you through
                 the process of adding elements (for example, if you type the opening tag of an
-                element, most DITA editors will automatically add the closing tag for you).
+                element, the editor will automatically add the closing tag for you).
                 Therefore, you will probably not need to create every piece of code from scratch as
                 you work. Our demo videos were created in <xref href="http://www.oxygenxml.com/"
                     format="html" scope="external">oXygen XML Editor</xref> and show the differences

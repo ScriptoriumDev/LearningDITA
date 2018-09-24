@@ -23,13 +23,13 @@
                 place students or post-tests to verify students' retention of material. </p>
             <p>This topic type is particularly helpful since it allows you to create content for student versions and answer keys simultaneously.</p>
             <p>The main section of the topic goes within the &lt;learningAssessmentbody> element.
-                Within that, questions are contained in the &lt;lcInteracion> element, but the body
+                Within that, questions are contained in the &lt;lcInteraction> element, but the body
                 can also include other optional elements: <ul>
                     <li>&lt;lcIntro></li>
                     <li>&lt;lcObjectives></li>
                     <li>&lt;lcSummary></li>
                 </ul></p>
-            <p>There are various types of questions that all interact differently. These
+            <p>The L&amp;T provides a variety of of assessment questions, including mulitple choice, true/false, matching, and more. These
                 interactions are defined in the learningDomain2, which is explained in detail in the
                 next topic.</p>
         </lcInstruction>

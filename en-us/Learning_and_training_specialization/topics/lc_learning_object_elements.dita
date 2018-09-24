@@ -2,12 +2,14 @@
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <learningContent id="lc_learning_object_elements">
-    <title>Learning Object elements</title>
+    <title>Learning object elements</title>
     <prolog class="- topic/prolog ">
         <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
             class="- topic/author ">Simon Bate, Scriptorium</author>
         <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
             class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Kaitlyn Heath, Scriptorium</author>
         <critdates>
             <created date="2018-02-01"/>
         </critdates>
@@ -18,7 +20,8 @@
                 specific learning object. All of the reference elements inherit their behavior from
                 the &lt;topicref> element, but the L&amp;T reference element names mirror the names
                 of the topics that they reference.</p>
-            <p>A &lt;learningObject> element can contain:<ul id="ul_vpx_bm5_scb">
+            <p>A &lt;learningObject> element can contain:</p>
+                <ul id="ul_vpx_bm5_scb">
                     <li>
                         <p>An optional &lt;learningPlanRef> element that indicates a learning plan
                             topic.</p>
@@ -44,22 +47,23 @@
                                 assessment topics that reinforce the learning or to
                                 assess what the student learned. </li>
                         </ul></li>
-                </ul></p>
+                </ul>
             <p>This is an example learning object from the Feeding Ducks example in your course
                 materials:</p>
-            <pre>&lt;learningObject>
-            &lt;topicmeta>
-               &lt;navtitle>Topic 1&lt;/navtitle>
-            &lt;/topicmeta>
-            &lt;learningPlanRef href="lp_l1_t1_feed_quality.dita"/>
-            &lt;learningOverviewRef href="lo_l1_t1_feed_quality.dita"/>
-            &lt;learningContentRef href="lc_l1_t1_where_to_buy.dita"/>
-            &lt;learningContentRef href="lc_l1_t1_storage.dita"/>
-            &lt;learningContentRef href="lc_l1_t1_spoiling.dita"/>
-            &lt;learningContentRef href="lc_l1_t1_ingredient_quality.dita"/>
-            &lt;learningSummaryRef href="ls_l1_t1_summary.dita"/>
-            &lt;learningPostAssessmentRef href="lg_l1_t1_quiz.dita" type="learningGroup"/>
-         &lt;/learningObject></pre>
+            <pre>
+&lt;learningObject>
+   &lt;topicmeta>
+      &lt;navtitle>Topic 1&lt;/navtitle>
+   &lt;/topicmeta>
+   &lt;learningPlanRef href="lp_l1_t1_feed_quality.dita"/>
+   &lt;learningOverviewRef href="lo_l1_t1_feed_quality.dita"/>
+   &lt;learningContentRef href="lc_l1_t1_where_to_buy.dita"/>
+   &lt;learningContentRef href="lc_l1_t1_storage.dita"/>
+   &lt;learningContentRef href="lc_l1_t1_spoiling.dita"/>
+   &lt;learningContentRef href="lc_l1_t1_ingredient_quality.dita"/>
+   &lt;learningSummaryRef href="ls_l1_t1_summary.dita"/>
+   &lt;learningPostAssessmentRef href="lg_l1_t1_quiz.dita" type="learningGroup"/>
+&lt;/learningObject></pre>
         </lcInstruction>
     </learningContentbody>
 </learningContent>

@@ -3,8 +3,8 @@
 <learningGroupMap>
    <title>Feeding Ducks</title>
    <learningGroup>
-      <learningPlanRef href="lp_feedingducks.dita"/>
-      <learningOverviewRef href="lo_feedingducks.dita"/>
+      <learningPlanRef href="../lp_feedingducks.dita"/>
+      <learningOverviewRef href="../lo_feedingducks.dita"/>
     
       <learningGroup>
          <topicmeta>
@@ -15,14 +15,14 @@
             <topicmeta>
                <navtitle>Topic 1</navtitle>
             </topicmeta>
-            <learningPlanRef href="lp_l1_t1_feed_quality.dita"/>
-            <learningOverviewRef href="lo_l1_t1_feed_quality.dita"/>
-            <learningContentRef href="lc_l1_t1_where_to_buy.dita"/>
-            <learningContentRef href="lc_l1_t1_storage.dita"/>
-            <learningContentRef href="lc_l1_t1_spoiling.dita"/>
-            <learningContentRef href="lc_l1_t1_ingredient_quality.dita"/>
-            <learningSummaryRef href="ls_l1_t1_summary.dita"/>
-            <learningPostAssessmentRef href="lg_l1_t1_quiz.dita" type="learningGroup"/>
+            <learningPlanRef href="../lp_l1_t1_feed_quality.dita"/>
+            <learningOverviewRef href="../lo_l1_t1_feed_quality.dita"/>
+            <learningContentRef href="../lc_l1_t1_where_to_buy.dita"/>
+            <learningContentRef href="../lc_l1_t1_storage.dita"/>
+            <learningContentRef href="../lc_l1_t1_spoiling.dita"/>
+            <learningContentRef href="../lc_l1_t1_ingredient_quality.dita"/>
+            <learningSummaryRef href="../ls_l1_t1_summary.dita"/>
+            <learningPostAssessmentRef href="../lg_l1_t1_quiz.dita" type="learningGroup"/>
          </learningObject>
          
       </learningGroup>
