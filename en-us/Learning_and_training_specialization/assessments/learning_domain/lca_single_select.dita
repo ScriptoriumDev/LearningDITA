@@ -8,11 +8,10 @@
                 <lcQuestion>Which element is the best fit for a question with a multiple-choice answer selection and only one correct answer? (pick one)</lcQuestion>
                 <lcAnswerOptionGroup>
                     <lcAnswerOption>
-                        <lcAnswerContent>&lt;lcMultipleSelect></lcAnswerContent>
+                        <lcAnswerContent>&lt;lcSingleChoice2></lcAnswerContent>
                     </lcAnswerOption>
                     <lcAnswerOption>
-                        <lcAnswerContent>&lt;lcSingleSelect></lcAnswerContent>
-                        <lcFeedback>It is better to use the single select question from the learningDomain2</lcFeedback>
+                        <lcAnswerContent>&lt;lcMatching2></lcAnswerContent>
                     </lcAnswerOption>
                     <lcAnswerOption>
                         <lcAnswerContent>&lt;lcSingleSelect2></lcAnswerContent>
@@ -20,9 +19,11 @@
                     </lcAnswerOption>
                     <lcAnswerOption>
                         <lcAnswerContent>&lt;lcMultipleSelect2></lcAnswerContent>
+                        <lcFeedback>You may be able to use this interaction type and only mark one answer as correct, but it would make more sense to use &lt;lcSingleSelect2></lcFeedback>
                     </lcAnswerOption>
                     <lcAnswerOption>
                         <lcAnswerContent>&lt;lcMultipleChoice2></lcAnswerContent>
+                        <lcFeedback>This is not the correct name of an interaction element.</lcFeedback>
                     </lcAnswerOption>
                 </lcAnswerOptionGroup>
             </lcSingleSelect>

@@ -15,17 +15,17 @@
                 <lcQuestion>Select the correct way to write a reference to a learning plan within a learning object in a learning object map. (pick one)</lcQuestion>
                 <lcAnswerOptionGroup>
                     <lcAnswerOption>
-                        <lcAnswerContent>&lt;learningObjectRef href=”#.dita”/></lcAnswerContent>
+                        <lcAnswerContent>&lt;learningObjectRef href=”file.dita”/></lcAnswerContent>
                     </lcAnswerOption>
                     <lcAnswerOption>
-                        <lcAnswerContent>&lt;learningGroupRef href=”#.dita”/></lcAnswerContent>
+                        <lcAnswerContent>&lt;learningGroupRef href=”file.dita”/></lcAnswerContent>
                     </lcAnswerOption>
                     <lcAnswerOption>
-                        <lcAnswerContent>&lt;learningPlanRef href=”#.dita”/></lcAnswerContent>
+                        <lcAnswerContent>&lt;learningPlanRef href=”file.dita”/></lcAnswerContent>
                         <lcCorrectResponse/>
                     </lcAnswerOption>
                     <lcAnswerOption>
-                        <lcAnswerContent>&lt;learningRef href=”#.dita”/></lcAnswerContent>
+                        <lcAnswerContent>&lt;learningRef href=”file.dita”/></lcAnswerContent>
                     </lcAnswerOption>
                 </lcAnswerOptionGroup>
             </lcSingleSelect>

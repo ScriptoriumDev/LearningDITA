@@ -12,8 +12,7 @@
     <learningAssessmentbody>
         <lcInteraction>
             <lcTrueFalse id="t-f_l-map-elements">
-                <lcQuestion>It is possible to place a &lt;topicref> element within a &lt;learningGroup>
-                    element.</lcQuestion>
+                <lcQuestion>You can use the &lt;topicref> element to reference other DITA topics from a  &lt;learningGroup> element.</lcQuestion>
                 <lcAnswerOptionGroup>
                     <lcAnswerOption>
                         <lcAnswerContent>True</lcAnswerContent>

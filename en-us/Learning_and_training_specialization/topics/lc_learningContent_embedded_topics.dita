@@ -21,30 +21,32 @@
             <p>Your instructional content might include a series of steps for the student to follow
                 to complete an activity. In this case, you can embed a task topic within the
                 &lt;learningContent> topic to handle these steps:</p>
-            <pre>&lt;learningContent id="watching_ducks">
-        &lt;title>Watching ducks&lt;/title>
-        &lt;learningContentbody>
-            &lt;lcInstruction>
-                &lt;p>Read this to learn more about what you need to have a satisfying duck-watching experience.&lt;/p>
-            &lt;/lcInstruction>
-        &lt;/learningContentbody>
-        &lt;task id="how_to_watch_ducks">
-            &lt;title>How to watch ducks&lt;/title>
-            &lt;taskbody>
-                &lt;steps id="steps_watching_ducks">
-                    &lt;step>
-                        &lt;cmd>Choose a location to watch ducks.&lt;/cmd>
-                    &lt;/step>
-                    &lt;step>
-                        &lt;cmd>Pick a field guide to identify the ducks.&lt;/cmd>
-                    &lt;/step>
-                    &lt;step>
-                        &lt;cmd>Find some good optics.&lt;/cmd>
-                    &lt;/step>
+            <pre>
+&lt;learningContent id="watching_ducks">
+    &lt;title>Watching ducks&lt;/title>
+    &lt;learningContentbody>
+        &lt;lcInstruction>
+            &lt;p>Read this to learn more about what you need to have a satisfying 
+                duck-watching experience.&lt;/p>
+        &lt;/lcInstruction>
+    &lt;/learningContentbody>
+    &lt;task id="how_to_watch_ducks">
+        &lt;title>How to watch ducks&lt;/title>
+        &lt;taskbody>
+            &lt;steps id="steps_watching_ducks">
+                &lt;step>
+                    &lt;cmd>Choose a location to watch ducks.&lt;/cmd>
+                &lt;/step>
+                &lt;step>
+                    &lt;cmd>Pick a field guide to identify the ducks.&lt;/cmd>
+                &lt;/step>
+            &lt;step>
+                &lt;cmd>Find some good optics.&lt;/cmd>
+            &lt;/step>
                 &lt;/steps>
-            &lt;/taskbody>
-        &lt;/task>
-    &lt;/learningContent></pre>
+        &lt;/taskbody>
+    &lt;/task>
+&lt;/learningContent></pre>
             <p>There are several benefits to embedding a topic within a &lt;learningContent> topic:</p>
             <ul id="ul_mwg_xp5_scb">
                 <li><i>Reuse.</i> If you need to reuse content in your training materials, embedding

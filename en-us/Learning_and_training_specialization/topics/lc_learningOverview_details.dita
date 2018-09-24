@@ -22,35 +22,42 @@
                 &lt;learningOverviewbody>. This element can contain the following elements in this
                 order:</p>
             <ol>
-                    <li>&lt;lcIntro>: introduction to the overview</li>
-                    <li>&lt;lcAudience>: facts about the students for whom the course is intended </li>
-                    <li>&lt;lcDuration>: estimated time to complete the course</li>
-                    <li>&lt;lcPrereqs>: any requirements for students before they take the
-                        course</li>
-                    <li>&lt;lcObjectives>: what students should gain from the course </li>
-                    <li>&lt;lcResources>: any resources used or extra information for the
-                        course</li>
-                </ol> 
-            <p>These elements may be followed by an unlimited number of &lt;section>
-                elements.</p>
+                <li>&lt;lcIntro>: introduction to the overview</li>
+                <li>&lt;lcAudience>: facts about the students for whom the course is intended </li>
+                <li>&lt;lcDuration>: estimated time to complete the course</li>
+                <li>&lt;lcPrereqs>: any requirements for students before they take the course</li>
+                <li>&lt;lcObjectives>: what students should gain from the course </li>
+                <li>&lt;lcResources>: any resources used or extra information for the course</li>
+            </ol>
+            <p>These elements may be followed by an unlimited number of &lt;section> elements.</p>
             <p>Here is an example of a &lt;learningOverviewbody>:</p>
-            <pre>&lt;learningOverviewbody><draft-comment author="kheath">pre from "../LearningDITA/en-us/Learning_and_training_specialization/samples/lo_feedingducks.dita"</draft-comment>
-        &lt;lcAudience id="lcAudience_rth_l4r_rcb">This course is intended for current or future owners of small- to medium-sized flocks of domestic ducks.&lt;/lcAudience>
-        &lt;lcDuration id="lcDuration_ohs_l4r_rcb">
-            &lt;lcTime value="3 weeks"/>
-        &lt;/lcDuration>
-        &lt;lcObjectives id="lcObjectives_j3w_l4r_rcb">
-            &lt;lcObjectivesStem>At the end of this course, students will be able to:&lt;/lcObjectivesStem>
-            &lt;lcObjectivesGroup id="lcObjectivesGroup_cdr_2pr_rcb">
-                &lt;lcObjective>List the most important aspects of feed quality.&lt;/lcObjective>
-                &lt;lcObjective>Describe the common forms of feed and their pros and cons.&lt;/lcObjective>
-                &lt;lcObjective>List the physical requirements of feeders and waterers.&lt;/lcObjective>
-                &lt;lcObjective>Summarize macro and micro nutritional needs of ducks.&lt;/lcObjective>
-                &lt;lcObjective>List the four most common diseases in ducks and how they can be controlled by feeding.&lt;/lcObjective>
-                &lt;lcObjective>Identify the most common predators for ducks and how to limit predation&lt;/lcObjective>
-            &lt;/lcObjectivesGroup>
-        &lt;/lcObjectives>
-    &lt;/learningOverviewbody>
+            <pre>
+&lt;learningOverviewbody><draft-comment author="kheath">pre from "../LearningDITA/en-us/Learning_and_training_specialization/samples/lo_feedingducks.dita"</draft-comment>
+    &lt;lcAudience id="lcAudience_rth_l4r_rcb">This course is intended for 
+                current or future owners of small- to medium-sized flocks of 
+                domestic ducks.&lt;/lcAudience>
+    &lt;lcDuration id="lcDuration_ohs_l4r_rcb">
+        &lt;lcTime value="3 weeks"/>
+    &lt;/lcDuration>
+    &lt;lcObjectives id="lcObjectives_j3w_l4r_rcb">
+        &lt;lcObjectivesStem>At the end of this course, students will be 
+                    able to:&lt;/lcObjectivesStem>
+        &lt;lcObjectivesGroup id="lcObjectivesGroup_cdr_2pr_rcb">
+            &lt;lcObjective>List the most important aspects of feed 
+                    quality.&lt;/lcObjective>
+            &lt;lcObjective>Describe the common forms of feed and their pros 
+                    and cons.&lt;/lcObjective>
+            &lt;lcObjective>List the physical requirements of feeders and 
+                    waterers.&lt;/lcObjective>
+            &lt;lcObjective>Summarize macro and micro nutritional needs of 
+                    ducks.&lt;/lcObjective>
+            &lt;lcObjective>List the four most common diseases in ducks and how 
+                    they can be controlled by feeding.&lt;/lcObjective>
+            &lt;lcObjective>Identify the most common predators for ducks and how 
+                    to limit predation&lt;/lcObjective>
+        &lt;/lcObjectivesGroup>
+    &lt;/lcObjectives>
+&lt;/learningOverviewbody>
             </pre>
         </lcInstruction>
     </learningContentbody>

@@ -2,7 +2,7 @@
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <learningContent id="benefits_of_using_the_learning___training_specialization">
-    <title>Benefits of using the L&amp;T specialization</title>
+    <title>Benefits of using the Learning and Training specialization</title>
     <prolog class="- topic/prolog ">
         <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
             class="- topic/author ">Simon Bate, Scriptorium</author>
@@ -16,21 +16,23 @@
     </prolog>
     <learningContentbody>
         <lcInstruction id="lcInstruction_js5_cqb_yz">
-            <p> The L&amp;T Specialization allows training content to be used in
-                multiple ways. For example, a learning assessment topic could be used as a test for
-                students, and also contain conditional information for instructors, such as answer keys.
-                By applying different transformation scenarios to one set of topics, you can use them for multiple purposes.</p>
-            <p>The L&amp;T specialization, like the rest of DITA, uses semantic elements,
-                meaning that the names of the elements give insight to how they are used. For example, the
-                &lt;table> element indicates that the elements contain the contents of a table. In the
-                L&amp;T specialization, the semantic elements are specific to the specialization: the
-                &lt;learningOverviewbody> element contains the body of a &lt;learningOverview>
-                topic.</p>
-            <p>The &lt;learningObject> element can be used within the L&amp;T specialization to group learning topics together into one learning object. Learning plans,
-                overviews, contents, assessments, and summaries for one lesson can be grouped
-                together into one learning object.</p>
-            <p>The &lt;learningObject> element also allows you to add any DITA content,
-                even if it was not created using L&amp;T topics.</p>
+            <p> The L&amp;T specialization allows training content to be used in multiple ways. For
+                example, a learning assessment topic could be used to generate a test for students,
+                but it can also contain information to generate answer keys for instructors. By
+                applying different transformation scenarios to one set of topics, you can use them
+                for multiple purposes.</p>
+            <p>The L&amp;T specialization, like the rest of DITA, uses semantic elements, meaning
+                that the names of the elements give insight to how they are used. For example, the
+                &lt;table> element indicates that the elements contain the contents of a table. In
+                the L&amp;T specialization, the semantic elements are specific to the
+                specialization: the &lt;learningOverviewbody> element contains the body of a
+                &lt;learningOverview> topic.</p>
+            <p>The &lt;learningObject> element can be used within the L&amp;T specialization to
+                group learning topics together into one learning object. Learning plans, overviews,
+                contents, assessments, and summaries for one lesson can be grouped together into one
+                learning object.</p>
+            <p>The &lt;learningObject> element also allows you to add any DITA content, even if it
+                was not created using L&amp;T topics.</p>
         </lcInstruction>
     </learningContentbody>
 </learningContent>

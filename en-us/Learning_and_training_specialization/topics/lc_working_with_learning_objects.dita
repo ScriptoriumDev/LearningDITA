@@ -2,12 +2,14 @@
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <learningContent id="lc_working_with_learning_objects">
-    <title>Working with Learning Objects</title>
+    <title>Working with learning objects</title>
     <prolog class="- topic/prolog ">
         <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
             class="- topic/author ">Simon Bate, Scriptorium</author>
         <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
             class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Kaitlyn Heath, Scriptorium</author>
         <critdates>
             <created date="2018-02-02"/>
         </critdates>
@@ -20,11 +22,14 @@
                 collection of information objects that you can reuse and repurpose, depending on how
                 you need to deliver your learning content.</p>
             <p>A learning object is a “discrete reusable collection of content used to present and
-                support a single learning objective.” </p>
-            <draft-comment author="kheath">Where is this quote from?</draft-comment>
+                support a single learning objective” (<xref
+                    href="https://www.oasis-open.org/committees/download.php/35764/lc_spec_assumptions.html"
+                    >OASIS, A learning objects approach to learning and training
+                content</xref>).</p>
             <p>The L&amp;T specialization implements learningObjects with the &lt;learningObject>
                 element. The &lt;learningObject> element inherits its behavior from the
-                &lt;topicref> element. It can contain references to the standard learning topics:<ul
+                &lt;topicref> element. It can contain references to the standard learning topics:</p>
+                <ul
                     id="ul_epx_ch5_scb">
                     <li>Learning plan (only one per learning object)</li>
                     <li>Learning overview topics</li>
@@ -32,7 +37,6 @@
                     <li>Learning content topics</li>
                     <li>Learning summary topics</li>
                 </ul>
-            </p>
         </lcInstruction>
     </learningContentbody>
 </learningContent>
