@@ -27,7 +27,7 @@
             <note>The template will need to include an id attribute on the &lt;reference> element;
                 make sure content creators know to avoid creating duplicate IDs. One way to do this
                 is to use an explicit placeholder value for the id attribute, like id="DUMMY", so
-                that content creators are know to replace it with a valid value. </note>
+                that content creators know to replace it with a valid value. </note>
         </lcIntro>
     </learningContentbody>
 </learningContent>
