@@ -37,7 +37,7 @@
             <p><b>Reuse and relationship tables</b></p>
             <p>A map can contain any number of relationship tables. When the relationship tables are
                 processed, the contents of the relationship tables are usually seen as a single
-                collection (depending out the output processor and the intent of the relationship
+                collection (depending on the output processor and the intent of the relationship
                 table). Thus, if you have a block of topics that are reused across a number of
                 different maps, you can create a submap of those topics and create a relationship
                 table that is specific to those topics. When the submap is included with a
