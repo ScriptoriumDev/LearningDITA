@@ -21,7 +21,7 @@
                 when a cell in the relationship table contains multiple &lt;topicref> elements, the
                 generated topics indicated in that cell do not link to one another. However, if the
                 collection-type attribute on the &lt;relcell> element has the value “family”, all of
-                the topics referenced in in that &lt;relcell> element will link to one another.
+                the topics referenced in that &lt;relcell> element will link to one another.
                 </p><p>In the following example, topics A and B will link to each
                     other:</p><pre>&lt;relcell collection-type="family">
    &lt;topicref href="a.dita"/>
@@ -84,7 +84,7 @@
                 resource.</p><image href="../images/external_ref.png" id="image_gqy_nsv_mv"
                 base="2016/04"/><p>Because the fourth column is not pointing to DITA resources, the
                 &lt;relcolspec> element has no type attribute. However, it includes a &lt;title>
-                element to defines the purpose of the column.
+                element to define the purpose of the column.
                 </p><pre>&lt;relcolspec>
     &lt;title>Web links&lt;/title>
 &lt;/relcolspec>
