@@ -48,7 +48,7 @@
                 </li>
             </ul><note>The DITA sources shown in the following examples are in the downloadable
                 samples file <xref keyref="sample_file"/>. The DITA file is
-                c_filtering_and_flagging.dita; the ditaval files is domestic.ditaval.
+                c_filtering_and_flagging.dita; the ditaval file is domestic.ditaval.
                     </note><p><b>Conditional filtering example</b></p><p>In this example DITA topic,
                 the second &lt;p> element contains a sentence within a &lt;ph> (phrase) element. The
                 product conditional attribute has the value
