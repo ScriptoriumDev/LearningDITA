@@ -47,7 +47,7 @@
 &lt;/ul></pre><note>When
                 using conkeyrefs you do not need to use the id of the topic that contains the
                 referenced element. </note><p>When the topic containing the conkeyref is processed,
-                the key duck_warehouse is replace with the current key definition, which is
+                the key duck_warehouse is replaced with the current key definition, which is
                 domestic_duck_warehouse.dita. </p><p>You can reuse the topic containing the
                 conkeyref in another DITA map, but you might need it to pull content from a file
                 that is specific to the new map. To do this, add a &lt;keydef> element to the new
