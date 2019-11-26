@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Ce fichier est une partie du projet Formation DITA hébergé par GitHub.com.
+Se référer au fichier LICENCE connexe pour les licences applicables.-->
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Introduction à DITA</title>
+ <topicmeta>
+  <critdates>
+   <created date="2015-04-23"/>
+   <revised modified="2015-05-15"/>
+   <revised modified="2019-05-18"/>
+  </critdates>
+ </topicmeta>
+ <topicref href="course01-intro/maps/m_what_is_dita.ditamap" format="ditamap">
+  <topicmeta lockmeta="yes">
+   <data name="lesson_id" value="8024"/>
+  </topicmeta>
+ </topicref>
+ <mapref href="course01-intro/maps/m_topics.ditamap" format="ditamap">
+  <topicmeta>
+   <data name="lesson_id" value="8025"/>
+  </topicmeta>
+ </mapref>
+ <mapref href="course01-intro/maps/m_metadata.ditamap" format="ditamap">
+  <topicmeta>
+   <data name="lesson_id" value="8026"/>
+  </topicmeta>
+ </mapref>
+ <mapref href="course01-intro/maps/m_authoring.ditamap" format="ditamap">
+  <topicmeta>
+   <data name="lesson_id" value="8027"/>
+  </topicmeta>
+ </mapref>
+ <mapref href="course01-intro/maps/m_tables.ditamap" format="ditamap">
+  <topicmeta>
+   <data name="lesson_id" value="8028"/>
+  </topicmeta>
+ </mapref>
+ <mapref href="course01-intro/maps/m_links.ditamap" format="ditamap">
+  <topicmeta>
+   <data name="lesson_id" value="8029"/>
+  </topicmeta>
+ </mapref>
+
+ <mapref href="course01-intro/maps/this_course_keys.ditamap" processing-role="resource-only"/>
+ <mapref href="shared/maps/course_keys.ditamap" processing-role="resource-only"/>
+
+
+</map>

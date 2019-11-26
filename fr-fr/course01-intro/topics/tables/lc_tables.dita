@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_jyr_l4x_wr">
+    <title>Tableaux</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Bill Swallow,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-05-01"/>
+            <revised modified="2019-09-02"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup>
+                <lcObjective>Distinguer les tableaux simples et les tableaux.</lcObjective>
+                <lcObjective>Décrire les éléments d'une simpletable.</lcObjective>
+                <lcObjective>Décrire les éléments d'un tableau.</lcObjective>
+                <lcObjective>Présenter les meilleures pratiques pour les tableaux
+                    DITA.</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcIntro>
+            <p>Les tableaux occupent une position intermédiaire difficile entre la mise en forme et
+                la structure. Cependant, les tableaux constituent souvent le conteneur approprié
+                pour le contenu.</p>
+            <p>DITA comprend deux types de tableaux : </p>
+            <dl>
+                <dlentry>
+                    <dt>Les tableaux simples</dt>
+                    <dd>L'élément &lt;simpletable> prend en charge les tableaux de base avec une
+                        personnalisation minimale</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Les tableaux</dt>
+                    <dd>L'élément &lt;table> peut prendre en charge des tableaux complexes avec des
+                        lignes et colonnes étendues (straddles) et des propriétés d'affichage
+                        précises</dd>
+                </dlentry>
+            </dl>
+            <p>La plupart des langages de balisage utilisent le modèle de table CALS, créé dans le
+                cadre d'une initiative du département de la Défense des États-Unis. Les tables HTML
+                utilisent également le modèle CALS. Par conséquent, si vous connaissez le balisage
+                de table HTML, vous reconnaîtrez les similitudes dans les tableaux DITA.</p>
+            <p>Les tableaux dans DITA sont toujours décrits ligne par ligne.</p>
+        </lcIntro>
+        <lcIntro>
+            <title>Tableaux simples</title>
+            <p>Les tableaux simples sont idéaux pour la représentation de base du contenu dans les
+                colonnes et les lignes. Vous pouvez utiliser des lignes d'en-tête, mais vous ne
+                pouvez pas utiliser un titre de tableau, des colonnes ou des lignes fractionnées ni
+                définir la largeur des colonnes.</p>
+        </lcIntro>
+        <lcIntro>
+            <title>Tableaux</title>
+            <p>L'élément &lt;table> permet des arrangements plus complexes du contenu tabulaire. Il
+                autorise les titres de tableau, les colonnes ou lignes étendues, plusieurs groupes
+                de lignes et les largeurs de colonne spécifiées par l'utilisateur.</p>
+        </lcIntro>
+        <lcIntro>
+            <title>Autres tableaux</title>
+            <p>Il existe deux autres types de tableau très spécifiques (basés sur l'élément
+                &lt;simpletable>) :</p>
+            <ul id="ul_x3m_vyc_ss">
+                <li>&lt;properties>, que vous utilisez dans les topics référence pour définir une
+                    liste de propriétés.</li>
+                <li>&lt;choicetable>, que vous utilisez dans les topics tâches pour présenter les
+                    différences entre divers choix.</li>
+            </ul>
+        </lcIntro>
+    </learningContentbody>
+    <related-links>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Syntax_and_Markup/c_Tables.html"
+            scope="external" format="html">
+            <linktext>Guide de Style DITA, Chapitre 3, section Tableaux</linktext>
+        </link>
+        <link href="http://www.afei.org/about/history/Pages/CALS.aspx" scope="external"
+            format="html">
+            <linktext>Informations contextuelles sur CALS</linktext>
+        </link>
+    </related-links>
+</learningContent>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_rxt_zl5_vr2">
+    <title>Que sont les métadonnées ?</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author>Sharon Burton</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-05-01"/>
+            <revised modified="2019-08-23"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Les <i>métadonnées</i> fournissent de l'information sur l'information. Par exemple,
+                les applications de traitement de texte ont souvent des propriétés de document qui
+                indiquent qui a créé le fichier et à quelle date il a été modifié pour la dernière
+                fois. L'auteur et la date de modification dans les propriétés du document ne font
+                pas partie du texte affiché. Les propriétés du document sont des métadonnées sur le
+                document lui-même.</p>
+            <p>Les métadonnées fournissent différents moyens de classifier l'information. Par
+                exemple, vous pouvez :<ul id="ul_awn_k1w_wr">
+                    <li>Étiqueter l'information avec un type de document, comme « livre blanc » ou «
+                        proposition »</li>
+                    <li>Associer l'information avec un numéro de produit spécifique</li>
+                    <li>Indiquer un niveau d'utilisateur, comme « débutant », « intermédiaire » ou «
+                        expert »</li>
+                    <li>Indiquer l'audience du contenu, comme « responsable » ou « employé »</li>
+                    <li>Fournir une information sur le statut d'une rubrique, comme « brouillon », «
+                        révision » ou « final »</li>
+                    <li>Fournir une date d'expiration lorsque l'information n'est plus valide</li>
+                </ul></p>
+            <p>Après avoir assigner des métadonnées à votre contenu, vous (ou votre lecteur) pouvez
+                les utiliser pour :<ul id="ul_ex4_11w_wr">
+                    <li>Trouver l'information efficacement</li>
+                    <li>Soutenir les efforts de gouvernance (contrôle lorsque des informations sont
+                        rendues publiques ou supprimées d'un site internet)</li>
+                    <li>Personnaliser l'information (votre lecteur ne peut demander que des
+                        informations pour débutants) </li>
+                    <li>Filtrer les informations pour différentes variantes de livraison (telles que
+                        Windows ou Macintosh)</li>
+                    <li>Réutiliser les informations efficacement</li>
+                    <li>Indiquer la langue utilisée dans le contenu</li>
+                    <li>Gérer le statut du projet</li>
+                </ul></p>
+            <p>Dans DITA ou autres formats XML, les métadonnées sont encodés à l'intérieur de vos
+                topics, soit au niveau du topic, soit sur des éléments spécifiques. Vous pouvez
+                manipuler le contenu DITA en utilisant ces valeurs de métadonnées..</p>
+            <p>DITA nécessite une métadonnée ; chaque topic doit avoir un attribut id. Ces
+                identifiants sont souvent attribués automatiquement par des outils de création ou
+                des systèmes de gestion de contenu. Voici un exemple de topic avec un attribut id
+                :</p>
+            <pre>&lt;topic <b>id="xyz"</b>>
+   &lt;title>Votre titre ici&lt;/title>
+   &lt;body>
+      ....
+   &lt;/body>
+&lt;/topic></pre>
+            <p>D'autres éléments peuvent utiliser l'attribut id. Par exemple, l'attribut id sur une
+                table vous permet de créer une référence croisée vers celle-ci. La plupart des
+                outils de création attribuent automatiquement des ID à des éléments pouvant faire
+                l'objet de références croisées.</p>
+            <p>Votre organisation ou votre configuration DITA peut nécessiter des métadonnées
+                supplémentaires. Il est courant d’inclure la langue du thème avec l’attribut
+                xml:lang.</p>
+            <pre>&lt;topic id="xyz" xml:lang="en-us">
+&lt;topic id="abc" xml:lang="de-de"></pre>
+            <p>En règle générale, vos lecteurs ne voient pas les métadonnées. ils voient les
+                résultats du filtrage ou utilisent les métadonnées lorsqu'ils recherchent le
+                contenu.</p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

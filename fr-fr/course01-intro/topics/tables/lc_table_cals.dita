@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_atj_lxq_xr">
+    <title>L'élément table</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Bill Swallow,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe,
+            Scriptorium</author>
+        <author>Sharon Burton</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-05-04"/>
+            <revised modified="2019-09-07"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Les tableaux DITA (&lt;table>) utilisent les éléments suivants pour représenter et
+                organiser les données tabulaires :</p>
+            <table frame="all" rowsep="1" colsep="1" id="table_uj4_tzk_ns">
+                <tgroup cols="3">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1.02*"/>
+                    <colspec colname="newCol3" colnum="3" colwidth="1.01*"/>
+                    <thead>
+                        <row>
+                            <entry>Élément</entry>
+                            <entry>Description</entry>
+                            <entry>Quantité</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>&lt;title></entry>
+                            <entry>Contient le titre du tableau. </entry>
+                            <entry>Zéro ou un.</entry>
+                        </row>
+                        <row>
+                            <entry>&lt;tgroup></entry>
+                            <entry>Contient les spécifications de colonnes, les lignes d'en-tête et
+                                les lignes de corps.</entry>
+                            <entry>Chaque tableau contient au moins un élément &lt;tgroup>.</entry>
+                        </row>
+                        <row>
+                            <entry>&lt;colspec></entry>
+                            <entry>Définit la largeur des colonnes et les informations
+                                d'identification.</entry>
+                            <entry>Il devrait y avoir un élément &lt;colspec> par colonne dans votre
+                                tableau.</entry>
+                        </row>
+                        <row>
+                            <entry>&lt;thead></entry>
+                            <entry>Contient les lignes d'en-tête du tableau.</entry>
+                            <entry>Un &lt;tgroup> peut contenir, au plus, un élément &lt;thead>.
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>&lt;tbody></entry>
+                            <entry>Contient les lignes du corps du tableau. </entry>
+                            <entry>un &lt;tgroup> doit avoir un et seulement un élément
+                                &lt;tbody>.</entry>
+                        </row>
+                        <row>
+                            <entry>&lt;row></entry>
+                            <entry>Contient une seule ligne du tableau.</entry>
+                            <entry>Un élément &lt;thead> ou &lt;tbody> peuvent contenir un nombre
+                                quelconque d'éléments &lt;row>.</entry>
+                        </row>
+                        <row>
+                            <entry>&lt;entry></entry>
+                            <entry>Contient les données d'une cellule du tableau. Peut contenir du
+                                texte ou d'autres éléments de bloc ou en-ligne.</entry>
+                            <entry>Un élément &lt;row> peut avoir un ou plusieurs éléments
+                                &lt;entry>. </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            <p>Voici un exemple d'une structure minimale d'un tableau DITA (une ligne d'en-tête, une
+                ligne de corps, et trois colonnes). Notez que dans ce cas, le &lt;tgroup> spécifie
+                uniquement l'attribut cols, qui est requis :</p>
+            <pre> &lt;table>
+      &lt;tgroup cols="3">
+        &lt;thead>
+          &lt;row>
+            &lt;entry>colonne 1, ligne d'en-tête&lt;/entry>
+            &lt;entry>colonne 2, ligne d'en-tête&lt;/entry>
+            &lt;entry>colonne 3, ligne d'en-tête&lt;/entry>
+          &lt;/row>
+        &lt;/thead>
+        &lt;tbody>
+          &lt;row>
+            &lt;entry>colonne 1, ligne de corps&lt;/entry>
+            &lt;entry>colonne 2, ligne de corps&lt;/entry>
+            &lt;entry>colonne 3, ligne de corps&lt;/entry>
+          &lt;/row>
+        &lt;/tbody>
+      &lt;/tgroup>
+    &lt;/table></pre>
+            <p>Le résultat ressemble à ceci :<fig>
+                    <image href="../../media/tables/simplecals.png" base="2015/07"
+                        id="image_hk3_krt_xr"/>
+                </fig></p>
+            <p>Voici un tableau plus complexe :</p>
+            <pre> &lt;table>
+        &lt;title>Mon premier tableau&lt;/title>
+        &lt;tgroup cols="2">
+          &lt;colspec colname="c1" colnum="1" colwidth="1*"/>
+          &lt;colspec colname="c2" colnum="2" colwidth="4*"/>
+          &lt;thead>
+            &lt;row>
+              &lt;entry>ligne d'en-tête, colonne 1&lt;/entry>
+              &lt;entry>ligne d'en-tête, colonne 2&lt;/entry>
+            &lt;/row>
+          &lt;/thead>
+          &lt;tbody>
+            &lt;row>
+              &lt;entry>ligne 1, colonne 1&lt;/entry>
+              &lt;entry>ligne 1, colonne 2&lt;/entry>
+            &lt;/row>
+            &lt;row>
+              &lt;entry namest="c1" nameend="c2">Cette cellule s'étend sur deux colonnes.&lt;/entry>
+            &lt;/row>
+            &lt;row>
+              &lt;entry morerows="1">Cette cellule s'étend sur deux lignes.&lt;/entry>
+              &lt;entry>ligne 3, colonne 2&lt;/entry>
+            &lt;/row>
+            &lt;row>
+              &lt;entry>ligne 4, colonne 2&lt;/entry>
+            &lt;/row>
+          &lt;/tbody>
+        &lt;/tgroup>
+      &lt;/table></pre>
+            <p>ce qui donne : </p>
+            <fig id="fig_x2m_r34_rs">
+                <image href="../../media/tables/morecals.png" base="2015/07" id="image_twf_4rt_xr"/>
+            </fig>
+            <p>Quelques notes sur le tableau :</p>
+            <ul id="ul_g4v_lpt_xr">
+                <li>L'élément &lt;colspec> utilise des attributs pour spécifier les noms de colonne
+                    (colname), les numéros (colnum) et les largeurs (colwidth). Dans cet exemple,
+                    les colonnes sont les largeurs sont « 1* » et « 4* ». L'astérisque indique que
+                    les paramètres sont proportionnels. La première colonne s'étend donc sur 20% de
+                    la largeur disponible et la deuxième colonne, 80%.</li>
+                <li>Chaque ligne a un élément &lt;row> avec des éléments &lt;entry> pour chaque
+                    cellule. </li>
+                <li>Notez que la ligne 2 a seulement un seul &lt;entry>. C'est parce que l'entrée
+                    s'étend sur les deux colonnes, ce qui est spécifié avec les attributs name-start
+                    (namest) et name-end (nameend).</li>
+                <li>À la ligne 3, la première entrée couvre les lignes 3 et 4, vous avez donc un
+                    attribut morerows.</li>
+            </ul>
+            <p>Le moyen le plus simple et le moins stressant de configurer correctement le code du
+                tableau consiste à utiliser un éditeur qui gère ces paramètres pour vous. Coder
+                manuellement les tableaux n'est pas pour les âmes sensibles.</p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_f33_1kp_wr1">
+ <title/>
+ <prolog>
+  <author>Sharon Burton</author>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe,
+   Scriptorium</author>
+  <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external" format="html"
+   >Marine Martin-Guillerez (Traductrice)</author>
+  <critdates>
+   <created date="2015-04-30"/>
+   <revised modified="2019-09-22"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcTrueFalse id="link1">
+    <lcQuestion>Pour créer un lien vers une figure ou un tableau à l'intérieur du topic courant,
+     vous devriez utiliser l'élément &lt;xref>.</lcQuestion>
+    <lcAnswerOptionGroup>
+     <lcAnswerOption>
+      <lcAnswerContent>Vrai</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Faux</lcAnswerContent>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>Les éléments &lt;xref> sont dangereux pour les liens entre topics à cause
+     de la possibilité de liens cassés. À l'intérieur d'un topic, cependant, vous pouvez les
+     utilisez sans problème.</lcFeedbackIncorrect>
+    <lcFeedbackCorrect/>
+   </lcTrueFalse>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

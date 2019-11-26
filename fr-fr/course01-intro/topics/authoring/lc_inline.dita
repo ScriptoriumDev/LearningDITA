@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_xtm_jg2_cs">
+    <title>Éléments de bloc contre intégrés</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-05-20"/>
+            <revised modified="2019-08-30"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>La séparation du contenu et la mise en forme furent probablement la première chose
+                qui vous ayez appris au sujet d'XML.</p>
+            <p>Il existe toutefois quelques cas où la mise en forme est intégrée au contenu
+                DITA/XML/HTML lui-même. La distinction entre les éléments de bloc et les éléments
+                intégrés est l’un de ces cas :</p>
+            <p>Un <i>élément de bloc</i> est un élément de niveau paragraphe, tel que la balise
+                &lt;p> (paragraphe), &lt;li> (point d'une liste), ou &lt;codeblock> (code logiciel).
+                En règle générale, un élément de bloc est séparé verticalement sur la page des
+                informations qui le précèdent et le suivent. Ainsi, si vous avez deux balises &lt;p>
+                à la suite, elles sont séparées par un saut de ligne lors du rendu des informations.
+                Notez que tout caractère de rupture de ligne dans XML lui-même n'est pas
+                pertinent.</p>
+            <pre>&lt;p>Ceci est un paragraphe. &lt;/p>&lt;p>Un second paragraphe. &lt;/p></pre>
+            <p>Les résultat dans la vue Auteur d'oXygen :</p>
+            <image placement="break" base="2015/07" href="../../media/authoring/parabreaks.png"
+                id="image_z1k_rsl_2s"/>
+            <p>Un <i>élément intégré</i> est un élément qui fournit un balisage à l'intérieur d'un
+                paragraphe, tel que &lt;tm> (marque déposée), &lt;i> (italique), &lt;xref>
+                (référence croisée), ou &lt;term> (terme). Les éléments intégrés, par défaut,
+                n'entraînent pas de sauts de ligne.</p>
+            <pre>&lt;p>Un élément intégré &lt;i>n'entraine pas&lt;/i> de saut de ligne. &lt;/p>
+&lt;p>Les sauts de ligne dans le fichier XML
+ne sont pas &lt;i>pertinents&lt;/i>
+pour le formatage de la sortie.&lt;/p></pre>
+            <p>oXygen ignore les sauts de ligne dans le code lorsque vous consultez la vue Auteur
+                :</p>
+            <image placement="break" base="2015/07" href="../../media/authoring/linebreaks.png"
+                id="image_gn1_zxl_2s"/>
+            <p>XML lui-même ne fait pas la distinction entre les éléments en bloc et les éléments
+                intégrés. Ils utilisent le même balisage, vous devez donc savoir quels éléments sont
+                des blocs et lesquels sont intégrés pour déterminer le mode de présentation des
+                informations. Les éléments intégrés sont similaires aux styles de caractère des
+                outils de traitement de texte. Cependant, il existe d'autres éléments intégrés, tels
+                que &lt;fn> (note de bas de page) et &lt;indexterm> (entrée d'index) qui sont
+                traités différemment. Par exemple, les entrées d'&lt;indexterm> sont traitées pour
+                créer un index en fin d'ouvrage. Le contenu textuel de &lt;indexterm> n'apparaît
+                généralement pas à l'emplacement où l'élément intégré se produit.</p>
+            <pre>&lt;p>Un élément intégré&lt;indexterm>élément intégré&lt;/indexterm> &lt;i>n'entraine pas&lt;/i> de saut de ligne.&lt;/p></pre>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

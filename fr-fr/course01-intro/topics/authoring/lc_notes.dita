@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_tvf_ycr_bs">
+    <title>Notes, mises en garde, et alertes</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-05-18"/>
+            <revised modified="2019-08-30"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>L'élément &lt;note> vous permet de créer des notes, des mises en garde, des alertes
+                et autres avertissements.</p>
+            <pre>&lt;note>
+La plupart des canards qui s’alimentent en surface sont agiles et s’envoleront facilement. Approchez ces canards lentement.
+&lt;/note></pre>
+            <p>L'attribut type de l'élément &lt;note> vous permettent d'indiquer les différentes
+                sortes de notes. DITA défini un nombre de valeurs pour l'attribut type :<ul
+                    id="ul_irt_jdr_bs">
+                    <li>note (par défaut)</li>
+                    <li>attention</li>
+                    <li>danger</li>
+                    <li>caution</li>
+                    <li>important</li>
+                    <li>tip</li>
+                </ul></p>
+            <pre>&lt;note type="warning">
+Ne donnez pas de pain aux canards. Ce n'est pas un aliment naturel pour eux et peut être malsain.
+C’est bien mieux de leur donner du raisin ou du maïs concassé.
+&lt;/note></pre>
+            <p>Ce sont les valeurs d'attributs les plus courantes. Des valeurs d'attribut
+                supplémentaires sont disponibles, ainsi qu'une valeur d'attribut fourre-tout « other
+                », que vous utilisez avec l'attribut othertype pour spécifier un autre type de
+                note.</p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

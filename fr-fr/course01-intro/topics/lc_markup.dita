@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_il4_bwz_vr">
+    <title>Langages de balises</title>
+    <prolog>
+        <author>Sharon Burton</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author>Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-04-28"/>
+            <revised modified="2019-08-18"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+
+        <lcInstruction>
+            <p>Un langage de balisage est un moyen de marquer le contenu dans un fichier texte brut
+                (un fichier que vous pourriez éditer avec le Bloc-notes Windows). Le langage de
+                balisage le plus connu est le HTML, qui est le langage de balisage
+                fondamental pour Internet.</p>
+            <p>DITA est construit sur le langage de balisage XML. XML ressemble beaucoup à HTML. Ils
+                utilisent tous les deux des chevrons (&lt; et >) pour identifier les balises de
+                marquage (par exemple, &lt;title>). Dans les deux langues, une barre oblique
+                identifie une balise de fermeture (&lt;/title>)</p>
+            <pre>&lt;title>Ceci est un titre&lt;/title></pre>
+            <p>En HTML et en XML, Les balises peuvent aussi avoir des attributs (de la forme
+                    <tt>attribute="value"</tt>) qui fournissent plus d'information à propos de la
+                balise :</p>
+            <pre>&lt;note type="warning">Garder vos bras et vos jambes à l'intérieur du véhicule en tout temps.&lt;/note></pre>
+            <p>Il y a deux principales différences entre HTML et XML :</p>
+            <ul id="ul_mst_hvg_rs">
+                <li>HTML peut être assez tolérant lorsque vous oubliez de fermer des balises ou de
+                    mettre des guillemets autour des valeurs d'attributs ; XML est strict en les
+                    exigeant.</li>
+                <li>HTML utilise un ensemble prédéfini de balises (&lt;body>, &lt;p>, &lt;span>,
+                    etc.). En XML, les balises sont définies dans un fichier séparé et peuvent être
+                    modifiées et ajoutées par un architecte d'informations.</li>
+            </ul>
+            <p>DITA utilise cette fonction de nommage des balises en XML pour définir son propre
+                ensemble de noms de balises ou « éléments ». Les éléments DITA vous permettent de
+                baliser le contenu en utilisant des noms pour des éléments qui ont du sens, tels que
+                &lt;note> pour les notes, &lt;section> pour les sections, &lt;image> pour les
+                images, etc. Toutefois, étant donné que de nombreux noms de balises HTML ont du
+                sens, leurs noms sont également utilisés pour les éléments DITA, tels que &lt;p>
+                pour paragraphe, et &lt;ul> et &lt;ol> pour les listes non ordonnées et
+                ordonnées.</p>
+            <p>Une autre différence de dénomination : en HTML, la balise la plus externe ou « racine
+                » est &lt;html>. Dans DITA, le nom de la balise racine dépend du type de topics que
+                vous créez, par exemple, &lt;concept>, &lt;task> ou &lt;reference> (entre
+                autres).</p>
+            <note>Il est utile de savoir à quoi ressemble le balisage dans XML et DITA. Cependant,
+                la plupart du temps, vous créez du contenu DITA à l'aide d'outils de création
+                intelligents qui gèrent les balises et attributs individuels pour vous. </note>
+            <!--<p>Le langage de balisage le plus couramment utilisé est HTML. XML est similaire au
+                HTML. Il utilise également des crochets pour indiquer des éléments (tels que
+                &lt;p>). La plupart des balises dans DITA XML se trouvent également dans
+                HTML.</p><p>En XML, vous devez veiller à ouvrir et à fermer correctement toutes les
+                balises. HTML pardonne lorsque vous faites des erreurs. XML nécessite que vous
+                fournissiez un fichier correctement balisé. Si vous faites une erreur dans
+                l'encodage, l'analyse s'arrête. Cette opération est connue sous le nom de gestion
+                draconienne des erreurs et constitue un élément controversé de la spécification
+                XML.</p><p>DITA est un langage de balisage et une variante de XML. DITA vous permet
+                de baliser le contenu sémantiquement. Le balisage indique à l'auteur la
+                signification du balisage.</p>-->
+            <p>Vidéo : <xref href="https://youtu.be/1cYP5six9ww" format="html" scope="external"
+                    >Aperçu du balisage HTML par rapport au balisage DITA</xref></p>
+        </lcInstruction>
+
+    </learningContentbody>
+</learningContent>
