@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_ztn_3nd_2t">
+ <title>Intégré</title>
+ <prolog>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+   Scriptorium</author>
+  <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+   format="html">Marine Martin-Guillerez (Traductrice)</author>
+  <critdates>
+   <created date="2015-08-28"/>
+   <revised modified="2020-02-25"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcSingleSelect id="lcSingleSelect_jc2_knd_2t">
+    <lcQuestion>Laquelle des balises suivantes <b>n'</b>est <b>pas</b> un élément intégré ?
+     (choisissez-en une)</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_kc2_knd_2t">
+     <lcAnswerOption>
+      <lcAnswerContent>&lt;b></lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>&lt;term></lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>&lt;cite></lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>&lt;varname></lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>&lt;li></lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>L'élément &lt;li> est un élément d'une liste, qui n'est pas un élément
+     intégré.</lcFeedbackIncorrect>
+   </lcSingleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

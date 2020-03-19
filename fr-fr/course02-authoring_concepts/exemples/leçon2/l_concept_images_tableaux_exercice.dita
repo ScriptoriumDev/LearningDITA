@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_images_tables_exercise">
+ <title>Soutenir le marketing avec un contenu technique</title>
+ <conbody>
+  <p>La communication technique et la communication marketing ont longtemps occupé les extrémités
+   opposées du spectre des contenus. Le stéréotype est que la communication technique est lourde en
+   texte, dense et mal formatée alors que la communication marketing est brillante, belle et sans
+   contenu. À partir de là, le débat ne fait que s'intensifier : </p>
+  <table frame="all" rowsep="1" colsep="1" id="table_ech_1ww_dt">
+   <title>Communication marketing contre communication technique : les stéréotypes</title>
+   <tgroup cols="3">
+    <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+    <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+    <colspec colname="c3" colnum="3" colwidth="1.0*"/>
+    <thead>
+     <row>
+      <entry/>
+      <entry>
+       <p>Communication marketing</p>
+      </entry>
+      <entry>
+       <p>Communication technique</p>
+      </entry>
+     </row>
+    </thead>
+    <tbody>
+     <row>
+      <entry>
+       <p>Conception ou automatisation ?</p>
+      </entry>
+      <entry>
+       <p>Conception</p>
+      </entry>
+      <entry>
+       <p>Automatisation</p>
+      </entry>
+     </row>
+     <row>
+      <entry>
+       <p>Quel degré de détail ?</p>
+      </entry>
+      <entry>
+       <p>Aussi peu que possible</p>
+      </entry>
+      <entry>
+       <p>Autant que possible</p>
+      </entry>
+     </row>
+     <row>
+      <entry>
+       <p>Impact présumé sur les recettes</p>
+      </entry>
+      <entry>
+       <p>Beaucoup</p>
+      </entry>
+      <entry>
+       <p>Aucun</p>
+      </entry>
+     </row>
+     <row>
+      <entry>
+       <p>Objectif principal</p>
+      </entry>
+      <entry>
+       <p>Persuader les gens d'acheter</p>
+      </entry>
+      <entry>
+       <p>Informer les gens</p>
+      </entry>
+     </row>
+    </tbody>
+   </tgroup>
+  </table>
+  <p>Donnez aux gens une interface conviviale qui leur permet de réduire rapidement leurs options et
+   de choisir celle qu'ils veulent. Il n'est pas nécessaire d'exposer tous les champs de la base de
+   données, mais seulement ceux qui aident les gens à restreindre leurs choix.</p>
+  <fig>
+   <title>La liste de produits sur la droite se met à jour au fur et à mesure que vous faites des
+    sélections sur la gauche</title>
+   <image href="images/configuremieux1.png" id="image_pqx_pww_dt"/>
+  </fig>
+
+ </conbody>
+</concept>

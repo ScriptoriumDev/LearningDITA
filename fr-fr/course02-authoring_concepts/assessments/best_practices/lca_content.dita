@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_hc2_tg2_2t">
+ <title>Contenu et mise en forme</title>
+ <prolog>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+   Scriptorium</author>
+  <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external" format="html"
+   >Marine Martin-Guillerez (Traductrice)</author>
+  <critdates>
+   <created date="2015-08-28"/>
+   <revised modified="2020-03-15"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcTrueFalse id="link8">
+    <lcQuestion>L'un des principaux avantages de la création de contenus structurés est la
+     séparation du contenu et du format.</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_rbh_5g2_2t">
+     <lcAnswerOption>
+      <lcAnswerContent>Faux</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Vrai</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>Séparer le contenu du format est un avantage majeur du contenu structuré.
+    </lcFeedbackIncorrect>
+   </lcTrueFalse>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

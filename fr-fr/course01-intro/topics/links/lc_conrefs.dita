@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- This file is part of the DITA Training project hosted on
      github.com. See the accompanying LICENSE file for
      applicable licenses.-->
@@ -39,14 +39,14 @@
                     <li>Les inclusions côté serveur HTML</li>
                 </ul>
             </p>
-            <p>Supposons que vous ayez la note suivante dans un topic appelée location.dita :</p>
+            <p>Supposons que vous ayez la note suivante dans un topic appelée lieu.dita :</p>
             <pre>&lt;topic id="topicid">
     ...
-    &lt;note id="whatduckslike">Les canards préfèrent les lacs aux déserts.&lt;/note>
+    &lt;note id="cequaimentlescanards">Les canards préfèrent les lacs aux déserts.&lt;/note>
     ...
 &lt;/topic>             </pre>
             <p>Pour réutiliser cette note dans un autre topic, le code conref est le suivant :</p>
-            <pre>&lt;note conref="location.dita#topicid/whatduckslike"/></pre>
+            <pre>&lt;note conref="lieu.dita#topicid/cequaimentlescanards"/></pre>
             <p>La plupart des outils de création DITA rationalisent le processus d’insertion de code
                 conref. Par conséquent, vous ne taperez probablement pas le chemin du fichier, l’id
                 du topic, etc., comme indiqué dans l’exemple.</p>
@@ -62,5 +62,4 @@
                 et de contrôler son évolution.</note>
         </lcInstruction>
     </learningContentbody>
-
 </learningContent>

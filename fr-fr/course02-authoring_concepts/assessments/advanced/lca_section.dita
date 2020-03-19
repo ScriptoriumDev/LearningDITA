@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_k1d_qc2_2t">
+ <title>section</title>
+ <prolog>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+   Scriptorium</author>
+  <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external" format="html"
+   >Marine Martin-Guillerez (Traductrice)</author>
+  <critdates>
+   <created date="2015-08-28"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcTrueFalse id="link8">
+    <lcQuestion>Un élément &lt;section> peut contenir d'autres éléments &lt;section>.</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_fnf_zc2_2t">
+     <lcAnswerOption>
+      <lcAnswerContent>Faux</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Vrai</lcAnswerContent>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>La DITA n'autorise pas l'emboîtement des éléments
+     &lt;section>.</lcFeedbackIncorrect>
+   </lcTrueFalse>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>
