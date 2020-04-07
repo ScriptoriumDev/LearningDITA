@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_hrm_xjh_1t">
+    <title>Ajouter un style intégré</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-08-24"/>
+            <revised modified="2020-01-28"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>DITA utilise plusieurs éléments pour le style intégré, ou le style des morceaux de
+                texte à l'intérieur d'un paragraphe :</p>
+            <simpletable frame="all" relcolwidth="1.0* 1.0*" id="simpletable_brx_sl4_2t">
+                <strow>
+                    <stentry>
+                        <p>&lt;b></p>
+                    </stentry>
+                    <stentry>
+                        <p>texte en gras</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;i></p>
+                    </stentry>
+                    <stentry>
+                        <p>texte en italique</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;u></p>
+                    </stentry>
+                    <stentry>
+                        <p>texte souligné</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;term></p>
+                    </stentry>
+                    <stentry>
+                        <p>un mot ou une phrase qui nécessite une définition</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;cite></p>
+                    </stentry>
+                    <stentry>
+                        <p>un mot ou une phrase qui nécessite une citation</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;varname></p>
+                    </stentry>
+                    <stentry>
+                        <p>un mot ou une phrase qui peut changer en fonction de la situation de
+                            l'utilisateur</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;sub></p>
+                    </stentry>
+                    <stentry>
+                        <p>texte en indice</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;sup></p>
+                    </stentry>
+                    <stentry>
+                        <p>texte en exposant</p>
+                    </stentry>
+                </strow>
+            </simpletable>
+            <p>Les éléments intégrés &lt;b>, &lt;i>, et &lt;u> sont familiers et faciles à utiliser.
+                Cependant, comme ils sont étroitement liés à l'apparence du texte, il est facile
+                d'en faire un mauvais usage et de faire échouer l'objectif de séparation du contenu
+                et du formatage. Utilisez ces éléments avec parcimonie ; dans la plupart des cas, il
+                vaut mieux utiliser des éléments plus significatifs à la place, tels que les
+                éléments &lt;term>, &lt;cite>, ou &lt;varname>.</p>
+            <p>Dans les exemples suivants, vous apprendrez comment insérer les éléments simples
+                &lt;b>, &lt;i>, et &lt;u> d'abord, puis comment les remplacer par d'autres solutions
+                sémantiquement riches.</p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_i3g_jkh_1t">
+        <title/>
+        <taskbody>
+            <steps id="steps_f5k_kkh_1t">
+                <step>
+                    <cmd>Faites une copie du fichier leçon3/l_concept_elements_debut.dita et
+                        ouvrez-le dans votre éditeur.</cmd>
+                    <info>
+                        <note>
+                            <p>Si vous utilisez un éditeur de texte compatible DITA, assurez-vous
+                                d'être en mode texte, plutôt qu'en mode auteur ou visuel.</p>
+                        </note>
+                    </info>
+                    <stepxmp>
+                        <p>Vous devriez voir ceci :</p>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_elements">
+&lt;title>Nourrir les canetons&lt;/title>
+&lt;conbody>
+&lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Ajoutez un élément &lt;p> contenant les éléments &lt;b>, &lt;i>, et &lt;u>
+                        comme indiqué dans l'exemple suivant :</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_elements">
+&lt;title>Nourrir les canetons&lt;/title>
+&lt;conbody>
+<ph outputclass="newchanged">&lt;p>Les canetons ont besoin d'un &lt;b>accès permanent&lt;/b> à la fois à la &lt;i>nourriture&lt;/i> et à
+    l'&lt;i>eau&lt;/i> 
+pendant les &lt;u>deux premières semaines&lt;/u> de leur vie.&lt;/p></ph>
+&lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>En ajoutant l'élément &lt;b> à ce paragraphe, vous avez indiqué que les
+                        mots "accès permanent" devraient être en gras. De même, en ajoutant
+                        l'élément &lt;i>, vous avez indiqué que les mots "nourriture" et "eau"
+                        devraient être en italique, et en ajoutant l'élément &lt;u>, vous avez
+                        indiqué que les mots "deux premières semaines" devraient être
+                        soulignés.</info>
+                    <info>Bien que ces éléments intégrés ajoutent de l'importance aux mots
+                        importants, ils n'ont aucune autre valeur sémantique. Supposons que vous
+                        vouliez définir les mots "accès permanent" plus tard, ou les styliser de la
+                        même manière que d'autres mots décrivant la fréquence d'alimentation. Plutôt
+                        que d'utiliser l'élément &lt;b> pour marquer les mots simplement comme étant
+                        en gras, vous pourriez utiliser l'élément &lt;term> pour les marquer comme
+                        étant un terme important.</info>
+                    <info>Il existe d'autres solutions similaires, plus riches sur le plan
+                        sémantique, pour les éléments &lt;i> et &lt;u>, comme vous le verrez dans la
+                        prochaine étape.</info>
+                </step>
+                <step>
+                    <cmd>Après l'élément &lt;p>, ajoutez un autre élément contenant le même texte
+                        que le paragraphe précédent, avec l'élément &lt;b> changé en &lt;term>,
+                        l'élément &lt;i> changé en &lt;cite>, et l'élément &lt;u> changé en
+                        &lt;varname>, comme le montre l'exemple suivant :</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_elements">
+&lt;title>Nourrir les canetons&lt;/title>
+&lt;conbody>
+...
+<ph outputclass="newchanged">&lt;p>Les canetons ont besoin d'un &lt;term>accès permanent&lt;/term> à la fois à la &lt;cite>nourriture&lt;/cite> et à
+    l'&lt;cite>eau&lt;/cite> pendant les &lt;varname>deux premières semaines&lt;/varname> de leur vie.&lt;/p></ph>
+&lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>Dans cet exemple, vous avez marqué "accès permanent" avec l'élément
+                        &lt;term> pour montrer qu'il s'agit d'un terme qui devrait être défini plus
+                        tard. Vous avez marqué "nourriture" et "eau" avec l'élément &lt;cite> pour
+                        montrer qu'il s'agit de mots qui pourraient faire l'objet de citations
+                        bibliographiques si vous en avez besoin. Enfin, vous avez marqué "deux
+                        premières semaines" avec l'élément &lt;varname> pour montrer qu'il peut être
+                        nécessaire de les remplacer par d'autres informations basées sur la
+                        situation de l'utilisateur (par exemple, certaines races de canards peuvent
+                        avoir besoin accès à la nourriture et à l'eau 24 heures sur 24 pendant plus
+                        de deux semaines).</info>
+                </step>
+                <step>
+                    <cmd>Après le dernier élément &lt;p>, ajoutez un autre élément &lt;p> contenant
+                        un élément &lt;sub> comme indiqué dans l'exemple suivant :</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_elements">
+&lt;title>Nourrir les canetons&lt;/title>
+&lt;conbody>
+...
+<ph outputclass="newchanged">&lt;p>Comme la nourriture des canards a une texture sèche et granuleuse, les canetons ont besoin de beaucoup de  
+H&lt;sub>2&lt;/sub>O pour garder leur bec propre.&lt;/p></ph>
+&lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>L'élément &lt;sub> est utilisé pour baliser le texte en indice, ou le
+                        texte qui apparaît plus petit et légèrement en dessous de la ligne
+                        principale. Dans l'exemple que vous avez ajouté, l'élément &lt;sub> est
+                        utilisé pour s'assurer que le "2" dans H<sub>2</sub>O est affiché en
+                        indice.</info>
+                </step>
+                <step>
+                    <cmd>Après le dernier élément de &lt;p>, ajoutez un autre élément de &lt;p>
+                        contenant un élément de &lt;sup> comme indiqué dans l'exemple suivant
+                        :</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_elements">
+&lt;title>Nourrir les canetons&lt;/title>
+&lt;conbody>
+...
+<ph outputclass="newchanged">&lt;p>Vous pouvez fabriquer vos propres plats à base d'eau et de nourriture en utilisant des 
+récipients en plastique recyclés, ou acheter des plats préparés sur E-Z-Feed&lt;sup>2&lt;/sup>.&lt;/p></ph>
+&lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>L'élément &lt;sup> est utilisé pour baliser le texte en exposant, ou le
+                        texte qui apparaît plus petit et légèrement au-dessus de la ligne
+                        principale. Dans l'exemple que vous avez ajouté, l'élément &lt;sup> est
+                        utilisé pour indiquer que le "2" (symbole pour "au carré") dans le nom de
+                        l'entreprise d'aliments pour canards ("E-Z-Feed<sup>2</sup>") doit être
+                        affiché en exposant.<note>N'utilisez pas d'éléments &lt;sup> pour créer des
+                            nombres en relief pour les notes de bas de page. Utilisez plutôt
+                            l'élément DITA &lt;fn> (note de bas de page), que nous aborderons plus
+                            loin dans cette leçon.</note></info>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>
