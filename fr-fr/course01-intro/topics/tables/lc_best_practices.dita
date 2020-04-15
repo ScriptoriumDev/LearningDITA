@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_kkl_rxy_xr">
+    <title>Les meilleures pratiques pour les tableaux</title>
+    <shortdesc/>
+    <prolog>
+        <author>Sharon Burton</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-05-04"/>
+            <revised modified="2019-09-08"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <ul id="ul_zwh_qhd_ss">
+                <li>Toujours encadrer le contenu de &lt;entry> du tableau dans des balises &lt;p>.
+                    Si vous oubliez cela, le contenu du tableau peut être formaté de manière
+                    inattendue.</li>
+                <li>Bien que la spécification DITA vous permet d’imbriquer des tableaux, c’est une
+                    Mauvaise Idée™.</li>
+                <li>Dans la mesure du possible, envisagez d'organiser le contenu de votre tableau de
+                    manière à inclure davantage de lignes au lieu de plusieurs colonnes. Lorsque
+                    vous envoyez le contenu vers une sortie, des problèmes de pagination peuvent
+                    faire apparaître de manière inattendue de nombreuses colonnes.</li>
+                <li>Dans de nombreux outils de traitement de texte, les utilisateurs utilisent des
+                    tableaux pour mettre en forme le contenu, par exemple les listes indentées. Dans
+                    DITA, cela n'est pas fait et peut entraîner des résultats inattendus.</li>
+                <li>Considérez l’expansion du texte de localisation dans les tableaux. Si possible,
+                    concevez le contenu pour une expansion du texte pouvant atteindre 40%.</li>
+                <li>Le standard DITA autorise les graphiques dans les cellules du tableau.
+                    Cependant, dans la plupart des cas, il est préférable de limiter ces graphiques
+                    à de petites icônes dans les cellules du tableau.</li>
+                <li>Considérez les sorties possibles lorsque vous créez des tableaux. Le rendu du
+                    tableau peut être très différent (et difficile à lire) sur un petit écran, tel
+                    qu'un appareil mobile.</li>
+                <li>Dans certains cas, vous pouvez envisager d'utiliser d'autres éléments, tels que
+                    des listes de définitions, qui peuvent être restitués sous forme de tableau ou
+                    de liste de style glossaire, en fonction de la sortie cible. </li>
+            </ul>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

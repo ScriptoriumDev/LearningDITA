@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on 
+     github.com. See the accompanying LICENSE file for 
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="authoring">
+    <title>Création de contenu DITA</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-05-18"/>
+            <revised modified="2019-08-25"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcDuration>
+            <lcTime value="45"/>
+        </lcDuration>
+        <lcObjectives>
+            <lcObjectivesGroup>
+                <lcObjective>Décrire comment créer un topic DITA dans un éditeur de
+                    texte.</lcObjective>
+                <lcObjective>Décrire comment créer un topic DITA dans l'éditeur XML
+                    &lt;oXygen/></lcObjective>
+                <lcObjective>Décrire comment créer des notes, des précautions et autres
+                    avertissements.</lcObjective>
+                <lcObjective>Décrire comment créer des listes à puces et numérotées.</lcObjective>
+                <lcObjective>Distinguer les éléments bloc et intégrés</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcIntro>
+            <p>
+                <draft-comment author="simonbate">Nécessite une intro ici... Je me demande si ce
+                    sujet est complet du tout. </draft-comment>
+            </p>
+        </lcIntro>
+    </learningContentbody>
+    <related-links>
+        <link href="http://webdesignfromscratch.com/html-css/css-block-and-inline/" scope="external"
+            format="html">
+            <linktext>Éléments bloc contre intégré, webdesignfromscratch.com</linktext>
+        </link>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/c_Syntax_and_Markup.html"
+            format="html" scope="external">
+            <linktext>Guide de style DITA, Chapitre 3, Syntaxe et balisage</linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/DITA1.2-spec.html" format="html"
+            scope="external">
+            <linktext>Darwin Information Typing Architecture (DITA) Version 1.2, OASIS
+                Standard</linktext>
+        </link>
+    </related-links>
+</learningContent>

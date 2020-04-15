@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_atj_lxq_xp">
+    <title>L'élément simpletable</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Bill Swallow,
+            Scriptorium</author>
+        <author>Sharon Burton</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-05-04"/>
+            <revised modified="2019-09-07"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>les tableaux simples (&lt;simpletable>) utilisent les éléments suivants pour
+                représenter et organiser les données tabulaires :</p>
+            <simpletable frame="all" relcolwidth="1.0* 1.0* 1.0*" id="simpletable_gsw_jzk_ns">
+                <sthead>
+                    <stentry>Élément</stentry>
+                    <stentry>Description</stentry>
+                    <stentry>Quantité</stentry>
+                </sthead>
+                <strow>
+                    <stentry>&lt;sthead></stentry>
+                    <stentry>Une ligne d'en-tête</stentry>
+                    <stentry>Il peut y avoir au plus une ligne d'en-tête.</stentry>
+                </strow>
+                <strow>
+                    <stentry>&lt;strow></stentry>
+                    <stentry>Une ligne</stentry>
+                    <stentry>Il doit y avoir au moins une ligne, mais le tableau peut contenir
+                        plusieurs lignes.</stentry>
+                </strow>
+                <strow>
+                    <stentry>&lt;stentry></stentry>
+                    <stentry>Une entrée de tableau simple</stentry>
+                    <stentry>Chaque ligne peut contenir un ou plusieurs éléments &lt;stentry>, mais
+                        chaque ligne (y compris la ligne d'en-tête) doit inclure le même nombre
+                        d'éléments &lt;stentry>.</stentry>
+                </strow>
+            </simpletable>
+            <note>Ce tableau est construit en utilisant un élément &lt;simpletable>.</note>
+            <p>L'élément &lt;stentry> peut contenir du texte ou d'autres éléments de bloc ou
+                en-ligne.</p>
+            <p>Voici un exemple d'un tableau avec une ligne d'en-tête, deux lignes et deux colonnes. </p>
+            <pre>&lt;simpletable>
+   &lt;sthead>
+      &lt;stentry>En-tête de colonne 1&lt;/stentry>
+      &lt;stentry>En-tête de colonne 2&lt;/stentry>
+   &lt;/sthead>
+   &lt;strow>
+      &lt;stentry>ligne 1, colonne 1&lt;/stentry>
+      &lt;stentry>ligne 1, colonne 2&lt;/stentry>
+   &lt;/strow>
+   &lt;strow>
+      &lt;stentry>ligne 2, colonne 1&lt;/stentry>
+      &lt;stentry>ligne 2, colonne 2&lt;/stentry>
+   &lt;/strow>
+&lt;/simpletable></pre>
+            <p>Visuellement, le tableau ressemble à ceci :<fig>
+                    <image href="../../media/tables/simpletable.png" base="2015/07"
+                        id="image_xnd_zqt_xr"/>
+                </fig></p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

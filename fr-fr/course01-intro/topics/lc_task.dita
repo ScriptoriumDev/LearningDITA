@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_i4y_ttr_5r">
+    <title>Les topics Task</title>
+    <prolog>
+        <author>Sharon Burton</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Alan Pringle,
+            Scriptorium</author>
+        <author>Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-04-28"/>
+            <revised modified="2015-07-13"/>
+            <revised modified="2019-08-18"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup>
+                <lcObjective>Comprendre l'objectif du type de tâche DITA</lcObjective>
+                <lcObjective>Identifier les composants clés d'une tâche</lcObjective>
+                <lcObjective>Créer une tâche DITA</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="20"/>
+        </lcDuration>
+        <lcInstruction>
+            <p>Un topic tâche répond à la question « Comment fais-je ? ». Cela inclut des
+                instructions pas-à-pas pour compléter une procédure. DITA autorise aussi des
+                résultats d'étapes, des graphiques, de notes et un niveau de sous-étapes.</p>
+            <p>Le contenu technique contient souvent énormément de tâches. </p>
+            <p>DITA fourni deux types de tâches :<ul id="ul_bbx_dn5_vr">
+                    <li>La tâche stricte</li>
+                    <li>La tâche générale</li>
+                </ul></p>
+            <p>La tâche stricte exige que tous les éléments apparaissent dans un ordre spécifique,
+                autorise seulement un élément &lt;example>, et comporte deux éléments très formels
+                pour les étapes (&lt;steps> ou &lt;steps-unordered>). La « tâche générale »,
+                également appelée « tâche laxiste » permet plus de flexibilité dans l'ordre des
+                éléments, autorise plusieurs éléments &lt;example> et autorise un élément
+                &lt;steps-informal> pour les étapes, qui peut contenir du contenu bien plus varié.
+                Les tâches strictes sont appropriés pour des points qui exigent des instructions
+                détaillées ; les tâches générales sont utiles pour les aperçus de processus.</p>
+            <p>Les éléments courants utilisés dans un topic tâche stricte comprennent :<ul
+                    id="ul_c5m_hm5_vr">
+                    <li>&lt;taskbody> (le corps du topic tâche)</li>
+                    <li>&lt;steps> (la séquence d'actions)</li>
+                    <li>&lt;step> (chaque action individuelle)<ul id="ul_hkh_3th_rs">
+                            <li>&lt;cmd> (l'action à faire ; c'est un élément requis dans un
+                                &lt;step>)</li>
+                            <li>&lt;info> (information additionelle à propos de l'étape)</li>
+                            <li>&lt;stepresult> (ce qui arrive après avoir réalisé l'action)</li>
+                            <li>&lt;stepxmp> (un exemple de comment réaliser l'étape)</li>
+                        </ul></li>
+                    <li>&lt;example> (un exemple de comment réaliser la tâche entière)</li>
+                </ul></p>
+            <p>Vidéo: <xref href="https://youtu.be/PWSRhPnMDNs" format="html" scope="external"
+                    >Aperçu du code d'un topic tâche DITA</xref></p>
+        </lcInstruction>
+
+    </learningContentbody>
+
+</learningContent>

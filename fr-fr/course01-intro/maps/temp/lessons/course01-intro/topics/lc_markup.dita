@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/marine/Documents/GitHub/LearningDITA/fr-fr/course01-intro/maps/temp/lessons/course01-intro/topics?><?workdir-uri file:/Users/marine/Documents/GitHub/LearningDITA/fr-fr/course01-intro/maps/temp/lessons/course01-intro/topics/?><?path2project ../lessons/?><?path2project-uri ../lessons/?><?path2rootmap-uri ../maps/?><?doctype-public -//OASIS//DTD DITA Learning Content//EN?><?doctype-system learningContent.dtd?><learningContent xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" id="content_il4_bwz_vr" ditaarch:DITAArchVersion="1.3" domains="(topic learningBase+learningInteractionBase-d+learningInteractionBase2) (topic task) (topic concept) (topic reference) (topic learningBase learningSummary) (topic learningBase+learningInteractionBase-d) (topic learningBase+learningInteractionBase-d learningAssessment) (topic learningBase+learningInteractionBase-d learningContent) a(props deliveryTarget) (topic hi-d) (topic indexing-d) (topic relmgmt-d) (topic ut-d) (topic learningInteractionBase-d) (topic learningInteractionBase2-d) (topic learningInteractionBase-d learning-d) (topic learningInteractionBase2-d learning2-d) (topic learningmeta-d)" class="- topic/topic learningBase/learningBase learningContent/learningContent " xtrf="file:/Users/marine/Documents/GitHub/LearningDITA/fr-fr/course01-intro/topics/lc_markup.dita" xtrc="learningContent:1;6:42">
+    <title class="- topic/title " xtrf="file:/Users/marine/Documents/GitHub/LearningDITA/fr-fr/course01-intro/topics/lc_markup.dita" xtrc="title:1;7:12">Langages de balises</title>
+    <prolog class="- topic/prolog " xtrf="file:/Users/marine/Documents/GitHub/LearningDITA/fr-fr/course01-intro/topics/lc_markup.dita" xtrc="prolog:1;8:13">
+        <author class="- topic/author " xtrf="file:/Users/marine/Documents/GitHub/LearningDITA/fr-fr/course01-intro/topics/lc_markup.dita" xtrc="author:1;9:17">Sharon Burton</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html" class="- topic/author " xtrf="file:/Users/marine/Documents/GitHub/LearningDITA/fr-fr/course01-intro/topics/lc_markup.dita" xtrc="author:2;10:82">Sarah O’Keefe,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html" class="- topic/author " xtrf="file:/Users/marine/Documents/GitHub/LearningDITA/fr-fr/course01-intro/topics/lc_markup.dita" xtrc="author:3;12:82">Simon Bate,
+            Scriptorium</author>
+        <author class="- topic/author " xtrf="file:/Users/marine/Documents/GitHub/LearningDITA/fr-fr/course01-intro/topics/lc_markup.dita" xtrc="author:4;14:17">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates class="- topic/critdates " xtrf="file:/Users/marine/Documents/GitHub/LearningDITA/fr-fr/course01-intro/topics/lc_markup.dita" xtrc="critdates:1;15:20">
+            <created date="2015-04-28" class="- topic/created " xtrf="file:/Users/marine/Documents/GitHub/LearningDITA/fr-fr/course01-intro/topics/lc_markup.dita" xtrc="created:1;16:41"/>
+            <revised modified="2019-08-18" class="- topic/revised " xtrf="file:/Users/marine/Documents/GitHub/LearningDITA/fr-fr/course01-intro/topics/lc_markup.dita" xtrc="revised:1;17:45"/>
+        </critdates>
+    </prolog>
+    <learningContentbody class="- topic/body  learningBase/learningBasebody learningContent/learningContentbody " xtrf="file:/Users/marine/Documents/GitHub/LearningDITA/fr-fr/course01-intro/topics/lc_markup.dita" xtrc="learningContentbody:1;20:26">
+
+        <lcInstruction class="- topic/section learningBase/lcInstruction " xtrf="file:/Users/marine/Documents/GitHub/LearningDITA/fr-fr/course01-intro/topics/lc_markup.dita" xtrc="lcInstruction:1;22:24">
+            <p class="- topic/p " xtrf="file:/Users/marine/Documents/GitHub/LearningDITA/fr-fr/course01-intro/topics/lc_markup.dita" xtrc="p:1;23:16">Un langage de balisage est un moyen de marquer le contenu dans un fichier texte brut
+                (un fichier que vous pourriez éditer avec le Bloc-notes Windows). Le langage de
+                balisage le plus connu est le HTML, qui est le langage de balisage
+                fondamental pour Internet.</p>
+            <p class="- topic/p " xtrf="file:/Users/marine/Documents/GitHub/LearningDITA/fr-fr/course01-intro/topics/lc_markup.dita" xtrc="p:2;27:16">DITA est construit sur le langage de balisage XML. XML ressemble beaucoup à HTML. Ils
+                utilisent tous les deux des chevrons (&lt; et &gt;) pour identifier les balises de
+                marquage (par exemple, &lt;title&gt;). Dans les deux langues, une barre oblique
+                identifie une balise de fermeture (&lt;/title&gt;)</p>
+            <pre xml:space="preserve" class="- topic/pre " xtrf="file:/Users/marine/Documents/GitHub/LearningDITA/fr-fr/course01-intro/topics/lc_markup.dita" xtrc="pre:1;31:18">&lt;title&gt;Ceci est un titre&lt;/title&gt;</pre>
+            <p class="- topic/p " xtrf="file:/Users/marine/Documents/GitHub/LearningDITA/fr-fr/course01-intro/topics/lc_markup.dita" xtrc="p:3;32:16">En HTML et en XML, Les balises peuvent aussi avoir des attributs (de la forme
+                    <tt class="+ topic/ph hi-d/tt " xtrf="file:/Users/marine/Documents/GitHub/LearningDITA/fr-fr/course01-intro/topics/lc_markup.dita" xtrc="tt:1;33:25">attribute="value"</tt>) qui fournissent plus d'information à propos de la
+                balise :</p>
+            <pre xml:space="preserve" class="- topic/pre " xtrf="file:/Users/marine/Documents/GitHub/LearningDITA/fr-fr/course01-intro/topics/lc_markup.dita" xtrc="pre:2;35:18">&lt;note type="warning"&gt;Garder vos bras et vos jambes à l'intérieur du véhicule en tout temps.&lt;/note&gt;</pre>
+            <p class="- topic/p " xtrf="file:/Users/marine/Documents/GitHub/LearningDITA/fr-fr/course01-intro/topics/lc_markup.dita" xtrc="p:4;36:16">Il y a deux principales différences entre HTML et XML :</p>
+            <ul id="ul_mst_hvg_rs" class="- topic/ul " xtrf="file:/Users/marine/Documents/GitHub/LearningDITA/fr-fr/course01-intro/topics/lc_markup.dita" xtrc="ul:1;37:36">
+                <li class="- topic/li " xtrf="file:/Users/marine/Documents/GitHub/LearningDITA/fr-fr/course01-intro/topics/lc_markup.dita" xtrc="li:1;38:21">HTML peut être assez tolérant lorsque vous oubliez de fermer des balises ou de
+                    mettre des guillemets autour des valeurs d'attributs ; XML est strict en les
+                    exigeant.</li>
+                <li class="- topic/li " xtrf="file:/Users/marine/Documents/GitHub/LearningDITA/fr-fr/course01-intro/topics/lc_markup.dita" xtrc="li:2;41:21">HTML utilise un ensemble prédéfini de balises (&lt;body&gt;, &lt;p&gt;, &lt;span&gt;,
+                    etc.). En XML, les balises sont définies dans un fichier séparé et peuvent être
+                    modifiées et ajoutées par un architecte d'informations.</li>
+            </ul>
+            <p class="- topic/p " xtrf="file:/Users/marine/Documents/GitHub/LearningDITA/fr-fr/course01-intro/topics/lc_markup.dita" xtrc="p:5;45:16">DITA utilise cette fonction de nommage des balises en XML pour définir son propre
+                ensemble de noms de balises ou « éléments ». Les éléments DITA vous permettent de
+                baliser le contenu en utilisant des noms pour des éléments qui ont du sens, tels que
+                &lt;note&gt; pour les notes, &lt;section&gt; pour les sections, &lt;image&gt; pour les
+                images, etc. Toutefois, étant donné que de nombreux noms de balises HTML ont du
+                sens, leurs noms sont également utilisés pour les éléments DITA, tels que &lt;p&gt;
+                pour paragraphe, et &lt;ul&gt; et &lt;ol&gt; pour les listes non ordonnées et
+                ordonnées.</p>
+            <p class="- topic/p " xtrf="file:/Users/marine/Documents/GitHub/LearningDITA/fr-fr/course01-intro/topics/lc_markup.dita" xtrc="p:6;53:16">Une autre différence de dénomination : en HTML, la balise la plus externe ou « racine
+                » est &lt;html&gt;. Dans DITA, le nom de la balise racine dépend du type de topics que
+                vous créez, par exemple, &lt;concept&gt;, &lt;task&gt; ou &lt;reference&gt; (entre
+                autres).</p>
+            <note class="- topic/note " xtrf="file:/Users/marine/Documents/GitHub/LearningDITA/fr-fr/course01-intro/topics/lc_markup.dita" xtrc="note:1;57:19">Il est utile de savoir à quoi ressemble le balisage dans XML et DITA. Cependant,
+                la plupart du temps, vous créez du contenu DITA à l'aide d'outils de création
+                intelligents qui gèrent les balises et attributs individuels pour vous. </note>
+            
+            <p class="- topic/p " xtrf="file:/Users/marine/Documents/GitHub/LearningDITA/fr-fr/course01-intro/topics/lc_markup.dita" xtrc="p:7;71:16">Vidéo : <xref href="https://youtu.be/1cYP5six9ww" format="html" scope="external" class="- topic/xref " xtrf="file:/Users/marine/Documents/GitHub/LearningDITA/fr-fr/course01-intro/topics/lc_markup.dita" xtrc="xref:1;72:22"><?ditaot usertext?>Aperçu du balisage HTML par rapport au balisage DITA</xref></p>
+        </lcInstruction>
+
+    </learningContentbody>
+<related-links class="- topic/related-links "><linkpool class="- topic/linkpool " xtrc="topicref:2;11:46" xtrf="file:/Users/marine/Documents/GitHub/LearningDITA/fr-fr/course01-intro/maps/m_what_is_dita.ditamap"><link class="- topic/link " format="dita" href="../topics/lc_dita_intro.dita" mapclass="- map/topicref " role="parent" scope="local" type="learningContent" xtrc="topicref:1;7:48" xtrf="file:/Users/marine/Documents/GitHub/LearningDITA/fr-fr/course01-intro/maps/m_what_is_dita.ditamap"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Qu'est-ce que DITA?</linktext><?ditaot genshortdesc?><desc class="- topic/desc "/></link></linkpool></related-links></learningContent>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_n25_n21_wr">
+ <title></title>
+ <prolog>
+  <author>Sharon Burton</author>
+  <author href="http://www.scriptorium.com"  scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+  <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external" format="html"
+   >Marine Martin-Guillerez (Traductrice)</author>
+  <critdates>
+   <created date="2015-04-28"/>
+   <revised modified="2019-08-20"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+ <lcInteraction> <lcMatching id="topics2">
+  <lcQuestion>Pour chaque type de topic, identifiez la question à laquelle il répond :</lcQuestion>
+   <lcMatchTable>
+    <lcMatchingPair>
+     <lcItem>Qu'est-ce?</lcItem>
+     <lcMatchingItem>topic référence </lcMatchingItem>
+    </lcMatchingPair>
+    <lcMatchingPair>
+     <lcItem>Que signifie ce terme ou cette phrase ?</lcItem>
+     <lcMatchingItem>topic glossaire</lcMatchingItem>
+    </lcMatchingPair>
+    <lcMatchingPair>
+     <lcItem>Comment fais-je ?</lcItem>
+     <lcMatchingItem>topic tâche</lcMatchingItem>
+    </lcMatchingPair>
+    <lcMatchingPair>
+     <lcItem>Pourquoi ?</lcItem>
+     <lcMatchingItem>topic concept</lcMatchingItem>
+    </lcMatchingPair>
+   </lcMatchTable>
+  </lcMatching></lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

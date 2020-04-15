@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_advanced_exercise">
+ <title>Developing a technical content strategy</title>
+ <conbody>
+  <p>After reviewing the existing information products, you should have a list of content challenges
+   and ideas for improvement. Here are some common scenarios.</p>
+  <section>
+   <title>Reuse between technical documentation and training materials</title>
+   <p>The training department uses reference and task information created by the technical
+    documentation team, but the instructional designers copy and paste instead of linking because
+    the two groups use different, incompatible content creation tools. </p>
+   <draft-comment>Add: "If the two teams standardized on a single workflow, they could share content
+    seamlessly and avoid lots of tedious reworking."</draft-comment>
+  </section>
+  <section>
+   <title>HTML output is needed in addition to PDF</title>
+   <p>Your content may look like this in HTML:</p>
+   <codeblock>&lt;div class="p">You may produce high-value content, such as the following:
+&lt;ul class="ul">
+&lt;li class="li">&lt;p class="p">Training materials&lt;/p>&lt;/li>
+&lt;li class="li">&lt;p class="p">White papers&lt;/p>&lt;/li>
+&lt;li class="li">&lt;p class="p">Knowledge base articles&lt;/p>&lt;/li>
+&lt;/ul>
+&lt;/div></codeblock>
+   <p>The <codeph>&lt;div></codeph> contains the unordered list.</p>
+  </section>
+  <section>
+   <title>Technical content is outdated because of inefficient updating process</title>
+   <lq href="http://contentstrategy101.com/contents/developing/assessing-the-situation/analyzing-existing-information-products/" format="html" scope="external">The book production process—generating tables of contents and indexes, checking pagination,
+    creating change page logs, and similar tasks—takes a significant amount of time. As a result,
+    books are only updated twice a year. But the product is changing quarterly or even monthly, so
+    the technical documentation is almost always out of date. Readers are complaining about the lack
+    of synchronization between the product updates and the content updates.</lq>
+  </section>
+ </conbody>
+</concept>

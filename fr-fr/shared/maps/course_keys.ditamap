@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Clés des cours (Clés pour tous les titres, urls, etc. des cours)</title>
+ 
+ <!-- General purpose (OT, etc) -->
+ <keydef keys="dita_12_url" href="http://docs.oasis-open.org/dita/v1.2/os/spec/DITA1.2-spec.html" scope="external" format="html">
+  <topicmeta>
+   <linktext>Spécification DITA 1.2</linktext>
+  </topicmeta>
+ </keydef>
+ 
+ 
+ <!-- Course 1, Introduction to DITA. -->
+ <keydef keys="dita_intro_url" href="http://www.learningdita.com/courses/introduction-to-dita/" scope="external" format="html">
+  <topicmeta>
+   <linktext>Introduction à DITA</linktext>
+  </topicmeta>
+ </keydef>
+
+ <!-- Course 2, title. -->
+ <keydef keys="concepts_url" href="http://www.learningdita.com/courses/the-dita-concept-topic-type/" scope="external" format="html">
+  <topicmeta>
+   <linktext>Le topic DITA de type concept</linktext>
+  </topicmeta>
+ </keydef>
+ 
+ <!-- Course 3, title. -->
+ <keydef keys="tasks_url" href="http://www.learningdita.com/courses/the-dita-task-topic-type/" scope="external" format="html">
+  <topicmeta>
+   <linktext>Le topic DITA de type tâche</linktext>
+  </topicmeta>
+ </keydef>
+ 
+ <!-- Course 4, title. -->
+ <keydef keys="ref_glossary_url" href="http://www.learningdita.com/courses/the-dita-reference-and-glossary-topic-types/" scope="external" format="html">
+  <topicmeta>
+   <linktext>Les topics DITA de type référence et glossaire</linktext>
+  </topicmeta>
+ </keydef>
+ 
+ <!-- Course 5, title. -->
+ <keydef keys="maps_bookmaps_url" href="http://www.learningdita.com/courses/using-dita-maps-and-bookmaps/" scope="external" format="html">
+  <topicmeta>
+   <linktext>Utiliser les maps et bookmaps DITA</linktext>
+  </topicmeta>
+ </keydef>
+  
+ <!-- Course 6, title. -->
+ <keydef keys="reuse_basic_url" href="http://www.learningdita.com/courses/intro-to-reuse-in-dita" scope="external" format="html">
+  <topicmeta>
+   <linktext>Introduction à la réutilisation dans DITA</linktext>
+  </topicmeta>
+ </keydef>
+
+ <!-- Course 7, title. -->
+ <keydef keys="reuse_advanced_url" href="http://www.learningdita.com/courses/advanced-reuse-in-dita" scope="external" format="html">
+  <topicmeta>
+   <linktext>Réutilisation avancée dans DITA</linktext>
+  </topicmeta>
+ </keydef>
+ 
+ <!-- Course 8, title. -->
+ <keydef keys="publishing_output_url" href="http://www.learningdita.com/courses/publishing-output-from-dita-sources/" scope="external" format="html">
+  <topicmeta>
+   <linktext>Publication des résultats des sources DITA</linktext>
+  </topicmeta>
+ </keydef>
+</map>

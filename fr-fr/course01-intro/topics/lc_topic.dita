@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_a2s_3wz_vr">
+    <title>Qu'est-ce qu'un topic DITA ?</title>
+    <shortdesc/>
+    <prolog>
+        <author>Sharon Burton</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Alan Pringle,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author>Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-04-28"/>
+            <revised modified="2015-06-18"/>
+            <revised modified="2019-09-21"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Un topic DITA est l'unité de base de la création et de la réutilisation.</p>
+            <p>Dans la création thèmatique, vous créez un certain nombre de topics individuels,
+                chacun abordant une idée ou répondant à une question. Ces topics peuvent ensuite
+                être utilisés et réutilisés dans n’importe quel ordre, dans différents documents.
+                Dans DITA, les rubriques sont organisées en <i>cartes</i> (<i>map</i>), qui
+                ressemblent beaucoup à une table des matières ; la carte vous permet de spécifier
+                l'ordre et la hiérarchie des topics. </p>
+            <p>Pour rendre vos topics réutilisables :</p>
+            <ul id="ul_kpb_fhh_rs">
+                <li>Un topic doit aborder une seule idée ou répondre à une seule question.</li>
+                <li>Un topic doit contenir suffisamment d’informations pour être autonome.</li>
+                <li>Un topic ne devrait prendre aucun contexte. Vous ne devriez pas émettre
+                    d'hypothèses sur ce qui vient avant ou après le topic.</li>
+                <li>Un seul fichier doit contenir un seul topic.</li>
+            </ul>
+            <!--<p>Les thèmes contiennent des éléments. Les éléments sont les balises pour le contenu.
+                Les balises disponibles pour un auteur spécifique dépendent de la manière dont son
+                architecte a configuré son environnement. Par exemple, si vous n’écrivez pas dans un
+                environnement logiciel et n’avez pas besoin d’échantillons de code, votre architecte
+                d’information peut configurer votre environnement DITA pour éliminer l’élément lié
+                au code.</p><p>Les éléments ont des attributs. Un attribut fournit des informations
+                supplémentaires sur l'élément. Par exemple, un thème peut avoir un attribut appelé
+                author, dans lequel vous spécifiez qui a créé un thème particulier.</p>-->
+            <!--<p>Les thèmes contiennent des éléments. Les éléments sont les balises pour le contenu.</p>-->
+            <p>Tous les topics DITA doivent avoir au moins un élément title et un attribut id à la
+                racine du thème. En d'autres termes, voici un topic DITA valide :</p>
+            <pre>&lt;topic id="sample">
+   &lt;title>Le titre du topic vient ici&lt;/title>
+&lt;/topic> </pre>
+            <p>Cependant, un topic <i>utile</i> aura un contenu supplémentaire.</p>
+        </lcInstruction>
+
+    </learningContentbody>
+</learningContent>

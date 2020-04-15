@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_rqs_mlr_xr">
+ <title/>
+ <prolog>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Bill Swallow,
+   Scriptorium</author>
+  <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external" format="html"
+   >Marine Martin-Guillerez (Traductrice)</author>
+  <critdates>
+   <created date="2015-05-04"/>
+   <revised modified="2019-09-08"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcMatching id="tablesq3">
+    <lcQuestion>Associez les éléments table CALS suivants avec leur fonction.</lcQuestion>
+    <lcMatchTable>
+     <lcMatchingPair>
+      <lcItem>&lt;tgroup></lcItem>
+      <lcMatchingItem>Défini les colonnes, les lignes, les entêtes et les bas</lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>&lt;colspec></lcItem>
+      <lcMatchingItem>Spécifie les largeurs et les intervalles</lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>&lt;table></lcItem>
+      <lcMatchingItem>Le conteneur principal pour un tableau</lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>&lt;tbody></lcItem>
+      <lcMatchingItem>Contient les colonnes et les lignes</lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>&lt;entry></lcItem>
+      <lcMatchingItem>Une simple cellule du tableau</lcMatchingItem>
+     </lcMatchingPair>
+    </lcMatchTable>
+   </lcMatching>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>
