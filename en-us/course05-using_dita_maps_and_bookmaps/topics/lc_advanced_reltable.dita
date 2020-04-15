@@ -84,7 +84,7 @@
                 resource.</p><image href="../images/external_ref.png" id="image_gqy_nsv_mv"
                 base="2016/04"/><p>Because the fourth column is not pointing to DITA resources, the
                 &lt;relcolspec> element has no type attribute. However, it includes a &lt;title>
-                element to defines the purpose of the column.
+                element to define the purpose of the column.
                 </p><pre>&lt;relcolspec>
     &lt;title>Web links&lt;/title>
 &lt;/relcolspec>
