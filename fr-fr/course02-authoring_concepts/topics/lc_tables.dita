@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- This file is part of the DITA Training project hosted on
      github.com. See the accompanying LICENSE file for
-     applicable licenses.--> 
-
+     applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_kw5_5ls_zs">
     <title>Ajouter des tableaux à un concept</title>
@@ -162,7 +161,7 @@
                         différents en-têtes ou nombres de colonnes sous le même titre.</info>
                 </step>
                 <step>
-                    <cmd>A l'intérieur de l'élément &lt;tgroup>, ajoutez deux éléments &lt;colspec>
+                    <cmd>À l'intérieur de l'élément &lt;tgroup>, ajoutez deux éléments &lt;colspec>
                         et ajoutez-y du contenu comme indiqué dans l'exemple suivant :</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
@@ -380,8 +379,9 @@
                     </info>
                 </step>
                 <step>
-                    <cmd>Comparez votre fichier leçon2/l_concept_images_tableaux_exercice_debut.dita avec
-                        l'exemple de fichier lesson2/l_concept_images_tableaux_exercice.dita.</cmd>
+                    <cmd>Comparez votre fichier leçon2/l_concept_images_tableaux_exercice_debut.dita
+                        avec l'exemple de fichier
+                        lesson2/l_concept_images_tableaux_exercice.dita.</cmd>
                 </step>
             </steps>
         </taskbody>

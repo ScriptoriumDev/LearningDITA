@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- This file is part of the DITA Training project hosted on
      github.com. See the accompanying LICENSE file for
-     applicable licenses.--> 
+     applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_hrm_xjh_1t">
     <title>Ajouter des éléments de base à un concept</title>
@@ -184,14 +184,14 @@ le canard colvert est généralement considéré comme le plus gros en raison de
    &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
-                    <info>L'élément &lt;note> est utilisé pour ajouter des mises en garde, telles que
-                        des notes, des alertes ou des avertissements, au concept.
-                        L'élément &lt;note> que vous venez de créer suit la meilleure pratique consistant à
+                    <info>L'élément &lt;note> est utilisé pour ajouter des mises en garde, telles
+                        que des notes, des alertes ou des avertissements, au concept. L'élément
+                        &lt;note> que vous venez de créer suit la meilleure pratique consistant à
                         encadrer le texte avec un élément &lt;p>.</info>
                 </step>
                 <step>
-                    <cmd>Comparez votre fichier leçon1/l_nouveau_concept_debut.dita avec le fichier d'exemple
-                    leçon1/l_nouveau_concept.dita.</cmd>
+                    <cmd>Comparez votre fichier leçon1/l_nouveau_concept_debut.dita avec le fichier
+                        d'exemple leçon1/l_nouveau_concept.dita.</cmd>
                 </step>
             </steps>
         </taskbody>
@@ -201,33 +201,33 @@ le canard colvert est généralement considéré comme le plus gros en raison de
         <taskbody>
             <steps id="steps_r11_1kx_dt">
                 <step>
-                    <cmd>Ouvrez le fichier leçon1/l_nouveau_concept_exercice_debut.dita et utilisez le 
-                        pour convertir le contenu suivant <xref
+                    <cmd>Ouvrez le fichier leçon1/l_nouveau_concept_exercice_debut.dita et utilisez
+                        le pour convertir en DITA le contenu suivant de <xref
                             href="http://contentstrategy101.com/" format="html" scope="external"
-                            >Content Strategy 101</xref> en DITA</cmd>
+                            >Content Strategy 101</xref></cmd>
                     <info>
                         <pre outputclass="passthru"><![CDATA[
                             <hr />
-                            <h3>Content strategy and business goals</h3>
-                            <p>The issues to consider are:</p>
+                            <h3>Stratégie de contenu et objectifs commerciaux</h3>
+                            <p>Les questions à considérer sont :</p>
                             <ul>
-                            <li>The real cost of low-cost documentation</li>
-                            <li>How to create an efficient content development process</li>
-                            <li>Whether high-quality documentation can lower the cost of technical support</li>
-                            <li>The most cost-effective way to share technical content across the enterprise</li>
+                            <li>Le coût réel d'une documentation à faible coût.</li>
+                            <li>Comment créer un processus de développement de contenu efficace.</li>
+                            <li>Si une documentation de haute qualité peut réduire le coût de l'assistance technique.</li>
+                            <li>Le moyen le plus rentable de partager du contenu technique à l'échelle de l'entreprise.</li>
                            </ul> 
-                           <p><strong>Note:</strong> Ignoring content can have cost implications across the organization.</p>
-                           <p>To implement your project and improve your chances of success, we recommend following this sequence:</p>
+                           <p><strong>Note:</strong> Ignorer le contenu peut avoir d'énormes répercussions sur les coûts à l'échelle de l'organisation.</p>
+                           <p>Pour réaliser votre projet et améliorer vos chances de succès, nous vous recommandons de suivre ces étapes :</p>
                            <ol>
-                           <li>Identify and interview stakeholders.</li>
-                           <li>Establish implementation goals and metrics.</li>
-                           <li>Define roles and responsibilities.</li>
-                           <li>Establish timelines and milestones.</li>
-                           <li>Build the content creation system.</li>
-                           <li>Convert legacy content.</li>
-                           <li>Deliver content.</li>
-                           <li>Capture project knowledge.</li>
-                           <li>Ensure long-term success.</li>
+                           <li>Identifier et interviewer les parties prenantes.</li>
+                           <li>Établir des objectifs et des paramètres de mise en œuvre.</li>
+                           <li>Définir les rôles et les responsabilités.</li>
+                           <li>Établir des échéanciers et des jalons.</li>
+                           <li>Construire le système de création de contenu.</li>
+                           <li>Convertir le contenu existant.</li>
+                           <li>Livrer le contenu.</li>
+                           <li>Capturer les connaissances du projet.</li>
+                           <li>Assurer le succès à long terme.</li>
                            </ol>
                            <hr />
                             ]]></pre>
@@ -235,8 +235,8 @@ le canard colvert est généralement considéré comme le plus gros en raison de
                     <info/>
                 </step>
                 <step>
-                    <cmd>Comparez votre fichier leçon1/l_nouveau_concept_exercice_debut.dita avec 
-                    le fichier d'exemple leçon1/l_nouveau_concept_exercice.dita.</cmd>
+                    <cmd>Comparez votre fichier leçon1/l_nouveau_concept_exercice_debut.dita avec le
+                        fichier d'exemple leçon1/l_nouveau_concept_exercice.dita.</cmd>
                 </step>
             </steps>
         </taskbody>
