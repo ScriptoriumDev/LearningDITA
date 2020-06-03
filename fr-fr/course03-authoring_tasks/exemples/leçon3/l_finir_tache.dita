@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="ma_premiere_tache">
+    <title>Observer les canards sauvages</title>
+    <shortdesc/>
+    <taskbody>
+        <prereq>
+            <p>Avant d'aller observer les canards sauvages, assurez-vous que vous savais à quoi
+                ressemble un canard sauvage.</p>
+        </prereq>
+        <context>
+            <p>Observer les canards sauvage peut être une activité calmante et relaxante.</p>
+            <p>Lisez ceci pour en apprendre plus sur ce dont vous avez besoin pour avoir une
+                expérience d'observation des canards satisfaisante.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Sélectionner un emplacement pour observer les canards.</cmd>
+                <info>
+                    <p>En général, vous trouverez des canards dans des endroits sauvages, près de
+                        l'eau.</p>
+                </info>
+            </step>
+            <step>
+                <cmd>Choisissez un guide de terrain pour identifier les canards.</cmd>
+                <choices id="choices_z5d_2mc_bt">
+                    <choice>De nombreux observateurs de canards modernes s'appuient sur le guide
+                        Sibley</choice>
+                    <choice>Celui préféré par les traditionalistes est le guide Peterson</choice>
+                </choices>
+            </step>
+            <step>
+                <cmd>Trouvez de bonnes optiques</cmd>
+                <choicetable frame="all" relcolwidth="1.0* 1.0*" id="choicetable_bwc_czc_bt">
+                    <chhead>
+                        <choptionhd>
+                            <p>Type</p>
+                        </choptionhd>
+                        <chdeschd>
+                            <p>Avantages</p>
+                        </chdeschd>
+                    </chhead>
+                    <chrow>
+                        <choption>
+                            <p>Jumelles</p>
+                        </choption>
+                        <chdesc>
+                            <p>Large champ de vision, permet des observations rapides</p>
+                        </chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>
+                            <p>Téléscope d'observation</p>
+                        </choption>
+                        <chdesc>
+                            <p>Plus fort grossissement, meilleure collecte de la lumière</p>
+                        </chdesc>
+                    </chrow>
+                </choicetable>
+            </step>
+            <step>
+                <cmd>Aller observer des oiseaux.</cmd>
+                <substeps id="substeps_hmn_vvc_bt">
+                    <substep>
+                        <cmd>Promenez-vous.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Lorsque vous en voyez un, arrêtez-vous.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Identifiez-le.</cmd>
+                    </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd>Lorsque vous avez identifié un canard, écrivez une note dans votre guide.</cmd>
+                <stepxmp>
+                    <lines>Canards,
+                        ☒ Arlequin
+                        ☐ Colvert
+                        ☐ Érismature rousse
+                        ☐ Carolin</lines>
+                </stepxmp>
+                <stepresult><p>Vous aurez désormais une trace que vous pourrez conserver pour le
+                        reste de votre vie.</p></stepresult>
+            </step>
+            <stepsection>Lorsque vous avez identifier le canard, vous pouvez passer du temps à noter
+                son comportement.</stepsection>
+            <step>
+                <note>Ne perturbez pas les canards pendant que vous observez leur comportement ;
+                    leur comportement peut être différent en présence d'humains.</note>
+                <cmd>Observez comment les canards interagissent les uns avec les autres, ce qu'ils
+                    mangent, ou comment et quand ils lissent leurs plumes.</cmd>
+            </step>
+        </steps>
+        <result>
+            <p>Le grand air, l'exercice et l'excitation d'observer des canards sauvages devraient
+                vous donner une sensation de bien-être accrue.</p>
+        </result>
+        <example>
+            <p>Ne vous attendez pas à ce type de comportement : <xref href="http://dai.ly/x2j6pt1"
+                    format="html" scope="external">Daffy Duck</xref>
+            </p>
+            <!--Could also use: https://youtu.be/nAA3DCEkVHs-->
+        </example>
+        <postreq>
+            <ul>
+                <li>Regardez à nouveau les canards avec un appareil photo</li>
+                <li>Cherchez d'autres oiseaux</li>
+            </ul>
+        </postreq>
+    </taskbody>
+</task>

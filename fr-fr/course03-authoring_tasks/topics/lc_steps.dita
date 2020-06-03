@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_kw5_5ls_zs">
+    <title>First steps</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-08-12"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>After the &lt;context> element in your task topic, add a &lt;steps> element. </p>
+            <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+&lt;task id="task_topic">
+   &lt;title>&lt;/title>
+   &lt;taskbody>
+      &lt;prereq>
+      &lt;/prereq>
+      &lt;context>
+      &lt;/context>
+<ph outputclass="newchanged">      &lt;steps>
+      &lt;/steps></ph>
+   &lt;/taskbody>
+&lt;/task></pre>
+            <p>As with the &lt;prereq> and &lt;context> elements, the &lt;taskbody> can contain only
+                one &lt;steps> element. In keeping with the spirit of DITA that a topic should
+                contain a single idea, restricting you to a single &lt;steps> element helps ensure
+                that the topic only describes how to perform one task.</p>
+            <p>Inside the &lt;steps> element, add a &lt;step> element. </p>
+            <pre>...
+      &lt;steps>
+<ph outputclass="newchanged">         &lt;step>
+         &lt;/step></ph>
+      &lt;/steps>
+...</pre>
+            <p>The &lt;steps> element must contain at least one &lt;step> element. Most DITA-aware
+                editors automatically add a first &lt;step> element to the &lt;steps> element. </p>
+            <p>In DITA, the content of each individual step is also highly controlled. The action
+                the reader is to perform is contained in a &lt;cmd> element, which is a required
+                element in &lt;step>. In most cases, &lt;cmd> contains a single sentence, which is a
+                direct instruction to the reader to perform some action.</p>
+            <p>Inside the &lt;step> element, add a &lt;cmd> element  (this is read as
+                “command”).</p>
+            <pre>...
+      &lt;steps>
+         &lt;step>
+<ph outputclass="newchanged">            &lt;cmd>&lt;/cmd></ph>
+         &lt;/step>
+      &lt;/steps>
+...</pre>
+            <p>Because &lt;step> must contain exactly one &lt;cmd> element, most DITA-aware editors
+                add the &lt;cmd> element when they add the &lt;step> element.  </p>
+            <p>Finally! We have a place to put some actual content. Within the &lt;cmd> element add
+                the first instruction to the reader.  </p>
+            <pre>...
+      &lt;steps>
+         &lt;step>
+<ph outputclass="newchanged">            &lt;cmd><ph outputclass="newchanged">Do something!</ph>&lt;/cmd></ph>
+         &lt;/step>
+      &lt;/steps>
+...</pre>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_a2s_dvs_zs">
+        <title/>
+    </task>
+</learningContent>

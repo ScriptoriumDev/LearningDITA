@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_xnm_d2x_kt">
+    <title>Tâches strictes ou générales</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-09-21"/>
+            <revised modified="2020-04-23"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcIntro>
+            <p>La spécification DITA définie deux types de tâches : une tâche stricte et une tâche
+                générale.</p>
+            <p>Les principaux éléments dans le corps d'une tâche stricte doivent apparaître selon un
+                ordre spécifique. La tâche stricte ne peut contenir qu'un seul jeu d'étapes. En
+                outre, les étapes que le lecteur effectue doivent utiliser des éléments spécifiques
+                (&lt;steps> et &lt;step>).</p>
+            <p>L'ordre des éléments dans une tâche générale n'est pas aussi rigide que dans une
+                tâche stricte. La tâche générale autorise un ou plusieurs ensembles d'étapes. Les
+                éléments utilisés pour les étapes peuvent être presque tous les éléments autorisés
+                dans un élément DITA &lt;section>.</p>
+            <p>Bien qu'il puisse sembler plus facile de rédiger une tâche générale, il existe un
+                certain nombre de bonnes raisons pour utiliser la tâche stricte. Il s'agit notamment
+                de :</p>
+            <ul id="ul_efs_sfx_kt">
+                <li>La cohérence. Toutes les tâches figurant dans votre ou vos documents auront la
+                    même organisation. </li>
+                <li>La fiabilité. L'organisation étant cohérente, les lecteurs peuvent compter sur
+                    le fait de trouver des informations similaires au même endroit.</li>
+                <li>La facilité de rédaction. Les éditeurs DITA peuvent orienter les auteurs vers
+                    l'élément qu'ils doivent ajouter ensuite.</li>
+                <li>La simplicité. La plupart des tâches ne nécessitent qu'un ensemble d'étapes
+                    numérotées.</li>
+                <li>La sémantique. L'utilisation des éléments &lt;steps> et &lt;step> dans la tâche
+                    stricte a une grande valeur sémantique. </li>
+            </ul>
+            <p>Ce cours se concentre sur la tâche stricte, avec l'espoir qu'une fois que vous serez
+                familiarisé avec les éléments d'une tâche stricte, il vous sera facile d'appliquer
+                ces connaissances à la tâche générale.</p>
+            <p>Pour plus d'information sur la tâche générale, veuillez vous référer à la <xref
+                    href="http://docs.oasis-open.org/dita/v1.2/os/spec/DITA1.2-spec.html"
+                    format="html" scope="external">spécification DITA</xref> et à l'élément <xref
+                    href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/steps-informal.html#steps-informal"
+                    format="html" scope="external">&lt;steps-informal></xref>.</p>
+        </lcIntro>
+    </learningContentbody>
+</learningContent>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_hrm_xjh_1t">
+    <title>Ajouter des éléments d'introduction à une tâche</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-08-12"/>
+            <revised modified="2020-04-25"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Les éléments &lt;prereq> (pré-requis) et &lt;context> sont optionnels et introduisent
+                le contenu didactique dans une tâche.</p>
+            <p>L'élément &lt;prereq> décrit ce dont le lecteur a besoin avant de réaliser la tâche.
+                Ce qui peut comprendre :</p>
+            <ul id="ul_glj_1pb_bt">
+                <li>Des choses que le lecteur doit avoir, comme des jumelles ou un smartphone avec
+                    une application d'identification des oiseaux</li>
+                <li>Des informations que le lecteur doit avoir, tel une connaissance de schémas
+                    migratoires </li>
+                <li>Les tâches que le lecteur doit avoir accompli auparavant, tel qu'avoir terminé
+                    un cours de base sur l'identification des canards.</li>
+            </ul>
+            <p>L'élément &lt;context> fournit des informations contextuelles concernant la tâche,
+                tel que l'objectif de la tâche et ce que le lecteur y gagnera. Le contenu de
+                l'élément &lt;context> doit être relativement court ; si vous avez besoin de fournir
+                une information contextuelle plus détaillée, la création d'un concept serait à
+                envisager.</p>
+            <p>Bien que &lt;prereq> et &lt;context> sont optionnels, ils apparaissent dans l'ordre -
+                l'élément &lt;prereq> doit venir avant l'élément &lt;context>.</p>
+            <p><xref href="https://youtu.be/Bhaeafcemis" format="html" scope="external">Vidéo :
+                    Enchaînement strict des éléments d'introduction dans une tâche DITA</xref></p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_i3g_jkh_1t">
+        <title/>
+        <taskbody>
+            <steps id="steps_f5k_kkh_1t">
+                <step>
+                    <cmd>Continuez de travailler avec le fichier l_tache_debut.dita.</cmd>
+                </step>
+                <step>
+                    <cmd>À l'intérieur de l'élément &lt;taskbody>, ajouter un élément
+                        &lt;prereq>.</cmd>
+                    <stepxmp><pre>&lt;taskbody>
+<ph outputclass="newchanged">   &lt;prereq>
+         &lt;p>Avant d'aller observer les canards sauvages, assurez-vous que vous savais à quoi ressemble un canard sauvage.&lt;/p>
+   &lt;/prereq></ph>
+
+&lt;/taskbody></pre></stepxmp>
+                </step>
+                <step>
+                    <cmd>Après l'élément &lt;prereq>, ajouter un élément &lt;context>.</cmd>
+                    <stepxmp>
+                        <pre>&lt;taskbody>
+   ...
+   &lt;/prereq>
+<ph outputclass="newchanged">   &lt;context>
+      &lt;p>Observer les canards sauvage peut être une activité calmante et relaxante. &lt;/p>
+      &lt;p>Lisez ceci pour en apprendre plus sur ce dont vous avez besoin pour avoir une expérience
+         d'observation des canards satisfaisante.&lt;/p>
+   &lt;/context></ph>
+
+&lt;/taskbody></pre>
+                    </stepxmp>
+                </step>
+            </steps>
+            <result>Votre tâche a maintenant un titre, un ensemble de pré-requis et un contexte. La
+                leçon suivante couvre la façon d'ajouter des étapes à une tâche.</result>
+        </taskbody>
+    </task>
+    <task id="task_ynz_fgy_3t">
+        <title>Exercice</title>
+        <taskbody>
+            <steps id="steps_r11_1kx_dt">
+                <step>
+                    <cmd>Ouvrez le fichier leçon1/l_nouvelle_tache_exercice_debut.dita et
+                        utilisez-le pour convertir le contenu suivant, provenant de <xref
+                            href="http://contentstrategy101.com/" format="html" scope="external"
+                            >Content Strategy 101</xref>, en DITA :</cmd>
+                    <info>
+                        <pre outputclass="passthru"><![CDATA[
+<hr />
+<h3>Créer une étude de cas pour votre statégie de contenu</h3
+<p><strong>Avant de commencer :</strong> Evaluez minutieusement votre contenu et votre processus de développement de contenu afin de comprendre l'écart entre la stratégie dont vous avez besoin et la stratégie actuellement en place.</p>
+<p><strong>Au sujet de cette tâche :</strong> Ces instructions vous montreront comment élaborer une étude de cas que vous pourrez utiliser pour montrer que votre entreprise a besoin d'une nouvelle stratégie de contenu.</p>
+<p>Vous constaterez peut-être que votre entreprise pourrait économiser de l'argent sur la production de contenu dans les domaines suivants :</p>
+<ul>
+<li>Automatisation</li>
+<li>Réutilisation</li>
+<li>Localisation</li>
+</ul> 
+<hr />
+]]></pre>
+                    </info>
+                    <info/>
+                </step>
+                <step>
+                    <cmd>Utilisez le fichier leçon1/l_nouvelle_tache_exercice.dita pour vérifier votre fichier
+                    leçon1/l_nouvelle_tache_exercice_debut.dita.</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

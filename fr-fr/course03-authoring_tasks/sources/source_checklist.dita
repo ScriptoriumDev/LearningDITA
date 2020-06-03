@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="my_first_task">
+    <title>Image source pour la Checklist image</title>
+    <shortdesc>Ce fichier contient l'élément des lignes qui constitue la checklist pour
+        checklist.png.</shortdesc>
+    <taskbody>
+        <context id="context_ks5_rmh_vw">Avant de prendre une capture d'écran, désactivez toutes les
+            balises (Oxygen).</context>
+        <steps>
+            <step>
+                <cmd>Lorsque vous avez identifié un canard, écrivez une note dans votre guide.</cmd>
+                <stepxmp>
+                    <lines>Canards,
+☒ Arlequin
+☐ Colvert
+☐ Érismature rousse
+☐ Carolin</lines>
+                </stepxmp>
+                <stepresult><p>Vous aurez désormais une trace que vous pourrez conserver pour le
+                        reste de votre vie.</p></stepresult>
+            </step>
+            <stepsection>Lorsque vous avez identifier le canard, vous pouvez passer du temps à noter
+                son comportement.</stepsection>
+            <step>
+                <note>Ne perturbez pas les canards pendant que vous observez leur comportement ;
+                    leur comportement peut être différent en présence d'humains.</note>
+                <cmd>Observez comment les canards interagissent les uns avec les autres, ce qu'ils
+                    mangent, ou comment et quand ils lissent leurs plumes.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

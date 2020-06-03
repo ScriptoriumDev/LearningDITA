@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_qrk_dnq_bt">
+    <title>Les meilleures pratiques pour les tâches</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-08-18"/>
+            <revised modified="2020-05-23"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup id="lcObjectivesGroup_ipl_14q_bt">
+                <lcObjective>Identifier les meilleures pratiques pour la rédaction des topics de
+                    type tâche</lcObjective>
+                <lcObjective>Montrer des exemples des meilleures pratiques dans un topic de type
+                    tâche</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="1"/>
+        </lcDuration>
+        <lcInstruction>
+            <p>Cette leçon couvre les meilleures pratiques pour la rédaction de topics de type
+                tâche. Vous apprendrez à planifier des tâches, fournir un contexte approprié à une
+                tâche, utiliser un nombre raisonnable d'étapes, utiliser de façon approprié les
+                sous-étapes et de garder un oeil sur les opportunités de réutilisation.</p>
+        </lcInstruction>
+    </learningContentbody>
+    <related-links>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Syntax_and_Markup/c_Two_Tasks_on_One_Task_Topic.html"
+            format="html" scope="external">
+            <linktext>Guide de style DITA, Retreindre les tâches à seulement une procédure</linktext>
+        </link>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Syntax_and_Markup/c_Complex_Nested_Tasks.html"
+            format="html" scope="external">
+            <linktext>Guide de style DITA, Tâches imbriquées complexes</linktext>
+        </link>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Content_Reuse/c_Management_of_conrefs.html"
+            format="html" scope="external">
+            <linktext>Guide de style DITA, Trouver des éléments de ré-utilisation</linktext>
+        </link>
+    </related-links>
+</learningContent>
