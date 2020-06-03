@@ -1,37 +1,38 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="utf-8"?>
 <!-- This file is part of the DITA Training project hosted on
      github.com. See the accompanying LICENSE file for
-     applicable licenses.--> 
+     applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_ajf_qch_1t">
     <title>Fichiers d'exemples et utilisation</title>
     <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
         <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
             Scriptorium</author>
         <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
             format="html">Marine Martin-Guillerez (Traductrice)</author>
         <critdates>
-            <created date="2015-08-19"/>
-            <revised modified="2019-10_18"/>
+            <created date="2015-08-14"/>
+            <revised modified="2020-04-21"/>
         </critdates>
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>Téléchargez <xref keyref="sample_file" format="zip" scope="external">
-                    exemples_concept.zip</xref> maintenant. Il contient les fichiers d'exemple pour
-                le cours entier de Rédiger des topics DITA de type concept. Extrayez le contenu et
-                placez-le dans un répertoire auquel vous avez facilement accès.</p>
-            <p>À l'intérieur du dossier d'exemples, vous trouverez les dossiers suivants,
-                correspondant aux leçons de ce cours: leçon1, leçon2, leçon3, et leçon4.</p>
-            <p>Dans chaque dossier, vous trouverez quatre fichiers DITA :</p>
+            <draft-comment author="simonbate">Vérifiez que cela fonctionne dans les transformations. </draft-comment>
+            <p>Téléchargez <xref
+                    href="http://www.learningdita.com/wp-content/uploads/2018/01/taches_exemples.zip"
+                    format="zip" scope="external">taches_exemples.zip</xref> maintenant. Il contient
+                les fichiers d'exemple pour le cours entier de Rédiger des topics DITA de type tâche. Extrayez
+                le contenu et placez-le dans un répertoire auquel vous avez facilement accès.</p>
+            <p>À l'intérieur du dossier d'exemples, vous trouverez le fichier l_tache_debut.dita, que vous utiliserez
+                pour compléter les exercices du cours. Vous trouverez également les dossiers suivants,
+                correspondant aux leçons de ce cours: leçon1, leçon2 et leçon3.</p>
+            <p>Dans chaque dossier, vous trouverez trois fichiers DITA :</p>
             <ul id="ul_lx2_fj2_2t">
                 <li>
-                    <p>l_<i>nomfichier</i>_debut.dita : Le fichier exemple vide auquel vous
-                        ajouterez du contenu au fur et à mesure que vous suivrez chaque leçon.</p>
-                </li>
-                <li>
                     <p>l_<i>nomfichier</i>.dita: La version complète du fichier exemple que vous
-                        pouvez utiliser pour vérifier votre travail.</p>
+                        pouvez utiliser pour vérifier votre travail durant chaque leçon.</p>
                 </li>
                 <li>
                     <p>l_<i>nomfichier</i>_exercice_debut.dita: Le fichier vide auquel vous
@@ -62,6 +63,7 @@
                 différences entre le travail en vue auteur, qui présente le contenu de DITA dans une
                 interface visuelle conviviale, et le travail en vue texte, qui affiche le code
                 DITA.</p>
+            <!--<p>The sample files for AuthoringDITA task topics are in the zip file task_samples.zip. Download this file to a location on your hard drive that you’ll remember, then extract the contents to a folder. </p><p>The exercises in this course follow in sequence, each exercise builds on the work completed in the previous exercise. You can use the first sample file as a starting point for the exercises in this course.</p><p>Use the subsequent sample files to check your work. If you reach a point where your exercise file doesn’t match the examples, or is broken for any reason, you can use the sample file from the previous exercise to resume your work. </p>-->
         </lcInstruction>
     </learningContentbody>
 </learningContent>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_kqs_rks_zs">
+    <title>Créer les étapes</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-08-12"/>
+            <revised modified="2020-04-30"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup id="lcObjectivesGroup_e2g_sks_zs">
+                <lcObjective>Spécifier l'emplacement de l'élément &lt;steps> dans la
+                    &lt;taskbody></lcObjective>
+                <lcObjective>Identifier les éléments de base que nous trouvons dans une étape et
+                    comment ils sont utilisés</lcObjective>
+                <lcObjective>Différencier les éléments &lt;choices> et
+                    &lt;choicetable></lcObjective>
+                <lcObjective>Comprendre comment créer des sous-étapes et comment elles diffèrent des
+                    étapes</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="1"/>
+        </lcDuration>
+        <lcInstruction>
+            <p>L'élément &lt;steps> (on notera le pluriel) contient des éléments &lt;step>
+                (singulier). Les instructions d'une étape individuelle se trouvent à l'intérieur des
+                éléments &lt;step>.</p>
+            <p>Dans une sortie générée à partir d'un topic de type tâche, les étapes sont souvent
+                affichées sous forme de liste numérotée. Les libellés identifiant chaque étape (tel
+                qu'un nombre et une marque de ponctuation ou le mot « Étape » suivi d'un nombre)
+                sont déterminés par le générateur de sortie. Quand vous écrivez une étape, la
+                plupart des éditeurs DITA affichera les numéros d'étape à côté de chaque étape.</p>
+            <note>
+                <p>Cette leçon couvre l'utilisation de base de ces éléments. Pour les spécifications
+                    complètes de chaque élément, se référer à la <xref
+                        href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/task.html"
+                        format="html" scope="external">Norme OASIS DITA Version 1.2</xref>.</p>
+            </note>
+        </lcInstruction>
+    </learningContentbody>
+    <related-links>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Syntax_and_Markup/c_Semantics_in_Steps.html"
+            format="html" scope="external">
+            <linktext>Guide de style DITA, Sémantique dans les étapes</linktext>
+        </link>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Syntax_and_Markup/c_The_command_Element.html"
+            format="html" scope="external">
+            <linktext>Guide de style DITA, L'élément command</linktext>
+        </link>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Syntax_and_Markup/c_Required_and_Optional_Steps.html"
+            format="html" scope="external">
+            <linktext>Guide de style DITA, Étapes requises et optionnelles</linktext>
+        </link>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Syntax_and_Markup/c_Choice_Tables.html"
+            format="html" scope="external">
+            <linktext>Guide de style DITA, Tables de choix</linktext>
+        </link>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Syntax_and_Markup/c_Sub_Steps.html"
+            format="html" scope="external">
+            <linktext>Guide de style DITA, Sous-étapes dans les étapes</linktext>
+        </link>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Syntax_and_Markup/c_Notes_in_Steps.html"
+            format="html" scope="external">
+            <linktext>Guide de style DITA, Notes et information extra dans une étape</linktext>
+        </link>
+    </related-links>
+</learningContent>

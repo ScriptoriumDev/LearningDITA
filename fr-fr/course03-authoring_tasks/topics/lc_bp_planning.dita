@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_fry_knq_bt">
+    <title>Planifier les tâches</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-09-24"/>
+            <revised modified="2020-05-24"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcIntro>
+            <p>Il est tentant de se lancer dans la création de tâches, d'écrire jusqu'à ce que vous
+                pensiez que c'est fait. Cependant, cette approche risque de vous faire passer à côté
+                de tâches importantes, entraînent une couverture incomplète.</p>
+            <p>Plutôt que de créer des tâches au fur et à mesure qu'elles vous apparaissent, une
+                bien meilleure stratégie est de planifier l'ensemble des tâches que vous devez
+                documenter.</p>
+            <p>Il y a des nombreuses ressources et approches pour l'analyse des tâches. Les points
+                essentiels pour toutes sont de :</p>
+            <ol id="ol_ovn_lhj_nt">
+                <li>Collecter l'information sur ce que le lecteur devrait accomplir.</li>
+                <li>Identifier les tâches que vous devez documenter.</li>
+                <li>Comprendre le périmètre de ces tâches..</li>
+                <li>Considérer les compétences et besoins du lecteur.</li>
+                <li>Planifier vos topics de type tâche en fonction.</li>
+            </ol>
+            <p>Une fois que vous avez planifié les tâches, il est bon que tous les acteurs concernés
+                examinent la liste complète des tâches. Cela devrait inclure les rédacteurs, les
+                éditeurs, les experts en la matière et autres contributeurs de contenu, les chefs de
+                projets et toute autre personne qui participe à votre processus de développement de
+                contenu. Cette étape est importante, parce que plus vous avez de contributeurs,
+                moins vous avez de chance de passer à côté d'une tâche importante.</p>
+            <p>La liste des tâche peut vous aider à planifier vos topics de type concept, référence
+                et entrée de glossaire. Pour chaque tâche de la liste, réfléchissez aux concepts et
+                aux informations de référence nécessaires pour soutenir cette tâche. Vous pouvez
+                également identifier les termes dans la tâche qui feront de bons candidats pour les
+                topics de type entrée de glossaire.</p>
+        </lcIntro>
+    </learningContentbody>
+</learningContent>
