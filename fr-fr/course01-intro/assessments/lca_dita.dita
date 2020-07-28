@@ -3,7 +3,7 @@
      github.com. See the accompanying LICENSE file for
      applicable licenses.-->
 <!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
-<learningAssessment id="assessment_qn1_dd1_wr">
+<learningAssessment id="assessment_qn1_dd1_wr" xml:lang="fr-FR">
  <title/>
  <prolog>
   <author>Sharon Burton</author>
@@ -18,7 +18,7 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcSingleSelect id="5">
-    <lcQuestion>DITA est un standard ouvert, ce qui signifie (choisissez une réponse) :</lcQuestion>
+    <lcQuestion>DITA est un standard ouvert, ce qui signifie&nbsp;: (choisir une réponse)</lcQuestion>
     <lcAnswerOptionGroup>
      <lcAnswerOption>
       <lcAnswerContent>Tout le monde peut l'utiliser sans payer.</lcAnswerContent>
@@ -27,7 +27,6 @@
      <lcAnswerOption>
       <lcAnswerContent>Lorsque les mises à jour sont publiées, vous devez effectuer une mise à
        niveau et payer ou perdre l'accès à vos informations.</lcAnswerContent>
-
      </lcAnswerOption>
      <lcAnswerOption>
       <lcAnswerContent>Les mises à jour sont contrôlées par l'Organisation Internationale de

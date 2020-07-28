@@ -3,10 +3,10 @@
      github.com. See the accompanying LICENSE file for 
      applicable licenses.-->
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
-<map>
+<map xml:lang="fr-FR">
  <topicref href="../topics/lc_dita_intro.dita">
   <topicmeta lockmeta="yes">
-   <data name="lesson_id" value="401"/>
+   <data name="lesson_id" value="61"/>
   </topicmeta>
   <topicref href="../topics/lc_markup.dita"/>
   <topicref href="../topics/lc_structure.dita"/>
@@ -26,5 +26,4 @@
    <topicref href="../assessments/lca_open.dita"/>
   </topicref>
  </topicref>
-
 </map>

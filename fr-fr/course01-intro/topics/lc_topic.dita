@@ -3,7 +3,7 @@
      github.com. See the accompanying LICENSE file for
      applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
-<learningContent id="content_a2s_3wz_vr">
+<learningContent id="content_a2s_3wz_vr" xml:lang="fr-FR">
     <title>Qu'est-ce qu'un topic DITA ?</title>
     <shortdesc/>
     <prolog>
@@ -49,7 +49,7 @@
             <!--<p>Les thèmes contiennent des éléments. Les éléments sont les balises pour le contenu.</p>-->
             <p>Tous les topics DITA doivent avoir au moins un élément title et un attribut id à la
                 racine du thème. En d'autres termes, voici un topic DITA valide :</p>
-            <pre>&lt;topic id="sample">
+            <pre>&lt;topic id="exemple">
    &lt;title>Le titre du topic vient ici&lt;/title>
 &lt;/topic> </pre>
             <p>Cependant, un topic <i>utile</i> aura un contenu supplémentaire.</p>
