@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_ulh_pzf_vt" xml:lang="fr-FR">
+ <title>Refsyn</title>
+ <prolog>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+   Scriptorium</author>
+  <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+   format="html">Marine Martin-Guillerez (Traductrice)</author>
+  <critdates>
+   <created date="2015-10-28"/>
+   <revised modified="2020-06-14"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcSingleSelect id="lcSingleSelect_ulh_pzf_vt">
+    <lcQuestion>Lequel des éléments suivants est utilisé pour décrire la syntaxe d'une fonction ? (choisir une réponse)</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_ofq_scg_vt">
+     <lcAnswerOption>
+      <lcAnswerContent>&lt;refbody></lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>&lt;section></lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>&lt;refsyn></lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>&lt;cmdname></lcAnswerContent>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>&lt;refsyn> est utilisé pour décrire la syntaxe.</lcFeedbackIncorrect>
+   </lcSingleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

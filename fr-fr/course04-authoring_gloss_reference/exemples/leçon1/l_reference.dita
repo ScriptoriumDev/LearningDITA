@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="ma_premiere_ref">
+  <title>tNav</title>
+  <refbody>
+    <section>
+      <p>La commande <cmdname>tNav</cmdname> est utilisé dans la Base de données Canard pour
+        naviguer vers une table ou une vue différente.</p>
+    </section>
+    <refsyn>
+      <synph> -tNav <var>tNom</var> [tVue] </synph>
+    </refsyn>
+    <properties>
+      <prophead>
+        <proptypehd>Type</proptypehd>
+        <propvaluehd>Nom</propvaluehd>
+        <propdeschd>Description</propdeschd>
+      </prophead>
+      <property>
+        <proptype>Table</proptype>
+        <propvalue>dbo.DBBL</propvalue>
+        <propdesc>Canards de Barbarie</propdesc>
+      </property>
+      <property>
+        <proptype/>
+        <propvalue>dbo.DVNG</propvalue>
+        <propdesc>Canards plongeurs</propdesc>
+      </property>
+      <property>
+        <proptype/>
+        <propvalue>dbo.WHST</propvalue>
+        <propdesc>Canards siffleurs</propdesc>
+      </property>
+      <property>
+        <proptype>Vue</proptype>
+        <propvalue>regn.ne</propvalue>
+        <propdesc>Canards situés principalement dans le nord-est</propdesc>
+      </property>
+      <property>
+        <proptype/>
+        <propvalue>regn.se</propvalue>
+        <propdesc>Canards situés principalement dans le sud-est</propdesc>
+      </property>
+      <property>
+        <proptype/>
+        <propvalue>pttrn.migr</propvalue>
+        <propdesc>Canards organisés selon leur mode de migration</propdesc>
+      </property>
+    </properties>
+  </refbody>
+</reference>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_kh2_b21_rt" xml:lang="fr-FR">
+    <title>Créer des modèles</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-09-24"/>
+            <revised modified="2020-06-23"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcIntro>
+            <p>Lorsqu'un ouvrage de référence se compose de plusieurs topics - un pour chaque
+                commande, appel de fonction ou autre élément en série - chacun des topics doit
+                suivre la même organisation. Par exemple, chaque topic d'une référence de ligne de
+                commande peut contenir une brève description, la syntaxe de la commande, une
+                description des paramètres, une discussion approfondie, des exemples et des messages
+                d'erreur potentiels. Cela permet aux lecteurs de trouver systématiquement le même
+                type d'information dans la même zone de chaque topic.</p>
+            <p>Chacun de ces éléments doit être contenu dans l'élément &lt;section> dans l'élément
+                &lt;refbody>, avec un élément &lt;title> qui étiquette la section.</p>
+            <p>Si vous avez besoin de créer plusieurs de ces topics, envisagez de créer un modèle.
+                Un modèle est un topic DITA autonome qui ne contient pas beaucoup de contenu, mais
+                qui a la structure répétable nécessaire en place. Par exemple, vous pourriez créer
+                un topic référence qui contient chacune des sections et l'élément &lt;title>.
+                Ajoutez du texte dans chaque section en indiquant qu'il s'agit d'une section prévue. </p>
+            <note>Le modèle devra inclure un attribut id sur l'élément &lt;reference> ; assurez-vous
+                que les créateurs de contenu le sachent pour éviter de créer des ID en double. Une
+                façon de le faire est d'utiliser une valeur de substitution explicite pour
+                l'attribut id, comme id="DUMMY", afin que les créateurs de contenu sachent qu'il
+                faut le remplacer par une valeur valide. </note>
+        </lcIntro>
+    </learningContentbody>
+</learningContent>

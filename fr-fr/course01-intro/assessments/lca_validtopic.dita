@@ -4,7 +4,7 @@
      applicable licenses.-->
 
 <!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
-<learningAssessment id="assessment_dgl_qc1_wr_d">
+<learningAssessment id="assessment_dgl_qc1_wr_d" xml:lang="fr-FR">
  <title></title>
  <prolog>
   <author>Sharon Burton</author>
@@ -18,7 +18,7 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcSingleSelect id="1">
-    <lcQuestion>Pour être valide, un topic doit avoir (choisissez une réponse) :</lcQuestion>
+    <lcQuestion>Pour être valide, un topic doit avoir&nbsp;: (choisir une réponse)</lcQuestion>
     <lcAnswerOptionGroup>
      <lcAnswerOption>
       <lcAnswerContent>un élément title</lcAnswerContent>

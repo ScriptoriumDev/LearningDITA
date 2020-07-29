@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_jxk_pft_qt" xml:lang="fr-FR">
+    <title>Créer un topic de type référence</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-10-12"/>
+            <revised modified="2020-06-05"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup id="lcObjectivesGroup_tvl_vbh_1t">
+                <lcObjective>Comprendre les raisons de l'utilisation des topics de type
+                    référence</lcObjective>
+                <lcObjective>Connaître la structure de base d'un topic de type
+                    référence</lcObjective>
+                <lcObjective>Comprendre l'objectif des éléments &lt;refsyn> et
+                    &lt;properties></lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="45"/>
+        </lcDuration>
+        <lcIntro>
+            <p>Cette leçon montre comment créer un nouveau topic de type référence et comment
+                ajouter les premières éléments communs que l'on trouve dans un topic référence.</p>
+            <note>
+                <p>Cette leçon couvre l'utilisation de base des éléments référence. Pour les
+                    spécifications complètes de chaque élément, se référer à la <xref
+                        href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/reference.html"
+                        format="html" scope="external">norme OASIS DITA Version 1.2</xref>.</p>
+            </note>
+        </lcIntro>
+    </learningContentbody>
+    <related-links>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Topics_and_Information_Types/c_Reference.html"
+            format="html" scope="external">
+            <linktext>Guide de style DITA, Référence</linktext>
+        </link>
+    </related-links>
+</learningContent>

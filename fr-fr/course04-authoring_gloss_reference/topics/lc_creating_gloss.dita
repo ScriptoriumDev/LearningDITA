@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_gkg_w4t_qt" xml:lang="fr-FR">
+    <title>Créer une entrée de glossaire</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-10-12"/>
+            <revised modified="2020-06-29"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup id="lcObjectivesGroup_tvl_vbh_1t">
+                <lcObjective>Différencier un topic de type entrée de glossaire d'un topic de type
+                    groupe de glossaire</lcObjective>
+                <lcObjective>Comprendre la structure de base d'un topic de type entrée de
+                    glossaire</lcObjective>
+                <lcObjective>Ajouter des entrées de glossaire à un fichier carte DITA.</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="45"/>
+        </lcDuration>
+        <lcIntro>
+            <p>Cette leçon montre comment créer un nouveau topic de type entrée de glossaire et
+                groupe de glossaire et ajouter leurs éléments de base.</p>
+            <note>
+                <p>Cette leçon couvre l'utilisation de base des éléments entrée de glossaire. Pour les
+                spécifications complètes de chaque élément, se référer à la <xref
+                        href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/glossentry.html"
+                        format="html" scope="external">Norme OASIS DITA Version 1.2</xref>.</p>
+            </note>
+        </lcIntro>
+    </learningContentbody>
+    <related-links>
+        <link
+            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Topics_and_Information_Types/c_Glossaries.html"
+            format="html" scope="external">
+            <linktext>Guide de style DITA, Glossaires</linktext>
+        </link>
+    </related-links>
+</learningContent>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_n1m_vhg_vt" xml:lang="fr-FR">
+ <title>Éléments groupe de glossaire</title>
+ <prolog>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+   Scriptorium</author>
+  <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external" format="html"
+   >Marine Martin-Guillerez (Traductrice)</author>
+  <critdates>
+   <created date="2015-10-28"/>
+   <revised modified="2020-07-06"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody id="learningAssessmentbody_fyb_h3g_vt">
+  <lcInteraction>
+   <lcSingleSelect id="lcSingleSelect_czb_h3g_vt">
+    <lcQuestion>Combien d'éléments &lt;glossentry> peut contenir un élément &lt;glossgroup>&nbsp;?
+     (Choisissez une réponse)</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_szb_h3g_vt">
+     <lcAnswerOption>
+      <lcAnswerContent>Aucun</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Un</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Plus d'un</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Un ou plus</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>Un élément &lt;glossgroup> peut contenir un ou plusieurs éléments
+     &lt;glossentry>.</lcFeedbackIncorrect>
+   </lcSingleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

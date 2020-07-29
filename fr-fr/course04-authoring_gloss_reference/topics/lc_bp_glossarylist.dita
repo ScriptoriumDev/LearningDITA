@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_ilc_qbn_vt" xml:lang="fr-FR">
+    <title>Ajouter un glossaire à un bookmap</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-10-29"/>
+            <revised modified="2020-07-21"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Si vous organisez votre contenu à l'aide d'un bookmap, utilisez l'élément
+                &lt;booklists> (dans les éléments &lt;frontmatter> ou &lt;backmatter>) et ajoutez un
+                élément &lt;glossarylist> pour indiquer où le glossaire doit être généré dans la
+                sortie. </p>
+            <pre>&lt;booklists>
+   ...
+   &lt;glossarylist>
+      &lt;topicref href="glossaire.ditamap" format="ditamap"/>
+   &lt;/glossarylist>
+   ...
+&lt;/booklists></pre>
+            <p>Si vous avez besoin de pointer vers la carte DITA du glossaire, nous vous conseillons
+                d'utiliser un élément imbriqué &lt;topicref>, comme indiqué ici.</p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>
