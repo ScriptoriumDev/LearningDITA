@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glossgroup PUBLIC "-//OASIS//DTD DITA Glossary Group//EN" "glossgroup.dtd">
+<glossgroup id="termes_strategie_contenu">
+  <title>Termes de la stratégie de contenu</title>
+  <glossentry id="redaction_structuree">
+    <glossterm>rédaction structurée</glossterm>
+    <glossdef>Un environnement de création de contenu dans lequel la structure requise est appliquée
+      par le logiciel de création et où suivre le modèle n'est pas facultatif</glossdef>
+  </glossentry>
+  <glossentry id="contenu_structure">
+    <glossterm>contenu structuré</glossterm>
+    <glossdef>Des informations organisées de manière prévisible</glossdef>
+  </glossentry>
+  <glossentry id="contenu_recherchable">
+    <glossterm>contenu recherchable</glossterm>
+    <glossdef>Informations disponibles via une recherche sur Internet</glossdef>
+  </glossentry>
+  <glossentry id="contenu_consultable">
+    <glossterm>contenu consultable</glossterm>
+    <glossdef>Informations performantes pour les mots-clés pertinents</glossdef>
+  </glossentry>
+  <glossentry id="contenu_decouvrable">
+    <glossterm>contenu découvrable</glossterm>
+    <glossdef>Les informations ayant des liens entrants, notamment sur les médias sociaux</glossdef>
+  </glossentry>
+</glossgroup>
