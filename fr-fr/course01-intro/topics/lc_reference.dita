@@ -4,14 +4,15 @@
      applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_jcr_yn5_vr">
-    <title>Les topics Reference</title>
+    <title>Les rubriques Reference</title>
     <prolog>
         <author>Sharon Burton</author>
         <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe,
             Scriptorium</author>
         <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
             Scriptorium</author>
-        <author>Marine Martin-Guillerez (Traductrice)</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
         <critdates>
             <created date="2015-04-28"/>
             <revised modified="2019-08-18"/>
@@ -19,18 +20,18 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>Un topic reference répond à la question « Qu'est-ce ? ». Un topic reference contient
-                généralement des faits descriptifs, tels que la syntaxe d'une commande ou de l'appel
-                à une fonction API, un tableau répertoriant les caractéristiques opérationnelles et
-                les tolérances d'un périphérique, ou un tableau identifiant les éléments d'un écran
-                du logiciel.</p>
-            <p>Les topics Reference n'incluent pas d'étapes ou d'informations de fond. Les topics
-                Reference sont similaires à des entrées du dictionnaire ou fournissent uniquement
-                des faits.</p>
-            <p>Les éléments courants utilisé dans un topic Reference comprennent : <ul
+            <p>Une rubrique référence répond à la question « Qu'est-ce ? ». Une rubrique référence
+                contient généralement des faits descriptifs, tels que la syntaxe d'une commande ou
+                de l'appel à une fonction API, un tableau répertoriant les caractéristiques
+                opérationnelles et les tolérances d'un périphérique, ou un tableau identifiant les
+                éléments d'un écran du logiciel.</p>
+            <p>Les rubriques référence n'incluent pas d'étapes ou d'informations de fond. Les
+                rubriques référence sont similaires à des entrées du dictionnaire ou fournissent
+                uniquement des faits.</p>
+            <p>Les éléments courants utilisé dans une rubrique référence comprennent : <ul
                     id="ul_nj3_h45_vr">
-                    <li>&lt;refbody> (le corps du topic reference)</li>
-                    <li>&lt;section> (une subdivision dans le thème reference, avec un titre
+                    <li>&lt;refbody> (le corps de la rubrique référence)</li>
+                    <li>&lt;section> (une subdivision dans la rubrique référence, avec un titre
                         optionnel)</li>
                     <li>&lt;table> (une table)</li>
                     <li>&lt;fig> (une figure, y compris un titre optionnel)</li>
@@ -38,7 +39,7 @@
                     <li>&lt;refsyn> (un diagramme de syntaxe)</li>
                 </ul></p>
             <p>Vidéo : <xref href="https://www.youtube.com/watch?v=l2y-MbYf2a4" format="html"
-                    scope="external">Aperçu du code d'une thème reference DITA reference</xref></p>
+                    scope="external">Aperçu du code d'une rubrique référence DITA</xref></p>
         </lcInstruction>
     </learningContentbody>
 </learningContent>

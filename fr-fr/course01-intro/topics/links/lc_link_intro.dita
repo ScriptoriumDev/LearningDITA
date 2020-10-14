@@ -4,7 +4,7 @@
      applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_mbc_bsb_wr">
-    <title>Création de relations entre topics</title>
+    <title>Création de relations entre rubriques</title>
     <prolog>
         <author>Sharon Burton</author>
         <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe,
@@ -34,10 +34,10 @@
             </lcObjectivesGroup>
         </lcObjectives>
         <lcIntro>
-            <p>Les topics sont indépendants, mais le contenu d'un topic a souvent des liens avec
-                d'autres topics. Un fichier carte, par exemple, décrit la séquence et la hiérarchie
-                des topics d'un livrable.</p>
-            <p>Vous pouvez créer des relations entre topics de plusieurs façons différentes :</p>
+            <p>Les rubriques sont indépendantes, mais le contenu d'une rubrique a souvent des liens avec
+                d'autres rubriques. Un fichier carte, par exemple, décrit la séquence et la hiérarchie
+                des rubriques d'un livrable.</p>
+            <p>Vous pouvez créer des relations entre rubriques de plusieurs façons différentes :</p>
             <ul id="ul_kfz_xtb_wr">
                 <li>Fichiers carte</li>
                 <li>Conrefs</li>
@@ -49,20 +49,19 @@
     </learningContentbody>
     <related-links>
         <link
-            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Maps/c_DITA_Map_Files.html"
+            href="https://www.ixiasoft.com/documentation/DITA_Style_Guide/fr/Artefact/Maps/c_DITA_Map_Files.html"
             format="html" scope="external">
-            <linktext>Le Guide de Style DITA, Chapitre 2 (fichiers carte et tables de
-                relations)</linktext>
+            <linktext>Guide de style DITA, Les cartes DITA</linktext>
         </link>
         <link
-            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/c_Cross-referencing.html"
+            href="https://www.ixiasoft.com/documentation/DITA_Style_Guide/fr/Artefact/c_Cross-referencing.html"
             scope="external" format="html">
-            <linktext>Guide de Style DITA, Chapitre 6 (références croisées)</linktext>
+            <linktext>Guide de style DITA, Références croisées</linktext>
         </link>
         <link
-            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/c_Content_Re-use.html"
+            href="https://www.ixiasoft.com/documentation/DITA_Style_Guide/fr/Artefact/c_Content_Re-use.html"
             scope="external" format="html">
-            <linktext>Guide de Style DITA, Chapitre 7 (réutilisation du contenu)</linktext>
+            <linktext>Guide de style DITA, Réutilisation de contenu</linktext>
         </link>
     </related-links>
 </learningContent>

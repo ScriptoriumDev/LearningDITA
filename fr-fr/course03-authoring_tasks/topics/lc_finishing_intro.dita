@@ -3,7 +3,7 @@
      github.com. See the accompanying LICENSE file for
      applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
-<learningContent id="content_apv_sgk_bt">
+<learningContent id="content_apv_sgk_bt" xml:lang="fr-FR">
     <title>Terminer la tâche</title>
     <prolog>
         <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
@@ -40,20 +40,20 @@
                 <p>Cette leçon couvre l'utilisation de base de ces éléments. Pour les spécifications
                     complètes de chaque élément, se référer à la <xref
                         href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/task.html"
-                        format="html" scope="external">norme OASIS DITA Version 1.2</xref>.</p>
+                        format="html" scope="external">norme OASIS DITA version 1.2</xref>.</p>
             </note>
         </lcInstruction>
     </learningContentbody>
     <related-links>
         <link
-            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Language_and_Punctuation/c_Transitional_Information_in_Prerequisites.html"
+            href="https://www.ixiasoft.com/documentation/DITA_Style_Guide/fr/Artefact/Language_and_Punctuation/c_Transitional_Information_in_Prerequisites.html"
             format="html" scope="external">
-            <linktext>Guide de style DITA, Informations transitoires en blocs sémantiques</linktext>
+            <linktext>Guide de style DITA, Informations de transition dans les blocs sémantiques</linktext>
         </link>
         <link
-            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Syntax_and_Markup/c_Semantics_in_Steps.html"
+            href="https://www.ixiasoft.com/documentation/DITA_Style_Guide/fr/Artefact/Syntax_and_Markup/c_Semantics_in_Steps.html"
             format="html" scope="external">
-            <linktext>Guide de style DITA, La sémantique dans les étapes</linktext>
+            <linktext>Guide de style DITA, Sémantique des étapes</linktext>
         </link>
     </related-links>
 </learningContent>

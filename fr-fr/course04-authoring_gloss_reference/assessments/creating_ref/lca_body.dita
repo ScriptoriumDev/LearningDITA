@@ -20,8 +20,8 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcSingleSelect id="lcSingleSelect_eh4_bbb_dt">
-    <lcQuestion>Quel élément contient le contenu réel d'un topic de type référence ? (choisir un
-     élément)</lcQuestion>
+    <lcQuestion>Quel élément contient le contenu réel d'une référence ? (choisir une
+     réponse)</lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_fh4_bbb_dt">
      <lcAnswerOption>
       <lcAnswerContent>&lt;body></lcAnswerContent>
@@ -37,8 +37,8 @@
       <lcAnswerContent>&lt;refcontent></lcAnswerContent>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect>L'élément &lt;refbody> contient le contenu réel d'un topic de type
-     référence. </lcFeedbackIncorrect>
+    <lcFeedbackIncorrect>L'élément &lt;refbody> contient le contenu réel d'une
+     référence.</lcFeedbackIncorrect>
    </lcSingleSelect>
   </lcInteraction>
  </learningAssessmentbody>

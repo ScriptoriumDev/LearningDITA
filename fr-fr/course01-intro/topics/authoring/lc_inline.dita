@@ -33,7 +33,7 @@
                 pertinent.</p>
             <pre>&lt;p>Ceci est un paragraphe. &lt;/p>&lt;p>Un second paragraphe. &lt;/p></pre>
             <p>Les résultat dans la vue Auteur d'oXygen :</p>
-            <image placement="break" base="2015/07" href="../../media/authoring/parabreaks.png"
+            <image placement="break" base="2020/10" href="../../media/authoring/parabreaks.png"
                 id="image_z1k_rsl_2s"/>
             <p>Un <i>élément intégré</i> est un élément qui fournit un balisage à l'intérieur d'un
                 paragraphe, tel que &lt;tm> (marque déposée), &lt;i> (italique), &lt;xref>
@@ -45,7 +45,7 @@ ne sont pas &lt;i>pertinents&lt;/i>
 pour le formatage de la sortie.&lt;/p></pre>
             <p>oXygen ignore les sauts de ligne dans le code lorsque vous consultez la vue Auteur
                 :</p>
-            <image placement="break" base="2015/07" href="../../media/authoring/linebreaks.png"
+            <image placement="break" base="2020/10" href="../../media/authoring/linebreaks.png"
                 id="image_gn1_zxl_2s"/>
             <p>XML lui-même ne fait pas la distinction entre les éléments en bloc et les éléments
                 intégrés. Ils utilisent le même balisage, vous devez donc savoir quels éléments sont

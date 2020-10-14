@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_vwq_jlh_rs">
-    <title>Le type de thème générique</title>
+    <title>Le type de rubrique générique</title>
     <shortdesc/>
     <prolog>
         <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
             Scriptorium</author>
-        <author>Marine Martin-Guillerez (Traductrice)</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
         <critdates>
             <created date="2015-07-13"/>
             <revised modified="2019-08-18"/>
@@ -14,13 +15,13 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>Tous les types de topics DITA sont basés sur un seul type de topic générique. Le type
-                de topic générique est utilisé comme base pour créer les types de thèmes topics. De
-                nombreux éléments et organisations du topic générique sont également utilisés par
-                les types de topics spécifiques.</p>
-            <p>Tous les topics DITA ont cette structure générale : </p>
+            <p>Tous les types de rubriques DITA sont basés sur un seul type de rubrique générique.
+                Le type de rubrique générique est utilisé comme base pour créer les types de
+                rubriques. De nombreux éléments et organisations de la rubrique générique sont
+                également utilisés par les types de rubriques spécifiques.</p>
+            <p>Toutes les rubriques DITA ont cette structure générale : </p>
             <pre>&lt;topic id="sample">
-   &lt;title>Le titre du topic vient ici&lt;/title>
+   &lt;title>Le titre de la rubrique vient ici&lt;/title>
    &lt;shortdesc>Une courte description&lt;/shortdesc>
    &lt;body>
         <i>(La plupart des éléments viennent ici.)</i>
@@ -28,18 +29,19 @@
 &lt;/topic> </pre>
             <p>
                 <ul id="ul_wwr_1nh_rs">
-                    <li>L'élément &lt;shortdesc> (courte description) fourni un résumé du contenu du
-                        topic en 2-3 phrases.</li>
-                    <li>L'élément &lt;title> est le seul élément requis dans un topic.</li>
-                    <li>L'élément &lt;body> contient la majeure partie des informations du topic.
-                        Dans les types de topics spécifiques, l'élément body a un nom associé, tel
-                        que &lt;conbody> pour les concepts et &lt;taskbody> pour les tâches.</li>
+                    <li>L'élément &lt;shortdesc> (courte description) fourni un résumé du contenu de
+                        la rubrique en 2-3 phrases.</li>
+                    <li>L'élément &lt;title> est le seul élément requis dans une rubrique.</li>
+                    <li>L'élément &lt;body> contient la majeure partie des informations de la
+                        rubrique. Dans les types de rubriques spécifiques, l'élément body a un nom
+                        associé, tel que &lt;conbody> pour les concepts et &lt;taskbody> pour les
+                        tâches.</li>
                 </ul>
             </p>
-            <note>Bien que vous puissiez utiliser le type de topic générique pour la création de
-                contenu, il est préférable d’utiliser l’un des types de topics spécifiques, tels que
-                concept, tâche et référence.</note>
-            <p>Il existe d'autres éléments dans le type de topic générique, mais ce sont les plus
+            <note>Bien que vous puissiez utiliser le type de rubrique générique pour la création de
+                contenu, il est préférable d’utiliser l’un des types de rubriques spécifiques, tels
+                que concept, tâche et référence.</note>
+            <p>Il existe d'autres éléments dans le type de rubrique générique, mais ce sont les plus
                 courants. </p>
         </lcInstruction>
     </learningContentbody>

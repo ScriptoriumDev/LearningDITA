@@ -3,8 +3,8 @@
      github.com. See the accompanying LICENSE file for
      applicable licenses.--> 
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
-<learningContent id="content_hrm_xjh_1t_a">
-    <title>Créer un nouveau topic concept</title>
+<learningContent id="content_hrm_xjh_1t_a" xml:lang="fr-FR">
+    <title>Créer un nouveau concept</title>
     <prolog>
         <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
             Scriptorium</author>
@@ -17,12 +17,12 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>Les topics concept contiennent des éléments de base de DITA, tels que des
-                paragraphes, des listes, des images, des tableaux et bien d'autres. La plupart de
-                ces éléments peuvent également être utilisés dans les autres types de topic (tâche
-                et référence). La seule exception est l'élément &lt;conbody>, qui est spécifique au
-                type de topic concept.</p>
-            <p>Au minimum, le topic concept doit contenir un élément &lt;concept> racine (avec un
+            <p>Les concepts contiennent des éléments de base de DITA, tels que des paragraphes, des
+                listes, des images, des tableaux et bien d'autres. La plupart de ces éléments
+                peuvent également être utilisés dans les autres types de rubrique (tâche et
+                référence). La seule exception est l'élément &lt;conbody>, qui est spécifique au
+                concept.</p>
+            <p>Au minimum, le concept doit contenir un élément &lt;concept> racine (avec un
                 attribut id) qui contient un élément &lt;title>. </p>
             <p>Après l'élément &lt;title> et un élément optionnel &lt;shortdesc> ou &lt;abstract>,
                 l'élément &lt;conbody> contient le concept lui-même.</p>
@@ -62,11 +62,11 @@
                             déclaration XML, qui est une partie standard de tous les fichiers
                             XML.</p>
                         <p>La déclaration DOCTYPE sur la deuxième ligne identifie ce fichier comme
-                            un topic de type concept.</p>
+                            un concept.</p>
                         <p>La troisième ligne est la balise d'ouverture de l'élément &lt;concept>,
                             qui utilise l'identifiant unique "mon_premier_concept". </p>
-                        <p>L'élément &lt;title> sur la quatrième ligne contient le titre du
-                            topic.</p>
+                        <p>L'élément &lt;title> sur la quatrième ligne contient le titre de la
+                            rubrique.</p>
                         <p>La cinquième ligne utilise la balise de fermeture &lt;/concept> pour
                             montrer où se termine l'élément &lt;concept>.</p>
                     </info>

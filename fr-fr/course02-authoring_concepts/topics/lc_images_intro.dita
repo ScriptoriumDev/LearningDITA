@@ -3,7 +3,7 @@
      github.com. See the accompanying LICENSE file for
      applicable licenses.--> 
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
-<learningContent id="content_kqs_rks_zs">
+<learningContent id="content_kqs_rks_zs" xml:lang="fr-FR">
     <title>Images et tableaux</title>
     <prolog>
         <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
@@ -43,24 +43,24 @@
                 complexes.</p>
             <p>Cette leçon montre comment ajouter des images et des tableaux à un concept. Comme les
                 autres éléments présentés dans ce cours, les images et les tableaux ne sont pas
-                exclusifs au topic de type concept et peuvent également être utilisés dans les
-                autres types de topic DITA (tâche et référence).</p>
+                exclusifs au concept et peuvent également être utilisés dans les
+                autres types de rubrique DITA (tâche et référence).</p>
             <note>
                 <p>Cette leçon couvre l'utilisation de base de ces éléments. Pour les spécifications
                     complètes de chaque élément, se référer à la <xref
                         href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/concept.html"
-                        format="html" scope="external">Norme OASIS DITA Version 1.2</xref>.</p>
+                        format="html" scope="external">norme OASIS DITA version 1.2</xref>.</p>
             </note>
         </lcIntro>
     </learningContentbody>
     <related-links>
         <link
-            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/c_Working_with_Graphics_and_Figures.html"
+            href="https://www.ixiasoft.com/documentation/DITA_Style_Guide/fr/Artefact/c_Working_with_Graphics_and_Figures.html"
             format="html" scope="external">
             <linktext>Guide de style DITA, Graphiques et images</linktext>
         </link>
         <link
-            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Syntax_and_Markup/c_Tables.html"
+            href="https://www.ixiasoft.com/documentation/DITA_Style_Guide/fr/Artefact/Syntax_and_Markup/c_Tables.html"
             format="html" scope="external">
             <linktext>Guide de style DITA, Tableaux</linktext>
         </link>

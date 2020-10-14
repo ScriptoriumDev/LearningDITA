@@ -14,12 +14,12 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>En général, les topics des entrées du glossaire sont regroupés dans un ou plusieurs
-                fichiers cartes DITA. Le contenu des fichiers cartes et leur organisation dépendent
-                largement des besoins de votre organisation et des capacités de transformation de
-                votre sortie DITA. Si vous disposez d'une transformation de sortie robuste, vous
-                aurez plus d'options dans la façon dont vous pouvez structurer vos fichiers cartes
-                pour votre glossaire.</p>
+            <p>En général, les entrées du glossaire sont regroupés dans un ou plusieurs fichiers
+                cartes DITA. Le contenu des fichiers cartes et leur organisation dépendent largement
+                des besoins de votre organisation et des capacités de transformation de votre sortie
+                DITA. Si vous disposez d'une transformation de sortie robuste, vous aurez plus
+                d'options dans la façon dont vous pouvez structurer vos fichiers cartes pour votre
+                glossaire.</p>
             <p>La stratégie la plus simple pour l'organisation d'un glossaire consiste à créer un
                 fichier carte DITA qui contient des éléments &lt;topicref> pour chacune de vos
                 entrées de glossaire.</p>
@@ -47,7 +47,7 @@
                 style DITA pour traiter les informations du glossaire qui sont organisées de manière
                 à vous convenir et pour générer le résultat du glossaire dont vous avez besoin.</p>
             <p>Quelques points à garder à l'esprit concernant l'organisation et la production du
-                glossaire&nbsp;: </p>
+                glossaire : </p>
             <ul id="ul_dn3_n1n_vt">
                 <li>
                     <p>Si vous avez plusieurs organismes contributeurs différents, chacun d'entre
@@ -66,8 +66,8 @@
                 </li>
                 <li>
                     <p>Une transformation de sortie peut également incorporer des entrées de
-                        glossaire provenant de topics de groupes de glossaire dans un glossaire de
-                        sortie. </p>
+                        glossaire provenant de groupes de glossaire dans un glossaire de sortie.
+                    </p>
                 </li>
                 <li>
                     <p>Si votre contenu doit être traduit, il est fort probable que le glossaire
@@ -94,7 +94,7 @@
                             l'ouvrir dans l'interface d'édition.</note>
                     </info>
                     <stepxmp>
-                        <p>Vous devriez voir ceci&nbsp;:</p>
+                        <p>Vous devriez voir ceci :</p>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 &lt;map>
@@ -143,7 +143,7 @@
             <steps>
                 <step>
                     <cmd>Ouvrez le fichier leçon3/l_exercice_glossaire_debut.dita et utilisez-le
-                        pour convertir en DITA le contenu suivant&nbsp;:</cmd>
+                        pour convertir en DITA le contenu suivant :</cmd>
                     <info>
                         <note>
                             <p>Bien que cet exercice utilise un seul fichier DITA pour la

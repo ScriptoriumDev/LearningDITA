@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- This file is part of the DITA Training project hosted on
      github.com. See the accompanying LICENSE file for
      applicable licenses.-->
@@ -9,24 +9,24 @@
   <author>Sharon Burton</author>
   <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe,
    Scriptorium</author>
-  <author>Marine Martin-Guillerez (Traductrice)</author>
+  <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external" format="html"
+   >Marine Martin-Guillerez (Traductrice)</author>
   <critdates>
    <created date="2015-04-28"/>
    <revised modified="2019-08-18"/>
   </critdates>
  </prolog>
  <learningAssessmentbody>
-
   <lcInteraction>
    <lcSingleSelect id="9">
-    <lcQuestion>Dans DITA, l'unité de base de création et de réutilisation est&nbsp;: (choisir une
+    <lcQuestion>Dans DITA, l'unité de base de création et de réutilisation est : (Choisir une
      réponse)</lcQuestion>
     <lcAnswerOptionGroup>
      <lcAnswerOption>
       <lcAnswerContent>un conteneur d'attributs spécialisés</lcAnswerContent>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>un topic</lcAnswerContent>
+      <lcAnswerContent>une rubrique</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
      <lcAnswerOption>
@@ -38,6 +38,5 @@
     </lcAnswerOptionGroup>
    </lcSingleSelect>
   </lcInteraction>
-
  </learningAssessmentbody>
 </learningAssessment>

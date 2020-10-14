@@ -17,10 +17,9 @@
     <learningContentbody>
         <lcObjectives>
             <lcObjectivesGroup id="lcObjectivesGroup_tvl_vbh_1t">
-                <lcObjective>Différencier un topic de type entrée de glossaire d'un topic de type
-                    groupe de glossaire</lcObjective>
-                <lcObjective>Comprendre la structure de base d'un topic de type entrée de
+                <lcObjective>Différencier une entrée de glossaire d'un groupe de
                     glossaire</lcObjective>
+                <lcObjective>Comprendre la structure de base d'une entrée de glossaire</lcObjective>
                 <lcObjective>Ajouter des entrées de glossaire à un fichier carte DITA.</lcObjective>
             </lcObjectivesGroup>
         </lcObjectives>
@@ -28,21 +27,21 @@
             <lcTime value="45"/>
         </lcDuration>
         <lcIntro>
-            <p>Cette leçon montre comment créer un nouveau topic de type entrée de glossaire et
+            <p>Cette leçon montre comment créer une nouvelle entrée de glossaire et un nouveau
                 groupe de glossaire et ajouter leurs éléments de base.</p>
             <note>
-                <p>Cette leçon couvre l'utilisation de base des éléments entrée de glossaire. Pour les
-                spécifications complètes de chaque élément, se référer à la <xref
+                <p>Cette leçon couvre l'utilisation de base des éléments entrée de glossaire. Pour
+                    les spécifications complètes de chaque élément, se référer à la <xref
                         href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/glossentry.html"
-                        format="html" scope="external">Norme OASIS DITA Version 1.2</xref>.</p>
+                        format="html" scope="external">norme OASIS DITA version 1.2</xref>.</p>
             </note>
         </lcIntro>
     </learningContentbody>
     <related-links>
         <link
-            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Topics_and_Information_Types/c_Glossaries.html"
+            href="https://www.ixiasoft.com/documentation/DITA_Style_Guide/fr/Artefact/Topics_and_Information_Types/c_Glossaries.html"
             format="html" scope="external">
-            <linktext>Guide de style DITA, Glossaires</linktext>
+            <linktext>Guide de style DITA, Entrée de glossaire</linktext>
         </link>
     </related-links>
 </learningContent>

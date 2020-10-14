@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_r51_zzt_qt" xml:lang="fr-FR">
-    <title>Créer un nouveau topic de type groupe de glossaire</title>
+    <title>Créer un nouveau groupe de glossaire</title>
     <prolog>
         <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
             Scriptorium</author>
@@ -14,17 +14,17 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>Comme pour le topic de type entrée de glossaire, le topic de type groupe de glossaire
-                doit contenir un seul élément racine &lt;glossgroup> avec un attribut id qui
-                contient un élément &lt;title> et un ou plusieurs éléments &lt;glossterm> ou
-                &lt;glossgroup>, chacun avec un attribut id.</p>
+            <p>Comme pour l'entrée de glossaire, le groupe de glossaire doit contenir un seul
+                élément racine &lt;glossgroup> avec un attribut id qui contient un élément
+                &lt;title> et un ou plusieurs éléments &lt;glossterm> ou &lt;glossgroup>, chacun
+                avec un attribut id.</p>
             <note>
                 <p>Cette leçon couvre l'utilisation de base des éléments groupe de glossaire. Pour
                     les spécifications complètes de chaque élément, voir la <xref
                         href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/glossgroup.html"
-                        format="html" scope="external">Norme OASIS DITA Version 1.2</xref>.</p>
+                        format="html" scope="external">norme OASIS DITA version 1.2</xref>.</p>
             </note>
-            <p><xref href="https://youtu.be/csP8WUT7EEs" format="html" scope="external">Vidéo&nbsp;:
+            <p><xref href="https://youtu.be/csP8WUT7EEs" format="html" scope="external">Vidéo :
                     Créer un groupe de glossaire DITA</xref></p>
         </lcInstruction>
     </learningContentbody>
@@ -40,7 +40,7 @@
                             texte plutôt qu'en mode auteur ou visuel.</note>
                     </info>
                     <stepxmp>
-                        <p>Vous devriez voir ceci&nbsp;:</p>
+                        <p>Vous devriez voir ceci :</p>
                         <pre>&lt;?xml version="1.0" encoding="utf-8"?>
 &lt;!DOCTYPE glossgroup PUBLIC "-//OASIS//DTD DITA Glossary Group//EN" "glossgroup.dtd">
 &lt;glossgroup id="equipement_canard">
@@ -53,10 +53,10 @@
                             déclaration XML, qui est une partie standard de tous les fichiers
                             XML.</p>
                         <p>La deuxième ligne est la déclaration DOCTYPE, qui indique aux éditeurs ou
-                            aux générateurs de sortie DITA qu'il s'agit d'un topic de type gourpe de
-                            glossaire DITA. Les programmes utilisent ensuite cette information pour
-                            valider le contenu du topic. Le DOCTYPE sera spécifique à chaque type de
-                            topic que vous créez.</p>
+                            aux générateurs de sortie DITA qu'il s'agit d'un groupe de glossaire
+                            DITA. Les programmes utilisent ensuite cette information pour valider le
+                            contenu de la rubrique. Le DOCTYPE sera spécifique à chaque type de
+                            rubrique que vous créez.</p>
                         <p>La troisième ligne contient la balise d'ouverture de l'élément
                             &lt;glossgroup>. L'attribut id associé à l'élément &lt;glossgroup> est
                             obligatoire. </p>

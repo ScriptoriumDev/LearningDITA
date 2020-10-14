@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map xml:lang="fr-FR">
- <title>Créer un topic de type référence</title>
+ <title>Créer une référence</title>
  <topicref href="../topics/lc_creating_ref.dita">
   <topicmeta lockmeta="yes">
-   <data name="lesson_id" value="9747"/>
+   <data name="lesson_id" value="336"/>
   </topicmeta>
   <topicref href="../topics/lc_ref_housekeeping.dita"/>
   <topicref href="../topics/lc_about_ref.dita"/>
@@ -12,9 +12,10 @@
   <topicref href="../topics/lc_adding_refsyn.dita"/>
   <!--<topicref href="../topics/lc_adding_parml.dita"/>-->
   <topicref href="../topics/lc_adding_properties.dita"/>
-  <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_creating.dita" locktitle="yes">
+  <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_creating.dita"
+   locktitle="yes">
    <topicmeta>
-    <navtitle>Évaluation pour Créer un topic de type référence</navtitle>
+    <navtitle>Évaluation sur la création des références</navtitle>
    </topicmeta>
    <topicref href="../assessments/creating_ref/lca_body.dita"/>
    <topicref href="../assessments/creating_ref/lca_properties.dita"/>

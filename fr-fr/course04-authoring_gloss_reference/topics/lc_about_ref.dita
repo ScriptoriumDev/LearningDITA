@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_szn_n3t_qt" xml:lang="fr-FR">
-    <title>À propos des topics de type référence</title>
+    <title>À propos des références</title>
     <prolog>
         <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
             Scriptorium</author>
@@ -16,32 +16,31 @@
     </prolog>
     <learningContentbody>
         <lcIntro>
-            <p>Les topics de type référence répondent à la question «&nbsp;Quoi&nbsp;?&nbsp;», comme
-                dans :</p>
+            <p>Les références répondent à la question « Quoi ? », comme dans :</p>
             <ul id="ul_ohh_x3t_qt">
-                <li>Quelle valeur dois-je entrer ici&nbsp;?</li>
-                <li>Qu'est-ce que ça signifie quand la LED clignote trois fois&nbsp;?</li>
-                <li>Quels paramètres de commande dois-je utiliser&nbsp;?</li>
-                <li>Quelles sont les valeurs de statut que je peux attendre de cet appel de
-                    fonction&nbsp;?</li>
-                <li>Que signifie ce message d'erreur&nbsp;?</li>
+                <li>Quelle valeur dois-je entrer ici ?</li>
+                <li>Qu'est-ce que ça signifie quand la LED clignote trois fois ?</li>
+                <li>Quels paramètres de commande dois-je utiliser ?</li>
+                <li>Quelles sont les valeurs de statut que je peux attendre de cet appel de fonction
+                    ?</li>
+                <li>Que signifie ce message d'erreur ?</li>
             </ul>
-            <p>Les topics de type de référence fournissent des informations sur un point précis.
-                Alors qu'un concept peut fournir des informations générales et répondre à la
-                question «&nbsp;Pourquoi&nbsp;?&nbsp;», la référence fournit des informations
-                spécifiques. Les lecteurs habituels des références trouvent les informations dont
-                ils ont besoin, puis poursuivent leur travail&nbsp;; ils ne lisent ou ne consultent
-                généralement pas d'informations supplémentaires. </p>
+            <p>Les références fournissent des informations sur un point précis. Alors qu'un concept
+                peut fournir des informations générales et répondre à la question « Pourquoi ? », la
+                référence fournit des informations spécifiques. Les lecteurs habituels des
+                références trouvent les informations dont ils ont besoin, puis poursuivent leur
+                travail ; ils ne lisent ou ne consultent généralement pas d'informations
+                supplémentaires. </p>
             <p>Le format du contenu d'une référence est déterminé par l'organisme auteur et,
                 idéalement, codifié dans un guide de style. Les exemples de cette leçon ne montrent
                 qu'une seule façon d'organiser l'information. </p>
             <p>Si les références peuvent contenir de nombreux éléments que nous avons déjà couverts
                 dans les cours précédents, ce cours se concentrera sur les nouveaux.</p>
-            <p>Les topics de type référence se répartissent en deux catégories générales&nbsp;:</p>
+            <p>Les références se répartissent en deux catégories générales :</p>
             <ul id="ul_uvg_gkt_qt">
                 <li>
-                    <p>Des topics uniques et autonomes contenant un petit nombre de tableaux ou de
-                        figures. En voici quelques exemples :</p>
+                    <p>Des rubriques uniques et autonomes contenant un petit nombre de tableaux ou
+                        de figures. En voici quelques exemples :</p>
                     <ul id="ul_gyb_hlt_qt">
                         <li>
                             <p>Tableaux matriciels des dispositifs et des valeurs ou tolérances
@@ -53,10 +52,10 @@
                     </ul>
                 </li>
                 <li>
-                    <p>Plusieurs topics connexes qui fournissent des informations sur des points
-                        connexes, un topic par point. Ces topics ont généralement une structure
-                        parallèle, de sorte que le lecteur peut toujours trouver l'information. En
-                        voici quelques exemples&nbsp;:</p>
+                    <p>Plusieurs rubriques connexes qui fournissent des informations sur des points
+                        connexes, un rubrique par point. Ces rubriques ont généralement une
+                        structure parallèle, de sorte que le lecteur peut toujours trouver
+                        l'information. En voici quelques exemples :</p>
                     <ul id="ul_jty_qlt_qt">
                         <li>Référence de ligne de commande</li>
                         <li>Référence de fonction API</li>

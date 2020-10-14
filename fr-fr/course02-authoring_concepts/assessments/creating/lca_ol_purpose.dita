@@ -3,7 +3,7 @@
      github.com. See the accompanying LICENSE file for
      applicable licenses.--> 
 <!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
-<learningAssessment id="assessment_ign_ckx_dt">
+<learningAssessment id="assessment_ign_ckx_dt" xml:lang="fr-FR">
  <title>Utilisation de ol</title>
  <prolog>
   <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
@@ -29,7 +29,7 @@
      </lcAnswerOption>
     </lcAnswerOptionGroup>
     <lcFeedbackIncorrect>Pour créer des instructions pas-à-pas, vous utilisez
-     un topic de type tâche.</lcFeedbackIncorrect>
+     une rubrique de type tâche.</lcFeedbackIncorrect>
    </lcTrueFalse>
   </lcInteraction>
  </learningAssessmentbody>

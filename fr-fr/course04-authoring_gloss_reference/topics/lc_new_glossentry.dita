@@ -18,9 +18,9 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>Le topic de type entrée de glossaire doit contenir au moins un élément racine (avec
-                un attribut id) de type &lt;glossentry> (entrée de glossaire) qui contient un
-                élément de type &lt;glossterm> (terme de glossaire).</p>
+            <p>L'entrée de glossaire doit contenir au moins un élément racine (avec un attribut id)
+                de type &lt;glossentry> (entrée de glossaire) qui contient un élément de type
+                &lt;glossterm> (terme de glossaire).</p>
             <p>L'élément &lt;glossterm> est une spécialisation de l'élément &lt;title>. L'élément
                 &lt;glossterm> peut contenir n'importe quel élément qu'un élément &lt;title> peut
                 contenir.</p>
@@ -52,7 +52,7 @@
                             texte plutôt qu'en mode auteur ou visuel.</note>
                     </info>
                     <stepxmp>
-                        <p>Vous devriez voir ceci&nbsp;:</p>
+                        <p>Vous devriez voir ceci :</p>
                         <pre>&lt;?xml version="1.0" encoding="utf-8"?>
 &lt;!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd">
 &lt;glossentry id="canard">
@@ -65,9 +65,9 @@
                             déclaration XML, qui est une partie standard de tous les fichiers
                             XML.</p>
                         <p>La deuxième ligne est la déclaration DOCTYPE, qui indique aux éditeurs ou
-                            aux générateurs de sortie DITA qu'il s'agit d'un topic de type glossaire
-                            DITA. Les programmes utilisent ensuite cette information pour valider le
-                            contenu du topic. Le DOCTYPE sera spécifique à chaque type de topic que
+                            aux générateurs de sortie DITA qu'il s'agit d'un glossaire DITA. Les
+                            programmes utilisent ensuite cette information pour valider le contenu
+                            de la rubrique. Le DOCTYPE sera spécifique à chaque type de rubrique que
                             vous créez.</p>
                         <p>La troisième ligne contient la balise d'ouverture de l'élément
                             &lt;glossentry>. L'attribut id associé à l'élément &lt;glossentry> est

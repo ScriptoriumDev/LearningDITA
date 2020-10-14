@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- This file is part of the DITA Training project hosted on
      github.com. See the accompanying LICENSE file for
      applicable licenses.-->
@@ -18,15 +18,15 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcMultipleSelect id="links12">
-    <lcQuestion>Un fichier DITA map fait ce qui suit (choisir toutes les réponses qui s'appliquent)
-     :</lcQuestion>
+    <lcQuestion>Un fichier DITA map fait ce qui suit : (Choisir toutes les réponses qui
+     s'appliquent)</lcQuestion>
     <lcAnswerOptionGroup>
      <lcAnswerOption>
-      <lcAnswerContent>Décrire la séquence des topics référencés</lcAnswerContent>
+      <lcAnswerContent>Décrire la séquence des rubriques référencées</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>Décrire la hiérarchie des topics référencés</lcAnswerContent>
+      <lcAnswerContent>Décrire la hiérarchie des rubriques référencées</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
      <lcAnswerOption>
@@ -34,12 +34,12 @@
      </lcAnswerOption>
      <lcAnswerOption>
       <lcAnswerContent>Fournir un moyen de créer des liens internes dans les
-       topics</lcAnswerContent>
+       rubriques</lcAnswerContent>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
     <lcFeedbackIncorrect>Utilisez des xrefs pour créer des liens externes. Comme règle, vous devez
-     éviter les liens internes. Les fichiers carte listent une collection de topics, mais pas le
-     contenu à l'intérieur des topics.</lcFeedbackIncorrect>
+     éviter les liens internes. Les fichiers carte listent une collection de rubriques, mais pas le
+     contenu à l'intérieur des rubriques.</lcFeedbackIncorrect>
    </lcMultipleSelect>
   </lcInteraction>
  </learningAssessmentbody>

@@ -41,15 +41,15 @@
                 présenté ici :</p>
             <pre>&lt;xref href="http://www.scriptorium.com" scope="external" format="html"/></pre>
             <note>Pour les liens vers un fichier PDF, utilisez format="pdf".</note>
-            <p>Techniquement, il est possible d’utiliser &lt;xref> pour relier un topic à un autre.
-                Cette liaison en ligne est une Mauvaise Idée™ car vous devez créer et gérer le lien
-                manuellement. Vous devez spécifier le lien vers lequel vous vous connectez. Lorsque
-                vous configurez la référence croisée, vous avez les topics source et cible dans
-                votre fichier de carte. Mais si vous réutilisez le topic source dans une autre map
-                n'incluant pas le topic cible, vous obtiendrez un lien rompu lors de la génération
-                du résultat à partir de cette carte et vous ne pourrez pas être averti du problème.
-                Au lieu d’utiliser des liens de topic à topic, il est préférable d’utiliser des
-                tables de relations.</p>
+            <p>Techniquement, il est possible d’utiliser &lt;xref> pour relier une rubrique à une
+                autre. Cette liaison en ligne est une Mauvaise Idée™ car vous devez créer et gérer
+                le lien manuellement. Vous devez spécifier le lien vers lequel vous vous connectez.
+                Lorsque vous configurez la référence croisée, vous avez les rubriques source et
+                cible dans votre fichier de carte. Mais si vous réutilisez la rubrique source dans
+                une autre carte n'incluant pas la rubrique cible, vous obtiendrez un lien rompu lors
+                de la génération du résultat à partir de cette carte et vous ne pourrez pas être
+                averti du problème. Au lieu d’utiliser des liens de rubrique à rubrique, il est
+                préférable d’utiliser des tables de relations.</p>
         </lcInstruction>
     </learningContentbody>
 </learningContent>

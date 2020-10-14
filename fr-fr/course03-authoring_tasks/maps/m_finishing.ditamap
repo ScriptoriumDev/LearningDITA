@@ -3,18 +3,19 @@
      github.com. See the accompanying LICENSE file for
      applicable licenses.-->
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
-<map>
+<map xml:lang="fr-FR">
  <title>Terminer la tâche</title>
  <topicref href="../topics/lc_finishing_intro.dita">
   <topicmeta lockmeta="yes">
-   <data name="lesson_id" value="9517"/>
+   <data name="lesson_id" value="312"/>
   </topicmeta>
   <topicref href="../topics/lc_results.dita"/>
   <topicref href="../topics/lc_example.dita"/>
   <topicref href="../topics/lc_whatsnext.dita"/>
-  <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_finishing.dita" locktitle="yes">
+  <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_finishing.dita"
+   locktitle="yes">
    <topicmeta>
-    <navtitle>Évaluation pour Terminer la tâche</navtitle>
+    <navtitle>Évaluation sur terminer la tâche</navtitle>
    </topicmeta>
    <topicref href="../assessments/finishing/lca_sequence.dita"/>
    <topicref href="../assessments/finishing/lca_result.dita"/>
@@ -24,4 +25,3 @@
   </topicref>
  </topicref>
 </map>
- 

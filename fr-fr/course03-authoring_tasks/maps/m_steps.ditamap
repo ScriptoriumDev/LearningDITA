@@ -3,13 +3,13 @@
      github.com. See the accompanying LICENSE file for 
      applicable licenses.-->
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
-<map>
+<map xml:lang="fr-FR">
  <title>Créer les étapes</title>
  <topicref href="../topics/lc_steps_intro.dita">
   <topicmeta lockmeta="yes">
-   <data name="lesson_id" value="9516"/>
+   <data name="lesson_id" value="311"/>
   </topicmeta>
-<!--  <topicref href="../topics/lc_markup.dita"/>-->
+  <!--  <topicref href="../topics/lc_markup.dita"/>-->
   <topicref href="../topics/lc_steps_w_task.dita"/>
   <topicref href="../topics/lc_choices.dita"/>
   <topicref href="../topics/lc_choicetable.dita"/>
@@ -18,7 +18,7 @@
   <topicref href="../topics/lc_stepsection.dita"/>
   <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_steps.dita" locktitle="yes">
    <topicmeta>
-    <navtitle>Évaluation pour Créer les étapes</navtitle>
+    <navtitle>Évaluation sur la création des étapes</navtitle>
    </topicmeta>
    <!--   <topicref href="../assessments/lca_htmldita.dita"/>-->
    <topicref href="../assessments/steps/lca_steps.dita"/>
@@ -33,5 +33,4 @@
    <topicref href="../assessments/steps/lca_nesting.dita"/>
   </topicref>
  </topicref>
- 
 </map>

@@ -4,7 +4,7 @@
      applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="authoring_oxygen">
-    <title>Créer un topic dans oXygen</title>
+    <title>Créer une rubrique dans oXygen</title>
     <prolog>
         <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe,
             Scriptorium</author>
@@ -30,9 +30,9 @@
                 dont la sortie finale sera présentée. Ne vous fiez pas à l'apparence du texte (fins
                 de ligne, polices, styles de caractère, etc.) pour savoir à quoi ressemblera votre
                 contenu une fois publié.</note>
-            <p>Pour créer un topic dans oXygen, suivez ces étapes :</p><ol id="ol_gl3_tzq_bs">
+            <p>Pour créer une rubrique dans oXygen, suivez ces étapes :</p><ol id="ol_gl3_tzq_bs">
                 <li>Cliquer sur l'icône Nouveau (<image
-                        href="../../media/authoring/oxygen_new_icon.png" base="2015/07"
+                        href="../../media/authoring/oxygen_new_icon.png" base="2020/10"
                         id="image_jqz_d1r_bs"/>).</li>
                 <li>Naviguez vers Modèles du framework/DITA/Topics, cliquez sur l'entrée Topic, puis
                     sur Créer. oXygen crée un nouveau thème avec du contenu réservé</li>
@@ -46,12 +46,12 @@
   &lt;/body>
 &lt;/topic>
 </pre>
-            <p>oXygen crée automatiquement un identifiant de topic unique. Vous pouvez le changer si
+            <p>oXygen crée automatiquement un identifiant de rubrique unique. Vous pouvez le changer si
                 vous le souhaitez, mais souvenez-vous que les identifiants doivent être uniques et
                 doivent respecter des règles strictes. Dans la vue Auteur, avec les balises
                 activées, vous voyez ceci :<draft-comment author="okeefe">Il me semble que ce que je
                     veux vraiment, c'est une version vidéo de ceci. </draft-comment></p>
-            <image href="../../media/authoring/oxygen_editor.png" base="2015/07"
+            <image href="../../media/authoring/oxygen_editor.png" base="2020/10"
                 id="image_vgb_q1r_bs"/>
             <p>Vous pouvez maintenant cliquer à l'intérieur du p (qui est un espace réservé pour une
                 balise &lt;p>) et commencer à taper votre contenu. Pour créer un nouveau paragraphe,

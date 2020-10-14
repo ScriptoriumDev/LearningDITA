@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
-<learningContent id="content_cxl_nwy_lt">
+<learningContent id="content_cxl_nwy_lt" xml:lang="fr-FR">
     <title>Fournir un contexte approprié</title>
     <prolog>
         <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
@@ -19,7 +19,7 @@
                 L'élément &lt;context> ne devrait pas être utilisé pour des informations
                 conceptuelles ou de générales étendues.</p>
             <p>Si vous avez besoin de fournir de l'information conceptuelle supplémentaire, de
-                l'information générale, ou des principes de fonctionnement, créez un topic concept
+                l'information générale, ou des principes de fonctionnement, créez un concept
                 et fournissez un lien vers le concept dans votre tâche.</p>
             <p>Notez qu'il peut y avoir des similarités entre l'élément &lt;context> et l'élément
                 &lt;shortdesc> (courte description). Les deux fournissent de l'information sur

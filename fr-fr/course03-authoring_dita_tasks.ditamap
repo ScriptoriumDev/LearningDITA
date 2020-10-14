@@ -3,8 +3,8 @@
      github.com. See the accompanying LICENSE file for 
      applicable licenses.-->
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
-<map>
- <title>Rédiger des topics DITA de type tâche</title>
+<map xml:lang="fr-FR">
+ <title>Rédiger des tâches DITA</title>
  <topicmeta>
   <critdates>
    <created date="2015-08-12"/>
@@ -14,9 +14,10 @@
  <mapref href="course03-authoring_tasks/maps/m_steps.ditamap"/>
  <mapref href="course03-authoring_tasks/maps/m_finishing.ditamap"/>
  <mapref href="course03-authoring_tasks/maps/m_best_practices.ditamap"/>
- 
- <mapref href="course03-authoring_tasks/maps/this_course_keys.ditamap" processing-role="resource-only"/>
+
+ <mapref href="course03-authoring_tasks/maps/this_course_keys.ditamap"
+  processing-role="resource-only"/>
  <mapref href="shared/maps/course_keys.ditamap" processing-role="resource-only"/>
- 
- 
+
+
 </map>

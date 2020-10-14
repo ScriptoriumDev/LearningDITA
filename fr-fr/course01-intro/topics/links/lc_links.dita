@@ -8,7 +8,7 @@
     <shortdesc/>
     <learningContentbody>
         <lcInstruction>
-            <p>À la fin d'un topic, vous pouvez insérez un élément related-links. Utilisez
+            <p>À la fin d'une rubrique, vous pouvez insérez un élément related-links. Utilisez
                 related-links pour pointer une information additionnelle que le lecteur pourrait
                 vouloir.</p>
             <p>Les liens connexes contiennent un lien et un texte de lien. Voici un exemple :</p>
@@ -28,8 +28,8 @@
                 de carte courante, vous devez spécifier scope="external".</p>
             <p>L'élément linktext contient le texte qui deviendra la zone sensible du lien.</p>
             <p>
-                <note>Évitez d’utiliser des liens connexes pour les liens entre les topics de votre
-                    fichier de carte. Ils souffrent des mêmes limitations que les références
+                <note>Évitez d’utiliser des liens connexes pour les liens entre les rubriques de
+                    votre fichier de carte. Ils souffrent des mêmes limitations que les références
                     croisées en ligne — vous pouvez vous retrouver avec des liens rompus. Utilisez
                     plutôt des tables de relations.</note>
             </p>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
-<map>
+<map xml:lang="fr-FR">
  <title>Clés des cours (Clés pour tous les titres, urls, etc. des cours)</title>
  
  <!-- General purpose (OT, etc) -->
@@ -11,31 +11,31 @@
  </keydef>
  
  
- <!-- Course 1, Introduction to DITA. -->
- <keydef keys="dita_intro_url" href="http://www.learningdita.com/courses/introduction-to-dita/" scope="external" format="html">
+ <!-- Cours 1, Introduction à DITA. -->
+ <keydef keys="dita_intro_url" href="http://www.learningdita.fr/courses/introduction-a-dita/" scope="external" format="html">
   <topicmeta>
    <linktext>Introduction à DITA</linktext>
   </topicmeta>
  </keydef>
 
- <!-- Course 2, title. -->
- <keydef keys="concepts_url" href="http://www.learningdita.com/courses/the-dita-concept-topic-type/" scope="external" format="html">
+ <!-- Cours 2, titre. -->
+ <keydef keys="concepts_url" href="http://www.learningdita.fr/courses/rediger-des-topics-dita-de-type-concept/" scope="external" format="html">
   <topicmeta>
-   <linktext>Le topic DITA de type concept</linktext>
+   <linktext>Rédiger des concepts DITA</linktext>
   </topicmeta>
  </keydef>
  
- <!-- Course 3, title. -->
- <keydef keys="tasks_url" href="http://www.learningdita.com/courses/the-dita-task-topic-type/" scope="external" format="html">
+ <!-- Cours 3, titre. -->
+ <keydef keys="tasks_url" href="http://www.learningdita.fr/courses/rediger-des-topics-dita-de-type-tache/" scope="external" format="html">
   <topicmeta>
-   <linktext>Le topic DITA de type tâche</linktext>
+   <linktext>Rédiger des tâches DITA</linktext>
   </topicmeta>
  </keydef>
  
- <!-- Course 4, title. -->
- <keydef keys="ref_glossary_url" href="http://www.learningdita.com/courses/the-dita-reference-and-glossary-topic-types/" scope="external" format="html">
+ <!-- Cours 4, titre. -->
+ <keydef keys="ref_glossary_url" href="http://www.learningdita.fr/courses/rediger-des-topics-dita-de-type-glossaire-et-reference/" scope="external" format="html">
   <topicmeta>
-   <linktext>Les topics DITA de type référence et glossaire</linktext>
+   <linktext>Rédiger des références et des glossaires DITA</linktext>
   </topicmeta>
  </keydef>
  

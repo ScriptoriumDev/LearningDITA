@@ -4,7 +4,7 @@
      applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_psc_gxq_bs">
-    <title>Créer un topic dans un éditeur de texte</title>
+    <title>Créer une rubrique dans un éditeur de texte</title>
     <prolog>
         <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe,
             Scriptorium</author>
@@ -19,21 +19,21 @@
         <lcInstruction>
             <p>Les fichiers DITA sont au format XML et XML est du texte clair. Par conséquent, vous
                 pouvez créer un fichier XML dans n’importe quel éditeur de texte.</p>
-            <p>Un topic DITA de base nécessite une déclaration XML, une déclaration DOCTYPE, un
+            <p>Une rubrique DITA de base nécessite une déclaration XML, une déclaration DOCTYPE, un
                 topic, un attribut id sur le topic et un titre. C'est tout.</p>
-            <p>Voici un topic minimal valide :</p>
+            <p>Voici une rubrique minimale valide :</p>
             <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-&lt;topic id="monpremiertopic">
+&lt;topic id="mapremiererubrique">
   &lt;title>Bonjour le monde&lt;/title>
 &lt;/topic>
 </pre>
-            <p>Ce topic est valide, mais il n’est pas particulièrement utile car il n’a aucun corps
-                de contenu. Pour rendre un topic utile, vous avez besoin de quelque chose de plus
-                semblable à ceci :</p>
+            <p>Cette rubrique est valide, mais elle n’est pas particulièrement utile car elle n’a aucun
+                corps de contenu. Pour rendre une rubrique utile, vous avez besoin de quelque chose de
+                plus semblable à ceci :</p>
             <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-&lt;topic id="monpremiertopic">
+&lt;topic id="mapremiererubrique">
   &lt;title>Bonjour le monde&lt;/title>
 &lt;body>
   &lt;p>Voici un paragraphe&lt;/p>

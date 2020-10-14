@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_kw5_5ls_zs">
-    <title>First steps</title>
+    <title>Premières étapes</title>
     <prolog>
         <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
             Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external" format="html"
+            >Marine Martin-Guillerez (Traductrice)</author>
         <critdates>
             <created date="2015-08-12"/>
+            <revised modified="2020-10-04"/>
         </critdates>
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>After the &lt;context> element in your task topic, add a &lt;steps> element. </p>
+            <p>Après l'élément &lt;context> de votre rubrique tâche, ajoutez un élément
+                &lt;steps>.</p>
             <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-&lt;task id="task_topic">
+&lt;task id="rubrique_tache">
    &lt;title>&lt;/title>
    &lt;taskbody>
       &lt;prereq>
@@ -25,25 +29,28 @@
       &lt;/steps></ph>
    &lt;/taskbody>
 &lt;/task></pre>
-            <p>As with the &lt;prereq> and &lt;context> elements, the &lt;taskbody> can contain only
-                one &lt;steps> element. In keeping with the spirit of DITA that a topic should
-                contain a single idea, restricting you to a single &lt;steps> element helps ensure
-                that the topic only describes how to perform one task.</p>
-            <p>Inside the &lt;steps> element, add a &lt;step> element. </p>
+            <p>Comme avec les éléments &lt;prereq> et &lt;context>, l'élément &lt;taskbody> ne peut
+                contenir qu'un élément &lt;steps>. Conformément à l'esprit de DITA selon lequel une
+                rubrique doit contenir une seule idée, le fait de vous limiter à un seul élément
+                &lt;steps> permet de s'assurer que la rubrique ne décrit que la manière de réaliser
+                une tâche.</p>
+            <p>À l'intérieur de l'élément &lt;step>, ajoutez un élément &lt;step>.</p>
             <pre>...
       &lt;steps>
 <ph outputclass="newchanged">         &lt;step>
          &lt;/step></ph>
       &lt;/steps>
 ...</pre>
-            <p>The &lt;steps> element must contain at least one &lt;step> element. Most DITA-aware
-                editors automatically add a first &lt;step> element to the &lt;steps> element. </p>
-            <p>In DITA, the content of each individual step is also highly controlled. The action
-                the user is to perform is contained in a &lt;cmd> element, which is a required
-                element in &lt;step>. In most cases, &lt;cmd> contains a single sentence, which is a
-                direct instruction to the reader to perform some action.</p>
-            <p>Inside the &lt;step> element, add a &lt;cmd> element  (this is read as
-                “command”).</p>
+            <p>L'élément &lt;steps> doit contenir au moins un élément &lt;step>. La plupart des
+                rédacteurs sensibilisés à DITA ajoutent automatiquement un premier élément &lt;step>
+                à l'élément &lt;steps>.</p>
+            <p>Avec DITA, le contenu de chaque étape individuelle est également très contrôlé.
+                L'action que l'utilisateur doit effectuer est contenue dans un élément de type
+                &lt;cmd>, qui est un élément obligatoire dans &lt;step>. Dans la plupart des cas,
+                &lt;cmd> contient une seule phrase, qui est une instruction directe au lecteur
+                d'effectuer une action.</p>
+            <p>À l'intérieur de l'élément &lt;step>, ajoutez un élément &lt;cmd> (ceci est lu comme
+                "commande").</p>
             <pre>...
       &lt;steps>
          &lt;step>
@@ -51,14 +58,15 @@
          &lt;/step>
       &lt;/steps>
 ...</pre>
-            <p>Because &lt;step> must contain exactly one &lt;cmd> element, most DITA-aware editors
-                add the &lt;cmd> element when they add the &lt;step> element.  </p>
-            <p>Finally! We have a place to put some actual content. Within the &lt;cmd> element add
-                the first instruction to the reader.  </p>
+            <p>Parce que l'élément &lt;step> doit contenir exactement un élément &lt;cmd>, la
+                plupart des éditeurs supportant DITA ajoutent l'élément &lt;cmd> lorsqu'ils ajoutent
+                l'élément &lt;step>. </p>
+            <p>Enfin ! Nous avons un endroit pour mettre du contenu réel. Dans l'élément &lt;cmd>,
+                ajoutez la première instruction pour le lecteur. </p>
             <pre>...
       &lt;steps>
          &lt;step>
-<ph outputclass="newchanged">            &lt;cmd><ph outputclass="newchanged">Do something!</ph>&lt;/cmd></ph>
+<ph outputclass="newchanged">            &lt;cmd><ph outputclass="newchanged">Faites quelque chose !</ph>&lt;/cmd></ph>
          &lt;/step>
       &lt;/steps>
 ...</pre>
