@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- This file is part of the DITA Training project hosted on
      github.com. See the accompanying LICENSE file for
      applicable licenses.-->
@@ -9,7 +9,8 @@
   <author>Sharon Burton</author>
   <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe,
    Scriptorium</author>
-  <author>Marine Martin-Guillerez (Traductrice)</author>
+  <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external" format="html"
+   >Marine Martin-Guillerez (Traductrice)</author>
   <critdates>
    <created date="2015-04-28"/>
    <revised modified="2019-08-18"/>
@@ -18,7 +19,7 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcSingleSelect id="5">
-    <lcQuestion>DITA est un standard ouvert, ce qui signifie&nbsp;: (choisir une réponse)</lcQuestion>
+    <lcQuestion>DITA est un standard ouvert, ce qui signifie : (Choisir une réponse)</lcQuestion>
     <lcAnswerOptionGroup>
      <lcAnswerOption>
       <lcAnswerContent>Tout le monde peut l'utiliser sans payer.</lcAnswerContent>

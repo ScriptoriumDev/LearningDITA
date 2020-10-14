@@ -19,7 +19,7 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcTrueFalse id="link1">
-    <lcQuestion>Pour créer un lien vers une figure ou un tableau à l'intérieur du topic courant,
+    <lcQuestion>Pour créer un lien vers une figure ou un tableau à l'intérieur de la rubrique courante,
      vous devriez utiliser l'élément &lt;xref>.</lcQuestion>
     <lcAnswerOptionGroup>
      <lcAnswerOption>
@@ -30,8 +30,8 @@
       <lcAnswerContent>Faux</lcAnswerContent>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect>Les éléments &lt;xref> sont dangereux pour les liens entre topics à cause
-     de la possibilité de liens cassés. À l'intérieur d'un topic, cependant, vous pouvez les
+    <lcFeedbackIncorrect>Les éléments &lt;xref> sont dangereux pour les liens entre rubriques à cause
+     de la possibilité de liens cassés. À l'intérieur d'une rubrique, cependant, vous pouvez les
      utilisez sans problème.</lcFeedbackIncorrect>
     <lcFeedbackCorrect/>
    </lcTrueFalse>

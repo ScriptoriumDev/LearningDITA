@@ -16,21 +16,20 @@
         <lcInstruction>
             <p>Si vous utilisez un système de fichiers pour gérer votre contenu DITA, ou si votre
                 système de gestion de contenu vous permet de spécifier des noms de fichiers et des
-                attributs id, nous préconisons ces conventions&nbsp;:</p>
+                attributs id, nous préconisons ces conventions :</p>
             <ul id="ul_fz4_mcn_vt">
-                <li>Lorsque c'est possible, commencez tous les noms de fichiers pour vos topics de
-                    type entrée de glossaire par «&nbsp;g_&nbsp;». Le reste du nom de fichier doit
-                    refléter le contenu de l'élément &lt;glossterm>" du topic entrée de glossaire.
-                    Cela vous aide à trouver toutes vos entrées de glossaire dans votre système de
-                    fichiers. Cependant, utilisez le caractère de soulignement ("_") pour séparer
-                    les mots, plutôt qu'un espace (les espaces dans les noms de fichiers DITA
-                    peuvent poser des problèmes). </li>
-                <li>L'attribut id pour le topic entrée de glossaire doit être le même que le nom de
-                    fichier (moins l'extension .dita). Vous pouvez également choisir d'omettre le
-                    "g_" dans l'attribut id, à condition que la valeur de l'attribut id corresponde
-                    au même terme que celui utilisé dans le nom du fichier. Ainsi, si un topic est
-                    nommé «&nbsp;g_mallard.dita&nbsp;», l'identifiant du topic entrée de glossaire
-                    doit être «&nbsp;g_mallard&nbsp;» ou «&nbsp;mallard&nbsp;». </li>
+                <li>Lorsque c'est possible, commencez tous les noms de fichiers pour vos entrées de
+                    glossaire par « g_ ». Le reste du nom de fichier doit refléter le contenu de
+                    l'élément &lt;glossterm>" de l'entrée de glossaire. Cela vous aide à trouver
+                    toutes vos entrées de glossaire dans votre système de fichiers. Cependant,
+                    utilisez le caractère de soulignement ("_") pour séparer les mots, plutôt qu'un
+                    espace (les espaces dans les noms de fichiers DITA peuvent poser des problèmes). </li>
+                <li>L'attribut id pour l'entrée de glossaire doit être le même que le nom de fichier
+                    (moins l'extension .dita). Vous pouvez également choisir d'omettre le "g_" dans
+                    l'attribut id, à condition que la valeur de l'attribut id corresponde au même
+                    terme que celui utilisé dans le nom du fichier. Ainsi, si une rubrique est nommé
+                    « g_mallard.dita », l'identifiant de l'entrée de glossaire doit être « g_mallard
+                    » ou « mallard ». </li>
                 <li>Bien que ce chapitre n'aborde pas le concept de clés dans DITA, nous conseillons
                     également d'utiliser la valeur de l'attribut id comme nom de clé.</li>
             </ul>

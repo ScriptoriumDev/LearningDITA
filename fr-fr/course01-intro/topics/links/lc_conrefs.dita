@@ -34,32 +34,33 @@
             <p>
                 <ul id="ul_iwx_n5b_wr">
                     <li>Les snippets de Flare</li>
-                    <li>Les topics embarqués de RoboHelp</li>
+                    <li>Les rubriques embarquées de RoboHelp</li>
                     <li>Les encarts de texte et variables FrameMaker</li>
                     <li>Les inclusions côté serveur HTML</li>
                 </ul>
             </p>
-            <p>Supposons que vous ayez la note suivante dans un topic appelée lieu.dita :</p>
+            <p>Supposons que vous ayez la note suivante dans une rubrique appelée lieu.dita :</p>
             <pre>&lt;topic id="topicid">
     ...
     &lt;note id="cequaimentlescanards">Les canards préfèrent les lacs aux déserts.&lt;/note>
     ...
 &lt;/topic>             </pre>
-            <p>Pour réutiliser cette note dans un autre topic, le code conref est le suivant :</p>
+            <p>Pour réutiliser cette note dans unz autre rubrique, le code conref est le suivant
+                :</p>
             <pre>&lt;note conref="lieu.dita#topicid/cequaimentlescanards"/></pre>
             <p>La plupart des outils de création DITA rationalisent le processus d’insertion de code
                 conref. Par conséquent, vous ne taperez probablement pas le chemin du fichier, l’id
-                du topic, etc., comme indiqué dans l’exemple.</p>
+                de la rubrique, etc., comme indiqué dans l’exemple.</p>
             <note>L'élément cible doit être du même type que l'élément contenant l'attribut conref.
                 Ainsi, vous ne pouvez utilisez l'attribut conref d'un élément &lt;note> qu'à partir
                 d'un autre élément &lt;note> ; vous ne pouvez utilisez l'attribut conref d'un
                 élément &lt;li> qu'à partir d'un autre élément &lt;li>, etc.</note>
             <p>Vidéo : <xref href="https://www.youtube.com/watch?v=oHmXBRVk3yo" format="html"
                     scope="external">exemple de code conref DITA</xref></p>
-            <note type="tip">Il est recommandé de créer des topics séparés contenant des éléments
-                réutilisables, au lieu de simplement choisir un topic au hasard et de faire pointer
-                une référence vers ce topic. Cela vous permet de mieux suivre le contenu réutilisé
-                et de contrôler son évolution.</note>
+            <note type="tip">Il est recommandé de créer des rubriques séparées contenant des
+                éléments réutilisables, au lieu de simplement choisir une rubrique au hasard et de
+                faire pointer une référence vers cette rubrique. Cela vous permet de mieux suivre le
+                contenu réutilisé et de contrôler son évolution.</note>
         </lcInstruction>
     </learningContentbody>
 </learningContent>

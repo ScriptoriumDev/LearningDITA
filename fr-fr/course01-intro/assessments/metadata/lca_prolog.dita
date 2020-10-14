@@ -19,8 +19,8 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcTrueFalse id="md6">
-    <lcQuestion>Les métadonnées stockées dans l'élément prologue sont des informations sur le topic
-     entier.</lcQuestion>
+    <lcQuestion>Les métadonnées stockées dans l'élément prologue sont des informations sur la rubrique
+     entière.</lcQuestion>
     <lcAnswerOptionGroup>
      <lcAnswerOption>
       <lcAnswerContent>Vrai</lcAnswerContent>
@@ -28,10 +28,9 @@
      </lcAnswerOption>
      <lcAnswerOption>
       <lcAnswerContent>Faux</lcAnswerContent>
-
      </lcAnswerOption>
     </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect>Le prologue est au niveau du topic. Pour une métadonnée de niveau élément,
+    <lcFeedbackIncorrect>Le prologue est au niveau de la rubrique. Pour une métadonnée de niveau élément,
      utilisez les attributs de l'élément. Souvenez-vous que vous ne pouvez pas filtrer efficacement
      sur une métadonnée du prologue.</lcFeedbackIncorrect>
    </lcTrueFalse>

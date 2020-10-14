@@ -4,24 +4,33 @@
      applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_a2v_gp5_vr">
-    <title>Constraints</title>
-    <prolog><author>Sharon Burton</author>
-        <author href="http://www.scriptorium.com"  scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+    <title>Contraintes</title>
+    <prolog>
+        <author>Sharon Burton</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe,
+            Scriptorium</author>
         <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
             Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
         <critdates>
             <created date="2015-04-28"/>
-        </critdates></prolog>
+            <revised modified="2020-10-02"/>
+        </critdates>
+    </prolog>
     <learningContentbody>
-     <lcInstruction>
-         <draft-comment author="okeefe">not sure this is the right place for constraints, but that's where it is in the videos</draft-comment>
-   <draft-comment author="asp">If this content stays here, need to emphasize that info. architect
-                handles constraints and specialization (next topic).</draft-comment>
-         <p>In DITA, a constraint lets you eliminate elements that you do not need or want to use.
-                For example, if your organization is not documenting software code, your information
-                architect could eliminate &lt;codeblock> and &lt;codeph> (code phrase). Constraining
-                reduces the number of elements presented to the authors, which can make their lives
-                a little easier.</p>
-     </lcInstruction>
+        <lcInstruction>
+            <draft-comment author="okeefe">Je ne suis pas sûr que ce soit le bon endroit pour les
+                contraintes, mais c'est là que ça se passe dans les vidéos</draft-comment>
+            <draft-comment author="asp">Si ce contenu reste ici, il faut souligner que l'architecte
+                de l'information gère les contraintes et la spécialisation (rubrique
+                suivante).</draft-comment>
+            <p>Dans DITA, une contrainte vous permet d'éliminer les éléments dont vous n'avez pas
+                besoin ou que vous ne voulez pas utiliser. Par exemple, si votre organisation ne
+                documente pas le code d'un logiciel, votre architecte de l'information pourrait
+                éliminer &lt;codeblock> et &lt;codeph> (expression de code). La contrainte réduit
+                le nombre d'éléments présentés aux auteurs, ce qui peut leur faciliter un peu la
+                vie.</p>
+        </lcInstruction>
     </learningContentbody>
 </learningContent>

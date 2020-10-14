@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- This file is part of the DITA Training project hosted on
      github.com. See the accompanying LICENSE file for
      applicable licenses.-->
@@ -19,8 +19,8 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcMultipleSelect id="md3">
-    <lcQuestion>La métadonnée suivante est requise pour un topic (sélectionnez toutes celles qui
-     s'appliquent) :</lcQuestion>
+    <lcQuestion>La métadonnée suivante est requise pour une rubrique : (Choisir toutes les réponses
+     qui s'appliquent)</lcQuestion>
     <lcAnswerOptionGroup>
      <lcAnswerOption>
       <lcAnswerContent>&lt;title id="xxx"></lcAnswerContent>
@@ -33,7 +33,7 @@
       <lcCorrectResponse/>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect>L'attribut id est requis pour le topic, mais pas pour son titre.
+    <lcFeedbackIncorrect>L'attribut id est requis pour la rubrique, mais pas pour son titre.
      L'information sur l'auteur n'est pas requis. Quand vous le fournissez, utilisez l'élément
      &lt;author> dans l'élément &lt;prolog>.</lcFeedbackIncorrect>
    </lcMultipleSelect>

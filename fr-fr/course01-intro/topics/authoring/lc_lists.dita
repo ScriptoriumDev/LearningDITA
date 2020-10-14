@@ -35,7 +35,7 @@
                 des points dans une liste numérotée.</p>
             <p>Une liste ordonnée est utile pour montrer des choses qui ont une séquence, cependant,
                 si vous avez besoin de décrire un processus, vous devriez plutôt utiliser l'élément
-                &lt;steps> dans un topic tâche.</p>
+                &lt;steps> dans une rubrique de type tâche.</p>
             <p>Vous pouvez imbriquer une liste en commençant un nouvel élément &lt;ul> ou &lt;ol>
                 dans un élément &lt;li>.</p>
             <pre>&lt;p>Les canards ont ces caractéristiques :&lt;/p>

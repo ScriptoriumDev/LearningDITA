@@ -6,7 +6,7 @@
 <map>
     <topicref href="../topics/tables/lc_tables.dita">
         <topicmeta>
-            <data name="lesson_id" value="65"/>
+            <data name="lesson_id" value="243"/>
         </topicmeta>
         <topicref href="../topics/tables/lc_table_simple.dita"/>
         <topicref href="../topics/tables/lc_table_cals.dita"/>
@@ -14,7 +14,7 @@
         <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_assess_tables.dita"
             locktitle="yes">
             <topicmeta>
-                <navtitle>Évaluation sur les Tableaux</navtitle>
+                <navtitle>Évaluation sur les tableaux</navtitle>
             </topicmeta>
             <topicref href="../assessments/tables/lca_calselements.dita"/>
             <topicref href="../assessments/tables/lca_stelements.dita"/>

@@ -3,7 +3,7 @@
      github.com. See the accompanying LICENSE file for
      applicable licenses.--> 
 <!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
-<learningAssessment id="assessment_wc2_xs2_2t">
+<learningAssessment id="assessment_wc2_xs2_2t" xml:lang="fr-FR">
  <title>Mise en forme 2</title>
  <prolog>
   <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
@@ -28,8 +28,8 @@
       <lcAnswerContent>Vrai</lcAnswerContent>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
-    <lcFeddbackIncorrect>Le contenu non structuré est généralement conçu pour un seul type de
-     sortie, il fonctionne rarement bien dans un autre type de sortie.</lcFeddbackIncorrect>
+    <lcFeedbackIncorrect>Le contenu non structuré est généralement conçu pour un seul type de
+     sortie, il fonctionne rarement bien dans un autre type de sortie.</lcFeedbackIncorrect>
    </lcTrueFalse>
   </lcInteraction>
  </learningAssessmentbody>

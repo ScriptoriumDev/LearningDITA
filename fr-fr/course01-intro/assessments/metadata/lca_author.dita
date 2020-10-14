@@ -25,14 +25,14 @@
      <lcAnswerContent>DITA ne permet pas d'utiliser un élément auteur ; vous devez utiliser un attribut auteur.</lcAnswerContent>
     </lcAnswerOption>
     <lcAnswerOption>
-     <lcAnswerContent>À la fin du corps du topic.</lcAnswerContent>
+     <lcAnswerContent>À la fin du corps de la rubrique.</lcAnswerContent>
     </lcAnswerOption>
     <lcAnswerOption>
      <lcAnswerContent>Dans l'élément &lt;prolog>.</lcAnswerContent>
      <lcCorrectResponse/>
     </lcAnswerOption>
    </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect>DITA ne fournit pas d'attribut auteur. Le corps du topic est suivi par &lt;related-links>.</lcFeedbackIncorrect>
+   <lcFeedbackIncorrect>DITA ne fournit pas d'attribut auteur. Le corps de la rubrique est suivi par &lt;related-links>.</lcFeedbackIncorrect>
   </lcSingleSelect>
   </lcInteraction>
  </learningAssessmentbody>

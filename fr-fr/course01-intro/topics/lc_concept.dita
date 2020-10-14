@@ -4,14 +4,15 @@
      applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_rxt_zl5_vr1">
-    <title>Les topics Concept</title>
+    <title>Les rubriques Concept</title>
     <prolog>
         <author>Sharon Burton</author>
         <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe,
             Scriptorium</author>
         <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
             Scriptorium</author>
-        <author>Marine Martin-Guillerez (Traductrice)</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
         <critdates>
             <created date="2015-04-28"/>
             <revised modified="2019-08-18"/>
@@ -19,14 +20,14 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>Un topic concept répond à la question « Pourquoi ? ». Il fournit des informations
+            <p>Une rubrique concept répond à la question « Pourquoi ? ». Il fournit des informations
                 générales sur un sujet que le lecteur doit connaître.</p>
             <p>Les concepts contiennent généralement du texte et des listes, mais inclut également
                 des notes, des tables, et des graphiques nécessaires à la compréhension des idées
                 derrière un sujet particulier.</p>
-            <p>Les éléments courants utilisés dans un topic de type concept comprennent :<ul
+            <p>Les éléments courants utilisés dans une rubrique de type concept comprennent :<ul
                     id="ul_c5m_hm5_vr">
-                    <li>&lt;conbody> (le corps du topic concept)</li>
+                    <li>&lt;conbody> (le corps de la rubrique concept)</li>
                     <li>&lt;p> (un paragraphe)</li>
                     <li>&lt;ul> (une liste à puce ou non ordonnée)</li>
                     <li>&lt;ol> (une liste numérotée ou ordonnée)</li>

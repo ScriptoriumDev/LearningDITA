@@ -20,30 +20,30 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>Les tables de relations, ou reltables, vous permettent de décrire les relations d'un
-                topic qui ne sont ni séquentielles ni hiérarchiques. Un reltable est une partie d'un
-                fichier carte ; il peut apparaître n'importe où dans la carte, mais la convention
-                est d'ajouter la reltable à la fin de la carte principale. Chaque ligne du tableau
-                contient des éléments topicref liés à des sujets connexes.</p>
+            <p>Les tables de relations, ou reltables, vous permettent de décrire les relations d'une
+                rubrique qui ne sont ni séquentielles ni hiérarchiques. Un reltable est une partie
+                d'un fichier carte ; il peut apparaître n'importe où dans la carte, mais la
+                convention est d'ajouter la reltable à la fin de la carte principale. Chaque ligne
+                du tableau contient des éléments topicref liés à des sujets connexes.</p>
             <p>Voici un exemple de ligne reltable (et la ligne d'en-tête reltable) dans lequel les
                 colonnes contiennent des topicref pour des informations sur les concepts, références
-                et tâches. La ligne affichée ici contient des topicrefs vers des topics
+                et tâches. La ligne affichée ici contient des topicrefs vers des rubriques
                 connexes.</p>
             <image href="../../media/links/reltable_example.png" id="image_mj2_dj2_ss"
-                base="2015/07"/>
+                base="2020/10"/>
             <p>Lorsque vous générez un résultat via DITA Open Toolkit, les relations décrites dans
-                la reltable sont utilisées pour créer une liste de liens vers les topics connexes.
-                Dans la sortie HTML par défaut, les entrées reltable permettent de créer une section
-                Rubriques Liées à la fin de chaque topic.</p>
+                la reltable sont utilisées pour créer une liste de liens vers les rubriques
+                connexes. Dans la sortie HTML par défaut, les entrées reltable permettent de créer
+                une section Rubriques Liées à la fin de chaque rubrique.</p>
             <p>Une ligne reltable est montré ici :</p>
             <ul id="ul_mxk_xj2_ss">
-                <li>Le topic concept c_apropos_canards.dita aurait des liens vers
+                <li>La rubrique concept c_apropos_canards.dita aurait des liens vers
                     r_racedecanards.dita, r_bonnesracesanimaux.dita et t_nourrir.dita.</li>
-                <li>Le topic référence r_racedecanards.dita aurait des liens vers
+                <li>La rubrique référence r_racedecanards.dita aurait des liens vers
                     c_apropos_canards.dita, r_bonnesracesanimaux.dita et t_nourrir.dita.</li>
-                <li>Le topic référence r_bonnesracesanimaux.dita aurait des liens vers
+                <li>La rubrique référence r_bonnesracesanimaux.dita aurait des liens vers
                     c_apropos_canards.dita, r_racedecanards.dita et t_nourrir.dita.</li>
-                <li>Le topic tâche t_nourrir.dita aurait des liens vers c_apropos_canards.dita,
+                <li>La rubrique tâche t_nourrir.dita aurait des liens vers c_apropos_canards.dita,
                     r_racedecanards.dita et r_bonnesracesanimaux.dita.</li>
             </ul>
             <note>Pour illustrer un concept plus large, cet exemple contient une simplification :
@@ -52,7 +52,7 @@
                 détails des attributs de cellule de la table de relation seront décrits dans un
                 cours ultérieur.</note>
             <p>Les relations que vous capturez dans la reltable ne sont généralement <i>pas</i>
-                affichées lorsque vous créez des topics.</p>
+                affichées lorsque vous créez des rubriques.</p>
             <p>Vidéo: <xref href="https://www.youtube.com/watch?v=vMUxQpQvTZg" format="html"
                     scope="external">Aperçu d'une table de relation de DITA (reltable)</xref>
             </p>
@@ -65,13 +65,13 @@
                     fichier carte, ce lien n'est pas généré dans le résultat. Cela évite le problème
                     de lien brisé qui peut survenir avec les liens connexes et les xrefs.</li>
                 <li>Les reltables sont plus faciles à maintenir que les liens connexes incorporés.
-                    Chaque ligne dans une reltable peut contenir plusieurs topics et capturer leurs
-                    interactions. Ainsi, si vous avez huit topics liés, il est beaucoup plus facile
-                    de créer une seule ligne dans une reltable qui répertorie ces huit topics que de
-                    créer huit listes de liens connexes légèrement différentes (consistant en 8 × 7
-                    ou 56 liens) dans vos huit topics. Si vous devez supprimer un topic de la liste,
-                    la modification de la reltable est effectuée une fois au lieu de sept fois dans
-                    les fichiers.</li>
+                    Chaque ligne dans une reltable peut contenir plusieurs rubriques et capturer
+                    leurs interactions. Ainsi, si vous avez huit rubriques liées, il est beaucoup
+                    plus facile de créer une seule ligne dans une reltable qui répertorie ces huit
+                    rubriques que de créer huit listes de liens connexes légèrement différentes
+                    (consistant en 8 × 7 ou 56 liens) dans vos huit rubriques. Si vous devez
+                    supprimer une rubrique de la liste, la modification de la reltable est effectuée
+                    une fois au lieu de sept fois dans les fichiers.</li>
             </ul>
         </lcInstruction>
     </learningContentbody>

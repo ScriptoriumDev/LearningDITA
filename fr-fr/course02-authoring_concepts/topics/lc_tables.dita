@@ -3,7 +3,7 @@
      github.com. See the accompanying LICENSE file for
      applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
-<learningContent id="content_kw5_5ls_zs">
+<learningContent id="content_kw5_5ls_zs" xml:lang="fr-FR">
     <title>Ajouter des tableaux à un concept</title>
     <prolog>
         <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
@@ -75,7 +75,7 @@
             <fig>
                 <title>Exemple d'une &lt;table> dans un format visuel</title>
                 <image href="../media/images_and_tables/table.png" id="image_ulh_wmn_2t"
-                    base="2016/08"/>
+                    base="2020/10"/>
             </fig>
             <p>Continuez à utiliser le fichier leçon2/l_concept_images_tableaux_debut.dita pour
                 ajouter l'élément &lt;table>.</p>
@@ -374,7 +374,7 @@
                             </table>
                             <p>Donnez aux gens une interface conviviale qui leur permet de réduire rapidement leurs options et de choisir celle qu'ils veulent. Il n'est pas nécessaire d'exposer tous les champs de la base de données, mais seulement ceux qui aident les gens à restreindre leurs choix.</p>
                             <p><em>La liste de produits sur la droite se met à jour au fur et à mesure que vous faites des sélections sur la gauche</em></p>
-                            <img src="http://www.learningdita.fr/wp-content/uploads/2015/08/configuremieux1.png"/>
+                            <img src="http://www.learningdita.fr/wp-content/uploads/2020/10/configuremieux1.png"/>
                             <hr/>]]></pre>
                     </info>
                 </step>

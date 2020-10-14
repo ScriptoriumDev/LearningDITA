@@ -3,19 +3,19 @@
      github.com. See the accompanying LICENSE file for
      applicable licenses.-->
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
-<map>
- <title>Créer un topic de type concept</title>
+<map xml:lang="fr-FR">
+ <title>Créer un concept</title>
  <topicref href="../topics/lc_creating.dita">
   <topicmeta lockmeta="yes">
-   <data name="lesson_id" value="9235"></data>
+   <data name="lesson_id" value="286"/>
   </topicmeta>
-  
   <topicref href="../topics/lc_example_files.dita"/>
   <topicref href="../topics/lc_creating_new.dita"/>
   <topicref href="../topics/lc_basic_elements.dita"/>
-  <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_creating_concept.dita" locktitle="yes">
+  <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_creating_concept.dita"
+   locktitle="yes">
    <topicmeta>
-    <navtitle>Évaluation sur la Création d'un topic de type concept</navtitle>
+    <navtitle>Évaluation sur la création d'un concept</navtitle>
    </topicmeta>
    <topicref href="../assessments/creating/lca_basic_elements.dita"/>
    <topicref href="../assessments/creating/lca_conbody.dita"/>

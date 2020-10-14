@@ -20,20 +20,18 @@
   <lcInteraction>
    <lcTrueFalse id="md11">
     <lcQuestion>Si vous assignez une métadonnée au prologue, vous ne pouvez assigner de métadonnée
-     supplémentaire aux éléments de contenu dans le topic.</lcQuestion>
+     supplémentaire aux éléments de contenu dans la rubrique.</lcQuestion>
     <lcAnswerOptionGroup>
      <lcAnswerOption>
       <lcAnswerContent>Vrai</lcAnswerContent>
-
      </lcAnswerOption>
      <lcAnswerOption>
       <lcAnswerContent>Faux</lcAnswerContent>
       <lcCorrectResponse/>
-
      </lcAnswerOption>
     </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect>Le prologue du topic contient les métadonnées de niveau topic. Vous pouvez
-     aussi assigner une métadonnée au niveau élément en utilisant les
+    <lcFeedbackIncorrect>Le prologue de la rubrique contient les métadonnées de niveau rubrique.
+     Vous pouvez aussi assigner une métadonnée au niveau élément en utilisant les
      attributs.</lcFeedbackIncorrect>
    </lcTrueFalse>
   </lcInteraction>

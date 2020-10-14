@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- This file is part of the DITA Training project hosted on
      github.com. See the accompanying LICENSE file for
      applicable licenses.-->
@@ -19,8 +19,8 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcMultipleSelect id="md13">
-    <lcQuestion>Les métadonnées sont utiles car elles vous permettent de (choisissez ce qui
-     s'applique) :</lcQuestion>
+    <lcQuestion>Les métadonnées sont utiles car elles vous permettent de : (Choisir toutes les
+     réponses ce qui s'appliquent)</lcQuestion>
     <lcAnswerOptionGroup>
      <lcAnswerOption>
       <lcAnswerContent>Aucune des propositions.</lcAnswerContent>
@@ -41,7 +41,7 @@
      </lcAnswerOption>
     </lcAnswerOptionGroup>
     <lcFeedbackIncorrect>Vous écrivez le contenu dans les éléments ; les métadonnées sont des
-     informations sur le contenu. Vous utilisez des topics GlossEntry pour créer les entrées du
+     informations sur le contenu. Vous utilisez des rubriques GlossEntry pour créer les entrées du
      glossaire. </lcFeedbackIncorrect>
    </lcMultipleSelect>
   </lcInteraction>

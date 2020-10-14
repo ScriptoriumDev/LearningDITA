@@ -4,12 +4,13 @@
      applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="topics">
- <title>Les Topics DITA</title>
+ <title>Les rubriques DITA</title>
  <prolog>
   <author>Sharon Burton</author>
   <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe,
    Scriptorium</author>
-  <author>Marine Martin-Guillerez (Traductrice)</author>
+  <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external" format="html"
+   >Marine Martin-Guillerez (Traductrice)</author>
   <critdates>
    <created date="2015-04-28"/>
    <revised modified="2019-09-21"/>
@@ -18,10 +19,10 @@
  <learningContentbody>
   <lcObjectives>
    <lcObjectivesGroup>
-    <lcObjective>Identifier les éléments communs à tous les topics.</lcObjective>
-    <lcObjective>Citer les types de topics standards définis dans DITA.</lcObjective>
+    <lcObjective>Identifier les éléments communs à toutes les rubriques.</lcObjective>
+    <lcObjective>Citer les types de rubriques standards définis dans DITA.</lcObjective>
     <lcObjective>Identifier les éléments généralement présents dans chaque type de
-     topic.</lcObjective>
+     rubrique.</lcObjective>
     <lcObjective>Définir la spécialisation et les contraintes.</lcObjective>
    </lcObjectivesGroup>
   </lcObjectives>
@@ -29,13 +30,13 @@
    <lcTime value="45"/>
   </lcDuration>
   <lcInstruction>
-   <p>Un topic DITA est un élément constitutif du contenu.</p>
+   <p>Une rubrique DITA est un élément constitutif du contenu.</p>
    <p>L'un des principes fondamentaux de DITA est que différents types de contenu nécessitent
-    différents conteneurs (types de topics). De cette manière, les éléments du topic peuvent être
-    spécifiques aux informations décrites. </p>
-   <p>Tous les types de topics DITA sont liés à un type de topic commun ou générique. Le type de
-    topic générique est alors « spécialisé » dans un certain nombre de types de topics spécifiques,
-    chacun d'entre eux contenant un type d'informations spécifique. Les types de topics DITA «
+    différents conteneurs (types de rubriques). De cette manière, les éléments de la rubrique
+    peuvent être spécifiques aux informations décrites. </p>
+   <p>Tous les types de rubriques DITA sont liés à un type de rubrique commune ou générique. Le type de
+    rubrique générique est alors « spécialisé » dans un certain nombre de types de rubriques spécifiques,
+    chacun d'entre eux contenant un type d'informations spécifique. Les types de rubriques DITA «
     standard » incluent :</p>
    <ul id="ul_ekl_mcx_rs">
     <li>Concept - contient les informations conceptuelles ; répond à la question « Pourquoi ? »</li>
@@ -46,16 +47,16 @@
     <li>Entrée de Glossaire (Glossary entry) - défini un simple terme ; répond à la question «
      Qu'est-ce que ça signifie ? »</li>
    </ul>
-   <p>Cette leçon présente le type de topic générique, puis décrit chacun des types de topics
+   <p>Cette leçon présente le type de rubrique générique, puis décrit chacun des types de rubriques
     standards et leur utilisation.</p>
   </lcInstruction>
 
  </learningContentbody>
  <related-links>
   <link
-   href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/c_Topics_and_Information_Types.html"
+   href="https://www.ixiasoft.com/documentation/DITA_Style_Guide/fr/Artefact/c_Topics_and_Information_Types.html"
    format="html" scope="external">
-   <linktext>Guide de Style DITA, Chapitre 1</linktext>
+   <linktext>Guide de style DITA, Types d'information et rubriques</linktext>
   </link>
   <link href="http://www.scriptorium.com/books" scope="external" format="html">
    <linktext>Rédaction Technique 101, Chapitre 7</linktext>

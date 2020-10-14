@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
 <learningAssessment id="assessment_dgl_qc1_wr_e">
- <title>Contenu du thème</title>
+ <title>Contenu de la rubrique</title>
  <prolog>
   <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
    Scriptorium</author>
@@ -15,7 +15,7 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcTrueFalse id="lcTrueFalse_axs_bd3_rs">
-    <lcQuestion>L'élément &lt;body> contient la majeure partie du contenu utile d'un topic. </lcQuestion>
+    <lcQuestion>L'élément &lt;body> contient la majeure partie du contenu utile d'une rubrique. </lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_bxs_bd3_rs">
      <lcAnswerOption>
       <lcAnswerContent>Vrai</lcAnswerContent>

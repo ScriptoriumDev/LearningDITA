@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- This file is part of the DITA Training project hosted on
      github.com. See the accompanying LICENSE file for
      applicable licenses.-->
@@ -6,7 +6,6 @@
 <learningAssessment id="assessment_zzw_1hr_xr">
  <title/>
  <prolog>
-
   <author href="http://www.scriptorium.com" scope="external" format="html">Bill Swallow,
    Scriptorium</author>
   <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external" format="html"
@@ -19,7 +18,7 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcSingleSelect id="tablesq1">
-    <lcQuestion>Quels éléments table DITA supporte-t-il (Choisissez une réponse) ?</lcQuestion>
+    <lcQuestion>Quels éléments table DITA supporte-t-il ? (Choisir une réponse)</lcQuestion>
     <lcAnswerOptionGroup>
      <lcAnswerOption>
       <lcAnswerContent>&lt;complextable> et &lt;simpletable></lcAnswerContent>

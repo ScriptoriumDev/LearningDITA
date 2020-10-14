@@ -22,13 +22,13 @@
         <lcInstruction>
             <p>Vous pouvez assigner des métadonnées au contenu DITA en plusieurs endroits différents
                     :<ul id="ul_tnc_cgw_wr">
-                    <li>Au niveau du topic</li>
+                    <li>Au niveau de la rubrique</li>
                     <li>Au niveau de l'élément</li>
                     <li>Au niveau du fichier carte (un fichier carte vous permet de collecter
                         plusieurs rubriques pour créer un document, un système d'aide, etc ; un
                         module ultérieur explique plus en détail les fichiers carte)</li>
                 </ul></p>
-            <p>Au niveau des topics, DITA fournit un élément &lt;prolog> dans lequel vous pouvez
+            <p>Au niveau des rubriques, DITA fournit un élément &lt;prolog> dans lequel vous pouvez
                 stocker des métadonnées pour l’ensemble du sujet. Voici un exemple de métadonnées
                 des thèmes de base :</p>
             <pre>&lt;topic id="xyz">
@@ -55,7 +55,7 @@
                 </ul></p>
             <note type="important"> Utilisez les métadonnées &lt;prolog> uniquement pour les
                 informations système, telles que l'auteur et les dates de création / révision. DITA
-                n'utilise pas les métadonnées &lt;prolog> pour filtrer les topics.</note>
+                n'utilise pas les métadonnées &lt;prolog> pour filtrer les rubriques.</note>
             <p>Au niveau élément, vous utilisez généralement des attributs dans les éléments pour
                 spécifier les métadonnées. Voici un exemple :</p>
             <pre>&lt;step>

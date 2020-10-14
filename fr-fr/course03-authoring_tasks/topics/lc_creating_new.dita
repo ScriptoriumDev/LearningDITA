@@ -3,8 +3,8 @@
      github.com. See the accompanying LICENSE file for
      applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
-<learningContent id="content_hrm_xjh_1t">
-    <title>Créer un nouveau topic tâche</title>
+<learningContent id="content_hrm_xjh_1t" xml:lang="fr-FR">
+    <title>Créer une nouvelle tâche</title>
 
     <prolog>
         <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
@@ -58,8 +58,8 @@
                         <p>La deuxième ligne est une déclaration DOCTYPE indiquant aux éditeurs DITA
                             ou aux générateurs de sortie DITA qu'il s'agit d'une tâche strict DITA.
                             Le programme utilise alors cette information lors de la validation du
-                            contenu du topic. Le DOCTYPE sera différent pour chaque type de topic
-                            que vous créez (y compris la tâche générale).</p>
+                            contenu de la rubrique. Le DOCTYPE sera différent pour chaque type de
+                            rubrique que vous créez (y compris la tâche générale).</p>
                         <p>La troisième ligne contient la balise d'ouverture de l'élément
                             &lt;task>.</p>
                         <p>La quatrième ligne contient l'élément title.</p>

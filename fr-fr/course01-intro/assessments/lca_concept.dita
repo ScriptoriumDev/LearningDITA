@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- This file is part of the DITA Training project hosted on
      github.com. See the accompanying LICENSE file for
      applicable licenses.-->
@@ -19,8 +19,8 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcSingleSelect id="topics3">
-    <lcQuestion>Lors de la création d'un topic concept, vous aurez souvent à (choisissez une
-     réponse) :</lcQuestion>
+    <lcQuestion>Lors de la création d'une rubrique de type concept, vous aurez souvent à : (choisir une
+     réponse)</lcQuestion>
     <lcAnswerOptionGroup>
      <lcAnswerOption>
       <lcAnswerContent>Éviter d'introduire de nouveaux termes ou expressions</lcAnswerContent>
@@ -35,7 +35,8 @@
      </lcAnswerOption>
     </lcAnswerOptionGroup>
     <lcFeedbackIncorrect>Les concepts sont fréquemment utilisés pour introduire de nouveaux mots ou
-     expressions. Les instructions de tâches appartiennent aux topics tâches.</lcFeedbackIncorrect>
+     expressions. Les instructions de tâches appartiennent aux rubriques de type
+     tâches.</lcFeedbackIncorrect>
    </lcSingleSelect>
   </lcInteraction>
  </learningAssessmentbody>

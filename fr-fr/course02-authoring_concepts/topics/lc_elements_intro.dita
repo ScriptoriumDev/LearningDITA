@@ -3,7 +3,7 @@
      github.com. See the accompanying LICENSE file for
      applicable licenses.--> 
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
-<learningContent id="content_kqs_rks_zs">
+<learningContent id="content_kqs_rks_zs" xml:lang="fr-FR">
     <title>Plus d'éléments</title>
     <prolog>
         <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
@@ -43,21 +43,21 @@
                 &lt;dl> pour créer des listes de termes et leurs définitions.</p>
             <p>Cette leçon présente ces éléments et montre comment les ajouter à un concept. Comme
                 les autres éléments introduits dans ce cours, ces éléments ne sont pas exclusifs au
-                concept et peuvent également être utilisés dans les autres types de topic DITA
+                concept et peuvent également être utilisés dans les autres types de rubrique DITA
                 (tâche et référence).</p>
             <note>
                 <p>Cette leçon couvre l'utilisation de base de ces éléments. Pour les spécifications
                     complètes de chaque élément, voir la <xref
                         href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/concept.html"
-                        format="html" scope="external">Norme OASIS DITA Version 1.2</xref>.</p>
+                        format="html" scope="external">norme OASIS DITA version 1.2</xref>.</p>
             </note>
         </lcIntro>
     </learningContentbody>
     <related-links>
         <link
-            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Syntax_and_Markup/c_Phrases.html"
+            href="https://www.ixiasoft.com/documentation/DITA_Style_Guide/fr/Artefact/Syntax_and_Markup/c_Phrases.html"
             format="html" scope="external">
-            <linktext>Guide de Style DITA Style Guide, Expressions</linktext>
+            <linktext>Guide de Style, Phrases</linktext>
         </link>
         <!--<link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/b.html" format="html"
             scope="external">

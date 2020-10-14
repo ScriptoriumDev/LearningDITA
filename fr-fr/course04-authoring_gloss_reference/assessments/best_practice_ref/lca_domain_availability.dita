@@ -8,8 +8,8 @@
  <prolog>
   <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
    Scriptorium</author>
-  <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
-   format="html">Marine Martin-Guillerez (Traductrice)</author>
+  <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external" format="html"
+   >Marine Martin-Guillerez (Traductrice)</author>
   <critdates>
    <created date="2015-10-28"/>
    <revised modified="2020-06-28"/>
@@ -18,20 +18,20 @@
  <learningAssessmentbody id="learningAssessmentbody_jdr_vtn_vt">
   <lcInteraction>
    <lcSingleSelect id="lcSingleSelect_g2r_vtn_vt">
-    <lcQuestion>Les éléments de domaine sont disponibles dans (choisir une réponse)&nbsp;:</lcQuestion>
+    <lcQuestion>Les éléments de domaine sont disponibles dans (choisir une réponse) :</lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_y2r_vtn_vt">
      <lcAnswerOption>
       <lcAnswerContent>Toutes les spécialisations</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>Les topics référence</lcAnswerContent>
+      <lcAnswerContent>Les références</lcAnswerContent>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>Les topics tâche</lcAnswerContent>
+      <lcAnswerContent>Les tâches</lcAnswerContent>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>Les types de topics qui leur sont associés</lcAnswerContent>
+      <lcAnswerContent>Les types de rubriques qui leur sont associés</lcAnswerContent>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
    </lcSingleSelect>

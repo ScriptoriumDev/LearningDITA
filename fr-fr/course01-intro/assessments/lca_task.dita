@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- This file is part of the DITA Training project hosted on
      github.com. See the accompanying LICENSE file for
      applicable licenses.-->
-
 <!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
 <learningAssessment id="assessment_fb5_bf1_wr">
  <title/>
@@ -18,13 +17,10 @@
   </critdates>
  </prolog>
  <learningAssessmentbody>
-
-
   <lcInteraction>
-
    <lcMultipleSelect id="topics6">
-    <lcQuestion>les topics tâche incluent les composants suivants (choisissez toutes les réponses
-     qui s'appiquent) :</lcQuestion>
+    <lcQuestion>les rubriques de type tâche incluent les composants suivants : (Choisir toutes les
+     réponses qui s'appliquent)</lcQuestion>
     <lcAnswerOptionGroup>
      <lcAnswerOption>
       <lcAnswerContent>Sous-étapes facultatives</lcAnswerContent>
@@ -43,7 +39,7 @@
      </lcAnswerOption>
     </lcAnswerOptionGroup>
     <lcFeedbackIncorrect>Vous pouvez fournir des informations contextuelles avec l’élément context,
-     mais les informations d’aperçu détaillé doivent figurer dans un topic
+     mais les informations d’aperçu détaillé doivent figurer dans une rubrique de type
      concept.</lcFeedbackIncorrect>
    </lcMultipleSelect>
   </lcInteraction>

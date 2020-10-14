@@ -3,7 +3,7 @@
      github.com. See the accompanying LICENSE file for
      applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
-<learningContent id="content_xyj_ddc_bt">
+<learningContent id="content_xyj_ddc_bt" xml:lang="fr-FR">
     <title>Donner le choix au lecteur</title>
     <prolog>
         <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
@@ -70,7 +70,7 @@
                     <cmd>Continuez de travailler sur le fichier l_tache_debut.dita</cmd>
                 </step>
                 <step>
-                    <!--<note>Ces étapes reprennent l'exemple qui se déroule en continu dans ce cours. Dans la première étape, le sujet complet de la tâche est montré ; dans les étapes suivantes, seuls les éléments centraux du topic seront montrés. </note>-->
+                    <!--<note>Ces étapes reprennent l'exemple qui se déroule en continu dans ce cours. Dans la première étape, le sujet complet de la tâche est montré ; dans les étapes suivantes, seuls les éléments centraux de la rubrique seront montrés. </note>-->
                     <cmd>Après la balise de fermeture du premier élément &lt;step>, ajouter un
                         nouvel élément &lt;step>. À l'intérieur de cet élément &lt;step>, créer un
                         élément &lt;cmd> (si aucun n'a été créé pour vous). Ajoutez le contenu
@@ -103,8 +103,6 @@
                 <step id="step_ed4_244_ft">
                     <cmd>Si votre éditeur ne l'a pas fait automatiquement, ajoutez un premier
                         élément &lt;choice> à l'intérieur de l'élément &lt;choices>.</cmd>
-                    <cmd>If your editor does not automatically add a first &lt;choice> element
-                        inside the &lt;choices> element, add one now.</cmd>
                     <stepxmp>
                         <pre>&lt;step>
    &lt;cmd>Choisissez un guide de terrain pour identifier les canards.&lt;/cmd>

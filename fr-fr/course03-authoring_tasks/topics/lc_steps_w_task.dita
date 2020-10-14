@@ -3,7 +3,7 @@
      github.com. See the accompanying LICENSE file for
      applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
-<learningContent id="content_kw5_5ls_zs">
+<learningContent id="content_kw5_5ls_zs" xml:lang="fr-FR">
     <title>Premières étapes</title>
     <prolog>
         <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
@@ -88,7 +88,7 @@
                     <info>
                         <p>Comme avec les éléments &lt;prereq> et &lt;context>, le &lt;taskbody> ne
                             peut contenir qu'un élément &lt;steps>. Vous restreindre à un seul
-                            élément &lt;steps> vous assure que le topic décrit uniquement comment
+                            élément &lt;steps> vous assure que la rubrique décrit uniquement comment
                             réaliser une tâche.</p>
                     </info>
                 </step>
@@ -160,8 +160,8 @@
                             contenu mixte, les meilleures pratiques vous impose d'utiliser un
                             élément &lt;p> pour englober le texte, même si l'élément &lt;info> ne
                             contient qu'un paragraphe.</p>
-                        <p>Les autres topics de cette leçon introduisent des éléments supplémentaires
-                            que vous pouvez utiliser pour documenter l'étape.</p>
+                        <p>Les autres rubriques de cette leçon introduisent des éléments
+                            supplémentaires que vous pouvez utiliser pour documenter l'étape.</p>
                     </info>
                 </step>
             </steps>

@@ -52,11 +52,11 @@
                     <li>Gérer le statut du projet</li>
                 </ul></p>
             <p>Dans DITA ou autres formats XML, les métadonnées sont encodés à l'intérieur de vos
-                topics, soit au niveau du topic, soit sur des éléments spécifiques. Vous pouvez
+                rubriques, soit au niveau de la rubrique, soit sur des éléments spécifiques. Vous pouvez
                 manipuler le contenu DITA en utilisant ces valeurs de métadonnées..</p>
-            <p>DITA nécessite une métadonnée ; chaque topic doit avoir un attribut id. Ces
+            <p>DITA nécessite une métadonnée ; chaque rubrique doit avoir un attribut id. Ces
                 identifiants sont souvent attribués automatiquement par des outils de création ou
-                des systèmes de gestion de contenu. Voici un exemple de topic avec un attribut id
+                des systèmes de gestion de contenu. Voici un exemple de rubrique avec un attribut id
                 :</p>
             <pre>&lt;topic <b>id="xyz"</b>>
    &lt;title>Votre titre ici&lt;/title>

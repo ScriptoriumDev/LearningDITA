@@ -3,8 +3,8 @@
      github.com. See the accompanying LICENSE file for
      applicable licenses.--> 
 <!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
-<learningAssessment id="assessment_hrv_mq2_2t">
- <title>Types de topic</title>
+<learningAssessment id="assessment_hrv_mq2_2t" xml:lang="fr-FR">
+ <title>Types de rubrique</title>
  <prolog>
   <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
    Scriptorium</author>
@@ -18,8 +18,8 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcTrueFalse id="link8">
-    <lcQuestion>Une bonne utilisation des types de topics rend votre contenu plus riche sur le plan
-     sémantique.</lcQuestion>
+    <lcQuestion>Une bonne utilisation des types de rubriques rend votre contenu plus riche sur le
+     plan sémantique.</lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_rls_nq2_2t">
      <lcAnswerOption>
       <lcAnswerContent>Faux</lcAnswerContent>
@@ -29,7 +29,7 @@
       <lcCorrectResponse/>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect>Il est préférable d'utiliser un type de topic plus approprié à votre
+    <lcFeedbackIncorrect>Il est préférable d'utiliser un type de rubrique plus approprié à votre
      contenu, comme par exemple un type Tâche pour documenter une procédure, plutôt que d'utiliser
      un type Concept.</lcFeedbackIncorrect>
    </lcTrueFalse>

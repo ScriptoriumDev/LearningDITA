@@ -11,7 +11,7 @@
             Scriptorium</author>
         <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
             Scriptorium</author>
-        <author>Marine Martin-Guillerez (Traductrice)</author>
+                <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external" format="html">Marine Martin-Guillerez (Traductrice)</author> 
         <critdates>
             <created date="2015-04-28"/>
             <revised modified="2019-08-18"/>
@@ -51,7 +51,7 @@
                 pour paragraphe, et &lt;ul> et &lt;ol> pour les listes non ordonnées et
                 ordonnées.</p>
             <p>Une autre différence de dénomination : en HTML, la balise la plus externe ou « racine
-                » est &lt;html>. Dans DITA, le nom de la balise racine dépend du type de topics que
+                » est &lt;html>. Dans DITA, le nom de la balise racine dépend du type de rubriques que
                 vous créez, par exemple, &lt;concept>, &lt;task> ou &lt;reference> (entre
                 autres).</p>
             <note>Il est utile de savoir à quoi ressemble le balisage dans XML et DITA. Cependant,

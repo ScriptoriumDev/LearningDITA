@@ -27,13 +27,13 @@
                 autoriser les valeurs "gif", "png", "bmp" et "svg" ; vous pourriez vouloir donner
                 des informations spécifiques sur les implications de l'utilisation de chacun des
                 types de fichiers. </p>
-            <p>Dans le topic DITA de type référence, l'élément &lt;properties> fournit une façon de
+            <p>Dans la rubrique DITA de type référence, l'élément &lt;properties> fournit une façon de
                 structurer ces informations. L'élément &lt;properties> est l'un des éléments que
                 vous pouvez utiliser dans un élément &lt;refbody>.</p>
             <p>L'élément &lt;properties> contient un ou plusieurs éléments &lt;property>, chacun
                 décrivant une seule propriété. L'élément &lt;property> peut contenir des éléments
                 pour le type (&lt;proptype>), la valeur (&lt;propvalue>), et la description
-                (&lt;propdesc>). Pour une utilisation courante, ceux-ci peuvent contenir&nbsp;:</p>
+                (&lt;propdesc>). Pour une utilisation courante, ceux-ci peuvent contenir :</p>
             <simpletable frame="all" relcolwidth="1.0* 1.0* 1.0* 1.0*" id="simpletable_ik5_bc5_vt">
                 <sthead>
                     <stentry>Type de document</stentry>
@@ -72,7 +72,7 @@
                 têtes de colonne pour les colonnes type, valeur et description en utilisant un
                 élément &lt;prophead> contenant les éléments &lt;proptypehd>, &lt;propvaluehd>, et
                 &lt;propdeschd>. </p>
-            <p><xref href="https://youtu.be/njVoKQqltlA" format="html" scope="external">Vidéo&nbsp;:
+            <p><xref href="https://youtu.be/njVoKQqltlA" format="html" scope="external">Vidéo :
                     Créer une table propriétés DITA</xref></p>
         </lcInstruction>
     </learningContentbody>
@@ -234,7 +234,7 @@
             <steps>
                 <step>
                     <cmd>Ouvrez le fichier leçon1/l_reference_exercice_debut.dita et utilisez-le
-                        pour convertir le contenu suivant en DITA&nbsp;:</cmd>
+                        pour convertir le contenu suivant en DITA :</cmd>
                     <info>
                         <pre outputclass="passthru"><![CDATA[
                             <hr/>
@@ -244,7 +244,7 @@
                             
                             <table>
                               <tr>
-                                <td>Requis&nbsp;?</td>
+                                <td>Requis ?</td>
                                 <td>Paramètre</td>
                                 <td>Description</td>
                               </tr>

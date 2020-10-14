@@ -4,17 +4,18 @@
      applicable licenses.-->
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map xml:lang="fr-FR">
- <title>Les meilleures pratiques pour les topics de type référence</title>
+ <title>Les meilleures pratiques pour les références</title>
  <topicref href="../topics/lc_bp_intro_ref.dita">
   <topicmeta lockmeta="yes">
-   <data name="lesson_id" value="9748"/>
+   <data name="lesson_id" value="337"/>
   </topicmeta>
   <topicref href="../topics/lc_bp_template.dita"/>
   <topicref href="../topics/lc_bp_linking.dita"/>
   <topicref href="../topics/lc_pr-d.dita"/>
-  <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_ref_bestp.dita" locktitle="yes">
+  <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_ref_bestp.dita"
+   locktitle="yes">
    <topicmeta>
-    <navtitle>Évaluation pour Les meilleures pratiques pour les topics de type référence</navtitle>
+    <navtitle>Évaluation sur les meilleures pratiques pour les références</navtitle>
    </topicmeta>
    <topicref href="../assessments/best_practice_ref/lca_refbody.dita"/>
    <topicref href="../assessments/best_practice_ref/lca_reference_ids.dita"/>

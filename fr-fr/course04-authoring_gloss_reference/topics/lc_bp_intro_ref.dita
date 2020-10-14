@@ -4,7 +4,7 @@
      applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_qrk_dnq_bt" xml:lang="fr-FR">
-    <title>Les meilleures pratiques pour les topics de type référence</title>
+    <title>Les meilleures pratiques pour les références</title>
     <prolog>
         <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
             Scriptorium</author>
@@ -28,27 +28,27 @@
             <lcTime value="1"/>
         </lcDuration>
         <lcInstruction>
-            <p>Cette leçon couvre les meilleures pratiques pour la création de topics de type
-                référence. Vous apprendrez à créer des modèles de référence, à utiliser des tableaux
-                de relations pour gérer les liens et à utiliser des éléments de domaine DITA pour
-                améliorer la sémantique.</p>
+            <p>Cette leçon couvre les meilleures pratiques pour la création de références. Vous
+                apprendrez à créer des modèles de référence, à utiliser des tableaux de relations
+                pour gérer les liens et à utiliser des éléments de domaine DITA pour améliorer la
+                sémantique.</p>
         </lcInstruction>
     </learningContentbody>
     <related-links>
         <link
-            href="https://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Maps/c_Understanding_Relationship_Tables.html"
+            href="https://www.ixiasoft.com/documentation/DITA_Style_Guide/fr/Artefact/Maps/c_Understanding_Relationship_Tables.html"
             format="html" scope="external">
-            <linktext>Guide de style DITA, Tableaux des relations</linktext>
+            <linktext>Guide de style DITA, Les tables des relations</linktext>
         </link>
         <link
-            href="https://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Syntax_and_Markup/c_List_of_Domains.html"
+            href="https://www.ixiasoft.com/documentation/DITA_Style_Guide/fr/Artefact/Syntax_and_Markup/c_List_of_Domains.html"
             format="html" scope="external">
             <linktext>Guide de style DITA, Domaines des éléments</linktext>
         </link>
         <link
-            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Content_Reuse/c_Management_of_conrefs.html"
+            href="https://www.ixiasoft.com/documentation/DITA_Style_Guide/fr/Artefact/Content_Reuse/c_Management_of_conrefs.html"
             format="html" scope="external">
-            <linktext>Guide de style DITA, Trouver des éléments à réutiliser</linktext>
+            <linktext>Guide de style DITA, Identifier les éléments à réutiliser</linktext>
         </link>
     </related-links>
 </learningContent>

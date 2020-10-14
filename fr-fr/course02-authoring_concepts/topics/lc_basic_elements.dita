@@ -3,7 +3,7 @@
      github.com. See the accompanying LICENSE file for
      applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
-<learningContent id="content_hrm_xjh_1t">
+<learningContent id="content_hrm_xjh_1t" xml:lang="fr-FR">
     <title>Ajouter des éléments de base à un concept</title>
     <prolog>
         <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
@@ -17,7 +17,7 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>Certains des éléments les plus couramment utilisés dans un topic concept sont :</p>
+            <p>Certains des éléments les plus couramment utilisés dans un concept sont :</p>
             <simpletable frame="all" relcolwidth="1.0* 1.0*" id="simpletable_i4k_dm4_2t">
                 <strow>
                     <stentry>
@@ -53,7 +53,7 @@
                 </strow>
             </simpletable>
             <p>Ces éléments sont abordés dans le <xref
-                    href="http://www.learningdita.fr/courses/introduction-to-dita/" format="html"
+                    href="http://www.learningdita.fr/courses/introduction-a-dita/" format="html"
                     scope="external">cours Introduction à DITA </xref>. Cette leçon donne un bref
                 aperçu de ces éléments et montre comment les ajouter à un concept.</p>
         </lcInstruction>
