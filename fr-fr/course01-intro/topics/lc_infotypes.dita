@@ -34,10 +34,10 @@
    <p>L'un des principes fondamentaux de DITA est que différents types de contenu nécessitent
     différents conteneurs (types de rubriques). De cette manière, les éléments de la rubrique
     peuvent être spécifiques aux informations décrites. </p>
-   <p>Tous les types de rubriques DITA sont liés à un type de rubrique commune ou générique. Le type de
-    rubrique générique est alors « spécialisé » dans un certain nombre de types de rubriques spécifiques,
-    chacun d'entre eux contenant un type d'informations spécifique. Les types de rubriques DITA «
-    standard » incluent :</p>
+   <p>Tous les types de rubriques DITA sont liés à un type de rubrique commune ou générique. Le type
+    de rubrique générique est alors « spécialisé » dans un certain nombre de types de rubriques
+    spécifiques, chacun d'entre eux contenant un type d'informations spécifique. Les types de
+    rubriques DITA « standard » incluent :</p>
    <ul id="ul_ekl_mcx_rs">
     <li>Concept - contient les informations conceptuelles ; répond à la question « Pourquoi ? »</li>
     <li>Tâche (Task) — contient l'information procédurale étape-par-étape ; répond à la question «
@@ -58,9 +58,7 @@
    format="html" scope="external">
    <linktext>Guide de style DITA, Types d'information et rubriques</linktext>
   </link>
-  <link href="http://www.scriptorium.com/books" scope="external" format="html">
-   <linktext>Rédaction Technique 101, Chapitre 7</linktext>
-  </link>
+  <link href="http://www.scriptorium.com/books" scope="external" format="html"/>
  </related-links>
 
 </learningContent>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_pgf_3gt_qt">
+    <title>Ajouter des chapitres à une bookmap</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2016-03-07"/>
+            <revised modified="2020-10-15"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>L'élément &lt;chapter> est structuré comme suit :</p>
+            <pre>&lt;chapter href="chemin/nomfichier.dita"></pre>
+            <p>À l'exception du nom de l'élément, la structure d'un élément &lt;chapter> correspond
+                à la structure de l'élément &lt;topicref>. Dans un élément &lt;chapter>, l'attribut
+                href contient un lien vers une rubrique qui est inclue dans la bookmap au premier
+                niveau, ou niveau chapitre.</p>
+            <p>L'élément &lt;chapter> peut contenir les éléments suivants : </p>
+            <ul id="ul_oc4_2fd_3v">
+                <li>
+                    <p>L'élément &lt;topicmeta>, qui défini les métadonnées sur la rubrique
+                        référencée au niveau chapitre.</p>
+                </li>
+                <li>
+                    <p>Un certain nombre d'éléments &lt;topicref>.</p>
+                </li>
+                <li>
+                    <p>Un certain nombre d'éléments &lt;mapref>.</p>
+                </li>
+            </ul>
+            <p>Si vous utilisez une bookmap, vous allez presque certainement distribuer votre
+                contenu sous forme imprimée ou PDF. Il est donc important de penser aux limites de
+                l'espace physique de ce type de production lorsque vous établissez votre hiérarchie
+                de sujets. Si vous imbriquez trop de niveaux de rubriques dans un chapitre, vous
+                risquez de manquer de moyens pour différencier vos niveaux de titres, que ce soit en
+                diminuant la taille des caractères ou en augmentant les retraits. Cela pourrait être
+                source de confusion pour les personnes qui tentent de lire votre contenu.</p>
+            <note>
+                <p>Pour plus d'informations sur l'élément &lt;chapter>, se référer à la <xref
+                        href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/chapter.html"
+                        format="html" scope="external">norme OASIS DITA version 1.2</xref>.</p>
+            </note>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_at5_jgd_3v">
+        <title>Entraînement</title>
+        <taskbody>
+            <steps id="steps_umd_lgd_3v">
+                <step>
+                    <cmd>Continuez d'utiliser le fichier
+                        exemples_cartes_bookmaps/exemples/_b_canards_demarrer.ditamap.</cmd>
+                </step>
+                <step>
+                    <cmd>Après la balise de fermeture de l'élément &lt;booktitle>, ajoutez un
+                        élément &lt;chapter> et ajoutez-y du contenu comme le montre l'exemple suivant :</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+&lt;bookmap id="canards">
+...
+&lt;/booktitle>
+<ph outputclass="newchanged">&lt;chapter href="c_canards_sauvages.dita">
+&lt;/chapter></ph>
+&lt;/bookmap></pre>
+                    </stepxmp>
+                    <info>Cet élément &lt;chapter> crée un lien vers le concept
+                        c_canards_sauvages.dita.</info>
+                </step>
+                <step>
+                    <cmd>À l'intérieur de l'élément &lt;chapter> que vous venez d'ajouter, ajoutez
+                        un élément &lt;topicref> et ajoutez-y du contenu comme le montre l'exemple suivant :</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+&lt;bookmap id="canards">
+...
+&lt;chapter href="c_canards_sauvages.dita">
+<ph outputclass="newchanged">   &lt;topicref href="c_types_canards_sauvages.dita"/></ph>
+&lt;/chapter>
+&lt;/bookmap></pre>
+                    </stepxmp>
+                    <info>En plaçant cet élément &lt;topicref> à l'intérieur de l'élément
+                        &lt;chapter>, vous avez imbriqué la rubrique c_types_canards_sauvages.dita
+                        dans le chapitre c_canards_sauvages.dita dans la hiérarchie de votre
+                        bookmap.</info>
+                </step>
+                <step>
+                    <cmd>Après l'élément &lt;topicref> que vous venez d'ajouter, ajoutez deux autres
+                        éléments &lt;topicref> et ajoutez-y du contenu comme le montre l'exemple suivant :</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+&lt;bookmap id="canards">
+...
+&lt;chapter href="c_canards_sauvages.dita">
+       &lt;topicref href="c_types_canards_sauvages.dita"/>
+<ph outputclass="newchanged">   
+       &lt;topicref href="c_especes_canards_sauvages.dita"/>
+       &lt;topicref href="t_observer_canards_sauvages.dita"/></ph>
+&lt;/chapter>
+&lt;/bookmap></pre>
+                    </stepxmp>
+                    <info>Le chapitre c_canards_sauvages.dita contient maintenant trois rubriques
+                        imbriquées : c_types_canards_sauvages.dita, c_especes_canards_sauvages.dita
+                        et t_observer_canards_sauvages.dita.</info>
+                </step>
+                <step>
+                    <cmd>Après la balise de fermeture de l'élément &lt;chapter>, ajoutez plus
+                        d'éléments &lt;chapter> et ajoutez-y du contenu comme le montre l'exemple suivant :</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+&lt;bookmap id="canards">
+...
+&lt;/chapter>
+<ph outputclass="newchanged">&lt;chapter href="c_canards_domestiques.dita">
+       &lt;topicref href="c_croissance_des_canards.dita"/>
+       &lt;topicref href="c_nourrir_canetons.dita">
+            &lt;topicref href="c_poids_du_canard.dita"/>
+       &lt;/topicref>
+    &lt;/chapter>
+    &lt;chapter href="c_canarddb.dita">
+       &lt;topicref href="c_ecrire_sur_canards.dita" locktitle="yes"/>
+       &lt;topicref href="r_tnav.dita"/>
+    &lt;/chapter></ph>
+&lt;/map></pre>
+                    </stepxmp>
+                    <info>La hiérarchie de la bookmap contient maintenant trois chapitres :
+                        c_canards_sauvages.dita, c_canards_domestiques.dita et c_canarddb.dita.
+                        Chacun de ces chapitres contient plusieurs éléments &lt;topicref> imbriqués.
+                        L'un de ces éléments &lt;topicref> de second niveau,
+                        c_nourrir_canetons.dita, contient un élément &lt;topicref> de troisième
+                        niveau, c_poids_du_canard.dita.</info>
+                </step>
+                <step>
+                    <cmd>Utilisez le fichier exemples_cartes_bookmaps/exemples/_b_canards.ditamap
+                        pour vérifier votre fichier
+                        exemples_cartes_bookmaps/exemples/_b_canards_demarrer.ditamap.</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+    <task id="task_bookmaps">
+        <title>Exercice</title>
+        <taskbody>
+            <steps id="steps_exercise_bookmaps">
+                <step>
+                    <cmd>Ouvrez le fichier exemples_cartes_bookmaps/exercices/_b_cs101_debut.ditamap
+                        et utilisez-le pour assembler les rubriques dans une carte DITA, en utilisant la
+                        structure hiérarchique suivante comme guide :</cmd>
+                    <info>
+                        <pre outputclass="passthru"><![CDATA[
+                            <hr />
+                            <ul>
+                            <li><strong>Chapitre 1 : Maîtriser les coûts de communication technique</strong>
+                                <ul>
+                                <li>L'illusion de la documentation à faible coût</li>
+                                <li>Développement efficace du contenu technique</li>
+                                <li>Réduire le coût du support technique
+                                    <ul>
+                                    <li>Une meilleure information technique, moins d'appels au support</li>
+                                    <li>Des opérations de support plus efficaces</li>
+                                    </ul>
+                                </li>
+                                <li>Collaboration en matière de contenu au sein de l'organisation
+                                    <ul>
+                                    <li>« Collaboration » ≠ « contenu libre pour tous »</li>
+                                    </ul>
+                                </li>
+                                </ul>
+                            </li>
+                            <li><strong>Chapitre 2 : Marketing et visibilité des produits</strong>
+                                <ul>
+                                <li>Assister le marketing avec du contenu technique
+                                    <ul>
+                                    <li>Renforcer le message marketing</li>
+                                    <li>Quand le contenu technique contredit le marketing</li>
+                                    </ul>
+                                </li>
+                                </ul>
+                                <ul>
+                                <li>Accroître la visibilité des produits
+                                    <ul>
+                                    <li>Livres de tierces parties</li>
+                                    </ul>
+                                </li>
+                                </ul>
+                                <ul>
+                                <li>Créer une communauté d'utilisateurs et les fidéliser
+                                    <ul>
+                                    <li>Étendre l'expérience de jeu au contenu</li>
+                                    </ul>
+                                </li>
+                                </ul>
+                            </li>
+                            <li><strong>Chapitre 3 : Questions juridiques et réglementaires</strong>
+                                <ul>
+                                <li>Éviter l'exposition juridique</li>
+                                <li>Répondre aux exigences réglementaires
+                                    <ul>
+                                    <li>Livraison d'information</li>
+                                    <li>Normes techniques</li>
+                                    </ul>
+                                </li>
+                                </ul>
+                            </li>
+                            </ul>
+                            <hr/>]]></pre>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Utilisez le fichier exemples_cartes_bookmaps/exercices/_b_cs101.ditamap
+                        pour vérifier votre fichier
+                        exemples_cartes_bookmaps/exercices/_b_cs101_debut.ditamap.</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

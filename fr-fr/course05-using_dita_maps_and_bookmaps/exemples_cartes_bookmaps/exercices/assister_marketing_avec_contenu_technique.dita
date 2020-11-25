@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_qvz_qfy_jf">
+ <title>Assister le marketing avec du contenu technique</title>
+ <conbody>
+  <p><indexterm>communication technique<indexterm>contre communication
+    marketing</indexterm></indexterm><indexterm>communication marketing<indexterm>contre
+     communication technique</indexterm></indexterm><indexterm>stéréotypes</indexterm>La
+   communication technique et la communication marketing ont longtemps occupé les extrémités
+   opposées du spectre des contenus. Le stéréotype est que la communication technique est lourde en
+   texte, dense et mal formatée alors que la communication marketing est brillante, belle et sans
+   contenu. À partir de là, le débat s'intensifie :<table frame="all" id="table_ksl_1hs_kf">
+    <title>Communication marketing contre communication technique : les stéréotypes</title>
+    <tgroup cols="3">
+     <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+     <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+     <colspec colname="c3" colnum="3" colwidth="1.0*"/>
+     <thead>
+      <row>
+       <entry/>
+       <entry>Communication marketing</entry>
+       <entry>Communication technique</entry>
+      </row>
+     </thead>
+     <tbody>
+      <row>
+       <entry>Conception ou automatisation ?</entry>
+       <entry>Conception</entry>
+       <entry>Automatisation</entry>
+      </row>
+      <row>
+       <entry>Quel est le degré de détail ?</entry>
+       <entry>Aussi peu que possible</entry>
+       <entry>Autant que possible</entry>
+      </row>
+      <row>
+       <entry>Impact présumé sur les recettes</entry>
+       <entry>Beaucoup</entry>
+       <entry>Aucun</entry>
+      </row>
+      <row>
+       <entry>Objectif principal</entry>
+       <entry>Convaincre les gens d'acheter</entry>
+       <entry>Informer les gens</entry>
+      </row>
+      <row>
+       <entry>Les rédacteurs sont des experts en produits ?</entry>
+       <entry>Non</entry>
+       <entry>Oui</entry>
+      </row>
+      <row>
+       <entry>L'interaction du client avec le contenu est mesurée ?</entry>
+       <entry>Oui</entry>
+       <entry>Rarement</entry>
+      </row>
+      <row>
+       <entry>Affecte-t-il le positionnement du produit ?</entry>
+       <entry>Oui</entry>
+       <entry>Oui, mais pas délibérément</entry>
+      </row>
+      <row>
+       <entry>Important ?</entry>
+       <entry>Oui</entry>
+       <entry>Non</entry>
+      </row>
+      <row>
+       <entry>Quand les gens lisent-ils ?</entry>
+       <entry>Avant d'acheter</entry>
+       <entry>Après l'achat</entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table></p>
+  <p><indexterm>livres blancs</indexterm>La réalité n'est pas si simple. Certains produits
+   d'information se situent dans une zone grise entre les deux disciplines. Les livres blancs, par
+   exemple, sont pleins d'informations techniques détaillées mais se veulent persuasifs.</p>
+  <p><indexterm>fiches techniques</indexterm>Les fiches techniques présentent les spécifications
+   factuelles des produits, mais sont généralement utilisées dans le cadre du processus de vente et
+   du marketing. L'objectif d'une fiche technique est de fournir à un acheteur potentiel des
+   spécifications sur un produit afin qu'il puisse déterminer si ce produit est adapté à ses
+   besoins. Mais une fiche technique sur papier n'est pas nécessairement la meilleure approche de ce
+   problème, surtout si votre produit présente de nombreuses configurations possibles.</p>
+  <p>Pourquoi ne pas plutôt proposer un formulaire en ligne qui demande certaines informations,
+   réduit les options à un nombre gérable, puis liste ces produits dans un tableau pour faciliter
+   les comparaisons ? Les entreprises disposent souvent de toutes les informations nécessaires pour
+   ce faire, généralement enfermées dans une fiche technique imprimée ou PDF.</p>
+  <p><indexterm>publication base de données</indexterm>Stocker toutes les spécifications dans
+   une base de données (en fait, l'équipe de conception du produit a probablement déjà une base de
+   données). Ensuite, créer une interface internet qui permet à l'acheteur d'interroger la base de
+   données pour voir quel produit correspond le mieux à ses besoins.</p>
+  <p>Permettre à l'acheteur d'« interroger la base de données » ne signifie toutefois pas donner à
+   l'utilisateur une expérience littérale d'interrogation de la base de données :</p>
+  <fig>
+   <title>Un outil de configuration qui ne sera pas utilisé</title>
+   <image id="image_jt1_vb1_kf" href="images/mauvaiseconfig.png" width="200px"/>
+  </fig>
+  <p>Donnez leur plutôt une interface conviviale qui leur permet de réduire rapidement leurs options
+   et de choisir celle qu'ils veulent. Vous n'avez pas besoin d'exposer tous les champs de la base
+   de données, mais seulement ceux qui aident les gens à restreindre leurs choix.<fig>
+    <title>Un meilleur sélecteur de base de données. Notez que le mot « base de données » n'apparaît
+     pas. La liste de produits à droite s'actualise au fur et à mesure que vous faites des
+     sélections à gauche.</title>
+    <image id="image_k2m_gd1_kf" href="images/configuremieux.png" width="200px"/>
+   </fig></p>
+  <p>Un moyen efficace de libérer la valeur commerciale de votre contenu technique est de repenser
+   sa présentation et son utilisation. Dans de nombreux cas, le contenu technique a des applications
+   marketing, et en proposant une approche plus centrée sur l'utilisateur, vous pouvez augmenter la
+   valeur du contenu.</p>
+ </conbody>
+</concept>

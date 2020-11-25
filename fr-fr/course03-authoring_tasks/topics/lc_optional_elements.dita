@@ -85,9 +85,7 @@
             <steps id="steps_r11_1kx_dt">
                 <step>
                     <cmd>Ouvrez le fichier leçon1/l_nouvelle_tache_exercice_debut.dita et
-                        utilisez-le pour convertir le contenu suivant, provenant de <xref
-                            href="http://contentstrategy101.com/" format="html" scope="external"
-                            >Content Strategy 101</xref>, en DITA :</cmd>
+                        utilisez-le pour convertir le contenu suivant :</cmd>
                     <info>
                         <pre outputclass="passthru"><![CDATA[
 <hr />
@@ -106,8 +104,8 @@
                     <info/>
                 </step>
                 <step>
-                    <cmd>Utilisez le fichier leçon1/l_nouvelle_tache_exercice.dita pour vérifier votre fichier
-                    leçon1/l_nouvelle_tache_exercice_debut.dita.</cmd>
+                    <cmd>Utilisez le fichier leçon1/l_nouvelle_tache_exercice.dita pour vérifier
+                        votre fichier leçon1/l_nouvelle_tache_exercice_debut.dita.</cmd>
                 </step>
             </steps>
         </taskbody>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<learningContent id="lc_reltable_rows">
+    <title>Ajouter des lignes à une table des relations</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2016-03-21"/>
+            <revised modified="2020-10-30"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Les lignes d'une table des relations contiennent des éléments d'informations
+                connexes. Dans l'exercice, vous ajouterez des références aux rubriques qui
+                mentionnent la commande « ajouter » dans la base de données fictive Canard.</p>
+            <p><xref href="https://youtu.be/GHW_STBkr54" format="html" scope="external">Vidéo : les
+                    tables des relations DITA</xref></p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_xhw_4j5_jv">
+        <title/>
+        <taskbody>
+            <steps id="steps_jkg_pj5_jv">
+                <step>
+                    <cmd>Continuez d'utiliser le fichier
+                        exemples_cartes_bookmaps/exemples/_reltable_debut.ditamap.</cmd>
+                </step>
+                <step>
+                    <cmd>Après l'élément &lt;relheader>, ajoutez un élément &lt;relrow>.</cmd>
+                    <stepxmp>
+                        <pre>&lt;reltable title="Table des relations canards">
+    &lt;relheader>
+        &lt;relcolspec type="concept"/>
+        &lt;relcolspec type="task"/>
+        &lt;relcolspec type="reference"/>
+    &lt;/relheader>
+    
+<ph outputclass="newchanged">    &lt;relrow>
+    &lt;/relrow>
+</ph>&lt;/reltable>
+</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>À l'intérieur de l'élément &lt;relrow>, ajoutez trois éléments
+                        &lt;relcell>.</cmd>
+                    <stepxmp>
+                        <pre>
+&lt;relrow>
+<ph outputclass="newchanged">    &lt;relcell>
+    &lt;/relcell>
+    &lt;relcell>
+    &lt;/relcell>
+    &lt;relcell>
+    &lt;/relcell>
+</ph>&lt;/relrow>
+</pre>
+                    </stepxmp>
+                    <info>Parce que nous avons défini trois éléments relcolspec, nous savons qu'il y
+                        a trois colonnes dans la table des relations.</info>
+                </step>
+                <step>
+                    <cmd>Dans le premier élément &lt;relcell>, ajoutez un élément &lt;topicref> ;
+                        incluez un attribut href contenant la valeur
+                            <tt>c_ecrire_sur_canards.dita</tt>.</cmd>
+                    <stepxmp>
+                        <pre>
+&lt;relrow>
+    &lt;relcell>
+<ph outputclass="newchanged">        &lt;topicref href="c_ecrire_sur_canards.dita"/>
+</ph>    &lt;/relcell>
+    &lt;relcell>
+    &lt;/relcell>
+    &lt;relcell>
+    &lt;/relcell>
+&lt;/relrow>
+</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Ajoutez des éléments &lt;topicref> avec des attributs href aux deux autres
+                        éléments &lt;relcell>, comme le montre l'exemple suivant :</cmd>
+                    <stepxmp>
+                        <pre>
+&lt;relrow>
+    &lt;relcell>
+        &lt;topicref href="c_ecrire_sur_canards.dita"/>
+    &lt;/relcell>
+    &lt;relcell>
+<ph outputclass="newchanged">        &lt;topicref href="t_ajouter_entree.dita"/>
+</ph>    &lt;/relcell>
+    &lt;relcell>
+<ph outputclass="newchanged">        &lt;topicref href="r_ajouter.dita"/>
+</ph>    &lt;/relcell>
+&lt;/relrow>
+</pre>
+                    </stepxmp>
+                </step>
+            </steps>
+            <result>La table des relations indique maintenant qu'il y a une relation entre les trois
+                rubriques définies par les valeurs des attributs href.</result>
+        </taskbody>
+    </task>
+</learningContent>

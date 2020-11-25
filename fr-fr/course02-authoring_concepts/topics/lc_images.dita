@@ -19,7 +19,7 @@
         <lcInstruction>
             <p>Vous ajoutez des images à un concept en utilisant l'élément &lt;image>. L'élément
                 &lt;image> utilise l'attribut href pour créer un lien vers l'emplacement de l'image
-                sur le web ou sur un serveur local.</p>
+                sur internet ou sur un serveur local.</p>
             <p>Tout comme un élément &lt;p>, vous pouvez utiliser l'élément &lt;image> n'importe où
                 dans l'élément &lt;conbody>. Il est aussi assez courant d'utiliser des images à
                 l'intérieur d'un élément &lt;p>.</p>
@@ -68,7 +68,7 @@
                     <info>L'élément &lt;image> que vous avez ajouté contient un lien (href) vers
                         l'emplacement du fichier image. Un lien à l'intérieur d'un élément
                         &lt;image> peut pointer vers le chemin du fichier image sur un serveur ou
-                        vers un lien web de l'image.</info>
+                        vers un lien internet de l'image.</info>
                 </step>
                 <step>
                     <cmd>Après l'élément &lt;image>, insérez un élément &lt;fig> comme indiqué dans

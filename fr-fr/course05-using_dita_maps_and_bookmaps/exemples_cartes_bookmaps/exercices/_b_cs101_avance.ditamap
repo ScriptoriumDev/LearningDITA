@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap>
+    <booktitle>
+        <mainbooktitle>Les fondamentaux de la stratégie de contenu</mainbooktitle>
+    </booktitle>
+    <bookmeta>
+        <author>Sarah O'Keefe</author>
+        <author>Alan S. Pringle</author>
+        <publisherinformation>
+            <organization>Services de publication de Scriptorium, Inc.</organization>
+        </publisherinformation>
+        <critdates>
+            <created date="2012"/>
+            <revised modified="2014"/>
+        </critdates>
+    </bookmeta>
+    <frontmatter>
+        <booklists>
+            <toc/>
+        </booklists>
+    </frontmatter>
+    <chapter href="maitriser_couts_communication_technique.dita">
+        <topicref href="illusions_documentation_faible_cout.dita"></topicref>
+        <topicref href="developpement_efficace_contenu_technique.dita"/>
+        <topicref href="reduire_cout_assistance_technique.dita">
+            <topicref href="une_meilleure_information_technique_moins_appels_support.dita"/>
+            <topicref href="operations_assistance_plus_efficaces.dita"/>
+        </topicref>
+        <topicref href="collaboration_contenu_dans_organisation.dita">
+            <topicref href="collaboration_contenu_libre_pour_tous.dita"/>
+        </topicref>
+    </chapter>
+    <chapter href="marketing_et_visibilite_produits.dita">
+        <topicref href="assister_marketing_avec_contenu_technique.dita">
+            <topicref href="renforcer_le_message_marketing.dita"/>
+            <topicref href="quand_contenu_technique_contredit_marketing.dita"/>
+        </topicref>
+        <topicref href="accroître_visibilite_produits.dita">
+            <topicref href="livres_tierces_parties.dita"/>
+        </topicref>
+        <topicref href="creer_communaute_utilisateurs_et_fideliser.dita">
+            <topicref href="etendre_experience_de_jeu_au_contenu.dita"/>
+        </topicref>
+    </chapter>
+    <chapter href="questions_juridiques_et_reglementaires.dita">
+        <topicref href="eviter_exposition_juridique.dita"/>
+        <topicref href="repondre_exigences_reglementaires.dita">
+            <topicref href="livraison_information.dita"/>
+            <topicref href="normes_techniques.dita"/>
+        </topicref>
+    </chapter>
+    <backmatter>
+        <booklists>
+            <indexlist/>
+        </booklists>
+    </backmatter>
+</bookmap>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_qx3_1lc_jf">
+  <title>Créer une communauté d'utilisateurs et les fidéliser</title>
+  <conbody>
+    <p><indexterm>communauté, construire</indexterm><indexterm>marketing<indexterm>construire une
+          communauté d'utillisateurs</indexterm></indexterm><indexterm>communauté
+          d'utilisateurs<indexterm>construire</indexterm></indexterm><indexterm>contenu
+          technique<indexterm>construire une communauté
+          d'utilisateurs</indexterm></indexterm><indexterm>construire<indexterm>communauté
+          d'utilisateurs</indexterm></indexterm>Les clients s'attendent à participer à une
+      conversation sur vos produits, bien que le niveau de participation communautaire auquel vous
+      pouvez raisonnablement vous attendre varie selon les secteurs. Mais même dans des
+      environnements très réglementés et restreints, la communauté des utilisateurs peut offrir un
+      retour d'information critique. Le niveau de motivation de votre communauté est important :
+      vous voulez inviter les utilisateurs à participer, mais vous ne voulez pas qu'ils aient
+      l'impression que vous leur déléguez des responsabilités en matière de contenu. Les projets
+      open source sont construits sur la participation de la communauté, mais beaucoup d'entre eux
+      ont aussi un contenu technique terriblement obsolète, précisément parce que seule la
+      communauté fournit du contenu. (Une exception notable à cette règle est WordPress, qui fournit
+      une excellente documentation technique via le
+        <indexterm>WordPress<indexterm>Codex</indexterm></indexterm>Codex WordPress.<fn><xref
+          href="http://codex.wordpress.org/Main_Page" format="html" scope="external"
+          >codex.wordpress.org/Main_Page</xref></fn> Parce que WordPress est une plateforme de
+      publication, nous supposons que de nombreuses personnes dans la communauté ont de bonnes
+      compétences en écriture).</p>
+    <p>L'objectif général d'une communauté d'utilisateurs est de faire participer les utilisateurs,
+      c'est-à-dire de faire passer les gens de la consommation passive de contenu à une
+      participation active à l'évaluation ou à la modification du contenu. Par ordre croissant
+      d'engagement, ils peuvent :</p>
+    <p>
+      <ul id="ul_wxd_vmv_sf">
+        <li>Lire le contenu</li>
+        <li>Evaluez le contenu avec des étoiles, des « j'aime » ou « je n'aime pas », ou des
+          votes</li>
+        <li>Assister à un événement en ligne, tel qu'une webdiffusion</li>
+        <li>Envoyer un courriel avec des commentaires</li>
+        <li>Écrire un commentaire public</li>
+        <li>Modifier ou mettre à jour le contenu</li>
+        <li>Rédiger du contenu original</li>
+        <li>Assister à une conférence d'utilisateurs</li>
+      </ul>
+    </p>
+    <p><indexterm>taux de participation dans la communauté des utilisateurs</indexterm>N'oubliez pas
+      que seul un petit pourcentage d'utilisateurs participera. La règle générale est que pour 100
+      utilisateurs, 90 sont des rôdeurs (lecteurs passifs), 10 participeront, et seulement 1
+      participant sera très actif.<indexterm>Nielsen, Jakob</indexterm><fn>Jakob Nielsen, Alertbox,
+        9 octobre 2006, <xref href="http://www.useit.com/alertbox/participation_inequality.html"
+          scope="external" format="html">useit.com/alertbox/participation_inequality.html</xref>,
+        consulté le 27 mars 2012</fn> Cela implique que vous avez besoin de milliers d'utilisateurs
+      pour avoir une communauté réussie. </p>
+    <p><indexterm>contenu<indexterm>utilisateur</indexterm></indexterm><indexterm>risque<indexterm>contenu
+          utilisateur</indexterm></indexterm><indexterm>communauté d'utilisateurs<indexterm>risque
+          dans les contenus créés par les utilisateurs</indexterm></indexterm><indexterm>contenu
+          utilisateur<indexterm>risque</indexterm></indexterm>En supposant que votre base
+      d'utilisateurs soit d'une taille raisonnable, vous devez évaluer les risques de la
+      participation des utilisateurs. Tout d'abord, si vous travaillez dans un secteur réglementé,
+      tel que celui des dispositifs médicaux ou des produits pharmaceutiques, votre organisation
+      peut être tenue responsable du contenu des utilisateurs. Contrairement à d'autres secteurs,
+      vous ne pouvez pas simplement décliner la responsabilité du contenu généré par les
+      utilisateurs dans les conditions d'utilisation du site internet. Cela exclut les soumissions
+      non contrôlées, telles que les forums d'utilisateurs non modérés (et souvent bruyants). Vous
+      pouvez cependant envisager de permettre à vos partenaires industriels de créer du contenu qui
+      sera examiné avant d'être mis à la disposition de vos clients. Par exemple, un fabricant
+      d'appareils médicaux pourrait demander aux médecins de rédiger des articles sur la façon dont
+      ils utilisent un appareil. Ces articles seraient examinés par le fabricant avant d'être
+      publiés sur le site internet de l'entreprise ou peut-être dans un bulletin d'information
+      distribué uniquement aux autres médecins.</p>
+    <p>Si votre produit n'est généralement pas dangereux à utiliser (par exemple, la plupart des
+      logiciels et des appareils électroniques grand public), le risque d'autoriser le contenu
+      utilisateur est alors minimisé. Pour ces produits, vous devez examiner attentivement les
+      risques qui découlent du fait de <i>ne pas</i> autoriser la participation de l'utilisateur
+      :</p>
+    <p>
+      <ul id="ul_t2c_bsw_sf">
+        <li>Vos clients espèrent-ils une communauté ? L'absence de communauté a-t-elle des
+          conséquences négatives sur le positionnement de votre produit ?</li>
+        <li>Si vous ne fournissez pas une communauté, une communauté tierce sur laquelle vous n'avez
+          aucun contrôle va-t-elle apparaître ?</li>
+        <li>Vos concurrents fournissent-ils des communautés d'utilisateurs à leurs clients ?</li>
+      </ul>
+    </p>
+    <p>Si vous avez une communauté dynamique, vous avez :</p>
+    <p>
+      <ul id="ul_rzg_4nc_jf">
+        <li>Accès aux testeurs de produit.</li>
+        <li>Accès aux utilisateurs finaux. Vous pouvez leur poser des questions, leur envoyer des
+          enquêtes et utiliser les mesures issues des discussions entre utilisateurs pour orienter
+          les décisions relatives aux produits.</li>
+        <li>Accès aux personnes qui écrivent des contenus supplémentaires pour vous. Ils se
+          concentreront probablement sur les cas marginaux, et c'est acceptable. Vous devez produire
+          le contenu technique de base.</li>
+      </ul>
+    </p>
+    <section>
+      <title>Différencier le contenu utilisateur du contenu officiel</title>
+      <p>Si vous autorisez les utilisateurs à contribuer au contenu, veillez à ce que le contenu
+        rédigé par les utilisateurs soit clairement différencié du contenu
+          d'entreprise<indexterm>contenu utilisateur<indexterm>différencié du contenu
+            officiel</indexterm></indexterm>.</p>
+      <p>
+        <fig>
+          <title>Le texte ajouté par l'utilisateur est signalé par une barre de modification et un
+            nom d'auteur</title>
+          <image href="images/canetons.png" id="image_l2z_tsk_tf" width="425"/>
+        </fig>
+      </p>
+      <p>Cette approche vous aide à maintenir la distinction entre le contenu officiel et le contenu
+        utilisateur.</p>
+    </section>
+  </conbody>
+</concept>

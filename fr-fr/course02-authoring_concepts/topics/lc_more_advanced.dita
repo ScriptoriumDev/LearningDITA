@@ -91,8 +91,8 @@
 &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
-                    <info>Dans l'exemple ajouté, vous créez une sous-section à la rubrique "Écrire sur les
-                        canards".</info>
+                    <info>Dans l'exemple ajouté, vous créez une sous-section à la rubrique "Écrire
+                        sur les canards".</info>
                 </step>
                 <step>
                     <cmd>À l'intérieur de l'élément &lt;section>, ajoutez les éléments &lt;title> et
@@ -106,7 +106,7 @@
 ...
 &lt;section>
 <ph outputclass="newchanged">&lt;title>Partager de votre base de données sur les canards&lt;/title>
-&lt;p>Exportez votre base de données sur les canards sous forme de sortie HTML pour la rendre facile à partager sur votre site web. 
+&lt;p>Exportez votre base de données sur les canards sous forme de sortie HTML pour la rendre facile à partager sur votre site internet. 
 Vous pouvez également proposer votre base de données aux utilisateurs sous forme de téléchargement.&lt;/p></ph>
 &lt;/section>
 &lt;/conbody>
@@ -182,9 +182,7 @@ pour votre base de données sur les canards.&lt;/p>
             <steps id="steps_g32_wjx_dt">
                 <step>
                     <cmd>Ouvrez le fichier leçon4/l_concept_avance_exercice_debut.dita et
-                        utilisez-le pour convertir le contenu suivant de <xref
-                            href="http://contentstrategy101.com/" format="html" scope="external"
-                            >Content Strategy 101</xref> en DITA :</cmd>
+                        utilisez-le pour convertir le contenu suivant :</cmd>
                     <info>
                         <pre outputclass="passthru"><![CDATA[
                            <hr />
