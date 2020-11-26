@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_dfp_4cp_dt">
+ <title>Éléments Bookmap</title>
+ <prolog>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+   Scriptorium</author>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+   Scriptorium</author>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+   Scriptorium</author>
+  <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external" format="html"
+   >Marine Martin-Guillerez (Traductrice)</author>
+  <critdates>
+   <created date="2015-08-26"/>
+   <revised modified="2020-10-26"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcSequencing id="bookmaps_1">
+    <lcQuestion>Disposez les éléments suivants dans l'ordre dans lequel ils sont autorisés dans
+     l'élément &lt;bookmap>.</lcQuestion>
+    <lcSequenceOptionGroup id="lcSequenceOptionGroup_qyy_lny_kv">
+     <lcSequenceOption>
+      <lcAnswerContent>&lt;booktitle></lcAnswerContent>
+      <lcSequence value="1"/>
+     </lcSequenceOption>
+     <lcSequenceOption>
+      <lcAnswerContent>&lt;bookmeta></lcAnswerContent>
+      <lcSequence value="2"/>
+     </lcSequenceOption>
+     <lcSequenceOption>
+      <lcAnswerContent>&lt;frontmatter></lcAnswerContent>
+      <lcSequence value="3"/>
+     </lcSequenceOption>
+     <lcSequenceOption>
+      <lcAnswerContent>&lt;chapter></lcAnswerContent>
+      <lcSequence value="4"/>
+     </lcSequenceOption>
+     <lcSequenceOption>
+      <lcAnswerContent>&lt;backmatter></lcAnswerContent>
+      <lcSequence value="5"/>
+     </lcSequenceOption>
+    </lcSequenceOptionGroup>
+   </lcSequencing>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

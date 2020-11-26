@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_pgf_3gt_qt">
+    <title>Créer une nouvelle carte DITA</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2016-03-07"/>
+            <revised modified="2020-10-10"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Les cartes sont utilisées pour compiler, organiser et définir les relations entre les
+                rubriques DITA. Une carte peut contenir :</p>
+            <ul id="ul_stb_33l_mv">
+                <li>
+                    <p>tous les concepts et les références avec des informations sur un seul
+                        produit</p>
+                </li>
+                <li>
+                    <p>toutes les tâches donnant des instructions sur l'utilisation de ce
+                        produit</p>
+                </li>
+                <li>
+                    <p>un glossaire des termes liés</p>
+                </li>
+            </ul>
+            <p>Bien qu'une seule rubrique DITA puisse être publiée seule, de nombreux auteurs
+                rassemblent les rubriques dans des cartes en vue de la publication. </p>
+            <p>L'utilisation de cartes peut ajouter de la flexibilité et faciliter la réutilisation
+                dans votre travail de publication. Si vous avez une rubrique dont le contenu
+                s'applique à plusieurs produits (comme des informations communes sur la sécurité),
+                vous pouvez écrire cette rubrique une seule fois et la référencer dans plusieurs
+                cartes.</p>
+            <p>Vous pouvez également référencer d'autres cartes à partir d'une même carte. Cela vous
+                permet de regrouper des ensembles de rubriques connexes. Par exemple, vous pouvez
+                avoir besoin de compiler toutes les cartes pour des produits individuels en une
+                seule carte pour une famille de produits.</p>
+            <p>Les cartes peuvent contenir des métadonnées, telles que des informations sur les
+                produits, les droits d'auteur et la date de publication. Les métadonnées des cartes
+                peuvent être utilisées pour aider votre entreprise à gérer et à distribuer votre
+                contenu plus efficacement, ou pour aider vos clients à trouver plus facilement le
+                contenu dont ils ont besoin.</p>
+            <p>Au minimum, une carte doit contenir un élément racine &lt;map>. L'élément &lt;map>
+                peut contenir les éléments suivants :</p>
+            <ul id="ul_oc4_2fd_3v">
+                <li>
+                    <p>L'élément &lt;title>, qui permet de nommer la carte (par exemple, « Guide
+                        utilisateur du produit X »). Le texte de l'élément &lt;title> peut également
+                        être utilisé comme titre de votre document de sortie.</p>
+                </li>
+                <li>
+                    <p>Un certain nombre d'éléments &lt;topicref>, qui vous permettent de référencer
+                        des rubriques dans la carte. Un élément de &lt;topicref> peut contenir
+                        d'autres éléments &lt;topicref>.</p>
+                </li>
+                <li>
+                    <p>Un certain nombre d'éléments &lt;mapref>, qui vous permettent de référencer
+                        d'autres cartes dans la carte principale.</p>
+                </li>
+                <li>
+                    <p>Un certain nombre d'éléments &lt;reltable>, qui vous permettent de définir
+                        des relations dans votre contenu.</p>
+                </li>
+            </ul>
+            <note>
+                <p>Pour plus d'information sur l'élément &lt;map>, se référer à la <xref
+                        href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/map.html"
+                        format="html" scope="external">norme OASIS DITA version 1.2</xref>.</p>
+            </note>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_at5_jgd_3v">
+        <title>Entraînement</title>
+        <taskbody>
+            <steps id="steps_umd_lgd_3v">
+                <step>
+                    <cmd>Faites une copie du fichier
+                        exemples_cartes_bookmaps/exemples/_m_canards_demarrer.ditamap et ouvrez-le
+                        dans votre éditeur.</cmd>
+                    <info>
+                        <note>
+                            <p>Si vous utilisez un éditeur DITA, assurez-vous d'être en mode texte
+                                plutôt qu'en mode auteur ou visuel.</p>
+                        </note>
+                    </info>
+                    <stepxmp>
+                        <p>Vous devriez voir ceci :</p>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+&lt;map id="canards">
+ &lt;title>xyz&lt;/title>
+&lt;/map></pre>
+                    </stepxmp>
+                    <info>
+                        <p>La première ligne (qui commence par <tt>&lt;?xml</tt>) est une
+                            déclaration XML, qui est une partie standard de tous les fichiers
+                            XML.</p>
+                        <p>La déclaration DOCTYPE sur la deuxième ligne identifie ce fichier comme
+                            une carte DITA.</p>
+                        <p>La troisième ligne est la balise d'ouverture de l'élément &lt;map>, qui
+                            utilise l'identifiant unique "canards". </p>
+                        <p>L'élément &lt;title> sur la quatrième ligne contient le titre de la
+                            carte.</p>
+                        <p>La cinquième ligne utilise la balise de fermeture &lt;/map> pour montrer
+                            où se termine l'élément &lt;map>.</p>
+                    </info>
+                </step>
+                <step>
+                    <cmd>À l'intérieur de l'élément &lt;title>, modifiez le texte du titre comme le
+                        montre l'exemple suivant :</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+&lt;map id="canards">
+<ph outputclass="newchanged">   &lt;title>Canards&lt;/title></ph>
+&lt;/map></pre>
+                    </stepxmp>
+                    <info>Maintenant que vous avez mis en place la structure de base de votre carte,
+                        vous pouvez commencer à référencer des rubriques.</info>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

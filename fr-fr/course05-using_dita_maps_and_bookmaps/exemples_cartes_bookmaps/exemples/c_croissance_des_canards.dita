@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_images_tables">
+ <title>Croissance et développement du caneton</title>
+ <conbody>
+  <image id="image_gky_rnk_bt" href="images/canetons_nageant.jpg"/>
+  <fig>
+   <title>Canetons courant</title>
+   <image id="image_lqr_rnk_bt" href="images/canetons_courant.jpg"/>
+  </fig>
+  <simpletable>
+   <sthead>
+    <stentry>
+     <p>Âge</p>
+    </stentry>
+    <stentry>
+     <p>Étape importante</p>
+    </stentry>
+   </sthead>
+   <strow>
+    <stentry>
+     <p>7 semaines</p>
+    </stentry>
+    <stentry>
+     <p>Première tentative de vol</p>
+    </stentry>
+   </strow>
+   <strow>
+    <stentry>
+     <p>12 à 14 semaines</p>
+    </stentry>
+    <stentry>
+     <p>Atteinte du poids adulte</p>
+    </stentry>
+   </strow>
+   <strow>
+    <stentry>
+     <p>1 an</p>
+    </stentry>
+    <stentry>
+     <p>Capable de reproduction</p>
+    </stentry>
+   </strow>
+  </simpletable>
+  <table frame="all" rowsep="1" colsep="1" id="table_tkb_tnk_bt">
+   <title>Développement typique du canard colvert</title>
+   <tgroup cols="2">
+    <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+    <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+    <thead>
+     <row>
+      <entry>
+       <p>Age</p>
+      </entry>
+      <entry>
+       <p>Étape importante</p>
+      </entry>
+     </row>
+    </thead>
+    <tbody>
+     <row>
+      <entry>
+       <p>7 semaines</p>
+      </entry>
+      <entry>
+       <p>Première tentative de vol</p>
+      </entry>
+     </row>
+     <row>
+      <entry>
+       <p>12 à 14 semaines</p>
+      </entry>
+      <entry>
+       <p>Atteinte du poids adulte</p>
+      </entry>
+     </row>
+     <row>
+      <entry>
+       <p>1 an</p>
+      </entry>
+      <entry>
+       <p>Capable de reproduction</p>
+      </entry>
+     </row>
+    </tbody>
+   </tgroup>
+  </table>
+ </conbody>
+</concept>

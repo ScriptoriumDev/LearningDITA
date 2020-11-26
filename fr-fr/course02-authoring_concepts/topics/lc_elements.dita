@@ -80,7 +80,8 @@
                     <info>l'élément &lt;fn> indique où le numéro de référence de la note de bas de
                         page apparaîtra dans le paragraphe. Par défaut, le texte présent dans
                         l'élément &lt;fn> est affiché en bas de la page (pour les PDF) ou à la fin
-                        de la rubrique (pour l'HTML) lorsque vous générez la sortie du fichier.</info>
+                        de la rubrique (pour l'HTML) lorsque vous générez la sortie du
+                        fichier.</info>
                 </step>
                 <step>
                     <cmd>Après le dernier élément &lt;p>, ajoutez un nouvel élément &lt;p> avec un
@@ -258,8 +259,8 @@ dont vous aurez besoin pour nourrir vos canards.&lt;/p>
                     </stepxmp>
                 </step>
                 <step>
-                    <cmd>Vérifier votre fichier leçon3/l_concept_elements_debut.dita à l'aide
-                    du fichier exemple leçon3/l_concept_elements.dita.</cmd>
+                    <cmd>Vérifier votre fichier leçon3/l_concept_elements_debut.dita à l'aide du
+                        fichier exemple leçon3/l_concept_elements.dita.</cmd>
                 </step>
             </steps>
         </taskbody>
@@ -269,10 +270,8 @@ dont vous aurez besoin pour nourrir vos canards.&lt;/p>
         <taskbody>
             <steps id="steps_g32_wjx_dt">
                 <step>
-                    <cmd>Ouvrez le fichier leçon3/l_concept_elements_exercice_debut.dita et utilisez-le 
-                        pour convertir en DITA le contenu suivant <xref
-                            href="http://contentstrategy101.com/" format="html" scope="external"
-                            >Content Strategy 101</xref> :</cmd>
+                    <cmd>Ouvrez le fichier leçon3/l_concept_elements_exercice_debut.dita et
+                        utilisez-le pour convertir en DITA le contenu suivant :</cmd>
                     <info>
                         <pre outputclass="passthru"><![CDATA[
                            <hr />
@@ -281,7 +280,7 @@ dont vous aurez besoin pour nourrir vos canards.&lt;/p>
                            <p>Mais un sondage d'opinion indique qu'environ un tiers des acheteurs<sup>1</sup> consultent la documentation avant d'acheter un produit, et que la qualité de la documentation aura une incidence sur leur décision d'achat.</p>
                            <p>Pour susciter de nouvelles perspectives, votre contenu doit être performant de trois manières différentes : être consultabe, trouvable et découvrable.</p>
                            <strong>Consultable</strong>
-                           Les informations doivent être disponibles via une recherche sur Internet.
+                           Les informations doivent être disponibles via une recherche sur internet.
                            <strong>Trouvable</strong>
                            L'information doit être performante pour les mots-clés pertinents.
                            <strong>Découvrable</strong>
@@ -293,8 +292,8 @@ dont vous aurez besoin pour nourrir vos canards.&lt;/p>
                     </info>
                 </step>
                 <step>
-                    <cmd>Vérifier votre fichier leçon3/l_concept_elements_exercice_debut.dita à l'aide
-                    du fichier exemple leçon3/l_concept_elements_exercice.dita.</cmd>
+                    <cmd>Vérifier votre fichier leçon3/l_concept_elements_exercice_debut.dita à
+                        l'aide du fichier exemple leçon3/l_concept_elements_exercice.dita.</cmd>
                 </step>
             </steps>
         </taskbody>

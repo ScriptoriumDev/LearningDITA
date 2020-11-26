@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_pgf_3gt_qt">
+    <title>Créer une nouvelle bookmap</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2016-03-07"/>
+            <revised modified="2020-10-14"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Une bookmap est une spécialisation d'un fichier carte DITA, qui utilise l'élément
+                &lt;bookmap> à la place de l'élément &lt;map> pour contenir ses références aux
+                rubriques et aux cartes. Une bookmap doit contenir, à minima, un élément racine
+                &lt;bookmap>. L'élément &lt;bookmap> peut contenir les éléments suivants :</p>
+            <ul id="ul_oc4_2fd_3v">
+                <li>
+                    <p>L'élément &lt;booktitle>, qui vous permet de nommer la bookmap (comme «
+                        Manuel du Produit X »).</p>
+                </li>
+                <li>
+                    <p>L'élément &lt;bookmeta>, qui défini les métadonnées de la bookmap.</p>
+                </li>
+                <li>
+                    <p>L'élément &lt;frontmatter>, qui contient les informations que l'on trouve
+                        généralement au début d'un livre, tel qu'une table des matières ou une
+                        préface.</p>
+                </li>
+                <li>
+                    <p>Un certain nombre d'éléments &lt;chapter>. Chaque élément &lt;chapter>
+                        contient un lien vers une rubrique qui est inclue au premier niveau de la
+                        bookmap. Un élément &lt;chapter> peut aussi contenir un certain nombre
+                        d'éléments &lt;topicref> subordonnés.</p>
+                </li>
+                <li>
+                    <p>L'élément &lt;backmatter>, qui contient les informations que l'on trouve
+                        généralement à la fin d'un livre, tel qu'un index ou un glossaire.</p>
+                </li>
+            </ul>
+            <note>
+                <p>Pour plus d'information sur l'élément &lt;bookmap>, se référer à la <xref
+                        href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/bookmap.html"
+                        format="html" scope="external">norme OASIS DITA version 1.2</xref>.</p>
+            </note>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_at5_jgd_3v">
+        <title>Entraînement</title>
+        <taskbody>
+            <steps id="steps_umd_lgd_3v">
+                <step>
+                    <cmd>Faites une copie du fichier
+                        exemples_cartes_bookmaps/exemples/_b_canards_demarrer.ditamap et ouvrez-le
+                        dans votre éditeur.</cmd>
+                    <info>
+                        <note>
+                            <p>Si vous utilisez un éditeur DITA, assurez-vous d'être en mode texte
+                                plutôt qu'en mode auteur ou visuel.</p>
+                        </note>
+                    </info>
+                    <stepxmp>
+                        <p>Vous devriez voir ceci :</p>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+&lt;bookmap id="canards">
+&lt;/bookmap></pre>
+                    </stepxmp>
+                    <info>
+                        <p>La première ligne (qui commence par <tt>&lt;?xml</tt>) est une
+                            déclaration XML, qui est une partie standard de tous les fichiers
+                            XML.</p>
+                        <p>La déclaration DOCTYPE sur la deuxième ligne identifie ce fichier comme
+                            une bookmap.</p>
+                        <p>La troisième ligne est la balise d'ouverture de l'élément &lt;bookmap>,
+                            qui utilise l'identifiant unique "canards". </p>
+                        <p>La quatrième ligne utilise la balise de fermeture &lt;/bookmap> pour
+                            montrer où se termine l'élément &lt;bookmap>.</p>
+                    </info>
+                </step>
+                <step>
+                    <cmd>À l'intérieur de l'élément &lt;bookmap>, ajoutez un élément &lt;booktitle>
+                        comme le montre l'exemple suivant :</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+&lt;bookmap id="canards">
+<ph outputclass="newchanged">&lt;booktitle>
+&lt;/booktitle></ph>
+&lt;/bookmap>
+</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>À l'intérieur de l'élément &lt;booktitle>, ajoutez l'élément
+                        &lt;mainbooktitle> et ajoutez-y du contenu comme le montre l'exemple suivant
+                        :</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+&lt;bookmap id="canards">
+&lt;booktitle>
+<ph outputclass="newchanged">&lt;mainbooktitle>Titre principal du livre&lt;/mainbooktitle></ph>
+&lt;/booktitle>
+&lt;/bookmap></pre>
+                    </stepxmp>
+                    <info>Maintenant que vous avez mis en place la structure de base de votre
+                        bookmap, vous pouvez commencer à ajouter des chapitres.</info>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

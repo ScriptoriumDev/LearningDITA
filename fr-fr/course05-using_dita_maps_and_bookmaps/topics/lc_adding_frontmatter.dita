@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_lwj_t3w_kv">
+    <title>Les éléments frontmatter, backmatter et booklists</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2016-03-07"/>
+            <revised modified="2020-10-23"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Les éléments &lt;frontmatter> et &lt;backmatter> sont optionnels dans une bookmap.
+                Ils contiennent des informations sur le document qui apparaissent respectivement
+                avant ou après le contenu principal. L'élément &lt;frontmatter> doit apparaître
+                juste avant le premier élément &lt;chapter>, mais après l'élément &lt;bookmeta>,
+                s'il est présent. L'élément &lt;backmatter> doit apparaître avant l'élément
+                &lt;reltable> mais après le dernier élément &lt;chapter> ou &lt;appendix>, s'il est
+                présent.</p>
+            <p>Les éléments &lt;frontmatter> et &lt;backmatter> sont le plus souvent utilisés pour
+                contenir l'élément &lt;booklist>. Cet élément indique au processeur DITA où placer,
+                dans les documents de sortie, les parties générées automatiquement tel qu'une table
+                des matières ou un index. Les éléments communs à l'intérieur de l'élément
+                &lt;booklists> incluent :</p>
+            <ul>
+                <li>
+                    <p>&lt;toc></p>
+                </li>
+                <li>
+                    <p>&lt;indexlist></p>
+                </li>
+                <li>
+                    <p>&lt;glossarylist></p>
+                </li>
+            </ul>
+            <p>L'élément &lt;toc> indique au processeur DITA de générer une table des matières à cet
+                endroit de la carte. La table des matières est générée à partir de la structure
+                hiérarchique de la carte. Aucune information supplémentaire n'est requise. </p>
+            <p>L'élément &lt;indexlist> indique au processeur DITA de générer un index à cet endroit
+                de la carte. L'index est généré à partir des éléments &lt;indeterm> présents dans la
+                carte et dans les rubriques. S'il n'y a aucun élément &lt;indexterm> dans la carte
+                ou dans les rubriques, aucune entrée d'index ne sera créée. </p>
+            <p>L'élément &lt;glossarylist> peut contenir un ou plusieurs éléments &lt;topicref>
+                pointant vers les entrées de glossaire ou un ou plusieurs éléments &lt;mapref>
+                pointant vers les cartes de glossaire. Les entrées de glossaire et les cartes de
+                glossaire peuvent être utilisées en dehors de l'élément &lt;glossarylist>, mais les
+                groupes dans un élément &lt;glossarylist> vous permet de les filtrer et de les
+                mettre en forme de manière plus uniforme.</p>
+            <note>
+                <p>Pour plus d'information sur les éléments &lt;frontmatter> et &lt;backmatter>, se
+                    référer aux chapitres <xref
+                        href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/frontmatter.html"
+                        format="html" scope="external">frontmatter</xref> et <xref
+                        href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/backmatter.html"
+                        format="html" scope="external">backmatter</xref> dans la <xref
+                            href="http://docs.oasis-open.org/dita/v1.2/os/spec/common/about-bookmap.html#about-bookmap-1"
+                            format="html" scope="external">norme OASIS DITA version 1.2</xref>.</p>
+            </note>
+            <p><xref href="https://youtu.be/Z6Df7sG4Olk" format="html" scope="external">Vidéo : Les
+                    éléments booklist DITA</xref></p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_t55_thx_kv">
+        <title/>
+        <taskbody>
+            <steps>
+                <step>
+                    <cmd>Continuez d'utiliser le fichier
+                        exemples_cartes_bookmaps/exemples/_b_canards_avances_debut.ditamap.</cmd>
+                </step>
+                <step>
+                    <cmd>Après l'élément &lt;bookmeta>, ajouter un élément &lt;frontmatter> et
+                        ajoutez-y du contenu comme le montre l'exemple suivant :</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+&lt;bookmap id="canards">
+...
+&lt;/bookmeta>
+<ph outputclass="newchanged">&lt;frontmatter>
+    &lt;booklists>
+        &lt;toc/>
+    &lt;/booklists>
+&lt;/frontmatter></ph></pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Après le dernier élément &lt;chapter>, ajoutez un élément &lt;backmatter>
+                        et ajoutez-y du contenu comme le montre l'exemple suivant :</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+&lt;bookmap id="canards">
+...
+&lt;/chapter>
+<ph outputclass="newchanged">
+&lt;backmatter>
+    &lt;booklists>
+        &lt;glossarylist>
+            &lt;topicref href="g_groupegloss_canards.dita"/>
+        &lt;/glossarylist>
+        &lt;indexlist/>
+    &lt;/booklists>
+&lt;/backmatter></ph></pre>
+                        <p>L'élément &lt;glossarylist> indique que le glossaire provient d'un
+                            fichier spécifique. L'élément &lt;indexlist> indique que le processeur
+                            DITA devra générer un index à partir des rubriques de la carte.</p>
+                    </stepxmp>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

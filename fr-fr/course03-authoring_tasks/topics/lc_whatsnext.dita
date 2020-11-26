@@ -78,9 +78,7 @@
             <steps id="steps_r11_1kx_dt">
                 <step>
                     <cmd>Ouvrez le fichier leçon3/l_finir_tache_exercice_debut.dita et utilisez-le
-                        pour convertir le contenu suivant, de <xref
-                            href="http://contentstrategy101.com/" format="html" scope="external"
-                            >Content Strategy 101</xref> au format DITA :</cmd>
+                        pour convertir le contenu suivant :</cmd>
                     <info>
                         <pre outputclass="passthru"><![CDATA[
                             <hr />
@@ -91,7 +89,7 @@
                                     <p><strong>Exemple:</strong></p>
                                     <ul>
                                         <li>Formation en salle</li>
-                                        <li>Formation en direct sur Internet</li>
+                                        <li>Formation en direct sur internet</li>
                                         <li>Former le formateur</li>
                                     </ul>
                                 </li>
