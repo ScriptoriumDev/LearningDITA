@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_pgf_3gt_qt">
+    <title>Réutiliser les cartes et les rubriques</title>
+    <prolog>
+        <author type="creator" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate</author>
+        <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell</author>
+        <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey</author>
+        <author>Decarnelle Rémi (author)</author>
+        <critdates>
+            <created golive="2016-07-11" date="2016-05-11"/>
+            <revised modified="2020-11-26"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Dans sa forme de réutilisation la plus basique, vous pouvez réutiliser une rubrique
+                DITA dans autant de carte que vous le souhaitez.</p>
+            <p>Il est important que chaque rubrique réutilisable respecte les principes présentés
+                dans la leçon précédente. Il faut que chaque rubrique soit :</p>
+            <ul id="ul_qwy_pgb_kw">
+                <li>Cohérente</li>
+                <li>Indépendant d'un contexte</li>
+                <li>Généralisée</li>
+            </ul>
+            <p>Comme décrit dans le cours <cite>Utiliser les cartes DITA</cite>, utiliser la balise
+                &lt;topicref> dans une carte pour y ajouter une rubrique</p>
+            <pre>&lt;topicref href="nom_du_dossier/nom_du_fichier.dita"/></pre>
+            <p>Si votre rubrique remplit respectes toutes les conditions, vous serez en mesure de la
+                réutiliser dans toutes les cartes, et à n'importe quel niveau de l'arborescence.</p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on github.com. See the accompanying LICENSE file for 
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningTreeContent.dtd">
+<learningContent xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="lt-content-4677"
+   domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic concept)                             (topic reference)                             (topic task)                             (topic learningInteractionBase-d)                            (topic learningInteractionBase-d learning-d)                            (topic learningmeta-d)                             (topic learningBase+learningInteractionBase-d)                            (topic learningBase+learningInteractionBase-d learningContent)                            (topic learningBase learningSummary)                             (topic learningBase+learningInteractionBase-d learningAssessment)   "
+   ditaarch:DITAArchVersion="1.2"
+   class="- topic/topic learningBase/learningBase learningContent/learningContent ">
+   <title class="- topic/title ">Réutiliser un paragraphe</title>
+   <prolog class="- topic/prolog ">
+      <author type="creator" href="http://easydita.com/" format="html" scope="external"
+         class="- topic/author ">Mike Rice, easyDITA</author>
+      <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+         class="- topic/author ">Annie Chen, easyDITA</author>
+      <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+         class="- topic/author ">Simon Bate, Scriptorium</author>
+      <author>Decarnelle Rémi (traducteur)</author>
+      <critdates>
+         <created golive="2016-07-11" date="2016-05-11"/>
+         <revised modified="2020-11-10"/>
+      </critdates>
+   </prolog>
+   <learningContentbody
+      class="- topic/body  learningBase/learningBasebody learningContent/learningContentbody ">
+      <lcInstruction>
+         <p class="- topic/p ">Des paragraphes <i class="+ topic/ph hi-d/i ">grammaticalement
+               indépendants</i> peuvent être réutilisés sans encombre <i class="+ topic/ph hi-d/i "
+               >au sein du même contexte</i>Cela inclut l'élement &lt;p>, ou tout autre qui est du
+            point de vue de la grammaire un paragraphe même si cela ne correspond qu'à une phrase. </p>
+      </lcInstruction>
+      <section class="- topic/section ">
+         <title class="- topic/title ">Qu'est-ce qu'un paragraphe grammaticalement indépendant
+            ?</title>
+         <p class="- topic/p "> Un paragraphe grammaticalement indépendant ne repose sur aucun
+            élémént extérieur à lui-même pour exprimer son sens. Par exemple, si les pronoms dans le
+            paragraphe font référence à quelque chose à l'extérieur de ce dernier, alors il n'est
+            pas indépendant. Remplacer des noms par des pronoms pour rendre un paragraphe moins
+            spécifique ne fait pas de lui un bon candidat à la réutilisation. Le remplacement de
+            noms moins spécifiques est cependant une bonne stratégie.</p>
+         <dl>
+            <dlentry>
+               <dt>Non recommandé</dt>
+               <dd>Le Compu-Master 5000 est livré avec un élégant étui de protection. Pour éviter
+                  d'égarer votre ordinateur, éviter de peindre ou décorer votre housse pour
+                  l'accorder à un environnement.</dd>
+            </dlentry>
+            <dlentry>
+               <dt>Recommandé</dt>
+               <dd>Votre ordinateur est accompagné d'un élégant étui de protection. Pour éviter
+                  d'égarer votre ordinateur, éviter de peindre ou décorer votre étui afin de le
+                  faire fondre dans votre décor.</dd>
+            </dlentry>
+         </dl>
+         <p class="- topic/p ">Voici un autre exemple :</p>
+         <dl>
+            <dlentry>
+               <dt>Non recommandé</dt>
+               <dd>Cela peut ne pas apparaître car il nécessite l'acquisition d'une licence
+                  supplémentaire. Veuillez contacter notre service client pour plus
+                  d'informations.</dd>
+            </dlentry>
+            <dlentry>
+               <dt>Recommandé</dt>
+               <dd>Le module d'accès à la base de données ne peut apparaître sans l'acquisition au
+                  préalable d'une licence supplémentaire. Veuillez contacter notre service client
+                  pour plus d'informations.</dd>
+            </dlentry>
+         </dl>
+      </section>
+      <section class="- topic/section "><title class="- topic/title ">Within the same
+            context</title><draft-comment author="simonbate">Not quite sure what the point is here.
+            How does this relate to reusing paragraphs? I need to see more examples of how a
+            paragraph might not be reusable if it’s not used in the same context. </draft-comment><p
+            class="- topic/p ">Certains mots peuvent prendre un sens différent selon le context en
+            français même si employé en dehors de leur contexte d'origine. Prenon pour exemple le
+               mot<q class="- topic/q ">clef</q>. Le terme pourrait faire référence à un petit objet
+            en métal utilisé pour débloquer un verrou, ou bien il peut prendre des sens différent
+            dans la crytographie.</p><p class="- topic/p ">S'il nous était demandé <q
+               class="- topic/q ">d'examiner les clefs pour trouver les defectueuses</q>, il ne
+            serait pas bien difficile de comprendre l'instruction quel que soit le contexte. Dans
+            notre esprit, nous savons immédiatement à quel concept fait référence le mot <q
+               class="- topic/q ">clef</q> grâce au contexte. Cependant, nous ne pouvons pas espérer
+            que cette situation se répète dans toutes les langues.</p><p class="- topic/p ">Cela
+            peut être compliqué, car nous avons tendance à choisir le bon concept associé au
+            contexte. Voici un autre exemple. Le mot <q class="- topic/q ">batterie</q> peut faire
+            référence à un composant d'une voiture ou d'un téléphone. Les deux fournissent de
+            l'électricité, ce qui peut évoquer au lecteur un contexte et un concept unique. Mais
+            quand on y réfléchit, un téléphone et une automobile sont des concepts très différents,
+            et leurs batteries respectivent sont très différentes dans leur composition. Il est
+            alors très dangereux d'utiliser le même contenu pour ces deux contextes, même si les
+            concepts et le vocabulaire sont proches. De même, comme il est le cas en français,
+            différents mots peuvent être utiliser pour désigner un objet.</p>L'important est de
+         garder à l'esprit que d'autres langues approchent les concepts et les contextes de façon
+         différentes. La réutilisation de contenu en français n'est alors pas utile lors de la
+         traduction d'une documentation.</section>
+   </learningContentbody>
+</learningContent>

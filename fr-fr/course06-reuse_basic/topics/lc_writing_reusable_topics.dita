@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_pgf_3gt_qt">
+    <title>Écrire en vue de réutiliser</title>
+    <prolog>
+        <author type="creator" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author>Decarbelle Rémi (traducteur)</author>
+        <critdates>
+            <created golive="2016-07-11" date="2016-05-11"/>
+            <revised modified="2020-10-24"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction><p>Du contenu écrit en vue d'être réutilisé doit être :</p><ul
+                id="ul_qwy_pgb_kw">
+                <li>Cohérent</li>
+                <li>Indépendant d'un contexte</li>
+                <li>Général</li>
+            </ul>Pour s'assurer de rendre un fragment de contenu assez générique pour le réutiliser,
+            séparer les informations spécifiques et les informations communes chaque fois que
+                possible.<p>Pour rendre votre contenu cohérent :</p><ul id="ul_fq3_dhb_kw">
+                <li>Écrire des rubriques courtes et granulaires. Cette approche maximise le
+                    potentiel de réutilisation. Une rubrique avec un seul niveau de hiérarchisation
+                    peut être réutilisé dans plus d'occasion qu'une longue rubrique comprenant
+                    plusieurs sections chacune très riche en information.</li>
+                <li>Définir un guide de style pour le balisage et l'utilisation (ou au moins, se
+                    mettre d'accord sur les pratiques et prendre un peu de temps pour rédiger un
+                    compte rendu pour un future guide de style).</li>
+                <li>Use a consistent voice and specific vocabulary and terminology to make your
+                    topics more reusable. Limit your use of pronouns (particularly gender-specific
+                    ones) and avoid idioms and colloquialisms. A consistent voice will not only help
+                    with reuse, but also with localization.</li>
+            </ul><p>Pour décontextualiser votre contenu :</p><ul id="ul_qr3_shb_kw">
+                <li>Ne pas faire de référence à des informations situées avant ou après le contenu.
+                    Éviter des termes comme "précédemment", "suivant", "avant" et "plus tard".</li>
+                <li> Ne pas faire de référence au type de document accueillant le contenu. Éviter
+                    des expressions telles que "dans ce chapitre" ou "dans cette section".</li>
+                <li> Ne pas utiliser de références croisées. Dans cette version actuelle de votre
+                    rubrique, la cible de la référence est disponible, néanmoins peut-être qu'elle
+                    ne le sera pas dans une autre carte dita où la rubrique sera réutilisée. À la
+                    place, utiliser la table des relations DITA pour automatiquement gérer des liens
+                    vers les rubriques associées.</li>
+            </ul><p>Pour rendre votre contenu générique :</p><ul id="ul_jpy_vlc_kw">
+                <li>Éviter l'usage de mots clefs et de dépendences. Par exemple, si une série
+                    d'instruction peut être réutilisé pour plusieurs produits, retirer toute
+                    référence à un produit spécifique.</li>
+                <li>Éviter d'être trop spécifique à moins que le contexte l'impose. Éviter également
+                    les ajouts superflus dans votre contenu tels que des chiffres, un changement de
+                    taille ou de couleur de police, car ces modifications ne seront peut-être non
+                    pertinente lors d'une réutilisation de contenu.</li>
+            </ul><p>Pour trouver un équilibre entre un contenu générique et assez spécifique, penser
+                à ajouter un tableau ou une liste au début de chaque livrable. Ce document servira à
+                lister des informations sur le produit. En donnant ces informations dès le départ,
+                vous pouvez vous passer de mots cles et opter pour des termes génériques. </p><p>Du
+                contenu générique va non seulement profiter à votre stratégie de réutilisation de
+                contenu, mais aussi aider à préparer en amont la localisation. En effet, l'action de
+                réutiliser du contenu réduit le volume de texte à traduire, et ainsi réduire le coût
+                de
+            traduction.</p><!--<ul id="ul_zfy_rsb_3w"><li>Consistent. <ul id="ul_qss_ssb_3w"><li>Topic depth and length</li><li>Tagging and usage<ul id="ul_xjw_tsb_3w"><li>create a style guide</li><li>agree on usage if you don’t create a style guide</li></ul></li><li>Neutral voice<ul id="ul_rlg_vsb_3w"><li>Limited vocabulary</li><li>Limit use of pronouns (particularly gender-specific)</li><li>Avoid idioms and colloquialisms</li></ul></li></ul></li><li>Context-free<ul id="ul_pdz_wsb_3w"><li>Do not assume context (avoid "previous", "next", "earlier", "later", etc.)</li><li>Do not assume document type (avoid references to chapters, manuals, etc.)</li><li>Use relationship tables instead of in-line cross-references</li></ul></li><li>Generalized<ul id="ul_gpx_nvb_3w"><li>Don’t be too specific (unless it’s crucial)</li><li>Avoid gratuitous modifiers (such as number, size, color)</li></ul></li></ul><p>Ways to make writing more generic/better equipped for reuse:</p><ul id="ul_iwq_wvb_3w"><li>Overall, try to reduce the use of keywords where possible.</li><li>Remove product dependencies where possible.</li><li>Consider a table at the beginning of each deliverable that identifies certain specific product information. By providing that information up-front, you can then remove keywords from the content and rely on generic terms.</li></ul><p>Writing more generic content will not only help facilitate reuse, but will also make your content better equipped for localization. Reusing content also means that you will have fewer topics/less content overall to translate, which will help reduce localization costs.</p>--></lcInstruction>
+    </learningContentbody>
+</learningContent>

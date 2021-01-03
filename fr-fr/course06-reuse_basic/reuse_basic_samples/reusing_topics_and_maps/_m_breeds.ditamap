@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="duck_breeds">
+ <title>Duck breed reference</title>
+ <topicmeta>
+  <category>reference map</category>
+ </topicmeta>
+ <topicref href="r_aylesbury.dita"/>
+ <topicref href="r_mallard.dita"/>
+ <topicref href="r_muscovy.dita"/>
+ <topicref href="r_rouen.dita"/>
+</map>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_pgf_3gt_qt">
+    <title>Réutiliser une rubrique au sein d'une carte</title>
+    <prolog>
+        <author type="creator" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate</author>
+        <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell</author>
+        <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey</author>
+        <author>Decarnelle Rémi (traducteur)</author>
+        <critdates>
+            <created golive="2016-07-11" date="2016-05-11"/>
+            <revised modified="2020-11-25"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>La phrase "réutiliser une rubrique" signifie généralement utiliser une rubrique dans
+                plusieurs cartes. Cependant, il existe des situations où vous souhaitez utiliser la
+                même rubrique dans la <i>même</i> carte.</p>
+            <p>Par exemple, imaginez une carte DITA d'un cours et dans lequel chaque contenu
+                introduisant un test est toujours le même. Plutôt que de créer une rubrique
+                différente à chaque réapparition du test, vous pouvez plutôt créer une rubrique
+                commune, et réutilisée à chaque fois que la situation se présente.</p>
+            <p>Cependant, si vous réutilisez la même rubrique dans une seule carte, vous devrez
+                ajouter l'attribut <i>copy-to</i> à la balise &lt;topicref></p>
+            <pre>&lt;map>
+   ...
+   &lt;topicref href="ma_rubrique.dita" copy-to="première_copie.dita"/>
+   ...
+   &lt;topicref href="ma_rubrique.dita" copy-to="seconde_copie.dita"/>
+   ...
+&lt;/map></pre>
+            <p>La raison principale pour laquelle utiliser l'attribut copy-to est d'assurer que la
+                référence du contenu pointe vers la bonne version du fichier.</p>
+            <p>Il est des bonnes pratiques d'appliquer l'attribut copy-to à <i>tout</i> les
+                &lt;topicref> renvoyant à la rubrique réutilisée, et non seulement à la première
+                référence. Si vous réorganisez votre contenu, vous risquez d'oublier que cette
+                rubrique est réutilisée. </p>
+            <p>Si votre carte principale ou bookmap réutilise plusieurs sous-cartes et que chacune
+                de ces cartes réutilise la même rubrique, vous devez continuer à utiliser l'attribut
+                copy-to. Quand vous générez une publication, le prétransformateur fusionne tous les
+                sous-carte avec la carte principale pour en créer une nouvelle. Cette nouvelle carte
+                est alors utilsé pour générer la publication. </p>
+            <p>Vous pouvez utiliser les balises &lt;navtitle>, &lt;linktext>, et &lt;shortdesc> pour
+                ajouter un titre et une description unique à la rubrique réutilisée.</p>
+            <pre>&lt;map>
+   ...
+   &lt;topicref href="ma_rubrique.dita" copy-to="première_copie.dita">
+      &lt;topicmeta>
+         &lt;navtitle>Nom de la première copie&lt;/navtitle>
+         &lt;linktext>Nom de la première copie&lt;/linktext>
+         &lt;shortdesc>Informations mofidiées à propos de la première copie de la rubrique.&lt;/shortdesc>
+      &lt;/topicmeta>
+   &lt;/topicref>
+   ...
+   &lt;topicref href="ma_rubrique.dita" copy-to="seconde_copie.dita">
+      &lt;topicmeta>
+         &lt;navtitle>Nom de la seconde copie&lt;/navtitle>
+         &lt;linktext>Nom de la seconde copie&lt;/linktext>
+         &lt;shortdesc>Informations mofidiées à propos de la seconde copie de la rubrique.&lt;/shortdesc>
+      &lt;/topicmeta>
+   &lt;/topicref>
+   ...
+&lt;/map></pre>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

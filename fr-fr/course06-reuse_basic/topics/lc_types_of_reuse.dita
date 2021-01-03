@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_pgf_3gt_qt">
+    <title>Types of reuse</title>
+    <prolog>
+        <author type="creator" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author>Decarnelle Rémi (traducteur)</author>
+        <critdates>
+            <created golive="2016-07-11" date="2016-05-11"/>
+            <revised modified="2020-11-02"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>DITA autorise la réutilisation d'éléments suivants : rubrique, carte, fragment,
+                variable, et traitement conditionnel.</p>
+            <p><i>Rubrique et carte :</i> Réutiliser des rubriques et des cartes DITA est l'une des
+                stratégie de réutilisation les plus simples. Il est possible de réutiliser une
+                rubrique en la référençant plusieurs fois dans une ou plusieurs cartes. Ce genre de
+                rubrique peut contenir des consignes de sécurité génériques ou des instructions
+                communes à plusieurs produits. De même, Vous pouvez réutiliser plusieurs fois la
+                même carte DITA. Par exemple, la fiche technique d'un produit peut être publiée
+                seule, ou bien faire partie d'une plus large carte étant le manuel.</p>
+            <p><i>Fragment (conref):</i>La réutilisation de contenu à l'échelle de fragment consiste
+                à extraire des parties d'une rubrique (souvent un élément). Cela peut-être un
+                paragraphe, une liste, les entrées d'une liste, un tableau ou une section. Dans
+                DITA, le mécanisme de référencement de contenu, ou conref, autorise la réutilisation
+                de contenu à l'échelle de fragment. Les fragments peuvent également être réutilisé
+                au sein d'une carte DITA.</p>
+            <p><i>Variables (clés):</i> Quand vous utilisez une variable, vous ajoutez un espace
+                réservé dans votre contenu qui sera remplacé par du texte quand la publication sera
+                générée. Le texte affiché dépend des circonstances. La réutilisation par des
+                varibles concerne les élements en-ligne tels que les noms d'entreprises ou de
+                produits, les liens web, ou nom de fichier.</p>
+            <p><i>Traitement conditionnel:</i> Le traitement conditionnel vous donne plus d'options
+                pour exclure de vos publications certains contenus en fonction de conditions afin de
+                proposer des livrables personnalitées. Par exemple, de créer un seul document
+                contenant toutes les fonctionnalités à présenter, ensuite de filtrer les fonctions
+                les plus avancées pour créer un manuel plus basique.</p>
+            <p>Cette leçon couvre la réutilisation de contenu à l'échelle de rubrique, de carte et
+                de fragment. Nous reviendrons sur les variables et le traitement conditionnel dans
+                une autre leçon.</p>
+            <!--<ul id="ul_ybc_xqb_3w"><li>Fragment (conref)<ul id="ul_f1z_wqh_hw"><li>Single element (and its contents)</li><li>Simple pull</li><li>Conrefend<ul id="ul_hzk_gsd_3w"><li>Conref a series of elements</li><li>First and last must be the same type</li></ul></li><li>Conrefpush<ul id="ul_izk_gsd_3w"><li>Push element into another topic</li><li>Before, after, or in place of</li><li>Map-based</li><li>Works with conkeyref</li><li>Does not work with conrefend</li></ul></li></ul></li><li>Variable (key)<ul id="ul_kvj_2rm_4v"><li>Inline content</li><li>Filenames<ul id="ul_mnp_dtn_hw"><li>Images</li><li>Cross-references</li><li>External references</li><li>Conrefs (conkeyref)</li></ul></li><li>Naming keys (particularly for images)<ul id="ul_yqx_kqh_hw"><li>If unique naming strategy fails, create a database</li><li>Just make sure it’s not a bottleneck</li></ul></li><li>Scoped keys<ul id="ul_plj_5qh_hw"><li>Key definitions that are specific to a submap</li></ul></li><li>Logical and physical keys<ul id="ul_rsm_nqh_hw"><li>Physical keys name actual components</li><li>Logical keys associate concepts with physical keys<ul id="ul_tbh_pqh_hw"><li>this_component</li><li>other_component</li></ul></li></ul></li></ul><p>Differences in names: use keys</p><ul id="ul_ujj_ljh_hw"><li>Product names</li><li>Company names</li><li>Device names</li><li>Others</li></ul></li><li>Filtering (conditions)<ul id="ul_qvc_lsd_3w"><li>Content differences<ul id="ul_htg_rjh_hw"><li>Different processes</li><li>Different definitions</li><li>Different details</li><li>Locale differences (ex. units)</li></ul></li><li>Subset of content<ul id="ul_yfp_q2c_3w"><li>Subset of information (quick-reference guides)</li><li>Subset of capabilities (lower-end platform)</li></ul></li><li>Achieved through metadata<ul><li>Cultivate the habit of metadata</li><li>Necessary for searches</li></ul></li></ul></li></ul><draft-comment author="gretyl">Might be simpler to start with this:</draft-comment><p><ul id="ul_ebm_flt_fh"><li>Topic-based<p>Reusing different topics in different maps. </p></li><li>Fragment-based<p>Replacing pieces (either large or small) of documents from a common source. </p></li><li>Variable<p>Replacing a placeholder with text that depends on the circumstances. </p></li><li>Filtered<p>Selectively removing pieces of content, depending on filter settings.</p></li></ul></p>-->
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

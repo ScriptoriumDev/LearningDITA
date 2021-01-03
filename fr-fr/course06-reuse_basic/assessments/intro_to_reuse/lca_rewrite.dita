@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<learningAssessment id="lca_rewrite" xml:lang="en-US">
+ <title>Rewrite</title>
+ <shortdesc/>
+ <prolog>
+  <author type="creator" href="http://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Simon Bate, Scriptorium</author>
+  <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Jake Campbell, Scriptorium</author>
+  <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+  <author>Decarnelle Rémi (traducteur)</author>
+  <critdates>
+   <created golive="2016-07-11" date="2016-05-11"/>
+   <revised modified="2020-05-11"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcMultipleSelect id="lcSingleSelect_czr_d1b_mw">
+    <lcQuestion>Si deux paragraphes transmettent la même information mais sont écrits de façon différentes, vous pouvez les rendre utilisable en (choisir toutes les bonnes réponses)</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_dzr_d1b_mw">
+     <lcAnswerOption>
+      <lcAnswerContent>les fusionnnant en un seul paragraphe prêt à la réutilisation.</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>en choisissant la version la plus propice à la réutilisation dans d'autres contextes</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>en choisissant le plus long</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>en créant un nouveau paragraphe qui fonctionne dans les deux contextes.</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>en ne faisant rien, ces paragraphes ne peuvent être réutilisés</lcAnswerContent>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>Vous pouvez les réutiliser soit en les fusionnant en un seul paragraphe, ou bien en choisissant la version du paragraphe la plus adaptée à la réutilisation.</lcFeedbackIncorrect>
+   </lcMultipleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

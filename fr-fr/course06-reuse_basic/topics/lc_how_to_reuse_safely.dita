@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningTreeContent.dtd">
+<learningContent xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="lt-content-4677" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic concept)                             (topic reference)                             (topic task)                             (topic learningInteractionBase-d)                            (topic learningInteractionBase-d learning-d)                            (topic learningmeta-d)                             (topic learningBase+learningInteractionBase-d)                            (topic learningBase+learningInteractionBase-d learningContent)                            (topic learningBase learningSummary)                             (topic learningBase+learningInteractionBase-d learningAssessment)   " ditaarch:DITAArchVersion="1.2" class="- topic/topic learningBase/learningBase learningContent/learningContent "><title class="- topic/title ">How to reuse safely</title>
+   <prolog class="- topic/prolog ">
+      <author type="creator" href="http://easydita.com/" format="html" scope="external"
+         class="- topic/author ">Mike Rice</author>
+      <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+         class="- topic/author ">Annie Chen</author>
+      <author>Decarnelle Rémi (traducteur)</author>
+      <critdates>
+         <created golive="2016-07-01" date="2016-05-11"/>
+         <revised modified="2020-10-19"/>
+      </critdates>
+   </prolog><learningContentbody class="- topic/body  learningBase/learningBasebody learningContent/learningContentbody "><lcInstruction class="- topic/section learningBase/lcInstruction ">
+         <p class="- topic/p ">Toutes les langues ne fonctionnent pas de la même façon que le
+            français. Certains langues voient leurs mots changer de forme en fonction du contexte,
+            d'autres incorporent le genre à la grammaire, ou bien aux substantifs. Certains langues
+            approchent le singulier et le pluriel d'une façon différente du français.</p>
+         <p class="- topic/p ">Each language has different rules of grammar and syntax. It’s not the
+            point of this lesson to understand the rules for every language. Instead, we’ll use
+            English to illustrate why substituting words isn’t a good idea when your content will be
+            translated into other languages with other rules. Chaque langue possède son lot de
+            règles de grammaire et de syntaxe. Le but de cette leçon n'est pas d'enseigner les
+            spécificités de chaque langue. Plutôt, nous allons voir à travers plusieurs exemples</p>
+         <p class="- topic/p ">Exemples :</p>
+         <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Laura mange une orange.</b>
+         </p>
+         <p class="- topic/p ">Que se passera-t-il si l'on remplaçait le mot "orange" par un autre
+            ?</p>
+         <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Laura mange une <u class="+ topic/ph hi-d/u "
+               >pomme</u>.</b>
+         </p>
+         <p class="- topic/p "> Cela fonctionne toujours. Et si l'on changeait encore de nom ?</p>
+         <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Laura mange une <u class="+ topic/ph hi-d/u "
+               >kiwi</u>.</b>
+         </p>
+         <p class="- topic/p ">Nous rencontrons ici un problème. En français, nous avons besoin de
+            l'article <b class="+ topic/ph hi-d/b ">un</b> et non <b class="+ topic/ph hi-d/b "
+               >une</b> en raison du genre masculin du nom kiwi.</p>
+         <p class="- topic/p "> Malheureusement, il existe encore d'autres façons de rendre
+            incorrecte une phrase.</p>
+         <p class="- topic/p ">Exemple :</p>
+         <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Laura mange une pomme.</b>
+         </p>
+         <p class="- topic/p ">Et si nous mettons le COD au pluriel ?</p>
+         <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Laura mange une <u class="+ topic/ph hi-d/u "
+               >pommes</u>.</b>
+         </p>
+         <p class="- topic/p ">Vous avez certainement compris. Il est très simple de de rendre une
+            phrase incorrecte par la substitution. Ce problème est partagé avec d'autres langues.
+            Respecter les règles grammaticales françaises n'assurent en rien que ces mêmes règles
+            soient respectées dans une autre langue après une traduction. Il est de même très
+            difficile de prédire tous les problèmes de traduction. Par conséquent, <b
+               class="+ topic/ph hi-d/b "> il est important de ne pas utiliser la fonction conref à
+               l'intérieur de phrase (à l'aide de l'élément ph ou autre) pour remplacer une de ses
+               parties.</b> Ce conseil vaut également pour toutes les formes de référencement de
+            contenu comme conkeyref ou le traitement conditionnel (ditaval). Ne pas suivre ces
+            recommendations mènera très probablement à une traduction compliquée et au rendu
+            décevant.</p>
+         <p> </p>
+      </lcInstruction><section class="- topic/section "><title class="- topic/title ">Comment réutiliser du contenu sans encombre</title><p class="- topic/p ">Il est tout à fait possible de réutiliser du contenu sans créer de nouveaux
+            problèmes. Voici quelques examples.</p></section><section class="- topic/section "><title class="- topic/title ">Whole paragraphs</title><p class="- topic/p ">Un paragraphe <i class="+ topic/ph hi-d/i ">grammaticalement indépendant</i>
+            peut être réutilisé sans problème seulement <i class="+ topic/ph hi-d/i ">dans le même
+               contexte</i>. This would include the p element, or any element that grammatically is
+            a paragraph, even if it has only one sentence. Let’s break that down. Cela comprend dans
+            un élement &lt;p>, ou tout élément qui est grammaticalement considéré comme un
+            paragraphe, même si ce dernier ne comporte qu'une seule phrase.</p></section><section class="- topic/section "><title class="- topic/title ">Grammatically independent</title>
+         <p class="- topic/p ">Un paragraphe grammaticalement indépendant ne dépend d'aucun élément
+            en dehors de lui-même pour être compris dans son intégralité. Par exemple, si les
+            pronoms d'un paragraphe renvoient à quelque chose d'absent dans ce paragraphe, alors ce
+            dernier n'est pas grammaticalement indépendant. Remplacer des noms par des pronoms pour
+            rendre un paragraphe moins dépendant de son contexte d'origine ne fait pas de lui un bon
+            candidat à la réutilisation. Utiliser plus de noms et moins de pronoms serait plus
+            efficace, comme <q class="- topic/q ">Votre ordinateur</q> à la place de <q
+               class="- topic/q ">le Compu-Master 5000</q>.</p><p class="- topic/p ">Exemple :</p><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Oui</b>: Votre ordinateur est accompagné d'un
+            élégant étui de protection. Pour éviter d'égarer votre ordinateur, éviter de peindre ou
+            décorer votre étui afin de le faire fondre dans votre décor.</p><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Non</b>: Cela peut ne pas apparaître car il
+            nécessite l'acquisition d'une licence supplémentaire. Veuillez contacter notre service
+            client pour plus d'informations.</p><p class="- topic/p ">(<q class="- topic/q ">Cela</q> et <q class="- topic/q ">il</q> font référence
+            à quelque chose en dehors de ce paragraphe.)&#160;</p></section><section class="- topic/section "><title class="- topic/title ">Within the same context</title><p class="- topic/p ">Some words have multiple meanings that still make sense in English even if
+            they’re not being used in their original context. Take the word <q class="- topic/q "
+               >key</q> as an example. It might refer to a small piece of cut metal that’s used to
+            open a lock, or it might refer to something on a rotating shaft that keeps another
+            machine component such as a gear rotating along with the shaft. The word <q
+               class="- topic/q ">key</q> also has other meanings related to maps or cryptography.
+            Certains mots peuvent prendre un sens différent selon le context en français même si
+            employé en dehors de leur contexte d'origine.</p><p class="- topic/p ">S'il nous était demandé <q class="- topic/q ">d'examiner les clefs pour
+               trouver les defectueuses</q>, il ne serait pas bien difficile de comprendre
+            l'instruction quel que soit le contexte. Dans notre esprit, nous savons immédiatement à
+            quel concept fait référence le mot <q class="- topic/q ">clef</q> grâce au contexte.
+            Cependant, nous ne pouvons pas espérer que cette situation se répète dans toutes les
+            langues.</p><p class="- topic/p ">Cela peut être compliqué, car nous avons tendance à choisir le bon concept
+            associé au contexte. Voici un autre exemple. Le mot <q class="- topic/q ">batterie</q>
+            peut faire référence à un composant d'une voiture ou d'un
+            téléphone.<!--Je remplace l'exemple de la montre avec téléphone étant donné qu'on plutôt de pile pour une montre -->
+            Les deux fournissent de l'électricité, ce qui peut évoquer au lecteur un contexte et un
+            concept unique. Mais quand on y réfléchit, un téléphone et une automobile sont des
+            concepts très différents, et leurs batteries respectivent sont très différentes dans
+            leur composition. Il est alors très dangereux d'utiliser le même contenu pour ces deux
+            contextes, même si les concepts et le vocabulaire sont proches. De même, comme il est le
+            cas en français, différents mots peuvent être utiliser pour désigner un objet.</p><p class="- topic/p ">L'important est de garder à l'esprit que d'autres langues approchent les
+            concepts et les contextes de façon différentes. La réutilisation de contenu en français
+            n'est alors pas utile lors de la traduction d'une documentation.</p></section><section class="- topic/section "><title class="- topic/title ">Whole steps</title><p class="- topic/p ">De la même façon que les paragraphes, des étapes grammaticalement
+            indépendantes peuvent être réutilisées.</p><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Oui</b>: <q class="- topic/q ">Fermer la
+               fenêtre.</q></p><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Non</b>: <q class="- topic/q ">Fermer
+            le.</q></p></section><section class="- topic/section "><title class="- topic/title ">Structured parts of steps</title><p class="- topic/p ">Des éléments comme &lt;stepxmp>, &lt;info>, ou &lt;choices> peuvent être
+            réutilisés s'ils sont grammaticalement indépendant et font référence à un même
+            contexte.</p></section><section class="- topic/section "><title class="- topic/title ">List items</title><p class="- topic/p ">Il est relativement simple de deviner que la même règle s'applique pour les
+            entrées d'une liste, il est nécessaire qu'elles soient grammaticalement indépendantes et
+            réutilisées dans le même contexte. Soit sans pronoms renvoyant à quelque chose à
+            l'extérieur du paragraphe. Mais ce n'est pas tout. Beaucoup de listes sont souvent
+            présentées par une phrase, parfois complète ou incomplète. </p>
+         <p>Les éléments de listes à puces ou numérotées indépendantes ou introduite par une phrase
+            également indépendante peuvent être réutilisés pour soumis à un traitement conditionnel.
+            Une phrase d'introduction de liste indépendante doit pouvoir exprimer un sens par
+            elle-même et ne dépendre d'aucun élément qui lui est extérieur.</p><p class="- topic/p "> Les phrases d'introduction de liste incomplète peuvent entraîner des
+            problèmes de traduction étant donné leur dépendance à la liste pour se donner un sens
+            respectif. De plus, lors de la réutilisation de la liste avec une autre phrase
+            d'introduction. Si vous rencontrez ce cas, réécrire l'introduction afin de la rendre
+            indépendante grammaticalement.</p><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Oui</b> : Vous pouvez choisir l'une des couleurs
+            suivantes :</p><ul class="- topic/ul "><li class="- topic/li ">
+               <p class="- topic/p ">jaune</p>
+            </li><li class="- topic/li ">
+               <p class="- topic/p ">rouge</p>
+            </li><li class="- topic/li ">
+               <p class="- topic/p ">vert</p>
+            </li></ul><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Non</b> : Vous pouvez prendre :</p><ul class="- topic/ul "><li class="- topic/li ">
+               <p class="- topic/p ">le bus</p>
+            </li><li class="- topic/li ">
+               <p class="- topic/p ">le vélo</p>
+            </li><li class="- topic/li ">
+               <p class="- topic/p ">le train</p>
+            </li></ul></section><section class="- topic/section "><title class="- topic/title ">Probably not a good idea: sentences</title><p class="- topic/p ">Il est possible de réutiliser des phrases indépendantes (n'oubliez pas, <q
+               class="- topic/q ">dans le même contexte</q>). Cependant, cette pratique peut
+            entraîner des complications lors de la traduction. Si vous décidez de persévérer dans
+            cette approche, voici quelques détails que vous devez connaître.</p><p class="- topic/p ">En effet, dans une traduction, l'ordre des phrases étant le plus naturel dans
+            une langue peut varier dans une autre. Le traducteur peut occasionellement réaranger
+            l'ordre par souci de fluidité. Il se peut qu'il ajoute des phrases. Comme vous pouvez
+            l'imaginer, réutiliser du contenu à l'échelle de phrase dans un paragraphe réduit les
+            possibilités de réarangement du contenu d'une façon à le rendre plus compréhensible pour
+            le lecteur. Le même problème se présente si l'on chercher à appliquer un traitement
+            conditionnel au niveau de la phrase dans un paragraphe.</p><p class="- topic/p ">Si malgré tous ces avertissements, vous décidez de réutiliser des phrases dans
+            un paragraphe, établisser des conventions sur l'utilisation de la ponctuation et des
+            espaces. Pensez à l'avance à toutes les combinaisons.
+            possibles.<?ezd-review-start 5ab64245-823f-48e4-9ccf-695648daa525:comment:mike.rice@easydita.com?><?ezd-review-end 5ab64245-823f-48e4-9ccf-695648daa525?></p></section></learningContentbody>
+   <task id="task_at5_jgd_3v">
+      <title>Practice</title>
+      <taskbody/>
+   </task></learningContent>

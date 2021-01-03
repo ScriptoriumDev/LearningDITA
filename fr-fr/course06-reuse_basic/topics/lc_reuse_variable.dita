@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_pgf_3gt_qt">
+    <title>Variable (keys)</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey</author>
+        <critdates>
+            <created golive="2016-07-01" date="2016-05-11"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction><ul id="ul_kvj_2rm_4v">
+                <li>Inline content</li>
+                <li>Filenames<ul id="ul_mnp_dtn_hw">
+                    <li>Images</li>
+                    <li>Cross-references</li>
+                    <li>External references</li>
+                    <li>Conrefs (conkeyref)</li>
+                </ul></li>
+                <li>Naming keys (particularly for images)<ul id="ul_yqx_kqh_hw">
+                    <li>If unique naming strategy fails, create a database</li>
+                    <li>Just make sure it’s not a bottleneck</li>
+                </ul></li>
+                <li>Scoped keys<ul id="ul_plj_5qh_hw">
+                    <li>Key definitions that are specific to a submap</li>
+                </ul></li>
+                <li>Logical and physical keys<ul id="ul_rsm_nqh_hw">
+                    <li>Physical keys name actual components</li>
+                    <li>Logical keys associate concepts with physical keys<ul id="ul_tbh_pqh_hw">
+                        <li>this_component</li>
+                        <li>other_component</li>
+                    </ul></li>
+                </ul></li>
+        </ul> <p>Conkeyrefs:</p><ul>
+            <li>Same as a conref</li>
+            <li>Uses a key instead of the filename</li>
+            <li>Much more portable than conrefs</li>
+        </ul> 
+            <p>Differences in names: use keys</p><ul id="ul_ujj_ljh_hw">
+            <li>Product names</li>
+            <li>Company names</li>
+            <li>Device names</li>
+            <li>Others</li>
+        </ul>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

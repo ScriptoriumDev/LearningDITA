@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<learningContent id="lc_about_reltables">
+    <title>Les meilleures pratiques d'utilisation du référencement de contenu</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Mike Rice, easyDITA</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Annie Chen, easyDITA</author>
+        <author>Decarnelle Rémi (traducteur)</author>
+        <critdates>
+            <created golive="2016-07-11" date="2016-05-11"/>
+            <revised modified="2020-10-18"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcIntro>
+            <p><b>Conserver et structurer votre contenu réutilisable en marge de votre documentation
+                </b></p>
+            <p>Pour éviter la documentation "spaghetti", conserver tout votre contenu réutilisation
+                dans des rubriques prévues à cet effet rangées dans des dossiers leur étant
+                consacrées.</p>
+            <p>Organiser ces rubriques dans des cartes DITA, puis ajouter les dans d'autres cartes
+                DITA avec l'attribut &lt;mapref processing-role="resource-only">. </p>
+            <p><b>Se mettre d'accord sur des conventions de dénomination pour les fichiers et les
+                    ID</b></p>
+            <p>Bien que les applications de rédaction DITA assignent automatiquement une ID aux
+                éléments potentiellement réutilisable, il reste préférable que les ID données soit
+                intelligible pour les rédacteurs. Il faut néanmoins prendre conscience de
+                l'augmentation des risques de confusion des ID. Deux stratégies existent pour
+                réduire les risques.</p>
+            <ul id="ul_drc_hz3_mw">
+                <li>Créer des conventions de dénominations pour les ID afin de réduire les chances
+                    de confusions.</li>
+                <li>Tenir un registre de toutes les ID afin d'aider les rédacteurs à trouver des
+                    doublons. Ce registre peut être un simple tableau ou un document texte, mais il
+                    peut aussi être bien plus complexe si nécessaire. </li>
+                <li>Ajouter une carte DITA à votre dossier consacré à la réutilisation de contenu.
+                    Ajouter tous vos éléments réutilisable dans cette carte. Le validateur signalera
+                    toutes les ID dupliquées. Réaliser cette procédure avant de publier votre
+                    contenu sur votre plateforme.</li>
+            </ul>
+            <p><b>S'assurer que les rubriques et les éléments soient réutilisables</b></p>
+            <p>Comme il a été expliqué dans la leçon, le référencement de contenu qui semble
+                fonctionner en français ne l'est peut-être pas dans une autre langue, ce qui peut
+                poser des problèmes lors de la traduction du contenu.</p>
+            <ul class="- topic/ul " id="ul_qcd_xry_dw">
+                <li class="- topic/li ">Ne pas utiliser de conref associé à l'élément &lt;ph> pour
+                    remplacer des fragments de phrase.</li>
+                <li class="- topic/li ">Être prudent lors du référencement d'une phrase
+                    entière.</li>
+                <li class="- topic/li ">Réutiliser des blocs de contenu répondant aux conditions
+                    suivantes :<ul class="- topic/ul " id="ul_rcd_xry_dw">
+                        <li class="- topic/li ">
+                            <p class="- topic/p ">Le contenu réutilisé doit être gramaticalement
+                                indépendant.</p>
+                        </li>
+                        <li class="- topic/li ">
+                            <p class="- topic/p ">Les éléments référencé et les éléments
+                                référençants doivent partager le même contexte.</p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <p><b>La communication est la clef</b></p>
+            <p>Avant d'apporter des modifications aux rubriques pour la réutilisation de contenu,
+                assurez-vous de savoir quels sont les rubriques qui utilisent les contenus
+                conservés. Certains CMS comprennent des outils pour retrouver toutes les rubriques
+                et les cartes référencées. Si vous possedez ces outils, utilisez-les.</p>
+            <p>Involve all stakeholders in the decision to modify shared content. You might find
+                that to satisfy all consumers of shared content, you need to create a separate
+                version of the content. You want to avoid the situation where changes to shared
+                content breaks—or introduces falsehoods into—documents.  Inviter toutes les parties
+                prenantes à s'exprimer avant de décider de modifier le contenu partagé. Il se peut
+                qu'afin de satisfaire tous les partenaires, il sera nécessaire de créer plusieurs
+                versions du même contenu. Il est préférable d'éviter les situations où les
+                structures de partages de contenu sont rendues inutilisables voir entraîne la
+                création de contenu erroné.</p>
+        </lcIntro>
+    </learningContentbody>
+    <task id="task_dh4_mnv_jw">
+        <title>À votre tour</title>
+        <taskbody>
+            <steps id="steps_nby_y3z_lw">
+                <step>
+                    <cmd>Open the file samples/conrefs/t_watching_wild_ducks_start.dita.</cmd>
+                </step>
+                <step>
+                    <cmd>After the first paragraph in the prerequisities, create a conref to the
+                        only paragraph in the topic file samples/conrefs/c_duck_safety.dita.</cmd>
+                </step>
+                <step>
+                    <cmd>Check your file samples/conrefs/t_watching_wild_ducks_start.dita against
+                        the file samples/conrefs/t_watching_wild_ducks.dita.</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

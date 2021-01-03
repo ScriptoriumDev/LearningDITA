@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="lc_creating_reusable_topics">
+    <title>Creating reusable topics</title>
+    <prolog>
+        <author type="creator" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <critdates>
+            <created golive="2016-07-11" date="2016-05-11"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives id="lcObjectives_xdg_phj_kw">
+            <lcObjectivesGroup id="lcObjectivesGroup_tvl_vbh_1t">
+                <lcObjective class="- topic/li learningBase/lcObjective ">Write a reusable
+                    topic</lcObjective>
+                <lcObjective class="- topic/li learningBase/lcObjective ">Demonstrate why inline
+                    replacements can cause problems in translation</lcObjective>
+                <lcObjective class="- topic/li learningBase/lcObjective ">Write paragraphs, steps,
+                    and list items that are reusable </lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration id="lcDuration_wm5_phj_kw">
+            <lcTime value="45"/>
+        </lcDuration>
+        <lcIntro id="lcIntro_w2l_qhj_kw">
+            <p>This lesson shows how to write topics and elements so that they are reusable. </p>
+        </lcIntro>
+    </learningContentbody>
+    <related-links>
+        <link
+            href="https://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Language_and_Punctuation/c_Glue_Text.html"
+            format="html">
+            <linktext>DITA Style Guide, Stem sentences, glue text, and other transitional information</linktext>
+        </link>
+        <link
+            href="https://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Content_Reuse/c_Writing_For_Reuse.html"
+            format="html">
+            <linktext>DITA Style Guide, Writing for re-use</linktext>
+        </link>
+        <link
+            href="https://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Content_Reuse/c_Re-use_Guidelines.html"
+            format="html">
+            <linktext>DITA Style Guide, Re-use guidelines</linktext>
+        </link>
+    </related-links>
+</learningContent>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningTreeContent.dtd">
+<learningContent xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="lt-content-1989"
+   domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic concept)                             (topic reference)                             (topic task)                             (topic learningInteractionBase-d)                            (topic learningInteractionBase-d learning-d)                            (topic learningmeta-d)                             (topic learningBase+learningInteractionBase-d)                            (topic learningBase+learningInteractionBase-d learningContent)                            (topic learningBase learningSummary)                             (topic learningBase+learningInteractionBase-d learningAssessment)   "
+   ditaarch:DITAArchVersion="1.2"
+   class="- topic/topic learningBase/learningBase learningContent/learningContent ">
+   <title class="- topic/title ">Gérer les attributs des contenus référencés</title>
+   <shortdesc class="- topic/shortdesc "/>
+   <prolog class="- topic/prolog ">
+      <author type="creator" href="http://easydita.com/" format="html" scope="external"
+         class="- topic/author ">Mike Rice, easyDITA</author>
+      <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+         class="- topic/author ">Annie Chen, easyDITA</author>
+      <author>Rémi Decarnelle (translator)</author>
+      <critdates>
+         <created golive="2016-07-11" date="2016-05-11"/>
+         <revised modified="2020-10-12"/>
+      </critdates>
+   </prolog>
+   <learningContentbody
+      class="- topic/body  learningBase/learningBasebody learningContent/learningContentbody ">
+      <lcInstruction class="- topic/section learningBase/lcInstruction "><p class="- topic/p ">Il
+            est courant que du contenu référencé utilise des attributs. Par exemple, l'élément
+            &lt;note> utilise l'attribut <i>type</i> pour spécifier le type de la note. Il se peut
+            aussi que vous référenciez un contenu visé par un traitement conditionnel. Quand vous
+            référencez un contenu qui utilise déjà plusieurs attributs, quels sont ceux conservés
+            dans l'élément résolu ?</p><p class="- topic/p ">La réponse est que les attributs de
+            l'élement référencé et de l'élément référençant seront conservés. S'il y a des conflits,
+            par exemple, le même attribut est utilisé par les deux éléments, l'attribut de l'élément
+            référençant sera utilisé.</p>Il existe cependant deux exceptions :<ul id="ul_gpj_5v3_mw">
+            <li>Pour forcer l'utilisation des attributs de l'élément référencé, appliquer l'attribut
+               "-dita-use-conref-targer" à l'élément référençant.
+               <!--Cet attribut est particulièrement utile lors du référencement de contenu dont l'élément comporte un attribut obligatoire et dont l'attribut est inclut dans une liste prédéfinie tel que l'attribut tmtype de l'élément <tm> .--></li>
+            <li>If the referenced element has an xml:lang attribute, it is used, rather than
+               xml:lang in the referencing element. Si l'élément référencé utilise l'attribut
+               xml:lang, ce dernier sera utilisé plutôt que l'attribut xml:lang de l'élément
+               référençant.</li>
+         </ul><!--<p class="- topic/p "><draft-comment author="simonbate">This table is more confusing than helpful. I tried adding xml:lang to the table, but got confused. If I got confused, readers will be entirely lost. Consider non-table alternatives. Also, what does blank and not blank mean? The attribute itself, or the attribute value?</draft-comment><table class="- topic/table "><title class="- topic/title ">Results of merging the values of referencing element and referenced element values in conrefs</title><tgroup cols="6" class="- topic/tgroup "><colspec colname="c0" colnum="0" class="- topic/colspec "/><colspec colname="c1" colnum="1" class="- topic/colspec "/><colspec colname="c2" colnum="2" class="- topic/colspec "/><colspec colname="c3" colnum="3" class="- topic/colspec "/><colspec colname="c4" colnum="4" class="- topic/colspec "/><colspec colname="newCol6" colnum="6" colwidth="1*"/><tbody class="- topic/tbody "><row class="- topic/row "><entry colname="c0" class="- topic/entry "/><entry namest="c2" nameend="newCol6" align="center" class="- topic/entry ">Referencing Value</entry></row><row class="- topic/row "><entry colname="c0" morerows="4" class="- topic/entry ">Referenced Value</entry><entry colname="c1" class="- topic/entry "/><entry colname="c2" class="- topic/entry "> <b class="+ topic/ph hi-d/b ">blank</b> </entry><entry colname="c3" class="- topic/entry "> <b class="+ topic/ph hi-d/b ">not blank</b> </entry><entry colname="c4" class="- topic/entry "> <b class="+ topic/ph hi-d/b ">-dita-use-conref-target</b> </entry><entry><b>xml:lang</b></entry></row><row class="- topic/row "><entry colname="c1" class="- topic/entry "> <b class="+ topic/ph hi-d/b ">blank</b> </entry><entry colname="c2" class="- topic/entry ">blank</entry><entry colname="c3" class="- topic/entry ">referencing element value</entry><entry colname="c4" class="- topic/entry ">blank</entry><entry>referencing element value</entry></row><row class="- topic/row "><entry colname="c1" class="- topic/entry "> <b class="+ topic/ph hi-d/b ">not blank</b> </entry><entry colname="c2" class="- topic/entry ">referenced element value</entry><entry colname="c3" class="- topic/entry ">referencing element value</entry><entry colname="c4" class="- topic/entry ">referenced element value</entry><entry>n/a</entry></row><row class="- topic/row "><entry colname="c1" class="- topic/entry "> <b class="+ topic/ph hi-d/b ">-dita-use-conref-target </b> </entry><entry colname="c2" class="- topic/entry ">referenced element value (of the referenced element’s referenced element)</entry><entry colname="c3" class="- topic/entry ">referencing element value</entry><entry colname="c4" class="- topic/entry ">referenced element value (of the referenced element’s referenced element)</entry><entry>n/a</entry></row><row><entry colname="c1"><b>xml:lang</b></entry><entry colname="c2">referenced element value</entry><entry colname="c3">n/a</entry><entry colname="c4">n/a</entry><entry>referenced element value</entry></row></tbody></tgroup></table><note type="note" id="note" class="- topic/note ">Normally, you wouldn’t use -dita-use-conref-target as a referenced element value, since it implies that the element with that value is the referencing element of a conref. But it could be the case that you conref an element that itself is a conref. In this case, if both elements with a conref attribute have the same attribute set to <q class="- topic/q ">-dita-use-conref-target</q>, the value of the attribute will match the value in the referenced element of the referenced element.</note></p>--></lcInstruction>
+   </learningContentbody>
+</learningContent>
