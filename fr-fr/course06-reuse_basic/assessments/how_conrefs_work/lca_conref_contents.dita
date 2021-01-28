@@ -22,19 +22,20 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcTrueFalse id="lcTrueFalse_axp_s5h_mw">
-    <lcQuestion>When a conref of an element is resolved, all of that element’s children are also
-     pulled into the referencing element. Quand un conref est résolu,</lcQuestion>
+    <lcQuestion>Quand un conref est résolu, tout le contenu des élements enfants est également
+     ajouté à l'élément descendants.</lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_bxp_s5h_mw">
      <lcAnswerOption>
-      <lcAnswerContent>True</lcAnswerContent>
+      <lcAnswerContent>Vrai</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>False</lcAnswerContent>
+      <lcAnswerContent>Faux</lcAnswerContent>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect>When a conref is resolved, all of the referenced elements contents,
-     including its child elements are pulled into the referencing element.</lcFeedbackIncorrect>
+    <lcFeedbackIncorrect>Quand un conref est résolu, tout le contenu de l'élément référencé y
+     compris celui des éléments descendants est ajouté dans l'élément
+     reférençant.</lcFeedbackIncorrect>
    </lcTrueFalse>
   </lcInteraction>
  </learningAssessmentbody>

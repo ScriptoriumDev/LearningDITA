@@ -13,36 +13,39 @@
    Scriptorium</author>
   <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
    Scriptorium</author>
+  <author>Decarnelle Rémi (traducteur)</author>
   <critdates>
    <created date="2016-06-30"/>
+   <revised modified="2021-01-28"/>
   </critdates>
  </prolog>
  <learningAssessmentbody>
   <lcInteraction>
    <lcSingleSelect id="lcSingleSelect_mbp_4vh_mw">
-    <lcQuestion>When a referencing element and the referenced element in a conref both use
-     attributes: (choose one)</lcQuestion>
+    <lcQuestion>Quand l'élément référençant et l'élément référencé par un conref utilisent les mêmes
+     attributs : (choisir une seule réponse)</lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_nbp_4vh_mw">
      <lcAnswerOption>
-      <lcAnswerContent>The attributes of the referencing element take precedence, except for
-       -dita-use-conref-target and xml:lang.</lcAnswerContent>
+      <lcAnswerContent>Les attributs de l'élément référençant sont conservés en priorité, à
+       l'exception des attributs -dita-use-conref-target et xml:lang.</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>The attributes of the referenced element take precedence, except for
-       -dita-use-conref-target and xml:lang.</lcAnswerContent>
+      <lcAnswerContent>Les attributs de l'élément référencé sont conservés en priorité, à
+       l'exception des attributs -dita-use-conref-target et xml:lang.</lcAnswerContent>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>The attributes of the referencing element take precedence, no matter
-       what.</lcAnswerContent>
+      <lcAnswerContent>Les attributs de l'élément référençant sont conservés en priorité quelle que
+       soit la situation.</lcAnswerContent>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>The attributes of the referenced element take precedence, no matter
-       what.</lcAnswerContent>
+      <lcAnswerContent>Les attributs de l'élément référençé sont conservés en priorité quelle que
+       soit la situation.</lcAnswerContent>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect>When resolving a conref, the attributes of the referencing element take
-     precedence, except for -dita-use-conref-target and xml:lang. </lcFeedbackIncorrect>
+    <lcFeedbackIncorrect>Lors de la résolution d'un conref, les attributs de l'élément référençant
+     sont conservés en priorité, à l'exception des attributs -dita-use-conref-target et
+     xml:lang.</lcFeedbackIncorrect>
    </lcSingleSelect>
   </lcInteraction>
  </learningAssessmentbody>

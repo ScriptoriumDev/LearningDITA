@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
- <title>Reusing topics and maps</title>
+ <title>Réutiliser des cartes et des rubriques</title>
  <topicref href="../topics/lc_maps_and_topics.dita">
   <topicmeta lockmeta="yes">
    <data name="lesson_id" value="10435"/>
@@ -12,7 +12,7 @@
   <topicref href="../topics/lc_creating_and_using_a_reusable_map.dita"/>
   <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_Maps_and_topics.dita" locktitle="yes">
    <topicmeta>
-    <navtitle>Assessment for Reusing topics and maps</navtitle>
+    <navtitle>Évaluation sur la réutilisation de cartes et rubriques</navtitle>
    </topicmeta>
    <topicref href="../assessments/topics_and_maps/lca_topicref.dita"/>
    <topicref href="../assessments/topics_and_maps/lca_copy_to.dita"/>

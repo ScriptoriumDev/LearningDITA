@@ -22,8 +22,8 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcMultipleSelect id="lcMultipleSelect_v2l_mbh_mw">
-    <lcQuestion>(choose all that apply) Lequel de ces contenus peut être rendu réutilisable dans une
-     sous-carte ? (choisir toutes les bonnes réponses)</lcQuestion>
+    <lcQuestion>Lequel de ces contenus peut être rendu réutilisable dans une sous-carte ? (choisir
+     toutes les bonnes réponses)</lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_w2l_mbh_mw">
      <lcAnswerOption>
       <lcAnswerContent>Rubrique pour une préface</lcAnswerContent>
@@ -41,8 +41,8 @@
      </lcAnswerOption>
     </lcAnswerOptionGroup>
     <lcFeedbackIncorrect>Le modèle de contenu de la carte DITA n'autorise pas les balises
-     &lt;topicref> et &lt;mapref> au niveau supérieur, donc vous devez créer des &lt;frontmatter> ou
-     &lt;chapter> réutilisables.</lcFeedbackIncorrect>
+     &lt;topicref> et &lt;mapref> au niveau supérieur, donc vous devez créer des éléments
+     &lt;frontmatter> ou &lt;chapter> réutilisables.</lcFeedbackIncorrect>
    </lcMultipleSelect>
   </lcInteraction>
  </learningAssessmentbody>

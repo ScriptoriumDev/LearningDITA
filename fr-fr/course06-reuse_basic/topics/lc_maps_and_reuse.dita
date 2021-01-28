@@ -29,7 +29,7 @@
             <p>Comme décrit dans le cours <cite>Utiliser les cartes DITA</cite>, utiliser la balise
                 &lt;topicref> dans une carte pour y ajouter une rubrique</p>
             <pre>&lt;topicref href="nom_du_dossier/nom_du_fichier.dita"/></pre>
-            <p>Si votre rubrique remplit respectes toutes les conditions, vous serez en mesure de la
+            <p>Si votre rubrique respecte toutes les conditions, vous serez en mesure de la
                 réutiliser dans toutes les cartes, et à n'importe quel niveau de l'arborescence.</p>
         </lcInstruction>
     </learningContentbody>

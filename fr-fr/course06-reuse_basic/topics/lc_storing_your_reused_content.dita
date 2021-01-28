@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningTreeContent.dtd">
-<learningContent xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="lt-content-8477" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic concept)                             (topic reference)                             (topic task)                             (topic learningInteractionBase-d)                            (topic learningInteractionBase-d learning-d)                            (topic learningmeta-d)                             (topic learningBase+learningInteractionBase-d)                            (topic learningBase+learningInteractionBase-d learningContent)                            (topic learningBase learningSummary)                             (topic learningBase+learningInteractionBase-d learningAssessment)   " ditaarch:DITAArchVersion="1.2" class="- topic/topic learningBase/learningBase learningContent/learningContent "><title class="- topic/title ">Storing your reusable content</title><shortdesc class="- topic/shortdesc "/>
+<learningContent xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="lt-content-8477"
+	domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic concept)                             (topic reference)                             (topic task)                             (topic learningInteractionBase-d)                            (topic learningInteractionBase-d learning-d)                            (topic learningmeta-d)                             (topic learningBase+learningInteractionBase-d)                            (topic learningBase+learningInteractionBase-d learningContent)                            (topic learningBase learningSummary)                             (topic learningBase+learningInteractionBase-d learningAssessment)   "
+	ditaarch:DITAArchVersion="1.2"
+	class="- topic/topic learningBase/learningBase learningContent/learningContent ">
+	<title class="- topic/title ">Stocker le contenu réutilisable</title>
+	<shortdesc class="- topic/shortdesc "/>
 	<prolog class="- topic/prolog ">
 		<author type="creator" href="http://easydita.com/" format="html" scope="external"
 			class="- topic/author ">Mike Rice, easyDITA</author>
@@ -12,61 +17,73 @@
 			<created golive="2016-07-11" date="2016-05-11"/>
 			<revised modified="2020-11-16"/>
 		</critdates>
-	</prolog><learningContentbody class="- topic/body  learningBase/learningBasebody learningContent/learningContentbody "><lcInstruction class="- topic/section learningBase/lcInstruction ">
-						<p class="- topic/p ">Une des bonnes pratiques est de conserver tout votre contenu
-				réutilisable (rubriques, élements, bloc de texte) dans un groupe de dossiers et
-				rubriques centralisés. On les appelle des rubriques "entrepôt". Tous les créateurs
-				de contenu doivent connaître cette stratégie et doivent prendre connaissance des
-				règles pour modifier les rubriques.</p>
+	</prolog>
+	<learningContentbody
+		class="- topic/body  learningBase/learningBasebody learningContent/learningContentbody ">
+		<lcInstruction class="- topic/section learningBase/lcInstruction ">
+			<p class="- topic/p ">Une des bonnes pratiques est de conserver tout votre contenu réutilisable
+				(rubriques, élements, blocs de texte) dans un groupe de dossiers et rubriques
+				centralisés. On les appelle des rubriques "entrepôt". Tous les créateurs de contenu
+				doivent connaître cette stratégie et doivent prendre connaissance des règles pour
+				modifier ces rubriques.</p>
 			<p>Si vous réutilisez du contenu depuis une rubrique en particulier, son auteur peut l'ignorer.
 				Dans cette situation, il se peut qu'il modifie ou supprime le contenu que vous avez
-				réutilisé, et par conséquent dégrader votre rubrique. Si l'on imagine le pire des
-				scénarios, ce quiproquo peut mener à des situations dangereuses pour
+				réutilisé, et par conséquent rendre inutilisable votre rubrique. Si l'on imagine le
+				pire des scénarios, ce quiproquo peut mener à des situations dangereuses pour
 				l'utilisateur.</p>
-			<p class="- topic/p ">Garder tout votre contenu réutilisable dans des dossiers et rubriques
-				entrepôts donnent aux créateur un contrôle plus strict sur l'information :</p>
+			<p class="- topic/p ">Garder tout votre contenu réutilisable dans des dossiers et
+				rubriques entrepôts donnent aux créateur un contrôle plus strict sur l'information
+				:</p>
 			<ul id="ul_mbh_j2f_lw">
 				<li>Vous pouvez gérer les dépendances entre les rubriques</li>
-				<li>Vous pouvez gérer les modifications et les suppression de contenu depuis l'entrepôt.</li>
+				<li>Vous pouvez gérer les modifications et les suppressions de contenu depuis l'entrepôt.</li>
 				<li>Vous pouvez communiquer sur les changements effectués.</li>
-				<li>Vous pouvez vous assurez que les informations stockés ne contiennent pas de liens vers
+				<li>Vous pouvez vous assurez que les informations stockées ne contiennent pas de liens vers
 					d'autres rubriques (ce qui créerait d'autres dépendences quand
 					réutilisées).</li>
 			</ul><p class="- topic/p ">Certains CCMS (système de gestion de contenu modulaire) peuvent exiger des
-				conditions spécifiques en ce qui concerne l'emplacement du contenu stocké. par
-				exemple, certains peuvent exiger que le contenu réutilisable soit référencé dans une
-				carte DITA, et soit stocké dans un sous-dossier dans le dossier de la carte.
-				Vérifiez les conditions de votre CCMS en cas de doute.</p>
-			<p>Certains CCMS donnent plus d'options pour accéder à votre contenu placé en entrepôt.</p>
-			</lcInstruction></learningContentbody>
+				conditions spécifiques en ce qui concerne l'emplacement du contenu stocké. Par
+				exemple, certains logiciels peuvent exiger que le contenu réutilisable soit
+				référencé dans une carte DITA, et soit stocké dans un sous-dossier au sein du
+				dossier où se trouve la carte. Vérifiez les conditions de votre CCMS en cas de
+				doute.</p>
+			<p>Certains CCMS donnent plus d'options pour accéder à votre contenu placé en
+				entrepôt.</p>
+		</lcInstruction>
+	</learningContentbody>
 	<task id="task_dh4_mnv_jw">
 		<title>Exercise</title>
 		<taskbody>
 			<steps id="steps_gjh_3bz_lw">
 				<step>
-					<cmd>Open the file
-						reuse_basics_samples/writing_for_reuse/c_documenting_ducks_start.dita.</cmd>
+					<cmd>Ouvrir le fichier
+						exemples_réutilisation/écrire_pour_réutiliser/c_collecter_données_canard_debut.dita.</cmd>
 				</step>
 				<step>
-					<cmd>Rewrite the following content in this topic to make it reusable:</cmd>
+					<cmd>Réécrire le contenu suivant pour le rendre réutilisable :</cmd>
 					<info>
 						<pre outputclass="passthru">	<![CDATA[
-                            <hr />
-                            <p>In the previous chapter, you learned about ownership and care of domestic ducks. In this chapter, you'll learn how to document valuable information about your ducks using the Magic Mallard duck database.</p>
-   <p>Every duck owner should keep track of her ducks' growth. With the Magic Mallard database, you
-   can create an entry for each duck. Each entry contains a chart where you can type in the duck's
-   height, weight, and wingspan week by week.</p>
-   <p>To add an entry for a duck to your database, type <codeph>add entry</codeph> followed by the
-   name of the duck in parentheses into the command line and press Enter.</p>
-   <hr/>]]>
+<hr />
+	<p>Dans le chapitre précédent, vous avez appris sur la propriété des canards et comment s'occuper d'eux. 
+	Dans ce chapitre, vous allez apprendre comment collecter des données cruciales à l'aide de la base de données pour canard Magic Mallard.</p>
+
+	<p>Chaque propriétaire de canard doit suivre l'évolution de la croissance de ses animaux. 
+	Avec Magic Mallard, vous pouvez ajouter une entrée pour chacun de vos canards. 
+	Chaque entrée contient un tableau dans lequel vous pouvez insérez
+	la taille, le poids et l'envergure des ailes de vos canards semaine après semaine.</p>
+
+	<p>Pour ajouter une entrée dans la base de données, saisir <codeph>add entry</codeph> 
+	suivi du nom du canard entre parenthèses dans la ligne de commande, puis presser Entrer.</p>
+<hr/>]]>
    </pre>
 					</info>
 				</step>
 				<step>
-					<cmd>Check your rewritten content against the file
-						reuse_basic_samples/writing_for_reuse/c_documenting_ducks.dita. (Results
-						will vary slightly based on rewriting choices.)</cmd>
+					<cmd>Comparer votre exercice avec le fichier corigé
+						exemples_réutilisation/écrire_pour_réutiliser/c_collecter_données_canard.dita.
+						Le résultat final peut varier en fonction des sensibilités de chacun.</cmd>
 				</step>
 			</steps>
 		</taskbody>
-	</task></learningContent>
+	</task>
+</learningContent>

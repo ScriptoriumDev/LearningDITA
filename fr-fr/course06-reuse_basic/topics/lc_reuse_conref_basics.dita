@@ -27,18 +27,18 @@
                 procédure de réutilisation. Un ID doit commencer par une lettre, un chiffre ou un
                 tiret du bas.</note><image
                 href="../images/conref-conceptual-with-referenced-referencing-labels.png"
-                id="image_tb2_1py_dw" base="2016/07"/><note type="tip" class="- topic/note ">Le
-                terme conref est souvent utilisé comme verbe signifiant "réutiliser du contenu grâce
-                à la balsie conref"</note>Les conrefs sont résolus lors de la génération de la
-            publication par un transformateur. De nombreux éditeur DITA résout les conrefs pendant
-            la rédaction afin d'avoir un rendu de ce à quoi la procédure ressemblera.<p>Pour
+                id="image_tb2_1py_dw" base="2016/07"/><note type="tip" class="- topic/note "
+                >L'acception du terme conref comme verbe est "réutiliser du contenu grâce à la
+                balsie conref"</note>Les conrefs sont résolus lors de la génération de la
+            publication par un transformateur. De nombreux éditeurs DITA résolvent les conrefs pendant
+            la rédaction afin d'avoir un rendu proche du résultat final.<p>Pour
                 résoudre un conref, le transformateur remplace l'élément référençant par l'élément
                 référencé et tout son contenu. Cela inclut tous les éléments au sein de
                 l'arborescence du contenu référencé. Par exemple, si la balise &lt;p> référencé
                 contient une balise &lt;uicontrol>, le &lt;p> référençant sera remplacé par le
                 &lt;p> référencé en incluant le &lt;uicontrol>. De la même façon, un liste &lt;ol>
                 référencée incluera tous les éléments &lt;li> en son sein. </p><p>Quand le contenu
-                original chance, ces modification apparaissent partout là ou le contenu a été
+                original change, ces modification apparaissent partout là ou le contenu a été
                 réutilisé.</p></lcInstruction>
     </learningContentbody>
 </learningContent>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_pgf_3gt_qt">
-    <title>What is a content reference?</title>
+    <title>Qu'est-ce qu'un conref ?</title>
     <prolog class="- topic/prolog ">
         <author type="creator" href="http://easydita.com/" format="html" scope="external"
             class="- topic/author ">Mike Rice, easyDITA</author>
@@ -18,19 +18,20 @@
     <learningContentbody>
         <lcInstruction>
             <p>L'attribut conref rend possible la réutilisation de contenu identifié par une clef
-                dans un ou plusieurs rubriques. Dans DITA, l'attribut conref intervient lors de la
-                réutilisation de contenu à l'échelle du fragment.</p>
-            <p>Typiquement, vous créez un contenu réutilisble (comme un élement), et puis l'utilisez
-                dans d'autres documents si nécessaire. L'un des meilleurs exemples pour DITA est la
-                balise &lt;note>. Vous pouvez créer un élément &lt;note> dans un premier temps, le
-                faire approuver par tous ceux concernés (ce qui inclut, potentiellement, votre
-                département juridique), et le rendre disponible depuis un entrepôt de rubrique.
-                Ensuite, chaque rédacteur qui utilise l'élement &lt;note> combiné à l'attribut
-                conref pourra l'utiliser selon ses besoins.</p>
+                dans une ou plusieurs rubriques. Dans DITA, l'attribut conref intervient lors de la
+                réutilisation de contenu à l'échelle de fragment.</p>
+            <p>Typiquement, vous créez un contenu réutilisble (par exemple un élement), et puis
+                l'utilisez dans d'autres documents si nécessaire. L'un des meilleurs exemples pour
+                DITA est la balise &lt;note>. Vous pouvez créer un élément &lt;note> dans un premier
+                temps, le faire approuver par tous ceux concernés (ce qui inclut, potentiellement,
+                votre département juridique), et le rendre disponible depuis un entrepôt de
+                rubrique. Ensuite, chaque rédacteur qui utilise l'élement &lt;note> combiné à
+                l'attribut conref pourra l'utiliser selon ses besoins.</p>
             <p>Quand des fragments de contenu sont réutilisés dans plusieurs rubriques ou
-                publication, utiliser l'attribut conref peut rendre la gestion de votre contenu plus
-                pratique. Contraitement aux fonctionner copier coller qui duplique le contenu, un
-                conref  insert le contenu voulu <i>grâce au référencement</i> dans une rubrique.</p>
+                publications, utiliser l'attribut conref peut rendre la gestion de votre contenu
+                plus pratique. Contraitement aux fonctionns copier/coller qui dupliquent le contenu,
+                un conref insert le contenu voulu <i>grâce au référencement</i> dans une
+                rubrique.</p>
             <!--<p>Using copy and paste is not a good strategy, primarily because the pasted content is not automatically updated from the source. If the source is changed later on, it’s very difficult to make sure that change gets back to all the places where that content is used. </p>-->
         </lcInstruction>
     </learningContentbody>

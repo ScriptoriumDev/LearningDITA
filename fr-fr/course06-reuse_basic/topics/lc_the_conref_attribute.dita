@@ -31,20 +31,18 @@
             <li>L'ID de l'élément référencé</li>
          </ul>
          <p>Le chemin vers le fichier l'ID de la rubrique sont séparés un dièse (#) ; L'ID de la
-            rubrique et de l'élément sont séparés par un slash (/). </p>
+            rubrique et de l'élément sont séparés par un slash ("/"). </p>
          <note>Si l'élément référencé est présent dans le même fichier que l'élément référençant (ce
-            qui est rare), le chemin vers le fichier peut être optionnel, mais le dièse doit être
-            ajouté.</note>
+            qui est rare), le chemin vers le fichier peut être optionnel, mais le dièse ("#") doit
+            être ajouté.</note>
          <p class="- topic/p ">Par exemple, une rubrique dépôt (que l'on peut trouver à
             ../dépôt/avertissement.dita) contient un élement &lt;note>.</p>
          <pre xml:space="preserve" class="- topic/pre ">&lt;topic id="depotavertissement"&gt;
    ...
    &lt;note type="danger" id="dangerchaleur"&gt;La surface est brûlante.&lt;/note&gt;
    ...</pre>
-         <p class="- topic/p ">To reuse this &lt;note> element in another topic, create an empty
-            &lt;note> element at the appropriate location, and use the conref attribute to identify
-            the element to be reused.  Pour réutiliser cette &lt;note> dans une autre rubrique, vous
-            devez créer dans la rubrique une &lt;note> vide, puis utiliser l'attribut conref pour
+         <p class="- topic/p ">Pour réutiliser cette &lt;note> dans une autre rubrique, vous devez
+            créer dans la rubrique une &lt;note> vide, puis ajouter l'attribut conref pour
             identifier où sera réutilisé le contenu</p>
          <pre xml:space="preserve" class="- topic/pre ">...
 &lt;note conref="../dépôt/avertissement.dita#depotavertissement/dangerchaleur"/&gt;
@@ -52,8 +50,8 @@
          <p class="- topic/p ">Le contenu de l'attribut conref peut sembler intimidant ou difficile
             à retenir. Néanmoins, la plupart des éditeurs DITA assiste l'utilisateur pendant la mise
             en place d'un conref.</p>
-         <p class="- topic/p "> Le tableau suivant montre quelques examples de comment la valeur de
-            l'attribut conref est formatée selon plusieurs situations. Dans ces exemples, vous
+         <p class="- topic/p ">Le tableau suivant montre quelques exemples de comment la valeur de
+            l'attribut conref est formatée dans plusieurs situations. Dans ces exemples, vous
             remplacerez les informations génériques :</p>
          <p class="- topic/p ">
             <ul class="- topic/ul ">

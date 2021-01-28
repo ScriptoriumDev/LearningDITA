@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
- <title>Introduction to reuse</title>
+ <title>Introduction à la réutilisation de contenu</title>
  <topicref href="../topics/lc_intro_to_reuse.dita">
   <topicmeta lockmeta="yes">
    <data name="lesson_id" value="10433"/>
@@ -14,7 +14,7 @@
 
   <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_reuse_intro.dita" locktitle="yes">
    <topicmeta>
-    <navtitle>Assessment for Introduction to reuse</navtitle>
+    <navtitle>Évaluation sur les bases de la réutilisation de contenu</navtitle>
    </topicmeta>
    <topicref href="../assessments/intro_to_reuse/lca_reasons_for_reuse.dita"/>
    <topicref href="../assessments/intro_to_reuse/lca_subset.dita"/>

@@ -35,11 +35,8 @@
       </lcInstruction>
       <section class="- topic/section ">
          <title class="- topic/title ">Les éléments au sein de &lt;step></title>
-         <p class="- topic/p ">Similarly, you can reuse other parts of the &lt;step> element, such
-            as &lt;stepxmp> (step example), &lt;stepinfo>, &lt;choices>, &lt;tutorialinfo>, and
-            others, as long as they are grammatically independent and reused in the same context. Il
-            est aussi possible de réutiliser différents élements au sein de &lt;step>, tels que
-            &lt;stepxmp> (exemple), &lt;stepinfo>, &lt;choices>, &lt;tutorialinfo>, etc., du moment
-            que les fragments réutilisés soient grammaticalement indépendants et soient réutilisés
-            dans le même contexte.</p>
+         <p class="- topic/p ">Il est aussi possible de réutiliser différents élements au sein de
+            &lt;step>, tels que &lt;stepxmp> (exemple), &lt;stepinfo>, &lt;choices>,
+            &lt;tutorialinfo>, etc., du moment que les fragments réutilisés soient grammaticalement
+            indépendants et soient réutilisés dans le même contexte.</p>
       </section></learningContentbody></learningContent>

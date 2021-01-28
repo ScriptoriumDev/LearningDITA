@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
- <title>Using content references</title>
+ <title>Réutiliser du contenu (conref</title>
  <topicref href="../topics/lc_using_conrefs.dita">
   <topicmeta lockmeta="yes">
    <data name="lesson_id" value="10436"/>
@@ -15,7 +15,7 @@
   <topicref href="../topics/lc_conrefs_best_practices.dita"/>
   <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_using_conrefs.dita" locktitle="yes">
    <topicmeta>
-    <navtitle>Assessment for Using conrefs</navtitle>
+    <navtitle>Évaluation sur les conrefs</navtitle>
    </topicmeta>
    <topicref href="../assessments/how_conrefs_work/lca_referencing_element.dita"/>
    <topicref href="../assessments/how_conrefs_work/lca_resolve.dita"/>

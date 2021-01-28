@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
- <title>Creating reusable topics</title>
+ <title>Créer des rubriques réutilisables</title>
  <topicref href="lc_creating_reusable_topics.dita">
   <topicmeta lockmeta="yes">
    <data name="lesson_id" value="10434"/>
@@ -14,7 +14,7 @@
   <topicref href="../topics/lc_storing_your_reused_content.dita"/>
   <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_reusable_topics.dita" locktitle="yes">
    <topicmeta>
-    <navtitle>Assessment for Creating reusable topics</navtitle>
+    <navtitle>Évaluation sur la création de rubriques réutilisables</navtitle>
    </topicmeta>
    <topicref href="../assessments/reusable_topics/lca_across_publications.dita"/>
    <topicref href="../assessments/reusable_topics/lca_candidate.dita"/>

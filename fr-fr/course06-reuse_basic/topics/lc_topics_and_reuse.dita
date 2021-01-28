@@ -22,8 +22,8 @@
                 même rubrique dans la <i>même</i> carte.</p>
             <p>Par exemple, imaginez une carte DITA d'un cours et dans lequel chaque contenu
                 introduisant un test est toujours le même. Plutôt que de créer une rubrique
-                différente à chaque réapparition du test, vous pouvez plutôt créer une rubrique
-                commune, et réutilisée à chaque fois que la situation se présente.</p>
+                différente à chaque réapparition d'un test, vous pouvez plutôt créer une rubrique
+                commune, et la réutiliser à chaque fois que la situation se présente.</p>
             <p>Cependant, si vous réutilisez la même rubrique dans une seule carte, vous devrez
                 ajouter l'attribut <i>copy-to</i> à la balise &lt;topicref></p>
             <pre>&lt;map>
@@ -33,9 +33,9 @@
    &lt;topicref href="ma_rubrique.dita" copy-to="seconde_copie.dita"/>
    ...
 &lt;/map></pre>
-            <p>La raison principale pour laquelle utiliser l'attribut copy-to est d'assurer que la
+            <p>La raison principale pour laquelle utiliser l'attribut copy-to est l'assurance que la
                 référence du contenu pointe vers la bonne version du fichier.</p>
-            <p>Il est des bonnes pratiques d'appliquer l'attribut copy-to à <i>tout</i> les
+            <p>Il est des bonnes pratiques d'appliquer l'attribut copy-to à <i>tous</i> les
                 &lt;topicref> renvoyant à la rubrique réutilisée, et non seulement à la première
                 référence. Si vous réorganisez votre contenu, vous risquez d'oublier que cette
                 rubrique est réutilisée. </p>
@@ -43,7 +43,7 @@
                 de ces cartes réutilise la même rubrique, vous devez continuer à utiliser l'attribut
                 copy-to. Quand vous générez une publication, le prétransformateur fusionne tous les
                 sous-carte avec la carte principale pour en créer une nouvelle. Cette nouvelle carte
-                est alors utilsé pour générer la publication. </p>
+                est alors utilsée pour générer la publication. </p>
             <p>Vous pouvez utiliser les balises &lt;navtitle>, &lt;linktext>, et &lt;shortdesc> pour
                 ajouter un titre et une description unique à la rubrique réutilisée.</p>
             <pre>&lt;map>

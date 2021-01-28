@@ -13,41 +13,42 @@
    Scriptorium</author>
   <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
    Scriptorium</author>
+  <author>Decarnelle Rémi (traducteur)</author>
   <critdates>
    <created date="2016-06-30"/>
+   <revised modified="2021-01-28"/>
   </critdates>
  </prolog>
  <learningAssessmentbody>
   <lcInteraction>
    <lcMultipleSelect id="lcSingleSelect_vk5_lxh_mw">
-    <lcQuestion>When creating an element that will be the target of a conref (the referenced
-     element), the element must meet what requirements? (choose all that apply)</lcQuestion>
+    <lcQuestion>Quelles sont les conditions à remplir lors de la création d'un élément afin d'en
+     faire la cible d'un conref ? (choisir toutes les bonnes réponses)</lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_wk5_lxh_mw">
      <lcAnswerOption>
-      <lcAnswerContent>The element must have an ID attribute.</lcAnswerContent>
+      <lcAnswerContent>L'élement doit avoir un attribut <i>ID</i>.</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>The element must be reachable through the top-level map from the referencing
-       element.</lcAnswerContent>
+      <lcAnswerContent>L'élément doit être accessible par la carte de niveau supérieur à partir de
+       l'élément référençant.</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>The element must have the same name as the referencing
-       element.</lcAnswerContent>
+      <lcAnswerContent>L'élément doit avoir le même nom que l'élément référençant.</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>The element must use the same attributes as the referencing
-       element.</lcAnswerContent>
+      <lcAnswerContent>L'élement doit avoir les mêmes attributs que l'élément
+       référençant.</lcAnswerContent>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>The element must be empty.</lcAnswerContent>
+      <lcAnswerContent>L'élément doit être vide.</lcAnswerContent>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect>The target of a conref must have an ID attribute, it must be reachable
-     through the map, and it must have the same name as the referencing
-     element.</lcFeedbackIncorrect>
+    <lcFeedbackIncorrect>La cible d'un conref doit avoir un attribut <i>ID</i>, être accessible à
+     travers la carte DITA, et doit avoir le même nom que l'élément
+     référençant.</lcFeedbackIncorrect>
    </lcMultipleSelect>
   </lcInteraction>
  </learningAssessmentbody>

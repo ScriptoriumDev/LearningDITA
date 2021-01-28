@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="lc_creating_and_using_a_reusable_map">
-    <title>Merging maps</title>
+    <title>Fusionner des cartes</title>
     <prolog>
         <author type="creator" href="http://www.scriptorium.com/" format="html" scope="external"
             class="- topic/author ">Simon Bate</author>
@@ -17,56 +17,58 @@
     </prolog>
     <learningContentbody>
         <lcInstruction id="lcInstruction_obp_3kb_mw">
-            <p>In the previous examples, the submap (_m_breeds.ditamap) contains &lt;title> and
-                &lt;topicmeta> elements. It’s a good idea to use these elements to provide
-                information to other writers to describe the purpose of the submap and to provide
-                metadata for searches. But note that these are not retained in final processing. </p>
-            <p>When you generate output from a map or bookmap, all submaps are merged into a final
-                map, which is used to generate your output.</p>
-            <p>This table lists some of the more common elements you might use in a submap and what
-                happens to them when the submap is merged in to a final map. </p>
+            <p>Dans l'exemple précédent, les sous-cartes (_m_especes.ditamap) contenaient des
+                éléments &lt;title> et &lt;topicmeta>. C'est une bonne idée d'utiliser ces éléments
+                pour éclairer les autres rédacteurs sur le but de ce fichier et de le rendre plus
+                facile à trouver à l'aide des métadonnées. Il faut cependant noter que ces
+                informations ne seront pas retenues dans le traitement final.</p>
+            <p>Lorsque vous générer une publication depuis une carte, toutes les sous-cartes
+                référencées sont fusionnées en une seule. Cette carte est utilisée pour générer la
+                publication.</p>
+            <p>Ce tableau liste les éléments utilisables dans une sous-carte et ce qu'il leur arrive
+                lorsque le document est fusionné avec d'autres.</p>
             <table frame="all" rowsep="1" colsep="1" id="table_ftg_hlb_mw">
                 <tgroup cols="2">
                     <colspec colname="c1" colnum="1" colwidth="1*"/>
                     <colspec colname="c2" colnum="2" colwidth="3.03*"/>
                     <thead>
                         <row>
-                            <entry>Element</entry>
-                            <entry>Merged map result</entry>
+                            <entry>Élément</entry>
+                            <entry>Statut après fusion</entry>
                         </row>
                     </thead>
                     <tbody>
                         <row>
                             <entry>&lt;title></entry>
-                            <entry>Deleted</entry>
+                            <entry>Supprimé</entry>
                         </row>
                         <row>
                             <entry>&lt;topicmeta></entry>
-                            <entry>Deleted</entry>
+                            <entry>Supprimé</entry>
                         </row>
                         <row>
                             <entry>&lt;topicref> to DITA topic</entry>
-                            <entry>Copied exactly</entry>
+                            <entry>Copié</entry>
                         </row>
                         <row>
                             <entry>&lt;topicref format=“ditamap”></entry>
-                            <entry>Replaced with content from href attribute</entry>
+                            <entry>Remplacé par le contenu référencé par l'attribut href</entry>
                         </row>
                         <row>
                             <entry>&lt;mapref></entry>
-                            <entry>Replaced with content from href attribute</entry>
+                            <entry>Remplacé par le contenu référencé par l'attribut href</entry>
                         </row>
                         <row>
                             <entry>&lt;topichead></entry>
-                            <entry>Copied exactly</entry>
+                            <entry>Copié</entry>
                         </row>
                         <row>
                             <entry>&lt;topicgroup></entry>
-                            <entry>Copied exactly</entry>
+                            <entry>Copié</entry>
                         </row>
                         <row>
                             <entry>&lt;reltable></entry>
-                            <entry>Copied exactly</entry>
+                            <entry>Copié</entry>
                         </row>
                     </tbody>
                 </tgroup>
@@ -74,35 +76,34 @@
         </lcInstruction>
     </learningContentbody>
     <task id="task_ytj_kkt_lw">
-        <title>On Your Own</title>
+        <title>À votre tour</title>
         <taskbody>
             <steps id="steps_dfp_lkt_lw">
                 <step>
-                    <cmd>Open the following submap files:</cmd>
+                    <cmd>Ouvrir les sous-cartes suivantes :</cmd>
                     <info>
                         <ul id="ul_spy_dnl_nw">
-                            <li>reuse_basic_samples/reusing_topics_and_maps/_m_wild_ducks_start.ditamap</li>
-                            <li>reuse_basic_samples/reusing_topics_and_maps/_m_domestic_ducks_start.ditamap</li>
+                            <li>exemples_réutilisation/réutiliser_des_rubriques_et_des_cartes/_m_canard_sauvage_debut.ditamap</li>
+                            <li>exemples_réutilisation/réutiliser_des_rubriques_et_des_cartes/_m_canard_sauvage.ditamap</li>
                         </ul>
                     </info>
                 </step>
                 <step>
-                    <cmd>Reuse the topic file c_duck_safety.dita by adding it as the last topic in
-                        each of the submap files you just opened.</cmd>
+                    <cmd> Réutiliser le fichier c_duck_safety.dita en l'ajoutant à chaque
+                        sous-carte.</cmd>
                 </step>
                 <step>
-                    <cmd>Save and close both of the submap files.</cmd>
+                    <cmd>Sauvegarder et fermer chaque sous-carte.</cmd>
                 </step>
                 <step>
-                    <cmd>Open the map file
-                        reuse_basic_samples/reusing_topics_and_maps/_m_ducks_start.ditamap. The
-                        submap files you just edited are reused in this map. Therefore, you should
-                        be able to see the topic file you added (c_duck_safety.dita) in each submap
-                        within the main map.</cmd>
+                    <cmd>Ouvrir le fichier
+                        exemples_réutilisation/réutiliser_des_rubriques_et_des_cartes/_m_canards_start.ditamap.
+                        La sous-carte que vous venez d'éditer est référencée dans ce fichier. Par conséquent, vous pouvez voir la rubrique ajoutée (c_duck_safety.dita) dans chaque sous-carte de la carte principale.
+                        </cmd>
                 </step>
                 <step>
-                    <cmd>Check your work in your main map file against the map file
-                        reuse_basic_samples/reusing_topics_and_maps/_m_ducks.ditamap.</cmd>
+                    <cmd>Comparer votre travail avec le fichier
+                        exemples_réutilisation/réutiliser_des_rubriques_et_des_cartes/_m_canards.ditamap.</cmd>
                 </step>
             </steps>
         </taskbody>

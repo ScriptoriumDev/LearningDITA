@@ -4,7 +4,7 @@
      github.com. See the accompanying LICENSE file for
      applicable licenses.-->
 <learningContent id="lc_about_reltables">
-    <title>Les meilleures pratiques d'utilisation du référencement de contenu</title>
+    <title>Les meilleures pratiques de référencement de contenu</title>
     <prolog class="- topic/prolog ">
         <author type="creator" href="http://easydita.com/" format="html" scope="external"
             class="- topic/author ">Mike Rice, easyDITA</author>
@@ -20,16 +20,16 @@
         <lcIntro>
             <p><b>Conserver et structurer votre contenu réutilisable en marge de votre documentation
                 </b></p>
-            <p>Pour éviter la documentation "spaghetti", conserver tout votre contenu réutilisation
+            <p>Pour éviter la documentation "spaghetti", conservez tout votre contenu réutilisable
                 dans des rubriques prévues à cet effet rangées dans des dossiers leur étant
                 consacrées.</p>
-            <p>Organiser ces rubriques dans des cartes DITA, puis ajouter les dans d'autres cartes
+            <p>Organisez ces rubriques dans des cartes DITA, puis ajoutez-les dans d'autres cartes
                 DITA avec l'attribut &lt;mapref processing-role="resource-only">. </p>
             <p><b>Se mettre d'accord sur des conventions de dénomination pour les fichiers et les
                     ID</b></p>
             <p>Bien que les applications de rédaction DITA assignent automatiquement une ID aux
-                éléments potentiellement réutilisable, il reste préférable que les ID données soit
-                intelligible pour les rédacteurs. Il faut néanmoins prendre conscience de
+                éléments potentiellement réutilisables, il reste préférable que les ID données
+                soient intelligibles pour les rédacteurs. Il faut néanmoins prendre conscience de
                 l'augmentation des risques de confusion des ID. Deux stratégies existent pour
                 réduire les risques.</p>
             <ul id="ul_drc_hz3_mw">
@@ -38,7 +38,7 @@
                 <li>Tenir un registre de toutes les ID afin d'aider les rédacteurs à trouver des
                     doublons. Ce registre peut être un simple tableau ou un document texte, mais il
                     peut aussi être bien plus complexe si nécessaire. </li>
-                <li>Ajouter une carte DITA à votre dossier consacré à la réutilisation de contenu.
+                <li>Ajouter une carte DITA à votre dossier consacrée à la réutilisation de contenu.
                     Ajouter tous vos éléments réutilisable dans cette carte. Le validateur signalera
                     toutes les ID dupliquées. Réaliser cette procédure avant de publier votre
                     contenu sur votre plateforme.</li>
@@ -52,14 +52,14 @@
                     remplacer des fragments de phrase.</li>
                 <li class="- topic/li ">Être prudent lors du référencement d'une phrase
                     entière.</li>
-                <li class="- topic/li ">Réutiliser des blocs de contenu répondant aux conditions
+                <li class="- topic/li ">Réutiliser des blocs de contenus répondant aux conditions
                     suivantes :<ul class="- topic/ul " id="ul_rcd_xry_dw">
                         <li class="- topic/li ">
-                            <p class="- topic/p ">Le contenu réutilisé doit être gramaticalement
+                            <p class="- topic/p ">Le contenu réutilisé doit être grammaticalement
                                 indépendant.</p>
                         </li>
                         <li class="- topic/li ">
-                            <p class="- topic/p ">Les éléments référencé et les éléments
+                            <p class="- topic/p ">Les éléments référencés et les éléments
                                 référençants doivent partager le même contexte.</p>
                         </li>
                     </ul>
@@ -70,15 +70,11 @@
                 assurez-vous de savoir quels sont les rubriques qui utilisent les contenus
                 conservés. Certains CMS comprennent des outils pour retrouver toutes les rubriques
                 et les cartes référencées. Si vous possedez ces outils, utilisez-les.</p>
-            <p>Involve all stakeholders in the decision to modify shared content. You might find
-                that to satisfy all consumers of shared content, you need to create a separate
-                version of the content. You want to avoid the situation where changes to shared
-                content breaks—or introduces falsehoods into—documents.  Inviter toutes les parties
-                prenantes à s'exprimer avant de décider de modifier le contenu partagé. Il se peut
-                qu'afin de satisfaire tous les partenaires, il sera nécessaire de créer plusieurs
-                versions du même contenu. Il est préférable d'éviter les situations où les
-                structures de partages de contenu sont rendues inutilisables voir entraîne la
-                création de contenu erroné.</p>
+            <p>Inviter toutes les parties prenantes à s'exprimer avant de décider de modifier le
+                contenu partagé. Il se peut qu'afin de satisfaire tous les partenaires, il sera
+                nécessaire de créer plusieurs versions du même contenu. Il est préférable d'éviter
+                les situations où les structures de partages de contenu sont rendues inutilisables,
+                voire entraîne la création de contenu erroné.</p>
         </lcIntro>
     </learningContentbody>
     <task id="task_dh4_mnv_jw">
@@ -86,15 +82,17 @@
         <taskbody>
             <steps id="steps_nby_y3z_lw">
                 <step>
-                    <cmd>Open the file samples/conrefs/t_watching_wild_ducks_start.dita.</cmd>
+                    <cmd>Ouvrir le fichier
+                        exemples_réutilisation/conrefs/t_watching_wild_ducks_debut.dita.</cmd>
                 </step>
                 <step>
-                    <cmd>After the first paragraph in the prerequisities, create a conref to the
-                        only paragraph in the topic file samples/conrefs/c_duck_safety.dita.</cmd>
+                    <cmd>Après le premier paragraphe sur les prérequis (prerequisities), ajouter un
+                        conref du paragraphe présent dans le fichier
+                        exemples_réutilisation/conrefs/c_duck_safety.dita.</cmd>
                 </step>
                 <step>
-                    <cmd>Check your file samples/conrefs/t_watching_wild_ducks_start.dita against
-                        the file samples/conrefs/t_watching_wild_ducks.dita.</cmd>
+                    <cmd>Comparer votre travail avec le fichier
+                        exemples_réutilisation/conrefs/t_watching_wild_ducks.dita.</cmd>
                 </step>
             </steps>
         </taskbody>

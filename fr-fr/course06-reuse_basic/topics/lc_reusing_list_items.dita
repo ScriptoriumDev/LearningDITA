@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningTreeContent.dtd">
-<learningContent xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="lt-content-4677" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic concept)                             (topic reference)                             (topic task)                             (topic learningInteractionBase-d)                            (topic learningInteractionBase-d learning-d)                            (topic learningmeta-d)                             (topic learningBase+learningInteractionBase-d)                            (topic learningBase+learningInteractionBase-d learningContent)                            (topic learningBase learningSummary)                             (topic learningBase+learningInteractionBase-d learningAssessment)   " ditaarch:DITAArchVersion="1.2" class="- topic/topic learningBase/learningBase learningContent/learningContent "><title class="- topic/title ">Reusing list items</title>
+<learningContent xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="lt-content-4677" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic concept)                             (topic reference)                             (topic task)                             (topic learningInteractionBase-d)                            (topic learningInteractionBase-d learning-d)                            (topic learningmeta-d)                             (topic learningBase+learningInteractionBase-d)                            (topic learningBase+learningInteractionBase-d learningContent)                            (topic learningBase learningSummary)                             (topic learningBase+learningInteractionBase-d learningAssessment)   " ditaarch:DITAArchVersion="1.2" class="- topic/topic learningBase/learningBase learningContent/learningContent "><title class="- topic/title ">Réutiliser les entrées d'une liste</title>
    <prolog class="- topic/prolog ">
       <author type="creator" href="http://easydita.com/" format="html" scope="external"
          class="- topic/author ">Mike Rice, easyDITA</author>
@@ -19,13 +19,14 @@
             sont grammaticalement indépendantes et sont réutilisées dans le même contexte. Cela
             signifie qu'il n'y a pas de pronoms faisant référence à des objets en dehors de la
             liste. La liste peut poser un problème supplémentaire en cas de réutilisation. Certaines
-            d'entre elles sont introduites par une phrase inachevée.</p>
-         <p class="- topic/p ">Quand une phrase inachevée introduit une liste, les entrées de cette
-            dernière doivent s'adapter à cette phrase pour ne pas rompre la syntaxe et la grammaire.
-            De plus, il implique qu'une liste pensée de cette façon ne fonctionnera par si
-            introduite par une autre phrase, ce qui la rend peu proprice à la réutilisation.</p>
+            d'entre elles sont introduites par une phrase d'accroche inachevée .</p>
+         <p class="- topic/p ">Quand une phrase d'accroche inachevée introduit une liste, les
+            entrées de cette dernière doivent s'adapter à cette phrase pour ne pas rompre la syntaxe
+            et la grammaire. De plus, il implique qu'une liste pensée de cette façon ne fonctionnera
+            par si introduite par une autre phrase, ce qui la rend peu proprice à la
+            réutilisation.</p>
          <p class="- topic/p ">Si vous voulez rédiger entrées de listes réutilisables,
-            introduisez-les par une phrase complète et indépendant. Ou bien rédigez la liste de
+            introduisez-les par une phrase complète et indépendante. Ou bien rédigez la liste de
             façon à s'en passer.</p>
          <dl>
             <dlentry>
@@ -42,7 +43,7 @@
             <dlentry>
                <dt>Reusable:</dt>
                <dd>
-                  <pre>&lt;p>Avant d'utiliser votre ordinateur, assurez-vous d'avoir branché tous les accesoires suivants :&lt;/p>
+                  <pre>&lt;p>Avant d'utiliser votre ordinateur, assurez-vous d'avoir branché tous les accessoires suivants :&lt;/p>
 &lt;ol>
    &lt;li>Écran&lt;/li>
    &lt;li>Souris&lt;/li>

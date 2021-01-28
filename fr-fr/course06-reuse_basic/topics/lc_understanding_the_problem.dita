@@ -21,7 +21,7 @@
             venait à être traduit. Même s'il n'est pas traduit aujourd'hui, considérer qu'il le sera
             un jour est utile pour éviter des problèmes si ce jour venait à arriver.</p>
          <p class="- topic/p ">Chaque langue possède son lot de règles grammaticales et syntaxiques.
-            Si insérer un fragment de contenu dans une rubrique fonctionne en français n'implique
+            L'insertion d'un fragment de contenu dans une rubrique fonctionne en français n'implique
             pas que cela fonctionne dans une autre langue.</p>
          <p class="- topic/p ">Certaines langues font appel aux déclinaisons pour exprimer
             différentes idées tels que le sujet ou le complément d'objet de la phrase. Certaines
@@ -34,24 +34,22 @@
             si votre contenu venait à être traduit.</p>
          <p>Prenon par exemple cette phrase :</p>
          <p class="- topic/p ">
-            <b class="+ topic/ph hi-d/b ">Casey mange une orange</b>
+            <b class="+ topic/ph hi-d/b ">Marie mange une orange</b>
          </p>
          <p class="- topic/p ">Que se passe-t-il si nous substituons le mot orange par un autre
             ?</p>
          <p class="- topic/p ">
-            <b class="+ topic/ph hi-d/b ">Casey mange une <u class="+ topic/ph hi-d/u "
+            <b class="+ topic/ph hi-d/b ">Marie mange une <u class="+ topic/ph hi-d/u "
                >pomme</u>.</b>
          </p>
-         <p class="- topic/p ">In this case, the substition works because both words begin with a
-            vowel. But what if we substituted a word that begins with a consonant? Dans ce cas, la
-            substitution fonctionne car les deux mots sont de genre féminin. Mais que ce
-            passerait-il si le mot était masculin ?</p>
+         <p class="- topic/p ">Dans ce cas, la substitution fonctionne car les deux mots sont de
+            genre féminin. Mais que ce passerait-il si le mot était masculin ?</p>
          <p class="- topic/p ">
-            <b class="+ topic/ph hi-d/b ">Casey mange une <u class="+ topic/ph hi-d/u "
+            <b class="+ topic/ph hi-d/b ">Marie mange une <u class="+ topic/ph hi-d/u "
                >kiwi</u>.</b>
          </p>
-         <p class="- topic/p ">Nous rencontrons ici un problème. En français, l'article s'adapte
-            genre du nom. D'autres langues pourraient avoir une règle grammaticale similaire,
+         <p class="- topic/p ">Nous rencontrons ici un problème. En français, l'article s'adapte au
+            genre du nom. D'autres langues pourraient avoir une règle grammaticale similaire, voir
             peut-être même encore plus complexe.</p>
          <p class="- topic/p ">D'autres types de substitution amènent d'autres problèmes. En effet,
             nous avons jusqu'à présent seulement utilisé comme exemple des noms au singulier.</p>
@@ -63,11 +61,11 @@
             <b class="+ topic/ph hi-d/b ">Casey mange une <u class="+ topic/ph hi-d/u "
                >pommes</u>.</b>
          </p>
-         <p class="- topic/p ">Vous avez certainement compris l'idée. Il est très facile de causer
+         <p class="- topic/p ">Vous avez certainement compris l'idée. Il est très facile d'engendrer
             des erreurs de grammaire par la substitution de mots au sein d'une phrase. Et même si
-            vous respectiez toutes les règles du français, rien n'assure que le contenu traduit
-            n'entraînera aucun problème de grammaire.</p>
-         <p class="- topic/p ">Vous ne connaisez certainement pas toutes les règles grammaticales
+            vous respectiez toutes les règles du français, rien n'assure que le contenu une fois
+            traduit ne causera aucun problème de grammaire.</p>
+         <p class="- topic/p ">Vous ne connaissez certainement pas toutes les règles grammaticales
             des langues dans lesquelles votre contenu sera traduit. Donc <b
                class="+ topic/ph hi-d/b ">vous devez éviter la réutilisation de mots au sein de
                phrases.</b> Autrement, vous recontrerez des situations imprévisibles pendant la

@@ -31,7 +31,7 @@
                 remplir ces conditions, ajouter les balises requises avec aucun contenu à
                 l'intérieur de l'élément référençant. </p>
             <p class="- topic/p ">Dans l'exemple suivant, l'élement &lt;cmd> vide est nécessaire
-                pour que l'élément référençant puisse fonctionner. </p>
+                pour que le conref s'exécute. </p>
             <pre xml:space="preserve" class="- topic/pre ">&lt;task id="element-referencant"&gt;
    &lt;title&gt;Une tâche qui réutilise une étape&lt;/title&gt;
    ...
