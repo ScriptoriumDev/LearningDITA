@@ -21,16 +21,16 @@
                 pouvez créer un fichier XML dans n’importe quel éditeur de texte.</p>
             <p>Une rubrique DITA de base nécessite une déclaration XML, une déclaration DOCTYPE, un
                 topic, un attribut id sur le topic et un titre. C'est tout.</p>
-            <p>Voici une rubrique minimale valide :</p>
+            <p>Voici une rubrique minimale valide&#xA0;:</p>
             <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 &lt;topic id="mapremiererubrique">
   &lt;title>Bonjour le monde&lt;/title>
 &lt;/topic>
 </pre>
-            <p>Cette rubrique est valide, mais elle n’est pas particulièrement utile car elle n’a aucun
-                corps de contenu. Pour rendre une rubrique utile, vous avez besoin de quelque chose de
-                plus semblable à ceci :</p>
+            <p>Cette rubrique est valide, mais elle n’est pas particulièrement utile car elle n’a
+                aucun corps de contenu. Pour rendre une rubrique utile, vous avez besoin de quelque
+                chose qui ressemble plus à ceci&#xA0;:</p>
             <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 &lt;topic id="mapremiererubrique">

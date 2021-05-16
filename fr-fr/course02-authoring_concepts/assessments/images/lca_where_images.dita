@@ -4,7 +4,7 @@
      applicable licenses.--> 
 <!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
 <learningAssessment id="assessment_vqp_rxp_dt" xml:lang="fr-FR">
- <title>Où vont les images ?</title>
+ <title>Où vont les images&#xA0;?</title>
  <prolog>
   <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
    Scriptorium</author>
@@ -18,7 +18,7 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcSingleSelect id="lcMultipleSelect_nzm_txp_dt">
-    <lcQuestion>Où les éléments &lt;image> <b>n'ont-ils pas</b> leur place ? (choisir une réponse)</lcQuestion>
+    <lcQuestion>Où les éléments &lt;image> <b>n'ont-ils pas</b> leur place&#xA0;? (choisir une réponse)</lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_ozm_txp_dt">
      <lcAnswerOption>
       <lcAnswerContent>À l'intérieur d'un élément &lt;conbody></lcAnswerContent>

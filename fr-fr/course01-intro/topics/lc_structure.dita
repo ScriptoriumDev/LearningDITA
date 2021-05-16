@@ -12,7 +12,8 @@
             Scriptorium</author>
         <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
             Scriptorium</author>
-                <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external" format="html">Marine Martin-Guillerez (Traductrice)</author> 
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
         <critdates>
             <created date="2015-04-28"/>
             <revised modified="2019-08-18"/>
@@ -20,15 +21,15 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>La <i>création structurée</i> est un processus de publication qui vous permet
-                de définir et de mettre en application une organisation cohérente des informations
-                dans les documents.</p>
+            <p>La <i>création structurée</i> est un processus de publication qui vous permet de
+                définir et de mettre en application une organisation cohérente des informations dans
+                les documents.</p>
             <p>Les éléments définis dans DITA ont une hiérarchie et des relations très spécifiques.
-                Autrement dit, chaque élément de DITA possède un ensemble spécifique d'éléments
-                pouvant le contenir, ainsi qu'un ensemble spécifique d'éléments pouvant être
-                contenus par celui-ci. DITA spécifie également quels éléments peuvent (ou doivent)
-                être placés avant ou après un élément et combien d'éléments d'un élément particulier
-                sont autorisés.</p>
+                Autrement dit, chaque élément DITA possède un ensemble spécifique d'éléments pouvant
+                le contenir, ainsi qu'un ensemble spécifique d'éléments pouvant être contenus par
+                celui-ci. DITA spécifie également quels éléments peuvent (ou doivent) être placés
+                avant ou après un élément et combien d'éléments d'un élément particulier sont
+                autorisés.</p>
             <p>Par exemple, un élément DITA simpletable peut contenir une entête facultative, qui
                 doit être suivie d'une ou plusieurs lignes simpletables. Les règles empêchent un
                 rédacteur de créer une table simpletable avec une entête au milieu des lignes ou de
@@ -36,8 +37,8 @@
             <p>Les règles définissant cette structure sont définies par le langage de balise DITA.
                 Les programmes informatiques peuvent utiliser le même langage pour s’assurer que les
                 documents DITA sont correctement structurés. Si un ensemble particulier de documents
-                nécessite différentes règles ou différents noms d'éléments, un architecte de
-                l'information peut définir ces noms et ces règles.</p>
+                nécessite différentes règles ou différents noms d'éléments, un architecte
+                d'information peut définir ces noms et ces règles.</p>
             <p>Bien que DITA soit une forme de création structurée largement utilisée, il existe
                 d'autres normes de création structurée, notamment DocBook, S1000D, NLM, etc.</p>
         </lcInstruction>

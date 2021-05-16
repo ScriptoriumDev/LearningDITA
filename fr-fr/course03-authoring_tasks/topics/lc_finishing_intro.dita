@@ -28,12 +28,12 @@
             <lcTime value="45"/>
         </lcDuration>
         <lcInstruction>
-            <p>Après avoir ajouté les étapes, vous pouvez utiliser des trois éléments
-                supplémentaires pour terminer la description de la tâche :</p>
+            <p>Après avoir ajouté les étapes, vous pouvez utiliser ces trois éléments
+                supplémentaires pour terminer la description de la tâche&#xA0;:</p>
             <ul id="ul_rp1_w5w_mt">
                 <li>&lt;result> décrit le résultat obtenu suite à la réalisation concluante de la
                     tâche</li>
-                <li>&lt;example> montre un exemple de la tâche dans son entier</li>
+                <li>&lt;example> montre un exemple de la tâche dans son intégralité</li>
                 <li>&lt;postreq> (post-requis) indique que faire après</li>
             </ul>
             <note>
@@ -48,7 +48,8 @@
         <link
             href="https://www.ixiasoft.com/documentation/DITA_Style_Guide/fr/Artefact/Language_and_Punctuation/c_Transitional_Information_in_Prerequisites.html"
             format="html" scope="external">
-            <linktext>Guide de style DITA, Informations de transition dans les blocs sémantiques</linktext>
+            <linktext>Guide de style DITA, Informations de transition dans les blocs
+                sémantiques</linktext>
         </link>
         <link
             href="https://www.ixiasoft.com/documentation/DITA_Style_Guide/fr/Artefact/Syntax_and_Markup/c_Semantics_in_Steps.html"

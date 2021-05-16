@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- This file is part of the DITA Training project hosted on
      github.com. See the accompanying LICENSE file for
-     applicable licenses.--> 
+     applicable licenses.-->
 <!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
 <learningAssessment id="assessment_wc2_xs2_2t" xml:lang="fr-FR">
  <title>Mise en forme 2</title>
@@ -29,7 +29,8 @@
      </lcAnswerOption>
     </lcAnswerOptionGroup>
     <lcFeedbackIncorrect>Le contenu non structuré est généralement conçu pour un seul type de
-     sortie, il fonctionne rarement bien dans un autre type de sortie.</lcFeedbackIncorrect>
+     publication, il fonctionne rarement bien dans un autre type de
+     publication.</lcFeedbackIncorrect>
    </lcTrueFalse>
   </lcInteraction>
  </learningAssessmentbody>

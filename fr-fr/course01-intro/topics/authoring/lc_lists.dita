@@ -16,12 +16,12 @@
     <learningContentbody>
         <lcInstruction>
             <p>Les listes les plus communément utilisées dans DITA sont les listes non-ordonnées («
-                à puces » - &lt;ul>) et ordonnées (« numérotées » - &lt;ol>). </p>
+                à puces&#xA0;» – &lt;ul>) et ordonnées («&#xA0;numérotées&#xA0;» – &lt;ol>). </p>
             <p>Les listes ordonnées et non ordonnées contiennent un ou plusieurs éléments d'élément
                 de liste (&lt;li>). Les éléments &lt;li> montrés dans ces exemples sont assez
                 simples. Cependant, un élément &lt;li> peut contenir des données de texte et les
-                éléments bloc et en-ligne les plus courants.</p>
-            <pre>&lt;p>Le cycle de vie d'un canard est similaire à celui de la plupart des oiseaux :&lt;/p>
+                éléments bloc et intégrés les plus courants.</p>
+            <pre>&lt;p>Le cycle de vie d'un canard est similaire à celui de la plupart des oiseaux&#xA0;:&lt;/p>
 &lt;ol>
    &lt;li>Oeuf&lt;/li>
    &lt;li>Éclosion&lt;/li>
@@ -29,34 +29,34 @@
    &lt;li>Jeune&lt;/li>
    &lt;li>Adulte&lt;/li>
 &lt;/ol></pre>
-            <p>On notera que l'auteur n'ajoute pas de numéros à cette liste ordonnée ; comme en
-                HTML, les numéros sont insérés lors de la génération de la sortie. Pour vous aider à
-                visualiser les choses, la plupart des éditeurs visuels vous montreront les numéros
-                des points dans une liste numérotée.</p>
+            <p>On notera que l'auteur n'ajoute pas de numéros à cette liste ordonnée&#xA0;; comme en
+                HTML, les numéros sont insérés lors de la génération de la publication. Pour vous
+                aider à visualiser les choses, la plupart des éditeurs visuels vous montreront les
+                numéros des points dans une liste numérotée.</p>
             <p>Une liste ordonnée est utile pour montrer des choses qui ont une séquence, cependant,
                 si vous avez besoin de décrire un processus, vous devriez plutôt utiliser l'élément
                 &lt;steps> dans une rubrique de type tâche.</p>
             <p>Vous pouvez imbriquer une liste en commençant un nouvel élément &lt;ul> ou &lt;ol>
                 dans un élément &lt;li>.</p>
-            <pre>&lt;p>Les canards ont ces caractéristiques :&lt;/p>
+            <pre>&lt;p>Les canards ont ces caractéristiques&#xA0;:&lt;/p>
 &lt;ul>
-   &lt;li>Pieds palmés pour nager.&lt;/li>
-   &lt;li>Pattes plus courtes que les autres oiseaux aquatiques.&lt;/li>
-   &lt;li>Bec particulier.
+   &lt;li>Pieds palmés pour nager&lt;/li>
+   &lt;li>Pattes plus courtes que les autres oiseaux aquatiques&lt;/li>
+   &lt;li>Bec particulier
       &lt;ul>
-         &lt;li>Large et plat pour filtrer la nourriture.&lt;/li>
+         &lt;li>Large et plat pour filtrer la nourriture&lt;/li>
          &lt;li>Long et étroit pour la pêche (Grand Harle)&lt;/li>
       &lt;/ul>
    &lt;/li>
 &lt;/ul></pre>
-            <p>Lorsque la liste est finalement sortie, le caractère de puce ou le numéro utilisé
-                dans la liste est déterminé par la feuille de style utilisée pour la sortie et la
-                position dans la liste dans la hiérarchie. Si une liste est imbriquée, la feuille de
-                style déterminera le niveau d'indentation de la liste.</p>
-            <p>En plus de la liste non ordonnée (&lt;ul>), DITA définit un élément simple liste
+            <p>Lorsque la liste est finalement publié, le caractère de puce ou le numéro utilisé
+                dans la liste est déterminé par la feuille de style utilisée pour la publication et
+                la position dans la liste dans la hiérarchie. Si une liste est imbriquée, la feuille
+                de style déterminera le niveau d'indentation de la liste.</p>
+            <p>En plus de la liste non ordonnée (&lt;ul>), DITA définit un élément liste simple
                 (&lt;sl>) que vous pouvez utiliser pour les listes ne contenant que quelques mots
                 dans chaque élément. L'élément dans une liste simple utilise l'élément &lt;sli>.</p>
-            <pre>&lt;p>Il y a plusieurs types de canards :&lt;/p>
+            <pre>&lt;p>Il y a plusieurs types de canards&#xA0;:&lt;/p>
 &lt;sl>
    &lt;sli>Les canards forestiers&lt;/sli>
    &lt;sli>Les canards de surface&lt;/sli>

@@ -30,7 +30,7 @@
                 exemple, la description d’un produit peut être configurée en tant que référence, de
                 sorte qu’elle soit identique pour tous vos documents.</p>
             <p>Si vous connaissez d'autres outils de création, les conrefs sont à peu près
-                équivalents à :</p>
+                équivalents à&#xA0;:</p>
             <p>
                 <ul id="ul_iwx_n5b_wr">
                     <li>Les snippets de Flare</li>
@@ -39,23 +39,24 @@
                     <li>Les inclusions côté serveur HTML</li>
                 </ul>
             </p>
-            <p>Supposons que vous ayez la note suivante dans une rubrique appelée lieu.dita :</p>
+            <p>Supposons que vous ayez la note suivante dans une rubrique appelée
+                lieu.dita&#xA0;:</p>
             <pre>&lt;topic id="topicid">
     ...
     &lt;note id="cequaimentlescanards">Les canards préfèrent les lacs aux déserts.&lt;/note>
     ...
 &lt;/topic>             </pre>
-            <p>Pour réutiliser cette note dans unz autre rubrique, le code conref est le suivant
-                :</p>
+            <p>Pour réutiliser cette note dans une autre rubrique, le code conref est le suivant
+                &#xA0;:</p>
             <pre>&lt;note conref="lieu.dita#topicid/cequaimentlescanards"/></pre>
             <p>La plupart des outils de création DITA rationalisent le processus d’insertion de code
                 conref. Par conséquent, vous ne taperez probablement pas le chemin du fichier, l’id
                 de la rubrique, etc., comme indiqué dans l’exemple.</p>
             <note>L'élément cible doit être du même type que l'élément contenant l'attribut conref.
-                Ainsi, vous ne pouvez utilisez l'attribut conref d'un élément &lt;note> qu'à partir
-                d'un autre élément &lt;note> ; vous ne pouvez utilisez l'attribut conref d'un
+                Ainsi, vous ne pouvez utiliser l'attribut conref d'un élément &lt;note> qu'à partir
+                d'un autre élément &lt;note>&#xA0;; vous ne pouvez utiliser l'attribut conref d'un
                 élément &lt;li> qu'à partir d'un autre élément &lt;li>, etc.</note>
-            <p>Vidéo : <xref href="https://www.youtube.com/watch?v=oHmXBRVk3yo" format="html"
+            <p>Vidéo&#xA0;: <xref href="https://www.youtube.com/watch?v=oHmXBRVk3yo" format="html"
                     scope="external">exemple de code conref DITA</xref></p>
             <note type="tip">Il est recommandé de créer des rubriques séparées contenant des
                 éléments réutilisables, au lieu de simplement choisir une rubrique au hasard et de

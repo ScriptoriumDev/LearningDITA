@@ -30,7 +30,7 @@
                 capacités du processeur de sortie et du format de sortie cible. </p>
             <note>
                 <p>Bien que les informations soient gérées dans un format tabulaire et que les
-                    conteneurs soient appelés « tables des relations », le tableau lui-même n'est
+                    conteneurs soient appelés «&#xA0;tables des relations&#xA0;», le tableau lui-même n'est
                     jamais affiché en sortie.</p>
             </note>
             <ul id="ul_a1z_zpt_jv">
@@ -67,8 +67,8 @@
             <image href="../images/reltable.png" id="image_gbh_dt5_jv" base="2020/11"/>
             <p>Les en-têtes de colonne indiquent les types d'informations qui se trouvent dans
                 chaque colonne. La première ligne du corps contient des références à des rubriques
-                liées à l'alimentation ; la deuxième ligne du corps se réfère à des rubriques liées
-                au logement. Deux choses supplémentaires à noter à propos de cet exemple :</p>
+                liées à l'alimentation&#xA0;; la deuxième ligne du corps se réfère à des rubriques liées
+                au logement. Deux choses supplémentaires à noter à propos de cet exemple&#xA0;:</p>
             <ul id="ul_k5c_nt5_jv">
                 <li>Un élément &lt;topicref> peut apparaître sur plusieurs lignes. Par exemple,
                     l'élément topicref de r_mangeoires.dita apparaît sur deux lignes différentes

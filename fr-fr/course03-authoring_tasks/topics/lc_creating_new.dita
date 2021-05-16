@@ -5,7 +5,6 @@
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_hrm_xjh_1t" xml:lang="fr-FR">
     <title>Créer une nouvelle tâche</title>
-
     <prolog>
         <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
             Scriptorium</author>
@@ -18,16 +17,15 @@
             <revised modified="2020-04-24"/>
         </critdates>
     </prolog>
-
     <learningContentbody>
         <lcInstruction>
-            <p>Au minimum, une tâche doit contenir un élément racine &lt;task> (avec un attribut id)
+            <p>À minima, une tâche doit contenir un élément racine &lt;task> (avec un attribut id)
                 et un élement &lt;title> à l'intérieur de celui-ci.</p>
             <p>À la suite de l'élement &lt;title> et de l'élément optionnel &lt;shortdesc>, un
                 élément &lt;taskbody> contient le contenu de la tâche. Les éléments à l'intérieur du
                 &lt;taskbody> suivent un ordre spécifique. Ce cours présente les éléments du
                 &lt;taskbody> dans l'ordre où ils apparaissent.</p>
-            <p><xref href="https://youtu.be/7E7RYKHQ6C4" format="html" scope="external">Vidéo :
+            <p><xref href="https://youtu.be/7E7RYKHQ6C4" format="html" scope="external">Vidéo&#xA0;:
                     Créer une tâche DITA</xref></p>
         </lcInstruction>
     </learningContentbody>
@@ -40,11 +38,11 @@
                         éditeur.</cmd>
                     <info>
                         <note>Si vous utilisez un éditeur de texte compatible avec DITA,
-                            assurez-vous que vous êtes en mode texte plutôt que dans un mode auteur
-                            ou visuel.</note>
+                            assurez-vous que vous êtes en mode texte plutôt qu'en mode auteur ou
+                            visuel.</note>
                     </info>
                     <stepxmp>
-                        <p>Vous devriez voir ceci :</p>
+                        <p>Vous devriez voir ceci&#xA0;:</p>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 &lt;task id="ma_premiere_tache">
@@ -56,13 +54,13 @@
                         <p>La première ligne (qui commence avec <tt>&lt;?xml></tt>) est une
                             déclaration XML et est une partie standard de tous fichiers XML.</p>
                         <p>La deuxième ligne est une déclaration DOCTYPE indiquant aux éditeurs DITA
-                            ou aux générateurs de sortie DITA qu'il s'agit d'une tâche strict DITA.
-                            Le programme utilise alors cette information lors de la validation du
-                            contenu de la rubrique. Le DOCTYPE sera différent pour chaque type de
+                            ou aux générateurs de publication DITA qu'il s'agit d'une tâche stricte
+                            DITA. Le programme utilise alors cette information lors de la validation
+                            du contenu de la rubrique. Le DOCTYPE sera différent pour chaque type de
                             rubrique que vous créez (y compris la tâche générale).</p>
                         <p>La troisième ligne contient la balise d'ouverture de l'élément
                             &lt;task>.</p>
-                        <p>La quatrième ligne contient l'élément title.</p>
+                        <p>La quatrième ligne contient l'élément &lt;title>.</p>
                     </info>
                 </step>
                 <!--<step><cmd>Depending on the editor you are using: </cmd><choices id="choices_uy2_lkh_1t"><choice><p><b>DITA-aware editor</b>: Use the File > New... command to create a new task topic. Make sure you don't use the general task. </p></choice><choice><p><b>Text editor</b>: Create a new file that contains this text:</p><pre>&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
@@ -83,7 +81,7 @@
                     </stepxmp>
                 </step>
                 <step>
-                    <cmd>À la suite de l'élement &lt;title>, ajouter un élément &lt;taskbody>.</cmd>
+                    <cmd>À la suite de l'élement &lt;title>, ajoutez un élément &lt;taskbody>.</cmd>
                     <info>L'élément &lt;taskbody> contient tout le contenu courant de la
                         tâche.</info>
                     <stepxmp>
@@ -97,7 +95,7 @@
 &lt;/task></pre>
                     </stepxmp>
                     <info>C'est la partie essentiel d'une tâche stricte DITA. Le reste de cette
-                        leçon vous montrera comment ajouter les deux premiers éléments enfant à
+                        leçon vous montrera comment ajouter les deux premiers éléments enfants à
                         l'élément &lt;taskbody>.</info>
                 </step>
             </steps>

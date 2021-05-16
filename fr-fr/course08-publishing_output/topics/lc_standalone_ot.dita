@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd" []>
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="content_pgf_3gt_qt">
+    <title>Publier avec un DITA OT autonome</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Noelle Russell, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Ashley Stant, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Bill Swallow, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Jake Campbell, Scriptorium</author>
+        <author type="contributor" href="https://www.linkedin.com/in/marinemartinguillerez/"
+            scope="external" format="html" class="- topic/author ">Marine Martin-Guillerez
+            (Traductrice)</author>
+        <critdates>
+            <created golive="2017-03-27" date="2017-02-06"/>
+            <revised modified="2020-12-10"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>DITA OT est un moteur de publication libre et ouvert pour le contenu DITA. DITA OT
+                utilise des extensions pour transformer le contenu source DITA en différentes
+                publications. Vous pouvez ajouter et enlever des extensions au besoin.</p>
+            <p>Les extensions par défaut de DITA OT incluent PDF, HTML, WebHelp et d’autres. Ces
+                extensions peuvent être mises à jour pour changer l’apparence et la convivialité des
+                publications. Les utilisateurs de DITA OT peuvent également installer leurs propres
+                extensions pour une publication plus personnalisée.</p>
+            <p>DITA OT peut être utilisé conjointement avec un logiciel de rédaction, d’édition et
+                de gestion de contenu DITA pour générer de la publication. Vous pouvez également
+                utiliser DITA OT, seul, dans un environnement autonome pour la publication.</p>
+            <note>L’objectif de ce cours est d’introduire l'utilisation d'un DITA OT autonome. La
+                démonstration de la publication DITA par l’intermédiaire de l’éditeur oXygen XML ou
+                d’un CCMS dépasse le cadre du cours.</note>
+            <p>La plupart des entreprises qui publient des publications à partir du contenu source
+                DITA le font conjointement avec d’autres logiciels, tels que les éditeurs XML ou les
+                systèmes de gestion de contenu. Toutefois, un environnement DITA OT autonome
+                pourrait mieux fonctionner dans certaines situations, telles que&#xA0;:</p>
+            <ul id="ul_xp4_3k4_cz">
+                <li><b>Petit volume de contenu.</b> Si votre entreprise produit une très petite
+                    quantité de contenu et dispose d’un calendrier de mise à jour ou de publication
+                    peu fréquent, un DITA OT autonome peut être plus rentable qu’un outil ou un
+                    système compatible DITA OT.</li>
+                <li><b>Projets pilotes.</b> Si vous utilisez un petit sous-ensemble de contenu comme
+                    démonstration de faisabilité pour montrer à votre responsable les avantages de
+                    la publication automatisée, un DITA OT autonome est un moyen rentable d’aider à
+                    prouver votre point de vue.</li>
+                <li><b>Petites équipes.</b> Une entreprise qui n’emploie qu’une très petite équipe
+                    de documentation n’a peut-être pas besoin de plus qu’un DITA OT autonome pour la
+                    publication.</li>
+                <li><b>Étudiants.</b> Si vous enseignez vous-même DITA – pour une classe, pour
+                    l’avancement professionnel, ou pour déterminer si c’est un bon ajustement pour
+                    votre entreprise – un DITA OT autonome est parfait pour tester le processus de
+                    publication.</li>
+            </ul>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

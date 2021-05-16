@@ -14,7 +14,7 @@
     <learningContentbody>
         <lcIntro>
             <p>Cela s'applique à d'autres types de rubriques, mais il convient de le mentionner pour
-                les références, en raison de leur association fréquente avec des éléments de
+                les références du fait qu'elles sont souvent associées à des éléments de
                 programmation et d'interface utilisateur.</p>
             <p>DITA définit un certain nombre d'éléments utiles pour les rubriques décrivant la
                 programmation, les logiciels informatiques et les interfaces utilisateur des
@@ -22,21 +22,21 @@
                 s'agisse de spécialisations d'éléments existants, ils peuvent être utilisés dans
                 toutes les spécialisations de rubrique, telles que les concepts, tâches et
                 références.</p>
-            <p>Il est conseillé d'utiliser ces éléments sémantiques car ils :</p>
+            <p>Il est conseillé d'utiliser ces éléments sémantiques car ils&#xA0;:</p>
             <ul id="ul_wnj_vxy_5t">
                 <li>
-                    <p>Fournir des informations sur leur contenu aux autres auteurs</p>
+                    <p>Fournissent des informations sur leur contenu aux autres auteurs</p>
                 </li>
                 <li>
-                    <p>Aide à la recherche multidimensionnelle (« Trouver tous les noms de fichiers
-                        qui utilisent le nom de produit X »)</p>
+                    <p>Aident à la recherche multidimensionnelle («&#xA0;Trouver tous les noms de
+                        fichiers qui utilisent le nom de produit X&#xA0;»)</p>
                 </li>
                 <li>
-                    <p>Peut diriger le générateur de sortie pour formater le contenu afin de le
+                    <p>Peuvent diriger l'outil de publication pour formater le contenu afin de le
                         rendre plus facilement visible pour les lecteurs</p>
                 </li>
             </ul>
-            <p>Certains des éléments qui peuvent être utiles sont :</p>
+            <p>Certains des éléments qui peuvent être utiles sont&#xA0;:</p>
             <dl>
                 <dlentry>
                     <dt>Domaine de programmation</dt>
@@ -55,24 +55,16 @@
                 </dlentry>
             </dl>
             <p>Deux des éléments de l'interface utilisateur de l'ordinateur méritent une attention
-                particulière : &lt;uicontrol> et &lt;menucascade>. Vous utilisez &lt;uicontrol> pour
-                décrire un bouton ou une commande dans un menu. Si vous voulez décrire la séquence à
-                suivre pour accéder à une commande, utilisez une série d'éléments de type
-                &lt;uicontrol> à l'intérieur d’un élément &lt;menucascade> :</p>
-            <p>Two of the computer user interface elements deserve additional attention:
-                &lt;uicontrol> and &lt;menucascade>. You use &lt;uicontrol> when describing a user
-                interface button or a command on a menu. If you want to describe the sequence of
-                menu items to get to a command, use a series of &lt;uicontrol> elements inside a
-                &lt;menucascade> element:</p>
+                particulière&#xA0;: &lt;uicontrol> et &lt;menucascade>. Vous utilisez &lt;uicontrol>
+                pour décrire un bouton ou une commande dans un menu. Si vous voulez décrire la
+                séquence à suivre pour accéder à une commande, utilisez une série d'éléments de type
+                &lt;uicontrol> à l'intérieur d’un élément &lt;menucascade>&#xA0;:</p>
             <pre>...en choisissant &lt;menucascade>&lt;uicontrol>Fichier&lt;/uicontrol>&lt;uicontrol>Ouvrir&lt;/uicontrol>&lt;/menucascade>.</pre>
-            <p>Une transformation de sortie insère tout caractère approprié entre les commandes.
+            <p>Une transformation insère tout caractère approprié entre les commandes.
                 Cela permet de s'assurer que toutes les cascades de menus sont formatées de la même
-                manière, en utilisant le même caractère de séparation :</p>
-            <p>An output transform inserts whatever character is appropriate between commands. This
-                helps ensure that all menu cascades are formatted in the same way, using the same
-                separator character:</p>
+                manière, en utilisant le même caractère de séparation&#xA0;:</p>
             <p>
-                <pre>...en choisissant <b>Fichier</b> » <b>Ouvrir</b></pre>
+                <pre>...en choisissant <b>Fichier</b>&#xA0;» <b>Ouvrir</b></pre>
             </p>
             <p>Pour plus d'informations sur tous les éléments du domaine, voir la <xref
                     href="http://docs.oasis-open.org/dita/v1.2/os/spec/common/technicalContent-domain-elements.html#technicalContent-domain-elements"

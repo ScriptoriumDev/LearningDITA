@@ -23,8 +23,8 @@
         <lcInstruction>
             <p>Les lignes d'une table des relations contiennent des éléments d'informations
                 connexes. Dans l'exercice, vous ajouterez des références aux rubriques qui
-                mentionnent la commande « ajouter » dans la base de données fictive Canard.</p>
-            <p><xref href="https://youtu.be/GHW_STBkr54" format="html" scope="external">Vidéo : les
+                mentionnent la commande «&#xA0;ajouter&#xA0;» dans la base de données fictive Canard.</p>
+            <p><xref href="https://youtu.be/GHW_STBkr54" format="html" scope="external">Vidéo&#xA0;: les
                     tables des relations DITA</xref></p>
         </lcInstruction>
     </learningContentbody>
@@ -71,7 +71,7 @@
                         a trois colonnes dans la table des relations.</info>
                 </step>
                 <step>
-                    <cmd>Dans le premier élément &lt;relcell>, ajoutez un élément &lt;topicref> ;
+                    <cmd>Dans le premier élément &lt;relcell>, ajoutez un élément &lt;topicref>&#xA0;;
                         incluez un attribut href contenant la valeur
                             <tt>c_ecrire_sur_canards.dita</tt>.</cmd>
                     <stepxmp>
@@ -90,7 +90,7 @@
                 </step>
                 <step>
                     <cmd>Ajoutez des éléments &lt;topicref> avec des attributs href aux deux autres
-                        éléments &lt;relcell>, comme le montre l'exemple suivant :</cmd>
+                        éléments &lt;relcell>, comme le montre l'exemple suivant&#xA0;:</cmd>
                     <stepxmp>
                         <pre>
 &lt;relrow>

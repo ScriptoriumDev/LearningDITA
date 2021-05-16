@@ -29,7 +29,7 @@
                 contenir l'élément &lt;booklist>. Cet élément indique au processeur DITA où placer,
                 dans les documents de sortie, les parties générées automatiquement tel qu'une table
                 des matières ou un index. Les éléments communs à l'intérieur de l'élément
-                &lt;booklists> incluent :</p>
+                &lt;booklists> incluent&#xA0;:</p>
             <ul>
                 <li>
                     <p>&lt;toc></p>
@@ -64,7 +64,7 @@
                             href="http://docs.oasis-open.org/dita/v1.2/os/spec/common/about-bookmap.html#about-bookmap-1"
                             format="html" scope="external">norme OASIS DITA version 1.2</xref>.</p>
             </note>
-            <p><xref href="https://youtu.be/Z6Df7sG4Olk" format="html" scope="external">Vidéo : Les
+            <p><xref href="https://youtu.be/Z6Df7sG4Olk" format="html" scope="external">Vidéo&#xA0;: Les
                     éléments booklist DITA</xref></p>
         </lcInstruction>
     </learningContentbody>
@@ -78,7 +78,7 @@
                 </step>
                 <step>
                     <cmd>Après l'élément &lt;bookmeta>, ajouter un élément &lt;frontmatter> et
-                        ajoutez-y du contenu comme le montre l'exemple suivant :</cmd>
+                        ajoutez-y du contenu comme le montre l'exemple suivant&#xA0;:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
@@ -94,7 +94,7 @@
                 </step>
                 <step>
                     <cmd>Après le dernier élément &lt;chapter>, ajoutez un élément &lt;backmatter>
-                        et ajoutez-y du contenu comme le montre l'exemple suivant :</cmd>
+                        et ajoutez-y du contenu comme le montre l'exemple suivant&#xA0;:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">

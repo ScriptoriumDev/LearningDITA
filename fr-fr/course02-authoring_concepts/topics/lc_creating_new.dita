@@ -17,7 +17,7 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>Les concepts contiennent des éléments de base de DITA, tels que des paragraphes, des
+            <p>Les concepts contiennent des éléments DITA de base, tels que des paragraphes, des
                 listes, des images, des tableaux et bien d'autres. La plupart de ces éléments
                 peuvent également être utilisés dans les autres types de rubrique (tâche et
                 référence). La seule exception est l'élément &lt;conbody>, qui est spécifique au
@@ -32,7 +32,7 @@
                 ordre. Les exceptions sont les éléments &lt;section> et &lt;exemple>, qui ne peuvent
                 être suivis que par d'autres éléments &lt;section> ou &lt;exemple> ou un élément
                 &lt;conbodydiv>.</p>
-            <p>Vidéo : <xref href="https://www.youtube.com/watch?v=ebFdmsp4QAE" format="html"
+            <p>Vidéo&#xA0;: <xref href="https://www.youtube.com/watch?v=ebFdmsp4QAE" format="html"
                     scope="external">Créer un concept DITA</xref></p>
         </lcInstruction>
     </learningContentbody>
@@ -50,7 +50,7 @@
                         </note>
                     </info>
                     <stepxmp>
-                        <p>Vous devriez voir ceci :</p>
+                        <p>Vous devriez voir ceci&#xA0;:</p>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="mon_premier_concept">
@@ -64,7 +64,7 @@
                         <p>La déclaration DOCTYPE sur la deuxième ligne identifie ce fichier comme
                             un concept.</p>
                         <p>La troisième ligne est la balise d'ouverture de l'élément &lt;concept>,
-                            qui utilise l'identifiant unique "mon_premier_concept". </p>
+                            qui utilise l'identifiant unique «&#xA0;mon_premier_concept&#xA0;». </p>
                         <p>L'élément &lt;title> sur la quatrième ligne contient le titre de la
                             rubrique.</p>
                         <p>La cinquième ligne utilise la balise de fermeture &lt;/concept> pour
@@ -72,7 +72,7 @@
                     </info>
                 </step>
                 <step>
-                    <cmd>A l'intérieur de l'élément &lt;title>, modifiez le texte du titre comme
+                    <cmd>À l'intérieur de l'élément &lt;title>, modifiez le texte du titre comme
                         indiqué dans l'exemple suivant.</cmd>
                     <info>
                         <note>
@@ -102,7 +102,7 @@
 &lt;concept id="mon_premier_concept">
    &lt;title>Espèces de canards sauvages&lt;/title>
 <ph outputclass="newchanged">   &lt;conbody>
-&lt;/conbody></ph>
+   &lt;/conbody></ph>
 &lt;/concept></pre>
                     </stepxmp>
                     <info>L'élément &lt;conbody> contiendra tout le contenu réel du concept. </info>

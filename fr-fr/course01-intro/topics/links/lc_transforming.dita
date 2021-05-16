@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- This file is part of the DITA Training project hosted on
      github.com. See the accompanying LICENSE file for
      applicable licenses.-->
@@ -38,10 +38,10 @@
                 Toolkit non modifiée est notoirement peu attrayante. Généralement, les
                 transformations sont améliorées avant que le résultat ne soit utilisé dans un
                 environnement de production.</p>
-            <note>L'Open Toolkit n'est pas l'unique moyen de générer un résultat depuis DITA. Vous
-                pouvez utilisez des outils commerciaux pour créer un résultat. Certains outils
-                fournissent seulement une aide à la publication ; d'autres fournissent aussi une
-                aide à la création pour le contenu DITA.</note>
+            <note>Le DITA Open Toolkit n'est pas l'unique moyen de générer un résultat depuis DITA.
+                Vous pouvez utiliser des outils commerciaux pour créer un résultat. Certains outils
+                fournissent seulement une aide à la publication&#xA0;; d'autres fournissent aussi
+                une aide à la création pour le contenu DITA.</note>
             <p>Les transformations sont indépendantes des fichiers carte, et vous pouvez appliquer
                 de multiple transformations à un seul fichier carte. Par exemple, vous pouvez
                 exécuter les transformations pour un fichier PDF et un système d'aide en ligne sur
@@ -56,6 +56,5 @@
             <linktext>Démarrer avec le webinare DITA Open Toolkit, Suite Solutions (vidéo, 53
                 minutes)</linktext>
         </link>
-
     </related-links>
 </learningContent>

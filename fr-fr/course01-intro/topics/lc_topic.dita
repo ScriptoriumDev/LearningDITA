@@ -4,7 +4,7 @@
      applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_a2s_3wz_vr" xml:lang="fr-FR">
-    <title>Qu'est-ce qu'une rubrique DITA ?</title>
+    <title>Qu'est-ce qu'une rubrique DITA&#xA0;?</title>
     <shortdesc/>
     <prolog>
         <author>Sharon Burton</author>
@@ -29,9 +29,9 @@
                 chacune abordant une idée ou répondant à une question. Ces rubriques peuvent ensuite
                 être utilisées et réutilisées dans n’importe quel ordre, dans différents documents.
                 Dans DITA, les rubriques sont organisées en <i>cartes</i> (<i>map</i>), qui
-                ressemblent beaucoup à une table des matières ; la carte vous permet de spécifier
+                ressemblent beaucoup à une table des matières&#xA0;; la carte vous permet de spécifier
                 l'ordre et la hiérarchie des rubriques. </p>
-            <p>Pour rendre vos rubriques réutilisables :</p>
+            <p>Pour rendre vos rubriques réutilisables&#xA0;:</p>
             <ul id="ul_kpb_fhh_rs">
                 <li>Une rubrique doit aborder une seule idée ou répondre à une seule question.</li>
                 <li>Une rubrique doit contenir suffisamment d’informations pour être autonome.</li>
@@ -49,7 +49,7 @@
                 author, dans lequel vous spécifiez qui a créé une rubrique particulière.</p>-->
             <!--<p>Les rubriques contiennent des éléments. Les éléments sont les balises pour le contenu.</p>-->
             <p>Toutes les rubriques DITA doivent avoir au moins un élément title et un attribut id à
-                la racine de la rubrique. En d'autres termes, voici une rubrique DITA valide :</p>
+                la racine de la rubrique. En d'autres termes, voici une rubrique DITA valide&#xA0;:</p>
             <pre>&lt;topic id="exemple">
    &lt;title>Le titre de la rubrique vient ici&lt;/title>
 &lt;/topic> </pre>

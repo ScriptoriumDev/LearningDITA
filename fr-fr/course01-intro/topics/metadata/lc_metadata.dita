@@ -20,17 +20,17 @@
     <learningContentbody>
         <lcObjectives>
             <lcObjectivesGroup>
-                <lcObjective>Définir les métadonnées.</lcObjective>
-                <lcObjective>Décrire l'utilisation des métadonnées.</lcObjective>
-                <lcObjective>Montrer comment ajouter des métadonnées aux thèmes. </lcObjective>
+                <lcObjective>Définir les métadonnées</lcObjective>
+                <lcObjective>Décrire l'utilisation des métadonnées</lcObjective>
+                <lcObjective>Montrer comment ajouter des métadonnées aux thèmes </lcObjective>
             </lcObjectivesGroup>
         </lcObjectives>
         <lcDuration>
             <lcTime value="30"/>
         </lcDuration>
         <lcIntro>
-            <p>Métadonnées signifie « au-delà des données » ou données sur les données. Dans le
-                contenu XML, les métadonnées vous permettent de classifier et de manipuler
+            <p>Métadonnées signifie «&#xA0;au-delà des données&#xA0;» ou données sur les données.
+                Dans le contenu XML, les métadonnées vous permettent de classifier et de manipuler
                 l'information. Dans DITA, vous pouvez assigner des métadonnées aux thèmes, à des
                 éléments individuels, etc.</p>
         </lcIntro>
@@ -46,7 +46,5 @@
             <linktext>FAQ sur l'identification de langue de opentag.com (adresse l'utilisation de
                 xml:lang pour l'identification de langue)</linktext>
         </link>
-
     </related-links>
-
 </learningContent>

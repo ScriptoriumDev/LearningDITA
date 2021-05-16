@@ -29,22 +29,22 @@
                 une illustration des diagrammes syntaxiques graphiques, voir cette page <xref
                     href="https://fr.wikipedia.org/wiki/Diagramme_syntaxique" format="html"
                     scope="external">Wikipedia</xref>. </p>
-            <p>Comme la description de la syntaxe est fréquemment requise dans les référence, la
+            <p>Comme la description de la syntaxe est fréquemment requise dans les références, la
                 spécialisation des références fournit l'élément &lt;refsyn> pour contenir la syntaxe
                 de la commande.</p>
             <p>L'élément &lt;refsyn> est spécialisé à partir de l'élément &lt;section> et peut
                 contenir tous les éléments autorisés dans l'élément &lt;section>, y compris
                 l'élément &lt;title>.</p>
             <p>Il y a plusieurs façons d'ajouter le diagramme syntaxique réel à l'élément
-                &lt;refsyn>, comme par exemple :</p>
+                &lt;refsyn>, comme par exemple&#xA0;:</p>
             <ul id="ul_m23_42g_vt">
                 <li>
                     <p>Utiliser les éléments &lt;image> ou &lt;fig> pour inclure une image du
-                        diagramme de syntaxe (généralement pas recommandé)</p>
+                        diagramme de syntaxe (généralement non recommandé)</p>
                 </li>
                 <li>
                     <p>Utiliser les éléments &lt;codeblock> ou &lt;pre> (préformatté) pour créer un
-                        diagramme de syntaxe textuel (acceptable, met n'autorise que très peu de
+                        diagramme de syntaxe textuel (acceptable, mais n'autorise que très peu de
                         balises supplémentaires)</p>
                 </li>
                 <li>
@@ -54,10 +54,10 @@
                 <li>
                     <p>Utiliser l'élément &lt;syntaxdiagram>, qui utilise des éléments
                         supplémentaires pour décrire les parties et les relations dans un diagramme
-                        de syntaxe. Ces éléments peuvent appraître de nombreuses façons, selon votre
-                        transformation de sortie. Cependant, il n'y a pas d'éditeur visuel
-                        disponible pour les éléments &lt;syntaxdiagram>, ce qui peut rendre leur
-                        utilisation difficile.</p>
+                        de syntaxe. Ces éléments peuvent apparaître de nombreuses façons, selon la
+                        façon dont vous générez votre publication. Cependant, il n'y a pas d'éditeur
+                        visuel disponible pour les éléments &lt;syntaxdiagram>, ce qui peut rendre
+                        leur utilisation difficile.</p>
                 </li>
             </ul>
             <p>Pour en savoir plus sur les avantages et les inconvénients de l'utilisation des
@@ -80,8 +80,8 @@
                     <stepxmp>
                         <pre>   &lt;title>tNav&lt;/title>
    &lt;refbody>
-     &lt;section>&lt;p>La commande &lt;cmdname>tNav&lt;/cmdname> est utilisé dans la
-     Base de données Canard pour naviguer vers une table ou une vue différente.&lt;/p>&lt;/section>
+     &lt;section>&lt;p>La commande &lt;cmdname>tNav&lt;/cmdname> est utilisée dans la
+     base de données Canard pour naviguer vers une table ou une vue différente.&lt;/p>&lt;/section>
      <ph outputclass="newchanged">&lt;refsyn>
      
      &lt;/refsyn></ph>
@@ -92,12 +92,12 @@
                 <step>
                     <cmd>À l'intérieur de l'élément &lt;refsyn>, ajoutez un élément &lt;synph>
                         (phrase de syntaxe) pour contenir l'exemple de la commande et ajoutez-y du
-                        contenu tel qu'indiqué.</cmd>
+                        contenu tel que présenté ici&#xA0;:</cmd>
                     <stepxmp>
                         <pre>   &lt;title>tNav&lt;/title>
    &lt;refbody>
-     &lt;section>&lt;p>La commande &lt;cmdname>tNav&lt;/cmdname> est utilisé dans la
-     Base de données Canard pour naviguer vers une table ou une vue différente.&lt;/p>&lt;/section>
+     &lt;section>&lt;p>La commande &lt;cmdname>tNav&lt;/cmdname> est utilisée dans la
+     base de données Canard pour naviguer vers une table ou une vue différente.&lt;/p>&lt;/section>
      &lt;refsyn>
          <ph outputclass="newchanged">&lt;synph>
              -tNav tNom [tVue]
@@ -108,16 +108,16 @@
                     </stepxmp>
                 </step>
                 <step>
-                    <cmd>Balisez la chaîne « tNom » à l'intérieur de l'élément &lt;synph>
+                    <cmd>Balisez la chaîne «&#xA0;tNom&#xA0;» à l'intérieur de l'élément &lt;synph>
                         avec l'élément &lt;var> (variable).</cmd>
-                    <info>L'élément &lt;var> identifie la chaîne comme une variable ou un
-                        caractère de remplissage dans la syntaxe. Dans la plupart des
-                        transformations de sortie, cela sera rendu en italique. </info>
+                    <info>L'élément &lt;var> identifie la chaîne comme une variable ou un caractère
+                        de remplissage dans la syntaxe. Dans la plupart des publications générées,
+                        cela sera rendu en italique. </info>
                     <stepxmp>
                         <pre>   &lt;title>tNav&lt;/title>
    &lt;refbody>
-     &lt;section>&lt;p>La commande &lt;cmdname>tNav&lt;/cmdname> est utilisé dans la
-     Base de données Canard pour naviguer vers une table ou une vue différente.&lt;/p>&lt;/section>
+     &lt;section>&lt;p>La commande &lt;cmdname>tNav&lt;/cmdname> est utilisée dans la
+     base de données Canard pour naviguer vers une table ou une vue différente.&lt;/p>&lt;/section>
      &lt;refsyn>
          &lt;synph>
              <ph outputclass="newchanged">-tNav &lt;var>tNom&lt;/var> [tVue]</ph>

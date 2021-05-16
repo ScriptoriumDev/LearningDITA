@@ -19,20 +19,20 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>Lors de la création d'un ensemble d'étapes, vous pourriez avoir besion de fournir un
+            <p>Lors de la création d'un ensemble d'étapes, vous pourriez avoir besoin de fournir un
                 peu plus de détails sur la manière de réaliser une action. Dans ce cas, vous pouvez
                 ajouter un élément &lt;substeps> à un &lt;step>.</p>
             <p>L'élément &lt;substeps> contient un ou plusieurs éléments &lt;substep>, qui
                 contiennent un contenu similaire à l'élément &lt;step>. L'élément &lt;substep> doit
                 contenir un élément &lt;cmd>.</p>
             <p>DITA autorise seulement deux niveaux d'étapes. Le premier niveau utilise l'élément
-                &lt;steps> ; le second niveau utilise l'élément &lt;substeps>. Vous ne pouvez pas
-                ajouter un troisième niveau. Si vous pensez avoir besoin d'un troisième niveau
+                &lt;steps>&#xA0;; le second niveau utilise l'élément &lt;substeps>. Vous ne pouvez
+                pas ajouter un troisième niveau. Si vous pensez avoir besoin d'un troisième niveau
                 d'étapes, vous devez reconsidérer le niveau d'information de votre procédure.
                 L'information pourrait être mieux présentée par une série de tâches séparées. C'est
                 la même chose si vous pensez fournir énormément de détails au niveau des
                 sous-étapes.</p>
-            <p><xref href="https://youtu.be/1HDXrdB5y4w" format="html" scope="external">Vidéo :
+            <p><xref href="https://youtu.be/1HDXrdB5y4w" format="html" scope="external">Vidéo&#xA0;:
                     Ajouter des sous-étapes à une tâche DITA</xref></p>
         </lcInstruction>
     </learningContentbody>
@@ -44,7 +44,7 @@
                     <cmd>Continuez de travailler sur le fichier l_tache_debut.dita.</cmd>
                 </step>
                 <step>
-                    <cmd>Après le dernier élément &lt;step>, créer un nouveau élément &lt;step>
+                    <cmd>Après le dernier élément &lt;step>, créez un nouveau élément &lt;step>
                         contenant un élément &lt;cmd> et le texte présenté ici.</cmd>
                     <stepxmp>
                         <pre>&lt;step>&lt;cmd>Allez observer des oiseaux.&lt;/cmd>
@@ -64,7 +64,7 @@
                     </stepxmp>
                     <info>Vous pouvez avoir un ou plusieurs éléments &lt;substeps> à l'intérieur de
                         l'élément &lt;step>. Cependant, ces éléments &lt;substeps> ne peuvent
-                        s'imbriquer les uns dans les autres — ils peuvent seulement être ajoutés
+                        s'imbriquer les uns dans les autres – ils peuvent seulement être ajoutés
                         séquentiellement au même niveau.</info>
                 </step>
                 <step id="step_a4r_444_ft">
@@ -97,15 +97,14 @@
 </pre>
                     </stepxmp>
                     <info>Vous pouvez ajouter les mêmes éléments optionnels à l'intérieur de
-                        l'élément &lt;substep> que vous pouvez ajouter à l'intérieur de l'élément
-                        &lt;step>, tel que l'élément &lt;info>. Par contre, vous ne pouvez pas
-                        ajouter un élément &lt;substeps> à l'intérieur d'un élément
-                        &lt;substep>.</info>
+                        l'élément &lt;substep> qu'à l'intérieur de l'élément &lt;step>, tel que
+                        l'élément &lt;info>. Par contre, vous ne pouvez pas ajouter un élément
+                        &lt;substeps> à l'intérieur d'un élément &lt;substep>.</info>
                 </step>
                 <step>
                     <cmd>Après la balise de fermeture de l'élément &lt;substep>, ajoutez deux
                         éléments &lt;substep> supplémentaires et ajoutez-y du contenu tel que
-                        présenté ici.</cmd>
+                        présenté ici&#xA0;:</cmd>
                     <stepxmp>
                         <pre>&lt;step>
     &lt;cmd>Allez observer des oiseaux.&lt;/cmd>

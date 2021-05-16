@@ -18,22 +18,22 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcSingleSelect id="lcSingleSelect_eh4_bbb_dt">
-    <lcQuestion>Quel est le but principal de l'élément &lt;postreq> ? (Choisissez une
+    <lcQuestion>Quel est le but principal de l'élément &lt;postreq>&#xA0;? (choisir une
      réponse)</lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_fh4_bbb_dt">
      <lcAnswerOption>
-      <lcAnswerContent>Dire au lecteur ce qu'il doit faire après.</lcAnswerContent>
+      <lcAnswerContent>Dire au lecteur ce qu'il doit faire après</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>Donner un exemple sur la façon de réaliser la tâche.</lcAnswerContent>
+      <lcAnswerContent>Donner un exemple sur la façon de réaliser la tâche</lcAnswerContent>
      </lcAnswerOption>
      <lcAnswerOption>
       <lcAnswerContent>Montrer au lecteur le résultat de la réalisation de la
-       tâche.</lcAnswerContent>
+       tâche</lcAnswerContent>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>Donner au lecteur du contexte pour réaliser la tâche.</lcAnswerContent>
+      <lcAnswerContent>Donner au lecteur du contexte pour réaliser la tâche</lcAnswerContent>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
     <lcFeedbackIncorrect>L'élément &lt;postreq> indique au lecteur ce qui vient

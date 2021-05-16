@@ -4,7 +4,7 @@
      applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_usl_x1q_bt" xml:lang="fr-FR">
-    <title>Et après ?</title>
+    <title>Et après&#xA0;?</title>
     <prolog>
         <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
             Scriptorium</author>
@@ -21,14 +21,14 @@
         <lcInstruction>
             <p>Le dernier élément dans un élément &lt;taskbody> est l'élément post-requis
                 (&lt;postreq>).</p>
-            <p>Utilisez l'élément &lt;postreq> pour documenter les choses que le lecteur doit faire
-                une fois que la tâche est achevée. Par exemple :</p>
+            <p>Utilisez l'élément &lt;postreq> pour documenter ce que le lecteur doit faire une fois
+                que la tâche est accomplie. Par exemple&#xA0;:</p>
             <ul id="ul_hj2_wbq_bt">
                 <li>Ranger le matériel ou fermer les fichiers</li>
                 <li>Documenter ou enregistrer l'achèvement de la tâche</li>
                 <li>Réaliser les étapes suivantes</li>
             </ul>
-            <p><xref href="https://youtu.be/scYD2nY7NMA" format="html" scope="external">Vidéo :
+            <p><xref href="https://youtu.be/scYD2nY7NMA" format="html" scope="external">Vidéo&#xA0;:
                     Séquence stricte des éléments terminant une tâche DITA</xref></p>
         </lcInstruction>
     </learningContentbody>
@@ -40,7 +40,7 @@
                     <cmd>Continuez de travailler sur le fichier l_tache_debut.dita.</cmd>
                 </step>
                 <step>
-                    <cmd>Après la balise de fermeture de l'élément &lt;exemple>, ajouter un élément
+                    <cmd>Après la balise de fermeture de l'élément &lt;exemple>, ajoutez un élément
                         &lt;postreq>.</cmd>
                     <stepxmp>
                         <pre>...
@@ -54,7 +54,7 @@
                     </stepxmp>
                 </step>
                 <step>
-                    <cmd>Ajoutez le contenu suivant à l'élément &lt;postreq> :</cmd>
+                    <cmd>Ajoutez le contenu suivant à l'élément &lt;postreq>&#xA0;:</cmd>
                     <stepxmp>
                         <pre>...
         &lt;/example>
@@ -78,7 +78,7 @@
             <steps id="steps_r11_1kx_dt">
                 <step>
                     <cmd>Ouvrez le fichier leçon3/l_finir_tache_exercice_debut.dita et utilisez-le
-                        pour convertir le contenu suivant :</cmd>
+                        pour convertir le contenu suivant&#xA0;:</cmd>
                     <info>
                         <pre outputclass="passthru"><![CDATA[
                             <hr />
@@ -90,16 +90,16 @@
                                     <ul>
                                         <li>Formation en salle</li>
                                         <li>Formation en direct sur internet</li>
-                                        <li>Former le formateur</li>
+                                        <li>Formation du formateur</li>
                                     </ul>
                                 </li>
                                 <li>Distinguer les questions légitimes concernant le nouveau flux de travail des résistances réflexes.</li>
                                 <li>Inscrire les participants à un projet pilote pour expliquer le changement de processus.</li>
                             </ol>
                             <p>&#160;</p>
-                            <p><strong>Résultats:</strong> Une bonne gestion est essentielle lorsqu'une entreprise change de flux de travail ; sans elle, la mise en œuvre de nouveaux processus risque d'échouer. Une mauvaise gestion tue les mises en œuvre, et les choses peuvent mal tourner pour toutes les personnes concernées.</p>
+                            <p><strong>Résultats:</strong> Une bonne gestion est essentielle lorsqu'une entreprise change de flux de travail&#xA0;; sans elle, la mise en œuvre de nouveaux processus risque d'échouer. Une mauvaise gestion tue les mises en œuvre, et les choses peuvent mal tourner pour toutes les personnes concernées.</p>
                             <p><strong>Exemple:</strong> Sans une bonne gestion du changement, un pourcentage du personnel qui sera fermement opposé aux changements sur le principe général pourrait obtenir le soutien des autres membres de l'équipe, jusqu'à ce que presque tout le monde refuse d'utiliser le nouveau système.</p>
-                            <p><strong>Que faire après :</strong> Lorsque vous avez géré le changement avec succès, vous pouvez commencer à créer du contenu utile dans le nouveau système.</p>
+                            <p><strong>Que faire après&#xA0;:</strong> Lorsque vous avez géré le changement avec succès, vous pouvez commencer à créer du contenu utile dans le nouveau système.</p>
                             <hr />
                             ]]></pre>
                     </info>

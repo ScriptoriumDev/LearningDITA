@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- This file is part of the DITA Training project hosted on
      github.com. See the accompanying LICENSE file for
-     applicable licenses.--> 
+     applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_hrm_xjh_1t" xml:lang="fr-FR">
     <title>Ajouter des éléments avancés</title>
@@ -17,7 +17,7 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>Voici quelques éléments avancés communs dans DITA :</p>
+            <p>Voici quelques éléments avancés communs dans DITA&#xA0;:</p>
             <simpletable frame="all" relcolwidth="1.0* 1.0*" id="simpletable_fwj_dj4_2t">
                 <strow>
                     <stentry>
@@ -25,9 +25,9 @@
                     </stentry>
                     <stentry>
                         <p>Élément contenant un morceau de code. En général, le rendu est dans une
-                            police monospace dans les sorties PDF ou HTML. Le placement du contenu
-                            dans l'élément &lt;codeblock> vous permet de contrôler les sauts de
-                            ligne.</p>
+                            police monospace dans les publications PDF ou HTML. Le placement du
+                            contenu dans l'élément &lt;codeblock> vous permet de contrôler les sauts
+                            de ligne.</p>
                     </stentry>
                 </strow>
                 <strow>
@@ -59,7 +59,7 @@
         <taskbody>
             <steps id="steps_f5k_kkh_1t">
                 <step>
-                    <cmd>Faire une copie du fichier leçon4/l_concept_avance_debut.dita et ouvrez-le
+                    <cmd>Faites une copie du fichier leçon4/l_concept_avance_debut.dita et ouvrez-le
                         dans votre éditeur.</cmd>
                     <info>
                         <note>
@@ -68,7 +68,7 @@
                         </note>
                     </info>
                     <stepxmp>
-                        <p>Vous devriez voir ceci :</p>
+                        <p>Vous devriez voir ceci&#xA0;:</p>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="concept_avance">
@@ -77,13 +77,13 @@
 &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
-                    <info>Vidéo: <xref href="https://www.youtube.com/watch?v=Ryzutuy-n_A"
-                            format="html" scope="external">Créer d'un bloc de code dans
+                    <info>Vidéo&#xA0;: <xref href="https://www.youtube.com/watch?v=Ryzutuy-n_A"
+                            format="html" scope="external">Créer un bloc de code dans
                         DITA</xref></info>
                 </step>
                 <step>
-                    <cmd>À l'intérieur de l'élément &lt;conbody>, ajoutez un élément &lt;codeblock
-                        et ajoutez-y du contenu tel que le montre l'exemple suivant :</cmd>
+                    <cmd>À l'intérieur de l'élément &lt;conbody>, ajoutez un élément &lt;codeblock>
+                        et ajoutez-y du contenu tel que présenté dans l'exemple suivant&#xA0;:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
@@ -120,8 +120,8 @@ donneescanard> _
                 </step>
                 <step>
                     <cmd>Après l'élément &lt;codeblock>, ajoutez un élément &lt;p> avec un élément
-                        &lt;codeph> à l'intérieur et ajoutez-y du contenu tel que le montre
-                        l'exemple suivant :</cmd>
+                        &lt;codeph> à l'intérieur et ajoutez-y du contenu tel que présenté dans
+                        l'exemple suivant&#xA0;:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
@@ -136,12 +136,13 @@ du nom du canard entre parenthèses sur la ligne de commande et appuyez sur Entr
 &lt;/concept></pre>
                     </stepxmp>
                     <info>Dans l'exemple que vous avez ajouté, l'élément &lt;codeph> vous permet
-                        d'isoler les mots « add entry » et d'indiquer qu'ils doivent être affichés
-                        dans une police monospace pour montrer qu'il s'agit d'une commande.</info>
+                        d'isoler les mots «&#xA0;add entry&#xA0;» et d'indiquer qu'ils doivent être
+                        affichés dans une police monospace pour montrer qu'il s'agit d'une
+                        commande.</info>
                 </step>
                 <step>
                     <cmd>Après l'élément &lt;p>, ajoutez un élément &lt;lq> et ajoutez-y du contenu
-                        tel que le montre l'exemple suivant :</cmd>
+                        tel que présenté dans l'exemple suivant&#xA0;:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">

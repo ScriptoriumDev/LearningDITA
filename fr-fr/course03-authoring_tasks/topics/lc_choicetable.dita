@@ -21,7 +21,7 @@
                 commande ou une valeur d'argument). La deuxième colonne de la ligne contient une
                 description détaillée de l'option. La description détaillée peut inclure plusieurs
                 paragraphes, des listes et même des images. </p>
-            <p>Les éléments contenus dans un élément &lt;choicetable> sont : </p>
+            <p>Les éléments contenus dans un élément &lt;choicetable> sont&#xA0;: </p>
             <simpletable frame="all" relcolwidth="1.0* 1.0*" id="simpletable_rwy_l3n_2t">
                 <strow>
                     <stentry>
@@ -40,7 +40,7 @@
                     </stentry>
                     <stentry>
                         <p>Texte d'entête pour la colonne d'option dans un tableay de choix. Le
-                            texte devrait être encapsulé dans un élément &lt;p> selon les meilleures
+                            texte devrait être encadré par un élément &lt;p> selon les meilleures
                             pratiques.</p>
                     </stentry>
                 </strow>
@@ -50,7 +50,7 @@
                     </stentry>
                     <stentry>
                         <p>Texte d'entête pour la colonne description d'un tableau de choix. Le
-                            texte devrait être encapsulé dans un élément &lt;p> selon les meilleures
+                            texte devrait être encadré par un élément &lt;p> selon les meilleures
                             pratiques.</p>
                     </stentry>
                 </strow>
@@ -70,8 +70,7 @@
                     </stentry>
                     <stentry>
                         <p>Texte de l'option dans une ligne du tableau de choix. Le texte devrait
-                            être encapsulé dans un élément &lt;p> selon les meilleures
-                            pratiques.</p>
+                            être encadré par un élément &lt;p> selon les meilleures pratiques.</p>
                     </stentry>
                 </strow>
                 <strow>
@@ -80,13 +79,13 @@
                     </stentry>
                     <stentry>
                         <p>Texte de la description dans une ligne du tableau de choix. Le texte
-                            devrait être encapsulé dans un élément &lt;p> selon les meilleures
+                            devrait être encadré par un élément &lt;p> selon les meilleures
                             pratiques. Il peut y avoir plusieurs éléments dans l'élément
                             &lt;chdesc>.</p>
                     </stentry>
                 </strow>
             </simpletable>
-            <p><xref href="https://youtu.be/nBua0_PDfFA" format="html" scope="external">Vidéo :
+            <p><xref href="https://youtu.be/nBua0_PDfFA" format="html" scope="external">Vidéo&#xA0;:
                     Créer un tableau de choix dans une tâche DITA </xref> montre comment utiliser
                 l'assistant de l'<xref href="http://www.oxygenxml.com/" format="html"
                     scope="external">éditeur oXygen XML</xref>.</p>
@@ -101,8 +100,8 @@
                 </step>
                 <step>
                     <cmd>À la suite de l'élément &lt;step> contenant l'élément &lt;choices>, créez
-                        une nouvelle étape avec un élément &lt;cmd> contenant le texte indiqué ici
-                        :</cmd>
+                        une nouvelle étape avec un élément &lt;cmd> contenant le texte présenté ici
+                        &#xA0;:</cmd>
                     <stepxmp>
                         <pre><ph outputclass="newchanged">&lt;step>
    &lt;cmd>Trouvez de bonnes optiques&lt;/cmd>
@@ -113,7 +112,7 @@
                 </step>
                 <step>
                     <cmd>Après l'élément &lt;cmd>, ajoutez un élément &lt;choicetable> et tous ses
-                        éléments enfants :</cmd>
+                        éléments enfants&#xA0;:</cmd>
                     <stepxmp>
                         <pre>&lt;step>
    &lt;cmd>Trouvez de bonnes optiques&lt;/cmd>
@@ -131,7 +130,7 @@
 </pre>
                     </stepxmp>
                     <info>Pour chaque ligne dans le &lt;choicetable>, vous avez besoin d'un élément
-                        &lt;chrow>. La ligne contient deux éléments, tous deux requis :
+                        &lt;chrow>. La ligne contient deux éléments, tous deux requis&#xA0;:
                         &lt;choption> qui contient le texte de l'option et &lt;chdesc> qui contient
                         le texte de la description. Pour une utilisation normale, le &lt;choption>
                         contient juste quelques mots (habituellement un), tandis que la description
@@ -142,7 +141,7 @@
                     permet d'étiqueter les deux colonnes du tableau.</stepsection>
                 <step>
                     <cmd>Avant la première ligne du tableau de choix, ajoutez un élément &lt;chhead>
-                        et ses enfants, tel qu'indiqué ici.</cmd>
+                        et ses enfants, tel que présenté ici&#xA0;:</cmd>
                     <stepxmp>
                         <pre>&lt;step>
    &lt;cmd>Trouvez de bonnes optiques&lt;/cmd>
@@ -160,12 +159,12 @@
 &lt;/step>
 </pre>
                     </stepxmp>
-                    <info>Le &lt;choptionhd> fournit une entête à la colonne d'option ; le
+                    <info>L'élément &lt;choptionhd> fournit une entête à la colonne d'option&#xA0;; l'élément
                         &lt;chdeschd> fournit une entête pour la colonne description.</info>
                 </step>
                 <step>
-                    <cmd>Ajoutez du contenu à l'élément &lt;chhead> et à ses enfants, tel qu'indiqué
-                        ici.</cmd>
+                    <cmd>Ajoutez du contenu à l'élément &lt;chhead> et à ses enfants, tel que présenté
+                        ici&#xA0;:</cmd>
                     <stepxmp>
                         <pre>...
 <ph outputclass="newchanged">&lt;chhead>
@@ -180,8 +179,8 @@
                     </stepxmp>
                 </step>
                 <step>
-                    <cmd>Ajoutez du contenu à l'élément &lt;chrow> et à ses enfants, tel qu'indiqué
-                        ici.</cmd>
+                    <cmd>Ajoutez du contenu à l'élément &lt;chrow> et à ses enfants, tel que présenté
+                        ici&#xA0;:</cmd>
                     <stepxmp>
                         <pre>...
 <ph outputclass="newchanged">&lt;chrow>
@@ -196,8 +195,8 @@
                     </stepxmp>
                 </step>
                 <step>
-                    <cmd>Après la balise de fermeture de l'élément &lt;chrow>, ajouter un autre
-                        élément &lt;chrow> et ajoutez-y du contenu tel qu'indiqué ici.</cmd>
+                    <cmd>Après la balise de fermeture de l'élément &lt;chrow>, ajoutez un autre
+                        élément &lt;chrow> et ajoutez-y du contenu tel que présenté ici&#xA0;:</cmd>
                     <stepxmp>
                         <pre>&lt;choicetable>
 ...

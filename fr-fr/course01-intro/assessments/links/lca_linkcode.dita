@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- This file is part of the DITA Training project hosted on
      github.com. See the accompanying LICENSE file for
      applicable licenses.-->
@@ -19,20 +19,20 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcSingleSelect id="links6">
-    <lcQuestion>Lisez le code suivant. Que montre-t-il ? <image
-     href="../../media/links/linkcode.png" base="2020/10"/>
+    <lcQuestion>Lisez le code suivant. Que montre-t-il&#xA0;? <image
+      href="../../media/links/linkcode.png" base="2020/10"/>
     </lcQuestion>
     <lcAnswerOptionGroup>
      <lcAnswerOption>
-      <lcAnswerContent>Une liste numéroté incluant un corner vers une étape fréquemment
-       réutilisée.</lcAnswerContent>
+      <lcAnswerContent>Une liste numéroté incluant un conref vers une étape fréquemment
+       réutilisée</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>Une rubrique de type concept sur l'alimentation des canards.</lcAnswerContent>
+      <lcAnswerContent>Une rubrique de type concept sur l'alimentation des canards</lcAnswerContent>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>Une liste à puces nommé DuckPelletSteps.dita.</lcAnswerContent>
+      <lcAnswerContent>Une liste à puces nommé DuckPelletSteps.dita</lcAnswerContent>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
     <lcFeedbackIncorrect>Ce fragment montre seulement des listes ol et li, vous ne pouvez donc pas

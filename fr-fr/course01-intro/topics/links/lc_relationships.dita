@@ -22,9 +22,9 @@
         <lcInstruction>
             <p>Les tables de relations, ou reltables, vous permettent de décrire les relations d'une
                 rubrique qui ne sont ni séquentielles ni hiérarchiques. Un reltable est une partie
-                d'un fichier carte ; il peut apparaître n'importe où dans la carte, mais la
+                d'un fichier carte&#xA0;; il peut apparaître n'importe où dans la carte, mais la
                 convention est d'ajouter la reltable à la fin de la carte principale. Chaque ligne
-                du tableau contient des éléments topicref liés à des sujets connexes.</p>
+                du tableau contient des éléments topicref liés à des rubriques connexes.</p>
             <p>Voici un exemple de ligne reltable (et la ligne d'en-tête reltable) dans lequel les
                 colonnes contiennent des topicref pour des informations sur les concepts, références
                 et tâches. La ligne affichée ici contient des topicrefs vers des rubriques
@@ -35,7 +35,7 @@
                 la reltable sont utilisées pour créer une liste de liens vers les rubriques
                 connexes. Dans la sortie HTML par défaut, les entrées reltable permettent de créer
                 une section Rubriques Liées à la fin de chaque rubrique.</p>
-            <p>Une ligne reltable est montré ici :</p>
+            <p>Une ligne reltable est montré ici&#xA0;:</p>
             <ul id="ul_mxk_xj2_ss">
                 <li>La rubrique concept c_apropos_canards.dita aurait des liens vers
                     r_racedecanards.dita, r_bonnesracesanimaux.dita et t_nourrir.dita.</li>
@@ -46,19 +46,19 @@
                 <li>La rubrique tâche t_nourrir.dita aurait des liens vers c_apropos_canards.dita,
                     r_racedecanards.dita et r_bonnesracesanimaux.dita.</li>
             </ul>
-            <note>Pour illustrer un concept plus large, cet exemple contient une simplification :
-                pour que les liens r_racedecanards.dita et r_bonnesracesanimaux.dita soient liés, la
-                cellule contenant les deux liens doit les identifier comme une « famille ». Les
-                détails des attributs de cellule de la table de relation seront décrits dans un
-                cours ultérieur.</note>
+            <note>Pour illustrer un concept plus large, cet exemple contient une
+                simplification&#xA0;: pour que les liens r_racedecanards.dita et
+                r_bonnesracesanimaux.dita soient liés, la cellule contenant les deux liens doit les
+                identifier comme une «&#xA0;famille&#xA0;». Le détail des attributs de cellule de la
+                table de relation sera décrit dans un cours ultérieur.</note>
             <p>Les relations que vous capturez dans la reltable ne sont généralement <i>pas</i>
                 affichées lorsque vous créez des rubriques.</p>
-            <p>Vidéo: <xref href="https://www.youtube.com/watch?v=vMUxQpQvTZg" format="html"
+            <p>Vidéo&#xA0;: <xref href="https://www.youtube.com/watch?v=vMUxQpQvTZg" format="html"
                     scope="external">Aperçu d'une table de relation de DITA (reltable)</xref>
             </p>
-            <p>Commencez simple avec des reltables. Elles peuvent devenir très complexes.</p>
+            <p>Commencez simplement avec des reltables. Elles peuvent devenir très complexes.</p>
             <p>Les reltables sont préférées aux liens associés ou aux xrefs pour les liens dans un
-                fichier carte en raison des facteurs suivants :</p>
+                fichier carte en raison des facteurs suivants&#xA0;:</p>
             <ul id="ul_twh_tkp_wr">
                 <li>Les topicrefs de la reltable sont évaluées par rapport au fichier carte courant.
                     Si votre reltable contient un lien vers un fichier qui n'est pas inclus dans le

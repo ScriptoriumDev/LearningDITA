@@ -27,7 +27,7 @@
                 rubriques collectées dans une bookmap sera plus riche sémantiquement, plus
                 facilement interrogeable et mieux adapté à la publication que le même ensemble de
                 rubriques dans une carte.</p>
-            <p>Vous pouvez ajouter des métadonnées à la bookmap à plusieurs endroits :</p>
+            <p>Vous pouvez ajouter des métadonnées à la bookmap à plusieurs endroits&#xA0;:</p>
             <ul id="ul_fqf_fyy_3v">
                 <li>
                     <p>À l'intérieur de l'élément &lt;bookmap> en utilisant l'élément
@@ -44,7 +44,7 @@
             </ul>
             <p>L'élément &lt;bookmeta> d'une bookmap peut contenir les mêmes éléments de métadonnées
                 que l'élément &lt;topicmeta> d'une carte, et bien d'autres encore. Parmi les plus
-                utiles, on peut citer :</p>
+                utiles, on peut citer&#xA0;:</p>
             <ul id="ul_xyc_qcz_3v">
                 <li>
                     <p>&lt;authorinformation></p>
@@ -62,7 +62,7 @@
             <p>L'élément &lt;bookmeta> est facultatif dans la structure de la bookmap. Si vous
                 l'utilisez, il doit être placé après l'élément &lt;booktitle> et avant l'élément
                 &lt;frontmatter>. La structure de l'élément &lt;bookmeta> pourrait ressembler à
-                quelque chose comme ça :</p>
+                quelque chose comme ça&#xA0;:</p>
             <pre> &lt;bookmeta>
         &lt;authorinformation>
             &lt;personinfo>
@@ -124,7 +124,7 @@
                 <step>
                     <cmd>À l'intérieur de l'élément &lt;bookmap>, après la balise de fermeture de
                         l'élément &lt;booktitle>, ajoutez un élément &lt;bookmeta> et ajoutez-y du
-                        contenu comme le montre l'exemple suivant :</cmd>
+                        contenu comme le montre l'exemple suivant&#xA0;:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
@@ -148,7 +148,7 @@
 &lt;/bookmap></pre>
                     </stepxmp>
                     <info>L'élément &lt;bookmeta> que vous venez d'ajouter établit les métadonnées
-                        suivantes au niveau de la bookmap :<ul id="ul_tyt_qds_3v">
+                        suivantes au niveau de la bookmap&#xA0;:<ul id="ul_tyt_qds_3v">
                             <li>
                                 <p>Vous êtes l'auteur de ce livre</p>
                             </li>
@@ -164,7 +164,7 @@
                 <step>
                     <cmd>À l'intérieur de l'élément &lt;chapter> qui pointe vers
                         c_canards_sauvages.dita, ajouter un élément &lt;topicmeta> et ajoutez-y du
-                        contenu comme le montre l'exemple suivant :</cmd>
+                        contenu comme le montre l'exemple suivant&#xA0;:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
@@ -180,7 +180,7 @@
 &lt;/bookmap></pre>
                     </stepxmp>
                     <info>L'élément &lt;topicmeta> que vous venez d'ajouter établit les métadonnées
-                        suivantes au niveau rubrique :<ul id="ul_xfr_jgz_3v">
+                        suivantes au niveau rubrique&#xA0;:<ul id="ul_xfr_jgz_3v">
                             <li>
                                 <p>Ce chapitre concerne les canards sauvages</p>
                             </li>

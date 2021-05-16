@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- This file is part of the DITA Training project hosted on
      github.com. See the accompanying LICENSE file for
-     applicable licenses.--> 
+     applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_yys_qbh_1t" xml:lang="fr-FR">
     <title>Créer un concept</title>
@@ -31,18 +31,18 @@
         <lcIntro>
             <p>Les rubriques DITA de type concept fournissent des informations sur un sujet
                 particulier.</p>
-            <p>Les concepts aident quelqu'un à comprendre une idée ou le but d'une
-                instruction. Un concept peut donner des informations générales ou
-                conceptuelles sur le sujet en plus des informations essentielles.</p>
+            <p>Les concepts aident à comprendre une idée ou le but d'une instruction. Un concept
+                peut donner des informations générales ou conceptuelles sur le sujet en plus des
+                informations essentielles.</p>
             <p>Un rubrique typique de concept contiendra surtout des paragraphes et des listes.
                 Cependant, vous pouvez utiliser des images, des tableaux et de nombreux autres
                 éléments dans un concept. Vous pouvez également diviser un concept en sections pour
                 plus de clarté.</p>
-            <p>Cette leçon montre comment créer un nouveau concept et comment ajouter des
-                éléments couramment utilisés. A l'exception de l'élément &lt;conbody>, les éléments
-                présentés dans cette leçon et dans le reste du cours ne sont pas spécifiques aux
-                concepts et peuvent également être utilisés dans les autres types de rubriques DITA
-                (tâche et référence).</p>
+            <p>Cette leçon montre comment créer un nouveau concept et comment ajouter des éléments
+                couramment utilisés. À l'exception de l'élément &lt;conbody>, les éléments présentés
+                dans cette leçon et dans le reste du cours ne sont pas spécifiques aux concepts et
+                peuvent également être utilisés dans les autres types de rubriques DITA (tâche et
+                référence).</p>
             <note>
                 <p>Cette leçon couvre l'utilisation de base de ces éléments. Pour les spécifications
                     complètes de chaque élément, se référer à la <xref

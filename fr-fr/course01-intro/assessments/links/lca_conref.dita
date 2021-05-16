@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- This file is part of the DITA Training project hosted on
      github.com. See the accompanying LICENSE file for
      applicable licenses.-->
@@ -20,17 +20,17 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcSingleSelect id="links6">
-    <lcQuestion>Les conrefs vous permettent de :</lcQuestion>
+    <lcQuestion>Les conrefs vous permettent de&#xA0;:</lcQuestion>
     <lcAnswerOptionGroup>
      <lcAnswerOption>
-      <lcAnswerContent>créer des références croisées</lcAnswerContent>
+      <lcAnswerContent>Créer des références croisées</lcAnswerContent>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>réutiliser du contenu</lcAnswerContent>
+      <lcAnswerContent>Réutiliser du contenu</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>créer de texte conditionnel</lcAnswerContent>
+      <lcAnswerContent>Créer du texte conditionnel</lcAnswerContent>
      </lcAnswerOption>
      <lcAnswerOption>
       <lcAnswerContent>Indiquer que le contenu peut être réutilisé. </lcAnswerContent>
@@ -38,7 +38,7 @@
     </lcAnswerOptionGroup>
     <lcFeedbackIncorrect>Vous utilisez l'élément &lt;xref> pour créer des références croisées. Vous
      utilisez les attributs de filtre (audience, platform et product) pour créer du texte
-     conditionnel. La présence d'un attribut id indique que le contenu peut être réutiliser (par un
+     conditionnel. La présence d'un attribut id indique que le contenu peut être réutilisé (par le
      conref d'un autre élément). </lcFeedbackIncorrect>
    </lcSingleSelect>
   </lcInteraction>

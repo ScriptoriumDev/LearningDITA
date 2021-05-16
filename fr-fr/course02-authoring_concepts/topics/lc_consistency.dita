@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- This file is part of the DITA Training project hosted on
      github.com. See the accompanying LICENSE file for
-     applicable licenses.--> 
+     applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_hrm_xjh_1t" xml:lang="fr-FR">
     <title>Être cohérent</title>
@@ -21,7 +21,7 @@
                 structure et des balises DITA est essentielle pour garantir que tous vos types de
                 sortie auront l'aspect que vous attendez.</p>
             <p>Un des effets secondaires négatifs du balisage incohérent est le contenu mixte.
-                Supposons que vous ayez la liste non ordonnée suivante :</p>
+                Supposons que vous ayez la liste non ordonnée suivante&#xA0;:</p>
             <pre>&lt;ul>
 &lt;li>texte&lt;/li>
 &lt;li>texte&lt;/li>
@@ -32,13 +32,13 @@
             <p>Dans cet exemple, le dernier élément de la liste contient deux paragraphes. Comme
                 l'élément &lt;p> est valide à l'intérieur de l'élément &lt;li>, il est possible de
                 baliser chaque paragraphe séparément. Cependant, baliser ce contenu comme dans
-                l'exemple signifie que vous avez maintenant un contenu mélangé - le dernier élément
+                l'exemple signifie que vous avez maintenant un contenu mélangé – le dernier élément
                 &lt;li> a une ligne de texte balisée simplement avec l'élément &lt;li>, et une autre
-                ligne avec les balises &lt;p> autour. Cela pourrait affecter le style du texte de
-                cet élément de la liste dans la sortie finale.</p>
+                ligne encadré par la balise &lt;p>. Cela pourrait affecter le style du texte de cet
+                élément de la liste dans la publication finale.</p>
             <p>Pour éviter d'avoir un contenu mélangé, entourez tout le texte à l'intérieur d'un
                 élément &lt;li> avec des balises &lt;p>, que vous balisiez un paragraphe ou plus
-                :</p>
+                &#xA0;:</p>
             <pre>&lt;ul>
 &lt;li>&lt;p>texte&lt;/p>&lt;/li>
 &lt;li>&lt;p>texte&lt;/p>&lt;/li>
@@ -48,8 +48,8 @@
 &lt;/li>
 &lt;/ul></pre>
             <p>En plus de l'élément &lt;li>, nous recommandons que le texte à l'intérieur des
-                éléments &lt;note>, &lt;entry>, et &lt;stentry> soit entouré de balises &lt;p>
-                au cas où il y aurait plusieurs paragraphes. Pour aider à assurer la cohérence et
+                éléments &lt;note>, &lt;entry> et &lt;stentry> soit encadré par une balise &lt;p> au
+                cas où il y aurait plusieurs paragraphes. Pour aider à assurer la cohérence et
                 éviter les contenus mélangés, utilisez la balise &lt;p> pour tout texte qui n'a pas
                 besoin d'être balisé d'une manière spécifique.</p>
         </lcInstruction>

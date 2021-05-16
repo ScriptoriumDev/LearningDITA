@@ -18,9 +18,9 @@
     <learningContentbody>
         <lcObjectives>
             <lcObjectivesGroup id="lcObjectivesGroup_e2g_sks_zs">
-                <lcObjective>Découvrez les éléments avancés et identifiez les meilleures pratiques
+                <lcObjective>Découvrir les éléments avancés et identifier les meilleures pratiques
                     pour les ajouter à un concept.</lcObjective>
-                <lcObjective>Ajoutez les éléments &lt;codeblock>, &lt;codeph>, &lt;lq>,
+                <lcObjective>Ajouter les éléments &lt;codeblock>, &lt;codeph>, &lt;lq>,
                     &lt;section>, &lt;draft-comment> et &lt;required-cleanup> au
                     concept.</lcObjective>
             </lcObjectivesGroup>
@@ -36,7 +36,7 @@
                 bribes de code dans le corps de votre concept. Avec l'élément &lt;lq>, vous pouvez
                 insérer une citation et créer un lien vers sa source originale.</p>
             <p>Si vous avez besoin de diviser votre rubrique en sous-sections, vous pouvez ajouter un
-                ou plusieurs éléments &lt;section>. L'élément &lt;section> a deux contraintes : vous
+                ou plusieurs éléments &lt;section>. L'élément &lt;section> a deux contraintes&#xA0;: vous
                 ne pouvez utiliser l'élément &lt;section> qu'à l'intérieur de l'élément
                 &lt;conbody>, et non à l'intérieur d'autres éléments &lt;section>, et vous ne pouvez
                 faire suivre un élément &lt;section> qu'avec un autre élément &lt;section>, un

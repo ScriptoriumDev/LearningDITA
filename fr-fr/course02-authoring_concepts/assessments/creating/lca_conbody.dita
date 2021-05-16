@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- This file is part of the DITA Training project hosted on
      github.com. See the accompanying LICENSE file for
-     applicable licenses.--> 
+     applicable licenses.-->
 <!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
 <learningAssessment id="assessment_bfv_z2p_dt" xml:lang="fr-FR">
  <title>Conbody</title>
@@ -29,7 +29,7 @@
       <lcCorrectResponse/>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect>L'affirmation est vraie : l'élément &lt;conbody> contient tout le véritable
+    <lcFeedbackIncorrect>L'affirmation est vraie&#xA0;: l'élément &lt;conbody> contient le véritable
      contenu du concept.</lcFeedbackIncorrect>
    </lcTrueFalse>
   </lcInteraction>

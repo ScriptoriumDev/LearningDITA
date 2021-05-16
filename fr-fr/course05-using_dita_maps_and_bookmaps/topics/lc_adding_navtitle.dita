@@ -18,11 +18,11 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>Il peut arriver que le titre d'une rubrique - en particulier une rubrique réutilisée
-                - ne corresponde pas aux titres des autres rubriques d'une carte. Par exemple,
-                toutes vos rubriques tâches peuvent utiliser une forme infinitive (« Imprimer le...
-                »), mais la rubrique réutilisée peut utiliser une forme nominale (« L'impression
-                de... »). Pour que le titre d'une rubrique soit cohérent dans votre texte et votre
+            <p>Il peut arriver que le titre d'une rubrique – en particulier une rubrique réutilisée
+                – ne corresponde pas aux titres des autres rubriques d'une carte. Par exemple,
+                toutes vos rubriques tâches peuvent utiliser une forme infinitive («&#xA0;Imprimer le...
+               &#xA0;»), mais la rubrique réutilisée peut utiliser une forme nominale («&#xA0;L'impression
+                de...&#xA0;»). Pour que le titre d'une rubrique soit cohérent dans votre texte et votre
                 table des matières, utilisez l'élément &lt;navtitle> pour spécifier un titre plus
                 cohérent ou plus approprié. </p>
             <p>Dans certaines cartes et bookmaps DITA plus anciennes, vous pourriez rencontrer le
@@ -46,8 +46,8 @@
                 </step>
                 <step>
                     <cmd>Trouvez l'élément &lt;topicref> pointant vers r_tnav.dita et ajoutez-y un
-                        attribut locktitle avec la valeur « yes », comme le montre l'exemple suivant
-                        :</cmd>
+                        attribut locktitle avec la valeur «&#xA0;yes&#xA0;», comme le montre l'exemple suivant
+                       &#xA0;:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
@@ -59,13 +59,13 @@
                     </stepxmp>
                     <info>
                         <note>Si vous souhaitez utiliser l'élément navtitle, vous devez placer
-                            l'attribut locktitle à « yes ». Le placer à « no » ou l'omettre
+                            l'attribut locktitle à «&#xA0;yes&#xA0;». Le placer à «&#xA0;no&#xA0;» ou l'omettre
                             résulterait à ne pas utiliser l'élément navtitle.</note>
                     </info>
                 </step>
                 <step>
-                    <cmd>Transformez l'élément &lt;topicref> d'une balise vide (« &lt;topicref .../>
-                        ») en une balise ouverte et fermée («&lt;topicref...>&lt;/topicref> »)</cmd>
+                    <cmd>Transformez l'élément &lt;topicref> d'une balise vide («&#xA0;&lt;topicref .../>
+                       &#xA0;») en une balise ouverte et fermée («&lt;topicref...>&lt;/topicref>&#xA0;»)</cmd>
                     <stepxmp>
                         <pre>&lt;topicref href="r_tnav.dita" locktitle="yes">
 &lt;/topicref></pre>
@@ -73,7 +73,7 @@
                 </step>
                 <step>
                     <cmd>À l'intérieur de l'élément &lt;topicref>, ajoutez un élément &lt;topicmeta>
-                        et ajoutez-y du contenu comme le montre l'exemple suivant :</cmd>
+                        et ajoutez-y du contenu comme le montre l'exemple suivant&#xA0;:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
@@ -87,9 +87,9 @@
 ...
 &lt;/bookmap></pre>
                     </stepxmp>
-                    <info>Maintenant que vous avez spécifié un élément navtitle, la phrase « La
-                        commande tNav » apparaîtra dans la table des matières à la place du titre de
-                        cette rubrique, qui est tout simplement « tNav ».</info>
+                    <info>Maintenant que vous avez spécifié un élément navtitle, la phrase «&#xA0;La
+                        commande tNav&#xA0;» apparaîtra dans la table des matières à la place du titre de
+                        cette rubrique, qui est tout simplement «&#xA0;tNav&#xA0;».</info>
                 </step>
                 <step>
                     <cmd>Utilisez le fichier
@@ -107,18 +107,18 @@
                 <step>
                     <cmd>Ouvrez le fichier exemples_cartes_bookmaps/exercices/_b_cs101_debut.ditamap
                         et utilisez-le pour ajouter des métadonnées, frontmatter et backmatter à la
-                        bookmap en utilisant la structure bookmap suivante comme guide :</cmd>
+                        bookmap en utilisant la structure bookmap suivante comme guide&#xA0;:</cmd>
                     <info>
                         <pre outputclass="passthru"><![CDATA[
                             <hr />
-                            <p><strong>Auteur :</strong> Sarah O'Keefe</p>
-                            <p><strong>Auteur :</strong> Alan S. Pringle</p>
-                            <p><strong>Éditeur :</strong> Services d'édition de Scriptorium, Inc.</p>
-                            <p><strong>Création :</strong> 2012</p>
-                            <p><strong>Révision :</strong> 2014</p>
-                            <p><strong>Table des matières :</strong></p>
+                            <p><strong>Auteur&#xA0;:</strong> Sarah O'Keefe</p>
+                            <p><strong>Auteur&#xA0;:</strong> Alan S. Pringle</p>
+                            <p><strong>Éditeur&#xA0;:</strong> Services d'édition de Scriptorium, Inc.</p>
+                            <p><strong>Création&#xA0;:</strong> 2012</p>
+                            <p><strong>Révision&#xA0;:</strong> 2014</p>
+                            <p><strong>Table des matières&#xA0;:</strong></p>
                             <ul>
-                            <li><strong>Chapitre 1 : Maîtriser les coûts de communication technique</strong>
+                            <li><strong>Chapitre 1&#xA0;: Maîtriser les coûts de communication technique</strong>
                                 <ul>
                                 <li>L'illusion de la documentation à faible coût</li>
                                 <li>Développement efficace du contenu technique</li>
@@ -130,12 +130,12 @@
                                 </li>
                                 <li>Collaboration en matière de contenu au sein de l'organisation
                                     <ul>
-                                    <li>« Collaboration » ≠ « contenu libre pour tous »</li>
+                                    <li>«&#xA0;Collaboration&#xA0;» ≠ «&#xA0;contenu libre pour tous&#xA0;»</li>
                                     </ul>
                                 </li>
                                 </ul>
                             </li>
-                            <li><strong>Chapitre 2 : Marketing et visibilité des produits</strong>
+                            <li><strong>Chapitre 2&#xA0;: Marketing et visibilité des produits</strong>
                                 <ul>
                                 <li>Assister le marketing avec du contenu technique
                                     <ul>
@@ -159,7 +159,7 @@
                                 </li>
                                 </ul>
                             </li>
-                            <li><strong>Chapitre 3 : Questions juridiques et réglementaires</strong>
+                            <li><strong>Chapitre 3&#xA0;: Questions juridiques et réglementaires</strong>
                                 <ul>
                                 <li>Éviter l'exposition juridique</li>
                                 <li>Répondre aux exigences réglementaires
@@ -171,7 +171,7 @@
                                 </ul>
                             </li>
                             </ul>
-                            <p><strong>Index :</strong></p>
+                            <p><strong>Index&#xA0;:</strong></p>
                             <hr/>]]></pre>
                     </info>
                 </step>

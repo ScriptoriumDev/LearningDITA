@@ -19,7 +19,7 @@
     <learningContentbody>
         <lcInstruction>
             <p>Les cartes sont utilisées pour compiler, organiser et définir les relations entre les
-                rubriques DITA. Une carte peut contenir :</p>
+                rubriques DITA. Une carte peut contenir&#xA0;:</p>
             <ul id="ul_stb_33l_mv">
                 <li>
                     <p>tous les concepts et les références avec des informations sur un seul
@@ -50,11 +50,11 @@
                 contenu plus efficacement, ou pour aider vos clients à trouver plus facilement le
                 contenu dont ils ont besoin.</p>
             <p>Au minimum, une carte doit contenir un élément racine &lt;map>. L'élément &lt;map>
-                peut contenir les éléments suivants :</p>
+                peut contenir les éléments suivants&#xA0;:</p>
             <ul id="ul_oc4_2fd_3v">
                 <li>
-                    <p>L'élément &lt;title>, qui permet de nommer la carte (par exemple, « Guide
-                        utilisateur du produit X »). Le texte de l'élément &lt;title> peut également
+                    <p>L'élément &lt;title>, qui permet de nommer la carte (par exemple, «&#xA0;Guide
+                        utilisateur du produit X&#xA0;»). Le texte de l'élément &lt;title> peut également
                         être utilisé comme titre de votre document de sortie.</p>
                 </li>
                 <li>
@@ -93,7 +93,7 @@
                         </note>
                     </info>
                     <stepxmp>
-                        <p>Vous devriez voir ceci :</p>
+                        <p>Vous devriez voir ceci&#xA0;:</p>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 &lt;map id="canards">
@@ -116,7 +116,7 @@
                 </step>
                 <step>
                     <cmd>À l'intérieur de l'élément &lt;title>, modifiez le texte du titre comme le
-                        montre l'exemple suivant :</cmd>
+                        montre l'exemple suivant&#xA0;:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">

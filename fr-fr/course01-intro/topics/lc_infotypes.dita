@@ -35,17 +35,18 @@
     différents conteneurs (types de rubriques). De cette manière, les éléments de la rubrique
     peuvent être spécifiques aux informations décrites. </p>
    <p>Tous les types de rubriques DITA sont liés à un type de rubrique commune ou générique. Le type
-    de rubrique générique est alors « spécialisé » dans un certain nombre de types de rubriques
-    spécifiques, chacun d'entre eux contenant un type d'informations spécifique. Les types de
-    rubriques DITA « standard » incluent :</p>
+    de rubrique générique est alors «&#xA0;spécialisé&#xA0;» dans un certain nombre de types de
+    rubriques spécifiques, chacun d'entre eux contenant un type d'informations spécifique. Les types
+    de rubriques DITA «&#xA0;standard&#xA0;» incluent&#xA0;:</p>
    <ul id="ul_ekl_mcx_rs">
-    <li>Concept - contient les informations conceptuelles ; répond à la question « Pourquoi ? »</li>
-    <li>Tâche (Task) — contient l'information procédurale étape-par-étape ; répond à la question «
-     Comment ? »</li>
-    <li>Référence (Reference) — contient les informations de référence ; répond à la question « Quoi
-     ? »</li>
-    <li>Entrée de Glossaire (Glossary entry) - défini un simple terme ; répond à la question «
-     Qu'est-ce que ça signifie ? »</li>
+    <li>Concept – contient les informations conceptuelles&#xA0;; répond à la question
+     «&#xA0;Pourquoi&#xA0;?&#xA0;»</li>
+    <li>Tâche (Task) – contient l'information procédurale étape-par-étape&#xA0;; répond à la
+     question «&#xA0;Comment&#xA0;?&#xA0;»</li>
+    <li>Référence (Reference) – contient les informations de référence&#xA0;; répond à la question
+     «&#xA0;Quoi &#xA0;?&#xA0;»</li>
+    <li>Entrée de Glossaire (Glossary entry) – défini un simple terme&#xA0;; répond à la question
+     «&#xA0;Que cela signifie-t-il&#xA0;?&#xA0;»</li>
    </ul>
    <p>Cette leçon présente le type de rubrique générique, puis décrit chacun des types de rubriques
     standards et leur utilisation.</p>

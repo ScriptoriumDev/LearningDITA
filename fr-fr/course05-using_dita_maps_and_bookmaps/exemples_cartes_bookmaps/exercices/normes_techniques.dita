@@ -13,7 +13,7 @@
       (norme XML pour les informations sur les médicaments) ou <indexterm>spécification
         militaire</indexterm><indexterm>spec 40051</indexterm>MIL-STD-40051 (norme du ministère
       américain de la défense pour la préparation de manuels techniques).</p>
-    <p>La non-conformité n'est probablement pas une option, vous n'avez donc que quelques choix :<ul
+    <p>La non-conformité n'est probablement pas une option, vous n'avez donc que quelques choix&#xA0;:<ul
         id="ul_rzy_1hl_dg">
         <li>Mettre en place un environnement de création et de publication qui crée les produits
           d'information comme spécifié.</li>
@@ -38,7 +38,7 @@
       encoder correctement la signification de l'information. Par exemple, un numéro de pièce peut
       devoir être présenté en gras (<b>22-44-66</b>). Dans la spécification XML, il existe au moins
       deux façons de baliser un numéro de pièce qui se traduisent par une sortie en caractères gras
-      :<codeblock>&lt;b>22-44-66&lt;/b>
+     &#xA0;:<codeblock>&lt;b>22-44-66&lt;/b>
 &lt;partno>22-44-66&lt;/partno></codeblock></p>
     <p>Seule l'approche sémantiquement correcte (&lt;partno>) serait acceptable.</p>
     <p>Un autre exemple est <indexterm>Extensible Business Reporting
@@ -47,7 +47,7 @@
       Commission américaine des opérations de bourse (SEC) exige des rapports dans cette norme XML,
       qui est utilisée pour les informations financières et autres informations commerciales. Voici
       quelques lignes, choisies au hasard dans un fichier Google (et quelque peu simplifiées)
-      :<codeblock>...
+     &#xA0;:<codeblock>...
 &lt;FurnitureAndFixturesGross>65000000
 &lt;/FurnitureAndFixturesGross>
 &lt;Goodwill>4903000000&lt;/Goodwill>
@@ -64,7 +64,7 @@
             conforme</indexterm></indexterm><indexterm>conformité<indexterm>système de
             publication</indexterm></indexterm>La mise en place d'un système de publication qui
         prend en charge des exigences techniques complexes n'est pas une mince affaire. Cette
-        approche est toutefois logique dans les scénarios suivants :<ul id="ul_lyk_gjl_dg">
+        approche est toutefois logique dans les scénarios suivants&#xA0;:<ul id="ul_lyk_gjl_dg">
           <li>Un pourcentage important de votre entreprise dépend du contenu conforme. (Par exemple,
             vous êtes un entrepreneur de la défense et êtes tenu de respecter les normes
             militaires).</li>

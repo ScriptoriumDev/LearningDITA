@@ -21,11 +21,11 @@
             <p>Une bookmap est une spécialisation d'un fichier carte DITA, qui utilise l'élément
                 &lt;bookmap> à la place de l'élément &lt;map> pour contenir ses références aux
                 rubriques et aux cartes. Une bookmap doit contenir, à minima, un élément racine
-                &lt;bookmap>. L'élément &lt;bookmap> peut contenir les éléments suivants :</p>
+                &lt;bookmap>. L'élément &lt;bookmap> peut contenir les éléments suivants&#xA0;:</p>
             <ul id="ul_oc4_2fd_3v">
                 <li>
                     <p>L'élément &lt;booktitle>, qui vous permet de nommer la bookmap (comme «
-                        Manuel du Produit X »).</p>
+                        Manuel du Produit X&#xA0;»).</p>
                 </li>
                 <li>
                     <p>L'élément &lt;bookmeta>, qui défini les métadonnées de la bookmap.</p>
@@ -68,7 +68,7 @@
                         </note>
                     </info>
                     <stepxmp>
-                        <p>Vous devriez voir ceci :</p>
+                        <p>Vous devriez voir ceci&#xA0;:</p>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
 &lt;bookmap id="canards">
@@ -88,7 +88,7 @@
                 </step>
                 <step>
                     <cmd>À l'intérieur de l'élément &lt;bookmap>, ajoutez un élément &lt;booktitle>
-                        comme le montre l'exemple suivant :</cmd>
+                        comme le montre l'exemple suivant&#xA0;:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
@@ -102,7 +102,7 @@
                 <step>
                     <cmd>À l'intérieur de l'élément &lt;booktitle>, ajoutez l'élément
                         &lt;mainbooktitle> et ajoutez-y du contenu comme le montre l'exemple suivant
-                        :</cmd>
+                       &#xA0;:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
