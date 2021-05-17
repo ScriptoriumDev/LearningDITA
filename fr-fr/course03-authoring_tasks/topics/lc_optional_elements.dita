@@ -19,26 +19,26 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>Les éléments &lt;prereq> (pré-requis) et &lt;context> sont optionnels et introduisent
-                le contenu didactique dans une tâche.</p>
+            <p>Les éléments &lt;prereq> (pré-requis) et &lt;context> sont optionnels et
+                introduisent, dans une tâche, le contenu didactique.</p>
             <p>L'élément &lt;prereq> décrit ce dont le lecteur a besoin avant de réaliser la tâche.
-                Ce qui peut comprendre :</p>
+                Ce qui peut comprendre&#xA0;:</p>
             <ul id="ul_glj_1pb_bt">
                 <li>Des choses que le lecteur doit avoir, comme des jumelles ou un smartphone avec
                     une application d'identification des oiseaux</li>
-                <li>Des informations que le lecteur doit avoir, tel une connaissance de schémas
+                <li>Des informations que le lecteur doit avoir, tel une connaissance des schémas
                     migratoires </li>
                 <li>Les tâches que le lecteur doit avoir accompli auparavant, tel qu'avoir terminé
-                    un cours de base sur l'identification des canards.</li>
+                    un cours de base sur l'identification des canards</li>
             </ul>
             <p>L'élément &lt;context> fournit des informations contextuelles concernant la tâche,
                 tel que l'objectif de la tâche et ce que le lecteur y gagnera. Le contenu de
-                l'élément &lt;context> doit être relativement court ; si vous avez besoin de fournir
-                une information contextuelle plus détaillée, la création d'un concept serait à
-                envisager.</p>
-            <p>Bien que &lt;prereq> et &lt;context> sont optionnels, ils apparaissent dans l'ordre -
+                l'élément &lt;context> doit être relativement court&#xA0;; si vous avez besoin de
+                fournir une information contextuelle plus détaillée, la création d'un concept serait
+                à envisager.</p>
+            <p>Bien que &lt;prereq> et &lt;context> sont optionnels, ils apparaissent dans l'ordre –
                 l'élément &lt;prereq> doit venir avant l'élément &lt;context>.</p>
-            <p><xref href="https://youtu.be/Bhaeafcemis" format="html" scope="external">Vidéo :
+            <p><xref href="https://youtu.be/Bhaeafcemis" format="html" scope="external">Vidéo&#xA0;:
                     Enchaînement strict des éléments d'introduction dans une tâche DITA</xref></p>
         </lcInstruction>
     </learningContentbody>
@@ -50,23 +50,25 @@
                     <cmd>Continuez de travailler avec le fichier l_tache_debut.dita.</cmd>
                 </step>
                 <step>
-                    <cmd>À l'intérieur de l'élément &lt;taskbody>, ajouter un élément
+                    <cmd>À l'intérieur de l'élément &lt;taskbody>, ajoutez un élément
                         &lt;prereq>.</cmd>
-                    <stepxmp><pre>&lt;taskbody>
+                    <stepxmp>
+                        <pre>&lt;taskbody>
 <ph outputclass="newchanged">   &lt;prereq>
-         &lt;p>Avant d'aller observer les canards sauvages, assurez-vous que vous savais à quoi ressemble un canard sauvage.&lt;/p>
+         &lt;p>Avant d'aller observer les canards sauvages, assurez-vous que vous savez à quoi ressemble un canard sauvage.&lt;/p>
    &lt;/prereq></ph>
 
-&lt;/taskbody></pre></stepxmp>
+&lt;/taskbody></pre>
+                    </stepxmp>
                 </step>
                 <step>
-                    <cmd>Après l'élément &lt;prereq>, ajouter un élément &lt;context>.</cmd>
+                    <cmd>Après l'élément &lt;prereq>, ajoutez un élément &lt;context>.</cmd>
                     <stepxmp>
                         <pre>&lt;taskbody>
    ...
    &lt;/prereq>
 <ph outputclass="newchanged">   &lt;context>
-      &lt;p>Observer les canards sauvage peut être une activité calmante et relaxante. &lt;/p>
+      &lt;p>Observer les canards sauvages peut être une activité calmante et relaxante. &lt;/p>
       &lt;p>Lisez ceci pour en apprendre plus sur ce dont vous avez besoin pour avoir une expérience
          d'observation des canards satisfaisante.&lt;/p>
    &lt;/context></ph>
@@ -85,14 +87,14 @@
             <steps id="steps_r11_1kx_dt">
                 <step>
                     <cmd>Ouvrez le fichier leçon1/l_nouvelle_tache_exercice_debut.dita et
-                        utilisez-le pour convertir le contenu suivant :</cmd>
+                        utilisez-le pour convertir le contenu suivant&#xA0;:</cmd>
                     <info>
                         <pre outputclass="passthru"><![CDATA[
 <hr />
 <h3>Créer une étude de cas pour votre statégie de contenu</h3
-<p><strong>Avant de commencer :</strong> Evaluez minutieusement votre contenu et votre processus de développement de contenu afin de comprendre l'écart entre la stratégie dont vous avez besoin et la stratégie actuellement en place.</p>
-<p><strong>Au sujet de cette tâche :</strong> Ces instructions vous montreront comment élaborer une étude de cas que vous pourrez utiliser pour montrer que votre entreprise a besoin d'une nouvelle stratégie de contenu.</p>
-<p>Vous constaterez peut-être que votre entreprise pourrait économiser de l'argent sur la production de contenu dans les domaines suivants :</p>
+<p><strong>Avant de commencer&#xA0;:</strong> Evaluez minutieusement votre contenu et votre processus de développement de contenu afin de comprendre l'écart entre la stratégie dont vous avez besoin et la stratégie actuellement en place.</p>
+<p><strong>Au sujet de cette tâche&#xA0;:</strong> Ces instructions vous montreront comment élaborer une étude de cas que vous pourrez utiliser pour montrer que votre entreprise a besoin d'une nouvelle stratégie de contenu.</p>
+<p>Vous constaterez peut-être que votre entreprise pourrait économiser de l'argent sur la production de contenu dans les domaines suivants&#xA0;:</p>
 <ul>
 <li>Automatisation</li>
 <li>Réutilisation</li>

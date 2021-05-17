@@ -17,12 +17,12 @@
             <p>Bien que les cours d'Apprendre DITA n'aient pas encore couvert la réutilisation (ce
                 qui est un des avantages de DITA), les tâches contiennent de nombreux domaines
                 potentiels de réutilisation.</p>
-            <p>Comme vous créez les étapes dans vos tâches, regardez les étapes qui sont les mêmes
+            <p>Lorsque vous créez les étapes dans vos tâches, regardez les étapes qui sont les mêmes
                 d'une tâche à l'autre, tel que
-                :<pre>&lt;step>&lt;cmd>Cliquer sur &lt;uicontrol>OK&lt;/uicontrol>.&lt;/cmd>&lt;/step></pre>
+                &#xA0;:<pre>&lt;step>&lt;cmd>Cliquer sur &lt;uicontrol>OK&lt;/uicontrol>.&lt;/cmd>&lt;/step></pre>
             </p>
-            <p>Vous pourriez créer une série de tâches qui commenceraient toutes avec le même en
-                semble d'étapes pour commencer, tel que éteindre l'équipement, ou retirer les
+            <p>Vous pourriez créer une série de tâches qui commenceraient toutes avec le même
+                ensemble d'étapes pour commencer, tel que éteindre l'équipement, ou retirer les
                 panneaux d'accès. De même, une série de tâches pourrait utiliser un ensemble commun
                 d'étape pour terminer la procédure. Ce sont d'excellents candidats à la
                 réutilisation.</p>

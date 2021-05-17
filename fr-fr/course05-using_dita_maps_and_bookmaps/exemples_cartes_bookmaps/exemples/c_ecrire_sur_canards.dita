@@ -4,7 +4,7 @@
   <title>Écrire sur les canards</title>
   <conbody>
     <codeblock>donneescanard> add entry (mallard)
-      ;
+     &#xA0;;
       1 entrée ajoutée (0.05 sec)
       donneescanard> _
     </codeblock>
@@ -20,7 +20,7 @@
       <p>Exportez votre base de données sur les canards sous forme de sortie HTML pour la rendre
         facile à partager sur votre site internet. Vous pouvez également proposer votre base de données
         aux utilisateurs sous forme de téléchargement.</p>
-      <draft-comment>Êtes-vous sûr de vouloir proposer un téléchargement ?</draft-comment>
+      <draft-comment>Êtes-vous sûr de vouloir proposer un téléchargement&#xA0;?</draft-comment>
       <required-cleanup>
         <p>Envisagez de donner aux utilisateurs la possibilité d'envoyer des commentaires ou des
           suggestions d'entrées pour votre base de données sur les canards.</p>

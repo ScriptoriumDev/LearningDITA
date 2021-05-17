@@ -25,7 +25,7 @@
                 &lt;reltable> est toujours un enfant de l'élément &lt;map> ou &lt;bookmap>. Une
                 carte ou bookmap peut contenir plusieurs éléments &lt;reltable>.</p>
             <p>L'emplacement de l'élément &lt;reltable> est différent pour les cartes et les
-                bookmaps :<ul id="ul_mbv_stx_3v">
+                bookmaps&#xA0;:<ul id="ul_mbv_stx_3v">
                     <li>Dans une carte, les éléments &lt;reltable> peuvent se trouver n'importe où.
                         Cependant, il est généralement placé à la fin de la carte (après le dernier
                         des éléments &lt;topicref>). </li>

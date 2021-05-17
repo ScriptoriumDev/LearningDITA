@@ -25,19 +25,19 @@
                 contenu de l'élément &lt;refbody> est limité à une poignée d'éléments. En d'autres
                 termes, une référence n'est pas aussi flexible dans son contenu qu'un concept.</p>
             <p>Le corps d'une référence peut contenir des éléments qui ont été introduits dans les
-                cours précédents : &lt;table>, &lt;fig> (figure) ou &lt;image>, &lt;exemple> et
+                cours précédents&#xA0;: &lt;table>, &lt;fig> (figure) ou &lt;image>, &lt;exemple> et
                 &lt;section>. Vous utilisez habituellement l'élément &lt;section> dans un élément
                 &lt;refbody> pour organiser les sections communes d'une référence, telles que les
                 descriptions de commande, les directives d'utilisation, les codes d'erreur, etc. En
-                outre, l'élément &lt;refbody> est peut contenir deux éléments spécifiques aux
-                références : &lt;refsyn> (syntaxe de référence) et &lt;properties>. </p>
+                outre, l'élément &lt;refbody> peut contenir deux éléments spécifiques aux
+                références&#xA0;: &lt;refsyn> (syntaxe de référence) et &lt;properties>. </p>
             <p>Le corps d'une référence peut contenir un nombre quelconque de ces éléments, dans
                 n'importe quel ordre. </p>
             <p>Les éléments &lt;example>, &lt;section> et &lt;refsyn> peuvent contenir l'élément
-                &lt;title>. Cela vous permet de créer des subdivisions au sein d'un sujet de
-                référence. Si nécessaire, une transformation en sortie peut insérer ses propres
-                titres pour les éléments &lt;properties>.</p>
-            <p><xref href="https://youtu.be/B3FVRhrfwkA" format="html" scope="external">Vidéo :
+                &lt;title>. Cela vous permet de créer des subdivisions au sein d'une rubrique
+                référence. Si nécessaire, une transformation en vue d'une publication peut insérer
+                ses propres titres pour les éléments &lt;properties>.</p>
+            <p><xref href="https://youtu.be/B3FVRhrfwkA" format="html" scope="external">Vidéo&#xA0;:
                     Créer une référence DITA</xref></p>
         </lcInstruction>
     </learningContentbody>
@@ -53,7 +53,7 @@
                             texte, plutôt qu'en mode auteur ou visuel.</note>
                     </info>
                     <stepxmp>
-                        <p>Vous devriez voir ceci :</p>
+                        <p>Vous devriez voir ceci&#xA0;:</p>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 &lt;reference id="ma_premiere_ref">
@@ -63,11 +63,11 @@
                     </stepxmp>
                     <info>
                         <p>La première ligne (qui commence avec <tt>&lt;?xml></tt>) est une
-                            déclaration XML et est une partie standard de tous fichiers XML.</p>
+                            déclaration XML et est une partie standard à tous fichiers XML.</p>
                         <p>La deuxième ligne est une déclaration DOCTYPE indiquant aux éditeurs DITA
-                            ou aux générateurs de sortie DITA qu'il s'agit d'une tâche strict DITA.
-                            Le programme utilise alors cette information lors de la validation du
-                            contenu de la rubrique. Le DOCTYPE sera différent pour chaque type de
+                            ou aux générateurs de publication DITA qu'il s'agit d'une référence
+                            DITA. Le programme utilise alors cette information lors de la validation
+                            du contenu de la rubrique. Le DOCTYPE sera différent pour chaque type de
                             rubrique que vous créez.</p>
                         <p>La troisième ligne contient la balise d'ouverture de l'élément
                             &lt;reference>.</p>
@@ -88,7 +88,7 @@
                 </step>
                 <step>
                     <cmd>Après l'élément &lt;title>, ajoutez un élément &lt;refbody>.</cmd>
-                    <info>L'élément &lt;refbody contient tout le contenu courant de la
+                    <info>L'élément &lt;refbody> contient tout le contenu courant de la
                         référence.</info>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
@@ -103,15 +103,15 @@
                 </step>
                 <step>
                     <cmd>À l'intérieur de l'élément &lt;refbody>, ajoutez un élément &lt;section> et
-                        ajoutez-y du contenu comme présenté.</cmd>
+                        ajoutez-y du contenu tel que présenté ici&#xA0;:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 &lt;reference id="ma_premiere_ref">
    &lt;title>tNav&lt;/title>
    &lt;refbody>
-    <ph outputclass="newchanged">&lt;section>&lt;p>La commande &lt;cmdname>tNav&lt;/cmdname> est utilisé dans la
-     Base de données Canard pour naviguer vers une table ou une vue différente.&lt;/p>&lt;/section></ph>
+    <ph outputclass="newchanged">&lt;section>&lt;p>La commande &lt;cmdname>tNav&lt;/cmdname> est utilisée dans la
+     base de données Canard pour naviguer vers une table ou une vue différente.&lt;/p>&lt;/section></ph>
    &lt;/refbody> 
 &lt;/reference></pre>
                     </stepxmp>
@@ -123,7 +123,7 @@
                                 d'informations sur le domaine de programmation, se référer à la
                                     <xref
                                     href="http://docs.oasis-open.org/dita/v1.2/os/spec/common/pr-d.html"
-                                    scope="external" format="html">Norme OASIS DITA Version
+                                    scope="external" format="html">Norme OASIS DITA version
                                     1.2</xref>.</p>
                         </note>
                     </info>

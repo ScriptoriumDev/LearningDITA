@@ -21,18 +21,18 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>Les fichiers carte sont la façon dont vous organisez le contenu pour la livraison.
-                Ils ressemblent à une table des matières : ils créent une séquence et une hiérarchie
-                entre les rubriques. Lorsque vous générez un fichier PDF ou un système d'aide à
-                partir d'un fichier carte, votre lecteur voit les rubriques dans l'ordre et la
-                hiérarchie établis par le fichier carte.</p>
+            <p>Les fichiers carte décrivent la façon dont vous organisez le contenu pour la
+                livraison. Ils ressemblent à une table des matières&#xA0;: ils créent une séquence
+                et une hiérarchie entre les rubriques. Lorsque vous générez un fichier PDF ou un
+                système d'aide à partir d'un fichier carte, votre lecteur voit les rubriques dans
+                l'ordre et la hiérarchie établis par le fichier carte.</p>
             <p>En général, vous n’ajoutez pas toutes les runriques disponibles à un fichier carte,
                 mais uniquement celles que vous souhaitez inclure dans un livrable. En outre, vous
                 pouvez inclure la même rubrique dans plusieurs fichiers carte, ce qui est un autre
                 exemple de réutilisation dans DITA.</p>
-            <p>Vidéo: <xref href="https://www.youtube.com/watch?v=I_yvE9_ECRw" format="html"
+            <p>Vidéo&#xA0;: <xref href="https://www.youtube.com/watch?v=I_yvE9_ECRw" format="html"
                     scope="external">Exemple de fichier carte DITA</xref></p>
-            <p>Les fichiers cartes sont principalement constitués des composants suivants :<ul
+            <p>Les fichiers carte sont principalement constitués des composants suivants&#xA0;:<ul
                     id="ul_dy2_k3q_wr">
                     <li>les éléments topicref, qui fournissent un lien vers une rubrique
                         spécifique</li>
@@ -40,7 +40,7 @@
                 </ul></p>
             <p>Dans un fichier carte, vous mettez les topicrefs dans l'ordre, de haut en bas, pour
                 indiquer une séquence. Pour indiquer une hiérarchie, vous imbriquez les rubriques.
-                Considérons l'exemple suivant :</p>
+                Considérons l'exemple suivant&#xA0;:</p>
             <pre>&lt;map>
  &lt;title>Ma première carte&lt;/title>
  &lt;topicref href="canards.dita">
@@ -51,9 +51,9 @@
 &lt;/map>
 </pre>
             <p>Pour plus de commodité, le code est indenté. Mais ce qui compte, c’est que le premier
-                topicref (canards) englobe les trois autres fichiers. Les sujets variete.dita,
-                taille.dita et nids.dita sont tous subordonnés au sujet canards.dita. Le résultat
-                est une table des matières structurée comme ceci :</p>
+                topicref (canards) englobe les trois autres fichiers. Les rubriques variete.dita,
+                taille.dita et nids.dita sont tous subordonnés à la rubrique canards.dita. Le
+                résultat est une table des matières structurée comme ceci&#xA0;:</p>
             <ul id="ul_bkw_cjq_wr">
                 <li>Canards<ul id="ul_j2d_djq_wr">
                         <li>Variété</li>
@@ -73,7 +73,7 @@
             <pre>&lt;topicref href="poissons.dita">
 &lt;topicref href="oiseauxmarins.dita">
 <b>&lt;mapref href="canard.ditamap" format="ditamap"/></b></pre>
-            <p>Vidéo: <xref href="https://www.youtube.com/watch?v=5gXZN505XFQ" format="html"
+            <p>Vidéo&#xA0;: <xref href="https://www.youtube.com/watch?v=5gXZN505XFQ" format="html"
                     scope="external">Réutilisation d'un fichier carte dans un fichier
                 carte</xref></p>
         </lcInstruction>

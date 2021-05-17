@@ -8,10 +8,11 @@
     <shortdesc/>
     <learningContentbody>
         <lcInstruction>
-            <p>À la fin d'une rubrique, vous pouvez insérez un élément related-links. Utilisez
+            <p>À la fin d'une rubrique, vous pouvez insérer un élément related-links. Utilisez
                 related-links pour pointer une information additionnelle que le lecteur pourrait
                 vouloir.</p>
-            <p>Les liens connexes contiennent un lien et un texte de lien. Voici un exemple :</p>
+            <p>Les liens connexes contiennent un lien et un texte de lien. Voici un
+                exemple&#xA0;:</p>
             <pre>&lt;topic id="exemple">
     &lt;title>Exemple de titre&lt;/title>
     &lt;body>
@@ -25,13 +26,13 @@
 &lt;/topic>        </pre>
             <p>Dans l'élément lien, vous spécifiez la cible (en utilisant l'attribut href), le
                 format et la portée. Pour les liens internet et tout autre lien en dehors du fichier
-                de carte courante, vous devez spécifier scope="external".</p>
+                carte courant, vous devez spécifier scope="external".</p>
             <p>L'élément linktext contient le texte qui deviendra la zone sensible du lien.</p>
             <p>
                 <note>Évitez d’utiliser des liens connexes pour les liens entre les rubriques de
-                    votre fichier de carte. Ils souffrent des mêmes limitations que les références
-                    croisées en ligne — vous pouvez vous retrouver avec des liens rompus. Utilisez
-                    plutôt des tables de relations.</note>
+                    votre fichier carte. Ils souffrent des mêmes limitations que les références
+                    croisées – vous pouvez vous retrouver avec des liens rompus. Utilisez plutôt des
+                    tables de relations.</note>
             </p>
         </lcInstruction>
     </learningContentbody>

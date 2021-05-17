@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- This file is part of the DITA Training project hosted on
      github.com. See the accompanying LICENSE file for
-     applicable licenses.--> 
+     applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_kqs_rks_zs" xml:lang="fr-FR">
     <title>Plus d'éléments</title>
@@ -18,7 +18,7 @@
     <learningContentbody>
         <lcObjectives>
             <lcObjectivesGroup id="lcObjectivesGroup_e2g_sks_zs">
-                <lcObjective>Découvrez d'autres éléments et identifiez les meilleures pratiques pour
+                <lcObjective>Découvrir d'autres éléments et identifier les meilleures pratiques pour
                     les ajouter à un concept.</lcObjective>
                 <lcObjective>Ajouter les éléments &lt;b>, &lt;i>, &lt;u>, &lt;term>, &lt;cite>,
                     &lt;varname>, &lt;sub>, &lt;sup>, &lt;dl>, &lt;menucascade>, et &lt;fn> au
@@ -34,8 +34,8 @@
                 indiquer que certains mots ou expressions sont importants, ou vous avez besoin d'un
                 moyen plus sophistiqué pour définir les termes ou fournir des références.</p>
             <p>Parmi les éléments fréquemment utilisés dans DITA pour le style intégré, on trouve
-                les éléments &lt;b>, &lt;i>, &lt;u>, &lt;sub>, et &lt;sup>. DITA propose également
-                les éléments &lt;term>, &lt;cite>, et &lt;varname> comme autres solutions pour le
+                les éléments &lt;b>, &lt;i>, &lt;u>, &lt;sub> et &lt;sup>. DITA propose également
+                les éléments &lt;term>, &lt;cite> et &lt;varname> comme autres solutions pour le
                 style intégré qui ont plus de valeur sémantique, ou qui fournissent plus
                 d'informations sur le contenu.</p>
             <p>Parmi les autres éléments utiles, citons &lt;fn> pour insérer des notes de bas de

@@ -23,21 +23,22 @@
         <lcObjectives>
             <lcObjectivesGroup>
                 <lcObjective>Décrire l'objectif et l'utilisation d'un fichier carte
-                    (map).</lcObjective>
-                <lcObjective>Résumer comment le résultat est généré.</lcObjective>
+                    (map)</lcObjective>
+                <lcObjective>Résumer comment le résultat est généré</lcObjective>
                 <lcObjective>Décrire l'objectif et l'utilisation des références croisées (xref) et
-                    des liens connexes.</lcObjective>
+                    des liens connexes</lcObjective>
                 <lcObjective>Décrire l'objectif et l'utilisation d'un tableau de relations
-                    (reltable).</lcObjective>
+                    (reltable)</lcObjective>
                 <lcObjective>Décrire l'objectif et l'utilisation d'un contenu de référence
-                    (conref).</lcObjective>
+                    (conref)</lcObjective>
             </lcObjectivesGroup>
         </lcObjectives>
         <lcIntro>
-            <p>Les rubriques sont indépendantes, mais le contenu d'une rubrique a souvent des liens avec
-                d'autres rubriques. Un fichier carte, par exemple, décrit la séquence et la hiérarchie
-                des rubriques d'un livrable.</p>
-            <p>Vous pouvez créer des relations entre rubriques de plusieurs façons différentes :</p>
+            <p>Les rubriques sont indépendantes, mais le contenu d'une rubrique a souvent des liens
+                avec d'autres rubriques. Un fichier carte, par exemple, décrit la séquence et la
+                hiérarchie des rubriques d'un livrable.</p>
+            <p>Vous pouvez créer des relations entre rubriques de plusieurs façons
+                différentes&#xA0;:</p>
             <ul id="ul_kfz_xtb_wr">
                 <li>Fichiers carte</li>
                 <li>Conrefs</li>

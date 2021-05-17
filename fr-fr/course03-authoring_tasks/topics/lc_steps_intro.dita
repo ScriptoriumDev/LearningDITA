@@ -20,7 +20,7 @@
     <learningContentbody>
         <lcObjectives>
             <lcObjectivesGroup id="lcObjectivesGroup_e2g_sks_zs">
-                <lcObjective>Spécifier l'emplacement de l'élément &lt;steps> dans la
+                <lcObjective>Spécifier l'emplacement de l'élément &lt;steps> dans l'élément
                     &lt;taskbody></lcObjective>
                 <lcObjective>Identifier les éléments de base que nous trouvons dans une étape et
                     comment ils sont utilisés</lcObjective>
@@ -37,11 +37,12 @@
             <p>L'élément &lt;steps> (on notera le pluriel) contient des éléments &lt;step>
                 (singulier). Les instructions d'une étape individuelle se trouvent à l'intérieur des
                 éléments &lt;step>.</p>
-            <p>Dans une sortie générée à partir d'une tâche, les étapes sont souvent affichées sous
-                forme de liste numérotée. Les libellés identifiant chaque étape (tel qu'un nombre et
-                une marque de ponctuation ou le mot « Étape » suivi d'un nombre) sont déterminés par
-                le générateur de sortie. Quand vous écrivez une étape, la plupart des éditeurs DITA
-                affichera les numéros d'étape à côté de chaque étape.</p>
+            <p>Dans une publication générée à partir d'une tâche, les étapes sont souvent affichées
+                sous forme de liste numérotée. Les libellés identifiant chaque étape (tel qu'un
+                nombre et une marque de ponctuation ou le mot «&#xA0;Étape&#xA0;» suivi d'un nombre)
+                sont déterminés par le générateur de publication. Quand vous écrivez une étape, la
+                plupart des éditeurs DITA afficheront les numéros d'étape à côté de chaque
+                étape.</p>
             <note>
                 <p>Cette leçon couvre l'utilisation de base de ces éléments. Pour les spécifications
                     complètes de chaque élément, se référer à la <xref
@@ -79,7 +80,8 @@
         <link
             href="https://www.ixiasoft.com/documentation/DITA_Style_Guide/fr/Artefact/Syntax_and_Markup/c_Notes_in_Steps.html"
             format="html" scope="external">
-            <linktext>Guide de style DITA, Notes et informations supplémentaires au sein d'une étape</linktext>
+            <linktext>Guide de style DITA, Notes et informations supplémentaires au sein d'une
+                étape</linktext>
         </link>
     </related-links>
 </learningContent>

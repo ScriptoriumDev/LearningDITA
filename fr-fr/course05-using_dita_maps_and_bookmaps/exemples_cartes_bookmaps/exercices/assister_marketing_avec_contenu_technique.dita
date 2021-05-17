@@ -9,8 +9,8 @@
    communication technique et la communication marketing ont longtemps occupé les extrémités
    opposées du spectre des contenus. Le stéréotype est que la communication technique est lourde en
    texte, dense et mal formatée alors que la communication marketing est brillante, belle et sans
-   contenu. À partir de là, le débat s'intensifie :<table frame="all" id="table_ksl_1hs_kf">
-    <title>Communication marketing contre communication technique : les stéréotypes</title>
+   contenu. À partir de là, le débat s'intensifie&#xA0;:<table frame="all" id="table_ksl_1hs_kf">
+    <title>Communication marketing contre communication technique&#xA0;: les stéréotypes</title>
     <tgroup cols="3">
      <colspec colname="c1" colnum="1" colwidth="1.0*"/>
      <colspec colname="c2" colnum="2" colwidth="1.0*"/>
@@ -24,12 +24,12 @@
      </thead>
      <tbody>
       <row>
-       <entry>Conception ou automatisation ?</entry>
+       <entry>Conception ou automatisation&#xA0;?</entry>
        <entry>Conception</entry>
        <entry>Automatisation</entry>
       </row>
       <row>
-       <entry>Quel est le degré de détail ?</entry>
+       <entry>Quel est le degré de détail&#xA0;?</entry>
        <entry>Aussi peu que possible</entry>
        <entry>Autant que possible</entry>
       </row>
@@ -44,27 +44,27 @@
        <entry>Informer les gens</entry>
       </row>
       <row>
-       <entry>Les rédacteurs sont des experts en produits ?</entry>
+       <entry>Les rédacteurs sont des experts en produits&#xA0;?</entry>
        <entry>Non</entry>
        <entry>Oui</entry>
       </row>
       <row>
-       <entry>L'interaction du client avec le contenu est mesurée ?</entry>
+       <entry>L'interaction du client avec le contenu est mesurée&#xA0;?</entry>
        <entry>Oui</entry>
        <entry>Rarement</entry>
       </row>
       <row>
-       <entry>Affecte-t-il le positionnement du produit ?</entry>
+       <entry>Affecte-t-il le positionnement du produit&#xA0;?</entry>
        <entry>Oui</entry>
        <entry>Oui, mais pas délibérément</entry>
       </row>
       <row>
-       <entry>Important ?</entry>
+       <entry>Important&#xA0;?</entry>
        <entry>Oui</entry>
        <entry>Non</entry>
       </row>
       <row>
-       <entry>Quand les gens lisent-ils ?</entry>
+       <entry>Quand les gens lisent-ils&#xA0;?</entry>
        <entry>Avant d'acheter</entry>
        <entry>Après l'achat</entry>
       </row>
@@ -82,14 +82,14 @@
    problème, surtout si votre produit présente de nombreuses configurations possibles.</p>
   <p>Pourquoi ne pas plutôt proposer un formulaire en ligne qui demande certaines informations,
    réduit les options à un nombre gérable, puis liste ces produits dans un tableau pour faciliter
-   les comparaisons ? Les entreprises disposent souvent de toutes les informations nécessaires pour
+   les comparaisons&#xA0;? Les entreprises disposent souvent de toutes les informations nécessaires pour
    ce faire, généralement enfermées dans une fiche technique imprimée ou PDF.</p>
   <p><indexterm>publication base de données</indexterm>Stocker toutes les spécifications dans
    une base de données (en fait, l'équipe de conception du produit a probablement déjà une base de
    données). Ensuite, créer une interface internet qui permet à l'acheteur d'interroger la base de
    données pour voir quel produit correspond le mieux à ses besoins.</p>
-  <p>Permettre à l'acheteur d'« interroger la base de données » ne signifie toutefois pas donner à
-   l'utilisateur une expérience littérale d'interrogation de la base de données :</p>
+  <p>Permettre à l'acheteur d'«&#xA0;interroger la base de données&#xA0;» ne signifie toutefois pas donner à
+   l'utilisateur une expérience littérale d'interrogation de la base de données&#xA0;:</p>
   <fig>
    <title>Un outil de configuration qui ne sera pas utilisé</title>
    <image id="image_jt1_vb1_kf" href="images/mauvaiseconfig.png" width="200px"/>
@@ -97,7 +97,7 @@
   <p>Donnez leur plutôt une interface conviviale qui leur permet de réduire rapidement leurs options
    et de choisir celle qu'ils veulent. Vous n'avez pas besoin d'exposer tous les champs de la base
    de données, mais seulement ceux qui aident les gens à restreindre leurs choix.<fig>
-    <title>Un meilleur sélecteur de base de données. Notez que le mot « base de données » n'apparaît
+    <title>Un meilleur sélecteur de base de données. Notez que le mot «&#xA0;base de données&#xA0;» n'apparaît
      pas. La liste de produits à droite s'actualise au fur et à mesure que vous faites des
      sélections à gauche.</title>
     <image id="image_k2m_gd1_kf" href="images/configuremieux.png" width="200px"/>

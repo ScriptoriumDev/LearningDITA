@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- This file is part of the DITA Training project hosted on
      github.com. See the accompanying LICENSE file for
      applicable licenses.-->
@@ -19,12 +19,11 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcTrueFalse id="link4">
-    <lcQuestion>Vous pouvez créer un lien vers une page internet. La meilleure façon de le faire en DITA
-     est d'utiliser un conref.</lcQuestion>
+    <lcQuestion>Vous pouvez créer un lien vers une page internet. La meilleure façon de le faire en
+     DITA est d'utiliser un conref.</lcQuestion>
     <lcAnswerOptionGroup>
      <lcAnswerOption>
       <lcAnswerContent>Vrai</lcAnswerContent>
-
      </lcAnswerOption>
      <lcAnswerOption>
       <lcAnswerContent>Faux</lcAnswerContent>
@@ -32,8 +31,8 @@
      </lcAnswerOption>
     </lcAnswerOptionGroup>
     <lcFeedbackIncorrect>Les conrefs vous laissent inclure, à l'emplacement courant, du contenu
-     provenant d'un autre. Pour les liens internet, utilisez un élément &lt;xref> avec les attributs
-     scope="external" et format="html".</lcFeedbackIncorrect>
+     provenant d'un autre emplacement. Pour les liens internet, utilisez un élément &lt;xref> avec
+     les attributs scope="external" et format="html".</lcFeedbackIncorrect>
    </lcTrueFalse>
   </lcInteraction>
  </learningAssessmentbody>

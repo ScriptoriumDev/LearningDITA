@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="canards" xml:lang="fr-FR">
+ <title>Canards</title>
+ <topicref href="c_canards_sauvages.dita">
+  <topicref href="c_types_canards_sauvages.dita"/>
+  <topicref href="c_especes_canards_sauvages.dita"/>
+  <topicref href="t_observer_canards_sauvages.dita"/>
+ </topicref>
+ <topicref href="c_canards_domestiques.dita">
+  <topicref href="c_croissance_des_canards.dita"/>
+  <topicref href="c_nourrir_canetons.dita">
+   <topicref href="c_poids_du_canard.dita"/>
+  </topicref>
+ </topicref>
+ <topicref href="c_canarddb.dita">
+  <topicref href="c_ecrire_sur_canards.dita"/>  
+   <topicref href="r_tnav.dita"/>  
+ </topicref>
+ 
+ 
+</map>

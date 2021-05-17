@@ -18,7 +18,7 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>L'élément &lt;mapref> est structuré comme suit :</p>
+            <p>L'élément &lt;mapref> est structuré comme suit&#xA0;:</p>
             <pre>&lt;mapref href="chemin/nomfichier.ditamap" format="ditamap"></pre>
             <p>L'attribut href contient un lien vers une autre carte qui est référencée dans votre
                 carte principale. L'attribut format spécifie que le fichier lié est une carte DITA.</p>
@@ -55,7 +55,7 @@
                 </step>
                 <step>
                     <cmd>Après le dernier élément &lt;topicref>, ajoutez un élément &lt;mapref> et
-                        ajoutez-y du contenu comme le montre l'exemple suivant :</cmd>
+                        ajoutez-y du contenu comme le montre l'exemple suivant&#xA0;:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
@@ -88,7 +88,7 @@
                 <step>
                     <cmd>Ouvrez le fichier exemples_cartes_bookmaps/exercices/_m_cs101_debut.ditamap
                         et utilisez-le pour assembler les rubriques dans une carte DITA, en
-                        utilisant la structure hierarchique suivante comme guide :</cmd>
+                        utilisant la structure hierarchique suivante comme guide&#xA0;:</cmd>
                     <info>
                         <pre outputclass="passthru"><![CDATA[
                             <hr />
@@ -105,7 +105,7 @@
                                 </li>
                                 <li>Collaboration en matière de contenu au sein de l'organisation
                                     <ul>
-                                    <li>« Collaboration » ≠ « contenu libre pour tous »</li>
+                                    <li>«&#xA0;Collaboration&#xA0;» ≠ «&#xA0;contenu libre pour tous&#xA0;»</li>
                                     </ul>
                                 </li>
                                 </ul>

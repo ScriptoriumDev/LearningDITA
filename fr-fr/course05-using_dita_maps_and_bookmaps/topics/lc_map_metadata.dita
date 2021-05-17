@@ -38,7 +38,7 @@
                 &lt;prolog> ou &lt;shortdesc>, les métadonnées d'un élément &lt;topicref> qui
                 contient des éléments &lt;prolog> ou &lt;shortdesc> ont la priorité.</p>
             <p>Un certain nombre d'éléments de métadonnées sont autorisés à l'intérieur de l'élément
-                &lt;topicmeta>. Parmi les plus utiles, on peut citer :</p>
+                &lt;topicmeta>. Parmi les plus utiles, on peut citer&#xA0;:</p>
             <ul id="ul_hrm_rvr_3v">
                 <li>
                     <p>&lt;navtitle></p>
@@ -56,7 +56,7 @@
             <p>L'élément &lt;metadata>, qui peut également contenir la plupart de ces mêmes éléments
                 liés aux métadonnées, est également autorisé à l'intérieur de l'élément
                 &lt;topicmeta>.</p>
-            <p>La structure d'un élément de type &lt;topicmeta> pourrait ressembler à ceci :</p>
+            <p>La structure d'un élément de type &lt;topicmeta> pourrait ressembler à ceci&#xA0;:</p>
             <pre>&lt;topicmeta>
 &lt;navtitle>Titre de navigation&lt;/navtitle>
 &lt;author>Nom de l'auteur&lt;/author>
@@ -84,7 +84,7 @@
                         ouvrez-le dans votre éditeur.</cmd>
                     <stepxmp>
                         <p>Vous devriez voir du contenu qui commence comme ceci (le fichier est plus
-                            long que ce qui est présenté ici) :</p>
+                            long que ce qui est présenté ici)&#xA0;:</p>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 &lt;map id="canards">
@@ -104,7 +104,7 @@
                 <step>
                     <cmd>À l'intérieur de l'élément &lt;map>, après l'élément &lt;title>, ajoutez un
                         élément &lt;topicmeta> et ajoutez-y du contenu comme le montre l'exemple
-                        suivant :</cmd>
+                        suivant&#xA0;:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
@@ -120,7 +120,7 @@
 &lt;/map></pre>
                     </stepxmp>
                     <info>L'élément &lt;topicmeta> que vous venez d'ajouter établit les métadonnées
-                        suivantes au niveau de la carte :<ul id="ul_tyt_qds_3v">
+                        suivantes au niveau de la carte&#xA0;:<ul id="ul_tyt_qds_3v">
                             <li>
                                 <p>La carte a été créée le 16 mars 2016</p>
                             </li>
@@ -132,7 +132,7 @@
                 <step>
                     <cmd>À l'intérieur de l'élément &lt;topicref> qui fait le lien vers
                         c_canarddb.dita, ajouter un élément &lt;topicmeta> et ajoutez-y du contenu
-                        comme le montre l'exemple suivant :</cmd>
+                        comme le montre l'exemple suivant&#xA0;:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
@@ -150,7 +150,7 @@
 &lt;/map></pre>
                     </stepxmp>
                     <info>L'élément &lt;topicmeta> que vous venez d'ajouter établit les métadonnées
-                        suivantes au niveau de la carte :<ul id="ul_r1r_sds_3v">
+                        suivantes au niveau de la carte&#xA0;:<ul id="ul_r1r_sds_3v">
                             <li>
                                 <p>Cette section est destinée aux utilisateurs du produit, par
                                     opposition aux administrateurs ou aux lecteurs occasionnels.</p>
@@ -164,7 +164,7 @@
                 <step>
                     <cmd>À l'intérieur de l'élément &lt;mapref> qui fait le lien vers
                         g_orggloss_canards.ditamap, ajoutez un élément &lt;topicmeta> et ajoutez-y
-                        du contenu comme le montre l'exemple suivant :</cmd>
+                        du contenu comme le montre l'exemple suivant&#xA0;:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
@@ -179,7 +179,7 @@
 &lt;/map></pre>
                     </stepxmp>
                     <info>L'élément &lt;topicmeta> que vous venez d'ajouter établit les métadonnées
-                        suivantes au niveau de la carte :<ul id="ul_ekq_yds_3v">
+                        suivantes au niveau de la carte&#xA0;:<ul id="ul_ekq_yds_3v">
                             <li>
                                 <p>Lorsqu'une personne utilise un outil de recherche et localise
                                     cette rubrique, le titre doit être "Glossaire canards" au lieu

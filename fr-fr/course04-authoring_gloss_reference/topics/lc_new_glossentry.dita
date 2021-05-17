@@ -32,12 +32,12 @@
                 utilisés pour fournir des détails supplémentaires sur le terme du glossaire.
                 L'élément &lt;glossbody> dépasse le cadre de cet exercice, et sera traité dans une
                 leçon ultérieure.</p>
-            <p><xref href="https://youtu.be/6JrvPjKwphM" format="html" scope="external">Vidéo: Créer
+            <p><xref href="https://youtu.be/6JrvPjKwphM" format="html" scope="external">Vidéo&#xA0;: Créer
                     une entrée de glossaire DITA</xref></p>
             <note><p>En général, il est préférable de faire précéder le nom de fichier des entrées
-                    de votre glossaire de "g_" afin de faciliter leur recherche dans une structure
+                de votre glossaire de «&#xA0;g_&#xA0;» afin de faciliter leur recherche dans une structure
                     de fichier. Cependant, conformément à nos autres supports pédagogiques, nous
-                    utilisons "l_".</p></note>
+                    utilisons «&#xA0;l_&#xA0;».</p></note>
         </lcInstruction>
     </learningContentbody>
     <task id="task_i3g_jkh_1t">
@@ -52,7 +52,7 @@
                             texte plutôt qu'en mode auteur ou visuel.</note>
                     </info>
                     <stepxmp>
-                        <p>Vous devriez voir ceci :</p>
+                        <p>Vous devriez voir ceci&#xA0;:</p>
                         <pre>&lt;?xml version="1.0" encoding="utf-8"?>
 &lt;!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd">
 &lt;glossentry id="canard">

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="content_pgf_3gt_qt">
+    <title>Installer une extension personnalisée</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Noelle Russell, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Ashley Stant, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Bill Swallow, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Jake Campbell, Scriptorium</author>
+        <author type="contributor" href="https://www.linkedin.com/in/marinemartinguillerez/"
+            scope="external" format="html" class="- topic/author ">Marine Martin-Guillerez
+            (Traductrice)</author>
+        <critdates>
+            <created golive="2017-03-27" date="2017-02-06"/>
+            <revised modified="2021-01-26"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Cette leçon montre comment installer une extension personnalisée et générer une
+                publication à partir de celle-ci en utilisant DITA OT. L'extension personnalisée
+                utilisée dans cette leçon est appelé ld_xhtml, et est basé sur l'extension xhtml par
+                défaut. Le plugin ld_xhtml modifie le comportement du plugin xhtml et ajoute des
+                liens à son propre fichier CSS.</p>
+            <p><xref href="https://youtu.be/Y3xgPEkNxmM" format="html" scope="external">Vidéo&#xA0;:
+                    Installer des extensions personnalisées</xref></p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_gln_ytg_2z">
+        <title>Installer une extension personnalisée</title>
+        <taskbody>
+            <steps id="steps_ezx_ztg_2z">
+                <step>
+                    <cmd>Localisez l'archive <b>com.learningdita.ld_xhtml.zip</b> dans le
+                        dossier <b>exemples/extensions</b> que vous avez téléchargé au début de ce
+                        cours.</cmd>
+                </step>
+                <step>
+                    <cmd>Saisissez les commmandes suivantes dans le terminal de
+                        commande&#xA0;:</cmd>
+                    <info>
+                        <p><b>Sur Windows&#xA0;:</b></p>
+                        <pre>bin\dita -install [cheminfichier]/com.learningdita.ld_xhtml.zip -v</pre>
+                        <p><b>Sur Mac&#xA0;:</b></p>
+                        <pre>./bin/dita -install [cheminfichier]/com.learningdita.ld_xhtml.zip -v</pre>
+                        <note>Le paramètre <tt>-install</tt> intègre et installe l'extension xhtml
+                            personnalisée et permet au DITA OT de générer des publications à partir
+                            de celui-ci.</note>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Appuyer sur ENTRER pour lancer DITA OT.</cmd>
+                </step>
+                <step>
+                    <cmd>Pour tester l'intégration en générant une publication, saisissez les
+                        commandes suivantes dans le terminal de commande&#xA0;:</cmd>
+                    <info>
+                        <p><b>Sur Windows&#xA0;:</b></p>
+                        <pre>bin\dita -i [cheminfichier]/sources/canards/m_canards.ditamap -f ld_xhtml -o sorties/sortie_perso -v</pre>
+                        <p><b>On Mac:</b></p>
+                        <pre>./bin/dita -i [cheminfichier]/sources/canards/m_canards.ditamap -f ld_xhtml -o sorties/sortie_perso -v</pre>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Appuyer sur ENTRER pour lancer DITA OT.</cmd>
+                </step>
+                <step>
+                    <cmd>Regarder dans le dossier <b>sorties/sortie_perso</b> pour voir les fichiers
+                        XHTML générés.</cmd>
+                </step>
+                <step>
+                    <cmd>Ouvrez le fichier <b>c_especes_canards_sauvages.html</b> dans un navigateur
+                        internet. Comparez-le à la version par défaut,
+                            <b>c_especes_canards_sauvages.html</b> (dans votre dossier
+                            <b>sorties/sortie_canards</b>) que vous avez précédement généré.</cmd>
+                    <info>
+                        <p>La sortie XHTML par défaut ressemble à&#xA0;:</p>
+                        <image href="images/xhtml_default.png" width="500" id="image_sqt_lwl_3z"
+                            base="2017/03"/>
+                        <p>La sortie XHTML personnalisée ressemble à&#xA0;:</p>
+                        <image href="images/xhtml_custom.png" width="500" id="image_v34_mwl_3z"
+                            base="2017/03"/>
+                        <p>La sortie XHTML personnalisée a une police et des couleurs différentes de
+                            la sortie XHTML par défaut.</p>
+                    </info>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

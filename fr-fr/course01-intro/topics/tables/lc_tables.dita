@@ -20,18 +20,17 @@
     <learningContentbody>
         <lcObjectives>
             <lcObjectivesGroup>
-                <lcObjective>Distinguer les tableaux simples et les tableaux.</lcObjective>
-                <lcObjective>Décrire les éléments d'une simpletable.</lcObjective>
-                <lcObjective>Décrire les éléments d'un tableau.</lcObjective>
-                <lcObjective>Présenter les meilleures pratiques pour les tableaux
-                    DITA.</lcObjective>
+                <lcObjective>Distinguer les tableaux simples et les tableaux</lcObjective>
+                <lcObjective>Décrire les éléments d'une simpletable</lcObjective>
+                <lcObjective>Décrire les éléments d'un tableau</lcObjective>
+                <lcObjective>Présenter les meilleures pratiques pour les tableaux DITA</lcObjective>
             </lcObjectivesGroup>
         </lcObjectives>
         <lcIntro>
             <p>Les tableaux occupent une position intermédiaire difficile entre la mise en forme et
                 la structure. Cependant, les tableaux constituent souvent le conteneur approprié
                 pour le contenu.</p>
-            <p>DITA comprend deux types de tableaux : </p>
+            <p>DITA comprend deux types de tableaux&#xA0;: </p>
             <dl>
                 <dlentry>
                     <dt>Les tableaux simples</dt>
@@ -45,7 +44,7 @@
                         précises</dd>
                 </dlentry>
             </dl>
-            <p>La plupart des langages de balisage utilisent le modèle de table CALS, créé dans le
+            <p>La plupart des langages de balises utilisent le modèle de table CALS, créé dans le
                 cadre d'une initiative du département de la Défense des États-Unis. Les tables HTML
                 utilisent également le modèle CALS. Par conséquent, si vous connaissez le balisage
                 de table HTML, vous reconnaîtrez les similitudes dans les tableaux DITA.</p>
@@ -67,7 +66,7 @@
         <lcIntro>
             <title>Autres tableaux</title>
             <p>Il existe deux autres types de tableau très spécifiques (basés sur l'élément
-                &lt;simpletable>) :</p>
+                &lt;simpletable>)&#xA0;:</p>
             <ul id="ul_x3m_vyc_ss">
                 <li>&lt;properties>, que vous utilisez dans les rubriques référence pour définir une
                     liste de propriétés.</li>

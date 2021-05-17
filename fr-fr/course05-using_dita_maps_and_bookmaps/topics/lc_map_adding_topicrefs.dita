@@ -18,14 +18,14 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>L'élément &lt;topicref> est structurée comme suit :</p>
+            <p>L'élément &lt;topicref> est structurée comme suit&#xA0;:</p>
             <pre>&lt;topicref href="chemin/nomfichier.dita"></pre>
             <p>L'attribut href contient un lien vers la rubrique à inclure dans la carte. Avec DITA,
                 un élément &lt;topicref> dans une carte ne devrait pas pointer vers une rubrique
                 situé au-dessus de la carte dans votre structure de fichiers, car cela peut causer
                 des problèmes avec certains types de sortie. Par conséquent, il est préférable de
                 stocker vos cartes au niveau supérieur.</p>
-            <p>L'élément &lt;topicref> peut contenir les éléments suivants :</p>
+            <p>L'élément &lt;topicref> peut contenir les éléments suivants&#xA0;:</p>
             <ul id="ul_oc4_2fd_3v">
                 <li>
                     <p>L'élément &lt;topicmeta>, qui définit les métadonnées de la rubrique
@@ -44,13 +44,13 @@
                 rubriques dans une table des matières lorsque vous publiez la carte.</p>
             <p>Lorsque vous imbriquez des éléments &lt;topicref>, il est important de garder en tête
                 le résultat final. Avec DITA, il n'y a pas de limite structurelle au nombre
-                d'éléments &lt;topicref> qui peuvent être imbriqués ; tout élément &lt;topicref>
+                d'éléments &lt;topicref> qui peuvent être imbriqués&#xA0;; tout élément &lt;topicref>
                 dans une carte peut contenir un certain nombre d'éléments &lt;topicref>. Cependant,
                 chaque élément &lt;topicref> imbriqué équivaudra généralement à un nouveau niveau de
                 titre dans votre publication. Par conséquent, il est généralement considéré comme
                 une bonne pratique d'éviter d'imbriquer des éléments &lt;topicref> sur plus de cinq
                 niveaux de profondeur (et, idéalement, pas plus de deux ou trois).</p>
-            <p><xref href="https://youtu.be/3rDlOvDguiw" format="html" scope="external">Vidéo :
+            <p><xref href="https://youtu.be/3rDlOvDguiw" format="html" scope="external">Vidéo&#xA0;:
                     Créer une carte DITA</xref></p>
             <note>
                 <p>Pour plus d'information sur l'élément &lt;topicref>, se référer à la <xref
@@ -69,7 +69,7 @@
                 </step>
                 <step>
                     <cmd>Après l'élément &lt;title>, ajoutez un élément &lt;topicref> et ajoutez-y
-                        du contenu comme le montre l'exemple suivant :</cmd>
+                        du contenu comme le montre l'exemple suivant&#xA0;:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
@@ -85,7 +85,7 @@
                 <step>
                     <cmd>À l'intérieur de l'élément &lt;topicref> que vous venez d'ajouter, ajoutez
                         un autre élément &lt;topicref> et ajoutez-y du contenu comme le montre
-                        l'exemple suivant :</cmd>
+                        l'exemple suivant&#xA0;:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
@@ -103,7 +103,7 @@
                 <step>
                     <cmd>Après l'élément &lt;topicref> que vous venez d'ajouter, ajoutez deux autres
                         éléments &lt;topicref> et ajoutez-y du contenu comme le montre l'exemple
-                        suivant :</cmd>
+                        suivant&#xA0;:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
@@ -126,7 +126,7 @@
                 <step>
                     <cmd>Après la balise de fermeture de l'élément &lt;topicref> de
                         c_canards_sauvages.dita, ajoutez d'autres éléments &lt;topicref> et
-                        ajoutez-y du contenu comme le montre l'exemple suivant :</cmd>
+                        ajoutez-y du contenu comme le montre l'exemple suivant&#xA0;:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
@@ -150,7 +150,7 @@
 &lt;/map></pre>
                     </stepxmp>
                     <info>La hiérarchie de la carte contient désormais trois éléments de premier
-                        niveau : c_canards_sauvages.dita, c_canards_domestiques.dita et
+                        niveau&#xA0;: c_canards_sauvages.dita, c_canards_domestiques.dita et
                         c_canarddb.dita. Chacun de ces éléments contient plusieurs éléments
                         &lt;topicref> imbriqués de second niveau. L'un de ces éléments &lt;topicref>
                         de deuxième niveau, c_nourrir_canetons.dita, contient un élément

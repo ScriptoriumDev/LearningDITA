@@ -4,7 +4,7 @@
      applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_gxd_rry_5r1" xml:lang="fr-FR">
-    <title>Qu'est-ce que DITA?</title>
+    <title>Qu'est-ce que DITA&#xA0;?</title>
     <shortdesc/>
     <prolog>
         <author>Sharon Burton</author>
@@ -23,7 +23,7 @@
                 <lcObjective>Présenter le contexte et l'origine de DITA.</lcObjective>
                 <lcObjective>Identifier le balisage DITA.</lcObjective>
                 <lcObjective>Décrire ce qui rend une rubrique réutilisable.</lcObjective>
-                <lcObjective>Montrer une rubrique minimale.</lcObjective>
+                <lcObjective>Présenter une rubrique minimale.</lcObjective>
             </lcObjectivesGroup>
         </lcObjectives>
         <lcDuration>
@@ -34,10 +34,10 @@
                 ouvert créé, à l'origine par IBM. IBM donna DITA à <xref
                     href="https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=dita"
                     format="html" scope="external">OASIS</xref> (l'Organisation pour l'Avancement
-                des Normes d'Information Structurée - Organization for the Advancement of Structured
+                des Normes d'Information Structurée – Organization for the Advancement of Structured
                 Information Standards) en 2005.</p>
             <p>DITA est une méthode basée sur XML et indépendante des outils pour créer, organiser
-                et gérer du contenu. DITA repose sur :<ul id="ul_dwl_1ty_5r">
+                et gérer du contenu. DITA repose sur&#xA0;:<ul id="ul_dwl_1ty_5r">
                     <li>La création thèmatique</li>
                     <li>La séparation du contenu du formatage</li>
                     <li>Le minimalisme</li>
@@ -68,7 +68,7 @@
             <linktext>Guide de style DITA, Syntaxe et Balisage</linktext>
         </link>
         <link href="https://github.com/flicstar/DITA-Mini-Manual" format="html" scope="external">
-            <linktext>Exemple de contenu DITA : un projet de documentation basé sur un Manuel du
+            <linktext>Exemple de contenu DITA&#xA0;: un projet de documentation basé sur un Manuel du
                 Propriétaire d'une Mini de 1960, rédigé par Felicity Brand</linktext>
         </link>
     </related-links>

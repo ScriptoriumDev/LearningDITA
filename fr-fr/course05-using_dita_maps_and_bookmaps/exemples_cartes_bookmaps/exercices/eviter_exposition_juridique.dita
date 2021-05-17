@@ -26,7 +26,7 @@
   <note>
    <p>Aucune des informations contenues dans cette section ne peut remplacer les conseils d'un
     véritable professionnel du droit ayant une expertise dans votre secteur d'activité et vos
-    juridictions spécifiques. (Voyez ? Nous avons tous besoin de clauses de non-responsabilité).</p>
+    juridictions spécifiques. (Voyez&#xA0;? Nous avons tous besoin de clauses de non-responsabilité).</p>
   </note>
   <section>
    <title>Propriété intellectuelle, brevets, et limitation des réclamations produit</title>
@@ -36,7 +36,7 @@
     équipe juridique peut vous demander de limiter la quantité d'informations que vous fournissez,
     ou exiger que les lecteurs se connectent à un site d'entreprise (et acceptent les conditions de
     service du site) avant de consulter les informations. L'établissement d'une obligation
-    d'enregistrement signifie que :<ul id="ul_ovf_3fz_1h">
+    d'enregistrement signifie que&#xA0;:<ul id="ul_ovf_3fz_1h">
      <li>Votre contenu internet ne sera pas visible par Google et les autres moteurs de recherche.
       Les visiteurs ne peuvent pas découvrir l'information par le biais d'une recherche internet
       standard.</li>
@@ -63,28 +63,28 @@
    <title>Marques</title>
    <p><indexterm>problèmes
      juridiques<indexterm>marques</indexterm></indexterm><indexterm>marques</indexterm>Voici
-    quelques exemples de marques utilisées de manière incorrecte :<ul id="ul_yft_rt2_rg">
+    quelques exemples de marques utilisées de manière incorrecte&#xA0;:<ul id="ul_yft_rt2_rg">
      <li>J'ai Skypé mon frère la semaine dernière.</li>
      <li>J'ai googlé, mais je n'ai rien trouvé d'utile.</li>
     </ul></p>
    <p>Nonobstant les lettres de cessation et d'abstention, il est peu probable que vous puissiez
     empêcher les gens d'utiliser les marques de cette manière dans une conversation informelle ou
     dans les médias sociaux. Pour un contenu plus formel, cependant, les marques doivent être
-    utilisées correctement (même si c'est très bizarre) : <ul id="ul_pp5_yt2_rg">
-     <li>J'ai utilisé Skype pour appeler mon frère. (Ou, pour les plus pointilleux : j'ai utilisé le
+    utilisées correctement (même si c'est très bizarre)&#xA0;: <ul id="ul_pp5_yt2_rg">
+     <li>J'ai utilisé Skype pour appeler mon frère. (Ou, pour les plus pointilleux&#xA0;: j'ai utilisé le
       logiciel Skype pour appeler mon frère).</li>
      <li>Ma recherche sur Google n'a rien donné d'utile.</li>
     </ul></p>
    <p>La vérification (ou la nominalisation) des marques est désapprouvée par les propriétaires de
     marques.</p>
    <p>La plupart des documents techniques comportent une liste de marques au début du livre, qui
-    ressemble à ce qui suit :<lq>Oracle, JD Edwards, PeopleSoft et Retek sont des marques déposées
+    ressemble à ce qui suit&#xA0;:<lq>Oracle, JD Edwards, PeopleSoft et Retek sont des marques déposées
      d'Oracle Corporation et/ou de ses filiales. Les autres noms peuvent être des marques
      commerciales de leurs propriétaires respectifs.<fn><xref
        href="http://docs.oracle.com/cd/B19306_01/server.102/b14200/title.htm" scope="external"
        format="html">docs.oracle.com/cd/B19306_01/server.102/b14200/title.htm</xref>, consulté le 30
       mai 2012</fn></lq></p>
-   <p>Une version plus détaillée de Microsoft :</p>
+   <p>Une version plus détaillée de Microsoft&#xA0;:</p>
    <lq>
     <p>Les informations contenues dans ce document sont susceptibles d'être modifiées sans
      préavis.</p>
@@ -109,17 +109,17 @@
        >biggs.org/office/gettingresults/OFCCPYRT.HTM</xref>, consulté le 30 mai 2012</fn></p>
    </lq>
    <p>Comme pour toutes ces questions, vous devriez consulter votre conseiller juridique pour
-    déterminer si une formule générale « d'autres noms peuvent être des marques » (comme dans le
+    déterminer si une formule générale «&#xA0;d'autres noms peuvent être des marques&#xA0;» (comme dans le
     premier exemple) est acceptable ou si une liste explicite de marques est nécessaire (comme dans
     le deuxième exemple). Si vous êtes tenu de fournir une liste détaillée, automatisez la
     production de cette liste, car il ne s'agit en aucun cas d'un projet de communication technique
-    à valeur ajoutée. Voici quelques techniques que nous avons utilisées :<ul id="ul_1lr_rst_kg">
+    à valeur ajoutée. Voici quelques techniques que nous avons utilisées&#xA0;:<ul id="ul_1lr_rst_kg">
      <li><i>Liste des droits d'auteur et des marques par défaut.</i> Tous les produits livrables
       reçoivent la même liste de droits d'auteur et de marques, de sorte que la liste est établie
       une fois pour toute et ensuite réutilisée.</li>
      <li><i>Liste générée automatiquement à partir d'un balisage explicite.</i> Chaque marque qui
       apparaît dans le texte est marquée comme une marque de fabrique (ou marque déposée). La liste
-      des marques est générée à partir des éléments marqués. Par exemple :
+      des marques est générée à partir des éléments marqués. Par exemple&#xA0;:
       <codeblock>Nous utilisons &lt;trademark type="tm">MathType&lt;/trademark> pour créer des équations.</codeblock></li>
      <li><i>Liste générée automatiquement à partir de la liste de référence.</i> Nous créons une
       liste universelle de marques dans un fichier séparé. Lorsqu'il est temps de générer un
@@ -133,12 +133,12 @@
    <p>En plus de la liste des marques dans les pages liminaires, vous pouvez également avoir besoin
     de signaler les marques dans le texte même. La règle traditionnelle est que vous devez indiquer
     une marque dès la première occurrence de cet élément. Malheureusement, cela fonctionne mieux
-    dans les livres que dans les contenus en ligne, où la « première occurrence » est un peu
-    difficile à définir. Vos choix d'indicateurs de marques sont les suivants :<ul
+    dans les livres que dans les contenus en ligne, où la «&#xA0;première occurrence&#xA0;» est un peu
+    difficile à définir. Vos choix d'indicateurs de marques sont les suivants&#xA0;:<ul
      id="ul_pgj_5tt_kg">
      <li>Ne marquer aucune marque dans le texte.</li>
      <li>Marquer la première occurrence dans un livre, un chapitre ou une page internet (de
-      préférence de manière automatisée ; sinon, vos auteurs seront agacés).</li>
+      préférence de manière automatisée&#xA0;; sinon, vos auteurs seront agacés).</li>
      <li>Marquer chaque occurrence d'un terme déposé (garantie de déranger vos lecteurs et, si cela
       est fait manuellement, de rendre vos auteurs furieux).</li>
     </ul></p>

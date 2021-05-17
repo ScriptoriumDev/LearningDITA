@@ -4,7 +4,7 @@
      applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_rxt_zl5_vr2">
-    <title>Que sont les métadonnées ?</title>
+    <title>Que sont les métadonnées&#xA0;?</title>
     <prolog>
         <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe,
             Scriptorium</author>
@@ -27,19 +27,20 @@
                 pas partie du texte affiché. Les propriétés du document sont des métadonnées sur le
                 document lui-même.</p>
             <p>Les métadonnées fournissent différents moyens de classifier l'information. Par
-                exemple, vous pouvez :<ul id="ul_awn_k1w_wr">
-                    <li>Étiqueter l'information avec un type de document, comme « livre blanc » ou «
-                        proposition »</li>
+                exemple, vous pouvez&#xA0;:<ul id="ul_awn_k1w_wr">
+                    <li>Étiqueter l'information avec un type de document, comme «&#xA0;livre
+                        blanc&#xA0;» ou «&#xA0;proposition&#xA0;»</li>
                     <li>Associer l'information avec un numéro de produit spécifique</li>
-                    <li>Indiquer un niveau d'utilisateur, comme « débutant », « intermédiaire » ou «
-                        expert »</li>
-                    <li>Indiquer l'audience du contenu, comme « responsable » ou « employé »</li>
-                    <li>Fournir une information sur le statut d'une rubrique, comme « brouillon », «
-                        révision » ou « final »</li>
+                    <li>Indiquer un niveau d'utilisateur, comme «&#xA0;débutant&#xA0;»,
+                        «&#xA0;intermédiaire&#xA0;» ou «&#xA0;expert&#xA0;»</li>
+                    <li>Indiquer l'audience du contenu, comme «&#xA0;responsable&#xA0;» ou
+                        «&#xA0;employé&#xA0;»</li>
+                    <li>Fournir une information sur le statut d'une rubrique, comme
+                        «&#xA0;brouillon&#xA0;», «&#xA0;révision&#xA0;» ou «&#xA0;final&#xA0;»</li>
                     <li>Fournir une date d'expiration lorsque l'information n'est plus valide</li>
                 </ul></p>
-            <p>Après avoir assigner des métadonnées à votre contenu, vous (ou votre lecteur) pouvez
-                les utiliser pour :<ul id="ul_ex4_11w_wr">
+            <p>Après avoir assigné des métadonnées à votre contenu, vous (ou votre lecteur) pouvez
+                les utiliser pour&#xA0;:<ul id="ul_ex4_11w_wr">
                     <li>Trouver l'information efficacement</li>
                     <li>Soutenir les efforts de gouvernance (contrôle lorsque des informations sont
                         rendues publiques ou supprimées d'un site internet)</li>
@@ -52,12 +53,11 @@
                     <li>Gérer le statut du projet</li>
                 </ul></p>
             <p>Dans DITA ou autres formats XML, les métadonnées sont encodés à l'intérieur de vos
-                rubriques, soit au niveau de la rubrique, soit sur des éléments spécifiques. Vous pouvez
-                manipuler le contenu DITA en utilisant ces valeurs de métadonnées..</p>
-            <p>DITA nécessite une métadonnée ; chaque rubrique doit avoir un attribut id. Ces
+                rubriques, soit au niveau de la rubrique, soit sur des éléments spécifiques. Vous
+                pouvez manipuler le contenu DITA en utilisant ces valeurs de métadonnées.</p>
+            <p>DITA nécessite une métadonnée&#xA0;; chaque rubrique doit avoir un attribut id. Ces
                 identifiants sont souvent attribués automatiquement par des outils de création ou
-                des systèmes de gestion de contenu. Voici un exemple de rubrique avec un attribut id
-                :</p>
+                des systèmes de gestion de contenu. Voici un exemple de rubrique avec un attribut id&#xA0;:</p>
             <pre>&lt;topic <b>id="xyz"</b>>
    &lt;title>Votre titre ici&lt;/title>
    &lt;body>

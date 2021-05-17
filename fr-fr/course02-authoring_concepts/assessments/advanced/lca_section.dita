@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- This file is part of the DITA Training project hosted on
      github.com. See the accompanying LICENSE file for
-     applicable licenses.--> 
+     applicable licenses.-->
 <!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
 <learningAssessment id="assessment_k1d_qc2_2t" xml:lang="fr-FR">
  <title>section</title>
@@ -27,7 +27,7 @@
       <lcAnswerContent>Vrai</lcAnswerContent>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect>La DITA n'autorise pas l'emboîtement des éléments
+    <lcFeedbackIncorrect>DITA n'autorise pas l'emboîtement des éléments
      &lt;section>.</lcFeedbackIncorrect>
    </lcTrueFalse>
   </lcInteraction>

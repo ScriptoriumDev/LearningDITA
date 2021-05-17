@@ -44,7 +44,7 @@
                     <cmd>Ajoutez une balise &lt;topichead> avant le &lt;topicref> référençant
                         t_creer_table.dita et ajoutez une balise de fermeture &lt;/topichead> après
                         le &lt;topicref> référençant t_modifier_table.dita comme le montre l'exemple
-                        suivant :</cmd>
+                        suivant&#xA0;:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
@@ -65,7 +65,7 @@
                 <step>
                     <cmd>Ajoutez un élément &lt;topicmeta> après l'élément ouvrant &lt;topichead>
                         que vous venez d'ajouter et ajoutez-y un élément &lt;navtitle> comme le
-                        montre l'exemple suivant :</cmd>
+                        montre l'exemple suivant&#xA0;:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">

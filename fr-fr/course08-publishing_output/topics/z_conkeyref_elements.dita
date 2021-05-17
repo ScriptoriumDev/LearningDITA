@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<topic id="topic_nxn_1t4_tx">
+  <title>Éléments conkeyref pour une réutilisation avancée</title>
+  <body>
+    <!-- List the folders that are in the sample zip file for this course. -->
+    <!-- This content is pulled in by conkeyref to the reusable housekeeping file. -->
+    <p id="folder_contents">Le dossier d'exemples contient deux dossiers&#xA0;:
+        <filepath>canards</filepath> et <filepath>extensions</filepath>. <ul>
+        <li>Le dossier <filepath>canards</filepath> contient une carte DITA, une bookmap, un dossier
+          d'images et 11 fichiers de rubriques DITA. Vous les utilisez pour tester les aspects de la
+          publication à partir de sources DITA</li>
+        <li>Le dossier <filepath>extensions</filepath> contient une seule archive
+            (<filepath>com.learningdita.ld_xhtml.zip</filepath>), qui est une extension DITA. Vous
+          l’utilisez pour explorer comment travailler avec des extensions personnalisées.</li>
+      </ul></p>
+  </body>
+</topic>

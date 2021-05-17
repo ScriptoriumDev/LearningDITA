@@ -4,7 +4,7 @@
      applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_rxt_zl5_vr3">
-    <title>Comment utiliser les métadonnées ?</title>
+    <title>Comment utiliser les métadonnées&#xA0;?</title>
     <prolog>
         <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe,
             Scriptorium</author>
@@ -20,17 +20,17 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>Vous pouvez assigner des métadonnées au contenu DITA en plusieurs endroits différents
-                    :<ul id="ul_tnc_cgw_wr">
+            <p>Vous pouvez assigner des métadonnées au contenu DITA en plusieurs endroits
+                    différents&#xA0;:<ul id="ul_tnc_cgw_wr">
                     <li>Au niveau de la rubrique</li>
                     <li>Au niveau de l'élément</li>
                     <li>Au niveau du fichier carte (un fichier carte vous permet de collecter
-                        plusieurs rubriques pour créer un document, un système d'aide, etc ; un
-                        module ultérieur explique plus en détail les fichiers carte)</li>
+                        plusieurs rubriques pour créer un document, un système d'aide, etc.&#xA0;;
+                        un module ultérieur explique plus en détail les fichiers carte)</li>
                 </ul></p>
             <p>Au niveau des rubriques, DITA fournit un élément &lt;prolog> dans lequel vous pouvez
-                stocker des métadonnées pour l’ensemble du sujet. Voici un exemple de métadonnées
-                des thèmes de base :</p>
+                stocker des métadonnées pour l’ensemble de la rubrique. Voici un exemple de
+                métadonnées des rubriques de base&#xA0;:</p>
             <pre>&lt;topic id="xyz">
   &lt;title>Exemple de Métadonnées&lt;/title>
   &lt;prolog>
@@ -45,7 +45,7 @@
 &lt;/topic></pre>
             <p>L'auteur est spécifié dans l'élément &lt;author>, et &lt;critdates> fournit un
                 emplacement pour les éléments date &lt;created> et &lt;revised>.</p>
-            <p>Certains éléments utiles du prologue sont :<ul id="ul_mjh_2lw_wr">
+            <p>Certains éléments utiles du prologue sont&#xA0;:<ul id="ul_mjh_2lw_wr">
                     <li>&lt;author> (l'auteur du contenu)</li>
                     <li>&lt;critdates> (dates critiques telles que &lt;created> et
                         &lt;revised>)</li>
@@ -57,10 +57,10 @@
                 informations système, telles que l'auteur et les dates de création / révision. DITA
                 n'utilise pas les métadonnées &lt;prolog> pour filtrer les rubriques.</note>
             <p>Au niveau élément, vous utilisez généralement des attributs dans les éléments pour
-                spécifier les métadonnées. Voici un exemple :</p>
+                spécifier les métadonnées. Voici un exemple&#xA0;:</p>
             <pre>&lt;step>
-    &lt;cmd>Localisez la boîte de purée pour canard.&lt;/cmd>
-    &lt;info <b>audience="novice"</b>>Consultez le côté de la boîte de purée de canard pour déterminer 
+    &lt;cmd>Localiser la boîte de purée pour canard.&lt;/cmd>
+    &lt;info <b>audience="novice"</b>>Consulter le côté de la boîte de purée de canard pour déterminer 
                 la quantité de purée dont vos canards ont besoin.&lt;/info>
 &lt;/step>
 &lt;step>
@@ -76,22 +76,22 @@
                 <draft-comment author="okeefe">besoin d'une vidéo ici</draft-comment>
             </p>
             <p>Seuls les novices doivent se rappeler que la boîte fournit des mesures. Lorsque vous
-                générez votre sortie, vous pouvez supprimer l'élément &lt;info> avec les métadonnées
-                audience="novice" pour un public de niveau expert.</p>
+                générez votre publication, vous pouvez supprimer l'élément &lt;info> avec les
+                métadonnées audience="novice" pour un public de niveau expert.</p>
             <p>Au niveau de la carte, vous pouvez spécifier des métadonnées dans les éléments
-                &lt;topicref> faisant référence à des thèmes. Cela vous permet de supprimer des
-                thèmes entiers lorsque vous générez une sortie. Voici un exemple :</p>
+                &lt;topicref> faisant référence à des rubriques. Cela vous permet de supprimer des
+                rubriques entières lorsque vous générez une publication. Voici un exemple&#xA0;:</p>
             <pre>&lt;topicref href="abc.dita">
 &lt;topicref href="def.dita" <b>audience="novice"</b>></pre>
             <p>Par défaut, DITA vous fournit trois attributs prenant en charge le filtrage ou le
-                traitement conditionnel. Ce sont :<ul id="ul_qnb_2kw_wr">
+                traitement conditionnel. Ce sont&#xA0;:<ul id="ul_qnb_2kw_wr">
                     <li>audience</li>
                     <li>product</li>
                     <li>platform</li>
                 </ul></p>
             <p>Si vous avez besoin d'attributs de filtrage supplémentaires ou différents, votre
-                architecte d'informations devra recourir à la spécialisation pour définir des
-                métadonnées supplémentaires. Certaines exigences communes sont :<ul
+                architecte d'information devra recourir à la spécialisation pour définir des
+                métadonnées supplémentaires. Certaines exigences communes sont&#xA0;:<ul
                     id="ul_byw_fkw_wr">
                     <li>customer, pour une information spécifique client</li>
                     <li>region, pour des informations qui ne s'appliquent qu'à des zones

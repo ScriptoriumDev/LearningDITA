@@ -19,17 +19,17 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcSingleSelect id="1">
-    <lcQuestion>Pour être valide, une rubrique doit avoir : (Choisir une réponse)</lcQuestion>
+    <lcQuestion>Pour être valide, une rubrique doit avoir&#xA0;: (choisir une réponse)</lcQuestion>
     <lcAnswerOptionGroup>
      <lcAnswerOption>
-      <lcAnswerContent>un élément title</lcAnswerContent>
+      <lcAnswerContent>Un élément title</lcAnswerContent>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>un élément title et un attribut id</lcAnswerContent>
+      <lcAnswerContent>Un élément title et un attribut id</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>un attribut href</lcAnswerContent>
+      <lcAnswerContent>Un attribut href</lcAnswerContent>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
    </lcSingleSelect>

@@ -24,7 +24,7 @@
                         href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/glossgroup.html"
                         format="html" scope="external">norme OASIS DITA version 1.2</xref>.</p>
             </note>
-            <p><xref href="https://youtu.be/csP8WUT7EEs" format="html" scope="external">Vidéo :
+            <p><xref href="https://youtu.be/csP8WUT7EEs" format="html" scope="external">Vidéo&#xA0;:
                     Créer un groupe de glossaire DITA</xref></p>
         </lcInstruction>
     </learningContentbody>
@@ -40,7 +40,7 @@
                             texte plutôt qu'en mode auteur ou visuel.</note>
                     </info>
                     <stepxmp>
-                        <p>Vous devriez voir ceci :</p>
+                        <p>Vous devriez voir ceci&#xA0;:</p>
                         <pre>&lt;?xml version="1.0" encoding="utf-8"?>
 &lt;!DOCTYPE glossgroup PUBLIC "-//OASIS//DTD DITA Glossary Group//EN" "glossgroup.dtd">
 &lt;glossgroup id="equipement_canard">
@@ -50,13 +50,13 @@
                     </stepxmp>
                     <info>
                         <p>La première ligne (qui commence par <tt>&lt;?xml</tt>) est une
-                            déclaration XML, qui est une partie standard de tous les fichiers
+                            déclaration XML, qui est une partie standard à tous les fichiers
                             XML.</p>
                         <p>La deuxième ligne est la déclaration DOCTYPE, qui indique aux éditeurs ou
-                            aux générateurs de sortie DITA qu'il s'agit d'un groupe de glossaire
-                            DITA. Les programmes utilisent ensuite cette information pour valider le
-                            contenu de la rubrique. Le DOCTYPE sera spécifique à chaque type de
-                            rubrique que vous créez.</p>
+                            aux générateurs de publication DITA qu'il s'agit d'un groupe de
+                            glossaire DITA. Les programmes utilisent ensuite cette information pour
+                            valider le contenu de la rubrique. Le DOCTYPE sera spécifique à chaque
+                            type de rubrique que vous créez.</p>
                         <p>La troisième ligne contient la balise d'ouverture de l'élément
                             &lt;glossgroup>. L'attribut id associé à l'élément &lt;glossgroup> est
                             obligatoire. </p>
@@ -76,12 +76,13 @@
                     </stepxmp>
                     <info>
                         <p>Bien que l'élément &lt;title> soit requis dans le cadre du modèle de
-                            contenu, vous n'avez pas nécessairement besoin d'ajouter du contenu.</p>
+                            contenu, vous n'avez pas nécessairement besoin d'y ajouter du
+                            contenu.</p>
                     </info>
                 </step>
                 <step>
-                    <cmd>After the &lt;title> element, add four &lt;glossentry> elements with id
-                        attributes.</cmd>
+                    <cmd>Après l'élément &lt;title>, ajoutez quatre éléments &lt;glossentry> avec
+                        des attributs id.</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE glossgroup PUBLIC "-//OASIS//DTD DITA Glossary Group//EN" "glossgroup.dtd">
@@ -97,7 +98,7 @@
                 </step>
                 <step>
                     <cmd>À l'intérieur de chaque élément &lt;glossentry>, ajoutez un élément
-                        &lt;glossterm> et renseignez les attributes id.</cmd>
+                        &lt;glossterm> et renseignez les attributs id.</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE glossgroup PUBLIC "-//OASIS//DTD DITA Glossary Group//EN" "glossgroup.dtd">

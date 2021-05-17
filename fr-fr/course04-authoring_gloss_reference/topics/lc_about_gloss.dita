@@ -18,7 +18,7 @@
         <lcIntro>
             <p>Utilisez une entrée de glossaire pour définir un terme ou un concept spécifique
                 contenu dans votre contenu.</p>
-            <p>Chaque entrée du glossaire contient un seul terme et sa définition. Cela signifie que
+            <p>Chaque entrée de glossaire contient un seul terme et sa définition. Cela signifie que
                 chaque entrée de glossaire constitue un fichier séparé.</p>
             <p>Dans certains cas, le fait de conserver un fichier pour chaque entrée de glossaire
                 peut être un inconvénient. Ainsi, lorsqu'il serait avantageux de conserver plusieurs
@@ -29,11 +29,11 @@
                 l'idée d'avoir chaque terme du glossaire dans une rubrique DITA séparée (en d'autres
                 termes, un fichier séparé) semble très problématique. Mais il existe un certain
                 nombre de bonnes raisons pour maintenir les entrées de glossaire en tant que
-                rubriques séparées :</p>
+                rubriques séparées&#xA0;:</p>
             <ul id="ul_edj_y5g_vt">
                 <li dir="ltr">
                     <p dir="ltr"><b>Réutilisation</b>. Une fois que vous avez créé vos entrées de
-                        glossaire, vous - ou toute autre personne de votre équipe - pouvez utiliser
+                        glossaire, vous – ou toute autre personne de votre équipe – pouvez utiliser
                         ces mêmes entrées de glossaire dans plusieurs produits. Si les entrées de
                         glossaire sont incluses dans un groupe de glossaire, elles sont beaucoup
                         plus difficiles à réutiliser. </p>

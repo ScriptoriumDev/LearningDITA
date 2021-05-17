@@ -18,7 +18,7 @@
     <learningContentbody>
         <lcInstruction>
             <p>DITA utilise plusieurs éléments pour le style intégré, ou le style des morceaux de
-                texte à l'intérieur d'un paragraphe :</p>
+                texte à l'intérieur d'un paragraphe&#xA0;:</p>
             <simpletable frame="all" relcolwidth="1.0* 1.0*" id="simpletable_brx_sl4_2t">
                 <strow>
                     <stentry>
@@ -49,7 +49,7 @@
                         <p>&lt;term></p>
                     </stentry>
                     <stentry>
-                        <p>un mot ou une phrase qui nécessite une définition</p>
+                        <p>un mot ou une phrase qui a besoin d'une définition</p>
                     </stentry>
                 </strow>
                 <strow>
@@ -57,7 +57,7 @@
                         <p>&lt;cite></p>
                     </stentry>
                     <stentry>
-                        <p>un mot ou une phrase qui nécessite une citation</p>
+                        <p>un mot ou une phrase qui a besoin d'une citation</p>
                     </stentry>
                 </strow>
                 <strow>
@@ -86,14 +86,14 @@
                     </stentry>
                 </strow>
             </simpletable>
-            <p>Les éléments intégrés &lt;b>, &lt;i>, et &lt;u> sont familiers et faciles à utiliser.
+            <p>Les éléments intégrés &lt;b>, &lt;i> et &lt;u> sont familiers et faciles à utiliser.
                 Cependant, comme ils sont étroitement liés à l'apparence du texte, il est facile
                 d'en faire un mauvais usage et de faire échouer l'objectif de séparation du contenu
-                et du formatage. Utilisez ces éléments avec parcimonie ; dans la plupart des cas, il
-                vaut mieux utiliser des éléments plus significatifs à la place, tels que les
-                éléments &lt;term>, &lt;cite>, ou &lt;varname>.</p>
+                et du formatage. Utilisez ces éléments avec parcimonie&#xA0;; dans la plupart des
+                cas, il vaut mieux utiliser des éléments plus significatifs à la place, tels que les
+                éléments &lt;term>, &lt;cite> ou &lt;varname>.</p>
             <p>Dans les exemples suivants, vous apprendrez comment insérer les éléments simples
-                &lt;b>, &lt;i>, et &lt;u> d'abord, puis comment les remplacer par d'autres solutions
+                &lt;b>, &lt;i> et &lt;u> d'abord, puis comment les remplacer par d'autres solutions
                 sémantiquement riches.</p>
         </lcInstruction>
     </learningContentbody>
@@ -111,7 +111,7 @@
                         </note>
                     </info>
                     <stepxmp>
-                        <p>Vous devriez voir ceci :</p>
+                        <p>Vous devriez voir ceci&#xA0;:</p>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="concept_elements">
@@ -122,8 +122,8 @@
                     </stepxmp>
                 </step>
                 <step>
-                    <cmd>Ajoutez un élément &lt;p> contenant les éléments &lt;b>, &lt;i>, et &lt;u>
-                        comme indiqué dans l'exemple suivant :</cmd>
+                    <cmd>Ajoutez un élément &lt;p> contenant les éléments &lt;b>, &lt;i> et &lt;u>
+                        tel que présenté dans l'exemple suivant&#xA0;:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
@@ -137,18 +137,18 @@ pendant les &lt;u>deux premières semaines&lt;/u> de leur vie.&lt;/p></ph>
 &lt;/concept></pre>
                     </stepxmp>
                     <info>En ajoutant l'élément &lt;b> à ce paragraphe, vous avez indiqué que les
-                        mots "accès permanent" devraient être en gras. De même, en ajoutant
-                        l'élément &lt;i>, vous avez indiqué que les mots "nourriture" et "eau"
-                        devraient être en italique, et en ajoutant l'élément &lt;u>, vous avez
-                        indiqué que les mots "deux premières semaines" devraient être
-                        soulignés.</info>
+                        mots «&#xA0;accès permanent&#xA0;» devraient être en gras. De même, en
+                        ajoutant l'élément &lt;i>, vous avez indiqué que les mots
+                        «&#xA0;nourriture&#xA0;» et «&#xA0;eau&#xA0;» devraient être en italique, et
+                        en ajoutant l'élément &lt;u>, vous avez indiqué que les mots «&#xA0;deux
+                        premières semaines&#xA0;» devraient être soulignés.</info>
                     <info>Bien que ces éléments intégrés ajoutent de l'importance aux mots
                         importants, ils n'ont aucune autre valeur sémantique. Supposons que vous
-                        vouliez définir les mots "accès permanent" plus tard, ou les styliser de la
-                        même manière que d'autres mots décrivant la fréquence d'alimentation. Plutôt
-                        que d'utiliser l'élément &lt;b> pour marquer les mots simplement comme étant
-                        en gras, vous pourriez utiliser l'élément &lt;term> pour les marquer comme
-                        étant un terme important.</info>
+                        vouliez définir les mots «&#xA0;accès permanent&#xA0;» plus tard, ou les
+                        styliser de la même manière que d'autres mots décrivant la fréquence
+                        d'alimentation. Plutôt que d'utiliser l'élément &lt;b> pour marquer les mots
+                        simplement comme étant en gras, vous pourriez utiliser l'élément &lt;term>
+                        pour les marquer comme étant un terme important.</info>
                     <info>Il existe d'autres solutions similaires, plus riches sur le plan
                         sémantique, pour les éléments &lt;i> et &lt;u>, comme vous le verrez dans la
                         prochaine étape.</info>
@@ -156,8 +156,8 @@ pendant les &lt;u>deux premières semaines&lt;/u> de leur vie.&lt;/p></ph>
                 <step>
                     <cmd>Après l'élément &lt;p>, ajoutez un autre élément contenant le même texte
                         que le paragraphe précédent, avec l'élément &lt;b> changé en &lt;term>,
-                        l'élément &lt;i> changé en &lt;cite>, et l'élément &lt;u> changé en
-                        &lt;varname>, comme le montre l'exemple suivant :</cmd>
+                        l'élément &lt;i> changé en &lt;cite> et l'élément &lt;u> changé en
+                        &lt;varname>, tel que présenté dans l'exemple suivant&#xA0;:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
@@ -170,20 +170,21 @@ pendant les &lt;u>deux premières semaines&lt;/u> de leur vie.&lt;/p></ph>
 &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
-                    <info>Dans cet exemple, vous avez marqué "accès permanent" avec l'élément
-                        &lt;term> pour montrer qu'il s'agit d'un terme qui devrait être défini plus
-                        tard. Vous avez marqué "nourriture" et "eau" avec l'élément &lt;cite> pour
-                        montrer qu'il s'agit de mots qui pourraient faire l'objet de citations
-                        bibliographiques si vous en avez besoin. Enfin, vous avez marqué "deux
-                        premières semaines" avec l'élément &lt;varname> pour montrer qu'il peut être
-                        nécessaire de les remplacer par d'autres informations basées sur la
-                        situation de l'utilisateur (par exemple, certaines races de canards peuvent
-                        avoir besoin accès à la nourriture et à l'eau 24 heures sur 24 pendant plus
-                        de deux semaines).</info>
+                    <info>Dans cet exemple, vous avez marqué «&#xA0;accès permanent&#xA0;» avec
+                        l'élément &lt;term> pour montrer qu'il s'agit d'un terme qui devrait être
+                        défini plus tard. Vous avez marqué «&#xA0;nourriture&#xA0;» et
+                        «&#xA0;eau&#xA0;» avec l'élément &lt;cite> pour montrer qu'il s'agit de mots
+                        qui pourraient faire l'objet de citations bibliographiques si vous en avez
+                        besoin. Enfin, vous avez marqué «&#xA0;deux premières semaines&#xA0;» avec
+                        l'élément &lt;varname> pour montrer qu'il peut être nécessaire de les
+                        remplacer par d'autres informations basées sur la situation de l'utilisateur
+                        (par exemple, certaines races de canards peuvent avoir besoin d'un accès à
+                        la nourriture et à l'eau 24 heures sur 24 pendant plus de deux
+                        semaines).</info>
                 </step>
                 <step>
                     <cmd>Après le dernier élément &lt;p>, ajoutez un autre élément &lt;p> contenant
-                        un élément &lt;sub> comme indiqué dans l'exemple suivant :</cmd>
+                        un élément &lt;sub> tel que présenté dans l'exemple suivant&#xA0;:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
@@ -197,15 +198,14 @@ H&lt;sub>2&lt;/sub>O pour garder leur bec propre.&lt;/p></ph>
 &lt;/concept></pre>
                     </stepxmp>
                     <info>L'élément &lt;sub> est utilisé pour baliser le texte en indice, ou le
-                        texte qui apparaît plus petit et légèrement en dessous de la ligne
-                        principale. Dans l'exemple que vous avez ajouté, l'élément &lt;sub> est
-                        utilisé pour s'assurer que le "2" dans H<sub>2</sub>O est affiché en
+                        texte apparaît plus petit et légèrement en dessous de la ligne principale.
+                        Dans l'exemple que vous avez ajouté, l'élément &lt;sub> est utilisé pour
+                        s'assurer que le «&#xA0;2&#xA0;» dans H<sub>2</sub>O est affiché en
                         indice.</info>
                 </step>
                 <step>
-                    <cmd>Après le dernier élément de &lt;p>, ajoutez un autre élément de &lt;p>
-                        contenant un élément de &lt;sup> comme indiqué dans l'exemple suivant
-                        :</cmd>
+                    <cmd>Après le dernier élément &lt;p>, ajoutez un autre élément &lt;p> contenant
+                        un élément &lt;sup> tel que présenté dans l'exemple suivant&#xA0;:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
@@ -219,14 +219,15 @@ récipients en plastique recyclés, ou acheter des plats préparés sur E-Z-Feed
 &lt;/concept></pre>
                     </stepxmp>
                     <info>L'élément &lt;sup> est utilisé pour baliser le texte en exposant, ou le
-                        texte qui apparaît plus petit et légèrement au-dessus de la ligne
-                        principale. Dans l'exemple que vous avez ajouté, l'élément &lt;sup> est
-                        utilisé pour indiquer que le "2" (symbole pour "au carré") dans le nom de
-                        l'entreprise d'aliments pour canards ("E-Z-Feed<sup>2</sup>") doit être
-                        affiché en exposant.<note>N'utilisez pas d'éléments &lt;sup> pour créer des
-                            nombres en relief pour les notes de bas de page. Utilisez plutôt
-                            l'élément DITA &lt;fn> (note de bas de page), que nous aborderons plus
-                            loin dans cette leçon.</note></info>
+                        texte apparaît plus petit et légèrement au-dessus de la ligne principale.
+                        Dans l'exemple que vous avez ajouté, l'élément &lt;sup> est utilisé pour
+                        indiquer que le «&#xA0;2&#xA0;» (symbole pour «&#xA0;au carré&#xA0;») dans
+                        le nom de l'entreprise d'aliments pour canards
+                        («&#xA0;E-Z-Feed<sup>2</sup>&#xA0;») doit être affiché en
+                            exposant.<note>N'utilisez pas d'éléments &lt;sup> pour créer des nombres
+                            en relief pour les notes de bas de page. Utilisez plutôt l'élément DITA
+                            &lt;fn> (note de bas de page), que nous aborderons plus loin dans cette
+                            leçon.</note></info>
                 </step>
             </steps>
         </taskbody>

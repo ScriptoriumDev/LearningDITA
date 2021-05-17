@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- This file is part of the DITA Training project hosted on
      github.com. See the accompanying LICENSE file for
      applicable licenses.-->
@@ -19,8 +19,8 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcTrueFalse id="md6">
-    <lcQuestion>Les métadonnées stockées dans l'élément prologue sont des informations sur la rubrique
-     entière.</lcQuestion>
+    <lcQuestion>Les métadonnées stockées dans l'élément &lt;prolog> sont des informations sur la
+     rubrique entière.</lcQuestion>
     <lcAnswerOptionGroup>
      <lcAnswerOption>
       <lcAnswerContent>Vrai</lcAnswerContent>
@@ -30,9 +30,9 @@
       <lcAnswerContent>Faux</lcAnswerContent>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect>Le prologue est au niveau de la rubrique. Pour une métadonnée de niveau élément,
-     utilisez les attributs de l'élément. Souvenez-vous que vous ne pouvez pas filtrer efficacement
-     sur une métadonnée du prologue.</lcFeedbackIncorrect>
+    <lcFeedbackIncorrect>Le prologue est au niveau de la rubrique. Pour une métadonnée de niveau
+     élément, utilisez les attributs de l'élément. Souvenez-vous que vous ne pouvez pas filtrer
+     efficacement sur une métadonnée du prologue.</lcFeedbackIncorrect>
    </lcTrueFalse>
   </lcInteraction>
  </learningAssessmentbody>

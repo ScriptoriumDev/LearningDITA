@@ -20,7 +20,7 @@
     <lcInteraction>
       <lcSingleSelect id="links9">
         <lcQuestion>Pour créer un lien vers une page internet, utilisez la syntaxe suivante
-          :</lcQuestion>
+         &#xA0;:</lcQuestion>
         <lcAnswerOptionGroup>
           <lcAnswerOption>
             <lcAnswerContent>&lt;xref href="http://www.scriptorium.com" scope="external"
@@ -36,7 +36,7 @@
           </lcAnswerOption>
         </lcAnswerOptionGroup>
         <lcFeedbackIncorrect>Vous avez besoin des attributs scope et format. Il n'y a pas d'attribut
-          link dans un xref ; vous utilisez l'attribut href.</lcFeedbackIncorrect>
+          link dans un xref&#xA0;; vous utilisez l'attribut href.</lcFeedbackIncorrect>
       </lcSingleSelect>
     </lcInteraction>
   </learningAssessmentbody>
