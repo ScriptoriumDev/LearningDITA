@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="lc_creating_a_map">
+    <title>Générer les publications</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Noelle Russell, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Ashley Stant, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Bill Swallow, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Jake Campbell, Scriptorium</author>
+        <author type="contributor" href="https://www.linkedin.com/in/marinemartinguillerez/"
+            scope="external" format="html" class="- topic/author ">Marine Martin-Guillerez
+            (Traductrice)</author>
+        <critdates>
+            <created golive="2017-03-27" date="2017-02-06"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup id="lcObjectivesGroup_tvl_vbh_1t">
+                <lcObjective>Générer une publication PDF de base en utilisant DITA OT</lcObjective>
+                <lcObjective>Générer une publication HTML de base en utilisant DITA OT</lcObjective>
+                <lcObjective>Résoudre les problèmes courants de génération de publication à l’aide
+                    de l’OT</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="45"/>
+        </lcDuration>
+        <lcIntro>
+            <p>Cette leçon montre comment publier du contenu DITA aux formats PDF et HTML à l’aide
+                de DITA OT.</p>
+        </lcIntro>
+    </learningContentbody>
+    <related-links>
+        <!--<link href="http://dita.xml.org/wiki/plugins-for-the-dita-open-toolkit" format="html">
+            <linktext>Plugins for the DITA Open Toolkit</linktext>
+        </link> lien mort-->
+        <link href="http://www.dita-ot.org/2.4/parameters/index.html" format="html">
+            <linktext>DITA Open Toolkit Parameter Reference</linktext>
+        </link>
+        <link
+            href="http://www.scriptorium.com/2013/03/webcast-pros-and-cons-of-the-dita-open-toolkit/"
+            format="html">
+            <linktext>Webcast&#xA0;: Les plus et les moins de DITA Open Toolkit</linktext>
+        </link>
+        <link href="https://www.slideshare.net/Scriptorium/demystifying-dita-to-pdf-publishing"
+            format="html">
+            <linktext>Démystifier la publication PDF à partir de DITA</linktext>
+        </link>
+        <!--<link href="https://www.infomanagementcenter.com/publications/e-newsletter/may-2014/dita-vs-xhtml-for-producing-content/"
+            format="html">
+            <linktext>DITA vs. XHTML for Producing Content</linktext>
+        </link> lien mort-->
+    </related-links>
+</learningContent>

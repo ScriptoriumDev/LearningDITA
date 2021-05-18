@@ -60,7 +60,7 @@
                     </stentry>
                 </strow>
             </simpletable>
-            <p><xref href="https://youtu.be/Szfp056HCK0" format="html" scope="external">Vidéo :
+            <p><xref href="https://youtu.be/Szfp056HCK0" format="html" scope="external">Vidéo&#xA0;:
                     Ajouter des étapes à une tâche DITA</xref></p>
         </lcInstruction>
     </learningContentbody>
@@ -86,10 +86,10 @@
 &lt;/task></pre>
                     </stepxmp>
                     <info>
-                        <p>Comme avec les éléments &lt;prereq> et &lt;context>, le &lt;taskbody> ne
-                            peut contenir qu'un élément &lt;steps>. Vous restreindre à un seul
-                            élément &lt;steps> vous assure que la rubrique décrit uniquement comment
-                            réaliser une tâche.</p>
+                        <p>Comme avec les éléments &lt;prereq> et &lt;context>, l'élément
+                            &lt;taskbody> ne peut contenir qu'un élément &lt;steps>. Vous
+                            restreindre à un seul élément &lt;steps> vous assure que la rubrique
+                            décrit uniquement comment réaliser une tâche.</p>
                     </info>
                 </step>
                 <step>
@@ -111,16 +111,16 @@
                 </step>
                 <stepsection>
                     <p>Avec DITA, le contenu de chaque étape individuelle est aussi hautement
-                        controllé ; chaque étape a un ensemble spécifique d'éléments, qui doit
+                        controllé&#xA0;; chaque étape a un ensemble spécifique d'éléments, qui doit
                         apparaître dans un ordre spécifique. L'action que le lecteur doit réaliser
-                        est contenue dans un élément &lt;cmd> (lu comme « commande »), qui est un
-                        élément requis dans &lt;step>. Dans la plupart des cas, &lt;cmd> contient
-                        une simple phrase, qui est une instruction directe faite au lecteur pour
-                        réaliser une action.</p>
+                        est contenue dans un élément &lt;cmd> (lu comme «&#xA0;commande&#xA0;»), qui
+                        est un élément requis dans &lt;step>. Dans la plupart des cas, &lt;cmd>
+                        contient une simple phrase, qui est une instruction directe faite au lecteur
+                        pour réaliser une action.</p>
                 </stepsection>
                 <step>
                     <cmd>À l'intérieur de l'élément &lt;step>, ajoutez un élément &lt;cmd> avec le
-                        texte indiqué ici.</cmd>
+                        texte présenté ici.</cmd>
                     <stepxmp>
                         <pre>...
       &lt;steps>
@@ -157,8 +157,8 @@
                     <info>
                         <p>L'élément &lt;info> peut contenir du texte, des notes, des images, des
                             tableaux, etc. Comme pour les autres éléments pouvant contenir du
-                            contenu mixte, les meilleures pratiques vous impose d'utiliser un
-                            élément &lt;p> pour englober le texte, même si l'élément &lt;info> ne
+                            contenu mixte, les meilleures pratiques vous imposent d'utiliser un
+                            élément &lt;p> pour encadrer le texte, même si l'élément &lt;info> ne
                             contient qu'un paragraphe.</p>
                         <p>Les autres rubriques de cette leçon introduisent des éléments
                             supplémentaires que vous pouvez utiliser pour documenter l'étape.</p>

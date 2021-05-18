@@ -18,7 +18,8 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcSingleSelect id="lcSingleSelect_eh4_bbb_dt">
-    <lcQuestion>Combien de fois l'élément &lt;steps> est-il autorisé dans une tâche stricte ? (sélectionner une réponse)</lcQuestion>
+    <lcQuestion>Combien de fois l'élément &lt;steps> est-il autorisé dans une tâche stricte&#xA0;?
+     (choisir une réponse)</lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_fh4_bbb_dt">
      <lcAnswerOption>
       <lcAnswerContent>Aucune</lcAnswerContent>
@@ -34,7 +35,8 @@
       <lcAnswerContent>Une ou plus</lcAnswerContent>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect>Une tâche stricte peut contenir exactement un élément &lt;steps>.</lcFeedbackIncorrect>
+    <lcFeedbackIncorrect>Une tâche stricte peut contenir exactement un élément
+     &lt;steps>.</lcFeedbackIncorrect>
    </lcSingleSelect>
   </lcInteraction>
  </learningAssessmentbody>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_ls3_2yg_vt" xml:lang="fr-FR">
-    <title>Organiser les entrées du glossaire dans une carte</title>
+    <title>Organiser les entrées de glossaire dans une carte</title>
     <prolog>
         <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
             Scriptorium</author>
@@ -14,10 +14,10 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>En général, les entrées du glossaire sont regroupés dans un ou plusieurs fichiers
+            <p>En général, les entrées de glossaire sont regroupées dans un ou plusieurs fichiers
                 cartes DITA. Le contenu des fichiers cartes et leur organisation dépendent largement
-                des besoins de votre organisation et des capacités de transformation de votre sortie
-                DITA. Si vous disposez d'une transformation de sortie robuste, vous aurez plus
+                des besoins de votre organisation et des capacités de transformation de votre
+                publication DITA. Si vous disposez d'une transformation robuste, vous aurez plus
                 d'options dans la façon dont vous pouvez structurer vos fichiers cartes pour votre
                 glossaire.</p>
             <p>La stratégie la plus simple pour l'organisation d'un glossaire consiste à créer un
@@ -31,10 +31,11 @@
    ...
 &lt;/map&gt;</pre>
             <p>Si le contenu de ce fichier carte unique pour le glossaire est classé par ordre
-                alphabétique, vous pouvez générer un glossaire utilisable avec les types de sortie
-                DITA standard sans avoir à trier les entrées dans la transformation de sortie.</p>
+                alphabétique, vous pouvez générer un glossaire utilisable avec les types de
+                publication DITA standard sans avoir à trier les entrées dans la transformation de
+                sortie.</p>
             <note>Le contenu de l'élément &lt;title> dans ce fichier de carte est surtout là pour
-                aider les auteurs. Si cette carte du glossaire sera utilisée dans d'autres cartes,
+                aider les auteurs. Si cette carte de glossaire sera utilisée dans d'autres cartes,
                 le contenu de l'élément &lt;title> est ignoré lorsque les cartes sont
                 fusionnées.</note>
             <p>Une fois que vous avez créé cette carte de glossaire, vous pouvez l'inclure dans
@@ -47,7 +48,7 @@
                 style DITA pour traiter les informations du glossaire qui sont organisées de manière
                 à vous convenir et pour générer le résultat du glossaire dont vous avez besoin.</p>
             <p>Quelques points à garder à l'esprit concernant l'organisation et la production du
-                glossaire : </p>
+                glossaire&#xA0;: </p>
             <ul id="ul_dn3_n1n_vt">
                 <li>
                     <p>Si vous avez plusieurs organismes contributeurs différents, chacun d'entre
@@ -65,19 +66,18 @@
                         de glossaire séparées et les fusionner plus tard.</p>
                 </li>
                 <li>
-                    <p>Une transformation de sortie peut également incorporer des entrées de
-                        glossaire provenant de groupes de glossaire dans un glossaire de sortie.
-                    </p>
+                    <p>Une transformation peut également incorporer des entrées de glossaire
+                        provenant de groupes de glossaire dans un glossaire de sortie. </p>
                 </li>
                 <li>
                     <p>Si votre contenu doit être traduit, il est fort probable que le glossaire
-                        devra être trié en fonction de votre langue cible. Si votre transformateur
-                        de sortie se charge des tâches de tri, votre agence de localisation n'a pas
-                        à se charger du tri des entrées de glossaire traduites. </p>
+                        devra être trié en fonction de votre langue cible. Si votre outil de
+                        publication se charge des tâches de tri, votre agence de localisation n'a
+                        pas à se charger du tri des entrées de glossaire traduites. </p>
                 </li>
             </ul>
-            <p>Toutes ces situations peuvent être traitées par une transformation de sortie bien
-                conçue. </p>
+            <p>Toutes ces situations peuvent être traitées avec un outil de publication bien conçu.
+            </p>
         </lcInstruction>
     </learningContentbody>
     <task id="task_pdh_s5m_vt">
@@ -94,7 +94,7 @@
                             l'ouvrir dans l'interface d'édition.</note>
                     </info>
                     <stepxmp>
-                        <p>Vous devriez voir ceci :</p>
+                        <p>Vous devriez voir ceci&#xA0;:</p>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 &lt;map>
@@ -116,7 +116,7 @@
                     </stepxmp>
                 </step>
                 <step>
-                    <cmd>Après l'élément &lt;title>, ajouter un élément &lt;topicref>.</cmd>
+                    <cmd>Après l'élément &lt;title>, ajoutez un élément &lt;topicref>.</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
@@ -126,7 +126,7 @@
 &lt;/map>
 </pre>
                     </stepxmp>
-                    <info>Si vous utilisiez un nom différent lorsque vous avez enregistré votre
+                    <info>Si vous avez utilisé un nom différent lorsque vous avez enregistré votre
                         fichier lors de l'exercice sur les entrées de glossaire, utilisez ce nom de
                         fichier à la place de l_entreegloss.dita.</info>
                 </step>
@@ -143,7 +143,7 @@
             <steps>
                 <step>
                     <cmd>Ouvrez le fichier leçon3/l_exercice_glossaire_debut.dita et utilisez-le
-                        pour convertir en DITA le contenu suivant :</cmd>
+                        pour convertir en DITA le contenu suivant&#xA0;:</cmd>
                     <info>
                         <note>
                             <p>Bien que cet exercice utilise un seul fichier DITA pour la
@@ -166,13 +166,12 @@
 <p>Informations performantes pour les mots-clés pertinents</p>
 
 <i>contenu découvrable</i>
-<p>Les informations ayant des liens entrants, notamment sur les médias sociaux</p>
+<p>Informations ayant des liens entrants, notamment sur les médias sociaux</p>
 
 ]]></pre>
                     </info>
                 </step>
             </steps>
-
         </taskbody>
     </task>
 </learningContent>

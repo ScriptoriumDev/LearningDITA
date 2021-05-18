@@ -19,22 +19,24 @@
   <lcInteraction>
    <lcMultipleSelect id="lcSingleSelect_zhk_vmn_vt">
     <lcQuestion>Pourquoi utiliseriez-vous les identifiants des paramètres fictifs dans l'élément
-     &lt;reference> lors de la création de modèles ? (choisissez tous ceux qui
+     &lt;reference> lors de la création de modèles&#xA0;? (choisir toutes les réponses qui
      s'appliquent)</lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_n3k_vmn_vt">
      <lcAnswerOption>
-      <lcAnswerContent>Pour éviter la création accidentelle de doublons.</lcAnswerContent>
+      <lcAnswerContent>Pour éviter la création accidentelle de doublons</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>Pour s'assurer que tous les modèles seront correctement validés.</lcAnswerContent>
+      <lcAnswerContent>Pour s'assurer que tous les modèles seront correctement
+       validés</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>Pour éviter que les modèles n'entrent dans votre environnement de production.</lcAnswerContent>
+      <lcAnswerContent>Pour éviter que les modèles n'entrent dans votre environnement de
+       production</lcAnswerContent>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>Faciliter la création de contenu collaboratif.</lcAnswerContent>
+      <lcAnswerContent>Faciliter la création de contenu collaboratif</lcAnswerContent>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
    </lcMultipleSelect>

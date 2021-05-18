@@ -11,14 +11,14 @@
     de documentation technique, mais les concepteurs pédagogiques font des copier-coller au lieu
     d'établir des liens car les deux groupes utilisent des outils de création de contenu différents
     et incompatibles.</p>
-   <draft-comment> Ajouter : « Si les deux équipes s'uniformisaient sur un seul flux de travail,
+   <draft-comment> Ajouter&#xA0;: «&#xA0;Si les deux équipes s'uniformisaient sur un seul flux de travail,
     elles pourraient partager le contenu de manière transparente et éviter de nombreuses reprises
-    fastidieuses. »</draft-comment>
+    fastidieuses.&#xA0;»</draft-comment>
   </section>
   <section>
    <title>Une sortie HTML est nécessaire en plus du PDF</title>
-   <p>Votre contenu devrait ressembler à ceci en HTML :</p>
-   <codeblock>&lt;div class="p"&gt;Vous pouvez produire des contenus de grande valeur, tels que les suivants :
+   <p>Votre contenu devrait ressembler à ceci en HTML&#xA0;:</p>
+   <codeblock>&lt;div class="p"&gt;Vous pouvez produire des contenus de grande valeur, tels que les suivants&#xA0;:
 &lt;ul class="ul"&gt;
 &lt;li class="li"&gt;&lt;p class="p"&gt;Matériels de formation&lt;/p&gt;&lt;/li&gt;
 &lt;li class="li"&gt;&lt;p class="p"&gt;Livres blancs&lt;/p&gt;&lt;/li&gt;
@@ -30,13 +30,13 @@
   <section>
    <title>Le contenu technique est obsolète en raison d'un processus de mise à jour
     inefficace</title>
-   <lq>« Le processus de production des livres - la génération de tables
+   <lq>«&#xA0;Le processus de production des livres – la génération de tables
     des matières et d'index, la vérification de la pagination, la création de journaux de pages
-    modifiées et autres tâches similaires - prend beaucoup de temps. Par conséquent, les livres ne
+    modifiées et autres tâches similaires – prend beaucoup de temps. Par conséquent, les livres ne
     sont mis à jour que deux fois par an. Mais le produit change tous les trimestres, voire tous les
     mois, de sorte que la documentation technique est presque toujours périmée. Les lecteurs se
     plaignent du manque de synchronisation entre les mises à jour du produit et les mises à jour du
-    contenu. »</lq>
+    contenu.&#xA0;»</lq>
   </section>
  </conbody>
 </concept>

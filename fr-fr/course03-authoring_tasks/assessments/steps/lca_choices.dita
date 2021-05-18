@@ -18,21 +18,21 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcSingleSelect id="single_select_choices">
-    <lcQuestion>Quand cela a-t-il plus sens d'utiliser un élément &lt;choices> ? (choissisez une
-     réponse)</lcQuestion>
+    <lcQuestion>Quand cela a-t-il plus de sens d'utiliser un élément &lt;choices>&#xA0;? (choisir
+     une réponse)</lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_mpk_w5b_kt">
      <lcAnswerOption>
-      <lcAnswerContent>Quand les choix sont très complexes.</lcAnswerContent>
+      <lcAnswerContent>Quand les choix sont très complexes</lcAnswerContent>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>Quand les choix requièrent des mots-clés spécifiques.</lcAnswerContent>
+      <lcAnswerContent>Quand les choix requièrent des mots-clés spécifiques</lcAnswerContent>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>Quand les choix requièrent de longues définitions.</lcAnswerContent>
+      <lcAnswerContent>Quand les choix requièrent de longues définitions</lcAnswerContent>
      </lcAnswerOption>
      <lcAnswerOption>
       <lcAnswerContent>Quand les choix requièrent uniquement de brèves
-       descriptions.</lcAnswerContent>
+       descriptions</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
     </lcAnswerOptionGroup>

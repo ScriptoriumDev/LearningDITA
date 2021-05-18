@@ -18,13 +18,13 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>L'élément &lt;chapter> est structuré comme suit :</p>
+            <p>L'élément &lt;chapter> est structuré comme suit&#xA0;:</p>
             <pre>&lt;chapter href="chemin/nomfichier.dita"></pre>
             <p>À l'exception du nom de l'élément, la structure d'un élément &lt;chapter> correspond
                 à la structure de l'élément &lt;topicref>. Dans un élément &lt;chapter>, l'attribut
                 href contient un lien vers une rubrique qui est inclue dans la bookmap au premier
                 niveau, ou niveau chapitre.</p>
-            <p>L'élément &lt;chapter> peut contenir les éléments suivants : </p>
+            <p>L'élément &lt;chapter> peut contenir les éléments suivants&#xA0;: </p>
             <ul id="ul_oc4_2fd_3v">
                 <li>
                     <p>L'élément &lt;topicmeta>, qui défini les métadonnées sur la rubrique
@@ -61,7 +61,7 @@
                 </step>
                 <step>
                     <cmd>Après la balise de fermeture de l'élément &lt;booktitle>, ajoutez un
-                        élément &lt;chapter> et ajoutez-y du contenu comme le montre l'exemple suivant :</cmd>
+                        élément &lt;chapter> et ajoutez-y du contenu comme le montre l'exemple suivant&#xA0;:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
@@ -77,7 +77,7 @@
                 </step>
                 <step>
                     <cmd>À l'intérieur de l'élément &lt;chapter> que vous venez d'ajouter, ajoutez
-                        un élément &lt;topicref> et ajoutez-y du contenu comme le montre l'exemple suivant :</cmd>
+                        un élément &lt;topicref> et ajoutez-y du contenu comme le montre l'exemple suivant&#xA0;:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
@@ -95,7 +95,7 @@
                 </step>
                 <step>
                     <cmd>Après l'élément &lt;topicref> que vous venez d'ajouter, ajoutez deux autres
-                        éléments &lt;topicref> et ajoutez-y du contenu comme le montre l'exemple suivant :</cmd>
+                        éléments &lt;topicref> et ajoutez-y du contenu comme le montre l'exemple suivant&#xA0;:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
@@ -110,12 +110,12 @@
 &lt;/bookmap></pre>
                     </stepxmp>
                     <info>Le chapitre c_canards_sauvages.dita contient maintenant trois rubriques
-                        imbriquées : c_types_canards_sauvages.dita, c_especes_canards_sauvages.dita
+                        imbriquées&#xA0;: c_types_canards_sauvages.dita, c_especes_canards_sauvages.dita
                         et t_observer_canards_sauvages.dita.</info>
                 </step>
                 <step>
                     <cmd>Après la balise de fermeture de l'élément &lt;chapter>, ajoutez plus
-                        d'éléments &lt;chapter> et ajoutez-y du contenu comme le montre l'exemple suivant :</cmd>
+                        d'éléments &lt;chapter> et ajoutez-y du contenu comme le montre l'exemple suivant&#xA0;:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
@@ -134,7 +134,7 @@
     &lt;/chapter></ph>
 &lt;/map></pre>
                     </stepxmp>
-                    <info>La hiérarchie de la bookmap contient maintenant trois chapitres :
+                    <info>La hiérarchie de la bookmap contient maintenant trois chapitres&#xA0;:
                         c_canards_sauvages.dita, c_canards_domestiques.dita et c_canarddb.dita.
                         Chacun de ces chapitres contient plusieurs éléments &lt;topicref> imbriqués.
                         L'un de ces éléments &lt;topicref> de second niveau,
@@ -156,12 +156,12 @@
                 <step>
                     <cmd>Ouvrez le fichier exemples_cartes_bookmaps/exercices/_b_cs101_debut.ditamap
                         et utilisez-le pour assembler les rubriques dans une carte DITA, en utilisant la
-                        structure hiérarchique suivante comme guide :</cmd>
+                        structure hiérarchique suivante comme guide&#xA0;:</cmd>
                     <info>
                         <pre outputclass="passthru"><![CDATA[
                             <hr />
                             <ul>
-                            <li><strong>Chapitre 1 : Maîtriser les coûts de communication technique</strong>
+                            <li><strong>Chapitre 1&#xA0;: Maîtriser les coûts de communication technique</strong>
                                 <ul>
                                 <li>L'illusion de la documentation à faible coût</li>
                                 <li>Développement efficace du contenu technique</li>
@@ -173,12 +173,12 @@
                                 </li>
                                 <li>Collaboration en matière de contenu au sein de l'organisation
                                     <ul>
-                                    <li>« Collaboration » ≠ « contenu libre pour tous »</li>
+                                    <li>«&#xA0;Collaboration&#xA0;» ≠ «&#xA0;contenu libre pour tous&#xA0;»</li>
                                     </ul>
                                 </li>
                                 </ul>
                             </li>
-                            <li><strong>Chapitre 2 : Marketing et visibilité des produits</strong>
+                            <li><strong>Chapitre 2&#xA0;: Marketing et visibilité des produits</strong>
                                 <ul>
                                 <li>Assister le marketing avec du contenu technique
                                     <ul>
@@ -202,7 +202,7 @@
                                 </li>
                                 </ul>
                             </li>
-                            <li><strong>Chapitre 3 : Questions juridiques et réglementaires</strong>
+                            <li><strong>Chapitre 3&#xA0;: Questions juridiques et réglementaires</strong>
                                 <ul>
                                 <li>Éviter l'exposition juridique</li>
                                 <li>Répondre aux exigences réglementaires

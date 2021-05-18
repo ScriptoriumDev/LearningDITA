@@ -19,23 +19,23 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcSingleSelect id="5">
-    <lcQuestion>DITA est un standard ouvert, ce qui signifie : (Choisir une réponse)</lcQuestion>
+    <lcQuestion>DITA est un standard ouvert, ce qui signifie&#xA0;: (choisir une réponse)</lcQuestion>
     <lcAnswerOptionGroup>
      <lcAnswerOption>
-      <lcAnswerContent>Tout le monde peut l'utiliser sans payer.</lcAnswerContent>
+      <lcAnswerContent>Tout le monde peut l'utiliser sans payer</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
      <lcAnswerOption>
       <lcAnswerContent>Lorsque les mises à jour sont publiées, vous devez effectuer une mise à
-       niveau et payer ou perdre l'accès à vos informations.</lcAnswerContent>
+       niveau et payer ou perdre l'accès à vos informations</lcAnswerContent>
      </lcAnswerOption>
      <lcAnswerOption>
       <lcAnswerContent>Les mises à jour sont contrôlées par l'Organisation Internationale de
-       Normalisation (ISO - International Standards Organization).</lcAnswerContent>
+       Normalisation (ISO – International Standards Organization)</lcAnswerContent>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
     <lcFeedbackIncorrect>DITA est contrôlé par l’Organisation pour l’Avancement des Normes
-     d’Information Structurée (OASIS - Organization for the Advancement of Structured Information
+     d’Information Structurée (OASIS – Organization for the Advancement of Structured Information
      Standards). Les standards ouverts sont gratuits. </lcFeedbackIncorrect>
    </lcSingleSelect>
   </lcInteraction>

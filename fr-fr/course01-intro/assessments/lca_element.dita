@@ -19,22 +19,22 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcMultipleSelect id="6">
-    <lcQuestion>Un élément est : (Choisir toutes les réponses qui s'appliquent)</lcQuestion>
+    <lcQuestion>Un élément est&#xA0;: (choisir toutes les réponses qui s'appliquent)</lcQuestion>
     <lcAnswerOptionGroup>
      <lcAnswerOption>
-      <lcAnswerContent>une balise pour du contenu.</lcAnswerContent>
+      <lcAnswerContent>Une balise pour du contenu</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>inséré lorsque vous générez une sortie pour contrôler le
-       formatage.</lcAnswerContent>
+      <lcAnswerContent>Inséré lorsque vous générez une sortie pour contrôler le
+       formatage</lcAnswerContent>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>identifié avec des chevrons (tel que &lt;p>).</lcAnswerContent>
+      <lcAnswerContent>Identifié avec des chevrons (tel que &lt;p>)</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>un terme DITA pour l'indexation du contenu.</lcAnswerContent>
+      <lcAnswerContent>Un terme DITA pour l'indexation du contenu</lcAnswerContent>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
    </lcMultipleSelect>

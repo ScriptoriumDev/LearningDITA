@@ -23,7 +23,7 @@
     <learningContentbody>
         <lcInstruction>
             <p>Les tableaux DITA (&lt;table>) utilisent les éléments suivants pour représenter et
-                organiser les données tabulaires :</p>
+                organiser les données tabulaires&#xA0;:</p>
             <table frame="all" rowsep="1" colsep="1" id="table_uj4_tzk_ns">
                 <tgroup cols="3">
                     <colspec colname="c1" colnum="1" colwidth="1*"/>
@@ -76,7 +76,7 @@
                         <row>
                             <entry>&lt;entry></entry>
                             <entry>Contient les données d'une cellule du tableau. Peut contenir du
-                                texte ou d'autres éléments de bloc ou en-ligne.</entry>
+                                texte ou d'autres éléments de bloc ou intégrés.</entry>
                             <entry>Un élément &lt;row> peut avoir un ou plusieurs éléments
                                 &lt;entry>. </entry>
                         </row>
@@ -85,7 +85,7 @@
             </table>
             <p>Voici un exemple d'une structure minimale d'un tableau DITA (une ligne d'en-tête, une
                 ligne de corps, et trois colonnes). Notez que dans ce cas, le &lt;tgroup> spécifie
-                uniquement l'attribut cols, qui est requis :</p>
+                uniquement l'attribut cols, qui est requis&#xA0;:</p>
             <pre> &lt;table>
       &lt;tgroup cols="3">
         &lt;thead>
@@ -104,11 +104,11 @@
         &lt;/tbody>
       &lt;/tgroup>
     &lt;/table></pre>
-            <p>Le résultat ressemble à ceci :<fig>
-                <image href="../../media/tables/simplecals.png" base="2020/10"
+            <p>Le résultat ressemble à ceci&#xA0;:<fig>
+                    <image href="../../media/tables/simplecals.png" base="2020/10"
                         id="image_hk3_krt_xr"/>
                 </fig></p>
-            <p>Voici un tableau plus complexe :</p>
+            <p>Voici un tableau plus complexe&#xA0;:</p>
             <pre> &lt;table>
         &lt;title>Mon premier tableau&lt;/title>
         &lt;tgroup cols="2">
@@ -138,17 +138,17 @@
           &lt;/tbody>
         &lt;/tgroup>
       &lt;/table></pre>
-            <p>ce qui donne : </p>
+            <p>ce qui donne&#xA0;: </p>
             <fig id="fig_x2m_r34_rs">
                 <image href="../../media/tables/morecals.png" base="2020/10" id="image_twf_4rt_xr"/>
             </fig>
-            <p>Quelques notes sur le tableau :</p>
+            <p>Quelques notes sur le tableau&#xA0;:</p>
             <ul id="ul_g4v_lpt_xr">
                 <li>L'élément &lt;colspec> utilise des attributs pour spécifier les noms de colonne
                     (colname), les numéros (colnum) et les largeurs (colwidth). Dans cet exemple,
-                    les colonnes sont les largeurs sont « 1* » et « 4* ». L'astérisque indique que
-                    les paramètres sont proportionnels. La première colonne s'étend donc sur 20% de
-                    la largeur disponible et la deuxième colonne, 80%.</li>
+                    les colonnes ont des largeurs de «&#xA0;1*&#xA0;» et «&#xA0;4*&#xA0;».
+                    L'astérisque indique que les paramètres sont proportionnels. La première colonne
+                    s'étend donc sur 20% de la largeur disponible et la deuxième colonne, 80%.</li>
                 <li>Chaque ligne a un élément &lt;row> avec des éléments &lt;entry> pour chaque
                     cellule. </li>
                 <li>Notez que la ligne 2 a seulement un seul &lt;entry>. C'est parce que l'entrée
@@ -160,6 +160,37 @@
             <p>Le moyen le plus simple et le moins stressant de configurer correctement le code du
                 tableau consiste à utiliser un éditeur qui gère ces paramètres pour vous. Coder
                 manuellement les tableaux n'est pas pour les âmes sensibles.</p>
+        <p> </p>
+        <table>
+            <title>Mon premier tableau</title>
+            <tgroup cols="2">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="4*"/>
+                <thead>
+                    <row>
+                        <entry>ligne d'en-tête, colonne 1</entry>
+                        <entry>ligne d'en-tête, colonne 2</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>ligne 1, colonne 1</entry>
+                        <entry>ligne 1, colonne 2</entry>
+                    </row>
+                    <row>
+                        <entry namest="c1" nameend="c2">Cette cellule s'étend sur deux colonnes.</entry>
+                    </row>
+                    <row>
+                        <entry morerows="1">Cette cellule s'étend sur deux lignes.</entry>
+                        <entry>ligne 3, colonne 2</entry>
+                    </row>
+                    <row>
+                        <entry>ligne 4, colonne 2</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        <p> </p>
         </lcInstruction>
     </learningContentbody>
 </learningContent>

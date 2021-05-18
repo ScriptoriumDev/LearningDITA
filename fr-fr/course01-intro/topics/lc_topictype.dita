@@ -17,9 +17,9 @@
         <lcInstruction>
             <p>Tous les types de rubriques DITA sont basés sur un seul type de rubrique générique.
                 Le type de rubrique générique est utilisé comme base pour créer les types de
-                rubriques. De nombreux éléments et organisations de la rubrique générique sont
+                rubriques. De nombreux éléments et l'organisation de la rubrique générique sont
                 également utilisés par les types de rubriques spécifiques.</p>
-            <p>Toutes les rubriques DITA ont cette structure générale : </p>
+            <p>Toutes les rubriques DITA ont cette structure générale&#xA0;: </p>
             <pre>&lt;topic id="sample">
    &lt;title>Le titre de la rubrique vient ici&lt;/title>
    &lt;shortdesc>Une courte description&lt;/shortdesc>

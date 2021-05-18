@@ -14,10 +14,10 @@
     </prolog>
     <learningContentbody>
         <lcIntro>
-            <p>La spécification DITA définie deux types de tâches : une tâche stricte et une tâche
-                générale.</p>
+            <p>La spécification DITA définie deux types de tâches&#xA0;: une tâche stricte et une
+                tâche générale.</p>
             <p>Les principaux éléments dans le corps d'une tâche stricte doivent apparaître selon un
-                ordre spécifique. La tâche stricte ne peut contenir qu'un seul jeu d'étapes. En
+                ordre spécifique. La tâche stricte ne peut contenir qu'un seul ensemble d'étapes. En
                 outre, les étapes que le lecteur effectue doivent utiliser des éléments spécifiques
                 (&lt;steps> et &lt;step>).</p>
             <p>L'ordre des éléments dans une tâche générale n'est pas aussi rigide que dans une
@@ -26,18 +26,18 @@
                 dans un élément DITA &lt;section>.</p>
             <p>Bien qu'il puisse sembler plus facile de rédiger une tâche générale, il existe un
                 certain nombre de bonnes raisons pour utiliser la tâche stricte. Il s'agit notamment
-                de :</p>
+                de&#xA0;:</p>
             <ul id="ul_efs_sfx_kt">
-                <li>La cohérence. Toutes les tâches figurant dans votre ou vos documents auront la
-                    même organisation. </li>
-                <li>La fiabilité. L'organisation étant cohérente, les lecteurs peuvent compter sur
-                    le fait de trouver des informations similaires au même endroit.</li>
-                <li>La facilité de rédaction. Les éditeurs DITA peuvent orienter les auteurs vers
-                    l'élément qu'ils doivent ajouter ensuite.</li>
-                <li>La simplicité. La plupart des tâches ne nécessitent qu'un ensemble d'étapes
-                    numérotées.</li>
-                <li>La sémantique. L'utilisation des éléments &lt;steps> et &lt;step> dans la tâche
-                    stricte a une grande valeur sémantique. </li>
+                <li>La cohérence&#xA0;: Toutes les tâches figurant dans votre ou vos documents
+                    auront la même organisation </li>
+                <li>La fiabilité&#xA0;: L'organisation étant cohérente, les lecteurs peuvent compter
+                    sur le fait de trouver des informations similaires au même endroit</li>
+                <li>La facilité de rédaction&#xA0;: Les éditeurs DITA peuvent orienter les auteurs
+                    vers l'élément qu'ils doivent ajouter ensuite</li>
+                <li>La simplicité&#xA0;: La plupart des tâches ne nécessitent qu'un ensemble
+                    d'étapes numérotées</li>
+                <li>La sémantique&#xA0;: L'utilisation des éléments &lt;steps> et &lt;step> dans la
+                    tâche stricte a une grande valeur sémantique</li>
             </ul>
             <p>Ce cours se concentre sur la tâche stricte, avec l'espoir qu'une fois que vous serez
                 familiarisé avec les éléments d'une tâche stricte, il vous sera facile d'appliquer

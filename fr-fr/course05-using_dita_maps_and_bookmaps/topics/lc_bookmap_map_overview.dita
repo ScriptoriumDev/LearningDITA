@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_pgf_3gt_qt">
-    <title>Aperçu : cartes contre bookmaps</title>
+    <title>Aperçu&#xA0;: cartes contre bookmaps</title>
     <prolog>
         <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
             Scriptorium</author>
@@ -48,11 +48,11 @@
             <p>Les bookmaps vous donnent également un moyen supplémentaire de définir les
                 métadonnées avec l'élément &lt;bookmeta>. L'élément &lt;bookmeta>, qui contient des
                 informations spécifiques à la publication, ne peut être appliqué qu'à l'élément
-                &lt;bookmap> ; il n'est pas disponible dans les cartes. La possibilité d'utiliser
+                &lt;bookmap>&#xA0;; il n'est pas disponible dans les cartes. La possibilité d'utiliser
                 l'élément &lt;bookmeta> est une autre raison pour laquelle les bookmaps sont mieux
                 adaptés que les cartes pour la publication de structures semblables à des
                 livres.</p>
-            <p><xref href="https://youtu.be/1zVA2Spuy_c" format="html" scope="external">Vidéo :
+            <p><xref href="https://youtu.be/1zVA2Spuy_c" format="html" scope="external">Vidéo&#xA0;:
                     cartes et bookmaps DITA</xref></p>
         </lcInstruction>
     </learningContentbody>

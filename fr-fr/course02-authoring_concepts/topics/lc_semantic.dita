@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- This file is part of the DITA Training project hosted on
      github.com. See the accompanying LICENSE file for
-     applicable licenses.--> 
+     applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_hrm_xjh_1t" xml:lang="fr-FR">
     <title>Créer un contenu sémantiquement riche</title>
@@ -21,9 +21,9 @@
                 riche, ou un contenu dans lequel les balises d'éléments contiennent des informations
                 sur le contenu.</p>
             <p>Par exemple, l'utilisation de l'élément &lt;term> peut simplement faire apparaître un
-                mot en gras dans la sortie, mais la balise transmet beaucoup plus d'informations que
-                le simple « en caractères gras » - elle montre que ce mot est un terme qui doit être
-                défini.</p>
+                mot en gras dans la publication, mais la balise transmet beaucoup plus
+                d'informations que le simple «&#xA0;en caractères gras&#xA0;» – elle montre que ce
+                mot est un terme qui doit être défini.</p>
             <p>Pour tirer parti de la richesse sémantique de DITA, il convient de marquer chaque
                 contenu avec l'élément qui reflète le plus fidèlement la nature du contenu et la
                 manière dont il doit être utilisé. Par exemple, utilisez des éléments tels que

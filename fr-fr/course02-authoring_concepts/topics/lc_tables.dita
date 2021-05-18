@@ -21,7 +21,7 @@
                 ou plus complexe que celui que vous pouvez créer avec l'élément &lt;simpletable>. Si
                 vous avez besoin d'un titre ou d'une légende pour votre tableau, ou de plus d'une
                 ligne d'en-tête, utilisez l'élément &lt;table>.</p>
-            <p>Les éléments contenus dans l'élément &lt;table> comprennent :</p>
+            <p>Les éléments contenus dans l'élément &lt;table> comprennent&#xA0;:</p>
             <simpletable frame="all" relcolwidth="1.0* 1.0*" id="simpletable_btz_t3n_2t">
                 <strow>
                     <stentry>&lt;title></stentry>
@@ -32,7 +32,7 @@
                 <strow>
                     <stentry>&lt;tgroup></stentry>
                     <stentry>Élément contenant le contenu principal d'un élément &lt;table>.
-                        L'élément &lt;tgroup> contient les éléments &lt;colspec>, &lt;thead>, et
+                        L'élément &lt;tgroup> contient les éléments &lt;colspec>, &lt;thead> et
                         &lt;tbody>. Un élément &lt;table> peut contenir un ou plusieurs éléments
                         &lt;tgroup>.</stentry>
                 </strow>
@@ -45,13 +45,13 @@
                 </strow>
                 <strow>
                     <stentry>&lt;thead></stentry>
-                    <stentry>Élément containant l'en-tête dans un élément &lt;table>. L'élément
+                    <stentry>Élément contenant l'en-tête dans un élément &lt;table>. L'élément
                         &lt;thead> peut contenir un ou plusieurs éléments &lt;row> et est
                         facultatif.</stentry>
                 </strow>
                 <strow>
                     <stentry>&lt;tbody></stentry>
-                    <stentry>Élément contenant les rangées de corps dans un élément &lt;table>.
+                    <stentry>Élément contenant les rangées du corps dans un élément &lt;table>.
                         L'élément &lt;tbody> peut contenir un ou plusieurs éléments
                         &lt;row>.</stentry>
                 </strow>
@@ -64,8 +64,8 @@
                     <stentry>&lt;entry></stentry>
                     <stentry>Élément contenant une seule cellule dans un élément &lt;table>.
                         L'élément &lt;entry> contient le texte d'une cellule dans l'élément
-                        &lt;table>, qui doit être enveloppé dans un élément &lt;p> selon les
-                        meilleures pratiques.</stentry>
+                        &lt;table>, qui doit être encadré par un élément &lt;p> selon les meilleures
+                        pratiques.</stentry>
                 </strow>
             </simpletable>
             <p>Cette leçon couvrira les bases de l'utilisation de l'élément &lt;table>. Pour mettre
@@ -77,14 +77,14 @@
                 <image href="../media/images_and_tables/table.png" id="image_ulh_wmn_2t"
                     base="2020/10"/>
             </fig>
-            <p>Continuez à utiliser le fichier leçon2/l_concept_images_tableaux_debut.dita pour
+            <p>Continuez d'utiliser le fichier leçon2/l_concept_images_tableaux_debut.dita pour
                 ajouter l'élément &lt;table>.</p>
             <note>
                 <p>Si vous utilisez un éditeur DITA, certains éléments enfants de l'élément
                     &lt;table> seront automatiquement insérés au fur et à mesure que vous
                     travaillerez sur les exemples.</p>
             </note>
-            <p>Vidéo: <xref href="https://www.youtube.com/watch?v=PFWz_Vsyxwg" format="html"
+            <p>Vidéo&#xA0;: <xref href="https://www.youtube.com/watch?v=PFWz_Vsyxwg" format="html"
                     scope="external">Créer un tableau avec DITA</xref></p>
             <note>
                 <p>Cette vidéo montre une autre façon de créer un tableau avec DITA en utilisant
@@ -100,7 +100,7 @@
             <steps id="steps_qtc_qx1_dt">
                 <step>
                     <cmd>Après l'élément &lt;simpletable>, ajoutez un élément &lt;table> tel que
-                        montré dans l'élément suivant :</cmd>
+                        présenté dans l'élément suivant&#xA0;:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
@@ -117,7 +117,7 @@
                 </step>
                 <step>
                     <cmd>À l'intérieur de l'élément &lt;table>, ajoutez un élément &lt;title> et
-                        ajoutez-y du contenu tel que montré dans l'exemple suivant :</cmd>
+                        ajoutez-y du contenu tel que présenté dans l'exemple suivant&#xA0;:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
@@ -136,8 +136,8 @@
                         est utilisé dans l'élément &lt;fig>.</info>
                 </step>
                 <step>
-                    <cmd>Après l'élément &lt;title>, ajoutez l'élément &lt;tgroup> tel que montré
-                        dans l'exemple suivant :</cmd>
+                    <cmd>Après l'élément &lt;title>, ajoutez l'élément &lt;tgroup> tel que présenté
+                        dans l'exemple suivant&#xA0;:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
@@ -157,12 +157,12 @@
                         l'attribut cols. Dans l'exemple que vous avez ajouté, cols="2" montre que
                         cette table contiendra deux colonnes.</info>
                     <info>Un seul élément &lt;table> peut contenir plus d'un élément &lt;tgroup>, ce
-                        qui est utile si vous avez besoin de montrer plus d'un tableau avec
-                        différents en-têtes ou nombres de colonnes sous le même titre.</info>
+                        qui est utile si vous avez besoin de montrer plus d'un tableau avec des
+                        en-têtes ou un nombre de colonnes différents sous le même titre.</info>
                 </step>
                 <step>
                     <cmd>À l'intérieur de l'élément &lt;tgroup>, ajoutez deux éléments &lt;colspec>
-                        et ajoutez-y du contenu comme indiqué dans l'exemple suivant :</cmd>
+                        et ajoutez-y du contenu tel que présenté dans l'exemple suivant&#xA0;:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
@@ -180,17 +180,17 @@
                     <info>L'élément &lt;colspec> permet de configurer les colonnes de votre tableau
                         et de spécifier les informations les concernant (comme leur nom, leur
                         séquence et leur largeur) à l'aide d'attributs. Dans l'exemple que vous avez
-                        ajouté, l'attribut colname a été utilisé pour nommer vos colonnes "c1" et
-                        "c2" et l'attribut colnum a été utilisé pour désigner l'ordre dans lequel
-                        ces colonnes apparaissent.</info>
+                        ajouté, l'attribut colname a été utilisé pour nommer vos colonnes
+                        «&#xA0;c1&#xA0;» et «&#xA0;c2&#xA0;» et l'attribut colnum a été utilisé pour
+                        désigner l'ordre dans lequel ces colonnes apparaissent.</info>
                     <info>L'attribut facultatif colwidth peut être utilisé pour contrôler les
                         proportions des largeurs de colonnes. Dans l'exemple que vous avez ajouté,
                         l'attribut colwidth est le même pour chaque colonne, ce qui signifie
                         qu'elles s'afficheront avec la même largeur. </info>
                 </step>
                 <step>
-                    <cmd>Après le dernier élément &lt;colspec>, ajoutez l'élément &lt;thead> comme
-                        indiqué dans l'exemple suivant :</cmd>
+                    <cmd>Après le dernier élément &lt;colspec>, ajoutez l'élément &lt;thead> tel que
+                        présenté dans l'exemple suivant&#xA0;:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
@@ -205,14 +205,14 @@
 &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
-                    <info>L'élément "&lt;thead>" contient les éléments associés à l'en-tête du
+                    <info>L'élément &lt;thead> contient les éléments associés à l'en-tête du
                         tableau. Contrairement à l'élément &lt;sthead> dans un élément
                         &lt;simpletable>, l'élément &lt;thead> dans un élément &lt;table> peut
                         contenir plus d'une ligne d'en-tête.</info>
                 </step>
                 <step>
-                    <cmd>À l'intérieur de l'élément &lt;thead>, ajoutez l'élément &lt;row> comme
-                        indiqué dans l'exemple suivant :</cmd>
+                    <cmd>À l'intérieur de l'élément &lt;thead>, ajoutez l'élément &lt;row> tel que
+                        présenté dans l'exemple suivant&#xA0;:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
@@ -231,7 +231,7 @@
                 </step>
                 <step>
                     <cmd>À l'intérieur de l'élément &lt;row>, ajoutez deux éléments &lt;entry> et
-                        ajoutez-y du contenu comme indiqué dans l'exemple suivant :</cmd>
+                        ajoutez-y du contenu tel que présenté dans l'exemple suivant&#xA0;:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
@@ -247,12 +247,12 @@
                     </stepxmp>
                     <info>Chaque élément de la rubrique &lt;entry> correspond à une seule cellule
                         d'une ligne du tableau. Dans l'exemple que vous avez ajouté, chaque élément
-                        &lt;entry> suit la meilleure pratique consistant à envelopper un élément
-                        &lt;p> autour du texte.</info>
+                        &lt;entry> suit la meilleure pratique consistant à encadrer le texte par un
+                        élément &lt;p>.</info>
                 </step>
                 <step>
-                    <cmd>Après l'élément &lt;thead>, ajoutez l'élément &lt;tbody> comme indiqué dans
-                        l'exemple suivant :</cmd>
+                    <cmd>Après l'élément &lt;thead>, ajoutez l'élément &lt;tbody> tel que présenté
+                        dans l'exemple suivant&#xA0;:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
@@ -274,8 +274,8 @@
                 </step>
                 <step>
                     <cmd>À l'intérieur de l'élément &lt;tbody>, ajoutez un élément &lt;row> et
-                        ajoutez-y du contenu avec des éléments &lt;entry> et leur texte comme
-                        indiqué dans l'exemple suivant :</cmd>
+                        ajoutez-y du contenu avec des éléments &lt;entry> et leur texte tel que
+                        présenté dans l'exemple suivant&#xA0;:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
@@ -294,7 +294,8 @@
                 </step>
                 <step>
                     <cmd>Après l'élément &lt;row> que vous venez d'ajouter, ajoutez deux autres
-                        rangées et ajoutez-y du contenu comme indiqué dans l'exemple suivant :</cmd>
+                        rangées et ajoutez-y du contenu tel que présenté dans l'exemple
+                        suivant&#xA0;:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
@@ -316,7 +317,7 @@
                     </stepxmp>
                     <info>L'élément &lt;tbody> peut contenir un ou plusieurs éléments
                         &lt;row>.</info>
-                    <info>Vidéo: <xref href="https://www.youtube.com/watch?v=PFWz_Vsyxwg"
+                    <info>Vidéo&#xA0;: <xref href="https://www.youtube.com/watch?v=PFWz_Vsyxwg"
                             format="html" scope="external">Créer un tableau avec DITA</xref></info>
                 </step>
                 <step>
@@ -332,15 +333,15 @@
             <steps id="steps_g32_wjx_dt">
                 <step>
                     <cmd>Ouvrez le fichier leçon2/l_concept_images_tableaux_exercice_debut.dita et
-                        utilisez-le pour convertir en DITA le contenu suivant :</cmd>
+                        utilisez-le pour convertir en DITA le contenu suivant&#xA0;:</cmd>
                     <info>Utilisez l'image d'exemple leçon2/images/configuremieux1.png pour cet
                         exercice.</info>
                     <info>
                         <pre outputclass="passthru"><![CDATA[
                             <hr />
                             <h3>Soutenir le marketing avec un contenu technique</h3>
-                            La communication technique et la communication marketing ont longtemps occupé les extrémités opposées du spectre des contenus. Le stéréotype est que la communication technique est lourde en texte, dense et mal formatée alors que la communication marketing est brillante, belle et sans contenu. À partir de là, le débat ne fait que s'intensifier :
-                            <em>Communication marketing contre communication technique : les stéréotypes</em>
+                            La communication technique et la communication marketing ont longtemps occupé les extrémités opposées du spectre des contenus. Le stéréotype est que la communication technique est lourde en texte, dense et mal formatée alors que la communication marketing est brillante, belle et sans contenu. À partir de là, le débat ne fait que s'intensifier&#xA0;:
+                            <em>Communication marketing contre communication technique&#xA0;: les stéréotypes</em>
                             <table class="simpletable" border="1" summary="" cellspacing="0" cellpadding="4">
                             <tbody>
                             <tr class="strow">
@@ -349,12 +350,12 @@
                             <td class="stentry" valign="top" width="33%"><strong>Communication technique</strong></td>
                             </tr>
                             <tr class="strow">
-                            <td class="stentry" valign="top">Conception ou automatisation ?</td>
+                            <td class="stentry" valign="top">Conception ou automatisation&#xA0;?</td>
                             <td class="stentry" valign="top">Conception</td>
                             <td class="stentry" valign="top">Automatisation</td>
                             </tr>
                             <tr class="strow">
-                            <td class="stentry" valign="top">Quel degré de détail ?</td>
+                            <td class="stentry" valign="top">Quel degré de détail&#xA0;?</td>
                             <td class="stentry" valign="top">Aussi peu que possible</td>
                             <td class="stentry" valign="top">Autant que possible</td>
                             </tr>
@@ -379,7 +380,7 @@
                 <step>
                     <cmd>Comparez votre fichier leçon2/l_concept_images_tableaux_exercice_debut.dita
                         avec l'exemple de fichier
-                        lesson2/l_concept_images_tableaux_exercice.dita.</cmd>
+                        leçon2/l_concept_images_tableaux_exercice.dita.</cmd>
                 </step>
             </steps>
         </taskbody>

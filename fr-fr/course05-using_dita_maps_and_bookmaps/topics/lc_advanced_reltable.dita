@@ -25,10 +25,10 @@
             <p>La spécification DITA stipule que lorsqu'une cellule de la table des relations
                 contient plusieurs éléments &lt;topicref>, les rubriques générées indiquées dans
                 cette cellule ne sont pas liées entre elles. Cependant, si l'attribut
-                collection-type de l'élément &lt;relcell> a la valeur « family », toutes les
+                collection-type de l'élément &lt;relcell> a la valeur «&#xA0;family&#xA0;», toutes les
                 rubriques référencées dans cet élément &lt;relcell> seront liées les unes aux
                 autres.</p>
-            <p>Dans l'exemple suivant, les rubriques A et B seront liées l'une à l'autre :</p>
+            <p>Dans l'exemple suivant, les rubriques A et B seront liées l'une à l'autre&#xA0;:</p>
             <pre>&lt;relcell collection-type="family">
    &lt;topicref href="a.dita"/>
    &lt;topicref href="b.dita"/>
@@ -52,7 +52,7 @@
                 soit liée à la rubrique B, mais nous ne voulons pas que la rubrique B soit liée à la
                 rubrique A (ou à l'une des autres rubriques). Dans ce cas, nous modifions l'élément
                 &lt;topicref> pour la rubrique B en ajoutant l'attribut linking et en lui attribuant
-                la valeur « targetonly ». </p>
+                la valeur «&#xA0;targetonly&#xA0;». </p>
             <pre>&lt;relrow>
    &lt;relcell>
       &lt;topicref href="a.dita"/>
@@ -61,12 +61,12 @@
       &lt;topicref href="b.dita" linking="targetonly"/>
    &lt;/relcell>
 &lt;/relrow></pre>
-            <p>Inversement, la rubrique A peut être une « page d'accueil » pour un système d'aide ;
+            <p>Inversement, la rubrique A peut être une «&#xA0;page d'accueil&#xA0;» pour un système d'aide&#xA0;;
                 nous pouvons vouloir l'utiliser comme point d'entrée qui renvoie vers un certain
                 nombre de rubriques différentes, mais nous ne voulons pas que les rubriques
                 renvoient vers cette page (pour quelque raison que ce soit). Dans ce cas, nous
                 ajoutons l'attribut linking au &lt;topicref> de la rubrique A et utilisons la valeur
-                « sourceonly ».</p>
+                «&#xA0;sourceonly&#xA0;».</p>
             <pre>&lt;relrow>
    &lt;relcell>
       &lt;topicref href="a.dita" linking="sourceonly"/>
@@ -104,8 +104,8 @@
     &lt;title>Liens internet&lt;/title>
 &lt;/relcolspec></pre>
             <p>Dans l'élément &lt;topicref>, l'attribut href indique l'URL, l'attribut scope est «
-                external » et l'attribut format est « html ». En outre, l'élément &lt;topicref>
-                comprend un élément &lt;navtitle> pour que le lien soit plus convivial :</p>
+                external&#xA0;» et l'attribut format est «&#xA0;html&#xA0;». En outre, l'élément &lt;topicref>
+                comprend un élément &lt;navtitle> pour que le lien soit plus convivial&#xA0;:</p>
             <pre>&lt;relcell>
     &lt;topicref href="http://www.example.com" scope="external" format="html">
         &lt;topicmeta>

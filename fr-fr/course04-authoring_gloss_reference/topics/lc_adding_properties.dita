@@ -19,21 +19,21 @@
             <p>Dans la plupart des références d'une API ou d'une ligne de commande, le diagramme
                 syntaxique est immédiatement suivi d'une liste ou d'un tableau qui décrit en détail
                 les différents mots clés, caractères de remplissage et autres options. Le diagramme
-                syntaxique indique au lecteur où ces objets sont utilisés ; le tableau des
+                syntaxique indique au lecteur où ces objets sont utilisés&#xA0;; le tableau des
                 propriétés fournit des informations sur les raisons pour lesquelles le lecteur
                 utiliserait ces objets.</p>
             <p dir="ltr" id="docs-internal-guid-c77ed3ad-b001-1114-c83c-33c5b4ac1257">Par exemple,
                 dans une commande d'exportation de graphiques, le paramètre <b>filetype</b> pourrait
-                autoriser les valeurs "gif", "png", "bmp" et "svg" ; vous pourriez vouloir donner
-                des informations spécifiques sur les implications de l'utilisation de chacun des
-                types de fichiers. </p>
-            <p>Dans la rubrique DITA de type référence, l'élément &lt;properties> fournit une façon de
-                structurer ces informations. L'élément &lt;properties> est l'un des éléments que
+                autoriser les valeurs «&#xA0;gif&#xA0;», «&#xA0;png&#xA0;», «&#xA0;bmp&#xA0;» et
+                «&#xA0;svg&#xA0;»&#xA0;; vous pourriez vouloir donner des informations spécifiques
+                sur les implications de l'utilisation de chacun des types de fichiers. </p>
+            <p>Dans la rubrique DITA de type référence, l'élément &lt;properties> fournit une façon
+                de structurer ces informations. L'élément &lt;properties> est l'un des éléments que
                 vous pouvez utiliser dans un élément &lt;refbody>.</p>
             <p>L'élément &lt;properties> contient un ou plusieurs éléments &lt;property>, chacun
                 décrivant une seule propriété. L'élément &lt;property> peut contenir des éléments
                 pour le type (&lt;proptype>), la valeur (&lt;propvalue>), et la description
-                (&lt;propdesc>). Pour une utilisation courante, ceux-ci peuvent contenir :</p>
+                (&lt;propdesc>). Pour une utilisation courante, ceux-ci peuvent contenir&#xA0;:</p>
             <simpletable frame="all" relcolwidth="1.0* 1.0* 1.0* 1.0*" id="simpletable_ik5_bc5_vt">
                 <sthead>
                     <stentry>Type de document</stentry>
@@ -68,11 +68,11 @@
                 &lt;property> qui ne contiennent que des éléments de type &lt;propvalue> et
                 &lt;propdesc>.</p>
             <p>L'élément &lt;properties> est une spécialisation de l'élément &lt;simpletable> et est
-                souvent rendu en sortie sous forme de tableau. Si nécessaire, vous pouvez créer des
-                têtes de colonne pour les colonnes type, valeur et description en utilisant un
-                élément &lt;prophead> contenant les éléments &lt;proptypehd>, &lt;propvaluehd>, et
+                souvent publié sous forme de tableau. Si nécessaire, vous pouvez créer des têtes de
+                colonne pour les colonnes type, valeur et description en utilisant un élément
+                &lt;prophead> contenant les éléments &lt;proptypehd>, &lt;propvaluehd> et
                 &lt;propdeschd>. </p>
-            <p><xref href="https://youtu.be/njVoKQqltlA" format="html" scope="external">Vidéo :
+            <p><xref href="https://youtu.be/njVoKQqltlA" format="html" scope="external">Vidéo&#xA0;:
                     Créer une table propriétés DITA</xref></p>
         </lcInstruction>
     </learningContentbody>
@@ -101,7 +101,7 @@
                 <step>
                     <cmd>À l'intérieur de l'élément &lt;prophead>, ajoutez les éléments
                         &lt;proptypehd>, &lt;propvaluehd> et &lt;propdeschd> et ajoutez-y du contenu
-                        comme indiqué.</cmd>
+                        tel que présenté ici&#xA0;:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
@@ -150,7 +150,7 @@
                 <step>
                     <cmd>À l'intérieur de l'élément &lt;property>, ajoutez les éléments
                         &lt;proptype>, &lt;propvalue> et &lt;propdesc> et ajoutez-y du contenu tel
-                        qu'indiqué.</cmd>
+                        que présenté ici&#xA0;:</cmd>
                     <stepxmp>
                         <pre>       ...
        &lt;/refsyn>
@@ -180,7 +180,7 @@
                 </step>
                 <step>
                     <cmd>Ajoutez des éléments &lt;property> et ajoutez-y du contenu tel
-                        qu'indiqué.</cmd>
+                        que présenté ici&#xA0;:</cmd>
                     <stepxmp>
                         <pre>       ...
        &lt;/refsyn>
@@ -234,7 +234,7 @@
             <steps>
                 <step>
                     <cmd>Ouvrez le fichier leçon1/l_reference_exercice_debut.dita et utilisez-le
-                        pour convertir le contenu suivant en DITA :</cmd>
+                        pour convertir le contenu suivant en DITA&#xA0;:</cmd>
                     <info>
                         <pre outputclass="passthru"><![CDATA[
                             <hr/>
@@ -244,7 +244,7 @@
                             
                             <table>
                               <tr>
-                                <td>Requis ?</td>
+                                <td>Requis&#xA0;?</td>
                                 <td>Paramètre</td>
                                 <td>Description</td>
                               </tr>

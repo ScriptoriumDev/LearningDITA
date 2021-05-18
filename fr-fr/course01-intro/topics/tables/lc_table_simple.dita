@@ -21,7 +21,7 @@
     <learningContentbody>
         <lcInstruction>
             <p>les tableaux simples (&lt;simpletable>) utilisent les éléments suivants pour
-                représenter et organiser les données tabulaires :</p>
+                représenter et organiser les données tabulaires&#xA0;:</p>
             <simpletable frame="all" relcolwidth="1.0* 1.0* 1.0*" id="simpletable_gsw_jzk_ns">
                 <sthead>
                     <stentry>Élément</stentry>
@@ -49,7 +49,7 @@
             </simpletable>
             <note>Ce tableau est construit en utilisant un élément &lt;simpletable>.</note>
             <p>L'élément &lt;stentry> peut contenir du texte ou d'autres éléments de bloc ou
-                en-ligne.</p>
+                intégrés.</p>
             <p>Voici un exemple d'un tableau avec une ligne d'en-tête, deux lignes et deux colonnes. </p>
             <pre>&lt;simpletable>
    &lt;sthead>
@@ -65,7 +65,7 @@
       &lt;stentry>ligne 2, colonne 2&lt;/stentry>
    &lt;/strow>
 &lt;/simpletable></pre>
-            <p>Visuellement, le tableau ressemble à ceci :<fig>
+            <p>Visuellement, le tableau ressemble à ceci&#xA0;:<fig>
                     <image href="../../media/tables/simpletable.png" base="2020/10"
                         id="image_xnd_zqt_xr"/>
                 </fig></p>

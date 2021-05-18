@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- This file is part of the DITA Training project hosted on
      github.com. See the accompanying LICENSE file for
      applicable licenses.-->
@@ -24,12 +24,12 @@
                 <draft-comment>pas sûr que ce soit le bon endroit pour la spécialisation, mais c'est
                     là où se trouve les vidéos</draft-comment>
             </p>
-            <p>La spécialisation permet à l'architete d'information de créer des éléments et des
+            <p>La spécialisation permet à l'architecte d'information de créer des éléments et des
                 attributs qui conviennent mieux à votre organisation que ceux fournit par défaut
                 dans DITA. Les éléments créés avec la spécialisation sont basés sur des éléments
                 existants dans DITA.</p>
             <p>Les organisations ont souvent recours à la specialisation pour prendre en compte
-                leurs exigences uniques, tel que :<ul id="ul_m12_fq5_vr">
+                leurs exigences uniques, tel que&#xA0;:<ul id="ul_m12_fq5_vr">
                     <li>Création de nouveaux éléments pour contenir des informations spécifiques
                         dans un ordre spécifique</li>
                     <li>Création de nouveaux attributs pour identifier une information
@@ -37,11 +37,11 @@
                     <li>Création de nouveaux noms pour des éléments qui sont plus pertinent pour les
                         auteurs.</li>
                 </ul></p>
-            <p>Par example, vous pouriez éxiger un ensemble d'éléments &lt;codeblock> spécifique à
+            <p>Par example, vous pourriez exiger un ensemble d'éléments &lt;codeblock> spécifique à
                 un langage, tel que &lt;codeblocks-java> ou &lt;codeblock-php> pour faire la
                 distinction entre des exemples de code Java et PHP. Cela pourrait aussi être réalisé
-                en créant un nouvel attribut langage pour l'élément &lt;codeblock> : &lt;codeblock
-                language="java"> ou &lt;codeblock language=php">.</p>
+                en créant un nouvel attribut language pour l'élément &lt;codeblock>&#xA0;:
+                &lt;codeblock language="java"> ou &lt;codeblock language=php">.</p>
             <note type="important">Attention à la spécialisation. Lorsque vous spécialisez, vous
                 définissez des balises plus spécifiques, mais la spécialisation augmente le coût de
                 la mise en œuvre. Vous devez équilibrer la valeur de la spécialisation par rapport

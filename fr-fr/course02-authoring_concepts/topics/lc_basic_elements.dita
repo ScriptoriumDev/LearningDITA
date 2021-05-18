@@ -17,7 +17,7 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>Certains des éléments les plus couramment utilisés dans un concept sont :</p>
+            <p>Certains des éléments les plus couramment utilisés dans un concept sont&#xA0;:</p>
             <simpletable frame="all" relcolwidth="1.0* 1.0*" id="simpletable_i4k_dm4_2t">
                 <strow>
                     <stentry>
@@ -63,22 +63,22 @@
         <taskbody>
             <steps id="steps_f5k_kkh_1t">
                 <step>
-                    <cmd>Continuer d'utiliser le fichier leçon1/l_nouveau_concept_debut.dita.</cmd>
+                    <cmd>Continuez d'utiliser le fichier leçon1/l_nouveau_concept_debut.dita.</cmd>
                 </step>
                 <step>
                     <cmd>À l'intérieur de l'élément &lt;conbody>, ajouter un élément &lt;p> et
-                        ajoutez-y du contenu tel que montré dans l'exemple suivant :</cmd>
+                        ajoutez-y du contenu tel que présenté dans l'exemple suivant&#xA0;:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="mon_premier_concept">
    &lt;title>Espèces de canards sauvages&lt;/title>
- &lt;conbody>
-<ph outputclass="newchanged">&lt;p>Les canards sauvages d'Amérique du Nord appartiennent à l'une des catégories suivantes :&lt;/p></ph>
+   &lt;conbody>
+<ph outputclass="newchanged">      &lt;p>Les canards sauvages d'Amérique du Nord appartiennent à l'une des catégories suivantes&#xA0;:&lt;/p></ph>
    &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
-                    <info>L'élément &lt;p> est pour le corps du tete. Il peut être utilisé dans
+                    <info>L'élément &lt;p> est pour le corps du texte. Il peut être utilisé dans
                         l'élément &lt;conbody> aussi bien qu'à l'intérieur des nombreux éléments
                         contenus par &lt;conbody>.</info>
                     <info>
@@ -93,26 +93,26 @@
                                 conserve une cohérence.</p>
                         </note>
                     </info>
-                    <info>L'élément &lt;p> que vous venez de créer introduit l'élément suivant : une
-                        liste non-ordonée.</info>
+                    <info>L'élément &lt;p> que vous venez de créer introduit l'élément
+                        suivant&#xA0;: une liste non-ordonnée.</info>
                 </step>
                 <step>
                     <cmd>Après l'élément &lt;p>, ajoutez un élément &lt;ul> et ajoutez-y du contenu
-                        tel que présenté dans l'exemple suivant :</cmd>
+                        tel que présenté dans l'exemple suivant&#xA0;:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="mon_premier_concept">
    &lt;title>Espèces de canards sauvages&lt;/title>
-  &lt;conbody>
-...
-<ph outputclass="newchanged">&lt;ul>
-&lt;li>&lt;p>Canards de surface&lt;/p>&lt;/li>
-&lt;li>&lt;p>Canards plongeurs&lt;/p>&lt;/li>
-&lt;li>&lt;p>Canards marins&lt;/p>&lt;/li>
-&lt;li>&lt;p>Canards siffleurs&lt;/p>&lt;/li>
-&lt;li>&lt;p>Cygnes et oies&lt;/p>&lt;/li>
-&lt;/ul></ph>
+   &lt;conbody>
+      ...
+<ph outputclass="newchanged">      &lt;ul>
+         &lt;li>&lt;p>Canards de surface&lt;/p>&lt;/li>
+         &lt;li>&lt;p>Canards plongeurs&lt;/p>&lt;/li>
+         &lt;li>&lt;p>Canards marins&lt;/p>&lt;/li>
+         &lt;li>&lt;p>Canards siffleurs&lt;/p>&lt;/li>
+         &lt;li>&lt;p>Cygnes et oies&lt;/p>&lt;/li>
+      &lt;/ul></ph>
    &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
@@ -130,21 +130,21 @@
                         d'encadrer le texte par un élément &lt;p>.</info>
                 </step>
                 <step>
-                    <cmd>Après l'élément &lt;ul>, ajouter un élément &lt;ol> avec un élément &lt;p>
-                        d'introduction tel que présenté dans l'exemple suivant :</cmd>
+                    <cmd>Après l'élément &lt;ul>, ajoutez un élément &lt;ol> avec un élément &lt;p>
+                        d'introduction tel que présenté dans l'exemple suivant&#xA0;:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="mon_premier_concept">
    &lt;title>Espèces de canards sauvages&lt;/title>
    &lt;conbody>
-...
-<ph outputclass="newchanged"> &lt;p>Les plus longues espèces de canards de surface en Amérique du Nord sont :&lt;/p>
-&lt;ol>
-&lt;li>&lt;p>Canard pilet&lt;/p>&lt;/li>
-&lt;li>&lt;p>Canard colvert&lt;/p>&lt;/li>
-&lt;li>&lt;p>Canard noir&lt;/p>&lt;/li>
-&lt;/ol></ph>
+      ...
+<ph outputclass="newchanged">      &lt;p>Les plus longues espèces de canards de surface en Amérique du Nord sont&#xA0;:&lt;/p>
+      &lt;ol>
+         &lt;li>&lt;p>Canard pilet&lt;/p>&lt;/li>
+         &lt;li>&lt;p>Canard colvert&lt;/p>&lt;/li>
+         &lt;li>&lt;p>Canard noir&lt;/p>&lt;/li>
+      &lt;/ol></ph>
    &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
@@ -157,8 +157,6 @@
                     <info>L'élément &lt;ol> est pour une liste numérotée ou ordonnée.</info>
                     <info>Comme l'élément &lt;ul>, l'élément &lt;ol> peut seulement contenir des
                         éléments &lt;li>, et doit en contenir au moins un.</info>
-                    <info>Like the &lt;ul> element, the &lt;ol> element can only contain &lt;li>
-                        elements, and it must contain at least one. </info>
                     <info>Dans cet exemple, chacun des éléments &lt;li> suit la meilleure pratique
                         d'encadrer le texte par un élément &lt;p>. <note>
                             <p>Utilisez l'élément &lt;ol> uniquement pour montrer que les éléments
@@ -168,19 +166,19 @@
                         </note></info>
                 </step>
                 <step>
-                    <cmd>Après l'élément &lt;ol>, ajouter un élément &lt;note> et ajoutez-y du
-                        contenu tel que présenté par l'exemple suivant :</cmd>
-                    <info>Vidéo: <xref href="https://www.youtube.com/watch?v=ByrO1K1OTIA"
+                    <cmd>Après l'élément &lt;ol>, ajoutez un élément &lt;note> et ajoutez-y du
+                        contenu tel que présenté dans l'exemple suivant&#xA0;:</cmd>
+                    <info>Vidéo&#xA0;: <xref href="https://www.youtube.com/watch?v=ByrO1K1OTIA"
                             format="html" scope="external">Créer une note avec DITA</xref></info>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="mon_premier_concept">
    &lt;title>Espèces de canards sauvages&lt;/title>
-  &lt;conbody>
-...
-<ph outputclass="newchanged">&lt;note>&lt;p>Bien que le canard pilet soit le canard de surface le plus long,
-le canard colvert est généralement considéré comme le plus gros en raison de son poids corporel plus lourd.&lt;/p>&lt;/note></ph>
+   &lt;conbody>
+      ...
+<ph outputclass="newchanged">      &lt;note>&lt;p>Bien que le canard pilet soit le canard de surface le plus long,
+         le canard colvert est généralement considéré comme le plus gros en raison de son poids corporel plus lourd.&lt;/p>&lt;/note></ph>
    &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
@@ -201,8 +199,8 @@ le canard colvert est généralement considéré comme le plus gros en raison de
         <taskbody>
             <steps id="steps_r11_1kx_dt">
                 <step>
-                    <cmd>Ouvrez le fichier leçon1/l_nouveau_concept_exercice_debut.dita et utilisez
-                        le pour convertir en DITA le contenu suivant :</cmd>
+                    <cmd>Ouvrez le fichier leçon1/l_nouveau_concept_exercice_debut.dita et
+                        utilisez-le pour convertir en DITA le contenu suivant&#xA0;:</cmd>
                     <info>
                         <pre outputclass="passthru"><![CDATA[
                             <hr />
@@ -214,7 +212,7 @@ le canard colvert est généralement considéré comme le plus gros en raison de
                             <li>Si une documentation de haute qualité peut réduire le coût du support technique.</li>
                             <li>Le moyen le plus rentable de partager du contenu technique à l'échelle de l'entreprise.</li>
                            </ul> 
-                           <p><strong>Note:</strong> Ignorer le contenu peut avoir d'énormes répercussions sur les coûts à l'échelle de l'organisation.</p>
+                           <p><strong>Note :</strong> Ignorer le contenu peut avoir d'énormes répercussions sur les coûts à l'échelle de l'organisation.</p>
                            <p>Pour réaliser votre projet et améliorer vos chances de succès, nous vous recommandons de suivre ces étapes :</p>
                            <ol>
                            <li>Identifier et interviewer les parties prenantes.</li>

@@ -23,7 +23,7 @@
   <lcInteraction>
    <lcSingleSelect id="lcSingleSelect_szw_cly_kv">
     <lcQuestion>Si une ligne de la table des relations contient trop d'éléments &lt;topicref> pour
-     être lisible, que faites-vous ? (choisir une réponse).</lcQuestion>
+     être lisible, que faites-vous&#xA0;? (choisir une réponse).</lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_tzw_cly_kv">
      <lcAnswerOption>
       <lcAnswerContent>Créer une autre &lt;relrow> et distribuer les éléments &lt;topicref> entre
@@ -31,7 +31,7 @@
       <lcCorrectResponse/>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>Ne rien faire ; c'est bien comme ça. </lcAnswerContent>
+      <lcAnswerContent>Ne rien faire&#xA0;; c'est bien comme ça. </lcAnswerContent>
      </lcAnswerOption>
      <lcAnswerOption>
       <lcAnswerContent>Créer une autre table des relations et la remplir avec des éléments

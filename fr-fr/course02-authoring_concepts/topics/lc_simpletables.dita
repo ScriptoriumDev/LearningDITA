@@ -17,12 +17,12 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>Il y a deux éléments disponibles pour créer des tables dans un concept :
+            <p>Il y a deux éléments disponibles pour créer des tableaux dans un concept&#xA0;:
                 &lt;simpletable> et &lt;table>.</p>
             <p>Utilisez l'élément &lt;simpletable> chaque fois que vous le pouvez, en particulier
                 pour les tableaux courts. Utilisez l'élément &lt;table> pour les tableaux plus
                 important ou les tableaux qui nécessitent un formatage plus complexe.</p>
-            <p>Les éléments contenus dans l'élément &lt;simpletable> comprennent :</p>
+            <p>Les éléments contenus dans l'élément &lt;simpletable> comprennent&#xA0;:</p>
             <simpletable frame="all" relcolwidth="1.0* 1.0*" id="simpletable_rwy_l3n_2t">
                 <strow>
                     <stentry>
@@ -63,7 +63,7 @@
                 <image href="../media/images_and_tables/simpletable.png" id="image_rtn_xmn_2t"
                     base="2020/10"/>
             </fig>
-            <p>Continuez à utiliser le fichier leçon2/l_concept_images_tables_debut.dita pour
+            <p>Continuez à utiliser le fichier leçon2/l_concept_images_tableaux_debut.dita pour
                 ajouter l'élément &lt;simpletable>.</p>
             <note>
                 <p>Si vous utilisez un éditeur DITA, certains éléments enfants de l'élément
@@ -78,7 +78,7 @@
             <steps id="steps_mrl_tf1_dt">
                 <step>
                     <cmd>Insérez l'élément &lt;simpletable> après l'élément &lt;fig> dans l'élément
-                        &lt;conbody> comme indiqué dans l'exemple suivant :</cmd>
+                        &lt;conbody> tel que présenté dans l'exemple suivant&#xA0;:</cmd>
                     <stepxmp/>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
@@ -95,8 +95,8 @@
                     </stepxmp>
                 </step>
                 <step>
-                    <cmd>Insérez l'élément &lt;sthead> dans l'élément &lt;simpletable> comme indiqué
-                        dans l'exemple suivant :</cmd>
+                    <cmd>Insérez l'élément &lt;sthead> dans l'élément &lt;simpletable> tel que
+                        présenté dans l'exemple suivant&#xA0;:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
@@ -116,7 +116,7 @@
                 </step>
                 <step>
                     <cmd>Insérez deux éléments &lt;stentry> avec du contenu dans l'élément
-                        &lt;sthead> comme indiqué dans l'exemple suivant :</cmd>
+                        &lt;sthead> tel que présenté dans l'exemple suivant&#xA0;:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
@@ -133,14 +133,14 @@
 &lt;/concept></pre>
                     </stepxmp>
                     <info>L'élément &lt;stentry> représente une seule cellule. Le nombre d'éléments
-                        à l'intérieur de l'élément &lt;stentry> déterminera combien de colonnes
-                        seront dans votre élément &lt;simpletable>.</info>
-                    <info>L'exemple suit la recommandation d'inclure le texte d'un élément
-                        &lt;stentry> dans un élément &lt;p>.</info>
+                        &lt;stentry> à l'intérieur de l'élément &lt;sthead> déterminera le nombre de
+                        colonnes présentes dans votre élément &lt;simpletable>.</info>
+                    <info>L'exemple suit la recommandation d'encadrer le texte d'un élément
+                        &lt;stentry> par un élément &lt;p>.</info>
                 </step>
                 <step>
                     <cmd>Après l'élément &lt;sthead>, ajoutez l'élément &lt;strow> tel que présenté
-                        par l'exemple suivant :</cmd>
+                        dans l'exemple suivant&#xA0;:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
@@ -160,7 +160,7 @@
                 </step>
                 <step>
                     <cmd>Insérez deux éléments &lt;stentry> avec du contenu dans l'élément
-                        &lt;strow> comme indiqué dans l'exemple suivant :</cmd>
+                        &lt;strow> tel que présenté dans l'exemple suivant&#xA0;:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
@@ -182,9 +182,9 @@
                     </info>
                 </step>
                 <step>
-                    <cmd>Après le premier élément &lt;strow>, ajouter deux lignes supplémentaires
-                        avec du contenu à l'élément &lt;simpletable> comme indiqué dans l'exemple
-                        suivant :</cmd>
+                    <cmd>Après le premier élément &lt;strow>, ajoutez deux lignes supplémentaires
+                        avec du contenu à l'élément &lt;simpletable> tel que présenté dans l'exemple
+                        suivant&#xA0;:</cmd>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">

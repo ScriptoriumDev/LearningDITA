@@ -17,10 +17,10 @@
             <p>L'élément &lt;context> devrait fournir un contexte suffisant pour que les lecteurs
                 comprennent pourquoi ils doivent accomplir une tâche ou ce que la tâche accomplit.
                 L'élément &lt;context> ne devrait pas être utilisé pour des informations
-                conceptuelles ou de générales étendues.</p>
+                conceptuelles ou générales étendues.</p>
             <p>Si vous avez besoin de fournir de l'information conceptuelle supplémentaire, de
-                l'information générale, ou des principes de fonctionnement, créez un concept
-                et fournissez un lien vers le concept dans votre tâche.</p>
+                l'information générale, ou des principes de fonctionnement, créez un concept et
+                fournissez un lien vers le concept dans votre tâche.</p>
             <p>Notez qu'il peut y avoir des similarités entre l'élément &lt;context> et l'élément
                 &lt;shortdesc> (courte description). Les deux fournissent de l'information sur
                 l'objectif de la tâche. Cependant, l'élément &lt;shortdesc> fournit normalement une
