@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<learningAssessment id="lca_conref_requirements" xml:lang="en-US">
+ <title>Conref requirements</title>
+ <shortdesc/>
+ <prolog>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+   Scriptorium</author>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+   Scriptorium</author>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+   Scriptorium</author>
+  <author>Decarnelle Rémi (traducteur)</author>
+  <critdates>
+   <created date="2016-06-30"/>
+   <revised modified="2021-01-28"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcMultipleSelect id="lcSingleSelect_vk5_lxh_mw">
+    <lcQuestion>Quelles sont les conditions à remplir lors de la création d'un élément afin d'en
+     faire la cible d'un conref ? (choisir toutes les bonnes réponses)</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_wk5_lxh_mw">
+     <lcAnswerOption>
+      <lcAnswerContent>L'élement doit avoir un attribut <i>ID</i>.</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>L'élément doit être accessible par la carte de niveau supérieur à partir de
+       l'élément référençant.</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>L'élément doit avoir le même nom que l'élément référençant.</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>L'élement doit avoir les mêmes attributs que l'élément
+       référençant.</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>L'élément doit être vide.</lcAnswerContent>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>La cible d'un conref doit avoir un attribut <i>ID</i>, être accessible à
+     travers la carte DITA, et doit avoir le même nom que l'élément
+     référençant.</lcFeedbackIncorrect>
+   </lcMultipleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

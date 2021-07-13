@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningTreeContent.dtd">
+<learningContent xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="lt-content-9215"
+    domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic concept)                             (topic reference)                             (topic task)                             (topic learningInteractionBase-d)                            (topic learningInteractionBase-d learning-d)                            (topic learningmeta-d)                             (topic learningBase+learningInteractionBase-d)                            (topic learningBase+learningInteractionBase-d learningContent)                            (topic learningBase learningSummary)                             (topic learningBase+learningInteractionBase-d learningAssessment)   "
+    ditaarch:DITAArchVersion="1.2"
+    class="- topic/topic learningBase/learningBase learningContent/learningContent ">
+    <title class="- topic/title ">Conditions pour référencer un élément</title>
+    <shortdesc class="- topic/shortdesc "/>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Mike Rice, easyDITA</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Annie Chen, easyDITA</author>
+        <author type="contributor" href="http://www.scriptorium.com">Simon Bate,
+            Scriptorium</author>
+        <author> Rémi Decarnelle (traducteur)</author>
+        <critdates>
+            <created golive="2016-07-11" date="2016-05-11"/>
+            <revised modified="2020-10-15"/>
+        </critdates>
+    </prolog>
+    <learningContentbody
+        class="- topic/body  learningBase/learningBasebody learningContent/learningContentbody ">
+        <lcInstruction class="- topic/section learningBase/lcInstruction ">
+            <p class="- topic/p ">Dans DITA, certains éléments ne sont validés que si
+                certains éléments se trouvent dans leur arborescence. Par exemple, dans une tâche,
+                l'élément &lt;step> requiert un élément &lt;cmd> dans son arborescence. Quand des
+                éléments imposent son contenu, ces éléments doivent être présents dans l'élément
+                référençant, même si ce dernier sera remplacé quand le conref sera résolu. Pour
+                remplir ces conditions, ajouter les balises requises avec aucun contenu à
+                l'intérieur de l'élément référençant. </p>
+            <p class="- topic/p ">Dans l'exemple suivant, l'élement &lt;cmd> vide est nécessaire
+                pour que le conref s'exécute. </p>
+            <pre xml:space="preserve" class="- topic/pre ">&lt;task id="element-referencant"&gt;
+   &lt;title&gt;Une tâche qui réutilise une étape&lt;/title&gt;
+   ...
+   &lt;step conref="../dépot/réutilisation-tâche.dita#dépot-tâche/step_réutilisé"&gt;
+       <b class="+ topic/ph hi-d/b ">&lt;cmd/&gt;</b>
+   &lt;/step&gt;
+    ...
+&lt;/task&gt;</pre>
+            <p class="- topic/p ">Cet exemple montre l'élément  &lt;step> référencé.</p>
+            <pre xml:space="preserve" class="- topic/pre ">&lt;task id="dépot_tâche"&gt;
+   &lt;title&gt;Dépot pour tâches&lt;/title&gt;
+   ...
+   &lt;step id="step_réutilisé"&gt;
+      &lt;cmd&gt;Vérouiller et marquer la source d'énergie.&lt;/cmd&gt;
+   &lt;/step&gt;
+   ...
+&lt;/task&gt;</pre>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

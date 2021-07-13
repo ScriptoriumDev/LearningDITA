@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningTreeContent.dtd">
+<learningContent xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="lt-content-4710"
+   domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic concept)                             (topic reference)                             (topic task)                             (topic learningInteractionBase-d)                            (topic learningInteractionBase-d learning-d)                            (topic learningmeta-d)                             (topic learningBase+learningInteractionBase-d)                            (topic learningBase+learningInteractionBase-d learningContent)                            (topic learningBase learningSummary)                             (topic learningBase+learningInteractionBase-d learningAssessment)   "
+   ditaarch:DITAArchVersion="1.2"
+   class="- topic/topic learningBase/learningBase learningContent/learningContent ">
+   <title class="- topic/title ">L'attribut conref</title>
+   <shortdesc class="- topic/shortdesc "/>
+   <prolog class="- topic/prolog ">
+      <author type="creator" href="http://easydita.com/" format="html" scope="external"
+         class="- topic/author ">Mike Rice, easyDITA</author>
+      <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+         class="- topic/author ">Annie Chen, easyDITA</author>
+      <author type="contributor" href="http://www.scriptorium.com">Simon Bate,
+         Scriptorium</author>
+      <author>Decarnelle Rémi (traducteur)</author>
+      <critdates>
+         <created golive="2016-07-11" date="2016-05-11"/>
+         <revised modified="2020-12-09"/>
+      </critdates>
+   </prolog>
+   <learningContentbody
+      class="- topic/body  learningBase/learningBasebody learningContent/learningContentbody ">
+      <lcInstruction class="- topic/section learningBase/lcInstruction ">
+         <p class="- topic/p ">Un conref renvoit directement à un élément réutilisé à l'aide de
+            trois informations :</p>
+         <ul id="ul_sgw_fj3_mw">
+            <li>L'emplacement de la rubrique contenant l'élément référencé</li>
+            <li>L'ID de la rubrique contenant l'élément référencé</li>
+            <li>L'ID de l'élément référencé</li>
+         </ul>
+         <p>Le chemin vers le fichier l'ID de la rubrique sont séparés un dièse (#) ; L'ID de la
+            rubrique et de l'élément sont séparés par un slash ("/"). </p>
+         <note>Si l'élément référencé est présent dans le même fichier que l'élément référençant (ce
+            qui est rare), le chemin vers le fichier peut être optionnel, mais le dièse ("#") doit
+            être ajouté.</note>
+         <p class="- topic/p ">Par exemple, une rubrique dépôt (que l'on peut trouver à
+            ../dépôt/avertissement.dita) contient un élement &lt;note>.</p>
+         <pre xml:space="preserve" class="- topic/pre ">&lt;topic id="depotavertissement"&gt;
+   ...
+   &lt;note type="danger" id="dangerchaleur"&gt;La surface est brûlante.&lt;/note&gt;
+   ...</pre>
+         <p class="- topic/p ">Pour réutiliser cette &lt;note> dans une autre rubrique, vous devez
+            créer dans la rubrique une &lt;note> vide, puis ajouter l'attribut conref pour
+            identifier où sera réutilisé le contenu</p>
+         <pre xml:space="preserve" class="- topic/pre ">...
+&lt;note conref="../dépôt/avertissement.dita#depotavertissement/dangerchaleur"/&gt;
+...</pre>
+         <p class="- topic/p ">Le contenu de l'attribut conref peut sembler intimidant ou difficile
+            à retenir. Néanmoins, la plupart des éditeurs DITA assiste l'utilisateur pendant la mise
+            en place d'un conref.</p>
+         <p class="- topic/p ">Le tableau suivant montre quelques exemples de comment la valeur de
+            l'attribut conref est formatée dans plusieurs situations. Dans ces exemples, vous
+            remplacerez les informations génériques :</p>
+         <p class="- topic/p ">
+            <ul class="- topic/ul ">
+               <li class="- topic/li ">
+                  <p class="- topic/p "><b class="+ topic/ph hi-d/b ">topicID</b> est l'ID de la
+                     rubrique où se trouve le contenu réutilisé</p>
+               </li>
+               <li class="- topic/li ">
+                  <p class="- topic/p "><b class="+ topic/ph hi-d/b ">targetID</b> est l'ID du
+                     contenu réutilisé</p>
+               </li>
+               <li class="- topic/li ">
+                  <p class="- topic/p "><b class="+ topic/ph hi-d/b ">folder</b> est le dossier
+                     local</p>
+               </li>
+               <li class="- topic/li ">
+                  <p class="- topic/p "><b class="+ topic/ph hi-d/b ">fichier.dita</b> est le nom du
+                     fichier DITA</p>
+               </li>
+               <li class="- topic/li ">
+                  <p class="- topic/p "><b class="+ topic/ph hi-d/b ">http://exemple.com</b> est le
+                     nom du réseau</p>
+               </li>
+            </ul>
+         </p>
+         <simpletable class="- topic/simpletable ">
+            <sthead class="- topic/sthead ">
+               <stentry class="- topic/stentry ">Emplacement de la cible</stentry>
+               <stentry class="- topic/stentry ">Conref attribute value</stentry>
+            </sthead>
+            <strow class="- topic/strow ">
+               <stentry class="- topic/stentry ">Dans la même rubrique</stentry>
+               <stentry class="- topic/stentry ">#rubriqueID/cibleID</stentry>
+            </strow>
+            <strow class="- topic/strow ">
+               <stentry class="- topic/stentry ">Dans une rubrique dans le même dossier
+                  local</stentry>
+               <stentry class="- topic/stentry ">dossier/fichier.dita#rubriqueID/cibleID</stentry>
+            </strow>
+            <strow class="- topic/strow ">
+               <stentry class="- topic/stentry ">Dans une rubrique dans le même réseau</stentry>
+               <stentry class="- topic/stentry "
+                  >http://exemple.com/fichier.dita#rubriqueID/cibleID</stentry>
+            </strow>
+         </simpletable>
+      </lcInstruction>
+   </learningContentbody>
+</learningContent>

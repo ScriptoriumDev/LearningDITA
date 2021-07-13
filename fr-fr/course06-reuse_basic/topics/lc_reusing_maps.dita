@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="lc_reusing_maps">
+    <title>Réutiliser une carte DITA</title>
+    <prolog>
+        <author type="creator" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate</author>
+        <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell</author>
+        <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey</author>
+        <author>Decarnelle Rémi (traducteur)</author>
+        <critdates>
+            <created golive="2016-07-11" date="2016-05-11"/>
+            <revised modified="2020-11-28"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction id="lcInstruction_i5j_t4s_lw">
+            <p>Vous pouvez créer des cartes réutilisables pour accueillir du contenu apparaissant
+                dans plusieurs documents. Par exemple, de nombreux fragments d'une préface
+                pourraient être utilisés dans d'autres préfaces d'autres documents. Une section
+                sources sera utile à de nombreuses publications. Les glossaires et appendices seront
+                également partagés par plusieurs documents.</p>
+            <p>Pour ces blocs d'information répétitifs, vous pouvez créer une carte (ou aussi
+                appelée sous-carte), et la réutiliser au sein d'autres cartes.</p>
+           
+            
+         
+            
+           
+        </lcInstruction>
+    </learningContentbody><task id="reuse1"><title>À votre tour</title><taskbody><steps>
+        <step>
+                    <cmd>Ouvrir le fichier
+                        exemples_réutilisation/réutiliser_des_rubriques_et_des_cartes/_m_especes.ditamap.
+                        Voici un exemple de sous-carte répertoriant des informations de références
+                        sur les espèces de canards. Ajouter au nom du fichier "_m_" facilite le
+                        regroupement de cartes dans l'explorateur de fichier qui les placera au
+                        sommet de la liste. De cette façon, les cartes sont facilement
+                        retrouvables.</cmd>
+                    <info>
+                        <pre>&lt;map>
+   &lt;title>Informations de références sur les espèces de canards&lt;/title>
+   &lt;topicmeta>
+      &lt;category>Carte ressource&lt;/category>
+   &lt;/topicmeta>
+    ...
+   &lt;topicref href="r_mallard.dita"/>
+   &lt;topicref href="r_muscovy.dita"/>
+   ...
+&lt;/map></pre>
+                    </info>
+                </step>
+        <step>
+                    <cmd>Pour réutiliser la sous-carte _m_especes.ditamap dans cette carte,
+                        ajouter-là à l'aide de l'élément &lt;topicref> et l'attribut
+                            <i>format="ditamap"</i>.</cmd>
+                    <info>
+                        <pre>&lt;map>
+   &lt;title>S'occuper de vos canards&lt;/title>
+   ...
+   &lt;topicref href="_m_especes.ditamap" format="ditamap"/>
+   ...
+&lt;/map></pre>
+                        <p>Ou bien, vous pouvez utiliser l'élément &lt;mapref> pour référencer la
+                            sous-carte :</p>
+                        <pre>&lt;map>
+   &lt;title>S'occuper de vos canards&lt;/title>
+   ...
+   &lt;mapref href="_m_especes.ditamap"/>
+   ...
+&lt;/map></pre>
+                        <p> Une carte réutilisable peut continuer des références à d'autres cartes
+                            également réutilisables à l'aide de &lt;mapref" ou &lt;topic
+                            format=“ditamap”>.</p>
+                        <p><b>Note sur les cartes et les sous-cartes réutilisables :</b> Vous ne
+                            pouvez pas réutiliser les éléments &lt;mapref> (ou &lt;topicref
+                            format="ditamap">) au niveau le plus élevé dans l'arborescence d'une
+                            carte DITA, c'est-à-dire au même niveau que &lt;frontmatter>,
+                            &lt;chapter>, &lt;part>, &lt;appendixes>, &lt;appendix>, et
+                            &lt;backmatter>. Vous pouvez seulement réutiliser ces cartes au sein
+                            d'autres cartes, mais seulement <i>au sein</i> de conteneurs. Par
+                            conséquent, vous ne pouvez pas utilsez de conteneurs de niveau supérieur
+                            dans une sous-carte.</p>
+                    </info>
+                </step>
+       
+        <step>
+                    <cmd>Vérifier votre travail à l'aide en comparant les fichiers
+                        exemples_réutilisation/réutiliser_des_rubriques_et_des_cartes/_m_especes_debut.ditamap
+                        et
+                        exemples_réutilisation/réutiliser_des_rubriques_et_des_cartes/_m_especes.ditamap</cmd>
+                </step>
+    </steps>
+    </taskbody></task></learningContent>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_pgf_3gt_qt">
+    <title>Déterminer le contenu réutilisable</title>
+    <prolog>
+        <author type="creator" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author>Decarnelle Rémi (traducteur)</author>
+        <critdates>
+            <created golive="2016-07-11" date="2016-05-11"/>
+            <revised modified="2020-31-10"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Du contenu contient très certainement des fragments pouvant être réutilisé. Une
+                analyse de votre contenu vous permettrait de l'identifier. Vous trouverez des
+                rubriques, mais aussi des éléments comme des paragraphes, des notes, ou des listes
+                réutilisables.</p>
+            <p>Lors d'une analyse de votre contenu, vous pouvez obternir :</p>
+            <ul id="ul_nh4_cqb_3w">
+                <li>
+                    <p>Aucun résultat : si des fragments de contenu ne correspondent pas, alors vous
+                        ne pouvez pas les réutiliser.</p>
+                </li>
+                <li>
+                    <p>Des concordances parfaites : si vous trouvez des fragments de contenu (ou
+                        même des rubriques entières) identiques, vous pouvez les réutiliser. </p>
+                </li>
+                <li>
+                    <p>Des concordances partielles : si vous trouvez des fragments de contenu
+                        presque similaires, vous pouvez probablement gagner à les réutiliser, à
+                        condition d'apporter quelques modifications. Voici quelques exemples de
+                        contenu que vous pouvez considérer correspondre partiellement :</p>
+                    <ul id="ul_gtr_jqb_3w">
+                        <li>Convention d'appelation : le contenu est presque identifique, à
+                            l'exception du nom du produit ou de l'appareil, le numéro de série, ou
+                            le nom de l'entreprise.</li>
+                        <li> Processus, définitions, ou détails : vous avez peut-être plusieurs
+                            manuels qui sont presque identiques à l'exception de quelques détails,
+                            par exemple, une procédure légérement différente pour la mise en service
+                            d'un produit, ou la présence de plus d'avertissements.</li>
+                        <li>Locale : différentes unités de mesures pourraient être utilisées en
+                            fonction de la langue.</li>
+                        <li>Ordre différent : le même contenu peut apparaître dans plusieurs
+                            situations mais l'ordre séquentiel diffère en fonction de la
+                            livrable.</li>
+                        <li>Sous-ensemble : une version plus courte de votre contenu, par exemple,
+                            prévue pour un guide rapide, peut présenter des concordances partielles.
+                            Du contenu en commun entre une version longue et courte d'un manuel peut
+                            être réutilisé.</li>
+                        <li>Spécifique : votre contenu pourrait être identique à l'exception de
+                            quelques renseignements (par exemple, le nombre de vis). Dans de
+                            nombreux cas, supprimer ce qui rend le contenu spécifique est la
+                            solution pour rendre votre contenu réutilisable.</li>
+                    </ul>
+                    
+                </li>
+            </ul>
+            <p>Parfois, il est plus efficace de réécrire votre contenu plutôt que de le réutiliser
+                tel quel. Cela est particulièrement vrai quand deux fragments de contenu sont
+                presque identiques dans le fond, mais diffère dans la forme et l'usage, ou les deux.
+                Si deux fragments transmettent les mêmes informations, mais ne sont pas écrits de la
+                même façon, envisagez de les fusionner pour n'avoir plus qu'un seul fragment, ou
+                bien choissisez laquelle des versions est la plus propice à la réutilisation.</p>
+            <!--<ul id="ul_kvj_2rm_4v"><li>Consider predictable vs unpredictable<ul id="ul_svj_gnh_hw"><li>Differences among existing content</li><li>Differences with content yet to be created</li></ul></li><li>Consider derivative use<ul id="ul_hbz_d5h_hw"><li>How will you handle it?</li></ul></li></ul><ul id="ul_rhj_cl4_bn"><li>Informal reuse<ul id="ul_nn2_bnw_dw"><li>Cut and paste (FORBIDDEN!)</li><li>Off-the-cuff reuse (avoid)<p>“Hey Mary, can I use that topic?”</p><p>“I think I’ll use that topic.”</p></li></ul></li><li>Formal (planned reuse)<ul id="ul_lrq_3lk_ln"><li>Controlled content<ul id="ul_arv_tq4_bn"><li>Regulatory information</li><li>Consistent admonitions</li></ul></li><li>Identifying reusable content</li><li>Write-once, use-many topics</li></ul></li></ul>-->
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>
