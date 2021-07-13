@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<learningAssessment id="lca_conref_attributes" xml:lang="en-US">
+ <title>Conref attributes</title>
+ <shortdesc/>
+ <prolog>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+   Scriptorium</author>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+   Scriptorium</author>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+   Scriptorium</author>
+  <author>Decarnelle Rémi (traducteur)</author>
+  <critdates>
+   <created date="2016-06-30"/>
+   <revised modified="2021-01-28"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcSingleSelect id="lcSingleSelect_mbp_4vh_mw">
+    <lcQuestion>Quand l'élément référençant et l'élément référencé par un conref utilisent les mêmes
+     attributs : (choisir une seule réponse)</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_nbp_4vh_mw">
+     <lcAnswerOption>
+      <lcAnswerContent>Les attributs de l'élément référençant sont conservés en priorité, à
+       l'exception des attributs -dita-use-conref-target et xml:lang.</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Les attributs de l'élément référencé sont conservés en priorité, à
+       l'exception des attributs -dita-use-conref-target et xml:lang.</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Les attributs de l'élément référençant sont conservés en priorité quelle que
+       soit la situation.</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Les attributs de l'élément référençé sont conservés en priorité quelle que
+       soit la situation.</lcAnswerContent>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>Lors de la résolution d'un conref, les attributs de l'élément référençant
+     sont conservés en priorité, à l'exception des attributs -dita-use-conref-target et
+     xml:lang.</lcFeedbackIncorrect>
+   </lcSingleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

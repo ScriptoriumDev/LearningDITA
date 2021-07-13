@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="lc_reltables">
+    <title>Réutiliser du contenu</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Mike Rice, easyDITA</author>
+        <author>Decarnelle Rémi (traducteur)</author>
+        <critdates>
+            <created golive="2016-07-01" date="2016-05-11"/>
+            <revised modified="2020-12-04"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup id="lcObjectivesGroup_wxx_f1p_mv">
+                <lcObjective>Définir les limites de la réutilisation de contenu</lcObjective>
+                <lcObjective>Présenter comment réutiliser du contenu</lcObjective>
+                <lcObjective>Expliquer les conditions pour réutiliser un contenu</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="45"/>
+        </lcDuration>
+        <lcIntro><p>Cette leçon présente comment créer et réutiliser (conref) du contenu au niveau du fragment.</p></lcIntro>
+    </learningContentbody>
+    <related-links>
+        <link
+            href="http://docs.oasis-open.org/dita/v1.2/os/spec/common/theconrefattribute.html#theconrefattribute"
+            format="html" scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, The conref attribute</linktext>
+        </link>
+        <link
+            href="https://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Content_Reuse/c_Content_Reference.html"
+            format="html" scope="external">
+            <linktext>DITA Style Guide, The content reference (conref) attribute</linktext>
+        </link>
+        <link
+            href="https://ditachicks.com/2010/12/05/using-content-references-in-dita/"
+            format="html" scope="external">
+            <linktext>Using content references in DITA</linktext>
+        </link>
+    </related-links>
+</learningContent>

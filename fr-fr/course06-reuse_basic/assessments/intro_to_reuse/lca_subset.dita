@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="lca_reuse">
+ <title>Sous-ensemble de contenu</title>
+ <shortdesc/>
+ <prolog>
+  <author type="creator" href="http://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Simon Bate, Scriptorium</author>
+  <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Jake Campbell, Scriptorium</author>
+  <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+   <author>Decarnelle Rémi (traducteur)</author>
+  <critdates>
+   <created golive="2016-07-11" date="2016-05-11"/>
+   <revised modified="2020-05-11"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction id="lcInteraction_ljf_xv1_mw">
+   <lcTrueFalse id="lcTrueFalse_g3n_xv1_mw">
+    <lcQuestion>Si deux listes contiennent exactement les mêmes entrées, mais qu'une des deux listes
+     contient quelques entrées additionnelles, possède-elle un potentiel de réutilisation
+     ?</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_h3n_xv1_mw">
+     <lcAnswerOption>
+      <lcAnswerContent>Oui</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Non</lcAnswerContent>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>Si une liste est un sous-ensemble d'une autre liste, alors elle est réutilisable.</lcFeedbackIncorrect>
+   </lcTrueFalse>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

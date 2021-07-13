@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningTreeContent.dtd">
+<learningContent xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="lt-content-4677" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic concept)                             (topic reference)                             (topic task)                             (topic learningInteractionBase-d)                            (topic learningInteractionBase-d learning-d)                            (topic learningmeta-d)                             (topic learningBase+learningInteractionBase-d)                            (topic learningBase+learningInteractionBase-d learningContent)                            (topic learningBase learningSummary)                             (topic learningBase+learningInteractionBase-d learningAssessment)   " ditaarch:DITAArchVersion="1.2" class="- topic/topic learningBase/learningBase learningContent/learningContent "><title class="- topic/title ">Réutiliser une étape</title>
+   <prolog class="- topic/prolog ">
+      <author type="creator" href="http://easydita.com/" format="html" scope="external"
+         class="- topic/author ">Mike Rice, easyDITA</author>
+      <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+         class="- topic/author ">Annie Chen, easyDITA</author>
+      <author>Decarnelle Rémi (traducteur)</author>
+      <critdates>
+         <created golive="2016-07-11" date="2016-05-11"/>
+         <revised modified="2021-11-13"/>
+      </critdates>
+   </prolog><learningContentbody class="- topic/body  learningBase/learningBasebody learningContent/learningContentbody ">
+      <lcInstruction>
+         <p class="- topic/p ">De la même façon que les paragraphes, les éléments &lt;cmd> au sein
+            des &lt;step> doivent être grammaticalement indépendants pour être réutilisés. Le
+            nouveau contexte dans lequel la tâche est réutilisée doit être le même que celui
+            d'origine. Par exemple :</p>
+         <dl>
+            <dlentry>
+               <dt>Ne pas réutiliser ce fragment :</dt>
+               <dd>
+                  <pre>&lt;step>&lt;cmd>Éteignez-le&lt;/cmd>&lt;/step></pre>
+               </dd>
+            </dlentry>
+            <dlentry>
+               <dt>Utilisez celui-ci :</dt>
+               <dd>
+                  <pre>&lt;step>&lt;cmd>Éteignez le véhicule&lt;/cmd>&lt;/step></pre>
+               </dd>
+            </dlentry>
+         </dl>
+      </lcInstruction>
+      <section class="- topic/section ">
+         <title class="- topic/title ">Les éléments au sein de &lt;step></title>
+         <p class="- topic/p ">Il est aussi possible de réutiliser différents élements au sein de
+            &lt;step>, tels que &lt;stepxmp> (exemple), &lt;stepinfo>, &lt;choices>,
+            &lt;tutorialinfo>, etc., du moment que les fragments réutilisés soient grammaticalement
+            indépendants et soient réutilisés dans le même contexte.</p>
+      </section></learningContentbody></learningContent>

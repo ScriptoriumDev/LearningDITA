@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_advanced">
+ <title>Collecter des données sur un canard</title>
+ <conbody>
+  <p>Dans le chapitre précédent, vous avez appris sur la propriété des canards et comment s'occuper
+   d'eux. Dans ce chapitre, vous allez apprendre comment collecter des données cruciales à l'aide de
+   la base de données pour canard Magic Mallard.</p>
+  <p>Chaque propriétaire de canard doit suivre l'évolution de la croissance de ses animaux. Avec
+   Magic Mallard, vous pouvez ajouter une entrée pour chacun de vos canards. Chaque entrée contient
+   un tableau dans lequel vous pouvez insérezla taille, le poids et l'envergure des ailes de vos
+   canards semaine après semaine.</p>
+  <p>Pour ajouter une entrée dans la base de données, saisir <codeph>add entry</codeph> suivi du nom
+   du canard entre parenthèses dans la ligne de commande, puis presser Entrer.</p>
+ </conbody>
+</concept>

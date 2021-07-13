@@ -1,45 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- This file is part of the DITA Training project hosted on
-     github.com. See the accompanying LICENSE file for
-     applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
-<learningContent id="content_ajf_qch_1t">
+<learningContent id="content_pgf_3gt_qt">
     <title>Housekeeping and sample files</title>
     <prolog>
-        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
-            Scriptorium</author>
-        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
-            Scriptorium</author>
+        <author href="http://www.easydita.com" scope="external" format="html">Mike Rice,
+            easyDITA</author>
         <critdates>
-            <created date="2015-08-14"/>
+            <created golive="2016-07-01" date="2016-05-11"/>
         </critdates>
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <draft-comment author="simonbate">Check that this works in transforms. </draft-comment>
-            <p>Download <xref href="https://www.learningdita.com/wp-content/uploads/2018/01/task_samples.zip" format="zip" scope="external">task_samples.zip</xref> now. It
-                contains the sample files for the entire Authoring DITA tasks course. Extract the
-                contents and put them in a directory that you can access easily.</p>
-            <p>Inside the samples folder, you will find the file l_task_start.dita, which you will
-                use to complete exercises throughout the course. You will also find the following
-                folders corresponding to lessons in this course: lesson1, lesson2, and lesson3.</p>
-            <p>In each lesson folder, you will find three DITA files:</p>
-            <ul id="ul_lx2_fj2_2t">
+            <p>Download <draft-comment author="gretyl">link to folder of sample files (on WordPress)
+                    once it has been created</draft-comment> now. It contains the sample files for
+                the entire introduction to reuse course. Extract the contents and put them in a
+                directory that you can access easily.</p>
+            <p>Inside the samples folder, you will find the following sub-folders:</p>
+            <ul id="ul_k3n_dbd_3v">
                 <li>
-                    <p>l_<i>filename</i>.dita: The completed version of the sample file you can use
-                        to check your work during each lesson.</p>
+                    <p>exercises</p>
                 </li>
                 <li>
-                    <p>l_<i>filename</i>_exercise_start.dita: The empty file you will add content to
-                        as you complete the exercise at the end of each lesson.</p>
-                </li>
-                <li>
-                    <p>l_<i>filename</i>_exercise.dita: The completed version of the exercise file
-                        you can use to check your work.</p>
+                    <p>samples</p>
                 </li>
             </ul>
-            <p>Each lesson will instruct you on which files to use for the exercises. Save your file
-                as you complete each step to avoid losing your work. </p>
+            <p>Each lesson will instruct you on which folders and files to use for the samples and
+                exercises. Save your file as you complete each step to avoid losing your work. </p>
             <p>Create a local copy of each file to work in as you complete the lessons. That way, if
                 you reach a point where your working file doesn’t match the examples, or is broken
                 for any reason, you can make a fresh copy and resume your work or start over.</p>

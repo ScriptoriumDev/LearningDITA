@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_pgf_3gt_qt">
+    <title>Fragment (conref)</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey</author>
+        <critdates>
+            <created golive="2016-07-01" date="2016-05-11"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Fragments (pieces of information within a topic, as opposed to an entire topic) can
+                also be reused. This is achieved using conrefs.</p> <ul id="ul_kvj_2rm_4v">
+                <li>Conref</li>
+                <li>Conrefend<ul id="ul_onn_xqh_hw">
+                    <li>Conref a series of elements</li>
+                    <li>First and last must be the same type</li>
+                </ul></li>
+                <li>Conrefpush<ul id="ul_rfn_yqh_hw">
+                    <li>Push element into another topic</li>
+                    <li>Before, after, or in place of</li>
+                    <li>Map-based</li>
+                    <li>Works with conkeyref</li>
+                    <li>Does not work with conrefend</li>
+                </ul></li>
+                </ul>
+            <p>Different order: use conref or conrefend</p>
+            <ul id="ul_flz_m2c_3w">
+                <li>Ordered list items</li>
+                <li>Steps</li>
+            </ul>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>
