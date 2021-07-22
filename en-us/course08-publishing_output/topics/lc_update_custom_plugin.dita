@@ -58,6 +58,9 @@
                             <b>dita-ot-2.4.4/plugins/com.learningdita.ld_xhtml/resource</b> folder
                         and open the file <b>ld_style.css</b> in a text editor.</cmd>
                 </step>
+                 <step>
+                    <cmd>Save a copy of <b>ld_style.css</b> before you begin editing it.</cmd>
+                </step>
                 <step>
                     <cmd>Make the following changes to <b>ld_style.css</b>:</cmd>
                     <info>
