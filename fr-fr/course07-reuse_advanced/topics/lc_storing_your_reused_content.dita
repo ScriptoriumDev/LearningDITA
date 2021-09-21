@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningTreeContent.dtd">
+<learningContent xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="lt-content-8477" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic concept)                             (topic reference)                             (topic task)                             (topic learningInteractionBase-d)                            (topic learningInteractionBase-d learning-d)                            (topic learningmeta-d)                             (topic learningBase+learningInteractionBase-d)                            (topic learningBase+learningInteractionBase-d learningContent)                            (topic learningBase learningSummary)                             (topic learningBase+learningInteractionBase-d learningAssessment)   " ditaarch:DITAArchVersion="1.2" class="- topic/topic learningBase/learningBase learningContent/learningContent "><title class="- topic/title ">Storing your reused content</title><shortdesc class="- topic/shortdesc "/>
+	<prolog class="- topic/prolog ">
+		<author type="creator" href="http://easydita.com/" format="html" scope="external"
+			class="- topic/author ">Mike Rice</author>
+		<author type="contributor" href="http://easydita.com/" format="html" scope="external"
+			class="- topic/author ">Annie Chen</author>
+		<critdates>
+			<created golive="2016-07-01" date="2016-05-11"/>
+		</critdates>
+	</prolog><learningContentbody class="- topic/body  learningBase/learningBasebody learningContent/learningContentbody "><lcInstruction class="- topic/section learningBase/lcInstruction ">
+						<p class="- topic/p ">It’s good practice to hold your reusable elements in warehouse topics. These are topics that are written specifically for reuse rather than for direct publication. By following this practice you will avoid creating <q class="- topic/q ">spaghetti references</q> - referenced elements at random points within a publication. Having unpredictable  referenced element locations means that you can’t easily manage the dependencies of one topic to another. </p><p class="- topic/p ">By keeping your reusable elements in defined locations, your referenced element won’t be removed from the map unintentionally. As long as the warehouse topics are included in the publication map, their referenced elements will be available to resolve conrefs.</p><p class="- topic/p ">Some component content management systems may have specific requirements for where reused content must be stored. For example, some systems require that all content included in a map, including content included solely for reuse, be stored in a folder beneath the folder that holds the map. Check the requirements of your CCMS if you’re in doubt.</p>
+			<draft-comment author="gretyl">Add "Practice" section and on your own
+				exercise</draft-comment>
+					</lcInstruction></learningContentbody>
+	<task id="task_at5_jgd_3v">
+		<title>Practice</title>
+		<taskbody/>
+	</task>
+	<task id="task_o5j_gsy_dw">
+		<title>Exercise</title>
+		<taskbody/>
+	</task></learningContent>

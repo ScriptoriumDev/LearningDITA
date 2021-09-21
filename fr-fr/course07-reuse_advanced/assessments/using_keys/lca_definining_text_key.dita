@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningAssessment id="lca_definining_text_key">
+ <title>Clé et chaîne de caractères</title>
+ <prolog>
+  <author type="creator" href="http://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Simon Bate</author>
+  <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Jake Campbell</author>
+  <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Gretyl Kinsey</author>
+  <author>Decarnelle Rémi(traducteur)</author>
+  <critdates>
+   <created golive="2016-11-30" date="2016-11-04"/>
+   <revised modified="2021-03-08"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction id="lcInteraction_xmm_mb4_vx">
+   <lcTrueFalse id="lcTrueFalse_lyk_tc4_vx">
+    <lcQuestion>The text string defined for a key can contain inline formatting elements (true or
+     false)? La chaîne de caractères définie par la clé peut contenir des éléments en-ligne de
+     formatage.</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_myk_tc4_vx">
+     <lcAnswerOption>
+      <lcAnswerContent>Vrai</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Faux</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>Une chaîne de caractères définie par une clé ne peut contenir que du texte
+     ainsi que les éléments &lt;text> et &lt;tm> (trademark).</lcFeedbackIncorrect>
+   </lcTrueFalse>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

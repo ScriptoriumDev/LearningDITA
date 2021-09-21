@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="lc_creating_a_map">
+    <title>Utiliser des clés DITA</title>
+    <prolog>
+        <author type="creator" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey</author>
+        <author>Decarnelle Rémi (traducteur)</author>
+        <critdates>
+            <created golive="2016-12-01" date="2016-10-18"/>
+            <revised modified="2021-02-26"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup id="lcObjectivesGroup_tvl_vbh_1t">
+                <lcObjective class="- topic/li learningBase/lcObjective ">Définir une clé pour un
+                    chemin vers une ressource</lcObjective>
+                <lcObjective>Utiliser une clé pour un chemin vers une ressource</lcObjective>
+                <lcObjective>Définir une clé pour une chaîne de caractères</lcObjective>
+                <lcObjective>Utiliser une clé pour une chaîne de caractères</lcObjective>
+                <lcObjective>Rassembler les clés définies dans une sous-carte</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="45"/>
+        </lcDuration>
+        <lcIntro>
+            <p>Une clé DITA est un espace vierge réservé pour des chaînes de caractères ou des
+                chemins de fichier (ou des URLs). Lors de la création d'une rubrique réutilisable,
+                vous pouvez insérer des clés aux endroits où des chaînes de caractères ou des
+                chemins de fichier seront différents chaque fois que le fichier sera réutilisé. Vous
+                définissez la valeur finale de la clé dans la carte DITA.</p>
+            <p>Cette leçon explique comment définir et utiliser une clé pour des chaînes de
+                caractères et des chemins de fichier.</p>
+        </lcIntro>
+    </learningContentbody>
+    <related-links>
+        
+        <link
+            href="https://docs.oasis-open.org/dita/v1.2/os/spec/archSpec/key-based_addressing.html"
+            format="html">
+            <linktext>DITA Specification, Key-based addressing</linktext>
+        </link>
+        <link
+            href="https://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Cross_Referencing/c_Indirection_with_keyref.html"
+            format="html">
+            <linktext>DITA Style Guide, Indirect linking with keys</linktext>
+        </link>
+        <link
+            href="https://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Content_Reuse/c_Variables_Using_keydef.html"
+            format="html">
+            <linktext>DITA Style Guide, Variables using indirection</linktext>
+        </link>
+    </related-links>
+</learningContent>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningTreeContent.dtd">
+<learningContent xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="lt-content-4677" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic concept)                             (topic reference)                             (topic task)                             (topic learningInteractionBase-d)                            (topic learningInteractionBase-d learning-d)                            (topic learningmeta-d)                             (topic learningBase+learningInteractionBase-d)                            (topic learningBase+learningInteractionBase-d learningContent)                            (topic learningBase learningSummary)                             (topic learningBase+learningInteractionBase-d learningAssessment)   " ditaarch:DITAArchVersion="1.2" class="- topic/topic learningBase/learningBase learningContent/learningContent "><title class="- topic/title ">Understanding the problem</title>
+   <prolog class="- topic/prolog ">
+      <author type="creator" href="http://easydita.com/" format="html" scope="external"
+         class="- topic/author ">Mike Rice</author>
+      <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+         class="- topic/author ">Annie Chen</author>
+      <critdates>
+         <created golive="2016-07-01" date="2016-05-11"/>
+      </critdates>
+   </prolog><learningContentbody class="- topic/body  learningBase/learningBasebody learningContent/learningContentbody "><lcInstruction class="- topic/section learningBase/lcInstruction ">
+         <p class="- topic/p ">When first learning about conrefs in DITA, it might be tempting to
+            use it in any number of situations. However, it’s wise to proceed with some caution,
+            especially if your content will be translated. And even if your content is not being
+            translated today, assuming that it will be translated someday will avoid problems when
+               <q class="- topic/q ">someday</q> comes. </p>
+         <p class="- topic/p ">In general, just because it works in DITA, and it works well in
+            English, it does not mean that it’s a good thing to do to content that will be
+            translated into other languages. Languages vary in their vocabulary, but it goes far
+            beyond that. They also vary in how words can be put together and in the effect that
+            words might have on the surrounding words.</p>
+         <p class="- topic/p ">Not every language works the same as English. Some languages require
+            a word to take a different form depending on whether it’s in the subject or object of
+            the sentence. Some languages have grammatical gender, and so words with gender can
+            affect words that are related to it in the sentence. Some languages have a different
+            number of plural forms than in English, where we’re used to the concepts of zero, one,
+            and more than one.</p>
+         <p class="- topic/p ">Each language has different rules of grammar and syntax. It’s not the
+            point of this lesson to understand the rules for every language. Instead, we’ll use
+            English to illustrate why substituting words isn’t a good idea when your content will be
+            translated into other languages with other rules.</p>
+         <p class="- topic/p ">Example:</p>
+         <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Casey ate an orange.</b>
+         </p>
+         <p class="- topic/p ">What if we were to substitute another word for orange?</p>
+         <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Casey ate an <u class="+ topic/ph hi-d/u ">apple</u>.</b>
+         </p>
+         <p class="- topic/p ">Still OK. But what if we substituted a different word?</p>
+         <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Casey ate an <u class="+ topic/ph hi-d/u ">tomato</u>.</b>
+         </p>
+         <p class="- topic/p "><note type="tip" class="- topic/note "><q class="- topic/q "
+                  >Knowledge is knowing that a tomato is a fruit. Wisdom is not putting it in a
+                  fruit salad</q> - Miles Kington</note>Now we have a problem. In English, we need
+            the article <b class="+ topic/ph hi-d/b ">a</b> instead of <b class="+ topic/ph hi-d/b "
+               >an</b> when the word starts with a consonant sound. Maybe not every language has a
+            rule like that, but English does.&#160;Substituting a fruit breaks the a/an rule in some
+            cases.</p>
+         <p class="- topic/p ">But that’s not the only way we can break our sample sentence.</p>
+         <p class="- topic/p ">Example:</p>
+         <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Casey ate an apple.</b>
+         </p>
+         <p class="- topic/p ">What if we substituted the plural?</p>
+         <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Casey ate an <u class="+ topic/ph hi-d/u ">apples</u>.</b>
+         </p>
+         <p class="- topic/p ">You’re probably getting the idea. English has rules that are broken
+            easily by substituting words within sentences. Other languages have other rules that are
+            also broken easily by substituting words within sentences. Just because you’re following
+            the rules for English doesn’t mean you’re not breaking the rules for another language.
+            You probably don’t know all the rules for all the languages your English content will be
+            translated into. So, <b class="+ topic/ph hi-d/b ">you should not use conref within
+               sentences (using ph or similar elements) to substitute parts of the sentence. </b>The
+            same goes for other reuse techniques like conkeyref and conditional filtering (profiling
+            with ditaval). If you use these on parts of a sentence, you’re just asking for trouble
+            because you will have bad content when it’s translated. </p>
+      </lcInstruction></learningContentbody>
+   <task id="task_at5_jgd_3v">
+      <title>Practice</title>
+      <taskbody/>
+   </task></learningContent>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<learningContent id="lc_about_reltables">
+    <title>Conref, les meilleurs pratiques</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Mike Rice</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Annie Chen</author>
+        <author>Decarnelle Rémi (traducteur)</author>
+        <critdates>
+            <created golive="2016-07-01" date="2016-05-11"/>
+            <revised modified="2021-03-18"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcIntro>
+            <p>Les conrefs qui fonctionnent bien en français peuvent devenir un problème dans une
+                autre langue. Voici quelques suggestions qui auront plus de sens maintenant que la
+                leçon est terminée :</p>
+            <ul class="- topic/ul " id="ul_qcd_xry_dw">
+                <li class="- topic/li ">
+                    <p class="- topic/p ">Ne pas associer un conref avec un élément ph pour
+                        remplacer des fragments de phrase.</p>
+                </li>
+                <li class="- topic/li ">
+                    <p class="- topic/p ">Faites preuve de précaution lorsque vous utilisez un
+                        conref pour réutiliser des phrases complètes.</p>
+                </li>
+                <li class="- topic/li ">
+                    <p class="- topic/p ">Lorsque vous réalisez un conref, vous allez réutiliser un
+                        élément bloc qui remplit les conditions suivantes :<ul class="- topic/ul "
+                            id="ul_rcd_xry_dw">
+                            <li class="- topic/li ">
+                                <p class="- topic/p ">Le contenu réutilisé est grammaticalement
+                                    indépendant.</p>
+                            </li>
+                            <li class="- topic/li ">
+                                <p class="- topic/p "> Les éléments référencés et référençant
+                                    doivent partager le même contexte.<draft-comment
+                                        author="simonbate">"context" is not defined; not
+                                        clear.</draft-comment></p>
+                            </li>
+                        </ul>
+                    </p>
+                </li>
+            </ul>
+        </lcIntro>
+    </learningContentbody>
+</learningContent>

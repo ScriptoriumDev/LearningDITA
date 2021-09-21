@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="lc_advanced_keys">
+    <title>Utilisation avancée des clés</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey</author>
+        <author>Decarnelle Rémi (traducteur)</author>
+        <critdates>
+            <created golive="2016-07-01" date="2016-10-17"/>
+            <revised modified="2021-03-04"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction id="lcInstruction_w1w_d5m_qx">
+            <p><b>Utilisation hybride de l'élément &lt;keydef></b></p>
+            <p>Vous pouvez utiliser l'élément &lt;keydef> à la fois pour des chemins de fichier ou
+                des chaînes de caractères. Imaginez une situation dans laquelle vous avez besoin de
+                référence croisée d'une rubrique à différents endroits. Dans ce cas, vous pouvez
+                créer un élément &lt;keydef> qui associe une clé à un attribut href pointant vers
+                une rubrique, et dans lequel est imbriqué un élément &lt;topicmeta> et ensuite
+                &lt;linktext> :</p>
+            <pre>&lt;keydef keys="initialiser_bdc" href="init_bdc.dita">
+    &lt;topicmeta>
+        &lt;linktext>Initialiser la Base de données canards&lt;/linktext>
+    &lt;/topicmeta>
+&lt;/keydef></pre>
+            <p>Si vous référencez cette clé a l'aide d'une référence croisée, soit l'élément
+                &lt;xref>, le fichier init_bdc.dita sera visé le contenu de linktext sera ajouté à
+                l'emplacement de votre xref, soit "Initialiser la Base de données canards"
+                :<pre>&lt;xref keyref="init_bdc.dita"/></pre></p>
+            <!--The following works fine in Oxygen, but DOES NOT WORK in the OT. -->
+            <!--<p>In addition, you can use the key if you just need to refer to the linktext:</p><pre>For more information, see &lt;cite keyref="initing_ddb"/>. </pre><p>When this is processed, the &lt;linktext> content will be used in the &lt;cite> element: </p><lq>For more information, see <i>Initializing the Duck Database</i>. </lq>-->
+            <p><b>Keyref avec scénario de secours</b></p>
+            <p>Si vous utilisez les attributs keyref et href avec le même élément, le transformateur
+                essayera de résoudre le keyref en priorité. Si la clé n'est pas définie, alors le
+                href sera resolu comme scénario de secours.</p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

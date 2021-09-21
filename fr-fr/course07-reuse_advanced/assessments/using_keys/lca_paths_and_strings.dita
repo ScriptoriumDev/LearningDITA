@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningAssessment id="lca_paths_and_strings">
+ <title>Chemins de fichier et chaînes de caractères</title>
+ <prolog>
+  <author type="creator" href="http://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Simon Bate</author>
+  <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Jake Campbell</author>
+  <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Gretyl Kinsey</author>
+  <author>Decarnelle Rémi (traducteur)</author>
+  <critdates>
+   <created golive="2016-11-30" date="2016-11-04"/>
+   <revised modified="2021-03-08"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction id="lcInteraction_d3f_wnn_vx">
+   <lcTrueFalse id="lcTrueFalse_rbl_wnn_vx">
+    <lcQuestion>Les clés peuvent être utilisées pour définir des chemins de fichier et chaînes de
+     caractères.</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_sbl_wnn_vx">
+     <lcAnswerOption>
+      <lcAnswerContent>Vrai</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Faux</lcAnswerContent>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>Les clés peuvent bien être utilisées pour définir des chemins de fichier et
+     chaînes de caractères.</lcFeedbackIncorrect>
+   </lcTrueFalse>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

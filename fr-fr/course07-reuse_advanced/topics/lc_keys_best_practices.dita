@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="content_pgf_3gt_qt">
+    <title>Les meilleurs pratiques d'utilisation des clés</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey</author>
+        <author>Decarnelle Rémi (traducteur)</author>
+        <critdates>
+            <created golive="2016-12-01" date="2016-10-18"/>
+            <revised modified="2021-03-04"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction><p><b>Utiliser l'élement &lt;keydef> plutôt que
+                &lt;topicref></b></p><p>L'élément &lt;keydef> est une spécialisation de
+                &lt;topicref>. Bien que vous pouvez utiliser l'élement &lt;topicref> pour définir
+                une clé, il est recommandé de plutôt utiliser &lt;keyref> pour plusieurs raisons
+                :</p><ul>
+                <li>Vous indiquez précisement sur le plan sémantique ce que vous faites</li>
+                <li>L'élément &lt;keydef> est automatiqué marqué par l'attribut et la valeur
+                        <tt>processing-role="resource-only"</tt>. Sans cet attribut, le
+                    transformateur ajoutera la rubrique de réutilisation de contenu à la
+                    publication, ce que vous ne voulez probablement pas.</li>
+                <li>Utiliser l'élément &lt;keyref> vous forcera à utiliser l'attribut keys, ce qui
+                    peut vous aider si vous avez tendance à oublier.</li>
+            </ul><p><b>Rassembler les clés dans une sous-carte</b></p><p>Il fait partie des bonnes
+                pratiques de rassembler toutes les clés dans une seule sous-carte. Deux arguments
+                viennent soutenir cette idée :</p><ul id="ul_lkz_mwq_px">
+                <li>Une fois que toutes les clés sont rassemblées dans une seule sous-carte, vous et
+                    votre équipe peuvent réutiliser cette dernière dans toutes les autres cartes que
+                    vous le souhaitez.</li>
+                <li>Pour changer la définition de la clé utilisée par une carte, il est simplement
+                    question de remplacer une sous-carte contenant les clés par une autre plutôt que
+                    mettre à jour tous les éléments &lt;keydef>. De même, vous pouvez ajouter
+                    plusieurs éléments &lt;mapref> à votre carte et avoir recours au traitement
+                    conditionnel pour exclure les cartes et clés de votre choix.</li>
+            </ul><image keyref="i_keysubmap" id="image_fbl_w4l_zx" base="2016/12"/><p><b>Ajouter une
+                    définition de clé dans une bookmap</b></p><p>La structure de l'élément
+                &lt;bookmap> n'autorise pas &lt;topicref>, &lt;keydef>, ou &lt;mapref> comme élément
+                enfant, alors il est difficile de savoir comment définir une clé.</p><p>Un nombre
+                considérable d'utilisateurs de DITA placent leurs éléments &lt;keydef> et
+                &lt;mapref> comme éléments enfants de &lt;frontmatter>. Cette pratique assure que
+                ces éléments seront visibles par les utilisateurs éditant la
+            carte.</p></lcInstruction>
+    </learningContentbody>
+</learningContent>

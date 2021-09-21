@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="content_pgf_3gt_qt">
+    <title>Les meilleures pratiques pour l'utilisation avancée des conrefs</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey</author>
+        <author>Decarnelle Rémi (traducteur)</author>
+        <critdates>
+            <created golive="2016-12-01" date="2016-10-18"/>
+            <revised modified="2021-05-24"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p><b>Doit-on utiliser des clés ou des conkeyrefs pour réutiliser des chaînes de
+                    caractères courtes ?</b></p>
+            <p> Si vous voulez utiliser des clés pour référencer une chaîne de caractères plutôt
+                courte comme le nom de votre entreprise, utiliser une clé est la façon la plus
+                facile de procéder.</p>
+            <p>Cependant, l'élément &lt;keyword> utilisé pour définir une clé ne peut contenir
+                seulement que du texte et l'élement &lt;tm> (trademark, marque déposée). Si la clé
+                nécessite d'être formatée, alors il sera plus simple d'utiliser un élément &lt;ph>
+                (phrase).</p>
+            <p>Par exemple, le nom d'entreprise “Pure-H<sub>2</sub>O” ne peut être accepté comme
+                valeur pour l'élément &lt;keyword>. Vous aurez plutôt besoin de l'élement &lt;ph>
+                :</p>
+            <pre>&lt;ph id="nom_entreprise">Pure-H&lt;sub>2&lt;/sub>O&lt;/ph></pre>
+            <p>Pour créer une rubrique réutilisable avec le nom de l'entreprise référencé, utilisez
+                l'élement &lt;ph> avec un conkeyref.</p>
+            <p><b>Conkeyref ou conrefend ?</b></p>
+            <p>Voici une règle à suivre afin de déterminer s'il faut utiliser un conkeyref ou un
+                conrefend :</p>
+            <ul>
+                <li>If the element will always be present, but will change depending on the intended
+                    target, use conkeyref. Si l'élément sera toujourrs présent, mais changera en
+                    fonction de la cible, utiliser un conkeyref.</li>
+                <li>Si l'élément ne sera présent que pour une ou deux cibles (sur de nombreuses
+                    autres), utiliser un conrefend.</li>
+            </ul>
+            <p><b>Rassembler les clés dans une sous-carte</b></p>
+            <p>Comme il a été recommandé dans la leçon sur l'utilisation des clés, il est pratique
+                d'utiliser une sous-carte pour rassembler les définitions de clés pour les
+                conkeyref.</p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>
