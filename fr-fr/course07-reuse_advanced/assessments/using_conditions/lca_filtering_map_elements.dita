@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<learningAssessment id="lca_filtering_map_elements">
+ <title>Traitement conditionnel et carte DITA</title>
+ <prolog>
+  <author type="creator" href="http://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Simon Bate</author>
+  <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Jake Campbell</author>
+  <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Gretyl Kinsey</author>
+  <author>Decarnelle Rémi (traducteur)</author>
+  <critdates>
+   <created golive="2016-11-30" date="2016-11-03"/>
+   <revised modified="2021-02-25"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction id="lcInteraction_nvn_kph_vx">
+   <lcTrueFalse id="lcTrueFalse_uwv_kph_vx">
+    <lcQuestion>Vous pouvez utiliser les attributs conditionnels dans les cartes DITA pour filtrer
+     des éléments tels que &lt;topicref>.</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_vwv_kph_vx">
+     <lcAnswerOption>
+      <lcAnswerContent>Vrai</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Faux</lcAnswerContent>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>Oui, vous pouvez utiliser les attributs conditionnels dans les cartes
+     DITA</lcFeedbackIncorrect>
+   </lcTrueFalse>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

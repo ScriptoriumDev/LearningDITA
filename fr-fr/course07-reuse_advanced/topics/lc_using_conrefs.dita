@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="lc_reltables">
+    <title>Using conrefs</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Mike Rice</author>
+        <critdates>
+            <created golive="2016-07-01" date="2016-05-11"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup id="lcObjectivesGroup_wxx_f1p_mv">
+                <lcObjective>
+                    <draft-comment author="gretyl">Add objectives</draft-comment>
+                </lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="45"/>
+        </lcDuration>
+        <lcIntro>
+            <draft-comment author="gretyl">Add intro</draft-comment>
+            <draft-comment author="gretyl">Add related links</draft-comment>
+        </lcIntro>
+    </learningContentbody>
+    <related-links/>
+</learningContent>

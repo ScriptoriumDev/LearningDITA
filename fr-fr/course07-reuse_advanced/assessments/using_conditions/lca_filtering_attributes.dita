@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<learningAssessment id="filtering_attributes">
+ <title>Attributs conditionnels</title>
+ <prolog>
+  <author type="creator" href="http://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Simon Bate</author>
+  <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Jake Campbell</author>
+  <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Gretyl Kinsey</author>
+  <author>Decarnelle Rémi (traducteur)</author>
+  <critdates>
+   <created golive="2016-11-30" date="2016-11-03"/>
+   <revised modified="2021-02-24"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction id="lcInteraction_p21_w3h_vx">
+   <lcSingleSelect id="lcSingleSelect_tql_kjh_vx">
+    <lcQuestion>Lequel de ces attributs n'est pas un attribut conditionnel de DITA ? (choisir une
+     seule réponse)</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_uql_kjh_vx">
+     <lcAnswerOption>
+      <lcAnswerContent>audience</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>platform</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>product</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>role</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>L'attribut role n'est pas un attribut conditionnel dans
+     DITA.</lcFeedbackIncorrect>
+   </lcSingleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

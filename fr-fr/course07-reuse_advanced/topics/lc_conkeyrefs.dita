@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="content_pgf_3gt_qt">
+    <title>Conkeyrefs</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey</author>
+        <author>Decarnelle Rémi (traducteur)</author>
+        <critdates>
+            <created golive="2016-12-01" date="2016-10-18"/>
+            <revised modified="2021-03-09"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction><p>Un conkeyref est un attribut servant à référencer du contenu par le bais
+                d'une clé plutôt qu'en référençant directement le contenu d'un élément. Comme décrit
+                dans le cours <xref keyref="reuse_basic_url"/>, un conref est utilisé de la façon
+                suivante
+                :</p><pre>&lt;ul conref="canard_domestique_dépot.dita#domestique_dépot/matériaux_nidation">
+   &lt;li/>
+&lt;/ul></pre><p>Le
+                conref vient référencer le contenu de l'élément &lt;ul> depuis la rubrique dépôt
+                contenant tous le contenu réutilisable en lien avec les canards
+                domestiques.</p><p>Si la rubrique contenant le conref doit être réutilisable, alors
+                pointer directement vers le fichier codé sera un problème. Pour référencer une
+                rubrique réutilisable dans une carte DITA qui traite des canards sauvages, le conref
+                doit pointer vers une autre rubrique dépôt telle que
+                canard_sauvage_depot.dita.</p><p>Plutôt que de coder en dur un chemin vers un
+                fichier, vous pouvez utiliser un conref qui pointe plutôt vers une clé.</p><image
+                keyref="i_conkeyref" id="image_j4p_ysl_zx" base="2016/12"/><p>La première étape pour
+                utiliser un conkeyref est de créer une rubrique dita
+                (canard_domestiques_rubrique.dita) qui contient un élément réutilisable (qui a donc
+                un attribut id)
+            :</p><pre>&lt;ul id="matériaux_nidation">
+   &lt;li>sciure&lt;/li>
+   &lt;li>copeaux&lt;/li>
+   &lt;li>sable&lt;/li>
+   ...
+&lt;/ul></pre>Dans
+            la carte qui référencera la rubrique où sera utilisé le conkeyref, définir une clé
+            pointant vers la rubrique dépôt
+                :<pre>&lt;keydef keys="canard_depot" href="canard_domestique_depot.dita"/></pre><p>Le
+                premier exemple de cette rubrique présente un élément &lt;ul> avec un conref.
+                Remplacez l'attribut conref par un conkeyref. En valeur, ajouter le nom de la clé
+                suivi d'un slash ("/") et de l'id l'élément référencé
+                :</p><pre>&lt;ul conkeyref="canard_depot/matériaux_nidation">
+   &lt;li/>
+&lt;/ul></pre><note>Quand
+                vous utilisez un conkeyref, vous n'avez pas besoin de spécifier l'id de la rubrique
+                contenant l'élément référencé. </note><p>Quand la rubrique contenant le conkeyref
+                est transformée, la clé canard_depot est remplacée par sa définition qui est
+                canard_domestique_depot.dita.</p><p>Vous pouvez réutiliser la rubrique contenant le
+                conkeyref dans une autre carte DITA, mais vous devrez peut-être importer du contenu
+                depuis un fichier qui est spécifique à cette carte. Pour se faire, ajouter un
+                élément &lt;keydef> à votre nouvelle carte pour définir la clé qui va pointer vers
+                le bon fichier. Dans l'exemple suivant, la clé canard_dépot de la nouvelle carte
+                (qui traite des canards sauvages) pointe vers canard_sauvage_depot.dita
+                :</p><pre>&lt;keydef keys="canard_depot" href="canard_sauvage_depot.dita"/></pre><p>Le
+                fichier canard_sauvage_depot.dita possède un élément &lt;ul> différent. Cependant,
+                il faut que son attribut id possède la même valeur
+                :</p><pre>&lt;ul id="matériaux_nidation">
+   &lt;li>fougères&lt;/li>
+   &lt;li>brindilles&lt;/li>
+   &lt;li>de l'herbe&lt;/li>
+   ...
+&lt;/ul></pre><p>Quand
+                cette nouvelle clé sera utilisée dans la carte sur les canards sauvages, la liste
+                des matériaux de nidation pour les canards sauvages sera utilisée.</p><p>Enfin,
+                notez que toutes les règles qui s'appliquent aux conrefs s'appliquent également aux
+                conkeyref :</p><ul id="ul_gzh_wmv_qx">
+                <li>L'élément référençant doit être du même type que celui de l'élément
+                    référencé.</li>
+                <li>L'élément référençant doit être valide. Par exemple, un élément &lt;ul> doit
+                    contenir au moins un élément &lt;li>.</li>
+            </ul></lcInstruction>
+    </learningContentbody>
+</learningContent>

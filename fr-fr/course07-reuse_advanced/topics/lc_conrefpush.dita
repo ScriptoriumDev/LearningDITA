@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="content_pgf_3gt_qt">
+    <title>La poussée de contenu (conaction)</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey</author>
+        <author>Decarnelle Rémi (traducteur)</author>
+        <critdates>
+            <created golive="2016-12-01" date="2016-10-18"/>
+            <revised modified="2021-03-11"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction><p>Quand une rubrique utilise un conref, elle vient "importer" du contenu
+                depuis une rubrique référencée vers une rubrique référençante. Cependant, il existe
+                des situations où vous aurez besoin d'insérer un élément dans un emplacement
+                arbitraire au sein d'une rubrique réutilisable.</p><p>Par exemple, vous avez
+                peut-être une rubrique qui est pratique dans la majorité des cas. Cependant, il
+                existe un cas (un produit, un client) où vous avez besoin d'ajouter un paragraphe
+                supplémentaire à votre rubrique réutilisable. Une première solution serait d'ajouter
+                ce paragraphe puis de l'inclure ou l'exclure à l'aide du traitement conditionnel.
+                Mais comment faire si vous n'avez pas les droits d'édition sur la rubrique ? Ou bien
+                que votre rubrique est conservée dans une zone publique d'accès (comme GitHub) et ne
+                voulez pas que vos modifications soient visibles de tous ?</p><p>Le <i>conref
+                    push</i> (ou conaction), soit la technique de réutilisation en poussant le
+                contenu, sert à "pousser" le contenu d'une rubrique (source) vers une carte dita
+                dans une autre rubrique (cible).</p><p>L'attribut conaction rend possible possible
+                la poussée d'un contenu de trois façons :</p><ul id="ul_xz4_ppv_qx">
+                <li>le contenu est inséré avant un élément spécifique</li>
+                <li>le contenu remplace un élémét spécifique</li>
+                <li>le contenu est inséré après un élément spécifique</li>
+            </ul><image keyref="i_conref_push" id="image_a4s_nvd_dy" base="2016/12"/><p>De la même
+                façon que le conref, les éléments référencés et référençants doivent être du même
+                type.</p><p>Plusieurs étapes doivent être remplies pour réaliser un conaction :<ul
+                    id="ul_gcs_k2p_cy">
+                    <li>
+                        <p>Assurez-vous que l'élément référencé, soit l'élément qui sera poussé vers
+                            la cible, possède un attribut id.</p>
+                        <pre>&lt;p id="installation_intro">Ce chapitre décrit comment installer et configure la base de données canard sur Windows et Macintosh.&lt;/p></pre>
+                    </li>
+                    <li>
+                        <p>Créez une rubrique contenant l'élément qui sera poussé.</p>
+                        <p>La rubrique doit contenir tous les éléments nécessaires afin de rendre
+                            l'élément poussé valide. Par exemple, si vous devez pousser un élément
+                            &lt;li>, la rubrique doit contenir les éléments &lt;body>, &lt;ul> et
+                            &lt;li>.</p>
+                        <p>Le contenu et les attributs de l'élément poussé sont abordés plus loin
+                            dans la leçon.</p>
+                    </li>
+                    <li>
+                        <p>Ajoutez un élément &lt;topicref> à votre carte qui va référencer la
+                            rubrique contenant l'élément poussé.</p>
+                        <pre> &lt;topicref href="c_conrefpush_sources.dita" processing-role="resource-only"/></pre>
+                        <p>Notez que cet élément &lt;topicref> doit avoir l'attribut processing-role
+                            couplé à la valeur "resource-only", car son contenu ne doit pas
+                            apparaître dans une publication générée à partir de la carte.</p>
+                    </li>
+                </ul></p><p>Les sections suivantes décrivent comment utiliser l'attribut conaction
+                pour remplacer un élément, ou insérer un élément avant ou après un autre. Tous les
+                exemples utilisent cette rubrique comme exemple
+                :</p><pre>&lt;concept id="c_installation">
+ &lt;title>Installer la Base de données Canard&lt;/title>
+ &lt;conbody>
+  &lt;p id="installation_intro">Pour installer la Base de données Canard sur Windows ou Macintosh, veuillez suivre ces instructions.&lt;/p>
+  &lt;p>Si vous avez besoin à n'importe quelle étape de l'installation, veuillez contacter notre plateforme d'appel disponible 24 heures sur 24.&lt;/p>
+ &lt;/conbody>
+&lt;/concept>
+</pre><p>Une
+                publication générée à partir de cette rubrique sans aucun conref ressemblerait à
+                ceci :</p><image keyref="i_no_push" id="image_px1_dbv_cy" base="2016/11"/><note> Les
+                fichiers DITA montrés dans ces exemples peuvent être consultés dans le dossier <xref
+                    keyref="sample_file"/> examples_réutilisation_avancé. Le fichier cible est
+                c_conaction_cible.dita. Le fichier source est
+                    c_conaction_sources.dita.</note><p><b>Remplacer l'élément cible</b></p><p>Pour
+                remplacer un élément dans la rubrique cible, utilisez l'attribut conref pour
+                identifier l'élément à remplacer, et ajoutez l'attribut conaction avec la valeur
+                "pushreplace"
+                :</p><pre>&lt;concept id="c_conrefp_source">
+ &lt;title>Sources conaction&lt;/title>
+ &lt;conbody>
+  &lt;p conref="c_conaction_cible.dita#c_installation/installation_intro" conaction="pushreplace">
+   Pour installer la Base de données Canard sur Windows, veuillez suivre ces instructions&lt;/p>
+ &lt;/conbody>
+&lt;/concept>
+</pre><p>Une
+                publication générée à partir de cette rubrique ressemblerait à ceci :<image
+                    keyref="i_ex_push_replace" id="image_ohz_chv_cy" base="2016/11"
+                    /></p><p><b>Insérer un élément avant l'élément cible</b></p><p>Pour insérer un
+                élément avant la cible, vous devez utiliser deux éléments du même type que la cible
+                    :<ol id="ol_yhs_jsc_rx">
+                    <li>Le premier élément utilise l'attribut conaction avec la valeur "pushbefore"
+                        et contient le contenu qui sera poussé.</li>
+                    <li>Le second élément ne contient aucun élément mais utilise les attributs
+                        conref (pour identifier l'élément cible) et l'attribut conaction avec la
+                        valeur "mark".</li>
+                </ol></p><p>Voici un exemple
+                :</p><pre>&lt;concept id="c_conrefp_source">
+ &lt;title>Sources conaction&lt;/title>
+ &lt;conbody> 
+ <ph outputclass="new_changed">  &lt;p conaction="pushbefore">
+   Assurez d'avoir rempli toutes les étapes de la pré-configuration.
+   &lt;/p>
+   &lt;p conref="c_conaction_cible.dita#c_installation/installation_intro" conaction="mark"/></ph>
+ &lt;/conbody>
+&lt;/concept>
+</pre><p>Une
+                publication générée à partir de cette rubrique sans aucun conref ressemblerait à
+                ceci :</p><image keyref="i_ex_push_before" id="image_kst_x3v_cy" base="2016/11"
+                    /><p><b>Insérer un élément avant l'élément cible</b></p><p>Pour insérer un
+                élément avant l'élément cible, utilisez deux éléments du même type que la cible,
+                mais cette fois-ci, l'élément avec les attributs conref et conaction avec la valeur
+                "mark" doivent venir <i>avant</i> l'élement avec l'attribut conaction et la valeur
+                "pushafter"
+                :</p><pre>&lt;concept id="c_conrefp_source">
+ &lt;title>Sources conaction&lt;/title>
+ &lt;conbody> 
+<ph outputclass="new_changed">    &lt;p conref="c_conaction_cible.dita#c_installation/installation_intro" conaction="mark"/>
+    &lt;p conaction="pushafter">Pour installer le logiciel sur Ubuntu, veuillez consulter la section prévue à cet effet. &lt;/p></ph>
+ &lt;/conbody>
+&lt;/concept>
+</pre><p>Une
+                publication générée à partir de cette rubrique sans aucun conref ressemblerait à
+                ceci :</p><image keyref="i_ex_push_after" id="image_ktk_jjv_cy" base="2016/11"
+                /><p>Voici encore deux notes sur le mécanisme de poussée de contenu (conaction)
+                :</p><ul id="ul_hvm_2sc_rx">
+                <li>
+                    <p>Vous ne pouvez pas utiliser l'attribut conrefend avec conaction.</p>
+                </li>
+                <li>
+                    <p>Vous <i>pouvez</i> utiliser l'attribut conkeyref pour indiquer la cible du
+                        conaction.</p>
+                </li>
+            </ul></lcInstruction>
+    </learningContentbody>
+    
+    
+</learningContent>

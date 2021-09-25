@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="content_pgf_3gt_qt">
+    <title>Conrefend</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey</author>
+        <author>Decarnelle Rémi (traducteur)</author>
+        <critdates>
+            <created golive="2016-12-01" date="2016-10-18"/>
+            <revised modified="2021-03-10"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction><p>L'attribut conref est utile pour importer du contenu d'un élément vers une
+                autre rubrique. Mais comment faire si vous voulez réutiliser du contenu d'une série
+                d'élements ?</p><p>Pour réutiliser le contenu d'une séquence de deux ou plusieurs
+                éléments dans une rubrique, utilisez l'attribut conrefend combiné à un attribut
+                conref. Les deux attributs spécificient le premier et le dernier élément de la
+                séquence réutilisée. L'élément de départ, de fin, et tous les éléments entre deux
+                seront réutilisée dans la nouvelle rubrique.</p><p>Par exemple, vous avez une
+                rubrique dépôt nommée depot.dita qui contient cet élément &lt;ul>
+                :</p><pre>&lt;concept id="elements_depot">
+   ... 
+   &lt;ul>
+      &lt;li id="nourriture_insecte">petits insectes&lt;/li>
+      &lt;li id="nourriture_poisson">petits poissons et œufs de poissons&lt;/li>
+      &lt;li id="nourriture_crustacé">crustacées&lt;/li>
+      &lt;li id="nourriture_escargot">escargots et mollusques&lt;/li>
+      &lt;li id="nourriture_grenouille">grenouilles et salamandres&lt;/li>
+      &lt;li id="nourriture_fruit">baies et fruits à coque&lt;/li>
+   &lt;/ul>
+&lt;/concept></pre><p>Pour
+                réutiliser quatre éléments &lt;li> de la liste &lt;ul> de "poisson" à "grenouille"
+                dans une autre rubrique, utilisez la combinaison d'attributs conref et conrefend
+                :</p><pre>&lt;ul>
+   &lt;li>maïs fendillé&lt;/li>
+   &lt;li conref="depot.dita#elements_depot/nourriture_poisson" conrefend="depot.dita#elements_depot/nourriture_grenouille"/>
+   ...
+&lt;/ul></pre><image
+                keyref="i_conrefend" id="image_ggs_r4d_dy" base="2016/12"/><p>Si vous utilisez
+                l'attribut conrefend, veuillez à respecter les consignes suivantes.</p><ul
+                id="ul_zvy_qnv_qx">
+                <li>Les deux éléments visés par le conref et le conrefend doivent être de la même
+                    nature que l'élément référençant. Par exemple, si l'élément référençant est
+                    &lt;p>, alors les éléments visés par le conref et le conrefend doivent également
+                    être des &lt;p>.</li>
+                <li>Les éléments présents <i>entre</i> l'élément de départ (conref) et de fin
+                    (conrefend) <i>n'ont pas</i> à être du même type. Par exemple, si les attributs
+                    conref et conrefend pointent vers éléments &lt;p>, et que des éléments d'un
+                    autre type que &lt;p> sont présents entre deux (tels que &lt;note> ou
+                    &lt;image>), alors ces éléments seront également réutilisés par le conref.</li>
+            </ul><p>Vous pouvez également utiliser l'attribut conrefend avec l'attribut conkeyref.
+                Si l'attribut conrefend est associé à un attribut conkeyref, le nom du fichier
+                spécifié dans la valeur de l'attribut conrefend est ignoré et est remplacé par le
+                nom de fichier défini par la clé et dans le conkeyref.</p><note> Certains CCMS ne
+                supportent pas l'attribut conrefend. Veuillez vous renseignez auprès du fournisseur
+                de votre éditeur avant d'utiliser cet attribut.</note></lcInstruction>
+    </learningContentbody>
+</learningContent>

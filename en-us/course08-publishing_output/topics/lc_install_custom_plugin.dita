@@ -41,6 +41,9 @@
                         course.</cmd>
                 </step>
                 <step>
+                    <cmd>Navigate to <b>C:\DITA\dita-ot-2.5.4</b>.</cmd>
+                </step>
+                <step>
                     <cmd>Type the following commands into the command line:</cmd>
                     <info>
                         <p><b>On Windows:</b></p>
@@ -82,6 +85,8 @@
                             href="images/xhtml_custom.png" width="500" id="image_v34_mwl_3z" base="2017/03"/><p>The
                             custom XHTML output has different fonts and colors than the default
                             XHTML output.</p></info>
+                    <info><p><b>Tip:</b> Create separate output folders in <b>C:\DITA\dita-ot-2.5.4\out\</b>, by tweaking 
+                        the -o parameter value each time you generate output.</p></info>
                 </step>
             </steps>
         </taskbody>

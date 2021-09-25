@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="content_pgf_3gt_qt">
+    <title>Le traitement conditionnel : les bonnes pratiques</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey</author>
+        <author>Decarnelle Rémi</author>
+        <critdates>
+            <created golive="2016-12-01" date="2016-10-18"/>
+            <revised modified="2020-02-18"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p><b>Ne pas filtrer des fragments de phrase</b></p>
+            <p>Comme il a pu l'être expliqué dans le premier cours sur la réutilisation de contenu,
+                il est recommandé de ne pas filtrer des fragments de contenu plus petit qu'une
+                phrase.</p>
+            <p>Il est recommandé d'avoir deux fois la même phrase qui est grammaticalement correct
+                (et le restera une fois traduite) et d'en filtrer une, plutôt que de n'avoir qu'une
+                seule phrase avec le risque qu'elle soit mal construite ou incorrecte.</p>
+            <p><b>Communiquer vos choix</b></p>
+            <p>Prenez soin de créer un guide de style ou tout autre document pour que chacun dans
+                votre équipe, organisation, ou entreprise puisse avoir une utilisation cohérente du
+                attributs conditionnels et des valeurs à leur donner.</p>
+            <p>Assurez-vous de vous mettre d'accord sur les points suivant :<ul id="ul_anz_mxg_vx">
+                    <li>Comment et pourquoi doit-on utiliser les attributs audience, platform,
+                        product, et otherprops.</li>
+                    <li>La valeur précise à donner aux attributs et leur sens. Prenez en compte que
+                        les fichiers ditaval sont sensibles à la casse avant de commencer à les
+                        rédiger.</li>
+                </ul></p>
+            <p><b>Réfléchissez à la specialisation de DITA</b></p>
+            <p>S'il n'y a pas assez d'attributs conditionnels pour répondre à vos besoins, ou bien
+                que les noms des attributs ne correspondent pas à l'utilisation que vous leur
+                donnez, il devient pertinent de faire appel aux mécanismes de spécialisation de DITA
+                pour créer de nouveaux attributs.</p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>
