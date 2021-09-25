@@ -22,7 +22,7 @@
                 pour éclairer les autres rédacteurs sur le but de ce fichier et de le rendre plus
                 facile à trouver à l'aide des métadonnées. Il faut cependant noter que ces
                 informations ne seront pas retenues dans le traitement final.</p>
-            <p>Lorsque vous générer une publication depuis une carte, toutes les sous-cartes
+            <p>Lorsque vous générez une publication depuis une carte, toutes les sous-cartes
                 référencées sont fusionnées en une seule. Cette carte est utilisée pour générer la
                 publication.</p>
             <p>Ce tableau liste les éléments utilisables dans une sous-carte et ce qu'il leur arrive
@@ -76,34 +76,35 @@
         </lcInstruction>
     </learningContentbody>
     <task id="task_ytj_kkt_lw">
-        <title>À votre tour</title>
+        <title>Exercice</title>
         <taskbody>
             <steps id="steps_dfp_lkt_lw">
                 <step>
-                    <cmd>Ouvrir les sous-cartes suivantes :</cmd>
+                    <cmd>Ouvrir les sous-cartes suivantes&#xA0;:</cmd>
                     <info>
                         <ul id="ul_spy_dnl_nw">
-                            <li>exemples_réutilisation/réutiliser_des_rubriques_et_des_cartes/_m_canard_sauvage_debut.ditamap</li>
-                            <li>exemples_réutilisation/réutiliser_des_rubriques_et_des_cartes/_m_canard_sauvage.ditamap</li>
+                            <li>exemples_reutilisation/reutiliser_des_rubriques_et_des_cartes/_m_canard_sauvage_debut.ditamap</li>
+                            <li>exemples_reutilisation/reutiliser_des_rubriques_et_des_cartes/_m_canard_sauvage.ditamap</li>
                         </ul>
                     </info>
                 </step>
                 <step>
-                    <cmd> Réutiliser le fichier c_duck_safety.dita en l'ajoutant à chaque
+                    <cmd>Réutilisez le fichier c_securite_canard.dita en l'ajoutant à chaque
                         sous-carte.</cmd>
                 </step>
                 <step>
-                    <cmd>Sauvegarder et fermer chaque sous-carte.</cmd>
+                    <cmd>Sauvegardez et fermez chaque sous-carte.</cmd>
                 </step>
                 <step>
-                    <cmd>Ouvrir le fichier
-                        exemples_réutilisation/réutiliser_des_rubriques_et_des_cartes/_m_canards_start.ditamap.
-                        La sous-carte que vous venez d'éditer est référencée dans ce fichier. Par conséquent, vous pouvez voir la rubrique ajoutée (c_duck_safety.dita) dans chaque sous-carte de la carte principale.
-                        </cmd>
+                    <cmd>Ouvrez le fichier
+                        exemples_reutilisation/reutiliser_des_rubriques_et_des_cartes/_m_canards_debut.ditamap.
+                        La sous-carte que vous venez d'éditer est référencée dans ce fichier. Par
+                        conséquent, vous pouvez voir la rubrique ajoutée (c_securite_canard.dita)
+                        dans chaque sous-carte de la carte principale. </cmd>
                 </step>
                 <step>
-                    <cmd>Comparer votre travail avec le fichier
-                        exemples_réutilisation/réutiliser_des_rubriques_et_des_cartes/_m_canards.ditamap.</cmd>
+                    <cmd>Comparez votre travail avec le fichier
+                        exemples_reutilisation/reutiliser_des_rubriques_et_des_cartes/_m_canards.ditamap.</cmd>
                 </step>
             </steps>
         </taskbody>

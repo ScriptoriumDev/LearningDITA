@@ -4,7 +4,7 @@
      github.com. See the accompanying LICENSE file for
      applicable licenses.-->
 <learningAssessment id="lca_reasons_for_reuse">
- <title>Reasons for reuse</title>
+ <title>Raisons à la réutilisation</title>
  <shortdesc/>
  <prolog>
   <author type="creator" href="http://www.scriptorium.com/" format="html" scope="external"
@@ -22,11 +22,11 @@
  <learningAssessmentbody>
   <lcInteraction id="lcInteraction_uvx_jt1_mw">
    <lcMultipleSelect id="lcMultipleSelect_iml_tt1_mw">
-    <lcQuestion>Quels sont les avantages de la réutilisation de contenu ? (Choisir toutes les bonnes
+    <lcQuestion>Quels sont les avantages de la réutilisation de contenu&#xA0;? (choisir toutes les bonnes
      réponses)</lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_jml_tt1_mw">
      <lcAnswerOption>
-      <lcAnswerContent>La rédaction du besoin de duplication manuelle</lcAnswerContent>
+      <lcAnswerContent>La réduction de la duplication manuelle</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
      <lcAnswerOption>
@@ -46,7 +46,7 @@
       <lcAnswerContent>La réduction de références croisées entre les documents</lcAnswerContent>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect>La réutilisation de contenu n'a aucune influence sur le référencement
+    <lcFeedbackIncorrect>La réutilisation du contenu n'a aucune influence sur le référencement
      croisé entre les documents. Toutes les autres réponses sont bonnes.</lcFeedbackIncorrect>
    </lcMultipleSelect>
   </lcInteraction>

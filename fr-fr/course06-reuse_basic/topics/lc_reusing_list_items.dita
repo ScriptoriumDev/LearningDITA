@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningTreeContent.dtd">
-<learningContent xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="lt-content-4677" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic concept)                             (topic reference)                             (topic task)                             (topic learningInteractionBase-d)                            (topic learningInteractionBase-d learning-d)                            (topic learningmeta-d)                             (topic learningBase+learningInteractionBase-d)                            (topic learningBase+learningInteractionBase-d learningContent)                            (topic learningBase learningSummary)                             (topic learningBase+learningInteractionBase-d learningAssessment)   " ditaarch:DITAArchVersion="1.2" class="- topic/topic learningBase/learningBase learningContent/learningContent "><title class="- topic/title ">Réutiliser les entrées d'une liste</title>
+<learningContent xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="lt-content-4677"
+   domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic concept)                             (topic reference)                             (topic task)                             (topic learningInteractionBase-d)                            (topic learningInteractionBase-d learning-d)                            (topic learningmeta-d)                             (topic learningBase+learningInteractionBase-d)                            (topic learningBase+learningInteractionBase-d learningContent)                            (topic learningBase learningSummary)                             (topic learningBase+learningInteractionBase-d learningAssessment)   "
+   ditaarch:DITAArchVersion="1.2"
+   class="- topic/topic learningBase/learningBase learningContent/learningContent ">
+   <title class="- topic/title ">Réutiliser les entrées d'une liste</title>
    <prolog class="- topic/prolog ">
       <author type="creator" href="http://easydita.com/" format="html" scope="external"
          class="- topic/author ">Mike Rice, easyDITA</author>
@@ -12,9 +16,11 @@
          <created golive="2016-07-11" date="2016-05-11"/>
          <revised modified="2020-11-13"/>
       </critdates>
-   </prolog><learningContentbody class="- topic/body  learningBase/learningBasebody learningContent/learningContentbody ">
+   </prolog>
+   <learningContentbody
+      class="- topic/body  learningBase/learningBasebody learningContent/learningContentbody ">
       <lcInstruction>
-         <p class="- topic/p ">Après les paragraphes, et le contenu des éléments &lt;step>, il aussi
+         <p class="- topic/p ">Après les paragraphes et le contenu des éléments &lt;step>, il aussi
             possible de réutiliser les entrées de liste symbolisées par l'élément &lt;li> si elles
             sont grammaticalement indépendantes et sont réutilisées dans le même contexte. Cela
             signifie qu'il n'y a pas de pronoms faisant référence à des objets en dehors de la
@@ -22,17 +28,17 @@
             d'entre elles sont introduites par une phrase d'accroche inachevée .</p>
          <p class="- topic/p ">Quand une phrase d'accroche inachevée introduit une liste, les
             entrées de cette dernière doivent s'adapter à cette phrase pour ne pas rompre la syntaxe
-            et la grammaire. De plus, il implique qu'une liste pensée de cette façon ne fonctionnera
-            par si introduite par une autre phrase, ce qui la rend peu proprice à la
+            et la grammaire. De plus, cela implique qu'une liste pensée de cette façon ne fonctionnera
+            pas si elle est introduite par une autre phrase, ce qui la rend peu proprice à la
             réutilisation.</p>
-         <p class="- topic/p ">Si vous voulez rédiger entrées de listes réutilisables,
+         <p class="- topic/p ">Si vous voulez rédiger des entrées de listes réutilisables,
             introduisez-les par une phrase complète et indépendante. Ou bien rédigez la liste de
             façon à s'en passer.</p>
          <dl>
             <dlentry>
-               <dt>Non réutilisable :</dt>
+               <dt>Non réutilisable&#xA0;:</dt>
                <dd>
-                  <pre>&lt;p>Avant d'utiliser votre ordinateur, vous devez :&lt;/p>
+                  <pre>&lt;p>Avant d'utiliser votre ordinateur, vous devez&#xA0;:&lt;/p>
 &lt;ol>
    &lt;li>brancher un écran&lt;/li>
    &lt;li>brancher une souris&lt;/li>
@@ -41,9 +47,9 @@
                </dd>
             </dlentry>
             <dlentry>
-               <dt>Reusable:</dt>
+               <dt>Réutilisable&#xA0;:</dt>
                <dd>
-                  <pre>&lt;p>Avant d'utiliser votre ordinateur, assurez-vous d'avoir branché tous les accessoires suivants :&lt;/p>
+                  <pre>&lt;p>Avant d'utiliser votre ordinateur, assurez-vous d'avoir branché tous les accessoires suivants&#xA0;:&lt;/p>
 &lt;ol>
    &lt;li>Écran&lt;/li>
    &lt;li>Souris&lt;/li>
@@ -52,4 +58,6 @@
                </dd>
             </dlentry>
          </dl>
-      </lcInstruction></learningContentbody></learningContent>
+      </lcInstruction>
+   </learningContentbody>
+</learningContent>

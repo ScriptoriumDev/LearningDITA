@@ -16,49 +16,55 @@
         </critdates>
     </prolog>
     <learningContentbody>
-        <lcInstruction><p>Du contenu écrit en vue d'être réutilisé doit être :</p><ul
-                id="ul_qwy_pgb_kw">
+        <lcInstruction>
+            <p>Du contenu écrit en vue d'être réutilisé doit être&#xA0;:</p>
+            <ul id="ul_qwy_pgb_kw">
                 <li>Cohérent</li>
                 <li>Indépendant du contexte</li>
                 <li>Général</li>
-            </ul>Pour s'assurer de rendre un fragment de contenu assez générique pour le réutiliser,
-            séparer les informations spécifiques et les informations communes chaque fois que
-                possible.<p>Pour rendre votre contenu cohérent :</p><ul id="ul_fq3_dhb_kw">
+            </ul>
+            <p>Vous pouvez vous assurer qu'un fragment de contenu est assez générique pour le
+                réutiliser, séparez les informations spécifiques des informations communes chaque
+                fois que possible.</p>
+            <p>Pour rendre votre contenu cohérent&#xA0;:</p><ul id="ul_fq3_dhb_kw">
                 <li>Écrire des rubriques courtes et granulaires. Cette approche maximise le
                     potentiel de réutilisation. Une rubrique avec un seul niveau de hiérarchisation
-                    peut être réutilisé dans plus d'occasion qu'une longue rubrique comprenant
-                    plusieurs sections chacune très riche en information.</li>
+                    peut être réutilisé plus souvent qu'une longue rubrique comprenant plusieurs
+                    sections chacune très riche en information.</li>
                 <li>Définir un guide de style pour le balisage et l'utilisation (ou au moins, se
                     mettre d'accord sur les pratiques et prendre un peu de temps pour rédiger un
                     compte rendu pour un future guide de style).</li>
-                <li>Employer un vocabulaire et une terminologie cohérent et spécifique pour rendre
+                <li>Employer un vocabulaire et une terminologie cohérente et spécifique pour rendre
                     le contenu de vos rubriques réutilisables. Limiter l'usage des pronoms (en
                     particulier ceux réservés à un seul genre), les expressions idiomatiques et les
                     collocations. Cette bonne pratique viendra également faciliter la traduction du
                     contenu.</li>
-            </ul><p>Pour décontextualiser votre contenu :</p><ul id="ul_qr3_shb_kw">
+            </ul><p>Pour décontextualiser votre contenu&#xA0;:</p><ul id="ul_qr3_shb_kw">
                 <li>Ne pas faire de référence à des informations situées avant ou après le contenu.
-                    Éviter des termes comme "précédemment", "suivant", "avant" et "plus tard".</li>
+                    Éviter des termes comme «&#xA0;précédemment&#xA0;», «&#xA0;suivant&#xA0;»,
+                    «&#xA0;avant&#xA0;» et «&#xA0;plus tard»&#xA0;.</li>
                 <li>Ne pas faire de référence au type de document accueillant le contenu. Éviter des
-                    expressions telles que "dans ce chapitre" ou "dans cette section".</li>
+                    expressions telles que «&#xA0;dans ce chapitre&#xA0;» ou «&#xA0;dans cette
+                    section&#xA0;».</li>
                 <li> Ne pas utiliser de références croisées. Dans la version actuelle de votre
                     rubrique, la cible de la référence est disponible, néanmoins peut-être qu'elle
                     ne le sera pas dans une autre carte dita où la rubrique sera réutilisée. À la
                     place, utiliser la table des relations DITA pour gérer automatiquement les liens
                     vers les rubriques associées.</li>
-            </ul><p>Pour rendre votre contenu générique :</p><ul id="ul_jpy_vlc_kw">
-                <li>Éviter l'usage de mots clefs et de dépendences. Par exemple, si une série
+            </ul><p>Pour rendre votre contenu générique&#xA0;:</p><ul id="ul_jpy_vlc_kw">
+                <li>Éviter l'usage de mots clefs et de dépendances. Par exemple, si une série
                     d'instructions peut être réutilisée pour plusieurs produits, retirer toute
                     référence à un produit spécifique.</li>
                 <li>Éviter d'être trop spécifique à moins que le contexte l'impose. Éviter également
                     les ajouts superflus dans votre contenu tels que des chiffres, un changement de
                     taille ou de couleur de police, car ces modifications ne seront peut-être pas
                     pertinentes lors de la réutilisation de ce contenu.</li>
-            </ul><p>Pour trouver un équilibre entre un contenu générique et assez spécifique, penser
-                à ajouter un tableau ou une liste au début de chaque livrable. Ce document servira à
+            </ul>
+            <p>Pour trouver un équilibre entre un contenu générique et assez spécifique, penser à
+                ajouter un tableau ou une liste au début de chaque livrable. Ce document servira à
                 lister des informations sur le produit. En donnant ces informations dès le départ,
-                vous pouvez vous passer de mots clés et opter pour des termes génériques. </p><p>Du
-                contenu générique va non seulement profiter à votre stratégie de réutilisation de
+                vous pouvez vous passer de mots clés et opter pour des termes génériques. </p>
+            <p>Du contenu générique va non seulement profiter à votre stratégie de réutilisation de
                 contenu, mais aussi aider à préparer en amont la localisation. En effet, la
                 réalisation de contenu réduit le volume de texte à traduire, et par extension le
                 coût de

@@ -24,20 +24,19 @@
                 également partagés par plusieurs documents.</p>
             <p>Pour ces blocs d'information répétitifs, vous pouvez créer une carte (ou aussi
                 appelée sous-carte), et la réutiliser au sein d'autres cartes.</p>
-           
-            
-         
-            
-           
         </lcInstruction>
-    </learningContentbody><task id="reuse1"><title>À votre tour</title><taskbody><steps>
-        <step>
+    </learningContentbody>
+    <task id="reuse1">
+        <title>Exercice</title>
+        <taskbody>
+            <steps>
+                <step>
                     <cmd>Ouvrir le fichier
-                        exemples_réutilisation/réutiliser_des_rubriques_et_des_cartes/_m_especes.ditamap.
+                        exemples_reutilisation/reutiliser_des_rubriques_et_des_cartes/_m_especes.ditamap.
                         Voici un exemple de sous-carte répertoriant des informations de références
-                        sur les espèces de canards. Ajouter au nom du fichier "_m_" facilite le
-                        regroupement de cartes dans l'explorateur de fichier qui les placera au
-                        sommet de la liste. De cette façon, les cartes sont facilement
+                        sur les espèces de canards. Ajouter au nom du fichier «&#xA0;_m_&#xA0;»
+                        facilite le regroupement de cartes dans l'explorateur de fichier qui les
+                        placera au sommet de la liste. De cette façon, les cartes sont facilement
                         retrouvables.</cmd>
                     <info>
                         <pre>&lt;map>
@@ -52,9 +51,9 @@
 &lt;/map></pre>
                     </info>
                 </step>
-        <step>
+                <step>
                     <cmd>Pour réutiliser la sous-carte _m_especes.ditamap dans cette carte,
-                        ajouter-là à l'aide de l'élément &lt;topicref> et l'attribut
+                        ajoutez-là à l'aide de l'élément &lt;topicref> et l'attribut
                             <i>format="ditamap"</i>.</cmd>
                     <info>
                         <pre>&lt;map>
@@ -64,33 +63,35 @@
    ...
 &lt;/map></pre>
                         <p>Ou bien, vous pouvez utiliser l'élément &lt;mapref> pour référencer la
-                            sous-carte :</p>
+                            sous-carte&#xA0;:</p>
                         <pre>&lt;map>
    &lt;title>S'occuper de vos canards&lt;/title>
    ...
    &lt;mapref href="_m_especes.ditamap"/>
    ...
 &lt;/map></pre>
-                        <p> Une carte réutilisable peut continuer des références à d'autres cartes
-                            également réutilisables à l'aide de &lt;mapref" ou &lt;topic
-                            format=“ditamap”>.</p>
-                        <p><b>Note sur les cartes et les sous-cartes réutilisables :</b> Vous ne
-                            pouvez pas réutiliser les éléments &lt;mapref> (ou &lt;topicref
+                        <p> Une carte réutilisable peut contenir des références à d'autres cartes
+                            également réutilisables (en utilisant &lt;mapref> ou &lt;topic
+                            format=“ditamap”>).</p>
+                        <p><b>Note sur les cartes et les sous-cartes réutilisables&#xA0;:</b> Vous
+                            ne pouvez pas réutiliser les éléments &lt;mapref> (ou &lt;topicref
                             format="ditamap">) au niveau le plus élevé dans l'arborescence d'une
                             carte DITA, c'est-à-dire au même niveau que &lt;frontmatter>,
-                            &lt;chapter>, &lt;part>, &lt;appendixes>, &lt;appendix>, et
+                            &lt;chapter>, &lt;part>, &lt;appendixes>, &lt;appendix> et
                             &lt;backmatter>. Vous pouvez seulement réutiliser ces cartes au sein
                             d'autres cartes, mais seulement <i>au sein</i> de conteneurs. Par
-                            conséquent, vous ne pouvez pas utilsez de conteneurs de niveau supérieur
-                            dans une sous-carte.</p>
+                            conséquent, vous ne pouvez pas utilisez de conteneurs de niveau
+                            supérieur dans une sous-carte.</p>
                     </info>
                 </step>
-       
-        <step>
-                    <cmd>Vérifier votre travail à l'aide en comparant les fichiers
-                        exemples_réutilisation/réutiliser_des_rubriques_et_des_cartes/_m_especes_debut.ditamap
+
+                <step>
+                    <cmd>Vérifiez votre travail en comparant les fichiers
+                        exemples_reutilisation/reutiliser_des_rubriques_et_des_cartes/_m_especes_debut.ditamap
                         et
-                        exemples_réutilisation/réutiliser_des_rubriques_et_des_cartes/_m_especes.ditamap</cmd>
+                        exemples_reutilisation/reutiliser_des_rubriques_et_des_cartes/_m_especes.ditamap</cmd>
                 </step>
-    </steps>
-    </taskbody></task></learningContent>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

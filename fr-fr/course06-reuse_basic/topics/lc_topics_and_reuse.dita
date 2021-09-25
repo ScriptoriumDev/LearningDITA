@@ -17,7 +17,7 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>La phrase "réutiliser une rubrique" signifie généralement utiliser une rubrique dans
+            <p>La phrase «&#xA0;réutiliser une rubrique&#xA0;» signifie généralement utiliser une rubrique dans
                 plusieurs cartes. Cependant, il existe des situations où vous souhaitez utiliser la
                 même rubrique dans la <i>même</i> carte.</p>
             <p>Par exemple, imaginez une carte DITA d'un cours et dans lequel chaque contenu
@@ -35,14 +35,14 @@
 &lt;/map></pre>
             <p>La raison principale pour laquelle utiliser l'attribut copy-to est l'assurance que la
                 référence du contenu pointe vers la bonne version du fichier.</p>
-            <p>Il est des bonnes pratiques d'appliquer l'attribut copy-to à <i>tous</i> les
+            <p>C'est dans les bonnes pratiques d'appliquer l'attribut copy-to à <i>tous</i> les
                 &lt;topicref> renvoyant à la rubrique réutilisée, et non seulement à la première
                 référence. Si vous réorganisez votre contenu, vous risquez d'oublier que cette
                 rubrique est réutilisée. </p>
             <p>Si votre carte principale ou bookmap réutilise plusieurs sous-cartes et que chacune
                 de ces cartes réutilise la même rubrique, vous devez continuer à utiliser l'attribut
-                copy-to. Quand vous générez une publication, le prétransformateur fusionne tous les
-                sous-carte avec la carte principale pour en créer une nouvelle. Cette nouvelle carte
+                copy-to. Quand vous générez une publication, le prétransformateur fusionne toutes les
+                sous-cartes avec la carte principale pour en créer une nouvelle. Cette nouvelle carte
                 est alors utilsée pour générer la publication. </p>
             <p>Vous pouvez utiliser les balises &lt;navtitle>, &lt;linktext>, et &lt;shortdesc> pour
                 ajouter un titre et une description unique à la rubrique réutilisée.</p>

@@ -3,12 +3,14 @@
 <!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <map>
  <title>Clés pour la réutilisation avancée de contenu</title>
- <keydef keys="sample_file" href="" format="zip" scope="external">
+ <keydef keys="sample_file"
+  href="http://www.learningdita.fr/wp-content/uploads/2021/07/exemples_reutilisation.zip"
+  format="zip" scope="external">
   <topicmeta>
-   <linktext>exemples_réutilisation.zip</linktext>
+   <linktext>exemples_reutilisation.zip</linktext>
   </topicmeta>
  </keydef>
- 
+
  <keydef keys="course_name">
   <topicmeta>
    <keywords>
@@ -16,11 +18,11 @@
    </keywords>
   </topicmeta>
  </keydef>
- 
+
  <!-- key for warehouse file containing conkeyref elements. -->
  <keydef keys="sample_contents" href="../topics/z_conkeyref_elements.dita"/>
- 
+
  <!-- IMAGES -->
-<!-- <keydef keys="i_conkeyref" href="../images/conkeyref-01.svg" format="svg"/>-->
- 
+ <!-- <keydef keys="i_conkeyref" href="../images/conkeyref-01.svg" format="svg"/>-->
+
 </map>

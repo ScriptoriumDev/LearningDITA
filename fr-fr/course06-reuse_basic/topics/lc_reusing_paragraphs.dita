@@ -25,13 +25,13 @@
       <lcInstruction>
          <p class="- topic/p ">Des paragraphes <i class="+ topic/ph hi-d/i ">grammaticalement
                indépendants</i> peuvent être réutilisés sans encombre <i class="+ topic/ph hi-d/i "
-               >au sein du même contexte</i>Cela inclut l'élement &lt;p>, ou tout autre élément qui
-            est du point de vue de la grammaire un paragraphe même si cela ne correspond qu'à une
+               >au sein du même contexte</i>. Cela inclut l'élement &lt;p> ou tout autre élément qui
+            est, d'un point de vue grammatical, un paragraphe même si cela ne correspond qu'à une
             phrase. </p>
       </lcInstruction>
       <section class="- topic/section ">
-         <title class="- topic/title ">Qu'est-ce qu'un paragraphe grammaticalement indépendant
-            ?</title>
+         <title class="- topic/title ">Qu'est-ce qu'un paragraphe grammaticalement
+            indépendant&#xA0;?</title>
          <p class="- topic/p ">Un paragraphe grammaticalement indépendant ne repose sur aucun
             élémént extérieur à lui-même pour exprimer son sens. Par exemple, si les pronoms dans le
             paragraphe font référence à quelque chose à l'extérieur de ce dernier, alors il n'est
@@ -52,7 +52,7 @@
                   un environnement.</dd>
             </dlentry>
          </dl>
-         <p class="- topic/p ">Voici un autre exemple :</p>
+         <p class="- topic/p ">Voici un autre exemple&#xA0;:</p>
          <dl>
             <dlentry>
                <dt>Non recommandé</dt>
@@ -68,27 +68,30 @@
             </dlentry>
          </dl>
       </section>
-      <section class="- topic/section "><title class="- topic/title ">Within the same
-            context</title><p class="- topic/p ">Certains mots peuvent prendre un sens différent
-            selon le contexte en français même si employés en dehors de leur contexte d'origine.
-            Prenons pour exemple le mot<q class="- topic/q ">clef</q>. Le terme pourrait faire
-            référence au petit objet en métal utilisé pour débloquer un verrou. Il peut prendre des
-            sens différents dans la crytographie.</p><p class="- topic/p ">S'il nous était demandé
-               <q class="- topic/q ">d'examiner les clefs pour trouver les defectueuses</q>, il ne
-            serait pas bien difficile de comprendre l'instruction quel que soit le contexte. Dans
-            notre esprit, nous savons immédiatement à quel concept fait référence le mot <q
-               class="- topic/q ">clef</q> grâce au contexte. Cependant, nous ne pouvons pas espérer
-            que cette situation se répète dans toutes les langues.</p><p class="- topic/p ">Cela
-            peut être compliqué, car nous avons tendance à choisir le bon concept associé au
-            contexte. Voici un autre exemple. Le mot <q class="- topic/q ">batterie</q> peut faire
-            référence à un composant d'une voiture ou d'un téléphone. Les deux fournissent de
-            l'électricité, ce qui peut évoquer au lecteur un contexte et un concept unique. Mais
-            quand on y réfléchit, un téléphone et une automobile sont des concepts très différents,
-            et leurs batteries respective sont très différentes dans leur composition. Il est alors
-            très dangereux d'utiliser le même contenu pour ces deux contextes, même si les concepts
-            et le vocabulaire sont proches. De même, comme il est le cas en français, différents
-            mots peuvent être utiliser pour désigner un seul objet.</p>L'important est de garder à
-         l'esprit que d'autres langues abordent les concepts et les contextes de façon
-         différentes.</section>
+      <section class="- topic/section ">
+         <title class="- topic/title ">Avec le même contexte</title>
+         <p class="- topic/p ">Certains mots peuvent prendre un sens différent selon le contexte en
+            français même si employés en dehors de leur contexte d'origine. Prenons pour exemple le
+               mot <q class="- topic/q ">clef</q>. Le terme pourrait faire référence au petit objet
+            en métal utilisé pour débloquer un verrou. Il peut prendre des sens différents dans la
+            crytographie.</p>
+         <p class="- topic/p ">S'il nous était demandé <q class="- topic/q ">d'examiner les clefs
+               pour trouver celles qui sont défectueuses</q>, il ne serait pas bien difficile de comprendre
+            l'instruction quel que soit le contexte. Dans notre esprit, nous savons immédiatement à
+            quel concept fait référence le mot <q class="- topic/q ">clef</q> grâce au contexte.
+            Cependant, nous ne pouvons pas espérer que cette situation se répète dans toutes les
+            langues.</p><p class="- topic/p ">Cela peut être compliqué, car nous avons tendance à
+            choisir le bon concept associé au contexte. Voici un autre exemple. Le mot <q
+               class="- topic/q ">batterie</q> peut faire référence à un composant d'une voiture ou
+            d'un téléphone. Les deux fournissent de l'électricité, ce qui peut évoquer au lecteur un
+            contexte et un concept unique. Mais quand on y réfléchit, un téléphone et une automobile
+            sont des concepts très différents, et leurs batteries respective sont très différentes
+            dans leur composition. Il est alors très dangereux d'utiliser le même contenu pour ces
+            deux contextes, même si les concepts et le vocabulaire sont proches. De même, comme
+            c'est le cas en français, différents mots peuvent être utilisés pour désigner un seul
+            objet.</p>
+         <p>L'important est de garder à l'esprit que d'autres langues abordent les concepts et les
+            contextes de façon différente.</p>
+      </section>
    </learningContentbody>
 </learningContent>

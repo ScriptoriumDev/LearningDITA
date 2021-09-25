@@ -20,27 +20,27 @@
         <lcIntro>
             <p><b>Conserver et structurer votre contenu réutilisable en marge de votre documentation
                 </b></p>
-            <p>Pour éviter la documentation "spaghetti", conservez tout votre contenu réutilisable
+            <p>Pour éviter la documentation «&#xA0;spaghetti&#xA0;», conservez tout votre contenu réutilisable
                 dans des rubriques prévues à cet effet rangées dans des dossiers leur étant
-                consacrées.</p>
+                consacrés.</p>
             <p>Organisez ces rubriques dans des cartes DITA, puis ajoutez-les dans d'autres cartes
                 DITA avec l'attribut &lt;mapref processing-role="resource-only">. </p>
             <p><b>Se mettre d'accord sur des conventions de dénomination pour les fichiers et les
-                    ID</b></p>
-            <p>Bien que les applications de rédaction DITA assignent automatiquement une ID aux
-                éléments potentiellement réutilisables, il reste préférable que les ID données
+                    id</b></p>
+            <p>Bien que les applications de rédaction DITA assignent automatiquement un id aux
+                éléments potentiellement réutilisables, il reste préférable que les ids donnés
                 soient intelligibles pour les rédacteurs. Il faut néanmoins prendre conscience de
-                l'augmentation des risques de confusion des ID. Deux stratégies existent pour
+                l'augmentation des risques de confusion des ids. Deux stratégies existent pour
                 réduire les risques.</p>
             <ul id="ul_drc_hz3_mw">
-                <li>Créer des conventions de dénominations pour les ID afin de réduire les chances
+                <li>Créer des conventions de dénominations pour les ids afin de réduire les chances
                     de confusions.</li>
-                <li>Tenir un registre de toutes les ID afin d'aider les rédacteurs à trouver des
+                <li>Tenir un registre de toutes les ids afin d'aider les rédacteurs à trouver des
                     doublons. Ce registre peut être un simple tableau ou un document texte, mais il
                     peut aussi être bien plus complexe si nécessaire. </li>
-                <li>Ajouter une carte DITA à votre dossier consacrée à la réutilisation de contenu.
+                <li>Ajouter une carte DITA à votre dossier consacré à la réutilisation de contenu.
                     Ajouter tous vos éléments réutilisable dans cette carte. Le validateur signalera
-                    toutes les ID dupliquées. Réaliser cette procédure avant de publier votre
+                    toutes les ids dupliqués. Réaliser cette procédure avant de publier votre
                     contenu sur votre plateforme.</li>
             </ul>
             <p><b>S'assurer que les rubriques et les éléments soient réutilisables</b></p>
@@ -53,7 +53,7 @@
                 <li class="- topic/li ">Être prudent lors du référencement d'une phrase
                     entière.</li>
                 <li class="- topic/li ">Réutiliser des blocs de contenus répondant aux conditions
-                    suivantes :<ul class="- topic/ul " id="ul_rcd_xry_dw">
+                    suivantes&#xA0;:<ul class="- topic/ul " id="ul_rcd_xry_dw">
                         <li class="- topic/li ">
                             <p class="- topic/p ">Le contenu réutilisé doit être grammaticalement
                                 indépendant.</p>
@@ -67,32 +67,32 @@
             </ul>
             <p><b>La communication est la clef</b></p>
             <p>Avant d'apporter des modifications aux rubriques pour la réutilisation de contenu,
-                assurez-vous de savoir quels sont les rubriques qui utilisent les contenus
+                assurez-vous de savoir quelles sont les rubriques qui utilisent les contenus
                 conservés. Certains CMS comprennent des outils pour retrouver toutes les rubriques
                 et les cartes référencées. Si vous possedez ces outils, utilisez-les.</p>
-            <p>Inviter toutes les parties prenantes à s'exprimer avant de décider de modifier le
+            <p>Invitez toutes les parties prenantes à s'exprimer avant de décider de modifier le
                 contenu partagé. Il se peut qu'afin de satisfaire tous les partenaires, il sera
                 nécessaire de créer plusieurs versions du même contenu. Il est préférable d'éviter
-                les situations où les structures de partages de contenu sont rendues inutilisables,
-                voire entraîne la création de contenu erroné.</p>
+                les situations où les structures de partage de contenu sont rendues inutilisables,
+                voire entraînent la création de contenu erroné.</p>
         </lcIntro>
     </learningContentbody>
     <task id="task_dh4_mnv_jw">
-        <title>À votre tour</title>
+        <title>Exercice</title>
         <taskbody>
             <steps id="steps_nby_y3z_lw">
                 <step>
-                    <cmd>Ouvrir le fichier
-                        exemples_réutilisation/conrefs/t_watching_wild_ducks_debut.dita.</cmd>
+                    <cmd>Ouvrez le fichier
+                        exemples_reutilisation/conrefs/t_observer_canards_sauvages_debut.dita.</cmd>
                 </step>
                 <step>
-                    <cmd>Après le premier paragraphe sur les prérequis (prerequisities), ajouter un
+                    <cmd>Après le premier paragraphe sur les prérequis (prerequisities), ajoutez un
                         conref du paragraphe présent dans le fichier
-                        exemples_réutilisation/conrefs/c_duck_safety.dita.</cmd>
+                        exemples_reutilisation/conrefs/c_securite_canard.dita.</cmd>
                 </step>
                 <step>
-                    <cmd>Comparer votre travail avec le fichier
-                        exemples_réutilisation/conrefs/t_watching_wild_ducks.dita.</cmd>
+                    <cmd>Comparez votre travail avec le fichier
+                        exemples_reutilisation/conrefs/t_observer_canards_sauvages.dita.</cmd>
                 </step>
             </steps>
         </taskbody>

@@ -4,7 +4,7 @@
      github.com. See the accompanying LICENSE file for
      applicable licenses.-->
 <learningAssessment id="lca_conref_requirements" xml:lang="en-US">
- <title>Conref requirements</title>
+ <title>Exigences du conref</title>
  <shortdesc/>
  <prolog>
   <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
@@ -23,10 +23,10 @@
   <lcInteraction>
    <lcMultipleSelect id="lcSingleSelect_vk5_lxh_mw">
     <lcQuestion>Quelles sont les conditions à remplir lors de la création d'un élément afin d'en
-     faire la cible d'un conref ? (choisir toutes les bonnes réponses)</lcQuestion>
+     faire la cible d'un conref&#xA0;? (choisir toutes les bonnes réponses)</lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_wk5_lxh_mw">
      <lcAnswerOption>
-      <lcAnswerContent>L'élement doit avoir un attribut <i>ID</i>.</lcAnswerContent>
+      <lcAnswerContent>L'élement doit avoir un attribut <i>id</i>.</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
      <lcAnswerOption>
@@ -46,8 +46,8 @@
       <lcAnswerContent>L'élément doit être vide.</lcAnswerContent>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect>La cible d'un conref doit avoir un attribut <i>ID</i>, être accessible à
-     travers la carte DITA, et doit avoir le même nom que l'élément
+    <lcFeedbackIncorrect>La cible d'un conref doit avoir un attribut <i>id</i>, être accessible à
+     travers la carte DITA et doit avoir le même nom que l'élément
      référençant.</lcFeedbackIncorrect>
    </lcMultipleSelect>
   </lcInteraction>

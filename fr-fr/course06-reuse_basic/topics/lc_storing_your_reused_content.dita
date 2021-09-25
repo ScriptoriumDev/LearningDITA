@@ -21,67 +21,69 @@
 	<learningContentbody
 		class="- topic/body  learningBase/learningBasebody learningContent/learningContentbody ">
 		<lcInstruction class="- topic/section learningBase/lcInstruction ">
-			<p class="- topic/p ">Une des bonnes pratiques est de conserver tout votre contenu réutilisable
-				(rubriques, élements, blocs de texte) dans un groupe de dossiers et rubriques
-				centralisés. On les appelle des rubriques "entrepôt". Tous les créateurs de contenu
-				doivent connaître cette stratégie et doivent prendre connaissance des règles pour
-				modifier ces rubriques.</p>
-			<p>Si vous réutilisez du contenu depuis une rubrique en particulier, son auteur peut l'ignorer.
-				Dans cette situation, il se peut qu'il modifie ou supprime le contenu que vous avez
-				réutilisé, et par conséquent rendre inutilisable votre rubrique. Si l'on imagine le
-				pire des scénarios, ce quiproquo peut mener à des situations dangereuses pour
-				l'utilisateur.</p>
-			<p class="- topic/p ">Garder tout votre contenu réutilisable dans des dossiers et
-				rubriques entrepôts donnent aux créateur un contrôle plus strict sur l'information
+			<p class="- topic/p ">Une des bonnes pratiques est de conserver tout votre contenu
+				réutilisable (rubriques, élements, blocs de texte) dans un groupe de dossiers et de
+				rubriques centralisés. On les appelle des rubriques «&#xA0;partagées&#xA0;». Tous
+				les créateurs de contenu doivent connaître cette stratégie et doivent prendre
+				connaissance des règles pour modifier ces rubriques.</p>
+			<p>Si vous réutilisez du contenu depuis une rubrique en particulier, son auteur peut
+				l'ignorer. Dans cette situation, il se peut qu'il modifie ou supprime le contenu que
+				vous avez réutilisé, et par conséquent rendre inutilisable votre rubrique. Si l'on
+				imagine le pire des scénarios, ce quiproquo peut mener à des situations dangereuses
+				pour l'utilisateur.</p>
+			<p class="- topic/p ">Gardez tout votre contenu réutilisable dans des dossiers et
+				rubriques partagées donnent aux créateur un contrôle plus strict sur l'information
 				:</p>
 			<ul id="ul_mbh_j2f_lw">
 				<li>Vous pouvez gérer les dépendances entre les rubriques</li>
-				<li>Vous pouvez gérer les modifications et les suppressions de contenu depuis l'entrepôt.</li>
-				<li>Vous pouvez communiquer sur les changements effectués.</li>
-				<li>Vous pouvez vous assurez que les informations stockées ne contiennent pas de liens vers
-					d'autres rubriques (ce qui créerait d'autres dépendences quand
-					réutilisées).</li>
-			</ul><p class="- topic/p ">Certains CCMS (système de gestion de contenu modulaire) peuvent exiger des
-				conditions spécifiques en ce qui concerne l'emplacement du contenu stocké. Par
-				exemple, certains logiciels peuvent exiger que le contenu réutilisable soit
-				référencé dans une carte DITA, et soit stocké dans un sous-dossier au sein du
-				dossier où se trouve la carte. Vérifiez les conditions de votre CCMS en cas de
-				doute.</p>
-			<p>Certains CCMS donnent plus d'options pour accéder à votre contenu placé en
-				entrepôt.</p>
+				<li>Vous pouvez gérer les modifications et les suppressions de contenu depuis le
+					dossier partagé</li>
+				<li>Vous pouvez communiquer sur les changements effectués</li>
+				<li>Vous pouvez vous assurez que les informations stockées ne contiennent pas de
+					liens vers d'autres rubriques (ce qui créerait d'autres dépendences lors de la
+					réutilisation)</li>
+			</ul><p class="- topic/p ">Certains CCMS (système de gestion de contenu modulaire)
+				peuvent exiger des conditions spécifiques en ce qui concerne l'emplacement du
+				contenu stocké. Par exemple, certains logiciels peuvent exiger que le contenu
+				réutilisable soit référencé dans une carte DITA, et soit stocké dans un sous-dossier
+				au sein du dossier où se trouve la carte. Vérifiez les conditions de votre CCMS en
+				cas de doute.</p>
+			<p>Certains CCMS donnent plus d'options pour accéder à votre contenu placé dans votre
+				dossier partagé.</p>
 		</lcInstruction>
 	</learningContentbody>
 	<task id="task_dh4_mnv_jw">
-		<title>Exercise</title>
+		<title>Exercice</title>
 		<taskbody>
 			<steps id="steps_gjh_3bz_lw">
 				<step>
 					<cmd>Ouvrir le fichier
-						exemples_réutilisation/écrire_pour_réutiliser/c_collecter_données_canard_debut.dita.</cmd>
+						exemples_reutilisation/ecrire_pour_reutiliser/c_collecter_donnees_canard_debut.dita.</cmd>
 				</step>
 				<step>
-					<cmd>Réécrire le contenu suivant pour le rendre réutilisable :</cmd>
+					<cmd>Réécrire le contenu suivant pour le rendre réutilisable&#xA0;:</cmd>
 					<info>
 						<pre outputclass="passthru">	<![CDATA[
 <hr />
-	<p>Dans le chapitre précédent, vous avez appris sur la propriété des canards et comment s'occuper d'eux. 
-	Dans ce chapitre, vous allez apprendre comment collecter des données cruciales à l'aide de la base de données pour canard Magic Mallard.</p>
+	<p>Dans le chapitre précédent, vous avez appris comment détenir et prendre soin de canards domestiques. 
+	Dans ce chapitre, vous allez apprendre à documenter des informations précieuses sur vos canards à l'aide de la base de données Colvert Magique.</p>
 
-	<p>Chaque propriétaire de canard doit suivre l'évolution de la croissance de ses animaux. 
-	Avec Magic Mallard, vous pouvez ajouter une entrée pour chacun de vos canards. 
-	Chaque entrée contient un tableau dans lequel vous pouvez insérez
+	<p>Chaque propriétaire de canard devrait suivre l'évolution de la croissance de ses canards. 
+	Avec la base de données Colvert Magique, vous pouvez ajouter une entrée pour chacun de vos canards. 
+	Chaque entrée contient un tableau dans lequel vous pouvez saisr
 	la taille, le poids et l'envergure des ailes de vos canards semaine après semaine.</p>
 
-	<p>Pour ajouter une entrée dans la base de données, saisir <codeph>add entry</codeph> 
-	suivi du nom du canard entre parenthèses dans la ligne de commande, puis presser Entrer.</p>
+	<p>Pour ajouter une entrée dans la base de données, saisir <codeph>ajouter entree</codeph> 
+	suivi du nom du canard entre parenthèses dans la ligne de commande, puis appuyez sur Entrée.</p>
 <hr/>]]>
    </pre>
 					</info>
 				</step>
 				<step>
-					<cmd>Comparer votre exercice avec le fichier corigé
-						exemples_réutilisation/écrire_pour_réutiliser/c_collecter_données_canard.dita.
-						Le résultat final peut varier en fonction des sensibilités de chacun.</cmd>
+					<cmd>Utilisez le fichier
+						exemples_reutilisation/ecrire_pour_reutiliser/c_collecter_donnees_canard.dita
+						pour vérifier votre propre fichier. Le résultat final peut varier en
+						fonction des sensibilités de chacun.</cmd>
 				</step>
 			</steps>
 		</taskbody>

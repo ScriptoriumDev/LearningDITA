@@ -25,11 +25,11 @@
             &lt;note> utilise l'attribut <i>type</i> pour spécifier le type de la note. Il se peut
             aussi que vous référenciez un contenu visé par un traitement conditionnel. Quand vous
             référencez un contenu qui utilise déjà plusieurs attributs, quels sont ceux conservés
-            dans l'élément résolu ?</p><p>Les attributs de l'élement référencé et de l'élément
+            dans l'élément résolu&#xA0;?</p><p>Les attributs de l'élement référencé et de l'élément
             référençant seront conservés. S'il existe des conflits, par exemple, le même attribut
             est utilisé par les deux éléments, alors l'attribut de l'élément référençant sera
-            utilisé.</p>Il existe cependant deux exceptions :<ul id="ul_gpj_5v3_mw">
-            <li>Pour forcer l'utilisation des attributs de l'élément référencé, appliquer l'attribut
+            utilisé.</p>Il existe cependant deux exceptions&#xA0;:<ul id="ul_gpj_5v3_mw">
+            <li>Pour forcer l'utilisation des attributs de l'élément référencé, appliquez l'attribut
                "-dita-use-conref-targer" à l'élément référençant. Cet attribut est particulièrement
                utile lors du référencement de contenu dont l'élément comporte un attribut
                obligatoire et dont l'attribut est inclus dans une liste prédéfinie tel que

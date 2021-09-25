@@ -4,7 +4,7 @@
      github.com. See the accompanying LICENSE file for
      applicable licenses.-->
 <learningAssessment id="lca_rewrite" xml:lang="en-US">
- <title>Rewrite</title>
+ <title>Ré-écriture</title>
  <shortdesc/>
  <prolog>
   <author type="creator" href="http://www.scriptorium.com/" format="html" scope="external"
@@ -22,29 +22,36 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcMultipleSelect id="lcSingleSelect_czr_d1b_mw">
-    <lcQuestion>Si deux paragraphes transmettent la même information mais sont écrits de façon différentes, vous pouvez les rendre utilisable en (choisir toutes les bonnes réponses)</lcQuestion>
+    <lcQuestion>Si deux paragraphes transmettent la même information mais sont écrits de façon
+     différente, vous pouvez les rendre réutilisable en&#xA0;: (choisir toutes les bonnes
+     réponses)</lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_dzr_d1b_mw">
      <lcAnswerOption>
-      <lcAnswerContent>les fusionnnant en un seul paragraphe prêt à la réutilisation.</lcAnswerContent>
+      <lcAnswerContent>les fusionnnant en un seul paragraphe prêt à la
+       réutilisation</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
      <lcAnswerOption>
       <lcAnswerContent>en choisissant la version la plus propice à la réutilisation dans d'autres
-       contextes.</lcAnswerContent>
+       contextes</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
      <lcAnswerOption>
       <lcAnswerContent>en choisissant le plus long</lcAnswerContent>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>en créant un nouveau paragraphe qui fonctionne dans les deux contextes.</lcAnswerContent>
+      <lcAnswerContent>en créant un nouveau paragraphe qui fonctionne dans les deux
+       contextes</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>en ne faisant rien, ces paragraphes ne peuvent être réutilisés</lcAnswerContent>
+      <lcAnswerContent>en ne faisant rien, ces paragraphes ne peuvent être
+       réutilisés</lcAnswerContent>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect>Vous pouvez les réutiliser soit en les fusionnant en un seul paragraphe, ou bien en choisissant la version du paragraphe la plus adaptée à la réutilisation.</lcFeedbackIncorrect>
+    <lcFeedbackIncorrect>Vous pouvez les réutiliser soit en les fusionnant en un seul paragraphe, ou
+     bien en choisissant la version du paragraphe la plus adaptée à la
+     réutilisation.</lcFeedbackIncorrect>
    </lcMultipleSelect>
   </lcInteraction>
  </learningAssessmentbody>

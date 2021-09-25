@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_pgf_3gt_qt">
-    <title>Pourquoi réutiliser du contenu ?</title>
+    <title>Pourquoi réutiliser du contenu&#xA0;?</title>
     <prolog>
         <author type="creator" href="http://www.scriptorium.com/" format="html" scope="external"
             class="- topic/author ">Simon Bate, Scriptorium</author>
@@ -18,35 +18,34 @@
     <learningContentbody>
         <lcInstruction>
             <p>La réutilisation de contenu d'une source unique est l'un des avantages que procure la
-                gestion de contenu structuré par DITA. La réutilisation offre les avantages suivants
-                :</p>
+                gestion de contenu structuré par DITA. La réutilisation offre les avantages suivants&#xA0;:</p>
             <ul id="ul_ljs_rbn_wf">
-                <li>Réduction de la duplication de contenu : la réutilisation de contenu réduit
+                <li>Diminution de la duplication de contenu&#xA0;: la réutilisation de contenu réduit
                     considérablement les besoins de duplication de contenu (CTRL+C, CTRL+V) ou le
-                    besoin de réécrire du contenu presque similaire. Vous pouvez ainsi gagner du
+                    besoin de réécrire du contenu presque similaire. Vous pouvez ainsi gagner en
                     temps et en précision dans votre rédaction.</li>
-                <li>Réduction des coûts : une bonne stratégie de réutilisation réduit le temps dédié
-                    à réécriture manuelle du contenu. De cette façon, la création de contenu est
-                    accélérée, et le besoin de gérer plusieurs version d'un même contenu est
+                <li>Réduction des coûts&#xA0;: une bonne stratégie de réutilisation réduit le temps dédié
+                    à la réécriture manuelle du contenu. De cette façon, la création de contenu est
+                    accélérée, et le besoin de gérer plusieurs versions d'un même contenu est
                     éliminé. La réutilisation de contenu réduit également les coûts de traduction.
                     En effet, du contenu dupliqué est retraduit à chaque apparation, tandis qu'un
                     contenu réutilisé n'est traduit qu'une seule fois. </li>
-                <li>Accroître la cohérence : chaque fois que vous dupliquez du contenu, vous vous
+                <li>Accroître la cohérence&#xA0;: chaque fois que vous dupliquez du contenu, vous vous
                     confrontez au risque d'une erreur humaine. De plus, chaque copie supplémentaire
                     augmente le risque d'oublier de mettre à jour une de ses itérations, ce qui va à
                     l'encontre de la cohérence de votre documentation. Publier du contenu à partir
                     d'une seule source vous assure que tout sera maintenu à jour et restera cohérent
                     quel que soit le nombre de réutilisation.</li>
                 <li>Opter pour des publications spécifiques à un produit ou à un profil
-                    d'utilisateur : vous pouvez combiner plusieurs contenus à l'aide de cartes
+                    d'utilisateur&#xA0;: vous pouvez combiner plusieurs contenus à l'aide de cartes
                     chacunes prévues pour un produit ou un type d'utilisateur. Par exemple, vous
                     pouvez travailler sur la documentation d'une gamme de produit avec des rubriques
                     partagées ou exclusives en fonction de ces critères. Opter pour une publication
                     depuis une seule source rend possible la réutilisation ainsi que la
                     personnalisation de contenu.</li>
             </ul>
-            <p>La réutiliser de contenu est un investissement à long terme. Habituellement, les
-                coûts de maintenances sont nettement plus avantageux. Les avantages de cette
+            <p>Réutiliser du contenu est un investissement à long terme. Habituellement, les
+                coûts de maintenance sont nettement plus avantageux. Les avantages de cette
                 stratégie sont donc constatable non pendant, mais après la fin du projet.</p>
             <!--<p>Reusing content can reduce costs in the following areas:</p><ul id="ul_shn_mpb_3w"><li>Content creation<ul id="ul_u2g_4pb_3w"><li>Editing</li><li>Review</li><li>DTP</li></ul></li><li>Translation/localization</li><li>Consistency</li></ul>-->
         </lcInstruction>

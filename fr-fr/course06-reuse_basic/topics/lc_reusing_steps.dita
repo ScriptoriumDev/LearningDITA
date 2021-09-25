@@ -14,19 +14,19 @@
       </critdates>
    </prolog><learningContentbody class="- topic/body  learningBase/learningBasebody learningContent/learningContentbody ">
       <lcInstruction>
-         <p class="- topic/p ">De la même façon que les paragraphes, les éléments &lt;cmd> au sein
+         <p class="- topic/p ">Tout comme les paragraphes, les éléments &lt;cmd> au sein
             des &lt;step> doivent être grammaticalement indépendants pour être réutilisés. Le
             nouveau contexte dans lequel la tâche est réutilisée doit être le même que celui
-            d'origine. Par exemple :</p>
+            d'origine. Par exemple&#xA0;:</p>
          <dl>
             <dlentry>
-               <dt>Ne pas réutiliser ce fragment :</dt>
+               <dt>Ne pas réutiliser ce fragment&#xA0;:</dt>
                <dd>
                   <pre>&lt;step>&lt;cmd>Éteignez-le&lt;/cmd>&lt;/step></pre>
                </dd>
             </dlentry>
             <dlentry>
-               <dt>Utilisez celui-ci :</dt>
+               <dt>Utilisez celui-ci&#xA0;:</dt>
                <dd>
                   <pre>&lt;step>&lt;cmd>Éteignez le véhicule&lt;/cmd>&lt;/step></pre>
                </dd>

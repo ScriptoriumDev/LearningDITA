@@ -19,7 +19,7 @@
    <lcSingleSelect id="ss1"
     class="+ topic/fig learningInteractionBase-d/lcInteractionBase learning-d/lcSingleSelect ">
     <lcQuestion class="+ topic/p learningInteractionBase-d/lcQuestionBase learning-d/lcQuestion "
-     >Quel est le meilleur endroit où conserver son contenu réutilisable ? (choisir une seule
+     >Quel est le meilleur endroit pour conserver son contenu réutilisable&#xA0;? (choisir une seule
      réponse)</lcQuestion>
     <lcAnswerOptionGroup
      class="+ topic/ul learningInteractionBase-d/ul learning-d/lcAnswerOptionGroup "
@@ -31,7 +31,7 @@
      </lcAnswerOption>
      <lcAnswerOption class="+ topic/li learningInteractionBase-d/li learning-d/lcAnswerOption ">
       <lcAnswerContent class="+ topic/p learningInteractionBase-d/p learning-d/lcAnswerContent "
-       >Dans des dossiers et rubriques entrepôts qui contiennent les rubriques et fragments
+       >Dans des dossiers et rubriques partagées qui contiennent les rubriques et fragments
        réutilisables</lcAnswerContent>
       <lcCorrectResponse name="lcCorrectResponse" value="lcCorrectResponse"
        class="+ topic/data learningInteractionBase-d/data learning-d/lcCorrectResponse "/>
@@ -45,7 +45,7 @@
     </lcAnswerOptionGroup>
     <lcFeedbackIncorrect
      class="+ topic/p learningInteractionBase-d/p learning-d/lcFeedbackIncorrect ">Utiliser des <q
-      class="- topic/q ">rubriques entrepôts</q> dédiées à cette mission empêche la création de
+      class="- topic/q ">rubriques partagées</q> dédiées à cette mission empêche la création de
      carte spaghetti et rend la gestion de contenu plus simple.&#160;</lcFeedbackIncorrect>
     <!--<lcFeedbackCorrect class="+ topic/p learningInteractionBase-d/p learning-d/lcFeedbackCorrect ">Correct. Storing your reusable elements in dedicated <q class="- topic/q ">warehouse topics</q> makes it easier to manage the reuse.&#160;</lcFeedbackCorrect>-->
    </lcSingleSelect>

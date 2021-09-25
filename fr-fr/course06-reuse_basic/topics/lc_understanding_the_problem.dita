@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningTreeContent.dtd">
-<learningContent xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="lt-content-4677" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic concept)                             (topic reference)                             (topic task)                             (topic learningInteractionBase-d)                            (topic learningInteractionBase-d learning-d)                            (topic learningmeta-d)                             (topic learningBase+learningInteractionBase-d)                            (topic learningBase+learningInteractionBase-d learningContent)                            (topic learningBase learningSummary)                             (topic learningBase+learningInteractionBase-d learningAssessment)   " ditaarch:DITAArchVersion="1.2" class="- topic/topic learningBase/learningBase learningContent/learningContent "><title class="- topic/title ">La réutilisation de contenu et la traduction</title>
+<learningContent xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="lt-content-4677"
+   domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic concept)                             (topic reference)                             (topic task)                             (topic learningInteractionBase-d)                            (topic learningInteractionBase-d learning-d)                            (topic learningmeta-d)                             (topic learningBase+learningInteractionBase-d)                            (topic learningBase+learningInteractionBase-d learningContent)                            (topic learningBase learningSummary)                             (topic learningBase+learningInteractionBase-d learningAssessment)   "
+   ditaarch:DITAArchVersion="1.2"
+   class="- topic/topic learningBase/learningBase learningContent/learningContent ">
+   <title class="- topic/title ">La réutilisation de contenu et la traduction</title>
    <prolog class="- topic/prolog ">
       <author type="creator" href="http://easydita.com/" format="html" scope="external"
          class="- topic/author ">Mike Rice, easyDITA</author>
@@ -14,15 +18,18 @@
          <created golive="2016-07-11" date="2016-05-11"/>
          <revised modified="2020-10-27"/>
       </critdates>
-   </prolog><learningContentbody class="- topic/body  learningBase/learningBasebody learningContent/learningContentbody "><lcInstruction class="- topic/section learningBase/lcInstruction ">
+   </prolog>
+   <learningContentbody
+      class="- topic/body  learningBase/learningBasebody learningContent/learningContentbody ">
+      <lcInstruction class="- topic/section learningBase/lcInstruction ">
          <p class="- topic/p ">La première fois que vous vous familiarisez avec les mécanismes de
             réutilisation de DITA, il vous sera probablement tentant de les essayer à chaque
             occasion. Cependant, il faut réutiliser avec prudence, d'autant plus si votre contenu
             venait à être traduit. Même s'il n'est pas traduit aujourd'hui, considérer qu'il le sera
             un jour est utile pour éviter des problèmes si ce jour venait à arriver.</p>
          <p class="- topic/p ">Chaque langue possède son lot de règles grammaticales et syntaxiques.
-            L'insertion d'un fragment de contenu dans une rubrique fonctionne en français n'implique
-            pas que cela fonctionne dans une autre langue.</p>
+            L'insertion d'un fragment de contenu dans une rubrique qui fonctionne en français
+            n'implique pas que cela fonctionne dans une autre langue.</p>
          <p class="- topic/p ">Certaines langues font appel aux déclinaisons pour exprimer
             différentes idées tels que le sujet ou le complément d'objet de la phrase. Certaines
             langues appliquent un genre aux mots, ce qui peut faire varier l'emplacement des mots
@@ -32,18 +39,18 @@
             de chaque langue. Nous allons donc présenter quelques examples en français pour
             illustrer pourquoi la réutilisation de mots au sein d'une phrase est une mauvaise idée
             si votre contenu venait à être traduit.</p>
-         <p>Prenon par exemple cette phrase :</p>
+         <p>Prenon par exemple cette phrase&#xA0;:</p>
          <p class="- topic/p ">
             <b class="+ topic/ph hi-d/b ">Marie mange une orange</b>
          </p>
          <p class="- topic/p ">Que se passe-t-il si nous substituons le mot orange par un autre
-            ?</p>
+            &#xA0;?</p>
          <p class="- topic/p ">
             <b class="+ topic/ph hi-d/b ">Marie mange une <u class="+ topic/ph hi-d/u "
                >pomme</u>.</b>
          </p>
          <p class="- topic/p ">Dans ce cas, la substitution fonctionne car les deux mots sont de
-            genre féminin. Mais que ce passerait-il si le mot était masculin ?</p>
+            genre féminin. Mais que ce passerait-il si le mot était masculin&#xA0;?</p>
          <p class="- topic/p ">
             <b class="+ topic/ph hi-d/b ">Marie mange une <u class="+ topic/ph hi-d/u "
                >kiwi</u>.</b>
@@ -56,7 +63,7 @@
          <p class="- topic/p ">
             <b class="+ topic/ph hi-d/b ">Casey mange une pomme.</b>
          </p>
-         <p class="- topic/p ">Que se passe-t-il si nous accordons "pomme" au pluriel ?</p>
+         <p class="- topic/p ">Que se passe-t-il si nous accordons "pomme" au pluriel&#xA0;?</p>
          <p class="- topic/p ">
             <b class="+ topic/ph hi-d/b ">Casey mange une <u class="+ topic/ph hi-d/u "
                >pommes</u>.</b>
@@ -70,4 +77,6 @@
                class="+ topic/ph hi-d/b ">vous devez éviter la réutilisation de mots au sein de
                phrases.</b> Autrement, vous recontrerez des situations imprévisibles pendant la
             traduction.</p>
-      </lcInstruction></learningContentbody></learningContent>
+      </lcInstruction>
+   </learningContentbody>
+</learningContent>

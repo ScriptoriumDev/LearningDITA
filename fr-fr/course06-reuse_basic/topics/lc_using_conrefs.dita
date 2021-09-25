@@ -22,7 +22,10 @@
         <lcDuration>
             <lcTime value="45"/>
         </lcDuration>
-        <lcIntro><p>Cette leçon présente comment créer et réutiliser (conref) du contenu au niveau du fragment.</p></lcIntro>
+        <lcIntro>
+            <p>Cette leçon présente comment créer et réutiliser du contenu de référence (conref) au
+                niveau du fragment.</p>
+        </lcIntro>
     </learningContentbody>
     <related-links>
         <link
@@ -31,12 +34,11 @@
             <linktext>OASIS DITA Version 1.2 Standard, The conref attribute</linktext>
         </link>
         <link
-            href="https://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Content_Reuse/c_Content_Reference.html"
+            href="https://www.ixiasoft.com/documentation/DITA_Style_Guide/fr/Artefact/Content_Reuse/c_Content_Reference.html"
             format="html" scope="external">
-            <linktext>DITA Style Guide, The content reference (conref) attribute</linktext>
+            <linktext>Guide de style DITA, L'attribut de référencement de contenu&#xA0;: conref</linktext>
         </link>
-        <link
-            href="https://ditachicks.com/2010/12/05/using-content-references-in-dita/"
+        <link href="https://ditachicks.com/2010/12/05/using-content-references-in-dita/"
             format="html" scope="external">
             <linktext>Using content references in DITA</linktext>
         </link>

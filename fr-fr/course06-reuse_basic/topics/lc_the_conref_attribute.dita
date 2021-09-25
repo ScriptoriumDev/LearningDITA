@@ -12,8 +12,7 @@
          class="- topic/author ">Mike Rice, easyDITA</author>
       <author type="contributor" href="http://easydita.com/" format="html" scope="external"
          class="- topic/author ">Annie Chen, easyDITA</author>
-      <author type="contributor" href="http://www.scriptorium.com">Simon Bate,
-         Scriptorium</author>
+      <author type="contributor" href="http://www.scriptorium.com">Simon Bate, Scriptorium</author>
       <author>Decarnelle Rémi (traducteur)</author>
       <critdates>
          <created golive="2016-07-11" date="2016-05-11"/>
@@ -24,20 +23,20 @@
       class="- topic/body  learningBase/learningBasebody learningContent/learningContentbody ">
       <lcInstruction class="- topic/section learningBase/lcInstruction ">
          <p class="- topic/p ">Un conref renvoit directement à un élément réutilisé à l'aide de
-            trois informations :</p>
+            trois informations&#xA0;:</p>
          <ul id="ul_sgw_fj3_mw">
             <li>L'emplacement de la rubrique contenant l'élément référencé</li>
-            <li>L'ID de la rubrique contenant l'élément référencé</li>
-            <li>L'ID de l'élément référencé</li>
+            <li>L'id de la rubrique contenant l'élément référencé</li>
+            <li>L'id de l'élément référencé</li>
          </ul>
-         <p>Le chemin vers le fichier l'ID de la rubrique sont séparés un dièse (#) ; L'ID de la
-            rubrique et de l'élément sont séparés par un slash ("/"). </p>
+         <p>Le chemin vers le fichier et la rubrique id sont séparés un dièse (#) ; L'id de la
+            rubrique et de l'élément sont séparés par un slash (/). </p>
          <note>Si l'élément référencé est présent dans le même fichier que l'élément référençant (ce
-            qui est rare), le chemin vers le fichier peut être optionnel, mais le dièse ("#") doit
+            qui est rare), le chemin vers le fichier peut être optionnel, mais le dièse (#) doit
             être ajouté.</note>
-         <p class="- topic/p ">Par exemple, une rubrique dépôt (que l'on peut trouver à
-            ../dépôt/avertissement.dita) contient un élement &lt;note>.</p>
-         <pre xml:space="preserve" class="- topic/pre ">&lt;topic id="depotavertissement"&gt;
+         <p class="- topic/p ">Par exemple, une rubrique partagée (que l'on peut trouver dans
+            ../commun/avertissement.dita) contient un élement &lt;note>.</p>
+         <pre xml:space="preserve" class="- topic/pre ">&lt;topic id="avertissementcommun"&gt;
    ...
    &lt;note type="danger" id="dangerchaleur"&gt;La surface est brûlante.&lt;/note&gt;
    ...</pre>
@@ -45,26 +44,26 @@
             créer dans la rubrique une &lt;note> vide, puis ajouter l'attribut conref pour
             identifier où sera réutilisé le contenu</p>
          <pre xml:space="preserve" class="- topic/pre ">...
-&lt;note conref="../dépôt/avertissement.dita#depotavertissement/dangerchaleur"/&gt;
+&lt;note conref="../commun/avertissement.dita#avertissementcommun/dangerchaleur"/&gt;
 ...</pre>
          <p class="- topic/p ">Le contenu de l'attribut conref peut sembler intimidant ou difficile
             à retenir. Néanmoins, la plupart des éditeurs DITA assiste l'utilisateur pendant la mise
             en place d'un conref.</p>
-         <p class="- topic/p ">Le tableau suivant montre quelques exemples de comment la valeur de
-            l'attribut conref est formatée dans plusieurs situations. Dans ces exemples, vous
-            remplacerez les informations génériques :</p>
+         <p class="- topic/p ">Le tableau suivant montre quelques exemples du formatage de la valeur
+            de l'attribut conref dans plusieurs situations. Dans ces exemples, vous remplacerez les
+            informations génériques&#xA0;:</p>
          <p class="- topic/p ">
             <ul class="- topic/ul ">
                <li class="- topic/li ">
-                  <p class="- topic/p "><b class="+ topic/ph hi-d/b ">topicID</b> est l'ID de la
+                  <p class="- topic/p "><b class="+ topic/ph hi-d/b ">rubriqueID</b> est l'id de la
                      rubrique où se trouve le contenu réutilisé</p>
                </li>
                <li class="- topic/li ">
-                  <p class="- topic/p "><b class="+ topic/ph hi-d/b ">targetID</b> est l'ID du
+                  <p class="- topic/p "><b class="+ topic/ph hi-d/b ">cibleID</b> est l'id du
                      contenu réutilisé</p>
                </li>
                <li class="- topic/li ">
-                  <p class="- topic/p "><b class="+ topic/ph hi-d/b ">folder</b> est le dossier
+                  <p class="- topic/p "><b class="+ topic/ph hi-d/b ">dossier</b> est le dossier
                      local</p>
                </li>
                <li class="- topic/li ">
@@ -87,12 +86,13 @@
                <stentry class="- topic/stentry ">#rubriqueID/cibleID</stentry>
             </strow>
             <strow class="- topic/strow ">
-               <stentry class="- topic/stentry ">Dans une rubrique dans le même dossier
+               <stentry class="- topic/stentry ">Dans une rubrique dans un système de fichiers
                   local</stentry>
                <stentry class="- topic/stentry ">dossier/fichier.dita#rubriqueID/cibleID</stentry>
             </strow>
             <strow class="- topic/strow ">
-               <stentry class="- topic/stentry ">Dans une rubrique dans le même réseau</stentry>
+               <stentry class="- topic/stentry ">Dans une rubrique dans un emplacement
+                  réseau</stentry>
                <stentry class="- topic/stentry "
                   >http://exemple.com/fichier.dita#rubriqueID/cibleID</stentry>
             </strow>

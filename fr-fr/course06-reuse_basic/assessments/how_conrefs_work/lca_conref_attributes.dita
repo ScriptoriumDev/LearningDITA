@@ -4,7 +4,7 @@
      github.com. See the accompanying LICENSE file for
      applicable licenses.-->
 <learningAssessment id="lca_conref_attributes" xml:lang="en-US">
- <title>Conref attributes</title>
+ <title>Attributs du conref</title>
  <shortdesc/>
  <prolog>
   <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
@@ -23,7 +23,7 @@
   <lcInteraction>
    <lcSingleSelect id="lcSingleSelect_mbp_4vh_mw">
     <lcQuestion>Quand l'élément référençant et l'élément référencé par un conref utilisent les mêmes
-     attributs : (choisir une seule réponse)</lcQuestion>
+     attributs&#xA0;: (choisir une seule réponse)</lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_nbp_4vh_mw">
      <lcAnswerOption>
       <lcAnswerContent>Les attributs de l'élément référençant sont conservés en priorité, à
