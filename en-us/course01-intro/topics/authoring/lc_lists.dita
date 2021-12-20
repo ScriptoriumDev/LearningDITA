@@ -28,7 +28,7 @@
             <p>Note that the author does not add numbers to this ordered list; as with HTML, the
                 numbers are inserted when the output is generated. To help you visualize things,
                 most visual editors will show you the numbers of items in an ordered list. </p>
-            <p>An ordered list is useful for showing things that have a sequence, however, if you
+            <p>An ordered list is useful for showing things that have a sequence. However, if you
                 need to describe a process, you might be better off using the &lt;steps> element in
                 a task topic.</p>
             <p>You can nest a list by starting a new &lt;ul> or &lt;ol> element inside an &lt;li>
