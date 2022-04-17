@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="lc_learningOverview_details">
+    <title>Le type de rubrique &lt;learningOverview></title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Kaitlyn Heath, Scriptorium</author>
+        <author>Decarnelle Rémi (traducteur)</author>
+        <critdates>
+            <created date="2017-04-21"/>
+            <revised modified="2021-10-11"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction id="lcInstruction_js5_cqb_yz">
+            <p>La rubrique &lt;learningOverview> présente les objectifs et les prérequis du cours,
+                mais aussi son audience. </p>
+            <p>Dans cette rubrique, l'élément principal est &lt;learningOverviewbody>. Cet élément
+                contient les éléments suivant dans le même ordre :</p>
+            <ol>
+                <li>&lt;lcIntro>: Introduction de l'aperçu</li>
+                <li>&lt;lcAudience>: Informations à propos des étudiants pour qui le cours est
+                    pensé</li>
+                <li>&lt;lcDuration>: La longueur prévue du cours</li>
+                <li>&lt;lcPrereqs>: Les conditions requises pour permettrent aux étudiants de suivre
+                    le cours</li>
+                <li>&lt;lcObjectives>: Ce que les étudiants gagneront à suivre le cours</li>
+                <li>&lt;lcResources>: Toutes les ressources externes nécessaires pour suivre le
+                    cours</li>
+            </ol>
+            <p>Ces éléments peuvent être suivis par un nombre infini de &lt;section>.</p>
+            <p>Voici un exemple de  &lt;learningOverviewbody> :</p>
+            <pre>
+&lt;learningOverviewbody><draft-comment author="kheath">pre from "../LearningDITA/en-us/Learning_and_training_specialization/samples/lo_feedingducks.dita"</draft-comment>
+    &lt;lcAudience id="lcAudience_rth_l4r_rcb">Ce cours est à l'attention de propriétaires de groupes de petites ou moyennes tailles de canards domestiques.&lt;/lcAudience>
+    &lt;lcDuration id="lcDuration_ohs_l4r_rcb">
+        &lt;lcTime value="3 weeks"/>
+    &lt;/lcDuration>
+    &lt;lcObjectives id="lcObjectives_j3w_l4r_rcb">
+        &lt;lcObjectivesStem>À la fin de ce cours, vous serez capable de :&lt;/lcObjectivesStem>
+        &lt;lcObjectivesGroup id="lcObjectivesGroup_cdr_2pr_rcb">
+            &lt;lcObjective>Décrire la liste des aspects les plus importants d'une alimentation.&lt;/lcObjective>
+            &lt;lcObjective>Décrire les formes communes d'alimentations ainsi que leurs points négatifs et positifs.&lt;/lcObjective>
+            &lt;lcObjective>Faire la liste des caractéristiques nécessaires pour vos mangeoires et abreuvoirs.&lt;/lcObjective>
+            &lt;lcObjective>Résumer les besoins macro et micro nutritionnels des canards.&lt;/lcObjective>
+            &lt;lcObjective>Citer les quatre maladies les plus courantes chez les canards et expliquer comment les prévenir en les nourrissant.&lt;/lcObjective>
+            &lt;lcObjective>Identifier les prédateurs les plus communs des canards et comment les garder à distance.&lt;/lcObjective>
+        &lt;/lcObjectivesGroup>
+    &lt;/lcObjectives>
+&lt;/learningOverviewbody>
+            </pre>
+        </lcInstruction>
+    </learningContentbody>
+    <related-links>
+        <link
+            href="http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/learningTraining/learningOverview.html#learningOverview"
+            format="html" scope="external">
+            <linktext>DITA version 1.3 specification, learningOverview</linktext>
+        </link>
+
+    </related-links>
+</learningContent>

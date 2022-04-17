@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="lc_interaction_types">
+    <title>Les types d'interactions</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Kaitlyn Heath, Scriptorium</author>
+        <critdates>
+            <created date="2017-04-21"/>
+            <revised modified="2018-08-30"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction id="lcInstruction_js5_cqb_yz">
+            <p>Les interactions incluses dans &lt;learningDomain2> comprend : </p>
+            <ul>
+                <li>des questions</li>
+                <li>des illustrations</li>
+                <li>des balises "correct" et "incorrect" pour élément</li>
+                <li>des feedbacks pour les bonnes et mauvaises réponses (optionnel)</li>
+            </ul>
+            <p>Vous pouvez remarquer que la présence d'un 2 dans learningDomain2, lcTrueFalse2, etc.
+                Une version antérieure de la spécialisation E&amp;A utilisait &lt;learningDomain>.
+                L'élément &lt;learningDomain2> est plus flexible et autorise l'utilisation de plus
+                d'élément comme &lt;p> à l'intérieur des questions.</p>
+            <p>La majorité des interactions se feront à travers des questions. Chaque type de
+                question a son propre élément :</p>
+            <ul>
+                    <li>&lt;lcTrueFalse2>: question fermée</li>
+                    <li>&lt;lcSingleSelect2>: question à choix multiple avec une seule bonne
+                    réponse</li>
+                    <li>&lt;lcMultipleSelect2>: question à choix multiple avec plusieurs bonnes
+                    réponses</li>
+                    <li>&lt;lcMatching2>: deux colonnes avec des éléments à relier</li>
+                    <li>&lt;lcSequencing2>: une série d'objets à remettre dans le bon ordre</li>
+                    <li>&lt;lcOpenQuestion2>: Une question nécessitant une réponse rédigée</li>
+                    <li>&lt;lcHotspot2>: Une image avec différentes parties cliquables</li>
+                </ul>
+            <p>Voici un exemple ci-dessous d'une question avec une seule bonne réponse</p>
+            <pre>
+&lt;learningAssessment id="la_l1_t1_ingredient_quality"><!-- from file:/C:/Users/kheat/Documents/GitHub/New%20folder/LearningDITA/en-us/Learning_and_training_specialization/samples/la_l1_t1_ingredient_quality.dita -->
+    &lt;title>Qualité des ingrédients&lt;/title>
+    &lt;learningAssessmentbody>
+        &lt;lcInteraction id="lcInteraction_sqq_xws_rcb">
+            &lt;lcSingleSelect2>
+                &lt;lcQuestion2>Ne pas utiliser de grain contaminé avec :
+                               &lt;/lcQuestion2>
+                &lt;lcAnswerOptionGroup2 id="lcAnswerOptionGroup2_skb_bxs_rcb">
+                    &lt;lcAnswerOption2>
+                        &lt;lcAnswerContent2>Molds&lt;/lcAnswerContent2>
+                        &lt;lcFeedback2>Non seulement les moisissures, mais aussi les graines de mauvaises herbes et la saleté.&lt;/lcFeedback2>
+                    &lt;/lcAnswerOption2>
+                    &lt;lcAnswerOption2>
+                        &lt;lcAnswerContent2>les graines de mauvaises herbes&lt;/lcAnswerContent2>
+                        &lt;lcFeedback2>Non seulement les graines de mauvaises herbes, mais aussi la moisissure et la saleté.&lt;/lcFeedback2>
+                    &lt;/lcAnswerOption2>
+                    &lt;lcAnswerOption2>
+                        &lt;lcAnswerContent2>Dirt&lt;/lcAnswerContent2>
+                        &lt;lcFeedback2>Non seulement la saleté, mais aussi la moisissure et les graines de mauvaises herbes.&lt;/lcFeedback2>
+                    &lt;/lcAnswerOption2>
+                    &lt;lcAnswerOption2>
+                        &lt;lcAnswerContent2>Tout ce qui précède&lt;/lcAnswerContent2>
+                        &lt;lcCorrectResponse2/>
+                    &lt;/lcAnswerOption2>
+                &lt;/lcAnswerOptionGroup2>
+            &lt;/lcSingleSelect2>
+        &lt;/lcInteraction>
+    &lt;/learningAssessmentbody>
+&lt;/learningAssessment>
+            </pre>
+            <note>Il est préférable d'utiliser l'élément lcSingleSelect2 plutôt que
+                lcMultipleSelect2 si vous proposez la réponse "tout ce qui précède". Si vous
+                utilisez l'élément lcMultipleSelect2 et qu'un utilisateur choisi toutes les bonnes
+                réponses (avec ou sans la réponse "tout ce qui précède"), la plupart des LMS
+                considéreront ce choix comme une mauvaise réponse.</note>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="lc_matching">
+        <title>Exercice</title>
+        <shortdesc>Vous pouvez maintenant rédiger un petit quizz.</shortdesc>
+        <taskbody>
+            <steps id="steps_f5k_kkh_1t">
+                <step>
+                    <cmd>Faire une copie de lca_practice_start.dita et l'ouvrir.</cmd>
+                    <info>
+                        <note>Si vous utilisez un éditeur DITA, assurez-vous d'être en vue texte et
+                            non auteur.</note>
+                    </info>
+                    <stepxmp>
+                        <p>Vous devriez voir ceci :</p>
+                        <pre>
+&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" 
+     "learningAssessment.dtd">
+    &lt;learningAssessment id="lca_practice">
+       &lt;title>Source d'alimentation de qualité pour animaux&lt;/title>
+       &lt;learningAssessmentbody> &lt;/learningAssessmentbody>
+    &lt;/learningAssessment></pre>
+                    </stepxmp>
+                    <info>
+                        <p>Vous pouve remarquer que le !DOCTYPE fait appel au DTD du
+                            learningAssessment.</p>
+                        <p>Vous trouverez après le titre la balise principale
+                            &lt;learningAssessmentbody>.</p>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Ajouter un élément &lt;lcInteraction> dans &lt;learningAssessmentbody>,
+                        puis ajouter un attribut "id"</cmd>
+                    <stepxmp>
+                        <pre>
+&lt;!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" 
+    "learningAssessment.dtd">
+&lt;learningAssessment id="lca_practice">
+    &lt;title>Source d'alimentation de qualité pour animaux&lt;/title>
+    &lt;learningAssessmentbody>
+        <ph outputclass="newchanged">&lt;lcInteraction id="lcInteraction_exercice"> 
+        &lt;/lcInteraction></ph>
+    &lt;/learningAssessmentbody>
+&lt;/learningAssessment></pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Vous pouvez maintenant ajouter une question. Pour cet exercice, nous allons
+                        ajouter une question &lt;lcMultipleSelect2>.</cmd>
+                    <stepxmp>
+                        <pre>
+&lt;!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" 
+    "learningAssessment.dtd">
+&lt;learningAssessment id="lca_practice">
+    &lt;title>Source d'alimentation de qualité pour animaux&lt;/title>
+    &lt;learningAssessmentbody>
+        &lt;lcInteraction id="lcInteraction_exercice">
+            <ph outputclass="newchanged">&lt;lcMultipleSelect2>
+            &lt;/lcMultipleSelect2></ph>
+        &lt;/lcInteraction>
+     &lt;/learningAssessmentbody>
+&lt;/learningAssessment></pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Vous pouvez ensuite ajouter l'élément &lt;lcQuestion2>.</cmd>
+                    <stepxmp>
+                        <pre>
+. . .
+&lt;lcMultipleSelect2>
+    <ph outputclass="newchanged">&lt;lcQuestion2>Où peut-on trouver de la nourriture de la qualité pour canards industrielle ? 
+                (choisir toutes les bonnes réponses):&lt;/lcQuestion2></ph>
+&lt;/lcMultipleSelect2>
+. . .
+                        </pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Ajouter ensuite le groupe de réponses. Créer un élément
+                        &lt;lcAnswerOptionGroup2> et lui ajouter un attribut id. Puis, Ajouter en
+                        son sein &lt;lcAnswerOption2> et encore dedans  &lt;lcAnswerContent2>.
+                        Ajouter dans &lt;lcAnswerContent2> le texte de la première réponse.</cmd>
+                    <stepxmp>
+                        <pre>
+. . .
+&lt;lcMultipleSelect2>
+&lt;lcQuestion2>Où peut-on trouver de la nourriture de la qualité pour canards industrielle ? 
+                (choisir toutes les bonnes réponses):&lt;/lcQuestion2>
+        &lt;lcAnswerOptionGroup2 id="lcAnswerOptionGroup2_exercice">
+            &lt;lcAnswerOption2>
+                <ph outputclass="newchanged">&lt;lcAnswerContent2>Dans des magasins d'alimentation pour animaux locaux.&lt;/lcAnswerContent2></ph>
+             &lt;/lcAnswerOption2>
+        &lt;/lcAnswerOptionGroup2>
+&lt;/lcMultipleSelect2>
+. . .
+                        </pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Si la réponse est correcte, vous pouvez la marquer comme étant la bonne
+                        réponse.</cmd>
+                    <stepxmp>
+                        <pre>
+. . .
+&lt;lcMultipleSelect2>
+&lt;lcQuestion2>Où peut-on trouver de la nourriture de la qualité pour canards industrielle ? 
+                (choisir toutes les bonnes réponses):&lt;/lcQuestion2>
+        &lt;lcAnswerOptionGroup2 id="lcAnswerOptionGroup2_exercice">
+            &lt;lcAnswerOption2>
+                &lt;lcAnswerContent2>Dans des magasins d'alimentation pour animaux locaux.&lt;/lcAnswerContent2>
+                <ph outputclass="newchanged">&lt;lcCorrectResponse2/></ph>
+             &lt;/lcAnswerOption2>
+        &lt;/lcAnswerOptionGroup2>
+&lt;/lcMultipleSelect2>
+. . .
+                        </pre>
+                    </stepxmp>
+                    <info>Vous pouvez ajouter autant d'éléments &lt;lcAnswerOption2> que vous voulez
+                        et en marquer autant que vous voulez comme bonne réponse.</info>
+                </step>
+                <step>
+                    <cmd>Ajouter une seconde réponse.</cmd>
+                    <stepxmp>
+                        <pre>
+. . .
+&lt;lcAnswerOptionGroup2 id="lcAnswerOptionGroup2_exercice">
+    &lt;lcAnswerOption2>
+        &lt;lcAnswerContent2>Dans des magasins d'alimentation pour animaux locaux.&lt;/lcAnswerContent2>
+        &lt;lcCorrectResponse2/>
+     &lt;/lcAnswerOption2>
+     <ph outputclass="newchanged">&lt;lcAnswerOption2>
+        &lt;lcAnswerContent2>Mélangés à la ferme à partir d'ingrédients de base.&lt;/lcAnswerContent2>
+        &lt;lcCorrectResponse2/>
+     &lt;/lcAnswerOption2></ph>
+&lt;/lcAnswerOptionGroup2>
+. . .
+                        </pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Pour créer une réponse incorrecte, ne pas ajouter &lt;lcCorrectResponse/>.
+                        Ajouter ensuite une explication à l'aide de l'élément &lt;lcFeedback2>. Elle
+                        apparaîtra si l'utilisateur choisi la mauvaise réponse.</cmd>
+                    <stepxmp>
+                        <pre>
+. . .
+&lt;lcAnswerOptionGroup2 id="lcAnswerOptionGroup2_exercice">
+    &lt;lcAnswerOption2>
+        &lt;lcAnswerContent2>Dans des magasins d'alimentation pour animaux locaux.&lt;/lcAnswerContent2>
+        &lt;lcCorrectResponse2/>
+    &lt;/lcAnswerOption2>
+    &lt;lcAnswerOption2>
+        &lt;lcAnswerContent2>Mélangés à la ferme à partir d'ingrédients de base.&lt;/lcAnswerContent>
+        &lt;lcCorrectResponse2/>
+    &lt;/lcAnswerOption2>
+    <ph outputclass="newchanged">&lt;lcAnswerOption2>
+        &lt;lcAnswerContent2>Dans la remorque du camion d'un parfait inconnu.&lt;/lcAnswerContent2>
+        &lt;lcFeedback2>Plus vous avez d'information sur la source de la marchandise, son âge, sa méthode de stockage et sur le vendeur, plus votre achat sera raisonné. &lt;/lcFeedback2>
+                     La remorque du camion d'un parfait inconnu ne convient à aucun de ces critères.&lt;/lcAnswerOption2></ph>
+&lt;/lcAnswerOptionGroup2>
+. . .
+                    </pre>
+                    </stepxmp>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+
+
+
+    <task id="task_hfc_ljx_tcb">
+        <title>Exercise</title>
+        <taskbody>
+            <steps id="steps_h5t_ljx_tcb">
+                <step>
+                    <cmd>Ouvrir le fichier leçon3/lc_task_exercise_start.dita et utilisez-le pour
+                        convertir les questions du <xref source="external"
+                            href="https://learningdita.fr/courses/the-dita-task-topic-type/">cours
+                            sur les rubriques de type tâche</xref> pour une rubrique
+                        &lt;learningAssessment>.</cmd>
+                    <info>Les questions et les réponses sont correctement reliées dans cet exemple
+                        :</info>
+                    <info>
+                        <pre outputclass="passthru">
+                            <![CDATA[
+                            <hr />
+           <h3>Question</h3>
+            <p>Relier les éléments enfants de <choicetable> avec leur usage correspondant.</p>
+             <table>
+  <tr>
+    <td>&lt;chhead></td>
+    <td>Ligne d'en-tête</td>
+  </tr>
+  <tr>
+    <td>&lt;chrow></td>
+    <td>Ligne du corps</td>
+  </tr>
+  <tr>
+    <td>&lt;choptionhd></td>
+    <td>Paramètre pour la ligne d'en-tête</td>
+  </tr>
+  <tr>
+    <td>&lt;chdeschd></td>
+    <td>Description dans la ligne d'en-tête</td>
+  </tr>
+  <tr>
+    <td>&lt;choption></td>
+    <td>Paramètre pour la ligne du corps</td>
+  </tr>
+  <tr>
+    <td>&lt;chdesc></td>
+    <td>Description dans la ligne du corps</td>
+  </tr>
+</table>
+                <hr />
+                            ]]>
+                        </pre>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Comparer votre fichier avec le ficheir d'exemple leçon4/lca_exercise.dita
+                        .</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

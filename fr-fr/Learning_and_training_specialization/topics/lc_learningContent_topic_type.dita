@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="lc_learningContent_topic_type">
+    <title>La rubrique  &lt;learningContent></title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Kaitlyn Heath, Scriptorium</author>
+        <author>Decarnelle Rémi (traducteur)</author>
+        <critdates>
+            <created date="2017-04-21"/>
+            <revised modified="2021-10-23"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction id="lcInstruction_js5_cqb_yz">
+            <p>Le type de rubrique &lt;learningContent> contient le contenu pégagoqieu de votre
+                cours. En fonction de la structure de votre cours, une rubrique &lt;learningContent>
+                peut servir de sujet unique dans une leçon, ou de leçon dans un cours en ajoutant la
+                rubrique dans une carte. Elle peut aussi servir de (courte) leçon si vous intégrez
+                d'autres rubriques comme des tâches ou &lt;learningAssessment>.</p>
+            <p>Le contenu pédagogique est contenu dans l'élément principal &lt;learningContentbody>.
+                Il peut également être écrit dans un autre type de rubrique DITA qui sera ensuité
+                intégré à la rubrique &lt;learningContent>.</p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

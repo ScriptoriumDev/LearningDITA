@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="lca_object-name">
+    <title>Nommer les ressources d'apprentissages</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Kaitlyn Heath,
+            Scriptorium</author>
+        <critdates>
+            <created date="2018-09-06"/>
+        </critdates>
+    </prolog>
+    <learningAssessmentbody>
+        <lcInteraction>
+            <lcTrueFalse id="t-f_object-naming">
+                <lcQuestion>Quel élément sert à nommer une ressource d'apprentissage ? (choisir une
+                    seule bonne réponse)</lcQuestion>
+                <lcAnswerOptionGroup>
+                    <lcAnswerOption>
+                        <lcAnswerContent>&lt;title/></lcAnswerContent>
+                    </lcAnswerOption>
+                    <lcAnswerOption>
+                        <lcAnswerContent>&lt;navtitle/></lcAnswerContent>
+                        <lcCorrectResponse/>
+                    </lcAnswerOption>
+                </lcAnswerOptionGroup>
+            </lcTrueFalse>
+        </lcInteraction>
+        
+    </learningAssessmentbody>
+</learningAssessment>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="lc_learningPlan_details">
+    <title>Le type de rubrique &lt;LearningPlan></title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Alan Pringle, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Kaitlyn Heath, Scriptorium</author>
+        <author>Decarnelle Rémi (traducteur)</author>
+        <critdates>
+            <created date="2017-04-21"/>
+            <revised modified="2021-10-09"/>
+                
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction id="lcInstruction_js5_cqb_yz">
+            <p>Le type de rubrique &lt;LearningPlan> sert à organiser les informations de vos
+                leçons. Les informations sont classées en plusieurs catégories :</p>
+            <ul id="ul_nsz_srb_yz">
+                <li>Description du projet, ce qui comprend  le titre, les dates, et le sujet.</li>
+                <li>Analyse du besoin, ce qui comprend les besoins de l'organisation, de l'audience,
+                    et de l'environnement nécessaire pour déployer la formation.</li>
+                <li>Approche et stratégies d'enseignement des cours.</li>
+                <li>Exigences techniques, telles que la salle de classe ou le LMS à utiliser</li>
+            </ul>
+            <p>Vous préciserez toutes ces informations à l'aide des éléments de la rubrique
+                &lt;LearningPlan>. Par exemple, pour détailler la description d'un cours, utilisez
+                l'élément &lt;lcPlanDescrip> qui peut contenir des paragraphes et des listes
+                non-ordonnées :</p>
+            <pre>
+&lt;lcPlanDescrip id="lcPlanDescrip_dnw_3bs_rcb">
+   &lt;title>Description du cours&lt;/title>
+   &lt;p>Ce cours est à l'attention de propriétaires de groupes de petites ou moyennes tailles de canards domestiques. Cette rubrique couvre :&lt;/p>
+   &lt;ul>
+        &lt;li>Source de qualité de l'alimentation&lt;ul id="ul_i2d_lds_rcb">
+                &lt;li>Source&lt;/li>
+                &lt;li>Protection&lt;/li>
+                &lt;li>Contamination et gaspilage&lt;/li>
+        &lt;/ul>&lt;/li>
+        &lt;li>Formulaire d'alimentation&lt;/li>
+        &lt;li>Mangeoires et abreuvoirs&lt;/li>
+        &lt;li>Besoins nutritionnels&lt;/li>
+        &lt;li>Lutte contre les maladies&lt;/li>
+        &lt;li>Éloignement des prédateurs&lt;/li>
+   &lt;/ul>
+&lt;/lcPlanDescrip>  
+            </pre>
+            <p>Bien que la spécialisation E&amp;A contient des éléments qui ne se rapportent qu'à
+                l'enseignement, certains d'entre eux peuvent contenir des éléments DITA que vous
+                pourriez utilisez dans des rubriques tâches, concepts ou références. La liste
+                &lt;ul> est un bon exemple.</p>
+        </lcInstruction>
+    </learningContentbody>
+    <related-links>
+        <link
+            href="http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/learningTraining/learningPlan.html#learningPlan"
+            format="html" scope="external">
+            <linktext id="linktext_kn3_xlc_v2b">DITA version 1.3 specification,
+                learningPlan</linktext>
+        </link>
+
+    </related-links>
+</learningContent>

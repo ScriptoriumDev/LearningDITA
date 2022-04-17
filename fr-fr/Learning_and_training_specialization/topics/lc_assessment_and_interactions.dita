@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="lc_assessment_and_interactions">
+    <title>Le type de rubrique &lt;learningAssessment> et ses possibilités d'interactions</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Kaitlyn Heath, Scriptorium</author>
+        <author>Decarnelle Rémi (traducteur)</author>
+        <critdates>
+            <created date="2017-04-21"/>
+            <revised modified="2021-11-21"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction id="lcInstruction_js5_cqb_yz">
+            <p>Une rubrique de type &lt;learningAssessment> consiste en une liste de questions
+                posées aux étudiants. Une évaluation peut être une ou plusieurs questions placée
+                avant ou après la leçon dans la carte DITA. Elles peuvent autant servir à connaître
+                le niveau de l'étudiant avant le cours ou à confirmer son acquisition des
+                connaissances.</p>
+            <p>Ce type de rubrique est particulièrement pratique car il permet de créer du contenu
+                pédagogique et de poser des questions en même temps.</p>
+            <p>La section principale de la rubrique se trouve au sein de l'élément
+                &lt;learningAssessmentbody>. C'est dans cet élément que l'on peut rédiger des
+                questions et intégrer des éléments optionnels :<ul>
+                    <li>&lt;lcIntro></li>
+                    <li>&lt;lcObjectives></li>
+                    <li>&lt;lcSummary></li>
+                </ul></p>
+            <p>Plusieurs types de questions sont disponibles tels que les questions à choix
+                multiples, ouvertes, fermées, et de liaison. Ces interactions sont définies dans le
+                learningDomain2 qui fera l'objet de la leçon suivante</p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

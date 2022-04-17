@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="lca_embed">
+    <title>Tâches intégrées</title>
+    <learningAssessmentbody>
+        <lcInteraction>
+            <lcTrueFalse id="t-f_embed">
+                <lcQuestion>L'intégration de tâches dans une rubrique &lt;learningContent> doit être
+                    faite au sein de l'élément &lt;learningContentbody>.</lcQuestion>
+                <lcAnswerOptionGroup>
+                    <lcAnswerOption>
+                        <lcAnswerContent>Vrai</lcAnswerContent>
+                    </lcAnswerOption>
+                    <lcAnswerOption>
+                        <lcAnswerContent>Faux</lcAnswerContent>
+                        <lcCorrectResponse/>
+                    </lcAnswerOption>
+                </lcAnswerOptionGroup>
+                <lcFeedbackIncorrect>Les tâches au sein de la rubrique &lt;learningContent> doit
+                    être ajoutées après l'élément &lt;learningContentbody>.</lcFeedbackIncorrect>
+            </lcTrueFalse>
+        </lcInteraction>
+    </learningAssessmentbody>
+</learningAssessment>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="lca_assessment2">
+    <title>learningAssessment 2</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Kaitlyn Heath, Scriptorium</author>
+        <author>Decarnelle Rémi (traducteur)</author>
+        <critdates>
+            <created date="2018-08-24"/>
+            <revised modified="2021-10-23"/>
+        </critdates>
+    </prolog>
+    <learningAssessmentbody>
+            <lcInteraction>
+                <lcSingleSelect id="lcSingleSelect_assess2">
+                    <lcQuestion>Lequels de ces types de rubrique autorise l'ajout de questions à
+                    réponses courtes ? (choisir une seule bonne réponse)</lcQuestion>
+                    <lcAnswerOptionGroup>
+                        <lcAnswerOption>
+                            <lcAnswerContent>&lt;learningPlan></lcAnswerContent>
+                        </lcAnswerOption>
+                        <lcAnswerOption>
+                            <lcAnswerContent>&lt;learningOverview></lcAnswerContent>
+                        </lcAnswerOption>
+                        <lcAnswerOption>
+                            <lcAnswerContent>&lt;learningAssessment></lcAnswerContent>
+                            <lcCorrectResponse/>
+                        </lcAnswerOption>
+                        <lcAnswerOption>
+                            <lcAnswerContent>&lt;learningSummary></lcAnswerContent>
+                        </lcAnswerOption>
+                        <lcAnswerOption>
+                            <lcAnswerContent>&lt;learningContent></lcAnswerContent>
+                        </lcAnswerOption>
+                    </lcAnswerOptionGroup>
+                </lcSingleSelect>
+            </lcInteraction>
+    </learningAssessmentbody>
+</learningAssessment>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="lca_lms">
+    <title>LMS</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Kaitlyn Heath, Scriptorium</author>
+        <author>Decarnelle Rémi (traducteur)</author>
+        <critdates>
+            <created date="2018-08-24"/>
+            <revised modified="2021-09-06"/>
+        </critdates>
+    </prolog>
+    <learningAssessmentbody>
+        <lcInteraction>
+            <lcTrueFalse id="t-f-lms">
+                <lcQuestion>Une fois vos cours terminé, vous pouvez les transformer à l'aide du
+                    plugin e-learning de DITA OT.</lcQuestion>
+                <lcAnswerOptionGroup>
+                    <lcAnswerOption>
+                        <lcAnswerContent>Vrai</lcAnswerContent>
+                    </lcAnswerOption>
+                    <lcAnswerOption>
+                        <lcAnswerContent>Faux</lcAnswerContent>
+                        <lcCorrectResponse/>
+                    </lcAnswerOption>
+                </lcAnswerOptionGroup>
+                <lcFeedbackIncorrect>Si votre objectif est la publication de contenu e-learning,
+                    vous devrez préparer votre propre scénario de transformation ou faire appel à un
+                    Learning Management System (LMS).</lcFeedbackIncorrect>
+            </lcTrueFalse>
+        </lcInteraction>
+    </learningAssessmentbody>
+</learningAssessment>

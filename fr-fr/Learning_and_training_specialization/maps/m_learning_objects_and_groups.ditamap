@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Objets et groupes d'apprentissages</title>
+ <topicref href="../topics/lc_objects_and_groups_intro.dita">
+  <topicmeta lockmeta="yes">
+   <data name="lesson_id" value="12503"/>
+  </topicmeta>
+  <topicref href="../topics/lc_working_with_learning_objects.dita"/>
+  <topicref href="../topics/lc_learning_object_elements.dita"/>
+  <topicref href="../topics/lc_working_with_learning_groups.dita"/>
+  <topicref href="../topics/lc_learning_maps.dita"/>
+ 
+  
+  <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_objects_and_groups.dita"
+   locktitle="yes">
+   <topicmeta>
+    <navtitle>Assessment for Learning objects and learning groups</navtitle>
+   </topicmeta>
+   <topicref href="../assessments/learning_maps/lca_single-object.dita"/>
+   <topicref href="../assessments/learning_maps/lca_learningPlan.dita"/>
+   <topicref href="../assessments/learning_maps/lca_map-elements.dita"/>
+   <topicref href="../assessments/learning_maps/lca_object-name.dita"/>
+   <topicref href="../assessments/learning_maps/lca_group-name.dita"/>
+   <topicref href="../assessments/learning_maps/lca_l-maps-element2.dita"/>
+   <topicref href="../assessments/learning_maps/lca_lcontentRef.dita"/>
+ </topicref>
+ </topicref>
+</map>

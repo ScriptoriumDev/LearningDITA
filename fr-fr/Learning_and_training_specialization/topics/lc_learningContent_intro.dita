@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="lc_learningContent_intro">
+    <title>Gérer votre contenu pédagogique</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Kaitlyn Heath, Scriptorium</author>
+        <author>Decarnelle Rémi (traducteur)</author>
+        <critdates>
+            <created date="2017-04-21"/>
+            <revised modified="2021-10-23"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives id="lcObjectives_ygk_w5w_qcb">
+            <lcObjectivesGroup id="lcObjectivesGroup_tvl_vbh_1t">
+                <lcObjective>Présenter les deux façons communes d'organiser le contenu
+                    pédagogique</lcObjective>
+                <lcObjective>Présenter comment ranger efficacement ses élements dans
+                    &lt;learningContentbody> </lcObjective>
+                <lcObjective>Donner des exemples de situation quand il est d'incorporer du contenu
+                    dans l'élément &lt;learningContent></lcObjective>
+                <lcObjective>Rédiger et incorporer une rubrique tâche dans une rubrique
+                    &lt;learningContent></lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration id="lcDuration_zgk_w5w_qcb">
+            <lcTime value="45"/>
+        </lcDuration>
+        <lcInstruction id="lcInstruction_js5_cqb_yz">
+            <p>Le type de rubrique &lt;learningContent> contient la majeure partie de votre contenu
+                éducatif.</p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

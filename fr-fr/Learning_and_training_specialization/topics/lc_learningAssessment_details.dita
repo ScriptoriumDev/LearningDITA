@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="lc_learningAssessment_details">
+    <title>Le type de rubrique &lt;learningAssessment></title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Kaitlyn Heath, Scriptorium</author>
+        <author>Decarnelle Rémi (traducteur)</author>
+        <critdates>
+            <created date="2017-04-21"/>
+            <revised modified="2021-10-23"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction id="lcInstruction_js5_cqb_yz">
+            <p>Le type de rubrique &lt;learningAssessment> contient des exercices, quizz, examens,
+                etc. Il vous sera possible de faire des tests au début ou à la fin du cours afin de
+                sonder les connaissances de votre audience.</p>
+            <p>La rubrique permet plusieurs types d'interaction pour poser vos questions commes les
+                questions fermées, ouvertes, à choix multiples, à correspondance, à séquence, ou
+                encore hot-spot (qui permet à vos étudiants de cliquer sur une zone précise d'une
+                image). Si ces questions sont prévues pour un support en ligne, vous aurez besoin
+                d'un format de sortie spécifique ainsi qu'un LMS.</p>
+            <p>L'élément principal est &lt;learningAssessmentbody> qui inclut &lt;lcIntro>,
+                &lt;lcObjectives>, &lt;lcDuration>, &lt;lcInteraction>, &lt;section>, et
+                &lt;lcSummary> elements. Les types de questions sont inclus dans
+                l'élément&lt;lcInteraction>.</p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

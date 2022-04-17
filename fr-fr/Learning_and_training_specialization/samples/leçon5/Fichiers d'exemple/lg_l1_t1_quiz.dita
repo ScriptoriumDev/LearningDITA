@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningGroupMap PUBLIC "-//OASIS//DTD DITA 1.3 Learning Group Map//EN" "learningGroupMap.rng">
+<learningGroupMap>
+   <title>Feed Quality quiz</title>
+   <learningGroup>
+      <learningOverviewRef href="lo_l1_t1_feed_quality_quiz.dita"/>
+      <learningPostAssessmentRef href="la_l1_t1_feed_source.dita"/>
+      <learningPostAssessmentRef href="la_l1_t1_storage.dita"/>
+      <learningPostAssessmentRef href="la_l1_t1_spoilage.dita"/>
+      <learningPostAssessmentRef href="la_l1_t1_ingredient_quality.dita"/>
+   </learningGroup>
+</learningGroupMap>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_gvm_3wn_qz">
+    <title>Poser des questions et obtenir des réponses</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Kaitlyn Heath, Scriptorium</author>
+        <author>Decarnelle Rémi (traducteur)</author>
+        <critdates>
+            <created date="2017-04-21"/>
+            <revised modified="2021-11-20"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup id="lcObjectivesGroup_tvl_vbh_1t">
+                <lcObjective>Comprendre l'utilisation de la rubrique
+                    &lt;learningAssessment></lcObjective>
+                <lcObjective>Savoir utiliser divers éléments pour créer différents types de
+                    questions.</lcObjective>
+                <lcObjective>Planifiez le formatage des questions en tenant compte de la
+                    spécification DITA E&amp;A.</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="45"/>
+        </lcDuration>
+        <lcIntro>
+            <p>Cette leçon vous présentera learningDomain2 et ses éléments utilisés pour créer des
+                sessions et des champs de réponses au sein de la rubrique
+                &lt;learningAssessment>.</p>
+        </lcIntro>
+    </learningContentbody>
+    <related-links>
+        <link format="html" scope="external"
+            href="https://www.oxygenxml.com/dita/1.3/specs/archSpec/learningTraining/lc-spec-Overview-domains.html#concept_cvq_vzc_ll__section_95070B5E06F6489A94C301B0D77DF71E">
+            <linktext>Support for learningDomain1 and learningDomain2</linktext>
+        </link>
+    </related-links>
+</learningContent>
