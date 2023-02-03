@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="lca_lctopic">
+    <title>La rubrique learningContent</title>
+    <learningAssessmentbody>
+        <lcInteraction>
+            <lcMultipleSelect id="multi_select_lctopic">
+                <lcQuestion>Pour ajouter une activité et du contenu pédagogique dans une seule
+                    rubrique, vous pouvez : (choisir toutes les bonnes réponses)</lcQuestion>
+                <lcAnswerOptionGroup id="lcAnswerOptionGroup_mxg_4q1_mt">
+                    <lcAnswerOption>
+                        <lcAnswerContent>Intégrer une rubrique &lt;task> au sein d'une rubrique
+                            &lt;learningContent>.</lcAnswerContent>
+                        <lcCorrectResponse/>
+                    </lcAnswerOption>
+                    <lcAnswerOption>
+                        <lcAnswerContent>Utiliser l'élément &lt;lcInteraction> dans
+                            &lt;learningContentbody>.</lcAnswerContent>
+                        <lcCorrectResponse/>
+                    </lcAnswerOption>
+                    <lcAnswerOption>
+                        <lcAnswerContent>Rédiger une rubrique &lt;learningContent> dans une rubrique
+                            &lt;task>.</lcAnswerContent>
+                    </lcAnswerOption>
+                </lcAnswerOptionGroup>
+                <lcFeedbackIncorrect>Une rubrique &lt;learningContent> ne peut être intégrée dans
+                    une rubrique tâche.</lcFeedbackIncorrect>
+            </lcMultipleSelect>
+        </lcInteraction>
+    </learningAssessmentbody>
+</learningAssessment>

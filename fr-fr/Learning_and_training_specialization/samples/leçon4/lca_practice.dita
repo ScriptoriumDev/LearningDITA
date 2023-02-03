@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="lca_practice">
+    <title>Feed Quality Source</title>
+    <learningAssessmentbody>
+        <lcInteraction id="lcInteraction_practice">
+            <lcMultipleSelect2>
+                <lcQuestion2>Good commercially prepared duck feed can be found where? (answer all that apply):</lcQuestion2>
+                <lcAnswerOptionGroup2 id="lcAnswerOptionGroup2_practice">
+                    <lcAnswerOption2>
+                        <lcAnswerContent2>Local feed stores.</lcAnswerContent2>
+                        <lcCorrectResponse2/>
+                    </lcAnswerOption2>
+                    <lcAnswerOption2>
+                        <lcAnswerContent2>Mixed on the farm from bulk ingredients.</lcAnswerContent2>
+                        <lcCorrectResponse2/>
+                    </lcAnswerOption2>
+                    <lcAnswerOption2>
+                        <lcAnswerContent2>From the back of a stranger’s truck.</lcAnswerContent2>
+                        <lcFeedback2>The more you know about the source, age, storage history, and the seller, the better off you are. This has none of those</lcFeedback2>
+                    </lcAnswerOption2>
+                </lcAnswerOptionGroup2>
+            </lcMultipleSelect2>
+        </lcInteraction>
+    </learningAssessmentbody>
+</learningAssessment>

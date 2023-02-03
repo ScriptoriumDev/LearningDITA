@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="lc_learningSummary_details">
+    <title>Le type de rubrique &lt;learningSummary></title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Kaitlyn Heath, Scriptorium</author>
+        <author>Decarnelle Rémi (traducteur)</author>
+        <critdates>
+            <created date="2017-04-21"/>
+            <revised modified="2021-10-21"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction id="lcInstruction_js5_cqb_yz">
+            <p>Le type de rubrique &lt;learningSummary> contient une synthèse du contenu éducatif.
+                La synthèse est placée en perspective des objectifs du cours. La rubrique peut
+                également donner des instructions sur ce qu'il faut faire après la fin du cours.</p>
+            <p>Dans une rubrique &lt;learningSummary>, l'élément principal est
+                &lt;learningSummarybody>. Il contient les éléments suivants :</p>
+            <ol>
+                <li>&lt;lcSummary> : Résumé des objectifs atteints</li>
+                <li>&lt;lcObjectives> : Objectifs atteints</li>
+                <li>&lt;lcReview> : Vue d'ensemble du contenu principal</li>
+                <li>&lt;lcNextSteps> : Directions à prendre pour aller plus loin dans le cours</li>
+                <li>&lt;lcResources> : Informations relatives au cours</li>
+            </ol>
+            <p>Ces éléments peuvent être suivi par un nombre illimité de &lt;section>.</p>
+            <p>Voici un exemple de &lt;learningSummarybody> :</p>
+            <pre>
+&lt;learningSummarybody> <draft-comment author="kheath">pre from "../LearningDITA/en-us/Learning_and_training_specialization/samples/ls_l3_t1_summary.dita"</draft-comment>
+    &lt;lcSummary id="lcSummary_igg_jd1_scb">
+        &lt;p>Pour résumer ce qu'il faut savoir sur les mangeoires et abreuvoirs :&lt;/p>
+        &lt;ul id="ul_dhl_md1_scb">
+            &lt;li>La taille du mangeoire et de l'abreuvoir est conséquent sur le développement du canard.&lt;/li>
+            &lt;li>Les mangeoires et abreuvoirs doivent être tout le temps aussi propre que possible.&lt;/li>
+            &lt;li>L'espace consacré aux mangeoirs et abreuvoirs est conséquent sur le développement du canard.&lt;/li>
+            &lt;li>L'attraction des canards pour l'eau peut entraîner des problèmes de litière humide.&lt;/li>
+        &lt;/ul>
+    &lt;/lcSummary>
+&lt;/learningSummarybody>
+                
+            </pre>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

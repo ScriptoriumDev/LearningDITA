@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningGroupMap PUBLIC "-//OASIS//DTD DITA 1.3 Learning Group Map//EN" "learningGroupMap.rng">
+<learningGroupMap>
+   <title>Feeding Ducks</title>
+   <learningGroup>
+      <learningPlanRef href="../lp_feedingducks.dita"/>
+      <learningOverviewRef href="../lo_feedingducks.dita"/>
+    
+      <learningGroup>
+         <topicmeta>
+            <navtitle>Lesson 1: Feed Quality</navtitle>
+         </topicmeta>
+       
+         <learningObject>
+            <topicmeta>
+               <navtitle>Topic 1</navtitle>
+            </topicmeta>
+            <learningPlanRef href="../lp_l1_t1_feed_quality.dita"/>
+            <learningOverviewRef href="../lo_l1_t1_feed_quality.dita"/>
+            <learningContentRef href="../lc_l1_t1_where_to_buy.dita"/>
+            <learningContentRef href="../lc_l1_t1_storage.dita"/>
+            <learningContentRef href="../lc_l1_t1_spoiling.dita"/>
+            <learningContentRef href="../lc_l1_t1_ingredient_quality.dita"/>
+            <learningSummaryRef href="../ls_l1_t1_summary.dita"/>
+            <learningPostAssessmentRef href="../lg_l1_t1_quiz.dita" type="learningGroup"/>
+         </learningObject>
+         
+      </learningGroup>
+   </learningGroup>
+</learningGroupMap>
+
+
+       

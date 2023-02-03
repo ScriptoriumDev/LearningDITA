@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="lc_learningContent_embedded_topics">
+    <title>Intégrer des rubriques dans &lt;learningContent></title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Kaitlyn Heath, Scriptorium</author>
+        <author>Decarnelle Rémi (traducteur)</author>
+        <critdates>
+            <created date="2017-04-21"/>
+            <revised modified="2021-10-24"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction id="lcInstruction_js5_cqb_yz">
+            <p>En plus d'accueillir des éléments propre à sa structure, le type de rubrique
+                &lt;learningContent> peut intégrer des rubriques d'autres types.</p>
+            <p>Votre contenu éducatif inclura peut-être une série de tâches pour vos étudiants à
+                suivre pour terminer l'activité. Dans ce cas, vous pouvez intégrer une rubrique
+                tâche dans &lt;learningContent> :</p>
+            <pre>
+&lt;learningContent id="watching_ducks">
+    &lt;title>Observer les canards&lt;/title>
+    &lt;learningContentbody>
+        &lt;lcInstruction>
+            &lt;p>Lisez ces instructions pour savoir tout ce qu'il faut connaître afin d'apprécier au maximum vos séances de contemplation de vos canards.&lt;/p>
+        &lt;/lcInstruction>
+    &lt;/learningContentbody>
+    &lt;task id="how_to_watch_ducks">
+        &lt;title>Comment observer les canards&lt;/title>
+        &lt;taskbody>
+            &lt;steps id="steps_watching_ducks">
+                &lt;step>
+                    &lt;cmd>Choisir un lieu d'où observer les canards.&lt;/cmd>
+                &lt;/step>
+                &lt;step>
+                    &lt;cmd>Prendre un guide du terrain pour identifier les canards.&lt;/cmd>
+                &lt;/step>
+            &lt;step>
+                &lt;cmd>Trouver les meilleurs angles d'observation.&lt;/cmd>
+            &lt;/step>
+                &lt;/steps>
+        &lt;/taskbody>
+    &lt;/task>
+&lt;/learningContent></pre>
+            <p>Il existe plusieurs avantages à intégrer une rubrique au sein de &lt;learningContent>
+                :</p>
+            <ul id="ul_mwg_xp5_scb">
+                <li><i>Réutilisation.</i> Si vous avez besoin de réutiliser du contenu dans vos
+                    supports de formation, intégrer des rubriques vous permettra de réutiliser votre
+                    contenu tel quel sans nécessité de le réécrire. L'intégration de rubriques peut
+                    être particulièrement pratique pour des centres de formation qui utilisent
+                    beaucoup de contenu créé par d'autres centres tels que la communication
+                    technique ou la vente.</li>
+                <li><i>Contrôle.</i> L'élément &lt;lcInstruction> autorise la création d'une série
+                    limitée d'éléments. Intégrer d'autres rubriques dans &lt;learningContent> vous
+                    permet d'accéder à un plus large éventail d'éléments. Par exemple, vous pouvez
+                    utilisez les éléments &lt;step> dans &lt;lcInstruction> pour donner une suite
+                    d'instructions à suivre.</li>
+                <li><i>Flexibilité.</i> Vous pouvez intégrer plus qu'une rubrique dans
+                    &lt;learningContent> donnant ainsi plus de flexibilité. Par exemple, vous pouvez
+                    intégrer une rubrique concept pour expliquer une idée à votre audience, puis
+                    intégrer une rubrique tâche pour donner des instructions afin de passer de la
+                    théorie à la pratique.</li>
+            </ul>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_hfc_ljx_tcb">
+        <title>Exercise</title>
+        <taskbody>
+            <steps id="steps_h5t_ljx_tcb">
+                <step>
+                    <cmd>Ouvrir le fichier <i>lesson3/lc_task_exercise_start.dita</i> et utilisez-le
+                        pour convertir le contenu suivant extrait d'une leçon d'Apprendre DITA en
+                        une rubrique &lt;learningConcept> avec une rubrique intégrée.</cmd>
+                    <info>
+                        <pre outputclass="passthru">
+                            <![CDATA[
+                            <hr />
+           <h3>Créer une nouvelle rubrique tâche</h3>
+            <p>Au minimum, la rubrique tâche doit contenir un élément racine <task> (avec un attribut "id") contenant un élément <title>. </p>
+            <p>À la suite de l'élément <title> et d'un optionnel <shortdesc>, un <taskbody> doit être ajouté. Il contiendra le contenu de la procédure. Les éléments au sein de <taskbody> doivent être conformes à un ordre spécifique. Ce cours présente les éléments de <taskbody> dans leur ordre d'apparition. </p>
+             <ol>
+                <li>Créer une copie de l_task_start.dita et l'ouvrir dans votre éditeur.
+                 <p>Si vous utilisez un éditeur capable de reconnaître DITA, assurez-vous d'utiliser le mode texte plutôt que le mode auteur. </p>
+                </li>
+                <li>Mettre à jour le texte à l'intérieur de l'élément <title>.</li>
+                <li>Ajouter l'élément <taskbody> après <title>.
+                    <p>L'élément <taskbody> contient le contenu de la procédure.</p>
+                    <p>C'est une partie essentiel d'une procédure DITA. Le reste de cette leçon vous montrera comment ajouter les deux premiers éléments enfants dans un élément <taskbody>.</p>
+                </li>
+                <hr />
+                            ]]>
+                        </pre>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Comparer votre fichier terminé avec l'exemple terminé <i>sample file
+                            lesson3/lc_task_exercise.dita</i></cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>
