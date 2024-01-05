@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="lca_pratique">
+    <title>Source d'alimentation de qualité pour animaux</title>
+    <learningAssessmentbody>
+        <lcInteraction id="lcInteraction_practice">
+            <lcMultipleSelect2>
+                <lcQuestion2>Où peut-on trouver de la nourriture industrielle de qualité pour canards&#xA0;? 
+                    (choisir toutes les bonnes réponses)&#xA0;:</lcQuestion2>
+                <lcAnswerOptionGroup2 id="lcAnswerOptionGroup2_practice">
+                    <lcAnswerOption2>
+                        <lcAnswerContent2>Dans des magasins d'alimentation pour animaux
+                            locaux.</lcAnswerContent2>
+                        <lcCorrectResponse2/>
+                    </lcAnswerOption2>
+                    <lcAnswerOption2>
+                        <lcAnswerContent2>Un mélange fermier d'ingrédients de
+                            base.</lcAnswerContent2>
+                        <lcCorrectResponse2/>
+                    </lcAnswerOption2>
+                    <lcAnswerOption2>
+                        <lcAnswerContent2>Dans la remorque du camion d'un parfait
+                            inconnu.</lcAnswerContent2>
+                        <lcFeedback2>Plus vous avez d'information sur la source de la marchandise,
+                            son âge, sa méthode de stockage et sur le vendeur, plus votre achat sera
+                            raisonné. La remorque du camion d'un parfait inconnu ne convient à aucun
+                            de ces critères.</lcFeedback2>
+                    </lcAnswerOption2>
+                </lcAnswerOptionGroup2>
+            </lcMultipleSelect2>
+        </lcInteraction>
+    </learningAssessmentbody>
+</learningAssessment>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_jcr_yn5_vr">
+    <title>Les rubriques Reference</title>
+    <prolog>
+        <author>Sharon Burton</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-04-28"/>
+            <revised modified="2019-08-18"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Une rubrique référence répond à la question «&#xA0;Qu'est-ce&#xA0;?&#xA0;». Une rubrique référence
+                contient généralement des faits descriptifs, tels que la syntaxe d'une commande ou
+                de l'appel à une fonction API, un tableau répertoriant les caractéristiques
+                opérationnelles et les tolérances d'un périphérique, ou un tableau identifiant les
+                éléments d'un écran du logiciel.</p>
+            <p>Les rubriques référence n'incluent pas d'étapes ou d'informations de fond. Les
+                rubriques référence sont similaires à des entrées du dictionnaire ou fournissent
+                uniquement des faits.</p>
+            <p>Les éléments courants utilisé dans une rubrique référence comprennent&#xA0;: <ul
+                    id="ul_nj3_h45_vr">
+                    <li>&lt;refbody> (le corps de la rubrique référence)</li>
+                    <li>&lt;section> (une subdivision dans la rubrique référence, avec un titre
+                        optionnel)</li>
+                    <li>&lt;table> (une table)</li>
+                    <li>&lt;fig> (une figure, y compris un titre optionnel)</li>
+                    <li>&lt;properties> (une liste de propriétés)</li>
+                    <li>&lt;refsyn> (un diagramme de syntaxe)</li>
+                </ul></p>
+            <p>Vidéo&#xA0;: <xref href="https://www.youtube.com/watch?v=l2y-MbYf2a4" format="html"
+                    scope="external">Aperçu du code d'une rubrique référence DITA</xref></p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

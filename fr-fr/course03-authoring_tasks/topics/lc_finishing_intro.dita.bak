@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_apv_sgk_bt" xml:lang="fr-FR">
+    <title>Terminer la tâche</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-08-18"/>
+            <revised modified="2020-05-17"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup id="lcObjectivesGroup_tvl_vbh_1t">
+                <lcObjective>Comprendre l'utilisation des éléments &lt;result>, &lt;example> et
+                    &lt;postreq>.</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="45"/>
+        </lcDuration>
+        <lcInstruction>
+            <p>Après avoir ajouté les étapes, vous pouvez utiliser ces trois éléments
+                supplémentaires pour terminer la description de la tâche&#xA0;:</p>
+            <ul id="ul_rp1_w5w_mt">
+                <li>&lt;result> décrit le résultat obtenu suite à la réalisation concluante de la
+                    tâche</li>
+                <li>&lt;example> montre un exemple de la tâche dans son intégralité</li>
+                <li>&lt;postreq> (post-requis) indique que faire après</li>
+            </ul>
+            <note>
+                <p>Cette leçon couvre l'utilisation de base de ces éléments. Pour les spécifications
+                    complètes de chaque élément, se référer à la <xref
+                        href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/task.html"
+                        format="html" scope="external">norme OASIS DITA version 1.2</xref>.</p>
+            </note>
+        </lcInstruction>
+    </learningContentbody>
+    <related-links>
+        <link
+            href="https://www.ixiasoft.com/documentation/DITA_Style_Guide/fr/Artefact/Language_and_Punctuation/c_Transitional_Information_in_Prerequisites.html"
+            format="html" scope="external">
+            <linktext>Guide de style DITA, Informations de transition dans les blocs
+                sémantiques</linktext>
+        </link>
+        <link
+            href="https://www.ixiasoft.com/documentation/DITA_Style_Guide/fr/Artefact/Syntax_and_Markup/c_Semantics_in_Steps.html"
+            format="html" scope="external">
+            <linktext>Guide de style DITA, Sémantique des étapes</linktext>
+        </link>
+    </related-links>
+</learningContent>

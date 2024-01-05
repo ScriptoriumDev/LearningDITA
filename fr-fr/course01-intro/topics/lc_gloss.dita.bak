@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_lqx_445_vr">
+    <title>Les rubriques Glossary Entry</title>
+    <prolog>
+        <author>Sharon Burton</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-04-28"/>
+            <revised modified="2019-08-20"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Une rubrique d'entrée de glossaire répond à la question «&#xA0;Que signifie ce mot ou cette
+                phrase&#xA0;?&#xA0;» Les rubriques glossaire contiennent généralement un terme et une ou
+                plusieurs définitions. </p>
+            <p>Les éléments courants utilisés dans la rubrique glossaire sont&#xA0;: <ul id="ul_qj2_w45_vr">
+                    <li>&lt;glossentry> (l'entrée de glossaire)</li>
+                    <li>&lt;glossterm> (le mot ou la phrase)</li>
+                    <li>&lt;glossdef> (la définition du terme glossaire)</li>
+                </ul>
+            </p>
+            <p>Vidéo&#xA0;: <xref href="https://www.youtube.com/watch?v=a_Cr1lX3WAM" format="html"
+                    scope="external">Aperçu de code de la rubrique glossaire DITA</xref></p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

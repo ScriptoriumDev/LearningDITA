@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="lca_benefits">
+    <title>Avantages liés à la spécialisation A&amp;F</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Kaitlyn Heath, Scriptorium</author>
+        <author>Decarnelle Rémi (traducteur)</author>
+        <critdates>
+            <created date="2018-08-24"/>
+            <revised modified="2021-09-11"/>
+        </critdates>
+    </prolog>
+    <learningAssessmentbody>
+        <lcInteraction>
+            <lcMultipleSelect id="ms-benefits">
+                <lcQuestion>Choissisez dans les affirmations suivantes quelles seraient les raisons
+                    valables pour utiliser la spécialisation A&amp;F&#xA0;:</lcQuestion>
+                <lcAnswerOptionGroup>
+                    <lcAnswerOption>
+                        <lcAnswerContent>Vous souhaitez créer une rubrique tâche.</lcAnswerContent>
+                    </lcAnswerOption>
+                    <lcAnswerOption>
+                        <lcAnswerContent>Vous produisez des supports pour des formateurs et des
+                            étudiants. </lcAnswerContent>
+                        <lcCorrectResponse/>
+                    </lcAnswerOption>
+                    <lcAnswerOption>
+                        <lcAnswerContent>Vous produisez du contenu pédagogique sur support physique
+                            et internet.</lcAnswerContent>
+                        <lcCorrectResponse/>
+                    </lcAnswerOption>
+                    <lcAnswerOption>
+                        <lcAnswerContent>Vous avez besoin d'ajouter du code DITA écrit dans votre
+                            nouveau cours.</lcAnswerContent>
+                        <lcCorrectResponse/>
+                    </lcAnswerOption>
+                </lcAnswerOptionGroup>
+                <lcFeedbackIncorrect>Vous n'avez pas besoin de la spécialisation A&amp;F pour créer
+                    une rubrique tâche.</lcFeedbackIncorrect>
+            </lcMultipleSelect>
+        </lcInteraction>
+    </learningAssessmentbody>
+</learningAssessment>

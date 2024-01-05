@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_e2q_2sn_vt" xml:lang="fr-FR">
+ <title>Cartes de glossaire</title>
+ <prolog>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+   Scriptorium</author>
+  <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external" format="html"
+   >Marine Martin-Guillerez (Traductrice)</author>
+  <critdates>
+   <created date="2015-10-28"/>
+   <revised modified="2020-07-09"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody id="learningAssessmentbody_czj_psn_vt">
+  <lcInteraction>
+   <lcTrueFalse id="lcTrueFalse_b1k_psn_vt">
+    <lcQuestion>Lorsque vous organisez vos glossaires dans une carte DITA, vous devez les organiser
+     dans l'ordre alphabétique.</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_p1k_psn_vt">
+     <lcAnswerOption>
+      <lcAnswerContent>Vrai</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Faux</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>Les transformations DITA-OT peuvent trier vos listes de glossaire si elles
+     sont configurées pour ça.</lcFeedbackIncorrect>
+   </lcTrueFalse>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

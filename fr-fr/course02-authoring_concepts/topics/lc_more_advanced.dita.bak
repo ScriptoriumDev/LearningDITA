@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_hrm_xjh_1t" xml:lang="fr-FR">
+    <title>Ajouter plus d'éléments avancés</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-08-24"/>
+            <revised modified="2020-03-02"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Voici quelques éléments avancés plus courants dans DITA&#xA0;:</p>
+            <simpletable frame="all" relcolwidth="1.0* 1.0*" id="simpletable_fwj_dj4_2t">
+                <strow>
+                    <stentry>
+                        <p>&lt;section></p>
+                    </stentry>
+                    <stentry>
+                        <p>Élément qui divise le corps d'un sujet en sous-sections avec des titres
+                            individuels. L'élément &lt;section> peut contenir un élément &lt;title>
+                            pour lui donner un titre, ainsi que la plupart des éléments autorisés à
+                            l'intérieur de l'élément &lt;conbody>. Cependant, l'élément &lt;section>
+                            ne peut pas contenir d'autres éléments &lt;section> et ne peut être
+                            suivi que d'un autre élément &lt;section>, d'un élément &lt;exemple> ou
+                            d'un élément &lt;conbodydiv>.</p>
+                        <note>
+                            <p>Si vous constatez que vous ajoutez de nombreuses sections ou des
+                                sections d'une longueur importante à une rubrique, faites plutôt de
+                                chacune de ces sections une rubrique propre afin de pouvoir
+                                réutiliser l'information plus facilement.</p>
+                        </note>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;draft-comment></p>
+                    </stentry>
+                    <stentry>
+                        <p>Élément qui permet d'insérer des commentaires et des questions dans le
+                            contenu pendant son élaboration. Par défaut, l'élément
+                            &lt;draft-comment> est caché dans la publication finale, vous pouvez
+                            donc présenter la publication sans supprimer tous les commentaires.
+                            (Vous devez cependant décider si vous êtes prêt à prendre le
+                            risque).</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;required-cleanup></p>
+                    </stentry>
+                    <stentry>
+                        <p>Élément qui vous permet d'envelopper le contenu qui est mal étiqueté et
+                            qui doit être corrigé. Par défaut, tout contenu à l'intérieur de
+                            l'élément &lt;required-cleanup> est caché dans la sortie.</p>
+                    </stentry>
+                </strow>
+            </simpletable>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_i3g_jkh_1t">
+        <title/>
+        <taskbody>
+            <steps id="steps_f5k_kkh_1t">
+                <step>
+                    <cmd>Continuez d'utiliser le fichier leçon4/l_concept_avance_debut.dita pour
+                        ajouter chacun de ces éléments dans votre fichier d'exemple.</cmd>
+                    <info>Vidéo&#xA0;: <xref href="https://www.youtube.com/watch?v=kmwUK7UFL_8"
+                            format="html" scope="external">Ajouter une section dans
+                        DITA</xref></info>
+                </step>
+                <step>
+                    <cmd>Après l'élément &lt;lq>, ajoutez un élément &lt;section> tel que présenté
+                        dans l'exemple suivant&#xA0;:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_avance">
+&lt;title>Écrire sur les canards&lt;/title>
+&lt;conbody>
+...
+&lt;/lq>
+<ph outputclass="newchanged">&lt;section>
+&lt;/section></ph>
+&lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>Dans l'exemple ajouté, vous créez une sous-section à la rubrique
+                        «&#xA0;Écrire sur les canards&#xA0;».</info>
+                </step>
+                <step>
+                    <cmd>À l'intérieur de l'élément &lt;section>, ajoutez les éléments &lt;title> et
+                        &lt;p> et ajoutez-y du contenu tel que présenté dans l'exemple
+                        suivant&#xA0;:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_avance">
+&lt;title>Écrire sur les canards&lt;/title>
+&lt;conbody>
+...
+&lt;section>
+<ph outputclass="newchanged">&lt;title>Partager votre base de données sur les canards&lt;/title>
+&lt;p>Exportez votre base de données sur les canards sous forme de publication HTML pour la rendre facile à partager sur votre site internet. 
+Vous pouvez également proposer votre base de données aux utilisateurs sous forme de téléchargement.&lt;/p></ph>
+&lt;/section>
+&lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>Un seul élément &lt;title> est autorisé à l'intérieur de l'élément
+                        &lt;concept> où un titre existe déjà. Cependant, en ajoutant un élément
+                        &lt;section>, vous pouvez avoir plusieurs sous-titres dans votre concept.
+                        Comme pour l'élément &lt;concept>, chaque élément &lt;section> ne peut
+                        contenir qu'un seul élément &lt;title>.</info>
+                    <info>Un élément &lt;section> peut contenir les mêmes éléments de corps qu'un
+                        élément &lt;conbody>, à l'exception d'un autre élément &lt;section>
+                        (c'est-à-dire que vous ne pouvez pas emboîter les éléments &lt;section> les
+                        uns dans les autres).</info>
+                </step>
+                <step>
+                    <cmd>Après l'élément &lt;p> dans la nouvelle section, ajoutez un élément
+                        &lt;draft-comment> et son contenu tel que présenté dans l'exemple
+                        suivant&#xA0;:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_avance">
+&lt;title>Écrire sur les canards&lt;/title>
+&lt;conbody>
+...
+&lt;/p>
+<ph outputclass="newchanged">&lt;draft-comment>Êtes-vous sûr de vouloir proposer un téléchargement&#xA0;?&lt;/draft-comment></ph>
+...
+&lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>Dans l'exemple ajouté, vous dites aux autres auteurs qui pourraient
+                        travailler sur cette rubrique de reconsidérer la décision de proposer un
+                        téléchargement.</info>
+                </step>
+                <step>
+                    <cmd>A la fin du contenu de l'élément &lt;section> (avant la balise de
+                        fermeture), ajoutez un élément &lt;required-cleanup> et son contenu tel que
+                        présenté dans l'exemple suivant&#xA0;:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="cconcept_avance">
+&lt;title>Écrire sur les canards&lt;/title>
+&lt;conbody>
+...
+<ph outputclass="newchanged">&lt;required-cleanup>
+&lt;p>Envisagez de donner aux utilisateurs la possibilité d'envoyer des commentaires ou des suggestions d'entrées
+pour votre base de données sur les canards.&lt;/p>
+&lt;/required-cleanup></ph>
+&lt;/section>
+&lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>Dans cet exemple, vous avez entouré l'élément &lt;p> avec l'élément
+                        &lt;required-cleanup> pour indiquer qu'il doit être déplacé à un endroit
+                        valide (comme à l'intérieur de l'élément &lt;section>) ou être ré-étiqueté
+                        avec un élément valide (comme l'élément &lt;example>). Sinon, vous ne
+                        pourrez pas produire de publication à cause de la présence d'éléments non
+                        valides. </info>
+                </step>
+                <step>
+                    <cmd>Vérifiez votre fichier leçon4/l_concept_avance_debut.dita à l'aide du
+                        fichier exemple leçon4/l_concept_avance.dita.</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+    <task id="task_as2_vjx_dt">
+        <title>Exercice</title>
+        <taskbody>
+            <steps id="steps_g32_wjx_dt">
+                <step>
+                    <cmd>Ouvrez le fichier leçon4/l_concept_avance_exercice_debut.dita et
+                        utilisez-le pour convertir le contenu suivant&#xA0;:</cmd>
+                    <info>
+                        <pre outputclass="passthru"><![CDATA[
+                           <hr />
+                           <h3>Développer une stratégie de contenu technique</h3>
+                           <p>Après avoir passé en revue l'information produits existante, vous devriez disposer d'une liste des défis et des idées d'amélioration du contenu. Voici quelques scénarios courants.</p>
+                           <h5>Réutilisation entre la documentation technique et le matériel de formation</h5>
+                           Le service de formation utilise les informations de référence et de tâches créées par l'équipe de documentation technique, mais les concepteurs pédagogiques font des copier-coller au lieu d'établir des liens car les deux groupes utilisent des outils de création de contenu différents et incompatibles.
+                           <em><strong>Commentaire&#xA0;:</strong> Ajouter&#xA0;: «&#xA0;Si les deux équipes s'uniformisaient sur un seul processus de travail, elles pourraient partager le contenu de manière transparente et éviter de nombreuses reprises fastidieuses.&#xA0;»</em>
+                           <h5>Une publication HTML est nécessaire en plus du PDF</h5>
+                           <p>Votre contenu devrait ressembler à ceci en HTML&#xA0;:</p>
+                           <code>&lt;div class="p"&gt;Vous pouvez produire des contenus de grande valeur, tels que les suivants&#xA0;:
+                           &lt;ul class="ul"&gt;
+                           &lt;li class="li"&gt;&lt;p class="p"&gt;Matériels de formation&lt;/p&gt;&lt;/li&gt;
+                           &lt;li class="li"&gt;&lt;p class="p"&gt;Livres blancs&lt;/p&gt;&lt;/li&gt;
+                           &lt;li class="li"&gt;&lt;p class="p"&gt;Articles de la base de connaissances&lt;/p&gt;&lt;/li&gt;
+                           &lt;/ul&gt;
+                           &lt;/div&gt; </code>
+                           <p>l'élément <code>&lt;div&gt;</code> contient une liste non-ordonnée.</p>
+                           <h5>Le contenu technique est obsolète en raison d'un processus de mise à jour inefficace</h5>
+                           <blockquote>Le processus de production des livres – la génération de tables des matières et d'index, la vérification de la pagination, la création de journaux de pages modifiées et autres tâches similaires – prend beaucoup de temps. Par conséquent, les livres ne sont mis à jour que deux fois par an. Mais le produit change tous les trimestres, voire tous les mois, de sorte que la documentation technique est presque toujours périmée. Les lecteurs se plaignent du manque de synchronisation entre les mises à jour du produit et les mises à jour du contenu.</blockquote>
+                           <hr />
+                           ]]></pre>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Vérifiez votre fichier leçon4/l_concept_avance_debut.dita avec le fichier
+                        exemple leçon4/l_concept_avance_exercice.dita.</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

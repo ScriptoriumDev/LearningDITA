@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_hrm_xjh_1t" xml:lang="fr-FR">
+    <title>Ajouter d'autres éléments</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-08-24"/>
+            <revised modified="2020-02-04"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>DITA utilise plein d'autres éléments importants. En voici trois de plus&#xA0;:</p>
+            <simpletable frame="all" relcolwidth="1.0* 1.0*" id="simpletable_i13_ml4_2t">
+                <strow>
+                    <stentry>
+                        <p>&lt;fn></p>
+                    </stentry>
+                    <stentry>
+                        <p>Élément insèrant une note de bas de page.</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;menucascade></p>
+                    </stentry>
+                    <stentry>
+                        <p>Élément indiquant l'ordre d'un chemin de menu, tel que Fichier >
+                            Enregistrer sous. L'élément &lt;menucascade> doit contenir un ou
+                            plusieurs éléments &lt;uicontrol>. Chaque élément &lt;uicontrol>
+                            contient le texte d'un titre de menu.</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;dl></p>
+                    </stentry>
+                    <stentry>
+                        <p>Élément contenant une liste de définition. Une liste de définition est
+                            une liste de termes et leur définition correspondante, présenté, par
+                            défaut, sous un format similaire à un tableau à deux colonnes. La liste
+                            de définition contient une ou plusieurs entrées, marqué avec l'élément
+                            &lt;dlentry> et chaque entrée contient un terme (marqué avec l'élément
+                            &lt;dt>) et une ou plusieurs définitions (marqué avec l'élément
+                            &lt;dd>).</p>
+                    </stentry>
+                </strow>
+            </simpletable>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_i3g_jkh_1t">
+        <title/>
+        <taskbody>
+            <steps id="steps_f5k_kkh_1t">
+                <step>
+                    <cmd>Continuez d'utiliser le fichier leçon3/l_concept_elements_debut.dita et
+                        ajouter chacun de ces éléments dans votre fichier d'exemple.</cmd>
+                </step>
+                <step>
+                    <cmd>Après le dernier élément &lt;p>, ajoutez un nouvel élément &lt;p> avec, à
+                        l'intérieur, l'élément &lt;fn>, tel que présenté dans l'exemple
+                        suivant&#xA0;:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_elements">
+   &lt;title>Nourrir les canetons&lt;/title>
+  &lt;conbody>
+...
+ <ph outputclass="newchanged">&lt;p>Les canetons ont besoin d'une plus grande quantité de protéines dans leur alimentation que les canards adultes.&lt;fn>Un taux de protéines de 18 à 20% est recommandé pour les canetons nouveau-nés.&lt;/fn>&lt;/p></ph>
+&lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>L'élément &lt;fn> indique où le numéro de référence de la note de bas de
+                        page apparaîtra dans le paragraphe. Par défaut, le texte présent dans
+                        l'élément &lt;fn> est affiché en bas de la page (pour les PDF) ou à la fin
+                        de la rubrique (pour l'HTML) lorsque vous générez la publication du
+                        fichier.</info>
+                </step>
+                <step>
+                    <cmd>Après le dernier élément &lt;p>, ajoutez un nouvel élément &lt;p> avec un
+                        élément &lt;menucascade> à l'intérieur, tel que présenté dans l'exemple
+                        suivant&#xA0;:</cmd>
+                    <info>Vidéo&#xA0;: <xref href="https://www.youtube.com/watch?v=xGyf4q_Bipw"
+                            format="html" scope="external">Créer un menu en cascade avec
+                        DITA</xref></info>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_elements">
+   &lt;title>Nourrir les canetons&lt;/title>
+  &lt;conbody>
+...
+<ph outputclass="newchanged">&lt;p>Pour créer une feuille de calcul afin de savoir quand vous devez réapprovisionner
+    en eau et en nourriture vos canetons, allez à 
+&lt;menucascade>
+&lt;/menucascade>.
+&lt;/p></ph>
+&lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>Dans l'exemple que vous avez ajouté, l'élément &lt;menucascade> sera
+                        utilisé pour montrer les options du menu impliquées dans la création d'une
+                        feuille de calcul.</info>
+                </step>
+                <step>
+                    <cmd>À l'intérieur de l'élément &lt;menucascade>, ajoutez un élément
+                        &lt;uicontrol> et ajoutez-y du contenu tel que présenté dans l'exemple
+                        suivant&#xA0;:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_elements">
+   &lt;title>Nourrir les canetons&lt;/title>
+   &lt;conbody>
+...
+&lt;menucascade>
+<ph outputclass="newchanged">&lt;uicontrol>Fichier&lt;/uicontrol></ph>
+&lt;/menucascade>
+...
+&lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>Dans l'exemple ajouté, l'élément &lt;uicontrol> contient le nom de la
+                        première option de menu impliquée dans la création d'une feuille de
+                        calcul&#xA0;: «&#xA0;Fichier&#xA0;».</info>
+                </step>
+                <step>
+                    <cmd>Après l'élément &lt;uicontrol>, ajoutez deux éléments &lt;uicontrol>
+                        supplémentaires et ajoutez-y du contenu tel que présenté dans l'exemple
+                        suivant&#xA0;:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_elements">
+   &lt;title>Nourrir les canetons&lt;/title>
+  &lt;conbody>
+... 
+&lt;menucascade>
+&lt;uicontrol>Fichier&lt;/uicontrol>
+<ph outputclass="newchanged">&lt;uicontrol>Nouveau&lt;/uicontrol>
+&lt;uicontrol>Tableur&lt;/uicontrol></ph>
+&lt;/menucascade>
+...
+&lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>Par défaut, une flêche est insérée entre les éléments &lt;uicontrol> au
+                        niveau de la publication pour indiquer la hiérarchie des options du
+                        menu.</info>
+                    <info>Avec les éléments &lt;menucascade> et &lt;uicontrol> dans l'exemple que
+                        vous avez ajouté, l'utilisateur sait maintenant qu'il doit cliquer sur «
+                        Fichier&#xA0;», puis «&#xA0;Nouveau&#xA0;», puis
+                        «&#xA0;Tableur&#xA0;».</info>
+                    <info>Vous pouvez utiliser l'élément &lt;uicontrol> sans l'élément
+                        &lt;menucascade>. Par exemple, vous pouvez marquer un mot avec l'élément
+                        &lt;uicontrol> pour indiquer un bouton sur lequel l'utilisateur doit
+                        cliquer. Comme l'élément &lt;uicontrol> indique que le texte qu'il entoure
+                        aura un style particulier, évitez d'utiliser l'élément &lt;b> ou d'autres
+                        éléments de style intégré à l'intérieur de l'élément &lt;uicontrol>.</info>
+                </step>
+                <step>
+                    <cmd>Après l'élément &lt;menucascade>, ajoutez un nouvel élément introductif
+                        &lt;p> suivi d'un élément &lt;dl> tel que présenté dans l'exemple
+                        suivant&#xA0;:</cmd>
+                    <info>Vidéo&#xA0;: <xref href="https://www.youtube.com/watch?v=3R9eN2TSepQ"
+                            format="html" scope="external">Créer une liste de définition avec
+                            DITA</xref></info>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_elements">
+   &lt;title>Nourrir les canetons&lt;/title>
+   &lt;conbody>
+...
+&lt;/menucascade>
+<ph outputclass="newchanged">&lt;p>Les canards domestiques sont classés par catégories en fonction de leur poids.
+Ces catégories de poids peuvent vous aider à choisir une espèce en fonction de la quantité
+dont vous aurez besoin pour nourrir vos canards.&lt;/p>
+&lt;dl>
+&lt;/dl></ph>
+&lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>L'élément &lt;dl> établit le cadre d'une liste de définitions.</info>
+                </step>
+                <step>
+                    <cmd>À l'intérieur de l'élément &lt;dl>, ajoutez un élément &lt;dlentry> tel que
+                        présenté dans l'exemple suivant&#xA0;:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_elements">
+   &lt;title>Nourrir les canetons&lt;/title>
+   &lt;conbody>
+...
+&lt;dl>
+<ph outputclass="newchanged"> &lt;dlentry>
+&lt;/dlentry></ph>
+...
+&lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>Chaque élément &lt;dlentry> contient un terme et sa définition. L'élément
+                        &lt;dlentry> peut contenir un ou plusieurs éléments &lt;dd>.</info>
+                </step>
+                <step>
+                    <cmd>À l'intérieur de l'élément &lt;dlentry>, ajoutez les éléments &lt;dt> et
+                        &lt;dd> et ajoutez-y du contenu tel que présenté dans l'exemple
+                        suivant&#xA0;:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_elements">
+   &lt;title>Nourrir les canetons&lt;/title>
+   &lt;conbody>
+...
+    &lt;dlentry>
+    <ph outputclass="newchanged">&lt;dt>Nain&lt;/dt>
+        &lt;dd>Les canards les plus légers et les meilleurs voleurs, comme le canard colvert.&lt;/dd></ph>
+...
+&lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>L'élément &lt;dt> contient le terme, et l'élément &lt;dd> contient sa
+                        définition.</info>
+                </step>
+                <step>
+                    <cmd>Après l'élément &lt;dlentry>, ajoutez trois autres éléments &lt;dlentry> et
+                        ajoutez-y du contenu à l'aide des éléments &lt;dt> et &lt;dd> tel que
+                        présenté dans l'exemple suivant&#xA0;:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_elements">
+   &lt;title>Nourrir les canetons&lt;/title>
+  &lt;conbody>
+...
+    &lt;/dlentry>
+    <ph outputclass="newchanged">&lt;dlentry>
+        &lt;dt>Léger&lt;/dt>
+        &lt;dd>Les deuxièmes canards les plus légers et les meilleures pondeuses, comme
+            le canard Khaki Campbell.&lt;/dd>
+    &lt;/dlentry>
+    &lt;dlentry>
+        &lt;dt>Moyen&lt;/dt>
+        &lt;dd>Les canards de poids moyen et généralement les plus calmes, comme le canard suédois.&lt;/dd>
+    &lt;/dlentry>
+    &lt;dlentry>
+        &lt;dt>Lourd&lt;/dt>
+        &lt;dd>Les canards les plus lourds et généralement les plus amicaux, comme le canard de Pékin.&lt;/dd>
+    &lt;/dlentry></ph>
+...
+&lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Vérifier votre fichier leçon3/l_concept_elements_debut.dita à l'aide du
+                        fichier exemple leçon3/l_concept_elements.dita.</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+    <task id="task_as2_vjx_dt">
+        <title>Exercice</title>
+        <taskbody>
+            <steps id="steps_g32_wjx_dt">
+                <step>
+                    <cmd>Ouvrez le fichier leçon3/l_concept_elements_exercice_debut.dita et
+                        utilisez-le pour convertir en DITA le contenu suivant&#xA0;:</cmd>
+                    <info>
+                        <pre outputclass="passthru"><![CDATA[
+                           <hr />
+                           <h3>Accroître la visibilité des produits</h3>
+                           <p>Le contenu technique peut aider les organisations à accroître la visibilité de leurs produits sur le marché. Officiellement, le contenu technique est destiné aux <strong>clients des produits</strong>, c'est-à-dire aux personnes qui achètent un produit et qui consultent ensuite la documentation.</p>
+                           <p>Mais un sondage d'opinion indique qu'environ un tiers des acheteurs<sup>1</sup> consultent la documentation avant d'acheter un produit, et que la qualité de la documentation aura une incidence sur leur décision d'achat.</p>
+                           <p>Pour susciter de nouvelles perspectives, votre contenu doit être performant de trois manières différentes&#xA0;: être consultabe, trouvable et découvrable.</p>
+                           <strong>Consultable</strong>
+                           Les informations doivent être disponibles via une recherche sur internet.
+                           <strong>Trouvable</strong>
+                           L'information doit être performante pour les mots-clés pertinents.
+                           <strong>Découvrable</strong>
+                           L'information doit augmenter la possibilité que les gens établissent un lien avec vos informations.
+                           <p>Pour en savoir plus, allez sur <strong>Contenu</strong> &gt; <strong>Objectifs commerciaux</strong> &gt; <strong>Marketing et visibilité du produit</strong> &gt; <strong>Augmenter la visibilité du produit</strong>.</p>
+                           <p><sup>1</sup> <em>«&#xA0;Sentiments des consommateurs sur la documentation des produits&#xA0;», un sondage d'opinion réalisé en ligne par Sharon Burton</p>
+                           <hr />
+                           ]]></pre>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Vérifiez votre fichier leçon3/l_concept_elements_exercice_debut.dita à
+                        l'aide du fichier exemple leçon3/l_concept_elements_exercice.dita.</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningTreeContent.dtd">
+<learningContent xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="lt-content-6076"
+   domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic concept)                             (topic reference)                             (topic task)                             (topic learningInteractionBase-d)                            (topic learningInteractionBase-d learning-d)                            (topic learningmeta-d)                             (topic learningBase+learningInteractionBase-d)                            (topic learningBase+learningInteractionBase-d learningContent)                            (topic learningBase learningSummary)                             (topic learningBase+learningInteractionBase-d learningAssessment)   "
+   ditaarch:DITAArchVersion="1.2"
+   class="- topic/topic learningBase/learningBase learningContent/learningContent ">
+   <title class="- topic/title ">Réutiliser du contenu à travers plusieurs rubriques</title>
+   <shortdesc class="- topic/shortdesc "/>
+   <prolog class="- topic/prolog ">
+      <author type="creator" href="http://easydita.com/" format="html" scope="external"
+         class="- topic/author ">Mike Rice, easyDITA</author>
+      <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+         class="- topic/author ">Annie Chen, easyDITA</author>
+      <author>Decarnelle Rémi (traducteur)</author>
+      <critdates>
+         <created golive="2016-07-11" date="2016-05-11"/>
+         <revised modified="2020-12-15"/>
+      </critdates>
+   </prolog>
+   <learningContentbody
+      class="- topic/body  learningBase/learningBasebody learningContent/learningContentbody ">
+      <lcInstruction class="- topic/section learningBase/lcInstruction ">
+         <p class="- topic/p ">Lors de la publication d'une rubrique qui réutilise du contenu, le
+            référencement de cette dernière ne peut être résolue que si l'élément référencé est
+            accessible par la carte DITA. Par exemple&#xA0;:<ul class="- topic/ul ">
+               <li class="- topic/li ">
+                  <p class="- topic/p ">Si les rubriques contenant l'élément référencé et l'élément
+                     référençant sont présents dans la même carte, alors le conref peut être résolu
+                     dans le contexte de la carte.</p>
+               </li>
+               <li class="- topic/li ">
+                  <p class="- topic/p ">Si les rubriques contentant l'élément référencé et l'élément
+                     référençant se trouvent dans des cartes séparées, mais que ces dernières font
+                     partie d'une carte plus large, alors le conref peut être résolu dans le
+                     contexte de la carte plus large.</p>
+               </li>
+            </ul></p>
+         <p class="- topic/p ">Ordinairement, si une rubrique est ajoutée par un topicref dans l'une
+            des cartes, alors elle sera publiée avec les autres rubriques. Cependant, vous ne voulez
+            pas publier votre rubrique partagée. Pour marquer que ces ressources ne sont pas prévues
+            pour la publication, ajouter la valeur <i>resource-only</i> à l'attribut
+               <i>processing-role</i> de l'élément &lt;topicref>.</p>
+         <p class="- topic/p ">Dans l'exemple suivant, tache.dita sera publié, tandis que
+            avertissements.dita ne le sera pas. Néanmoins, avertissements.dita sera disponible pour
+            résoudre les conrefs de tache.dita ou de n'importe quelle autre rubrique présente dans
+            cette carte.</p>
+         <pre xml:space="preserve" class="- topic/pre ">&lt;map&gt;
+... 
+  &lt;topicref href="commun/avertissements.dita" processing-role="resource-only"/&gt;
+...
+  &lt;topicref href="rubriques/tache.dita"/&gt;
+...
+&lt;/map&gt;
+		   </pre>
+         <p class="- topic/p ">
+            <note type="note" class="- topic/note ">Si vous utilisez un CMS, son système peut
+               résoudre les conrefs ou références directes dans la rubrique que vous consultez ou
+               éditez même sans un contexte commun défini par une carte. Cependant, en fonction de
+               vos paramètres de publication, ces référencement de contenu pourraient ne pas être
+               résolus lors de la publication de ces rubriques. La meilleure pratique est d'insérer
+               les rubriques contenants les éléments référençants et référencés dans la même carte
+               ou sous-carte.</note>
+         </p>
+      </lcInstruction>
+   </learningContentbody>
+</learningContent>

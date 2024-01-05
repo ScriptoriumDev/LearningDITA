@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_pgf_3gt_qt">
+    <title>Comprendre la fonction conref</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Mike Rice, easyDITA</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Annie Chen, easyDITA</author>
+        <author type="contributor" href="http://www.scriptorium.com">Simon Bate,
+            Scriptorium</author>
+        <author>Decarnelle Rémi (traducteur)</author>
+        <critdates>
+            <created golive="2016-07-11" date="2016-05-11"/>
+            <revised modified="2020-07-12"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction><p class="- topic/p ">Un conref contient deux parties </p><ul
+                id="ul_ndg_4q3_mw">
+                <li>L' <b><i>élément référencé</i></b> qui contient le contenu que vous
+                    souhaitez réutiliser. Cet élément doit avoir un attribut id.</li>
+                <li>L' <b><i>élément référençant</i></b> qui indique où sera réutilisé le
+                    contenu.</li>
+            </ul><note type="note" class="- topic/note ">Si le contenu que vous souhaitez réutiliser
+                n'a pas d'id, votre éditeur DITA ou CMS vous demandera d'en créer un pendant la
+                procédure de réutilisation. Un id doit commencer par une lettre, un chiffre ou un
+                underscore (_).</note><image
+                href="../images/conref-conceptual-with-referenced-referencing-labels.png"
+                id="image_tb2_1py_dw" base="2021/05"/><note type="tip" class="- topic/note "
+                    >L'acception du terme conref comme verbe est «&#xA0;réutiliser du contenu grâce à la
+                    balise conref&#xA0;»</note>Les conrefs sont résolus lors de la génération de la
+            publication par un transformateur. De nombreux éditeurs DITA résolvent les conrefs pendant
+            la rédaction afin d'avoir un rendu proche du résultat final.<p>Pour
+                résoudre un conref, le transformateur remplace l'élément référençant par l'élément
+                référencé et tout son contenu. Cela inclut tous les éléments au sein de
+                l'arborescence du contenu référencé. Par exemple, si la balise &lt;p> référencé
+                contient une balise &lt;uicontrol>, le &lt;p> référençant sera remplacé par le
+                &lt;p> référencé en incluant le &lt;uicontrol>. De la même façon, un liste &lt;ol>
+                référencée incluera tous les éléments &lt;li> en son sein. </p><p>Quand le contenu
+                original change, ces modification apparaissent partout là où le contenu a été
+                réutilisé.</p></lcInstruction>
+    </learningContentbody>
+</learningContent>

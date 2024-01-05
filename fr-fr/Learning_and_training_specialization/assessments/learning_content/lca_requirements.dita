@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="lca_requirements">
+    <title>Éléments obligatoires</title>
+    <learningAssessmentbody>
+        <lcInteraction>
+            <lcMultipleSelect id="multi_select_requirements">
+                <lcQuestion>Lequels de ces éléments doit figurer obligatoirement au sein d'une
+                    rubrique learningContent&#xA0;? (choisir toutes les bonnes réponses)</lcQuestion>
+                <lcAnswerOptionGroup id="lcAnswerOptionGroup_mxg_4q1_my">
+                    <lcAnswerOption>
+                        <lcAnswerContent>&lt;lcObjectives></lcAnswerContent>
+                    </lcAnswerOption>
+                    <lcAnswerOption>
+                        <lcAnswerContent>&lt;learningContentbody></lcAnswerContent>
+                        <lcCorrectResponse/>
+                    </lcAnswerOption>
+                    <lcAnswerOption>
+                        <lcAnswerContent>&lt;title></lcAnswerContent>
+                        <lcCorrectResponse/>
+                    </lcAnswerOption>
+                    <lcAnswerOption>
+                        <lcAnswerContent>&lt;lcInstruction></lcAnswerContent>
+                    </lcAnswerOption>
+                    <lcAnswerOption>
+                    <lcAnswerContent>&lt;lcIntro></lcAnswerContent>
+                    </lcAnswerOption>
+                </lcAnswerOptionGroup>
+                <lcFeedbackIncorrect>Seuls les éléments &lt;title> et &lt;learningContentBody> sont
+                    obligatoires.</lcFeedbackIncorrect>
+            </lcMultipleSelect>
+        </lcInteraction>
+    </learningAssessmentbody>
+</learningAssessment>

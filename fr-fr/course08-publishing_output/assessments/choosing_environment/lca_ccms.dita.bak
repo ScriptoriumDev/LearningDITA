@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningAssessment id="lca_conref_push_requirements">
+ <title>Clé CCMS</title>
+ <prolog class="- topic/prolog ">
+  <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+   class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+  <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+   class="- topic/author ">Noelle Russell, Scriptorium</author>
+  <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+   class="- topic/author ">Ashley Stant, Scriptorium</author>
+  <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+   class="- topic/author ">Simon Bate, Scriptorium</author>
+  <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+   class="- topic/author ">Bill Swallow, Scriptorium</author>
+  <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+   class="- topic/author ">Jake Campbell, Scriptorium</author>
+  <author type="contributor" href="https://www.linkedin.com/in/marinemartinguillerez/"
+   scope="external" format="html" class="- topic/author ">Marine Martin-Guillerez
+   (Traductrice)</author>
+  <critdates>
+   <created golive="2017-03-27" date="2017-02-06"/>
+   <revised modified="2020-12-12"/>
+  </critdates>
+ </prolog>
+
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcSingleSelect id="ccms">
+
+    <lcQuestion>CCMS signifie&#xA0;: (choisir une réponse)</lcQuestion>
+    <lcAnswerOptionGroup>
+     <lcAnswerOption>
+      <lcAnswerContent>Content Component Management System</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Content Component Management Series</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Component Content Management System</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Component Content Managment Series</lcAnswerContent>
+     </lcAnswerOption>
+
+
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>CCMS signifie Component Content Management System (Système de Gestion de
+     Contenu par Composants).</lcFeedbackIncorrect>
+   </lcSingleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

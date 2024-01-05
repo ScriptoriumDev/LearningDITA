@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="la_l1_t1_source_nourriture">
+    <title>Source d'aliments de qualité</title>
+    <learningAssessmentbody>
+        <lcInteraction id="lcInteraction_hcy_y5s_rcb">
+            <lcMultipleSelect2>
+                <lcQuestion2>Des aliments pour canards de qualité peuvent être trouvé dans les
+                    commerces suivant (répondre à toutes les réponses qui
+                    s'appliquent)&#xA0;:</lcQuestion2>
+                <lcAnswerOptionGroup2 id="lcAnswerOptionGroup2_practice">
+                    <lcAnswerOption2>
+                        <lcAnswerContent2>Les magasins d'alimentation locaux.</lcAnswerContent2>
+                        <lcCorrectResponse2/>
+                    </lcAnswerOption2>
+                    <lcAnswerOption2>
+                        <lcAnswerContent2>Mélange fermier d'ingrédients en vrac.</lcAnswerContent2>
+                        <lcCorrectResponse2/>
+                    </lcAnswerOption2>
+                    <lcAnswerOption2>
+                        <lcAnswerContent2>À l'arrière du camion d'un étranger.</lcAnswerContent2>
+                        <lcFeedback2>Plus vous connaissez l'origine, l'ancienneté, les antécédents
+                            de stockage et le vendeur, mieux ce sera. Ce n'est rien de tout
+                            cela.</lcFeedback2>
+                    </lcAnswerOption2>
+                    <lcAnswerOption2>
+                        <lcAnswerContent2>Sur Internet, depuis un autre pays.</lcAnswerContent2>
+                        <lcFeedback2>On peut faire de bonnes affaires sur internet, mais il faut
+                            être prudent quand on ne connait rien de l'origine des aliments, de leur
+                            ancienneté, de leur lieu de stockage et de la compétence (voire de
+                            l'éthique) du vendeur. Ce n'est probablement pas une bonne
+                            idée.</lcFeedback2>
+                    </lcAnswerOption2>
+                </lcAnswerOptionGroup2>
+            </lcMultipleSelect2>
+        </lcInteraction>
+    </learningAssessmentbody>
+</learningAssessment>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningObjectMap PUBLIC "-//OASIS//DTD DITA 1.3 Learning Object Map//EN" "learningObjectMap.rng">
+<learningObjectMap> 
+   <title>Les types de rubriques d'apprentissage et de formation</title>
+   <learningObject href="../topics/lc_types_intro.dita">
+      <topicmeta lockmeta="yes">
+         <data name="lesson_id" value="11277"/>
+      </topicmeta>
+      <learningContentRef href="../topics/lc_the_topic_types.dita"/>
+      <learningContentRef href="../topics/lc_the_planning_topic_type.dita"/>
+      <learningContentRef href="../topics/lc_learningOverview_topic_type.dita"/>
+      <learningContentRef href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_topic_types.dita"
+         locktitle="yes" >
+         <topicmeta>
+            <navtitle>Évaluation sur les types de rubriques d'apprentissage et de formation</navtitle>
+         </topicmeta>
+         <learningContentComponentRef href="../assessments/topic_types/lca_assessment.dita" type="learningAssessment"/>
+         <learningContentComponentRef href="../assessments/topic_types/lca_content.dita" type="learningAssessment"/>
+      </learningContentRef>
+   </learningObject>
+   
+</learningObjectMap>

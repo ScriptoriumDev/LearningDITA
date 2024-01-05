@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningAssessment id="lca_conref_push_requirements">
+ <title>Acquérir des extensions personnalisées</title>
+ <prolog class="- topic/prolog ">
+  <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+   class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+  <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+   class="- topic/author ">Noelle Russell, Scriptorium</author>
+  <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+   class="- topic/author ">Ashley Stant, Scriptorium</author>
+  <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+   class="- topic/author ">Simon Bate, Scriptorium</author>
+  <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+   class="- topic/author ">Bill Swallow, Scriptorium</author>
+  <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+   class="- topic/author ">Jake Campbell, Scriptorium</author>
+  <author type="contributor" href="https://www.linkedin.com/in/marinemartinguillerez/"
+   scope="external" format="html" class="- topic/author ">Marine Martin-Guillerez
+   (Traductrice)</author>
+  <critdates>
+   <created golive="2017-03-27" date="2017-02-06"/>
+   <revised modified="2021-02-04"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcMultipleSelect id="lcMultipleSelect_zgv_kjh_jz">
+    <lcQuestion>Quels sont les moyens d'acquérir des extensions DITA personnalisées&#xA0;? (Choisir
+     toutes les réponses qui s'appliquent)</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_ahv_kjh_jz">
+     <lcAnswerOption>
+      <lcAnswerContent>Les créer vous-même</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Engager quelqu'un pour les créer</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Les trouver sur internet</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Utiliser celles intégrées à l'archive DITA OT depuis le site internet du DITA
+       Open Toolkit</lcAnswerContent>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>Vous pouvez créer vous-même des extensions personnalisées, les trouver sur
+     internet ou engager quelqu'un pour les créer. Les extensions par défaut du DITA OT sont déjà
+     intégrées et disponibles dans l'archive DITA OT depuis le site internet du DITA Open Toolkit,
+     mais pas les extensions personnalisées.</lcFeedbackIncorrect>
+   </lcMultipleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

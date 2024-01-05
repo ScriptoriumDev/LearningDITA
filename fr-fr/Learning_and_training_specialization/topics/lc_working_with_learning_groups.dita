@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="lc_working_with_learning_groups">
+    <title>Organiser son contenu par le haut avec les groupes d'apprentissages</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Kaitlyn Heath, Scriptorium</author>
+        <author>Decarnelle Rémi (traducteur)</author>
+        <critdates>
+            <created date="2018-02-02"/>
+            <revised modified="2022-01-15"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction id="lcInstruction_js5_cqb_yz">
+            <p>L'élément &lt;learningGroup> sert à assembler une leçon, un cours ou un programme
+                d'étude grâce au référencement de différentes ressources d'apprentissage.</p>
+            <p>Un groupe d'apprentissage possède une structure similaire à une ressource
+                d'apprentissage. Cependant, plutôt que du contenu pédagogique, le groupe pédagogique
+                fait appel à d'autres éléments&#xA0;:</p>
+                <ul>
+                    <li>d'autres groupes d'apprentissage</li>
+                    <li>des références à des groupes d'apprentissage</li>
+                    <li>des ressources d'apprentissage</li>
+                    <li>des références à des ressources d'apprentissage</li>
+                </ul>
+            <p>L'élément &lt;learningGroup> profite d'une certaine flexibilité grâce à ses larges
+                possibilités de référencement. Cela peut également rendre à l'inverse sa gestion
+                complexe. Une façon de décomplexifier sa gestion est de référencer les ressources et
+                les groupes plutôt que de les inclure directement. </p>
+            <p>Voici un exemple de &lt;learningGroup>&#xA0;:</p>
+            <pre>
+&lt;learningGroup>
+   &lt;topicmeta>
+      &lt;navtitle>Mangeoires et abreuvoirs&lt;/navtitle>
+   &lt;/topicmeta>
+   &lt;learningOverviewRef href="lo_l3_feeders_waterers.dita"/>
+   
+   &lt;learningObject>
+      &lt;topicmeta>
+         &lt;navtitle>Mangeoires et abreuvoirs&lt;/navtitle>
+      &lt;/topicmeta>
+      &lt;learningOverviewRef href="lo_l3_t1_feeders_waterers.dita"/>
+      &lt;learningContentRef href="lc_l3_t1_height.dita"/>
+      &lt;learningContentRef href="lc_l3_t1_cleanliness.dita"/>
+      &lt;learningContentRef href="lc_l3_t1_ducklings.dita"/>
+      &lt;learningContentRef href="lc_l3_t1_wet_litter.dita"/>
+      &lt;learningSummaryRef href="ls_l3_t1_summary.dita"/>
+      &lt;learningPostAssessmentRef href="lg_l3_t1_quiz.dita" type="learningGroup"/>
+   &lt;/learningObject>
+   
+&lt;/learningGroup>
+</pre>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

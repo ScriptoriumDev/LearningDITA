@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_flw_1g3_wr">
+    <title>Restitution par transformation des fichiers cartes</title>
+    <shortdesc/>
+    <prolog>
+        <author>Sharon Burton</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Alan Pringle,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O'Keefe,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-04-28"/>
+            <revised modified="2015-05-15"/>
+            <revised modified="2019-09-22"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <draft-comment author="asp">C'est là que les leçons initiales couvraient la
+                transformation. Pas sûr que c'est sa place soit ici, mais le laisse pour le
+                moment.</draft-comment>
+            <p>La plupart des livraisons de contenus n'utilisent pas de fichiers DITA. À la place,
+                vous appliquez des feuilles de styles aux fichiers DITA pour créer des formats HTML,
+                PDF ou autres. Ce processus est appelée <term>transformation.</term>
+                <fig>
+                    <image href="../../media/links/transform.png" id="image_ahr_g55_1s"
+                        base="2020/10"/>
+                </fig></p>
+            <p>Le DITA Open Toolkit est une collection de feuilles de style, principalement écrites
+                en Extensible Stylesheet Language (XSL), fournissant un point de départ à la
+                création d'un résultat. Le résultat par défaut d'une transformation DITA Open
+                Toolkit non modifiée est notoirement peu attrayante. Généralement, les
+                transformations sont améliorées avant que le résultat ne soit utilisé dans un
+                environnement de production.</p>
+            <note>Le DITA Open Toolkit n'est pas l'unique moyen de générer un résultat depuis DITA.
+                Vous pouvez utiliser des outils commerciaux pour créer un résultat. Certains outils
+                fournissent seulement une aide à la publication&#xA0;; d'autres fournissent aussi
+                une aide à la création pour le contenu DITA.</note>
+            <p>Les transformations sont indépendantes des fichiers carte, et vous pouvez appliquer
+                de multiple transformations à un seul fichier carte. Par exemple, vous pouvez
+                exécuter les transformations pour un fichier PDF et un système d'aide en ligne sur
+                la même carte pour obtenir deux résultats.</p>
+        </lcInstruction>
+    </learningContentbody>
+    <related-links>
+        <link href="http://www.dita-ot.org" scope="external" format="html">
+            <linktext>DITA Open Toolkit</linktext>
+        </link>
+        <link href="https://www.youtube.com/watch?v=xFPRnJrRo8o" scope="external" format="html">
+            <linktext>Démarrer avec le webinare DITA Open Toolkit, Suite Solutions (vidéo, 53
+                minutes)</linktext>
+        </link>
+    </related-links>
+</learningContent>

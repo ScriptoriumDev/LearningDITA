@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningAssessment id="lca_conref_push_requirements">
+  <title>Résolution des problèmes</title>
+  <prolog class="- topic/prolog ">
+    <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+      class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+    <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+      class="- topic/author ">Noelle Russell, Scriptorium</author>
+    <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+      class="- topic/author ">Ashley Stant, Scriptorium</author>
+    <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+      class="- topic/author ">Simon Bate, Scriptorium</author>
+    <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+      class="- topic/author ">Bill Swallow, Scriptorium</author>
+    <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+      class="- topic/author ">Jake Campbell, Scriptorium</author>
+    <author type="contributor" href="https://www.linkedin.com/in/marinemartinguillerez/"
+      scope="external" format="html" class="- topic/author ">Marine Martin-Guillerez
+      (Traductrice)</author>
+    <critdates>
+      <created golive="2017-03-27" date="2017-02-06"/>
+      <revised modified="2021-01-26"/>
+    </critdates>
+  </prolog>
+  <learningAssessmentbody>
+    <lcInteraction>
+      <lcMultipleSelect id="troubleshooting">
+        <lcQuestion>Si votre génération DITA OT échoue, comment pouvez-vous résoudre le
+          problème&#xA0;? (choisir toutes les réponses qui s’appliquent)</lcQuestion>
+        <lcAnswerOptionGroup>
+          <lcAnswerOption>
+            <lcAnswerContent>Mettre à jour votre version de Java</lcAnswerContent>
+            <lcCorrectResponse/>
+          </lcAnswerOption>
+          <lcAnswerOption>
+            <lcAnswerContent>S'assurer d’avoir saisi les commandes correctement</lcAnswerContent>
+            <lcCorrectResponse/>
+          </lcAnswerOption>
+          <lcAnswerOption>
+            <lcAnswerContent>Vérifier le contenu source pour voir s’il est valide</lcAnswerContent>
+            <lcCorrectResponse/>
+          </lcAnswerOption>
+          <lcAnswerOption>
+            <lcAnswerContent>Installer une version plus ancienne du DITA OT.</lcAnswerContent>
+          </lcAnswerOption>
+          <lcAnswerOption>
+            <lcAnswerContent>Exécuter à nouveau la même génération et voir si un résultat différent
+              en résulte.</lcAnswerContent>
+          </lcAnswerOption>
+        </lcAnswerOptionGroup>
+      </lcMultipleSelect>
+    </lcInteraction>
+  </learningAssessmentbody>
+</learningAssessment>

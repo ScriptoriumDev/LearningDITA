@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_oyt_5r4_tx">
+  <title>Conref push elements</title>
+  <body>
+    <p conref="../../shared/topics/lc_general_housekeeping.dita#download" conaction="pushreplace">
+      Pour consulter les sources de certains des exemples de ce cours, téléchargez <xref
+        keyref="sample_file"/>. Extrayez le contenu et placez-le dans un répertoire auquel vous
+      pouvez accéder facilement. Si vous avez accès à un transformateur XML (généralement le DITA
+      Open Toolkit), vous pouvez l'utiliser pour générer une publication et voir ces principes en
+      action. </p>
+
+    <!-- This description omits the Oxygen editor and any mention of videos. -->
+    <p conref="../../shared/topics/lc_general_housekeeping.dita#editor_info" conaction="pushreplace"
+      > Dans les instructions et les exemples, nous vous montrons le code DITA des fichiers
+      d'exemple. La plupart des éditeurs DITA ont des fonctions de remplissage automatique ou
+      d'autres options similaires pour vous guider dans le processus d'ajout d'éléments (par
+      exemple, si vous tapez la balise d'ouverture d'un élément, la plupart des éditeurs DITA
+      ajouteront automatiquement la balise de fermeture pour vous). Par conséquent, vous n'aurez
+      probablement pas besoin de créer chaque élément à partir de zéro pendant que vous
+      travaillez.</p>
+
+    <p conref="../../shared/topics/lc_general_housekeeping.dita#saving" conaction="pushreplace"> Les
+      leçons vous guideront sur l'utilisation des fichiers d'examples. </p>
+    
+    <p conref="../../shared/topics/lc_general_housekeeping.dita#download" conaction="pushreplace">
+      Télécharger <xref keyref="sample_file"/> pour consulter tous les fichiers d'examples de
+        <keyword keyref="course_name"/>. Extrayez le contenu et placez-le dans un répertoire auquel
+      vous pouvez accéder facilement. </p>
+  </body>
+</topic>

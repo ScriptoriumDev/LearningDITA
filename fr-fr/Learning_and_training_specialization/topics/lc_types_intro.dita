@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_mkk_gvn_qz">
+    <title>Les types de rubriques </title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Alan Pringle, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Kaitlyn Heath, Scriptorium</author>
+        <author>Decarnelle Rémi (traducteurr)</author>
+        <critdates>
+            <created date="2017-04-21"/>
+            <revised modified="2021-09-25"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup id="lcObjectivesGroup_tvl_vbh_1t">
+                <lcObjective>Définir tous les types de rubrique disponibles dans la spécialisation
+                    A&amp;F</lcObjective>
+                <lcObjective>Comprendre l'utilisation de chaque type de rubrique</lcObjective>
+                <lcObjective>Passer en revue les éléments principaux de chaque
+                    rubrique</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="30 minutes"/>
+        </lcDuration>
+        <lcIntro/>
+        <lcInstruction id="lcInstruction_dys_pnf_xz">
+            <!--Expand these definitions across the various topic types. -->
+            <p>La spécialisation DITA A&amp;F comprend cinq types de rubrique contenant chaqune
+                différentes structures pour des cours&#xA0;:</p>
+                <ul id="ul_okl_5nf_xz">
+                    <li>&lt;learningPlan>&#xA0;: propose un cadre pour organiser votre contenu
+                    pédagogique</li>
+                    <li>&lt;learningOverview>&#xA0;: contient les objectifs et les caractéristiques d'un
+                    cours telles que l'audience, la durée et les prérequis</li>
+                    <li>&lt;learningContent>&#xA0;: contient le contenu pédagogique</li>
+                    <li>&lt;learningSummary>&#xA0;: contient la synthèse du cours</li>
+                    <li>&lt;learningAssessment>&#xA0;: contient des exercises, questionnaires, etc.</li>
+                </ul>
+            <p>Ces types de rubriques répondent un large panel de situations. Vous n'avez pas à tous
+                les utiliser. Par exemple, Apprendre DITA n'utilise pas les éléments
+                &lt;learningPlan>, &lt;learningOverview> et &lt;learningSummary>.</p>
+            <p>Cette leçon propose un aperçu de chaque type de rubrique.</p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>
+    

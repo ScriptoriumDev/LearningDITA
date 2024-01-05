@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="lc_learning_object_elements">
+    <title>&lt;learningObject></title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Kaitlyn Heath, Scriptorium</author>
+        <author>Decarnelle Rémi (traducteur)</author>
+        <critdates>
+            <created date="2018-02-01"/>
+            <revised modified="2021-12-18"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction id="lcInstruction_js5_cqb_yz">
+            <p>L'élément &lt;learningObject> contient les références aux rubriques qui assistent la
+                ressource d'apprentissage. Tous les éléments référençant héritent de l'élément
+                &lt;topicref>. Néanmoins, les éléments de la spécialisation A&amp;F répliquent le
+                nom des rubriques référencés dans leur nom.</p>
+            <p>Un élément &lt;learningObject> peut contenir&#xA0;:</p>
+            <ul id="ul_vpx_bm5_scb">
+                <li>
+                    <p>Un élément &lt;learningPlanRef> optionnel faisant référence une rubrique de
+                        plan d'apprentissage.</p>
+                    <p>Si vous utilisez le modèle d'apprentissage par ressource, la rubrique de plan
+                        d'apprentissage doit contenir une analyse des besoins et des lacunes ainsi
+                        que l'approche et des stratégies pédagogiques liées à ce contenu.</p>
+                </li>
+                <li>Autant d'éléments &lt;learningOverviewRef> et &lt;learningPreAssessmentRef> que
+                        nécessaire&#xA0;:<ul id="ul_ajx_gm5_scb">
+                        <li>L'élément &lt;learningOverviewRef> indique les rubriques d'aperçu.</li>
+                        <li>L'élément &lt;learningPreAssessmentRef> indique les rubriques
+                            d'évaluation posées avant la leçon.</li>
+                    </ul></li>
+                <li>Un ou plusieurs élément &lt;learningContentRef> pour indiquer le contenu
+                    pédagogique lié aux ressources d'apprentissage.</li>
+                <li>Autant d'éléments &lt;learningSummaryRef> et &lt;learningPostAssessmentRef> que
+                        nécessaire&#xA0;:<ul id="ul_bzj_sm5_scb">
+                        <li>L'élément &lt;learningSummaryRef> indique les rubriques de
+                            sommaire.</li>
+                        <li>L'élément &lt;learningPostAssessmentRef> indique les rubriques
+                            d'évaluation posées après la leçon.</li>
+                    </ul></li>
+            </ul>
+            <p>Voici un exemple de ressource d'apprentissage tiré du cours sur l'alimentation des
+                canards&#xA0;:</p>
+            <pre>
+&lt;learningObject>
+   &lt;topicmeta>
+      &lt;navtitle>Rubrique 1&lt;/navtitle>
+   &lt;/topicmeta>
+   &lt;learningPlanRef href="lp_l1_t1_feed_quality.dita"/>
+   &lt;learningOverviewRef href="lo_l1_t1_feed_quality.dita"/>
+   &lt;learningContentRef href="lc_l1_t1_where_to_buy.dita"/>
+   &lt;learningContentRef href="lc_l1_t1_storage.dita"/>
+   &lt;learningContentRef href="lc_l1_t1_spoiling.dita"/>
+   &lt;learningContentRef href="lc_l1_t1_ingredient_quality.dita"/>
+   &lt;learningSummaryRef href="ls_l1_t1_summary.dita"/>
+   &lt;learningPostAssessmentRef href="lg_l1_t1_quiz.dita" type="learningGroup"/>
+&lt;/learningObject></pre>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

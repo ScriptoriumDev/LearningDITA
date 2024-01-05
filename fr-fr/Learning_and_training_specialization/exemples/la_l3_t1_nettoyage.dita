@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="la_l3_t1_nettoyage">
+    <title>Nettoyage et désinfection</title>
+    <shortdesc></shortdesc>
+    <learningAssessmentbody>
+        <lcInteraction id="lcInteraction_i25_mg1_scb">
+            <lcSingleSelect2>
+                <lcQuestion2>Les abreuvoirs doivent être nettoyés et désinfectés (choisissez la réponse qui correspond le mieux)&#xA0;:</lcQuestion2>
+                <lcAnswerOptionGroup2 id="lcAnswerOptionGroup2_qgp_ng1_scb">
+                    <lcAnswerOption2>
+                        <lcAnswerContent2>2 fois par semaine</lcAnswerContent2>
+                    </lcAnswerOption2>
+                    <lcAnswerOption2>
+                        <lcAnswerContent2>3 fois par semaine</lcAnswerContent2>
+                        <lcCorrectResponse2/>
+                    </lcAnswerOption2>
+                    <lcAnswerOption2>
+                        <lcAnswerContent2>5 fois par semaine</lcAnswerContent2>
+                    </lcAnswerOption2>
+                    <lcAnswerOption2>
+                        <lcAnswerContent2>Une fois par mois</lcAnswerContent2>
+                    </lcAnswerOption2>
+                </lcAnswerOptionGroup2>
+            </lcSingleSelect2>
+        </lcInteraction>
+    </learningAssessmentbody>
+</learningAssessment>

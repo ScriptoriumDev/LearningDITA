@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_jfg_2lq_5t" xml:lang="fr-FR">
+    <title>Ajouter une liste de paramètres</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-10-26"/>
+            <revised modified="2020-07-28"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <draft-comment author="simonbate">Abandonné dans le cadre du cours sur les références.
+                Nous pourrions vouloir utiliser ce contenu plus tard dans un cours sur le domaine de
+                la programmation ou autre, mais pour l'instant, c'est abandonné.</draft-comment>
+            <p>Utilisez l'élément &lt;parml> (liste de paramètres) lorsque vous devez documenter une
+                liste d'arguments pour une fonction ou des paramètres d'API. Certains guides de
+                style demandent que l'élément &lt;parml> soit contenu dans un élément séparé
+                &lt;section>, alors que d'autres peuvent les placer dans l'élément &lt;refsyn>.
+                L'élément &lt;parml> est une spécialisation de l'élément &lt;dl> (liste de
+                définition), et contient une liste de paramètres et leur utilisation dans un
+                programme. </p>
+            <p>L'élément &lt;parml> contient un ou plusieurs éléments de type &lt;plentry> (entrée
+                de la liste des paramètres), qui contient un ou plusieurs éléments de type &lt;pt>
+                (terme du paramètre) et de type &lt;pd> (définition du paramètre).</p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_e3s_llq_5t">
+        <title/>
+        <taskbody>
+            <steps>
+                <step>
+                    <cmd>Continuez d'utiliser l_reference_start.dita.</cmd>
+                </step>
+                <step>
+                    <cmd>Après l'élément &lt;codeblock, ajoutez un élément &lt;parml> et deux
+                        élément &lt;plentry>.</cmd>
+                    <stepxmp>
+                        <pre>   &lt;title>tNav&lt;/title>
+   &lt;refbody>
+     &lt;section>&lt;p>La commande &lt;cmdname>tNav&lt;/cmdname> est utilisé dans la
+     Base de données Canard pour naviguer vers une table ou une vue différente.&lt;/p>&lt;/section>
+     &lt;refsyn>
+         &lt;codeblock>
+             -tNav tNom tVue
+         &lt;/codeblock>
+         <ph outputclass="newchanged">&lt;parml>
+             &lt;plentry>
+             
+             &lt;/plentry>
+             &lt;plentry>
+             
+             &lt;/plentry>
+         &lt;/parml></ph>
+     &lt;/refsyn>
+   &lt;/refbody> 
+&lt;/reference></pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>À l'intérieur de chaque élément &lt;plentry>, ajoutez un élément &lt;pt> et
+                        &lt;pd> et son contenu tel que présenté.</cmd>
+                    <stepxmp>
+                        <pre>   &lt;title>tNav&lt;/title>
+   &lt;refbody>
+     &lt;section>&lt;p>La commande &lt;cmdname>tNav&lt;/cmdname> est utilisé dans la
+     Base de données Canard pour naviguer vers une table ou une vue différente.&lt;/p>&lt;/section>
+     &lt;refsyn>
+         &lt;codeblock>
+             -tNav tNom tVue
+         &lt;/codeblock>
+         <ph outputclass="newchanged">&lt;parml>
+             &lt;plentry>
+                 &lt;pt>tNom&lt;/pt>
+                 &lt;pd>Le nom de la table de destination&lt;/pd>
+             &lt;/plentry>
+             &lt;plentry>
+                 &lt;pt>tView&lt;/pt>
+                 &lt;pd>La vue optionnelle de la table de destination&lt;/pd>
+             &lt;/plentry>
+         &lt;/parml></ph>
+     &lt;/refsyn>
+   &lt;/refbody> 
+&lt;/reference></pre>
+                    </stepxmp>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

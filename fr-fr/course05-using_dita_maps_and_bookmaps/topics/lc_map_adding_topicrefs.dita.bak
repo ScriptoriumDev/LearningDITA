@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_pgf_3gt_qt">
+    <title>Référencer des rubriques dans une carte</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2016-03-07"/>
+            <revised modified="2020-10-10"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>L'élément &lt;topicref> est structurée comme suit&#xA0;:</p>
+            <pre>&lt;topicref href="chemin/nomfichier.dita"></pre>
+            <p>L'attribut href contient un lien vers la rubrique à inclure dans la carte. Avec DITA,
+                un élément &lt;topicref> dans une carte ne devrait pas pointer vers une rubrique
+                situé au-dessus de la carte dans votre structure de fichiers, car cela peut causer
+                des problèmes avec certains types de sortie. Par conséquent, il est préférable de
+                stocker vos cartes au niveau supérieur.</p>
+            <p>L'élément &lt;topicref> peut contenir les éléments suivants&#xA0;:</p>
+            <ul id="ul_oc4_2fd_3v">
+                <li>
+                    <p>L'élément &lt;topicmeta>, qui définit les métadonnées de la rubrique
+                        référencée.</p>
+                </li>
+                <li>
+                    <p>Un certain nombre d'éléments &lt;topicref>.</p>
+                </li>
+                <li>
+                    <p>Un certain nombre d'éléments &lt;mapref>.</p>
+                </li>
+            </ul>
+            <p>En imbriquant des éléments &lt;topicref> ou &lt;mapref> à l'intérieur d'un élément
+                &lt;topicref>, vous pouvez créer une hiérarchie dans votre carte. Cela vous permet
+                d'organiser plus facilement vos rubriques. Vous pouvez refléter la hiérarchie des
+                rubriques dans une table des matières lorsque vous publiez la carte.</p>
+            <p>Lorsque vous imbriquez des éléments &lt;topicref>, il est important de garder en tête
+                le résultat final. Avec DITA, il n'y a pas de limite structurelle au nombre
+                d'éléments &lt;topicref> qui peuvent être imbriqués&#xA0;; tout élément &lt;topicref>
+                dans une carte peut contenir un certain nombre d'éléments &lt;topicref>. Cependant,
+                chaque élément &lt;topicref> imbriqué équivaudra généralement à un nouveau niveau de
+                titre dans votre publication. Par conséquent, il est généralement considéré comme
+                une bonne pratique d'éviter d'imbriquer des éléments &lt;topicref> sur plus de cinq
+                niveaux de profondeur (et, idéalement, pas plus de deux ou trois).</p>
+            <p><xref href="https://youtu.be/3rDlOvDguiw" format="html" scope="external">Vidéo&#xA0;:
+                    Créer une carte DITA</xref></p>
+            <note>
+                <p>Pour plus d'information sur l'élément &lt;topicref>, se référer à la <xref
+                        href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicref.html"
+                        format="html" scope="external">norme OASIS DITA version 1.2</xref>.</p>
+            </note>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_at5_jgd_3v">
+        <title>Entraînement</title>
+        <taskbody>
+            <steps id="steps_umd_lgd_3v">
+                <step>
+                    <cmd>Continuez d'utiliser le fichier
+                        exemples_cartes_bookmaps/exemples/_m_canards_demarrer.ditamap.</cmd>
+                </step>
+                <step>
+                    <cmd>Après l'élément &lt;title>, ajoutez un élément &lt;topicref> et ajoutez-y
+                        du contenu comme le montre l'exemple suivant&#xA0;:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+&lt;map id="canards">
+&lt;title>Canards&lt;/title>
+<ph outputclass="newchanged">   &lt;topicref href="c_canards_sauvages.dita">
+&lt;/topicref></ph>
+&lt;/map></pre>
+                    </stepxmp>
+                    <info>Cet élément &lt;topicref> crée un lien vers le concept
+                        c_canards_sauvages.dita.</info>
+                </step>
+                <step>
+                    <cmd>À l'intérieur de l'élément &lt;topicref> que vous venez d'ajouter, ajoutez
+                        un autre élément &lt;topicref> et ajoutez-y du contenu comme le montre
+                        l'exemple suivant&#xA0;:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+&lt;map id="canards">
+&lt;title>Canards&lt;/title>
+&lt;topicref href="c_canards_sauvages.dita">
+<ph outputclass="newchanged">   &lt;topicref href="c_types_canards_sauvages.dita"/></ph>
+&lt;/topicref>
+&lt;/map></pre>
+                    </stepxmp>
+                    <info>En plaçant cet élément &lt;topicref> à l'intérieur du premier, vous avez
+                        imbriqué la rubrique c_types_canards_sauvages.dita au niveau suivant sous
+                        c_canards_sauvages.dita dans la hiérarchie de votre carte.</info>
+                </step>
+                <step>
+                    <cmd>Après l'élément &lt;topicref> que vous venez d'ajouter, ajoutez deux autres
+                        éléments &lt;topicref> et ajoutez-y du contenu comme le montre l'exemple
+                        suivant&#xA0;:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+&lt;map id="canards">
+&lt;title>Canards&lt;/title>
+&lt;topicref href="c_canards_sauvages.dita">
+       &lt;topicref href="c_types_canards_sauvages.dita"/>
+<ph outputclass="newchanged">   
+       &lt;topicref href="c_especes_canards_sauvages.dita"/>
+       &lt;topicref href="t_observer_canards_sauvages.dita"/></ph>
+&lt;/topicref>
+&lt;/map></pre>
+                    </stepxmp>
+                    <info>Ces nouveaux éléments &lt;topicref> rendent la hiérarchie dans votre carte
+                        DITA encore plus claire. Les rubriques c_types_canards_sauvages.dita,
+                        c_especes_canards_sauvages.dita et t_observer_canards_sauvages.dita
+                        concernent tous les canards sauvages et sont donc regroupées sous la
+                        rubrique c_canards_sauvages.dita. </info>
+                </step>
+                <step>
+                    <cmd>Après la balise de fermeture de l'élément &lt;topicref> de
+                        c_canards_sauvages.dita, ajoutez d'autres éléments &lt;topicref> et
+                        ajoutez-y du contenu comme le montre l'exemple suivant&#xA0;:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+&lt;map id="canards">
+&lt;title>Canards&lt;/title>
+&lt;topicref href="c_canards_sauvages.dita">
+       &lt;topicref href="c_types_canards_sauvages.dita"/>
+       &lt;topicref href="c_especes_canards_sauvages.dita"/>
+       &lt;topicref href="t_observer_canards_sauvages.dita"/>
+&lt;/topicref>
+<ph outputclass="newchanged">&lt;topicref href="c_canards_domestiques.dita">
+       &lt;topicref href="c_croissance_des_canards.dita"/>
+       &lt;topicref href="c_nourrir_canetons.dita">
+            &lt;topicref href="c_poids_du_canard.dita"/>
+       &lt;/topicref>
+&lt;/topicref>
+&lt;topicref href="c_canarddb.dita">
+       &lt;topicref href="c_ecrire_sur_canards.dita" locktitle="yes"/>
+       &lt;topicref href="r_tnav.dita"/>
+&lt;/topicref></ph>
+&lt;/map></pre>
+                    </stepxmp>
+                    <info>La hiérarchie de la carte contient désormais trois éléments de premier
+                        niveau&#xA0;: c_canards_sauvages.dita, c_canards_domestiques.dita et
+                        c_canarddb.dita. Chacun de ces éléments contient plusieurs éléments
+                        &lt;topicref> imbriqués de second niveau. L'un de ces éléments &lt;topicref>
+                        de deuxième niveau, c_nourrir_canetons.dita, contient un élément
+                        &lt;topicref> imbriqué de troisième niveau element,
+                        c_poids_du_canard.dita.</info>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

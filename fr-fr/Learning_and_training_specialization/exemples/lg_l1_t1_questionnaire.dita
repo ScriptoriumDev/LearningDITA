@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningGroupMap PUBLIC "-//OASIS//DTD DITA 1.3 Learning Group Map//EN" "learningGroupMap.rng">
+<learningGroupMap>
+   <title>Questionnaire sur la qualité de la nourriture</title>
+   <learningGroup>
+      <learningOverviewRef href="lo_l1_t1_questionnaire_qualite_nourriture.dita"/>
+      <learningPostAssessmentRef href="la_l1_t1_source_nourriture.dita"/>
+      <learningPostAssessmentRef href="la_l1_t1_stocker.dita"/>
+      <learningPostAssessmentRef href="la_l1_t1_gaspillage.dita"/>
+      <learningPostAssessmentRef href="la_l1_t1_qualite_ingredient.dita"/>
+   </learningGroup>
+</learningGroupMap>

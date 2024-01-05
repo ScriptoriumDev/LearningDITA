@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map xml:lang="fr-fr">
+ <title>
+  <ph keyref="course_name"/>
+ </title>
+ <topicmeta>
+  <critdates>
+   <created date="2017-04-20"/>
+  </critdates>
+ </topicmeta>
+ <mapref href="Learning_and_training_specialization/maps/m_overview.ditamap"/>
+ <mapref href="Learning_and_training_specialization/maps/m_topic_types.ditamap"/>
+ <mapref href="Learning_and_training_specialization/maps/m_learningContent.ditamap"/>
+ <mapref href="Learning_and_training_specialization/maps/m_learningDomain2.ditamap"/>
+ <mapref href="Learning_and_training_specialization/maps/m_learning_objects_and_groups.ditamap"/>
+ <!-- Having second thoughts about the following. Perhaps it should be part of the objects and groups.
+      I'm thinking more that an entire lesson could be devoted to objectives and assessments. -->
+
+ <!--adding yet another comment to test-->
+ <!-- common and specific keys -->
+ <mapref href="shared/maps/course_keys.ditamap" processing-role="resource-only"/>
+ <mapref href="Learning_and_training_specialization/maps/this_course_keys.ditamap" processing-role="resource-only"/>
+ <!-- conref push elements -->
+ <topicref href="Learning_and_training_specialization/topics/z_conref_push_elements.dita" processing-role="resource-only"/>
+ 
+</map>

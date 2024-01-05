@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_hrm_xjh_1t" xml:lang="fr-FR">
+    <title>Ajouter des éléments avancés</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-08-24"/>
+            <revised modified="2020-02-28"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Voici quelques éléments avancés communs dans DITA&#xA0;:</p>
+            <simpletable frame="all" relcolwidth="1.0* 1.0*" id="simpletable_fwj_dj4_2t">
+                <strow>
+                    <stentry>
+                        <p>&lt;codeblock></p>
+                    </stentry>
+                    <stentry>
+                        <p>Élément contenant un morceau de code. En général, le rendu est dans une
+                            police monospace dans les publications PDF ou HTML. Le placement du
+                            contenu dans l'élément &lt;codeblock> vous permet de contrôler les sauts
+                            de ligne.</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;codeph> (code phrase)</p>
+                    </stentry>
+                    <stentry>
+                        <p>Élément affichant comme du code un seul mot ou une seule phrase à
+                            l'intérieur d'un élément de type &lt;p>. Par exemple, si vous mentionnez
+                            un élément dans un paragraphe et que vous souhaitez afficher uniquement
+                            le nom de cet élément dans une police monospace, l'élément &lt;codeph>
+                            est utile.</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;lq> (long quote)</p>
+                    </stentry>
+                    <stentry>
+                        <p>Élément permettant d'inclure une citation d'une source externe dans votre
+                            contenu plutôt que (ou en plus) d'établir un lien vers la source.</p>
+                    </stentry>
+                </strow>
+            </simpletable>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_i3g_jkh_1t">
+        <title/>
+        <taskbody>
+            <steps id="steps_f5k_kkh_1t">
+                <step>
+                    <cmd>Faites une copie du fichier leçon4/l_concept_avance_debut.dita et ouvrez-le
+                        dans votre éditeur.</cmd>
+                    <info>
+                        <note>
+                            <p>Si vous utilisez un éditeur de texte compatible DITA, assurez-vous
+                                que vous êtes en mode texte, plutôt qu'en mode auteur ou visuel.</p>
+                        </note>
+                    </info>
+                    <stepxmp>
+                        <p>Vous devriez voir ceci&#xA0;:</p>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_avance">
+&lt;title>Écrire sur les canards&lt;/title>
+&lt;conbody>
+&lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>Vidéo&#xA0;: <xref href="https://www.youtube.com/watch?v=Ryzutuy-n_A"
+                            format="html" scope="external">Créer un bloc de code dans
+                        DITA</xref></info>
+                </step>
+                <step>
+                    <cmd>À l'intérieur de l'élément &lt;conbody>, ajoutez un élément &lt;codeblock>
+                        et ajoutez-y du contenu tel que présenté dans l'exemple suivant&#xA0;:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_avance">
+&lt;title>Écrire sur les canards&lt;/title>
+&lt;conbody>
+<ph outputclass="newchanged">&lt;codeblock>
+donneescanard> add entry (mallard)
+;
+1 entrée ajoutée (0.05 sec)
+donneescanard> _
+&lt;/codeblock></ph>
+&lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>L'élément &lt;codeblock> isole le contenu du code de sorte que les balises
+                        qu'il contient n'existent que pour l'affichage et n'affectent pas les
+                        balises DITA dans votre fichier concept.</info>
+                    <info>L'élément &lt;codeblock> permet également de contrôler les sauts de ligne.
+                        Dans l'exemple que vous avez ajouté, le texte à l'intérieur de l'élément
+                        &lt;codeblock> montre une entrée ajoutée à une base de données à l'aide de
+                        la ligne de commande.</info>
+                    <info>
+                        <note>
+                            <p>Si vous avez besoin d'une balise d'ouverture dans un élément de type
+                                &lt;codeblock>, tapez <tt>&amp;lt;</tt> à la place du caractère de
+                                la balise d'ouverture (<tt>&lt;</tt>). Si vous travaillez en mode
+                                auteur ou visuel d'un éditeur DITA, vous pouvez taper le caractère
+                                de la balise d'ouverture dans un élément &lt;codeblock>, et
+                                l'élément &lt;codeblock> le rendra automatiquement sous la forme
+                                    <tt>&amp;lt;</tt> dans le texte.</p>
+                        </note>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Après l'élément &lt;codeblock>, ajoutez un élément &lt;p> avec un élément
+                        &lt;codeph> à l'intérieur et ajoutez-y du contenu tel que présenté dans
+                        l'exemple suivant&#xA0;:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_avance">
+&lt;title>Écrire sur les canards&lt;/title>
+&lt;conbody>
+...
+&lt;/codeblock>
+<ph outputclass="newchanged">&lt;p>Pour ajouter une espèce de canard à votre base de données, tapez &lt;codeph>add entry&lt;/codeph> suivi
+du nom du canard entre parenthèses sur la ligne de commande et appuyez sur Entrée.&lt;/p></ph>
+&lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>Dans l'exemple que vous avez ajouté, l'élément &lt;codeph> vous permet
+                        d'isoler les mots «&#xA0;add entry&#xA0;» et d'indiquer qu'ils doivent être
+                        affichés dans une police monospace pour montrer qu'il s'agit d'une
+                        commande.</info>
+                </step>
+                <step>
+                    <cmd>Après l'élément &lt;p>, ajoutez un élément &lt;lq> et ajoutez-y du contenu
+                        tel que présenté dans l'exemple suivant&#xA0;:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_avance">
+&lt;title>Écrire sur les canards&lt;/title>
+&lt;conbody>
+...
+&lt;/p>
+<ph outputclass="newchanged">&lt;lq href="http://classiclit.about.com/library/bl-etexts/hdthoreau/bl-hdtho-wald-9.htm" 
+format="html" scope="external">How much fairer than the pool before the farmers door, 
+in which his ducks swim! Hither the clean wild ducks come. Nature has no human 
+inhabitant who appreciates her. The birds with their plumage and their notes are in 
+harmony with the flowers, but what youth or maiden conspires with the wild luxuriant 
+beauty of Nature?&lt;/lq></ph>
+&lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>Dans l'exemple que vous avez ajouté, l'élément &lt;lq> vous permet
+                        d'inclure une citation de <cite>Walden</cite> de Henry David Thoreau.</info>
+                    <info>L'élément &lt;lq> peut contenir un lien vers la source de la citation.
+                        Dans l'exemple que vous avez ajouté, l'élément &lt;lq> contient un attribut
+                        href pointant vers l'URL de la source, un attribut format indiquant que la
+                        source est HTML, et un attribut scope indiquant que la source est
+                        externe.</info>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

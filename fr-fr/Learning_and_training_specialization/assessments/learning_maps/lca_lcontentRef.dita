@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="lca_lcontentRef">
+    <title>Éléments &lt;LearningGroup></title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Kaitlyn Heath,
+            Scriptorium</author>
+        <critdates>
+            <created date="2018-09-06"/>
+        </critdates>
+    </prolog>
+    <learningAssessmentbody>
+        <lcInteraction>
+            <lcTrueFalse id="t-f_contentRef">
+                <lcQuestion>Vous pouvez insérer un élément &lt;learningContentRef> directement dans
+                    un learningGroup</lcQuestion>
+                <lcAnswerOptionGroup>
+                    <lcAnswerOption>
+                        <lcAnswerContent>Vrai</lcAnswerContent>
+                        <lcCorrectResponse/>
+                    </lcAnswerOption>
+                    <lcAnswerOption>
+                        <lcAnswerContent>Faux</lcAnswerContent>
+                    </lcAnswerOption>
+                </lcAnswerOptionGroup>
+                <lcFeedbackIncorrect>Un groupe d'apprentissage peut inclure d'autres groupes
+                    d'apprentissages, mais aussi des groupes référencés. Il est possible d'insérer
+                    directement des ressources d'apprentissage ou bien par référencement. Enfin, il
+                    peut également inclure des introductions et des synthèses&#xA0;: plans d'apprentissage
+                    référencés, aperçus d'apprentissage, sommaire et des évaluations avant ou
+                    après le cours.</lcFeedbackIncorrect>
+            </lcTrueFalse>
+        </lcInteraction>
+    </learningAssessmentbody>
+</learningAssessment>

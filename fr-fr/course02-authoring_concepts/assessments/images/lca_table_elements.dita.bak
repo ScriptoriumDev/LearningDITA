@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_ynq_lvx_dt" xml:lang="fr-FR">
+ <title>les éléments table</title>
+ <prolog>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+   Scriptorium</author>
+  <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+   format="html">Marine Martin-Guillerez (Traductrice)</author>
+  <critdates>
+   <created date="2015-08-24"/>
+   <revised modified="2020-01-26"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcMatching id="lcMatching_bvn_pvx_dt">
+    <lcQuestion>Faites correspondre l'élément du tableau avec sa description.</lcQuestion>
+    <lcMatchTable id="lcMatchTable_cvn_pvx_dt">
+     <lcMatchingPair>
+      <lcItem>&lt;title></lcItem>
+      <lcMatchingItem>titre ou légende du tableau</lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>&lt;tgroup></lcItem>
+      <lcMatchingItem>contenu principal du tableau</lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>&lt;colspec></lcItem>
+      <lcMatchingItem>informations sur les colonnes</lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>&lt;thead></lcItem>
+      <lcMatchingItem>lignes d'en-tête du tableau</lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>&lt;tbody></lcItem>
+      <lcMatchingItem>lignes du corps du tableau</lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>&lt;row></lcItem>
+      <lcMatchingItem>ligne du tableau</lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>&lt;entry></lcItem>
+      <lcMatchingItem>contenu d'une cellule</lcMatchingItem>
+     </lcMatchingPair>
+    </lcMatchTable>
+   </lcMatching>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

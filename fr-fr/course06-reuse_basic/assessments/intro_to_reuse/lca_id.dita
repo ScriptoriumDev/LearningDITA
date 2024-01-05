@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_dfp_4cp_dt">
+ <title>ID</title>
+ <prolog>
+  <author href="http://www.easydita.com" scope="external" format="html">Mike Rice,
+   easyDITA</author>
+  <critdates>
+   <created golive="2016-07-01" date="2016-05-11"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcSingleSelect id="ss1"
+    class="+ topic/fig learningInteractionBase-d/lcInteractionBase learning-d/lcSingleSelect ">
+    <lcQuestion class="+ topic/p learningInteractionBase-d/lcQuestionBase learning-d/lcQuestion ">In
+     the following conref example, which is the id of the referencing element?</lcQuestion>
+    <lcAsset class="+ topic/p learningInteractionBase-d/p learning-d/lcAsset ">
+     <image href="../../images/conref-sample-1.png" id="image_i4j_w4y_dw"/>
+    </lcAsset>
+    <lcAnswerOptionGroup
+     class="+ topic/ul learningInteractionBase-d/ul learning-d/lcAnswerOptionGroup "
+     id="lcAnswerOptionGroup_dlg_x3y_dw">
+     <lcAnswerOption class="+ topic/li learningInteractionBase-d/li learning-d/lcAnswerOption ">
+      <lcAnswerContent class="+ topic/p learningInteractionBase-d/p learning-d/lcAnswerContent "
+       >fruit</lcAnswerContent>
+      <lcCorrectResponse name="lcCorrectResponse" value="lcCorrectResponse"
+       class="+ topic/data learningInteractionBase-d/data learning-d/lcCorrectResponse "/>
+     </lcAnswerOption>
+     <lcAnswerOption class="+ topic/li learningInteractionBase-d/li learning-d/lcAnswerOption ">
+      <lcAnswerContent class="+ topic/p learningInteractionBase-d/p learning-d/lcAnswerContent "
+       >pear</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption class="+ topic/li learningInteractionBase-d/li learning-d/lcAnswerOption ">
+      <lcAnswerContent class="+ topic/p learningInteractionBase-d/p learning-d/lcAnswerContent "
+       >fruitnotes</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption class="+ topic/li learningInteractionBase-d/li learning-d/lcAnswerOption ">
+      <lcAnswerContent class="+ topic/p learningInteractionBase-d/p learning-d/lcAnswerContent "
+       >fruittopic</lcAnswerContent>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect
+     class="+ topic/p learningInteractionBase-d/p learning-d/lcFeedbackIncorrect "> The referencing
+     element is in the topic with the id fruitttopic. But that topic is not specifically the
+     referencing element. The actual referencing element - the one making the content reference - is
+     the &lt;note&gt; element that has the conref attribute. Its id is fruit.</lcFeedbackIncorrect>
+    <!--<lcFeedbackCorrect class="+ topic/p learningInteractionBase-d/p learning-d/lcFeedbackCorrect ">Right. The referencing element, the element making the content reference, is the one with the conref attribute. The the referenced element is the conref target - the element indicated in the conref attribute. </lcFeedbackCorrect>-->
+   </lcSingleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

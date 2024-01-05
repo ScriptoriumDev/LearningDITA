@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_dfp_4cp_dt">
+ <title>Referencing</title>
+ <prolog>
+  <author href="http://www.easydita.com" scope="external" format="html">Mike Rice,
+   easyDITA</author>
+  <critdates>
+   <created golive="2016-07-01" date="2016-05-11"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcTrueFalse id="tf3"
+    class="+ topic/fig learningInteractionBase-d/lcInteractionBase learning-d/lcTrueFalse ">
+    <lcQuestion class="+ topic/p learningInteractionBase-d/lcQuestionBase learning-d/lcQuestion ">An
+     id is required for the referencing element of a conref.</lcQuestion>
+    <lcAnswerOptionGroup
+     class="+ topic/ul learningInteractionBase-d/ul learning-d/lcAnswerOptionGroup "
+     id="lcAnswerOptionGroup_gws_2jy_dw">
+     <lcAnswerOption class="+ topic/li learningInteractionBase-d/li learning-d/lcAnswerOption ">
+      <lcAnswerContent class="+ topic/p learningInteractionBase-d/p learning-d/lcAnswerContent "
+       >True</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption class="+ topic/li learningInteractionBase-d/li learning-d/lcAnswerOption ">
+      <lcAnswerContent class="+ topic/p learningInteractionBase-d/p learning-d/lcAnswerContent "
+       >False</lcAnswerContent>
+      <lcCorrectResponse name="lcCorrectResponse" value="lcCorrectResponse"
+       class="+ topic/data learningInteractionBase-d/data learning-d/lcCorrectResponse "/>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect
+     class="+ topic/p learningInteractionBase-d/p learning-d/lcFeedbackIncorrect ">The referencing
+     element doesn’t require an id. The referenced element does, though.</lcFeedbackIncorrect>
+    <!--<lcFeedbackCorrect class="+ topic/p learningInteractionBase-d/p learning-d/lcFeedbackCorrect ">Right. The referenced element does require an id, though.</lcFeedbackCorrect>-->
+   </lcTrueFalse>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

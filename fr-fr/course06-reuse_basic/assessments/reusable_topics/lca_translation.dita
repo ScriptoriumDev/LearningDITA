@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<learningAssessment id="lca_translation">
+ <title>Traduction</title>
+ <prolog>
+  <author href="http://www.easydita.com" scope="external" format="html">Mike Rice,
+   easyDITA</author>
+  <author>Decarnelle Rémi </author>
+  <critdates>
+   <created golive="2016-07-11" date="2016-05-11"/>
+   <revised modified="2020-11-25"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcTrueFalse
+    class="+ topic/fig learningInteractionBase-d/lcInteractionBase learning-d/lcTrueFalse " id="assessment4">
+    <lcQuestion class="+ topic/p learningInteractionBase-d/lcQuestionBase learning-d/lcQuestion "
+     >Utiliser des périphrases pour substituer des termes ne cause aucun problème de
+     traduction.</lcQuestion>
+    <lcAnswerOptionGroup
+     class="+ topic/ul learningInteractionBase-d/ul learning-d/lcAnswerOptionGroup "
+     id="lcAnswerOptionGroup_ayd_y5y_dw">
+     <lcAnswerOption class="+ topic/li learningInteractionBase-d/li learning-d/lcAnswerOption ">
+      <lcAnswerContent class="+ topic/p learningInteractionBase-d/p learning-d/lcAnswerContent "
+       >Vrai</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption class="+ topic/li learningInteractionBase-d/li learning-d/lcAnswerOption ">
+      <lcAnswerContent class="+ topic/p learningInteractionBase-d/p learning-d/lcAnswerContent "
+       >Faux</lcAnswerContent>
+      <lcCorrectResponse name="lcCorrectResponse" value="lcCorrectResponse"
+       class="+ topic/data learningInteractionBase-d/data learning-d/lcCorrectResponse "/>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect
+     class="+ topic/p learningInteractionBase-d/p learning-d/lcFeedbackIncorrect ">Toutes les
+     langues ne fonctionnent pas de la même façon que le français. Parce qu'une substitution
+     fonctionne en français ne signifie pas qu'elle fonctionnera dans une autre langue. Vous devez
+     également garder en tête lors de la rédaction de votre contenu qu'il sera probablement traduit
+     dans le futur.</lcFeedbackIncorrect>
+    <!--<lcFeedbackCorrect class="+ topic/p learningInteractionBase-d/p learning-d/lcFeedbackCorrect ">Right. You can’t assume that other languages work the same way as English but with different words. It’s easy to unintentionally garble translated text when you use DITA reuse mechanisms to change parts of a sentence.</lcFeedbackCorrect>-->
+   </lcTrueFalse>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="lca_contentbody2">
+    <title>learningContentbody 2</title>
+    <learningAssessmentbody>
+        <lcInteraction>
+            <lcMatching id="matching_choicetable">
+                <lcQuestion>Faire correspondre les éléments de &lt;learningContentbody> avec la
+                    bonne description&#xA0;:</lcQuestion>
+                <lcMatchTable id="lcMatchTable_f2n_c5b_kt">
+                    <lcMatchingPair>
+                        <lcItem>&lt;lcIntro></lcItem>
+                        <lcMatchingItem>Contexte de la rubrique</lcMatchingItem>
+                    </lcMatchingPair>
+                    <lcMatchingPair>
+                        <lcItem>&lt;lcDuration></lcItem>
+                        <lcMatchingItem>Temps estimé pour compléter le contenu</lcMatchingItem>
+                    </lcMatchingPair>
+                    <lcMatchingPair>
+                        <lcItem>&lt;lcObjectives></lcItem>
+                        <lcMatchingItem>Liste des objectifs du contenu</lcMatchingItem>
+                    </lcMatchingPair>
+                    <lcMatchingPair>
+                        <lcItem>&lt;lcChallenge></lcItem>
+                        <lcMatchingItem>Un ou plusieurs énoncés qui décrivent les défis du
+                            contenu</lcMatchingItem>
+                    </lcMatchingPair>
+                    <lcMatchingPair>
+                        <lcItem>&lt;lcInstruction></lcItem>
+                        <lcMatchingItem>Le contenu du cours</lcMatchingItem>
+                    </lcMatchingPair>
+                    <lcMatchingPair>
+                        <lcItem>&lt;section></lcItem>
+                        <lcMatchingItem>Toute information additionnelle</lcMatchingItem>
+                    </lcMatchingPair>
+                </lcMatchTable>
+            </lcMatching>
+        </lcInteraction>
+    </learningAssessmentbody>
+</learningAssessment>

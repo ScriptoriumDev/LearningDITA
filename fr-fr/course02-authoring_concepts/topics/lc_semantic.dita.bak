@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_hrm_xjh_1t" xml:lang="fr-FR">
+    <title>Créer un contenu sémantiquement riche</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-08-24"/>
+            <revised modified="2020-03-15"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>L'un des avantages de DITA est la possibilité de créer un contenu sémantiquement
+                riche, ou un contenu dans lequel les balises d'éléments contiennent des informations
+                sur le contenu.</p>
+            <p>Par exemple, l'utilisation de l'élément &lt;term> peut simplement faire apparaître un
+                mot en gras dans la publication, mais la balise transmet beaucoup plus
+                d'informations que le simple «&#xA0;en caractères gras&#xA0;» – elle montre que ce
+                mot est un terme qui doit être défini.</p>
+            <p>Pour tirer parti de la richesse sémantique de DITA, il convient de marquer chaque
+                contenu avec l'élément qui reflète le plus fidèlement la nature du contenu et la
+                manière dont il doit être utilisé. Par exemple, utilisez des éléments tels que
+                &lt;term> ou &lt;cite> pour mettre en évidence les mots importants plutôt que
+                d'utiliser simplement &lt;b> ou &lt;i>.</p>
+            <p>Une bonne utilisation des types de rubriques rend également votre contenu plus riche
+                sur le plan sémantique. Par exemple, écrivez des procédures étape par étape dans une
+                rubrique de type tâche au lieu d'une rubrique de type concept. De cette façon, vous
+                pouvez utiliser la structure que DITA fournit pour la création des étapes, qui
+                fournit de bien meilleures informations sur les étapes que l'utilisation de
+                l'élément &lt;ol> dans un concept.</p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

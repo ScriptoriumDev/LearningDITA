@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="lca_contentbody3">
+    <title>learningContentbody 3</title>
+    <learningAssessmentbody>
+        <lcInteraction>
+            <lcSingleSelect id="lcSingleSelect_eh4_bbb_dt">
+                <lcQuestion>Quel est l'<b>élément</b> contenant la majorité du contenu pédagogique&#xA0;?</lcQuestion>
+                <lcAnswerOptionGroup id="lcAnswerOptionGroup_fh4_bbb_dt">
+                    <lcAnswerOption>
+                        <lcAnswerContent>&lt;learningContentbody></lcAnswerContent>
+                        <lcCorrectResponse/>
+                    </lcAnswerOption>
+                    <lcAnswerOption>
+                        <lcAnswerContent>&lt;lcMainsection></lcAnswerContent>
+                    </lcAnswerOption>
+                    <lcAnswerOption>
+                        <lcAnswerContent>&lt;lcObjectives></lcAnswerContent>
+                    </lcAnswerOption>
+                    <lcAnswerOption>
+                        <lcAnswerContent>&lt;learningContent></lcAnswerContent>
+                    </lcAnswerOption>
+                </lcAnswerOptionGroup>
+                <lcFeedbackIncorrect>L'élement &lt;learningContent> est la <b>rubrique</b> qui
+                    contient la majorité du contenu pédagogique.</lcFeedbackIncorrect>
+            </lcSingleSelect>
+        </lcInteraction>
+    </learningAssessmentbody>
+</learningAssessment>

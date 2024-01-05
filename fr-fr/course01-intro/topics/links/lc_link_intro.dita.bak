@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_mbc_bsb_wr">
+    <title>Création de relations entre rubriques</title>
+    <prolog>
+        <author>Sharon Burton</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-04-28"/>
+            <revised modified="2019-09-22"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcDuration>
+            <lcTime value="45"/>
+        </lcDuration>
+        <lcObjectives>
+            <lcObjectivesGroup>
+                <lcObjective>Décrire l'objectif et l'utilisation d'un fichier carte
+                    (map)</lcObjective>
+                <lcObjective>Résumer comment le résultat est généré</lcObjective>
+                <lcObjective>Décrire l'objectif et l'utilisation des références croisées (xref) et
+                    des liens connexes</lcObjective>
+                <lcObjective>Décrire l'objectif et l'utilisation d'un tableau de relations
+                    (reltable)</lcObjective>
+                <lcObjective>Décrire l'objectif et l'utilisation d'un contenu de référence
+                    (conref)</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcIntro>
+            <p>Les rubriques sont indépendantes, mais le contenu d'une rubrique a souvent des liens
+                avec d'autres rubriques. Un fichier carte, par exemple, décrit la séquence et la
+                hiérarchie des rubriques d'un livrable.</p>
+            <p>Vous pouvez créer des relations entre rubriques de plusieurs façons
+                différentes&#xA0;:</p>
+            <ul id="ul_kfz_xtb_wr">
+                <li>Fichiers carte</li>
+                <li>Conrefs</li>
+                <li>Références croisées</li>
+                <li>Liens connexes</li>
+                <li>Tables de relations</li>
+            </ul>
+        </lcIntro>
+    </learningContentbody>
+    <related-links>
+        <link
+            href="https://www.ixiasoft.com/documentation/DITA_Style_Guide/fr/Artefact/Maps/c_DITA_Map_Files.html"
+            format="html" scope="external">
+            <linktext>Guide de style DITA, Les cartes DITA</linktext>
+        </link>
+        <link
+            href="https://www.ixiasoft.com/documentation/DITA_Style_Guide/fr/Artefact/c_Cross-referencing.html"
+            scope="external" format="html">
+            <linktext>Guide de style DITA, Références croisées</linktext>
+        </link>
+        <link
+            href="https://www.ixiasoft.com/documentation/DITA_Style_Guide/fr/Artefact/c_Content_Re-use.html"
+            scope="external" format="html">
+            <linktext>Guide de style DITA, Réutilisation de contenu</linktext>
+        </link>
+    </related-links>
+</learningContent>

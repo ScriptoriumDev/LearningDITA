@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<!DOCTYPE learningOverview PUBLIC "-//OASIS//DTD DITA Learning Overview//EN" "http://docs.oasis-open.org/dita/v1.2/os/dtd1.2/learning/dtd/learningOverview.dtd">
+<learningOverview xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/"
+   id="learningAssessment-9112"
+   domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic learningInteractionBase-d)                            (topic learningInteractionBase-d learning-d)                            (topic learningmeta-d)                             (topic learningBase+learningInteractionBase-d)                            (topic learningBase learningOverview)    "
+   ditaarch:DITAArchVersion="1.2"
+   class="- topic/topic learningBase/learningBase     learningOverview/learningOverview ">
+   <title class="- topic/title ">Choisir le contenu à réutiliser</title>
+   <shortdesc class="- topic/shortdesc "/>
+   <prolog class="- topic/prolog ">
+      <author type="creator" href="http://easydita.com/" format="html" scope="external"
+         class="- topic/author ">Mike Rice</author>
+      <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+         class="- topic/author ">Annie Chen</author>
+      <author>Rémi Decarnelle (traducteur)</author>
+      <critdates>
+         <created golive="2016-07-01" date="2016-05-11"/>
+         <revised modified="2020-10-13"/>
+      </critdates>
+   </prolog>
+   <learningOverviewbody
+      class="- topic/body  learningBase/learningBasebody learningOverview/learningOverviewbody ">
+      <lcIntro class="- topic/section learningBase/lcIntro ">
+         <p>Le référencement de contenu qui semble fonctionner en français
+            peut devenir problématique lors d'une traduction. Voici quelques bonnes pratiques à
+            mémoriser avant de terminer cette leçon&#xA0;: </p>
+         <ul class="- topic/ul ">
+            <li class="- topic/li ">
+               <p class="- topic/p "> Ne pas utiliser le référencement d'élément &lt;ph> pour remplacer un morceau de phrase</p>
+            </li>
+            <li class="- topic/li ">
+               <p class="- topic/p ">Faire preuve d'attention lors du référencement d'une phrase complète.
+               </p>
+            </li>
+            <li class="- topic/li ">
+               <p class="- topic/p ">Référencer les blocs de contenu respectant les conditions suivantes&#xA0;:<ul class="- topic/ul ">
+                     <li class="- topic/li ">
+                        <p class="- topic/p ">Le contenu référencé est grammaticalement indépendant.</p>
+                     </li>
+                     <li class="- topic/li ">
+                        <p class="- topic/p ">Le contenu référencé et l'élément référençant partagent le même contexte.</p>
+                     </li>
+                  </ul>
+               </p>
+            </li>
+         </ul>
+      </lcIntro>
+   </learningOverviewbody>
+</learningOverview>

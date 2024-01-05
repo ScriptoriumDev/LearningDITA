@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="lca_best_practices">
+    <title>Meilleures pratiques</title>
+    <learningAssessmentbody>
+        <lcInteraction>
+            <lcTrueFalse id="all-above">
+                <lcQuestion>Créer une question à choix multiple avec une seule réponse et proposer
+                    la réponse «&#xA0;toutes les réponses ci-dessus&#xA0;» est un meilleur choix que de créer
+                    une question à choix multiples avec plusieurs bonnes réponses.</lcQuestion>
+                <lcAnswerOptionGroup>
+                    <lcAnswerOption>
+                        <lcAnswerContent>Vrai</lcAnswerContent>
+                    </lcAnswerOption>
+                    <lcAnswerOption>
+                        <lcAnswerContent>Faux</lcAnswerContent>
+                        <lcCorrectResponse/>
+                    </lcAnswerOption>
+                </lcAnswerOptionGroup>
+                <lcFeedbackIncorrect>Il est préférable de créer une question à choix multiples avec
+                    plusieurs bonnes réponses. Ainsi, l'ordre des réponses possibles peut être
+                    aléatoire.</lcFeedbackIncorrect>
+            </lcTrueFalse>
+        </lcInteraction>
+    </learningAssessmentbody>
+</learningAssessment>

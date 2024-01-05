@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<learningAssessment id="lca_ditaval_prop_attributes">
+ <title>Ditaval et attributs de l'élément &lt;prop></title>
+ <prolog>
+  <author type="creator" href="http://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Simon Bate</author>
+  <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Jake Campbell</author>
+  <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Gretyl Kinsey</author>
+  <author>Decarnelle Rémi (traducteur)</author>
+  <critdates>
+   <created golive="2016-11-30" date="2016-11-03"/>
+   <revised modified="2021-02-25"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction id="lcInteraction_pjc_wph_vx">
+   <lcSingleSelect id="lcSingleSelect_s4l_wph_vx">
+    <lcQuestion>Quels sont les trois attributs associée à l'élément &lt;prop> dans les fichiers
+     ditaval ? (choisir la réponse la plus appropriée)</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_t4l_wph_vx">
+     <lcAnswerOption>
+      <lcAnswerContent>att, val, et action</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>prop, val, et action</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>att, val, et filter</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>att, match, et filter</lcAnswerContent>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>Les trois attributs les plus communs sont att, val, et
+     action.</lcFeedbackIncorrect>
+   </lcSingleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>
