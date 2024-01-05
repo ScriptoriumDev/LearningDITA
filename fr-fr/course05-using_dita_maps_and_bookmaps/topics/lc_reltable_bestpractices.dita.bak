@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<learningContent id="lc_reltable_bestpractices">
+    <!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+    <title>Les meilleures pratiques pour les tables des relations</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2016-03-21"/>
+            <revised modified="2020-10-30"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcIntro>
+            <p><b>Considérer le nombre de colonnes</b></p>
+            <p>Bien que la table des relations puisse contenir un certain nombre de colonnes, un
+                trop grand nombre de colonnes peut rendre la table des relations difficile à
+                modifier.</p>
+            <p>S'il est impossible d'éviter les colonnes multiples, une solution consiste à créer
+                plusieurs tables des relations avec différentes colonnes pour différents ensembles
+                de relations. Comme indiqué précédemment, l'ordre des colonnes ou la position
+                relative n'a aucune signification dans les tables de relations. </p>
+            <p><b>Considérer le nombre d'éléments topicref dans une cellule</b></p>
+            <p>L'élément &lt;relcell> peut contenir un certain nombre d'éléments &lt;topicref>,
+                cependant un grand nombre d'éléments &lt;topicref> dans un &lt;relcell> devient très
+                difficile à lire (qu'il soit visualisé dans le mode texte ou auteur de votre éditeur
+                DITA). </p>
+            <p>Si vous trouvez qu'un &lt;relrow> devient bien rempli, créez un ou plusieurs nouveaux
+                éléments &lt;relrow> et distribuez les éléments &lt;topicref> parmi les lignes.</p>
+            <p><b>Réutilisation et tables des relations</b></p>
+            <p>Une carte peut contenir un certain nombre de tables des relations. Lorsque les tables
+                des relations sont traitées, le contenu des tables des relations est généralement
+                considéré comme une seule collection (en fonction du processeur de sortie et de
+                l'intention de la table des relations). Ainsi, si vous avez un bloc de rubriques qui
+                sont réutilisées dans un certain nombre de différentes cartes, vous pouvez créer une
+                sous-carte de ces rubriques et créer une table des relations qui est spécifique à
+                ces rubriques. Lorsque la sous-carte est incluse avec un &lt;mapref>, la table des
+                relations sera également incluse.</p>
+            <p>Vous pouvez appliquer le filtrage aux tables des relations, en utilisant les
+                attributs de filtrage DITA. Vous pouvez filtrer des lignes individuelles dans la
+                table des relations, ou vous pouvez diviser les lignes entre plusieurs tables des
+                relations et filtrer ensuite sur les tables.</p>
+        </lcIntro>
+    </learningContentbody>
+</learningContent>

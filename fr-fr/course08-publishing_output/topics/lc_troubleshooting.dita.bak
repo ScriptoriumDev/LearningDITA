@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="content_pgf_3gt_qt">
+    <title>Dépannage des problèmes courants liés à la génération de sortie</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Noelle Russell, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Ashley Stant, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Bill Swallow, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Jake Campbell, Scriptorium</author>
+        <author type="contributor" href="https://www.linkedin.com/in/marinemartinguillerez/"
+            scope="external" format="html" class="- topic/author ">Marine Martin-Guillerez
+            (Traductrice)</author>
+        <critdates>
+            <created golive="2017-03-27" date="2017-02-06"/>
+            <revised modified="2021-01-18"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Beaucoup de gens rencontrent des problèmes avec DITA OT lors de l’exécution d’une
+                compilation pour la première fois. Dans le fichier de log de DITA OT, un problème
+                est généralement indiqué par le message « build failed ». Cependant, vous pouvez
+                également avoir une compilation réussie, mais avoir des problèmes avec la sortie.
+                Voici quelques problèmes communs et des conseils pour les résoudre :</p>
+            <ul id="ul_ylx_hqz_dz">
+                <li>
+                    <p><b>Commandes mal saisies.</b> Si votre compilation échoue, vérifiez que vos
+                        commandes ne contiennent pas d’espaces supplémentaires, de lettres
+                        transposées, de paramètres manquants ou d’autres erreurs typographiques.</p>
+                </li>
+                <li>
+                    <p><b>Mauvaise version de Java.</b> Si vous n’avez pas la bonne version de Java,
+                        le fichier de log montrera que la compilation a échoué ou a même refusé de
+                        s’exécuter. Suivez les instructions précédentes de cette leçon sur
+                        l’installation de Java pour résoudre ce problème.</p>
+                </li>
+                <li>
+                    <p><b>Contenu source non valide.</b> Si l’un des fichiers des rubriques de votre
+                        carte ou le fichier carte lui-même est invalide, DITA OT peut ne pas être en
+                        mesure de générer la sortie. Si vous rencontrez un échec de génération et
+                        que le journal affiche des erreurs relatives à un fichier source
+                        particulier, ouvrez ce fichier et vérifiez que sa structure est valide.</p>
+                </li>
+                <li>
+                    <p><b>Sortie manquante.</b> Si le journal indique que la compilation a réussi,
+                        mais que vous ne parvenez pas à trouver votre sortie, revérifiez votre
+                        paramètre <tt>-o</tt> pour vous assurer que vous avez spécifié un
+                        emplacement de sortie. Si ce n’est pas le cas, la sortie sera compilée dans
+                        le dossier DITA OT.</p>
+                </li>
+                <li>
+                    <p><b>Sortie remplacée.</b> Chaque fois que vous exécutez DITA OT avec le même
+                        ensemble de commandes sur les mêmes fichiers sources, votre génération la
+                        plus récente remplacera votre génération précédente. Si vous souhaitez
+                        conserver chaque itération de sortie que vous générez (par exemple, pour
+                        suivre les résultats de tests ou de dépannage), vous pouvez soit renommer la
+                        sortie précédente avant d’exécuter une nouvelle génération, soit définir un
+                        répertoire de sortie différent via le paramètre <tt>-o</tt> chaque fois que
+                        vous exécutez la génération.</p>
+                </li>
+                <li>
+                    <p><b>Apparence incorrecte de la sortie.</b> Parfois, votre sortie ne ressemble
+                        pas à ce que vous attendiez, même si elle se construit avec succès. Par
+                        exemple, les images d’un fichier PDF peuvent être si grandes qu’elles
+                        sortent de la page, ou les colonnes d’un tableau peuvent ne pas être
+                        optimales pour l’affichage de texte. Ces problèmes sont dus au fait que vous
+                        n’avez pas spécifié de mesures pour vos images et tableaux dans les fichiers
+                        sources. </p>
+                    <p>Pour contrôler la taille spécifique de vos images, vous pouvez utiliser
+                        l'attribut «&#xA0;width&#xA0;» de l'élément <tt>&lt;image></tt>.</p>
+                    <fig id="fig_cm1_jzx_fz">
+                        <title>Image avec une largeur spécifiée vs. image sans largeur spécifiée en
+                            sortie PDF</title>
+                        <image href="images/image_display.png" base="2017/03" width="500"
+                            id="image_dm1_jzx_fz"/>
+                    </fig>
+                    <p>Pour les tableaux, vous pouvez utiliser l'élément <tt>&lt;colspec></tt> pour
+                        ajuster les largeurs des colonnes à partir de leur réglage par défaut de
+                        largeurs égales en largeurs qui fonctionnent mieux pour votre contenu.</p>
+                    <note>Les éditeurs XML visuels (tels que oXygen) vous permettent de modifier la
+                        largeur des colonnes des tableaux grâce à une interface graphique qui gère
+                        les valeurs <tt>&lt;colspec></tt> pour vous.</note>
+                    <fig id="fig_jyr_jzx_fz">
+                        <title>Tableau avec colspecs ajusté vs. tableau avec colspecs par défaut
+                            dans la sortie PDF</title>
+                        <image href="images/table_display.png" base="2017/03" width="500"
+                            id="image_sjn_gcy_fz"/>
+                    </fig>
+                </li>
+            </ul>
+            <p>Les problèmes plus complexes nécessitent une résolution plus approfondi. Si vous
+                rencontrez un échec de génération qui ne correspond pas à l’un de ces problèmes
+                courants, utilisez le journal DITA OT de votre génération comme point de départ
+                pour identifier le problème. Une fois que vous savez ce qui cause le problème, vous
+                devrez peut-être exécuter plusieurs tests pour continuer à le dépanner jusqu’à ce
+                que vous puissiez le résoudre. La documentation DITA OT sur les fichiers log (<xref
+                    href="http://www.dita-ot.org/2.4/user-guide/log-files.html" format=" html"
+                    scope="external"/>) est une ressource utile pour le dépannage.</p>
+            <note>Malheureusement, nous ne pouvons pas offrir une assistance technique individuelle
+                sur ce site gratuit.</note>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

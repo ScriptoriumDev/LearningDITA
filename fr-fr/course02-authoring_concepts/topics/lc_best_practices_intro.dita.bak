@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_kqs_rks_zs" xml:lang="fr-FR">
+    <title>Vue d'ensemble du XML et des meilleures pratiques</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-08-19"/>
+            <revised modified="2020-03-11"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup id="lcObjectivesGroup_e2g_sks_zs">
+                <lcObjective>Identifier les meilleures pratiques en matière de création de
+                    concepts.</lcObjective>
+                <lcObjective>Montrer des exemples de meilleures pratiques dans un
+                    concept.</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="1"/>
+        </lcDuration>
+        <lcIntro>Cette leçon couvre les meilleures pratiques pour la rédaction de concepts. Vous
+            découvrirez les avantages de la séparation du contenu et de la forme, de l'utilisation
+            cohérente des éléments DITA et de la création d'un contenu sémantiquement
+            riche.</lcIntro>
+    </learningContentbody>
+    <related-links>
+        <link
+            href="https://www.ixiasoft.com/documentation/DITA_Style_Guide/fr/Artefact/Authoring_Concepts/c_Introduction_to_the_Separation_of_Content.html"
+            format="html" scope="external">
+            <linktext>Guide de style DITA, Séparation du contenu et de la forme</linktext>
+        </link>
+        <link
+            href="https://www.ixiasoft.com/documentation/DITA_Style_Guide/fr/Artefact/c_Content_Re-use.html"
+            format="html" scope="external">
+            <linktext>Guide de style DITA, Réutilisation de contenu</linktext>
+        </link>
+        <link
+            href="https://www.ixiasoft.com/documentation/DITA_Style_Guide/fr/Artefact/c_Language_and_Punctuation.html"
+            format="html" scope="external">
+            <linktext>Guide de style DITA, Langue et ponctuation</linktext>
+        </link>
+        <!-- <link href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html"
+            format="html" scope="external">
+            <linktext>Le guide de style DITA – Les meilleures pratiques pour les auteurs (Tony Self)</linktext>
+        </link>
+        <link href="http://www.scriptorium.com/structure.pdf" format="html" scope="external">
+            <linktext>Création structurée et XML (Sarah O’Keefe)</linktext>
+        </link>
+        <link
+            href="http://www.scriptorium.com/2014/03/making-the-most-of-your-conversion-to-xml-part-1/"
+            format="html" scope="external">
+            <linktext>Tirer le meilleur parti de votre conversion au format XML (Scriptorium.com)</linktext>
+        </link>
+        <link
+            href="http://www.scriptorium.com/2012/09/perils-of-dita-publishing-part-4-pdf-acrobatics/"
+            format="html" scope="external">
+            <linktext>Périls de l'édition DITA (Scriptorium.com)</linktext>
+        </link>-->
+    </related-links>
+</learningContent>

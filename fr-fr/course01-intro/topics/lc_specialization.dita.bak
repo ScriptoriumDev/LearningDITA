@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_uxj_kp5_vr">
+    <title>La spécialisation</title>
+    <prolog>
+        <author>Sharon Burton</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-04-28"/>
+            <revised modified="2019-08-20"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>
+                <draft-comment>pas sûr que ce soit le bon endroit pour la spécialisation, mais c'est
+                    là où se trouve les vidéos</draft-comment>
+            </p>
+            <p>La spécialisation permet à l'architecte d'information de créer des éléments et des
+                attributs qui conviennent mieux à votre organisation que ceux fournit par défaut
+                dans DITA. Les éléments créés avec la spécialisation sont basés sur des éléments
+                existants dans DITA.</p>
+            <p>Les organisations ont souvent recours à la specialisation pour prendre en compte
+                leurs exigences uniques, tel que&#xA0;:<ul id="ul_m12_fq5_vr">
+                    <li>Création de nouveaux éléments pour contenir des informations spécifiques
+                        dans un ordre spécifique</li>
+                    <li>Création de nouveaux attributs pour identifier une information
+                        spécifique</li>
+                    <li>Création de nouveaux noms pour des éléments qui sont plus pertinent pour les
+                        auteurs.</li>
+                </ul></p>
+            <p>Par example, vous pourriez exiger un ensemble d'éléments &lt;codeblock> spécifique à
+                un langage, tel que &lt;codeblocks-java> ou &lt;codeblock-php> pour faire la
+                distinction entre des exemples de code Java et PHP. Cela pourrait aussi être réalisé
+                en créant un nouvel attribut language pour l'élément &lt;codeblock>&#xA0;:
+                &lt;codeblock language="java"> ou &lt;codeblock language=php">.</p>
+            <note type="important">Attention à la spécialisation. Lorsque vous spécialisez, vous
+                définissez des balises plus spécifiques, mais la spécialisation augmente le coût de
+                la mise en œuvre. Vous devez équilibrer la valeur de la spécialisation par rapport
+                aux coûts de mise en œuvre et de maintenance des spécialisations.</note>
+            <p>En plus de la spécialisation, les <i>contraintes</i> permettent aux architectes
+                d’information d’éliminer les éléments inutiles ou indésirables. Par exemple, si
+                votre organisation ne documente pas le code logiciel, votre architecte d’information
+                peut éliminer les balises &lt;codeblock> et &lt;codeph> (expression de code). La
+                contrainte réduit le nombre d'éléments présentés aux auteurs, ce qui peut leur
+                faciliter la vie.</p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

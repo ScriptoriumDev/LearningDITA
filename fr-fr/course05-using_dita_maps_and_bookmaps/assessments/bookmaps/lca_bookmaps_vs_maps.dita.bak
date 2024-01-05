@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_dfp_4cp_dt">
+ <title>Bookmaps contre cartes</title>
+ <prolog>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+   Scriptorium</author>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+   Scriptorium</author>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+   Scriptorium</author>
+  <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external" format="html"
+   >Marine Martin-Guillerez (Traductrice)</author>
+  <critdates>
+   <created date="2015-08-26"/>
+   <revised modified="2020-10-15"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcMultipleSelect id="bookmaps_2">
+    <lcQuestion>Quand est-il le plus judicieux de compiler vos rubriques dans une bookmap plutôt que
+     dans une carte&#xA0;? (choisir toutes les réponses qui s'appliquent)</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_g4p_msy_kv">
+     <lcAnswerOption>
+      <lcAnswerContent>Lorsque vous avez besoin de structure de type livre (telles que des
+       introductions ou des chapitres) dans votre contenu publié</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Lorsque vous publiez une très courte collection de rubriques, dont aucune
+       n'est imbriquée les unes dans les autres</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Lorsque vous avez besoin d'options flexibles et sophistiquées pour stocker
+       des métadonnées sur votre contenu publié</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Lorsque vous devez fournir votre contenu sous forme électronique
+       uniquement</lcAnswerContent>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+   </lcMultipleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

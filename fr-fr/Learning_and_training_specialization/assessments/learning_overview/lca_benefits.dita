@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
 <learningAssessment id="lca_benefits">
-    <title>Avantages liés à la spécialisation E&amp;A</title>
+    <title>Avantages liés à la spécialisation A&amp;F</title>
     <prolog>
         <author href="http://www.scriptorium.com" scope="external" format="html">Kaitlyn Heath, Scriptorium</author>
         <author>Decarnelle Rémi (traducteur)</author>
@@ -14,7 +14,7 @@
         <lcInteraction>
             <lcMultipleSelect id="ms-benefits">
                 <lcQuestion>Choissisez dans les affirmations suivantes quelles seraient les raisons
-                    valables pour utiliser la spécialisation E&amp;A :</lcQuestion>
+                    valables pour utiliser la spécialisation A&amp;F&#xA0;:</lcQuestion>
                 <lcAnswerOptionGroup>
                     <lcAnswerOption>
                         <lcAnswerContent>Vous souhaitez créer une rubrique tâche.</lcAnswerContent>
@@ -26,7 +26,7 @@
                     </lcAnswerOption>
                     <lcAnswerOption>
                         <lcAnswerContent>Vous produisez du contenu pédagogique sur support physique
-                            et web.</lcAnswerContent>
+                            et internet.</lcAnswerContent>
                         <lcCorrectResponse/>
                     </lcAnswerOption>
                     <lcAnswerOption>
@@ -35,7 +35,7 @@
                         <lcCorrectResponse/>
                     </lcAnswerOption>
                 </lcAnswerOptionGroup>
-                <lcFeedbackIncorrect>Vous n'avez pas besoin de la spécialisation E&amp;A pour créer
+                <lcFeedbackIncorrect>Vous n'avez pas besoin de la spécialisation A&amp;F pour créer
                     une rubrique tâche.</lcFeedbackIncorrect>
             </lcMultipleSelect>
         </lcInteraction>

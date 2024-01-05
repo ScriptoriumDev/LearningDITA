@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_r51_zzt_qt" xml:lang="fr-FR">
+    <title>Créer un nouveau groupe de glossaire</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-10-12"/>
+            <revised modified="2020-07-02"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Comme pour l'entrée de glossaire, le groupe de glossaire doit contenir un seul
+                élément racine &lt;glossgroup> avec un attribut id qui contient un élément
+                &lt;title> et un ou plusieurs éléments &lt;glossterm> ou &lt;glossgroup>, chacun
+                avec un attribut id.</p>
+            <note>
+                <p>Cette leçon couvre l'utilisation de base des éléments groupe de glossaire. Pour
+                    les spécifications complètes de chaque élément, voir la <xref
+                        href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/glossgroup.html"
+                        format="html" scope="external">norme OASIS DITA version 1.2</xref>.</p>
+            </note>
+            <p><xref href="https://youtu.be/csP8WUT7EEs" format="html" scope="external">Vidéo&#xA0;:
+                    Créer un groupe de glossaire DITA</xref></p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_f1n_y2h_tt">
+        <title/>
+        <taskbody>
+            <steps>
+                <step>
+                    <cmd>Faites une copie du fichier l_debut_glossgroup.dita et ouvrez-le dans votre
+                        éditeur.</cmd>
+                    <info>
+                        <note>Si vous utilisez un éditeur DITA, assurez-vous que vous êtes en mode
+                            texte plutôt qu'en mode auteur ou visuel.</note>
+                    </info>
+                    <stepxmp>
+                        <p>Vous devriez voir ceci&#xA0;:</p>
+                        <pre>&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;!DOCTYPE glossgroup PUBLIC "-//OASIS//DTD DITA Glossary Group//EN" "glossgroup.dtd">
+&lt;glossgroup id="equipement_canard">
+    &lt;title>&lt;/title>
+&lt;/glossgroup>
+</pre>
+                    </stepxmp>
+                    <info>
+                        <p>La première ligne (qui commence par <tt>&lt;?xml</tt>) est une
+                            déclaration XML, qui est une partie standard à tous les fichiers
+                            XML.</p>
+                        <p>La deuxième ligne est la déclaration DOCTYPE, qui indique aux éditeurs ou
+                            aux générateurs de publication DITA qu'il s'agit d'un groupe de
+                            glossaire DITA. Les programmes utilisent ensuite cette information pour
+                            valider le contenu de la rubrique. Le DOCTYPE sera spécifique à chaque
+                            type de rubrique que vous créez.</p>
+                        <p>La troisième ligne contient la balise d'ouverture de l'élément
+                            &lt;glossgroup>. L'attribut id associé à l'élément &lt;glossgroup> est
+                            obligatoire. </p>
+                        <p>La quatrième ligne contient l'élément &lt;title>.</p>
+                    </info>
+                </step>
+                <step>
+                    <cmd>À l'intérieur de l'élément &lt;title>, ajoutez un titre qui aidera à
+                        identifier le groupe de glossaire.</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE glossgroup PUBLIC "-//OASIS//DTD DITA Glossary Group//EN" "glossgroup.dtd">
+&lt;glossgroup id="equipement_canard">
+<ph outputclass="newchanged">   &lt;title>Matériel d'observation des canards&lt;/title></ph>
+
+&lt;/glossgroup></pre>
+                    </stepxmp>
+                    <info>
+                        <p>Bien que l'élément &lt;title> soit requis dans le cadre du modèle de
+                            contenu, vous n'avez pas nécessairement besoin d'y ajouter du
+                            contenu.</p>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Après l'élément &lt;title>, ajoutez quatre éléments &lt;glossentry> avec
+                        des attributs id.</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE glossgroup PUBLIC "-//OASIS//DTD DITA Glossary Group//EN" "glossgroup.dtd">
+&lt;glossgroup id="equipement_canard">
+    &lt;title>Matériel d'observation des canards&lt;/title>
+    <ph outputclass="newchanged">&lt;glossentry id="">&lt;/glossentry>
+    &lt;glossentry id="">&lt;/glossentry>
+    &lt;glossentry id="">&lt;/glossentry>
+    &lt;glossentry id="">&lt;/glossentry></ph>
+    
+&lt;/glossgroup></pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>À l'intérieur de chaque élément &lt;glossentry>, ajoutez un élément
+                        &lt;glossterm> et renseignez les attributs id.</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE glossgroup PUBLIC "-//OASIS//DTD DITA Glossary Group//EN" "glossgroup.dtd">
+&lt;glossgroup id="equipement_canard">
+    &lt;title>Matériel d'observation des canards&lt;/title>
+    <ph outputclass="newchanged">&lt;glossentry id="jumelles">
+        &lt;glossterm>Jumelles&lt;/glossterm>    
+    &lt;/glossentry>
+    &lt;glossentry id="appats">
+        &lt;glossterm>Appâts pour canards&lt;/glossterm>   
+    &lt;/glossentry>
+    &lt;glossentry id="appeau">
+        &lt;glossterm>Appeau&lt;/glossterm>   
+    &lt;/glossentry>
+    &lt;glossentry id="telescope">
+        &lt;glossterm>Téléscope d'observation&lt;/glossterm>   
+    &lt;/glossentry></ph>
+    
+&lt;/glossgroup></pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Après chaque élément &lt;glossterm>, ajoutez un élément &lt;glossdef> avec
+                        les définitions.</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE glossgroup PUBLIC "-//OASIS//DTD DITA Glossary Group//EN" "glossgroup.dtd">
+&lt;glossgroup id="equipement_canard">
+    &lt;title>Matériel d'observation des canards&lt;/title>
+    <ph outputclass="newchanged">&lt;glossentry id="jumelles">
+        &lt;glossterm>jumelles&lt;/glossterm>
+        &lt;glossdef>Dispositif optique destiné à être utilisé avec les deux yeux pour voir des objets éloignés&lt;/glossdef>
+    &lt;/glossentry>
+    &lt;glossentry id="appats">
+        &lt;glossterm>appâts pour canards&lt;/glossterm>
+        &lt;glossdef>Appât utilisé pour attirer les canards. Peut aller des granulés spéciaux au pain blanc bon marché&lt;/glossdef>
+    &lt;/glossentry>
+    &lt;glossentry id="appeau">
+        &lt;glossterm>appeau&lt;/glossterm>
+        &lt;glossdef>Dispositif constitué d'un tube contenant un roseau, utilisé pour imiter et attirer les canards&lt;/glossdef>
+    &lt;/glossentry>
+    &lt;glossentry id="telescope">
+        &lt;glossterm>téléscope d'observation&lt;/glossterm>
+        &lt;glossdef>Dispositif optique destiné à être utilisé avec un seul œil, qui permet une vision plus détaillée que les jumelles&lt;/glossdef>
+    &lt;/glossentry></ph>
+    
+&lt;/glossgroup></pre>
+                    </stepxmp>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

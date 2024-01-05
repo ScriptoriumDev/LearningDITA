@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_p3h_frt_qt" xml:lang="fr-FR">
+    <title>Créer une nouvelle entrée de glossaire</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-10-12"/>
+            <revised modified="2020-07-02"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>L'entrée de glossaire doit contenir au moins un élément racine (avec un attribut id)
+                de type &lt;glossentry> (entrée de glossaire) qui contient un élément de type
+                &lt;glossterm> (terme de glossaire).</p>
+            <p>L'élément &lt;glossterm> est une spécialisation de l'élément &lt;title>. L'élément
+                &lt;glossterm> peut contenir n'importe quel élément qu'un élément &lt;title> peut
+                contenir.</p>
+            <p>L'élément &lt;glossdef> doit suivre l'élément &lt;glossterm> et contient la
+                définition. L'élément &lt;glossdef> peut contenir n'importe quel élément autorisé
+                dans l'élément &lt;section>, sauf un élément &lt;title>. </p>
+            <p>L'élément &lt;glossbody> (corps du glossaire) peut éventuellement suivre l'élément
+                glossdef, et peut contenir une série d'éléments spécialisés qui peuvent être
+                utilisés pour fournir des détails supplémentaires sur le terme du glossaire.
+                L'élément &lt;glossbody> dépasse le cadre de cet exercice, et sera traité dans une
+                leçon ultérieure.</p>
+            <p><xref href="https://youtu.be/6JrvPjKwphM" format="html" scope="external">Vidéo&#xA0;: Créer
+                    une entrée de glossaire DITA</xref></p>
+            <note><p>En général, il est préférable de faire précéder le nom de fichier des entrées
+                de votre glossaire de «&#xA0;g_&#xA0;» afin de faciliter leur recherche dans une structure
+                    de fichier. Cependant, conformément à nos autres supports pédagogiques, nous
+                    utilisons «&#xA0;l_&#xA0;».</p></note>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_i3g_jkh_1t">
+        <title/>
+        <taskbody>
+            <steps id="steps_f5k_kkh_1t">
+                <step>
+                    <cmd>Faites une copie du fichier l_debut_glossentree.dita et ouvrez-le dans
+                        votre éditeur.</cmd>
+                    <info>
+                        <note>Si vous utilisez un éditeur DITA, assurez-vous que vous êtes en mode
+                            texte plutôt qu'en mode auteur ou visuel.</note>
+                    </info>
+                    <stepxmp>
+                        <p>Vous devriez voir ceci&#xA0;:</p>
+                        <pre>&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd">
+&lt;glossentry id="canard">
+    &lt;glossterm>&lt;/glossterm>
+&lt;/glossentry>
+</pre>
+                    </stepxmp>
+                    <info>
+                        <p>La première ligne (qui commence par <tt>&lt;?xml</tt>) est une
+                            déclaration XML, qui est une partie standard de tous les fichiers
+                            XML.</p>
+                        <p>La deuxième ligne est la déclaration DOCTYPE, qui indique aux éditeurs ou
+                            aux générateurs de sortie DITA qu'il s'agit d'un glossaire DITA. Les
+                            programmes utilisent ensuite cette information pour valider le contenu
+                            de la rubrique. Le DOCTYPE sera spécifique à chaque type de rubrique que
+                            vous créez.</p>
+                        <p>La troisième ligne contient la balise d'ouverture de l'élément
+                            &lt;glossentry>. L'attribut id associé à l'élément &lt;glossentry> est
+                            obligatoire. </p>
+                        <p>La quatrième ligne contient l'élément &lt;glossterm>.</p>
+                    </info>
+                </step>
+                <step>
+                    <cmd>À l'intérieur de l'élément &lt;glossterm>, insérez le terme de glossaire à
+                        définir.</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd">
+&lt;glossentry id="canard">
+<ph outputclass="newchanged">   &lt;glossterm>canard&lt;/glossterm></ph>
+
+&lt;/glossentry></pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Après le terme &lt;glossterm>, ajoutez un élément &lt;glossdef>.</cmd>
+                    <info>Dans la mesure du possible, l'attribut id associé à l'attribut
+                        &lt;glossentry> doit être lisible par l'homme pour faciliter le
+                        référencement ultérieur, de préférence aussi proche que possible du terme du
+                        glossaire.</info>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd">
+&lt;glossentry id="canard">
+&lt;glossterm>Canard&lt;/glossterm>
+<ph outputclass="newchanged">&lt;glossdef>&lt;p>Type d'oiseau nageur caractérisé par des pieds palmés,
+    un bec large et plat et un cancanement&lt;/p>&lt;/glossdef></ph>
+    
+&lt;/glossentry></pre>
+                    </stepxmp>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

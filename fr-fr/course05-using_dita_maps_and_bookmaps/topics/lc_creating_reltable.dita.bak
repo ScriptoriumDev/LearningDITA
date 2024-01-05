@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<learningContent id="lc_creating_reltable">
+    <title>Créer une table des relations</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2016-03-21"/>
+            <revised modified="2020-10-29"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Une table des relations est contenue dans l'élément &lt;reltable>. L'élément
+                &lt;reltable> est toujours un enfant de l'élément &lt;map> ou &lt;bookmap>. Une
+                carte ou bookmap peut contenir plusieurs éléments &lt;reltable>.</p>
+            <p>L'emplacement de l'élément &lt;reltable> est différent pour les cartes et les
+                bookmaps&#xA0;:<ul id="ul_mbv_stx_3v">
+                    <li>Dans une carte, les éléments &lt;reltable> peuvent se trouver n'importe où.
+                        Cependant, il est généralement placé à la fin de la carte (après le dernier
+                        des éléments &lt;topicref>). </li>
+                    <li>Dans une bookmap, les éléments &lt;reltable> doivent apparaître comme les
+                        derniers éléments de la bookmap (c'est-à-dire avant la balise
+                        &lt;/bookmap>).</li>
+                </ul></p>
+            <p>Chaque colonne d'une table des relations contient un type d'information similaire. Le
+                type d'information dans chacune des colonnes est défini par les éléments
+                &lt;relcolspec> dans la ligne d'en-tête de la table des relations (&lt;relheader>). </p>
+            <p>Dans la forme la plus courante de la table des relations, les éléments
+                &lt;relcolspec> définissent des colonnes pour les concepts, les tâches et les
+                références. Toutefois, une table des relations ne se limite pas à ces types. </p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_zh2_srt_jv">
+        <title/>
+        <taskbody>
+            <steps id="steps_bms_trt_jv">
+                <step>
+                    <cmd>Ouvrez le fichier
+                        exemples_cartes_bookmaps/exemples/_reltable_debut.ditamap.</cmd>
+                    <info>Cette carte est déjà peuplée d'éléments &lt;topicref>. </info>
+                </step>
+                <step>
+                    <cmd>À la fin du fichier, avant la balise &lt;/map>, ajoutez un élément
+                        &lt;reltable>.</cmd>
+                    <stepxmp>
+                        <pre>...
+    &lt;/topichead>
+    &lt;/topicref>
+    
+    &lt;mapref href="g_orggloss_canards.ditamap" format="ditamap"/>
+    
+<ph outputclass="newchanged">    &lt;reltable title="Table des relations canards">
+    &lt;/reltable>
+ </ph>
+&lt;/map>
+</pre>
+                    </stepxmp>
+                    <info>Veuillez noter que vous pouvez utiliser l'attribut title dans l'élément
+                        &lt;reltable> pour vous aider à identifier l'objectif de la table des
+                        relations, mais le titre n'est jamais affiché dans le document généré.
+                    </info>
+                </step>
+                <step>
+                    <cmd>À l'intérieur de la table des relations, ajoutez un élément &lt;relheader>
+                        contenant trois éléments &lt;relcolspec>.</cmd>
+                    <stepxmp>
+                        <pre>&lt;reltable title="Table des relations canards">
+<ph outputclass="newchanged">    &lt;relheader>
+        &lt;relcolspec/>
+        &lt;relcolspec/>
+        &lt;relcolspec/>
+    &lt;/relheader>
+</ph>&lt;/reltable>
+</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Ajoutez un attribut type à chacun de trois éléments &lt;relcolspec> pour
+                        les concepts, tâches et références.</cmd>
+                    <stepxmp>
+                        <pre>
+&lt;relheader><ph outputclass="newchanged">
+    &lt;relcolspec type="concept"/>
+    &lt;relcolspec type="task"/>
+    &lt;relcolspec type="reference"/>
+</ph>&lt;/relheader>
+</pre>
+                    </stepxmp>
+                </step>
+            </steps>
+            <postreq>Vous continuez à remplir l'élément &lt;reltable> dans la section
+                suivante.</postreq>
+        </taskbody>
+    </task>
+</learningContent>

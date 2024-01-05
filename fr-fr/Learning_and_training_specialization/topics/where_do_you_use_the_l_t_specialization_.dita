@@ -2,7 +2,7 @@
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <learningContent id="where_do_you_use_the_l_t_specialization_">
-    <title>Cas d'utilisation de la spécialisation Enseigner et Apprendre</title>
+    <title>Cas d'utilisation de la spécialisation Apprendre et Former</title>
     <prolog class="- topic/prolog ">
         <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
             class="- topic/author ">Simon Bate, Scriptorium</author>
@@ -23,19 +23,19 @@ E-learning
 Shared content development between training and documentation teams
 mix of e-learning & printed classroom materials
 -->
-            <p>Voici une liste de cas où vous pouvez utiliser la spécialisation DITA E&amp;A :</p>
+            <p>Voici une liste de cas où vous pouvez utiliser la spécialisation DITA A&amp;F :</p>
             <ul id="ul_bkv_s44_scb">
-                <li>Production du contenu pour les instructeurs : vous pouvez utiliser la
-                    spécialisation E&amp;A pour générer des diapositives ou des supports papiers
-                    pour les étudiants. Cela comprend des plans de cours, des cahiers d'exercice,
+                <li>Production du contenu pour les instructeurs&#xA0;: vous pouvez utiliser la
+                    spécialisation A&amp;F pour générer des diapositives ou des supports papiers
+                    pour les étudiants. Cela comprend des plans de cours, des cahiers d'exercices,
                     des fiches de révision ou des évaluations.</li>
-                <li>Production de contenu e-learning : la spécialisation E&amp;A vous permet de
-                    préparer votre conternu pour le web (comme le fait Scriptorium pour
-                    ApprendreDita).</li>
-                <li>Si les instructions et le reste des rédacteurs utilisent DITA, alors il est
-                    possible de mettre en commun tout le contenu créé. Bien que les présentations où
-                    les supports de cours puissent prendre des formes diverses, le groupe peut
-                    partager des fragments de textes, tableaux, etc.</li>
+                <li>Production de contenu d'apprentissage en ligne&#xA0;: la spécialisation A&amp;F
+                    vous permet de préparer votre contenu pour internet (comme le font Scriptorium
+                    et DITA Molière pour Apprendre DITA).</li>
+                <li>Si les équipes chargées de la formation et de la création de contenu utilisent
+                    DITA, alors il est possible de mettre en commun tout le contenu créé. Bien que
+                    les présentations ou les supports de cours puissent prendre des formes diverses,
+                    le groupe peut partager des fragments de textes, tableaux, etc.</li>
             </ul>
         </lcInstruction>
     </learningContentbody>

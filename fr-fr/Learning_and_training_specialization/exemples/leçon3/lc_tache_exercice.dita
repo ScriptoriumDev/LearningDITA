@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="lc_tache_exercice">
+    <title>Créer une nouvelle rubrique tâche</title>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Au minimum, la rubrique tâche doit contenir un élément racine &lt;task> (avec un
+                attribut "id") contenant un élément &lt;title>.</p>
+            <p>À la suite de l'élément &lt;title> et d'un optionnel &lt;shortdesc>, un &lt;taskbody>
+                doit être ajouté. Il contiendra le contenu de la procédure. Les éléments au sein de
+                &lt;taskbody> doivent être conformes à un ordre spécifique. Ce cours présente les
+                éléments de &lt;taskbody> dans leur ordre d'apparition.</p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_lc_exercise">
+        <title>Exercice</title>
+        <taskbody>
+            <steps id="steps_lc_exercise">
+                <step>
+                    <cmd>Créer une copie de l_tache_debut.dita et l'ouvrir dans votre éditeur.</cmd>
+                    <info>
+                        <note>Si vous utilisez un éditeur capable de reconnaître DITA, assurez-vous
+                            d'utiliser le mode texte plutôt que le mode auteur.</note>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Mettre à jour le texte à l'intérieur de l'élément &lt;title>.</cmd>
+                </step>
+                <step>
+                    <cmd>Ajouter l'élément &lt;taskbody> après &lt;title>.</cmd>
+                    <info>L'élément &lt;taskbody> contient le contenu de la procédure.</info>
+                    <info>C'est une partie essentiel d'une procédure DITA. Le reste de cette leçon
+                        vous montrera comment ajouter les deux premiers éléments enfants dans un
+                        élément &lt;taskbody>.</info>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

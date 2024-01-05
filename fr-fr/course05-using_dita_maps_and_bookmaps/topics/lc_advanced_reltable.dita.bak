@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<learningContent id="lc_advanced_reltable">
+    <title>Tables des relations avancées</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2016-03-25"/>
+            <revised modified="2020-10-30"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcIntro>
+            <p><b>L'attribut collection-type</b></p>
+            <p>La spécification DITA stipule que lorsqu'une cellule de la table des relations
+                contient plusieurs éléments &lt;topicref>, les rubriques générées indiquées dans
+                cette cellule ne sont pas liées entre elles. Cependant, si l'attribut
+                collection-type de l'élément &lt;relcell> a la valeur «&#xA0;family&#xA0;», toutes les
+                rubriques référencées dans cet élément &lt;relcell> seront liées les unes aux
+                autres.</p>
+            <p>Dans l'exemple suivant, les rubriques A et B seront liées l'une à l'autre&#xA0;:</p>
+            <pre>&lt;relcell collection-type="family">
+   &lt;topicref href="a.dita"/>
+   &lt;topicref href="b.dita"/>
+&lt;/relcell></pre>
+            <p><b>L'attribut de liaison</b></p>
+            <p>En règle générale, lorsque deux rubriques (rubrique A et rubrique B) se trouvent sur
+                la même ligne d'une table des relations (mais dans des colonnes différentes), la
+                sortie de la rubrique A contiendra un lien vers la rubrique B, et la rubrique B
+                contiendra un lien vers la rubrique A. </p>
+            <pre>&lt;relrow>
+   &lt;relcell>
+      &lt;topicref href="a.dita"/>
+   &lt;/relcell>
+   &lt;relcell>
+      &lt;topicref href="b.dita"/>
+   &lt;/relcell>
+&lt;/relrow></pre>
+            <p>Cependant, dans certains cas, ce comportement n'est pas nécessaire ni souhaité.</p>
+            <p>La rubrique B peut être une tâche commune ou un terme de glossaire associé à de
+                nombreux concepts. Nous pourrions vouloir que la rubrique A (et d'autres rubriques)
+                soit liée à la rubrique B, mais nous ne voulons pas que la rubrique B soit liée à la
+                rubrique A (ou à l'une des autres rubriques). Dans ce cas, nous modifions l'élément
+                &lt;topicref> pour la rubrique B en ajoutant l'attribut linking et en lui attribuant
+                la valeur «&#xA0;targetonly&#xA0;». </p>
+            <pre>&lt;relrow>
+   &lt;relcell>
+      &lt;topicref href="a.dita"/>
+   &lt;/relcell>
+   &lt;relcell>
+      &lt;topicref href="b.dita" linking="targetonly"/>
+   &lt;/relcell>
+&lt;/relrow></pre>
+            <p>Inversement, la rubrique A peut être une «&#xA0;page d'accueil&#xA0;» pour un système d'aide&#xA0;;
+                nous pouvons vouloir l'utiliser comme point d'entrée qui renvoie vers un certain
+                nombre de rubriques différentes, mais nous ne voulons pas que les rubriques
+                renvoient vers cette page (pour quelque raison que ce soit). Dans ce cas, nous
+                ajoutons l'attribut linking au &lt;topicref> de la rubrique A et utilisons la valeur
+                «&#xA0;sourceonly&#xA0;».</p>
+            <pre>&lt;relrow>
+   &lt;relcell>
+      &lt;topicref href="a.dita" linking="sourceonly"/>
+   &lt;/relcell>
+   &lt;relcell>
+      &lt;topicref href="b.dita"/>
+   &lt;/relcell>
+&lt;/relrow></pre>
+            <p><b>Étiqueter les colonnes</b></p>
+            <p>Lors de la publication, le DITA Open Toolkit peut utiliser les types de rubriques
+                dans la balise &lt;relcolspec> pour regrouper des ensembles de liens connexes
+                (généralement dans des sections intitulées "Concept", "Tâche" et "Référence").
+                D'autres générateurs de sortie peuvent suivre cette même pratique. Vous pouvez
+                outrepasser cet intitulé en utilisant un élément &lt;title> dans l'élément
+                &lt;relcolspec>.</p>
+            <pre>&lt;relcolspec type="task">
+   &lt;title>Référencés dans ces tâches&lt;/title>
+&lt;/relcolspec></pre>
+            <p>L'élément &lt;relcolspec> peut également contenir un élément &lt;topicref> d'une
+                rubrique qui fournit plus d'informations sur la colonne elle-même. Pour obtenir une
+                description complète du contenu de l'élément &lt;relcolspec>, se référer à la <xref
+                    href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/relcolspec.html"
+                    format="html" scope="external">norme OASIS DITA version 1.2</xref></p>
+            <p><b>Lien vers des ressources externes</b></p>
+            <p>Une table des relations peut contenir des liens vers des ressources externes. Pour ce
+                faire, l'élément &lt;relcolspec> et le contenu de l'élément &lt;relcell> sont
+                légèrement différents de ce qui a été montré précédemment.</p>
+            <p>Dans cette capture d'écran d'une table des relations, la quatrième colonne contient
+                des liens vers une ressource externe.</p>
+            <image href="../images/ref_externe.png" id="image_gqy_nsv_mv" base="2020/11"/>
+            <p>Comme la quatrième colonne ne pointe pas vers des ressources DITA, l'élément
+                &lt;relcolspec> n'a pas d'attribut type. Cependant, il comprend un élément
+                &lt;title> pour définir l'objectif de la colonne. </p>
+            <pre>&lt;relcolspec>
+    &lt;title>Liens internet&lt;/title>
+&lt;/relcolspec></pre>
+            <p>Dans l'élément &lt;topicref>, l'attribut href indique l'URL, l'attribut scope est «
+                external&#xA0;» et l'attribut format est «&#xA0;html&#xA0;». En outre, l'élément &lt;topicref>
+                comprend un élément &lt;navtitle> pour que le lien soit plus convivial&#xA0;:</p>
+            <pre>&lt;relcell>
+    &lt;topicref href="http://www.example.com" scope="external" format="html">
+        &lt;topicmeta>
+            &lt;navtitle>Une source de nourriture pour les canards.&lt;/navtitle>
+        &lt;/topicmeta>
+    &lt;/topicref>
+&lt;/relcell></pre>
+        </lcIntro>
+    </learningContentbody>
+</learningContent>

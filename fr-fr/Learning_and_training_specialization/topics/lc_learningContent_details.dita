@@ -17,21 +17,21 @@
         <lcInstruction id="lcInstruction_js5_cqb_yz">
             <p>Le type de rubrique &lt;learningContent> contient les éléments servant à accueillir
                 le contenu pédagogique.</p>
-            <p>Dans une rubrique &lt;learningContent> , l'élément principal est
-                &lt;learningContentbody>. Il va à son tour contenir les éléments suivants :</p>
+            <p>Dans une rubrique &lt;learningContent>, l'élément principal est
+                &lt;learningContentbody>. Il va, à son tour, contenir les éléments suivants&#xA0;:</p>
             <ol>
-                <li>&lt;lcIntro> : Introduction du contenu</li>
-                <li>&lt;lcDuration> : Temps estimé pour terminer la lecture du contenu</li>
-                <li>&lt;lcObjectives> : Ce que les étudiants gagneront grâce à ce cours</li>
-                <li>&lt;lcChallenge> : Explication données aux étudiants sur ce que vous voulez
+                <li>&lt;lcIntro>&#xA0;: Introduction du contenu</li>
+                <li>&lt;lcDuration>&#xA0;: Temps estimé pour terminer la lecture du contenu</li>
+                <li>&lt;lcObjectives>&#xA0;: Ce que les étudiants gagneront grâce à ce cours</li>
+                <li>&lt;lcChallenge>&#xA0;: Explications données aux étudiants sur ce que vous voulez
                     qu'ils pratiquent</li>
-                <li>&lt;lcInstruction> : Le contenu éducatif</li>
+                <li>&lt;lcInstruction>&#xA0;: Le contenu éducatif</li>
             </ol>
             <p>Ces éléments peuvent être suivi par un nombre illimité de &lt;section>.</p>
             <p>La rubrique &lt;learningContent> vous permet également d'utiliser du contenu de
-                rubrique tâches, concept, ou référence. Vous pouvez les ajouter directement dans la
+                rubrique tâches, concept ou référence. Vous pouvez les ajouter directement dans la
                 rubrique &lt;learningContent> ou les ajouter à l'aide d'une carte. Nous explorerons
-                ce sujet davantage dans la lesson sur la rubrique &lt;learningContent>, mais vous
+                ce sujet davantage dans la leçon sur la rubrique &lt;learningContent>, mais vous
                 pouvez savoir qu'il est possible de référencer du contenu écrit pour des rubriques
                 DITA standards. Par exemple, si vous produisez un cours basé sur un autre, vous
                 pouvez référencer le contenu DITA existant dans votre nouveau cours.</p>

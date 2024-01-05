@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_cxl_nwy_lt" xml:lang="fr-FR">
+    <title>Fournir un contexte approprié</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-09-25"/>
+            <revised modified="2020-05-24"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcIntro>
+            <p>L'élément &lt;context> devrait fournir un contexte suffisant pour que les lecteurs
+                comprennent pourquoi ils doivent accomplir une tâche ou ce que la tâche accomplit.
+                L'élément &lt;context> ne devrait pas être utilisé pour des informations
+                conceptuelles ou générales étendues.</p>
+            <p>Si vous avez besoin de fournir de l'information conceptuelle supplémentaire, de
+                l'information générale, ou des principes de fonctionnement, créez un concept et
+                fournissez un lien vers le concept dans votre tâche.</p>
+            <p>Notez qu'il peut y avoir des similarités entre l'élément &lt;context> et l'élément
+                &lt;shortdesc> (courte description). Les deux fournissent de l'information sur
+                l'objectif de la tâche. Cependant, l'élément &lt;shortdesc> fournit normalement une
+                information succinte utilisé dans la prévisualisation des liens ou dans les
+                résultats de recherche, tandis que l'élément &lt;context> peut être légèrement plus
+                détaillé et peut fournir de l'information supplémentaire sur ce que la tâche peut
+                accomplir.</p>
+        </lcIntro>
+    </learningContentbody>
+</learningContent>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningAssessment id="lca_conref_push_requirements">
+ <title>Évaluer les extensions personnalisées</title>
+ <prolog class="- topic/prolog ">
+  <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+   class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+  <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+   class="- topic/author ">Noelle Russell, Scriptorium</author>
+  <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+   class="- topic/author ">Ashley Stant, Scriptorium</author>
+  <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+   class="- topic/author ">Simon Bate, Scriptorium</author>
+  <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+   class="- topic/author ">Bill Swallow, Scriptorium</author>
+  <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+   class="- topic/author ">Jake Campbell, Scriptorium</author>
+  <author type="contributor" href="https://www.linkedin.com/in/marinemartinguillerez/"
+   scope="external" format="html" class="- topic/author ">Marine Martin-Guillerez
+   (Traductrice)</author>
+  <critdates>
+   <created golive="2017-03-27" date="2017-02-06"/>
+   <revised modified="2021-02-01"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcMultipleSelect id="evaluating">
+    <lcQuestion>Lorsque vous évaluez vos besoins d'extensions personnalisées, que devriez-vous
+     considérer&#xA0;? (choisir les réponses qui s'appliquent)</lcQuestion>
+    <lcAnswerOptionGroup>
+     <lcAnswerOption>
+      <lcAnswerContent>De quels types de publication vous avez besoin</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Dans quelle mesure vos exigences de sortie diffèrent des sorties par défaut
+       du DITA OT</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>À quoi devrait ressembler votre publication</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Comment la structure de votre contenu source affecte les capacités de
+       publication de DITA OT</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>Lors de l'évaluation de votre besoin en extensions personnalisées, vous
+     devez prendre en compte les types de publication dont vous avez besoin, l'écart entre vos
+     besoins et les publication par défaut de DITA OT, l'aspect de votre publication et la façon
+     dont la structure de votre contenu source affecte les capacités de publication de DITA
+     OT.</lcFeedbackIncorrect>
+   </lcMultipleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

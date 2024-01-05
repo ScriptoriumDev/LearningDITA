@@ -21,28 +21,28 @@
             <p>La rubrique &lt;learningOverview> présente les objectifs et les prérequis du cours,
                 mais aussi son audience. </p>
             <p>Dans cette rubrique, l'élément principal est &lt;learningOverviewbody>. Cet élément
-                contient les éléments suivant dans le même ordre :</p>
+                contient les éléments suivant dans le même ordre&#xA0;:</p>
             <ol>
-                <li>&lt;lcIntro>: Introduction de l'aperçu</li>
-                <li>&lt;lcAudience>: Informations à propos des étudiants pour qui le cours est
+                <li>&lt;lcIntro>&#xA0;: Introduction de l'aperçu</li>
+                <li>&lt;lcAudience>&#xA0;: Informations à propos des étudiants pour qui le cours est
                     pensé</li>
-                <li>&lt;lcDuration>: La longueur prévue du cours</li>
-                <li>&lt;lcPrereqs>: Les conditions requises pour permettrent aux étudiants de suivre
+                <li>&lt;lcDuration>&#xA0;: La longueur prévue du cours</li>
+                <li>&lt;lcPrereqs>&#xA0;: Les conditions requises pour permettre aux étudiants de suivre
                     le cours</li>
-                <li>&lt;lcObjectives>: Ce que les étudiants gagneront à suivre le cours</li>
-                <li>&lt;lcResources>: Toutes les ressources externes nécessaires pour suivre le
+                <li>&lt;lcObjectives>&#xA0;: Ce que les étudiants gagneront à suivre le cours</li>
+                <li>&lt;lcResources>&#xA0;: Toutes les ressources externes nécessaires pour suivre le
                     cours</li>
             </ol>
             <p>Ces éléments peuvent être suivis par un nombre infini de &lt;section>.</p>
-            <p>Voici un exemple de  &lt;learningOverviewbody> :</p>
+            <p>Voici un exemple de &lt;learningOverviewbody>&#xA0;:</p>
             <pre>
-&lt;learningOverviewbody><draft-comment author="kheath">pre from "../LearningDITA/en-us/Learning_and_training_specialization/samples/lo_feedingducks.dita"</draft-comment>
+&lt;learningOverviewbody><draft-comment author="kheath">pre from "../LearningDITA/fr-fr/Learning_and_training_specialization/exemples/lo_feedingducks.dita"</draft-comment>
     &lt;lcAudience id="lcAudience_rth_l4r_rcb">Ce cours est à l'attention de propriétaires de groupes de petites ou moyennes tailles de canards domestiques.&lt;/lcAudience>
     &lt;lcDuration id="lcDuration_ohs_l4r_rcb">
         &lt;lcTime value="3 weeks"/>
     &lt;/lcDuration>
     &lt;lcObjectives id="lcObjectives_j3w_l4r_rcb">
-        &lt;lcObjectivesStem>À la fin de ce cours, vous serez capable de :&lt;/lcObjectivesStem>
+        &lt;lcObjectivesStem>À la fin de ce cours, vous serez capable de&#xA0;:&lt;/lcObjectivesStem>
         &lt;lcObjectivesGroup id="lcObjectivesGroup_cdr_2pr_rcb">
             &lt;lcObjective>Décrire la liste des aspects les plus importants d'une alimentation.&lt;/lcObjective>
             &lt;lcObjective>Décrire les formes communes d'alimentations ainsi que leurs points négatifs et positifs.&lt;/lcObjective>

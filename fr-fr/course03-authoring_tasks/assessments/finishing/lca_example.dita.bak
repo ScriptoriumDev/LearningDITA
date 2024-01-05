@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_hwg_z1b_dt19" xml:lang="fr-FR">
+ <title>Exemple</title>
+ <prolog>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+   Scriptorium</author>
+  <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external" format="html"
+   >Marine Martin-Guillerez (Traductrice)</author>
+  <critdates>
+   <created date="2015-08-24"/>
+   <revised modified="2020-05-21"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcTrueFalse id="true_false_example">
+    <lcQuestion>L'élément &lt;example> peut être utilisé à l'intérieur d'une étape.</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_opq_11c_kt">
+     <lcAnswerOption>
+      <lcAnswerContent>Vrai</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Faux</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>L'élément &lt;example> ne peut pas être utilisé à l'intérieur d'un élément
+     &lt;step>&#xA0;; utilisez &lt;stepxmp> pour les exemples d'étape.</lcFeedbackIncorrect>
+   </lcTrueFalse>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

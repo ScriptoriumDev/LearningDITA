@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_j2z_xnx_kt" xml:lang="fr-FR">
+    <title>Un tableau de choix</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-09-21"/>
+            <revised modified="2020-05-03"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcIntro>
+            <p>Le tableau de choix est un tableau à deux colonnes. Dans chaque ligne, la première
+                colonne contient une option (qui peut-être un mot-clé, un paramètre de ligne de
+                commande ou une valeur d'argument). La deuxième colonne de la ligne contient une
+                description détaillée de l'option. La description détaillée peut inclure plusieurs
+                paragraphes, des listes et même des images. </p>
+            <p>Les éléments contenus dans un élément &lt;choicetable> sont&#xA0;: </p>
+            <simpletable frame="all" relcolwidth="1.0* 1.0*" id="simpletable_rwy_l3n_2t">
+                <strow>
+                    <stentry>
+                        <p>&lt;chhead></p>
+                    </stentry>
+                    <stentry>
+                        <p>Lgne d'entête d'un élément &lt;choicetable>. L'élément &lt;chhead>
+                            contient les éléments &lt;choptionhd> et &lt;chdeskhd> et est optionnel.
+                            Il ne peut y avoir qu'un élément &lt;chhead> dans un élément
+                            &lt;choicetable>.</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;choptionhd></p>
+                    </stentry>
+                    <stentry>
+                        <p>Texte d'entête pour la colonne d'option dans un tableay de choix. Le
+                            texte devrait être encadré par un élément &lt;p> selon les meilleures
+                            pratiques.</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;chdeschd></p>
+                    </stentry>
+                    <stentry>
+                        <p>Texte d'entête pour la colonne description d'un tableau de choix. Le
+                            texte devrait être encadré par un élément &lt;p> selon les meilleures
+                            pratiques.</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;chrow></p>
+                    </stentry>
+                    <stentry>
+                        <p>Une ligne du corps du tableau de choix. L'élément &lt;chrow> contient les
+                            éléments &lt;choption> et &lt;chdesc>. Il peut y avoir un ou plusieurs
+                            éléments &lt;chrow> dans un élément &lt;choicetable>.</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;choption></p>
+                    </stentry>
+                    <stentry>
+                        <p>Texte de l'option dans une ligne du tableau de choix. Le texte devrait
+                            être encadré par un élément &lt;p> selon les meilleures pratiques.</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;chdesc></p>
+                    </stentry>
+                    <stentry>
+                        <p>Texte de la description dans une ligne du tableau de choix. Le texte
+                            devrait être encadré par un élément &lt;p> selon les meilleures
+                            pratiques. Il peut y avoir plusieurs éléments dans l'élément
+                            &lt;chdesc>.</p>
+                    </stentry>
+                </strow>
+            </simpletable>
+            <p><xref href="https://youtu.be/nBua0_PDfFA" format="html" scope="external">Vidéo&#xA0;:
+                    Créer un tableau de choix dans une tâche DITA </xref> montre comment utiliser
+                l'assistant de l'<xref href="http://www.oxygenxml.com/" format="html"
+                    scope="external">éditeur oXygen XML</xref>.</p>
+        </lcIntro>
+    </learningContentbody>
+    <task id="task_ers_h4x_kt">
+        <title/>
+        <taskbody>
+            <steps id="steps_etg_j4x_kt">
+                <step>
+                    <cmd>Continuez de travailler avec le fichier l_tache_debut.dita.</cmd>
+                </step>
+                <step>
+                    <cmd>À la suite de l'élément &lt;step> contenant l'élément &lt;choices>, créez
+                        une nouvelle étape avec un élément &lt;cmd> contenant le texte présenté ici
+                        &#xA0;:</cmd>
+                    <stepxmp>
+                        <pre><ph outputclass="newchanged">&lt;step>
+   &lt;cmd>Trouvez de bonnes optiques&lt;/cmd>
+&lt;/step>
+</ph></pre>
+                    </stepxmp>
+                    <info/>
+                </step>
+                <step>
+                    <cmd>Après l'élément &lt;cmd>, ajoutez un élément &lt;choicetable> et tous ses
+                        éléments enfants&#xA0;:</cmd>
+                    <stepxmp>
+                        <pre>&lt;step>
+   &lt;cmd>Trouvez de bonnes optiques&lt;/cmd>
+<ph outputclass="newchanged">   &lt;choicetable>
+     &lt;chrow>
+         &lt;choption>&lt;/choption>
+         &lt;chdesc>&lt;/chdesc>
+     &lt;/chrow>
+     &lt;chrow>
+         &lt;choption>&lt;/choption>
+         &lt;chdesc>&lt;/chdesc>
+     &lt;/chrow>
+   &lt;/choicetable></ph>
+&lt;/step>
+</pre>
+                    </stepxmp>
+                    <info>Pour chaque ligne dans le &lt;choicetable>, vous avez besoin d'un élément
+                        &lt;chrow>. La ligne contient deux éléments, tous deux requis&#xA0;:
+                        &lt;choption> qui contient le texte de l'option et &lt;chdesc> qui contient
+                        le texte de la description. Pour une utilisation normale, le &lt;choption>
+                        contient juste quelques mots (habituellement un), tandis que la description
+                        peut contenir de nombreuses phrases, ou même paragraphes (élément
+                        &lt;p>).</info>
+                </step>
+                <stepsection>Le &lt;choicetable> a une entête optionnelle (&lt;chhead>), qui vous
+                    permet d'étiqueter les deux colonnes du tableau.</stepsection>
+                <step>
+                    <cmd>Avant la première ligne du tableau de choix, ajoutez un élément &lt;chhead>
+                        et ses enfants, tel que présenté ici&#xA0;:</cmd>
+                    <stepxmp>
+                        <pre>&lt;step>
+   &lt;cmd>Trouvez de bonnes optiques&lt;/cmd>
+   &lt;choicetable>
+<ph outputclass="newchanged">     &lt;chhead>
+         &lt;choptionhd>&lt;/choptionhd>
+         &lt;chdeschd>&lt;/chdeschd>
+     &lt;/chhead></ph>
+     &lt;chrow>
+         &lt;choption>&lt;/choption>
+         &lt;chdesc>&lt;/chdesc>
+     &lt;/chrow>
+     ...
+   &lt;/choicetable>
+&lt;/step>
+</pre>
+                    </stepxmp>
+                    <info>L'élément &lt;choptionhd> fournit une entête à la colonne d'option&#xA0;; l'élément
+                        &lt;chdeschd> fournit une entête pour la colonne description.</info>
+                </step>
+                <step>
+                    <cmd>Ajoutez du contenu à l'élément &lt;chhead> et à ses enfants, tel que présenté
+                        ici&#xA0;:</cmd>
+                    <stepxmp>
+                        <pre>...
+<ph outputclass="newchanged">&lt;chhead>
+   &lt;choptionhd>
+      &lt;p>Type&lt;/p>
+   &lt;/choptionhd>
+   &lt;chdeschd>
+      &lt;p>Avantages&lt;/p>
+   &lt;/chdeschd>
+&lt;/chhead>
+</ph>...</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Ajoutez du contenu à l'élément &lt;chrow> et à ses enfants, tel que présenté
+                        ici&#xA0;:</cmd>
+                    <stepxmp>
+                        <pre>...
+<ph outputclass="newchanged">&lt;chrow>
+   &lt;choption>
+      &lt;p>Jumelles&lt;/p>
+   &lt;/choption>
+   &lt;chdesc>
+      &lt;p>Large champ de vision, permet des observations rapides&lt;/p>
+   &lt;/chdesc>
+&lt;/chrow>
+</ph>...</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Après la balise de fermeture de l'élément &lt;chrow>, ajoutez un autre
+                        élément &lt;chrow> et ajoutez-y du contenu tel que présenté ici&#xA0;:</cmd>
+                    <stepxmp>
+                        <pre>&lt;choicetable>
+...
+&lt;/chrow>
+<ph outputclass="newchanged">&lt;chrow>
+   &lt;choption>
+      &lt;p>Téléscope d'observation&lt;/p>
+   &lt;/choption>
+   &lt;chdesc>
+      &lt;p>Plus fort grossissement, meilleure collecte de la lumière&lt;/p>
+   &lt;/chdesc>
+&lt;/chrow>
+</ph>&lt;/choicetable></pre>
+                    </stepxmp>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

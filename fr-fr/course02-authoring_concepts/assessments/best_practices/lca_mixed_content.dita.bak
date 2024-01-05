@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_fn5_zq2_2t" xml:lang="fr-FR">
+ <title>Contenu mélangé</title>
+ <prolog>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+   Scriptorium</author>
+  <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external" format="html"
+   >Marine Martin-Guillerez (Traductrice)</author>
+  <critdates>
+   <created date="2015-08-28"/>
+   <revised modified="2020-03-15"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcTrueFalse id="lcTrueFalse_v2z_ps2_2t">
+    <lcQuestion>Un contenu mélangé peut affecter le style du texte dans la sortie
+     finale.</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_w2z_ps2_2t">
+     <lcAnswerOption>
+      <lcAnswerContent>Vrai</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Faux</lcAnswerContent>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>Le contenu mélangé peut être confus ou ambigu pour le formateur de sortie, ce
+     qui entraîne un style incohérent.</lcFeedbackIncorrect>
+   </lcTrueFalse>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_rcq_vht_qt" xml:lang="fr-FR">
+    <title>Créer une nouvelle référence</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-10-12"/>
+            <revised modified="2020-06-08"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Au minimum, la référence doit contenir un élément racine &lt;reference> (avec un
+                attribut id) qui contient un élément &lt;title>.</p>
+            <p>À la suite de l'élément &lt;title> et d'un élément optionel &lt;shortdesc>, un
+                élément &lt;refbody> contient le contenu de référence. De par sa conception, le
+                contenu de l'élément &lt;refbody> est limité à une poignée d'éléments. En d'autres
+                termes, une référence n'est pas aussi flexible dans son contenu qu'un concept.</p>
+            <p>Le corps d'une référence peut contenir des éléments qui ont été introduits dans les
+                cours précédents&#xA0;: &lt;table>, &lt;fig> (figure) ou &lt;image>, &lt;exemple> et
+                &lt;section>. Vous utilisez habituellement l'élément &lt;section> dans un élément
+                &lt;refbody> pour organiser les sections communes d'une référence, telles que les
+                descriptions de commande, les directives d'utilisation, les codes d'erreur, etc. En
+                outre, l'élément &lt;refbody> peut contenir deux éléments spécifiques aux
+                références&#xA0;: &lt;refsyn> (syntaxe de référence) et &lt;properties>. </p>
+            <p>Le corps d'une référence peut contenir un nombre quelconque de ces éléments, dans
+                n'importe quel ordre. </p>
+            <p>Les éléments &lt;example>, &lt;section> et &lt;refsyn> peuvent contenir l'élément
+                &lt;title>. Cela vous permet de créer des subdivisions au sein d'une rubrique
+                référence. Si nécessaire, une transformation en vue d'une publication peut insérer
+                ses propres titres pour les éléments &lt;properties>.</p>
+            <p><xref href="https://youtu.be/B3FVRhrfwkA" format="html" scope="external">Vidéo&#xA0;:
+                    Créer une référence DITA</xref></p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_i3g_jkh_1t">
+        <title/>
+        <taskbody>
+            <steps id="steps_f5k_kkh_1t">
+                <step>
+                    <cmd>Faites une copie du fichier l_reference_debut.dita et ouvrez-le dans votre
+                        éditeur.</cmd>
+                    <info>
+                        <note>Si vous utilisez un éditeur DITA, assurez-vous que vous êtes en mode
+                            texte, plutôt qu'en mode auteur ou visuel.</note>
+                    </info>
+                    <stepxmp>
+                        <p>Vous devriez voir ceci&#xA0;:</p>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+&lt;reference id="ma_premiere_ref">
+   &lt;title>&lt;/title>
+
+&lt;/reference></pre>
+                    </stepxmp>
+                    <info>
+                        <p>La première ligne (qui commence avec <tt>&lt;?xml></tt>) est une
+                            déclaration XML et est une partie standard à tous fichiers XML.</p>
+                        <p>La deuxième ligne est une déclaration DOCTYPE indiquant aux éditeurs DITA
+                            ou aux générateurs de publication DITA qu'il s'agit d'une référence
+                            DITA. Le programme utilise alors cette information lors de la validation
+                            du contenu de la rubrique. Le DOCTYPE sera différent pour chaque type de
+                            rubrique que vous créez.</p>
+                        <p>La troisième ligne contient la balise d'ouverture de l'élément
+                            &lt;reference>.</p>
+                        <p>La quatrième ligne contient l'élément &lt;title>.</p>
+                    </info>
+                </step>
+                <step>
+                    <cmd>À l'intérieur de l'élément &lt;title>, modifiez le texte du titre de la
+                        référence.</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+&lt;reference id="ma_premiere_ref">
+<ph outputclass="newchanged">   &lt;title>tNav&lt;/title></ph>
+
+&lt;/reference></pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Après l'élément &lt;title>, ajoutez un élément &lt;refbody>.</cmd>
+                    <info>L'élément &lt;refbody> contient tout le contenu courant de la
+                        référence.</info>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+&lt;reference id="ma_premiere_ref">
+   &lt;title>tNav&lt;/title>
+   <ph outputclass="newchanged">&lt;refbody>
+   &lt;/refbody>
+</ph>
+&lt;/reference></pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>À l'intérieur de l'élément &lt;refbody>, ajoutez un élément &lt;section> et
+                        ajoutez-y du contenu tel que présenté ici&#xA0;:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+&lt;reference id="ma_premiere_ref">
+   &lt;title>tNav&lt;/title>
+   &lt;refbody>
+    <ph outputclass="newchanged">&lt;section>&lt;p>La commande &lt;cmdname>tNav&lt;/cmdname> est utilisée dans la
+     base de données Canard pour naviguer vers une table ou une vue différente.&lt;/p>&lt;/section></ph>
+   &lt;/refbody> 
+&lt;/reference></pre>
+                    </stepxmp>
+                    <info>
+                        <note>
+                            <p>L'élément &lt;cmdname> (nom de commande) désigne le nom d'une
+                                commande lorsqu'elle est référencée comme faisant partie d'un
+                                logiciel, et fait partie du domaine de programmation. Pour plus
+                                d'informations sur le domaine de programmation, se référer à la
+                                    <xref
+                                    href="http://docs.oasis-open.org/dita/v1.2/os/spec/common/pr-d.html"
+                                    scope="external" format="html">Norme OASIS DITA version
+                                    1.2</xref>.</p>
+                        </note>
+                    </info>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

@@ -6,7 +6,7 @@
         <lcInteraction>
             <lcTrueFalse id="all-above">
                 <lcQuestion>Créer une question à choix multiple avec une seule réponse et proposer
-                    la réponse "toutes les réponses ci-dessus" est un meilleur choix que de créer
+                    la réponse «&#xA0;toutes les réponses ci-dessus&#xA0;» est un meilleur choix que de créer
                     une question à choix multiples avec plusieurs bonnes réponses.</lcQuestion>
                 <lcAnswerOptionGroup>
                     <lcAnswerOption>
@@ -18,7 +18,7 @@
                     </lcAnswerOption>
                 </lcAnswerOptionGroup>
                 <lcFeedbackIncorrect>Il est préférable de créer une question à choix multiples avec
-                    plusieurs bonnes réponses pour que l'ordre des réponses possibles soit
+                    plusieurs bonnes réponses. Ainsi, l'ordre des réponses possibles peut être
                     aléatoire.</lcFeedbackIncorrect>
             </lcTrueFalse>
         </lcInteraction>

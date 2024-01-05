@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_hrm_xjh_1t" xml:lang="fr-FR">
+    <title>Séparer le contenu du format</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-08-24"/>
+            <revised modified="2020-03-11"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>L'un des principaux avantages de la création de contenus structurés dans DITA est la
+                séparation du contenu et du format. Un contenu qui est étiqueté en fonction de sa
+                structure plutôt que de son apparence sera plus flexible dans ses capacités de
+                publication.</p>
+            <p>Par exemple, un contenu non structuré qui a été créé en tenant compte de la mise en
+                page fonctionnera mieux dans une publication imprimée ou PDF, et peut fonctionner
+                mal ou pas du tout dans une publication HTML. Cependant, une rubrique DITA
+                structurée sans formatage spécifié dans le contenu devrait fonctionner aussi bien
+                dans des types de publication multiples.</p>
+            <p>Pour les auteurs qui sont habitués à un environnement basé sur le formatage tel qu'un
+                programme de publication assistée par ordinateur, il peut être tentant d'abuser des
+                balises DITA pour essayer de contrôler l'aspect et la convivialité du contenu.
+                L'utilisation des balises dans un but autre que celui pour lequel elles ont été
+                conçues diminue la valeur de ces balises. L'utilisation abusive des balises peut
+                également avoir des conséquences imprévues&#xA0;: une balise mal utilisée peut
+                obtenir l'effet de formatage souhaité dans un type de publication, mais détruire
+                l'aspect et la convivialité du contenu dans un autre type de publication.</p>
+            <p>Une forme d'abus de balises est le saut de ligne forcé. N'utilisez pas l'élément
+                &lt;p> pour contrôler l'endroit où vos lignes de texte doivent être coupées, car
+                cela posera des problèmes dans les types de publication réactifs tels que le HTML.
+                Utilisez l'élément &lt;codeblock> pour contrôler les sauts de ligne pour certaines
+                parties de votre contenu (par exemple, les échantillons de code).</p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

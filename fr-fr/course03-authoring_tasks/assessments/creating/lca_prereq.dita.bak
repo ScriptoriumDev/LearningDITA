@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_hwg_z1b_dt5" xml:lang="fr-FR">
+ <title>Pré-requis</title>
+ <prolog>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+   Scriptorium</author>
+  <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external" format="html"
+   >Marine Martin-Guillerez (Traductrice)</author>
+  <critdates>
+   <created date="2015-08-24"/>
+   <revised modified="2020-04-27"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcMultipleSelect id="lcMultipleSelect_eh4_bbb_dt1">
+    <lcQuestion>À quoi sert l'élément &lt;prereq>&#xA0;? (choisir toutes les réponses qui
+     s'appliquent)</lcQuestion>
+    <lcAnswerOptionGroup>
+     <lcAnswerOption>
+      <lcAnswerContent>Fournir des informations générales sur la tâche</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Lister ce qui est nécéssaire à l'accomplissement de la
+       tâche</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Expliquer l'objectif de la tâche</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Contenir le contenu du corps de la tâche</lcAnswerContent>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>L'élément &lt;prereq> est pour les informations préalables, tel que ce dont
+     vous avez besoin pour achever la tâche. L'élément &lt;context> fournit des informations
+     générales ou explique l'objectif de la tâche, et l'élément &lt;taskbody> contient le contenu du
+     corps de la tâche.</lcFeedbackIncorrect>
+   </lcMultipleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

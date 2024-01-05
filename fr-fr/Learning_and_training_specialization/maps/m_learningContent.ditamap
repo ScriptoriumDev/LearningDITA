@@ -2,10 +2,10 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
   <!-- Looking for a better title. -->
-  <title>Les objets pédagogiques</title>
+  <title>Le contenu pédagogique</title>
    <topicref href="../topics/lc_learningContent_intro.dita">
      <topicmeta lockmeta="yes">
-       <data name="lesson_id" value="12501"/>
+       <data name="lesson_id" value="768"/>
      </topicmeta>
      <topicref href="../topics/lc_learningContent_topic_type.dita"/>
      <topicref href="../topics/lc_learningContent_elements.dita"/>
@@ -14,7 +14,7 @@
      <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_learning_domain.dita"
        locktitle="yes">
        <topicmeta>
-         <navtitle>Assessment for &lt;learningContent></navtitle>
+         <navtitle>Évaluation sur le contenu pédagogique</navtitle>
        </topicmeta>
        <topicref href="../assessments/learning_content/lca_lcontent.dita"/>
        <topicref href="../assessments/learning_content/lca_contentbody2.dita"/>

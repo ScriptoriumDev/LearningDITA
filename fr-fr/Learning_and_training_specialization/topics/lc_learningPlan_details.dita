@@ -20,22 +20,22 @@
     <learningContentbody>
         <lcInstruction id="lcInstruction_js5_cqb_yz">
             <p>Le type de rubrique &lt;LearningPlan> sert à organiser les informations de vos
-                leçons. Les informations sont classées en plusieurs catégories :</p>
+                leçons. Les informations sont classées en plusieurs catégories&#xA0;:</p>
             <ul id="ul_nsz_srb_yz">
-                <li>Description du projet, ce qui comprend  le titre, les dates, et le sujet.</li>
-                <li>Analyse du besoin, ce qui comprend les besoins de l'organisation, de l'audience,
+                <li>Description du projet&#xA0;: ce qui comprend  le titre, les dates et le sujet.</li>
+                <li>Analyse du besoin&#xA0;: ce qui comprend les besoins de l'organisation, de l'audience
                     et de l'environnement nécessaire pour déployer la formation.</li>
                 <li>Approche et stratégies d'enseignement des cours.</li>
-                <li>Exigences techniques, telles que la salle de classe ou le LMS à utiliser</li>
+                <li>Exigences techniques&#xA0;: telles que la salle de classe ou le LMS à utiliser.</li>
             </ul>
             <p>Vous préciserez toutes ces informations à l'aide des éléments de la rubrique
                 &lt;LearningPlan>. Par exemple, pour détailler la description d'un cours, utilisez
                 l'élément &lt;lcPlanDescrip> qui peut contenir des paragraphes et des listes
-                non-ordonnées :</p>
+                non-ordonnées&#xA0;:</p>
             <pre>
 &lt;lcPlanDescrip id="lcPlanDescrip_dnw_3bs_rcb">
    &lt;title>Description du cours&lt;/title>
-   &lt;p>Ce cours est à l'attention de propriétaires de groupes de petites ou moyennes tailles de canards domestiques. Cette rubrique couvre :&lt;/p>
+   &lt;p>Ce cours est à l'attention de propriétaires de groupes de petites ou moyennes tailles de canards domestiques. Cette rubrique couvre&#xA0;:&lt;/p>
    &lt;ul>
         &lt;li>Source de qualité de l'alimentation&lt;ul id="ul_i2d_lds_rcb">
                 &lt;li>Source&lt;/li>
@@ -50,10 +50,10 @@
    &lt;/ul>
 &lt;/lcPlanDescrip>  
             </pre>
-            <p>Bien que la spécialisation E&amp;A contient des éléments qui ne se rapportent qu'à
+            <p>Bien que la spécialisation A&amp;F contient des éléments qui ne se rapportent qu'à
                 l'enseignement, certains d'entre eux peuvent contenir des éléments DITA que vous
                 pourriez utilisez dans des rubriques tâches, concepts ou références. La liste
-                &lt;ul> est un bon exemple.</p>
+                &lt;ul> en est un bon exemple.</p>
         </lcInstruction>
     </learningContentbody>
     <related-links>

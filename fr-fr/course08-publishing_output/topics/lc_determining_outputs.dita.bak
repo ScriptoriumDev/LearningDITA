@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd" []>
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="content_pgf_3gt_qt">
+    <title>Déterminer les exigences de publication</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Noelle Russell, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Ashley Stant, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Bill Swallow, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Jake Campbell, Scriptorium</author>
+        <author type="contributor" href="https://www.linkedin.com/in/marinemartinguillerez/"
+            scope="external" format="html" class="- topic/author ">Marine Martin-Guillerez
+            (Traductrice)</author>
+        <critdates>
+            <created golive="2017-03-27" date="2017-02-06"/>
+            <revised modified="2020-12-07"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction id="lcInstruction_b4f_zsk_xnb">
+            <p>Dans d'autres cours, vous avez appris comment rédiger avec DITA confère une valeur
+                sémantique à votre contenu et contribue à augmenter la réutilisation. Dans ce cours,
+                vous découvrirez les avantages de DITA pour la publication et vous acquerrez une
+                expérience pratique de la génération de différents types de publication à partir du
+                contenu source DITA.</p>
+            <p>Lorsque vous prévoyez de publier votre contenu DITA, l'une des premières questions
+                que vous pourriez vous poser est: «&#xA0;De quel type d'environnement de publication
+                ai-je besoin&#xA0;?&#xA0;» La première étape du choix du bon environnement de
+                publication pour votre processus de travail DITA consiste à déterminer vos exigences
+                de publication.</p>
+            <p>Vous pouvez avoir besoin à la fois de publications imprimées (telles que PDF) et de
+                publications électroniques (telles que HTML, EPUB ou WebHelp) pour votre
+                contenu.</p>
+            <note>Pour certains types de publication, tels que les documents imprimés de grande
+                qualité ou les fiches techniques complexes, vous pouvez constater que la publication
+                automatisée ne répond pas à vos besoins. Cependant, vous souhaitez toujours
+                conserver un seul ensemble de fichiers source. Dans ce cas, vous devez transformer
+                votre contenu source DITA dans un format qui peut être ouvert dans un programme de
+                publication assistée par ordinateur (tel qu'Adobe InDesign) afin de pouvoir ajuster
+                manuellement la mise en forme avant de publier un PDF ou une publication
+                imprimée.</note>
+            <p>DITA contribue à rendre la publication plus efficace en&#xA0;:</p>
+            <ul id="ul_g2j_mc2_3z">
+                <li><b>Séparant le contenu du formatage.</b> Dans un environnement non structuré,
+                    les auteurs peuvent conserver un ensemble de fichiers source pour la publication
+                    imprimée et un autre pour la publication électronique. Les fichiers à imprimer
+                    peuvent être créés et formatés dans un programme de publication assistée par
+                    ordinateur, tandis que les fichiers de publication électronique peuvent être
+                    copiés à partir des fichiers source imprimés et reformatés, ou créés séparément.
+                    Avec DITA, les auteurs créent un ensemble unique de fichiers source et le
+                    formatage est appliqué séparément pour créer chaque type de publication requis.
+                    Cela réduit les incohérences entre les versions imprimée et électronique du même
+                    contenu et garantit qu'une mise à jour effectuée dans le fichier source sera
+                    reflétée dans toutes les publications.</li>
+                <li><b>Permettant un formatage automatisé.</b> Le contenu DITA étant séparé du
+                    formatage, le formatage peut être appliqué automatiquement pendant le processus
+                    de publication plutôt que manuellement. Les créateurs de contenu peuvent se
+                    concentrer sur le contenu lui-même plutôt que sur la façon dont il est affiché
+                    sur la page, et la publication devient un processus plus simple et plus
+                    rapide.</li>
+            </ul>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

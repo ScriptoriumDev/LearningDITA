@@ -18,11 +18,11 @@
     </prolog>
     <learningContentbody>
         <lcInstruction id="lcInstruction_js5_cqb_yz">
-            <p> L'élément &lt;learningGroup> sert à assembler une leçon, un cours, ou un programme
+            <p>L'élément &lt;learningGroup> sert à assembler une leçon, un cours ou un programme
                 d'étude grâce au référencement de différentes ressources d'apprentissage.</p>
             <p>Un groupe d'apprentissage possède une structure similaire à une ressource
                 d'apprentissage. Cependant, plutôt que du contenu pédagogique, le groupe pédagogique
-                fait appel à d'autres éléments :</p>
+                fait appel à d'autres éléments&#xA0;:</p>
                 <ul>
                     <li>d'autres groupes d'apprentissage</li>
                     <li>des références à des groupes d'apprentissage</li>
@@ -33,7 +33,7 @@
                 possibilités de référencement. Cela peut également rendre à l'inverse sa gestion
                 complexe. Une façon de décomplexifier sa gestion est de référencer les ressources et
                 les groupes plutôt que de les inclure directement. </p>
-            <p>Voici un exemple de &lt;learningGroup> :</p>
+            <p>Voici un exemple de &lt;learningGroup>&#xA0;:</p>
             <pre>
 &lt;learningGroup>
    &lt;topicmeta>

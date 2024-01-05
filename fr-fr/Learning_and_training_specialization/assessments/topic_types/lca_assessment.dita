@@ -19,7 +19,7 @@
         <lcInteraction id="lcInteraction_pnx_5lq_4cb">
             <lcTrueFalse id="t-f-interaction">
                 <lcQuestion>Le type de rubrique &lt;learningAssessment> est utilisé pour produire
-                    des quizz, tests et autres types d'exercice.</lcQuestion>
+                    des questionnaires, tests et autres types d'exercice.</lcQuestion>
                 <lcAnswerOptionGroup id="lcAnswerOptionGroup2_cdq_wlq_4cb">
                     <lcAnswerOption>
                         <lcAnswerContent>Vrai</lcAnswerContent>
@@ -28,7 +28,7 @@
                     <lcAnswerOption>
                         <lcAnswerContent>Faux</lcAnswerContent>
                         <lcFeedback>Le type de rubrique &lt;learningAssessment> peut être utilisé
-                            pour poser tout type de question aux étudiants, y compris des quizz et
+                            pour poser tout type de question aux étudiants, y compris des questionnaires et
                             des exercices.</lcFeedback>
                     </lcAnswerOption>
                 </lcAnswerOptionGroup>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_ls3_2yg_vt" xml:lang="fr-FR">
+    <title>Organiser les entrées de glossaire dans une carte</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-10-28"/>
+            <revised modified="2020-07-03"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>En général, les entrées de glossaire sont regroupées dans un ou plusieurs fichiers
+                cartes DITA. Le contenu des fichiers cartes et leur organisation dépendent largement
+                des besoins de votre organisation et des capacités de transformation de votre
+                publication DITA. Si vous disposez d'une transformation robuste, vous aurez plus
+                d'options dans la façon dont vous pouvez structurer vos fichiers cartes pour votre
+                glossaire.</p>
+            <p>La stratégie la plus simple pour l'organisation d'un glossaire consiste à créer un
+                fichier carte DITA qui contient des éléments &lt;topicref> pour chacune de vos
+                entrées de glossaire.</p>
+            <pre dir="ltr" id="docs-internal-guid-ab43f4b0-b484-eb92-a3ed-876226a0eddc">&lt;map&gt;
+   &lt;title&gt;Glossaire canards&lt;/title&gt;
+   &lt;topicref href="g_glands.dita"/&gt;
+   &lt;topicref href="g_aythyinae.dita"/&gt;
+   &lt;topicref href="g_canvasback.dita"/&gt;
+   ...
+&lt;/map&gt;</pre>
+            <p>Si le contenu de ce fichier carte unique pour le glossaire est classé par ordre
+                alphabétique, vous pouvez générer un glossaire utilisable avec les types de
+                publication DITA standard sans avoir à trier les entrées dans la transformation de
+                sortie.</p>
+            <note>Le contenu de l'élément &lt;title> dans ce fichier de carte est surtout là pour
+                aider les auteurs. Si cette carte de glossaire sera utilisée dans d'autres cartes,
+                le contenu de l'élément &lt;title> est ignoré lorsque les cartes sont
+                fusionnées.</note>
+            <p>Une fois que vous avez créé cette carte de glossaire, vous pouvez l'inclure dans
+                n'importe laquelle de vos autres cartes (avec un élément &lt;topicref> ou
+                &lt;mapref>).</p>
+            <p>Cependant, le monde de la création de glossaires est souvent beaucoup plus désordonné
+                et complexe que la simple organisation de toutes les entrées dans une seule carte.
+                Lorsque votre organisation commence à mettre en œuvre DITA dans le cadre de sa
+                stratégie de contenu, il est bon de travailler avec un développeur de feuilles de
+                style DITA pour traiter les informations du glossaire qui sont organisées de manière
+                à vous convenir et pour générer le résultat du glossaire dont vous avez besoin.</p>
+            <p>Quelques points à garder à l'esprit concernant l'organisation et la production du
+                glossaire&#xA0;: </p>
+            <ul id="ul_dn3_n1n_vt">
+                <li>
+                    <p>Si vous avez plusieurs organismes contributeurs différents, chacun d'entre
+                        eux peut maintenir un ensemble distinct d'entrées de glossaire. Celles-ci
+                        devront être fusionnées (et triées) dans le cadre du processus de
+                        production.</p>
+                </li>
+                <li>
+                    <p>De même, différentes lignes de produits peuvent avoir des glossaires
+                        différents qu'il peut être nécessaire de fusionner, en fonction de certaines
+                        conditions ou exigences.</p>
+                </li>
+                <li>
+                    <p>Il peut y avoir d'autres raisons pour maintenir un certain nombre de cartes
+                        de glossaire séparées et les fusionner plus tard.</p>
+                </li>
+                <li>
+                    <p>Une transformation peut également incorporer des entrées de glossaire
+                        provenant de groupes de glossaire dans un glossaire de sortie. </p>
+                </li>
+                <li>
+                    <p>Si votre contenu doit être traduit, il est fort probable que le glossaire
+                        devra être trié en fonction de votre langue cible. Si votre outil de
+                        publication se charge des tâches de tri, votre agence de localisation n'a
+                        pas à se charger du tri des entrées de glossaire traduites. </p>
+                </li>
+            </ul>
+            <p>Toutes ces situations peuvent être traitées avec un outil de publication bien conçu.
+            </p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_pdh_s5m_vt">
+        <title/>
+        <taskbody>
+            <steps id="steps_f5k_kkh_1t">
+                <step>
+                    <cmd>Faites une copie du fichier l_debut_glossorg.ditamap et ouvrez-le dans
+                        votre éditeur.</cmd>
+                    <info>
+                        <note>L'ouverture d'un fichier carte dans un éditeur XML se fait souvent
+                            dans une interface différente de celle utilisée pour ouvrir un fichier
+                            DITA. Vous devrez peut-être passer par une étape supplémentaire pour
+                            l'ouvrir dans l'interface d'édition.</note>
+                    </info>
+                    <stepxmp>
+                        <p>Vous devriez voir ceci&#xA0;:</p>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+&lt;map>
+   &lt;title>&lt;/title>
+&lt;/map>
+</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>À l'intérieur de l'élément &lt;title>, saisissez un titre pour la
+                        carte</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+&lt;map>
+<ph outputclass="newchanged">   &lt;title>Glossaire canard&lt;/title></ph>
+&lt;/map>
+</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Après l'élément &lt;title>, ajoutez un élément &lt;topicref>.</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+&lt;map>
+   &lt;title>Glossaire canard&lt;/title>
+   <ph outputclass="newchanged">&lt;topicref href="l_entreegloss.dita"/></ph>
+&lt;/map>
+</pre>
+                    </stepxmp>
+                    <info>Si vous avez utilisé un nom différent lorsque vous avez enregistré votre
+                        fichier lors de l'exercice sur les entrées de glossaire, utilisez ce nom de
+                        fichier à la place de l_entreegloss.dita.</info>
+                </step>
+                <step>
+                    <cmd>Si vous avez créé d'autres fichiers d'entrée de glossaire, ajoutez des
+                        éléments topicref pour chacun de ces fichiers. </cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+    <task id="task_fvl_13n_vt">
+        <title>Exercice</title>
+        <taskbody>
+            <steps>
+                <step>
+                    <cmd>Ouvrez le fichier leçon3/l_exercice_glossaire_debut.dita et utilisez-le
+                        pour convertir en DITA le contenu suivant&#xA0;:</cmd>
+                    <info>
+                        <note>
+                            <p>Bien que cet exercice utilise un seul fichier DITA pour la
+                                conversion, il est également acceptable de le convertir en une carte
+                                avec des entrées de glossaire.</p>
+                        </note>
+                        <pre outputclass="passthru"><![CDATA[
+<hr/>
+<h3>Termes de la stratégie de contenu</h3>
+<i>rédaction structurée</i>
+<p>Un environnement de création de contenu dans lequel la structure requise est appliquée par le logiciel de création et où suivre le modèle n'est pas facultatif</p>
+
+<i>contenu structuré</i>
+<p>Des informations organisées de manière prévisible</p>
+
+<i>contenu recherchable</i>
+<p>Informations disponibles via une recherche sur internet</p>
+
+<i>contenu consultable</i>
+<p>Informations performantes pour les mots-clés pertinents</p>
+
+<i>contenu découvrable</i>
+<p>Informations ayant des liens entrants, notamment sur les médias sociaux</p>
+
+]]></pre>
+                    </info>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

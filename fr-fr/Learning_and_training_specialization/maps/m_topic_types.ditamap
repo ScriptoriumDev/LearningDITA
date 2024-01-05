@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
- <title>Les types de rubriques de la spécialisation Enseigner &amp; Apprendre</title>
+ <title>Les types de rubriques de la spécialisation Apprendre et Former</title>
  <topicref href="../topics/lc_types_intro.dita">
   <topicmeta lockmeta="yes">
-   <data name="lesson_id" value="12500"/>
+   <data name="lesson_id" value="767"/>
   </topicmeta>
   <topicref href="../topics/lc_learningPlan_details.dita"/>
   <topicref href="../topics/lc_learningOverview_details.dita"/>
@@ -15,7 +15,7 @@
   <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_topic_types.dita"
    locktitle="yes">
    <topicmeta>
-    <navtitle>Assessment for Learning and Training topic types</navtitle>
+    <navtitle>Évaluations sur les types de rubriques de la spécialisation Apprendre et Former</navtitle>
    </topicmeta>
    <topicref href="../assessments/topic_types/lca_plan.dita"/>
   <topicref href="../assessments/topic_types/lca_loverview.dita"/>

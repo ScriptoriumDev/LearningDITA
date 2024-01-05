@@ -22,20 +22,20 @@
                 La synthèse est placée en perspective des objectifs du cours. La rubrique peut
                 également donner des instructions sur ce qu'il faut faire après la fin du cours.</p>
             <p>Dans une rubrique &lt;learningSummary>, l'élément principal est
-                &lt;learningSummarybody>. Il contient les éléments suivants :</p>
+                &lt;learningSummarybody>. Il contient les éléments suivants&#xA0;:</p>
             <ol>
-                <li>&lt;lcSummary> : Résumé des objectifs atteints</li>
-                <li>&lt;lcObjectives> : Objectifs atteints</li>
-                <li>&lt;lcReview> : Vue d'ensemble du contenu principal</li>
-                <li>&lt;lcNextSteps> : Directions à prendre pour aller plus loin dans le cours</li>
-                <li>&lt;lcResources> : Informations relatives au cours</li>
+                <li>&lt;lcSummary>&#xA0;: Résumé des objectifs atteints</li>
+                <li>&lt;lcObjectives>&#xA0;: Objectifs atteints</li>
+                <li>&lt;lcReview>&#xA0;: Vue d'ensemble du contenu principal</li>
+                <li>&lt;lcNextSteps>&#xA0;: Directions à prendre pour aller plus loin dans le cours</li>
+                <li>&lt;lcResources>&#xA0;: Informations relatives au cours</li>
             </ol>
             <p>Ces éléments peuvent être suivi par un nombre illimité de &lt;section>.</p>
-            <p>Voici un exemple de &lt;learningSummarybody> :</p>
+            <p>Voici un exemple de &lt;learningSummarybody>&#xA0;:</p>
             <pre>
-&lt;learningSummarybody> <draft-comment author="kheath">pre from "../LearningDITA/en-us/Learning_and_training_specialization/samples/ls_l3_t1_summary.dita"</draft-comment>
+&lt;learningSummarybody> <draft-comment author="kheath">pre from "../LearningDITA/fr-fr/Learning_and_training_specialization/exemples/ls_l3_t1_summary.dita"</draft-comment>
     &lt;lcSummary id="lcSummary_igg_jd1_scb">
-        &lt;p>Pour résumer ce qu'il faut savoir sur les mangeoires et abreuvoirs :&lt;/p>
+        &lt;p>Pour résumer ce qu'il faut savoir sur les mangeoires et abreuvoirs&#xA0;:&lt;/p>
         &lt;ul id="ul_dhl_md1_scb">
             &lt;li>La taille du mangeoire et de l'abreuvoir est conséquent sur le développement du canard.&lt;/li>
             &lt;li>Les mangeoires et abreuvoirs doivent être tout le temps aussi propre que possible.&lt;/li>

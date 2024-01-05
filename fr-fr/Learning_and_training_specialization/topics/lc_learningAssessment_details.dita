@@ -18,7 +18,7 @@
     </prolog>
     <learningContentbody>
         <lcInstruction id="lcInstruction_js5_cqb_yz">
-            <p>Le type de rubrique &lt;learningAssessment> contient des exercices, quizz, examens,
+            <p>Le type de rubrique &lt;learningAssessment> contient des exercices, questionnaires, examens,
                 etc. Il vous sera possible de faire des tests au début ou à la fin du cours afin de
                 sonder les connaissances de votre audience.</p>
             <p>La rubrique permet plusieurs types d'interaction pour poser vos questions commes les
@@ -26,9 +26,9 @@
                 encore hot-spot (qui permet à vos étudiants de cliquer sur une zone précise d'une
                 image). Si ces questions sont prévues pour un support en ligne, vous aurez besoin
                 d'un format de sortie spécifique ainsi qu'un LMS.</p>
-            <p>L'élément principal est &lt;learningAssessmentbody> qui inclut &lt;lcIntro>,
-                &lt;lcObjectives>, &lt;lcDuration>, &lt;lcInteraction>, &lt;section>, et
-                &lt;lcSummary> elements. Les types de questions sont inclus dans
+            <p>L'élément principal est &lt;learningAssessmentbody> qui inclut les éléments &lt;lcIntro>,
+                &lt;lcObjectives>, &lt;lcDuration>, &lt;lcInteraction>, &lt;section> et
+                &lt;lcSummary>. Les types de questions sont inclus dans
                 l'élément&lt;lcInteraction>.</p>
         </lcInstruction>
     </learningContentbody>

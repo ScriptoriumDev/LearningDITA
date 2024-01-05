@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_bkq_xhk_bt" xml:lang="fr-FR">
+    <title>Ajouter un exemple</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-08-18"/>
+            <revised modified="2020-05-19"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>L'élément &lt;exemple> vous permet de présenter un exemple de la tâche dans son
+                intégralité. L'élément &lt;stepxmp> est similaire, mais il présente un exemple
+                pertinant d'une seule étape au lieu d'un exemple pertinant de la tâche dans son
+                intégralité.</p>
+            <p><xref href="https://youtu.be/kQS7FCSLJ7E" format="html" scope="external">Vidéo&#xA0;:
+                    Ajouter un exemple à une tâche DITA</xref></p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_bkt_c3k_bt">
+        <title/>
+        <taskbody>
+            <steps id="steps_pzh_d3k_bt">
+                <step>
+                    <cmd>Continuez de travailler sur le fichier l_tache_debut.dita.</cmd>
+                </step>
+                <step>
+                    <cmd>Après le balise de fermeture de l'élément &lt;result>, ajoutez un élément
+                        &lt;example>.</cmd>
+                    <stepxmp>
+                        <pre>...
+        &lt;/result>
+<ph outputclass="newchanged">        &lt;example>
+
+        &lt;/example></ph>
+    &lt;/taskbody>
+&lt;/task>
+</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Ajoutez le contenu suivant à l'élément &lt;example>&#xA0;:</cmd>
+                    <stepxmp>
+                        <pre>...
+        &lt;/result>
+<ph outputclass="newchanged">        &lt;example>
+&lt;p>Ne vous attendez pas à ce type de comportement&#xA0;: &lt;xref href="http://dai.ly/x2j6pt1"
+     format="html" scope="external">Daffy Duck&lt;/xref>
+            &lt;/p>
+        &lt;/example></ph>
+    &lt;/taskbody>
+&lt;/task>
+</pre>
+                    </stepxmp>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

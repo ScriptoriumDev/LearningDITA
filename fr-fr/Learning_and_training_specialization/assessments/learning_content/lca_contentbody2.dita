@@ -6,7 +6,7 @@
         <lcInteraction>
             <lcMatching id="matching_choicetable">
                 <lcQuestion>Faire correspondre les éléments de &lt;learningContentbody> avec la
-                    bonne description :</lcQuestion>
+                    bonne description&#xA0;:</lcQuestion>
                 <lcMatchTable id="lcMatchTable_f2n_c5b_kt">
                     <lcMatchingPair>
                         <lcItem>&lt;lcIntro></lcItem>
@@ -27,7 +27,7 @@
                     </lcMatchingPair>
                     <lcMatchingPair>
                         <lcItem>&lt;lcInstruction></lcItem>
-                        <lcMatchingItem>The contenu du cours</lcMatchingItem>
+                        <lcMatchingItem>Le contenu du cours</lcMatchingItem>
                     </lcMatchingPair>
                     <lcMatchingPair>
                         <lcItem>&lt;section></lcItem>

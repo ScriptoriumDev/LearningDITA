@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="la_l1_t1_qualite_ingredient">
+    <title>Qualité des ingrédients</title>
+    <shortdesc>Notez qu'avec une réponse de type «&#xA0;tout ce qui précède&#xA0;», utilisez le type
+        d'interaction lcSingleSelect2, plutôt que lcMultipleSelect2. Si vous utilisez l'interaction
+        lcMultipleSelect2 et qu'un étudiant sélectionne toutes les bonnes réponses (avec ou sans la
+        sélection è&#xA0;tout ce qui précède&#xA0;»), la plupart des systèmes de gestion de l'apprentissage
+        (LMS) marqueront cela comme une réponse incorrecte.</shortdesc>
+    <learningAssessmentbody>
+        <lcInteraction id="lcInteraction_sqq_xws_rcb">
+            <lcSingleSelect2>
+                <lcQuestion2>N'utilisez pas de céréales contaminées&#xA0;:</lcQuestion2>
+                <lcAnswerOptionGroup2 id="lcAnswerOptionGroup2_skb_bxs_rcb">
+                    <lcAnswerOption2>
+                        <lcAnswerContent2>Moisissures</lcAnswerContent2>
+                        <lcFeedback2>Pas seulement les moisissures, mais aussi les graines de mauvaises herbes et la poussière.</lcFeedback2>
+                    </lcAnswerOption2>
+                    <lcAnswerOption2>
+                        <lcAnswerContent2>Graines de mauvaises herbes</lcAnswerContent2>
+                        <lcFeedback2>Pas seulement les graines de mauvaises herbes, mais aussi les moisissures et la poussière.</lcFeedback2>
+                    </lcAnswerOption2>
+                    <lcAnswerOption2>
+                        <lcAnswerContent2>Poussière</lcAnswerContent2>
+                        <lcFeedback2>Pas seulement de la poussière, mais aussi des moisissures et des graines de mauvaises herbes.</lcFeedback2>
+                    </lcAnswerOption2>
+                    <lcAnswerOption2>
+                        <lcAnswerContent2>Tout ce qui précèdes</lcAnswerContent2>
+                        <lcCorrectResponse2/>
+                    </lcAnswerOption2>
+                </lcAnswerOptionGroup2>
+            </lcSingleSelect2>
+        </lcInteraction>
+    </learningAssessmentbody>
+</learningAssessment>

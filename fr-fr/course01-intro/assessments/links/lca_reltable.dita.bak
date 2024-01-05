@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_f33_1kp_wra">
+ <title/>
+ <prolog>
+  <author>Sharon Burton</author>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe,
+   Scriptorium</author>
+  <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external" format="html"
+   >Marine Martin-Guillerez (Traductrice)</author>
+  <critdates>
+   <created date="2015-04-30"/>
+   <revised modified="2019-09-22"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcSingleSelect id="links7">
+    <lcQuestion>Supposons que le fragment de code suivant est dans la table de relation du fichier
+     carte courant et que toutes les rubriques référencées sont également dans le fichier carte.
+     Quel sera le résultat dans la section des rubriques associées&#xA0;? (choisir une
+     réponse)</lcQuestion>
+    <lcAsset>
+     <image href="../../media/links/reltable_wild.png" id="image_o5v_ml2_ss" base="2020/10"/>
+    </lcAsset>
+    <lcAnswerOptionGroup>
+     <lcAnswerOption>
+      <lcAnswerContent>Chaque rubrique aura des liens avec les deux autres rubriques listées dans la
+       ligne. </lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Chaque rubrique aura des liens avec les trois rubriques listées dans la
+       ligne. </lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Il n'y aura aucun lien&#xA0;; elles ne sont pas associées.</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Les liens seront toujours listés sur une page par
+       eux-mêmes.</lcAnswerContent>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>Quand une rubrique est listée dans une ligne d'une table de relation, cette
+     rubrique n'aura pas de lien avec elle-même. Les topicrefs ont été placés dans cette ligne parce
+     que leur contenu est similaire. Les liens vers les autres rubriques sont habituellement placés
+     dans une section à la fin de la rubrique (selon le format de
+     publication).</lcFeedbackIncorrect>
+   </lcSingleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

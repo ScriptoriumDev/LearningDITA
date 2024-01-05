@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_qn1_dd1_wr" xml:lang="fr-FR">
+ <title/>
+ <prolog>
+  <author>Sharon Burton</author>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe,
+   Scriptorium</author>
+  <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external" format="html"
+   >Marine Martin-Guillerez (Traductrice)</author>
+  <critdates>
+   <created date="2015-04-28"/>
+   <revised modified="2019-08-18"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcSingleSelect id="5">
+    <lcQuestion>DITA est un standard ouvert, ce qui signifie&#xA0;: (choisir une réponse)</lcQuestion>
+    <lcAnswerOptionGroup>
+     <lcAnswerOption>
+      <lcAnswerContent>Tout le monde peut l'utiliser sans payer</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Lorsque les mises à jour sont publiées, vous devez effectuer une mise à
+       niveau et payer ou perdre l'accès à vos informations</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Les mises à jour sont contrôlées par l'Organisation Internationale de
+       Normalisation (ISO – International Standards Organization)</lcAnswerContent>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>DITA est contrôlé par l’Organisation pour l’Avancement des Normes
+     d’Information Structurée (OASIS – Organization for the Advancement of Structured Information
+     Standards). Les standards ouverts sont gratuits. </lcFeedbackIncorrect>
+   </lcSingleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!--
+ This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="content_pgf_3gt_qt">
+    <title>Installer DITA OT</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Noelle Russell, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Ashley Stant, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Bill Swallow, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Jake Campbell, Scriptorium</author>
+        <author type="contributor" href="https://www.linkedin.com/in/marinemartinguillerez/"
+            scope="external" format="html" class="- topic/author ">Marine Martin-Guillerez
+            (Traductrice)</author>
+        <critdates>
+            <created golive="2017-03-27" date="2017-02-06"/>
+            <revised modified="2020-12-21"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Dans la leçon précédente, vous avez appris à connaître les différents environnements
+                de publication DITA. Le reste de ce cours couvre la publication avec un DITA OT
+                autonome.</p>
+            <p>Les instructions suivantes vous montrent comment télécharger et installer DITA OT sur
+                votre machine.</p>
+            <p><xref href="https://youtu.be/rCH1OQqBBB8" format="html" scope="external">Vidéo&#xA0;:
+                    Installer DITA Open Toolkit</xref></p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_h4s_gnw_cz">
+        <title>Télécharger et installer DITA OT</title>
+        <taskbody>
+            <steps id="steps_h3y_3nw_cz">
+                <step>
+                    <cmd>Dans un navigateur internet, allez sur le site de DITA Open Toolkit (<xref
+                            href="http://www.dita-ot.org/" format="html" scope="external"/>), où le
+                        DITA OT open source est disponible.</cmd>
+                </step>
+                <step>
+                    <cmd>Naviguer jusqu'à la page de téléchargement (<xref
+                            href="http://www.dita-ot.org/download" format="html" scope="external"
+                        />).</cmd>
+                    <info>
+                        <p>La dernière distribution DITA OT sera affichée en haut de la page. La
+                            page contient également un lien vers la dernière version en cours de
+                            développement pour les tests, suivi d'une liste des versions précédentes
+                            de DITA OT.</p>
+                        <note>Au moment de la publication de la version française de ce cours, la
+                            dernière version de DITA OT était la 3.6.1.</note>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Cliquez sur le bouton pour télécharger la dernière distribution du DITA
+                        OT.</cmd>
+                    <info><image href="images/download_ot.png" width="450" base="2017/03"
+                            id="image_ssm_trc_3z"/><p>Le DITA OT sera téléchargé sous forme
+                            d'archive.</p></info>
+                </step>
+                <step>
+                    <cmd>Retrouvez l'archive de DITA OT dans la structure des dossiers de votre
+                        système pour vous assurer que le téléchargement s'est bien déroulé.</cmd>
+                </step>
+                <step>
+                    <cmd>Choisissez un dossier sur votre machine pour installer DITA OT.</cmd>
+                    <info>
+                        <note>Certaines opérations du DITA OT ne fonctionnent pas bien lorsque les
+                            noms de fichiers et des chemins d'accès contiennent des espaces ou des
+                            caractères spéciaux. Par conséquent, il est préférable d'installer l'OT
+                            au niveau de la racine de votre machine dans un dossier qui n'utilise
+                            que des lettres, des chiffres, des traits de soulignement (_) ou des
+                            traits d'union (-) dans son nom.</note>
+                        <p><b>Exemple sur Windows&#xA0;:</b></p>
+                        <pre>C:\dita-ot-2.4.4</pre>
+                        <p><b>Exemple sur Mac&#xA0;:</b></p>
+                        <pre>/Users/[votrenom]/dita-ot-2.4.4</pre>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Déplacez l'archive DITA OT que vous avez téléchargé dans le dossier que
+                        vous avez choisi à l'étape précédente.</cmd>
+                </step>
+                <step>
+                    <cmd>Décompressez le dossier DITA OT.</cmd>
+                    <info>
+                        <p><b>Sur Windows&#xA0;:</b> Faites un clic droit sur l'archive et cliquez
+                            sur «&#xA0;Extraire&#xA0;» pour décompresser le contenu à l'emplacement
+                            actuel. </p>
+                        <p><b>Sur Mac&#xA0;:</b> Double-cliquez sur l'archive. Son contenu sera
+                            automatiquement décompressé à l'emplacement actuel.</p>
+                    </info>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

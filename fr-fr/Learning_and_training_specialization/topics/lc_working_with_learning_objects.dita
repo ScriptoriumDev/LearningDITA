@@ -18,18 +18,18 @@
     </prolog>
     <learningContentbody>
         <lcInstruction id="lcInstruction_e1n_dlc_yz">
-            <p>La spécialisation E&amp;A a été créée pour fonctionner avec des ressources
+            <p>La spécialisation A&amp;F a été créée pour fonctionner avec des ressources
                 d'apprentissage réutilisables. Cette approche a été influencée par des créateurs de
                 contenu d'Autodesk, Oracle, Cisco et autres. L'idée est de créer une collection de
                 ressources qui seront réutilisables dans différents contextes.</p>
-            <p>Une ressource d'apprentissage est une "collection discrète et réutilisable de contenu
-                utilisée pour présenter et soutenir un objectif d'apprentissage unique".  (<xref
+            <p>Une ressource d'apprentissage est une «&#xA0;collection discrète et réutilisable de contenu
+                utilisée pour présenter et soutenir un objectif d'apprentissage unique&#xA0;».  (<xref
                     href="https://www.oasis-open.org/committees/download.php/35764/lc_spec_assumptions.html"
-                    >OASIS, A learning objects approach to learning and training content</xref> en
+                    scope="external">OASIS, A learning objects approach to learning and training content</xref> en
                 anglais)</p>
-            <p>La spécialisation E&amp;A implémente les ressources d'apprentissage à travers
+            <p>La spécialisation A&amp;F implémente les ressources d'apprentissage à travers
                 l'élément &lt;learningObject>. L'élément &lt;learningObject> hérite de l'élément
-                &lt;topicref>. Il peut référencer des rubriques d'apprentissage :</p>
+                &lt;topicref>. Il peut référencer des rubriques d'apprentissage&#xA0;:</p>
                 <ul
                     id="ul_epx_ch5_scb">
                     <li>Plan d'apprentissage (un seul par ressource)</li>

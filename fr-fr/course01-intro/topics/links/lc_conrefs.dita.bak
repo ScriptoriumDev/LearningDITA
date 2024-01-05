@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="links1">
+    <title>Réutiliser du contenu avec les conrefs</title>
+    <prolog>
+        <author>Sharon Burton</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Alan Pringle,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-04-28"/>
+            <revised modified="2015-05-07"/>
+            <revised modified="2015-06-30"/>
+            <revised modified="2019-09-22"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Dans DITA, vous utilisez un conref pour réutiliser des éléments de contenu. Ces
+                éléments de contenu peuvent être des avertissements (notes, mises en garde et
+                alertes), du texte passe-partout (tel que l'adresse de votre entreprise), etc. Par
+                exemple, la description d’un produit peut être configurée en tant que référence, de
+                sorte qu’elle soit identique pour tous vos documents.</p>
+            <p>Si vous connaissez d'autres outils de création, les conrefs sont à peu près
+                équivalents à&#xA0;:</p>
+            <p>
+                <ul id="ul_iwx_n5b_wr">
+                    <li>Les snippets de Flare</li>
+                    <li>Les rubriques embarquées de RoboHelp</li>
+                    <li>Les encarts de texte et variables FrameMaker</li>
+                    <li>Les inclusions côté serveur HTML</li>
+                </ul>
+            </p>
+            <p>Supposons que vous ayez la note suivante dans une rubrique appelée
+                lieu.dita&#xA0;:</p>
+            <pre>&lt;topic id="topicid">
+    ...
+    &lt;note id="cequaimentlescanards">Les canards préfèrent les lacs aux déserts.&lt;/note>
+    ...
+&lt;/topic>             </pre>
+            <p>Pour réutiliser cette note dans une autre rubrique, le code conref est le suivant
+                &#xA0;:</p>
+            <pre>&lt;note conref="lieu.dita#topicid/cequaimentlescanards"/></pre>
+            <p>La plupart des outils de création DITA rationalisent le processus d’insertion de code
+                conref. Par conséquent, vous ne taperez probablement pas le chemin du fichier, l’id
+                de la rubrique, etc., comme indiqué dans l’exemple.</p>
+            <note>L'élément cible doit être du même type que l'élément contenant l'attribut conref.
+                Ainsi, vous ne pouvez utiliser l'attribut conref d'un élément &lt;note> qu'à partir
+                d'un autre élément &lt;note>&#xA0;; vous ne pouvez utiliser l'attribut conref d'un
+                élément &lt;li> qu'à partir d'un autre élément &lt;li>, etc.</note>
+            <p>Vidéo&#xA0;: <xref href="https://www.youtube.com/watch?v=oHmXBRVk3yo" format="html"
+                    scope="external">exemple de code conref DITA</xref></p>
+            <note type="tip">Il est recommandé de créer des rubriques séparées contenant des
+                éléments réutilisables, au lieu de simplement choisir une rubrique au hasard et de
+                faire pointer une référence vers cette rubrique. Cela vous permet de mieux suivre le
+                contenu réutilisé et de contrôler son évolution.</note>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

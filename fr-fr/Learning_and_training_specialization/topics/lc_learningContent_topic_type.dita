@@ -18,13 +18,13 @@
     </prolog>
     <learningContentbody>
         <lcInstruction id="lcInstruction_js5_cqb_yz">
-            <p>Le type de rubrique &lt;learningContent> contient le contenu pégagoqieu de votre
+            <p>Le type de rubrique &lt;learningContent> contient le contenu pédagogique de votre
                 cours. En fonction de la structure de votre cours, une rubrique &lt;learningContent>
                 peut servir de sujet unique dans une leçon, ou de leçon dans un cours en ajoutant la
                 rubrique dans une carte. Elle peut aussi servir de (courte) leçon si vous intégrez
                 d'autres rubriques comme des tâches ou &lt;learningAssessment>.</p>
             <p>Le contenu pédagogique est contenu dans l'élément principal &lt;learningContentbody>.
-                Il peut également être écrit dans un autre type de rubrique DITA qui sera ensuité
+                Il peut également être écrit dans un autre type de rubrique DITA qui sera ensuite
                 intégré à la rubrique &lt;learningContent>.</p>
         </lcInstruction>
     </learningContentbody>

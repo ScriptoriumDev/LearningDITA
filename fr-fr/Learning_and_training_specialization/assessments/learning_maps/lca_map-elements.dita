@@ -12,7 +12,7 @@
     <learningAssessmentbody>
         <lcInteraction>
             <lcMultipleSelect id="multi_select_l-map-elements">
-                <lcQuestion>Sélectionner toutes les affirmations qui sont vraies :</lcQuestion>
+                <lcQuestion>Sélectionnez toutes les affirmations qui sont vraies&#xA0;:</lcQuestion>
                 <lcAnswerOptionGroup>
                     <lcAnswerOption>
                         <lcAnswerContent>Vous pouvez ajouter les éléments du groupe d'apprentissage
@@ -25,7 +25,7 @@
                     </lcAnswerOption>
                     <lcAnswerOption>
                         <lcAnswerContent>Vous pouver ajouter les éléments des ressources
-                            d'apprentage dans une ressource d'apprentissage d'une carte.   </lcAnswerContent>
+                            d'apprentissage dans une ressource d'apprentissage d'une carte. </lcAnswerContent>
                         <lcCorrectResponse/>
                     </lcAnswerOption>
                     <lcAnswerOption>
@@ -40,6 +40,6 @@
                 </lcAnswerOptionGroup>
             </lcMultipleSelect>
         </lcInteraction>
-        
+
     </learningAssessmentbody>
 </learningAssessment>
