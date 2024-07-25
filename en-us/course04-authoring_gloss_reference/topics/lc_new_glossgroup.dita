@@ -11,10 +11,10 @@
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>Similar to the glossary entry topic, the glossary group topic must contain a
-                single &lt;glossgroup> root element with an id attribute that contains one
-                &lt;title> element and one or more &lt;glossterm> or &lt;glossgroup> elements, each
-                with an id attribute.</p>
+            <p>Similar to the glossary entry topic, the glossary group topic must contain a single
+                &lt;glossgroup> root element with an id attribute that contains one &lt;title>
+                element and one or more &lt;glossentry> or &lt;glossgroup> elements, each with an id
+                attribute.</p>
             <note>
                 <p>This lesson covers basic use of the glossary group elements. For the full
                     specifications for each element, see the <xref
