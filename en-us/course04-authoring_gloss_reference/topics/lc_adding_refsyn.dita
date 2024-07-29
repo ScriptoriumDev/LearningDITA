@@ -3,9 +3,9 @@
 <learningContent id="content_xc1_sfm_5t">
     <title>Describing the syntax</title>
     <prolog>
-        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+        <author href="https://www.scriptorium.com" scope="external" format="html">Jake Campbell,
             Scriptorium</author>
-        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+        <author href="https://www.scriptorium.com" scope="external" format="html">Simon Bate,
             Scriptorium</author>
         <critdates>
             <created date="2015-10-24"/>
@@ -22,7 +22,7 @@
                 to indicate optional or required portions of syntax. Graphical syntax diagrams
                 (often called "railroad diagrams") use lines and arrows to depict optional, repeated,
                 and required portions of syntax. For an illustration of graphical syntax diagrams,
-                see this <xref href="https://en.wikipedia.org/wiki/Syntax_diagram" format="html"
+                see this <xref href="httpss://en.wikipedia.org/wiki/Syntax_diagram" format="html"
                     scope="external">Wikipedia</xref> page.</p>
             <p>Because the syntax description is frequently required in reference topics, the
                 reference specialization provides the &lt;refsyn> element to contain the command
@@ -54,10 +54,10 @@
             </ul>
             <p>For further discussion of the pros and cons of using the &lt;synph> and
                 &lt;syntaxdiagram> elements, see <xref
-                    href="http://www.scriptorium.com/2013/01/perplexed-by-complex-syntax-understanding-syntax-diagrams-in-dita/"
+                    href="https://www.scriptorium.com/2013/01/perplexed-by-complex-syntax-understanding-syntax-diagrams-in-dita/"
                     format="html" scope="external">Simon Bate's blog post on understanding diagrams
                     in DITA</xref>. </p>
-            <!--<p>For XSL transforms that generatemore information on the https://github.com/dita-ot/ext-plugins</p>-->
+            <!--<p>For XSL transforms that generatemore information on the httpss://github.com/dita-ot/ext-plugins</p>-->
         </lcInstruction>
     </learningContentbody>
     <task id="task_zcs_jxp_5t">

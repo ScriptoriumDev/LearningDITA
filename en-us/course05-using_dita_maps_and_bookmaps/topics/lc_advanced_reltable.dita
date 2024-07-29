@@ -6,11 +6,11 @@
 <learningContent id="lc_advanced_reltable">
     <title>Advanced relationship tables</title>
     <prolog>
-        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+        <author href="https://www.scriptorium.com" scope="external" format="html">Simon Bate,
             Scriptorium</author>
-        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+        <author href="https://www.scriptorium.com" scope="external" format="html">Jake Campbell,
             Scriptorium</author>
-        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+        <author href="https://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
             Scriptorium</author>
         <critdates>
             <created date="2016-03-25"/>
@@ -75,7 +75,7 @@
                 &lt;relcolspec> element can also contain a &lt;topicref> to a topic that provides
                 more information about the column itself. For a full description of the contents of
                 the &lt;relcolspec> element, see <xref
-                    href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/relcolspec.html"
+                    href="https://docs.oasis-open.org/dita/v1.2/os/spec/langref/relcolspec.html"
                     format="html" scope="external"/></p><p><b>Linking to external
                 resources</b></p><p>A relationship table can contain links to external resources. To
                 do this, the &lt;relcolspec> element and the contents of the &lt;relcell> element
@@ -93,7 +93,7 @@
                 is “external”, and the format attribute is “html”. In addition, the &lt;topicref>
                 includes a &lt;navtitle> element so that the link is more
             reader-friendly:</p><pre>&lt;relcell>
-    &lt;topicref href="http://www.example.com" scope="external" format="html">
+    &lt;topicref href="https://www.example.com" scope="external" format="html">
         &lt;topicmeta>
             &lt;navtitle>A duck food source.&lt;/navtitle>
         &lt;/topicmeta>

@@ -3,11 +3,11 @@
 <learningContent id="content_p3h_frt_qt">
     <title>Creating a new glossary entry</title>
     <prolog>
-        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+        <author href="https://www.scriptorium.com" scope="external" format="html">Simon Bate,
             Scriptorium</author>
-        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+        <author href="https://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
             Scriptorium</author>
-        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+        <author href="https://www.scriptorium.com" scope="external" format="html">Jake Campbell,
             Scriptorium</author>
         <critdates>
             <created date="2015-10-12"/>
@@ -28,7 +28,7 @@
                 element, and can contain a series of specialized elements that can be used to
                 provide additional details about the glossary term. The &lt;glossbody> element is
                 beyond the scope of this exercise, and will be covered in a later lesson.</p>
-            <p><xref href="https://youtu.be/6JrvPjKwphM" format="html" scope="external">Video:
+            <p><xref href="httpss://youtu.be/6JrvPjKwphM" format="html" scope="external">Video:
                     Creating a DITA glossary entry</xref></p>
             <note><p>Generally, it's a best practice to prepend "g_" to the filenames of your
                     glossary entries in order to make it easier to find them in a file structure.

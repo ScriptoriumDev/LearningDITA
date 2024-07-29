@@ -6,7 +6,7 @@
 <learningContent id="authoring">
     <title>Creating DITA content</title>
     <prolog>
-        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
+        <author href="https://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe, Scriptorium</author>
         <critdates>
             <created date="2015-05-18"/>
         </critdates>
@@ -34,13 +34,14 @@
         </lcIntro>
     </learningContentbody>
     <related-links>
-        <link href="http://webdesignfromscratch.com/html-css/css-block-and-inline/" scope="external" format="html"><linktext>Block versus inline elements, webdesignfromscratch.com</linktext></link>
+        <!-- [SP] AAB 2024-07-29 Updated dead link to current resource on block vs inline elements. -->
+        <link href="httpss://www.w3schools.com/html/html_blocks.asp" scope="external" format="html"><linktext>HTML Block and Inline Elements, w3schools.com</linktext></link>
         <link
-            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/c_Syntax_and_Markup.html"
+            href="https://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/c_Syntax_and_Markup.html"
             format="html" scope="external">
             <linktext>DITA Style Guide, Chapter 3, Syntax and mark-up</linktext>
         </link>
-        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/DITA1.2-spec.html" format="html"
+        <link href="https://docs.oasis-open.org/dita/v1.2/os/spec/DITA1.2-spec.html" format="html"
             scope="external">
             <linktext>Darwin Information Typing Architecture (DITA) Version 1.2, OASIS
                 Standard</linktext>

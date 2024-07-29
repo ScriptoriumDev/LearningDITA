@@ -3,11 +3,11 @@
 <learningContent id="content_rcq_vht_qt">
     <title>Creating a new reference topic</title>
     <prolog>
-        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+        <author href="https://www.scriptorium.com" scope="external" format="html">Simon Bate,
             Scriptorium</author>
-        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+        <author href="https://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
             Scriptorium</author>
-        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+        <author href="https://www.scriptorium.com" scope="external" format="html">Jake Campbell,
             Scriptorium</author>
         <critdates>
             <created date="2015-10-12"/>
@@ -32,7 +32,7 @@
             <p>The &lt;example>, &lt;section>, and &lt;refsyn> elements can contain the &lt;title>
                 element. This allows you to create subdivisions within a reference topic. If
                 necessary, an output transform can insert its own titles for &lt;properties> elements. </p>
-            <p><xref href="https://youtu.be/B3FVRhrfwkA" format="html" scope="external">Video:
+            <p><xref href="httpss://youtu.be/B3FVRhrfwkA" format="html" scope="external">Video:
                     Creating a DITA reference topic</xref></p>
         </lcInstruction>
     </learningContentbody>
@@ -111,7 +111,7 @@
                         <note><p>The &lt;cmdname> (command name) element denotes the name of a command
                             when referenced as a part of software, and is a part of the programming
                             domain. For more information on the programming domain, see the <xref
-                                href="http://docs.oasis-open.org/dita/v1.2/os/spec/common/pr-d.html"
+                                href="https://docs.oasis-open.org/dita/v1.2/os/spec/common/pr-d.html"
                                 scope="external" format="html">OASIS DITA Version 1.2
                                 Standard</xref>.</p></note>
                     </info>

@@ -7,7 +7,7 @@
 <learningContent id="content_kw5_5ls_zs">
     <title>Adding tables to a concept topic</title>
     <prolog>
-        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+        <author href="https://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
             Scriptorium</author>
         <critdates>
             <created date="2015-08-24"/>
@@ -74,11 +74,11 @@
                 <p>If you are using a DITA editor, some child elements of the &lt;table> element
                     will automatically be inserted as you work through the examples.</p>
             </note>
-            <p>Video: <xref href="https://www.youtube.com/watch?v=PFWz_Vsyxwg" format="html"
+            <p>Video: <xref href="httpss://www.youtube.com/watch?v=PFWz_Vsyxwg" format="html"
                     scope="external">Creating a table in DITA</xref></p>
             <note>
                 <p>This video shows an alternative way to create a table in DITA using the <xref
-                        href="http://oxygenxml.com/" format="html" scope="external">oXygen XML
+                        href="https://oxygenxml.com/" format="html" scope="external">oXygen XML
                         Editor</xref> table wizard. The exercises show you how to create a table
                     using DITA code.</p>
             </note></lcInstruction>
@@ -300,7 +300,7 @@
 &lt;/concept></pre>
                     </stepxmp>
                     <info>The &lt;tbody> element can contain one or more &lt;row> elements.</info>
-                    <info>Video: <xref href="https://www.youtube.com/watch?v=PFWz_Vsyxwg"
+                    <info>Video: <xref href="httpss://www.youtube.com/watch?v=PFWz_Vsyxwg"
                             format="html" scope="external">Creating a table in DITA</xref></info>
                 </step>
                 <step>
@@ -356,7 +356,7 @@
                             </table>
                             <p>Give people a friendly interface that lets them quickly narrow down their options and choose the one they want. You don’t have to expose all of the fields in the database—just the ones that help people narrow down their choices.</p>
                             <p><em>The product list on the right updates as you make selections on the left</em></p>
-                            <img src="http://www.learningdita.com/wp-content/uploads/2015/08/configurebetter1.png"/>
+                            <img src="https://www.learningdita.com/wp-content/uploads/2015/08/configurebetter1.png"/>
                             <hr/>]]></pre>
                     </info>
                 </step>

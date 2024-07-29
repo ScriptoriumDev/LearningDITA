@@ -4,17 +4,17 @@
 <learningContent id="content_pgf_3gt_qt">
     <title>DITA OT commands and parameters</title>
     <prolog class="- topic/prolog ">
-        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+        <author type="creator" href="https://www.scriptorium.com" format="html" scope="external"
             class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
-        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+        <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external"
             class="- topic/author ">Noelle Russell, Scriptorium</author>
-        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+        <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external"
             class="- topic/author ">Ashley Stant, Scriptorium</author>
-        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+        <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external"
             class="- topic/author ">Simon Bate, Scriptorium</author>
-        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+        <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external"
             class="- topic/author ">Bill Swallow, Scriptorium</author>
-        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+        <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external"
             class="- topic/author ">Jake Campbell, Scriptorium</author>
         <critdates>
             <created golive="2017-03-27" date="2017-02-06"/>
@@ -61,7 +61,7 @@
             </ul>
             <p>You can use additional parameters to add more specifcations about the build you’re
                 running. To explore all the options available to you, see the <xref
-                    href="http://www.dita-ot.org/2.4/parameters/index.html" format="html"
+                    href="https://www.dita-ot.org/2.4/parameters/index.html" format="html"
                     scope="external">DITA Open Toolkit Parameter Reference</xref>.</p>
             <draft-comment author="gretylkinsey">
                 <p>A RUNOT file is a series of commands stored in an XML file. RUNOT files help save

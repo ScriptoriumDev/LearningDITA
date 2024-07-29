@@ -8,9 +8,9 @@
     <title>Map files</title>
     <prolog>
         <author>Sharon Burton</author>
-        <author href="http://www.scriptorium.com" scope="external" format="html">Alan Pringle,
+        <author href="https://www.scriptorium.com" scope="external" format="html">Alan Pringle,
             Scriptorium</author>
-        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O'Keefe,
+        <author href="https://www.scriptorium.com" scope="external" format="html">Sarah O'Keefe,
             Scriptorium</author>
         <critdates>
             <created date="2015-04-28"/>
@@ -27,7 +27,7 @@
             <p>You generally do not add all available topics to a map file—just the ones you want
                 included in a deliverable. Also, you can include the same topic in multiple map
                 files, which is another example of reuse in DITA.</p>
-            <p>Video: <xref href="https://www.youtube.com/watch?v=I_yvE9_ECRw" format="html"
+            <p>Video: <xref href="httpss://www.youtube.com/watch?v=I_yvE9_ECRw" format="html"
                     scope="external">Example of a DITA map file</xref></p>
           
          <p>Map files are made up mainly of the following components:<ul id="ul_dy2_k3q_wr">
@@ -67,7 +67,7 @@
             <pre>&lt;topicref href="fish.dita">
 &lt;topicref href="shorebirds.dita">
 <b>&lt;mapref href="ducks.ditamap" format="ditamap"/></b></pre>
-            <p>Video: <xref href="https://www.youtube.com/watch?v=5gXZN505XFQ" format="html"
+            <p>Video: <xref href="httpss://www.youtube.com/watch?v=5gXZN505XFQ" format="html"
                 scope="external">Reusing a map file in a map file</xref></p>
             
         </lcInstruction>
