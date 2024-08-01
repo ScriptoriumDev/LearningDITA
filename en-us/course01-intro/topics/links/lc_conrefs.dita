@@ -47,7 +47,7 @@
                 conref attribute. Thus you can only conref a &lt;note> element from another
                 &lt;note> element; you can only conref an &lt;li> element from another &lt;li>
                 element, and so on.</note>
-    <p>Video: <xref href="httpss://www.youtube.com/watch?v=oHmXBRVk3yo" format="html"
+    <p>Video: <xref href="https://www.youtube.com/watch?v=oHmXBRVk3yo" format="html"
                     scope="external">DITA conref code example</xref></p>
             <note type="tip">It's a good practice to create separate topics that contain reusable
                 elements, rather than just picking a random topic and pointing a conref to that

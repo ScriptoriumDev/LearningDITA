@@ -42,10 +42,16 @@
   
  </learningContentbody>
  <related-links>
-  <link href="https://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/c_Topics_and_Information_Types.html" format="html" scope="external"><linktext>DITA Style Guide, Chapter 1</linktext></link>
+  <link href="https://www.oxygenxml.com/dita/styleguide/c_Topics_and_Information_Types.html" format="html" scope="external">
+   <linktext>DITA Style Guide, Chapter 1</linktext>
+  </link>
   <!-- [AAB 2024-07-29] Updated scriptorium.com/books to current resources page and added link to content transformation book. -->
-  <link href="https://www.scriptorium.com/resources/" scope="external" format="html"><linktext>Scriptorium Resources</linktext></link>
-  <link href="https://www.scriptorium.com/content-transformation/" scope="external" format="html"><linktext>Content Transformation book</linktext></link>
+  <link href="https://www.scriptorium.com/resources/" scope="external" format="html">
+   <linktext>Scriptorium Resources</linktext>
+  </link>
+  <link href="https://www.scriptorium.com/content-transformation/" scope="external" format="html">
+   <linktext>Content Transformation book</linktext>
+  </link>
  </related-links>
  
 </learningContent>

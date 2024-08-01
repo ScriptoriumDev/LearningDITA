@@ -54,11 +54,12 @@
     </learningContentbody>
     <related-links>
         <link
-            href="https://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Syntax_and_Markup/c_List_of_Domains.html"
+            href="https://www.oxygenxml.com/dita/styleguide/Syntax_and_Markup/c_List_of_Domains.html"
             format="html" scope="external">
             <linktext>DITA Style Guide, Element domains</linktext>
         </link>
-        <!--<link href="https://docs.oasis-open.org/dita/v1.2/os/spec/langref/codeblock.html"
+        <!-- [AAB 2024-07-31] TO DO: Update links to DITA spec. -->
+        <link href="https://docs.oasis-open.org/dita/v1.2/os/spec/langref/codeblock.html"
             format="html" scope="external">
             <linktext>OASIS DITA Version 1.2 Standard, &lt;codeblock></linktext>
         </link>
@@ -81,6 +82,6 @@
         <link href="https://docs.oasis-open.org/dita/v1.2/os/spec/langref/required-cleanup.html"
             format="html" scope="external">
             <linktext>OASIS DITA Version 1.2 Standard, &lt;required-cleanup></linktext>
-        </link>-->
+        </link>
     </related-links>
 </learningContent>

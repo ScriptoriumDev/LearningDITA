@@ -29,7 +29,7 @@
         <lcIntro>
             <p>DITA stands for Darwin Information Typing Architecture. It is an open standard,
                 originally created by IBM. IBM donated DITA to <xref
-                    href="httpss://www.oasis-open.org/committees/tc_home.php?wg_abbrev=dita"
+                    href="https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=dita"
                     format="html" scope="external">OASIS</xref> (the Organization for the
                 Advancement of Structured Information Standards) in 2005.</p>
             <p>DITA is an XML-based, tool-independent way to create, organize, and manage content.
@@ -45,9 +45,10 @@
         </lcIntro>
     </learningContentbody>
     <related-links>
-        <link href="https://dita.xml.org/book/export/html/1047" scope="external" format="html">
+        <!--[AAB 2024-07-31] dead link
+            <link href="https://dita.xml.org/book/export/html/1047" scope="external" format="html">
             <linktext>History of DITA</linktext>
-        </link>
+        </link>-->
         <link href="https://www.w3.org/html/wg/wiki/DraconianErrorHandling" format="html"
             scope="external">
             <linktext>Draconian error handling</linktext>
@@ -57,11 +58,11 @@
             <linktext>The ten commandments of DITA, Scriptorium blog</linktext>
         </link>
         <link
-            href="https://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/c_Syntax_and_Markup.html"
+            href="https://www.oxygenxml.com/dita/styleguide/c_Syntax_and_Markup.html"
             format="html" scope="external">
             <linktext>DITA Style Guide, Chapter 3, Syntax and Markup</linktext>
         </link>
-        <link href="httpss://github.com/flicstar/DITA-Mini-Manual" format="html" scope="external">
+        <link href="https://github.com/flicstar/DITA-Mini-Manual" format="html" scope="external">
             <linktext>Sample DITA content: a documentation project based on a 1960s Mini Owner’s
                 Manual, contributed by Felicity Brand</linktext>
         </link>

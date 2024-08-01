@@ -26,7 +26,7 @@
             <note>Although it might seem like the right thing to do, when creating a cross-reference
                 to a section, figure, or table, the href attribute should specify the section,
                 figure, or table, not the &lt;title> element within the section, figure, or table. </note>
-            <p>Video: <xref href="httpss://www.youtube.com/watch?v=Go2FyJl7uQY" format="html"
+            <p>Video: <xref href="https://www.youtube.com/watch?v=Go2FyJl7uQY" format="html"
                     scope="external">Code examples of DITA cross-references</xref>
             </p>
             <p>You can also use the &lt;xref> element to link to resources outside your DITA topics.
