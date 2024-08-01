@@ -33,18 +33,19 @@
     </learningContentbody>
     <related-links>
         <link
-            href="https://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Content_Reuse/c_Embedded_Topics.html"
-            format="html">
+            href="https://www.oxygenxml.com/dita/styleguide/Content_Reuse/c_Embedded_Topics.html"
+            format="html" scope="external">
             <linktext>DITA Style Guide, Embedded topics and ditamaps</linktext>
         </link>
-        <link href="https://blog.oxygenxml.com/2015/11/dita-reuse-strategies-short-tutorial.html"
-            format="html">
+        <!-- [AAB 2024-08-01] TO DO: Find equivalent resources to dead links below. -->
+        <!--<link href="https://blog.oxygenxml.com/2015/11/dita-reuse-strategies-short-tutorial.html"
+            format="html" scope="external">
             <linktext>DITA Reuse Strategies</linktext>
-        </link>
-        <link
+        </link>-->
+        <!--<link
             href="https://dita.xml.org/reuse-strategies"
             format="html">
             <linktext>Reuse strategies and the mechanisms that support them</linktext>
-        </link>
+        </link>-->
     </related-links>
 </learningContent>

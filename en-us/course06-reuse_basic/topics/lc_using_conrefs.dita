@@ -26,18 +26,19 @@
     <related-links>
         <link
             href="https://docs.oasis-open.org/dita/v1.2/os/spec/common/theconrefattribute.html#theconrefattribute"
-            format="html" scope="external">
+            scope="external" format="html">
             <linktext>OASIS DITA Version 1.2 Standard, The conref attribute</linktext>
         </link>
         <link
-            href="https://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Content_Reuse/c_Content_Reference.html"
-            format="html" scope="external">
+            href="https://www.oxygenxml.com/dita/styleguide/Content_Reuse/c_Content_Reference.html"
+            scope="external" format="html">
             <linktext>DITA Style Guide, The content reference (conref) attribute</linktext>
         </link>
-        <link
+        <!-- [AAB 2024-08-01] Dead link.
+            <link
             href="https://ditachicks.com/2010/12/05/using-content-references-in-dita/"
             format="html" scope="external">
             <linktext>Using content references in DITA</linktext>
-        </link>
+        </link>-->
     </related-links>
 </learningContent>

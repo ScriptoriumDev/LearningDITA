@@ -38,12 +38,12 @@
     <related-links>
         <link
             href="https://docs.oasis-open.org/dita/v1.2/os/spec/common/complexattributedefinitions.html"
-            format="html">
+            scope="external" format="html">
             <linktext>DITA Specification, Complex attribute definitions</linktext>
         </link>
         <link
-            href="https://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Content_Reuse/c_Advanced_conref_Principles.html"
-            format="html">
+            href="https://www.oxygenxml.com/dita/styleguide/Content_Reuse/c_Advanced_conref_Principles.html"
+            scope="external" format="html">
             <linktext>DITA Style Guide, Advanced conref principles</linktext>
         </link>
         <link href="https://www.scriptorium.com/2015/10/unsung-heroes-of-dita-premium/"
@@ -54,9 +54,5 @@
             scope="external" format="html">
             <linktext>A simple use case for DITA conkeyrefs</linktext>
         </link>
-        
-        
-        
-        
     </related-links>
 </learningContent>
