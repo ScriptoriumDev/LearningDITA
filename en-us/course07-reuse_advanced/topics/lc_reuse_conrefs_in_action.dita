@@ -19,7 +19,7 @@
                 if a referenced paragraph contains a &lt;uicontrol> element, the paragraph and the
                 &lt;uicontrol> element contained within it are inserted at the location of the
                 referencing element. This also means that a reference to a &lt;ol> element includes
-                all the &lt;li> elelments that are contained by the &lt;ol> element. <draft-comment
+                all the &lt;li> elements that are contained by the &lt;ol> element. <draft-comment
                     author="simonbate">"are inserted" is passive. </draft-comment></p>
             <p class="- topic/p ">A conref directly references a reused element using its id and
                 location. The location is the path to the topic that contains the reused content,
