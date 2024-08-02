@@ -8,7 +8,7 @@
     <shortdesc/>
     <prolog>
         <author>Sharon Burton</author>
-        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+        <author href="https://www.scriptorium.com" scope="external" format="html">Simon Bate,
             Scriptorium</author>
         <critdates>
             <created date="2015-04-28"/>
@@ -45,19 +45,20 @@
         </lcIntro>
     </learningContentbody>
     <related-links>
-        <link href="http://dita.xml.org/book/export/html/1047" scope="external" format="html">
+        <!--[AAB 2024-07-31] dead link
+            <link href="https://dita.xml.org/book/export/html/1047" scope="external" format="html">
             <linktext>History of DITA</linktext>
-        </link>
-        <link href="http://www.w3.org/html/wg/wiki/DraconianErrorHandling" format="html"
+        </link>-->
+        <link href="https://www.w3.org/html/wg/wiki/DraconianErrorHandling" format="html"
             scope="external">
             <linktext>Draconian error handling</linktext>
         </link>
-        <link href="http://www.scriptorium.com/2013/07/the-ten-commandments-of-dita/" format="html"
+        <link href="https://www.scriptorium.com/2013/07/the-ten-commandments-of-dita/" format="html"
             scope="external">
             <linktext>The ten commandments of DITA, Scriptorium blog</linktext>
         </link>
         <link
-            href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/c_Syntax_and_Markup.html"
+            href="https://www.oxygenxml.com/dita/styleguide/c_Syntax_and_Markup.html"
             format="html" scope="external">
             <linktext>DITA Style Guide, Chapter 3, Syntax and Markup</linktext>
         </link>

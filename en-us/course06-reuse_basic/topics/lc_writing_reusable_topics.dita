@@ -3,11 +3,11 @@
 <learningContent id="content_pgf_3gt_qt">
     <title>Writing for reuse</title>
     <prolog>
-        <author type="creator" href="http://www.scriptorium.com/" format="html" scope="external"
+        <author type="creator" href="https://www.scriptorium.com/" format="html" scope="external"
             class="- topic/author ">Simon Bate, Scriptorium</author>
-        <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+        <author type="contributor" href="https://www.scriptorium.com/" format="html" scope="external"
             class="- topic/author ">Jake Campbell, Scriptorium</author>
-        <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+        <author type="contributor" href="https://www.scriptorium.com/" format="html" scope="external"
             class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
         <critdates>
             <created golive="2016-07-11" date="2016-05-11"/>
@@ -46,7 +46,7 @@
                 <li>Do not use inline cross-references. In your version of the content, the
                     cross-reference target exists, but it might not be in the next map where your
                     content is reused. Instead, use DITA relationship tables to automatically
-                    generate links to releated topics. </li>
+                    generate links to related topics. </li>
             </ul>
             <p>To make your writing more generalized:</p>
             <ul id="ul_jpy_vlc_kw">

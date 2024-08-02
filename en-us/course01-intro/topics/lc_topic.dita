@@ -8,11 +8,11 @@
     <shortdesc/>
     <prolog>
         <author>Sharon Burton</author>
-        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe,
+        <author href="https://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe,
             Scriptorium</author>
-        <author href="http://www.scriptorium.com" scope="external" format="html">Alan Pringle,
+        <author href="https://www.scriptorium.com" scope="external" format="html">Alan Pringle,
             Scriptorium</author>
-        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+        <author href="https://www.scriptorium.com" scope="external" format="html">Simon Bate,
             Scriptorium</author>
 
         <critdates>
@@ -24,10 +24,10 @@
         <lcInstruction>
             <p>A DITA topic is the basic unit of authoring and reuse. </p>
             <p>In topic-based authoring, you create a number of individual topics, each of which
-                each addresses a single idea or answers a single question. These topics can then be
-                used and reused in any order, in a number of different documents. In DITA the topics
-                are organized in <i>maps</i>, which are much like a table of contents; the map
-                allows you to specify the order and the hierarchy of the topics. </p>
+                addresses a single idea or answers a single question. These topics can then be used
+                and reused in any order, in a number of different documents. In DITA the topics are
+                organized in <i>maps</i>, which are much like a table of contents; the map allows
+                you to specify the order and the hierarchy of the topics. </p>
             <p>To make your topics reusable: </p>
             <ul id="ul_kpb_fhh_rs">
                 <li>A topic should address a single idea or answer a single question. </li>
