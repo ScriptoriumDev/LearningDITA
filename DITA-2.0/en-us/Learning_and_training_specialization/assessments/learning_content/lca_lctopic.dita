@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="lca_lctopic">
+    <title>learningContent Topic</title>
+    <learningAssessmentbody>
+        <lcInteraction>
+            <lcMultipleSelect id="multi_select_lctopic">
+                <lcQuestion>To place an activity and learning content in the same topic you can (check all that apply):</lcQuestion>
+                <lcAnswerOptionGroup id="lcAnswerOptionGroup_mxg_4q1_mt">
+                    <lcAnswerOption>
+                        <lcAnswerContent>Embed a &lt;task> topic within a &lt;learningContent> topic.</lcAnswerContent>
+                        <lcCorrectResponse/>
+                    </lcAnswerOption>
+                    <lcAnswerOption>
+                        <lcAnswerContent>Use the &lt;lcInteraction> element within the &lt;learningContentbody>.</lcAnswerContent>
+                        <lcCorrectResponse/>
+                    </lcAnswerOption>
+                    <lcAnswerOption>
+                        <lcAnswerContent>Write a &lt;learningContent> topic within a &lt;task> topic.</lcAnswerContent>
+                    </lcAnswerOption>
+                </lcAnswerOptionGroup>
+                <lcFeedbackIncorrect>A &lt;learningContent> topic cannot be nested in a task topic.</lcFeedbackIncorrect>
+            </lcMultipleSelect>
+        </lcInteraction>
+    </learningAssessmentbody>
+</learningAssessment>

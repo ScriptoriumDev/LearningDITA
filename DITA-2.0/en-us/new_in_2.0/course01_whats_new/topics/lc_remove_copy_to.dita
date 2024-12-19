@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on 
+     github.com. See the accompanying LICENSE file for 
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="lc_remove_copy_to">
+    <title>Remove copy-to attribute</title>
+    <prolog>
+        <author href="https://www.scriptorium.com/" scope="external" format="html">Melissa Kershes, Scriptorium</author>
+        <author href="https://www.scriptorium.com/" scope="external" format="html">Allison Beatty, Scriptorium</author>
+        <author>Simon Bate, Scriptorium</author>
+        <critdates>
+            <created date="2024-08-19"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcIntro>The copy-to attribute is no longer available in DITA 2.0 </lcIntro>
+        <lcInstruction>
+            <p>The copy-to attribute was used in &lt;topicref> elements to direct a processor to create a copy of the file referenced with the href attribute.
+                This avoided a number of issue that could occur in HTML and other outputs where multiple copies of the output file would be created. When
+                coupled with keys for identifying alternate output files, the copy-to attribute ensured that authors could create cross-references to the
+                correct instances of the output file. </p>
+            <p id="p_crt_3mh_lcc">In place the copy-to attribute in a &lt;topicref> element, use a &lt;resourceid> element with
+                    <tt>appid-role="deliverable-anchor"</tt> and use the appid attribute for the name of the output file to create. </p>
+            <p id="p_fd5_l4h_lcc">The &lt;resourceid> element should be contained in a &lt;topicmeta> element that is a child of the &lt;topicref>. </p>
+            <pre>&lt;topicref href="feed_types.dita">
+   &lt;topicmeta>
+      &lt;resourceid appid-role="deliverable-anchor" appid="construction_feed_types"/>
+   &lt;/topicmeta>
+&lt;/topicref></pre>
+            <p id="p_k32_q4h_lcc">In this example, the file feed_types.dita is being used in a different context. When the map is processed, the output includes
+                a file named “construction_feed_types.” The file extension is determined by the output generator. </p>
+            <p id="p_vyt_vrh_lcc">If the &lt;topicref> element has a &lt;navtitle> but no href attribute, a new title-only topic is created. The &lt;navtitle>
+                value provides the &lt;title> value for the topic. </p>
+            <p id="p_tcs_5xh_lcc">As with the copy-to attribute, to create a cross-reference to the deliverable-anchor, use the keys attribute to define a key
+                for the deliverable anchor file, then use a keyref with the &lt;xref> element to create a cross-reference to the output form of the deliverable
+                anchor file. </p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

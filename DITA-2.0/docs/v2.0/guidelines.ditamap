@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA 2.x Map//EN" "map.dtd">
+<map>
+ <title>The ditatraining GitHub project</title>
+<topicmeta> 
+  <author href="http://www.scriptorium.com">Sarah O'Keefe, Scriptorium</author>
+  <author href="http://www.scriptorium.com">Alan Pringle, Scriptorium</author>
+  <author href="http://www.scriptorium.com">Simon Bate, Scriptorium</author>
+ <copyright>
+  <copyryear year="2015-2017"/>
+  <copyrholder>Scriptorium Publishing Services, Inc.</copyrholder>
+  <!--            <copyrholder>Scriptorium Publishing Services, Inc. CONFIDENTIAL.</copyrholder>-->
+ </copyright>
+ <critdates>
+   <created date="September 1, 2015"/>
+  <revised modified="January 24, 2017" golive="January 25, 2017"/>
+ </critdates>
+</topicmeta>
+ <topicref href="filenaming.dita"/>
+ <topicref href="usage.dita"/>
+ <topicref href="style_and_approach.dita"/>
+ <topicref href="style.dita">
+  <topicref href="metadata.dita"/>
+  <topicref href="learningmod_structure.dita"/>
+  <topicref href="task.dita"/>
+  <topicref href="reuse.dita"/>
+  <topicref href="assessments.dita"/>
+ </topicref>
+</map>

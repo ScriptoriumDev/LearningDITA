@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="lca_l-maps-element2">
+    <title>Learning group map elements</title>
+    <prolog>
+        <author href="https://www.scriptorium.com" scope="external" format="html">Kaitlyn Heath,
+            Scriptorium</author>
+        <critdates>
+            <created date="2018-09-06"/>
+        </critdates>
+    </prolog>
+    <learningAssessmentbody>
+        <lcInteraction>
+            <lcTrueFalse id="t-f_l-map-elements">
+                <lcQuestion>You can use the &lt;topicref> element to reference other DITA topics from a  &lt;learningGroup> element.</lcQuestion>
+                <lcAnswerOptionGroup>
+                    <lcAnswerOption>
+                        <lcAnswerContent>True</lcAnswerContent>
+                    </lcAnswerOption>
+                    <lcAnswerOption>
+                        <lcAnswerContent>False</lcAnswerContent>
+                        <lcCorrectResponse/>
+                    </lcAnswerOption>
+                </lcAnswerOptionGroup>
+                <lcFeedbackIncorrect>Learning group elements can reference only learning
+                    references. The &lt;topicref> element can be placed directly within the
+                    &lt;learningGroupMap>, but it is not recommended since it may not be processed
+                    correctly in standard transforms.</lcFeedbackIncorrect>
+            </lcTrueFalse>
+        </lcInteraction>
+    </learningAssessmentbody>
+</learningAssessment>

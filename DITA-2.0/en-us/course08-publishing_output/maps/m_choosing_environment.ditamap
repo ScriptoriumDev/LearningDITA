@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA 2.x Map//EN" "map.dtd">
+<map>
+ <title>Choosing a DITA publishing environment</title>
+ <topicref href="../topics/lc_choosing_environment.dita">
+  <topicmeta>
+  <data name="lesson_id" value="11277"/>
+ </topicmeta>
+  <topicref href="../../shared/topics/lc_general_housekeeping.dita"/>
+  <topicref href="../topics/lc_determining_outputs.dita"/>
+  <topicref href="../topics/lc_publishing_considerations.dita"/>
+  <topicref href="../topics/lc_standalone_ot.dita"/>
+  <topicref href="../topics/lc_oxygen.dita"/>
+  <topicref href="../topics/lc_ccms.dita"/>
+  <topicref href="../../shared/topics/lcc_assessment.dita">
+   <topicmeta>
+    <navtitle>Assessment for Choosing a DITA publishing environment</navtitle>
+    <resourceid appid-role="deliverable-anchor" appid="lcc_choosing_environment"></resourceid>
+   </topicmeta>
+   <topicref href="../assessments/choosing_environment/lca_environment.dita"/>
+   <topicref href="../assessments/choosing_environment/lca_standalone_ot.dita"/>
+   <topicref href="../assessments/choosing_environment/lca_ccms.dita"/>
+   <topicref href="../assessments/choosing_environment/lca_DITAOT.dita"/>
+   <topicref href="../assessments/choosing_environment/lca_oxygen.dita"/>
+  </topicref>
+ </topicref>
+</map>

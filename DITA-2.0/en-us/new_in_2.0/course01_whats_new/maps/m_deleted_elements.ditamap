@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on 
+     github.com. See the accompanying LICENSE file for 
+     applicable licenses.-->
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA 2.x Map//EN" "map.dtd">
+<map>
+    <title>Deleted elements and attributes</title>
+    <topicref href="../topics/lc_deprecated_elements.dita">
+        <topicmeta>
+            <data name="lesson_id" value=""/>
+        </topicmeta>
+        <topicref href="../topics/lc_print_attribute.dita"/>
+        <topicref href="../topics/lc_remove_copy_to.dita"/>
+        <topicref href="../topics/lc_remove_boolean.dita"/>
+        <topicref href="../topics/lc_subjectScheme_elements.dita"/>
+        <topicref href="../topics/remove_xnal_domain.dita"/>
+        <topicref href="../topics/remove_classification_domain.dita"/>
+    </topicref>
+</map>

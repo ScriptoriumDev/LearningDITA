@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on 
+     github.com. See the accompanying LICENSE file for 
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="lc_print_attribute">
+    <title>Print attribute</title>
+    <prolog>
+        <author href="https://www.scriptorium.com/" scope="external" format="html">Melissa Kershes, Scriptorium</author>
+        <author href="https://www.scriptorium.com/" scope="external" format="html">Allison Beatty, Scriptorium</author>
+        <author href="https://www.scriptorium.com/" scope="external" format="html">Simon Bate, Scriptorium</author>
+        <critdates>
+            <created date="2024-08-19"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcIntro>
+            <p>The print attribute is no longer available. in DITA 2.0. The attribute is used in &lt;topicref&gt; elements and was deprecated in DITA 1.3. </p>
+        </lcIntro>
+        <lcInstruction>
+            <p>The print attribute indicated whether the referenced topic should be printed, with the values “yes,” “no,” and “printonly.” The value “printonly”
+                indicated that the topic would be included only when used for printed output (as opposed to web output). </p>
+            <p>The replacement for print is the deliveryTarget filtering attribute. This attribute has the advantage that it can be used in either topics or
+                maps. Additionally, because deliveryTarget is a filtering attribute, the values used are entirely up to your organization. </p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

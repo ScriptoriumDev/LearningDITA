@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="lca_benefits">
+    <title>Benefits</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Kaitlyn Heath, Scriptorium</author>
+        <critdates>
+            <created date="2018-08-24"/>
+        </critdates>
+    </prolog>
+    <learningAssessmentbody>
+        <lcInteraction>
+            <lcMultipleSelect id="ms-benefits">
+                <lcQuestion>Select all of the following reasons you might want to use the L&amp;T specialization.</lcQuestion>
+                <lcAnswerOptionGroup>
+                    <lcAnswerOption>
+                        <lcAnswerContent>You want to create a task topic.</lcAnswerContent>
+                    </lcAnswerOption>
+                    <lcAnswerOption>
+                        <lcAnswerContent>You are developing content for instructor and student materials.</lcAnswerContent>
+                        <lcCorrectResponse/>
+                    </lcAnswerOption>
+                    <lcAnswerOption>
+                        <lcAnswerContent>You are developing training content for print and online media.</lcAnswerContent>
+                        <lcCorrectResponse/>
+                    </lcAnswerOption>
+                    <lcAnswerOption>
+                        <lcAnswerContent>You need to incorporate previously written DITA content into a new course.</lcAnswerContent>
+                        <lcCorrectResponse/>
+                    </lcAnswerOption>
+                </lcAnswerOptionGroup>
+                <lcFeedbackIncorrect>You can create a task topic without the L&amp;T specialization.</lcFeedbackIncorrect>
+            </lcMultipleSelect>
+        </lcInteraction>
+    </learningAssessmentbody>
+</learningAssessment>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<learningAssessment id="lca_assessment" xml:lang="en-US">
+    <title>learningAssessment</title>
+    <shortdesc/>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey, Scriptorium</author>
+        <critdates>
+            <created date="2018-01-18"/>
+        </critdates>
+    </prolog>
+    <learningAssessmentbody>
+        <lcInteraction id="lcInteraction_pnx_5lq_4cb">
+            <lcTrueFalse id="t-f-interaction">
+                <lcQuestion>You use the &lt;learningAssessment> topic type for quizzes, assignments, and
+                    other exercises (true/false).</lcQuestion>
+                <lcAnswerOptionGroup id="lcAnswerOptionGroup2_cdq_wlq_4cb">
+                    <lcAnswerOption>
+                        <lcAnswerContent>True</lcAnswerContent>
+                        <lcCorrectResponse/>
+                    </lcAnswerOption>
+                    <lcAnswerOption>
+                        <lcAnswerContent>False</lcAnswerContent>
+                        <lcFeedback>The &lt;learningAssessment> topic type can be used for any type of question posed to the student, including quizzes and assignments.</lcFeedback>
+                    </lcAnswerOption>
+                </lcAnswerOptionGroup>
+            </lcTrueFalse>
+        </lcInteraction>
+    </learningAssessmentbody>
+</learningAssessment>

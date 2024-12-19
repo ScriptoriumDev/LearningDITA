@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="lc_learning_maps">
+    <title>Learning maps</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Kaitlyn Heath, Scriptorium</author>
+        <critdates>
+            <created date="2018-02-01"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction id="lcInstruction_js5_cqb_yz">
+            <p>There are two learning map types that you use to collect learning objects and
+                learning groups:</p>
+            <ul id="ul_ptt_gq5_scb">
+                <li>The learningObject map type contains a single &lt;learningObject> element. </li>
+                <li>The learningGroup map type contains a single &lt;learningGroup> object. </li>
+            </ul>
+            <p>Both the learningObject map and learningGroup map are specializations of the base
+                DITA map type. The content models in the DITA 1.3 Specification indicate you can use
+                many of the map elements in these types, but the intent is that they should contain
+                a single learning group or learning object element. The specification does allow you
+                to use &lt;topicref> elements to reference keymaps and other supporting content. </p>
+            <p>In practical terms, this means that most output transforms will only expect a single
+                learning group or learning object element. You might be able to add additional map
+                elements, but you cannot expect that they will be handled correctly by all
+                processors.</p>
+            <p>A learning object map has this structure:</p>
+            <pre>
+&lt;!DOCTYPE learningObjectMap PUBLIC "-//OASIS//DTD DITA 1.3 Learning Object Map//EN" 
+    "learningObjectMap.dtd">
+&lt;learningObjectMap>
+   &lt;learningObject>
+      ...
+   &lt;/learningObject>
+&lt;/learningObjectMap>
+</pre>
+            <p>A learningGroup map has this structure:</p>
+            <pre>
+&lt;!DOCTYPE learningGroupMap PUBLIC "-//OASIS//DTD DITA 1.3 Learning Group Map//EN" 
+    "learningGroupMap.dtd">
+&lt;learningGroupMap>
+   &lt;learningGroup>
+      ...
+   &lt;/learningGroup>
+&lt;/learningGroupMap></pre>
+            <p>Within a learning group element you can embed other learning groups and learning
+                objects. This allows you to reuse topics, lessons, etc. You can also reuse other
+                learning map types by using the &lt;learningObjectMapRef> and
+                &lt;learningGroupMapRef></p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_learningGroup_map">
+        <title>Practice</title>
+        <taskbody>
+            <steps>
+                <step>
+                    <cmd>Make a copy of the file learningGroups-practice_start.ditamap and open it
+                        in your editor.</cmd>
+                    <info>
+                        <note>If you are using a DITA-aware text editor, make sure you are in text
+                            mode, rather than author or visual mode.</note>
+                    </info>
+                    <stepxmp>
+                        <p>You should see this:</p>
+                        <pre>
+&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;!DOCTYPE learningGroupMap PUBLIC "-//OASIS//DTD DITA Learning Group Map//EN" 
+    "learningGroupMap.rng">
+&lt;learningGroupMap>
+    
+&lt;/learningGroupMap></pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>You should give your map a title and place the main learning group.</cmd>
+                    <stepxmp>
+                        <pre>
+&lt;learningGroupMap>
+    <ph outputclass="newchanged">&lt;&lt;title>Feeding Ducks&lt;/title>
+    &lt;learningGroup>
+    &lt;/learningGroup></ph>
+&lt;/learningGroupMap>
+                        </pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Next you can reference a learning topic. For this exercise we will add learningPlan and learningOverview
+                        references. You can find the collection of files that you can use in the
+                        folder lesson5/object_samples. You can reference the Feeding Ducks learning
+                        plan (lp_feedingducks.dita) with the &lt;learningPlanRef> element and the
+                        href attribute.</cmd>
+                    <stepxmp>
+                        <pre>
+&lt;learningGroupMap>
+    &lt;title>Feeding Ducks&lt;/title>
+    &lt;learningGroup>
+        <ph outputclass="newchanged">&lt;learningPlanRef href="../lp_feedingducks.dita"/></ph>
+    &lt;/learningGroup>
+&lt;/learningGroupMap>
+                        </pre>
+                    </stepxmp>
+                    <info>Notice how the reference element states the type of topic that it
+                        references: &lt;learningPlanRef>.</info>
+                    <info>Inside of the href attribute, make sure to add "../" to the beginning of a file name. Then if the filepath is change, your editor can still locate it.</info>
+                </step>
+                <step>
+                    <cmd>Then you can reference the Feeding Ducks learning overview.</cmd>
+                    <stepxmp>
+                        <pre>
+&lt;learningGroupMap>
+    &lt;title>Feeding Ducks&lt;/title>
+    &lt;learningGroup>
+        &lt;learningPlanRef href="../lp_feedingducks.dita"/>
+        <ph outputclass="newchanged">&lt;learingOverviewRef href="../lo_feedingducks.dita"/></ph>
+    &lt;/learningGroup>
+&lt;/learningGroupMap>
+                        </pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Next you are going to add another learning group element that will contain
+                        all of the topics for the first lesson, and give it a title in the
+                        map.</cmd>
+                    <stepxmp>
+                        <pre>
+&lt;learningGroupMap>
+    &lt;title>Feeding Ducks&lt;/title>
+    &lt;learningGroup>
+        &lt;learningPlanRef href="../lp_feedingducks.dita"/>
+        &lt;learingOverviewRef href="../lo_feedingducks.dita"/>
+    &lt;/learningGroup>
+    
+    <ph outputclass="newchanged">&lt;learningGroup>
+        &lt;topicmeta>
+            &lt;navtitle>Lesson 1: Feed Quality&lt;/navtitle>
+        &lt;/topicmeta>
+    &lt;/learningGroup></ph>
+
+&lt;/learningGroupMap>
+                        </pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Within this lesson you can create reusable topics. Use a learning
+                        object for this. Create a &lt;learningObject> within the Lesson 1 learning
+                        group and name it.</cmd>
+                    <stepxmp>
+                        <pre>
+&lt;learningGroupMap>
+    &lt;title>Feeding Ducks&lt;/title>
+    &lt;learningGroup>
+        &lt;learningPlanRef href="../lp_feedingducks.dita"/>
+        &lt;learingOverviewRef href="../lo_feedingducks.dita"/>
+    &lt;/learningGroup>
+    
+    &lt;learningGroup>
+        &lt;topicmeta>
+            &lt;navtitle>Lesson 1: Feed Quality&lt;/navtitle>
+        &lt;/topicmeta>
+        
+        <ph outputclass="newchanged">&lt;learningObject>
+            &lt;topicmeta>
+                &lt;navtitle>Topic 1&lt;/navtitle>
+            &lt;/topicmeta>
+        &lt;/learningObject></ph>
+        
+    &lt;/learningGroup>
+
+&lt;/learningGroupMap>
+                        </pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Now you can add all of the learning topics for the first lesson in feed
+                        quality. Include the learning plan, learning overview, all of the learning
+                        content topics, learning summary, and the learning assessment by using the
+                        appropriate reference topics.</cmd>
+                    <stepxmp>
+                        <pre>
+&lt;learningGroupMap>
+  . . .
+    &lt;learningGroup>
+        &lt;topicmeta>
+            &lt;navtitle>Lesson 1: Feed Quality&lt;/navtitle>
+        &lt;/topicmeta>
+    
+        &lt;learningObject>
+            &lt;topicmeta>
+                &lt;navtitle>Topic 1&lt;/navtitle>
+            &lt;/topicmeta>
+            <ph outputclass="newchanged"> &lt;learningPlanRef href="../lp_l1_t1_feed_quality.dita"/>
+            &lt;learningOverviewRef href="../lo_l1_t1_feed_quality.dita"/>
+            &lt;learningContentRef href="../lc_l1_t1_where_to_buy.dita"/>
+            &lt;learningContentRef href="../lc_l1_t1_storage.dita"/>
+            &lt;learningContentRef href="../lc_l1_t1_spoiling.dita"/>
+            &lt;learningContentRef href="../lc_l1_t1_ingredient_quality.dita"/>
+            &lt;learningSummaryRef href="../ls_l1_t1_summary.dita"/>
+            &lt;learningPostAssessmentRef href="../lg_l1_t1_quiz.dita" type="learningGroup"/>
+            </ph>
+     &lt;/learningObject>
+    
+    &lt;/learningGroup>
+
+&lt;/learningGroupMap>
+                        </pre>
+                    </stepxmp>
+                    <info>You could add the appropriate number of learning objects and groups for
+                        the number of topics and lessons that you need to add to the map.</info>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

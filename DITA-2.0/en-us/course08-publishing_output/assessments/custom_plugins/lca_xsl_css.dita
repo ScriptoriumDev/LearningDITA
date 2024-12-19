@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningAssessment id="lca_conref_push_requirements">
+ <title>Acquiring custom plugins</title>
+ <prolog class="- topic/prolog ">
+  <author type="creator" href="https://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+  <author type="contributor">Noelle Russell</author>
+  <author type="contributor">Ashley Stant</author>
+  <author type="contributor" href="https://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Simon Bate, Scriptorium</author>
+  <author type="contributor" href="https://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Bill Swallow, Scriptorium</author>
+  <author type="contributor" href="https://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Jake Campbell, Scriptorium</author>
+  <critdates>
+   <created golive="2017-03-27" date="2017-02-06"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+ <lcInteraction>
+   <lcMultipleSelect id="lcMultipleSelect_zgv_kjh_jz">
+    <lcQuestion>What are some ways that you can acquire custom DITA plugins? (Choose all that
+     apply)</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_ahv_kjh_jz">
+     <lcAnswerOption>
+      <lcAnswerContent>Create them yourself.</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Hire or contract someone to create them.</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Find them on the web.</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Download them as part of the DITA OT package from
+       the DITA Open Toolkit website.</lcAnswerContent>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>You can create custom plugins yourself, find them on the web, or hire or
+     contract someone to create them. The DITA OT’s default plugins are available as part of the
+     DITA OT package from the DITA Open Toolkit website, but custom plugins are not.</lcFeedbackIncorrect>
+   </lcMultipleSelect>
+  </lcInteraction>
+</learningAssessmentbody>
+</learningAssessment>

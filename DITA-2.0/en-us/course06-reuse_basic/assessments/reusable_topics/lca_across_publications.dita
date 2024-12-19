@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<learningAssessment id="lca_across_publications">
+ <title>Across publications</title>
+ <prolog>
+  <author href="http://www.easydita.com" scope="external" format="html">Mike Rice,
+   easyDITA</author>
+  <critdates>
+   <created golive="2016-07-11" date="2016-05-11"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcTrueFalse id="tf1"
+    class="+ topic/fig learningInteractionBase-d/lcInteractionBase learning-d/lcTrueFalse ">
+    <lcQuestion class="+ topic/p learningInteractionBase-d/lcQuestionBase learning-d/lcQuestion "
+     >The following is a good candidate for reuse across publications about automobiles: 
+     “In case of an emergency, move your vehicle to the side of the road, if possible.” (Pick one)</lcQuestion>
+    <lcAnswerOptionGroup
+     class="+ topic/ul learningInteractionBase-d/ul learning-d/lcAnswerOptionGroup "
+     id="lcAnswerOptionGroup_q2d_t5y_dw">
+     <lcAnswerOption class="+ topic/li learningInteractionBase-d/li learning-d/lcAnswerOption ">
+      <lcAnswerContent class="+ topic/p learningInteractionBase-d/p learning-d/lcAnswerContent "
+       >True</lcAnswerContent>
+      <lcCorrectResponse name="lcCorrectResponse" value="lcCorrectResponse"
+       class="+ topic/data learningInteractionBase-d/data learning-d/lcCorrectResponse "/>
+     </lcAnswerOption>
+     <lcAnswerOption class="+ topic/li learningInteractionBase-d/li learning-d/lcAnswerOption ">
+      <lcAnswerContent class="+ topic/p learningInteractionBase-d/p learning-d/lcAnswerContent "
+       >False</lcAnswerContent>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect
+     class="+ topic/p learningInteractionBase-d/p learning-d/lcFeedbackIncorrect ">The content would
+     be reused in the same context, and does not contain pronouns that refer to something outside
+     itself. This content is a good candidate for reuse.</lcFeedbackIncorrect>
+    <!--<lcFeedbackCorrect class="+ topic/p learningInteractionBase-d/p learning-d/lcFeedbackCorrect ">Right. Because the reuse is within the context of automobiles, and the content doesn’t use pronouns to refer to anything outside itself, it’s a good candidate for reuse.</lcFeedbackCorrect>-->
+   </lcTrueFalse>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="lc_task_exercise">
+    <title>Creating a new task topic</title>
+    <learningContentbody>
+        <lcInstruction>
+            <p>At a minimum, the task topic must contain a &lt;task> root element (with an id
+                attribute) that contains a &lt;title> element. </p>
+            <p>Following the &lt;title> element and an optional &lt;shortdesc> element, a
+                &lt;taskbody> element contains the task content. The elements within the
+                &lt;taskbody> conform to a specific order. This course presents the elements of the
+                &lt;taskbody> in the order in which they must occur. </p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_lc_exercise">
+        <title>Practice</title>
+        <taskbody>
+            <steps id="steps_lc_exercise">
+                <step>
+                    <cmd>Make a copy of the file l_task_start.dita and open it in your editor.</cmd>
+                    <info>
+                        <note>If you are using a DITA-aware text editor, make sure you are in text
+                            mode, rather than author or visual mode. </note>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Inside the &lt;title> element, update the text of the task title.</cmd>
+                </step>
+                <step>
+                    <cmd>After the &lt;title> element, add a &lt;taskbody> element.</cmd>
+                    <info>The &lt;taskbody> element contains all the actual content in the task. </info>
+                    <info>This is the essential part of a DITA strict task topic. The rest of this
+                        lesson shows you how to add the first two child elements to the
+                        &lt;taskbody> element.</info>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

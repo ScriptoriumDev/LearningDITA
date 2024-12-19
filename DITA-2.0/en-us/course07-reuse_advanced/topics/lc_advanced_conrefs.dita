@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="lc_advanced_bookmaps">
+    <title>Advanced conrefs</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="https://www.scriptorium.com" format="html" scope="external">Simon Bate</author>
+        <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external">Jake Campbell</author>
+        <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external">Gretyl Kinsey</author>
+        <critdates>
+            <created golive="2016-12-01" date="2016-10-18"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup id="lcObjectivesGroup_obp_5py_dw">
+                <lcObjective>Create and use a conkeyref.</lcObjective>
+                <lcObjective>Reference a range of elements with conrefend.</lcObjective>
+                <lcObjective>Add an element to a topic with conref push (conaction).</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="45"/>
+        </lcDuration>
+        <lcIntro>Content references allow you to reuse a single element (and its content) in other
+            topics. This lesson introduces three additional ways you can use content references:<ul
+                id="ul_ogy_wdv_qx">
+                <li>Conkeyrefs, in which the file path portion of a conref uses a key </li>
+                <li>Content reference ranges, which allow content references to pull in multiple
+                    elements (and their content)</li>
+                <li>Content reference push, which allows maps to insert elements into topics in
+                    arbitrary locations</li>
+            </ul></lcIntro>
+    </learningContentbody>
+    <related-links>
+        <!-- [SP] MAK 2024-04-28  TO DO Update URL-->
+        <!-- [SP] MAK 2024-04-28  TO DO See if there are newer blog posts to point to-->
+        <link
+            href="https://docs.oasis-open.org/dita/v1.2/os/spec/common/complexattributedefinitions.html"
+            format="html">
+            <linktext>DITA Specification, Complex attribute definitions</linktext>
+        </link>
+        <link
+            href="https://www.oxygenxml.com/dita/styleguide/Content_Reuse/c_Advanced_conref_Principles.html"
+            format="html">
+            <linktext>DITA Style Guide, Advanced conref principles</linktext>
+        </link>
+        <link href="https://www.scriptorium.com/2015/10/unsung-heroes-of-dita-premium/"
+            scope="external" format="html">
+            <linktext>Unsung heroes of DITA</linktext>
+        </link>
+        <link href="https://www.scriptorium.com/2011/05/a-simple-use-case-for-dita-conkeyrefs/"
+            scope="external" format="html">
+            <linktext>A simple use case for DITA conkeyrefs</linktext>
+        </link>
+        
+        
+        
+        
+    </related-links>
+</learningContent>

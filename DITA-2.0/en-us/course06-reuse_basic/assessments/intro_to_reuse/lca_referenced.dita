@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_dfp_4cp_dt">
+ <title>Referenced</title>
+ <prolog>
+  <author href="http://www.easydita.com" scope="external" format="html">Mike Rice,
+   easyDITA</author>
+  <critdates>
+   <created golive="2016-07-01" date="2016-05-11"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcTrueFalse id="tf2"
+    class="+ topic/fig learningInteractionBase-d/lcInteractionBase learning-d/lcTrueFalse ">
+    <lcQuestion class="+ topic/p learningInteractionBase-d/lcQuestionBase learning-d/lcQuestion ">An
+     id is required for the referenced element of a conref.</lcQuestion>
+    <lcAnswerOptionGroup
+     class="+ topic/ul learningInteractionBase-d/ul learning-d/lcAnswerOptionGroup "
+     id="lcAnswerOptionGroup_b4r_1jy_dw">
+     <lcAnswerOption class="+ topic/li learningInteractionBase-d/li learning-d/lcAnswerOption ">
+      <lcAnswerContent class="+ topic/p learningInteractionBase-d/p learning-d/lcAnswerContent "
+       >True</lcAnswerContent>
+      <lcCorrectResponse name="lcCorrectResponse" value="lcCorrectResponse"
+       class="+ topic/data learningInteractionBase-d/data learning-d/lcCorrectResponse "/>
+     </lcAnswerOption>
+     <lcAnswerOption class="+ topic/li learningInteractionBase-d/li learning-d/lcAnswerOption ">
+      <lcAnswerContent class="+ topic/p learningInteractionBase-d/p learning-d/lcAnswerContent "
+       >False</lcAnswerContent>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect
+     class="+ topic/p learningInteractionBase-d/p learning-d/lcFeedbackIncorrect ">A conref refers
+     to a specific occurrence of an element. An id is required so that there is no ambiguity when
+     there is more than one of the same kind of element.</lcFeedbackIncorrect>
+    <!--<lcFeedbackCorrect class="+ topic/p learningInteractionBase-d/p learning-d/lcFeedbackCorrect ">Yes. A conref refers to a specific occurrence of an element. Requiring an id means that there is no ambiguity when there is more than one of the same kind of element.</lcFeedbackCorrect>-->
+   </lcTrueFalse>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

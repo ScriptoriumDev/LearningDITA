@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="lc_planning_interactions">
+    <title>Planning your interactions</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external" class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external" class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external" class="- topic/author ">Kaitlyn Heath, Scriptorium</author>
+        <critdates>
+            <created date="2017-04-21"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction id="lcInstruction_js5_cqb_yz">
+            <p>Here are a few things to keep in mind when writing assessment questions in the
+                L&amp;T specialization:</p>
+            <ul id="ul_nbx_3gv_scb">
+                <li>Use the objectives in your lesson or course as a starting point. This will help
+                    you write questions that test whether the student achieved the learning goals
+                    you intended.</li>
+                <li>Avoid creating assessments that depend on other assessments. Questions can be displayed in a random order in your output. Therefore, writing a
+                    question that builds on a previous question is not practical.</li>
+                <li>Just as the order of questions can be randomized, so can the order of the answer
+                    choices. Therefore, it's best to use a multi-select interaction type rather than
+                    a single-select with an "all of the above" answer choice, for example. If the
+                    order of your answer choices is important, see if that question might work best
+                    as a sequencing interaction type.</li>
+                <li>When choosing an interaction type to frame your question, think about what you
+                    want students to prove they know. True/false or single-select interactions
+                    typically work best for testing their knowledge of facts, while matching or
+                    sequencing interactions may work better for testing their understanding of more
+                    complex concepts.</li>
+            </ul>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

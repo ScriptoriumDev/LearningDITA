@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="content_pgf_3gt_qt">
+    <title>Installing a custom plugin</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="https://www.scriptorium.com/" format="html" scope="external"
+           >Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor">Noelle Russell</author>
+        <author type="contributor">Ashley Stant</author>
+        <author type="contributor" href="https://www.scriptorium.com/" format="html" scope="external"
+           >Simon Bate, Scriptorium</author>
+        <author type="contributor" href="https://www.scriptorium.com/" format="html" scope="external"
+            >Bill Swallow, Scriptorium</author>
+        <author type="contributor" href="https://www.scriptorium.com/" format="html" scope="external"
+           >Jake Campbell, Scriptorium</author>
+        <critdates>
+            <created golive="2017-03-27" date="2017-02-06"/>
+        </critdates>
+    </prolog>
+    
+    <learningContentbody>
+        <lcInstruction>
+            <p>This lesson shows how to install a custom plugin and generate output from it using
+                the DITA OT. The custom plugin used in this lesson is called ld_xhtml, and is based
+                on the default xhtml plugin. The ld_xhtml plugin modifies the behavior of the xhtml
+                plugin and adds links to its own CSS file.</p>
+            <p><xref href="https://youtu.be/Y3xgPEkNxmM" format="html" scope="external">Video:
+                    Installing Custom Plugins</xref></p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_gln_ytg_2z">
+        <title>Installing a custom plugin</title>
+        <taskbody>
+            <steps id="steps_ezx_ztg_2z">
+                <step>
+                    <cmd>Locate the zip file <b>com.learningdita.ld_xhtml.zip</b> in the
+                            <b>samples/plugins</b> folder you downloaded at the beginning of this
+                        course.</cmd>
+                </step>
+                <step>
+                    <cmd>Navigate to <b>C:\DITA\dita-ot-2.5.4</b>.</cmd>
+                </step>
+                <step>
+                    <cmd>Type the following commands into the command line:</cmd>
+                    <info>
+                        <p><b>On Windows:</b></p>
+                        <pre>bin\dita -install [filepath]/com.learningdita.ld_xhtml.zip -v</pre>
+                        <p><b>On Mac:</b></p>
+                        <pre>./bin/dita -install [filepath]/com.learningdita.ld_xhtml.zip -v</pre>
+                        <note>The <tt>-install</tt> parameter integrates and installs the custom
+                            xhtml plugin and enables the DITA OT to generate output from it.</note>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Press ENTER to run the DITA OT.</cmd>
+                </step>
+                <step>
+                    <cmd>To test the integration by generating output, type the following commands
+                        into the command line:</cmd>
+                    <info>
+                        <p><b>On Windows:</b></p>
+                        <pre>bin\dita -i [filepath]/sources/ducks/m_ducks.ditamap -f ld_xhtml -o out/custom_output -v</pre>
+                        <p><b>On Mac:</b></p>
+                        <pre>./bin/dita -i [filepath]/sources/ducks/m_ducks.ditamap -f ld_xhtml -o out/custom_output -v</pre>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Press ENTER to run the DITA OT.</cmd>
+                </step>
+                <step>
+                    <cmd>Look in the <b>dita-ot-4.2.2/out/custom_output</b> folder to see the
+                        generated XHTML output.</cmd>
+                </step>
+                <step>
+                    <cmd>Open the file <b>c_wild_duck_species.html</b> in a browser. Compare it to
+                        the default version of <b> c_wild_duck_species.html</b> (in your
+                            <b>dita-ot-4.2.2/out/ducks_output</b> folder) that you generated
+                        previously.</cmd>
+                    <info><p>The default XHTML output looks like this:</p><image
+                            href="images/xhtml_default.png" width="500" id="image_sqt_lwl_3z"
+                            base="2017/03"/><p>The custom XHTML output looks like this:</p><image
+                            href="images/xhtml_custom.png" width="500" id="image_v34_mwl_3z"
+                            base="2017/03"/><p>The custom XHTML output has different fonts and
+                            colors than the default XHTML output.</p></info>
+                    <info>
+                        <p><b>Tip:</b> Create separate output folders in
+                                <b>C:\DITA\dita-ot-2.5.4\out\</b>, by tweaking the -o parameter
+                            value each time you generate output.</p>
+                    </info>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

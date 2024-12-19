@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA 2.x Map//EN" "map.dtd">
+<map>
+ <title>Creating a map</title>
+ <topicref href="../topics/lc_creating_a_map.dita">
+  <topicmeta>
+   <data name="lesson_id" value="10011"/>
+  </topicmeta>
+  <topicref href="../../shared/topics/lc_general_housekeeping.dita"/>
+  <topicref href="../topics/lc_map_new.dita"/>
+  <topicref href="../topics/lc_map_adding_topicrefs.dita"/>
+  <topicref href="../topics/lc_map_adding_maprefs.dita"/>
+  <topicref href="../../shared/topics/lcc_assessment.dita">
+   <topicmeta>
+    <navtitle>Assessment for Creating a map</navtitle>
+    <resourceid appid-role="deliverable-anchor" appid="lcc_create_maps"></resourceid>
+   </topicmeta>
+   <topicref href="../assessments/maps/lca_mapref.dita"/>
+   <topicref href="../assessments/maps/lca_nesting.dita"/>
+   <topicref href="../assessments/maps/lca_publishing.dita"/>
+   <topicref href="../assessments/maps/lca_topicref.dita"/>
+   <topicref href="../assessments/maps/lca_topicref_elements.dita"/>
+  </topicref>
+ </topicref>
+</map>

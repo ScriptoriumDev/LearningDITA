@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningTreeContent.dtd">
+<learningContent xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="lt-content-8477" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic concept)                             (topic reference)                             (topic task)                             (topic learningInteractionBase-d)                            (topic learningInteractionBase-d learning-d)                            (topic learningmeta-d)                             (topic learningBase+learningInteractionBase-d)                            (topic learningBase+learningInteractionBase-d learningContent)                            (topic learningBase learningSummary)                             (topic learningBase+learningInteractionBase-d learningAssessment)   " ditaarch:DITAArchVersion="1.2" class="- topic/topic learningBase/learningBase learningContent/learningContent "><title class="- topic/title ">Storing your reusable content</title><shortdesc class="- topic/shortdesc "/>
+	<prolog class="- topic/prolog ">
+		<author type="creator" href="http://easydita.com/" format="html" scope="external"
+			class="- topic/author ">Mike Rice, easyDITA</author>
+		<author type="contributor" href="http://easydita.com/" format="html" scope="external"
+			class="- topic/author ">Annie Chen, easyDITA</author>
+		<critdates>
+			<created golive="2016-07-11" date="2016-05-11"/>
+		</critdates>
+	</prolog><learningContentbody class="- topic/body  learningBase/learningBasebody learningContent/learningContentbody "><lcInstruction class="- topic/section learningBase/lcInstruction ">
+						<p class="- topic/p ">It’s good practice to maintain all your reusable information (topics,
+				elements, and inline content) in a set of common, shared folders and topics. These
+				are called “warehoused” folders and topics. All content creators should be aware of
+				the warehoused topics and should understand the rules for modifying the topics.</p>
+			<p>If you reuse content from an arbitrary topic, the author of that topic might not know
+				that you are reusing their content. If they do not know, they could possibly change
+				or even delete their content, which could make your content incorrect. At worst,
+				their changes could make your information dangerously wrong. </p>
+			<p class="- topic/p ">Keeping all reused content in warehoused folders and topics gives
+				all content creators tighter control on the information: </p>
+			<ul id="ul_mbh_j2f_lw">
+				<li>You can manage dependencies from one topic to another.</li>
+				<li>You can manage changes and deletions to warehoused content. </li>
+				<li>You can communicate those changes once they have been made.</li>
+				<li>You can ensure that warehoused information does not contain links to other
+					topics (which would create additional dependencies when reusing them)</li>
+			</ul><p class="- topic/p ">Some component content management systems (CCMS) may have specific
+				requirements for where reused content must be stored. For example, some systems
+				require that all content included in a map, including content included solely for
+				reuse, be stored in a folder beneath the folder that holds the map. Check the
+				requirements of your CCMS if you’re in doubt.</p>
+			<p>Other CCMS options provide access control for warehoused content. </p>
+			</lcInstruction></learningContentbody>
+	<task id="task_dh4_mnv_jw">
+		<title>Exercise</title>
+		<taskbody>
+			<steps id="steps_gjh_3bz_lw">
+				<step>
+					<cmd>Open the file
+						reuse_basics_samples/writing_for_reuse/c_documenting_ducks_start.dita.</cmd>
+				</step>
+				<step>
+					<cmd>Rewrite the following content in this topic to make it reusable:</cmd>
+					<info>
+						<pre outputclass="passthru">	<![CDATA[
+                            <hr />
+                            <p>In the previous chapter, you learned about ownership and care of domestic ducks. In this chapter, you'll learn how to document valuable information about your ducks using the Magic Mallard duck database.</p>
+   <p>Every duck owner should keep track of her ducks' growth. With the Magic Mallard database, you
+   can create an entry for each duck. Each entry contains a chart where you can type in the duck's
+   height, weight, and wingspan week by week.</p>
+   <p>To add an entry for a duck to your database, type <codeph>add entry</codeph> followed by the
+   name of the duck in parentheses into the command line and press Enter.</p>
+   <hr/>]]>
+   </pre>
+					</info>
+				</step>
+				<step>
+					<cmd>Check your rewritten content against the file
+						reuse_basic_samples/writing_for_reuse/c_documenting_ducks.dita. (Results
+						will vary slightly based on rewriting choices.)</cmd>
+				</step>
+			</steps>
+		</taskbody>
+	</task></learningContent>

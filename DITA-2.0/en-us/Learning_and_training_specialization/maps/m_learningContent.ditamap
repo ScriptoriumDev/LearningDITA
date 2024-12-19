@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA 2.x Map//EN" "map.dtd">
+<map>
+  <!-- Looking for a better title. -->
+  <title>Learning Content</title>
+   <topicref href="../topics/lc_learningContent_intro.dita">
+     <topicmeta lockmeta="yes">
+       <data name="lesson_id" value="12501"/>
+     </topicmeta>
+     <topicref href="../topics/lc_learningContent_topic_type.dita"/>
+     <topicref href="../topics/lc_learningContent_elements.dita"/>
+     <topicref href="../topics/lc_learningContent_embedded_topics.dita"/>
+     
+     <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_learning_domain.dita"
+       locktitle="yes">
+       <topicmeta>
+         <navtitle>Assessment for &lt;learningContent></navtitle>
+       </topicmeta>
+       <topicref href="../assessments/learning_content/lca_lcontent.dita"/>
+       <topicref href="../assessments/learning_content/lca_contentbody2.dita"/>
+       <topicref href="../assessments/learning_content/lca_contentbody3.dita"/>
+       <topicref href="../assessments/learning_content/lca_lctopic.dita"/>
+       <topicref href="../assessments/learning_content/lca_requirements.dita"/>
+       <topicref href="../assessments/learning_content/lca_embed.dita"/>   
+   </topicref>
+   </topicref>
+</map>

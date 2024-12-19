@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningAssessment id="lca_conref_push_requirements">
+ <title>Best Practices for Custom Plugins</title>
+ <prolog class="- topic/prolog ">
+  <author type="creator" href="https://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+  <author type="contributor">Noelle Russell</author>
+  <author type="contributor">Ashley Stant</author>
+  <author type="contributor" href="https://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Simon Bate, Scriptorium</author>
+  <author type="contributor" href="https://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Bill Swallow, Scriptorium</author>
+  <author type="contributor" href="https://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Jake Campbell, Scriptorium</author>
+  <critdates>
+   <created golive="2017-03-27" date="2017-02-06"/>
+  </critdates>
+ </prolog>
+<learningAssessmentbody>
+ <lcInteraction>
+  <lcMultipleSelect id="update">
+   <lcQuestion> What are some best practices for maintaining custom DITA plugins? (Choose all that
+     apply)</lcQuestion>
+   <lcAnswerOptionGroup>
+    <lcAnswerOption>
+      <lcAnswerContent>Establish a consistent way to collect specifications.</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+    <lcAnswerOption>
+      <lcAnswerContent>Support special structures; don’t misuse structures.</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+    <lcAnswerOption>
+      <lcAnswerContent>Document any updates you make to your custom plugins.</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+    <lcAnswerOption>
+      <lcAnswerContent>Add a new element to your specialization.</lcAnswerContent>
+     </lcAnswerOption>
+   </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>Some best practices for maintaining custom DITA plugins include
+     establishing a consistent way to collect specifications, supporting special structures and not
+     misusing structures, and documenting any updates you make to your custom plugins. Adding a new
+     element to your specialization is not a method of maintaining your custom DITA
+     plugins.</lcFeedbackIncorrect>
+   
+  </lcMultipleSelect>
+ </lcInteraction>
+</learningAssessmentbody>
+</learningAssessment>

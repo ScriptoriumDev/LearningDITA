@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on 
+     github.com. See the accompanying LICENSE file for 
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="lc_remove_boolean">
+    <title>Remove boolean element</title>
+    <prolog>
+        <author href="https://www.scriptorium.com/" scope="external" format="html">Melissa Kershes, Scriptorium</author>
+        <author href="https://www.scriptorium.com/" scope="external" format="html">Allison Beatty, Scriptorium</author>
+        <author>Simon Bate, Scriptorium</author>
+        <critdates>
+            <created date="2024-08-20"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcIntro>The &lt;boolean> element is no longer available in DITA 2.0 </lcIntro>
+        <lcInstruction>The &lt;boolean> element allowed authors to indicate a two-state value. The element’s required state attribute specified “yes,” “no,” or
+            “-dita-use-conref-target.”  The element and its value could then be interpreted when files were processed for output. The element has been
+            deprecated since DITA 1.1. <p id="p_crt_3mh_lcc">In place of the &lt;boolean> element, use the &lt;state> element.  The &lt;state> element has two
+                required attributes: name and value. There are two things to note about these attributes: <ul id="ul_ghv_bqv_lcc">
+                    <li id="li_wfg_prv_lcc">The name attribute indicates the purpose of  the &lt;state> element. The value <tt>boolean</tt> can indicate that
+                        the element represents a Boolean value, but it's possible to use any value that suits the purpose of the &lt;state> element.</li>
+                    <li id="li_hhv_bqv_lcc">The value attribute in &lt;state> does not have enumerated values. You can use “yes” or “no” (or
+                        “-dita-use-conref-target”) from the &lt;boolean> element’s value attribute, but you are not limited to these values. If there are values
+                        that are better at communicating the reason for using &lt;state>, use them. </li>
+                </ul></p><pre id="p_kgj_fz5_lcc">&lt;state name="boolean" value="yes"/></pre></lcInstruction>
+    </learningContentbody>
+</learningContent>

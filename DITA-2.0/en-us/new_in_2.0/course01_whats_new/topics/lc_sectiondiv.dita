@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on 
+     github.com. See the accompanying LICENSE file for 
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="lc_div_updates">
+    <title>Remove sectiondiv</title>
+    <prolog>
+        <author href="https://www.scriptorium.com/" scope="external" format="html">Melissa Kershes, Scriptorium</author>
+        <author href="https://www.scriptorium.com/" scope="external" format="html">Allison Beatty, Scriptorium</author>
+        <author>Simon Bate, Scriptorium</author>
+        <critdates>
+            <created date="2024-08-20"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcIntro>The &lt;sectiondiv> element is no longer available in DITA 2.0. </lcIntro>
+        <lcInstruction id="lcInstruction_pqf_sk4_lcc">
+            <p id="p_mx2_vl4_lcc">The &lt;sectiondiv> element was used for grouping information within sections. </p>
+            <p id="p_okk_wl4_lcc">Instead of &lt;sectiondiv>, use the &lt;div> element. </p>
+            <p id="p_ggs_bn4_lcc">The only difference between &lt;div> and &lt;sectiondiv> is that &lt;sectiondiv> allows a child &lt;sectiondiv>. Replacing all
+                &lt;sectiondiv> elements in a topic with &lt;div> elements is the only action you need to take for this change.  </p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

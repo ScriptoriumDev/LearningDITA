@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA 2.x Map//EN" "map.dtd">
+<map>
+ <title>Creating a bookmap</title>
+ <topicref href="../topics/lc_creating_a_bookmap.dita">
+  <topicmeta>
+   <data name="lesson_id" value="10012"/>
+  </topicmeta>
+  <topicref href="../topics/lc_bookmap_map_overview.dita"/>
+  <topicref href="../topics/lc_bookmap_new.dita"/>
+  <topicref href="../topics/lc_bookmap_adding_topicrefs.dita"/>
+  <topicref href="../../shared/topics/lcc_assessment.dita">
+   <topicmeta>
+     <navtitle>Assessment for Creating a bookmap</navtitle>
+    <resourceid appid-role="deliverable-anchor" appid="lcc_create_bookmaps"></resourceid>
+   </topicmeta>
+   <topicref href="../assessments/bookmaps/lca_bookmaps_vs_maps.dita"/>
+   <topicref href="../assessments/bookmaps/lca_chapter_elements.dita"/>
+   <topicref href="../assessments/bookmaps/lca_chapter_nesting.dita"/>
+   <topicref href="../assessments/bookmaps/lca_chapters.dita"/>
+   <topicref href="../assessments/bookmaps/lca_topicrefs.dita"/>
+  </topicref>
+ </topicref>
+</map>

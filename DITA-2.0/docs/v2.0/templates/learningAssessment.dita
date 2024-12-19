@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<learningAssessment id="lca_${id}" xml:lang="en-US">
+ <title>${caret}</title>
+ <shortdesc/>
+ <prolog>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+   Scriptorium</author>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+   Scriptorium</author>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+   Scriptorium</author>
+  <critdates>
+   <created date="${date(yyyy-MM-dd)}"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction/>
+ </learningAssessmentbody>
+</learningAssessment>

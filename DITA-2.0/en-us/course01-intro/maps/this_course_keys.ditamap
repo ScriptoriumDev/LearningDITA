@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA 2.x Map//EN" "map.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<map>
+ <title>Keys for Introduction to DITA</title>
+ <keydef keys="sample_file" href="http://www.learningdita.com/wp-content/uploads/2016/07/reuse_basic_samples.zip" format="zip" scope="external">
+  <topicmeta>
+   <linktitle>reuse_basic_samples.zip</linktitle>
+  </topicmeta>
+ </keydef>
+ 
+ <keydef keys="course_name">
+  <topicmeta>
+   <keywords>
+    <keyword>Introduction to DITA</keyword>
+   </keywords>
+  </topicmeta>
+ </keydef>
+ 
+ <!-- key for warehouse file containing conkeyref elements. -->
+<!-- <keydef keys="sample_contents" href="../topics/z_conkeyref_elements.dita"/>-->
+ 
+ 
+</map>

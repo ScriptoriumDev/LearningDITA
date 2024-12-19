@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="concept_zwc_rbn_ft">
+ <title>Assessment structure for test questions</title>
+ <prolog>
+  <author href="http://www.scriptorium.com">Sarah O'Keefe, Scriptorium</author>
+  <author href="http://www.scriptorium.com">Alan Pringle, Scriptorium</author>
+  <author href="http://www.scriptorium.com">Simon Bate, Scriptorium</author>
+  <critdates>
+   <created date="2015-09-02"/>
+  </critdates>
+ </prolog>
+ <conbody>
+   <p>Assessments (test questions) come after the learning content in each module. In most cases you
+   can use the shared file <filepath>lcc_assessment.dita</filepath> that introduces the questions in
+   the LMS. If necessary (for example, if there are special instructions about the lesson's
+   assessment), you can create an introduction topic of your own (or use conref push to insert
+   content).</p>
+   <p>If you're using the shared introduction, create a &lt;topicref> pointing to the file
+     <filepath>lcc_assessment.dita</filepath>, then use the copy-to attribute to specify a filename
+    (starting with <filepath>lcc_assess_</filepath>), that uniquely identifies the copy. Add a
+    &lt;navtitle> element that provides a lesson-specific title for the assessments introduction. </p>
+   <codeblock>&lt;topicref href="../topics/lc_advanced.dita"/>
+  &lt;topicref href="../topics/lc_more_advanced.dita"/>
+  &lt;topicref href="../topics/lcc_assessment.dita" copy-to="lcc_advanced.dita" locktitle="yes">
+   &lt;topicmeta>
+    &lt;navtitle>Assessment for Advanced elements&lt;/navtitle>
+   &lt;/topicmeta><b>&lt;topicref href="../../shared/topics/lcc_assessment.dita" 
+                            copy-to="lcc_assess_basic.dita" locktitle="yes">
+    &lt;topicmeta>
+      &lt;navtitle>Assessment for What is DITA?&lt;/navtitle>
+    &lt;/topicmeta>
+    &lt;topicref href="assessments/lca_validtopic.dita"/>
+    &lt;topicref href="assessments/lca_topicscope.dita"/>
+    ...
+  &lt;/topicref></b>
+ &lt;/topicref>
+ 
+...
+  
+ &lt;/map>
+</codeblock>
+   <p>Each assessment question goes into its own &lt;learningAssessment> topic. It’s a good idea to
+   include title text in assessment topics; the title is not displayed to the reader in the LMS, but
+   helps you locate the assessment when authoring and editing. Each assessment requires a unique ID
+   for the question type (lcSingleSelect in the following sample). This is not the same as the ID of
+   the learningAssessment topic itself. </p>
+   <codeblock>&lt;learningAssessment id="assessment_htp_t21_wr">
+ &lt;title>Sample assessment&lt;/title>
+ &lt;prolog>
+  &lt;author>Sharon Burton&lt;/author>
+  &lt;author href="http://www.scriptorium.com">Sarah O'Keefe, Scriptorium&lt;/author>
+  &lt;critdates>
+   &lt;created date="2015-04-28"/>
+  &lt;/critdates>
+ &lt;/prolog>
+ &lt;learningAssessmentbody>
+  &lt;lcInteraction>
+    &lt;lcSingleSelect id="unique">
+    ...<b>id="topics3"</b>>
+   &lt;lcQuestion>When creating a concept topic, you will often:&lt;/lcQuestion>
+   &lt;lcAnswerOptionGroup>
+   ...
+   &lt;/lcAnswerOptionGroup>
+  &lt;/lcSingleSelect>
+  &lt;/lcInteraction>
+ &lt;/learningAssessmentbody>
+&lt;/learningAssessment></codeblock>
+   <p>Make sure you do not overlap with other IDs in the modules. Consider a unique ID prefix for
+    your learning assessment content (for example, your initials or something related to the content
+    you are developing).</p>
+  <section id="section_dzn_3k4_vx">
+   <title>Standard &lt;lcQuestion> forms</title>
+   <p>The DITA learning and training specialization (and LearnDashLMS) supports a number of
+    different question types. We encourage you to use a healtyh mix of question types when creating
+    your assessments. </p>
+   <p>So that students can have a consistent experience when taking assessments, we recommend the
+    following forms for these question types. Some questions or subjects might not fit well within
+    this form, please use these as a starting point for your questions. </p>
+   <dl>
+    <dlentry>
+     <dt>&lt;lcSingleSelect></dt>
+     <dd>"Which of the following __(items)__  ___(statement)___ most closely? (choose one)"</dd>
+    </dlentry>
+    <dlentry>
+     <dt>&lt;lcMultipleSelect></dt>
+     <dd>"Which of the following __(items)___  __(condition)___? (choose all that apply)"</dd>
+    </dlentry>
+    <dlentry>
+     <dt>&lt;lcTrueFalse></dt>
+     <dd>"___(statement)___ (true or false)."</dd>
+    </dlentry>
+    <dlentry>
+     <dt>&lt;lcSequencing></dt>
+     <dd>"Arrange the following ______ in the order in which they must__________." </dd>
+    </dlentry>
+    <dlentry>
+     <dt>&lt;lcMatching></dt>
+     <dd>"Drag the _______ to the _______ that matches most closely."</dd>
+     <dd>"Match the _______ to the _______ that matches most closely."</dd>
+    </dlentry>
+   </dl>
+  </section>
+  <section><title>Providing answer feedback</title>
+   <p>The ditatraining project is being published to LearningDITA.com. LearningDITA.com runs on
+    WordPress and LearnDashLMS. Currently, LearnDashLMS does not support feedback at the answer
+    option level (lcAnswerOption/lcFeedback). You can, however, use lcFeedbackIncorrect. If the
+    learner chooses the wrong answer, the lcFeedbackIncorrect content is
+    displayed.<codeblock> &lt;lcInteraction>
+   &lt;lcTrueFalse id="link8">
+    &lt;lcQuestion>The elements in the conbody have to occur in a specific sequence.&lt;/lcQuestion>
+    &lt;lcAnswerOptionGroup id="lcAnswerOptionGroup_n52_4jx_dt">
+     &lt;lcAnswerOption>
+      &lt;lcAnswerContent>False&lt;/lcAnswerContent>
+      &lt;lcCorrectResponse/>
+     &lt;/lcAnswerOption>
+     &lt;lcAnswerOption>
+      &lt;lcAnswerContent>True&lt;/lcAnswerContent>
+     &lt;/lcAnswerOption>
+    &lt;/lcAnswerOptionGroup>
+    &lt;lcFeedbackIncorrect>The conbody uses an open content model, that is, the elements do not
+     have to follow in strict sequence.&lt;/lcFeedbackIncorrect>
+   &lt;/lcTrueFalse>
+  &lt;/lcInteraction></codeblock></p></section>
+  <section><title>Creating Matching Questions</title>
+  <p>When creating matching questions, DO NOT create multiple pairs that share the same answer. The
+   matching mechanism uses the exact &lt;lcMatchingItem&gt; from the &lt;lcMatchingPair&gt; to
+   establish a correct answer. If the same answer appears twice, the user has no way to know which
+   of the identical &lt;lcMatchingItem&gt; answers corresponds with the specific &lt;lcItem&gt;
+   term. </p>
+  </section>
+ </conbody>
+</concept>

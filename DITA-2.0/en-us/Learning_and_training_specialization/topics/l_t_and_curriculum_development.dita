@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="l_t_and_curriculum_development">
+    <title>Learning and Training and curriculum development</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <critdates>
+            <created date="2017-04-21"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction id="lcInstruction_js5_cqb_yz">
+            <p>The L&amp;T specialization enables you to create learning materials, including
+                content and assessments.</p>
+            <p>You might prefer a formal approach, creating your content after careful planning and
+                analysis. The L&amp;T specialization includes a planning topic type that allows you
+                to identify goals, needs, and objectives. The &lt;learningGroup> and
+                &lt;learningObject> elements allow you to use planning topic types at many levels of
+                your development. </p>
+            <!--Not sure this is the best place for the following, but I'll park it here for now.-->
+            <p>The L&amp;T specialization provides many elements for instructional content. It does
+                not enforce a particular instructional design approach; you can pick and choose the
+                elements that you want and adapt the model to your requirements. </p>
+            <p>Transforming the content into materials, exams, or e-learning content is entirely up
+                to you. While you can use the DITA Open Toolkit to generate a PDF, RTF, and other
+                standard formats, there is no default course output type.</p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>
