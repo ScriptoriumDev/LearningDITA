@@ -1,10 +1,10 @@
 # ditatraining
 Learning content for DITA, written using the DITA learning specialization
 
-To get started, read the project documentation, found in the docs folder.
+The DITA-1.3 folder contains files that underlie LearningDITA.com (and various localized sites).
 
-The project roadmap is part of the GitHub wiki. It lists the course sequencing and shows which courses are currently under development and by whom.
+The DITA-2.0 folder is work in progress to update LearningDITA.com with DITA 2.0 support.
 
-https://github.com/okeefescriptorium/ditatraining/wiki/Project-roadmap
-
+To get started, read the project documentation, found in the docs for the two versions.
+ 
 Course content is published by Scriptorium at https://www.learningDITA.com
