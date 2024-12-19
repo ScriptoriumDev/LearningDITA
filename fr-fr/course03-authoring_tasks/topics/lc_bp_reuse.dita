@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_ptp_gqy_lt" xml:lang="fr-FR">
+    <title>Garder un oeil sur la réutilisation</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-09-25"/>
+            <revised modified="2020-05-27"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcIntro>
+            <p>Bien que les cours d'Apprendre DITA n'aient pas encore couvert la réutilisation (ce
+                qui est un des avantages de DITA), les tâches contiennent de nombreux domaines
+                potentiels de réutilisation.</p>
+            <p>Lorsque vous créez les étapes dans vos tâches, regardez les étapes qui sont les mêmes
+                d'une tâche à l'autre, tel que
+                &#xA0;:<pre>&lt;step>&lt;cmd>Cliquer sur &lt;uicontrol>OK&lt;/uicontrol>.&lt;/cmd>&lt;/step></pre>
+            </p>
+            <p>Vous pourriez créer une série de tâches qui commenceraient toutes avec le même
+                ensemble d'étapes pour commencer, tel que éteindre l'équipement, ou retirer les
+                panneaux d'accès. De même, une série de tâches pourrait utiliser un ensemble commun
+                d'étape pour terminer la procédure. Ce sont d'excellents candidats à la
+                réutilisation.</p>
+            <p>Un autre domaine de réutilisation dans les tâches est le texte standard, tel que les
+                avertissements et les mises en garde qui accompagnent les étapes de nombreuses
+                procédures.</p>
+            <p>En plus de la réutilisation de l'élément &lt;step>, les éléments &lt;prereq>,
+                &lt;example>, &lt;choices> et &lt;choicetable> dans une tâche sont de bons candidats
+                à la réutilisation.</p>
+            <p>La réutilisation est une autre raison de planifier vos tâches, comme décrit dans la
+                première rubrique de cette leçon sur les meilleures pratiques. Lorsque vous
+                planifiez vos tâches, il est utile d'identifier les étapes communes à de nombreuses
+                tâches. Un aspect important de la réutilisation consiste à identifier les éléments
+                que vous devez réutiliser et à les conserver dans un (ou plusieurs) fichier(s)
+                séparé(s). Une fois approuvés, ces fichiers peuvent être sécurisés de sorte qu'ils
+                ne soient modifiés qu'en cas de besoin. </p>
+        </lcIntro>
+    </learningContentbody>
+</learningContent>

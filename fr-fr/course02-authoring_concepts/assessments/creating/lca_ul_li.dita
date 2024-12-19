@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_dbq_hvp_dt" xml:lang="fr-FR">
+ <title>&lt;li> dans &lt;ul></title>
+ <prolog>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+   Scriptorium</author>
+  <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external" format="html"
+   >Marine Guillerez (Traductrice)</author>
+  <critdates>
+   <created date="2015-08-24"/>
+   <revised modified="2019-10-22"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcSingleSelect id="lcSingleSelect_mjx_nvp_dt">
+    <lcQuestion>Combien d'éléments &lt;li> peut-il y avoir dans un élément &lt;ul>&#xA0;? (sélectionner
+     une réponse)</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_njx_nvp_dt">
+     <lcAnswerOption>
+      <lcAnswerContent>Seulement un</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Un ou plus</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Zéro ou plus</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>L'élément &lt;li> n'est pas autorisé dans un &lt;ul></lcAnswerContent>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>Il peut y avoir un ou plusieurs éléments &lt;li> dans un
+     &lt;ul>.</lcFeedbackIncorrect>
+   </lcSingleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

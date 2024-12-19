@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_hwg_z1b_dt14" xml:lang="fr-FR">
+ <title>Exemple d'étape</title>
+ <prolog>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+   Scriptorium</author>
+  <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external" format="html"
+   >Marine Guillerez (Traductrice)</author>
+  <critdates>
+   <created date="2015-08-24"/>
+   <revised modified="2020-05-14"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcMultipleSelect id="multi_select_stexmp">
+    <lcQuestion>Quelles sont les utilisations communes des exemples d'étapes&#xA0;? (choisir toutes
+     les réponses qui s'appliquent)</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_wbr_gxb_kt">
+     <lcAnswerOption>
+      <lcAnswerContent>Montrer le résultat pour mener à bien une étape</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Fournir un exemple de code expliquant comment terminer
+       l'étape</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Donner une explication de comment terminer l'étape</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Fournir des informations indispensables requisent pour terminer l'étape
+      </lcAnswerContent>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>L'exemple d'étape est souvent utilisé pour founir des exemples de code ou
+     une information expliquant comment terminer l'étape.</lcFeedbackIncorrect>
+   </lcMultipleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

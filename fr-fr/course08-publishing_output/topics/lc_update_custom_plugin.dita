@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="content_pgf_3gt_qt">
+    <title>Mettre à jour une extension personnalisée</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Noelle Russell, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Ashley Stant, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Bill Swallow, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Jake Campbell, Scriptorium</author>
+        <author type="contributor" href="https://www.linkedin.com/in/marinemartinguillerez/"
+            scope="external" format="html" class="- topic/author ">Marine Guillerez
+            (Traductrice)</author>
+        <critdates>
+            <created golive="2017-03-27" date="2017-02-06"/>
+            <revised modified="2021-01-27"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Une des raisons les plus courantes pour mettre à jour le style d’une extension
+                personnalisée est un changement de marque de l’entreprise. Vous devrez peut-être
+                également mettre à jour une extension personnalisée pour tenir compte des
+                changements apportés à la structure du contenu source, par exemple, ajouter un
+                nouvel élément à votre spécialisation ou vous spécialiser pour la première fois.</p>
+            <p>La personnalisation des extensions DITA OT est difficile et nécessite de nombreux
+                tests pour s'assurer que les mises à jour de l'extension entrainent les résultats
+                souhaités dans la publication. Des connaissances spéciales sont nécessaires pour
+                personnaliser les extensions ou mettre à jour les extensions personnalisées, comme
+                la connaissance de Ant, XSL, et DTD pour l'architecture de l'extension de base, plus
+                d'autres connaissances sur la sortie y compris XHTML, JavaScript et XSL-FO. C'est
+                pourquoi la plupart des entreprises engagent un expert – qu'il s'agisse d'un
+                consultant externe ou d'un employé interne – pour personnaliser les extensions.</p>
+            <p>CSS, ou feuilles de style en cascade, peut être utilisé pour modifier l’apparence de
+                la sortie à partir de l'extension xhtml. Parce que beaucoup de gens ont une
+                connaissance basique de CSS, une entreprise peut ne pas avoir besoin d’embaucher un
+                expert si le seul type de sortie requis est XHTML et si tous les aspects de l'image
+                de marque peuvent être manipulés par des modifications du CSS.</p>
+            <p>Les instructions suivantes vous montrent comment effectuer des mises à jour simples
+                du CSS pour votre extension ld_xhtml personnalisée et générer une sortie XHTML pour
+                tester les résultats.</p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_dng_jxg_2z">
+        <title>Mettre à jour la CSS de l'extension personnalisée xhtml</title>
+        <taskbody>
+            <steps id="steps_scx_mzg_2z">
+                <step>
+                    <cmd>Placez-vous dans votre dossier <b>sorties/sortie_perso</b> et ouvrez le
+                        fichier <b>c_especes_canards_sauvages.html</b> dans un navigateur.</cmd>
+                    <info>
+                        <p>La sortie XHTML ressemble à&#xA0;:</p>
+                        <image base="2017/03" href="images/xhtml_custom.png" width="500"
+                            id="image_n24_3dy_fz"/>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Placez-vous dans votre dossier
+                            <b>dita-ot-x.x/plugins/com.learningdita.ld_xhtml/resource</b> et ouvrez
+                        le fichier <b>ld_style.css</b> dans un éditeur de texte.</cmd>
+                </step>
+                <step>
+                    <cmd>Réalisez les modifications suivantes dans <b>ld_style.css</b>&#xA0;:</cmd>
+                    <info>
+                        <p>(Les zones où des changements sont requis sont indiquées en gras et en
+                            surbrillance.)</p>
+                        <pre>.p {
+  margin-top: 1em;
+  font-family: "Lingua Franca", Palatino, serif;
+  font-size: 0.9em;
+  <ph outputclass="newchanged">color: #D48028;</ph>
+}
+
+.topictitle1 {
+  margin-top: 0;
+  margin-bottom: .1em;
+  font-size: 2em;
+  font-family: "Gill Sans", Helvetica, sans-serif;
+  font-weight: normal;
+  <ph outputclass="newchanged">color: #86CCCC;</ph>
+}</pre>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Enregistrez vos changements dans <b>ld_style.css</b>.</cmd>
+                </step>
+                <step>
+                    <cmd>Saisissez les commandes suivantes dans un terminal de commande pour tester
+                        les mises à jour de votre extension personnalisée&#xA0;:</cmd>
+                    <info>
+                        <p><b>Sur Windows&#xA0;:</b></p>
+                        <pre>bin\dita -i [cheminfichier]/sources/canards/m_canards.ditamap -f ld_xhtml -o sorties/sortie_perso -v</pre>
+                        <p><b>Sur Mac&#xA0;:</b></p>
+                        <pre>./bin/dita -i [cheminfichier]/sources/canards/m_canards.ditamap -f ld_xhtml -o sorties/sortie_perso -v</pre>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Appuyer sur ENTRER pour lancer DITA OT.</cmd>
+                </step>
+                <step>
+                    <cmd>Regardez dans votre dossier <b>sortie_perso</b> pour voir votre sortie
+                        XHTML personnalisée générée.</cmd>
+                </step>
+                <step>
+                    <cmd>Ouvrez <b>c_especes_canards_sauvages.html</b> dans un navigateur pour voir
+                        les changements CSS que vous avez réalisés.</cmd>
+                    <info>
+                        <p>La sortie XHTML ressemble maintenant à&#xA0;:</p>
+                        <image href="images/xhtml_updated.png" width="500" id="image_ojr_kdy_fz"
+                            base="2017/03"/>
+                    </info>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

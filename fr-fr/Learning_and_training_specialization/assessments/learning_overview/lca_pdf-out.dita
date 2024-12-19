@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="lca_pdf-out">
+    <title>Format</title>
+    <learningAssessmentbody>
+        <lcInteraction>
+            <lcTrueFalse id="t-f-pdf">
+                <lcQuestion>Vous pouvez générer des PDF depuis la spécialisation A&amp;F à l'aide de
+                    DITA OT.</lcQuestion>
+                <lcAnswerOptionGroup>
+                    <lcAnswerOption>
+                        <lcAnswerContent>Vrai</lcAnswerContent>
+                        <lcCorrectResponse/>
+                    </lcAnswerOption>
+                    <lcAnswerOption>
+                        <lcAnswerContent>Faux</lcAnswerContent>
+                    </lcAnswerOption>
+                </lcAnswerOptionGroup>
+                <lcFeedbackIncorrect>Quand vous n'avez pas de format par défaut à utiliser, vous
+                    pouvez toujours utiliser DITA OT pour générer des PDF.</lcFeedbackIncorrect>
+            </lcTrueFalse>
+        </lcInteraction>
+    </learningAssessmentbody>
+</learningAssessment>

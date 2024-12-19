@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_mp3_t3d_bt" xml:lang="fr-FR">
+    <title>Détailler encore plus</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-08-14"/>
+            <revised modified="2020-05-04"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Lors de la création d'un ensemble d'étapes, vous pourriez avoir besoin de fournir un
+                peu plus de détails sur la manière de réaliser une action. Dans ce cas, vous pouvez
+                ajouter un élément &lt;substeps> à un &lt;step>.</p>
+            <p>L'élément &lt;substeps> contient un ou plusieurs éléments &lt;substep>, qui
+                contiennent un contenu similaire à l'élément &lt;step>. L'élément &lt;substep> doit
+                contenir un élément &lt;cmd>.</p>
+            <p>DITA autorise seulement deux niveaux d'étapes. Le premier niveau utilise l'élément
+                &lt;steps>&#xA0;; le second niveau utilise l'élément &lt;substeps>. Vous ne pouvez
+                pas ajouter un troisième niveau. Si vous pensez avoir besoin d'un troisième niveau
+                d'étapes, vous devez reconsidérer le niveau d'information de votre procédure.
+                L'information pourrait être mieux présentée par une série de tâches séparées. C'est
+                la même chose si vous pensez fournir énormément de détails au niveau des
+                sous-étapes.</p>
+            <p><xref href="https://youtu.be/1HDXrdB5y4w" format="html" scope="external">Vidéo&#xA0;:
+                    Ajouter des sous-étapes à une tâche DITA</xref></p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_mjk_bjd_bt">
+        <title/>
+        <taskbody>
+            <steps id="steps_ohz_bjd_bt">
+                <step>
+                    <cmd>Continuez de travailler sur le fichier l_tache_debut.dita.</cmd>
+                </step>
+                <step>
+                    <cmd>Après le dernier élément &lt;step>, créez un nouveau élément &lt;step>
+                        contenant un élément &lt;cmd> et le texte présenté ici.</cmd>
+                    <stepxmp>
+                        <pre>&lt;step>&lt;cmd>Allez observer des oiseaux.&lt;/cmd>
+&lt;/step></pre>
+                    </stepxmp>
+                </step>
+                <step id="step_znr_444_ft">
+                    <cmd>Après la balise de fermeture de l'élément &lt;cmd>, ajoutez un élément
+                        &lt;substeps>.</cmd>
+                    <stepxmp>
+                        <pre>&lt;step>
+    &lt;cmd>Allez observer des oiseaux.&lt;/cmd>
+<ph outputclass="newchanged">    &lt;substeps>
+    &lt;/substeps></ph>
+&lt;/step>
+</pre>
+                    </stepxmp>
+                    <info>Vous pouvez avoir un ou plusieurs éléments &lt;substeps> à l'intérieur de
+                        l'élément &lt;step>. Cependant, ces éléments &lt;substeps> ne peuvent
+                        s'imbriquer les uns dans les autres – ils peuvent seulement être ajoutés
+                        séquentiellement au même niveau.</info>
+                </step>
+                <step id="step_a4r_444_ft">
+                    <cmd>Si votre éditeur n'a pas ajouté automatiquement l'élément &lt;substep> et
+                        son élément &lt;cmd> à l'intérieur de l'élément &lt;substep>, faites-le. </cmd>
+                    <stepxmp>
+                        <pre>&lt;step>
+    &lt;cmd>Allez observer des oiseaux.&lt;/cmd>
+    &lt;substeps>
+<ph outputclass="newchanged">        &lt;substep>
+            &lt;cmd>&lt;/cmd>
+        &lt;/substep></ph>
+    &lt;/substeps>
+&lt;/step>
+</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Ajoutez du contenu à l'élément &lt;cmd> à l'intérieur de l'élément
+                        &lt;substep> tel que présenté ici.</cmd>
+                    <stepxmp>
+                        <pre>&lt;step>
+    &lt;cmd>Allez observer des oiseaux.&lt;/cmd>
+    &lt;substeps>
+        &lt;substep>
+<ph outputclass="newchanged">            &lt;cmd>Promenez-vous.&lt;/cmd></ph>
+        &lt;/substep>
+    &lt;/substeps>
+&lt;/step>
+</pre>
+                    </stepxmp>
+                    <info>Vous pouvez ajouter les mêmes éléments optionnels à l'intérieur de
+                        l'élément &lt;substep> qu'à l'intérieur de l'élément &lt;step>, tel que
+                        l'élément &lt;info>. Par contre, vous ne pouvez pas ajouter un élément
+                        &lt;substeps> à l'intérieur d'un élément &lt;substep>.</info>
+                </step>
+                <step>
+                    <cmd>Après la balise de fermeture de l'élément &lt;substep>, ajoutez deux
+                        éléments &lt;substep> supplémentaires et ajoutez-y du contenu tel que
+                        présenté ici&#xA0;:</cmd>
+                    <stepxmp>
+                        <pre>&lt;step>
+    &lt;cmd>Allez observer des oiseaux.&lt;/cmd>
+    &lt;substeps>
+        &lt;substep>
+            &lt;cmd>Promenez-vous.&lt;/cmd>
+        &lt;/substep>
+<ph outputclass="newchanged">        &lt;substep>
+            &lt;cmd>Lorsque vous en voyez un, arrêtez-vous.&lt;/cmd>
+        &lt;/substep>
+        &lt;substep>
+            &lt;cmd>Identifiez-le.&lt;/cmd>
+        &lt;/substep></ph>
+    &lt;/substeps>
+&lt;/step>
+</pre>
+                    </stepxmp>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

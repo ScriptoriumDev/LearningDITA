@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="content_pgf_3gt_qt">
+    <title>Les commandes et paramètres de DITA OT</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Noelle Russell, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Ashley Stant, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Bill Swallow, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Jake Campbell, Scriptorium</author>
+        <author type="contributor" href="https://www.linkedin.com/in/marinemartinguillerez/"
+            scope="external" format="html" class="- topic/author ">Marine Guillerez
+            (Traductrice)</author>
+        <critdates>
+            <created golive="2017-03-27" date="2017-02-06"/>
+            <revised modified="2021-01-11"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Dans la  leçon précédente, vous avez testé DITA OT en entrant la commande suivante
+                dans le terminal de commande&#xA0;:</p>
+            <p><b>Sur Windows&#xA0;:</b></p>
+            <pre>bin\dita -i [cheminfichier]/sources/m_canards.ditamap -f pdf2 -o [rep-sortie] -v</pre>
+            <p><b>sur Mac&#xA0;:</b></p>
+            <pre>./bin/dita -i [cheminfichier]/sources/m_canards.ditamap -f pdf2 -o [cheminfichier]/sorties/m_sortie_canards -v</pre>
+            <p>Ce sont les commandes et les paramètres standards d'une compilation DITA OT de base.
+                Voici ce que signifie ces commandes et paramètres&#xA0;:</p>
+            <ul id="ul_dx2_csf_2z">
+                <li>
+                    <p><b>bin&#92;dita</b> (Windows) ou <b>./bin/dita</b> (Mac) est la commande qui
+                        génère la sortie à partir de DITA</p>
+                </li>
+                <li>
+                    <p><b>-i</b> (le paramètre d’entrée) indique que le chemin de fichier vers une
+                        carte ou un fichier DITA qui suit doit être transformé en sortie.</p>
+                </li>
+                <li>
+                    <p><b>-f</b> (le paramètre transtype) indique que la chaîne qui suit est le type
+                        de transformation de sortie (également appelé le « transtype »). Certaines
+                        valeurs de transtype courantes comprennent « pdf2 » pour la sortie PDF,
+                        « xhtml » pour la sortie HTML et « webhelp » pour la sortie WebHelp.</p>
+                </li>
+                <li>
+                    <p><b>-o</b> (le paramètre de sortie) indique où stocker la sortie générée. Ce
+                        paramètre est facultatif&#xA0;; si vous ne l’utilisez pas pour spécifier un
+                        répertoire de sortie, la sortie est placée dans le dossier de sortie par
+                        défaut de DITA OT.</p>
+                </li>
+                <li>
+                    <p><b>-v</b> (le paramètre verbose) indique que le processus sera bavard, qu'il
+                        affiche un journal de la compliation DITA OT dans la fenêtre de commande. Ce
+                        paramètre est facultatif, mais il est utile de regarder l'exécution du DITA
+                        OT en temps réel pour faciliter la résolution des erreurs.</p>
+                </li>
+            </ul>
+            <p>Vous pouvez utiliser des paramètres supplémentaires pour ajouter des précisions sur
+                la compilation que vous exécutez. Pour explorer toutes les options qui s'offrent à
+                vous, veuillez vous référer aux <xref
+                    href="http://www.dita-ot.org/2.4/parameters/index.html" format="html"
+                    scope="external">paramètres de référence de DITA Open Toolkit</xref>.</p>
+            <draft-comment author="gretylkinsey">
+                <p>Un fichier RUNOT est une série de commandes stockées dans un fichier XML. Les
+                    fichiers RUNOT permettent de gagner du temps pour ceux qui doivent exécuter de
+                    nombreux tests. Au lieu d'entrer chaque commande dans la fenêtre de commande ou
+                    de terminal, vous pouvez simplement entrer ce qui suit&#xA0;:</p>
+                <pre>(RUNOT command)</pre>
+            </draft-comment>
+            <draft-comment author="gretylkinsey">
+                <p>Nous avons fourni des fichiers RUNOT dans le dossier d'exemples pour les autres
+                    exercices de ce cours. (Avons-nous encore l'intention de faire cela&#xA0;? ou
+                    est-il plus logique de simplement fournir les commandes puisqu'ils ne font que
+                    des constructions simples&#xA0;? Je ne suis pas favorable aux fichiers RUNOT car
+                    il faudra probablement faire plus d'efforts pour dire aux gens comment les
+                    modifier pour l'entrée/sortie)</p>
+            </draft-comment>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

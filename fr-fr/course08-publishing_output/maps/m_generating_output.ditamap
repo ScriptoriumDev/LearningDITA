@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Générer les publications</title>
+ <topicref href="../topics/lc_generating_output.dita">
+  <topicmeta lockmeta="yes">
+   <data name="lesson_id" value="11279"/>
+  </topicmeta>
+  <topicref href="../topics/lc_output_commands.dita"/>
+  <topicref href="../topics/lc_generating_pdf.dita"/>
+  <topicref href="../topics/lc_generating_html.dita"/>
+  <topicref href="../topics/lc_troubleshooting.dita"/>
+
+  <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_generating_output.dita" locktitle="yes">
+   <topicmeta>
+    <navtitle>Évaluation de la génération de publication</navtitle>
+   </topicmeta>
+   <topicref href="../assessments/generating_output/lca_generating_output.dita"/>
+   <topicref href="../assessments/generating_output/lca_pdf_output.dita"/>
+   <topicref href="../assessments/generating_output/lca_builds_v.dita"/>
+   <topicref href="../assessments/generating_output/lca_troubleshooting.dita"/>
+   <topicref href="../assessments/generating_output/lca_build_fails.dita"/>
+  </topicref>
+</topicref>
+</map>

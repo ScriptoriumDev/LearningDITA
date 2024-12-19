@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<learningAssessment id="lca_what_can_you_filter">
+ <title>Que peut-on filtrer ?</title>
+ <prolog>
+  <author type="creator" href="http://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Simon Bate</author>
+  <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Jake Campbell</author>
+  <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Gretyl Kinsey</author>
+  <author>Decarnelle Rémi (traducteur)</author>
+  <critdates>
+   <created golive="2016-11-30" date="2016-11-03"/>
+   <revised modified="2021-02-24"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction id="lcInteraction_z3y_f4h_vx">
+   <lcMultipleSelect id="lcMultipleSelect_lc2_h4h_vx">
+    <lcQuestion>Lesquels de ces éléments DITA pouvez-vous filtrer grâce au traitement conditionnel ?
+     (choisir toutes les bonnes réponses)</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_mc2_h4h_vx">
+     <lcAnswerOption>
+      <lcAnswerContent>Instruction d'étape (&lt;cmd>)</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Paragraphe (&lt;p>)</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Étape (&lt;step>)</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Entrée de tableau (&lt;entry>)</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Titre de rubrique (&lt;title>)</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Notes (&lt;note>)</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Figures (&lt;fig>)</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>Vous pouvez filtrez les éléments &lt;p>, &lt;step>, &lt;note>, and
+     &lt;fig>, mais vous ne pouvez pas filtrer &lt;entry>, &lt;title> (quand utilisé dans une
+     rubrique), et &lt;cmd>. </lcFeedbackIncorrect>
+   </lcMultipleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

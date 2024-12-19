@@ -3,11 +3,11 @@
 <learningContent id="content_p3h_frt_qt">
     <title>Creating a new glossary entry</title>
     <prolog>
-        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+        <author href="https://www.scriptorium.com" scope="external" format="html">Simon Bate,
             Scriptorium</author>
-        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+        <author href="https://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
             Scriptorium</author>
-        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+        <author href="https://www.scriptorium.com" scope="external" format="html">Jake Campbell,
             Scriptorium</author>
         <critdates>
             <created date="2015-10-12"/>
@@ -90,7 +90,8 @@
 &lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd">
 &lt;glossentry id="duck">
 &lt;glossterm>duck&lt;/glossterm>
-<ph outputclass="newchanged">&lt;glossdef>&lt;p>A type of swimming bird characterized by webbed feet, a broad, flat bill, and quacking&lt;/p>&lt;/glossdef></ph>
+<ph outputclass="newchanged">&lt;glossdef>&lt;p>A type of swimming bird characterized by webbed feet, 
+    a broad, flat bill, and quacking&lt;/p>&lt;/glossdef></ph>
     
 &lt;/glossentry></pre>
                     </stepxmp>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_xc1_sfm_5t" xml:lang="fr-FR">
+    <title>Décrire la syntaxe</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-10-24"/>
+            <revised modified="2020-06-09"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>La description syntaxique est une composante cruciale d'une référence API ou d'une
+                référence de ligne de commande. Elle indique les options ou formes possibles de
+                chaque appel de commande ou de fonction. </p>
+            <p>Un diagramme syntaxique utilise une sténographie textuelle ou graphique pour
+                représenter les mots clés, les caractères de remplissage (variables) et les autres
+                caractères nécessaires à une commande ou à un appel de fonction. Les diagrammes
+                syntaxiques textuels utilisent généralement des crochets [], des accolades {} et des
+                barres | pour indiquer les parties de syntaxe facultatives ou obligatoires. Les
+                diagrammes syntaxiques graphiques utilisent des lignes et des flèches pour
+                représenter les parties optionnelles, répétées et obligatoires de la syntaxe. Pour
+                une illustration des diagrammes syntaxiques graphiques, voir cette page <xref
+                    href="https://fr.wikipedia.org/wiki/Diagramme_syntaxique" format="html"
+                    scope="external">Wikipedia</xref>. </p>
+            <p>Comme la description de la syntaxe est fréquemment requise dans les références, la
+                spécialisation des références fournit l'élément &lt;refsyn> pour contenir la syntaxe
+                de la commande.</p>
+            <p>L'élément &lt;refsyn> est spécialisé à partir de l'élément &lt;section> et peut
+                contenir tous les éléments autorisés dans l'élément &lt;section>, y compris
+                l'élément &lt;title>.</p>
+            <p>Il y a plusieurs façons d'ajouter le diagramme syntaxique réel à l'élément
+                &lt;refsyn>, comme par exemple&#xA0;:</p>
+            <ul id="ul_m23_42g_vt">
+                <li>
+                    <p>Utiliser les éléments &lt;image> ou &lt;fig> pour inclure une image du
+                        diagramme de syntaxe (généralement non recommandé)</p>
+                </li>
+                <li>
+                    <p>Utiliser les éléments &lt;codeblock> ou &lt;pre> (préformatté) pour créer un
+                        diagramme de syntaxe textuel (acceptable, mais n'autorise que très peu de
+                        balises supplémentaires)</p>
+                </li>
+                <li>
+                    <p>Uiliser l'élément &lt;synph> (phrase syntaxique) pour créer un diagramme de
+                        syntaxe textuel (illustré dans cette leçon)</p>
+                </li>
+                <li>
+                    <p>Utiliser l'élément &lt;syntaxdiagram>, qui utilise des éléments
+                        supplémentaires pour décrire les parties et les relations dans un diagramme
+                        de syntaxe. Ces éléments peuvent apparaître de nombreuses façons, selon la
+                        façon dont vous générez votre publication. Cependant, il n'y a pas d'éditeur
+                        visuel disponible pour les éléments &lt;syntaxdiagram>, ce qui peut rendre
+                        leur utilisation difficile.</p>
+                </li>
+            </ul>
+            <p>Pour en savoir plus sur les avantages et les inconvénients de l'utilisation des
+                éléments &lt;synph> et &lt;syntaxdiagram>, se référer à <xref
+                    href="http://www.scriptorium.com/2013/01/perplexed-by-complex-syntax-understanding-syntax-diagrams-in-dita/"
+                    format="html" scope="external">l'article de Simon Bate sur la compréhension des
+                    diagrammes dans DITA</xref>.</p>
+            <!--<p>For XSL transforms that generatemore information on the https://github.com/dita-ot/ext-plugins</p>-->
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_zcs_jxp_5t">
+        <title/>
+        <taskbody>
+            <steps>
+                <step>
+                    <cmd>Continuez d'utiliser l_reference_debut.dita.</cmd>
+                </step>
+                <step>
+                    <cmd>Aprés l'élément &lt;section>, ajoutez un élément &lt;refsyn>.</cmd>
+                    <stepxmp>
+                        <pre>   &lt;title>tNav&lt;/title>
+   &lt;refbody>
+     &lt;section>&lt;p>La commande &lt;cmdname>tNav&lt;/cmdname> est utilisée dans la
+     base de données Canard pour naviguer vers une table ou une vue différente.&lt;/p>&lt;/section>
+     <ph outputclass="newchanged">&lt;refsyn>
+     
+     &lt;/refsyn></ph>
+   &lt;/refbody> 
+&lt;/reference></pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>À l'intérieur de l'élément &lt;refsyn>, ajoutez un élément &lt;synph>
+                        (phrase de syntaxe) pour contenir l'exemple de la commande et ajoutez-y du
+                        contenu tel que présenté ici&#xA0;:</cmd>
+                    <stepxmp>
+                        <pre>   &lt;title>tNav&lt;/title>
+   &lt;refbody>
+     &lt;section>&lt;p>La commande &lt;cmdname>tNav&lt;/cmdname> est utilisée dans la
+     base de données Canard pour naviguer vers une table ou une vue différente.&lt;/p>&lt;/section>
+     &lt;refsyn>
+         <ph outputclass="newchanged">&lt;synph>
+             -tNav tNom [tVue]
+         &lt;/synph></ph>
+     &lt;/refsyn>
+   &lt;/refbody> 
+&lt;/reference></pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Balisez la chaîne «&#xA0;tNom&#xA0;» à l'intérieur de l'élément &lt;synph>
+                        avec l'élément &lt;var> (variable).</cmd>
+                    <info>L'élément &lt;var> identifie la chaîne comme une variable ou un caractère
+                        de remplissage dans la syntaxe. Dans la plupart des publications générées,
+                        cela sera rendu en italique. </info>
+                    <stepxmp>
+                        <pre>   &lt;title>tNav&lt;/title>
+   &lt;refbody>
+     &lt;section>&lt;p>La commande &lt;cmdname>tNav&lt;/cmdname> est utilisée dans la
+     base de données Canard pour naviguer vers une table ou une vue différente.&lt;/p>&lt;/section>
+     &lt;refsyn>
+         &lt;synph>
+             <ph outputclass="newchanged">-tNav &lt;var>tNom&lt;/var> [tVue]</ph>
+         &lt;/synph>
+     &lt;/refsyn>
+   &lt;/refbody> 
+&lt;/reference></pre>
+                    </stepxmp>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

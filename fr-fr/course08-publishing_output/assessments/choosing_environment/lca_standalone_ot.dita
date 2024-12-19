@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningAssessment id="lca_conref_push_requirements">
+ <title>Clé OT autonome</title>
+ <prolog class="- topic/prolog ">
+  <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+   class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+  <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+   class="- topic/author ">Noelle Russell, Scriptorium</author>
+  <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+   class="- topic/author ">Ashley Stant, Scriptorium</author>
+  <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+   class="- topic/author ">Simon Bate, Scriptorium</author>
+  <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+   class="- topic/author ">Bill Swallow, Scriptorium</author>
+  <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+   class="- topic/author ">Jake Campbell, Scriptorium</author>
+  <author type="contributor" href="https://www.linkedin.com/in/marinemartinguillerez/"
+   scope="external" format="html" class="- topic/author ">Marine Guillerez
+   (Traductrice)</author>
+  <critdates>
+   <created golive="2017-03-27" date="2017-02-06"/>
+   <revised modified="2020-12-11"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcMultipleSelect id="standalone">
+    <lcQuestion>Un environnement de publication DITA OT autonome est idéal pour&#xA0;: (choisir toutes
+     les réponses qui s’appliquent)</lcQuestion>
+    <lcAnswerOptionGroup>
+     <lcAnswerOption>
+      <lcAnswerContent>Les petites équipes</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Les étudiants</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Les projets pilotes</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Les petits volumes de contenu</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>Un environnement de publication DITA OT autonome est idéal pour les petites
+     équipes, les étudiants, les projets pilotes et les petits volumes de
+     contenu.</lcFeedbackIncorrect>
+   </lcMultipleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

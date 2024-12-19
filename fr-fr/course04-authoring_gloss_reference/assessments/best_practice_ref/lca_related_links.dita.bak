@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_vwy_hnn_vt" xml:lang="fr-FR">
+ <title>Liens connexes</title>
+ <prolog>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+   Scriptorium</author>
+  <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external" format="html"
+   >Marine Martin-Guillerez (Traductrice)</author>
+  <critdates>
+   <created date="2015-10-28"/>
+   <revised modified="2020-06-28"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody id="learningAssessmentbody_axw_24n_vt">
+  <lcInteraction>
+   <lcTrueFalse id="lcTrueFalse_yxw_24n_vt">
+    <lcQuestion>Vous devez utiliser des éléments de type &lt;linkpool> pour maintenir des groupes de
+     liens vers des contenus connexes.</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_iyw_24n_vt">
+     <lcAnswerOption>
+      <lcAnswerContent>Vrai</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Faux</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>Vous devez utiliser des tableaux de relations pour maintenir des liens
+     connexes dans votre contenu.</lcFeedbackIncorrect>
+   </lcTrueFalse>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

@@ -3,18 +3,23 @@
 <learningContent id="content_z2m_vwn_qz">
     <title>Learning objects and learning groups</title>
     <prolog class="- topic/prolog ">
-        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+        <author type="creator" href="https://www.scriptorium.com" format="html" scope="external"
             class="- topic/author ">Simon Bate, Scriptorium</author>
-        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+        <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external"
             class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Kaitlyn Heath, Scriptorium</author>
         <critdates>
             <created date="2017-04-21"/>
         </critdates>
     </prolog>
     <learningContentbody>
         <lcObjectives>
+            <lcObjectivesStem>At the completion of this lesson, students will be able to:</lcObjectivesStem>
             <lcObjectivesGroup id="lcObjectivesGroup_tvl_vbh_1t">
-                <lcObjective/>
+                <lcObjective>Describe the differences between the &lt;learningObject> element and the &lt;learningGroup> element.</lcObjective>
+                <lcObjective>State why the individual reference elements are important to learning maps.</lcObjective>
+                <lcObjective>Correctly construct a &lt;learningGroupMap> and a &lt;learningObjectMap>.</lcObjective>
             </lcObjectivesGroup>
         </lcObjectives>
         <lcDuration>
@@ -22,8 +27,12 @@
         </lcDuration>
         <lcIntro>
             <p>This lesson introduces you to the learning objects and learning groups, 
-                which you can use to organize learning and training topics into courses, curricula, and other, larger structures. </p>
+                which you can use to organize L&amp;T topics into courses, curricula, and other, larger structures. </p>
         </lcIntro>
     </learningContentbody>
-    <related-links/>
+    <related-links>
+        <link href="https://ecolearnit.ifas.ufl.edu/documentation/concept_guide.pdf" format="pdf" scope="external">
+            <linktext>Concept Guide on Reusable Learning Objects with Application to Soil, Water and Environmental Sciences</linktext>
+        </link>
+    </related-links>
 </learningContent>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="lc_about_maps">
+    <title>About DITA maps</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <critdates>
+            <created date="2016-03-08"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcIntro>
+            <p>DITA maps enable you to organize DITA topics into a hierarchical structure. You can
+                think of a DITA map as being like a table of contents. In fact, most tables of
+                content in DITA output files are built directly from DITA maps. </p>
+            <p/>
+            <ul id="ul_mn2_3jd_gv">
+                <li>Create different maps for different uses of same topics.</li>
+                <li>Relationship table</li>
+                <li>Metadata </li>
+            </ul>
+        </lcIntro>
+    </learningContentbody>
+</learningContent>

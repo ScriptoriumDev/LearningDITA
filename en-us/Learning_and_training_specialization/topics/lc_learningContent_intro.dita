@@ -4,8 +4,12 @@
 <learningContent id="lc_learningContent_intro">
     <title>Learning content</title>
     <prolog class="- topic/prolog ">
-        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external" class="- topic/author ">Simon Bate, Scriptorium</author>
-        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external" class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="creator" href="https://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Kaitlyn Heath, Scriptorium</author>
         <critdates>
             <created date="2017-04-21"/>
         </critdates>
@@ -13,14 +17,22 @@
     <learningContentbody>
         <lcObjectives id="lcObjectives_ygk_w5w_qcb">
             <lcObjectivesGroup id="lcObjectivesGroup_tvl_vbh_1t">
-                <lcObjective/>
+                <lcObjective>Describe the two common organizations of learning
+                    content.</lcObjective>
+                <lcObjective>Properly order elements within the &lt;learningContentbody>
+                    element.</lcObjective>
+                <lcObjective>Give examples of when it is useful to use &lt;learningContent> with an
+                    embedded topic.</lcObjective>
+                <lcObjective>Author an embedded task topic in a &lt;learningContent>
+                    topic.</lcObjective>
             </lcObjectivesGroup>
         </lcObjectives>
         <lcDuration id="lcDuration_zgk_w5w_qcb">
             <lcTime value="45"/>
         </lcDuration>
         <lcInstruction id="lcInstruction_js5_cqb_yz">
-            <p>About the topic...</p>
+            <p>The &lt;learningContent> topic type will contain the bulk of your
+                instructional course content.</p>
         </lcInstruction>
     </learningContentbody>
 </learningContent>

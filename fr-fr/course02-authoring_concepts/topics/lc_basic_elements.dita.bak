@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_hrm_xjh_1t" xml:lang="fr-FR">
+    <title>Ajouter des éléments de base à un concept</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-08-24"/>
+            <revised modified="2019-10-21"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Certains des éléments les plus couramment utilisés dans un concept sont&#xA0;:</p>
+            <simpletable frame="all" relcolwidth="1.0* 1.0*" id="simpletable_i4k_dm4_2t">
+                <strow>
+                    <stentry>
+                        <p>&lt;p></p>
+                    </stentry>
+                    <stentry>
+                        <p>paragraphe</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;ul></p>
+                    </stentry>
+                    <stentry>
+                        <p>liste non-ordonnée</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;ol></p>
+                    </stentry>
+                    <stentry>
+                        <p>liste ordonnée</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;note></p>
+                    </stentry>
+                    <stentry>
+                        <p>mise en garde</p>
+                    </stentry>
+                </strow>
+            </simpletable>
+            <p>Ces éléments sont abordés dans le <xref
+                    href="http://www.learningdita.fr/courses/introduction-a-dita/" format="html"
+                    scope="external">cours Introduction à DITA </xref>. Cette leçon donne un bref
+                aperçu de ces éléments et montre comment les ajouter à un concept.</p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_i3g_jkh_1t">
+        <title/>
+        <taskbody>
+            <steps id="steps_f5k_kkh_1t">
+                <step>
+                    <cmd>Continuez d'utiliser le fichier leçon1/l_nouveau_concept_debut.dita.</cmd>
+                </step>
+                <step>
+                    <cmd>À l'intérieur de l'élément &lt;conbody>, ajouter un élément &lt;p> et
+                        ajoutez-y du contenu tel que présenté dans l'exemple suivant&#xA0;:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="mon_premier_concept">
+   &lt;title>Espèces de canards sauvages&lt;/title>
+   &lt;conbody>
+<ph outputclass="newchanged">      &lt;p>Les canards sauvages d'Amérique du Nord appartiennent à l'une des catégories suivantes&#xA0;:&lt;/p></ph>
+   &lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>L'élément &lt;p> est pour le corps du texte. Il peut être utilisé dans
+                        l'élément &lt;conbody> aussi bien qu'à l'intérieur des nombreux éléments
+                        contenus par &lt;conbody>.</info>
+                    <info>
+                        <note>
+                            <p>Utilisez l'élément &lt;p> pour tout corps de texte qui n'a pas besoin
+                                d'une balise d'élément plus spécifique. Comme vous le verrez dans
+                                les exemples de ce cours, nous vous recommandons d'utiliser
+                                l'élément &lt;p> pour baliser le texte à l'intérieur des points de
+                                liste, des notes et des entrées de tableau. Les éléments &lt;p> sont
+                                nécessaires pour les points de liste qui font plusieurs paragraphes,
+                                et encadrer des points individuels par l'élément &lt;p> leur
+                                conserve une cohérence.</p>
+                        </note>
+                    </info>
+                    <info>L'élément &lt;p> que vous venez de créer introduit l'élément
+                        suivant&#xA0;: une liste non-ordonnée.</info>
+                </step>
+                <step>
+                    <cmd>Après l'élément &lt;p>, ajoutez un élément &lt;ul> et ajoutez-y du contenu
+                        tel que présenté dans l'exemple suivant&#xA0;:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="mon_premier_concept">
+   &lt;title>Espèces de canards sauvages&lt;/title>
+   &lt;conbody>
+      ...
+<ph outputclass="newchanged">      &lt;ul>
+         &lt;li>&lt;p>Canards de surface&lt;/p>&lt;/li>
+         &lt;li>&lt;p>Canards plongeurs&lt;/p>&lt;/li>
+         &lt;li>&lt;p>Canards marins&lt;/p>&lt;/li>
+         &lt;li>&lt;p>Canards siffleurs&lt;/p>&lt;/li>
+         &lt;li>&lt;p>Cygnes et oies&lt;/p>&lt;/li>
+      &lt;/ul></ph>
+   &lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>
+                        <note>
+                            <p>Si vous utilisez un éditeur DITA, l'éditeur peut insérer
+                                automatiquement, pour vous, un attribut ID à l'élément &lt;ul>.</p>
+                        </note>
+                    </info>
+                    <info>L'élément &lt;ul> est pour une liste à puces ou non-ordonnée.</info>
+                    <info>L'élément &lt;ul> peut seulement contenir des éléments &lt;li>, et doit en
+                        contenir au moins un.</info>
+                    <info>Chaque élément &lt;li> contient le texte d'une entrée à puces de la liste.
+                        Dans cet exemple, les éléments &lt;li> suivent la meilleure pratique
+                        d'encadrer le texte par un élément &lt;p>.</info>
+                </step>
+                <step>
+                    <cmd>Après l'élément &lt;ul>, ajoutez un élément &lt;ol> avec un élément &lt;p>
+                        d'introduction tel que présenté dans l'exemple suivant&#xA0;:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="mon_premier_concept">
+   &lt;title>Espèces de canards sauvages&lt;/title>
+   &lt;conbody>
+      ...
+<ph outputclass="newchanged">      &lt;p>Les plus longues espèces de canards de surface en Amérique du Nord sont&#xA0;:&lt;/p>
+      &lt;ol>
+         &lt;li>&lt;p>Canard pilet&lt;/p>&lt;/li>
+         &lt;li>&lt;p>Canard colvert&lt;/p>&lt;/li>
+         &lt;li>&lt;p>Canard noir&lt;/p>&lt;/li>
+      &lt;/ol></ph>
+   &lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>
+                        <note>
+                            <p>Si vous utilisez un éditeur DITA, l'éditeur peut insérer
+                                automatiquement, pour vous, un attribut ID à l'élément &lt;ol>.</p>
+                        </note>
+                    </info>
+                    <info>L'élément &lt;ol> est pour une liste numérotée ou ordonnée.</info>
+                    <info>Comme l'élément &lt;ul>, l'élément &lt;ol> peut seulement contenir des
+                        éléments &lt;li>, et doit en contenir au moins un.</info>
+                    <info>Dans cet exemple, chacun des éléments &lt;li> suit la meilleure pratique
+                        d'encadrer le texte par un élément &lt;p>. <note>
+                            <p>Utilisez l'élément &lt;ol> uniquement pour montrer que les éléments
+                                de la liste devraient apparaître dans un certain ordre, non pour
+                                créer des instructions pas-à-pas. Pour des instructions pas-à-pas,
+                                utilisez une tâche à la place.</p>
+                        </note></info>
+                </step>
+                <step>
+                    <cmd>Après l'élément &lt;ol>, ajoutez un élément &lt;note> et ajoutez-y du
+                        contenu tel que présenté dans l'exemple suivant&#xA0;:</cmd>
+                    <info>Vidéo&#xA0;: <xref href="https://www.youtube.com/watch?v=ByrO1K1OTIA"
+                            format="html" scope="external">Créer une note avec DITA</xref></info>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="mon_premier_concept">
+   &lt;title>Espèces de canards sauvages&lt;/title>
+   &lt;conbody>
+      ...
+<ph outputclass="newchanged">      &lt;note>&lt;p>Bien que le canard pilet soit le canard de surface le plus long,
+         le canard colvert est généralement considéré comme le plus gros en raison de son poids corporel plus lourd.&lt;/p>&lt;/note></ph>
+   &lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>L'élément &lt;note> est utilisé pour ajouter des mises en garde, telles
+                        que des notes, des alertes ou des avertissements, au concept. L'élément
+                        &lt;note> que vous venez de créer suit la meilleure pratique consistant à
+                        encadrer le texte avec un élément &lt;p>.</info>
+                </step>
+                <step>
+                    <cmd>Comparez votre fichier leçon1/l_nouveau_concept_debut.dita avec le fichier
+                        d'exemple leçon1/l_nouveau_concept.dita.</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+    <task id="task_rjg_zjx_dt">
+        <title>Exercice</title>
+        <taskbody>
+            <steps id="steps_r11_1kx_dt">
+                <step>
+                    <cmd>Ouvrez le fichier leçon1/l_nouveau_concept_exercice_debut.dita et
+                        utilisez-le pour convertir en DITA le contenu suivant&#xA0;:</cmd>
+                    <info>
+                        <pre outputclass="passthru"><![CDATA[
+                            <hr />
+                            <h3>Stratégie de contenu et objectifs commerciaux</h3>
+                            <p>Les questions à considérer sont :</p>
+                            <ul>
+                            <li>Le coût réel d'une documentation à faible coût.</li>
+                            <li>Comment créer un processus de développement de contenu efficace.</li>
+                            <li>Si une documentation de haute qualité peut réduire le coût du support technique.</li>
+                            <li>Le moyen le plus rentable de partager du contenu technique à l'échelle de l'entreprise.</li>
+                           </ul> 
+                           <p><strong>Note :</strong> Ignorer le contenu peut avoir d'énormes répercussions sur les coûts à l'échelle de l'organisation.</p>
+                           <p>Pour réaliser votre projet et améliorer vos chances de succès, nous vous recommandons de suivre ces étapes :</p>
+                           <ol>
+                           <li>Identifier et interviewer les parties prenantes.</li>
+                           <li>Établir des objectifs et des paramètres de mise en œuvre.</li>
+                           <li>Définir les rôles et les responsabilités.</li>
+                           <li>Établir des échéanciers et des jalons.</li>
+                           <li>Construire le système de création de contenu.</li>
+                           <li>Convertir le contenu existant.</li>
+                           <li>Livrer le contenu.</li>
+                           <li>Capturer les connaissances du projet.</li>
+                           <li>Assurer le succès à long terme.</li>
+                           </ol>
+                           <hr />
+                            ]]></pre>
+                    </info>
+                    <info/>
+                </step>
+                <step>
+                    <cmd>Comparez votre fichier leçon1/l_nouveau_concept_exercice_debut.dita avec le
+                        fichier d'exemple leçon1/l_nouveau_concept_exercice.dita.</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_yys_qbh_1t" xml:lang="fr-FR">
+    <title>Créer un concept</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-08-19"/>
+            <revised modified="2019-10-18"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup id="lcObjectivesGroup_tvl_vbh_1t">
+                <lcObjective>Créer un fichier concept</lcObjective>
+                <lcObjective>En savoir plus sur le DOCTYPE concept</lcObjective>
+                <lcObjective>Ajouter les éléments racine d'un concept</lcObjective>
+                <lcObjective>Ajouter des éléments de contenu de base, y compris &lt;p>, &lt;ul>,
+                    &lt;ol>, et &lt;note></lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="45"/>
+        </lcDuration>
+        <lcIntro>
+            <p>Les rubriques DITA de type concept fournissent des informations sur un sujet
+                particulier.</p>
+            <p>Les concepts aident à comprendre une idée ou le but d'une instruction. Un concept
+                peut donner des informations générales ou conceptuelles sur le sujet en plus des
+                informations essentielles.</p>
+            <p>Un rubrique typique de concept contiendra surtout des paragraphes et des listes.
+                Cependant, vous pouvez utiliser des images, des tableaux et de nombreux autres
+                éléments dans un concept. Vous pouvez également diviser un concept en sections pour
+                plus de clarté.</p>
+            <p>Cette leçon montre comment créer un nouveau concept et comment ajouter des éléments
+                couramment utilisés. À l'exception de l'élément &lt;conbody>, les éléments présentés
+                dans cette leçon et dans le reste du cours ne sont pas spécifiques aux concepts et
+                peuvent également être utilisés dans les autres types de rubriques DITA (tâche et
+                référence).</p>
+            <note>
+                <p>Cette leçon couvre l'utilisation de base de ces éléments. Pour les spécifications
+                    complètes de chaque élément, se référer à la <xref
+                        href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/concept.html"
+                        format="html" scope="external">norme OASIS DITA version 1.2</xref>.</p>
+            </note>
+        </lcIntro>
+    </learningContentbody>
+    <related-links>
+        <link
+            href="https://www.ixiasoft.com/documentation/DITA_Style_Guide/fr/Artefact/Topics_and_Information_Types/c_Concept.html"
+            format="html" scope="external">
+            <linktext>Guide de style DITA, Concept</linktext>
+        </link>
+        <link
+            href="https://www.ixiasoft.com/documentation/DITA_Style_Guide/fr/Artefact/Syntax_and_Markup/c_Paragraphs.html"
+            format="html" scope="external">
+            <linktext>Guide de style DITA, Paragraphes</linktext>
+        </link>
+        <link
+            href="https://www.ixiasoft.com/documentation/DITA_Style_Guide/fr/Artefact/Syntax_and_Markup/c_Lists.html"
+            format="html" scope="external">
+            <linktext>Guide de style DITA, Listes</linktext>
+        </link>
+        <!--   <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/concept.html" format="html"
+            scope="external">
+            <linktext>Standard OASIS DITA Version 1.2, &lt;concept></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/title.html" format="html"
+            scope="external">
+            <linktext>Standard OASIS DITA Version 1.2, &lt;title></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/conbody.html" format="html"
+            scope="external">
+            <linktext>Standard OASIS DITA Version 1.2, &lt;conbody></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/p.html" format="html"
+            scope="external">
+            <linktext>Standard OASIS DITA Version 1.2, &lt;p></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/ul.html" format="html"
+            scope="external">
+            <linktext>Standard OASIS DITA Version 1.2, &lt;ul></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/ol.html" format="html"
+            scope="external">
+            <linktext>Standard OASIS DITA Version 1.2, &lt;ol></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/note.html" format="html"
+            scope="external">
+            <linktext>Standard OASIS DITA Version 1.2, &lt;note></linktext>
+        </link>-->
+    </related-links>
+</learningContent>

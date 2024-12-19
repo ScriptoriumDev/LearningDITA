@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on 
+     github.com. See the accompanying LICENSE file for 
+     applicable licenses.-->
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map xml:lang="fr-FR">
+ <title>Images et tableaux</title>
+ <topicref href="../topics/lc_images_intro.dita">
+  <topicmeta lockmeta="yes">
+   <data name="lesson_id" value="977"/>
+  </topicmeta>
+  <!--  <topicref href="../topics/lc_markup.dita"/>-->
+  <topicref href="../topics/lc_images.dita"/>
+  <topicref href="../topics/lc_simpletables.dita"/>
+  <topicref href="../topics/lc_tables.dita"/>
+  <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_images.dita" locktitle="yes">
+   <topicmeta>
+    <navtitle>Évaluation sur les images et tableaux</navtitle>
+   </topicmeta>
+   <!--   <topicref href="../assessments/lca_htmldita.dita"/>-->
+   <topicref href="../assessments/images/lca_where_images.dita"/>
+   <topicref href="../assessments/images/lc_reference.dita"/>
+   <topicref href="../assessments/images/lca_simpletable_elements.dita"/>
+   <topicref href="../assessments/images/lca_table_elements.dita"/>
+   <topicref href="../assessments/images/lca_thead.dita"/>
+  </topicref>
+ </topicref>
+</map>

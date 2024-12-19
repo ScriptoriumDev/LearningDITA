@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_lyk_syn_tt" xml:lang="fr-FR">
+    <title>Ajouter une table de propriétés à une référence</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-10-22"/>
+            <revised modified="2020-06-11"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Dans la plupart des références d'une API ou d'une ligne de commande, le diagramme
+                syntaxique est immédiatement suivi d'une liste ou d'un tableau qui décrit en détail
+                les différents mots clés, caractères de remplissage et autres options. Le diagramme
+                syntaxique indique au lecteur où ces objets sont utilisés&#xA0;; le tableau des
+                propriétés fournit des informations sur les raisons pour lesquelles le lecteur
+                utiliserait ces objets.</p>
+            <p dir="ltr" id="docs-internal-guid-c77ed3ad-b001-1114-c83c-33c5b4ac1257">Par exemple,
+                dans une commande d'exportation de graphiques, le paramètre <b>filetype</b> pourrait
+                autoriser les valeurs «&#xA0;gif&#xA0;», «&#xA0;png&#xA0;», «&#xA0;bmp&#xA0;» et
+                «&#xA0;svg&#xA0;»&#xA0;; vous pourriez vouloir donner des informations spécifiques
+                sur les implications de l'utilisation de chacun des types de fichiers. </p>
+            <p>Dans la rubrique DITA de type référence, l'élément &lt;properties> fournit une façon
+                de structurer ces informations. L'élément &lt;properties> est l'un des éléments que
+                vous pouvez utiliser dans un élément &lt;refbody>.</p>
+            <p>L'élément &lt;properties> contient un ou plusieurs éléments &lt;property>, chacun
+                décrivant une seule propriété. L'élément &lt;property> peut contenir des éléments
+                pour le type (&lt;proptype>), la valeur (&lt;propvalue>), et la description
+                (&lt;propdesc>). Pour une utilisation courante, ceux-ci peuvent contenir&#xA0;:</p>
+            <simpletable frame="all" relcolwidth="1.0* 1.0* 1.0* 1.0*" id="simpletable_ik5_bc5_vt">
+                <sthead>
+                    <stentry>Type de document</stentry>
+                    <stentry>&lt;proptype></stentry>
+                    <stentry>&lt;propvalue></stentry>
+                    <stentry>&lt;propdesc></stentry>
+                </sthead>
+                <strow>
+                    <stentry><b>Référence d'une ligne de commande</b></stentry>
+                    <stentry>Paramètre de commande</stentry>
+                    <stentry>Valeur ou mot-clé autorisé pour le paramètre</stentry>
+                    <stentry>Description du paramètre (sa signification, ce que son utilisation
+                        implique)</stentry>
+                </strow>
+                <strow>
+                    <stentry><b>Référence API</b></stentry>
+                    <stentry>Argument de fonction</stentry>
+                    <stentry>Type de données de l'argument ou type d'objet</stentry>
+                    <stentry>Description de l'argument et de son effet sur l'API</stentry>
+                </strow>
+                <strow>
+                    <stentry><b>Référence de la base de données</b></stentry>
+                    <stentry>Nom du champ ou de la colonne de la base de données</stentry>
+                    <stentry>Type de données</stentry>
+                    <stentry>Description du contenu</stentry>
+                </strow>
+            </simpletable>
+            <p>Dans le cas d'un paramètre de commande (&lt;proptype>) qui comporte plusieurs
+                mots-clés, vous pouvez créer un élément de type &lt;property> avec des éléments de
+                type &lt;proptype>, &lt;propvalue>, et &lt;propdesc> pour le premier mot-clé.
+                Ensuite, pour les mots-clés suivants, créez des éléments supplémentaires de type
+                &lt;property> qui ne contiennent que des éléments de type &lt;propvalue> et
+                &lt;propdesc>.</p>
+            <p>L'élément &lt;properties> est une spécialisation de l'élément &lt;simpletable> et est
+                souvent publié sous forme de tableau. Si nécessaire, vous pouvez créer des têtes de
+                colonne pour les colonnes type, valeur et description en utilisant un élément
+                &lt;prophead> contenant les éléments &lt;proptypehd>, &lt;propvaluehd> et
+                &lt;propdeschd>. </p>
+            <p><xref href="https://youtu.be/njVoKQqltlA" format="html" scope="external">Vidéo&#xA0;:
+                    Créer une table propriétés DITA</xref></p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_o3q_zd4_tt">
+        <title/>
+        <taskbody>
+            <steps>
+                <step>
+                    <cmd>Continuez d'utiliser l_reference_debut.dita.</cmd>
+                </step>
+                <step>
+                    <cmd>Après l'élément &lt;refsyn>, ajoutez un élément &lt;properties> et ajoutez
+                        un élément &lt;prophead> à l'intérieur.</cmd>
+                    <stepxmp>
+                        <pre>       ...
+       &lt;/refsyn>
+       <ph outputclass="newchanged">&lt;properties>
+           &lt;prophead>
+           
+           &lt;/prophead>
+       &lt;/properties></ph>
+   &lt;/refbody> 
+&lt;/reference></pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>À l'intérieur de l'élément &lt;prophead>, ajoutez les éléments
+                        &lt;proptypehd>, &lt;propvaluehd> et &lt;propdeschd> et ajoutez-y du contenu
+                        tel que présenté ici&#xA0;:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+&lt;reference id="ma_premiere_ref">
+   &lt;title>tNav&lt;/title>
+   &lt;refbody>
+       ...
+       &lt;/refsyn>
+       &lt;properties>
+           &lt;prophead>
+               <ph outputclass="newchanged">&lt;proptypehd>Type&lt;/proptypehd>
+               &lt;propvaluehd>Nom&lt;/propvaluehd>
+               &lt;propdeschd>Description&lt;/propdeschd></ph>
+           &lt;/prophead>
+       &lt;/properties>
+   &lt;/refbody> 
+&lt;/reference></pre>
+                    </stepxmp>
+                    <info>
+                        <note>
+                            <p>Bien qu'ils ne soient pas tous requis, les éléments ajoutés ici
+                                doivent être dans cet ordre précis. S'ils ne le sont pas, votre
+                                document ne sera pas validé.</p>
+                        </note>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Après l'élément &lt;prophead>, ajoutez un élément &lt;property>.</cmd>
+                    <stepxmp>
+                        <pre>       ...
+       &lt;/refsyn>
+       &lt;properties>
+           &lt;prophead>
+               &lt;proptypehd>Type&lt;/proptypehd>
+               &lt;propvaluehd>Nom&lt;/propvaluehd>
+               &lt;propdeschd>Description&lt;/propdeschd>
+           &lt;/prophead>
+           <ph outputclass="newchanged">&lt;property>
+           &lt;/property></ph>
+
+       &lt;/properties>
+   &lt;/refbody> 
+&lt;/reference></pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>À l'intérieur de l'élément &lt;property>, ajoutez les éléments
+                        &lt;proptype>, &lt;propvalue> et &lt;propdesc> et ajoutez-y du contenu tel
+                        que présenté ici&#xA0;:</cmd>
+                    <stepxmp>
+                        <pre>       ...
+       &lt;/refsyn>
+       &lt;properties>
+           &lt;prophead>
+               &lt;proptypehd>Type&lt;/proptypehd>
+               &lt;propvaluehd>Nom&lt;/propvaluehd>
+               &lt;propdeschd>Description&lt;/propdeschd>
+           &lt;/prophead>
+           <ph outputclass="newchanged">&lt;property>
+               &lt;proptype>Table&lt;/proptype>
+               &lt;propvalue>dbo.DBBL&lt;/propvalue>
+               &lt;propdesc>Canards de Barbarie&lt;/propdesc>
+           &lt;/property></ph>
+       &lt;/properties>
+   &lt;/refbody> 
+&lt;/reference></pre>
+                    </stepxmp>
+                    <info>
+                        <note>
+                            <p>Si vous omettez l'une des en-têtes, vous devez également omettre
+                                l'élément de propriété associé. Par exemple, si votre élément
+                                &lt;prophead> ne contient pas d'élément &lt;propdeschd>, vous devez
+                                omettre l'élément &lt;propdesc> dans vos éléments &lt;property>.</p>
+                        </note>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Ajoutez des éléments &lt;property> et ajoutez-y du contenu tel
+                        que présenté ici&#xA0;:</cmd>
+                    <stepxmp>
+                        <pre>       ...
+       &lt;/refsyn>
+       &lt;properties>
+           &lt;prophead>
+               &lt;proptypehd>Type&lt;/proptypehd>
+               &lt;propvaluehd>Nom&lt;/propvaluehd>
+               &lt;propdeschd>Description&lt;/propdeschd>
+           &lt;/prophead>
+           &lt;property>
+               &lt;proptype>Table&lt;/proptype>
+               &lt;propvalue>dbo.DBBL&lt;/propvalue>
+               &lt;propdesc>Canards de Barbarie&lt;/propdesc>
+           &lt;/property>
+           <ph outputclass="newchanged">&lt;property>
+               &lt;proptype>&lt;/proptype>
+               &lt;propvalue>dbo.DVNG&lt;/propvalue>
+               &lt;propdesc>Canards plongeurs&lt;/propdesc>
+           &lt;/property>
+           &lt;property>
+               &lt;proptype>&lt;/proptype>
+               &lt;propvalue>dbo.WHST&lt;/propvalue>
+               &lt;propdesc>Canards siffleurs&lt;/propdesc>
+           &lt;/property>
+           &lt;property>
+               &lt;proptype>Vue&lt;/proptype>
+               &lt;propvalue>regn.ne&lt;/propvalue>
+               &lt;propdesc>Canards situés principalement dans le nord-est&lt;/propdesc>
+           &lt;/property>
+           &lt;property>
+               &lt;proptype>&lt;/proptype>
+               &lt;propvalue>regn.se&lt;/propvalue>
+               &lt;propdesc>Canards situés principalement dans le sud-est&lt;/propdesc>
+           &lt;/property>
+           &lt;property>
+               &lt;proptype>&lt;/proptype>
+               &lt;propvalue>pttrn.migr&lt;/propvalue>
+               &lt;propdesc>Canards organisés selon leur mode de migration&lt;/propdesc>
+           &lt;/property></ph>
+       &lt;/properties>
+   &lt;/refbody> 
+&lt;/reference></pre>
+                    </stepxmp>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+    <task id="task_v51_m3m_vt">
+        <title>Exercice</title>
+        <taskbody>
+            <steps>
+                <step>
+                    <cmd>Ouvrez le fichier leçon1/l_reference_exercice_debut.dita et utilisez-le
+                        pour convertir le contenu suivant en DITA&#xA0;:</cmd>
+                    <info>
+                        <pre outputclass="passthru"><![CDATA[
+                            <hr/>
+                            <h3>ajouteEntree</h3>
+                            <p>La commande <i>ajouteEntree</i> est utilisée pour entrer une nouvelle version de la documentation dans la base de données d'analyse du contenu. 
+                            <tt><i>-ajouteEntree</i> {nLangage | nVersion | nSortie}</tt>
+                            
+                            <table>
+                              <tr>
+                                <td>Requis&#xA0;?</td>
+                                <td>Paramètre</td>
+                                <td>Description</td>
+                              </tr>
+                              <tr>
+                                <td>Oui</td>
+                                <td>nLangage</td>
+                                <td>La langue affichée par défaut</td>
+                              </tr>
+                              <tr>
+                                <td></td>
+                                <td>nVersion</td>
+                                <td>La version du contenu affichée par défaut</td>
+                              </tr>
+                              <tr>
+                                <td></td>
+                                <td>nSortie</td>
+                                <td>Le format de livraison requis</td>
+                              </tr>
+                            </table>
+                            ]]></pre>
+                    </info>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_dwb_2f1_wr">
+ <title/>
+ <prolog>
+  <author>Sharon Burton</author>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe,
+   Scriptorium</author>
+  <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external" format="html"
+   >Marine Guillerez (Traductrice)</author>
+  <critdates>
+   <created date="2015-04-28"/>
+   <revised modified="2019-08-20"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+
+
+
+
+
+   <lcMatching id="topics7">
+    <lcQuestion>Associez les éléments du glossaire à leur signification&#xA0;:</lcQuestion>
+    <lcMatchTable>
+     <lcMatchingPair>
+      <lcItem>&lt;glossterm></lcItem>
+      <lcMatchingItem>Mot ou phrase </lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>&lt;glossdef></lcItem>
+      <lcMatchingItem>Définition du mot ou de la phrase</lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>&lt;glossentry></lcItem>
+      <lcMatchingItem>Conteneur pour une entrée de glossaire</lcMatchingItem>
+     </lcMatchingPair>
+    </lcMatchTable>
+   </lcMatching>
+
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

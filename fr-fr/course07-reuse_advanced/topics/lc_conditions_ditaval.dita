@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="content_pgf_3gt_qt">
+    <title>Les fichiers ditaval</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey</author>
+        <author>Decarnelle Rémi (traducteur)</author>
+        <critdates>
+            <created golive="2016-12-01" date="2016-10-18"/>
+            <revised modified="2021-02-15"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction><p>Lors de la génération de publication depuis des sources où s'applique un
+                traitement conditionnel, vous devez informer le transformateur ce que vous voulez
+                montrer ou masquer.</p><p>La plupart des transformateurs ont recours à des fichiers
+                    <i>ditaval</i>. Ces fichiers indiquent quels attributs et quelles valeurs vont
+                servir à filtrer votre contenu. Néanmoins, certains transformateurs font appel à
+                d'autres méthodes, mais le principe reste le même.</p><p>Un fichier ditaval est un
+                fichier XML, mais n'est pas un fichier DITA. En effet, les fichiers ditaval n'ont
+                pas recours aux fichiers DTD de DITA ou à ses éléments. Depuis DITA 1.2, les
+                fichiers ditaval ne sont plus référencés dans la carte DITA. À la place, le lien
+                vers votre fichier ditaval est transmis à votre transformateur en tant qu'argument
+                dans une ligne de commande.</p><p>Le nom de votre fichier ditaval dépend de vous,
+                bien qu'il est judicieux de donner un nom explicite à votre fichier. Généralement,
+                les fichiers ditaval sont conservés dans le même dossier que vos cartes, bien qu'il
+                soit tout à fait possible de les conserver partout où le transformateur peut les
+                atteindre.</p><p>En temps normal, vous aurez un fichier ditaval pour chaque
+                carte.</p><p>&lt;val> est l'élément racine d'un fichier ditaval. L'élément &lt;val>
+                contient un ou plusieurs élément &lt;props>
+                :</p><pre>&lt;val>
+   &lt;prop att="platform" val="iphone" action="exclude" />
+&lt;/val></pre><p>Cet
+                exemple montre la forme basique d'un élément &lt;prop>.</p><ul id="ul_zpk_hxp_tx">
+                <li>L'attribut att indique l'attribut visé par le traitement conditionnel, qui est
+                    dans ce cas "platform".</li>
+                <li>L'attribut val indique quelle valeur de l'attribut est concernée par le
+                    traitement conditionnel, qui est dans cas "iphone"<note>Il est nécessaire de
+                        prêter attention à la casse lors de la définition de l'attribut val. Si la
+                        valeur de val est "iPhone", le traitement conditionnel ne prendrait
+                            <i>pas</i> en compte les attributs avec la valeur "iphone".</note></li>
+                <li>L'attribut action indique ce que le transformateur doit faire s'il trouve un
+                    attribut avec la valeur indiquée dans l'élément &lt;prop>. Dans ce cas, tous les
+                    éléments avec l'attribut platform et la valeur "iphone" sont exclus de la
+                    publication, cest-à-dire masqué.</li>
+            </ul><note>Les exemples suivants sont consultables dans le dossier d'exemples <xref
+                    keyref="sample_file"/>. Les fichiers sont c_marquer_et_filtrer.dita et
+                domestique.ditaval.</note><p><b>Exemple de traitement conditionnel</b></p><p>Dans
+                cet exemple, un élément &lt;ph> (phrase) se trouve au sein du second &lt;p>.
+                L'attribut product possède la valeur "wild_ducks"
+                :</p><pre id="feed_example">&lt;p>Pour avoir des canards en bonne santé, nous vous recommandons de les nourrir avec nos aliments.&lt;/p>
+&lt;p>Toute notre gamme d'alimentation pour canard est composée de maïs fendillé, d'avoine, de riz et de graînes de sorgho.
+&lt;ph product="wild_ducks">Notre gamme d'alimentation pour canard sauvage inclut des vers et du poisson.&lt;/ph>
+&lt;/p>
+&lt;p>Tous nos produits sont disponibles sous forme de sac de 5, 10 et 20 kilogrammes.&lt;/p>
+</pre><p>Si
+                vous générer une publication avec ce contenu sans mentionner de fichier ditaval,
+                vous obtiendrez le résultat suivant :</p><image keyref="i_without_filtering"
+                id="image_l15_qh4_cy" base="2016/11"/><p>Si vous utilisez un fichier ditaval qui
+                vient exclure les éléments où product="wild_ducks"
+                :</p><pre>&lt;val>
+    &lt;prop att="product" val="wild_ducks" action="exclude" />
+&lt;/val></pre><p>La
+                publication obtenue serait la suivante :</p><image keyref="i_with_filtering"
+                id="image_ucd_c34_cy" base="2016/12"/><p>Pour plus d'information sur les fichiers
+                ditaval et leur utilisation, voir <xref
+                    href="http://docs.oasis-open.org/dita/v1.2/os/spec/common/about-ditaval.html#ditaval"
+                    format="html" scope="external"/></p></lcInstruction>
+    </learningContentbody>
+</learningContent>

@@ -3,7 +3,7 @@
 <learningContent id="content_l2d_swx_5t">
     <title>Use DITA domain elements</title>
     <prolog>
-        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+        <author href="https://www.scriptorium.com" scope="external" format="html">Simon Bate,
             Scriptorium</author>
         <critdates>
             <created date="2015-10-27"/>
@@ -16,7 +16,7 @@
                 elements.</p>
             <p>DITA defines a number of elements that are useful for topics that describe
                 programming, computer software, and computer user interfaces. These are called
-                domain specializations, because—althought they’re specializations of existing
+                domain specializations, because—although they’re specializations of existing
                 elements—they can be used across all topic specializations, such as concept, task,
                 and reference topic types.</p>
             <p>It’s advisable to use these semantic elements because they:</p>
@@ -63,10 +63,10 @@
                 <pre>...by choosing <b>File</b> » <b>Open</b></pre>
             </p>
             <p>For more information on all domain elements, see the <xref
-                    href="http://docs.oasis-open.org/dita/v1.2/os/spec/common/technicalContent-domain-elements.html#technicalContent-domain-elements"
+                    href="https://docs.oasis-open.org/dita/v1.2/os/spec/common/technicalContent-domain-elements.html#technicalContent-domain-elements"
                     format="html" scope="external">DITA Specification.</xref></p>
             <p>We also strongly advise that you create a style guide in which you document the
-                specific uses of each of these element within your product documentation. </p>
+                specific uses of each of these elements within your product documentation. </p>
         </lcIntro>
     </learningContentbody>
 </learningContent>

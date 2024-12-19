@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_tnn_3ss_kf">
+    <title>Répondre aux exigences réglementaires</title>
+    <conbody>
+        <p><indexterm>réglementaires<indexterm>exigences</indexterm></indexterm><indexterm>exigences<indexterm>réglementaires</indexterm></indexterm>Les
+            exigences réglementaires peuvent être fastidieuses, mais au moins l'impératif commercial
+            est clair&#xA0;: sans documentation répondant aux exigences, l'organisation ne sera pas
+            autorisée à vendre ses produits (ou, dans certains cas, à fonctionner). D'autres
+            objectifs commerciaux peuvent exister, mais ils sont secondaires.</p>
+        <p>Pour commencer, vous devez comprendre l'exigence réelle. Certaines exigences sont d'ordre
+            technique. Par exemple, la Food and Drug Administration américaine exige
+                <indexterm>étiquetage</indexterm><indexterm>SPL</indexterm><indexterm>XML<indexterm>SPL</indexterm></indexterm><indexterm>étiquetage
+                structuré des produits<index-see>SPL</index-see></indexterm>que le contenu de
+            l'étiquetage (informations sur les médicaments) soit soumis par voie électronique en
+            utilisant la norme SPL (Étiquetage structuré des produits – Structured Product
+            Labeling). <fn><xref
+                    href="http://www.fda.gov/ForIndustry/DataStandards/StructuredProductLabeling/default.htm"
+                    scope="external" format="html"
+                    >fda.gov/ForIndustry/DataStandards/StructuredProductLabeling/default.htm</xref></fn>
+            SPL est une norme XML. Toute stratégie de contenu qui implique ces soumissions
+            réglementées doit supporter la livraison de contenu encodé en SPL.</p>
+        <p>D'autres réglementations, telle que celles de <indexterm>Union
+                    Européenne<indexterm>normes</indexterm></indexterm> l'Union européenne pour la
+            documentation des produits, établissent des normes concernant les informations à
+            inclure, comme le décrit <indexterm>normes TCEurope</indexterm>TCEurope dans <i>Usable
+                and safe operating manuals for consumer goods</i> (2004)<fn><xref
+                    href="http://docbox.etsi.org/STF/Archive/STF285_HF_MobileEservices/STF285%20Work%20area/UG/Inputs%20to%20consider/TCeurope_Securedoc_1_Usable%20and%20safe%20operating%20manuals%20for%20consumer%20DKE-AKDFA_2004-01-01.pdf"
+                    scope="external" format="pdf"
+                    >docbox.etsi.org/STF/Archive/STF285_HF_MobileEservices/STF285%20Work%20area/UG/Inputs%20to%20consider/TCeurope_Securedoc_1_Usable%20and%20safe%20operating%20manuals%20for%20consumer%20DKE-AKDFA_2004-01-01.pdf</xref>
+            </fn>&#xA0;: <lq><indexterm>Union Européenne<indexterm>directive
+                    produit</indexterm></indexterm>La législation de l'Union européenne précise
+                qu'un produit technique n'est complet que s'il est accompagné d'un manuel
+                d'utilisation. La livraison ou la vente d'un produit sans manuel d'utilisation ou
+                avec un manuel inadéquat est contraire à la loi. Dans ce cas, les utilisateurs ont
+                droit à une assistance.</lq></p>
+        <p><indexterm>réglementaire<indexterm>documentation</indexterm></indexterm><indexterm>contenu<indexterm>réglementé</indexterm></indexterm><indexterm>contenu
+                    technique<indexterm>réglementé</indexterm></indexterm>Aux États-Unis, seules
+            quelques catégories de documentation sur les produits sont réglementées, mais les
+            préoccupations relatives à la responsabilité légale peuvent orienter les décisions
+            relatives au contenu. Une exception notable est le processus d'autorisation des
+            centrales nucléaires. La Commission américaine de réglementation nucléaire (Nuclear
+            Regulatory Commission) fournit des exigences détaillées concernant le contenu d'une
+            demande de licence.<fn><xref
+                    href="http://www.nrc.gov/reading-rm/doc-collections/fact-sheets/licensing-process-bg.html"
+                    format="html" scope="external"
+                    >nrc.gov/reading-rm/doc-collections/fact-sheets/licensing-process-bg.html</xref></fn></p>
+        <p>Une autre catégorie de réglementation concerne les fabricants de composants, par exemple
+            dans l'industrie aérospatiale. Si vous fabriquez des composants d'avion, tels que des
+            issues de secours ou des sièges, votre documentation produit est soumise aux exigences
+            de votre client (comme Boeing ou Airbus). Si votre client vous informe que vous devez
+            fournir la documentation du produit en utilisant la norme
+                    <indexterm>S1000D</indexterm><indexterm>XML<indexterm>S1000D</indexterm></indexterm>S1000D
+            (une autre norme XML) ou une norme militaire, vous n'avez pas d'autre choix que de vous
+            y conformer. (Techniquement, ces exigences ne sont pas "règlementaires", mais dans votre
+            rôle de fournisseur, la distinction est au mieux sémantique).</p>
+        <p>Il est préférable de considérer les exigences réglementaires comme des conditions
+            préalables – elles influent sur vos décisions en matière de stratégie de contenu bien
+            avant que vous ne puissiez commencer à réfléchir à la manière de créer un contenu
+            efficace et utile.</p>
+    </conbody>
+</concept>

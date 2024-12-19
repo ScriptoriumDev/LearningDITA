@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="content_pgf_3gt_qt">
+    <title>Utiliser des attributs pour marquer le contenu</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey</author>
+        <author>Decarnelle Rémi (traducteur)</author>
+        <critdates>
+            <created golive="2016-12-01" date="2016-10-18"/>
+            <revised modified="2021-0205"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Avec le traitement conditionnel de DITA, vous pouvez choisir ce que vous voulez
+                montrer ou cacher des rubriques lors de la création d'une publication. Les éléments
+                à filtrer sont marqués à l'aide d'un attribut prévu à cet effet. La valeur de
+                l'attribut sert à déterminer si l'élément doit être montré ou caché (filtré). Voici
+                les quatres attributs de traitement conditionnel et leur utilisation <i>suggérée</i> :<dl>
+                    <dlentry>
+                        <dt>audience</dt>
+                        <dd>Le contenu est prévu pour un groupe spécifique de lecteurs. L'audience
+                            peut être perçue de façons différentes. Elle peut être comprise comme le
+                            niveau d'expérience, le rôle, habilitation de sécurité, ou toute autre
+                            façon de grouper des lecteurs.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>platform</dt>
+                        <dd>Le contenu est spécifique à un appareil ou à un logiciel.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>product</dt>
+                        <dd>Le contenu est spécifique à un produit.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>otherprops</dt>
+                        <dd>Le contenu est spécifique d'une façon différente de toutes les autres
+                            conditions.</dd>
+                    </dlentry>
+                </dl></p>
+            <p>Par exemple, vous pouvez utiliser l'attribut <i>platform</i> pour indiquer que
+                contenu est réservé aux utilisateurs d'iPhone ou d'Android :</p>
+            <pre>&lt;p platform="android">Visiter Google Play pour plus d'informations.&lt;/p> 
+&lt;p platform="iphone">Visiter l'Apple Store pour plus d'informations.&lt;/p></pre>
+            <p>Lors de la génération d'une publication pour les utilisateurs d'Android, vous pouvez
+                à l'aide des mécanismes de traitement conditionnel de DITA cacher les éléments avec
+                l'attribut <tt>platform="iphone"</tt>et montrer ceux avec l'attribut
+                    <tt>platform="android"</tt>.</p>
+            <p>Le nom des attributs sont déterminés par DITA. Ces noms suggèrent comment vous pouvez
+                les utiliser. Vous pouvez bien entendu les utiliser de la façon que vous voulez.</p>
+            <p>De la même façon que les attributs, vous devez également choisir les valeurs que vous
+                leur donnez. Tous les caractères sont autorisés sauf l'espace. Vous devez être
+                prudent avec la capitalisation, car a valeur de l'attribut est sensible à la
+                casse.</p>
+            <p>Vous pouvez donner plusieurs valeurs à un attribut en séparant chaque valeur par une
+                ou plusieurs espaces.</p>
+            <p>Néanmoins, il reste important que les créateurs de contenu de votre groupe,
+                entreprise, ou organisation se mettent d'accord sur le but de chaque attribut et des
+                valeurs à donner à chacun.</p>
+            <note>Ces quatre attributs ne sont qu'un point de départ. Il est possible de spécialiser
+                DITA pour créer de nouveaux attributs pour le traitement conditionnel. Il existe un
+                cinquième attribut appelé props. Il sert de base pour la spécialisation.</note>
+            <p>Veuillez garder à l'esprit que le filtrage d'élément peut s'opérer au niveau des
+                éléments de la carte DITA tels que &lt;topicref> et &lt;mapref>. De cette façon,
+                vous pouvez utiliser le traitement conditionnel pour inclure ou exclure des
+                rubriques ou chapitres entiers de vos publications.</p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

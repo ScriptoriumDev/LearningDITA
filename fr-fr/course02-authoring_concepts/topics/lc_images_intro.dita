@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_kqs_rks_zs" xml:lang="fr-FR">
+    <title>Images et tableaux</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-08-19"/>
+            <revised modified="2019-10-27"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup id="lcObjectivesGroup_e2g_sks_zs">
+                <lcObjective>Reconnaître les meilleures pratiques et les éléments nécessaires pour
+                    ajouter des images à un concept</lcObjective>
+                <lcObjective>Ajouter les éléments &lt;fig> et &lt;image> au concept</lcObjective>
+                <lcObjective>Reconnaître les éléments de base nécessaires pour ajouter des tableaux
+                    à un concept</lcObjective>
+                <lcObjective>Ajouter les éléments &lt;simpletable> et &lt;table> à un
+                    concept</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="1"/>
+        </lcDuration>
+        <lcIntro>
+            <p>Les images et les tableaux vous donnent un moyen visuel de présenter ou de clarifier
+                l'information dans votre concept.</p>
+            <p>En utilisant l'élément &lt;image> seul ou à l'intérieur d'un élément &lt;fig>, vous
+                pouvez inclure une image à votre concept via un lien vers l'emplacement de cette
+                image sur internet ou sur un serveur local.</p>
+            <p>Avec les éléments &lt;simpletable> et &lt;table>, vous pouvez créer des tableaux pour
+                transmettre des informations factuelles dans un format visuel clair. L'élément
+                &lt;simpletable> est idéal pour un petit tableau de base qui accompagne d'autres
+                textes, tandis que l'élément &lt;table> est idéal pour concevoir des tableaux
+                complexes.</p>
+            <p>Cette leçon montre comment ajouter des images et des tableaux à un concept. Comme les
+                autres éléments présentés dans ce cours, les images et les tableaux ne sont pas
+                exclusifs au concept et peuvent également être utilisés dans les
+                autres types de rubrique DITA (tâche et référence).</p>
+            <note>
+                <p>Cette leçon couvre l'utilisation de base de ces éléments. Pour les spécifications
+                    complètes de chaque élément, se référer à la <xref
+                        href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/concept.html"
+                        format="html" scope="external">norme OASIS DITA version 1.2</xref>.</p>
+            </note>
+        </lcIntro>
+    </learningContentbody>
+    <related-links>
+        <link
+            href="https://www.ixiasoft.com/documentation/DITA_Style_Guide/fr/Artefact/c_Working_with_Graphics_and_Figures.html"
+            format="html" scope="external">
+            <linktext>Guide de style DITA, Graphiques et images</linktext>
+        </link>
+        <link
+            href="https://www.ixiasoft.com/documentation/DITA_Style_Guide/fr/Artefact/Syntax_and_Markup/c_Tables.html"
+            format="html" scope="external">
+            <linktext>Guide de style DITA, Tableaux</linktext>
+        </link>
+        <!-- <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/image.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;image></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/fig.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;fig></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/simpletable.html"
+            format="html" scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;simpletable></linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/table.html" format="html"
+            scope="external">
+            <linktext>OASIS DITA Version 1.2 Standard, &lt;table></linktext>
+        </link>-->
+    </related-links>
+</learningContent>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_kqs_rks_zs">
+    <title>Créer les étapes</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external" format="html"
+            >Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-08-12"/>
+            <revised modified="2020-10-04"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup id="lcObjectivesGroup_e2g_sks_zs">
+                <lcObjective/>
+                <lcObjective>Identifier les éléments fondamentaux trouvés dans une
+                    étape</lcObjective>
+                <lcObjective>Ajouter un élément &lt;steps> à la tâche</lcObjective>
+                <lcObjective>Ajoutez des éléments au &lt;step>, en utilisant les éléments &lt;cmd>
+                    et &lt;info> pour fournir des informations supplémentaires</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="1"/>
+        </lcDuration>
+        <lcInstruction>
+            <p>La partie essentielle d'une tâche est l'ensemble des étapes que l'utilisateur doit
+                effectuer. </p>
+            <p>Dans les rubriques tâches DITA, la procédure que le lecteur doit exécuter est
+                contenue dans un élément de type &lt;steps>&#xA0;; les étapes individuelles de cette
+                procédure sont contenues dans les éléments de type &lt;step>. </p>
+            <p>Lorsque le résultat est généré à partir de la rubrique tâche, les étapes prennent
+                généralement la forme d'une liste numérotée. Le texte utilisé pour identifier chaque
+                étape (qu'il s'agisse simplement du numéro et d'une ponctuation ou du mot "Étape"
+                suivi d'un numéro) dépend de la mise en œuvre de la transformation. Lorsque vous
+                créez une étape, la plupart des éditeurs DITA affichent les numéros d'étape à côté
+                de chaque étape.</p>
+            <p>DITA vous permet également de créer une liste non ordonnée pour les étapes, avec
+                l'élément &lt;steps-unordered>. Pour plus d'informations sur cet élément, veuillez
+                consulter la spécification DITA.</p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

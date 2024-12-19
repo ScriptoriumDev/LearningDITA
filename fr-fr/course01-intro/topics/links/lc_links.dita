@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_yf5_qjp_wr">
+    <title>Liens connexes</title>
+    <shortdesc/>
+    <learningContentbody>
+        <lcInstruction>
+            <p>À la fin d'une rubrique, vous pouvez insérer un élément related-links. Utilisez
+                related-links pour pointer une information additionnelle que le lecteur pourrait
+                vouloir.</p>
+            <p>Les liens connexes contiennent un lien et un texte de lien. Voici un
+                exemple&#xA0;:</p>
+            <pre>&lt;topic id="exemple">
+    &lt;title>Exemple de titre&lt;/title>
+    &lt;body>
+    ...
+    &lt;/body>
+    &lt;related-links>
+        &lt;link href="http://www.exemple.com" format="html" scope="external">
+            &lt;linktext>Exemple de lien&lt;/linktext>
+        &lt;/link>
+    &lt;/related-links>
+&lt;/topic>        </pre>
+            <p>Dans l'élément lien, vous spécifiez la cible (en utilisant l'attribut href), le
+                format et la portée. Pour les liens internet et tout autre lien en dehors du fichier
+                carte courant, vous devez spécifier scope="external".</p>
+            <p>L'élément linktext contient le texte qui deviendra la zone sensible du lien.</p>
+            <p>
+                <note>Évitez d’utiliser des liens connexes pour les liens entre les rubriques de
+                    votre fichier carte. Ils souffrent des mêmes limitations que les références
+                    croisées – vous pouvez vous retrouver avec des liens rompus. Utilisez plutôt des
+                    tables de relations.</note>
+            </p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_pmk_ltg_tt" xml:lang="fr-FR">
+    <title>À propos des entrées de glossaire et des groupes de glossaire</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-10-16"/>
+            <revised modified="2020-06-30"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcIntro>
+            <p>Utilisez une entrée de glossaire pour définir un terme ou un concept spécifique
+                contenu dans votre contenu.</p>
+            <p>Chaque entrée de glossaire contient un seul terme et sa définition. Cela signifie que
+                chaque entrée de glossaire constitue un fichier séparé.</p>
+            <p>Dans certains cas, le fait de conserver un fichier pour chaque entrée de glossaire
+                peut être un inconvénient. Ainsi, lorsqu'il serait avantageux de conserver plusieurs
+                entrées de glossaire dans un seul fichier, DITA fournit le groupe de glossaire. Le
+                groupe de glossaire contient une ou plusieurs entrées de glossaire, chacune étant
+                structurée comme l'entrée de glossaire autonome. </p>
+            <p dir="ltr" id="docs-internal-guid-ebae93a0-b028-c690-b4e3-fcb3cf097d1a">Au départ,
+                l'idée d'avoir chaque terme du glossaire dans une rubrique DITA séparée (en d'autres
+                termes, un fichier séparé) semble très problématique. Mais il existe un certain
+                nombre de bonnes raisons pour maintenir les entrées de glossaire en tant que
+                rubriques séparées&#xA0;:</p>
+            <ul id="ul_edj_y5g_vt">
+                <li dir="ltr">
+                    <p dir="ltr"><b>Réutilisation</b>. Une fois que vous avez créé vos entrées de
+                        glossaire, vous – ou toute autre personne de votre équipe – pouvez utiliser
+                        ces mêmes entrées de glossaire dans plusieurs produits. Si les entrées de
+                        glossaire sont incluses dans un groupe de glossaire, elles sont beaucoup
+                        plus difficiles à réutiliser. </p>
+                </li>
+                <li dir="ltr">
+                    <p dir="ltr"><b>Propriété</b>. Généralement, les entrées d'un groupe de
+                        glossaire sont spécifiques à un produit ou à une équipe. Il peut être
+                        difficile d'intégrer de nouvelles entrées de glossaire pour votre produit
+                        dans un groupe de glossaire existant. </p>
+                </li>
+                <li dir="ltr">
+                    <p dir="ltr"><b>Localisation</b>. Si votre glossaire doit être traduit, il devra
+                        probablement être trié en fonction des termes du glossaire traduits. Le fait
+                        de conserver les entrées dans un groupe de glossaire peut entraver le
+                        processus de tri. </p>
+                </li>
+                <li dir="ltr">
+                    <p dir="ltr"><b>Références</b>. Il existe plusieurs éléments DITA que vous
+                        pouvez utiliser pour créer une référence à partir d'un texte vers une entrée
+                        de glossaire. Ces références sont faciles à créer lorsque chaque entrée de
+                        glossaire se trouve dans un fichier séparé. Cela demande beaucoup plus de
+                        travail lorsque les entrées de glossaire sont rassemblées dans un fichier
+                        groupe de glossaire. </p>
+                </li>
+            </ul>
+            <p>Malgré ces arguments, on peut raisonnablement justifier l'utilisation de groupes de
+                glossaires. Par conséquent, cette leçon décrit à la fois la manière de créer des
+                entrées de glossaire et la manière de créer des groupes de glossaire. </p>
+        </lcIntro>
+    </learningContentbody>
+</learningContent>

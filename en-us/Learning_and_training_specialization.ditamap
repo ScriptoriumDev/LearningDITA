@@ -16,8 +16,8 @@
  <mapref href="Learning_and_training_specialization/maps/m_learning_objects_and_groups.ditamap"/>
  <!-- Having second thoughts about the following. Perhaps it should be part of the objects and groups.
       I'm thinking more that an entire lesson could be devoted to objectives and assessments. -->
- <mapref href="Learning_and_training_specialization/maps/m_learning_maps.ditamap"/>
- 
+
+ <!--adding yet another comment to test-->
  <!-- common and specific keys -->
  <mapref href="shared/maps/course_keys.ditamap" processing-role="resource-only"/>
  <mapref href="Learning_and_training_specialization/maps/this_course_keys.ditamap" processing-role="resource-only"/>

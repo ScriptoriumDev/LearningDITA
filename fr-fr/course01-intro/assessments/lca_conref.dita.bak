@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_f33_1kp_wr">
+ <title/>
+ <prolog>
+  <author>Sharon Burton</author>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe,
+   Scriptorium</author>
+  <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external" format="html"
+   >Marine Martin-Guillerez (Traductrice)</author>
+  <critdates>
+   <created date="2015-04-30"/>
+   <revised modified="2020-10-02"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcSingleSelect id="links2">
+    <lcQuestion>Les conrefs sont un moyen de&#xA0;:</lcQuestion>
+    <lcAnswerOptionGroup>
+     <lcAnswerOption>
+      <lcAnswerContent>Préciser les rubriques connexes</lcAnswerContent>
+      <lcFeedback>Créez des rubriques connexes avec des éléments &lt;reltables> (pour les liens à
+       l'intérieur de votre contenu) ou des éléments &lt;related-links> (pour les références
+       externes)</lcFeedback>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Faire un lien vers un autre contenu</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Créer une référence croisée</lcAnswerContent>
+      <lcFeedback>Pour les références croisées au sein d'une rubrique, utilisez l'élément
+       &lt;xref>.</lcFeedback>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+   </lcSingleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

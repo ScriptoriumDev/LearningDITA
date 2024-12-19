@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Carte des rubriques test (base d'exemples)</title>
+ <topicref/>
+ <topicref href="c_apropos_canards.dita"/>
+ <topicref href="r_racedecanards.dita"/>
+ <topicref href="r_bonnesracesanimaux.dita"/>
+ <topicref href="t_nourrir.dita"/>
+ <topicref href="t_nourrir_sauvage.dita"/>
+ <topicref href="c_canards_sauvages.dita"/>
+ <topicref href="r_races_sauvages.dita"/>
+ <reltable>
+  <relheader>
+   <relcolspec type="concept"/>
+   <relcolspec type="reference"/>
+   <relcolspec type="task"/>
+  </relheader>
+  <relrow>
+   <relcell>
+    <topicref href="c_apropos_canards.dita"/>
+   </relcell>
+   <relcell>
+    <topicref href="r_racedecanards.dita"/>
+    <topicref href="r_bonnesracesanimaux.dita"/>
+   </relcell>
+   <relcell>
+    <topicref href="t_nourrir.dita"/>
+   </relcell>
+  </relrow>
+  <relrow>
+   <relcell>
+    <topicref href="c_canards_sauvages.dita"/>
+   </relcell>
+   <relcell>
+    <topicref href="r_races_sauvages.dita"/>
+   </relcell>
+   <relcell>
+    <topicref href="t_nourrir_sauvage.dita"/>
+   </relcell>
+  </relrow>
+  <relrow>
+   <relcell/>
+   <relcell/>
+   <relcell/>
+  </relrow>
+ </reltable>
+</map>

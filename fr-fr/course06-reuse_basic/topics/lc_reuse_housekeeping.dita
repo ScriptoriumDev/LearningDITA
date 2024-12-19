@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_pgf_3gt_qt">
+    <title>Fichiers d'exemples et utilisation</title>
+    <prolog>
+        <author type="creator" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author>Decarnelle Rémi (traducteur)</author>
+        <critdates>
+            <created golive="2016-07-11" date="2016-05-11"/>
+            <revised modified="2020-10-27"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Téléchargez maintenant l'archive exemples_reutilisation.zip. Ce dossier contient les
+                fichiers utilisés lors des exercices de cette leçon. Extrayez le contenu de cette
+                archive dans un dossier facile d'accès.</p>
+            <p>Dans le dossier d'exemple, vous retrouverez plusieurs sous-dossiers&#xA0;:</p>
+            <ul id="ul_k3n_dbd_3v">
+                <li>conrefs</li>
+                <li>reutiliser_des_rubriques_et_des_cartes</li>
+                <li>ecrire_pour_reutiliser</li>
+            </ul>
+            <p>Chaque leçon vous guidera vers le bon fichier à ouvrir pour les exercices.
+                Sauvegardez les modifications que vous apportez à chaque fichier afin de ne perdre
+                votre travail.</p>
+            <p>Dupliquez vos fichiers au fur et à mesure que vous complétez les leçons. De cette
+                façon, vous pouvez revenir en arrière si vos fichiers de travail ne correspondent
+                pas aux exemples du cours ou sont corrompus.</p>
+            <p>Nous vous présenterons pendant les leçons et les exemples du code DITA à utiliser. La
+                plupart des éditeurs DITA possèdent une fonction de saisie semi-automatique ou autre
+                afin de vous guider lors de l'ajout d'élements. Par exemple, si vous tapez la balise
+                ouvrante d'un élément, la plupart des éditeurs ajouteront automatiquement la balise
+                fermante. Vous n'aurez donc certainement pas besoin de taper le code dans son
+                intégralité.</p>
+            <!--<p>The sample files for AuthoringDITA task topics are in the zip file task_samples.zip. Download this file to a location on your hard drive that you’ll remember, then extract the contents to a folder. </p><p>The exercises in this course follow in sequence, each exercise builds on the work completed in the previous exercise. You can use the first sample file as a starting point for the exercises in this course.</p><p>Use the subsequent sample files to check your work. If you reach a point where your exercise file doesn’t match the examples, or is broken for any reason, you can use the sample file from the previous exercise to resume your work. </p>-->
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

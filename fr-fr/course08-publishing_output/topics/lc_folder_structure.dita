@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="content_pgf_3gt_qt">
+    <title>Dossiers sources et de publication</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Noelle Russell, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Ashley Stant, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Bill Swallow, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Jake Campbell, Scriptorium</author>
+        <author type="contributor" href="https://www.linkedin.com/in/marinemartinguillerez/"
+            scope="external" format="html" class="- topic/author ">Marine Guillerez
+            (Traductrice)</author>
+        <critdates>
+            <created golive="2017-03-27" date="2017-02-06"/>
+            <revised modified="2020-12-23"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Une fois que vous avez installé DITA OT et le kit de développement Java requis,
+                l'étape suivante consiste à mettre en place une structure de dossiers pour tester
+                ses capacités de publication. La mise en place de dossiers pour vos fichiers sources
+                DITA et vos fichiers de sortie vous aidera à éviter toute confusion et à faire en
+                sorte que le processus d'utilisation de DITA OT se déroule plus facilement.</p>
+        </lcInstruction>
+        <section id="section_j4b_zht_3z">
+            <title>Dossiers sources</title>
+            <p>Lorsque vous travaillez dans un environnement de publication DITA OT autonome, une
+                structure de dossiers bien organisée vous aide à garder la trace de votre contenu
+                source DITA. Voici quelques bonnes pratiques pour la configuration de vos dossiers
+                sources&#xA0;:</p>
+            <ul id="ul_hys_zht_3z">
+                <li>
+                    <p><b>Ne pas perturber la hiérarchie DITA.</b> La façon dont vous stockez votre
+                        contenu DITA dans des dossiers peut interférer avec la capacité de DITA OT à
+                        analyser le contenu et à générer certains types de sortie à partir de
+                        celui-ci. Par conséquent, il est préférable d'éviter de stocker un fichier
+                        carte dans un dossier qui se trouve sous les fichiers des rubriques
+                        référencées dans la carte.</p>
+                </li>
+                <li>
+                    <p><b>Gérer votre contenu partagé.</b> Si vous avez des rubriques qui sont
+                        référencées dans plusieurs cartes, conservez-les ensemble dans un dossier
+                        (nommé «&#xA0;partagé&#xA0;» ou «&#xA0;réutilisé&#xA0;») où elles sont
+                        faciles à trouver.</p>
+                </li>
+            </ul>
+        </section>
+        <section id="section_rf4_13t_3z">
+            <title>Dossiers de sortie</title>
+            <p>Par défaut, DITA OT génère une sortie dans le dossier DITA OT (les versions
+                précédentes de DITA OT utilisait un dossier de sortie par défaut appelé <b>out</b>).
+                DITA OT remplace la sortie précédemment générée avec une nouvelle sortie à chaque
+                fois que vous générez le même type de publication du même contenu source. Par
+                exemple, si vous avez généré un fichier PDF à partir du fichier
+                    <b>m_canards.ditamap</b> hier et vous générez une sortie PDF du même fichier
+                aujourd'hui, le PDF d'hier est supprimé et le PDF d'aujourd'hui le remplace. (Si
+                vous générer un fichier PDF à partir d'une autre carte, ou générer un fichier HTML à
+                partir de la même carte, le PDF d'hier reste en place).</p>
+            <note>Si vous générez une nouvelle version d'un fichier PDF précédemment généré, DITA OT
+                n'écrasera pas la version précédente si vous l'avez ouverte dans Adobe Reader ou
+                Acrobat Pro.</note>
+            <p>Pour vous assurer que DITA OT ne remplace pas votre sortie, créez un dossier
+                    <b>out</b> avec des sous-dossiers. De cette façon, lorsque vous exécutez DITA
+                OT, vous pouvez lui demander de générer la sortie dans le sous-dossier de votre
+                choix. Il existe de nombreuses façons d'organiser vos sous-dossiers de sortie,
+                notamment&#xA0;:</p>
+            <ul id="ul_xt3_d3t_3z">
+                <li>Par ensemble de contenu source</li>
+                <li>Par type de sortie</li>
+                <li>Par date</li>
+                <li>Par itération de test</li>
+            </ul>
+        </section>
+    </learningContentbody>
+    <task id="task_kmx_yqf_2z">
+        <title>Configurer de votre dossier sources</title>
+        <taskbody>
+            <context id="context_syk_brf_2z">Utilisez ces instructions pour configurer un dossier
+                sources sur votre système pour le tester.</context>
+            <steps id="steps_n2j_drf_2z">
+                <step>
+                    <cmd>Créez un nouveau dossier sur votre machine et nommez-le
+                        <b>sources</b></cmd>
+                </step>
+                <step>
+                    <cmd>Repérez le dossier <b>exemples</b> que vous avez téléchargé au début de ce
+                        cours</cmd>
+                </step>
+                <step>
+                    <cmd>Copiez le dossier <b>canards</b> du dossier <b>exemples</b> vers le dossier
+                            <b>sources</b> que vous venez de créer</cmd>
+                </step>
+            </steps>
+            <result id="result_kc1_srf_2z">Vous êtes maintenant prêt à tester DITA OT.</result>
+        </taskbody>
+    </task>
+</learningContent>

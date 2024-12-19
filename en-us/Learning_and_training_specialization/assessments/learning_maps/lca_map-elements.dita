@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="lca_map-elements">
+    <title>Learning map elements</title>
+    <prolog>
+        <author href="https://www.scriptorium.com" scope="external" format="html">Kaitlyn Heath,
+            Scriptorium</author>
+        <critdates>
+            <created date="2018-09-06"/>
+        </critdates>
+    </prolog>
+    <learningAssessmentbody>
+        <lcInteraction>
+            <lcMultipleSelect id="multi_select_l-map-elements">
+                <lcQuestion>Select all of the following that are true about learning groups and objects:</lcQuestion>
+                <lcAnswerOptionGroup>
+                    <lcAnswerOption>
+                        <lcAnswerContent>You can write learning group elements within a learning object map.</lcAnswerContent>
+                    </lcAnswerOption>
+                    <lcAnswerOption>
+                        <lcAnswerContent>You can write learning group elements within a learning group map.</lcAnswerContent>
+                        <lcCorrectResponse/>
+                    </lcAnswerOption>
+                    <lcAnswerOption>
+                        <lcAnswerContent>You can write learning object elements within a learning object map.</lcAnswerContent>
+                        <lcCorrectResponse/>
+                    </lcAnswerOption>
+                    <lcAnswerOption>
+                        <lcAnswerContent>You can write learning object elements within a learning group map.</lcAnswerContent>
+                        <lcCorrectResponse/>
+                    </lcAnswerOption>
+                    <lcAnswerOption>
+                        <lcAnswerContent>You can reference learning group elements within a learning
+                            object map.</lcAnswerContent>
+                    </lcAnswerOption>
+                </lcAnswerOptionGroup>
+            </lcMultipleSelect>
+        </lcInteraction>
+        
+    </learningAssessmentbody>
+</learningAssessment>

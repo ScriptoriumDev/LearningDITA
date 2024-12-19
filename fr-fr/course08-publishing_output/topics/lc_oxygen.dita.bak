@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd" []>
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="content_pgf_3gt_qt">
+    <title>Publier avec l’éditeur oXygen XML</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Noelle Russell, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Ashley Stant, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Bill Swallow, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Jake Campbell, Scriptorium</author>
+        <author type="contributor" href="https://www.linkedin.com/in/marinemartinguillerez/"
+            scope="external" format="html" class="- topic/author ">Marine Martin-Guillerez
+            (Traductrice)</author>
+        <critdates>
+            <created golive="2017-03-27" date="2017-02-06"/>
+            <revised modified="2020-12-10"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Une autre façon de publier du contenu est d’exécuter DITA OT en utilisant l’éditeur
+                oXygen XML. oXygen remplit les mêmes fonctions que la ligne de commande pour les
+                compilations DITA OT. Cependant, avec l’interface graphique d’oXygen, publier est
+                aussi facile que de cliquer sur un bouton. Tout ce que vous devez faire est de
+                sélectionner le format de publication requis à partir d’une liste de scénarios et
+                d’appliquer la transformation à votre contenu source. Les scénarios de publication
+                incluent les publications DITA OT par défaut, ainsi que certains scénarios
+                personnalisés, y compris WebHelp.</p>
+            <p>Publier avec oXygen est logique pour ceux qui sont dans les situations suivantes
+                &#xA0;:</p>
+            <ul id="ul_th3_q24_2z">
+                <li>
+                    <p><b>Utilisateurs peu fréquents de DITA.</b> Si vous ne publiez pas fréquemment
+                        votre contenu DITA, l’utilisation de l’interface simple d’oXygen pour
+                        publier votre contenu peut être le bon choix pour vous. Générer votre
+                        publication avec oXygen est moins déroutant et nécessite moins d’efforts que
+                        d’utiliser DITA OT dans un environnement autonome.</p>
+                </li>
+                <li>
+                    <p><b>Petit volume de contenu.</b> Si vous n’avez pas assez de contenu DITA pour
+                        une installation CCMS majeure, oXygen pourrait être la bonne solution. En
+                        plus de ses capacités de publication DITA, oXygen offre également
+                        l’intégration SVN pour le contrôle des versions. Les auteurs peuvent créer,
+                        éditer, gérer et publier leur contenu à partir d'un outil unique et
+                        performant.</p>
+                </li>
+                <li>
+                    <p><b>Petites équipes de contenu.</b> Pour les équipes trop petites pour
+                        justifier l’effort de mise en œuvre d’un CCMS, oXygen peut être une option
+                        plus rentable. oXygen a des droits de licence, mais ils coûtent généralement
+                        moins cher qu’une installation CCMS. </p>
+                    <note>La licence oXygen n'est pas toujours un investissement pratique pour les
+                        étudiants ou les écrivains travaillant sur de très petits projets. Les
+                        entreprises et les particuliers doivent évaluer si le coût d'oXygen est
+                        raisonnable pour eux.</note>
+                </li>
+            </ul>
+            <draft-comment author="gretylkinsey">
+                <p>L'éditeur oXygen XML utilise une interface graphique conviviale qui permet de
+                    publier aussi simplement que de cliquer sur un bouton. Il suffit aux
+                    utilisateurs de sélectionner leur résultat préféré dans une liste de scénarios,
+                    y compris les PDF, XHTML et WebHelps, et d'appliquer cette transformation. Cela
+                    masque le processus, mais n'est peut-être pas optimal pour les utilisateurs qui
+                    aiment voir leurs compilations fonctionner, comme c'est le cas lorsqu'on utilise
+                    l'OT. Si vous êtes nouveau sur DITA, l'utilisation de l'interface simple
+                    d'oXygen pour publier les résultats peut être le bon choix pour vous. Cependant,
+                    Oxygen n'est pas gratuit. Les consommateurs doivent acheter une licence annuelle
+                    pour utiliser le logiciel, ce qui peut ne pas être un investissement pratique
+                    pour les petits projets.</p>
+            </draft-comment>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

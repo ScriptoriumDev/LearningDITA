@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_vdy_j3t_lt" xml:lang="fr-FR">
+    <title>Utiliser un nombre raisonable d'étapes</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-09-24"/>
+            <revised modified="2020-05-25"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcIntro>
+            <p>Il n'y a pas de limite technique au nombre d'étapes que vous pouvez avoir dans une
+                tâche DITA&#xA0;; cependant, elle ne devrait pas être trop longue.</p>
+            <p>Même si la longueur d'une tâche peut être subjective, de longues tâches avec un grand
+                nombre d'étapes peuvent sembler insurmontables aux lecteurs (en particulier aux
+                lecteurs débutants).</p>
+            <p>Il est difficile de définir une règle absolue quant au nombre maximum d'étapes que
+                vous devriez avoir dans une tâche. Certains rédacteurs utilisent un maximum de dix
+                étapes, mais autorisent certaines exceptions. Presque tout le monde convient qu'une
+                procédure avec plus de vingt étapes est très problématique.</p>
+            <p>Un effet supplémentaire des longues tâches est que le lecteur peut avoir des
+                difficultés à garder le fil du déroulement de la tâche. Cela est d'autant plus vrai
+                quand il y a une longue liste d'étapes très similaires.</p>
+            <p>Aborder des tâches plus courtes&#xA0;: vous pouvez rencontrer certaines tâches qui ne
+                nécessitent qu'une ou deux étapes. Elles peuvent être inévitables si l'objectif est
+                de <i>compléter</i> la couverture d'un ensemble de tâches. Même si la plupart de vos
+                tâches seront probablement plus longues, il n'y a absolument rien de mal à avoir une
+                tâche en une ou deux étapes si nécessaire.</p>
+        </lcIntro>
+    </learningContentbody>
+</learningContent>

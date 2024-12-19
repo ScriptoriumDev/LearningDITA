@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_ajf_qch_1t" xml:lang="fr-FR">
+    <title>Fichiers d'exemples et utilisation</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-08-14"/>
+            <revised modified="2020-04-21"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <draft-comment author="simonbate">Vérifiez que cela fonctionne dans les transformations. </draft-comment>
+            <p>Téléchargez <xref
+                    href="http://www.learningdita.fr/wp-content/uploads/2020/10/taches_exemples.zip"
+                    format="zip" scope="external">taches_exemples.zip</xref> maintenant. Il contient
+                les fichiers d'exemple pour le cours entier de Rédiger des tâches DITA. Extrayez le
+                contenu et placez-le dans un répertoire auquel vous avez facilement accès.</p>
+            <p>À l'intérieur du dossier d'exemples, vous trouverez le fichier l_tache_debut.dita,
+                que vous utiliserez pour compléter les exercices du cours. Vous trouverez également
+                les dossiers suivants, correspondant aux leçons de ce cours&#xA0;: leçon1, leçon2 et
+                leçon3.</p>
+            <p>Dans chaque dossier, vous trouverez trois fichiers DITA&#xA0;:</p>
+            <ul id="ul_lx2_fj2_2t">
+                <li>
+                    <p>l_<i>nomfichier</i>.dita&#xA0;: La version complète du fichier exemple que
+                        vous pouvez utiliser pour vérifier votre travail durant chaque leçon</p>
+                </li>
+                <li>
+                    <p>l_<i>nomfichier</i>_exercice_debut.dita&#xA0;: Le fichier vide auquel vous
+                        ajouterez du contenu au fur et à mesure que vous complétez l'exercice à la
+                        fin de chaque leçon</p>
+                </li>
+                <li>
+                    <p>l_<i>nomfichier</i>_exercice.dita&#xA0;: La version complète du fichier
+                        d'exercice que vous pouvez utiliser pour vérifier votre travail</p>
+                </li>
+            </ul>
+            <p>Chaque leçon vous indiquera quels fichiers utiliser pour les exercices. Sauvegardez
+                votre fichier au fur et à mesure que vous complétez chaque étape pour éviter de
+                perdre votre travail. </p>
+            <p>Créez une copie locale de chaque fichier au fur et à mesure que vous complétez les
+                leçons. De cette façon, si vous arrivez à un point où votre fichier de travail ne
+                correspond pas aux exemples, ou est endommagé pour une raison quelconque, vous
+                pouvez faire une nouvelle copie et reprendre votre travail ou recommencer.</p>
+            <p>Dans les instructions et les exemples, nous vous montrons le code DITA pour chaque
+                fichier d'exemple. La plupart des éditeurs DITA ont des fonctions d'auto-complétion
+                ou d'autres fonctions similaires pour vous guider à travers le processus d'ajout
+                d'éléments (par exemple, si vous saisissez la balise d'ouverture d'un élément la
+                plupart des éditeurs DITA ajouteront automatiquement la balise de fermeture pour
+                vous). Par conséquent, vous n'aurez probablement pas besoin de créer tous les
+                morceaux de code à partir de zéro lorsque vous travaillez. Nos vidéos de
+                démonstration ont été réalisées avec <xref href="http://www.oxygenxml.com/"
+                    format="html" scope="external">oXygen XML Editor</xref> et montrent les
+                différences entre le travail en vue auteur, qui présente le contenu DITA dans une
+                interface visuelle conviviale, et le travail en vue texte, qui affiche le code
+                DITA.</p>
+            <!--<p>The sample files for AuthoringDITA task topics are in the zip file task_samples.zip. Download this file to a location on your hard drive that you’ll remember, then extract the contents to a folder. </p><p>The exercises in this course follow in sequence, each exercise builds on the work completed in the previous exercise. You can use the first sample file as a starting point for the exercises in this course.</p><p>Use the subsequent sample files to check your work. If you reach a point where your exercise file doesn’t match the examples, or is broken for any reason, you can use the sample file from the previous exercise to resume your work. </p>-->
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

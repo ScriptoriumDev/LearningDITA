@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_exh_p5j_bt" xml:lang="fr-FR">
+    <title>Montrer des exemples et résultats</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-08-18"/>
+            <revised modified="2020-05-05"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Une étape peut comprendre un exemple de comment elle est réalisée et du texte
+                concernant le résultat obtenu lorsque les étapes ont été complétées avec succès.</p>
+            <ul id="ul_xjf_prx_kt">
+                <li>
+                    <p>Utilisez &lt;stepxmp> (step example) pour montrer un exemple de réalisation
+                        de l'étape. Une étape peut contenir un nombre illimité d'éléments
+                        &lt;stepxmp>.</p>
+                </li>
+                <li>
+                    <p>Utilisez &lt;stepresult> pour décrire le résultat de l'étape.</p>
+                </li>
+            </ul>
+            <note>L'élément &lt;stepxmp> montre un exemple pour l'étape en cours&#xA0;; pour montrer
+                un exemple pour l'ensemble de la tâche, utilisez l'élément &lt;example> qui sera
+                présenté dans la prochaine leçon.</note>
+            <p><xref href="https://youtu.be/-9JWoT1HdWk" format="html" scope="external">Vidéo&#xA0;:
+                    Ajouter un exemple d'étape à une tâche DITA</xref></p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_mjr_q5j_bt">
+        <title/>
+        <taskbody>
+            <steps id="steps_y31_r5j_bt">
+                <step>
+                    <cmd>Continuez de travailler sur le fichier l_tache_debut.dita.</cmd>
+                </step>
+                <step>
+                    <cmd>Après la balise de fermeture du dernier élément &lt;step>, créez un nouvel
+                        élément &lt;step>, contenant un élément &lt;cmd> et le texte présenté
+                        ici&#xA0;:</cmd>
+                    <stepxmp>
+                        <pre>...&lt;step>&lt;cmd>Lorsque vous avez identifié un canard, écrivez une note dans votre guide.&lt;/cmd>
+&lt;/step>...</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Après l'élément &lt;cmd>, ajoutez un élément &lt;stepxmp>.</cmd>
+                    <stepxmp>
+                        <pre>...&lt;step>&lt;cmd>Lorsque vous avez identifié un canard, écrivez une note dans votre guide.&lt;/cmd>
+<ph outputclass="newchanged">   &lt;stepxmp>
+   &lt;/stepxmp> </ph>
+&lt;/step>...</pre>
+                    </stepxmp>
+                    <info>L'élément &lt;stepxmp> contient un exemple qui illustre ou clarifie
+                        l'étape.</info>
+                    <info>L'élément &lt;stepxmp> peut contenir les éléments que vous pouvez utilisez
+                        dans un élément &lt;li>. Pour présenter des exemples où les sauts de lignes
+                        et les espaces sont importants, vous pouvez utiliser l'élément &lt;pre> ou
+                        l'élément &lt;codeblock>.</info>
+                </step>
+                <step>
+                    <cmd>À l'intérieur de l'élément &lt;stepxmp>, ajoutez un élément &lt;p>, puis
+                        insérez un élément &lt;image> à l'intérieur de l'élément &lt;p>.</cmd>
+                    <stepxmp>
+                        <pre>...&lt;step>&lt;cmd>Lorsque vous avez identifié un canard, écrivez une note dans votre guide.&lt;/cmd>
+   &lt;stepxmp>
+<ph outputclass="newchanged">      &lt;p>&lt;image href="checklist.png"/>&lt;/p>
+</ph>
+   &lt;/stepxmp>
+&lt;/step>...</pre>
+                    </stepxmp>
+                    <info>
+                        <note>Le fichier checklist.png est dans les fichiers exemple, dans le
+                            dossier leçon2.</note>
+                    </info>
+                </step>
+                <stepsection>
+                    <p>L'élément &lt;stepresult> décrit le résultat de l'exécution réussie de
+                        l'étape.</p>
+                    <p>L'élément &lt;stepresult> doit être le dernier élément dans un élément
+                        &lt;step>&#xA0;; aucun autre élément ne peut venir après lui.</p>
+                </stepsection>
+                <step>
+                    <cmd>Après la balise de fermeture de l'élément &lt;stepxmp>, ajoutez un élément
+                        &lt;stepresult>.</cmd>
+                    <stepxmp>
+                        <pre>...
+   &lt;/stepxmp>
+<ph outputclass="newchanged">   &lt;stepresult>
+   &lt;/stepresult></ph>
+&lt;/step>
+...</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>À l'intérieur de l'élément &lt;stepresult>, ajoutez un élément &lt;p> et
+                        ajoutez-y du contenu tel que présenté ici&#xA0;:</cmd>
+                    <stepxmp>
+                        <pre>...
+   &lt;/stepxmp>
+<ph outputclass="newchanged">   &lt;stepresult>
+&lt;p>Vous aurez désormais une trace que vous pourrez conserver pour le reste de votre vie.&lt;/p>
+   &lt;/stepresult></ph>
+&lt;/step>
+...</pre>
+                    </stepxmp>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

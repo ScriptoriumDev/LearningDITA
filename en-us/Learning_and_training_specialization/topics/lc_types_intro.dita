@@ -3,10 +3,12 @@
 <learningContent id="content_mkk_gvn_qz">
     <title>The Learning and Training topic types</title>
     <prolog class="- topic/prolog ">
-        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+        <author type="creator" href="https://www.scriptorium.com" format="html" scope="external"
             class="- topic/author ">Simon Bate, Scriptorium</author>
-        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
-            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Alan Pringle, Scriptorium</author>
+        <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Kaitlyn Heath, Scriptorium</author>
         <critdates>
             <created date="2017-04-21"/>
         </critdates>
@@ -14,31 +16,33 @@
     <learningContentbody>
         <lcObjectives>
             <lcObjectivesGroup id="lcObjectivesGroup_tvl_vbh_1t">
-                <lcObjective>Describe the purpose of the learningPlan topic type.</lcObjective>
-                <lcObjective>Describe the purpose of the learningObjective topic type.</lcObjective>
-                <lcObjective>Describe the purpose of the learningContent topic type.</lcObjective>
-                <lcObjective>Describe the purpose of the llearningSummary topic type.</lcObjective>
-                <lcObjective>Describe the purpose of the  learningAssessment topic type.</lcObjective>
+                <lcObjective>Define all of the L&amp;T topic types.</lcObjective>
+                <lcObjective>Understand when to use each topic type.</lcObjective>
+                <lcObjective>List basic elements of each topic type.</lcObjective>
             </lcObjectivesGroup>
         </lcObjectives>
         <lcDuration>
-            <lcTime value="45"/>
+            <lcTime value="30 minutes"/>
         </lcDuration>
         <lcIntro/>
         <lcInstruction id="lcInstruction_dys_pnf_xz">
             <!--Expand these definitions across the various topic types. -->
-            <p>The DITA Learning and Training specialization defines five topic types contain course planning, organization, and content information.  They are:<ul id="ul_okl_5nf_xz">
-                    <li>learningPlan—Provides a framework for planning learning content</li>
-                    <li>learningOverview—</li>
-                    <li>learningContent—contains the actual learning content. </li>
-                    <li>learningSummary—contains review materials. </li>
-                    <li>learningAssessment—contains exercises, quizzes, or tests</li>
-                </ul></p>
-            <p>These topic types describe a wide range of information, from planning to content to assessment. Not everyone will use all of these topic types. Partly it depends on how rigorous your
-                course development is. </p>
-            <p>The following sections describe these topic types in greater detail. </p>
+            <p>The DITA L&amp;T specialization defines five topic types that contain
+                different types of course information:</p>
+                <ul id="ul_okl_5nf_xz">
+                    <li>&lt;learningPlan>: provides a framework for planning learning content.</li>
+                    <li>&lt;learningOverview>: contains overall learning objectives and specifics for a
+                        course, such as audience, duration, and prerequisites.</li>
+                    <li>&lt;learningContent>: contains the actual learning content. </li>
+                    <li>&lt;learningSummary>: contains review materials. </li>
+                    <li>&lt;learningAssessment>: contains exercises, quizzes, or tests.</li>
+                </ul>
+            <p>These topic types describe a wide range of information. Not everyone will use all of
+                these topic types. For example, the source content for LearningDITA lessons does not
+                use the &lt;learningPlan>, &lt;learningOverview>, or &lt;learningSummary> elements.
+                However, your course development process may require those elements. </p>
+            <p>This lesson provides an overview of each topic type. </p>
         </lcInstruction>
     </learningContentbody>
-    <related-links/>
 </learningContent>
     

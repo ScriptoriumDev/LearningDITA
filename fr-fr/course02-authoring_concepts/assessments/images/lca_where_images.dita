@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_vqp_rxp_dt" xml:lang="fr-FR">
+ <title>Où vont les images&#xA0;?</title>
+ <prolog>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+   Scriptorium</author>
+  <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+   format="html">Marine Guillerez (Traductrice)</author>
+  <critdates>
+   <created date="2015-08-24"/>
+   <revised modified="2020-01-26"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcSingleSelect id="lcMultipleSelect_nzm_txp_dt">
+    <lcQuestion>Où les éléments &lt;image> <b>n'ont-ils pas</b> leur place&#xA0;? (choisir une réponse)</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_ozm_txp_dt">
+     <lcAnswerOption>
+      <lcAnswerContent>À l'intérieur d'un élément &lt;conbody></lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>À l'intérieur d'un élément &lt;concept></lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>À l'intérieur d'un élément &lt;fig></lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>À l'intérieur d'un élément &lt;p></lcAnswerContent>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+   </lcSingleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

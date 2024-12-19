@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningAssessment id="lca_conref_push_requirements">
+ <title>Générer une sortie</title>
+ <prolog class="- topic/prolog ">
+  <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+   class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+  <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+   class="- topic/author ">Noelle Russell, Scriptorium</author>
+  <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+   class="- topic/author ">Ashley Stant, Scriptorium</author>
+  <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+   class="- topic/author ">Simon Bate, Scriptorium</author>
+  <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+   class="- topic/author ">Bill Swallow, Scriptorium</author>
+  <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+   class="- topic/author ">Jake Campbell, Scriptorium</author>
+  <author type="contributor" href="https://www.linkedin.com/in/marinemartinguillerez/"
+   scope="external" format="html" class="- topic/author ">Marine Guillerez
+   (Traductrice)</author>
+  <critdates>
+   <created golive="2017-03-27" date="2017-02-06"/>
+   <revised modified="2021-01-18"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction id="lcInteraction_dsq_1gg_jz">
+   <lcSingleSelect id="bindita">
+    <lcQuestion>Quel est l'objectif de la commande <tt>bin\dita</tt> (Windows) ou
+      <tt>./bin/dita</tt> (Mac)&#xA0;? (choisir une réponse)</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_esq_1gg_jz">
+     <lcAnswerOption>
+      <lcAnswerContent>Spécifier le type de sortie DITA qui doit être généré</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Générer une sortie DITA</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Spécifier l'endroit où la sortie DITA doit être générée</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Spécifier le fichier DITA qui doit être publié en sortie</lcAnswerContent>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>La commande <tt>bin\dita</tt> (Windows) ou <tt>./bin/dita</tt> (Mac) génère
+     une sortie DITA.</lcFeedbackIncorrect>
+   </lcSingleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

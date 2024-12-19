@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_d3b_cgl_dg">
+  <title>Normes techniques</title>
+  <conbody>
+    <p><indexterm>exigences<indexterm>technique</indexterm></indexterm><indexterm>exigences
+        techniques</indexterm>Les exigences techniques affectent principalement la diffusion de
+      l'information. Il existe, par exemple, des agences gouvernementales américaines qui exigent
+      que les informations soient fournies dans un format spécifique, comme
+          <indexterm>XML<indexterm>spécifications</indexterm></indexterm><indexterm>étiquetage
+        structuré des
+          produits<index-see>SPL</index-see></indexterm><indexterm>SPL</indexterm><indexterm>XML<indexterm>SPL</indexterm></indexterm>SPL
+      (norme XML pour les informations sur les médicaments) ou <indexterm>spécification
+        militaire</indexterm><indexterm>spec 40051</indexterm>MIL-STD-40051 (norme du ministère
+      américain de la défense pour la préparation de manuels techniques).</p>
+    <p>La non-conformité n'est probablement pas une option, vous n'avez donc que quelques choix&#xA0;:<ul
+        id="ul_rzy_1hl_dg">
+        <li>Mettre en place un environnement de création et de publication qui crée les produits
+          d'information comme spécifié.</li>
+        <li>Créer des produits d'information dans un format non conforme et les convertir ensuite
+          dans le format requis.</li>
+        <li>Engagez un fournisseur tiers pour créer des documents conformes à partir de ce que vous
+          créez.</li>
+      </ul></p>
+    <p>
+      <fig>
+        <title>Options pour la conformité technique</title>
+        <image href="images/techreqs.svg" id="image_xql_qll_dg" width="400px"/>
+      </fig>
+    </p>
+    <p><indexterm>réglementations gouvernementales</indexterm>De nombreuses réglementations
+      gouvernementales spécifient désormais le XML comme format requis. Dans le passé, les
+      règlementations étaient plus susceptibles d'exiger un mécanisme de livraison spécifique, tel
+      que le papier ou le PDF. Il incombait à l'organisme qui créait les informations de déterminer
+      comment créer le format final. Mais aujourd'hui, l'exigence du XML va beaucoup plus loin. Au
+      lieu de se concentrer sur l'apparence du document (double interligne, utilisation d'une police
+      spécifique et impression sur du papier US Letter), exiger le XML signifie que vous devez
+      encoder correctement la signification de l'information. Par exemple, un numéro de pièce peut
+      devoir être présenté en gras (<b>22-44-66</b>). Dans la spécification XML, il existe au moins
+      deux façons de baliser un numéro de pièce qui se traduisent par une sortie en caractères gras
+     &#xA0;:<codeblock>&lt;b>22-44-66&lt;/b>
+&lt;partno>22-44-66&lt;/partno></codeblock></p>
+    <p>Seule l'approche sémantiquement correcte (&lt;partno>) serait acceptable.</p>
+    <p>Un autre exemple est <indexterm>Extensible Business Reporting
+          Language<index-see>XBRL</index-see></indexterm>Extensible Business Reporting Language
+        <indexterm>XBRL</indexterm><indexterm>XML<indexterm>XBRL</indexterm></indexterm>(XBRL). La
+      Commission américaine des opérations de bourse (SEC) exige des rapports dans cette norme XML,
+      qui est utilisée pour les informations financières et autres informations commerciales. Voici
+      quelques lignes, choisies au hasard dans un fichier Google (et quelque peu simplifiées)
+     &#xA0;:<codeblock>...
+&lt;FurnitureAndFixturesGross>65000000
+&lt;/FurnitureAndFixturesGross>
+&lt;Goodwill>4903000000&lt;/Goodwill>
+&lt;IncomeTaxesReceivable>23000000&lt;/IncomeTaxesReceivable>
+&lt;IntangibleAssetsNetExcludingGoodwill>775000000
+&lt;/IntangibleAssetsNetExcludingGoodwill>
+...</codeblock></p>
+    <p>La création dans un traitement de texte standard avec des styles appelés Normal, Heading1,
+      etc. n'aboutira pas à des informations avec ce niveau de codage spécifique.</p>
+    <section>
+      <title>Mise en place d'un système de publication conforme</title>
+      <p><indexterm>construire<indexterm>système de publication
+            conforme</indexterm></indexterm><indexterm>processus<indexterm>construction
+            conforme</indexterm></indexterm><indexterm>conformité<indexterm>système de
+            publication</indexterm></indexterm>La mise en place d'un système de publication qui
+        prend en charge des exigences techniques complexes n'est pas une mince affaire. Cette
+        approche est toutefois logique dans les scénarios suivants&#xA0;:<ul id="ul_lyk_gjl_dg">
+          <li>Un pourcentage important de votre entreprise dépend du contenu conforme. (Par exemple,
+            vous êtes un entrepreneur de la défense et êtes tenu de respecter les normes
+            militaires).</li>
+          <li>Vous ne pouvez vous permettre aucun retard dans la livraison du contenu. (Par exemple,
+            vous êtes une société pharmaceutique et vous ne voulez pas que le lancement d'un
+            médicament soit retardé parce que vous êtes encore en train de convertir sa
+            documentation au format requis).</li>
+          <li>Il est moins coûteux de mettre en place un système en interne que d'engager un
+            fournisseur pour faire le travail.</li>
+          <li>La conversion prend du temps et est sujette à des erreurs car les fichiers sources ne
+            contiennent pas toutes les informations nécessaires pour générer les fichiers
+            conformes.</li>
+        </ul></p>
+      <p>Pour les auteurs, travailler dans un système spécialisé nécessitera une formation et un
+        support pour les aider à comprendre le nouveau processus de travail. Les auteurs à temps
+        plein sont généralement censés maîtriser des outils professionnels, mais si votre contenu
+        est créé par des auteurs à temps partiel qui ont d'autres responsabilités, l'utilisation
+        d'outils spécialisés peut être un défi.</p>
+    </section>
+    <section>
+      <title>Conversion au format requis</title>
+      <p><indexterm>contenu
+            traditionnel<indexterm>conversion</indexterm></indexterm><indexterm>conversion<indexterm>pour
+            éviter de modifier la création de contenu</indexterm></indexterm>Au lieu de modifier
+        votre processus de création de contenu établi, vous pouvez ajouter la conversion comme le
+        dernier wagon du processus de publication établi. Le principal avantage de cette approche
+        est que les créateurs de contenu n'ont pas à changer leur façon de travailler.</p>
+      <p>Dans certaines organisations, les créateurs de contenu sont des experts (SMEs) qui assument
+        de nombreuses autres responsabilités. Par exemple, on peut s’attendre à ce qu’un chercheur
+        ou un ingénieur en logiciel contribue à certains contenus. Pour les collaborateurs hautement
+        rémunérés possédant une expertise unique, il peut être judicieux d’accepter du contenu dans
+        un format non conforme et de laisser les tâches de publication au personnel du support. </p>
+      <p><indexterm>Microsoft<indexterm>Word</indexterm></indexterm><indexterm>Word,
+          Microsoft</indexterm>Le plus souvent, le format non conforme est Microsoft Word.
+        C'est-à-dire que le contenu est créé dans des fichiers Word et doit ensuite être converti
+        dans un autre format. Une certaine automatisation est possible, mais vous pouvez vous
+        attendre à ce que la conversion prenne beaucoup de temps (plusieurs jours ou plusieurs
+        semaines) une fois le contenu du document terminé. <indexterm>conversion<indexterm>interne
+            ou externalisé</indexterm></indexterm><indexterm>contenu
+            traditionnel<indexterm>conversion interne ou externalisé</indexterm></indexterm>La
+        conversion interne est logique dans les situations suivantes :<ul id="ul_v1b_3zl_dg">
+          <li>L'exigence de conformité est un événement unique. Par exemple, votre organisation a un
+            contrat gouvernemental unique qui exige la livraison dans un format spécifique.</li>
+          <li>Les créateurs de contenu ne veulent pas ou ne peuvent pas modifier leur façon de
+            travailler.</li>
+          <li>Le temps des créateurs de contenu est si précieux qu'une modification de leur façon de
+            travailler est hors de question.</li>
+          <li>Le personnel interne possède l'expertise nécessaire pour mettre en place un processus
+            de conversion ou pour forcer une conversion.</li>
+        </ul></p>
+      <p>Outre le temps nécessaire à la conversion du contenu, le plus gros problème d'une
+        conversion en amont est que le contenu source peut ne pas inclure les informations
+        nécessaires. Les documents finaux peuvent nécessiter des
+            <indexterm>métadonnées<indexterm>gestion de la
+            conversion</indexterm></indexterm><indexterm>conversion<indexterm>gestion des
+            métadonnées</indexterm></indexterm>métadonnées (telles que l'auteur, la date de dernière
+        modification et le type de document) qui ne sont pas disponibles dans le format source. La
+        seule façon de s'assurer que les informations sont disponibles est de mettre en place un
+        processus qui tienne compte de ces exigences.</p>
+    </section>
+    <section>
+      <title>Transfert de la conformité sur un fournisseur</title>
+      <p><indexterm>réglementaire<indexterm>conformité, transfert sur un
+          fournisseur</indexterm></indexterm><indexterm>conformité<indexterm>géré par un
+            fournisseur</indexterm></indexterm>Certaines organisations vont plus loin en confiant la
+        conversion au format requis à un fournisseur extérieur. C'est raisonnable pour une exigence
+        ponctuelle sur mesure, mais si vous créez beaucoup de contenus réglementés au fil du temps,
+        vous souhaitez probablement conserver le processus en interne. La plupart des fournisseurs
+        utilisent une combinaison de script et de retaillage en force pour obtenir le contenu dans
+        le format requis. La conversion externe est souvent coûteuse et longue.</p>
+      <p>Pour les marchés publics, vous pouvez être limité aux fournisseurs du pays.</p>
+    </section>
+  </conbody>
+</concept>

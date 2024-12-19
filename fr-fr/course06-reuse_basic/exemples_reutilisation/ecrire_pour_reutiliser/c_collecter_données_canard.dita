@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_advanced">
+ <title>Collecter des données sur un canard</title>
+ <conbody>
+  <p>Les propriétaires de canards domestiques doivent enregistrer dans une base de données conserver
+   leur croissance.</p>
+  <p>La base de données comprend une entrée par canard. Chaque entrée contient un tableau prévu pour
+   renseigner la taille, le poids et l'envergure des ailes du canard semaine après semaine.</p>
+  <p>Pour ajouter une entrée pour un canard dans la base de données, saisir <codeph>add
+    entry</codeph> suivi du nom du canard entre parenthèses dans la ligne de commande, puis presser
+   Entrer.</p>
+ </conbody>
+</concept>

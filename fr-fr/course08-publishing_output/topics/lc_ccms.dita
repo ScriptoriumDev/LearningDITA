@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='utf-8'?><!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd" []><!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="content_pgf_3gt_qt">
+    <title>Publier avec un système de gestion du contenu par composants (CCMS)</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Noelle Russell, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Ashley Stant, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Bill Swallow, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Jake Campbell, Scriptorium</author>
+        <author type="contributor" href="https://www.linkedin.com/in/marinemartinguillerez/"
+            scope="external" format="html" class="- topic/author ">Marine Guillerezimages/ccms.ai
+            (Traductrice)</author>
+        <critdates>
+            <created golive="2017-03-27" date="2017-02-06"/>
+            <revised modified="2020-12-11"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction><p>Un système de gestion de contenu par composants, ou CCMS, est un système
+                logiciel qui stocke le contenu et le gère au niveau de la rubrique ou du composant
+                plutôt qu'au niveau du document. Cela fait d'un CCMS un moyen idéal pour gérer le
+                contenu XML. Il existe de nombreux CCMS conçus spécifiquement pour le contenu
+                DITA.</p>
+            <fig>
+                <title>Vue d'ensemble d'un CCMS typique</title>
+                <image href="images/ccms.png" width="500px" base="2017/03" id="image_atz_qlq_fz"/>
+            </fig><p>Différents systèmes offrent différents ensembles de fonctionnalités&#xA0;;
+                cependant, certaines fonctionnalités sont communes à presque tous les systèmes. La
+                plupart des CCMS se connectent aux outils de création (tels que oXygen) et aux
+                outils de publication (tels que les extensions DITA OT et les moteurs de rendu pour
+                la publication PDF). Les systèmes CCMS stockent les rubriques et les cartes DITA et
+                assurent le suivi du processus de travail de développement de contenu, y compris la
+                création, la révision, l'édition et la publication.</p><p>Si vous rencontrez une ou
+                plusieurs des situations suivantes, vous devriez peut-être utiliser un CCMS pour vos
+                publications&#xA0;:</p><ul id="ul_r2t_pm4_cz">
+                <li><b>Grand volume de contenu.</b> Si vous avez des milliers de pages de contenu
+                    dans de nombreux documents différents, un CCMS facilitera le stockage et la
+                    publication de contenu. Certains systèmes vous permettent de choisir différents
+                    types d'installations à différents niveaux de prix en fonction du nombre de
+                    rubriques que vous avez. Le CCMS vous aidera à garder une trace de toutes vos
+                    cartes et rubriques DITA et des mises à jour que vous y avez apportées, ce qui
+                    est particulièrement utile si vous mettez à jour régulièrement. Un CCMS vous
+                    permet de configurer des compilations automatiques de publication (par exemple,
+                    tous les soirs, toutes les semaines ou tous les mois) pour vous assurer que
+                    votre contenu publié est toujours à jour.</li>
+                <li><b>Sorties multiples.</b> Plus vous devez produire de types de publication, plus
+                    un CCMS sera utile pour la publication. Utiliser un DITA OT autonome ou publier
+                    avec oXygen est raisonnable si vous ne devez générer que deux publications PDF
+                    différentes, par exemple. Si vous avez besoin de cinq publications PDF, une
+                    publication HTML et deux publications EPUB, il est plus judicieux d'utiliser les
+                    capacités de publication automatisée d'un CCMS.</li>
+                <li><b>De nombreux créateurs de contenu.</b> Une grande équipe de développement de
+                    contenu peut bénéficier de la gestion robuste du processus de travail fournie
+                    par un CCMS. Le CCMS assure le suivi de chaque étape du cycle de vie du contenu,
+                    ce qui aide les créateurs de contenu à contrôler les versions, les révisions et
+                    les approbations. Plus vous avez de rédacteurs, de contributeurs et d'éditeurs,
+                    plus un CCMS peut améliorer l'efficacité de votre processus de travail du
+                    contenu.</li>
+                <li><b>Réutilisation et localisation.</b> La gestion manuelle de la réutilisation
+                    sans l'aide d’outils est longue et coûteuse. Si vous réutilisez un pourcentage
+                    important de votre contenu, vous avez probablement une bonne raison de
+                    travailler dans un CCMS. Si vous localisez également des contenus dans d’autres
+                    langues et d’autres régions, c’est un argument supplémentaire.</li>
+            </ul>
+            <draft-comment author="gretylkinsey">
+                <note>LearningDITA pourrait couvrir l'utilisation d'un CCMS pour la création de
+                    contenu DITA plus en détail dans les futurs cours.</note>
+            </draft-comment></lcInstruction>
+    </learningContentbody>
+</learningContent>

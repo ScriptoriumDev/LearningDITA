@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="content_pgf_3gt_qt">
+    <title>Générer une sortie PDF</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Noelle Russell, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Ashley Stant, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Bill Swallow, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Jake Campbell, Scriptorium</author>
+        <author type="contributor" href="https://www.linkedin.com/in/marinemartinguillerez/"
+            scope="external" format="html" class="- topic/author ">Marine Guillerez
+            (Traductrice)</author>
+        <critdates>
+            <created golive="2017-03-27" date="2017-02-06"/>
+            <revised modified="2021-01-17"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Dans une leçon précédente, votre premier test de compilation avec DITA OT utilisait
+                l'extension pdf2 pour générer une sortie PDF. Dans cette leçon, vous verrez comment
+                l'extension pdf2 traite différemment les cartes et les bookmaps.</p>
+            <p>Pour le contenu de la carte, l'extension pdf2 génère par défaut une page de
+                couverture et une table des matières.</p>
+            <p>Pour le contenu d'une bookmap, l'extension pdf2 génère une page couverture. Toute
+                structure ultérieure dans la sortie reflète les spécifications définies dans la
+                bookmap. Par exemple, l'extension pdf2 générera une table des matières si la bookmap
+                utilise l’élément <tt>&lt;toc></tt> de l’élément <tt>&lt;booklists></tt> pour
+                spécifier qu’il doit y en avoir une&#xA0;; cependant, si la bookmap ne contient pas
+                l'élément <tt>&lt;toc></tt>, l'extension pdf2 n’en construira pas.</p>
+            <p>Lors de votre premier test de compilation DITA OT, vous avez généré le fichier
+                    <b>m_canards.pdf</b> à partir du contenu référencé d'une carte. Les instructions
+                suivantes vous montrent comment générer une sortie PDF à partir du même contenu
+                référencé dans une bookmap et comparer les deux différents fichiers de sortie.</p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_klm_zbh_2z">
+        <title>Générer une sortie PDF</title>
+        <taskbody>
+            <steps id="steps_php_1ch_2z">
+                <step>
+                    <cmd>Saisissez la commande suivante dans le terminal de commande :</cmd>
+                    <info>
+                        <p><b>Sur Windows&#xA0;:</b></p>
+                        <pre>bin\dita -i [cheminfichier]/sources/canards/b_canards.ditamap -f pdf2 -o sorties/sortie_canards -v</pre>
+                        <p><b>Sur Mac&#xA0;:</b></p>
+                        <pre>./bin/dita -i [cheminfichier]/sources/canards/b_canards.ditamap -f pdf2 -o sorties/sortie_canards -v</pre>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Appuyez sur ENTRER pour lancer DITA OT.</cmd>
+                </step>
+                <step>
+                    <cmd>Naviguez dans votre dossier <b>sortie_canards</b> et localisez le fichier
+                        PDF que vous venez de générer, <b>b_canards.pdf</b>.</cmd>
+                </step>
+                <step>
+                    <cmd>Ouvrez le fichier <b>b_canards.pdf</b> dans un lecteur de PDF et
+                        comparez-le avec le fichier <b>m_canards.pdf</b>, que vous avez généré
+                        précédemment. Notez les différences entre les deux fichiers.</cmd>
+                    <info>
+                        <p>Le fichier <b>m_canards.pdf</b> comprend une table des matières pour
+                            l'ensemble du document&#xA0;:</p>
+                        <image href="images/map.png" width="450" base="2017/03"
+                            id="image_hpq_c2k_3z"/>
+                        <p>En revanche, le fichier <b>b_canards.pdf</b> comprend une mini-table des
+                            matières pour chaque chapitre&#xA0;:</p>
+                        <image href="images/bookmap.png" width="450" base="2017/03"
+                            id="image_ipq_c2k_3z"/>
+                    </info>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

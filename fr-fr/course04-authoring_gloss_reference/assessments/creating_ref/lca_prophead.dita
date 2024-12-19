@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_qv3_5cg_vt" xml:lang="fr-FR">
+ <title>Prophead</title>
+ <prolog>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+   Scriptorium</author>
+  <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+   format="html">Marine Guillerez (Traductrice)</author>
+  <critdates>
+   <created date="2015-10-28"/>
+   <revised modified="2020-06-14"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcTrueFalse id="lcTrueFalse_j22_ddg_vt">
+    <lcQuestion>L'élément &lt;prophead> est requis à l'intérieur de l'élément &lt;properties>.</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_x22_ddg_vt">
+     <lcAnswerOption>
+      <lcAnswerContent>Vrai</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Faux</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+   </lcTrueFalse>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

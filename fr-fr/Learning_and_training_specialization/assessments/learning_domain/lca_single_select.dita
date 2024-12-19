@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="lca_single_select">
+    <title>SingleSelect2</title>
+    <learningAssessmentbody>
+        <lcInteraction>
+            <lcSingleSelect id="lcSingleSelect_eh4_bbb_dt">
+                <lcQuestion>Quel élément correspond le mieux pour la création d'une question à choix
+                    multiple avec une seule bonne réponse&#xA0;? (choisir une seule bonne
+                    réponse)</lcQuestion>
+                <lcAnswerOptionGroup>
+                    <lcAnswerOption>
+                        <lcAnswerContent>&lt;lcSingleChoice2></lcAnswerContent>
+                    </lcAnswerOption>
+                    <lcAnswerOption>
+                        <lcAnswerContent>&lt;lcMatching2></lcAnswerContent>
+                    </lcAnswerOption>
+                    <lcAnswerOption>
+                        <lcAnswerContent>&lt;lcSingleSelect2></lcAnswerContent>
+                        <lcCorrectResponse/>
+                    </lcAnswerOption>
+                    <lcAnswerOption>
+                        <lcAnswerContent>&lt;lcMultipleSelect2></lcAnswerContent>
+                        <lcFeedback>Vous pouvez utiliser cet élément et seulement marquer une
+                            réponse comme correcte, mais il est plus judicieux d'utiliser
+                            &lt;lcSingleSelect2> </lcFeedback>
+                    </lcAnswerOption>
+                    <lcAnswerOption>
+                        <lcAnswerContent>&lt;lcMultipleChoice2></lcAnswerContent>
+                        <lcFeedback>Cet élément n'existe pas.</lcFeedback>
+                    </lcAnswerOption>
+                </lcAnswerOptionGroup>
+            </lcSingleSelect>
+        </lcInteraction>
+    </learningAssessmentbody>
+</learningAssessment>

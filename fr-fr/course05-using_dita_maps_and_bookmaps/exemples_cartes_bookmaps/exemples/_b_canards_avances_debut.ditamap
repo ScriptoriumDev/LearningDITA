@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap>
+    <booktitle>
+        <mainbooktitle>Titre principal du livre</mainbooktitle>
+    </booktitle>
+    <chapter href="c_canards_sauvages.dita">
+        <topicref href="c_types_canards_sauvages.dita"/>
+        <topicref href="c_especes_canards_sauvages.dita"/>
+        <topicref href="t_observer_canards_sauvages.dita"/>
+    </chapter>
+    <chapter href="c_canards_domestiques.dita">
+        <topicref href="c_croissance_des_canards.dita"/>
+        <topicref href="c_nourrir_canetons.dita">
+            <topicref href="c_poids_du_canard.dita"/>
+        </topicref>
+    </chapter>
+    <chapter href="c_canarddb.dita">
+        <topicref href="t_creer_table.dita"/>
+        <topicref href="t_ajouter_entree.dita"/>
+        <topicref href="t_modifier_entree.dita"/>
+        <topicref href="t_supprimer_entree.dita"/>
+        <topicref href="t_requetes.dita"/>
+        <topicref href="t_modifier_table.dita"/>
+        <topicref href="r_tnav.dita"/>
+        <topicref href="r_ajouter.dita"/>
+        <topicref href="r_supprimer.dita"/>
+        <topicref href="r_editer.dita"/>
+        <topicref href="r_nouvelletable.dita"/>
+        <topicref href="r_modifier_table.dita"/>
+    </chapter>
+</bookmap>

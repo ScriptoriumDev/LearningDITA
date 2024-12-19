@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_myj_5xs_kf">
+  <title>Une meilleure information technique, moins d'appels au support</title>
+  <conbody>
+    <p><indexterm>contenu<indexterm>réduire les appels au support</indexterm></indexterm>Un meilleur
+      contenu permet de réduire le nombre d'appels car les utilisateurs trouvent l'information avant
+      de décrocher le téléphone. Vous pouvez évaluer le coût de production et de distribution du
+      contenu technique par rapport au coût du support technique. Pour les grandes organisations,
+      qui peuvent recevoir des milliers ou des dizaines de milliers d'appels au support technique
+      par jour, une réduction des appels de seulement un ou deux points de pourcentage se traduit
+      par d'énormes économies.</p>
+    <p>Si vous envisagez une stratégie basée sur la déviation d'appel, considérez comment un
+      utilisateur type tente de résoudre un problème technique. Généralement, ils&#xA0;:</p>
+    <p>
+      <ol id="ul_rb1_cdx_lf">
+        <li>Demanderont à un ami</li>
+        <li>Utiliseront Google</li>
+        <li>Appeleront le support technique</li>
+      </ol>
+    </p>
+    <p>Vous avez deux opportunités pour interrompre ce processus&#xA0;; le premier est quand
+      l'utilisateur demande à un ami. Si l'ami à la connaissance appropriée, l'utilisateur récupère
+      l'information voulu.<indexterm>Mark Baker</indexterm>
+      <indexterm>experts</indexterm><indexterm>information<indexterm>experts</indexterm></indexterm>Mark
+      Baker écrit, dans «&#xA0;Why documentation analytics may mislead&#xA0;»:<fn>Every Page is Page One blog
+          (<xref href="http://everypageispageone.com/2011/12/07/why-analytics-may-mislead/"
+          format="html" scope="external"
+          >everypageispageone.com/2011/12/07/why-analytics-may-mislead/</xref>)</fn></p>
+    <lq>Une grande partie des informations qui proviennent de votre manuel peuvent donc atteindre
+      l'utilisateur non pas par la lecture directe de ce manuel, mais via un réseau d'experts.</lq>
+    <p>M. Baker poursuit en expliquant qu'il est moins important d'atteindre les bonnes personnes
+      que d'obtenir des visites sur un site internet brut. Dans un groupe de 50 personnes, il peut y
+      avoir un ou deux experts. Les experts diffuseront l'information aux 48&#160;autres personnes.
+      Ainsi, en s'assurant que les militants des produits disposent des informations dont ils ont
+      besoin, ils pourront éventuellement apporter un support de type «&#xA0;demander à un ami&#xA0;» au
+      groupe qui dépend de ces experts.</p>
+    <p>Il existe plusieurs façons de cultiver et de soutenir les experts. L'entreprise peut fournir
+     &#xA0;:</p>
+    <p>
+      <ul id="ul_mxt_rxq_mf">
+        <li><indexterm>béta testeurs</indexterm><indexterm>produit<indexterm>anticipé,
+              accès</indexterm></indexterm><indexterm>accès anticipé au produit</indexterm>Un accès
+          anticipé au produit (béta testeurs)</li>
+        <li><indexterm>support
+              technique<indexterm>premium</indexterm></indexterm>Un support technique premium (les
+          experts peuvent être autorisés à passer le support de niveau 1 pour aller directement vers
+          des agents plus expérimentés)</li>
+        <li><indexterm>forum</indexterm>Des forums de discussion</li>
+        <li><indexterm>reconnaissance en tant qu'expert
+              produit</indexterm><indexterm>produit<indexterm>désignation
+            d'expert</indexterm></indexterm>Une reconnaissance en tant qu'expert d'un produit (des
+          exemples inclus les programmes Microsoft MVP et Communauté d'Experts d'Adobe)</li>
+        <li><indexterm>produit<indexterm>mise à jour</indexterm></indexterm><indexterm>mise à jour,
+            produit</indexterm>Des mises à jour des produits avec des liens vers des ressources
+          utiles</li>
+      </ul>
+    </p>
+    <p>Plus les experts sont bien informés, plus ils peuvent fournir d'informations à leur
+      réseau.</p>
+    <p>Le deuxième pilier du soutien est la recherche sur internet, en particulier
+        <indexterm>Google</indexterm>la recherche Google. À moins qu'il n'y ait une raison
+      impérieuse de ne pas le faire, le contenu technique doit être disponible sur internet. Sinon,
+      lorsque les utilisateurs effectuent des recherches sur internet (et ils le feront), votre
+      contenu n'apparaîtra pas. Voici quelques exemples de «&#xA0;raisons impérieuses&#xA0;»&#xA0;:</p>
+    <p>
+      <ul id="ul_l5j_csy_mf">
+        <li>L'information est classifiée (information secrète du gouvernment).</li>
+        <li>L'exportation de l'information est contrôlée ou l'information est sensible (informations
+          sur les protocoles de cryptage ou les instructions de maintenance d'une centrale
+          nucléaire).</li>
+      </ul>
+    </p>
+    <p><indexterm>propriétaire<indexterm>information</indexterm></indexterm><indexterm>information<indexterm>propriétaire</indexterm></indexterm><indexterm>contenu<indexterm>propriétaire</indexterm></indexterm><indexterm>information<indexterm>disponible
+          à la recherche publique</indexterm></indexterm><indexterm>contenu<indexterm>disponible à
+          la recherche publique</indexterm></indexterm><indexterm>recherche publique contre
+        information propriétaire</indexterm><indexterm>recherche<indexterm>information publique
+          contre propriétaire</indexterm></indexterm>L'argument selon lequel le contenu technique
+      contient des informations concurrentielles exclusives doit être mis en balance avec les
+      questions suivantes&#xA0;:</p>
+    <p>
+      <ul id="ul_lnw_fty_mf">
+        <li>Les concurrents trouveront un moyen d'obtenir l'information, peut-être en achetant
+          simplement le produit.</li>
+        <li>Exiger l'authentification de l'utilisateur pour voir les informations réduit
+          considérablement le nombre de clients qui regardent ces informations.</li>
+        <li>Quel est le coût de l'absence de mise à disposition de l'information par la recherche&#xA0;?
+          Combien de personnes ne se connecteront <i>pas</i> au site de l'entreprise pour trouver
+          l'information, et prendront plutôt contact avec le support technique&#xA0;?</li>
+      </ul>
+    </p>
+    <p><indexterm>internet, site privé</indexterm><indexterm>site internet privé</indexterm>Si vous
+      ne pouvez pas vous résoudre à publier le contenu là où Google et d'autres moteurs de recherche
+      le trouveront, vous devez quand même le publier sur un site internet privé et fournir un accès
+      à vos clients, le cas échéant. À ce stade, la responsabilité d'offrir une excellente
+      expérience de recherche revient au gestionnaire de votre site internet.</p>
+  </conbody>
+</concept>

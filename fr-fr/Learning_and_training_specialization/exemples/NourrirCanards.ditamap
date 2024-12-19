@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningGroupMap PUBLIC "-//OASIS//DTD DITA 1.3 Learning Group Map//EN" "learningGroupMap.rng">
+<learningGroupMap>
+   <title>Nourrir les canards</title>
+   <learningGroup>
+      <topicref/>
+      <learningPlanRef href="lp_nourrircanards.dita"/>
+      <learningOverviewRef href="lo_nourrircanards.dita"/>
+      <!-- Pour diviser davantage le contenu, nous pourrions ajouter un learningGroup
+         au niveau du module, mais je ne pense pas que cela soit nécessaire pour ce contenu. -->
+
+      <!-- Leçon 1 : Qualité de la nourriture-->
+      <learningGroup>
+         <topicmeta>
+            <navtitle>Qualité de la nourriture</navtitle>
+         </topicmeta>
+         <!-- S'il y a plusieurs rubriques dans ce groupe de leçons,
+            utilisez learningOverview pour identifier les objectifs de chacune des rubriques. 
+              Ce n'est pas nécessaire ici. -->
+         <!-- <learningOverviewRef href="lo_l1_qualite_nourriture.dita"/>-->
+         <!-- 1er sujet -->
+         <learningObject>
+            <topicmeta>
+               <navtitle>1<sup>er</sup> sujet</navtitle>
+            </topicmeta>
+            <learningPlanRef href="lp_l1_t1_qualite_nourriture.dita"/>
+            <learningOverviewRef href="lo_l1_t1_qualite_nourriture.dita"/>
+            <learningContentRef href="lc_l1_t1_ou_acheter.dita"/>
+            <learningContentRef href="lc_l1_t1_conserver.dita"/>
+            <learningContentRef href="lc_l1_t1_gaspillage.dita"/>
+            <learningContentRef href="lc_l1_t1_qualite_ingredient.dita"/>
+            <learningSummaryRef href="ls_l1_t1_resume.dita"/>
+            <learningPostAssessmentRef href="lg_l1_t1_questionnaire.dita" type="learningGroup"/>
+         </learningObject>
+      </learningGroup>
+
+      <!-- Leçon 2 : Forme de nourriture -->
+      <learningGroup>
+         <topicmeta>
+            <navtitle>Forme de nourriture</navtitle>
+         </topicmeta>
+         <learningOverviewRef href="lo_l1_forme_nourriture.dita"/>
+         <learningObject>
+
+
+            <learningContentRef/>
+         </learningObject>
+
+      </learningGroup>
+
+      <!-- Leçon 3 : Mangeoires et abreuvoirs -->
+      <learningGroup>
+         <topicmeta>
+            <navtitle>Mangeoires et abreuvoirs</navtitle>
+         </topicmeta>
+         <learningOverviewRef href="lo_l3_mangeoires_abreuvoirs.dita"/>
+         <learningObject>
+            <topicmeta>
+               <navtitle>Feeders and Waterers</navtitle>
+            </topicmeta>
+            <!-- no need for a plan at this level. -->
+            <!--            <learningPlanRef/>-->
+            <learningOverviewRef href="lo_l3_t1_mangeoires_abreuvoirs.dita"/>
+
+            <learningContentRef href="lc_l3_t1_hauteur.dita"/>
+            <learningContentRef href="lc_l3_t1_nettoyage.dita"/>
+            <learningContentRef href="lc_l3_t1_canetons.dita"/>
+            <learningContentRef href="lc_l3_t1_litiere_humide.dita"/>
+            <learningSummaryRef href="ls_l3_t1_resume.dita"/>
+            <learningPostAssessmentRef href="lg_l3_t1_questionnaire.dita" type="learningGroup"/>
+         </learningObject>
+
+      </learningGroup>
+
+      <!--
+         
+         Nutritional requirements
+         Controlling disease
+         Avoiding predation
+         -->
+
+      <learningSummaryRef href="ls_resume_cours.dita"/>
+      <learningPostAssessmentRef href="lg_examen_final.dita" type="learningGroup"/>
+   </learningGroup>
+</learningGroupMap>

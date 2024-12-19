@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_dfp_4cp_dt">
+ <title>Les éléments référençants</title>
+ <prolog>
+  <author href="http://www.easydita.com" scope="external" format="html">Mike Rice, easyDITA</author>
+  <author>Decarnelle Rémi (traduction)</author>
+  <critdates>
+   <created golive="2016-07-11" date="2016-05-11"/>
+   <revised modified="2020-12-16"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcIntro id="lcIntro_pjs_rhh_mw"/>
+  <lcInteraction>
+   <lcSingleSelect id="lcMultipleSelect_qxd_tk1_4w">
+    <lcQuestion>Quand l'élément &lt;step> est un élément référencant (c'est-à-dire qu'il possède
+     l'attribut conref), quelle proposition est vraie&#xA0;?</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_rxd_tk1_4w">
+     <lcAnswerOption>
+      <lcAnswerContent>L'élément &lt;step> référençant peut contenir du contenu.</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>L'élement &lt;cmd> au sein de l'élément &lt;step> peut accueillir le
+       contenu.</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>L'élement &lt;cmd> n'est pas obligatoire au sein de l'élément &lt;step>
+       référençant.</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent> Un élément &lt;cmd> vide est nécessaire bien que l'élément &lt;step>
+       référençant est remplacé par le conref une fois résolu.</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect
+     class="+ topic/p learningInteractionBase-d/p learning-d/lcFeedbackIncorrect ">L'élément
+     &lt;step> référençant doit contenir un élément &lt;cmd> vide car il est nécessaire. Une
+     rubrique doit être conforme avant que les conrefs soient résolus.</lcFeedbackIncorrect>
+   </lcSingleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

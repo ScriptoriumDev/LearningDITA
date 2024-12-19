@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_gkg_w4t_qt" xml:lang="fr-FR">
+    <title>Créer une entrée de glossaire</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-10-12"/>
+            <revised modified="2020-06-29"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup id="lcObjectivesGroup_tvl_vbh_1t">
+                <lcObjective>Différencier une entrée de glossaire d'un groupe de
+                    glossaire</lcObjective>
+                <lcObjective>Comprendre la structure de base d'une entrée de glossaire</lcObjective>
+                <lcObjective>Ajouter des entrées de glossaire à un fichier carte DITA</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="45"/>
+        </lcDuration>
+        <lcIntro>
+            <p>Cette leçon montre comment créer une nouvelle entrée de glossaire, un nouveau groupe
+                de glossaire et ajouter leurs éléments de base.</p>
+            <note>
+                <p>Cette leçon couvre l'utilisation de base des éléments entrée de glossaire. Pour
+                    les spécifications complètes de chaque élément, se référer à la <xref
+                        href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/glossentry.html"
+                        format="html" scope="external">norme OASIS DITA version 1.2</xref>.</p>
+            </note>
+        </lcIntro>
+    </learningContentbody>
+    <related-links>
+        <link
+            href="https://www.ixiasoft.com/documentation/DITA_Style_Guide/fr/Artefact/Topics_and_Information_Types/c_Glossaries.html"
+            format="html" scope="external">
+            <linktext>Guide de style DITA, Entrée de glossaire</linktext>
+        </link>
+    </related-links>
+</learningContent>

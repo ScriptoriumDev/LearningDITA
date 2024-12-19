@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_nmj_lmt_lt" xml:lang="fr-FR">
+    <title>Utiliser les sous-étapes de manière approprié</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-09-24"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcIntro>
+            <p>L'élément DITA &lt;substep> peut-être utile, mais il doit être appliqué avec
+                modération.</p>
+            <p>Si vous constatez que vous utilisez beaucoup de sous-étapes ou que vous avez des
+                sous-étapes très longues, vous voudrez peut-être revoir votre analyse des tâches.
+                Réfléchissez bien à la manière dont vous avez divisé vos principales tâches en
+                rubriques de type tâche. Il se peut que vous n'ayez pas suffisamment divisé les
+                tâches principales.</p>
+            <p>Autre signe clair que votre analyse des tâches n'est pas complète&#xA0;: vous
+                utilisez de nombreuses sous-étapes et vous constatez fréquemment la nécessité de
+                sous-étapes.</p>
+            <p>Les sous-étapes ne doivent être utilisées que dans un petit nombre de situations,
+                comme par exemple&#xA0;:</p>
+            <ul id="ul_pgk_3nt_lt">
+                <li>
+                    <p>Vous vous trouvez face à une étape complexe, où les lecteurs pourraient
+                        bénéficier de détails supplémentaires.</p>
+                </li>
+                <li>
+                    <p>Votre public comprend des lecteurs novices qui pourraient bénéficier de
+                        conseils supplémentaires. La plupart des lecteurs comprendront tout ce que
+                        l'élément &lt;cmd> leur indique de faire, mais certains lecteurs moins
+                        expérimentés auront peut-être besoin d'être éclairés un peu plus en détail
+                        avec des sous-étapes.</p>
+                    <p>Certains types de sortie peuvent vous permettre de masquer les sous-étapes
+                        qui fournissent des détails supplémentaires jusqu'à ce que le lecteur
+                        demande plus d'informations.</p>
+                </li>
+                <li>
+                    <p>Les procédures dont les étapes ne sont pas homogènes. Vous rencontrerez
+                        parfois une tâche dont la plupart des étapes nécessitent un niveau
+                        d'explication cohérent, mais dont une ou deux étapes – bien qu'au même
+                        niveau que les autres – exigent beaucoup plus de détails.</p>
+                </li>
+            </ul>
+            <p>Faites attention en utilisant les sous-étapes là où les éléments &lt;choice> ou
+                &lt;choicetable> sont plus appropriés.</p>
+        </lcIntro>
+    </learningContentbody>
+</learningContent>

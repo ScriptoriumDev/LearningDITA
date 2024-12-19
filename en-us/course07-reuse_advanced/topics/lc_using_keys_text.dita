@@ -4,11 +4,11 @@
 <learningContent id="content_pgf_3gt_qt">
     <title>Using keys for text</title>
     <prolog class="- topic/prolog ">
-        <author type="creator" href="http://easydita.com/" format="html" scope="external"
+        <author type="creator" href="https://easydita.com/" format="html" scope="external"
             class="- topic/author ">Simon Bate</author>
-        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+        <author type="contributor" href="https://easydita.com/" format="html" scope="external"
             class="- topic/author ">Jake Campbell</author>
-        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+        <author type="contributor" href="https://easydita.com/" format="html" scope="external"
             class="- topic/author ">Gretyl Kinsey</author>
         <critdates>
             <created golive="2016-12-01" date="2016-10-18"/>
@@ -58,7 +58,7 @@
                 <sli>&lt;term></sli>
                 <sli>&lt;keyword></sli>
             </sl>
-            <p>This example show how a key can be used with a &lt;ph> (phrase) element:</p>
+            <p>This example shows how a key can be used with a &lt;ph> (phrase) element:</p>
             <pre>Congratulations on purchasing &lt;ph keyref="product_name"/>!</pre>
             <p>When the DITA map includes the &lt;keydef> element shown above, the output would
                 contain:</p>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_myj_5xs_kf">
+  <title>Des opérations de support plus efficaces</title>
+  <conbody>
+    <p><indexterm>support technique<indexterm>utiliser contenu technique</indexterm></indexterm>
+      <indexterm>contenu<indexterm>utilisé par le support technique</indexterm></indexterm>
+      <indexterm>contenu technique<indexterm>utilisé par l'équipe technique</indexterm></indexterm>
+      Le contenu technique n'est pas uniquement pour les clients. C'est aussi un atout de valeur à
+      l'intérieur de votre organisation, particulièrement pour l'équipe du support technique. Aider
+      les clients à utiliser efficacement un produit est de la responsabilité des membres du support
+      technique. L'organisation du support technique a désespérément besoin de contenu technique&#xA0;;
+      et plus vite c'est disponible, mieux c'est.</p>
+    <p><indexterm>contenu concurrentiel</indexterm><indexterm>développement de contenu
+        secondaire</indexterm><indexterm>service support</indexterm>Le contenu technique vérrouillé
+      dans des fichiers PDF ou imprimés n'est pas particulièrement utile pour les agents du support.
+          <indexterm>recherche<indexterm>agents du support</indexterm></indexterm>Les agents du
+      support ont besoin de réponses rapides à leurs questions, ils doivent donc pouvoir effectuer
+      rapidement des recherches dans tout le contenu technique. Ils peuvent utiliser l'index ou la
+      table des matières d'un seul livre imprimé pour trouver ce qu'ils veulent, mais étant donné
+      qu'il existe une bibliothèque de livres, une recherche en ligne est la seule option
+      raisonnable. Avec les fichiers PDF, le processus ressemble à ceci&#xA0;:</p>
+    <ol id="ol_vmm_kvv_gg">
+      <li>Rechercher un fichier PDF particulier sur le site internet ou intranet de
+        l'entreprise.</li>
+      <li>Télécharger et ouvrir le fichier PDF <p>
+          <image href="images/barredeprogression.png" id="image_v31_rz3_jg"/></p></li>
+      <li>Rechercher dans le fichier PDF pour trouver l'information spécifique.</li>
+    </ol>
+    <p>À ce stade, le client attend depuis plusieurs minutes et il est probablement fou de rage.
+      L'agent du support n'est pas très content non plus, car il est censé traiter un certain nombre
+      d'appels par heure, et ce processus de recherche tue ses chiffres.</p>
+    <p>Une meilleure solution consiste à fournir du contenu sur un site internet. Les agents du
+      support peuvent effectuer une recherche rapide sur internet, afficher les informations dont
+      ils ont besoin et aider le client. Si le groupe de documentation technique choisit de ne pas
+      fournir un moyen efficace d'accéder à ses informations, les membres du support chercheront
+      probablement des solutions de contournement, notamment les suivantes (tous ces exemples se
+      sont effectivement produits)&#xA0;: <dl id="ul_34s_54c_hg" outputclass="block">
+        <dlentry>
+          <dt>Les membres du support ont mis en place un wiki (un site internet avec de nombreux
+            contributeurs).</dt>
+          <dd>Sur le wiki, ils ont d'abord copié et collé des parties des documents officiels à
+            partir des fichiers PDF. Ils ont procédé à des mises à jour lorsque les informations
+            copiées étaient périmées ou lorsqu'ils n'était pas d'accord avec elles. Finalement,
+            l'équipe du support technique a commencé à rédiger du contenu supplémentaire et à le
+            publier sur le wiki. Pendant ce temps, le groupe de documentation technique produisait
+            des informations soigneusement vérifiées qui étaient examinées par des experts. Les
+            informations contenues dans le wiki n'ont pas été examinées et étaient souvent
+            inexactes, mais la recherche sur le wiki était utilisable, et cette disponibilité
+            immédiate l'emportait sur toute autre préoccupation.</dd>
+        </dlentry>
+        <dlentry>
+          <dt>L'équipe support a créé une base de connaissances destinée aux notes techniques</dt>
+          <dd>Les notes techniques sont censées être applicables au support technique mais ne sont
+            pas nécessaires dans la documentation produit&#xA0;; par exemple, les notes sur les problèmes
+            spécifiques de configuration du produit. L'équipe support a ensuite commencé à rédiger
+            des documents de procédure de base et à les stocker dans la base de connaissances. Les
+            informations contenues dans la base de connaissances dupliquaient et parfois
+            contredisaient les informations contenues dans la documentation officielle.</dd>
+        </dlentry>
+        <dlentry>
+          <dt>Les agents du support ont créé des réserves de contenu privé sur leurs systèmes
+            locaux.</dt>
+          <dd>Cela a permis d'éliminer l'attente d'un téléchargement, mais les caches de contenu
+            devaient être mises à jour manuellement, ce qui n'était généralement pas le cas. Les
+            agents du support pouvaient effectuer des recherches plus rapidement, mais ils
+            recherchaient des informations périmées.</dd>
+        </dlentry>
+      </dl></p>
+    <p>Lorsque l'équipe du support technique met en place un système de <indexterm>création de
+        contenu parallèle</indexterm>création de contenu parallèle parce que l'accès au contenu
+      technique représente trop de travail, vous avez un sérieux problème. Ces efforts de
+      documentation parallèle<indexterm>documentation parallèle</indexterm> sont un symptôme du
+      problème plus large de l'accès à l'information. Pour les éviter, il est essentiel de fournir
+      un moyen efficace au personnel du support technique pour rechercher et accéder à
+      l'information. Dans le cas contraire, vous êtes confronté aux problèmes opérationnels suivants
+     &#xA0;:</p>
+    <ul id="ul_4b4_xkv_gg">
+      <li><indexterm>copier et coller</indexterm><i>Copier et coller.</i> Le processus de
+        copier-coller de contenu prend du temps que l'équipe du support devrait consacrer à des
+        activités beaucoup plus importantes (telles que la satisfaction des utilisateurs
+        finaux).</li>
+      <li><i>Pas de chemin facile pour les mises à jour.</i>
+        Lorsque le contenu technique officiel est mis à jour pour refléter les changements apportés
+        à un produit, ces informations figurent-elles dans les informations du support&#xA0;? Et si des
+        mises à jour apparaissent dans les informations non officielles du support, il est probable
+        qu'elles soient copiées et collées, ce qui représente une perte de temps
+        supplémentaire.</li>
+      <li><indexterm>information<indexterm>contradictoire</indexterm></indexterm><indexterm>information
+            contradictoire<indexterm>support et contenu
+          technique</indexterm></indexterm><indexterm>support technique<indexterm>information
+            contradictoire</indexterm></indexterm><indexterm>contenu<indexterm>contradictoire</indexterm></indexterm><i>Information
+          contradictoire.</i> Avec plusieurs exemplaires de la même procédure, il est difficile
+        d'éviter toute incohérence, ce qui sème la confusion chez les clients et les lecteurs.</li>
+    </ul>
+    <p>Le contenu technique doit fournir une base solide pour l'opération de support technique au
+      lieu de la sous-estimer ou de la rendre plus difficile. Le rôle du personnel du support
+      technique dans la création de contenu varie selon les organisations, mais la duplication de
+      contenu parce que les formats de fichiers fournis sont inutilisables est un gaspillage de
+      ressources effroyable.</p>
+  </conbody>
+</concept>

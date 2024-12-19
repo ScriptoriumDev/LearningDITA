@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd" []>
+<learningContent id="lc_creating_a_map">
+    <title>Choisir un environnement de publication DITA</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Noelle Russell, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Ashley Stant, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Bill Swallow, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Jake Campbell, Scriptorium</author>
+        <author type="contributor"  href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html" class="- topic/author ">Marine Guillerez (Traductrice)</author>
+        <critdates>
+            <created golive="2017-03-27" date="2017-02-06"/>
+            <revised modified="2020-12-02"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup id="lcObjectivesGroup_tvl_vbh_1t">
+                <lcObjective>Déterminer les types de résultats que vous devez publier</lcObjective>
+                <lcObjective>Évaluer différents outils et environnements de publication DITA</lcObjective>
+                <lcObjective>Choisir le meilleur scénario de publication DITA pour votre contenu</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="45"/>
+        </lcDuration>
+        <lcIntro>
+            <p>Cette leçon couvre certains environnements de publication DITA courants et montre
+                comment déterminer lequel convient le mieux à votre contenu.</p>
+        </lcIntro>
+    </learningContentbody>
+    <related-links>
+        <link href="http://www.scriptorium.com/tag/dita-publishing-perils/" format="html">
+            <linktext>Série sur les risques de la publication DITA</linktext>
+        </link>
+        <link href="http://dita-archive.xml.org/book/publishing-with-the-dita-open-toolkit"
+            format="html">
+            <linktext>Publier avec DITA Open Toolkit</linktext>
+        </link>
+        <link
+            href="https://www.oxygenxml.com/doc/versions/18.1/ug-editor/tasks/use-new-dita-ot.html"
+            format="html">
+            <linktext>Utiliser un DITA Open Toolkit externe dans l'éditeur Oxygen XML</linktext>
+        </link>
+<!--        <link
+            href="https://www.infomanagementcenter.com/publications/best-practices-newsletter/2008-best-practices-newsletter/selecting-a-component-content-management-system-for-dita/"
+            format="html">
+            <linktext>Sélectionner un système de gestion de contenu par composants pour
+                DITA</linktext>
+        </link> Le lien ne fonctionne plus-->
+    </related-links>
+</learningContent>

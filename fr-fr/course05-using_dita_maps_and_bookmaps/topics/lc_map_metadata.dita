@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_pgf_3gt_qt">
+    <title>Ajouter des métadonnées à une carte</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2016-03-07"/>
+            <revised modified="2020-10-18"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Tout comme les métadonnées des rubriques vous permettent de définir des informations
+                sur celles-ci, les métadonnées des cartes vous permettent de définir des
+                informations sur une carte DITA et les références contenues dans celle-ci. </p>
+            <p>Vous ajoutez des métadonnées à une carte DITA en utilisant l'élément &lt;topicmeta>.
+                L'élément &lt;topicmeta> peut exister au niveau de la carte principale (à
+                l'intérieur de l'élément &lt;map>) ou à l'intérieur de n'importe quel élément
+                &lt;topicref> ou &lt;mapref> de la carte.</p>
+            <p>Lorsqu'elles sont utilisées au niveau de la carte, les métadonnées carte ajoutent des
+                informations à une carte et facilitent la recherche et le filtrage. Dans la plupart
+                des cas, les métadonnées carte n'apparaissent pas dans le résultat final publié,
+                mais elles peuvent influencer la manière dont votre contenu est publié, par exemple
+                en spécifiant comment une transformation doit générer des informations sur la
+                couverture.</p>
+            <p>Lorsqu'elles sont appliquées aux éléments &lt;topicref> ou &lt;mapref>, les
+                métadonnées carte fournissent des informations supplémentaires sur les rubriques ou
+                les cartes référencés et peuvent même remplacer les métadonnées contenues dans ces
+                rubriques et cartes. Par exemple, si une rubrique référencée contient un élément
+                &lt;prolog> ou &lt;shortdesc>, les métadonnées d'un élément &lt;topicref> qui
+                contient des éléments &lt;prolog> ou &lt;shortdesc> ont la priorité.</p>
+            <p>Un certain nombre d'éléments de métadonnées sont autorisés à l'intérieur de l'élément
+                &lt;topicmeta>. Parmi les plus utiles, on peut citer&#xA0;:</p>
+            <ul id="ul_hrm_rvr_3v">
+                <li>
+                    <p>&lt;navtitle></p>
+                </li>
+                <li>
+                    <p>&lt;author></p>
+                </li>
+                <li>
+                    <p>&lt;copyright></p>
+                </li>
+                <li>
+                    <p>&lt;category></p>
+                </li>
+            </ul>
+            <p>L'élément &lt;metadata>, qui peut également contenir la plupart de ces mêmes éléments
+                liés aux métadonnées, est également autorisé à l'intérieur de l'élément
+                &lt;topicmeta>.</p>
+            <p>La structure d'un élément de type &lt;topicmeta> pourrait ressembler à ceci&#xA0;:</p>
+            <pre>&lt;topicmeta>
+&lt;navtitle>Titre de navigation&lt;/navtitle>
+&lt;author>Nom de l'auteur&lt;/author>
+&lt;copyright>
+     &lt;copyryear year="20XX"/>
+     &lt;copyrholder>Nom de la compagnie&lt;/copyrholder>
+&lt;/copyright>
+&lt;category>Nom de la catégorie&lt;/category>
+&lt;/topicmeta></pre>
+            <note>
+                <p>Pour plus d'information sur l'élément &lt;topicmeta> et les éléments qu'il
+                    contient, se référer à la <xref
+                        href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicmeta.html"
+                        format="html" scope="external">norme OASIS DITA version 1.2</xref>.</p>
+            </note>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_at5_jgd_3v">
+        <title/>
+        <taskbody>
+            <steps id="steps_umd_lgd_3v">
+                <step>
+                    <cmd>Faites une copie du fichier
+                        exemples_cartes_bookmaps/exemples/_m_canards_avances_debut.ditamap et
+                        ouvrez-le dans votre éditeur.</cmd>
+                    <stepxmp>
+                        <p>Vous devriez voir du contenu qui commence comme ceci (le fichier est plus
+                            long que ce qui est présenté ici)&#xA0;:</p>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+&lt;map id="canards">
+    &lt;title>Canards&lt;/title>
+    &lt;topicref href="c_canards_sauvages.dita">
+        &lt;topicref href="c_types_canards_sauvages.dita"/>
+        &lt;topicref href="c_especes_canards_sauvages.dita"/>
+        &lt;topicref href="c_habitats.dita"/>
+        &lt;topicref href="t_observer_canards_sauvages.dita"/>
+    &lt;/topicref>
+        &lt;topicref href="c_canards_domestiques.dita">
+        &lt;topicref href="c_croissance_des_canards.dita"/>
+        &lt;topicref href="c_logement.dita"/>
+        ...</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>À l'intérieur de l'élément &lt;map>, après l'élément &lt;title>, ajoutez un
+                        élément &lt;topicmeta> et ajoutez-y du contenu comme le montre l'exemple
+                        suivant&#xA0;:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+&lt;map id="canards">
+&lt;title>Canards&lt;/title>
+<ph outputclass="newchanged">&lt;topicmeta>
+    &lt;critdates>
+      &lt;created date="2016-03-16"/>
+      &lt;category>Exemples&lt;/category>
+    &lt;/critdates>
+  &lt;/topicmeta></ph>
+...
+&lt;/map></pre>
+                    </stepxmp>
+                    <info>L'élément &lt;topicmeta> que vous venez d'ajouter établit les métadonnées
+                        suivantes au niveau de la carte&#xA0;:<ul id="ul_tyt_qds_3v">
+                            <li>
+                                <p>La carte a été créée le 16 mars 2016</p>
+                            </li>
+                            <li>
+                                <p>C'est une carte d'exemple</p>
+                            </li>
+                        </ul></info>
+                </step>
+                <step>
+                    <cmd>À l'intérieur de l'élément &lt;topicref> qui fait le lien vers
+                        c_canarddb.dita, ajouter un élément &lt;topicmeta> et ajoutez-y du contenu
+                        comme le montre l'exemple suivant&#xA0;:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+&lt;map id="canards">
+&lt;title>Canards&lt;/title>
+...
+&lt;topicref href="c_canarddb.dita">
+<ph outputclass="newchanged">&lt;topicmeta>
+&lt;audience type="user" experiencelevel="expert"/>
+&lt;/topicmeta></ph>
+&lt;topicref href="c_ecrire_sur_canards.dita"/>
+...
+&lt;/topicref>
+...
+&lt;/map></pre>
+                    </stepxmp>
+                    <info>L'élément &lt;topicmeta> que vous venez d'ajouter établit les métadonnées
+                        suivantes au niveau de la carte&#xA0;:<ul id="ul_r1r_sds_3v">
+                            <li>
+                                <p>Cette section est destinée aux utilisateurs du produit, par
+                                    opposition aux administrateurs ou aux lecteurs occasionnels.</p>
+                            </li>
+                            <li>
+                                <p>Cette section est destinée aux utilisateurs experts</p>
+                            </li>
+                        </ul>
+                    </info>
+                </step>
+                <step>
+                    <cmd>À l'intérieur de l'élément &lt;mapref> qui fait le lien vers
+                        g_orggloss_canards.ditamap, ajoutez un élément &lt;topicmeta> et ajoutez-y
+                        du contenu comme le montre l'exemple suivant&#xA0;:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+&lt;map id="canards">
+&lt;title>Canards&lt;/title>
+...
+&lt;mapref href="g_orggloss_canards.ditamap" format="ditamap">
+<ph outputclass="newchanged">&lt;topicmeta>
+&lt;searchtitle>Glossaire canards&lt;/searchtitle>
+&lt;/topicmeta></ph>
+&lt;/mapref>
+&lt;/map></pre>
+                    </stepxmp>
+                    <info>L'élément &lt;topicmeta> que vous venez d'ajouter établit les métadonnées
+                        suivantes au niveau de la carte&#xA0;:<ul id="ul_ekq_yds_3v">
+                            <li>
+                                <p>Lorsqu'une personne utilise un outil de recherche et localise
+                                    cette rubrique, le titre doit être "Glossaire canards" au lieu
+                                    du titre de la rubrique.</p>
+                            </li>
+                        </ul>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Utilisez le fichier d'exemple
+                        exemples_cartes_bookmaps/exemples/_m_canards_avances.ditamap pour vérifier
+                        votre fichier
+                        exemples_cartes_bookmaps/exemples/_m_canards_avances_debut.ditamap.</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

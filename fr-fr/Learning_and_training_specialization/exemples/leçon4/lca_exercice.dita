@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="lca_exercise">
+    <title>Choicetable</title>
+    <learningAssessmentbody>
+        <lcInteraction>
+            <lcMatching2 id="matching_choicetable">
+                <lcQuestion2>Relier les éléments enfants de &lt;choicetable> avec leur usage
+                    correspondant.</lcQuestion2>
+                <lcMatchTable2 id="lcMatchTable_f2n_c5b_kt">
+                    <lcMatchingPair2>
+                        <lcItem2>&lt;chhead></lcItem2>
+                        <lcMatchingItem2>Ligne d'en-tête</lcMatchingItem2>
+                    </lcMatchingPair2>
+                    <lcMatchingPair2>
+                        <lcItem2>&lt;chrow></lcItem2>
+                        <lcMatchingItem2>Ligne du corps</lcMatchingItem2>
+                    </lcMatchingPair2>
+                    <lcMatchingPair2>
+                        <lcItem2>&lt;choptionhd></lcItem2>
+                        <lcMatchingItem2>Paramètre pour la ligne d'en-tête</lcMatchingItem2>
+                    </lcMatchingPair2>
+                    <lcMatchingPair2>
+                        <lcItem2>&lt;chdeschd></lcItem2>
+                        <lcMatchingItem2>Description dans la ligne d'en-tête</lcMatchingItem2>
+                    </lcMatchingPair2>
+                    <lcMatchingPair2>
+                        <lcItem2>&lt;choption></lcItem2>
+                        <lcMatchingItem2>Paramètre pour la ligne du corps</lcMatchingItem2>
+                    </lcMatchingPair2>
+                    <lcMatchingPair2>
+                        <lcItem2>&lt;chdesc></lcItem2>
+                        <lcMatchingItem2>Description dans la ligne du corps</lcMatchingItem2>
+                    </lcMatchingPair2>
+                </lcMatchTable2>
+            </lcMatching2>
+        </lcInteraction>
+    </learningAssessmentbody>
+</learningAssessment>
+

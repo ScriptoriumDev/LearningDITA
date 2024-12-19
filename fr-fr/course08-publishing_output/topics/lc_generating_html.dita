@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="content_pgf_3gt_qt">
+    <title>Générer une sortie HTML</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Noelle Russell, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Ashley Stant, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Bill Swallow, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Jake Campbell, Scriptorium</author>
+        <author type="contributor" href="https://www.linkedin.com/in/marinemartinguillerez/"
+            scope="external" format="html" class="- topic/author ">Marine Guillerez
+            (Traductrice)</author>
+        <critdates>
+            <created golive="2017-03-27" date="2017-02-06"/>
+            <revised modified="2021-01-17"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>DITA OT peut produire une sortie HTML en utilisant les extensions xhtml et html5.
+                Cette leçon utilise l'extension xhtml pour illustrer le processus de publication
+                d'une sortie HTML.</p>
+            <p>Pour générer un résultat XHTML, utilisez le même contenu que pour l'exercice PDF. Le
+                fait de voir le même contenu dans deux types différents de sortie vous donne un
+                aperçu de la façon dont DITA sépare le contenu du format.</p>
+            <p><xref href="https://youtu.be/lXhNZBJQAPs" format="html" scope="external">Vidéo&#xA0;:
+                    Générer une sortie HTML</xref></p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_kth_1dh_2z">
+        <title>Générer une sortie HTML</title>
+        <taskbody>
+            <steps id="steps_php_1ch_2z">
+                <step>
+                    <cmd>Saisissez les commandes suivantes dans le terminal de commande :</cmd>
+                    <info>
+                        <p><b>Sur Windows&#xA0;:</b></p>
+                        <pre>bin\dita -i [cheminfichier]/sources/canards/m_canards.ditamap -f xhtml -o sorties/sortie_canards -v</pre>
+                        <p><b>On Mac:</b></p>
+                        <pre>./bin/dita -i [cheminfichier]/sources/canards/m_canards.ditamap -f xhtml -o sorties/sortie_canards -v</pre>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Appuyez sur ENTRER pour lancer DITA OT.</cmd>
+                </step>
+                <step>
+                    <cmd>Naviguez dans votre dossier <b>sortie_canards</b>.</cmd>
+                    <info>En plus des fichiers PDF que vous avez générés précédemment, vous devriez
+                        maintenant voir plusieurs fichiers XHTML et un dossier <b>images</b>.</info>
+                </step>
+                <step>
+                    <cmd>Ouvrez le fichier <b>index.html</b> dans un navigateur.</cmd>
+                    <info>
+                        <p>Ce fichier index sert de table des matières électronique, montrant la
+                            hiérarchie de votre carte avec des liens vers chaque rubrique.
+                            L'extension xhtml par défaut de DITA OT ne permet pas la navigation,
+                            mais le fichier index peut vous aider à trouver les rubriques dont vous
+                            avez besoin.</p>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Ouvrez le fichier <b>c_croissance_canards.html</b> dans un navigateur pour
+                        voir comment l'extension xhtml affiche les images et les tableaux.</cmd>
+                    <info>
+                        <p>La sortie XHTML par défaut ressemble à ceci&#xA0;:</p>
+                        <image href="images/xhtml_default_images.png" width="500"
+                            id="image_efp_dwl_3z" base="2017/03"/>
+                        <note>Les polices et l'espacement peuvent varier en fonction du navigateur
+                            et de la version que vous utilisez.</note>
+                    </info>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

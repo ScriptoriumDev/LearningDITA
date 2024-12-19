@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_wjy_jyd_2t" xml:lang="fr-FR">
+ <title>Éléments dl</title>
+ <prolog>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+   Scriptorium</author>
+  <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external" format="html"
+   >Marine Guillerez (Traductrice)</author>
+  <critdates>
+   <created date="2015-08-28"/>
+   <revised modified="2020-02-25"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcMatching id="lcMatching_t3l_lyd_2t">
+    <lcQuestion>Faites correspondre l'élément &lt;dl> avec son contenu.</lcQuestion>
+    <lcMatchTable id="lcMatchTable_u3l_lyd_2t">
+     <lcMatchingPair>
+      <lcItem>&lt;dl></lcItem>
+      <lcMatchingItem>Conteneur d'une liste de définitions</lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>&lt;dlentry></lcItem>
+      <lcMatchingItem>Conteneur des éléments &lt;dt> et &lt;dd></lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>&lt;dt></lcItem>
+      <lcMatchingItem>Terme à définir</lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>&lt;dd></lcItem>
+      <lcMatchingItem>Définition</lcMatchingItem>
+     </lcMatchingPair>
+    </lcMatchTable>
+    <lcFeedbackIncorrect>L'élément &lt;dl> contient un ou plusieurs éléments &lt;dlentry>. Chaque
+     &lt;dlentry> contient un élément &lt;dt>, qui contient le terme, et un ou plusieurs éléments
+     &lt;dd>, qui contiennent les définitions. </lcFeedbackIncorrect>
+   </lcMatching>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

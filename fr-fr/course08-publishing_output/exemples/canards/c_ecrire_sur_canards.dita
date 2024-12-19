@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_avance">
+ <title>Écrire sur les canards</title>
+ <conbody>
+  <codeblock>donneescanard> add entry (mallard)
+  &#xA0;;
+   1 entrée ajoutée (0.05 sec)
+   donneescanard> _
+  </codeblock>
+  <p>Pour ajouter une espèce de canard à votre base de données, tapez <codeph>add entry</codeph>
+   suivi du nom du canard entre parenthèses sur la ligne de commande et appuyez sur Entrée.</p>
+  <lq href="http://classiclit.about.com/library/bl-etexts/hdthoreau/bl-hdtho-wald-9.htm"
+   format="html" scope="external">How much fairer than the pool before the farmers door, in which
+   his ducks swim! Hither the clean wild ducks come. Nature has no human inhabitant who
+   appreciates her. The birds with their plumage and their notes are in harmony with the flowers,
+   but what youth or maiden conspires with the wild luxuriant beauty of Nature? </lq>
+  <section>
+   <title>Partager de votre base de données sur les canards</title>
+   <p>Exportez votre base de données sur les canards sous forme de sortie HTML pour la rendre
+    facile à partager sur votre site internet. Vous pouvez également proposer votre base de données
+    aux utilisateurs sous forme de téléchargement.</p>
+   <draft-comment>Êtes-vous sûr de vouloir proposer un téléchargement&#xA0;?</draft-comment>
+   <required-cleanup>
+    <p>Envisagez de donner aux utilisateurs la possibilité d'envoyer des commentaires ou des
+     suggestions d'entrées pour votre base de données sur les canards.</p>
+   </required-cleanup>
+  </section>
+ </conbody>
+</concept>

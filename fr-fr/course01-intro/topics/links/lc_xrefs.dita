@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="xrefs">
+    <title>Références croisées</title>
+    <prolog>
+        <author>Sharon Burton</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-04-28"/>
+            <revised modified="2019-09-22"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Les références croisées vous permettent de créer des liens d'un texte vers d'autres
+                emplacements textuels, vers des figures ou des tableaux, ou vers des sites
+                internet.</p>
+            <p>Toutes les références croisées utilisent l'élément &lt;xref>. L'attribut href
+                specifie la cible de la référence croisée.</p>
+            <p>L'élément &lt;xref> peut éventuellement contenir du texte. Si du texte est fournit,
+                il est utilisé comme la zone de texte réactive pour le lien. Si l'élément &lt;xref>
+                ne contient pas de texte, le générateur utilise le titre de la cible comme zone
+                sensible pour le lien.</p>
+            <note>Bien que cela semble la bonne chose à faire, lors de la création d'une référence
+                croisée vers une section, une figure ou un tableau, l'attribut href doit spécifier
+                la section, la figure ou le tableau et non l'élément &lt;title> de la section, de la
+                figure ou du tableau.</note>
+            <p>Vidéo&#xA0;: <xref href="https://www.youtube.com/watch?v=Go2FyJl7uQY" format="html"
+                    scope="external">Exemples de code de références croisées DITA</xref>
+            </p>
+            <p>Vous pouvez également utiliser l'élément &lt;xref> pour créer des liens vers des
+                ressources extérieures à vos rubriques DITA. Pour les références externes, vous
+                fournissez un attribut scope avec une valeur external et un attribut format, comme
+                présenté ici&#xA0;:</p>
+            <pre>&lt;xref href="http://www.scriptorium.com" scope="external" format="html"/></pre>
+            <note>Pour les liens vers un fichier PDF, utilisez format="pdf".</note>
+            <p>Techniquement, il est possible d’utiliser &lt;xref> pour relier une rubrique à une
+                autre. Cette liaison en ligne est une Mauvaise Idée™ car vous devez créer et gérer
+                le lien manuellement. Vous devez spécifier le lien vers lequel vous vous connectez.
+                Lorsque vous configurez la référence croisée, vous avez les rubriques source et
+                cible dans votre fichier carte. Mais si vous réutilisez la rubrique source dans une
+                autre carte n'incluant pas la rubrique cible, vous obtiendrez un lien rompu lors de
+                la génération du résultat à partir de cette carte et vous ne pourrez pas être averti
+                du problème. Au lieu d’utiliser des liens de rubrique à rubrique, il est préférable
+                d’utiliser des tables de relations.</p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

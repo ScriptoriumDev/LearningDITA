@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_l2d_swx_5t" xml:lang="fr-FR">
+    <title>Utiliser les éléments du domaine DITA</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-10-27"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcIntro>
+            <p>Cela s'applique à d'autres types de rubriques, mais il convient de le mentionner pour
+                les références du fait qu'elles sont souvent associées à des éléments de
+                programmation et d'interface utilisateur.</p>
+            <p>DITA définit un certain nombre d'éléments utiles pour les rubriques décrivant la
+                programmation, les logiciels informatiques et les interfaces utilisateur des
+                ordinateurs. Ces éléments sont appelés spécialisations de domaine, car, bien qu'il
+                s'agisse de spécialisations d'éléments existants, ils peuvent être utilisés dans
+                toutes les spécialisations de rubrique, telles que les concepts, tâches et
+                références.</p>
+            <p>Il est conseillé d'utiliser ces éléments sémantiques car ils&#xA0;:</p>
+            <ul id="ul_wnj_vxy_5t">
+                <li>
+                    <p>Fournissent des informations sur leur contenu aux autres auteurs</p>
+                </li>
+                <li>
+                    <p>Aident à la recherche multidimensionnelle («&#xA0;Trouver tous les noms de
+                        fichiers qui utilisent le nom de produit X&#xA0;»)</p>
+                </li>
+                <li>
+                    <p>Peuvent diriger l'outil de publication pour formater le contenu afin de le
+                        rendre plus facilement visible pour les lecteurs</p>
+                </li>
+            </ul>
+            <p>Certains des éléments qui peuvent être utiles sont&#xA0;:</p>
+            <dl>
+                <dlentry>
+                    <dt>Domaine de programmation</dt>
+                    <dd>&lt;apiname>, &lt;codeblock>, &lt;codeph> (phrase de code), &lt;option>,
+                        &lt;parml> (liste de paramètres), &lt;synph> (phrase de syntaxe)</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Domaine des logiciels</dt>
+                    <dd>&lt;cmdname> (nom de commande), &lt;filepath>, &lt;varname> (nom de
+                        variable), &lt;userinput>, &lt;systemoutput></dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Interfaces utilisateur des ordinateurs</dt>
+                    <dd>&lt;uicontrol> (contrôle de l'interface utilisateur), &lt;menucascade>,
+                        &lt;wintitle> (titre fenêtre), &lt;screen></dd>
+                </dlentry>
+            </dl>
+            <p>Deux des éléments de l'interface utilisateur de l'ordinateur méritent une attention
+                particulière&#xA0;: &lt;uicontrol> et &lt;menucascade>. Vous utilisez &lt;uicontrol>
+                pour décrire un bouton ou une commande dans un menu. Si vous voulez décrire la
+                séquence à suivre pour accéder à une commande, utilisez une série d'éléments de type
+                &lt;uicontrol> à l'intérieur d’un élément &lt;menucascade>&#xA0;:</p>
+            <pre>...en choisissant &lt;menucascade>&lt;uicontrol>Fichier&lt;/uicontrol>&lt;uicontrol>Ouvrir&lt;/uicontrol>&lt;/menucascade>.</pre>
+            <p>Une transformation insère tout caractère approprié entre les commandes.
+                Cela permet de s'assurer que toutes les cascades de menus sont formatées de la même
+                manière, en utilisant le même caractère de séparation&#xA0;:</p>
+            <p>
+                <pre>...en choisissant <b>Fichier</b>&#xA0;» <b>Ouvrir</b></pre>
+            </p>
+            <p>Pour plus d'informations sur tous les éléments du domaine, voir la <xref
+                    href="http://docs.oasis-open.org/dita/v1.2/os/spec/common/technicalContent-domain-elements.html#technicalContent-domain-elements"
+                    format="html" scope="external">spécification DITA.</xref></p>
+            <p>Nous vous conseillons également vivement de créer un guide de style dans lequel vous
+                documentez les utilisations spécifiques de chacun de ces éléments dans votre
+                documentation produit.</p>
+        </lcIntro>
+    </learningContentbody>
+</learningContent>

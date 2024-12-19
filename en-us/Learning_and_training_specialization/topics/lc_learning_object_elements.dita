@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="lc_learning_object_elements">
+    <title>Learning object elements</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="https://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Kaitlyn Heath, Scriptorium</author>
+        <critdates>
+            <created date="2018-02-01"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction id="lcInstruction_js5_cqb_yz">
+            <p>The &lt;learningObject> element contains references to the topics that support the
+                specific learning object. All of the reference elements inherit their behavior from
+                the &lt;topicref> element, but the L&amp;T reference element names mirror the names
+                of the topics that they reference.</p>
+            <p>A &lt;learningObject> element can contain:</p>
+                <ul id="ul_vpx_bm5_scb">
+                    <li>
+                        <p>An optional &lt;learningPlanRef> element that indicates a learning plan
+                            topic.</p>
+                        <p>If you're using the Learning Object Model, the learning plan topic should
+                            contain the needs and gap analysis, along with the approach and
+                            strategies for this specific content.</p>
+                    </li>
+                    <li>Any number of &lt;learningOverviewRef> and &lt;learningPreAssessmentRef>
+                        elements. <ul id="ul_ajx_gm5_scb">
+                            <li>The &lt;learningOverviewRef> element indicates learning overview
+                                topics.</li>
+                            <li>The &lt;learningPreAssessmentRef> element indicates learning
+                                assessment topics that are used as a pre-test or other initial
+                                assessment.</li>
+                        </ul></li>
+                    <li>One or more &lt;learningContentRef> elements that indicate the learning
+                        content for this learning object.</li>
+                    <li>Any number of &lt;learningSummaryRef> and &lt;learningPostAssessmentRef>
+                            elements.<ul id="ul_bzj_sm5_scb">
+                            <li>The &lt;learningSummaryRef> element indicates learning summary
+                                topics.</li>
+                            <li>The &lt;learningPostAssessmentRef> element indicates learning
+                                assessment topics that reinforce the learning or to
+                                assess what the student learned. </li>
+                        </ul></li>
+                </ul>
+            <p>This is an example learning object from the Feeding Ducks example in your course
+                materials:</p>
+            <pre>
+&lt;learningObject>
+   &lt;topicmeta>
+      &lt;navtitle>Topic 1&lt;/navtitle>
+   &lt;/topicmeta>
+   &lt;learningPlanRef href="lp_l1_t1_feed_quality.dita"/>
+   &lt;learningOverviewRef href="lo_l1_t1_feed_quality.dita"/>
+   &lt;learningContentRef href="lc_l1_t1_where_to_buy.dita"/>
+   &lt;learningContentRef href="lc_l1_t1_storage.dita"/>
+   &lt;learningContentRef href="lc_l1_t1_spoiling.dita"/>
+   &lt;learningContentRef href="lc_l1_t1_ingredient_quality.dita"/>
+   &lt;learningSummaryRef href="ls_l1_t1_summary.dita"/>
+   &lt;learningPostAssessmentRef href="lg_l1_t1_quiz.dita" type="learningGroup"/>
+&lt;/learningObject></pre>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_pgf_3gt_qt">
+    <title>Aperçu&#xA0;: cartes contre bookmaps</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2016-03-07"/>
+            <revised modified="2020-10-13"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Les bookmaps étendent les fonctionnalités des cartes en fournissant des éléments qui
+                vous permettent créer des structures de type livre. Ces structures comprennent des
+                chapitres, des annexes, des parties (qui peuvent être utilisé pour regrouper les
+                chapitres ou les annexes), et les pages préliminaires et les appendices
+                facultatives. Bien que les cartes et les bookmaps partagent une structure similaire,
+                les bookmaps contiennent un ensemble plus étendu d'éléments, qui offrent beaucoup
+                plus d'options pour préparer votre contenu en vue de sa publication, en particulier
+                si vous disposez de grandes quantités de contenu. Les bookmaps sont donc mieux
+                adaptés à la publication de contenu sous forme de livre et plus flexibles que les
+                cartes en général.</p>
+            <p>Lorsque vous décidez de compiler vos rubriques dans une carte ou une bookmap, votre
+                processus de publication et de diffusion doit être un facteur important. Si vous
+                devez livrer votre contenu sous forme imprimée ou PDF, il est généralement
+                recommandé d'utiliser des bookmaps plutôt que des cartes. Les cartes sont
+                suffisantes pour une distribution en ligne uniquement (comme le HTML ou l'aide en
+                ligne), mais si vous prévoyez de publier le même ensemble de rubriques à la fois au
+                format papier et en ligne, il est préférable d'utiliser une bookmap.</p>
+            <p>L'une des principales différences entre les bookmaps et les cartes est la possibilité
+                d'avoir des chapitres dans une bookmap. Dans une carte, vous pouvez emboîter des
+                rubriques de second niveau sous une rubrique de premier niveau pour créer une
+                hiérarchie. Dans une bookmap, ces rubriques de premier niveau sont désignés comme
+                chapitres. Vous pouvez également désigner une rubrique de premier niveau comme
+                annexe dans une bookmap. Bien que la structure hiérarchique des rubriques soit la
+                même, il y a une valeur ajoutée sémantique à appeler les rubriques de premier niveau
+                des chapitres. Lorsque vous publiez le même ensemble de rubriques dans une bookmap
+                au lieu d'une carte, vos transformations de sortie peuvent formater les rubriques de
+                vos chapitres différemment des autres rubriques.</p>
+            <p>Les bookmaps vous donnent également un moyen supplémentaire de définir les
+                métadonnées avec l'élément &lt;bookmeta>. L'élément &lt;bookmeta>, qui contient des
+                informations spécifiques à la publication, ne peut être appliqué qu'à l'élément
+                &lt;bookmap>&#xA0;; il n'est pas disponible dans les cartes. La possibilité d'utiliser
+                l'élément &lt;bookmeta> est une autre raison pour laquelle les bookmaps sont mieux
+                adaptés que les cartes pour la publication de structures semblables à des
+                livres.</p>
+            <p><xref href="https://youtu.be/1zVA2Spuy_c" format="html" scope="external">Vidéo&#xA0;:
+                    cartes et bookmaps DITA</xref></p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

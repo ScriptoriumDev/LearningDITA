@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_qyn_3sb_wr">
+    <title>Les fichiers carte</title>
+    <prolog>
+        <author>Sharon Burton</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Alan Pringle,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O'Keefe,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-04-28"/>
+            <revised modified="2015-05-15"/>
+            <revised modified="2019-09-08"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Les fichiers carte décrivent la façon dont vous organisez le contenu pour la
+                livraison. Ils ressemblent à une table des matières&#xA0;: ils créent une séquence
+                et une hiérarchie entre les rubriques. Lorsque vous générez un fichier PDF ou un
+                système d'aide à partir d'un fichier carte, votre lecteur voit les rubriques dans
+                l'ordre et la hiérarchie établis par le fichier carte.</p>
+            <p>En général, vous n’ajoutez pas toutes les runriques disponibles à un fichier carte,
+                mais uniquement celles que vous souhaitez inclure dans un livrable. En outre, vous
+                pouvez inclure la même rubrique dans plusieurs fichiers carte, ce qui est un autre
+                exemple de réutilisation dans DITA.</p>
+            <p>Vidéo&#xA0;: <xref href="https://www.youtube.com/watch?v=I_yvE9_ECRw" format="html"
+                    scope="external">Exemple de fichier carte DITA</xref></p>
+            <p>Les fichiers carte sont principalement constitués des composants suivants&#xA0;:<ul
+                    id="ul_dy2_k3q_wr">
+                    <li>les éléments topicref, qui fournissent un lien vers une rubrique
+                        spécifique</li>
+                    <li>les éléments mapref, qui fournissent un lien vers une autre carte</li>
+                </ul></p>
+            <p>Dans un fichier carte, vous mettez les topicrefs dans l'ordre, de haut en bas, pour
+                indiquer une séquence. Pour indiquer une hiérarchie, vous imbriquez les rubriques.
+                Considérons l'exemple suivant&#xA0;:</p>
+            <pre>&lt;map>
+ &lt;title>Ma première carte&lt;/title>
+ &lt;topicref href="canards.dita">
+   &lt;topicref href="variete.dita"/>
+   &lt;topicref href="taille.dita"/>
+   &lt;topicref href="nids.dita"/>
+  &lt;/topicref>
+&lt;/map>
+</pre>
+            <p>Pour plus de commodité, le code est indenté. Mais ce qui compte, c’est que le premier
+                topicref (canards) englobe les trois autres fichiers. Les rubriques variete.dita,
+                taille.dita et nids.dita sont tous subordonnés à la rubrique canards.dita. Le
+                résultat est une table des matières structurée comme ceci&#xA0;:</p>
+            <ul id="ul_bkw_cjq_wr">
+                <li>Canards<ul id="ul_j2d_djq_wr">
+                        <li>Variété</li>
+                        <li>Taille</li>
+                        <li>Nids</li>
+                    </ul></li>
+            </ul>
+            <p>En plus des liens vers des rubriques, vous pouvez référencer des fichiers carte dans
+                des fichiers carte. Dans cette approche, les cartes subordonnées (sous-cartes) sont
+                généralement une collection de contenu associé. Par exemple, vous pouvez créer un
+                fichier carte de niveau chapitre pour chaque chapitre d'un livre, puis référencer
+                ces fichiers carte de niveau chapitre dans votre fichier carte principal de niveau
+                livre.</p>
+            <p>À la place d'un topicref, une référence vers une carte utilise un mapref. Si vous
+                souhaitez utiliser le contenu de la carte canard en tant que composant d'une autre
+                carte, vous devez l'insérer dans la carte parente, comme indiqué ci-dessous:</p>
+            <pre>&lt;topicref href="poissons.dita">
+&lt;topicref href="oiseauxmarins.dita">
+<b>&lt;mapref href="canard.ditamap" format="ditamap"/></b></pre>
+            <p>Vidéo&#xA0;: <xref href="https://www.youtube.com/watch?v=5gXZN505XFQ" format="html"
+                    scope="external">Réutilisation d'un fichier carte dans un fichier
+                carte</xref></p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

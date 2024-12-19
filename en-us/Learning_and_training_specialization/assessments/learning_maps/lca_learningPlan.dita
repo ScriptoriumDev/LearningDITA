@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="lca_learningPlan">
+    <title>LearningPlan reference</title>
+    <prolog>
+        <author href="https://www.scriptorium.com" scope="external" format="html">Kaitlyn Heath,
+            Scriptorium</author>
+        <critdates>
+            <created date="2018-09-06"/>
+        </critdates>
+    </prolog>
+    <learningAssessmentbody>
+        <lcInteraction>
+            <lcSingleSelect id="lcSingleSelect_learning-plan">
+                <lcQuestion>Select the correct way to write a reference to a learning plan within a learning object in a learning object map. (pick one)</lcQuestion>
+                <lcAnswerOptionGroup>
+                    <lcAnswerOption>
+                        <lcAnswerContent>&lt;learningObjectRef href=”file.dita”/></lcAnswerContent>
+                    </lcAnswerOption>
+                    <lcAnswerOption>
+                        <lcAnswerContent>&lt;learningGroupRef href=”file.dita”/></lcAnswerContent>
+                    </lcAnswerOption>
+                    <lcAnswerOption>
+                        <lcAnswerContent>&lt;learningPlanRef href=”file.dita”/></lcAnswerContent>
+                        <lcCorrectResponse/>
+                    </lcAnswerOption>
+                    <lcAnswerOption>
+                        <lcAnswerContent>&lt;learningRef href=”file.dita”/></lcAnswerContent>
+                    </lcAnswerOption>
+                </lcAnswerOptionGroup>
+            </lcSingleSelect>
+        </lcInteraction>
+    </learningAssessmentbody>
+</learningAssessment>

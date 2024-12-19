@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="lc_advanced_bookmaps">
+    <title>Utiliser le traitement conditionnel</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey</author>
+        <author>Decarnelle Rémi (traducteur)</author>
+        <critdates>
+            <created golive="2016-12-01" date="2016-10-18"/>
+            <revised modified="2020-02-01"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup id="lcObjectivesGroup_obp_5py_dw">
+                <lcObjective>Identifier les quatre attributs conditionnels
+                    fondamentaux</lcObjective>
+                <lcObjective>Appliquer les quatre attributs conditionnels fondamentaux</lcObjective>
+                <lcObjective>Appliquer l'attribut rev</lcObjective>
+                <lcObjective>Créer un fichier ditaval pour filtrer et marquer le
+                    contenu</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="45"/>
+        </lcDuration>
+        <lcIntro>
+            <p>Cette leçon présente comment appliquer un traitement conditionnel à vos
+                rubriques.</p>
+        </lcIntro>
+    </learningContentbody>
+    <related-links>
+        <link
+            href="http://docs.oasis-open.org/dita/v1.2/os/spec/archSpec/condproc.html"
+            format="html">
+            <linktext>DITA Specification, Conditional processing (profiling)</linktext>
+        </link>
+        
+        <link
+            href="https://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Metadata_Conditional/c_Conditional_Processing_Concepts.html"
+            format="html">
+            <linktext>DITA Style Guide, Conditional processing concepts</linktext>
+        </link>
+        <link
+            href="https://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Metadata_Conditional/c_Select_Attributes.html"
+            format="html">
+            <linktext>DITA Style Guide, Condition (or select) attributes</linktext>
+        </link>
+        <link
+            href="https://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Metadata_Conditional/c_Filtering_and_Flagging.html"
+            format="html">
+            <linktext>DITA Style Guide, Filtering and flagging</linktext>
+        </link>
+        <link href="http://docs.oasis-open.org/dita/v1.2/os/spec/common/about-ditaval.html#ditaval"
+            format="html" scope="external">
+            <linktext>DITA Style Guide, DITAVAL elements</linktext>
+        </link>
+        <link href="http://www.scriptorium.com/2015/02/conditional-content-dita-premium/" format="html" scope="external">
+            <linktext>Conditional content in DITA</linktext>
+        </link>
+        
+        <link href="http://www.slideshare.net/IXIASOFT/optimizing-content-reuse-with-dita" format="html" scope="external">
+            <linktext>Optimizing Content Reuse with DITA </linktext>
+        </link>
+        
+        
+        
+    </related-links>
+</learningContent>

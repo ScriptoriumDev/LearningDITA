@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<learningContent id="lc_about_reltables">
+    <title>À propos des tables des relations</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2016-03-17"/>
+            <revised modified="2020-10-26"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcIntro>
+            <p>Les tables des relations précisent les relations entre les rubriques DITA dans une
+                carte. Elles peuvent également définir des associations entre des rubriques DITA et
+                des ressources non-DITA.</p>
+            <p>Les informations contenues dans la table des relations sont le plus souvent utilisées
+                par un processeur DITA pour générer des listes de liens connexes. Toutefois, les
+                informations peuvent être utilisées de nombreuses autres façons, en fonction des
+                capacités du processeur de sortie et du format de sortie cible. </p>
+            <note>
+                <p>Bien que les informations soient gérées dans un format tabulaire et que les
+                    conteneurs soient appelés «&#xA0;tables des relations&#xA0;», le tableau lui-même n'est
+                    jamais affiché en sortie.</p>
+            </note>
+            <ul id="ul_a1z_zpt_jv">
+                <li>Le fait de conserver les associations de rubrique dans une table des relations
+                    (plutôt que d'utiliser des références croisées intégrées) garantit que les
+                    rubriques sont réutilisables. Si une rubrique contient des références croisées
+                    intégrées, la rubrique cible de chaque référence croisée doit également être
+                    disponible dans la carte, que la rubrique soit pertinente ou non pour la carte.
+                    (Ensuite, bien sûr, si cette rubrique a des dépendances de références croisées,
+                    elles doivent également être présentes, et ainsi de suite). Une table des
+                    relations élimine ces dépendances.</li>
+                <li>Un réseau de liens entre des rubriques connexes peut être maintenu en un seul
+                    endroit (la table des relations), plutôt que d'être réparti sur l'ensemble des
+                    rubriques. Cela facilite grandement la maintenance des réseaux ou des réseaux de
+                    liens.</li>
+            </ul>
+            <p>Les tables de relations sont contenus dans les cartes et les bookmaps DITA. Une carte
+                ou une bookmap peut contenir un certain nombre de tables des relations.</p>
+            <p>Chaque <i>ligne</i> dans une table des relations contient un ensemble de contenus
+                connexes. Par exemple, une ligne peut contenir des références à toutes les rubriques
+                qui se rapportent à un composant spécifique du système, ou à toutes les rubriques
+                qui sont liées à une opération particulière. </p>
+            <p>Chaque <i>colonne</i> de la table des relations contient un <i>type</i> similaire
+                d'informations. L'utilisation la plus courante des colonnes consiste à séparer les
+                types de rubriques concept, tâche et référence. Si vous utilisez d'autres types de
+                rubriques, vous pouvez définir des colonnes séparées pour celles-ci. Dans certains
+                cas, une autre colonne peut contenir des liens vers des informations externes,
+                telles que des sites internet.</p>
+            <note>L'ordre des colonnes ou la position relative n'a aucune signification dans les
+                tables des relations.</note>
+            <p>Chaque <i>cellule</i> de la table des relations contient un ou plusieurs éléments
+                &lt;topicref> qui indiquent les rubriques liées dans la carte. </p>
+            <p>Voici un bref exemple de table des relations. </p>
+            <image href="../images/reltable.png" id="image_gbh_dt5_jv" base="2020/11"/>
+            <p>Les en-têtes de colonne indiquent les types d'informations qui se trouvent dans
+                chaque colonne. La première ligne du corps contient des références à des rubriques
+                liées à l'alimentation&#xA0;; la deuxième ligne du corps se réfère à des rubriques liées
+                au logement. Deux choses supplémentaires à noter à propos de cet exemple&#xA0;:</p>
+            <ul id="ul_k5c_nt5_jv">
+                <li>Un élément &lt;topicref> peut apparaître sur plusieurs lignes. Par exemple,
+                    l'élément topicref de r_mangeoires.dita apparaît sur deux lignes différentes
+                    parce qu'il concerne à la fois l'alimentation et le logement.</li>
+                <li>Les cellules de la table des relations peuvent contenir un certain nombre
+                    d'éléments &lt;topicref> (y compris aucun).</li>
+            </ul>
+            <p>Lorsqu'un générateur de sortie crée des sorties à partir de vos rubriques DITA, il
+                utilise la table des relations pour créer des liens vers des informations
+                connexes.</p>
+            <ul id="ul_gfs_1d5_jv">
+                <li>Pour toutes les rubriques référencés dans une ligne, le générateur de sortie
+                    crée des liens entre ces rubriques. En général, cela prend la forme d'une liste
+                    de liens à la fin de la sortie d'une rubrique.</li>
+                <li>Si nécessaire (et si le générateur de sortie le permet), la liste des liens peut
+                    être groupée et étiquetée par les colonnes définies dans la table des
+                    relations.</li>
+            </ul>
+            <note>
+                <p>Pour plus d'informations sur l'élément &lt;reltable> et les éléments qu'il
+                    contient, se référer à la <xref
+                        href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/reltable.html"
+                        format="html" scope="external">norme OASIS DITA version 1.2</xref>.</p>
+            </note>
+            <!--<draft-comment>Dans les cartes et bookmaps, l'élément &lt;topicref> indique l'ordre et
+                la structure hiérarchique du contenu. Les éléments &lt;topicref> sont également
+                utilisés dans les tables des relations, mais dans ce cas, la position des éléments
+                &lt;topicref> dans le tableau indique la relation de la rubrique avec d'autres
+                rubriques.</draft-comment>-->
+        </lcIntro>
+    </learningContentbody>
+</learningContent>

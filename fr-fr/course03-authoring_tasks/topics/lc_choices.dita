@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_xyj_ddc_bt" xml:lang="fr-FR">
+    <title>Donner le choix au lecteur</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-08-14"/>
+            <revised modified="2020-05-02"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Dans l'optique de donner une instruction au lecteur, il peut y avoir plus d'une
+                option pour ce dernier. Par exemple, pour utiliser un autoradio stéréo, le lecteur
+                peut choisir son mode d'utilisation (AM, FM, CD, source externe, etc.).</p>
+            <p>Pour présenter cette information, et pour lui attribuer une étiquette sémantiquement
+                appropriée, vous pouvez utiliser les éléments &lt;choices> ou &lt;choicetable>.</p>
+            <ul id="ul_nsn_tqx_kt">
+                <li>
+                    <p>Utilisez &lt;choices> quand les choix requièrent seulement une bref
+                        description</p>
+                </li>
+                <li>
+                    <p>Utilisez &lt;choicetable> (détaillé plus loin dans ce cours) lorsque vous
+                        avez besoin de fournir des mots-clés spécifiques, avec une description
+                        étendue pour chacun d'entre eux</p>
+                </li>
+            </ul>
+            <p>L'élément &lt;choices> est habituellement présenté comme une liste à puces. La
+                structure de l'élément &lt;choices> est comme celle de l'élément &lt;ul>&#xA0;:</p>
+            <simpletable frame="all" relcolwidth="1.0* 1.0*" id="simpletable_mdl_bsw_mt">
+                <sthead>
+                    <stentry>Élément &lt;ul></stentry>
+                    <stentry>Élément &lt;choices></stentry>
+                </sthead>
+                <strow>
+                    <stentry>
+                        <pre>&lt;ul&gt;
+   &lt;li&gt;une chose&lt;/li&gt;
+   &lt;li&gt;un autre chose&lt;/li&gt;
+&lt;/ul&gt;</pre>
+                    </stentry>
+                    <stentry>
+                        <pre>&lt;choices&gt;
+   &lt;choice&gt;une chose&lt;/choice&gt;
+   &lt;choice&gt;une autre chose&lt;/choice&gt;
+&lt;/choices&gt;</pre>
+                    </stentry>
+                </strow>
+            </simpletable>
+            <p>L'élément &lt;choices> contient un ou plusieurs éléments &lt;choice>. Chaque élément
+                &lt;choice> présente une des options du lecteur. Le contenu de l'élément &lt;choice>
+                est tout élément pouvant être utilisé dans un élément &lt;li>.</p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_pcm_2dc_bt">
+        <title/>
+        <taskbody>
+            <steps id="steps_qjd_3fc_bt">
+                <step>
+                    <cmd>Continuez de travailler sur le fichier l_tache_debut.dita</cmd>
+                </step>
+                <step>
+                    <!--<note>Ces étapes reprennent l'exemple qui se déroule en continu dans ce cours. Dans la première étape, le sujet complet de la tâche est montré&#xA0;; dans les étapes suivantes, seuls les éléments centraux de la rubrique seront montrés. </note>-->
+                    <cmd>Après la balise de fermeture du premier élément &lt;step>, ajoutez un
+                        nouvel élément &lt;step>. À l'intérieur de cet élément &lt;step>, créez un
+                        élément &lt;cmd> (si aucun n'a été créé pour vous). Ajoutez le contenu
+                        présenté ici dans l'élément &lt;cmd>&#xA0;:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+&lt;task id="ma_premiere_tache">
+   ...
+         &lt;/step>
+<ph outputclass="newchanged">         &lt;step>
+            &lt;cmd>Choisissez un guide de terrain pour identifier les canards.&lt;/cmd>
+         &lt;/step>
+</ph>      &lt;/steps>
+   &lt;/taskbody>
+&lt;/task></pre>
+                    </stepxmp>
+                </step>
+                <step id="step_dd4_244_ft">
+                    <cmd>Après le nouvel élément &lt;cmd>, ajoutez un élément &lt;choices>.</cmd>
+                    <stepxmp>
+                        <pre>&lt;step>
+   &lt;cmd>Choisissez un guide de terrain pour identifier les canards.&lt;/cmd><ph outputclass="newchanged">
+   &lt;choices>
+   &lt;/choices></ph>
+&lt;/step>
+</pre>
+                    </stepxmp>
+                </step>
+                <step id="step_ed4_244_ft">
+                    <cmd>Si votre éditeur ne l'a pas fait automatiquement, ajoutez un premier
+                        élément &lt;choice> à l'intérieur de l'élément &lt;choices>.</cmd>
+                    <stepxmp>
+                        <pre>&lt;step>
+   &lt;cmd>Choisissez un guide de terrain pour identifier les canards.&lt;/cmd>
+   &lt;choices>
+<ph outputclass="newchanged">      &lt;choice>De nombreux observateurs de canards modernes s'appuient sur le guide Sibley&lt;/choice>
+</ph>   &lt;/choices>
+&lt;/step>
+</pre>
+                    </stepxmp>
+                    <info>Par défaut, la plupart des générateurs de publication DITA formatent
+                        l'élément &lt;choices> comme une liste à puce.</info>
+                </step>
+                <step>
+                    <cmd>Ajoutez un élément &lt;choice> supplémentaire.</cmd>
+                    <stepxmp>
+                        <pre>&lt;step>
+   &lt;cmd>Choisissez un guide de terrain pour identifier les canards.&lt;/cmd>
+   &lt;choices>
+      &lt;choice>De nombreux observateurs de canards modernes s'appuient sur le guide Sibley&lt;/choice>
+<ph outputclass="newchanged">      &lt;choice>Celui préféré par les traditionalistes est le guide Peterson&lt;/choice>
+</ph>   &lt;/choices>
+&lt;/step>
+</pre>
+                    </stepxmp>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_oyt_5r4_tx">
+  <title>Élements à pousser (conaction)</title>
+  <body>
+    <p conref="../../shared/topics/lc_general_housekeeping.dita#download" conaction="pushreplace">
+      Pour examiner les sources de certains exemples de cette leçon,  téléchargez <xref
+        keyref="sample_file"/> puis décompressez le contenu dans le dossier de votre choix. Si vous
+      avez un transformateur (tel que DITA Open Toolkit), vous pouvez l'utilisez pour générer une
+      publication et mettre la théorie en pratique.</p>
+
+    <!-- This description omits the Oxygen editor and any mention of videos. -->
+    <p conref="../../shared/topics/lc_general_housekeeping.dita#editor_info" conaction="pushreplace"
+      > Dans ces leçons et exercices, nous vous montrons le code DITA des fichiers d'exemples. La
+      plupart des éditeurs DITA ont des fonctions d'autocomplétion pour vous guider dans la création
+      d'éléments. Par exemple si vous ajoutez la balise ouvrante d'un élémént, la plupart des
+      éditeurs DITA ajouteront la balise fermante. Par conséquent, vous n'avez pas besoin de créer
+      du code DITA depuis une feuille blanche.</p>
+
+    <p conref="../../shared/topics/lc_general_housekeeping.dita#saving" conaction="pushreplace"> The
+      lessons will instruct you on which files to use for the samples. Ces leçons vous indiqueront
+      quels fichiers d'exemples sont à utiliser.</p>
+    
+    <p conref="../../shared/topics/lc_general_housekeeping.dita#download" conaction="pushreplace">
+      Téléchargez <xref keyref="sample_file"/> pour obtenir les fichiers d'exemples pour le cours
+      sur la<keyword keyref="course_name"/>. Décompressez ensuite le contenu de l'archive dans le
+      dossier de votre choix.</p>
+  </body>
+</topic>

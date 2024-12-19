@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="my_first_ref">
+  <title>tNav</title>
+  <refbody>
+    <section>
+      <p>The <cmdname>tNav</cmdname> command is used in the Duck Database to navigate to a
+        different table or view.</p>
+    </section>
+    <refsyn>
+      <synph>
+        -tNav <var>tName</var> [tView]
+      </synph>
+    </refsyn>
+    <properties>
+      <prophead>
+        <proptypehd>Type</proptypehd>
+        <propvaluehd>Name</propvaluehd>
+        <propdeschd>Description</propdeschd>
+      </prophead>
+      <property>
+        <proptype>Table</proptype>
+        <propvalue>dbo.DBBL</propvalue>
+        <propdesc>Dabbling ducks</propdesc>
+      </property>
+      <property>
+        <proptype/>
+        <propvalue>dbo.DVNG</propvalue>
+        <propdesc>Diving ducks</propdesc>
+      </property>
+      <property>
+        <proptype/>
+        <propvalue>dbo.WHST</propvalue>
+        <propdesc>Whistling ducks</propdesc>
+      </property>
+      <property>
+        <proptype>View</proptype>
+        <propvalue>regn.ne</propvalue>
+        <propdesc>Ducks located primarily in the northeast</propdesc>
+      </property>
+      <property>
+        <proptype/>
+        <propvalue>regn.se</propvalue>
+        <propdesc>Ducks located primarily in the southeast</propdesc>
+      </property>
+      <property>
+        <proptype/>
+        <propvalue>pttrn.migr</propvalue>
+        <propdesc>Ducks organized by migratory pattern</propdesc>
+      </property>
+    </properties>
+  </refbody>
+</reference>

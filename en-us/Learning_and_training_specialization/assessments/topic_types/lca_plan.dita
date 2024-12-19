@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="lca_plan">
+    <title>learningPlan</title>
+    <prolog>
+        <author href="https://www.scriptorium.com" scope="external" format="html">Kaitlyn Heath, Scriptorium</author>
+        <critdates>
+            <created date="2018-08-24"/>
+        </critdates>
+    </prolog>
+    <learningAssessmentbody>
+        <lcInteraction>
+            <lcTrueFalse id="t-f_l-plan">
+                <lcQuestion>You must create a &lt;learningPlan> in order to use the L&amp;T specialization. (true/false).</lcQuestion>
+                <lcAnswerOptionGroup id="optiongroup_lplan">
+                    <lcAnswerOption>
+                        <lcAnswerContent>True</lcAnswerContent>
+                        <lcFeedback>The &lt;learningPlan> topic type is optional.</lcFeedback>
+                    </lcAnswerOption>
+                    <lcAnswerOption>
+                        <lcAnswerContent>False</lcAnswerContent>
+                        <lcCorrectResponse/>
+                    </lcAnswerOption>
+                </lcAnswerOptionGroup>
+            </lcTrueFalse>
+        </lcInteraction>
+    </learningAssessmentbody>
+</learningAssessment>

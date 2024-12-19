@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd" []>
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="content_pgf_3gt_qt">
+    <title>Considérations sur l’environnement de publication DITA</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Noelle Russell, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Ashley Stant, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Bill Swallow, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Jake Campbell, Scriptorium</author>
+        <author type="contributor" href="https://www.linkedin.com/in/marinemartinguillerez/"
+            scope="external" format="html" class="- topic/author ">Marine Guillerez
+            (Traductrice)</author>
+        <critdates>
+            <created golive="2017-03-27" date="2017-02-06"/>
+            <revised modified="2020-12-07"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction id="lcInstruction_l25_5sk_xnb">
+            <p>Les environnements de publication DITA peuvent comprendre des systèmes open source
+                utilisés de manière autonome ou des systèmes commerciaux au niveau de l'entreprise
+                qui gèrent l'ensemble du cycle de vie du contenu. Cette leçon couvre trois
+                environnements de publication DITA communs&#xA0;:</p>
+            <ul id="ul_xdz_2zh_cz">
+                <li>Une instance autonome du DITA Open Toolkit (DITA OT)</li>
+                <li>Le DITA OT utilisé dans l’éditeur oXygen XML</li>
+                <li>Le DITA OT utilisé dans un système de gestion du contenu par composants
+                    (CCMS)</li>
+            </ul>
+            <note>Ces environnements de publication DITA seront abordés plus en détail plus tard
+                dans cette leçon.</note>
+            <p>Les facteurs suivants peuvent vous aider à évaluer les options de
+                publication&#xA0;:</p>
+            <ul id="ul_zxj_ywh_cz">
+                <li><b>À quelle fréquence vous mettez à jour votre contenu.</b> Plus vous mettez à
+                    jour votre contenu souvent, plus vous devrez générer de nouvelles publications
+                    pour tenir votre matériel publié à jour. Si vous disposez d'un calendrier de
+                    mises à jour régulières et fréquentes, un environnement de publication qui vous
+                    permet de programmer des builds automatisés fonctionnera mieux.</li>
+                <li><b>Exigences de localisation.</b> Traduisez-vous votre contenu dans d’autres
+                    langues&#xA0;? Si oui, êtes-vous responsable de la publication du contenu
+                    traduit&#xA0;? Si vous ne traduisez pas, le serez-vous à l’avenir&#xA0;? Toutes
+                    ces questions sont des considérations importantes dans le choix d’un
+                    environnement d’édition. Par exemple, si vous publiez du contenu traduit, vous
+                    pouvez avoir plusieurs variantes de chaque type de publication (comme un format
+                    PDF pour l’anglais, un autre pour l’espagnol, et encore un autre pour le
+                    chinois), ce qui augmente votre nombre total de publications.</li>
+                <li><b>La quantité de contenu dont vous disposez.</b> Si vous prévoyez de publier un
+                    grand volume de contenu, vous aurez plus probablement besoin d’un environnement
+                    de publication commerciale au niveau de l’entreprise. Un outil de publication
+                    open source peut fonctionner pour un ou deux manuels contenant quelques
+                    centaines de pages de contenu&#xA0;; il ne sera probablement pas possible de
+                    publier des centaines de manuels avec des milliers de pages de contenu.</li>
+                <li><b>La quantité de publications dont vous avez besoin.</b> Avez-vous seulement
+                    besoin de publier un type de publication, ou avez-vous besoin de plusieurs
+                    types&#xA0;? Pour chaque type de publication, de combien de formats différents
+                    avez-vous besoin&#xA0;? (Par exemple, pour la sortie PDF, vous pouvez avoir
+                    besoin d’un format pour les manuels, un autre pour les fiches de données, et un
+                    autre pour le matériel de formation, pour un total de trois sorties PDF
+                    distinctes.) Si vous avez besoin de publier un grand nombre de publication, vous
+                    aurez probablement besoin d’un système commercial&#xA0;; si vous ne publiez
+                    qu’une ou deux publications, un environnement autonome peut répondre à vos
+                    besoins.</li>
+                <li><b>Besoins futurs en matière de production.</b> Avez-vous un petit nombre
+                    d’exigences en matière de production maintenant tout en sachant que vous devrez
+                    en ajouter d’autres à l’avenir&#xA0;? Vous pouvez envisager de commencer par un
+                    environnement de publication qui s’adaptera à ces besoins futurs. Selon les
+                    préoccupations budgétaires, vous pouvez également commencer dans un
+                    environnement de publication plus petit ou autonome et passer à un environnement
+                    plus grand lorsque cela devient nécessaire. Si vous choisissez de commencer dans
+                    un environnement plus petit, il est important de déterminer si les outils que
+                    vous utilisez vous permettent d’exporter votre contenu et de l’utiliser plus
+                    tard dans un environnement plus vaste.</li>
+            </ul>
+            <p>Si vous devez publier le PDF, votre environnement de publication devra inclure un
+                formateur FO. Le type de formateur que vous choisissez dépend du formatage et de la
+                conception de votre sortie PDF. Un formateur open source (comme Apache FOP, le
+                formateur FO par défaut pour DITA OT) peut être capable de produire des conceptions
+                simples et sans fioritures, avec des limitations sur certaines fonctionnalités.
+                Toutefois, un formateur commercial (comme Antenna House Formatter ou RenderX XEP)
+                sera préférable pour publier des fichiers PDF avec des mises en page plus complexes. </p>
+            <p>Le coût devrait être un facteur dans le choix d’un formateur FO&#xA0;; les formateurs
+                commerciaux exigent des droits de licence, alors que les formateurs open source n’en
+                demandent pas. Vous devez également tenir compte de vos exigences en matière de
+                localisation lorsque vous choisissez un formateur, car les différents formateurs ont
+                différents degrés de prise en charge des caractères linguistiques.</p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

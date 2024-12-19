@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<map xml:lang="fr-FR">
+ <title>Clés pour la réutilisation des éléments avancés</title>
+ <keydef keys="sample_file" href="http://www.learningdita.fr/wp-content/uploads/2020/10/exemples_reutilisation_avancee.zip" format="zip" scope="external">
+  <topicmeta>
+   <linktext>reutilisation_avancee_exemples.zip</linktext>
+  </topicmeta>
+ </keydef>
+ 
+ <keydef keys="course_name">
+  <topicmeta>
+   <keywords>
+    <keyword>Réutilisation avancée dans DITA</keyword>
+   </keywords>
+  </topicmeta>
+ </keydef>
+ 
+ <!-- key for warehouse file containing conkeyref elements. -->
+ <keydef keys="sample_contents" href="../topics/z_conkeyref_elements.dita"/>
+ 
+ <!-- IMAGES -->
+ 
+ 
+</map>

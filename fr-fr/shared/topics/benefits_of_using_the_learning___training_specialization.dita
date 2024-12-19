@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="benefits_of_using_the_learning___training_specialization">
+    <title>Avantages de la spécialisation Apprendre et Former</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Kaitlyn Heath, Scriptorium</author>
+        <author type="contributor" href="https://www.linkedin.com/in/marinemartinguillerez/"
+            scope="external" format="html" class="- topic/author ">Marine Guillerez
+            (Traductrice)</author>
+        <critdates>
+            <created date="2018-01-26"/>
+            <revised modified="20213-05-15"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction id="lcInstruction_js5_cqb_yz">
+            <p>La spécialisation A&amp;F permet d'utiliser le contenu de la formation de plusieurs
+                manières. Par exemple, une rubrique d'évaluation de l'apprentissage peut être
+                utilisée pour générer un test pour les étudiants, mais elle peut également contenir
+                des informations permettant de générer des corrigés pour les formateurs. En
+                appliquant différents scénarios de transformation à un ensemble de sujets, vous
+                pouvez les utiliser à des fins multiples.</p>
+            <p>La spécialisation A&amp;F, comme le reste de DITA, utilise des éléments sémantiques,
+                ce qui signifie que les noms des éléments donnent une idée de leur utilisation. Par
+                exemple, l'élément &lt;table> indique que les éléments contiennent le contenu d'un
+                tableau. Dans la spécialisation A&amp;F, les éléments sémantiques sont spécifiques à
+                la spécialisation&#xA0;: l'élément &lt;learningOverviewbody> contient le corps d'un
+                sujet &lt;learningOverview>.</p>
+            <p>L'élément &lt;learningObject> peut être utilisé dans la spécialisation A&amp;F pour
+                regrouper des sujets d'apprentissage en un seul objet d'apprentissage. Les plans
+                d'apprentissage, les aperçus, les contenus, les évaluations et les résumés d'une
+                leçon peuvent être regroupés en un seul objet d'apprentissage.</p>
+            <p>L'élément &lt;learningObject> vous permet également d'ajouter tout contenu DITA, même
+                s'il n'a pas été créé à l'aide des rubriques A&amp;F.</p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

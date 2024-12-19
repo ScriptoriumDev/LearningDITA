@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_f33_1kp_wr821" xml:lang="fr-FR">
+ <title>Planifier</title>
+ <prolog>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+   Scriptorium</author>
+  <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external" format="html"
+   >Marine Guillerez (Traductrice)</author>
+  <critdates>
+   <created date="2015-08-28"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcMultipleSelect id="multi_select_plan">
+    <lcQuestion>Planifier vos tâches devrait impliquer ce qui suit&#xA0;: (choisir toutes les
+     réponses qui s'appliquent)</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_mxg_4q1_mt">
+     <lcAnswerOption>
+      <lcAnswerContent>Collecter l'information sur ce que l'utilisateur devra
+       réaliser</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Mettre toutes vos instructions dans une tâche géante</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Écrire les tâches à mesure que vous y pensez</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Comprendre le périmètre des tâches</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>Planifier une tâche doit impliquer la collecte d'information sur ce que le
+     lecteur doit réaliser, identifier les tâches et leur périmètre, considérer les besoins des
+     lecteurs et planifier les tâches en conséquence.</lcFeedbackIncorrect>
+   </lcMultipleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<learningAssessment id="lca_filtering_attribute_values">
+ <title>Valeur des attributs conditionnels</title>
+ <prolog>
+  <author type="creator" href="http://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Simon Bate</author>
+  <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Jake Campbell</author>
+  <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Gretyl Kinsey</author>
+  <author>Decarnelle Rémi (traducteur)</author>
+  <critdates>
+   <created golive="2016-11-30" date="2016-11-03"/>
+   <revised modified="2021-02-24"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction id="lcInteraction_b4l_mkh_vx">
+   <lcMultipleSelect id="lcMultipleSelect_qrr_4kh_vx">
+    <lcQuestion>Quelles sont les affirmations correctes ? (choisir toutes les bonnes
+     réponses)</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_rrr_4kh_vx">
+     <lcAnswerOption>
+      <lcAnswerContent>La valeur des attributs conditionnels sont statiques et ne peut être
+       modifiée.</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Vous pouvez donner un ou plusieurs valeurs à un attribut
+       conditionnel.</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>La valeur des attributs conditionnels est sensible à la
+       casse.</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Vous n'avez pas besoin d'utiliser les mêmes valeurs que les autres membres de
+       votre équipe pour les attributs conditionnels.</lcAnswerContent>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>La façon d'utiliser les attributs conditionnels dépend de vous. Vous pouvez
+     donner une ou plusieurs valeurs à vos attributs conditionnels (séparé par un espace). La valeur
+     des attributs est sensible à la casse. Vous et votre équipe devraient se mettre d'accord sur
+     les valeurs à donner aux attributs conditionnels.</lcFeedbackIncorrect>
+   </lcMultipleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

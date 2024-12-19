@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_lyd_k53_wr">
+ <title/>
+ <shortdesc/>
+ <prolog>
+  <author>Sharon Burton</author>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Alan Pringle,
+   Scriptorium</author>
+  <critdates>
+   <created date="2015-04-28"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction><lcTrueFalse id="map_reuse">
+   <lcQuestion>Vous pouvez réutiliser des fichiers map dans d'autres fichiers map.</lcQuestion>
+   <lcAnswerOptionGroup>
+    <lcAnswerOption>
+     <lcAnswerContent>Vrai</lcAnswerContent>
+     <lcCorrectResponse/>
+    </lcAnswerOption>
+    <lcAnswerOption>
+     <lcAnswerContent>Faux</lcAnswerContent>
+     <lcFeedback>Vous pouvez faire référence à des fichiers map dans un fichier map.</lcFeedback>
+    </lcAnswerOption>
+   </lcAnswerOptionGroup>
+  </lcTrueFalse></lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

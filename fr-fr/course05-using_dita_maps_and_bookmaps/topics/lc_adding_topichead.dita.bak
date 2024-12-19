@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_wdd_jrw_kv">
+    <title>Ajouter un élément topichead à une bookmap</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2016-03-07"/>
+            <revised modified="2020-10-26"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>L'élément &lt;topichead> vous permet de spécifier une entrée de titre seule dans une
+                carte qui implique une ou plusieurs rubriques. Le titre spécifié apparaîtra à la
+                fois dans la table des matières, si elle existe, et en tant que titre dans le corps
+                du texte. L'élément &lt;topichead> doit contenir l'élément &lt;navtitle>. </p>
+            <p>L'élément &lt;topichead> est utile car il permet de regrouper des sujets qui sont
+                contextuellement liés sans impliquer une relation hiérarchique, et évite d'avoir à
+                créer une rubrique conteneur pour créer un titre.</p>
+            <note>
+                <p>Pour plus d'information sur l'élément &lt;topichead>, se référer à la <xref
+                        href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/topichead.html"
+                        format="html" scope="external">norme OASIS DITA version 1.2</xref>.</p>
+            </note>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_qff_13x_kv">
+        <title/>
+        <taskbody>
+            <steps>
+                <step>
+                    <cmd>Continuez d'utiliser le fichier
+                        exemples_cartes_bookmaps/exemples/_b_canards_avances_debut.ditamap.</cmd>
+                </step>
+                <step>
+                    <cmd>Ajoutez une balise &lt;topichead> avant le &lt;topicref> référençant
+                        t_creer_table.dita et ajoutez une balise de fermeture &lt;/topichead> après
+                        le &lt;topicref> référençant t_modifier_table.dita comme le montre l'exemple
+                        suivant&#xA0;:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+&lt;bookmap id="canards">
+...
+&lt;chapter href="c_canarddb.dita">
+<ph outputclass="newchanged">&lt;topichead></ph>
+   &lt;topicref href="t_creer_table.dita">
+   &lt;topicref href="t_ajouter_entree.dita">
+   &lt;topicref href="t_modifier_entree.dita">
+   &lt;topicref href="t_supprimer_entree.dita">
+   &lt;topicref href="t_requetes.dita">
+   &lt;topicref href="t_modifier_table.dita">
+<ph outputclass="newchanged">&lt;/topichead></ph>
+</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Ajoutez un élément &lt;topicmeta> après l'élément ouvrant &lt;topichead>
+                        que vous venez d'ajouter et ajoutez-y un élément &lt;navtitle> comme le
+                        montre l'exemple suivant&#xA0;:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+&lt;bookmap id="canards">
+...
+&lt;chapter href="c_canarddb.dita">
+&lt;topichead>
+<ph outputclass="newchanged">   &lt;topicmeta>
+      &lt;navtitle>Tâches communes&lt;/navtitle>
+   &lt;/topicmeta></ph>
+   &lt;topicref href="t_creer_table.dita">
+   &lt;topicref href="t_ajouter_entree.dita">
+   &lt;topicref href="t_modifier_entree.dita">
+   &lt;topicref href="t_supprimer_entree.dita">
+   &lt;topicref href="t_requetes.dita">
+   &lt;topicref href="t_modifier_table.dita">
+&lt;/topichead>
+</pre>
+                    </stepxmp>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

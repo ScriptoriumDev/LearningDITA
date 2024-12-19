@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_nww_qsx_5t" xml:lang="fr-FR">
+    <title>Utiliser des tableaux de relations pour les liens</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-10-27"/>
+            <revised modified="2020-06-23"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcIntro>
+            <p>Une caractéristique très utile de la documentation de référence de la ligne de
+                commande ou de l'API est que chaque rubrique contient des liens vers des commandes
+                ou des fonctions connexes. Par exemple, une commande pour monter un dispositif est
+                liée à la commande pour démonter un dispositif&#xA0;; une commande pour configurer
+                les ports est liée à d'autres commandes qui concernent également les ports&#xA0;;
+                une fonction pour lancer une connexion réseau est liée à la fonction suivante que la
+                plupart des programmeurs de réseau devront appeler.</p>
+            <p>Avant DITA, ces listes de liens connexes pouvaient être difficiles à maintenir, en
+                particulier pour les produits encore en cours de développement. Si un composant
+                change (ou est ajouté ou supprimé), vous devez trouver tous les liens pertinents et
+                les modifier.</p>
+            <p>Toutefois, si vous utilisez un tableau des relations DITA pour suivre les références
+                connexes, l'Open Toolkit DITA peut créer ces liens pour vous lorsque votre document
+                est généré. Si un élément change, vous effectuez une ou deux modifications dans le
+                tableau des relations, et la prochaine fois que vous générerez votre document, le
+                changement se reflètera dans tous les liens. </p>
+            <p>Notez également que si vous convertissez des contenus anciens en DITA, votre
+                processus de conversion peut éliminer (ou au moins commenter) ces listes de liens.
+            </p>
+        </lcIntro>
+    </learningContentbody>
+</learningContent>

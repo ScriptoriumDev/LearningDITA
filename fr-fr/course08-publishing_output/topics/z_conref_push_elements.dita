@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_oyt_5r4_tx">
+  <title>Éléments push conref</title>
+  <body>
+    <p conref="../../shared/topics/lc_general_housekeeping.dita#download" conaction="pushreplace">
+      Pour consulter les sources de certains des exemples de ce cours, téléchargez maintenant <xref
+        keyref="sample_file"/>. Extrayez le contenu et placez-le dans un répertoire auquel vous
+      pouvez accéder facilement. Si vous avez accès à un générateur de sortie (généralement le DITA
+      Open Toolkit), vous pouvez l'utiliser pour générer des sorties et voir ces principes en
+      action. </p>
+
+    <!-- Cette description omet l'éditeur Oxygen et toute mention de vidéos. -->
+    <p conref="../../shared/topics/lc_general_housekeeping.dita#editor_info" conaction="pushreplace"
+      > Dans les instructions et les exemples, nous montrons le code DITA pour les exemples de
+      fichiers. La plupart des éditeurs DITA disposent de fonctions d'autocomplétion ou d'autres
+      fonctions similaires pour vous guider dans le processus d'ajout d'éléments (par exemple, si
+      vous tapez la balise d'ouverture d'un élément, la plupart des éditeurs DITA ajouteront
+      automatiquement la balise de fermeture pour vous). Par conséquent, vous n'aurez probablement
+      pas besoin de créer chaque élément de code à partir de zéro lorsque vous travaillerez.</p>
+
+    <p conref="../../shared/topics/lc_general_housekeeping.dita#saving" conaction="pushreplace"> Les
+      leçons vous indiqueront les fichiers à utiliser pour les exemples. </p>
+
+    <p conref="../../shared/topics/lc_general_housekeeping.dita#download" conaction="pushreplace">
+      Téléchargez <xref keyref="sample_file"/> maintenant. Il contient les fichiers d'exemple pour
+      l'ensemble du cours <keyword keyref="course_name"/>. Extrayez le contenu et placez-le dans un
+      répertoire auquel vous pouvez accéder facilement.</p>
+
+  </body>
+</topic>

@@ -4,11 +4,11 @@
 <learningContent id="content_pgf_3gt_qt">
     <title>Using keys for paths</title>
     <prolog class="- topic/prolog ">
-        <author type="creator" href="http://easydita.com/" format="html" scope="external"
+        <author type="creator" href="https://easydita.com/" format="html" scope="external"
             class="- topic/author ">Simon Bate</author>
-        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+        <author type="contributor" href="https://easydita.com/" format="html" scope="external"
             class="- topic/author ">Jake Campbell</author>
-        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+        <author type="contributor" href="https://easydita.com/" format="html" scope="external"
             class="- topic/author ">Gretyl Kinsey</author>
         <critdates>
             <created golive="2016-12-01" date="2016-10-18"/>
@@ -35,7 +35,7 @@
                 or “svg”.</p>
             <p>If you’re defining a key for an external resource, such as a URL, you must use
                     <tt>scope="external"</tt> with the &lt;keydef> element:</p>
-            <pre>&lt;keydef keys="our_url" href="http://www.scriptorium.com" scope="external" format="html"/></pre>
+            <pre>&lt;keydef keys="our_url" href="https://www.scriptorium.com" scope="external" format="html"/></pre>
             <p>The scope attribute prevents the DITA Open Toolkit (or other processors) from
                 attempting to resolve the href target as part of the definition. Because the href
                 attribute points to a web page, the format attribute must contain the value

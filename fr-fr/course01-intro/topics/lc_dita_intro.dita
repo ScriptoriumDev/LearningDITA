@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_gxd_rry_5r1" xml:lang="fr-FR">
+    <title>Qu'est-ce que DITA&#xA0;?</title>
+    <shortdesc/>
+    <prolog>
+        <author>Sharon Burton</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-04-28"/>
+            <revised modified="2019-08-18"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup>
+                <lcObjective>Présenter le contexte et l'origine de DITA.</lcObjective>
+                <lcObjective>Identifier le balisage DITA.</lcObjective>
+                <lcObjective>Décrire ce qui rend une rubrique réutilisable.</lcObjective>
+                <lcObjective>Présenter une rubrique minimale.</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="30"/>
+        </lcDuration>
+        <lcIntro>
+            <p>DITA est l'abréviation de Darwin Information Typing Architecture. C'est un standard
+                ouvert créé, à l'origine par IBM. IBM donna DITA à <xref
+                    href="https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=dita"
+                    format="html" scope="external">OASIS</xref> (l'Organisation pour l'Avancement
+                des Normes d'Information Structurée – Organization for the Advancement of Structured
+                Information Standards) en 2005.</p>
+            <p>DITA est une méthode basée sur XML et indépendante des outils pour créer, organiser
+                et gérer du contenu. DITA repose sur&#xA0;:<ul id="ul_dwl_1ty_5r">
+                    <li>La création thèmatique</li>
+                    <li>La séparation du contenu du formatage</li>
+                    <li>Le minimalisme</li>
+                    <li>les concepts de création structurée</li>
+                </ul>Le fait que DITA soit un standard ouvert basé sur XML signifie qu'il existe un
+                ensemble d'outils divers pour créer, éditer, formater et stocker des fichiers DITA.
+                Au fur et à mesure que les besoins de votre entreprise évoluent, vous pouvez
+                utiliser l'outil le mieux adapté à vos besoins.</p>
+        </lcIntro>
+    </learningContentbody>
+    <related-links>
+        <link
+            href="https://www.oxygenxml.com/dita/styleguide/webhelp-feedback/Artefact/Authoring_Concepts/c_The_History_of_DITA.html"
+            scope="external" format="html">
+            <linktext>Histoire de DITA</linktext>
+        </link>
+        <link href="http://www.w3.org/html/wg/wiki/DraconianErrorHandling" format="html"
+            scope="external">
+            <linktext>Gestion draconienne des erreurs</linktext>
+        </link>
+        <link href="http://www.scriptorium.com/2013/07/the-ten-commandments-of-dita/" format="html"
+            scope="external">
+            <linktext>Les dix commandements de DITA, blog Scriptorium</linktext>
+        </link>
+        <link
+            href="https://www.ixiasoft.com/documentation/DITA_Style_Guide/fr/Artefact/c_Syntax_and_Markup.html"
+            format="html" scope="external">
+            <linktext>Guide de style DITA, Syntaxe et Balisage</linktext>
+        </link>
+        <link href="https://github.com/flicstar/DITA-Mini-Manual" format="html" scope="external">
+            <linktext>Exemple de contenu DITA&#xA0;: un projet de documentation basé sur un Manuel du
+                Propriétaire d'une Mini de 1960, rédigé par Felicity Brand</linktext>
+        </link>
+    </related-links>
+
+</learningContent>

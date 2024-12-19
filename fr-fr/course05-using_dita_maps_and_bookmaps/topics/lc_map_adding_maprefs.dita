@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_pgf_3gt_qt">
+    <title>Référencer des cartes dans une carte</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2016-03-07"/>
+            <revised modified="2020-10-11"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>L'élément &lt;mapref> est structuré comme suit&#xA0;:</p>
+            <pre>&lt;mapref href="chemin/nomfichier.ditamap" format="ditamap"></pre>
+            <p>L'attribut href contient un lien vers une autre carte qui est référencée dans votre
+                carte principale. L'attribut format spécifie que le fichier lié est une carte DITA.</p>
+            <p>L'élément &lt;mapref> peut uniquement contenir les éléments de métadonnées
+                &lt;topicmeta>, &lt;data> et &lt;data-about>. Avec DITA, vous ne pouvez imbriquer
+                aucun élément &lt;topicref> ou &lt;mapref> à l'intérieur d'un élément
+                &lt;mapref>.</p>
+            <p>Tout comment l'élément &lt;topicref> vous permet de réutiliser une rubrique dans plus
+                d'une carte, l'élément &lt;mapref> vous permet de réutiliser une collection de
+                rubriques. En construisant une carte une fois et en la référençant dans d'autres
+                cartes, vous pouvez économiser le temps et les efforts qu'il aurait fallu pour
+                recréer la même série ou hiérarchie d'éléments &lt;topicref> dans plusieurs
+                cartes.</p>
+            <p>En plus de la réutilisation, l'élément &lt;mapref> vous donne une flexibilité
+                supplémentaire lorsque vous publiez votre contenu. Vous pouvez regrouper des cartes
+                connexes dans une carte plus grande, de sorte que vous pouvez rapidement fournir
+                tout le contenu pour une famille de produits entière. Vous pouvez également utiliser
+                l'élément &lt;mapref> pour ajouter un glossaire à une carte, comme vous apprendrez à
+                le faire par la suite.</p>
+            <note>
+                <p>Pour plus d'information sur l'élément &lt;mapref>, se référer à la <xref
+                        href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/mapref.html"
+                        format="html" scope="external">norme OASIS DITA version 1.2</xref>.</p>
+            </note>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_at5_jgd_3v">
+        <title>Entraînement</title>
+        <taskbody>
+            <steps id="steps_umd_lgd_3v">
+                <step>
+                    <cmd>Continuez d'utiliser le fichier
+                        exemples_cartes_bookmaps/exemples/_m_canards_demarrer.ditamap.</cmd>
+                </step>
+                <step>
+                    <cmd>Après le dernier élément &lt;topicref>, ajoutez un élément &lt;mapref> et
+                        ajoutez-y du contenu comme le montre l'exemple suivant&#xA0;:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+&lt;map id="canards">
+&lt;title>Canards&lt;/title>
+...
+&lt;/topicref>
+<ph outputclass="newchanged">&lt;mapref href="g_orggloss_canards.ditamap" format="ditamap"/></ph>
+&lt;/map></pre>
+                    </stepxmp>
+                    <info>Cet élément &lt;mapref> crée un lien vers le glossaire
+                        g_orggloss_canards.ditamap. En utilisant l'élément &lt;mapref> pour créer un
+                        lien vers le glossaire, vous pouvez éviter les tracas liés à l'utilisation
+                        des éléments &lt;topicref> pour construire le glossaire directement dans
+                        votre carte. Cela rend également votre glossaire plus facilement disponible
+                        pour être réutilisé dans d'autres cartes. </info>
+                </step>
+                <step>
+                    <cmd>Utilisez le fichier d'exemple
+                        exemples_cartes_bookmaps/exemples/_m_canards.ditamap pour vérifier votre
+                        fichier exemples_cartes_bookmaps/exemples/_m_canards_demarrer.ditamap.</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+    <task id="task_maps">
+        <title>Exercice</title>
+        <taskbody>
+            <steps id="steps_exercise_maps">
+                <step>
+                    <cmd>Ouvrez le fichier exemples_cartes_bookmaps/exercices/_m_cs101_debut.ditamap
+                        et utilisez-le pour assembler les rubriques dans une carte DITA, en
+                        utilisant la structure hierarchique suivante comme guide&#xA0;:</cmd>
+                    <info>
+                        <pre outputclass="passthru"><![CDATA[
+                            <hr />
+                            <ul>
+                            <li>Maîtriser les coûts de communication technique
+                                <ul>
+                                <li>L'illusion de la documentation à faible coût</li>
+                                <li>Développement efficace du contenu technique</li>
+                                <li>Réduire le coût du support technique
+                                    <ul>
+                                    <li>Une meilleure information technique, moins d'appels au support</li>
+                                    <li>Des opérations de support plus efficaces</li>
+                                    </ul>
+                                </li>
+                                <li>Collaboration en matière de contenu au sein de l'organisation
+                                    <ul>
+                                    <li>«&#xA0;Collaboration&#xA0;» ≠ «&#xA0;contenu libre pour tous&#xA0;»</li>
+                                    </ul>
+                                </li>
+                                </ul>
+                            </li>
+                            <li>Marketing et visibilité des produits
+                                <ul>
+                                <li>Assister le marketing avec du contenu technique
+                                    <ul>
+                                    <li>Renforcer le message marketing</li>
+                                    <li>Quand le contenu technique contredit le marketing</li>
+                                    </ul>
+                                </li>
+                                </ul>
+                                <ul>
+                                <li>Accroître la visibilité des produits
+                                    <ul>
+                                    <li>Livres de tierces parties</li>
+                                    </ul>
+                                </li>
+                                </ul>
+                                <ul>
+                                <li>Créer une communauté d'utilisateurs et les fidéliser
+                                    <ul>
+                                    <li>Étendre l'expérience de jeu au contenu</li>
+                                    </ul>
+                                </li>
+                                </ul>
+                            </li>
+                            <li>Questions juridiques et réglementaires
+                                <ul>
+                                <li>Éviter l'exposition juridique</li>
+                                <li>Répondre aux exigences réglementaires
+                                    <ul>
+                                    <li>Livraison d'information</li>
+                                    <li>Normes techniques</li>
+                                    </ul>
+                                </li>
+                                </ul>
+                            </li>
+                            </ul>
+                            <hr/>]]></pre>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Utiliser le fichier exemples_cartes_bookmaps/exercices/_m_cs101.ditamap
+                        pour vérifier votre fichier
+                        exemples_cartes_bookmaps/exercices/_m_cs101_debut.ditamap.</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

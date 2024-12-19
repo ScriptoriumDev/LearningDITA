@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="topic_mzj_dcv_gg">
+  <title>Collaboration en matière de contenu au sein de l'organisation</title>
+  <conbody>
+    <p><indexterm>communication
+          technique<indexterm>collaboration</indexterm></indexterm><indexterm>coûts<indexterm>collaboration
+          pour contrôler</indexterm></indexterm><indexterm>contrôler les coûts<indexterm>stratégie
+          de
+          collaboration</indexterm></indexterm><indexterm>contenu<indexterm>collaboration</indexterm></indexterm><indexterm>collaboration<indexterm>méthode
+          de contrôle des coûts</indexterm></indexterm>Historiquement, la communication technique,
+      le marketing et les autres départements développant du contenu ne travaillaient pas en étroite
+      collaboration. Chaque groupe offrait la même justification&#xA0;: «&#xA0;Notre contenu est complètement
+      différent du leur. Nous devons travailler seuls&#xA0;».</p>
+    <p>Aujourd'hui, la collaboration se développe. Au lieu de travailler isolément, les services
+      identifient les contenus partagés et mettent en commun leurs ressources pour développer ces
+      contenus de manière plus efficace.</p>
+    <p>La communication technique et le marketing «&#xA0;possèdent&#xA0;» généralement de grandes quantités de
+      contenu. Mais il existe d'autres lieux, moins évidents, où sont créées des informations de
+      grande valeur&#xA0;:</p>
+    <ul id="ul_3j2_dzx_cg">
+      <li><indexterm>conception de produits, collaboration avec</indexterm><i>Conception et
+          développement de produit.</i> Les spécifications des produits, les documents relatifs aux
+        exigences de commercialisation et autres documents de conception existent avant la création
+        des produits et comprennent souvent les informations nécessaires au contenu technique et
+        commercial. Les développeurs de produits sont généralement impliqués dans le développement
+        du contenu, soit en tant que contributeurs, soit en tant qu'experts.</li>
+      <li><indexterm>formation<indexterm>collaboration avec</indexterm></indexterm><i>Formation et
+          éducation.</i> Pour la formation et l'apprentissage en ligne dirigés par un instructeur,
+        les concepteurs pédagogiques élaborent des guides pour l'étudiant, des guides pour
+        l'instructeur, des aides à l'emploi, etc. Ces supports de formation utilisent souvent des
+        instructions étape par étape et d'autres contenus techniques. Selon notre expérience,
+        environ 50 % du contenu pédagogique est (ou devrait être) identique à l'information trouvée
+        dans la communication technique.</li>
+      <li><indexterm>support technique<indexterm>collaboration
+          avec</indexterm></indexterm><i>Support technique.</i> L'équipe du support technique est
+        généralement la plus grosse utilisatrice interne de contenu technique. Lorsque les
+        utilisateurs finaux appellent pour des problèmes et des questions, le personnel du support
+        technique doit trouver la réponse – et rapidement. En plus d'utiliser le contenu technique,
+        l'équipe de support technique crée souvent des «&#xA0;antisèches&#xA0;» condensées des listes de
+        questions fréquemment posées, des procédures de dépannage ou d'autres informations. Trop
+        souvent, ce contenu n'est pas réintégré dans les équipes de communication technique, de
+        conception et de marketing.</li>
+      <li><indexterm>développement logiciel, collaboration avec</indexterm><i>Logiciels.</i> Les
+        produits logiciels contiennent souvent un contenu technique. Par exemple, de nombreux
+        systèmes logiciels complexes comportent des messages d'erreur détaillés. Ces messages
+        doivent être documentés et expliqués dans le contenu technique. Si le logiciel et les
+        explications des messages d'erreur proviennent d'une seule source, vous pouvez vous assurer
+        que les deux ensembles d'informations sont synchronisés.</li>
+      <li><indexterm>aide en ligne</indexterm><i>Aide en ligne.</i> Les ingénieurs logiciel créent
+        des identifiants uniques pour divers composants d'interface. L'équipe de communication
+        technique crée le contenu et le fait correspondre aux identifiants pour permettre une aide
+        en ligne contextuelle. Les fichiers d'aide en ligne sont développés par l'équipe de
+        communication technique puis inclus dans les compilations logicielles.</li>
+      <li><indexterm>étiquettes, interface produit</indexterm><i>Étiquettes de l'interface
+          produit.</i> Elles sont nécessaires pour les produits matériels et logiciels. Par exemple,
+        un smartphone dispose généralement d'un bouton (physique ou sur un écran tactile) pour
+        passer des appels téléphoniques, libellé <b>Appel</b> ou <b>Envoyer.</b> Un défi commun pour
+        les fabricants de smartphones est que ce bouton comporte des dizaines, voire des centaines
+        de variantes, au moins une par langue prise en charge et souvent des variantes
+        supplémentaires exigées par les opérateurs de téléphonie mobile dans une même langue. Et,
+        bien sûr, chaque smartphone possède plusieurs de ces types d'étiquettes. Une solution
+        consiste à stocker toutes les étiquettes dans une base de données et à extraire l'étiquette
+        correcte en fonction de la langue et du support actuel. Cela nécessite une étroite
+        collaboration entre les équipes d'ingénierie et de contenu technique.</li>
+      <li><i>Services internet.</i> L'équipe des services internet gère la présentation,
+        l'organisation et la distribution du contenu internet. Le contenu technique publié sur le
+        site internet de l'entreprise doit correspondre à l'aspect et à la convivialité des autres
+        contenus du site internet. </li>
+      <li><indexterm>ventes<indexterm>collaboration
+            avec</indexterm></indexterm><indexterm>ventes<index-see-also>marketing</index-see-also></indexterm><indexterm>marketing<index-see-also>ventes</index-see-also></indexterm><i>Ventes.</i>
+        L'équipe commerciale s'appuie sur le contenu technique et marketing pour les matériels de
+        propositions et les supports de vente. Par exemple, si un client potentiel a des questions
+        sur les caractéristiques spécifiques d'un produit, un vendeur peut constituer un dossier
+        d'information personnalisé en compilant les sections pertinentes des manuels d'utilisation,
+        des fiches techniques et des documents marketing.</li>
+    </ul>
+    <p>Le partage du contenu entre les services améliore la qualité globale des produits en
+      garantissant que les clients reçoivent des informations cohérentes et un message unifié. En
+      même temps, le partage de contenu élimine la redondance, ce qui réduit le coût de
+      développement du contenu. Le défi que pose le partage de contenu est la collaboration entre
+      les départements. Il est long et souvent difficile d'établir de solides relations de travail
+      entre des équipes disparates.<fig>
+        <title>Collaboration entre des équipes disparates</title>
+        <image href="images/infoflow.svg" id="image_ysz_rqj_jg"/>
+      </fig></p>
+    <p/>
+  </conbody>
+</concept>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="content_pgf_3gt_qt">
+    <title>Utiliser les clés avec du texte</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey</author>
+        <author>Decarnelle Rémi (traducteur)</author>
+        <critdates>
+            <created golive="2016-12-01" date="2016-10-18"/>
+            <revised modified="2021-03-03"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction id="lcInstruction_w1w_d5m_qx">
+            <p>Vous pouvez utiliser les clés comme des variables pour du texte dans vos rubriques.
+                Les clés sont typiquement utilisées comme des variables dans les cas suivants :</p>
+            <ul>
+                <li>nom de produit</li>
+                <li>numéro de référence du produit</li>
+                <li>nom de l'entreprise</li>
+                <li>numéros de téléphone</li>
+                <li>titres d'ouvrages</li>
+            </ul>
+            <p>Bien que qu'il n'y ait pas de limite de taille de chaîne de caractères définie par
+                une clé, la longueur de ces dernières est souvent plutôt courte.</p>
+            <note>Le cours précédent (<xref keyref="reuse_basic_url"/>) insistait sur ne pas
+                réutiliser du contenu à l'échelle plus petite qu'une phrase. Cet argument reste
+                valable dans la majeure partie du temps. Néanmoins, si vous devez utiliser les clés
+                comme variable pour un nom d'entreprise ou de produit dans une situation où ces noms
+                pourrait venir à changer, le niveau de confort et de cohérence apporté par les clés
+                peut convaincre de déroger à la règle.</note>
+            <p>Pour définir une clé qui va contenir du texte, utiliser l'élément &lt;keydef> avec
+                l'attribut <i>keys</i>. L'attribut <i>keys</i> sert à nommer la clé. Ensuite,
+                imbriquer l'élement &lt;topicmeta> au sein de &lt;keydef> :</p>
+            <pre>&lt;keydef keys="nom_produit">
+   &lt;topicmeta>
+      &lt;keywords>
+         &lt;keyword>Base de données canards&lt;/keyword>
+      &lt;/keywords>
+   &lt;/topicmeta>
+&lt;/keydef></pre>
+            <p>La syntaxe est plutôt verbeuse, mais une fois la structure établie, il n'est plus
+                nécessaire d'y toucher.</p>
+            <p>Veuillez noter que que la chaîne de caractères est limitée au contenu de l'élément
+                &lt;keyword>, c'est-à-dire du texte non formaté avec l'élément &lt;text> et des
+                marques déposées avec l'élément &lt;tm>. Vous ne pouvez pas utiliser d'autres
+                éléments pour ajouter du formatage ou du contenu en référence croisée. Si les
+                restrictions de l'élément &lt;keyword> ne vous conviennent pas, veuillez réfléchir à
+                utiliser plutôt un conref.</p>
+            <p><b>Utiliser les clés</b></p>
+            <p>Pour utiliser une clé avec une chaîne de caractère, ajouter l'attribut keyref à ces
+                éléments (ou tout élément héritant de ces derniers) :</p>
+            <sl>
+                <sli>&lt;ph></sli>
+                <sli>&lt;term></sli>
+                <sli>&lt;keyword></sli>
+            </sl>
+            <p>Cet exemple montre comment une clé peut être utilisé avec l'élément &lt;ph> (phrase)
+                :</p>
+            <pre>Félicitations pour votre achat de la &lt;ph keyref="nom_produit"/> !</pre>
+            <p>Lorsque la carte DITA inclut l'élément &lt;keydef> montré ci-dessus, la publication
+                devrait être résolu de cette manière :</p>
+            <lines>Félicitations pour votre achat de la Base de données canards !</lines>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

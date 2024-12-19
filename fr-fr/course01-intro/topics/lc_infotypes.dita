@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="topics">
+ <title>Les rubriques DITA</title>
+ <prolog>
+  <author>Sharon Burton</author>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe,
+   Scriptorium</author>
+  <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external" format="html"
+   >Marine Guillerez (Traductrice)</author>
+  <critdates>
+   <created date="2015-04-28"/>
+   <revised modified="2019-09-21"/>
+  </critdates>
+ </prolog>
+ <learningContentbody>
+  <lcObjectives>
+   <lcObjectivesGroup>
+    <lcObjective>Identifier les éléments communs à toutes les rubriques.</lcObjective>
+    <lcObjective>Citer les types de rubriques standards définis dans DITA.</lcObjective>
+    <lcObjective>Identifier les éléments généralement présents dans chaque type de
+     rubrique.</lcObjective>
+    <lcObjective>Définir la spécialisation et les contraintes.</lcObjective>
+   </lcObjectivesGroup>
+  </lcObjectives>
+  <lcDuration>
+   <lcTime value="45"/>
+  </lcDuration>
+  <lcInstruction>
+   <p>Une rubrique DITA est un élément constitutif du contenu.</p>
+   <p>L'un des principes fondamentaux de DITA est que différents types de contenu nécessitent
+    différents conteneurs (types de rubriques). De cette manière, les éléments de la rubrique
+    peuvent être spécifiques aux informations décrites. </p>
+   <p>Tous les types de rubriques DITA sont liés à un type de rubrique commune ou générique. Le type
+    de rubrique générique est alors «&#xA0;spécialisé&#xA0;» dans un certain nombre de types de
+    rubriques spécifiques, chacun d'entre eux contenant un type d'informations spécifique. Les types
+    de rubriques DITA «&#xA0;standard&#xA0;» incluent&#xA0;:</p>
+   <ul id="ul_ekl_mcx_rs">
+    <li>Concept – contient les informations conceptuelles&#xA0;; répond à la question
+     «&#xA0;Pourquoi&#xA0;?&#xA0;»</li>
+    <li>Tâche (Task) – contient l'information procédurale étape-par-étape&#xA0;; répond à la
+     question «&#xA0;Comment&#xA0;?&#xA0;»</li>
+    <li>Référence (Reference) – contient les informations de référence&#xA0;; répond à la question
+     «&#xA0;Quoi &#xA0;?&#xA0;»</li>
+    <li>Entrée de Glossaire (Glossary entry) – défini un simple terme&#xA0;; répond à la question
+     «&#xA0;Que cela signifie-t-il&#xA0;?&#xA0;»</li>
+   </ul>
+   <p>Cette leçon présente le type de rubrique générique, puis décrit chacun des types de rubriques
+    standards et leur utilisation.</p>
+  </lcInstruction>
+
+ </learningContentbody>
+ <related-links>
+  <link
+   href="https://www.ixiasoft.com/documentation/DITA_Style_Guide/fr/Artefact/c_Topics_and_Information_Types.html"
+   format="html" scope="external">
+   <linktext>Guide de style DITA, Types d'information et rubriques</linktext>
+  </link>
+  <link href="http://www.scriptorium.com/books" scope="external" format="html"/>
+ </related-links>
+
+</learningContent>

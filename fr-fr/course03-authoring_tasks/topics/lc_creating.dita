@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_yys_qbh_1t" xml:lang="fr-FR">
+    <title>Créer une tâche</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-08-14"/>
+            <revised modified="2020-04-20"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup id="lcObjectivesGroup_tvl_vbh_1t">
+                <lcObjective>Créer un fichier de type tâche</lcObjective>
+                <lcObjective>Faire la différence entre les tâches strictes et les tâches générales </lcObjective>
+                <lcObjective>Introduire le DOCTYPE pour les tâches strictes</lcObjective>
+                <lcObjective>Ajouter les éléments racines d'une tâche</lcObjective>
+                <lcObjective>Comprendre le principe des éléments &lt;prereq> et
+                    &lt;context></lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="45"/>
+        </lcDuration>
+        <lcIntro>
+            <p>Cette leçon montre comment créer une nouvelle tâche et comment ajouter les premiers
+                éléments communs que l'on trouve dans une tâche.</p>
+            <note>
+                <p>Cette leçon couvre l'utilisation de base des éléments d'une tâche. Pour les
+                    spécifications complètes de chaque élément, se référer à la <xref
+                        href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/task.html"
+                        format="html" scope="external">norme OASIS DITA version 1.2</xref>.</p>
+            </note>
+        </lcIntro>
+    </learningContentbody>
+    <related-links>
+        <link
+            href="https://www.ixiasoft.com/documentation/DITA_Style_Guide/fr/Artefact/Topics_and_Information_Types/c_Task.html"
+            format="html" scope="external">
+            <linktext>Guide de style DITA, Tâche</linktext>
+        </link>
+        <link
+            href="https://www.ixiasoft.com/documentation/DITA_Style_Guide/fr/Artefact/Topics_and_Information_Types/c_General_Tasks.html"
+            format="html" scope="external">
+            <linktext>Guide de style DITA, Rubrique General Task</linktext>
+        </link>
+        <link
+            href="https://www.ixiasoft.com/documentation/DITA_Style_Guide/fr/Artefact/Syntax_and_Markup/c_Sentence_Syntax_in_prereq.html"
+            format="html" scope="external">
+            <linktext>Guide de style DITA, L'élément prereq</linktext>
+        </link>
+    </related-links>
+</learningContent>

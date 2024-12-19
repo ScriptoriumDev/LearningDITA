@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on 
+     github.com. See the accompanying LICENSE file for 
+     applicable licenses.-->
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map xml:lang="fr-FR">
+ <title>Vue d'ensemble du XML et des meilleures pratiques</title>
+ <topicref href="../topics/lc_best_practices_intro.dita">
+  <topicmeta lockmeta="yes">
+   <data name="lesson_id" value="980"/>
+  </topicmeta>
+  <!--  <topicref href="../topics/lc_markup.dita"/>-->
+  <topicref href="../topics/lc_formatting.dita"/>
+  <topicref href="../topics/lc_consistency.dita"/>
+  <topicref href="../topics/lc_semantic.dita"/>
+  <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_best_practices.dita"
+   locktitle="yes">
+   <topicmeta>
+    <navtitle>Évaluation sur la vue d'ensemble du XML et des meilleures pratiques</navtitle>
+   </topicmeta>
+   <!--   <topicref href="../assessments/lca_htmldita.dita"/>-->
+   <topicref href="../assessments/best_practices/lca_content.dita"/>
+   <topicref href="../assessments/best_practices/lca_formatting2.dita"/>
+   <topicref href="../assessments/best_practices/lca_abuse.dita"/>
+   <topicref href="../assessments/best_practices/lca_mixed_content.dita"/>
+   <topicref href="../assessments/best_practices/lca_topic_types.dita"/>
+  </topicref>
+ </topicref>
+</map>

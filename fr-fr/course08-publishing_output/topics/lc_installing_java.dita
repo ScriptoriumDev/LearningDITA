@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="content_pgf_3gt_qt">
+    <title>Installer Java</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Noelle Russell, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Ashley Stant, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Bill Swallow, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Jake Campbell, Scriptorium</author>
+        <author type="contributor" href="https://www.linkedin.com/in/marinemartinguillerez/"
+            scope="external" format="html" class="- topic/author ">Marine Guillerez
+            (Traductrice)</author>
+        <critdates>
+            <created golive="2017-03-27" date="2017-02-06"/>
+            <revised modified="2020-12-22"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>DITA OT requiert Java. Le site internet de DITA Open Toolkit inclut les exigences
+                Java minimales pour chaque version de DITA OT.</p>
+            <p>Lorsque vous essaierez de générer une publication, DITA OT vous alertera si votre
+                système ne remplit pas les exigences Java. Pour DITA OT, vous aurez probablement
+                besoin de télécharger le kit de développement Java (JDK – Java Development Kit).</p>
+            <p>Sur Windows, vous devriez voir le message d'erreur suivant si vous essayez d'exécuter
+                DITA OT sans installation de Java sur votre système&#xA0;:</p>
+            <p>
+                <pre>"java.exe" n'est pas reconnu comme une commande interne ou externe,
+un programme exploitable ou un fichier batch.</pre>
+            </p>
+            <p>Sur Mac, une fenêtre contextuelle peut apparaître, indiquant que vous avez besoin
+                d’une version différente de Java et fournissant un lien où vous pouvez télécharger
+                la version correcte.</p>
+            <p>Suivez les instructions ci-dessous pour vous assurer que votre version du JDK est à
+                jour. Des instructions distinctes sont fournies pour les utilisateurs Windows et
+                Mac.</p>
+            <p><xref href="https://youtu.be/pw_6yw4rDzU" format="html" scope="external">Vidéo&#xA0;:
+                    Installer Java</xref></p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_igy_wd5_xy">
+        <title>Installer Java</title>
+        <taskbody>
+            <context id="context_a4w_xvc_3z"><b>Installer Java sur Windows</b></context>
+            <steps>
+                <step>
+                    <cmd>Téléchargez et installez la dernière version du kit de développement Java
+                        (JDK) sur le site internet d'Oracle (<xref
+                            href="http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html"
+                            format="html" scope="external"/>).</cmd>
+                    <info>
+                        <note>Au moment de la publication originelle de ce cours, la dernière
+                            version du JDK était la version 8.</note>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Ouvrez l'explorateur de fichiers, cliquez avec le bouton droit de la souris
+                        sur <b>Ce PC</b>, puis cliquez sur
+                            <b>Propriétés</b>. Une nouvelle fenêtre s'ouvrira.</cmd>
+                </step>
+                <step>
+                    <cmd>Cliquez sur le lien <b>Paramètres Système Avancés</b> dans la colonne de gauche de
+                        la nouvelle fenêtre. Une autre fenêtre s'ouvrira.</cmd>
+                </step>
+                <step>
+                    <cmd>Cliquez sur le bouton <b>Variables d'environnement</b> qui se trouve en bas à
+                        droite de la nouvelle fenêtre.</cmd>
+                </step>
+                <step>
+                    <cmd>Recherchez JAVA_HOME sous le panneau <b>Variables système</b> et assurez-vous que
+                        la valeur pointe vers le répertoire où le JDK est installé. </cmd>
+                </step>
+            </steps>
+            <postreq id="postreq_wbw_zp2_3z">Si JAVA_HOME n'existe pas, ou s'il existe mais
+                n'affiche pas le bon emplacement, cliquez sur Nouveau. Entrez <tt>JAVA_HOME</tt>
+                dans nom de la variable. Entrez l'emplacement du JDK (par exemple, <b>C:/Program
+                    Files/Java/[nom_dossier_jdk]</b>) dans valeur de la variable.</postreq>
+        </taskbody>
+    </task>
+    <task id="task_nyf_yd5_xy">
+        <title>Installer Java</title>
+        <taskbody>
+            <context id="context_hby_zvc_3z"><b>Installer Java sur Mac</b></context>
+            <steps>
+                <step>
+                    <cmd>Téléchargez et installez la dernière version du kit de développement Java
+                        (JDK) sur le site internet d'Oracle (<xref
+                            href="http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html"
+                            format="html" scope="external"/>).</cmd>
+                    <info>
+                        <note>Au moment de la publication originelle de ce cours, la dernière
+                            version du JDK était la version 8.</note>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Cliquez sur <b>Accepter</b> le contrat de licence lorsqu’on vous le demande. Une
+                        fenêtre contextuelle apparaîtra si vous avez cliqué sur <b>Télécharger</b> sans
+                        sélectionner <b>Accepter</b>.</cmd>
+                </step>
+                <step>
+                    <cmd>Sous la colonne de téléchargement, sélectionnez le lien Java spécifique à
+                        votre système. Les utilisateurs de Mac choisissent MAC OS X.</cmd>
+                    <info>
+                        <p>Un fichier .dmg commencera à être téléchargé.</p>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Une fois le téléchargement terminé, cliquez sur l'icône dans votre dossier
+                        de téléchargement.</cmd>
+                    <info>Une fenêtre apparaîtra avec des instructions.</info>
+                </step>
+                <step>
+                    <cmd>Double-cliquez sur l'icône.</cmd>
+                </step>
+                <step>
+                    <cmd>Cliquez sur <b>Installer</b>, <b>Exécuter</b>, ou équivalent.</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

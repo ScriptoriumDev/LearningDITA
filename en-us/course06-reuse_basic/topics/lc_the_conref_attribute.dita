@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningTreeContent.dtd">
-<learningContent xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="lt-content-4710"
+<learningContent xmlns:ditaarch="https://dita.oasis-open.org/architecture/2005/" id="lt-content-4710"
    domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic concept)                             (topic reference)                             (topic task)                             (topic learningInteractionBase-d)                            (topic learningInteractionBase-d learning-d)                            (topic learningmeta-d)                             (topic learningBase+learningInteractionBase-d)                            (topic learningBase+learningInteractionBase-d learningContent)                            (topic learningBase learningSummary)                             (topic learningBase+learningInteractionBase-d learningAssessment)   "
    ditaarch:DITAArchVersion="1.2"
    class="- topic/topic learningBase/learningBase learningContent/learningContent ">
    <title class="- topic/title ">The conref attribute</title>
    <shortdesc class="- topic/shortdesc "/>
    <prolog class="- topic/prolog ">
-      <author type="creator" href="http://easydita.com/" format="html" scope="external"
+      <author type="creator" href="https://easydita.com/" format="html" scope="external"
          class="- topic/author ">Mike Rice, easyDITA</author>
-      <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+      <author type="contributor" href="https://easydita.com/" format="html" scope="external"
          class="- topic/author ">Annie Chen, easyDITA</author>
-      <author type="contributor" href="http://www.scriptorium.com">Simon Bate,
+      <author type="contributor" href="https://www.scriptorium.com">Simon Bate,
          Scriptorium</author>
       <critdates>
          <created golive="2016-07-11" date="2016-05-11"/>
@@ -69,7 +69,7 @@
                      DITA file</p>
                </li>
                <li class="- topic/li ">
-                  <p class="- topic/p "><b class="+ topic/ph hi-d/b ">http://example.com</b> is the
+                  <p class="- topic/p "><b class="+ topic/ph hi-d/b ">https://example.com</b> is the
                      name of a network computer</p>
                </li>
             </ul>
@@ -90,7 +90,7 @@
             <strow class="- topic/strow ">
                <stentry class="- topic/stentry ">In a topic at a network location</stentry>
                <stentry class="- topic/stentry "
-                  >http://example.com/file.dita#topicID/targetID</stentry>
+                  >https://example.com/file.dita#topicID/targetID</stentry>
             </strow>
          </simpletable>
       </lcInstruction>

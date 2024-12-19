@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="content_pgf_3gt_qt">
+    <title>Pourquoi personnaliser des extensions&#xA0;?</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Noelle Russell, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Ashley Stant, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Bill Swallow, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Jake Campbell, Scriptorium</author>
+        <author type="contributor" href="https://www.linkedin.com/in/marinemartinguillerez/"
+            scope="external" format="html" class="- topic/author ">Marine Guillerez
+            (Traductrice)</author>
+        <critdates>
+            <created golive="2017-03-27" date="2017-02-06"/>
+            <revised modified="2021-01-26"/>
+        </critdates>
+    </prolog>
+
+    <learningContentbody>
+        <lcInstruction>
+            <p>DITA OT est livré avec des extensions par défaut pour générer plusieurs types de
+                publications. Comme vous l’avez vu dans la leçon précédente, celles-ci comprennent
+                l'extension pdf2 pour la publication de PDF et l'extension xhtml pour la publication
+                en HTML. Il est préférable de considérer les extensions par défaut comme des démos,
+                ou comme base pour construire des extensions de « production ».</p>
+            <p>Les extensions par défaut sont utiles lorsque vous apprenez à publier du contenu en
+                utilisant DITA OT. Cependant, elles sont rarement utilisées pour publier dans des
+                situations réelles.</p>
+            <p>Voici quelques raisons pour lesquelles les extensions par défaut ne fonctionnent
+                généralement pas pour les entreprises qui publient du contenu :</p>
+            <ul id="ul_dnm_gkg_2z">
+                <li>
+                    <p><b>L'apparence.</b> Les extensions par défaut fournies avec DITA OT utilisent
+                        un style très basique et générique. Les entreprises ont besoin que le
+                        résultat corresponde à l'apparence de leur marque. Le résultat doit utiliser
+                        les couleurs et les polices de caractères de l'entreprise, incorporer le
+                        logo de l'entreprise et inclure des images ou des symboles associés à la
+                        marque de l'entreprise.</p>
+                    <p>Même pour les contenus pour lesquels il n'existe pas d'exigences en matière
+                        d'image de marque – par exemple, les articles universitaires, les
+                        recherches, les rapports ou les contenus internes – le groupe qui publie le
+                        contenu voudra probablement améliorer l'apparence obtenue avec des
+                        extensions par défaut.</p>
+                </li>
+                <li>
+                    <p><b>Fonctionnalité.</b> Dans certains cas, les extensions par défaut ne
+                        peuvent pas prendre en charge certains aspects de la structure du contenu
+                        source. Si vous utilisez une spécialisation DITA, les extensions par défaut
+                        n'afficheront probablement pas votre contenu comme vous l'avez prévu dans la
+                        publication.</p>
+                </li>
+                <li>
+                    <p><b>Type de publication.</b> Vous devrez peut-être générer un type de
+                        publication qui n'est pas inclus dans les extensions par défaut de DITA OT.
+                        Par exemple, les entreprises doivent envoyer leur contenu source DITA dans
+                        InDesign pour un formatage complexe et très élaboré avant de le publier en
+                        format PDF. DITA OT ne fournit pas d'extension DITA-to-InDesign par
+                        défaut.</p>
+                </li>
+            </ul>
+            <p>Si les extensions par défaut de DITA OT ne répondent pas à vos besoins, vous pouvez
+                installer des extensions personnalisées et les utiliser pour générer des
+                publications. Certaines extensions personnalisées sont basés sur la structure
+                sous-jacente des extensions par défaut de DITA OT&#xA0;; d'autres, tels que les
+                extensions DITA-to-InDesign, sont créées indépendamment.</p>
+            <p>Vous pouvez développer vous-même des extensions personnalisées, les trouver sur le
+                web, ou engager quelqu'un pour les développer. Les extensions personnalisées sont
+                souvent développés par des consultants dans le cadre d'une solution de stratégie de
+                contenu.</p>
+            <p>Lorsque vous évaluez vos besoins en matière d'extensions personnalisées, posez-vous
+                la question&#xA0;:</p>
+            <ul id="ul_nch_kpg_2z">
+                <li>Si vos besoins de personnalisation sont basés sur l'apparence, la structure, ou
+                    les deux</li>
+                <li>Comment la structure de votre contenu source affecte les capacités de
+                    publication du DITA OT</li>
+                <li>Quels sont les types de publications dont vous avez besoin et dans quelle mesure
+                    elles diffèrent des publications par défaut du DITA OT</li>
+            </ul>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

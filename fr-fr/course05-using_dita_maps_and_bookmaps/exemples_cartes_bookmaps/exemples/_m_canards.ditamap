@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="canards">
+ <title>Canards</title>
+ <topicref href="c_canards_sauvages.dita">
+  <topicref href="c_types_canards_sauvages.dita"/>
+  <topicref href="c_especes_canards_sauvages.dita"/>
+  <topicref href="c_habitats.dita"/>
+  <topicref href="t_observer_canards_sauvages.dita"/>
+ </topicref>
+ <topicref href="c_canards_domestiques.dita">
+  <topicref href="c_croissance_des_canards.dita"/>
+  <topicref href="c_logement.dita"/>
+  <topicref href="c_nourrir_canetons.dita">
+   <topicref href="c_poids_du_canard.dita"/>
+  </topicref>
+ </topicref>
+ <topicref href="c_canarddb.dita">
+  <topicref href="c_ecrire_sur_canards.dita"/>
+  <topicref href="t_creer_table.dita"/>
+  <topicref href="t_ajouter_entree.dita"/>
+  <topicref href="t_modifier_entree.dita"/>
+  <topicref href="t_requetes.dita"/>
+  <topicref href="t_modifier_table.dita"/>
+  <topicref href="t_supprimer_entree.dita"/>
+  <topicref href="r_tnav.dita"/>
+  <topicref href="r_ajouter.dita"/>
+  <topicref href="r_supprimer.dita"/>
+  <topicref href="r_editer.dita"/>
+  <topicref href="r_modifier_table.dita"/>
+  <topicref href="r_nouvelletable.dita"/>
+ </topicref>
+
+ <mapref href="g_orggloss_canards.ditamap" format="ditamap"/>
+ <reltable title="Canards – table des relations">
+  <relheader>
+   <relcolspec type="concept"/>
+   <relcolspec type="task"/>
+   <relcolspec type="reference"/>
+  </relheader>
+  <relrow>
+   <relcell>
+    <topicref href="c_ecrire_sur_canards.dita"/>
+   </relcell>
+   <relcell>
+    <topicref href="t_ajouter_entree.dita"/>
+   </relcell>
+   <relcell>
+    <topicref href="r_ajouter.dita"/>
+   </relcell>
+  </relrow>
+  <relrow>
+   <relcell/>
+   <relcell/>
+   <relcell/>
+  </relrow>
+  <relrow>
+   <relcell/>
+   <relcell/>
+   <relcell/>
+  </relrow>
+ </reltable>
+
+
+</map>

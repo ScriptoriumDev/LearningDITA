@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_adp_jbk_bt" xml:lang="fr-FR">
+    <title>Interrompre le flux</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-08-18"/>
+            <revised modified="2020-05-06"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Il y a deux éléments que vous pouvez utiliser pour ajouter des informations
+                supplémentaires à vos étapes&#xA0;:</p>
+            <ul id="ul_u43_qbk_bt">
+                <li>
+                    <p>Utilisez l'élément &lt;stepsection> pour ajouter des commentaires entre deux
+                        étapes.</p>
+                    <p>Cela peut être utile si vous avez besoin de faire un commentaire au lecteur
+                        concernant les étapes elles-mêmes, tel que «&#xA0;Les étapes restantes se
+                        concentrent sur le composant <i>x</i>&#xA0;» ou «&#xA0;Les deux prochaines
+                        étapes doivent être réalisées dans un environement <i>y</i>.&#xA0;»</p>
+                </li>
+                <li>
+                    <p>Utilisez un élément &lt;note> ou &lt;hazardstatement> pour ajouter un
+                        avertissement avant un élément &lt;cmd> dans un élément &lt;step> ou
+                        &lt;substep>.</p>
+                    <p>Généralement, vous utilisez les éléments &lt;note> ou &lt;hazardstatement>
+                        lorsque vous avez besoin d'alerter le lecteur sur un risque ou un danger
+                            <i>avant</i> qu'il ne lit ou réalise l'action &lt;cmd>.</p>
+                </li>
+            </ul>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_t31_jck_bt">
+        <title/>
+        <taskbody>
+            <steps id="steps_jnb_kck_bt">
+                <step>
+                    <cmd>Continuez de travailler sur le fichier l_tache_debut.dita.</cmd>
+                </step>
+                <step>
+                    <cmd>Après la balise de fermeture du dernier élément &lt;step>, ajoutez un
+                        élément &lt;stepsection>.</cmd>
+                    <stepxmp>
+                        <pre>...
+&lt;/step>
+<ph outputclass="newchanged">&lt;stepsection>
+&lt;/stepsection></ph>
+</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Ajoutez à l'élément &lt;stepsection> du contenu tel que présenté ici&#xA0;:</cmd>
+                    <info>Le texte devrait être encadré par un élément &lt;p> selon les
+                        meilleures pratiques. </info>
+                    <stepxmp>
+                        <pre>...
+&lt;stepsection>
+   <ph outputclass="newchanged">&lt;p>Lorsque vous avez identifier le canard, vous pouvez passer du temps
+        à noter son comportement.&lt;/p>
+&lt;/stepsection></ph>
+</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Après la balise de fermeture de l'élément &lt;stepsection>, ajoutez un
+                        élément &lt;step> avec un élément &lt;note> à l'intérieur et contenant le
+                        texte présenté ici&#xA0;:</cmd>
+                    <stepxmp>
+                        <pre>...
+&lt;/stepsection>
+<ph outputclass="newchanged">&lt;step>
+&lt;note>Ne perturbez pas les canards pendant que vous observez leur comportement&#xA0;;
+     leur comportement peut être différent en présence d'humains.&lt;/note>
+&lt;/step></ph></pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Après la balise de fermeture de l'élément &lt;note>, ajoutez un élément
+                        &lt;cmd> et ajoutez-y du contenu tel que présenté ici&#xA0;:</cmd>
+                    <stepxmp>
+                        <pre>...
+&lt;/note>
+<ph outputclass="newchanged">&lt;cmd>Observez comment les canards interagissent les uns avec les autres,
+     ce qu'ils mangent, ou comment et quand ils lissent leurs plumes.&lt;/cmd></ph>
+&lt;/step></pre>
+                    </stepxmp>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+    <task id="task_ynz_fgy_3t">
+        <title>Exercice</title>
+        <taskbody>
+            <steps id="steps_r11_1kx_dt">
+                <step>
+                    <cmd>Ouvrez le fichier leçon2/l_tache_etapes_exercice_debut.dita et utilisez-le
+                        pour convertir le contenu suivant&#xA0;:</cmd>
+                    <info>
+                        <pre outputclass="passthru"><![CDATA[
+<hr />
+<h3>Développer et mettre en oeuvre une stratégie de contenu</h3>
+<p><strong>Créer une stratégie de contenu.</strong></p>
+<ol>
+<li>Identifiez et interrogez les intervenants.</li>
+<li>Établissez la mise en oeuvre des objectifs et des métriques.</li>                            
+<li>Définissez les rôles et les responsabilités.
+    <p><strong>Exemple&#xA0;:</strong></p>
+    <ul>
+        <li>Pédagogie</li>
+        <li>Développement</li>
+        <li>Vérification</li>
+        <li>Validation</li>
+    </ul>
+</li>
+<li>Établissez le calendrier et les jalons.<br/>
+<p><strong>Mettre en oeuvre votre stratégie de contenu.</strong></p>
+</li>
+<li>Construisez le système de création de contenu.</li>
+<li>Convertissez le contenu légataire.
+    <p><strong>Faites votre choix&#xA0;:</strong></p>
+    <ul>
+        <li>Convertissez tout dans le nouveau système</li>
+        <li>Identifiez le contenu le plus prioritaire et convertissez-le</li>
+        <li>Convertissez en temps réel</li>
+        <li>Évaluez pour la conversion</li>
+        <li>Ne convertissez rien</li>
+    </ul>
+</li>
+<li>Livrez le contenu
+     <table class="simpletable" border="1" summary="" cellspacing="0" cellpadding="4">
+     <tbody>
+     <tr class="strow">
+     <td class="stentry" valign="top" width="50%"><strong>Méthode de livraison</strong></td>
+     <td class="stentry" valign="top" width="50%"><strong>Avantages</strong></td>
+     </tr>
+     <tr class="strow">
+     <td class="stentry" valign="top"><em>PDF</em></td>
+     <td class="stentry" valign="top">Conception visuelle, possibilité d'imprimer</td>
+     </tr>
+     <tr class="strow">
+     <td class="stentry" valign="top"><em>HTML</em></td>
+     <td class="stentry" valign="top">Accessibilité, interactivité, conception adaptée</td>
+     </tr>
+     <tr class="strow">
+     <td class="stentry" valign="top"><em>EPUB</em></td>
+     <td class="stentry">Contenu électronique lorsque l'accès à internet n'est pas disponible</td>
+     </tr>
+     </tbody>
+     </table>
+ </li>
+ <li>Capturez les connaissances du projet.
+    <ol>
+        <li>Documentez votre modèle de contenu, les spécifications et les meilleures pratiques.</li>
+        <li>Fournissez une formation aux auteurs sur l'écriture dans le nouvel environnement.</li>
+        <li>Fournissez une formation à l'équipe en charge de la maintenance du nouveau système.</li>
+    </ol>
+ </li>
+ <li>Assurez le succès à long terme.
+     <p><strong>Résultat&#xA0;:</strong> Vous pouvez dès à présent cocher les éléments que vous avez énumérés au début du projet comme réalisés.</p>
+ </li>
+<hr />]]></pre>
+                    </info>
+                    <info/>
+                </step>
+                <step>
+                    <cmd>Utilisez le fichier leçon2/l_tache_etapes_exercice.dita pour vérifier votre
+                        fichier leçon2/l_tache_etapes_exercice_debut.dita.</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

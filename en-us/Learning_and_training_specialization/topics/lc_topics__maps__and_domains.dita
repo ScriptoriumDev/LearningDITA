@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_fly_2dc_yz">
-    <title>What is in the L&amp;T specialization</title>
-    <shortdesc></shortdesc>
+    <title>What is in the Learning and Training specialization?</title>
+    <shortdesc/>
     <learningContentbody>
         <lcInstruction id="lcInstruction_ztx_ldc_yz">
-            <p>The DITA Learning and Training specialization comprises a number of topic types, map types, and domains. </p>
-            <p>This rich set of objects enables you to create DITA content that covers the entire process of planning, creating, and organizing learning content. </p>
-            <p>You use the Learning and Training topic types to plan your learning content, to list objectives, to author content, to create review materials, and to create assessments. </p>
-            <p>You can use the Learning and Training map types to organize your learning topics into sets of learning objects and to group those learning objects.</p>
-            <p>The three Learning and Training domains provide: </p>
-            <ul id="ul_fhf_wkc_yz">
-                <li>A framework for creating assessments that can appear in a number of topic types</li>
-                <li>Elements to contain basic learning metadata</li>
-                <li>Reference elements used in the learning map types</li>
-            </ul>
+            <p>The DITA Learning and Training (L&amp;T) specialization is a set of DITA topic types and
+                elements for instructional content (including courses like this one).</p>
+            <p>You use the L&amp;T topic types to plan your learning content, list
+                objectives, author content, create review materials, and create
+                assessments. </p>
+            <p>L&amp;T maps organize learning topics into
+                sets of learning objects and group those learning objects into lessons. These learning objects allow you to
+                reuse groups of learning material as well as individual topics.</p>
         </lcInstruction>
     </learningContentbody>
 </learningContent>

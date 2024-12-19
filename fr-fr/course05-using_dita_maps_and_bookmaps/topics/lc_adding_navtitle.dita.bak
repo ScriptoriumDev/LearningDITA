@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_qns_trw_kv">
+    <title>Ajouter un titre de navigation à une bookmap</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2016-03-07"/>
+            <revised modified="2020-10-26"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Il peut arriver que le titre d'une rubrique – en particulier une rubrique réutilisée
+                – ne corresponde pas aux titres des autres rubriques d'une carte. Par exemple,
+                toutes vos rubriques tâches peuvent utiliser une forme infinitive («&#xA0;Imprimer le...
+               &#xA0;»), mais la rubrique réutilisée peut utiliser une forme nominale («&#xA0;L'impression
+                de...&#xA0;»). Pour que le titre d'une rubrique soit cohérent dans votre texte et votre
+                table des matières, utilisez l'élément &lt;navtitle> pour spécifier un titre plus
+                cohérent ou plus approprié. </p>
+            <p>Dans certaines cartes et bookmaps DITA plus anciennes, vous pourriez rencontrer le
+                navtitle comme attribut pour les éléments &lt;topicref> et autres. Il s'agit d'une
+                forme plus ancienne et son utilisation est déconseillée. Utilisez toujours l'élément
+                &lt;navtitle> lorsque vous créez un nouveau contenu.</p>
+            <note>
+                <p>Pour plus d'information sur l'élément &lt;navtitle>, se référer à la <xref
+                        href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/navtitle.html"
+                        format="html" scope="external">norme OASIS DITA version 1.2</xref>.</p>
+            </note>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_cwx_c3x_kv">
+        <title/>
+        <taskbody>
+            <steps>
+                <step>
+                    <cmd>Continuez d'utiliser le fichier
+                        exemples_cartes_bookmaps/exemples/_b_canards_avances_debut.ditamap.</cmd>
+                </step>
+                <step>
+                    <cmd>Trouvez l'élément &lt;topicref> pointant vers r_tnav.dita et ajoutez-y un
+                        attribut locktitle avec la valeur «&#xA0;yes&#xA0;», comme le montre l'exemple suivant
+                       &#xA0;:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+&lt;bookmap id="canards">
+...
+<ph outputclass="newchanged">&lt;topicref href="r_tnav.dita" locktitle="yes"/></ph>
+...
+&lt;/bookmap></pre>
+                    </stepxmp>
+                    <info>
+                        <note>Si vous souhaitez utiliser l'élément navtitle, vous devez placer
+                            l'attribut locktitle à «&#xA0;yes&#xA0;». Le placer à «&#xA0;no&#xA0;» ou l'omettre
+                            résulterait à ne pas utiliser l'élément navtitle.</note>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Transformez l'élément &lt;topicref> d'une balise vide («&#xA0;&lt;topicref .../>
+                       &#xA0;») en une balise ouverte et fermée («&lt;topicref...>&lt;/topicref>&#xA0;»)</cmd>
+                    <stepxmp>
+                        <pre>&lt;topicref href="r_tnav.dita" locktitle="yes">
+&lt;/topicref></pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>À l'intérieur de l'élément &lt;topicref>, ajoutez un élément &lt;topicmeta>
+                        et ajoutez-y du contenu comme le montre l'exemple suivant&#xA0;:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+&lt;bookmap id="canards">
+...
+&lt;topicref href="r_tnav.dita" locktitle="yes">
+    <ph outputclass="newchanged">&lt;topicmeta>
+        &lt;navtitle>La commande tNav&lt;/navtitle>
+    &lt;/topicmeta></ph>
+&lt;/topicref>
+...
+&lt;/bookmap></pre>
+                    </stepxmp>
+                    <info>Maintenant que vous avez spécifié un élément navtitle, la phrase «&#xA0;La
+                        commande tNav&#xA0;» apparaîtra dans la table des matières à la place du titre de
+                        cette rubrique, qui est tout simplement «&#xA0;tNav&#xA0;».</info>
+                </step>
+                <step>
+                    <cmd>Utilisez le fichier
+                        exemples_cartes_bookmaps/exemples/_b_canards_avances.ditamap pour vérifier
+                        votre fichier
+                        exemples_cartes_bookmaps/exemples/_b_canards_avances_debut.ditamap.</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+    <task id="task_advanced">
+        <title>Exercice</title>
+        <taskbody>
+            <steps id="steps_exercise_advanced">
+                <step>
+                    <cmd>Ouvrez le fichier exemples_cartes_bookmaps/exercices/_b_cs101_debut.ditamap
+                        et utilisez-le pour ajouter des métadonnées, frontmatter et backmatter à la
+                        bookmap en utilisant la structure bookmap suivante comme guide&#xA0;:</cmd>
+                    <info>
+                        <pre outputclass="passthru"><![CDATA[
+                            <hr />
+                            <p><strong>Auteur&#xA0;:</strong> Sarah O'Keefe</p>
+                            <p><strong>Auteur&#xA0;:</strong> Alan S. Pringle</p>
+                            <p><strong>Éditeur&#xA0;:</strong> Services d'édition de Scriptorium, Inc.</p>
+                            <p><strong>Création&#xA0;:</strong> 2012</p>
+                            <p><strong>Révision&#xA0;:</strong> 2014</p>
+                            <p><strong>Table des matières&#xA0;:</strong></p>
+                            <ul>
+                            <li><strong>Chapitre 1&#xA0;: Maîtriser les coûts de communication technique</strong>
+                                <ul>
+                                <li>L'illusion de la documentation à faible coût</li>
+                                <li>Développement efficace du contenu technique</li>
+                                <li>Réduire le coût du support technique
+                                    <ul>
+                                    <li>Une meilleure information technique, moins d'appels au support</li>
+                                    <li>Des opérations de support plus efficaces</li>
+                                    </ul>
+                                </li>
+                                <li>Collaboration en matière de contenu au sein de l'organisation
+                                    <ul>
+                                    <li>«&#xA0;Collaboration&#xA0;» ≠ «&#xA0;contenu libre pour tous&#xA0;»</li>
+                                    </ul>
+                                </li>
+                                </ul>
+                            </li>
+                            <li><strong>Chapitre 2&#xA0;: Marketing et visibilité des produits</strong>
+                                <ul>
+                                <li>Assister le marketing avec du contenu technique
+                                    <ul>
+                                    <li>Renforcer le message marketing</li>
+                                    <li>Quand le contenu technique contredit le marketing</li>
+                                    </ul>
+                                </li>
+                                </ul>
+                                <ul>
+                                <li>Accroître la visibilité des produits
+                                    <ul>
+                                    <li>Livres de tierces parties</li>
+                                    </ul>
+                                </li>
+                                </ul>
+                                <ul>
+                                <li>Créer une communauté d'utilisateurs et les fidéliser
+                                    <ul>
+                                    <li>Étendre l'expérience de jeu au contenu</li>
+                                    </ul>
+                                </li>
+                                </ul>
+                            </li>
+                            <li><strong>Chapitre 3&#xA0;: Questions juridiques et réglementaires</strong>
+                                <ul>
+                                <li>Éviter l'exposition juridique</li>
+                                <li>Répondre aux exigences réglementaires
+                                    <ul>
+                                    <li>Livraison d'information</li>
+                                    <li>Normes techniques</li>
+                                    </ul>
+                                </li>
+                                </ul>
+                            </li>
+                            </ul>
+                            <p><strong>Index&#xA0;:</strong></p>
+                            <hr/>]]></pre>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Utilisez le fichier
+                        exemples_cartes_bookmaps/exercices/_b_cs101_avances.ditamap pour vérifier
+                        votre fichier
+                        exemples_cartes_bookmaps/exercices/_b_cs101_debut.ditamap.</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="lc_learning_maps">
+    <title>Carte d'apprentissage</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Kaitlyn Heath, Scriptorium</author>
+        <author>Decarnelle Rémi (traducteur)</author>
+        <critdates>
+            <created date="2018-02-01"/>
+            <revised modified="2022-01-15"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction id="lcInstruction_js5_cqb_yz">
+            <p>Les cartes d'apprentissages sont des cartes DITA servant à collecter des ressources
+                et des groupes d'apprentissages. Il en existe deux types&#xA0;:</p>
+            <ul id="ul_ptt_gq5_scb">
+                <li>La carte LearningObject contenant un seul élément &lt;learningObject></li>
+                <li>La carte LearningGroup contenant un seul élément &lt;learningGroup></li>
+            </ul>
+            <p>Les deux cartes sont des spécialisations de la carte DITA originale. La structure du
+                contenu de la specification DITA 1.3 indique qu'il est possible de réutiliser de
+                nombreux éléments de la carte, mais ces derniers doivent absolument contenir un
+                unique groupe ou objet d'apprentissage. La spécification autorise l'utilisation
+                d'éléments &lt;topicref> pour référencer des cléfs et autres contenus
+                similaires.</p>
+            <p>En d'autres termes, cela signifie que la plupart des scénarios de transformation sont
+                pensés pour gérer qu'un seul groupe ou objet d'apprentissage. Vous pouvez essayer
+                d'ajouter d'autres éléments issus de la carte DITA, mais vous devez prendre en
+                considération la possibilité qu'ils soient mal pris en charge par des
+                transformateurs.</p>
+            <p>Une carte d'apprentissage possède la structure suivante&#xA0;:</p>
+            <pre>
+&lt;!DOCTYPE learningObjectMap PUBLIC "-//OASIS//DTD DITA 1.3 Learning Object Map//EN" 
+    "learningObjectMap.dtd">
+&lt;learningObjectMap>
+   &lt;learningObject>
+      ...
+   &lt;/learningObject>
+&lt;/learningObjectMap>
+</pre>
+            <p>Un groupe d'apprentissage possède la structure suivante&#xA0;:</p>
+            <pre>
+&lt;!DOCTYPE learningGroupMap PUBLIC "-//OASIS//DTD DITA 1.3 Learning Group Map//EN" 
+    "learningGroupMap.dtd">
+&lt;learningGroupMap>
+   &lt;learningGroup>
+      ...
+   &lt;/learningGroup>
+&lt;/learningGroupMap></pre>
+            <p>Au sein d'un groupe d'apprentissage, il est possible d'intégrer d'autres groupes ou
+                objets d'apprentissage. Cela vous permet de réutiliser des rubriques, des leçons,
+                etc. Vous pouvez également réutiliser d'autres cartes d'apprentissage à l'aide des
+                éléments &lt;learningObjectMapRef> et &lt;learningGroupMapRef>.</p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_learningGroup_map">
+        <title>Exercice</title>
+        <taskbody>
+            <steps>
+                <step>
+                    <cmd>Faites une copie du fichier GroupeApprentissage-exercice-debut.ditamap et
+                        ouvrez-le dans votre éditeur.</cmd>
+                    <info>
+                        <note>Si vous utilisez un éditeur compatible avec DITA, assurez-vous d'être
+                            en mode texte plutôt qu'en mode auteur ou visuel.</note>
+                    </info>
+                    <stepxmp>
+                        <p>Vous devriez voir ceci&#xA0;:</p>
+                        <pre>
+&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;!DOCTYPE learningGroupMap PUBLIC "-//OASIS//DTD DITA Learning Group Map//EN" 
+    "learningGroupMap.rng">
+&lt;learningGroupMap>
+    
+&lt;/learningGroupMap></pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Donnez un titre à votre carte et ajoutez le groupe d'apprentissage
+                        principal.</cmd>
+                    <stepxmp>
+                        <pre>
+&lt;learningGroupMap>
+    <ph outputclass="newchanged">&lt;title>Nourrir les canards&lt;/title>
+    &lt;learningGroup>
+    &lt;/learningGroup></ph>
+&lt;/learningGroupMap>
+                        </pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Référencez une rubrique d'apprentissage. Pour cet exercice, nous allons
+                        utiliser les élements LearningPlan et LearningOverview. Vous pourrez
+                        retrouver des fichiers d'exemples à utiliser dans leçon5/Fichiers d'exemple.
+                        Vous pouvez référencer le groupe d'apprentissage «&#xA0;Nourrir les
+                        canards&#xA0;» (lp_nourrir_canard.dita) à l'aide de l'élement
+                        &lt;learningPlanRef> et de l'attribut href.</cmd>
+                    <stepxmp>
+                        <pre>
+&lt;learningGroupMap>
+    &lt;title>Nourrir les canards&lt;/title>
+    &lt;learningGroup>
+        <ph outputclass="newchanged">&lt;learningPlanRef href="../lp_nourrir_canard.dita"/></ph>
+    &lt;/learningGroup>
+&lt;/learningGroupMap>
+                        </pre>
+                    </stepxmp>
+                    <info>Vous pouvez voir que l'élément référençant mentionne le type de rubrique
+                        référencée&#xA0;: &lt;learningPlanRef>.</info>
+                    <info>Assurez-vous d'ajouter "../" au début du chemin de fichier déclaré pour
+                        l'attribut href. Si le chemin vers le fichier change, l'éditeur XML sera
+                        toujours en mesure de le trouver.</info>
+                </step>
+                <step>
+                    <cmd>Référencez l'aperçu du cours.</cmd>
+                    <stepxmp>
+                        <pre>
+&lt;learningGroupMap>
+    &lt;title>Nourrir les canards&lt;/title>
+    &lt;learningGroup>
+        &lt;learningPlanRef href="../lp_nourrir_canard.dita"/>
+        <ph outputclass="newchanged">&lt;learingOverviewRef href="../lo_nourrir_canard.dita/></ph>
+    &lt;/learningGroup>
+&lt;/learningGroupMap>
+                        </pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Ajoutez un second groupe d'apprentissage et donnez-lui un titre. Le groupe
+                        contiendra toutes les rubriques de la leçon 1.</cmd>
+                    <stepxmp>
+                        <pre>
+&lt;learningGroupMap>
+    &lt;title>Nourrir les canards&lt;/title>
+    &lt;learningGroup>
+        &lt;learningPlanRef href="../lp_nourrir_canard.dita"/>
+        <ph outputclass="newchanged">&lt;learingOverviewRef href="../lo_nourrir_canard.dita/></ph>
+    &lt;/learningGroup>
+    
+    <ph outputclass="newchanged">&lt;learningGroup>
+        &lt;topicmeta>
+            &lt;navtitle>Leçon 1&#xA0;: Qualité de l'alimentation&lt;/navtitle>
+        &lt;/topicmeta>
+    &lt;/learningGroup></ph>
+
+&lt;/learningGroupMap>
+                        </pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Il est possible de rendre vos rubriques réutilisables. Créez un
+                        &lt;learningObject> à l'intérieur du groupe d'apprentissage de la leçon 1 et
+                        nommez-le. </cmd>
+                    <stepxmp>
+                        <pre>
+&lt;learningGroupMap>
+    &lt;title>Nourrir les canards&lt;/title>
+    &lt;learningGroup>
+        &lt;learningPlanRef href="../lp_nourrir_canard.dita"/>
+        <ph outputclass="newchanged">&lt;learingOverviewRef href="../lo_nourrir_canard.dita/></ph>
+    &lt;/learningGroup>
+    
+    <ph outputclass="newchanged">&lt;learningGroup>
+        &lt;topicmeta>
+            &lt;navtitle>Leçon 1&#xA0;: Qualité de l'alimentation&lt;/navtitle>
+        &lt;/topicmeta></ph>
+        
+        <ph outputclass="newchanged">&lt;learningObject>
+            &lt;topicmeta>
+                &lt;navtitle>Rubrique 1/navtitle>
+            &lt;/topicmeta>
+        &lt;/learningObject></ph>
+        
+    &lt;/learningGroup>
+
+&lt;/learningGroupMap>
+                        </pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Ajoutez toutes les rubriques d'apprentissages pour la première leçon, ce
+                        qui inclut également les cartes d'apprentissages et sommaires.</cmd>
+                    <stepxmp>
+                        <pre>
+&lt;learningGroupMap>
+  . . .
+    &lt;learningGroup>
+        &lt;topicmeta>
+            &lt;navtitle>Leçon 1&#xA0;: Qualité de l'alimentation&lt;/navtitle>
+        &lt;/topicmeta>
+    
+        &lt;learningObject>
+            &lt;topicmeta>
+                &lt;navtitle>Rubrique 1&lt;/navtitle>
+            &lt;/topicmeta>
+            <ph outputclass="newchanged"> &lt;learningPlanRef href="../lp_nourrir_canard.dita"/>
+            &lt;learningOverviewRef href="../lc_l1_t1_qualité_ingrédient"/>
+            &lt;learningContentRef href="../lc_l1_t1_ou_acheter"/>
+            &lt;learningContentRef href="../lc_l1_t1_stockage.dita"/>
+            &lt;learningContentRef href="../lc_l1_t1_alteration_aliment"/>
+            &lt;learningContentRef href="../lc_l1_t1_qualité_ingrédient"/>
+            &lt;learningSummaryRef href="../ls_l1_t1_synthese.dita"/>
+            &lt;learningPostAssessmentRef href="../lg_l1_t1_quiz" type="learningGroup"/>
+            </ph>
+     &lt;/learningObject>
+    
+    &lt;/learningGroup>
+
+&lt;/learningGroupMap>
+                        </pre>
+                    </stepxmp>
+                    <info>Vous pouvez désormais ajouter tous les objets nécessaires à votre
+                        leçon.</info>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

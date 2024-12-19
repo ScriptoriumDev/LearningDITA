@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_vnc_rpy_v2">
+ <title>L'illusion de la documentation à faible coût</title>
+ <conbody>
+  <p><indexterm>communication technique<indexterm>illusion de la documentation à faible
+     coût</indexterm></indexterm><indexterm>coûts<indexterm>illusion de la documentation à faible
+     coût</indexterm></indexterm><indexterm>contrôler les coûts<indexterm>illusion de la
+     documentation à faible coût</indexterm></indexterm><indexterm>contenu<indexterm>illusion de la
+     documentation à faible coût</indexterm></indexterm><indexterm>documentation à faible coût,
+    illusion</indexterm>Dans de nombreuses organisations, la direction accorde aussi peu d'attention
+   que possible au contenu. L'élaboration du contenu est confiée au personnel administratif qui
+   utilise les outils disponibles (généralement Microsoft Office) ou est sous-traitée au moins
+   disant.</p>
+  <p>Cette approche présente des avantages&#xA0;:</p>
+  <ul id="ul_qq4_qfb_hg">
+   <li><i>Ressources minimales.</i> La direction ignore le contenu et se concentre sur d'autres
+    priorités.</li>
+   <li><i>Budget minimal.</i> Le budget consacré au contenu semble faible.</li>
+  </ul>
+  <p>Une évaluation plus attentive de cette approche révèle généralement un certain nombre de
+   problèmes importants&#xA0;:</p>
+  <ul id="ul_sq4_qfb_hg">
+   <li><indexterm>«&#xA0;Personne ne lit la documentation&#xA0;»<index-sort-as>Personne ne lit la
+      documentation</index-sort-as></indexterm>Le contenu n'est pas utile. («&#xA0;Personne ne lit la
+    documentation.&#xA0;»)</li>
+   <li>Le contenu n'est disponible que dans un seul format de sortie, tel que le PDF ou peut-être
+    les fichiers Word originaux.</li>
+   <li><indexterm>documentation superficielle</indexterm><indexterm>documentation
+     exaspérante</indexterm>Les créateurs de contenu ne comprennent pas le produit, donc ils
+    produisent une documentation superficielle garantissant de rendre furieux quiconque la lit. («
+    Dans le champ Nom, tapez le nom de la personne.&#xA0;») </li>
+  </ul>
+  <p><indexterm>stratégie «&#xA0;meh&#xA0;»<index-sort-as>stratégie «&#xA0;meh
+   &#xA0;»</index-sort-as></indexterm><indexterm>stratégie «&#xA0;meh&#xA0;»</indexterm>Il est acceptable d'évaluer
+   les besoins de votre organisation en matière de contenu et de se lancer dans une stratégie de
+   production de contenu quelconque à moindre coût (la stratégie «&#xA0;meh&#xA0;»). Cependant, la grande
+   majorité des organisations qui adoptent une attitude de laissez-faire n'ont pas réfléchi aux
+   implications de cette stratégie.</p>
+  <p>Les arguments en faveur d'une stratégie d'indifférence sont les suivants&#xA0;:</p>
+  <ul id="ul_5q4_qfb_hg">
+   <li>Notre contenu n'est pas important pour assurer un fonctionnement sûr de notre produit.</li>
+   <li>Notre contenu répond aux normes réglementaires, le cas échéant, et aux exigences des
+    clients.</li>
+   <li>Fournir un meilleur contenu n'aidera pas l'entreprise.</li>
+   <li>Fournir du contenu dans un plus grand nombre de formats n'aidera pas l'entreprise.</li>
+   <li>Nous ne localisons pas le contenu et ne serons jamais tenus de le faire.</li>
+  </ul>
+  <p><indexterm>problèmes commerciaux<indexterm>créés par une mauvaise
+    documentation</indexterm></indexterm><indexterm>problèmes, mauvaise
+   documentation</indexterm>L'argument se décompose généralement dans la dernière partie de cette
+   liste. Voici quelques problèmes commerciaux typiques dont la cause première est une mauvaise
+   documentation&#xA0;:</p>
+  <ul id="ul_wq4_qfb_hg">
+   <li><i>Le volume d'appels au support technique est élevé.</i> Les clients renoncent à consulter
+    la (terrible) documentation et appellent à la place, transférant ainsi le coût de la mauvaise
+    documentation du client à votre organisation.</li>
+   <li><i>Les retours de produits sont élevés et les ventes sont perdues.</i> Les clients ne
+    parviennent pas à installer et à configurer le produit, alors ils le retournent. La
+    documentation d'installation et de configuration est nébuleuse. Un blog avertit même les gens de
+    ne pas acheter le produit à cause de ces problèmes. </li>
+   <li><i>Contenu manquant.</i> Une soumission réglementaire est retardée ou rejetée parce qu'elle
+    n'est pas conforme aux exigences de l'agence. Une section critique a été omise par inadvertance. </li>
+   <li><i>Ne peut pas livrer les formats requis.</i> L'utilisation d'une norme militaire pour le
+    contenu est spécifiée dans un contrat de défense. Mais le contenu a été développé dans un
+    traitement de texte. Aujourd'hui, la rentabilité et la livraison dans les délais prévus par le
+    contrat sont compromises par une conversion de contenu inattendue.</li>
+   <li><i>Du contenu laid contredit les messages sur les produits haut de gamme.</i> L'organisation
+    commercialise un produit comme un produit haut de gamme à un prix élevé. Mais la documentation a
+    l'air horrible, ce qui contredit le message marketing. Les manuels ne contribuent pas de manière
+    positive à l'expérience initiale de sortie de boîte. Les choses ne s'améliorent pas non plus
+    lorsque les clients regardent à l'intérieur des manuels.</li>
+   <li><i>Coûts énormes de mondialisation.</i> L'organisation a identifié des opportunités sur les
+    marchés mondiaux, mais la fourniture de contenu localisé à partir du processus de travail
+    existant n'est pas viable – l'organisation ne maintient même pas à niveau le contenu dans la
+    langue principale.</li>
+   <li><i>Le support technique et d'autres organisations internes créent un contenu qui fait double
+     emploi avec la documentation.</i> Le support technique, la formation et d'autres groupes de
+    travail ont besoin du contenu de la documentation, mais ils ne parviennent pas à le trouver. Les
+    manuels sont livrés sous forme de fichiers Word ou PDF monolithiques, et la recherche de ces
+    fichiers est fastidieuse et longue. Au lieu de cela, le groupe du support a recours à la
+    recréation de contenu dans une base de connaissances non officielle.</li>
+  </ul>
+  <p><indexterm>coûts<indexterm>ignorer le contenu<index-sort-as>ignorer le
+      contenu</index-sort-as></indexterm></indexterm>Ignorer le contenu peut avoir d'énormes
+   conséquences financières pour l'ensemble de l'organisation.</p>
+ </conbody>
+</concept>

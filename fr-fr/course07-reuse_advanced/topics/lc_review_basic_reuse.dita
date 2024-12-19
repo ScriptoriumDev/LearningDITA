@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="content_pgf_3gt_qt">
+    <title>Rappel des bases de la réutilisation de contenu</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey</author>
+        <author>Decarnelle Rémi (auteur)</author>
+        <critdates>
+            <created golive="2016-12-01" date="2016-10-18"/>
+            <revised modified="2020-02-02"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Dans le cours <xref keyref="reuse_basic_url"/>, vous avez appris les notions
+                suivantes.</p>
+            <ul id="ul_sby_1v5_cx">
+                <li> Vous devez toujours avoir à l'esprit la réutilisation de contenu lors de la
+                    rédaction de rubriques. Les rubriques réutilisables sont cohérentes,
+                    indépendantes d'un contexte, et générales.</li>
+                <li>Vous pouvez réutiliser une rubriques dans plusieurs cartes.</li>
+                <li>Vous pouvez réutiliser des cartes dans d'autres cartes.</li>
+                <li>Vous pouvez réutiliser une rubrique plusieurs fois dans la même carte.</li>
+                <li>Vous pouvez utiliser le référencement de contenu (ou conref) pour réutiliser des
+                    éléments dans plusieurs rubriques.</li>
+            </ul>
+            <p>Cette leçon s'appuie sur ces principes et idées pour vous présenter les conditions
+                (traitement conditionnel), les clés, et des méthodes avancées de référencement de
+                contenu.</p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

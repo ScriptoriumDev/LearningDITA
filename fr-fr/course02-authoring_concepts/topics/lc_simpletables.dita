@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_kw5_5ls_zs" xml:lang="fr-FR">
+    <title>Ajouter des tableaux simples à un concept</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-08-24"/>
+            <revised modified="2019-10-27"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Il y a deux éléments disponibles pour créer des tableaux dans un concept&#xA0;:
+                &lt;simpletable> et &lt;table>.</p>
+            <p>Utilisez l'élément &lt;simpletable> chaque fois que vous le pouvez, en particulier
+                pour les tableaux courts. Utilisez l'élément &lt;table> pour les tableaux plus
+                important ou les tableaux qui nécessitent un formatage plus complexe.</p>
+            <p>Les éléments contenus dans l'élément &lt;simpletable> comprennent&#xA0;:</p>
+            <simpletable frame="all" relcolwidth="1.0* 1.0*" id="simpletable_rwy_l3n_2t">
+                <strow>
+                    <stentry>
+                        <p>&lt;sthead></p>
+                    </stentry>
+                    <stentry>
+                        <p>Élément conteneur pour la ligne d'en-tête d'un élément &lt;simpletable>.
+                            L'élément &lt;sthead> contient l'élément &lt;stentry> et est facultatif.
+                            Il ne peut y avoir qu'un seul élément &lt;sthead> dans un élément
+                            &lt;simpletable>.</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;strow></p>
+                    </stentry>
+                    <stentry>
+                        <p>Élément conteneur pour les lignes du corps d'un élément &lt;simpletable>.
+                            L'élément &lt;strow> contient l'élément &lt;stentry>. Un élément
+                            &lt;simpletable> peut avoir un ou plusieurs éléments &lt;strow>.</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;stentry></p>
+                    </stentry>
+                    <stentry>
+                        <p>Élément conteneur pour une cellule unique dans un élément
+                            &lt;simpletable>. L'élément &lt;stentry> contient le texte d'une cellule
+                            dans l'élément &lt;simpletable>, qui devrait être encadré dans un
+                            élément &lt;p> selon les meilleures pratiques.</p>
+                    </stentry>
+                </strow>
+            </simpletable>
+            <p>Cette leçon couvrira les bases de l'utilisation de l'élément &lt;simpletable>.</p>
+            <fig>
+                <title>Exemple de &lt;simpletable> dans un format visuel</title>
+                <image href="../media/images_and_tables/simpletable.png" id="image_rtn_xmn_2t"
+                    base="2020/10"/>
+            </fig>
+            <p>Continuez à utiliser le fichier leçon2/l_concept_images_tableaux_debut.dita pour
+                ajouter l'élément &lt;simpletable>.</p>
+            <note>
+                <p>Si vous utilisez un éditeur DITA, certains éléments enfants de l'élément
+                    &lt;simpletable> seront automatiquement insérés au fur et à mesure que vous
+                    travaillez sur les exemples.</p>
+            </note>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_a2s_dvs_zs">
+        <title>Ajouter l'élément &lt;simpletable></title>
+        <taskbody>
+            <steps id="steps_mrl_tf1_dt">
+                <step>
+                    <cmd>Insérez l'élément &lt;simpletable> après l'élément &lt;fig> dans l'élément
+                        &lt;conbody> tel que présenté dans l'exemple suivant&#xA0;:</cmd>
+                    <stepxmp/>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_images_tables">
+   &lt;title>Croissance et développement du caneton&lt;/title>
+  &lt;conbody>
+...
+&lt;/fig>
+ <ph outputclass="newchanged">&lt;simpletable>
+ &lt;/simpletable></ph>
+   &lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Insérez l'élément &lt;sthead> dans l'élément &lt;simpletable> tel que
+                        présenté dans l'exemple suivant&#xA0;:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_images_tables">
+   &lt;title>Croissance et développement du caneton&lt;/title>
+ &lt;conbody>
+...
+&lt;simpletable>
+<ph outputclass="newchanged">&lt;sthead>
+&lt;/sthead></ph>
+&lt;/simpletable>
+   &lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>L'élément &lt;sthead> définit la ligne d'en-tête de l'élément
+                        &lt;simpletable>.</info>
+                </step>
+                <step>
+                    <cmd>Insérez deux éléments &lt;stentry> avec du contenu dans l'élément
+                        &lt;sthead> tel que présenté dans l'exemple suivant&#xA0;:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_images_tables">
+   &lt;title>Croissance et développement du caneton&lt;/title>
+  &lt;conbody>
+...
+&lt;sthead>
+<ph outputclass="newchanged">&lt;stentry>&lt;p>Âge&lt;/p>&lt;/stentry>
+&lt;stentry>&lt;p>Étape importante&lt;/p>&lt;/stentry></ph>
+&lt;/sthead>
+...
+   &lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>L'élément &lt;stentry> représente une seule cellule. Le nombre d'éléments
+                        &lt;stentry> à l'intérieur de l'élément &lt;sthead> déterminera le nombre de
+                        colonnes présentes dans votre élément &lt;simpletable>.</info>
+                    <info>L'exemple suit la recommandation d'encadrer le texte d'un élément
+                        &lt;stentry> par un élément &lt;p>.</info>
+                </step>
+                <step>
+                    <cmd>Après l'élément &lt;sthead>, ajoutez l'élément &lt;strow> tel que présenté
+                        dans l'exemple suivant&#xA0;:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_images_tables">
+   &lt;title>Croissance et développement du caneton&lt;/title>
+   &lt;conbody>
+...
+&lt;/sthead>
+<ph outputclass="newchanged">&lt;strow>
+&lt;/strow></ph>
+...
+   &lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>Chaque élément &lt;strow> crée une ligne dans le corps de l'élément
+                        &lt;simpletable>, après la ligne d'en-tête.</info>
+                </step>
+                <step>
+                    <cmd>Insérez deux éléments &lt;stentry> avec du contenu dans l'élément
+                        &lt;strow> tel que présenté dans l'exemple suivant&#xA0;:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_images_tables">
+   &lt;title>Croissance et développement du caneton&lt;/title>
+  &lt;conbody>
+...
+&lt;strow>
+<ph outputclass="newchanged">&lt;stentry>&lt;p>7 semaines&lt;/p>&lt;/stentry>
+&lt;stentry>&lt;p>Première tentative de vol&lt;/p>&lt;/stentry></ph>
+&lt;/strow>
+...
+   &lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>
+                        <p>Tous les éléments &lt;strow> et l'élément &lt;sthead> doivent contenir le
+                            même nombre d'éléments &lt;stentry>.</p>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Après le premier élément &lt;strow>, ajoutez deux lignes supplémentaires
+                        avec du contenu à l'élément &lt;simpletable> tel que présenté dans l'exemple
+                        suivant&#xA0;:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_images_tables">
+   &lt;title>Croissance et développement du caneton&lt;/title>
+ &lt;conbody>
+...
+&lt;/strow>
+<ph outputclass="newchanged">&lt;strow>
+&lt;stentry>&lt;p>12 à 14 semaines&lt;/p>&lt;/stentry>
+&lt;stentry>&lt;p>Atteinte du poids adulte&lt;/p>&lt;/stentry>
+&lt;/strow>
+&lt;strow>
+&lt;stentry>&lt;p>1 an&lt;/p>&lt;/stentry>
+&lt;stentry>&lt;p>Capable de reproduction&lt;/p>&lt;/stentry>
+&lt;/strow></ph>
+...
+   &lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>Vous pouvez ajouter un ou plusieurs éléments &lt;strow> à l'élément
+                        &lt;simpletable></info>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

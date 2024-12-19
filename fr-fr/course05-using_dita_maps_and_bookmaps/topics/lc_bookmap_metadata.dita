@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_pgf_3gt_qt">
+    <title>Ajouter des métadonnées à une bookmap</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2016-03-07"/>
+            <revised modified="2020-10-19"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>L'un des principaux avantages à l'utilisation de bookmaps plutôt que de cartes est
+                l'élargissement de leurs capacités en matière de métadonnées. Les bookmaps peuvent
+                contenir des métadonnées étendues concernant la propriété, l'identification, les
+                droits d'auteur, le processus de travail et la publication d'un livre. Il existe
+                beaucoup plus d'éléments disponibles pour capturer les métadonnées de manière plus
+                spécifique dans les bookmaps que dans les cartes. Cela signifie qu'un ensemble de
+                rubriques collectées dans une bookmap sera plus riche sémantiquement, plus
+                facilement interrogeable et mieux adapté à la publication que le même ensemble de
+                rubriques dans une carte.</p>
+            <p>Vous pouvez ajouter des métadonnées à la bookmap à plusieurs endroits&#xA0;:</p>
+            <ul id="ul_fqf_fyy_3v">
+                <li>
+                    <p>À l'intérieur de l'élément &lt;bookmap> en utilisant l'élément
+                        &lt;bookmeta></p>
+                </li>
+                <li>
+                    <p>À l'intérieur des éléments contenus dans les liminaires de début et de fin du
+                        livre en utilisant l'élément &lt;topicmeta></p>
+                </li>
+                <li>
+                    <p>À l'intérieur des chapitres du livre, des références aux rubriques et des
+                        références aux cartes en utilisant l'élément &lt;topicmeta></p>
+                </li>
+            </ul>
+            <p>L'élément &lt;bookmeta> d'une bookmap peut contenir les mêmes éléments de métadonnées
+                que l'élément &lt;topicmeta> d'une carte, et bien d'autres encore. Parmi les plus
+                utiles, on peut citer&#xA0;:</p>
+            <ul id="ul_xyc_qcz_3v">
+                <li>
+                    <p>&lt;authorinformation></p>
+                </li>
+                <li>
+                    <p>&lt;publisherinformation></p>
+                </li>
+                <li>
+                    <p>&lt;critdates></p>
+                </li>
+                <li>
+                    <p>&lt;bookid></p>
+                </li>
+            </ul>
+            <p>L'élément &lt;bookmeta> est facultatif dans la structure de la bookmap. Si vous
+                l'utilisez, il doit être placé après l'élément &lt;booktitle> et avant l'élément
+                &lt;frontmatter>. La structure de l'élément &lt;bookmeta> pourrait ressembler à
+                quelque chose comme ça&#xA0;:</p>
+            <pre> &lt;bookmeta>
+        &lt;authorinformation>
+            &lt;personinfo>
+                &lt;namedetails>
+                    &lt;personname>&lt;firstname>Prénom de l'auteur&lt;/firstname>
+                    &lt;lastname>Nom de l'auteur&lt;/lastname>&lt;/personname>
+                &lt;/namedetails>
+            &lt;/personinfo> 
+            &lt;organizationinfo>
+                &lt;namedetails>
+                    &lt;organizationnamedetails>
+                        &lt;organizationname>Nom de la compagnie&lt;/organizationname>
+                    &lt;/organizationnamedetails>
+                &lt;/namedetails>
+            &lt;/organizationinfo>
+        &lt;/authorinformation>
+        &lt;critdates>
+            &lt;created date="1/1/2001"/>
+            &lt;revised modified="1/1/2016"/>
+        &lt;/critdates>
+        &lt;bookid>
+            &lt;edition>4&lt;/edition>
+            &lt;booknumber>ID-9999&lt;/booknumber>
+            &lt;volume>2&lt;/volume>
+        &lt;/bookid> 
+    &lt;/bookmeta></pre>
+            <p>Cet exemple montre également que l'information est beaucoup plus sophistiquée dans
+                les bookmaps que dans les cartes. Bien que l'élément &lt;author> soit disponible à
+                la fois dans les bookmaps et les cartes, l'élément &lt;authorinformation> n'est
+                disponible que dans les bookmaps. L'élément &lt;authorinformation> peut contenir
+                beaucoup plus d'informations, étiquetées d'une manière qui fournit plus de valeur
+                sémantique. </p>
+            <p>L'élément &lt;topicmeta> est disponible à la fois dans les cartes et les bookmaps,
+                mais la structure de la bookmap permet de l'utiliser dans un plus grand nombre
+                d'emplacements. Par exemple, vous pouvez appliquer l'élément &lt;topicmeta> à une
+                préface dans la partie préliminaire du livre, ou à un glossaire à la fin du livre.
+                Vous pouvez également appliquer l'élément &lt;topicmeta> à un chapitre, à la
+                référence d'une rubrique, ou à la référence d'une carte dans une bookmap. Lorsqu'il
+                est utilisé dans une bookmap, l'élément &lt;topicmeta> peut contenir tous les
+                éléments &lt;metadata> qui peuvent être utilisés dans une carte, plus l'élément
+                &lt;authorinformation>. </p>
+            <note>
+                <p>Pour plus d'information sur l'élément &lt;bookmeta> et les éléments qu'il peut
+                    contenir, se référer à la <xref
+                        href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/bookmeta.html"
+                        format="html" scope="external">norme OASIS DITA version 1.2</xref>.</p>
+            </note>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_at5_jgd_3v">
+        <title/>
+        <taskbody>
+            <steps id="steps_umd_lgd_3v">
+                <step>
+                    <cmd>Faites une copie du fichier
+                        exemples_cartes_bookmaps/exemples/_b_canards_avances_debut.ditamap et
+                        ouvrez-le dans votre éditeur.</cmd>
+                </step>
+                <step>
+                    <cmd>À l'intérieur de l'élément &lt;bookmap>, après la balise de fermeture de
+                        l'élément &lt;booktitle>, ajoutez un élément &lt;bookmeta> et ajoutez-y du
+                        contenu comme le montre l'exemple suivant&#xA0;:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+&lt;bookmap id="canards">
+...
+&lt;/booktitle>
+<ph outputclass="newchanged">  &lt;bookmeta>
+    &lt;author>Votre nom ici&lt;/author>
+    &lt;bookrights>
+      &lt;copyrfirst>
+        &lt;year>2015&lt;/year>
+      &lt;/copyrfirst>
+      &lt;copyrlast>
+        &lt;year>2016&lt;/year>
+      &lt;/copyrlast>
+      &lt;bookowner>
+        &lt;organization>BookCo&lt;/organization>
+      &lt;/bookowner>
+    &lt;/bookrights>
+    &lt;/bookmeta></ph>
+&lt;/bookmap></pre>
+                    </stepxmp>
+                    <info>L'élément &lt;bookmeta> que vous venez d'ajouter établit les métadonnées
+                        suivantes au niveau de la bookmap&#xA0;:<ul id="ul_tyt_qds_3v">
+                            <li>
+                                <p>Vous êtes l'auteur de ce livre</p>
+                            </li>
+                            <li>
+                                <p>Les droits d'auteur initiaux étaient en 2015, et ont été
+                                    renouvelés en 2016</p>
+                            </li>
+                            <li>
+                                <p>Le livre était produit par BookCo</p>
+                            </li>
+                        </ul></info>
+                </step>
+                <step>
+                    <cmd>À l'intérieur de l'élément &lt;chapter> qui pointe vers
+                        c_canards_sauvages.dita, ajouter un élément &lt;topicmeta> et ajoutez-y du
+                        contenu comme le montre l'exemple suivant&#xA0;:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+&lt;bookmap id="canards">
+...
+&lt;/bookmeta>
+&lt;chapter href="c_cnards_sauvages.dita">
+<ph outputclass="newchanged">&lt;topicmeta>
+&lt;category>Canards sauvages&lt;/category>
+&lt;/topicmeta></ph>
+...
+&lt;/chapter>
+&lt;/bookmap></pre>
+                    </stepxmp>
+                    <info>L'élément &lt;topicmeta> que vous venez d'ajouter établit les métadonnées
+                        suivantes au niveau rubrique&#xA0;:<ul id="ul_xfr_jgz_3v">
+                            <li>
+                                <p>Ce chapitre concerne les canards sauvages</p>
+                            </li>
+                        </ul></info>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

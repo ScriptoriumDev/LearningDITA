@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<topic id="topic_nxn_1t4_tx">
+  <title>Éléments conkeyref pour Intro à DITA</title>
+  <body>
+    <!-- List the folders that are in the sample zip file for this course. -->
+    <!-- This content is pulled in by conkeyref to the reusable housekeeping file. -->
+    <p id="folder_contents">À l'intérieur du dossier des exemples, vous trouverez les sous-dossiers suivants&#xA0;: <ul
+        id="ul_v3p_pth_cy">
+        <li>
+          <p>conrefs</p>
+        </li>
+        <li>
+          <p>reutiliser_rubriques_et_cartes</p>
+        </li>
+        <li>
+          <p>ecrire_pour_reutiliser</p>
+        </li>
+      </ul></p>
+  </body>
+</topic>

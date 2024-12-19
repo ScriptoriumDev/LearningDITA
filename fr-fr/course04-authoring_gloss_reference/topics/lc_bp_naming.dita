@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_bsq_ccn_vt" xml:lang="fr-FR">
+    <title>Nommer les fichiers et les identifiants</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-10-29"/>
+            <revised modified="2020-07-21"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Si vous utilisez un système de fichiers pour gérer votre contenu DITA, ou si votre
+                système de gestion de contenu vous permet de spécifier des noms de fichiers et des
+                attributs id, nous préconisons ces conventions&#xA0;:</p>
+            <ul id="ul_fz4_mcn_vt">
+                <li>Lorsque c'est possible, commencez tous les noms de fichiers pour vos entrées de
+                    glossaire par «&#xA0;g_&#xA0;». Le reste du nom de fichier doit refléter le
+                    contenu de l'élément &lt;glossterm> de l'entrée de glossaire. Cela vous aide à
+                    trouver toutes vos entrées de glossaire dans votre système de fichiers.
+                    Cependant, utilisez le caractère de soulignement («&#xA0;_&#xA0;»") pour séparer
+                    les mots, plutôt qu'un espace (les espaces dans les noms de fichiers DITA
+                    peuvent poser des problèmes). </li>
+                <li>L'attribut id pour l'entrée de glossaire doit être le même que le nom de fichier
+                    (moins l'extension .dita). Vous pouvez également choisir d'omettre le
+                    «&#xA0;g_&#xA0;» dans l'attribut id, à condition que la valeur de l'attribut id
+                    corresponde au même terme que celui utilisé dans le nom du fichier. Ainsi, si
+                    une rubrique est nommé «&#xA0;g_mallard.dita&#xA0;», l'identifiant de l'entrée
+                    de glossaire doit être «&#xA0;g_mallard &#xA0;» ou «&#xA0;mallard&#xA0;». </li>
+                <li>Bien que ce chapitre n'aborde pas le concept de clés dans DITA, nous conseillons
+                    également d'utiliser la valeur de l'attribut id comme nom de clé.</li>
+            </ul>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

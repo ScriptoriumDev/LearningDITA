@@ -7,4 +7,4 @@ The project roadmap is part of the GitHub wiki. It lists the course sequencing a
 
 https://github.com/okeefescriptorium/ditatraining/wiki/Project-roadmap
 
-Course content is published by Scriptorium at http://www.learningDITA.com
+Course content is published by Scriptorium at https://www.learningDITA.com

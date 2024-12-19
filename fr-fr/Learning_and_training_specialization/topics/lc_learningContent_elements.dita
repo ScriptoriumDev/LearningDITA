@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="lc_learningContent_elements">
+    <title>Les éléments de la rubrique &lt;learningContent></title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Kaitlyn Heath, Scriptorium</author>
+        <author>Decarnelle Rémi</author>
+        <critdates>
+            <created date="2017-04-21"/>
+            <revised modified="2021-10-23"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction id="lcInstruction_js5_cqb_yz">
+            <p>Le type de rubrique &lt;learningContent> contient les éléments suivants&#xA0;:</p>
+            <p>&lt;learningContentbody>&#xA0;: Élément principal qui contient tous les autres
+                éléments&#xA0;; spécialisation de &lt;body>&#xA0;; similaire à &lt;conbody>,
+                &lt;taskbody>, etc</p>
+            <p>&lt;lcInstruction>&#xA0;: Élément au sein de &lt;learningContentbody> contenant le
+                contenu pédagogique. Peut inclure des concepts, exemples, activités, exercices,
+                etc.</p>
+            <p>Les autres éléments que peut contenir &lt;learningContentbody> sont&#xA0;:</p>
+            <ul>
+                <li><p>&lt;lcIntro>&#xA0;: Présentation du sujet de la leçon souvent à l'aide d'une
+                        description détaillée ou de notes qu'un élément &lt;shortdesc> ne peut pas
+                        adéquatement couvrir</p></li>
+                <li><p>&lt;lcDuration>&#xA0;: Estimation du temps de lecture nécessaire pour
+                        l'étudiant afin de terminer les activités associées</p></li>
+                <li><p>&lt;lcObjectives>&#xA0;: Liste des objectifs</p></li>
+                <li><p>&lt;lcChallenge>&#xA0;: Explications sur ce que l'étudiant doit
+                    pratiquer</p></li>
+            </ul>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

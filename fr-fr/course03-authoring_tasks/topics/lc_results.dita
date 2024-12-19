@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_om5_wjk_bt" xml:lang="fr-FR">
+    <title>Résultats de la tâche</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-08-18"/>
+            <revised modified="2020-05-18"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>À la suite de l'élément &lt;steps>, vous pouvez utiliser l'élément &lt;result> pour
+                décrire le résultat final du bon déroulement de la tâche.</p>
+            <p>Cet élément est similaire à l'élément &lt;stepresult>, mais alors que l'élément
+                &lt;stepresult> décrit le résultat du déroulement d'une étape, l'élément &lt;result>
+                décrit le résultat du déroulement de la tâche dans son intégralité.</p>
+            <p>Vous pouvez utilisez &lt;result> pour décrire un message de confirmation, founir un
+                test simple que le lecteur pourrait faire pour vérifier le résultat final, ou
+                simplement inclure un message de félicitation au lecteur.</p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_vxg_4pp_bt">
+        <title/>
+        <taskbody>
+            <steps id="steps_jg1_ppp_bt">
+                <step>
+                    <cmd>Continuez de travailler sur le fichier l_tache_debut.dita.</cmd>
+                </step>
+                <step>
+                    <cmd>Après la balise de fermeture de l'élément &lt;steps>, ajoutez un élément
+                        &lt;result>.</cmd>
+                    <stepxmp>
+                        <pre>  ...
+        &lt;/steps>
+<ph outputclass="newchanged">        &lt;result>
+
+        &lt;/result></ph>
+    &lt;/taskbody>
+&lt;/task>
+</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Ajoutez le texte suivant dans l'élément result.</cmd>
+                    <stepxmp>
+                        <pre>&lt;result>
+<ph outputclass="newchanged">&lt;p>Le grand air, l'exercice et l'excitation d'observer des canards sauvages devraient vous donner une sensation de bien-être accrue.&lt;/p></ph>
+&lt;/result>
+</pre>
+                    </stepxmp>
+                    <info>Encadrez le texte par un élément &lt;p> selon les meilleures
+                        pratiques.</info>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_kw5_5ls_zs">
+    <title>Premières étapes</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-08-12"/>
+            <revised modified="2020-10-04"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Après l'élément &lt;context> de votre tâche, ajoutez un élément &lt;steps>.</p>
+            <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+&lt;task id="rubrique_tache">
+   &lt;title>&lt;/title>
+   &lt;taskbody>
+      &lt;prereq>
+      &lt;/prereq>
+      &lt;context>
+      &lt;/context>
+<ph outputclass="newchanged">      &lt;steps>
+      &lt;/steps></ph>
+   &lt;/taskbody>
+&lt;/task></pre>
+            <p>Comme pour les éléments &lt;prereq> et &lt;context>, le &lt;taskbody> ne peut
+                contenir qu'un seul élément &lt;steps>. Conformément à l'esprit DITA selon lequel
+                une rubrique doit contenir une seule idée, le fait de vous limiter à un seul élément
+                &lt;steps> permet de s'assurer que la rubrique ne décrit que la façon d'effectuer
+                une tâche.</p>
+            <p>À l'intérieur de l'élément &lt;steps>, ajoutez un élément &lt;step>.</p>
+            <pre>...
+      &lt;steps>
+<ph outputclass="newchanged">         &lt;step>
+         &lt;/step></ph>
+      &lt;/steps>
+...</pre>
+            <p>L'élément &lt;steps> doit contenir au moins un élément &lt;step>. La plupart des
+                éditeurs DITA ajoutent automatiquement un premier élément &lt;step> à l'élément
+                &lt;steps>.</p>
+            <p>Avec DITA, le contenu de chaque étape individuelle est également très contrôlé.
+                L'action que le lecteur doit effectuer est contenue dans un élément de type
+                &lt;cmd>, qui est un élément obligatoire dans &lt;step>. Dans la plupart des cas,
+                l'élément &lt;cmd> contient une seule phrase, qui est une instruction directe à
+                destination du lecteur pour effectuer une certaine action. </p>
+            <p>À l'intérieur de l'élément &lt;step>, ajoutez un élément &lt;cmd> (qui se lit comme
+                "commande").</p>
+            <pre>...
+      &lt;steps>
+         &lt;step>
+<ph outputclass="newchanged">            &lt;cmd>&lt;/cmd></ph>
+         &lt;/step>
+      &lt;/steps>
+...</pre>
+            <p>Parce que l'élément &lt;step> doit contenir exactement un élément &lt;cmd>, la
+                plupart des éditeurs DITA ajoutent l'élément &lt;cmd> lorsqu'ils ajoutent l'élément
+                &lt;step>. </p>
+            <p>Enfin ! Nous avons un endroit pour mettre du contenu réel. Dans l'élément &lt;cmd>,
+                ajoutez la première instruction pour le lecteur. </p>
+            <pre>...
+      &lt;steps>
+         &lt;step>
+<ph outputclass="newchanged">            &lt;cmd><ph outputclass="newchanged">Faites quelque chose !</ph>&lt;/cmd></ph>
+         &lt;/step>
+      &lt;/steps>
+...</pre>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_a2s_dvs_zs">
+        <title/>
+    </task>
+</learningContent>

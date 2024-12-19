@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="content_pgf_3gt_qt">
+    <title>Utiliser les clés pour pointer vers une ressource</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey</author>
+        <author>Decarnelle Rémi (traducteur)</author>
+        <critdates>
+            <created golive="2016-12-01" date="2016-10-18"/>
+            <revised modified="2021-03-02"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <!--I'm making a conscious choice here not to mention topicref, because it clouds the issue. -->
+        <lcInstruction>
+            <p><b>Définir une clé</b></p>
+            <p>Pour définir une clé contenant un chemin vers un fichier ou une URL, ajouter
+                l'élément &lt;keydef> à votre carte. Vous pouvez ensuite ajouter les attributs
+                suivant à &lt;keydef> :</p>
+            <ul>
+                <li><b>keys</b>: le nom de la clé</li>
+                <li><b>href</b>: la cible de la clé</li>
+                <li><b>format</b>: le type de fichier auquel la clé va faire référence</li>
+            </ul>
+            <p>Par exemple :</p>
+            <pre>&lt;keydef keys="image_produit" href="images/produit_B.png" format="png"/></pre>
+            <p>Bien qu'il est possible d'insérer des caractères spéciaux dans le nom de la clé, il
+                fait partie des bonnes pratiques de n'utiliser seulement que des lettres, des
+                chiffres, et des traits de soulignement. Si vous avez besoin d'aide pour utiliser
+                des caractères spéciaux, veuillez consulter le lien suivant (en anglais) : <xref
+                    keyref="dita_12_url"/></p>
+            <p>Une autre bonne pratique consiste à définir le format utilisé avec la clé. Dans les
+                valeurs possibles sont inclues "dita", "ditamap", "pdf", "html", et les formats
+                graphiques comme "png" ou "svg".</p>
+            <p>Si vous définissez une clé pointnat vers une ressource externe comme une URL, vous
+                devez utiliser l'attribut <tt>scope="external"</tt> avec l'élément &lt;keydef> :</p>
+            <pre>&lt;keydef keys="mon_url" href="http://www.scriptorium.com" scope="external" format="html"/></pre>
+            <p>L'attribut scope empêche DITA Open Toolkit (ou d'autres transformateurs) d'essayer de
+                résoudre la cible de l'attribut href comme étant une partie de la définition de la
+                clé. Comme l'attribut href pointe vers une page web, alors l'attribut format doit
+                contenir la valeur <i>html</i>.</p>
+            <p><b>Utiliser les clés</b></p>
+            <p>Pour utiliser une clé pointant vers un chemin de fichier ou une URL, vous devez
+                utiliser l'attribut keyref plutôt que href :</p>
+            <pre>&lt;image keyref="image_produit"/></pre>
+            <p>Vous pouvez utiliser les clés (avec l'attribut keyref) dans n'importe quel élément se
+                servant de l'attribut href pour pointer vers un chemin de fichier. Voici les
+                éléments les plus récurrents associés à l'attribut href :<sl>
+                    <sli>&lt;image></sli>
+                    <sli>&lt;xref></sli>
+                    <sli>&lt;link></sli>
+                    <sli>&lt;coderef></sli>
+                    <sli>&lt;topicref></sli>
+                    <sli>&lt;mapref></sli>
+                </sl></p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

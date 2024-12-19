@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_gxd_rry_5r2">
+    <title>Métadonnées</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe,
+            Scriptorium</author>
+        <author>Sharon Burton</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-05-01"/>
+            <revised modified="2015-05-15"/>
+            <revised modified="2019-08-22"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup>
+                <lcObjective>Définir les métadonnées</lcObjective>
+                <lcObjective>Décrire l'utilisation des métadonnées</lcObjective>
+                <lcObjective>Montrer comment ajouter des métadonnées aux thèmes </lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="30"/>
+        </lcDuration>
+        <lcIntro>
+            <p>Métadonnées signifie «&#xA0;au-delà des données&#xA0;» ou données sur les données.
+                Dans le contenu XML, les métadonnées vous permettent de classifier et de manipuler
+                l'information. Dans DITA, vous pouvez assigner des métadonnées aux thèmes, à des
+                éléments individuels, etc.</p>
+        </lcIntro>
+    </learningContentbody>
+    <related-links>
+        <link
+            href="https://www.ixiasoft.com/documentation/DITA_Style_Guide/fr/Artefact/c_Types_of_Metadata.html"
+            format="html" scope="external">
+            <linktext>Guide de style DITA, Métadonnées, traitement conditionnel et
+                indexation</linktext>
+        </link>
+        <link href="http://www.opentag.com/xfaq_lang.htm" scope="external" format="html">
+            <linktext>FAQ sur l'identification de langue de opentag.com (adresse l'utilisation de
+                xml:lang pour l'identification de langue)</linktext>
+        </link>
+    </related-links>
+</learningContent>

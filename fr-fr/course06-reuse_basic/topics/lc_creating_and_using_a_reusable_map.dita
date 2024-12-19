@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="lc_creating_and_using_a_reusable_map">
+    <title>Fusionner des cartes</title>
+    <prolog>
+        <author type="creator" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate</author>
+        <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell</author>
+        <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey</author>
+        <author>Decarnelle Rémi (traducteur)</author>
+        <critdates>
+            <created golive="2016-07-11" date="2016-05-11"/>
+            <revised modified="2020-10-19"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction id="lcInstruction_obp_3kb_mw">
+            <p>Dans l'exemple précédent, les sous-cartes (_m_especes.ditamap) contenaient des
+                éléments &lt;title> et &lt;topicmeta>. C'est une bonne idée d'utiliser ces éléments
+                pour éclairer les autres rédacteurs sur le but de ce fichier et de le rendre plus
+                facile à trouver à l'aide des métadonnées. Il faut cependant noter que ces
+                informations ne seront pas retenues dans le traitement final.</p>
+            <p>Lorsque vous générez une publication depuis une carte, toutes les sous-cartes
+                référencées sont fusionnées en une seule. Cette carte est utilisée pour générer la
+                publication.</p>
+            <p>Ce tableau liste les éléments utilisables dans une sous-carte et ce qu'il leur arrive
+                lorsque le document est fusionné avec d'autres.</p>
+            <table frame="all" rowsep="1" colsep="1" id="table_ftg_hlb_mw">
+                <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="3.03*"/>
+                    <thead>
+                        <row>
+                            <entry>Élément</entry>
+                            <entry>Statut après fusion</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>&lt;title></entry>
+                            <entry>Supprimé</entry>
+                        </row>
+                        <row>
+                            <entry>&lt;topicmeta></entry>
+                            <entry>Supprimé</entry>
+                        </row>
+                        <row>
+                            <entry>&lt;topicref> to DITA topic</entry>
+                            <entry>Copié</entry>
+                        </row>
+                        <row>
+                            <entry>&lt;topicref format=“ditamap”></entry>
+                            <entry>Remplacé par le contenu référencé par l'attribut href</entry>
+                        </row>
+                        <row>
+                            <entry>&lt;mapref></entry>
+                            <entry>Remplacé par le contenu référencé par l'attribut href</entry>
+                        </row>
+                        <row>
+                            <entry>&lt;topichead></entry>
+                            <entry>Copié</entry>
+                        </row>
+                        <row>
+                            <entry>&lt;topicgroup></entry>
+                            <entry>Copié</entry>
+                        </row>
+                        <row>
+                            <entry>&lt;reltable></entry>
+                            <entry>Copié</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_ytj_kkt_lw">
+        <title>Exercice</title>
+        <taskbody>
+            <steps id="steps_dfp_lkt_lw">
+                <step>
+                    <cmd>Ouvrir les sous-cartes suivantes&#xA0;:</cmd>
+                    <info>
+                        <ul id="ul_spy_dnl_nw">
+                            <li>exemples_reutilisation/reutiliser_des_rubriques_et_des_cartes/_m_canard_sauvage_debut.ditamap</li>
+                            <li>exemples_reutilisation/reutiliser_des_rubriques_et_des_cartes/_m_canard_sauvage.ditamap</li>
+                        </ul>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Réutilisez le fichier c_securite_canard.dita en l'ajoutant à chaque
+                        sous-carte.</cmd>
+                </step>
+                <step>
+                    <cmd>Sauvegardez et fermez chaque sous-carte.</cmd>
+                </step>
+                <step>
+                    <cmd>Ouvrez le fichier
+                        exemples_reutilisation/reutiliser_des_rubriques_et_des_cartes/_m_canards_debut.ditamap.
+                        La sous-carte que vous venez d'éditer est référencée dans ce fichier. Par
+                        conséquent, vous pouvez voir la rubrique ajoutée (c_securite_canard.dita)
+                        dans chaque sous-carte de la carte principale. </cmd>
+                </step>
+                <step>
+                    <cmd>Comparez votre travail avec le fichier
+                        exemples_reutilisation/reutiliser_des_rubriques_et_des_cartes/_m_canards.ditamap.</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

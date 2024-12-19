@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_kw5_5ls_zs" xml:lang="fr-FR">
+    <title>Premières étapes</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-08-13"/>
+            <revised modified="2020-05-01"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Les éléments de base impliqués dans la création d'un ensemble d'étapes comprennent
+                les éléments &lt;setps>, &lt;step>, &lt;cmd> et &lt;info>.</p>
+            <simpletable frame="all" relcolwidth="1.0* 1.0*" id="simpletable_i4k_dm4_2t">
+                <strow>
+                    <stentry>
+                        <p>&lt;steps></p>
+                    </stentry>
+                    <stentry>
+                        <p>Une série d'instructions pas-à-pas. L'élément &lt;steps> peut contenir un
+                            ou plusieurs éléments &lt;step>.</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;step></p>
+                    </stentry>
+                    <stentry>
+                        <p>Une seule étapes. L'étape doit contenir un élément &lt;cmd>. L'élément
+                            &lt;step> peut aussi contenir l'élément &lt;info> et des éléments
+                            supplémentaires qui fournissent de l'information concernant l'étape (ils
+                            sont décrits plus loin dans ce cours).</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;cmd></p>
+                    </stentry>
+                    <stentry>
+                        <p>Une commande. Le texte de l'élément &lt;cmd> doit être à la voix active
+                            et devrait contenir une seule phrase.</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <p>&lt;info></p>
+                    </stentry>
+                    <stentry>
+                        <p>Information supplémentaire concernant l'étape.</p>
+                    </stentry>
+                </strow>
+            </simpletable>
+            <p><xref href="https://youtu.be/Szfp056HCK0" format="html" scope="external">Vidéo&#xA0;:
+                    Ajouter des étapes à une tâche DITA</xref></p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_a2s_dvs_zs">
+        <title/>
+        <taskbody>
+            <steps id="steps_urj_vdy_zs">
+                <step>
+                    <cmd>Continuez de travailler sur le fichier l_tache_debut.dita.</cmd>
+                </step>
+                <step>
+                    <cmd>Après la balise de fermeture de l'élément &lt;context>, ajoutez un élément
+                        &lt;steps>.</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+&lt;task id="my_first_task">
+   ...
+      &lt;/context>
+<ph outputclass="newchanged">      &lt;steps>
+      &lt;/steps></ph>
+   &lt;/taskbody>
+&lt;/task></pre>
+                    </stepxmp>
+                    <info>
+                        <p>Comme avec les éléments &lt;prereq> et &lt;context>, l'élément
+                            &lt;taskbody> ne peut contenir qu'un élément &lt;steps>. Vous
+                            restreindre à un seul élément &lt;steps> vous assure que la rubrique
+                            décrit uniquement comment réaliser une tâche.</p>
+                    </info>
+                </step>
+                <step>
+                    <cmd>À l'intérieur de l'élément &lt;steps>, ajoutez un élément &lt;step>.</cmd>
+                    <stepxmp>
+                        <pre>...
+      &lt;steps>
+<ph outputclass="newchanged">         &lt;step>
+         &lt;/step></ph>
+      &lt;/steps>
+...</pre>
+                    </stepxmp>
+                    <info>
+                        <p>L'élément &lt;steps> doit contenir au moins un élément &lt;step>. La
+                            plupart des éditeurs DITA ajoutent le premier élément &lt;step> à
+                            l'intérieur de l'élément &lt;steps> (et généralement un élément &lt;cmd>
+                            imbriqué dans l'élément &lt;step>).</p>
+                    </info>
+                </step>
+                <stepsection>
+                    <p>Avec DITA, le contenu de chaque étape individuelle est aussi hautement
+                        controllé&#xA0;; chaque étape a un ensemble spécifique d'éléments, qui doit
+                        apparaître dans un ordre spécifique. L'action que le lecteur doit réaliser
+                        est contenue dans un élément &lt;cmd> (lu comme «&#xA0;commande&#xA0;»), qui
+                        est un élément requis dans &lt;step>. Dans la plupart des cas, &lt;cmd>
+                        contient une simple phrase, qui est une instruction directe faite au lecteur
+                        pour réaliser une action.</p>
+                </stepsection>
+                <step>
+                    <cmd>À l'intérieur de l'élément &lt;step>, ajoutez un élément &lt;cmd> avec le
+                        texte présenté ici.</cmd>
+                    <stepxmp>
+                        <pre>...
+      &lt;steps>
+         &lt;step>
+<ph outputclass="newchanged">            &lt;cmd>Sélectionnez un emplacement pour observer les canards.&lt;/cmd></ph>
+         &lt;/step>
+      &lt;/steps>
+...</pre>
+                    </stepxmp>
+                    <info>
+                        <p>Comme meilleure pratique, l'élément &lt;cmd> devrait être limité à une
+                            simple phrase, à la voix active, qui dirige le lecteur dans l'action à
+                            réaliser. Pour fournir des informations supplémentaires à propos du
+                            contenu de l'élément &lt;cmd>, utilisez l'élément &lt;info>.</p>
+                    </info>
+                </step>
+                <stepsection>Pour fournir une information supplémentaire au sujet de l'instruction
+                    contenue dans l'élément &lt;cmd>, utilisez l'élément &lt;info>. Vous pouvez
+                    utilisez autant d'éléments &lt;info> que nécessaire après l'élément &lt;cmd> et
+                    avant l'élément &lt;stepresult>.</stepsection>
+                <step>
+                    <cmd>Après l'élément &lt;cmd>, ajoutez un élément &lt;info> avec le texte
+                        indiqué ici.</cmd>
+                    <stepxmp>
+                        <pre>...
+      &lt;steps>
+         &lt;step>
+            &lt;cmd>Sélectionnez un emplacement pour observer les canards.&lt;/cmd>
+<ph outputclass="newchanged">            &lt;info>&lt;p>En général, vous trouverez des canards dans des endroits sauvages, près de l'eau.&lt;/p>&lt;/info></ph>
+         &lt;/step>
+      &lt;/steps>
+...</pre>
+                    </stepxmp>
+                    <info>
+                        <p>L'élément &lt;info> peut contenir du texte, des notes, des images, des
+                            tableaux, etc. Comme pour les autres éléments pouvant contenir du
+                            contenu mixte, les meilleures pratiques vous imposent d'utiliser un
+                            élément &lt;p> pour encadrer le texte, même si l'élément &lt;info> ne
+                            contient qu'un paragraphe.</p>
+                        <p>Les autres rubriques de cette leçon introduisent des éléments
+                            supplémentaires que vous pouvez utiliser pour documenter l'étape.</p>
+                    </info>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

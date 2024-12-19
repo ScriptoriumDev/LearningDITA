@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="content_pgf_3gt_qt">
+    <title>Marquer le contenu</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell</author>
+        <author type="contributor" href="http://easydita.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey</author>
+        <author>Decarnelle Rémi (traducteur)</author>
+        <critdates>
+            <created golive="2016-12-01" date="2016-10-18"/>
+            <revised modified="2021-02-19"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction><p>En plus du traitement conditionnel, vous pouvez utiliser le traitement
+                conditionnel pour marquer un contenu prévu pour un public précis ou pour un produit
+                particulier. Vous pouvez marquer un élément à l'aide de n'importe quelle attribut
+                conditionnel. Vous pouvez aussi utiliser l'attribut rev pour marquer et indiquer le
+                numéro de révision précis du produit ou du service.</p><note>Les exemples suivants
+                sont consultables dans le dossier d'exemples <xref keyref="sample_file"/>. Les
+                fichiers montrés dans cette leçon sont c_marquer_et_filtrer.dita, sauvage.ditaval et
+                afficher_rev.ditaval</note><p><b>Marquer les attributs conditionnels</b></p><p>Pour
+                utiliser les attributs conditionnels pour marquer le contenu, utilisez l'élément
+                &lt;prop> associé à l'attribut et sa valeur action="flag" dans votre fichier
+                ditaval. Vous pourez marquer le contenu à l'aide d'une couleur de police ou du fond
+                différente du reste, changer le style du texte ou encore changer les illustrations
+                (les options disponibles varient en fonction du générateur de publication). Par
+                exemple
+                :</p><pre>&lt;prop att="platform" val="android" action="flag" color="purple"/></pre><p>L'élement
+                &lt;prop> de cet exemple indique au transformateur de changer la couleur du text en
+                violet pour chaque élément contenant l'attribut platform et la valeur
+                "android".</p><p>&lt;prop> accueille les attributs de marquage suivant :</p><ul
+                id="ul_qr5_k1t_5x">
+                <li><b>color</b>: change la couleur du texte en fonction de la valeur de
+                    l'attribut</li>
+                <li><b>background</b>: surligne le texte en fonction de la valeur de l'attribut</li>
+                <li><b>style</b>: formatte le texte dans un autre style en fonction de la valeur de
+                    l'attribut : <simpletable frame="all" relcolwidth="1* 1*"
+                        id="simpletable_ztj_y1x_s4b">
+                        <sthead>
+                            <stentry>Anglais</stentry>
+                            <stentry>Français</stentry>
+                        </sthead>
+                        <strow>
+                            <stentry>italics</stentry>
+                            <stentry>italique</stentry>
+                        </strow>
+                        <strow>
+                            <stentry>bold</stentry>
+                            <stentry>gras</stentry>
+                        </strow>
+                        <strow>
+                            <stentry>underline</stentry>
+                            <stentry>souligné</stentry>
+                        </strow>
+                        <strow>
+                            <stentry>double-underline</stentry>
+                            <stentry>souligné double</stentry>
+                        </strow>
+                        <strow>
+                            <stentry>overline</stentry>
+                            <stentry>trait suscrit</stentry>
+                        </strow>
+                    </simpletable>Il convient d'entrer une valeur en anglais pour obtenir le
+                    résultat escompté.</li>
+            </ul><p>Les attributs color et background autorisent comme valeur un code couleur hex à
+                6 chiffres comme "#0000FF" un bien de nom de couleur en anglais :<simpletable
+                    frame="all" relcolwidth="1* 1*" id="simpletable_vj1_2bx_s4b">
+                    <sthead>
+                        <stentry>Anglais</stentry>
+                        <stentry>Français</stentry>
+                    </sthead>
+                    <strow>
+                        <stentry>aqua</stentry>
+                        <stentry>turquoise</stentry>
+                    </strow>
+                    <strow>
+                        <stentry>black</stentry>
+                        <stentry>noir</stentry>
+                    </strow>
+                    <strow>
+                        <stentry>blue</stentry>
+                        <stentry>bleu</stentry>
+                    </strow>
+                    <strow>
+                        <stentry>fuchsia</stentry>
+                        <stentry>fuchsia</stentry>
+                    </strow>
+                    <strow>
+                        <stentry>gray</stentry>
+                        <stentry>gris</stentry>
+                    </strow>
+                    <strow>
+                        <stentry>green</stentry>
+                        <stentry>vert</stentry>
+                    </strow>
+                    <strow>
+                        <stentry>lime</stentry>
+                        <stentry>vert citron</stentry>
+                    </strow>
+                    <strow>
+                        <stentry>maroon</stentry>
+                        <stentry>bordeaux</stentry>
+                    </strow>
+                    <strow>
+                        <stentry>navy</stentry>
+                        <stentry>bleu marine</stentry>
+                    </strow>
+                    <strow>
+                        <stentry>olive</stentry>
+                        <stentry>jaune olive</stentry>
+                    </strow>
+                    <strow>
+                        <stentry>purple</stentry>
+                        <stentry>violet</stentry>
+                    </strow>
+                    <strow>
+                        <stentry>red</stentry>
+                        <stentry>rouge</stentry>
+                    </strow>
+                    <strow>
+                        <stentry>silver</stentry>
+                        <stentry>argent</stentry>
+                    </strow>
+                    <strow>
+                        <stentry>teal</stentry>
+                        <stentry>sarcelle</stentry>
+                    </strow>
+                    <strow>
+                        <stentry>white</stentry>
+                        <stentry>blanc</stentry>
+                    </strow>
+                    <strow>
+                        <stentry>yellow</stentry>
+                        <stentry>jaune</stentry>
+                    </strow>
+                </simpletable></p><p>Comme pour l'attribut style, il convient d'entrer une valeur en
+                anglais pour obtenir le résultat escompté.</p><p>Par exemple, si nous réutilisons
+                l'exemple de la leçon précédente
+                :</p><pre conkeyref="ditaval_topic/feed_example"/><p>Avec ce fichier ditaval
+                :</p><pre>&lt;val>
+    &lt;prop action="flag" att="product" val="wild_ducks" color="red" style="underline"/>
+&lt;/val></pre><p>Nous
+                obtiendrons ce résultat :</p><image keyref="i_flagging_product"
+                id="image_zmb_xj4_cy" base="2016/11"/><p>Vous pouvez aussi spécifier l'ajout d'une
+                image à placer ou après l'élément marqué avec les éléments &lt;startflag> et
+                &lt;endflag>. L'élement &lt;prop action="flag"> est le parent de ces deux éléments.
+                L'attribut imageref indique le chemin vers l'image à
+                utiliser.</p><pre>&lt;prop att="platform" val="android" action="flag">
+   &lt;startflag imageref="images/android_icon.png">
+      &lt;alt-text>icone android&lt;/alt-text>
+   &lt;/startflag>
+&lt;/prop></pre><p>Les
+                éléments &lt;startflag> et &lt;endflag> peuvent contenir &lt;alt-text> qui précise
+                un texte alternatif à l'image.</p><p><b>L'attribut rev</b></p><p>L'attribut rev sert
+                à indiquer et à marquer une version spécifique de votre produit ou service. Cet
+                attribut est utilisable de la même façon que tous les autres attributs conditionnels
+                et avec presque tous les éléments de DITA
+                :</p><pre>&lt;p rev="v2.1">Veuillez considérer le recours aux tableaux personalisés pour tout besoin supplémentaire.&lt;/p></pre><p>La
+                valeur donnée à l'attribut rev dépend de vous de votre équipe. Le plus important est
+                de rester cohérent dans les valeurs que vous donnez.</p><p>Tout comme les autres
+                attributs conditionnels, vous pouvez donner plusieurs valeurs à l'attribut rev en
+                les séparant d'un ou plusieurs
+                espaces.</p><pre>&lt;p rev="v2.7 v2.8">Ce champs est limité à 32 caractères.&lt;/p></pre><note>Souvenez-vous
+                que l'attribut rev ne sert pas à filtrer le contenu : il ne sert seulement qu'à le
+                marquer.</note><p><b>Montrer le contenu marqué par l'attribut rev</b></p><p>Vous
+                pouvez contrôler l'affichage du contenu marqué l'attribut rev grâce à l'élément
+                &lt;revprop> dans un fichier ditaval. Vous pouvez changer le style de l'élément visé
+                avec les mêmes outils que l'élément &lt;prop> (couleur, surlignage, style). Les
+                éléments &lt;startflag> et &lt;endflag> sont disponibles pour afficher une image
+                avant ou après le contenu marqué par l'attribut rev.</p><p>Par exemple, si une
+                rubrique DITA accueille ce contenu
+                :</p><pre>&lt;p>La base de données canard vous aidera à satisfaire la plupart des besoins de vos canard.&lt;/p>
+&lt;p rev="2.1">
+Si vous avez des besoins spécifiques, veuillez considérer utiliser la création de tableaux personalisés.&lt;/p>
+&lt;p>
+Pour plus d'informations sur les tables standards, veuillez consulter l'annexe C.&lt;/p></pre><p>Vous
+                pouvez générer une publication associée à ce fichier ditaval
+                :</p><pre>&lt;val>
+    &lt;revprop action="flag" val="2.1" backcolor="aqua"/>
+&lt;/val></pre><p>Nous
+                obtiendrons ce résultat :</p><image keyref="i_show_rev" id="image_gxw_5k4_cy"
+                base="2016/11"/><p>En fonction du format de votre publication et de votre
+                transformateur, vous pouvez utiliser l'élement &lt;revprop> pour ajouter des marques
+                de révision (changebar) à côté du contenu marqué par l'attribut rev. Cependant, les
+                options de personnalisations et de syntaxes offertes par l'attribut changebar dépend
+                du format de la publication et du transformateur. Si vous avez besoin de cette
+                fonctionnalité, veuillez consulter la documentation de votre
+                transformateur.</p><p>Pour plus d'informations sur les fichiers ditaval et comment
+                les utiliser pour le traitement conditionnel, veuillez consulter le lien suivant (en
+                anglais) <xref
+                    href="http://docs.oasis-open.org/dita/v1.2/os/spec/common/about-ditaval.html#ditaval"
+                    format="html" scope="external"
+            /></p><!--<p>You can also use the &lt;revprop> element to place change bars in the margins next to text marked with a rev attribute (if supported by your output generator). There are not separate attributes to indicate each of the changebar properties. Instead, the changebar value contains one or more property-value pairs. The value is separated from the property name with a colon (:), multiple property-value pairs are separated by semicolons (;).</p><p>The properties you can specify are:<ul id="ul_o3r_jxs_5x"><li>color - either using a 6-digit hex code or a color name</li><li>width - </li><li>style</li><li>offset</li><li>placement</li></ul>  </p>--></lcInstruction>
+    </learningContentbody>
+</learningContent>

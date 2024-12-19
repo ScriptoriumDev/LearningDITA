@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_jgf_3df_vt">
+  <title>ajouteEntree</title>
+  <refbody>
+    <section>La commande <cmdname>ajouteEntree</cmdname> est utilisée pour entrer une nouvelle
+      version de la documentation dans la base de données d'analyse du contenu.</section>
+    <refsyn>
+      <synph>-ajouteEntree {nLangage | nVersion | nSortie}</synph>
+    </refsyn>
+    <properties id="properties_qxt_3df_vt">
+      <prophead>
+        <proptypehd>Requis&#xA0;?</proptypehd>
+        <propvaluehd>Paramètre</propvaluehd>
+        <propdeschd>Description</propdeschd>
+      </prophead>
+      <property>
+        <proptype>Oui</proptype>
+        <propvalue>nLangage</propvalue>
+        <propdesc>La langue affichée par défaut</propdesc>
+      </property>
+      <property>
+        <proptype/>
+        <propvalue>nVersion</propvalue>
+        <propdesc>La version du contenu affichée par défaut</propdesc>
+      </property>
+      <property>
+        <proptype/>
+        <propvalue>nSortie</propvalue>
+        <propdesc>Le format de livraison requis</propdesc>
+      </property>
+    </properties>
+  </refbody>
+</reference>

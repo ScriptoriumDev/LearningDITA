@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_psc_gxq_bs">
+    <title>Créer une rubrique dans un éditeur de texte</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Sarah O’Keefe,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-05-18"/>
+            <revised modified="2019-08-19"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Les fichiers DITA sont au format XML et XML est du texte clair. Par conséquent, vous
+                pouvez créer un fichier XML dans n’importe quel éditeur de texte.</p>
+            <p>Une rubrique DITA de base nécessite une déclaration XML, une déclaration DOCTYPE, un
+                topic, un attribut id sur le topic et un titre. C'est tout.</p>
+            <p>Voici une rubrique minimale valide&#xA0;:</p>
+            <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+&lt;topic id="mapremiererubrique">
+  &lt;title>Bonjour le monde&lt;/title>
+&lt;/topic>
+</pre>
+            <p>Cette rubrique est valide, mais elle n’est pas particulièrement utile car elle n’a
+                aucun corps de contenu. Pour rendre une rubrique utile, vous avez besoin de quelque
+                chose qui ressemble plus à ceci&#xA0;:</p>
+            <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+&lt;topic id="mapremiererubrique">
+  &lt;title>Bonjour le monde&lt;/title>
+&lt;body>
+  &lt;p>Voici un paragraphe&lt;/p>
+  &lt;ul>
+    &lt;li>les listes à puces sont sympas&lt;/li>
+    &lt;li>surtout si vous avez au moins deux points&lt;/li>
+  &lt;/ul>
+  &lt;note>Et n'oubliez pas les notes.&lt;/note>
+&lt;/body>
+&lt;/topic></pre>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

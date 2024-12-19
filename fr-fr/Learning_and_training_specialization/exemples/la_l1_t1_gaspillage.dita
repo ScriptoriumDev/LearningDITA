@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="la_l1_t1_gaspillage">
+    <title>Gaspillage alimentaire</title>
+    <shortdesc/>
+    <learningAssessmentbody>
+        <lcInteraction id="lcInteraction_lk2_qws_rcb">
+            <lcTrueFalse2>
+                <lcQuestion2>Les aliments moisis peuvent être donnés à votre groupe en toute
+                    sécurité (vrai/faux)</lcQuestion2>
+                <lcAnswerOptionGroup2 id="lcAnswerOptionGroup2_zhf_rws_rcb">
+                    <lcAnswerOption2>
+                        <lcAnswerContent2>Vrai</lcAnswerContent2>
+                        <lcFeedback2>
+                            <p>N'utilisez jamais d'aliments moisis, car certaines moisissures
+                                produisent des toxines qui peuvent entraîner de graves problèmes de
+                                santé ou une mauvaise croissance.</p>
+                        </lcFeedback2>
+                    </lcAnswerOption2>
+                    <lcAnswerOption2>
+                        <lcAnswerContent2>Faux</lcAnswerContent2>
+                        <lcCorrectResponse2/>
+                    </lcAnswerOption2>
+                </lcAnswerOptionGroup2>
+            </lcTrueFalse2>
+        </lcInteraction>
+    </learningAssessmentbody>
+</learningAssessment>

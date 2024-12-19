@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_kw5_5ls_zs">
+    <title>Ajouter des étapes</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external" format="html"
+            >Marine Martin-Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-08-13"/>
+            <revised modified="2020-10-04"/>
+        </critdates>
+    </prolog>
+    <learningContentbody/>
+    <task id="task_a2s_dvs_zs">
+        <title/>
+        <taskbody>
+            <steps id="steps_urj_vdy_zs">
+                <step>
+                    <cmd>Après l'élément &lt;context> de votre tâche, ajoutez un élément
+                        &lt;steps>.</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+&lt;task id="rubrique_tache">
+   &lt;title>&lt;/title>
+   &lt;taskbody>
+      &lt;prereq>
+      &lt;/prereq>
+      &lt;context>
+      &lt;/context>
+<ph outputclass="newchanged">      &lt;steps>
+      &lt;/steps></ph>
+   &lt;/taskbody>
+&lt;/task></pre>
+                    </stepxmp>
+                    <info>
+                        <p>Comme pour les éléments &lt;prereq> et &lt;context>, le &lt;taskbody> ne
+                            peut contenir qu'un seul élément &lt;steps>. Conformément à l'esprit
+                            DITA selon lequel une rubrique doit contenir une seule idée, le fait de
+                            vous limiter à un seul élément &lt;steps> permet de s'assurer que la
+                            rubrique ne décrit que la façon d'effectuer une tâche.</p>
+                    </info>
+                </step>
+                <step>
+                    <cmd>À l'intérieur de l'élément &lt;steps>, ajoutez un élément &lt;step>. </cmd>
+                    <stepxmp>
+                        <pre>...
+      &lt;steps>
+<ph outputclass="newchanged">         &lt;step>
+         &lt;/step></ph>
+      &lt;/steps>
+...</pre>
+                    </stepxmp>
+                    <info>
+                        <p>L'élément &lt;steps> doit contenir au moins un élément &lt;step>. La
+                            plupart des éditeurs DITA ajoutent automatiquement un premier élément
+                            &lt;step> à l'élément &lt;steps>.</p>
+                    </info>
+                </step>
+                <stepsection>
+                    <p>Avec DITA, le contenu de chaque étape individuelle est également très
+                        contrôlé&#xA0;; chaque étape comporte un ensemble spécifique d'éléments, qui
+                        doivent se produire dans un ordre précis. L'action que l'utilisateur doit
+                        exécuter est contenue dans un élément de type &lt;cmd> (lu comme
+                        "commande"), qui est un élément obligatoire dans &lt;step>. Dans la plupart
+                        des cas, &lt;cmd> contient une seule phrase, qui est une instruction directe
+                        à destination du lecteur pour effectuer une action.</p>
+                </stepsection>
+                <step>
+                    <cmd>À l'intérieur de l'élément &lt;step>, ajoutez un élément &lt;cmd> avec le
+                        texte présenté ici.</cmd>
+                    <stepxmp>
+                        <pre>...
+      &lt;steps>
+         &lt;step>
+<ph outputclass="newchanged">            &lt;cmd>(Texte AD)&lt;/cmd></ph>
+         &lt;/step>
+      &lt;/steps>
+...</pre>
+                    </stepxmp>
+                    <info>
+                        <p>En tant que meilleure pratique, l'élément &lt;cmd> devrait être limité à
+                            une seule phrase, en voix active, qui dirige l'utilisateur pour
+                            effectuer une action. Pour fournir des informations supplémentaires sur
+                            l'élément &lt;cmd>, utilisez l'élément &lt;info> (discuté dans l'étape
+                            suivante). </p>
+                        <p>Parce que l'élément &lt;step> doit contenir exactement un élément
+                            &lt;cmd>, la plupart des éditeurs DITA ajoutent l'élément &lt;cmd>
+                            lorsqu'ils ajoutent l'élément &lt;step>. </p>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Après l'élément &lt;cmd>, ajoutez un élément &lt;info>, avec le texte
+                        présenté ici.</cmd>
+                    <stepxmp>
+                        <pre>...
+      &lt;steps>
+         &lt;step>
+            &lt;cmd>(Texte AD)&lt;/cmd>
+<ph outputclass="newchanged">            &lt;info>&lt;p>(Texte AD)&lt;/p>&lt;/info></ph>
+         &lt;/step>
+      &lt;/steps>
+...</pre>
+                    </stepxmp>
+                    <info>
+                        <p>Comme indiqué ci-dessus, l'élément &lt;info> fournit des informations
+                            supplémentaires sur l'action dictée par l'élément &lt;cmd>. Vous pouvez
+                            utiliser l'élément &lt;info> pour contenir du texte, des notes, des
+                            images, des tableaux, etc. Les autres rubriques de cette leçon décrivent
+                            d'autres éléments, plus appropriés sur le plan sémantique, que vous
+                            pouvez utiliser pour documenter davantage l'étape.</p>
+                        <p>Comme pour les autres éléments qui peuvent contenir un contenu mixte,
+                            nous recommandons fortement d'utiliser un élément &lt;p> pour contenir
+                            du texte, même si l'élément &lt;info> ne contient qu'un paragraphe.</p>
+                    </info>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

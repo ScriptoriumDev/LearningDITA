@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ducks">
+ <title>Domestic Ducks</title>
+ <topicref href="c_domestic_ducks.dita">
+  <topicref href="c_duckling_growth.dita"/>
+  <topicref href="c_housing.dita"/>
+  <topicref href="c_feeding_ducklings.dita">
+   <topicref href="c_duck_weight.dita"/>
+  </topicref>
+ </topicref>
+ 
+ 
+</map>

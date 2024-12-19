@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="la_l3_t1_hauteur1">
+    <title>Petites mangeoires pour canetons</title>
+    <shortdesc></shortdesc>
+    <learningAssessmentbody>
+        <lcInteraction id="lcInteraction_kmx_sf1_scb">
+            <lcSingleSelect2>
+                <lcQuestion2>Les petites mangeoires doivent être utilisées jusqu'à ce que les canetons aient (choisissez la meilleure réponse)&#xA0;:</lcQuestion2>
+                <lcAnswerOptionGroup2 id="lcAnswerOptionGroup2_wdl_tf1_scb">
+                    <lcAnswerOption2>
+                        <lcAnswerContent2>2 jours</lcAnswerContent2>
+                    </lcAnswerOption2>
+                    <lcAnswerOption2>
+                        <lcAnswerContent2>2 semaines</lcAnswerContent2>
+                        <lcCorrectResponse2/>
+                    </lcAnswerOption2>
+                    <lcAnswerOption2>
+                        <lcAnswerContent2>4 semaines</lcAnswerContent2>
+                    </lcAnswerOption2>
+                    <lcAnswerOption2>
+                        <lcAnswerContent2>4 jours</lcAnswerContent2>
+                    </lcAnswerOption2>
+                </lcAnswerOptionGroup2>
+            </lcSingleSelect2>
+        </lcInteraction>
+    </learningAssessmentbody>
+</learningAssessment>

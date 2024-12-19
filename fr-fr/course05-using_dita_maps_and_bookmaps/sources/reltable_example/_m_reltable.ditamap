@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="canards">
+ <title>Élevage de canards (source pour l'exemple de table des relations)</title>
+ <topicref href="c_intro.dita">
+  <topicref href="c_alimentation.dita"/>
+  <topicref href="t_nourrir.dita"/>
+  <topicref href="r_nourriture.dita"/>
+  <topicref href="r_mangeoires.dita"/>
+  <topicref href="c_abris.dita"/>
+  <topicref href="t_construire.dita"/>
+  <topicref href="r_maisons.dita"/>
+
+ </topicref>
+ <reltable title="Élevage de canards">
+  <relheader>
+   <relcolspec type="concept"/>
+   <relcolspec type="tâche"/>
+   <relcolspec type="référence"/>
+  </relheader>
+  <relrow>
+   <relcell>
+    <topicref href="c_alimentation.dita"/>
+   </relcell>
+   <relcell>
+    <topicref href="t_nourrir.dita"/>
+   </relcell>
+   <relcell>
+    <topicref href="r_nourriture.dita"/>
+    <topicref href="r_mangeoires.dita"/>
+   </relcell>
+  </relrow>
+  <relrow>
+   <relcell>
+    <topicref href="c_abris.dita"/>
+   </relcell>
+   <relcell>
+    <topicref href="t_construire.dita"/>
+   </relcell>
+   <relcell>
+    <topicref href="r_maisons.dita"/>
+    <topicref href="r_mangeoires.dita"/>
+   </relcell>
+  </relrow>
+ </reltable>
+
+
+ <reltable title="Références externes">
+  <relheader>
+   <relcolspec type="concept"/>
+   <relcolspec type="tâche"/>
+   <relcolspec type="référence"/>
+   <relcolspec>
+    <title>Liens internet</title>
+   </relcolspec>
+  </relheader>
+  <relrow>
+   <relcell>
+    <topicref href="c_alimentation.dita"/>
+   </relcell>
+   <relcell>
+    <topicref href="t_nourrir.dita"/>
+   </relcell>
+   <relcell>
+    <topicref href="r_nourriture.dita"/>
+    <topicref href="r_mangeoires.dita"/>
+   </relcell>
+   <relcell>
+    <topicref href="http://www.example.com" scope="external" format="html">
+     <topicmeta>
+      <navtitle>Une source de nourriture pour les canards.</navtitle>
+     </topicmeta>
+    </topicref>
+   </relcell>
+  </relrow>
+ </reltable>
+
+
+</map>

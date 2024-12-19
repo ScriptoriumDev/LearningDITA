@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="lc_reltables">
+    <title>Les tables des relations</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+            Scriptorium</author>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2016-03-07"/>
+            <revised modified="2020-10-26"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup>
+                <lcObjective>Indiquer l'objet d'un tableau des relations.</lcObjective>
+                <lcObjective>Créer une table des relations et la remplir avec des éléments
+                    &lt;topicref>.</lcObjective>
+                <lcObjective>Identifier la signification des lignes, des colonnes et des cellules
+                    dans une table des relations.</lcObjective>
+                <lcObjective>Utilisez le type de collection et les attributs de liaison pour
+                    modifier les relations.</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="45"/>
+        </lcDuration>
+        <lcIntro>
+            <p>Cette leçon présente les tables des relations, puis montre comment créer une table
+                des relations, comment la remplir, et comment utiliser les attributs de type
+                collection et liaison.</p>
+        </lcIntro>
+    </learningContentbody>
+    <related-links>
+        <link
+            href="https://www.ixiasoft.com/documentation/DITA_Style_Guide/fr/Artefact/Maps/c_Understanding_Relationship_Tables.html"
+            format="html" scope="external">
+            <linktext>Guide de style DITA, Les tables de relations</linktext>
+        </link>
+        <link
+            href="https://jaymanalotoibm.wordpress.com/2013/11/08/dissecting-dita-relationship-tables"
+            format="html" scope="external">
+            <linktext>Disséquer les tables des relations DITA</linktext>
+        </link>
+        <!--<link href="http://dita.xml.org/improving-relationships-relationship-tables" format="html"
+            scope="external">
+            <linktext>Améliorer les relations dans les tables des relations</linktext>
+        </link> Lien n'existant plus-->
+    </related-links>
+</learningContent>

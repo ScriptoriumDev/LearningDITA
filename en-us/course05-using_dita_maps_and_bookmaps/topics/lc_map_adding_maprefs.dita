@@ -3,11 +3,11 @@
 <learningContent id="content_pgf_3gt_qt">
     <title>Adding map references to a map</title>
     <prolog>
-        <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+        <author href="https://www.scriptorium.com" scope="external" format="html">Simon Bate,
             Scriptorium</author>
-        <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+        <author href="https://www.scriptorium.com" scope="external" format="html">Jake Campbell,
             Scriptorium</author>
-        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+        <author href="https://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
             Scriptorium</author>
         <critdates>
             <created date="2016-03-07"/>
@@ -31,7 +31,7 @@
                 publish your content. You can group related maps together in a larger map so that you can quickly deliver all of the content for an entire product family. You can also use the &lt;mapref> element to add a glossary to a map, as you’ll learn to do in the following example.</p>
             <note>
                 <p>For more information about the &lt;mapref> element, see the <xref
-                        href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/mapref.html"
+                        href="https://docs.oasis-open.org/dita/v1.2/os/spec/langref/mapref.html"
                         format="html" scope="external">OASIS DITA Version 1.2 Standard</xref>.</p>
             </note>
         </lcInstruction>
@@ -58,7 +58,7 @@
 &lt;/map></pre>
                     </stepxmp>
                     <info>This &lt;mapref> element creates a link to the glossary
-                        g_duck_glossorg.ditamap. By using the &lt;mapref> element to link to the glossary, you can avoid the hassle of using &lt;topicref> elements to build the glossary directly into your map. This also make your glossary more easily available for reuse in other maps.
+                        g_duck_glossorg.ditamap. By using the &lt;mapref> element to link to the glossary, you can avoid the hassle of using &lt;topicref> elements to build the glossary directly into your map. This also makes your glossary more easily available for reuse in other maps.
                     </info>
                 </step>
                 <step>
@@ -75,9 +75,7 @@
             <steps id="steps_exercise_maps">
                 <step>
                     <cmd>Open the file maps_bookmaps_samples/exercises/_m_cs101_start.ditamap and
-                        use it to assemble topics from <xref href="http://contentstrategy101.com/"
-                            format="html" scope="external">Content Strategy 101</xref> into a DITA
-                        map, using the following hierarchical structure as a guide:</cmd>
+                        use it to assemble topics into a DITA map, using the following hierarchical structure as a guide:</cmd>
                     <info>
                         <pre outputclass="passthru"><![CDATA[
                             <hr />

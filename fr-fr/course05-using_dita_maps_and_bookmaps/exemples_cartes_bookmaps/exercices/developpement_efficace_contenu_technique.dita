@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_d1s_ylm_dg">
+  <title>Développement efficace du contenu technique</title>
+  <conbody>
+    <p>Le processus de création d'informations techniques comprend la rédaction de textes, la
+      création de graphiques, l'enregistrement audio, etc. Une condition de base pour une bonne
+      stratégie de contenu est que le contenu soit de bonne qualité – précis, concis et complet. </p>
+    <p><indexterm>communication technique<indexterm>développement
+          efficace</indexterm></indexterm><indexterm>coûts<indexterm>développement
+          efficace</indexterm></indexterm><indexterm>contrôler les coûts<indexterm>développement
+          efficace</indexterm></indexterm><indexterm>contenu<indexterm>développement
+          efficace</indexterm></indexterm><indexterm>développement efficace du contenu</indexterm>Un
+      processus de travail efficace avec des communicants techniques professionnels créant des
+      informations de grande valeur est généralement l'option <i>la moins chère</i> (meilleure, plus
+      rapide, <i>et</i> moins chère). Cette corrélation s'explique par les facteurs suivants&#xA0;: </p>
+    <p>
+      <ul id="ul_qwz_hp2_w2">
+        <li><indexterm>copier et coller</indexterm><i>Réutilisation par rapport au
+            copier-coller.</i> Le copier-coller est rapide et facile au départ, mais il est
+          difficile à maintenir dans le temps en raison de la duplication des informations. La
+          réutilisation formelle, où le lien d'une copie d'informations apparaît à plusieurs
+          endroits, est plus facile à maintenir. Compte tenu des milliers de pages de contenu, les
+          économies réalisées sur la maintenance du contenu s'additionnent rapidement.</li>
+        <li><indexterm>formatage<indexterm>modèle</indexterm></indexterm><indexterm>modèle<indexterm>formatage</indexterm></indexterm><i>Formatage.</i>
+          Un formatage «&#xA0;à la va-vite&#xA0;» est également impossible à maintenir. Investir dans des
+          normes de contenu, comme des modèles, signifie que les créateurs de contenu passent plus
+          de temps à écrire et moins de temps à formater. De meilleurs outils signifient également
+          moins de temps à se débattre avec la pagination, les tables des matières et autres
+          éléments similaires.</li>
+        <li><indexterm>automatisation de la localisation et de la
+              production</indexterm><indexterm>production<indexterm>automatisation</indexterm></indexterm><i>Production.</i>
+          Au lieu de convertir manuellement le contenu d'un format à un autre, un processus de
+          travail professionnel génère automatiquement les sorties appropriées. Un effort de
+          configuration unique remplace la tâche de conversion répétée.</li>
+        <li><indexterm>localisation<indexterm>automatisation</indexterm></indexterm><i>Localisation.</i>
+          Un contenu mieux organisé et une production automatisée permettent de réduire
+          considérablement les coûts de localisation. La «&#xA0;méthode bon marché&#xA0;» – tout mettre dans
+          un traitement de texte et l'envoyer tel quel au fournisseur de services de traduction -
+          entraîne une augmentation des coûts de traduction, car le contenu doit être reformaté dans
+          toutes les langues. De plus, les coûts de traduction montent en flèche lorsque les
+          fichiers sources sont dupliqués pour tenir compte des variations, même minimes, de
+          produits similaires&#xA0;; la réutilisation systématique du contenu élimine les frais de
+          traduction répétée du contenu partagé.</li>
+      </ul>
+    </p>
+    <p><indexterm>formatage<indexterm>charge de travail</indexterm></indexterm>Une estimation
+      approximative est que les auteurs passent environ 20 % de leur temps à des tâches de formatage
+      dans des environnements de développement de contenu moins efficaces (bien que nous ayons vu
+      des chiffres beaucoup plus élevés).</p>
+    <section>
+      <title>Pour un public mature uniquement</title>
+      <indexterm>contenu<indexterm>niveau de maturité</indexterm></indexterm><indexterm>le niveau de
+        maturité du processus d'élaboration du contenu</indexterm> Un aspect essentiel du
+      développement de contenu est de comprendre le niveau de maturité du processus utilisé pour
+      développer le contenu&#xA0;: <p>
+        <ol id="ol_4kk_1w1_vf">
+          <li><indexterm>contenu insipide</indexterm><i>Contenu insipide.</i> Il n'y a pas de
+            cohérence dans le contenu. Par exemple, deux livres blancs de la même entreprise sont
+            formatés de manière incohérente, sont souvent mal rédigés et n'utilisent pas une
+            terminologie cohérente. Deux fichiers audio peuvent être encodés différemment ou avoir
+            des niveaux de qualité audio très variables.</li>
+          <li><indexterm>conformité de conception</indexterm><i>Conformité de conception.
+            </i>L'aspect du contenu est cohérent, mais les méthodes utilisées pour obtenir l'aspect
+            et la convivialité varient. Par exemple, deux fichiers HTML peuvent être rendus de la
+            même manière dans un navigateur, mais l'un utilise un fichier CSS et l'autre utilise des
+            substitutions locales.</li>
+          <li><indexterm>modèle<indexterm>basé sur le contenu basé</indexterm></indexterm><i>Modèle
+              – basé sur le contenu.</i> L'apparence du contenu est cohérente, et les méthodes
+            utilisées pour obtenir l'apparence et la convivialité sont cohérentes. Par exemple, tous
+            les fichiers HTML utilisent un fichier CSS commun, ou les fichiers de mise en page
+            utilisent le même modèle de formatage. Les graphiques sont créés, mis à l'échelle et
+            rendus de la même manière.</li>
+          <li><indexterm>contenu<indexterm>structuré</indexterm></indexterm><indexterm>structuré<indexterm>contenu</indexterm></indexterm><i>Contenu
+              structuré.</i> Le contenu est validé par le logiciel par rapport à un modèle. Cela
+            signifie généralement que le format de fichier sous-jacent est le XML. Les informations
+            sont organisées de manière prévisible et cohérente.</li>
+          <li><indexterm>publication base de données</indexterm><indexterm>contenu<indexterm>base
+                de données</indexterm></indexterm><i>Contenu dans une base de données.</i> Les
+            informations sont stockées dans une base de données et peuvent être recherchées et
+            manipulées de manière intéressante.</li>
+        </ol>Plus l'écart entre l'environnement de création actuel et l'environnement nécessaire à
+        la mise en œuvre de votre stratégie est grand, plus la transition sera difficile. Par
+        exemple, si votre stratégie de contenu exige un contenu structuré (niveau 4), et que les
+        auteurs produisent actuellement ce qu'ils veulent (niveau 1), attendez-vous à des défis
+        importants en matière de formation, à une résistance au changement et probablement à un
+        renouvellement du personnel.</p>
+      <p>Un niveau de maturité élevé pour votre processus est le moyen, et non la fin. L'objectif de
+        vos efforts de développement de contenu est de soutenir vos objectifs commerciaux. Un
+        processus mature, indiqué par un contenu basé sur un modèle, un contenu structuré ou la
+        publication d'une base de données (niveaux 3 à 5), peut soutenir les objectifs commerciaux
+        pour les raisons suivantes&#xA0;:<ul id="ul_2bz_q5c_vf">
+          <li>La cohérence dans le développement et la diffusion se traduit par une expérience
+            utilisateur cohérente pour le consommateur de contenu, ce qui augmente sa confiance dans
+            le produit. En d'autres termes, si la documentation semble terrible pour un produit haut
+            de gamme, l'apparence de la documentation compromet le positionnement haut de
+            gamme.</li>
+          <li>Accélérer le processus de diffusion de contenu signifie que vous pouvez fournir des
+            informations aux utilisateurs finaux plus rapidement, ce qui les rend plus pertinentes
+            pour l'utilisateur final.</li>
+          <li><indexterm>formatage<indexterm>automatisé</indexterm></indexterm><indexterm>production<index-see-also>formatage</index-see-also></indexterm>Le
+            formatage est automatisé, ce qui réduit le coût global de développement du contenu. Cet
+            effet est multiplié pour chaque support de diffusion (PDF, HTML, etc.) et pour chaque
+            langue.</li>
+        </ul></p>
+      <p>Par exemple, une approche ad hoc moins mature (généralement, une collection de fichiers
+        Word désordonnés) peut être possible pour 500 pages livrées en PDF et HTML dans deux
+        langues. Mais une fois que vous avez plus de 2 000 pages, que vous ajoutez un autre format
+        de sortie ou que vous avez besoin de plus de deux langues, vous devez prêter attention à
+        votre processus et à la qualité de votre contenu pour vous assurer que vous pouvez atteindre
+        ce niveau – ou vous attendre à ce que les coûts augmentent et la qualité
+            diminue.<indexterm>modulartié<indexterm>processus</indexterm></indexterm><indexterm>processus
+          de
+            travail<index-see>processus</index-see></indexterm><indexterm>processus<indexterm>modulartié</indexterm></indexterm></p>
+      <fig>
+        <title>Pour la modularité, vous avez besoin de processus de travail efficaces et de contenu
+          de grande valeur</title>
+        <image href="images/scaling.svg" id="image_sbl_h35_3f"
+          alt="La modularité augmente avec un meilleur processus et un meilleur contenu"/>
+      </fig>
+      <p>Ce livre s'intéresse principalement au quadrant supérieur droit, qui crée efficacement un
+        contenu technique de grande valeur.</p>
+      <p>Les bons outils et les bonnes technologies rendront votre processus de développement de
+        contenu plus efficace. (Le corollaire moins agréable&#xA0;: les mauvais outils, même s'ils sont «
+        gratuits&#xA0;», peuvent être très coûteux). Un processus efficace est un processus dans lequel
+        les outils et les technologies en place vous aident à produire le contenu dont vous avez
+        besoin, dans les formats dont vous avez besoin et au moment où vous en avez besoin.</p>
+    </section>
+  </conbody>
+</concept>

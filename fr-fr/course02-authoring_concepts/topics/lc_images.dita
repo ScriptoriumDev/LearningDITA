@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_kw5_5ls_zs" xml:lang="fr-FR">
+    <title>Ajouter des images à un concept</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-08-24"/>
+            <revised modified="2019-10-27"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Vous ajoutez des images à un concept en utilisant l'élément &lt;image>. L'élément
+                &lt;image> utilise l'attribut href pour créer un lien vers l'emplacement de l'image
+                sur internet ou sur un serveur local.</p>
+            <p>Tout comme un élément &lt;p>, vous pouvez utiliser l'élément &lt;image> n'importe où
+                dans l'élément &lt;conbody>. Il est aussi assez courant d'utiliser des images à
+                l'intérieur d'un élément &lt;p>.</p>
+            <p>Si votre image a besoin d'un titre ou d'une légende, utilisez l'élément &lt;fig> (ou
+                figure). L'élément &lt;fig> peut contenir un élément &lt;title> et un ou plusieurs
+                éléments &lt;image>.</p>
+            <p>Vidéo&#xA0;: <xref href="https://www.youtube.com/watch?v=QL25i6pALgw" format="html"
+                    scope="external">Créer une figure avec une image dans DITA</xref></p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_a2s_dvs_zs">
+        <title/>
+        <taskbody>
+            <steps id="steps_mrl_tf1_dt">
+                <step>
+                    <cmd>Faites une copie du fichier leçon2/l_concept_images_tableaux_debut.dita et
+                        ouvrez-le dans votre éditeur.</cmd>
+                    <info>Vous devriez avoir ceci&#xA0;:</info>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_images_tables">
+   &lt;title>Croissance et développement du caneton&lt;/title>
+&lt;conbody>
+   &lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Insérez un élément &lt;image> dans l'élément &lt;conbody> tel que présenté
+                        dans l'exemple suivant. Utilisez le fichier
+                        leçon2/images/canetons_nageant.jpg comme image, par exemple&#xA0;:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_images_tables">
+   &lt;title>Croissance et développement du caneton&lt;/title>
+   &lt;conbody>
+<ph outputclass="newchanged">&lt;image href="images/canetons_nageant.jpg"/></ph>
+   &lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>(Source de l'image d'exemple&#xA0;: <xref
+                            href="https://www.flickr.com/photos/robin1966/17023058470/in/photolist-rWgCd7-cmRK8u-9xVaxC-6gd5eJ-cmfJ5b-uWNaXd-otWNCc-uVT475-sMHAM3-9GKwiQ-6JKXJ2-82AHGf-hcZ8bP-7ZTsaQ-86yGNs-8fhwwj-cNBfgS-dHFgu4-uUW4LP-9LoRo5-9UDfm4-kxadgx-dE2sWn-n81ps-ekxvX6-9CbYgZ-9Viusx-vSQBdJ-2NanU-hnHyuZ-ccgxVs-9EhZaA-771RiR-878qcy-p1VysW-c7uSpG-ekDh7N-7xy72F-9EdriM-4U5pCv-uB8dho-9U5TSR-nN8BUB-n94kcF-brM2oC-7xeNDk-a85HG5-31beq8-c1Mh7A-cCVXxA"
+                            format="html" scope="external">Flickr, Micolo J</xref>)</info>
+                    <info>L'élément &lt;image> que vous avez ajouté contient un lien (href) vers
+                        l'emplacement du fichier image. Un lien à l'intérieur d'un élément
+                        &lt;image> peut pointer vers le chemin du fichier image sur un serveur ou
+                        vers un lien internet de l'image.</info>
+                </step>
+                <step>
+                    <cmd>Après l'élément &lt;image>, insérez un élément &lt;fig> tel que présenté
+                        dans l'exemple suivant. Utilisez le fichier
+                        leçon2/images/canetons_courant.jpg comme image, par exemple&#xA0;:</cmd>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="concept_images_tables">
+   &lt;title>Croissance et développement du caneton&lt;/title>
+  &lt;conbody>
+...
+<ph outputclass="newchanged">&lt;fig>
+&lt;title>Canetons courant&lt;/title>
+&lt;image href="images/canetons_courant.jpg"/>
+&lt;/fig></ph>
+   &lt;/conbody>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>(Source de l'image d'exemple&#xA0;: <xref
+                            href="https://www.flickr.com/photos/24874528@N04/3453886876/in/photolist-6gd5eJ-cmfJ5b-uWNaXd-otWNCc-uVT475-sMHAM3-9GKwiQ-6JKXJ2-82AHGf-hcZ8bP-7ZTsaQ-86yGNs-8fhwwj-cNBfgS-dHFgu4-uUW4LP-9LoRo5-9UDfm4-kxadgx-dE2sWn-n81ps-ekxvX6-9CbYgZ-9Viusx-vSQBdJ-2NanU-hnHyuZ-ccgxVs-9EhZaA-771RiR-878qcy-p1VysW-c7uSpG-ekDh7N-7xy72F-9EdriM-4U5pCv-uB8dho-9U5TSR-nN8BUB-n94kcF-brM2oC-7xeNDk-a85HG5-31beq8-c1Mh7A-cCVXxA-2NaAm-9CWzqD-9ZfMhv"
+                            format="html" scope="external">Flickr, Airwolfhound</xref>)</info>
+                    <info>L'élément &lt;fig> est une autre façon d'ajouter une image à un
+                        concept.</info>
+                    <info>L'élément que vous avez ajouté contient un élément &lt;title> et un
+                        élément &lt;image>. L'élément &lt;title> vous permet d'associer une légende
+                        à votre image.</info>
+                    <info>L'élément &lt;image> est structuré de la même manière à l'intérieur de
+                        l'élément &lt;fig> qu'à l'intérieur de l'élément &lt;conbody>.</info>
+                    <info>L'élément &lt;fig> peut contenir un ou plusieurs éléments &lt;image> (mais
+                        un seul élément &lt;title>).</info>
+                    <info>
+                        <note>
+                            <p>Dans un élément &lt;fig>, l'élément &lt;title> précède toujours
+                                l'élément &lt;image> dans DITA, mais la légende peut apparaître
+                                au-dessus ou au-dessous de l'image (ou ailleurs) dans la publication
+                                finale.</p>
+                        </note>
+                    </info>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

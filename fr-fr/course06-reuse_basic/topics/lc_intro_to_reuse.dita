@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="lc_creating_a_map">
+    <title>Introduction à la réutilisation de contenu</title>
+    <prolog>
+        <author type="creator" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author>Decarnelle Rémi (traducteur)</author>
+        <critdates>
+            <created golive="2016-07-11" date="2016-05-11"/>
+            <revised modified="2020-10-27"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup id="lcObjectivesGroup_tvl_vbh_1t">
+                <lcObjective class="- topic/li learningBase/lcObjective ">Présenter les avantages de
+                    la réutilisation de contenu</lcObjective>
+                <lcObjective class="- topic/li learningBase/lcObjective ">Analyser et identifier le
+                    contenu réutilisable</lcObjective>
+                <lcObjective class="- topic/li learningBase/lcObjective ">Expliquer les possibilités
+                    de réutilisation proposées par DITA</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="45"/>
+        </lcDuration>
+        <lcIntro>
+            <p>Cette leçon présente les possibilités de réutilisation de contenu proposées par DITA
+                pour optimiser le processus de rédaction de contenu et réduire les coûts.</p>
+        </lcIntro>
+    </learningContentbody>
+    <related-links>
+        <link
+            href="https://www.ixiasoft.com/documentation/DITA_Style_Guide/fr/Artefact/Content_Reuse/c_Content_Reuse_Definition.html"
+            format="html">
+            <linktext>Guide de style DITA, Définition de la réutilisation de contenu</linktext>
+        </link>
+        <link
+            href="https://www.ixiasoft.com/documentation/DITA_Style_Guide/fr/Artefact/Content_Reuse/c_Reuse_Maturity_Model.html"
+            format="html">
+            <linktext>Guide de style DITA, Réutilisation et modèle de maturité DITA</linktext>
+        </link>
+        <link
+            href="http://www.learningdita.fr/wp-content/uploads/2021/07/Module-7-Reutilisation-Contenu.pptx"
+            format="html">
+            <linktext>Réutilisation du contenu, une contribution Pam Noreault, Tracey Chalmers,
+                et Julie Landman, Traduction de Marine Guillerez</linktext>
+        </link>
+    </related-links>
+</learningContent>

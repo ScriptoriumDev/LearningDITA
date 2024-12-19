@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_hrm_xjh_1t_a" xml:lang="fr-FR">
+    <title>Créer un nouveau concept</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external"
+            format="html">Marine Guillerez (Traductrice)</author>
+        <critdates>
+            <created date="2015-08-24"/>
+            <revised modified="2019-10-18"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Les concepts contiennent des éléments DITA de base, tels que des paragraphes, des
+                listes, des images, des tableaux et bien d'autres. La plupart de ces éléments
+                peuvent également être utilisés dans les autres types de rubrique (tâche et
+                référence). La seule exception est l'élément &lt;conbody>, qui est spécifique au
+                concept.</p>
+            <p>Au minimum, le concept doit contenir un élément &lt;concept> racine (avec un
+                attribut id) qui contient un élément &lt;title>. </p>
+            <p>Après l'élément &lt;title> et un élément optionnel &lt;shortdesc> ou &lt;abstract>,
+                l'élément &lt;conbody> contient le concept lui-même.</p>
+            <p>L'élément &lt;conbody> a un modèle de contenu ouvert. Cela signifie que les éléments
+                contenus dans &lt;conbody> ne sont pas tenus de suivre une séquence stricte. Tant
+                qu'un élément est autorisé à l'intérieur, il peut apparaître dans n'importe quel
+                ordre. Les exceptions sont les éléments &lt;section> et &lt;exemple>, qui ne peuvent
+                être suivis que par d'autres éléments &lt;section> ou &lt;exemple> ou un élément
+                &lt;conbodydiv>.</p>
+            <p>Vidéo&#xA0;: <xref href="https://www.youtube.com/watch?v=ebFdmsp4QAE" format="html"
+                    scope="external">Créer un concept DITA</xref></p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_i3g_jkh_1t">
+        <title/>
+        <taskbody>
+            <steps id="steps_f5k_kkh_1t">
+                <step>
+                    <cmd>Faites une copie du fichier leçon1/l_nouveau_concept_debut.dita et
+                        ouvrez-le dans votre éditeur.</cmd>
+                    <info>
+                        <note>
+                            <p>Si vous utilisez un éditeur de texte compatible DITA, assurez-vous
+                                que vous êtes en mode texte plutôt qu'en mode auteur ou visuel.</p>
+                        </note>
+                    </info>
+                    <stepxmp>
+                        <p>Vous devriez voir ceci&#xA0;:</p>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="mon_premier_concept">
+&lt;title>xyz&lt;/title>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>
+                        <p>La première ligne (qui commence par <tt>&lt;?xml</tt>) est une
+                            déclaration XML, qui est une partie standard de tous les fichiers
+                            XML.</p>
+                        <p>La déclaration DOCTYPE sur la deuxième ligne identifie ce fichier comme
+                            un concept.</p>
+                        <p>La troisième ligne est la balise d'ouverture de l'élément &lt;concept>,
+                            qui utilise l'identifiant unique «&#xA0;mon_premier_concept&#xA0;». </p>
+                        <p>L'élément &lt;title> sur la quatrième ligne contient le titre de la
+                            rubrique.</p>
+                        <p>La cinquième ligne utilise la balise de fermeture &lt;/concept> pour
+                            montrer où se termine l'élément &lt;concept>.</p>
+                    </info>
+                </step>
+                <step>
+                    <cmd>À l'intérieur de l'élément &lt;title>, modifiez le texte du titre comme
+                        indiqué dans l'exemple suivant.</cmd>
+                    <info>
+                        <note>
+                            <p>Lorsque vous travaillez à l'intérieur d'un élément, insérez le
+                                contenu entre les balises d'ouverture et de fermeture.</p>
+                        </note>
+                    </info>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="mon_premier_concept">
+<ph outputclass="newchanged">   &lt;title>Espèces de canards sauvages&lt;/title></ph>
+&lt;/concept></pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Après l'élément &lt;title>, ajoutez un élément &lt;conbody>.</cmd>
+                    <info>
+                        <note>
+                            <p>Lors de l'ajout d'un élément après un autre élément, insérer le
+                                nouvel élément après la balise de fermeture du premier élément.</p>
+                        </note>
+                    </info>
+                    <stepxmp>
+                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+&lt;concept id="mon_premier_concept">
+   &lt;title>Espèces de canards sauvages&lt;/title>
+<ph outputclass="newchanged">   &lt;conbody>
+   &lt;/conbody></ph>
+&lt;/concept></pre>
+                    </stepxmp>
+                    <info>L'élément &lt;conbody> contiendra tout le contenu réel du concept. </info>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

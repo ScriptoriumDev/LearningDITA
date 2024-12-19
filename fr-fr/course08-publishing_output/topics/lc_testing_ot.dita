@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="content_pgf_3gt_qt">
+    <title>Tester l'installation de DITA OT</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Noelle Russell, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Ashley Stant, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Bill Swallow, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Jake Campbell, Scriptorium</author>
+        <author type="contributor" href="https://www.linkedin.com/in/marinemartinguillerez/"
+            scope="external" format="html" class="- topic/author ">Marine Guillerez
+            (Traductrice)</author>
+        <critdates>
+            <created golive="2017-03-27" date="2017-02-06"/>
+            <revised modified="2020-12-31"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Maintenant que vous avez installé DITA OT, le kit de développement Java requis et que
+                vous avez configuré votre structure de dossiers, vous êtes prêt à effectuer votre
+                premier test de compilation. Le test vous montre comment DITA OT transforme les
+                fichiers sources DITA en publication. Le PDF étant une exigence de publication
+                commune à de nombreuses entreprises qui publient du contenu DITA, le test de
+                compilation implique la génération d'une publication PDF.</p>
+            <p>Suivez les instructions ci-dessous pour effectuer un test de compilation et publier
+                un exemple de fichier PDF en utilisant DITA OT. Des instructions séparées sont
+                fournies pour les utilisateurs de Windows et de Mac.</p>
+            <note>Ces instructions ne s'appliquent qu'aux versions 2.x de DITA OT.</note>
+            <p><xref href="https://youtu.be/p_eBj6e0gBU" format="html" scope="external">Vidéo&#xA0;:
+                    Tester DITA OT</xref></p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_q32_qtw_cz">
+        <title>Exécuter un test de compilation avec DITA OT</title>
+        <taskbody>
+            <steps id="steps_tyl_xtw_cz">
+                <step>
+                    <cmd>Ouvrez une console.</cmd>
+                    <info>
+                        <p><b>Sur Windows&#xA0;:</b> Cliquez sur
+                                    <b>Démarrer</b>><b>Exécuter</b>
+                            et saisissez <tt>cmd</tt>.</p>
+                        <note>Si la commande <b>Exécuter</b> n'apparait pas dans le
+                            menu <b>Démarrer</b>, saisissez <tt>Exécuter</tt> pour
+                            la rechercher.</note>
+                        <p><b>Sur Mac&#xA0;:</b> Lancez l'application Terminal.</p>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Au niveau de la ligne de commande, saisissez <tt>cd</tt> suivi du chemin
+                        vers votre dossier <b>dita-ot-3.6.1</b>.</cmd>
+                    <info>
+                        <note>Pour éviter de saisir un chemin de fichier, localisez le fichier ou le
+                            dossier dans un explorateur Windows (sur Windows) ou dans le Finder (sur
+                            Mac), puis glisser-le directement au niveau de la ligne de
+                            commande.</note>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Saisissez la commande suivante&#xA0;:</cmd>
+                    <info>
+                        <p><b>Sur Windows&#xA0;:</b></p>
+                        <pre>bin\dita -i [cheminfichier]/sources/canards/m_canards.ditamap -f pdf2 -o sortie/sortie_canards -v</pre>
+                        <p><b>Sur Mac&#xA0;:</b></p>
+                        <pre>./bin/dita -i [cheminfichier]/sources/canards/m_canards.ditamap -f pdf2 -o sortie/sortie_canards -v</pre>
+                        <note>L'option <tt>-o sortie/sortie_canards</tt> genère un dossier de sortie
+                            et un sous-dossier intitulé <b>sortie/sortie_canards</b> à l'intérieur
+                            du dossier DITA OT.</note>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Pressez la touche ENTRER pour lancer DITA OT.</cmd>
+                    <info>
+                        <note>Le terminal affiche des traces du processus de compilation du DITA
+                            OT.</note>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Lorsque la compilation est terminé, regardez dans le dossier
+                            <b>sortie_canards</b> pour voir le résultat de la génération. Vous
+                        devriez voir un fichier appelé <b>m_canards.pdf</b>.</cmd>
+                    <info>
+                        <note>Si vous ne voyez aucun résultat, votre compilation n’a probablement
+                            pas réussie. Ce cours couvre la résolution de problèmes pour les échecs
+                            de compilation dans une leçon ultérieure. </note>
+                        <p>Conservez le fichier <b>m_canards.pdf</b> dans votre dossier
+                                <b>sortie_canards</b> pour l’utiliser plus tard dans ce cours.</p>
+                    </info>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

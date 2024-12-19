@@ -3,10 +3,12 @@
 <learningContent id="lc_creating_a_map">
     <title>DITA Learning and Training specialization overview</title>
     <prolog class="- topic/prolog ">
-        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+        <author type="creator" href="https://www.scriptorium.com" format="html" scope="external"
             class="- topic/author ">Simon Bate, Scriptorium</author>
-        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+        <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external"
             class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Kaitlyn Heath, Scriptorium</author>
         <critdates>
             <created date="2017-04-21"/>
         </critdates>
@@ -14,19 +16,14 @@
     <learningContentbody>
         <lcObjectives>
             <lcObjectivesGroup id="lcObjectivesGroup_tvl_vbh_1t">
-                <lcObjective>Summarize what the Learning and Training specialization is. <draft-comment author="simonbate">meh.</draft-comment></lcObjective>
-                <lcObjective>List three or more benefits for using the Learning and Training specialization.</lcObjective>
-                <lcObjective>Cite three or more applications for the Learning and Training specialization.</lcObjective>
-                <lcObjective>Describe how the Learning and Training specialization supports curriculum development.</lcObjective>
+                <lcObjective>Explain the Learning and Training specialization and its role in creating instructional materials</lcObjective>
+                <lcObjective>List the benefits of using the Learning and Training specialization</lcObjective>
+                <lcObjective>Discuss applications for the Learning and Training specialization</lcObjective>
+                <lcObjective>Describe how the Learning and Training specialization supports curriculum development</lcObjective>
             </lcObjectivesGroup>
         </lcObjectives>
         <lcDuration>
             <lcTime value="45"/>
         </lcDuration>
-        <lcIntro>
-            <p>This lesson covers some housekeeping matters, then introduces you to the DITA Learning and Training specialization. </p>
-            <note>Because “DITA Learning and Training specialization” is such a long phrase for titles and such, this course abbreviates it to “L&amp;T”.</note>
-        </lcIntro>
     </learningContentbody>
-    <related-links/>
 </learningContent>

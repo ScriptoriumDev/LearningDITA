@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<learningAssessment id="lca_row_column_cell">
+ <title>Lignes, colonnes et cellules d'une table des relations</title>
+ <prolog>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+   Scriptorium</author>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Jake Campbell,
+   Scriptorium</author>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
+   Scriptorium</author>
+  <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external" format="html"
+   >Marine Guillerez (Traductrice)</author>
+  <critdates>
+   <created date="2016-03-25"/>
+   <revised modified="2020-10-30"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcMatching id="lcMatching_chf_m3y_kv">
+    <lcQuestion>Faites correspondre l'objectif avec la composante de la table des
+     relations.</lcQuestion>
+    <lcMatchTable id="lcMatchTable_dhf_m3y_kv">
+     <lcMatchingPair>
+      <lcItem>Lignes</lcItem>
+      <lcMatchingItem>Contenir des ensembles de contenus connexes</lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>Colonnes</lcItem>
+      <lcMatchingItem>Contenir des informations de même nature</lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>Cellules</lcItem>
+      <lcMatchingItem>Contient un ou plusieurs éléments &lt;topicref> qui indiquent les rubriques
+       liées dans la carte</lcMatchingItem>
+     </lcMatchingPair>
+    </lcMatchTable>
+   </lcMatching>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

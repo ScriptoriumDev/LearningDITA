@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd" []>
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="content_pgf_3gt_qt">
+    <title>Les meilleures pratiques pour les extensions personnalisées</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Noelle Russell, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Ashley Stant, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Bill Swallow, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Jake Campbell, Scriptorium</author>
+        <author type="contributor" href="https://www.linkedin.com/in/marinemartinguillerez/"
+            scope="external" format="html" class="- topic/author ">Marine Guillerez
+            (Traductrice)</author>
+        <critdates>
+            <created golive="2017-03-27" date="2017-02-06"/>
+            <revised modified="2020-12-01"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Si vous utilisez des extensions DITA personnalisées, elles devront probablement être
+                mises à jour ou actualisées. Vous devrez peut-être apporter d’autres mises à jour à
+                l’apparence de la publication générée par vos extensions personnalisées et tester
+                ces modifications. Vous devrez peut-être également ajouter de nouvelles extensions
+                personnalisées à mesure que vos besoins de publication augmentent.</p>
+            <p>Voici quelques bonnes pratiques pour maintenir les extensions DITA personnalisées
+                &#xA0;:</p>
+            <ul id="ul_jmj_42h_2z">
+                <li>
+                    <p><b>Établir un moyen cohérent de recueillir des spécifications.</b> Lorsque
+                        vous développez une nouvelle extension personnalisée, vous devrez recueillir
+                        des spécifications sur l’aspect de la publication finale. Pour les
+                        publications imprimées telles que PDF, ces spécifications incluent
+                        généralement des polices, des tailles, des couleurs, des marges de page, des
+                        règles pour l’affichage d’image et de table, le placement des en-têtes et
+                        des pieds de pages, et ainsi de suite. Pour les formats en ligne tels que
+                        HTML, ces spécifications sont également axées sur le fonctionnement&#xA0;;
+                        par exemple, quel type de navigation et de recherche fonctionnera le mieux
+                        pour votre public&#xA0;?</p>
+                    <p>Créer une extension personnalisée sera plus facile si vous avez une méthode
+                        claire et cohérente pour recueillir ces spécifications. Un bon point de
+                        départ est une liste de contrôle ou un questionnaire auquel le service
+                        marketing de votre entreprise peut répondre pour fournir des spécifications
+                        sur l’apparence et la convivialité de la publication. Une fois que vous avez
+                        ces spécifications et créé votre première version de l’extension
+                        personnalisée, vous aurez très probablement besoin de plusieurs séries de
+                        tests et de révision pour affiner la publication. Plus vous avez de
+                        spécifications avant de commencer à développer l’extension, plus le
+                        processus de test sera efficace.</p>
+                </li>
+                <li>
+                    <p><b>Supporter les structures spéciales&#xA0;; ne pas abuser des
+                            structures.</b> Une extension personnalisée est un excellent moyen de
+                        s’assurer qu’une structure DITA spécialisée est à son avantage dans les
+                        différents formats de publication requis. Toutefois, les extensions
+                        personnalisées ne doivent pas être utilisés pour prendre en charge
+                        l'«&#xA0;abus de balise&#xA0;» ou l’utilisation abusive délibérée de la
+                        structure DITA, standard ou spécialisée. </p>
+                    <p>Par exemple, il peut être tentant de créer des centaines de classes de sortie
+                        dans la source DITA pour représenter des exceptions au style PDF, et des
+                        centaines de règles correspondantes dans l’extension PDF personnalisée pour
+                        afficher ces classes de sortie. Toutefois, cela ne fait que rendre votre
+                        contenu source DITA et votre extension personnalisée plus complexe et
+                        difficile à maintenir. L'ajout de nombreuses dérogations de formatage à la
+                        source va également à l'encontre de l'objectif de séparation du contenu et
+                        du formatage pour l'automatisation.</p>
+                </li>
+                <li>
+                    <p><b>Documenter les mises à jour personnalisées des extensions.</b> Lorsque
+                        vous devez apporter une modification à l’extension personnalisée, ajoutez un
+                        commentaire avec votre nom ou le nom de l’entreprise, la date et une brève
+                        explication de votre mise à jour. Commentez ce que vous changez dans
+                        l’extension plutôt que de la remplacer complètement&#xA0;; on ne sait jamais
+                        quand on peut vous demander de revenir à son état d’origine. Si jamais vous
+                        avez besoin de transférer vos extensions personnalisées à un autre
+                        développeur, cela leur montrera toutes les modifications apportées à
+                        l’extension au fil du temps.</p>
+                    <p>En plus de documenter les changements, il peut également être utile de garder
+                        les spécifications que vous avez recueillies pendant le développement de
+                        l’extension comme documentation. Le résultat sera un guide de style que vous
+                        pouvez utiliser pour vous assurer que votre publication semble correcte
+                        lorsque vous créez du nouveau contenu DITA et que vous générez une première
+                        version à réviser avant la publication finale.</p>
+                </li>
+            </ul>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

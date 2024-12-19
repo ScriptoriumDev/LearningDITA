@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_dfp_4cp_dt" xml:lang="fr-FR">
+ <title>Éléments de base</title>
+ <prolog>
+  <author href="http://www.scriptorium.com" scope="external" format="html">Simon Bate,
+   Scriptorium</author>
+  <author href="https://www.linkedin.com/in/marinemartinguillerez/" scope="external" format="html"
+   >Marine Martin-Guillerez (Traductrice)</author>
+  <critdates>
+   <created date="2015-08-26"/>
+   <revised modified="2019_10-22"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction>
+   <lcMatching id="lcMatching_ggd_zcp_dt">
+    <lcQuestion>Faites correspondre l'élément de base à son utilisation</lcQuestion>
+    <lcMatchTable id="lcMatchTable_hgd_zcp_dt">
+     <lcMatchingPair>
+      <lcItem>&lt;p></lcItem>
+      <lcMatchingItem>Paragraphe</lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>&lt;ul></lcItem>
+      <lcMatchingItem>Liste non-ordonnée</lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>&lt;ol></lcItem>
+      <lcMatchingItem>Liste ordonnée</lcMatchingItem>
+     </lcMatchingPair>
+     <lcMatchingPair>
+      <lcItem>&lt;note></lcItem>
+      <lcMatchingItem>Note ou mise en garde</lcMatchingItem>
+     </lcMatchingPair>
+    </lcMatchTable>
+    <lcFeedbackIncorrect/>
+   </lcMatching>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>
