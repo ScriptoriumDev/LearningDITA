@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA 2.x Map//EN" "map.dtd">
+<map>
+ <title>Creating a glossgroup topic</title>
+ <topicref href="../topics/lc_creating_glossgroup.dita">
+  <topicref href="../topics/lc_new_glossgroup.dita"/>
+  <topicref href="../topics/lcc_assessment.dita">
+   <topicmeta>
+    <navtitle>Assessment for Creating a glossary group topic</navtitle>
+    <resourceid appid-role="deliverable-anchor" appid="lcc_creating_glossgroup"></resourceid>
+   </topicmeta>
+   <!--   <topicref href="../assessments/creating/lca_body.dita"/>-->
+  </topicref>
+ </topicref>
+</map>

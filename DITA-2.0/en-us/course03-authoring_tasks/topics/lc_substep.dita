@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_mp3_t3d_bt">
+    <title>Getting more detailed</title>
+    <prolog>
+        <author href="https://www.scriptorium.com/" scope="external" format="html">Simon Bate,
+            Scriptorium</author>
+        <author href="https://www.scriptorium.com/" scope="external" format="html">Gretyl Kinsey,
+            Scriptorium</author>
+        <critdates>
+            <created date="2015-08-14"/>
+            <revised modified="2024-04-19"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>When creating a set of steps, you might need to provide a bit more detail about how
+                to perform an action. In this case, you can add a nested &lt;steps> element to a
+                &lt;step>. </p>
+            <p>The nested &lt;steps> element contains one or more &lt;step> elements. The &lt;step>
+                element must contain a &lt;cmd> element.  </p>
+            <!-- [SP] MAK 2024-04-19  Rewrote for DITA 2.0-->
+            <!--<p>The &lt;substeps> element contains one or more &lt;substep> elements, which are
+                similar in content to the &lt;step> element. The &lt;substep> element must contain a
+                &lt;cmd> element. </p>-->
+            <p>DITA allows an unlimited number of nested &lt;steps> elements.  If you find you need
+                a third level of steps, reconsider the level of information in your procedure. The
+                information might be better presented as a series of separate task topics. The same
+                is true if you find you are providing a great deal of detail at the nested step
+                level. </p>
+            <!-- [SP] MAK 2024-04-19  Do we need a new video? -->
+            <!--<p><xref href="https://youtu.be/1HDXrdB5y4w" format="html" scope="external">Video:
+                    Adding substeps in a DITA task</xref></p>-->
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_mjk_bjd_bt">
+        <title/>
+        <taskbody>
+            <steps id="steps_ohz_bjd_bt">
+                <step>
+                    <cmd>Continue working in the file l_task_start.dita.</cmd>
+                </step>
+                <step>
+                    <cmd>After the last &lt;step> element, create a new &lt;step> element,
+                        containing a &lt;cmd> element and the text shown here. </cmd>
+                    <stepxmp>
+                        <pre>&lt;step>&lt;cmd>Go watch some birds.&lt;/cmd>
+&lt;/step></pre>
+                    </stepxmp>
+                </step>
+                <step id="step_znr_444_ft">
+                    <cmd>After the closing tag of the &lt;cmd> element, add a &lt;steps>
+                        element.</cmd>
+                    <stepxmp>
+                        <pre>&lt;step>
+    &lt;cmd>Go watch some birds.&lt;/cmd>
+<ph outputclass="newchanged">    &lt;steps>
+    &lt;/steps></ph>
+&lt;/step>
+</pre>
+                    </stepxmp>
+                    <info>You can have one or more &lt;steps> elements inside the &lt;step>
+                        element.</info>
+                </step>
+                <step id="step_a4r_444_ft">
+                    <cmd>If your editor doesn't automatically add the &lt;step> element and nested
+                        &lt;cmd> elements inside the &lt;steps> element, add them.</cmd>
+                    <stepxmp>
+                        <pre>&lt;step>
+    &lt;cmd>Go watch some birds.&lt;/cmd>
+    &lt;steps>
+<ph outputclass="newchanged">        &lt;step>
+            &lt;cmd>&lt;/cmd>
+        &lt;/step></ph>
+    &lt;/steps>
+&lt;/step>
+</pre>
+                    </stepxmp>
+                </step>
+                <step>
+                    <cmd>Add content to the &lt;cmd> element inside the &lt;step> element as shown
+                        here.</cmd>
+                    <stepxmp>
+                        <pre>&lt;step>
+    &lt;cmd>Go watch some birds.&lt;/cmd>
+    &lt;steps>
+        &lt;step>
+<ph outputclass="newchanged">            &lt;cmd>Walk around.&lt;/cmd></ph>
+        &lt;/step>
+    &lt;/steps>
+&lt;/step>
+</pre>
+                    </stepxmp>
+                    <info>You can add the same optional elements inside a mested &lt;step> element
+                        that you can add inside a &lt;step> element, such as the &lt;info>
+                        element.</info>
+                </step>
+                <step>
+                    <cmd>After the closing tag of the &lt;step> element, add two more &lt;step>
+                        elements and add content to them as shown here.</cmd>
+                    <stepxmp>
+                        <pre>&lt;step>
+    &lt;cmd>Go watch some birds.&lt;/cmd>
+    &lt;steps>
+        &lt;step>
+            &lt;cmd>Walk around.&lt;/cmd>
+        &lt;/step>
+<ph outputclass="newchanged">        &lt;step>
+            &lt;cmd>When you see one, stop.&lt;/cmd>
+        &lt;/step>
+        &lt;step>
+            &lt;cmd>Identify it.&lt;/cmd>
+        &lt;/step></ph>
+    &lt;/steps>
+&lt;/step>
+</pre>
+                    </stepxmp>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

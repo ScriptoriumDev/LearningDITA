@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="content_gvm_3wn_qz">
+    <title>Elements for questions and responses</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Kaitlyn Heath, Scriptorium</author>
+        <critdates>
+            <created date="2017-04-21"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcObjectives>
+            <lcObjectivesGroup id="lcObjectivesGroup_tvl_vbh_1t">
+                <lcObjective>Understand the uses of the &lt;learningAssessment> topic.</lcObjective>
+                <lcObjective>Use various elements to create different question types.</lcObjective>
+                <lcObjective>Plan question formatting with DITA L&amp;T standards in
+                    mind.</lcObjective>
+            </lcObjectivesGroup>
+        </lcObjectives>
+        <lcDuration>
+            <lcTime value="45"/>
+        </lcDuration>
+        <lcIntro>
+            <p>This lesson introduces you to the learningDomain2, which defines the elements you use
+                for questions and responses within the &lt;learningAssessment> topic.</p>
+        </lcIntro>
+    </learningContentbody>
+    <related-links>
+        <link format="html" scope="external"
+            href="https://www.oxygenxml.com/dita/1.3/specs/archSpec/learningTraining/lc-spec-Overview-domains.html#concept_cvq_vzc_ll__section_95070B5E06F6489A94C301B0D77DF71E">
+            <linktext>Support for learningDomain1 and learningDomain2</linktext>
+        </link>
+    </related-links>
+</learningContent>

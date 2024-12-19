@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="lca_lcontentRef">
+    <title>LearningGroup elements</title>
+    <prolog>
+        <author href="http://www.scriptorium.com" scope="external" format="html">Kaitlyn Heath,
+            Scriptorium</author>
+        <critdates>
+            <created date="2018-09-06"/>
+        </critdates>
+    </prolog>
+    <learningAssessmentbody>
+        <lcInteraction>
+            <lcTrueFalse id="t-f_contentRef">
+                <lcQuestion>You cannot place a &lt;learningContentRef> directly within a
+                    learningGroup.</lcQuestion>
+                <lcAnswerOptionGroup>
+                    <lcAnswerOption>
+                        <lcAnswerContent>True</lcAnswerContent>
+                        <lcCorrectResponse/>
+                    </lcAnswerOption>
+                    <lcAnswerOption>
+                        <lcAnswerContent>False</lcAnswerContent>
+                    </lcAnswerOption>
+                </lcAnswerOptionGroup>
+                <lcFeedbackIncorrect>A learning group can include other learning groups,
+                    references to learning groups, learning objects, and references to learning
+                    objects. It can also include introductory and summary references: references to
+                    learning plans, learning overviews, learning summaries, and pre or post
+                    assessments. But, to include a &lt;learningContentRef>, you must add a
+                    &lt;learningObject> element and reference it there.</lcFeedbackIncorrect>
+            </lcTrueFalse>
+        </lcInteraction>
+    </learningAssessmentbody>
+</learningAssessment>

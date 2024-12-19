@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on 
+     github.com. See the accompanying LICENSE file for 
+     applicable licenses.-->
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA 2.x Map//EN" "map.dtd">
+<map>
+ <title>Advanced elements</title>
+ <topicref href="../topics/lc_advanced_intro.dita">
+  <topicmeta>
+   <data name="lesson_id" value="18145"></data>
+  </topicmeta>
+<!--  <topicref href="../topics/lc_markup.dita"/>-->
+  <topicref href="../topics/lc_advanced.dita"/>
+  <topicref href="../topics/lc_more_advanced.dita"/>
+  <topicref href="../../shared/topics/lcc_assessment.dita">
+   <topicmeta>
+    <navtitle>Assessment for Advanced elements</navtitle>
+    <resourceid appid="lcc_advanced">
+     <!-- [SP] MAK 2024-04-30  appid-role="deliverable-anchor"-->
+    </resourceid>
+   </topicmeta>
+   <!--   <topicref href="../assessments/lca_htmldita.dita"/>-->
+   <topicref href="../assessments/advanced/lca_advanced.dita"/>
+   <topicref href="../assessments/advanced/lca_section.dita"/>
+   <topicref href="../assessments/advanced/lca_section_title.dita"/>
+   <topicref href="../assessments/advanced/lca_draft-comment.dita"/>
+   <topicref href="../assessments/advanced/lca_required-cleanup.dita"/>
+  </topicref>
+ </topicref>
+ 
+</map>

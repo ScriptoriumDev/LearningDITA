@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="concept_ssg_2bn_ft">
+  <title>Learning module structure</title>
+  <prolog>
+    <author href="http://www.scriptorium.com">Sarah O'Keefe, Scriptorium</author>
+    <author href="http://www.scriptorium.com">Alan Pringle, Scriptorium</author>
+    <author href="http://www.scriptorium.com">Simon Bate, Scriptorium</author>
+    <critdates>
+      <created date="2015-09-02"/>
+    </critdates>
+  </prolog>
+  <conbody>
+
+    <p>Each module should have a container topic, which provides the following:<ul
+        id="ul_jn1_rwz_vr">
+        <li>A list of objectives for the module, using the &lt;lcObjectives>
+            elements:<codeblock> &lt;lcObjectives>
+   &lt;lcObjectivesGroup>
+    &lt;lcObjective>Describe the kinds of topics exist in DITA&lt;/lcObjective>
+    &lt;lcObjective>State the information goes in different types of topics&lt;/lcObjective>
+    &lt;lcObjective>Give examples of constraints and specialization&lt;/lcObjective>
+   &lt;/lcObjectivesGroup>
+  &lt;/lcObjectives></codeblock>
+          <p>The objectives should state what the reader will be
+            able to do upon completion of the module. </p>
+          <p>For a good discussion of writing
+            objectives, see <xref href="http://depts.washington.edu/eproject/objectives.htm"
+              format="html" scope="external"/>. This site makes a distinction between covert and
+            overt objectives. An overt objective is one that can be observed or measured; these are
+            the types of objectives you should create. Avoid creating covert objectives; they
+            usually contains words like “understand,” “know,” and “select.”.</p>
+          <note>Over time we
+            have learned more about creating good, overt objectives. Do not look to the first few
+            classes for exemplary objectives!</note>
+        </li>
+        <li>An estimated duration for the module, using the &lt;lcDuration> element (provide a value
+          in minutes):
+          <codeblock>&lt;lcDuration>
+  &lt;lcTime value="30"/>
+&lt;/lcDuration></codeblock>
+        </li>
+        <li>An overview of the module, using the &lt;lcIntro> element</li>
+        <li>A list of additional reading resources, using the &lt;related-links> element at the
+          bottom of the topic. Be sure to code external web links with the appropriate format
+          (usually html or pdf) and scope
+          (external):<codeblock>&lt;link href="http://www.oxygenxml.com/dita/styleguide/c_Syntax_and_Markup.html" 
+      format="html"
+      scope="external">
+   &lt;linktext>DITA Style Guide, Chapter 3, Syntax and Markup&lt;/linktext>
+&lt;/link></codeblock></li>
+      </ul></p>
+    <p>Inside the overview container, provide &lt;learningContent> topics with the module components
+      (lessons).</p>
+  </conbody>
+</concept>

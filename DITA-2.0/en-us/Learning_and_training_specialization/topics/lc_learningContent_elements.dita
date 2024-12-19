@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="lc_learningContent_elements">
+    <title>The &lt;learningContent> elements</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external" class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external" class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external" class="- topic/author ">Kaitlyn Heath, Scriptorium</author>
+        <critdates>
+            <created date="2017-04-21"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction id="lcInstruction_js5_cqb_yz">
+            <p>The &lt;learningContent> topic type contains the following elements:</p>
+            <p>&lt;learningContentbody>: main element that contains the other elements within the body of
+                this topic type; specialized from &lt;body>; analogous to &lt;conbody>,
+                &lt;taskbody>, etc.</p>
+            <p>&lt;lcInstruction>: element within the &lt;learningContentbody> for the instructional content in that lesson topic.
+                Can include conceptual information, examples, activities, exercises, etc.</p>
+            <p>Other elements inside the &lt;learningContentbody> include:</p>
+            <ul id="ul_cfb_dfv_scb">
+                <li>&lt;lcIntro>: introduces the lesson topic, often with a detailed description or
+                    instructor notes that &lt;shortdesc> may not adequately cover</li>
+                <li>&lt;lcDuration>: estimates the length of time it should take the student to read all
+                    materials and/or complete all activities within the topic</li>
+                <li>&lt;lcObjectives>: lists specific objectives, or things the student should know/be
+                    able to do after completing the lesson topic</li>
+                <li>&lt;lcChallenge>: explains what you want the student to practice</li>
+            </ul>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

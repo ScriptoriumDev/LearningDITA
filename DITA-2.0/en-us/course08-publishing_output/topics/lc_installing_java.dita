@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="content_pgf_3gt_qt">
+    <title>Installing Java</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="https://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor">Noelle Russell</author>
+        <author type="contributor">Ashley Stant</author>
+        <author type="contributor" href="https://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="https://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Bill Swallow, Scriptorium</author>
+        <author type="contributor" href="https://www.scriptorium.com/" format="html" scope="external"
+            class="- topic/author ">Jake Campbell, Scriptorium</author>
+        <critdates>
+            <created golive="2017-03-27" date="2017-02-06"/>
+            <revised modified="2024-04-24"/>
+        </critdates>
+    </prolog>
+    
+    <learningContentbody>
+        <lcInstruction>
+            <p>The DITA OT requires Java. The DITA Open Toolkit website includes the minimum Java
+                requirements for each version of the DITA OT.</p>
+            <p>When you try to generate output, the DITA OT will alert you if your system does not
+                meet the Java requirements. For the DITA OT, you will most likely need to download
+                the Java Development Kit (JDK). </p>
+            <p>On Windows, you may see the following error message if you try to run the DITA OT
+                when Java has not been installed on your system:</p>
+            <p>
+                <pre>“java.exe” is not recognized as an internal or external command, 
+operable program or batch file.</pre>
+            </p>
+            <p>On Mac, a pop-up window may appear indicating that you need a different version of
+                Java and providing a link where you can download the correct version.</p>
+            <p>Follow the instructions below to ensure that your version of the JDK is up to date.
+                Separate instructions are provided for Windows and Mac users.</p>
+            <p><xref href="https://youtu.be/pw_6yw4rDzU" format="html" scope="external">Video:
+                Installing Java</xref></p>
+        </lcInstruction>
+    </learningContentbody>
+    <task id="task_igy_wd5_xy">
+        <title>Installing Java</title>
+        <taskbody>
+            <context id="context_a4w_xvc_3z"><b>Installing Java on Windows</b></context>
+            <steps>
+                <step>
+                    <cmd>Download and install the latest version of the Java Development Kit (JDK)
+                        from the Oracle website (<xref
+                            href="https://www.oracle.com/java/technologies/downloads/"
+                            format="html" scope="external"/>).
+                            <!-- [2024-04-24 AAB] Updated URL. -->
+                    </cmd>
+                    <info>
+                        <note>At the time of this course’s release, the latest version of the JDK
+                            was version 8.</note>
+                        <draft-comment author="aab">TO DO: update Java version</draft-comment>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Open File Explorer, right-click on This PC, and then click on Properties. A
+                        new window will open.</cmd>
+                </step>
+                <step>
+                    <cmd>Click on the Advanced System Settings link in the left column of the new
+                        window. Another window will open.</cmd>
+                </step>
+                <step>
+                    <cmd>Click on the Environment Variables button found in the lower right of the
+                        new window.</cmd>
+                </step>
+                <step>
+                    <cmd>Find JAVA_HOME under the System Variables panel, and make sure that the
+                        value points to the directory where the JDK is installed. </cmd>
+                </step>
+            </steps>
+            <postreq id="postreq_wbw_zp2_3z">If JAVA_HOME does not exist, or exists but does not
+                display the correct location, click New. Enter <tt>JAVA_HOME</tt> under Variable
+                name. Enter the location of the JDK (for example, <b>C:/Program
+                    Files/Java/[jdk_folder_name]</b>) under Variable value.</postreq>
+        </taskbody>
+    </task>
+    <task id="task_nyf_yd5_xy">
+        <title>Installing Java</title>
+        <taskbody>
+            <context id="context_hby_zvc_3z"><b>Installing Java on Mac</b></context>
+            <steps>
+                <step>
+                    <cmd>Download and install the latest version of the Java Development Kit (JDK)
+                        from the Oracle website (<xref
+                            href="https://www.oracle.com/java/technologies/downloads/"
+                            format="html" scope="external"/>).
+                        <!-- [2024-04-24 AAB] Updated URL. -->
+                    </cmd>
+                    <info>
+                        <note>At the time of this course’s release, the latest version of the JDK
+                            was version 8.</note>
+                        <draft-comment author="aab">TO DO: update Java version</draft-comment>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Click on Accept License Agreement when asked. A popup will appear if you’ve
+                        clicked Download without selecting Accept.</cmd>
+                </step>
+                <step>
+                    <cmd>Under the download column select the Java link that is specific to your
+                        system. Mac users choose MAC OS X.</cmd>
+                    <info>
+                        <p>A .dmg file will begin downloading.</p>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Once the download is complete, click on the icon in your downloads
+                        folder.</cmd>
+                    <info>A window will appear with instructions.</info>
+                </step>
+                <step>
+                    <cmd>Double click on the icon.</cmd>
+                </step>
+                <step>
+                    <cmd>Click on Install, Run, or equivalent.</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</learningContent>

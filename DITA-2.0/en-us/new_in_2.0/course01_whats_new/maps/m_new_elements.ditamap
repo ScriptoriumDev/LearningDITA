@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on 
+     github.com. See the accompanying LICENSE file for 
+     applicable licenses.-->
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>New elements</title>
+    <topicref href="../topics/lc_new_elements_and_attributes.dita">
+        <topicmeta>
+            <data name="lesson_id" value=""/>
+        </topicmeta>
+        <topicref href="../topics/lc_audio_and_video.dita"/>
+        <topicref href="../topics/lc_strong_and_em.dita"/>
+        <topicref href="../topics/lc_hardware_elements.dita"/>
+        <topicref href="../topics/lc_diagnostic_elements.dita"/>
+        <topicref href="../topics/lc_keytext_element.dita"/>
+        <topicref href="../topics/lc_include.dita"/>
+        <topicref href="../topics/lc_outputclass_updates.dita"/>
+    </topicref>
+</map>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="lca_exercise">
+    <title>Choicetable</title>
+    <learningAssessmentbody>
+        <lcInteraction>
+            <lcMatching2 id="matching_choicetable">
+                <lcQuestion2>Match the &lt;choicetable> child elements with their uses.</lcQuestion2>
+                <lcMatchTable2 id="lcMatchTable_f2n_c5b_kt">
+                    <lcMatchingPair2>
+                        <lcItem2>&lt;chhead></lcItem2>
+                        <lcMatchingItem2>Header row</lcMatchingItem2>
+                    </lcMatchingPair2>
+                    <lcMatchingPair2>
+                        <lcItem2>&lt;chrow></lcItem2>
+                        <lcMatchingItem2>Body row</lcMatchingItem2>
+                    </lcMatchingPair2>
+                    <lcMatchingPair2>
+                        <lcItem2>&lt;choptionhd></lcItem2>
+                        <lcMatchingItem2>Option in a header row</lcMatchingItem2>
+                    </lcMatchingPair2>
+                    <lcMatchingPair2>
+                        <lcItem2>&lt;chdeschd></lcItem2>
+                        <lcMatchingItem2>Description in a header row</lcMatchingItem2>
+                    </lcMatchingPair2>
+                    <lcMatchingPair2>
+                        <lcItem2>&lt;choption></lcItem2>
+                        <lcMatchingItem2>Option in a body row</lcMatchingItem2>
+                    </lcMatchingPair2>
+                    <lcMatchingPair2>
+                        <lcItem2>&lt;chdesc></lcItem2>
+                        <lcMatchingItem2>Description in a body row</lcMatchingItem2>
+                    </lcMatchingPair2>
+                </lcMatchTable2>
+            </lcMatching2>
+        </lcInteraction>
+    </learningAssessmentbody>
+</learningAssessment>
+

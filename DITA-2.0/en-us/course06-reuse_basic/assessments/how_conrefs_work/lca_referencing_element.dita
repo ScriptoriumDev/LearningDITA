@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.--> 
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="assessment_dfp_4cp_dt">
+ <title>Referencing element</title>
+ <prolog>
+  <author href="http://www.easydita.com" scope="external" format="html">Mike Rice,
+   easyDITA</author>
+  <critdates>
+   <created golive="2016-07-11" date="2016-05-11"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcIntro id="lcIntro_pjs_rhh_mw"/>
+  <lcInteraction>
+   <lcSingleSelect id="lcMultipleSelect_qxd_tk1_4w">
+    <lcQuestion>When a &lt;step> element is the referencing element in a conref (that is, it
+     contains the conref attribute) what must be true? (choose one):</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_rxd_tk1_4w">
+     <lcAnswerOption>
+      <lcAnswerContent>The referencing &lt;step> element can contain  step
+       content.</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>The &lt;cmd> element within the referencing &lt;step> element can contain
+       content.</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>The &lt;cmd> element is not required within the referencing &lt;step>
+       element.</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>An empty &lt;cmd> element is required, even though the referencing &lt;step>
+       element is replaced when the conref is resolved. </lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect
+     class="+ topic/p learningInteractionBase-d/p learning-d/lcFeedbackIncorrect ">The referencing
+     &lt;step> element must contain an empty &lt;cmd> element, because the &lt;cmd> element is
+     required. A topic must be valid, even before conrefs are resolved.</lcFeedbackIncorrect>
+   </lcSingleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA 2.x Map//EN" "map.dtd">
+<map>
+ <title>Relationship tables</title>
+ <!-- [SP] MAK 2024-04-22  Removed commented out links to topics that no longer exist. -->
+ <topicref href="../topics/lc_reltables.dita">
+  <topicmeta>
+   <data name="lesson_id" value="10014"/>
+  </topicmeta>
+  <topicref href="../topics/lc_about_reltables.dita"/>
+  <topicref href="../topics/lc_creating_reltable.dita"/>
+  <topicref href="../topics/lc_reltable_rows.dita"/>
+  <topicref href="../topics/lc_advanced_reltable.dita"/>
+  <topicref href="../topics/lc_reltable_bestpractices.dita"/>
+  <topicref href="../../shared/topics/lcc_assessment.dita">
+   <topicmeta>
+    <navtitle>Assessment for relationship tables</navtitle>
+    <resourceid appid-role="deliverable-anchor" appid="lcc_relationship_tables"></resourceid>
+   </topicmeta>
+   <topicref href="../assessments/reltables/lca_definition.dita"/>
+   <topicref href="../assessments/reltables/lca_importance.dita"/>
+   <topicref href="../assessments/reltables/lca_row_column_cell.dita"/>
+   <topicref href="../assessments/reltables/lca_position_map.dita"/>
+   <topicref href="../assessments/reltables/lca_bookmap_position.dita"/>
+   <topicref href="../assessments/reltables/lca_too_many_topicrefs.dita"/>
+  </topicref>
+ </topicref>
+</map>

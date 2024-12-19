@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningAssessment id="lca_reason_for_conkeyrefs">
+ <title>reason for conkeyrefs</title>
+ <!-- [SP] MAK 2024-04-24  TO DO Not sure if the title shows up anywhere. If so it needs to be fixed.-->
+ <prolog>
+  <author type="creator" href="https://www.scriptorium.com" format="html" scope="external">Simon Bate</author>
+  <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external">Jake Campbell</author>
+  <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external">Gretyl Kinsey</author>
+  <critdates>
+   <created golive="2016-11-30" date="2016-11-04"/>
+  </critdates>
+ </prolog>
+ <learningAssessmentbody>
+  <lcInteraction id="lcInteraction_rpq_cdp_vx">
+   <lcSingleSelect id="lcSingleSelect_eqx_cdp_vx">
+    <lcQuestion>The reason to use conkeyrefs is (choose one):</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_fqx_cdp_vx">
+     <lcAnswerOption>
+      <lcAnswerContent>They make your topic reusable.</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>The referencing element doesn’t have to be the same as the referenced
+       element.</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>The name is cooler.</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>You can use different id attributes.</lcAnswerContent>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>You use conkeyrefs to make your topics reusable. </lcFeedbackIncorrect>
+   </lcSingleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

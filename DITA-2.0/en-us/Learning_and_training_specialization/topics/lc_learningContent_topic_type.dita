@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningContent id="lc_learningContent_topic_type">
+    <title>The &lt;learningContent> topic</title>
+    <prolog class="- topic/prolog ">
+        <author type="creator" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="http://www.scriptorium.com" format="html" scope="external"
+            class="- topic/author ">Kaitlyn Heath, Scriptorium</author>
+        <critdates>
+            <created date="2017-04-21"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction id="lcInstruction_js5_cqb_yz">
+            <p>The &lt;learningContent> topic type contains the instructional content of a course.
+                Depending on how your course is structured, a &lt;learningContent> topic can serve
+                as a single topic within a lesson or a lesson within a course by organizing the
+                &lt;learningContent> topic within a map. It can also serve as an entire (short)
+                course if you embed other topic types like a &lt;task> or &lt;learningAssessment>
+                within one &lt;learningContent> topic.</p>
+            <p>The instructional content is written in the main body element, &lt;learningContentbody>, or it can
+                be written in other DITA topics that can be nested within the &lt;learningContent> topic.</p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>

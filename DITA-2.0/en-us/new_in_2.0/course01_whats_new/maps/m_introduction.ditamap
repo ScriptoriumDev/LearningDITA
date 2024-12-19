@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on 
+     github.com. See the accompanying LICENSE file for 
+     applicable licenses.-->
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA 2.x Map//EN" "map.dtd">
+<map>
+    <title>Introduction</title>
+    <topicref href="../topics/lc_what_s_new_in_2_0_intro.dita">
+        <topicmeta>
+            <data name="lesson_id" value=""/>
+        </topicmeta>
+        <topicref href="../topics/lc_why_update_the_dita_standard.dita"/>
+        <topicref href="../topics/lc_backwards_compatibility.dita"/>
+    </topicref>
+</map>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
+<learningAssessment id="lca_conref_push_requirements">
+ <title>Running a Build</title>
+ <prolog class="- topic/prolog ">
+  <author type="creator" href="https://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+  <author type="contributor">Noelle Russell</author>
+  <author type="contributor">Ashley Stant</author>
+  <author type="contributor" href="https://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Simon Bate, Scriptorium</author>
+  <author type="contributor" href="https://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Bill Swallow, Scriptorium</author>
+  <author type="contributor" href="https://www.scriptorium.com/" format="html" scope="external"
+   class="- topic/author ">Jake Campbell, Scriptorium</author>
+  <critdates>
+   <created golive="2017-03-27" date="2017-02-06"/>
+  </critdates>
+ </prolog>
+ 
+ <learningAssessmentbody>
+ 
+  <lcInteraction>
+   <lcSingleSelect id="lcSingleSelect_kq1_qmg_jz">
+    <lcQuestion>To make sure that you installed the DITA OT successfully, you should: (Choose
+     one)</lcQuestion>
+    <lcAnswerOptionGroup id="lcAnswerOptionGroup_lq1_qmg_jz">
+     <lcAnswerOption>
+      <lcAnswerContent>Run a test build to generate output.</lcAnswerContent>
+      <lcCorrectResponse/>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Move the DITA OT into a different location on your machine.</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Update your version of Java.</lcAnswerContent>
+     </lcAnswerOption>
+     <lcAnswerOption>
+      <lcAnswerContent>Set up your source folders.</lcAnswerContent>
+     </lcAnswerOption>
+    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>To make sure that you installed the DITA OT successfully, you should run a
+     test build to generate output.</lcFeedbackIncorrect>
+   </lcSingleSelect>
+  </lcInteraction>
+ </learningAssessmentbody>
+</learningAssessment>

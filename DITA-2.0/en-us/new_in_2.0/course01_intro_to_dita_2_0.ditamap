@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Training project hosted on 
+     github.com. See the accompanying LICENSE file for 
+     applicable licenses.-->
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA 2.x Map//EN" "map.dtd">
+<map>
+    <title>Introduction to DITA 2.0</title>
+    <topicref href="course01_whats_new/maps/m_introduction.ditamap" format="ditamap"/>
+    <topicref href="course01_whats_new/maps/m_replaced_elements.ditamap" format="ditamap"/>
+    <topicref href="course01_whats_new/maps/m_deleted_elements.ditamap" format="ditamap"/>
+    <topicref href="course01_whats_new/maps/m_new_elements.ditamap" format="ditamap"/>
+</map>

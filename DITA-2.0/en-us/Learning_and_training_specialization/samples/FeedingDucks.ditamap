@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningGroupMap PUBLIC "-//OASIS//DTD DITA 1.3 Learning Group Map//EN" "learningGroupMap.rng">
+<learningGroupMap>
+   <title>Feeding Ducks</title>
+   <learningGroup>
+      <topicref></topicref>
+      <learningPlanRef href="lp_feedingducks.dita"/>
+      <learningOverviewRef href="lo_feedingducks.dita"/>
+      <!-- To further divide content, we could add a module-level learningGroup here,
+           but I don't think that's necessary for this content. -->
+      
+      <!-- Lesson 1: Feed Quality-->
+      <learningGroup>
+         <topicmeta>
+            <navtitle>Feed Quality</navtitle>
+         </topicmeta>
+         <!-- If there were multiple topics under this lesson group, 
+              use the learningOverview to identify objectives for each of the topics. 
+              Not necessary here. -->
+              <!-- <learningOverviewRef href="lo_l1_feed_quality.dita"/>-->
+         <!-- Topic 1 -->
+         <learningObject>
+            <topicmeta>
+               <navtitle>Topic 1</navtitle>
+            </topicmeta>
+            <learningPlanRef href="lp_l1_t1_feed_quality.dita"/>
+            <learningOverviewRef href="lo_l1_t1_feed_quality.dita"/>
+            <learningContentRef href="lc_l1_t1_where_to_buy.dita"/>
+            <learningContentRef href="lc_l1_t1_storage.dita"/>
+            <learningContentRef href="lc_l1_t1_spoiling.dita"/>
+            <learningContentRef href="lc_l1_t1_ingredient_quality.dita"/>
+            <learningSummaryRef href="ls_l1_t1_summary.dita"/>
+            <learningPostAssessmentRef href="lg_l1_t1_quiz.dita" type="learningGroup"/>
+         </learningObject>
+      </learningGroup>
+
+       <!-- Lesson 2: Feed Form -->
+      <learningGroup>
+         <topicmeta>
+            <navtitle>Feed Form</navtitle>
+         </topicmeta>
+         <learningOverviewRef href="lo_l1_feed_form.dita"/>
+         <learningObject>
+            
+            
+            <learningContentRef/>
+         </learningObject>
+         
+      </learningGroup>
+      
+      <!-- Lesson 3: Feeders and waterers -->
+      <learningGroup>
+         <topicmeta>
+            <navtitle>Feeders and Waterers</navtitle>
+         </topicmeta>
+         <learningOverviewRef href="lo_l3_feeders_waterers.dita"/>
+         <learningObject>
+            <topicmeta>
+               <navtitle>Feeders and Waterers</navtitle>
+            </topicmeta>
+            <!-- no need for a plan at this level. -->
+<!--            <learningPlanRef/>-->
+            <learningOverviewRef href="lo_l3_t1_feeders_waterers.dita"/>            
+            
+            <learningContentRef href="lc_l3_t1_height.dita"/>
+            <learningContentRef href="lc_l3_t1_cleanliness.dita"/>
+            <learningContentRef href="lc_l3_t1_ducklings.dita"/>
+            <learningContentRef href="lc_l3_t1_wet_litter.dita"/>
+            <learningSummaryRef href="ls_l3_t1_summary.dita"/>
+            <learningPostAssessmentRef href="lg_l3_t1_quiz.dita" type="learningGroup"/>
+         </learningObject>
+         
+      </learningGroup>
+      
+      <!--
+         
+         Nutritional requirements
+         Controlling disease
+         Avoiding predation
+         -->
+         
+      <learningSummaryRef href="ls_course_summary.dita"/>
+      <learningPostAssessmentRef href="lg_final_exam.dita" type="learningGroup"/>
+   </learningGroup>
+</learningGroupMap>

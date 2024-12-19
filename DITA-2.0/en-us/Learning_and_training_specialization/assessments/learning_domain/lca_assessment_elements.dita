@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
+<learningAssessment id="lca_assessment_elements">
+    <title>LearningAssessment elements</title>
+    <learningAssessmentbody>
+        <lcInteraction>
+            <lcSequencing id="assessment_element_order">
+                <lcQuestion>Correctly order the nesting of the following elements from a &lt;learningAssessment> single select question.</lcQuestion>
+                <lcSequenceOptionGroup>
+                    <lcSequenceOption>
+                        <lcAnswerContent>&lt;learningAssessmentbody></lcAnswerContent>
+                        <lcSequence value="1"/>
+                    </lcSequenceOption>
+                    <lcSequenceOption>
+                        <lcAnswerContent>&lt;lcSingleSelect2></lcAnswerContent>
+                        <lcSequence value="3"/>
+                    </lcSequenceOption>
+                    <lcSequenceOption>
+                        <lcAnswerContent>&lt;lcQuestion2></lcAnswerContent>
+                        <lcSequence value="4"/>
+                    </lcSequenceOption>
+                    <lcSequenceOption>
+                        <lcAnswerContent>&lt;lcInteraction></lcAnswerContent>
+                        <lcSequence value="2"/>
+                    </lcSequenceOption>
+                    <lcSequenceOption>
+                        <lcAnswerContent>&lt;lcAnswerOption2></lcAnswerContent>
+                        <lcSequence value="6"/>
+                    </lcSequenceOption>
+                    <lcSequenceOption>
+                        <lcAnswerContent>&lt;lcAnswerOptionGroup2></lcAnswerContent>
+                        <lcSequence value="5"/>
+                    </lcSequenceOption>
+                </lcSequenceOptionGroup>
+            </lcSequencing>
+        </lcInteraction>
+        
+    </learningAssessmentbody>
+</learningAssessment>
