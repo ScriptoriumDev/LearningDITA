@@ -3,13 +3,10 @@
 <!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <learningContent id="lc_working_with_learning_objects">
     <title>Working with learning objects</title>
-    <prolog class="- topic/prolog ">
-        <author type="creator" href="https://www.scriptorium.com" format="html" scope="external"
-            class="- topic/author ">Simon Bate, Scriptorium</author>
-        <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external"
-            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
-        <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external"
-            class="- topic/author ">Kaitlyn Heath, Scriptorium</author>
+    <prolog>
+        <author type="creator" href="https://www.scriptorium.com" format="html" scope="external">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external">Kaitlyn Heath, Scriptorium</author>
         <critdates>
             <created date="2018-02-02"/>
         </critdates>
@@ -21,9 +18,10 @@
                 designers at Autodesk, Oracle, Cisco, and other companies. The idea is to create a
                 collection of information objects that you can reuse and repurpose, depending on how
                 you need to deliver your learning content.</p>
+            <!-- [SP] MAK 2025-01-16  Added format and scope to links-->
             <p>A learning object is a “discrete reusable collection of content used to present and
                 support a single learning objective” (<xref
-                    href="https://www.oasis-open.org/committees/download.php/35764/lc_spec_assumptions.html"
+                    href="https://www.oasis-open.org/committees/download.php/35764/lc_spec_assumptions.html" format="html" scope="external"
                     >OASIS, A learning objects approach to learning and training
                 content</xref>).</p>
             <p>The L&amp;T specialization implements learningObjects with the &lt;learningObject>
