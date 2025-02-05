@@ -3,16 +3,13 @@
 <map>
  <title>The Learning and Training topic types</title>
  <topicref href="../topics/lc_types_intro.dita">
-  <topicmeta lockmeta="yes">
-   <data name="lesson_id" value="12500"/>
-  </topicmeta>
   <topicref href="../topics/lc_learningPlan_details.dita"/>
   <topicref href="../topics/lc_learningOverview_details.dita"/>
   <topicref href="../topics/lc_learningContent_details.dita"/>
   <topicref href="../topics/lc_learningSummary_details.dita"/>
   <topicref href="../topics/lc_learningAssessment_details.dita"/>
   
-  <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_topic_types.dita"
+  <topicref href="../../shared/topics/lcc_assessment.dita" outputclass="assessment" copy-to="lcc_topic_types.dita"
    locktitle="yes">
    <topicmeta>
     <navtitle>Assessment for Learning and Training topic types</navtitle>

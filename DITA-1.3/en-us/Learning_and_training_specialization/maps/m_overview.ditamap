@@ -3,16 +3,13 @@
 <map>
  <title>Overview</title>
  <topicref href="../topics/lc_learning_overview.dita">
-  <topicmeta lockmeta="yes">
-   <data name="lesson_id" value="12499"/>
-  </topicmeta>
   <topicref href="../../shared/topics/lc_general_housekeeping.dita"/>
   <topicref href="../topics/lc_topics__maps__and_domains.dita"/>
   <topicref href="../../shared/topics/benefits_of_using_the_learning___training_specialization.dita"/>
   <topicref href="../topics/where_do_you_use_the_l_t_specialization_.dita"/>
   <topicref href="../topics/l_t_and_curriculum_development.dita"/>
   
-  <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_learning_overview.dita"
+  <topicref href="../../shared/topics/lcc_assessment.dita" outputclass="assessment" copy-to="lcc_learning_overview.dita"
    locktitle="yes">
    <topicmeta>
     <navtitle>Assessment for Learning and Training overview</navtitle>

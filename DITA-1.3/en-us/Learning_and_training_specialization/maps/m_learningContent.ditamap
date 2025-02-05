@@ -4,14 +4,11 @@
   <!-- Looking for a better title. -->
   <title>Learning Content</title>
    <topicref href="../topics/lc_learningContent_intro.dita">
-     <topicmeta lockmeta="yes">
-       <data name="lesson_id" value="12501"/>
-     </topicmeta>
      <topicref href="../topics/lc_learningContent_topic_type.dita"/>
      <topicref href="../topics/lc_learningContent_elements.dita"/>
      <topicref href="../topics/lc_learningContent_embedded_topics.dita"/>
      
-     <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_learning_domain.dita"
+     <topicref href="../../shared/topics/lcc_assessment.dita" outputclass="assessment" copy-to="lcc_learning_domain.dita"
        locktitle="yes">
        <topicmeta>
          <navtitle>Assessment for &lt;learningContent></navtitle>
