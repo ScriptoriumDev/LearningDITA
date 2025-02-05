@@ -3,14 +3,12 @@
 <map>
  <title>Creating a glossary topic</title>
  <topicref href="../topics/lc_creating_gloss.dita">
-  <topicmeta lockmeta="yes">
-   <data name="lesson_id" value="9749"/>
-  </topicmeta>
   <topicref href="../topics/lc_about_gloss.dita"/>
   <topicref href="../topics/lc_new_glossentry.dita"/>
   <topicref href="../topics/lc_new_glossgroup.dita"/>
   <topicref href="../topics/lc_glossary_map.dita"/>
-  <topicref href="../topics/lcc_assessment.dita" copy-to="lcc_creating_glossentry.dita"
+  <!-- [SP] MAK 2025-01-14  Updated path to point to the shared directory-->
+  <topicref href="../../shared/topics/lcc_assessment.dita" outputclass="assessment" copy-to="lcc_creating_glossentry.dita"
    locktitle="yes">
    <topicmeta>
     <navtitle>Assessment for Creating a glossary entry topic</navtitle>

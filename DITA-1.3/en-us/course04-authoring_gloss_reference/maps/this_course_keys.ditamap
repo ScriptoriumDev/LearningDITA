@@ -2,17 +2,19 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <map>
- <title>Keys for reusing elements advanced</title>
- <keydef keys="sample_file" href="https://www.learningdita.com/wp-content/uploads/2016/11/reuse_advanced_samples.zip" format="zip" scope="external">
+ <title>Keys for authoring glossary references</title>
+ <!-- [SP] MAK 2025-01-14  The sample files are actually for the advanced reuse lesson-->
+ 
+ <!--<keydef keys="sample_file" href="https://www.learningdita.com/wp-content/uploads/2016/11/reuse_advanced_samples.zip" format="zip" scope="external">
   <topicmeta>
    <linktext>reuse_advanced_samples.zip</linktext>
   </topicmeta>
- </keydef>
+ </keydef>-->
  
  <keydef keys="course_name">
   <topicmeta>
    <keywords>
-    <keyword>Advanced reuse in DITA</keyword>
+    <keyword>Authoring DITA glossary and reference topics</keyword>
    </keywords>
   </topicmeta>
  </keydef>
@@ -20,13 +22,15 @@
  <!-- key for warehouse file containing conkeyref elements. -->
  <keydef keys="sample_contents" href="../topics/z_conkeyref_elements.dita"/>
  
+ <!-- [SP] MAK 2025-01-14  Images are actually for the advanced reuse lesson-->
+ 
  <!-- IMAGES -->
- <keydef keys="i_conkeyref" href="../images/conkeyref-01.svg" format="svg"/>
+ <!--<keydef keys="i_conkeyref" href="../images/conkeyref-01.svg" format="svg"/>
  <keydef keys="i_conrefend" href="../images/conrefend-01.svg" format="svg"/>
  <keydef keys="i_pushafter" href="../images/pushafter-01.svg" format="svg"/>
  <keydef keys="i_pushbefore" href="../images/pushbefore-01.svg" format="svg"/>
  <keydef keys="i_pushreplace" href="../images/pushreplace-01.svg" format="svg"/>
- <keydef keys="i_keysubmap" href="../images/submap_of_keys-01.svg" format="svg"/>
+ <keydef keys="i_keysubmap" href="../images/submap_of_keys-01.svg" format="svg"/>-->
  
  
 </map>

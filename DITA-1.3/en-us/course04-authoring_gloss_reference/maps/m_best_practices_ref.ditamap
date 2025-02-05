@@ -6,13 +6,11 @@
 <map>
  <title>Best practices for reference topics</title>
  <topicref href="../topics/lc_bp_intro_ref.dita">
-  <topicmeta lockmeta="yes">
-   <data name="lesson_id" value="9748"/>
-  </topicmeta>
   <topicref href="../topics/lc_bp_template.dita"/>
   <topicref href="../topics/lc_bp_linking.dita"/>
-  <topicref href="../topics/lc_pr-d.dita"/>
-  <topicref href="../topics/lcc_assessment.dita" copy-to="lcc_ref_bestp.dita" locktitle="yes">
+  <topicref href="../topics/lc_pr-d.dita"/> 
+  <!-- [SP] MAK 2025-01-14  Updated path to point to the shared directory-->
+  <topicref href="../../shared/topics/lcc_assessment.dita" outputclass="assessment" copy-to="lcc_ref_bestp.dita" locktitle="yes">
    <topicmeta>
     <navtitle>Assessment for Best practices for reference topics</navtitle>
    </topicmeta>
