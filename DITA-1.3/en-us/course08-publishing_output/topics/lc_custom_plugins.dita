@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
-<learningContent id="lc_creating_a_map">
+<learningContent id="lc_custom_plugins">
     <title>Custom plugins</title>
-    <prolog class="- topic/prolog ">
-        <author type="creator" href="https://www.scriptorium.com" format="html" scope="external"
-            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+    <prolog>
+        <author type="creator" href="https://www.scriptorium.com" format="html" scope="external">Gretyl Kinsey, Scriptorium</author>
         <author type="contributor">Noelle Russell</author>
         <author type="contributor">Ashley Stant</author>
-        <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external"
-            class="- topic/author ">Simon Bate, Scriptorium</author>
-        <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external"
-            class="- topic/author ">Bill Swallow, Scriptorium</author>
-        <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external"
-            class="- topic/author ">Jake Campbell, Scriptorium</author>
+        <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external">Bill Swallow, Scriptorium</author>
+        <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external">Jake Campbell, Scriptorium</author>
         <critdates>
             <created golive="2017-03-27" date="2017-02-06"/>
         </critdates>
@@ -37,17 +33,17 @@
         </lcIntro>
     </learningContentbody>
     <related-links>
-        <link href="https://www.dita-ot.org/2.0/dev_ref/plugins-overview.html" format="html">
+        <link href="https://www.dita-ot.org/2.0/dev_ref/plugins-overview.html" format="html" scope="external">
             <linktext>Creating DITA-OT plug-ins</linktext>
         </link>
-        <link href="https://www.dita-ot.org/2.0/readme/plugins-installing.html" format="html">
+        <link href="https://www.dita-ot.org/2.0/readme/plugins-installing.html" format="html" scope="external">
             <linktext>Installing plug-ins</linktext>
         </link>
-        <link href="https://dita-ot.sourceforge.net/doc/ot-userguide/xhtml/customizing/xhtml_frameset.html" format="html">
+        <link href="https://dita-ot.sourceforge.net/doc/ot-userguide/xhtml/customizing/xhtml_frameset.html" scope="external" format="html">
             <linktext>Publishing XHTML output as a frameset</linktext>
         </link>
         <link
-            href="https://metadita.org/toolkit/morse.html"
+            href="https://metadita.org/toolkit/morse.html" scope="external"
             format="html">
             <linktext>But what if I <i>want</i> a whole new transform dot dot dot?</linktext>
         </link>

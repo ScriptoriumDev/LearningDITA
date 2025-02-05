@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
-<learningContent id="lc_creating_a_map">
+<learningContent id="lc_generating_output">
     <title>Generating output</title>
-    <prolog class="- topic/prolog ">
-        <author type="creator" href="https://www.scriptorium.com" format="html" scope="external"
-            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+    <prolog>
+        <author type="creator" href="https://www.scriptorium.com" format="html" scope="external">Gretyl Kinsey, Scriptorium</author>
         <author type="contributor">Noelle Russell</author>
         <author type="contributor">Ashley Stant</author>
-        <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external"
-            class="- topic/author ">Simon Bate, Scriptorium</author>
-        <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external"
-            class="- topic/author ">Bill Swallow, Scriptorium</author>
-        <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external"
-            class="- topic/author ">Jake Campbell, Scriptorium</author>
+        <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external">Bill Swallow, Scriptorium</author>
+        <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external">Jake Campbell, Scriptorium</author>
         <critdates>
             <created golive="2017-03-27" date="2017-02-06"/>
         </critdates>
@@ -36,20 +32,20 @@
         </lcIntro>
     </learningContentbody>
     <related-links>
-        <link href="https://dita.xml.org/wiki/plugins-for-the-dita-open-toolkit" format="html">
+        <link href="https://dita.xml.org/wiki/plugins-for-the-dita-open-toolkit" format="html" scope="external">
             <linktext>Plugins for the DITA Open Toolkit</linktext>
         </link>
-        <link href="https://www.dita-ot.org/2.4/parameters/index.html" format="html">
+        <link href="https://www.dita-ot.org/2.4/parameters/index.html" format="html" scope="external">
             <linktext>DITA Open Toolkit Parameter Reference</linktext>
         </link>
-        <link href="https://www.scriptorium.com/2013/03/webcast-pros-and-cons-of-the-dita-open-toolkit/" format="html">
+        <link href="https://www.scriptorium.com/2013/03/webcast-pros-and-cons-of-the-dita-open-toolkit/"  scope="external" format="html">
             <linktext>Webcast: Pros and cons of the DITA Open Toolkit</linktext>
         </link>
         <link href="https://www.slideshare.net/Scriptorium/demystifying-dita-to-pdf-publishing"
-            format="html">
+            format="html" scope="external">
             <linktext>Demystifying DITA to PDF Publishing</linktext>
         </link>
-        <link href="https://www.infomanagementcenter.com/publications/e-newsletter/may-2014/dita-vs-xhtml-for-producing-content/"
+        <link href="https://www.infomanagementcenter.com/publications/e-newsletter/may-2014/dita-vs-xhtml-for-producing-content/" scope="external"
             format="html">
             <linktext>DITA vs. XHTML for Producing Content</linktext>
         </link>
