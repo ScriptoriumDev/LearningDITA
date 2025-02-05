@@ -2,63 +2,67 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map id="ducks">
  <title>Ducks</title>
- <topicref href="c_wild_ducks.dita">
-  <topicref href="c_wild_duck_types.dita"/>
-  <topicref href="c_wild_duck_species.dita"/>
-  <topicref href="c_habitats.dita"/>
-  <topicref href="t_watching_wild_ducks.dita"/>
+ <!-- [SP] MAK 2025-01-14  FIxed paths throughout document-->
+ <topicref href="../../maps_bookmaps_samples/samples/_b_ducks.ditamap"/>
+ <topicref href="../../maps_bookmaps_samples/samples/c_wild_ducks.dita">
+  <topicref href="../../maps_bookmaps_samples/samples/c_wild_duck_types.dita"/>
+  <topicref href="../../maps_bookmaps_samples/samples/c_wild_duck_species.dita"/>
+  <topicref href="../../maps_bookmaps_samples/samples/c_habitats.dita"/>
+  <topicref href="../../maps_bookmaps_samples/samples/t_watching_wild_ducks.dita"/>
  </topicref>
- <topicref href="c_domestic_ducks.dita">
-  <topicref href="c_duckling_growth.dita"/>
-  <topicref href="c_housing.dita"/>
-  <topicref href="c_feeding_ducklings.dita">
-   <topicref href="c_duck_weight.dita"/>
+ <topicref href="../../maps_bookmaps_samples/samples/c_domestic_ducks.dita">
+  <topicref href="../../maps_bookmaps_samples/samples/c_duckling_growth.dita"/>
+  <topicref href="../../maps_bookmaps_samples/samples/c_housing.dita"/>
+  <topicref href="../../maps_bookmaps_samples/samples/c_feeding_ducklings.dita">
+   <topicref href="../../maps_bookmaps_samples/samples/c_duck_weight.dita"/>
   </topicref>
  </topicref>
- <topicref href="c_duckdb.dita">
-  <topicref href="c_writing_about_ducks.dita"/>
-  
+ <topicref href="../../maps_bookmaps_samples/samples/c_duckdb.dita">
+  <topicref href="../../maps_bookmaps_samples/samples/c_writing_about_ducks.dita"/>
+
   <topichead navtitle="Common tasks">
-   <topicref href="t_create_table.dita"/>
-   <topicref href="t_adding_entry.dita"/>
-   <topicref href="t_modify_entry.dita"/>
-   <topicref href="t_queries.dita"/>
-   <topicref href="t_modify_table.dita"/>
-   <topicref href="t_deleting_entry.dita"/>
+   <topicref href="../../maps_bookmaps_samples/samples/t_create_table.dita"/>
+   <topicref href="../../maps_bookmaps_samples/samples/t_adding_entry.dita"/>
+   <topicref href="../../maps_bookmaps_samples/samples/t_modify_entry.dita"/>
+   <topicref href="../../maps_bookmaps_samples/samples/t_queries.dita"/>
+   <topicref href="../../maps_bookmaps_samples/samples/t_modify_table.dita"/>
+   <topicref href="../../maps_bookmaps_samples/samples/t_deleting_entry.dita"/>
   </topichead>
   <topichead navtitle="Command reference">
-   <topicref href="r_tnav.dita" locktitle="yes">
+   <topicref href="../../maps_bookmaps_samples/samples/r_tnav.dita" locktitle="yes">
     <topicmeta>
      <navtitle>tNav command</navtitle>
     </topicmeta>
    </topicref>
-   <topicref href="r_add.dita"/>
-   <topicref href="r_delete.dita"/>
-   <topicref href="r_edit.dita"/>
-   <topicref href="r_modify_table.dita"/>
-   <topicref href="r_newtable.dita"/>
+   <topicref href="../../maps_bookmaps_samples/samples/r_add.dita"/>
+   <topicref href="../../maps_bookmaps_samples/samples/r_delete.dita"/>
+   <topicref href="../../maps_bookmaps_samples/samples/r_edit.dita"/>
+   <topicref href="../../maps_bookmaps_samples/samples/r_modify_table.dita"/>
+   <topicref href="../../maps_bookmaps_samples/samples/r_newtable.dita"/>
   </topichead>
  </topicref>
- 
- <mapref href="g_duck_glossorg.ditamap" format="ditamap"/>
 
+ <mapref href="../../maps_bookmaps_samples/samples/g_duck_glossorg.ditamap" format="ditamap"/>
+<!-- [SP] MAK 2025-01-15  Moved recell to be within the relrow-->
  <reltable title="Ducks reltable">
- <relheader>
-          <relcolspec type="concept"/>
-     <relcolspec type="task"/>
-     <relcolspec type="reference"/>
-     </relheader>
-      <relrow>
-     </relrow>
-       <relcell>
-        <topicref href="c_writing_about_ducks.dita"/>
-     </relcell>
-     <relcell>
-      <topicref href="t_adding_entry.dita"/>
-     </relcell>
-     <relcell>
-     <topicref href="r_add.dita"/>
-     </relcell>
-     </reltable>
- 
+  <relheader>
+   <relcolspec type="concept"/>
+   <relcolspec type="task"/>
+   <relcolspec type="reference"/>
+  </relheader>
+  <relrow>
+   <relcell>
+    <topicref href="../../maps_bookmaps_samples/samples/c_writing_about_ducks.dita"/>
+   </relcell>
+   <relcell>
+    <topicref href="../../maps_bookmaps_samples/samples/t_adding_entry.dita"/>
+   </relcell>
+   <relcell>
+    <topicref href="../../maps_bookmaps_samples/samples/r_add.dita"/>
+   </relcell>
+  </relrow>
+
+
+ </reltable>
+
 </map>

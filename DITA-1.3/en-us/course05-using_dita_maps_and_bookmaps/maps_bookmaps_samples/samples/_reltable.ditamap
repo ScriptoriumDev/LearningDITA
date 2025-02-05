@@ -17,7 +17,7 @@
  </topicref>
  <topicref href="c_duckdb.dita">
   <topicref href="c_writing_about_ducks.dita"/>
-  
+
   <topichead navtitle="Common tasks">
    <topicref href="t_create_table.dita"/>
    <topicref href="t_adding_entry.dita"/>
@@ -39,26 +39,28 @@
    <topicref href="r_newtable.dita"/>
   </topichead>
  </topicref>
- 
- <mapref href="g_duck_glossorg.ditamap" format="ditamap"/>
 
+ <mapref href="g_duck_glossorg.ditamap" format="ditamap"/>
+<!-- [SP] MAK 2025-01-14  Moved relcell elements into relrow-->
  <reltable title="Ducks reltable">
- <relheader>
-          <relcolspec type="concept"/>
-     <relcolspec type="task"/>
-     <relcolspec type="reference"/>
-     </relheader>
-      <relrow>
-     </relrow>
-       <relcell>
-        <topicref href="c_writing_about_ducks.dita"/>
-     </relcell>
-     <relcell>
-      <topicref href="t_adding_entry.dita"/>
-     </relcell>
-     <relcell>
-     <topicref href="r_add.dita"/>
-     </relcell>
-     </reltable>
+  <relheader>
+   <relcolspec type="concept"/>
+   <relcolspec type="task"/>
+   <relcolspec type="reference"/>
+  </relheader>
+  <relrow>
+   <relcell>
+    <topicref href="c_writing_about_ducks.dita"/>
+   </relcell>
+   <relcell>
+   <topicref href="t_adding_entry.dita"/>
+  </relcell>
+  <relcell>
+   <topicref href="r_add.dita"/>
+  </relcell>
+  </relrow>
+
  
+ </reltable>
+
 </map>
