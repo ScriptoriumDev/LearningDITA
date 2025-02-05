@@ -3,15 +3,12 @@
 <map>
  <title>Using keys</title>
  <topicref href="../topics/lc_using_keys.dita">
-  <topicmeta lockmeta="yes">
-   <data name="lesson_id" value="10836"/>
-  </topicmeta>
   <topicref href="../topics/lc_key.dita"/>
   <topicref href="../topics/lc_using_keys_paths.dita"/>
   <topicref href="../topics/lc_using_keys_text.dita"/>
   <topicref href="../topics/lc_advanced_keys.dita"/>
   <topicref href="../topics/lc_keys_best_practices.dita"/>
-  <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_using_keys.dita"
+  <topicref href="../../shared/topics/lcc_assessment.dita" outputclass="assessment" copy-to="lcc_using_keys.dita"
    locktitle="yes">
    <topicmeta>
     <navtitle>Assessment for Using keys</navtitle>
