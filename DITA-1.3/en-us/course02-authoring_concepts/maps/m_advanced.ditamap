@@ -6,13 +6,10 @@
 <map>
  <title>Advanced elements</title>
  <topicref href="../topics/lc_advanced_intro.dita">
-  <topicmeta lockmeta="yes">
-   <data name="lesson_id" value="9238"></data>
-  </topicmeta>
 <!--  <topicref href="../topics/lc_markup.dita"/>-->
   <topicref href="../topics/lc_advanced.dita"/>
   <topicref href="../topics/lc_more_advanced.dita"/>
-  <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_advanced.dita" locktitle="yes">
+  <topicref href="../../shared/topics/lcc_assessment.dita" outputclass="assessment" copy-to="lcc_advanced.dita" locktitle="yes">
    <topicmeta>
     <navtitle>Assessment for Advanced elements</navtitle>
    </topicmeta>
