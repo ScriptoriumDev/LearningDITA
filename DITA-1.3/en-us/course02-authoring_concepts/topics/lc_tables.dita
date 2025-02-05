@@ -4,7 +4,7 @@
      applicable licenses.--> 
 
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
-<learningContent id="content_kw5_5ls_zs">
+<learningContent id="lc_tables">
     <title>Adding tables to a concept topic</title>
     <prolog>
         <author href="https://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
@@ -83,7 +83,7 @@
                     using DITA code.</p>
             </note></lcInstruction>
     </learningContentbody>
-    <task id="task_w23_tv1_dt">
+    <task id="task_tables1">
         <title>Adding the &lt;table> element</title>
         <taskbody>
             <steps id="steps_qtc_qx1_dt">
@@ -310,7 +310,7 @@
             </steps>
         </taskbody>
     </task>
-    <task id="task_as2_vjx_dt">
+    <task id="task_lc_tables">
         <title>Exercise</title>
         <taskbody>
             <steps id="steps_g32_wjx_dt">
