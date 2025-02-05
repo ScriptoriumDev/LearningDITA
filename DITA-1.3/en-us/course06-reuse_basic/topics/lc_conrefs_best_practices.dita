@@ -5,11 +5,9 @@
      applicable licenses.-->
 <learningContent id="lc_about_reltables">
     <title>Best practices for using conrefs</title>
-    <prolog class="- topic/prolog ">
-        <author type="creator" href="https://easydita.com/" format="html" scope="external"
-            class="- topic/author ">Mike Rice, easyDITA</author>
-        <author type="contributor" href="https://easydita.com/" format="html" scope="external"
-            class="- topic/author ">Annie Chen, easyDITA</author>
+    <prolog>
+        <author type="creator" href="https://easydita.com/" format="html" scope="external">Mike Rice, easyDITA</author>
+        <author type="contributor" href="https://easydita.com/" format="html" scope="external">Annie Chen, easyDITA</author>
         <critdates>
             <created golive="2016-07-11" date="2016-05-11"/>
         </critdates>
@@ -40,19 +38,19 @@
             <p>As was explained in the lesson on creating reusable topics, what might seem to work
                 well when using conrefs in English content might not work well when the content is
                 translated. </p>
-            <ul class="- topic/ul " id="ul_qcd_xry_dw">
-                <li class="- topic/li ">Don’t use conref with the &lt;ph> element to replace parts
+            <ul id="ul_qcd_xry_dw">
+                <li>Don’t use conref with the &lt;ph> element to replace parts
                     of a sentence.</li>
-                <li class="- topic/li ">Use extreme caution when using conref to reuse whole
+                <li>Use extreme caution when using conref to reuse whole
                     sentences. </li>
-                <li class="- topic/li ">When you do conref, do it with whole block elements that
-                    meet the following requirements: <ul class="- topic/ul " id="ul_rcd_xry_dw">
-                        <li class="- topic/li ">
-                            <p class="- topic/p ">The reused content is grammatically
+                <li>When you do conref, do it with whole block elements that
+                    meet the following requirements: <ul id="ul_rcd_xry_dw">
+                        <li>
+                            <p>The reused content is grammatically
                                 independent.</p>
                         </li>
-                        <li class="- topic/li ">
-                            <p class="- topic/p ">The referenced element and referencing element use
+                        <li>
+                            <p>The referenced element and referencing element use
                                 the same context.</p>
                         </li>
                     </ul>
@@ -68,7 +66,7 @@
                 content breaks—or introduces falsehoods into—documents. </p>
         </lcIntro>
     </learningContentbody>
-    <task id="task_dh4_mnv_jw">
+    <task id="task_conrefs_best_practices">
         <title>On Your Own</title>
         <taskbody>
             <steps id="steps_nby_y3z_lw">

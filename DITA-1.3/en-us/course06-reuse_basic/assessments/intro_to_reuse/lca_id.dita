@@ -14,37 +14,33 @@
  </prolog>
  <learningAssessmentbody>
   <lcInteraction>
-   <lcSingleSelect id="ss1"
-    class="+ topic/fig learningInteractionBase-d/lcInteractionBase learning-d/lcSingleSelect ">
-    <lcQuestion class="+ topic/p learningInteractionBase-d/lcQuestionBase learning-d/lcQuestion ">In
+   <lcSingleSelect id="ss1">
+    <lcQuestion>In
      the following conref example, which is the id of the referencing element?</lcQuestion>
-    <lcAsset class="+ topic/p learningInteractionBase-d/p learning-d/lcAsset ">
+    <lcAsset>
      <image href="../../images/conref-sample-1.png" id="image_i4j_w4y_dw"/>
     </lcAsset>
     <lcAnswerOptionGroup
-     class="+ topic/ul learningInteractionBase-d/ul learning-d/lcAnswerOptionGroup "
      id="lcAnswerOptionGroup_dlg_x3y_dw">
-     <lcAnswerOption class="+ topic/li learningInteractionBase-d/li learning-d/lcAnswerOption ">
-      <lcAnswerContent class="+ topic/p learningInteractionBase-d/p learning-d/lcAnswerContent "
+     <lcAnswerOption>
+      <lcAnswerContent
        >fruit</lcAnswerContent>
-      <lcCorrectResponse name="lcCorrectResponse" value="lcCorrectResponse"
-       class="+ topic/data learningInteractionBase-d/data learning-d/lcCorrectResponse "/>
+      <lcCorrectResponse name="lcCorrectResponse" value="lcCorrectResponse"/>
      </lcAnswerOption>
-     <lcAnswerOption class="+ topic/li learningInteractionBase-d/li learning-d/lcAnswerOption ">
-      <lcAnswerContent class="+ topic/p learningInteractionBase-d/p learning-d/lcAnswerContent "
+     <lcAnswerOption>
+      <lcAnswerContent
        >pear</lcAnswerContent>
      </lcAnswerOption>
-     <lcAnswerOption class="+ topic/li learningInteractionBase-d/li learning-d/lcAnswerOption ">
-      <lcAnswerContent class="+ topic/p learningInteractionBase-d/p learning-d/lcAnswerContent "
+     <lcAnswerOption>
+      <lcAnswerContent
        >fruitnotes</lcAnswerContent>
      </lcAnswerOption>
-     <lcAnswerOption class="+ topic/li learningInteractionBase-d/li learning-d/lcAnswerOption ">
-      <lcAnswerContent class="+ topic/p learningInteractionBase-d/p learning-d/lcAnswerContent "
+     <lcAnswerOption>
+      <lcAnswerContent
        >fruittopic</lcAnswerContent>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect
-     class="+ topic/p learningInteractionBase-d/p learning-d/lcFeedbackIncorrect "> The referencing
+    <lcFeedbackIncorrect> The referencing
      element is in the topic with the id fruitttopic. But that topic is not specifically the
      referencing element. The actual referencing element - the one making the content reference - is
      the &lt;note&gt; element that has the conref attribute. Its id is fruit.</lcFeedbackIncorrect>

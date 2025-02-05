@@ -3,7 +3,7 @@
      github.com. See the accompanying LICENSE file for
      applicable licenses.--> 
 <!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
-<learningAssessment id="assessment_dfp_4cp_dt">
+<learningAssessment id="lcs_resolve">
  <title>Resolve</title>
  <prolog>
   <author href="https://www.easydita.com" scope="external" format="html">Mike Rice,
@@ -14,27 +14,23 @@
  </prolog>
  <learningAssessmentbody>
   <lcInteraction>
-   <lcTrueFalse id="tf1"
-    class="+ topic/fig learningInteractionBase-d/lcInteractionBase learning-d/lcTrueFalse ">
-    <lcQuestion class="+ topic/p learningInteractionBase-d/lcQuestionBase learning-d/lcQuestion ">
+   <lcTrueFalse id="tf1">
+    <lcQuestion>
      A conref will always resolve correctly when published even if the topic that contains the
      referenced element is not in the published map nor any of its submaps.</lcQuestion>
     <lcAnswerOptionGroup
-     class="+ topic/ul learningInteractionBase-d/ul learning-d/lcAnswerOptionGroup "
      id="lcAnswerOptionGroup_d1f_tqy_dw">
-     <lcAnswerOption class="+ topic/li learningInteractionBase-d/li learning-d/lcAnswerOption ">
-      <lcAnswerContent class="+ topic/p learningInteractionBase-d/p learning-d/lcAnswerContent "
+     <lcAnswerOption>
+      <lcAnswerContent
        >True</lcAnswerContent>
      </lcAnswerOption>
-     <lcAnswerOption class="+ topic/li learningInteractionBase-d/li learning-d/lcAnswerOption ">
-      <lcAnswerContent class="+ topic/p learningInteractionBase-d/p learning-d/lcAnswerContent "
+     <lcAnswerOption>
+      <lcAnswerContent
        >False</lcAnswerContent>
-      <lcCorrectResponse name="lcCorrectResponse" value="lcCorrectResponse"
-       class="+ topic/data learningInteractionBase-d/data learning-d/lcCorrectResponse "/>
+      <lcCorrectResponse name="lcCorrectResponse" value="lcCorrectResponse"/>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect
-     class="+ topic/p learningInteractionBase-d/p learning-d/lcFeedbackIncorrect ">Depending on your
+    <lcFeedbackIncorrect>Depending on your
      DITA editor and content management system, it might appear that any conref will resolve
      correctly regardless of the map. However, when you attempt to publish a map or topic containing
      the referencing element, the conref will not resolve. </lcFeedbackIncorrect>

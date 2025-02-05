@@ -14,27 +14,23 @@
  </prolog>
  <learningAssessmentbody>
   <lcInteraction>
-   <lcTrueFalse
-    class="+ topic/fig learningInteractionBase-d/lcInteractionBase learning-d/lcTrueFalse " id="assessment4">
-    <lcQuestion class="+ topic/p learningInteractionBase-d/lcQuestionBase learning-d/lcQuestion "
+   <lcTrueFalse id="assessment4">
+    <lcQuestion
      >Using phrase elements to substitute words within sentences never causes problems for
      translation.</lcQuestion>
     <lcAnswerOptionGroup
-     class="+ topic/ul learningInteractionBase-d/ul learning-d/lcAnswerOptionGroup "
      id="lcAnswerOptionGroup_ayd_y5y_dw">
-     <lcAnswerOption class="+ topic/li learningInteractionBase-d/li learning-d/lcAnswerOption ">
-      <lcAnswerContent class="+ topic/p learningInteractionBase-d/p learning-d/lcAnswerContent "
+     <lcAnswerOption>
+      <lcAnswerContent
        >True</lcAnswerContent>
      </lcAnswerOption>
-     <lcAnswerOption class="+ topic/li learningInteractionBase-d/li learning-d/lcAnswerOption ">
-      <lcAnswerContent class="+ topic/p learningInteractionBase-d/p learning-d/lcAnswerContent "
+     <lcAnswerOption>
+      <lcAnswerContent
        >False</lcAnswerContent>
-      <lcCorrectResponse name="lcCorrectResponse" value="lcCorrectResponse"
-       class="+ topic/data learningInteractionBase-d/data learning-d/lcCorrectResponse "/>
+      <lcCorrectResponse name="lcCorrectResponse" value="lcCorrectResponse"/>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect
-     class="+ topic/p learningInteractionBase-d/p learning-d/lcFeedbackIncorrect ">Not all languages
+    <lcFeedbackIncorrect>Not all languages
      follow the same rules as English. Just because the substitution works in English doesn’t mean
      that it will work well in other languages. And, you should assume that your content will be
      translated someday, even if it’s not translated today.</lcFeedbackIncorrect>

@@ -14,26 +14,22 @@
  </prolog>
  <learningAssessmentbody>
   <lcInteraction>
-   <lcTrueFalse id="tf1"
-    class="+ topic/fig learningInteractionBase-d/lcInteractionBase learning-d/lcTrueFalse ">
-    <lcQuestion class="+ topic/p learningInteractionBase-d/lcQuestionBase learning-d/lcQuestion "
+   <lcTrueFalse id="tf1">
+    <lcQuestion
      >Conref is an element that is valid anywhere in a DITA topic.</lcQuestion>
     <lcAnswerOptionGroup
-     class="+ topic/ul learningInteractionBase-d/ul learning-d/lcAnswerOptionGroup "
      id="lcAnswerOptionGroup_x2f_n3y_dw">
-     <lcAnswerOption class="+ topic/li learningInteractionBase-d/li learning-d/lcAnswerOption ">
-      <lcAnswerContent class="+ topic/p learningInteractionBase-d/p learning-d/lcAnswerContent "
+     <lcAnswerOption>
+      <lcAnswerContent
        >True</lcAnswerContent>
      </lcAnswerOption>
-     <lcAnswerOption class="+ topic/li learningInteractionBase-d/li learning-d/lcAnswerOption ">
-      <lcAnswerContent class="+ topic/p learningInteractionBase-d/p learning-d/lcAnswerContent "
+     <lcAnswerOption>
+      <lcAnswerContent
        >False</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect
-     class="+ topic/p learningInteractionBase-d/p learning-d/lcFeedbackIncorrect ">The conref <i
-      class="+ topic/ph hi-d/i ">attribute</i> of the referencing element holds a reference to the
+    <lcFeedbackIncorrect>The conref <i>attribute</i> of the referencing element holds a reference to the
      reused element’s id. Any element can have a conref attribute.</lcFeedbackIncorrect>
     <!--<lcFeedbackCorrect class="+ topic/p learningInteractionBase-d/p learning-d/lcFeedbackCorrect ">That’s right. Conref is not an element. It is an attribute of an element.</lcFeedbackCorrect>-->
    </lcTrueFalse>

@@ -14,26 +14,22 @@
  </prolog>
  <learningAssessmentbody>
   <lcInteraction>
-   <lcTrueFalse id="tf3"
-    class="+ topic/fig learningInteractionBase-d/lcInteractionBase learning-d/lcTrueFalse ">
-    <lcQuestion class="+ topic/p learningInteractionBase-d/lcQuestionBase learning-d/lcQuestion ">An
+   <lcTrueFalse id="tf3">
+    <lcQuestion>An
      id is required for the referencing element of a conref.</lcQuestion>
     <lcAnswerOptionGroup
-     class="+ topic/ul learningInteractionBase-d/ul learning-d/lcAnswerOptionGroup "
      id="lcAnswerOptionGroup_gws_2jy_dw">
-     <lcAnswerOption class="+ topic/li learningInteractionBase-d/li learning-d/lcAnswerOption ">
-      <lcAnswerContent class="+ topic/p learningInteractionBase-d/p learning-d/lcAnswerContent "
+     <lcAnswerOption>
+      <lcAnswerContent
        >True</lcAnswerContent>
      </lcAnswerOption>
-     <lcAnswerOption class="+ topic/li learningInteractionBase-d/li learning-d/lcAnswerOption ">
-      <lcAnswerContent class="+ topic/p learningInteractionBase-d/p learning-d/lcAnswerContent "
+     <lcAnswerOption>
+      <lcAnswerContent
        >False</lcAnswerContent>
-      <lcCorrectResponse name="lcCorrectResponse" value="lcCorrectResponse"
-       class="+ topic/data learningInteractionBase-d/data learning-d/lcCorrectResponse "/>
+      <lcCorrectResponse name="lcCorrectResponse" value="lcCorrectResponse"/>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect
-     class="+ topic/p learningInteractionBase-d/p learning-d/lcFeedbackIncorrect ">The referencing
+    <lcFeedbackIncorrect>The referencing
      element doesn’t require an id. The referenced element does, though.</lcFeedbackIncorrect>
     <!--<lcFeedbackCorrect class="+ topic/p learningInteractionBase-d/p learning-d/lcFeedbackCorrect ">Right. The referenced element does require an id, though.</lcFeedbackCorrect>-->
    </lcTrueFalse>

@@ -2,27 +2,25 @@
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_pgf_3gt_qt">
     <title>Conrefs in action</title>
-    <prolog class="- topic/prolog ">
-        <author type="creator" href="https://easydita.com/" format="html" scope="external"
-            class="- topic/author ">Mike Rice</author>
-        <author type="contributor" href="https://easydita.com/" format="html" scope="external"
-            class="- topic/author ">Annie Chen</author>
+    <prolog>
+        <author type="creator" href="https://easydita.com/" format="html" scope="external">Mike Rice</author>
+        <author type="contributor" href="https://easydita.com/" format="html" scope="external">Annie Chen</author>
         <critdates>
             <created golive="2016-07-01" date="2016-05-11"/>
         </critdates>
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p class="- topic/p ">Conref-ing an element inserts the element itself and its entire contents at 
+            <p>Conref-ing an element inserts the element itself and its entire contents at 
                 the location of the referencing element. For example, if a referenced paragraph 
                 contains a &lt;uicontrol> element, both the &lt;p> element being referenced and the 
                 contained &lt;uicontrol element will be inserted at the location of the referencing element. 
                 Or, a referenced &lt;ol> includes all the &lt;li> elements contained in the referenced list.</p>
-            <p class="- topic/p ">A conref directly references a reusable element using its
+            <p>A conref directly references a reusable element using its
                 location (the path to the topic containing the reused element) and ID. In DITA not 
                 every element requires an id, but it is required for any reused element.</p>
             
-            <note type="note" class="- topic/note ">If the element you want to reuse does not have
+            <note type="note">If the element you want to reuse does not have
                 an ID, your content management system might prompt you to create an ID for the
                 reused element as one of the steps in creating the conref. IDs must start with a
                 letter, number, or underscore.</note>
