@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
-<learningContent id="content_pgf_3gt_qt">
+<learningContent id="lc_reuse_what_is_a_conref">
     <title>What is a content reference?</title>
-    <prolog class="- topic/prolog ">
-        <author type="creator" href="https://easydita.com/" format="html" scope="external"
-            class="- topic/author ">Mike Rice, easyDITA</author>
-        <author type="contributor" href="https://easydita.com/" format="html" scope="external"
-            class="- topic/author ">Annie Chen, easyDITA</author>
-        <author type="contributor" href="https://www.scriptorium.com">Simon Bate,
+    <prolog>
+        <author type="creator" href="https://easydita.com/" format="html" scope="external">Mike Rice, easyDITA</author>
+        <author type="contributor" href="https://easydita.com/" format="html" scope="external">Annie Chen, easyDITA</author>
+        <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external">Simon Bate,
             Scriptorium</author>
         <critdates>
             <created golive="2016-07-11" date="2016-05-11"/>
@@ -26,7 +24,7 @@
                 it is appropriate. </p>
             <p>When pieces of content are repeated in multiple topics or publications, using conrefs
                 can make your content easier to maintain. Unlike copy and paste, where content is
-                duplicated, conrefs insert reused elements <i class="+ topic/ph hi-d/i ">by
+                duplicated, conrefs insert reused elements <i>by
                     reference</i> into a topic.</p>
             <!--<p>Using copy and paste is not a good strategy, primarily because the pasted content is not automatically updated from the source. If the source is changed later on, it’s very difficult to make sure that change gets back to all the places where that content is used. </p>-->
         </lcInstruction>

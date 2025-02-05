@@ -14,23 +14,20 @@
  </prolog>
  <learningAssessmentbody>
   <lcInteraction>
-   <lcSingleSelect id="ss1"
-    class="+ topic/fig learningInteractionBase-d/lcInteractionBase learning-d/lcSingleSelect ">
-    <lcQuestion class="+ topic/p learningInteractionBase-d/lcQuestionBase learning-d/lcQuestion "
+   <lcSingleSelect id="ss1">
+    <lcQuestion
      >Where is the best place to store reusable content? (choose one)</lcQuestion>
     <lcAnswerOptionGroup
-     class="+ topic/ul learningInteractionBase-d/ul learning-d/lcAnswerOptionGroup "
      id="lcAnswerOptionGroup_rkg_v5y_dw">
-     <lcAnswerOption class="+ topic/li learningInteractionBase-d/li learning-d/lcAnswerOption ">
-      <lcAnswerContent class="+ topic/p learningInteractionBase-d/p learning-d/lcAnswerContent "
+     <lcAnswerOption>
+      <lcAnswerContent
        >Leave the content wherever it is, just as long as it’s referred to in one of the maps in the
        publication where it’s being reused</lcAnswerContent>
      </lcAnswerOption>
-     <lcAnswerOption class="+ topic/li learningInteractionBase-d/li learning-d/lcAnswerOption ">
-      <lcAnswerContent class="+ topic/p learningInteractionBase-d/p learning-d/lcAnswerContent "
+     <lcAnswerOption>
+      <lcAnswerContent
        >Warehouse folders and topics that contain reusable topics and elements </lcAnswerContent>
-      <lcCorrectResponse name="lcCorrectResponse" value="lcCorrectResponse"
-       class="+ topic/data learningInteractionBase-d/data learning-d/lcCorrectResponse "/>
+      <lcCorrectResponse name="lcCorrectResponse" value="lcCorrectResponse"/>
      </lcAnswerOption>
      <lcAnswerOption>
       <lcAnswerContent>Any folder in the file system will do</lcAnswerContent>
@@ -39,9 +36,8 @@
       <lcAnswerContent>At an offsite, protected location</lcAnswerContent>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect
-     class="+ topic/p learningInteractionBase-d/p learning-d/lcFeedbackIncorrect ">Using dedicated
-      <q class="- topic/q ">warehouse topics</q> prevents spaghetti maps and makes it easier to
+    <lcFeedbackIncorrect>Using dedicated
+      <q>warehouse topics</q> prevents spaghetti maps and makes it easier to
      manage reuse.&#160;</lcFeedbackIncorrect>
     <!--<lcFeedbackCorrect class="+ topic/p learningInteractionBase-d/p learning-d/lcFeedbackCorrect ">Correct. Storing your reusable elements in dedicated <q class="- topic/q ">warehouse topics</q> makes it easier to manage the reuse.&#160;</lcFeedbackCorrect>-->
    </lcSingleSelect>

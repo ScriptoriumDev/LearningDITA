@@ -3,7 +3,7 @@
      github.com. See the accompanying LICENSE file for
      applicable licenses.--> 
 <!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
-<learningAssessment id="assessment_dfp_4cp_dt">
+<learningAssessment id="lca_referencing_elements">
  <title>Referencing element</title>
  <prolog>
   <author href="https://www.easydita.com" scope="external" format="html">Mike Rice,
@@ -37,8 +37,7 @@
       <lcCorrectResponse/>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect
-     class="+ topic/p learningInteractionBase-d/p learning-d/lcFeedbackIncorrect ">The referencing
+    <lcFeedbackIncorrect>The referencing
      &lt;step> element must contain an empty &lt;cmd> element, because the &lt;cmd> element is
      required. A topic must be valid, even before conrefs are resolved.</lcFeedbackIncorrect>
    </lcSingleSelect>

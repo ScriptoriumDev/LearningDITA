@@ -6,14 +6,12 @@
 <map>
  <title>Best practices for glossary entries and groups</title>
  <topicref href="../topics/lc_bp_intro_gloss.dita">
-  <topicmeta lockmeta="yes">
-   <data name="lesson_id" value="9750"/>
-  </topicmeta>
   <topicref href="../topics/lc_bp_naming.dita"/>
   <topicref href="../topics/lc_bp_good_glossentry.dita"/>
   <topicref href="../topics/lc_bp_glossarylist.dita"/>
   <topicref href="../topics/lc_bp_control_glossaries.dita"/>
-  <topicref href="../topics/lcc_assessment.dita" copy-to="lcc_gloss_bestp.dita" locktitle="yes">
+  <!-- [SP] MAK 2025-01-14  Updated path to point to the shared directory-->
+  <topicref href="../../shared/topics/lcc_assessment.dita" outputclass="assessment" copy-to="lcc_gloss_bestp.dita" locktitle="yes">
    <topicmeta>
     <navtitle>Assessment for Best practices for glossary entries and groups</navtitle>
    </topicmeta>

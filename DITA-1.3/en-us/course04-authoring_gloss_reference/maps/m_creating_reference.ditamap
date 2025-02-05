@@ -3,16 +3,13 @@
 <map>
  <title>Creating a reference topic</title>
  <topicref href="../topics/lc_creating_ref.dita">
-  <topicmeta lockmeta="yes">
-   <data name="lesson_id" value="9747"/>
-  </topicmeta>
   <topicref href="../topics/lc_ref_housekeeping.dita"/>
   <topicref href="../topics/lc_about_ref.dita"/>
   <topicref href="../topics/lc_creating_new_ref.dita"/>
   <topicref href="../topics/lc_adding_refsyn.dita"/>
   <!--<topicref href="../topics/lc_adding_parml.dita"/>-->
   <topicref href="../topics/lc_adding_properties.dita"/>
-  <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_creating.dita" locktitle="yes">
+  <topicref href="../../shared/topics/lcc_assessment.dita"  outputclass="assessment" copy-to="lcc_creating.dita" locktitle="yes">
    <topicmeta>
     <navtitle>Assessment for Creating a reference topic</navtitle>
    </topicmeta>

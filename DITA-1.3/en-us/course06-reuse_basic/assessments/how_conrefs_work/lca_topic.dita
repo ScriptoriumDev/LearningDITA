@@ -14,32 +14,28 @@
  </prolog>
  <learningAssessmentbody>
   <lcInteraction>
-   <lcSingleSelect id="ss1"
-    class="+ topic/fig learningInteractionBase-d/lcInteractionBase learning-d/lcSingleSelect ">
-    <lcQuestion class="+ topic/p learningInteractionBase-d/lcQuestionBase learning-d/lcQuestion ">If
+   <lcSingleSelect id="ss1">
+    <lcQuestion>If
      you need to include a topic in a map for reuse purposes only, how should you do it (choose the
      best answer):</lcQuestion>
     <lcAnswerOptionGroup
-     class="+ topic/ul learningInteractionBase-d/ul learning-d/lcAnswerOptionGroup "
      id="lcAnswerOptionGroup_yvf_vqy_dw">
-     <lcAnswerOption class="+ topic/li learningInteractionBase-d/li learning-d/lcAnswerOption ">
-      <lcAnswerContent class="+ topic/p learningInteractionBase-d/p learning-d/lcAnswerContent ">Use
+     <lcAnswerOption>
+      <lcAnswerContent>Use
        a &lt;topicref> to include the topic in a submap with toc="no".</lcAnswerContent>
      </lcAnswerOption>
-     <lcAnswerOption class="+ topic/li learningInteractionBase-d/li learning-d/lcAnswerOption ">
-      <lcAnswerContent class="+ topic/p learningInteractionBase-d/p learning-d/lcAnswerContent ">Use
+     <lcAnswerOption>
+      <lcAnswerContent>Use
        a &lt;topicref> to include the topic in the map, with processing-role="resource-only". </lcAnswerContent>
-      <lcCorrectResponse name="lcCorrectResponse" value="lcCorrectResponse"
-       class="+ topic/data learningInteractionBase-d/data learning-d/lcCorrectResponse "/>
+      <lcCorrectResponse name="lcCorrectResponse" value="lcCorrectResponse"/>
      </lcAnswerOption>
-     <lcAnswerOption class="+ topic/li learningInteractionBase-d/li learning-d/lcAnswerOption ">
-      <lcAnswerContent class="+ topic/p learningInteractionBase-d/p learning-d/lcAnswerContent ">Use
+     <lcAnswerOption>
+      <lcAnswerContent>Use
        a &lt;topicref> to include the topic in the map, and set toc="no", linking="none", and
        search="no".</lcAnswerContent>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect
-     class="+ topic/p learningInteractionBase-d/p learning-d/lcFeedbackIncorrect ">A &lt;topicref>
+    <lcFeedbackIncorrect>A &lt;topicref>
      with processing-role="resource-only" will ensure that the topic is only used  </lcFeedbackIncorrect>
     <!--<lcFeedbackCorrect class="+ topic/p learningInteractionBase-d/p learning-d/lcFeedbackCorrect ">This is the best answer. Setting the toc, linking, and search attributes to “no” has the same effect.</lcFeedbackCorrect>-->
    </lcSingleSelect>

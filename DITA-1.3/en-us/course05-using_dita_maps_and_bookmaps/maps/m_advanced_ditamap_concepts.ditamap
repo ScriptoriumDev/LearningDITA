@@ -3,15 +3,13 @@
 <map>
  <title>Advanced DITA map and bookmap concepts</title>
  <topicref href="../topics/lc_advanced_ditamaps.dita">
-  <topicmeta lockmeta="yes">
-   <data name="lesson_id" value="10013"/>
-  </topicmeta>
   <topicref href="../topics/lc_map_metadata.dita"/>
   <topicref href="../topics/lc_bookmap_metadata.dita"/>
   <topicref href="../topics/lc_adding_frontmatter.dita"/>
   <topicref href="../topics/lc_adding_navtitle.dita"/>
   <topicref href="../topics/lc_adding_topichead.dita"/>
-  <topicref href="../topics/lcc_assessment.dita" copy-to="lcc_advanced_bookmaps.dita"
+  <!-- [SP] MAK 2025-01-14  Updated path to point to the shared directory-->
+  <topicref href="../../shared/topics/lcc_assessment.dita" outputclass="assessment" copy-to="lcc_advanced_bookmaps.dita"
    locktitle="yes">
    <topicmeta>
     <navtitle>Assessment for Advanced DITA map concepts</navtitle>

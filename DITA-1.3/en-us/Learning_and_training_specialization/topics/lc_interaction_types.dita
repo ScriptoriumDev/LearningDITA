@@ -3,13 +3,10 @@
 <!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <learningContent id="lc_interaction_types">
     <title>Interaction types</title>
-    <prolog class="- topic/prolog ">
-        <author type="creator" href="https://www.scriptorium.com" format="html" scope="external"
-            class="- topic/author ">Simon Bate, Scriptorium</author>
-        <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external"
-            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
-        <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external"
-            class="- topic/author ">Kaitlyn Heath, Scriptorium</author>
+    <prolog>
+        <author type="creator" href="https://www.scriptorium.com" format="html" scope="external">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external">Kaitlyn Heath, Scriptorium</author>
         <critdates>
             <created date="2017-04-21"/>
             <revised modified="2018-08-30"/>
@@ -255,52 +252,53 @@
 
 
 
-    <task id="task_hfc_ljx_tcb">
+    <task id="task_interaction_types">
         <title>Exercise</title>
         <taskbody>
             <steps id="steps_h5t_ljx_tcb">
                 <step>
+                    <!-- [SP] MAK 2025-01-16  Added format and scope to links-->
                     <cmd>Now try an exercise on your own. Open the file
                         lesson3/lc_task_exercise_start.dita and use it to convert the following
-                        assessment question from <xref source="external"
-                            href="https://learningdita.com/courses/the-dita-task-topic-type/">The
+                        assessment question from <xref 
+                            href="https://learningdita.com/courses/the-dita-task-topic-type/" format="html" scope="external">The
                             DITA task topic type</xref> LearningDITA course into a DITA
                         &lt;learningAssessment> topic.</cmd>
                     <info>The answer choices are matched correctly in this preview.</info>
                     <info>
                         <pre outputclass="passthru">
-                            <![CDATA[
-                            <hr />
-           <h3>Question</h3>
-            <p>Match the <choicetable> child elements with their uses.</p>
-             <table>
-  <tr>
-    <td>&lt;chhead></td>
-    <td>Header row</td>
-  </tr>
-  <tr>
-    <td>&lt;chrow></td>
-    <td>Body row</td>
-  </tr>
-  <tr>
-    <td>&lt;choptionhd></td>
-    <td>Option in a header row</td>
-  </tr>
-  <tr>
-    <td>&lt;chdeschd></td>
-    <td>Description in a header row</td>
-  </tr>
-  <tr>
-    <td>&lt;choption></td>
-    <td>Option in a body row</td>
-  </tr>
-  <tr>
-    <td>&lt;chdesc></td>
-    <td>Description in a body row</td>
-  </tr>
-</table>
-                <hr />
-                            ]]>
+                            
+                            &lt;hr />
+           &lt;h3>Question&lt;/h3>
+            &lt;p>Match the &lt;choicetable> child elements with their uses.&lt;/p>
+             &lt;table>
+  &lt;tr>
+    &lt;td>&amp;lt;chhead>&lt;/td>
+    &lt;td>Header row&lt;/td>
+  &lt;/tr>
+  &lt;tr>
+    &lt;td>&amp;lt;chrow>&lt;/td>
+    &lt;td>Body row&lt;/td>
+  &lt;/tr>
+  &lt;tr>
+    &lt;td>&amp;lt;choptionhd>&lt;/td>
+    &lt;td>Option in a header row&lt;/td>
+  &lt;/tr>
+  &lt;tr>
+    &lt;td>&amp;lt;chdeschd>&lt;/td>
+    &lt;td>Description in a header row&lt;/td>
+  &lt;/tr>
+  &lt;tr>
+    &lt;td>&amp;lt;choption>&lt;/td>
+    &lt;td>Option in a body row&lt;/td>
+  &lt;/tr>
+  &lt;tr>
+    &lt;td>&amp;lt;chdesc>&lt;/td>
+    &lt;td>Description in a body row&lt;/td>
+  &lt;/tr>
+&lt;/table>
+                &lt;hr />
+                            
                         </pre>
                     </info>
                 </step>

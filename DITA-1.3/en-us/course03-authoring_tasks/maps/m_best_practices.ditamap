@@ -6,15 +6,13 @@
 <map>
  <title>Best practices for tasks</title>
  <topicref href="../topics/lc_bp_intro.dita">
-  <topicmeta lockmeta="yes">
-   <data name="lesson_id" value="9518"/>
-  </topicmeta>
   <topicref href="../topics/lc_bp_planning.dita"/>
   <topicref href="../topics/lc_bp_context.dita"/>
   <topicref href="../topics/lc_bp_short.dita"/>
   <topicref href="../topics/lc_bp_substeps.dita"/>
   <topicref href="../topics/lc_bp_reuse.dita"/>
-  <topicref href="../topics/lcc_assessment.dita" copy-to="lcc_bestp.dita" locktitle="yes">
+  <!-- [SP] MAK 2025-01-14  Updated path to point to the shared directory-->
+  <topicref href="../../shared/topics/lcc_assessment.dita" outputclass="assessment" copy-to="lcc_bestp.dita" locktitle="yes">
    <topicmeta>
     <navtitle>Assessment for Best practices for tasks</navtitle>
    </topicmeta>

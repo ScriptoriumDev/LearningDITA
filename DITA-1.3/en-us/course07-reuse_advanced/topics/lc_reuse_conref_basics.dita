@@ -2,17 +2,15 @@
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_pgf_3gt_qt">
     <title>Conref basics</title>
-    <prolog class="- topic/prolog ">
-        <author type="creator" href="https://easydita.com/" format="html" scope="external"
-            class="- topic/author ">Mike Rice</author>
-        <author type="contributor" href="https://easydita.com/" format="html" scope="external"
-            class="- topic/author ">Annie Chen</author>
+    <prolog>
+        <author type="creator" href="https://easydita.com/" format="html" scope="external">Mike Rice</author>
+        <author type="contributor" href="https://easydita.com/" format="html" scope="external">Annie Chen</author>
         <critdates>
             <created golive="2016-07-01" date="2016-05-11"/>
         </critdates>
     </prolog>
     <learningContentbody>
-        <lcInstruction><p class="- topic/p "><draft-comment author="simonbate">Recast. Not clear
+        <lcInstruction><p><draft-comment author="simonbate">Recast. Not clear
                     what action precipitates this behavior (conref). "Stays where it is" is useless.
                     The "content reference (conref)" part is circular definition...use other terms.
                     "is inserted" is passive. Need to be clear about when and how conrefs are
@@ -23,22 +21,22 @@
                 reused element and its content should appear. If the original content changes, those
                 changes also appear where that content has been referenced, once the references are
                 resolved by a DITA authoring or publishing tool.</p><image
-                href="../images/conref-conceptual.png" id="image_dnb_z4y_dw"/><p class="- topic/p "
-                >A conref has two parts: <dl class="- topic/dl ">
-                    <dlentry class="- topic/dlentry ">
-                        <dt class="- topic/dt ">referenced element</dt>
-                        <dd class="- topic/dd ">the element that contains the content you want to
+                href="../images/conref-conceptual.png" id="image_dnb_z4y_dw"/><p
+                >A conref has two parts: <dl>
+                    <dlentry>
+                        <dt>referenced element</dt>
+                        <dd>the element that contains the content you want to
                             reuse</dd>
                     </dlentry>
-                    <dlentry class="- topic/dlentry ">
-                        <dt class="- topic/dt ">referencing element</dt>
-                        <dd class="- topic/dd ">the element that marks where the reused content
+                    <dlentry>
+                        <dt>referencing element</dt>
+                        <dd>the element that marks where the reused content
                             should be inserted</dd>
                     </dlentry>
                 </dl></p><image
                 href="../images/conref-conceptual-with-referenced-referencing-labels.png"
-                id="image_tb2_1py_dw"/><p class="- topic/p ">
-                <note type="tip" class="- topic/note ">In writing about content references, the word
+                id="image_tb2_1py_dw"/><p>
+                <note type="tip">In writing about content references, the word
                     conref is often used as a verb to mean “reuse an element by making reference to
                     it using the conref attribute.”</note>
             </p><draft-comment author="gretyl">Fill in "Practice" section (maybe have the student

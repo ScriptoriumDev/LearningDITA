@@ -81,7 +81,7 @@
                 do this, the &lt;relcolspec> element and the contents of the &lt;relcell> element
                 are slightly different that what has been shown before.</p><p>In this screen shot of
                 a relationship table, the fourth column contains links to an external
-                resource.</p><image href="../images/external_ref.png" id="image_gqy_nsv_mv"
+                resource.</p><image href="../media/relationship_tables/external_ref.png" id="image_gqy_nsv_mv"
                 base="2016/04"/><p>Because the fourth column is not pointing to DITA resources, the
                 &lt;relcolspec> element has no type attribute. However, it includes a &lt;title>
                 element to define the purpose of the column.

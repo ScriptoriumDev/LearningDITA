@@ -1,30 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
-<learningContent id="content_pgf_3gt_qt">
+<learningContent id="lc_reuse_conref_basics">
     <title>Conref basics</title>
-    <prolog class="- topic/prolog ">
-        <author type="creator" href="https://easydita.com/" format="html" scope="external"
-            class="- topic/author ">Mike Rice, easyDITA</author>
-        <author type="contributor" href="https://easydita.com/" format="html" scope="external"
-            class="- topic/author ">Annie Chen, easyDITA</author>
-        <author type="contributor" href="https://www.scriptorium.com">Simon Bate,
+    <prolog>
+        <author type="creator" href="https://easydita.com/" format="html" scope="external">Mike Rice, easyDITA</author>
+        <author type="contributor" href="https://easydita.com/" format="html" scope="external">Annie Chen, easyDITA</author>
+        <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external">Simon Bate,
             Scriptorium</author>
         <critdates>
             <created golive="2016-07-11" date="2016-05-11"/>
         </critdates>
     </prolog>
     <learningContentbody>
-        <lcInstruction><p class="- topic/p ">A conref has two parts: </p><ul id="ul_ndg_4q3_mw">
+        <lcInstruction><p>A conref has two parts: </p><ul id="ul_ndg_4q3_mw">
                 <li>The <b><i>referenced element</i></b>, which contains the content you want to
                     reuse. This element must have an ID attribute.</li>
                 <li>The <b><i>referencing element</i></b>, which marks where the reused content
                     should be inserted</li>
-            </ul><note type="note" class="- topic/note ">If the element you want to reuse does not
+            </ul><note type="note">If the element you want to reuse does not
                 have an ID, your DITA editor or content management system might prompt you to create
                 an ID for the reused element as one of the steps in creating the conref. An ID must
                 start with a letter, number, or underscore. </note><image
-                href="../images/conref-conceptual-with-referenced-referencing-labels.png"
-                id="image_tb2_1py_dw" base="2016/07"/><note type="tip" class="- topic/note ">In writing about
+                href="../media/using_content_references/conref-conceptual-with-referenced-referencing-labels.png"
+                id="image_tb2_1py_dw" base="2016/07"/><note type="tip">In writing about
                 content references, the word conref is often used as a verb to mean “reuse an
                 element by using the conref attribute.”</note><p>Conrefs are resolved at publishing
                 time by an output generator. Many DITA editors can also resolve conrefs while you

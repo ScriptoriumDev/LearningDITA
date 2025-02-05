@@ -6,9 +6,6 @@
 <map>
  <title>Creating the steps</title>
  <topicref href="../topics/lc_steps_intro.dita">
-  <topicmeta lockmeta="yes">
-   <data name="lesson_id" value="9516"/>
-  </topicmeta>
 <!--  <topicref href="../topics/lc_markup.dita"/>-->
   <topicref href="../topics/lc_steps_w_task.dita"/>
   <topicref href="../topics/lc_choices.dita"/>
@@ -16,7 +13,8 @@
   <topicref href="../topics/lc_substep.dita"/>
   <topicref href="../topics/lc_stepresults.dita"/>
   <topicref href="../topics/lc_stepsection.dita"/>
-  <topicref href="../topics/lcc_assessment.dita" copy-to="lcc_steps.dita" locktitle="yes">
+  <!-- [SP] MAK 2025-01-14  Updated path to point to the shared directory-->
+  <topicref href="../../shared/topics/lcc_assessment.dita" outputclass="assessment" copy-to="lcc_steps.dita" locktitle="yes">
    <topicmeta>
     <navtitle>Assessment for Creating the steps</navtitle>
    </topicmeta>

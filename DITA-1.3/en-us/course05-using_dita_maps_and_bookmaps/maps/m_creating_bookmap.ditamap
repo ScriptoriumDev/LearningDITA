@@ -3,13 +3,11 @@
 <map>
  <title>Creating a bookmap</title>
  <topicref href="../topics/lc_creating_a_bookmap.dita">
-  <topicmeta lockmeta="yes">
-   <data name="lesson_id" value="10012"/>
-  </topicmeta>
   <topicref href="../topics/lc_bookmap_map_overview.dita"/>
   <topicref href="../topics/lc_bookmap_new.dita"/>
   <topicref href="../topics/lc_bookmap_adding_topicrefs.dita"/>
-  <topicref href="../topics/lcc_assessment.dita" copy-to="lcc_create_bookmaps.dita" locktitle="yes">
+  <!-- [SP] MAK 2025-01-14  Updated path to point to the shared directory-->
+  <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_create_bookmaps.dita" locktitle="yes" outputclass="assessment">
    <topicmeta>
     <navtitle>Assessment for Creating a bookmap</navtitle>
    </topicmeta>

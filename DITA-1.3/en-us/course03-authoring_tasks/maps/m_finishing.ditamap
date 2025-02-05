@@ -6,13 +6,11 @@
 <map>
  <title>Finishing up the task</title>
  <topicref href="../topics/lc_finishing_intro.dita">
-  <topicmeta lockmeta="yes">
-   <data name="lesson_id" value="9517"/>
-  </topicmeta>
   <topicref href="../topics/lc_results.dita"/>
   <topicref href="../topics/lc_example.dita"/>
   <topicref href="../topics/lc_whatsnext.dita"/>
-  <topicref href="../topics/lcc_assessment.dita" copy-to="lcc_finishing.dita" locktitle="yes">
+  <!-- [SP] MAK 2025-01-14  Updated path to point to the shared directory-->
+  <topicref href="../../shared/topics/lcc_assessment.dita" outputclass="assessment" copy-to="lcc_finishing.dita" locktitle="yes">
    <topicmeta>
     <navtitle>Assessment for Finishing up the task</navtitle>
    </topicmeta>

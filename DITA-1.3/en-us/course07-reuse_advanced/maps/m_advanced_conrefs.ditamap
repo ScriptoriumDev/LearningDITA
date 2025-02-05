@@ -11,7 +11,7 @@
         <topicref href="../topics/lc_conrefend.dita"/>
         <topicref href="../topics/lc_conrefpush.dita"/>
         <topicref href="../topics/lc_conref_advanced_best_practices.dita"/>
-        <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_advanced_conrefs.dita"
+        <topicref href="../../shared/topics/lcc_assessment.dita" outputclass="assessment" copy-to="lcc_advanced_conrefs.dita"
             locktitle="yes">
             <topicmeta>
                 <navtitle>Assessment for Advanced conrefs</navtitle>

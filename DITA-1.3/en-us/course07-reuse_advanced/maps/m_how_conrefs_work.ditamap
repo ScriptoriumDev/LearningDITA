@@ -9,7 +9,7 @@
   <topicref href="../topics/lc_conref_element_requirements.dita"/>
   <topicref href="../topics/lc_reachable_by_map.dita"/>
   <topicref href="../topics/lc_attributes_of_conref.dita"/>
-  <topicref href="../topics/lcc_assessment.dita" copy-to="lcc_advanced_bookmaps.dita"
+  <topicref href="../../shared/topics/lcc_assessment.dita"  outputclass="assessment" copy-to="lcc_advanced_bookmaps.dita"
    locktitle="yes">
    <topicmeta>
     <navtitle>Assessment for How conrefs work</navtitle>

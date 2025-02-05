@@ -2,11 +2,9 @@
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
 <learningContent id="content_pgf_3gt_qt">
     <title>What is a content reference?</title>
-    <prolog class="- topic/prolog ">
-        <author type="creator" href="https://easydita.com/" format="html" scope="external"
-            class="- topic/author ">Mike Rice</author>
-        <author type="contributor" href="https://easydita.com/" format="html" scope="external"
-            class="- topic/author ">Annie Chen</author>
+    <prolog>
+        <author type="creator" href="https://easydita.com/" format="html" scope="external">Mike Rice</author>
+        <author type="contributor" href="https://easydita.com/" format="html" scope="external">Annie Chen</author>
         <critdates>
             <created golive="2016-07-01" date="2016-05-11"/>
         </critdates>
@@ -18,7 +16,7 @@
                 clear.</draft-comment></p>
             <p>When pieces of content are repeated in multiple topics or publications, using conrefs
                 can make your content easier to maintain. Unlike copy and paste, where content is
-                duplicated, conrefs insert reused elements <i class="+ topic/ph hi-d/i ">by
+                duplicated, conrefs insert reused elements <i>by
                     reference</i> into a topic.</p>
             <draft-comment author="gretyl">Add advantages and disadvantages of using conrefs vs.
                 copy and paste</draft-comment>

@@ -3,7 +3,7 @@
      github.com. See the accompanying LICENSE file for
      applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
-<learningContent id="content_hrm_xjh_1t">
+<learningContent id="lc_optional_elements">
     <title>Adding introductory elements to a task topic</title>
     <prolog>
         <author href="https://www.scriptorium.com" scope="external" format="html">Simon Bate,
@@ -37,7 +37,7 @@
                     Strict sequence of introductory elements in a DITA Task</xref></p>
         </lcInstruction>
     </learningContentbody>
-    <task id="task_i3g_jkh_1t">
+    <task id="task_optional_elements">
         <title/>
         <taskbody>
             <steps id="steps_f5k_kkh_1t">
@@ -73,7 +73,7 @@
                 lesson covers how to add steps to the task. </result>
         </taskbody>
     </task>
-    <task id="task_ynz_fgy_3t">
+    <task id="task_optional_elements2">
         <title>Exercise</title>
         <taskbody>
             <steps id="steps_r11_1kx_dt">

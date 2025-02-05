@@ -5,9 +5,6 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
  <topicref href="../topics/lc_infotypes.dita">
-  <topicmeta>
-   <data name="lesson_id" value="8627"></data>
-  </topicmeta>
   <topicref href="../topics/lc_topictype.dita"/>
   <topicref href="../topics/lc_concept.dita"/>
   <topicref href="../topics/lc_task.dita"/>
@@ -15,7 +12,7 @@
   <topicref href="../topics/lc_gloss.dita"/>
 <!--  <topicref href="../topics/lc_constraints.dita"/>-->
   <topicref href="../topics/lc_specialization.dita"/>
-  <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_assess_topics.dita" locktitle="yes">
+  <topicref href="../../shared/topics/lcc_assessment.dita" outputclass="assessment" copy-to="lcc_assess_topics.dita" locktitle="yes">
    <topicmeta>
     <navtitle>Assessment for DITA Topics</navtitle>
    </topicmeta>

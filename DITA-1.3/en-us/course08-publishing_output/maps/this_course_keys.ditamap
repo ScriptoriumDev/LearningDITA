@@ -23,20 +23,21 @@
  <!-- key for warehouse file containing conkeyref elements. -->
  <keydef keys="sample_contents" href="../topics/z_conkeyref_elements.dita"/>
  
+ <!-- [SP] MAK 2025-01-14  Images and screenshots are actually for the advanced reuse lesson-->
  <!-- IMAGES -->
- <keydef keys="i_conkeyref" href="../images/conkeyref-01.png" format="png"/>
+ <!--<keydef keys="i_conkeyref" href="../images/conkeyref-01.png" format="png"/>
  <keydef keys="i_conrefend" href="../images/conrefend-01.png" format="png"/>
  <keydef keys="i_keysubmap" href="../images/submap_of_keys-01.png" format="png"/>
- <keydef keys="i_conref_push" href="../images/conref_push-01.png" format="png"/>
+ <keydef keys="i_conref_push" href="../images/conref_push-01.png" format="png"/>-->
  
  <!-- Screen shots -->
- <keydef keys="i_with_filtering" href="../images/with_filtering.png" format="png"/>
+<!-- <keydef keys="i_with_filtering" href="../images/with_filtering.png" format="png"/>
  <keydef keys="i_without_filtering" href="../images/without_filtering.png" format="png"/>
  <keydef keys="i_flagging_product" href="../images/flagging_product.png" format="png"/>
  <keydef keys="i_show_rev" href="../images/show_rev.png" format="png"/>
  <keydef keys="i_no_push" href="../images/no_conref_push.png" format="png"/>
  <keydef keys="i_ex_push_replace" href="../images/ex_push_replace.png" format="png"/>
  <keydef keys="i_ex_push_before" href="../images/ex_push_before.png" format="png"/>
- <keydef keys="i_ex_push_after" href="../images/ex_push_after.png" format="png"/>
+ <keydef keys="i_ex_push_after" href="../images/ex_push_after.png" format="png"/>-->
  
 </map>

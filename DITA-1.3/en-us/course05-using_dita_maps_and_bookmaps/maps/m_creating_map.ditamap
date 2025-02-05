@@ -3,9 +3,6 @@
 <map>
  <title>Creating a map</title>
  <topicref href="../topics/lc_creating_a_map.dita">
-  <topicmeta lockmeta="yes">
-   <data name="lesson_id" value="10011"/>
-  </topicmeta>
   <topicref href="../../shared/topics/lc_general_housekeeping.dita"/>
   <topicref href="../topics/lc_map_new.dita"/>
   <topicref href="../topics/lc_map_adding_topicrefs.dita"/>
@@ -14,7 +11,7 @@
   <topicref href="../topics/lc_creating_new_ref.dita"/>
   <topicref href="../topics/lc_adding_refsyn.dita"/>
   <topicref href="../topics/lc_adding_properties.dita"/>-->
-  <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_create_maps.dita" locktitle="yes">
+  <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_create_maps.dita" locktitle="yes" outputclass="assessment">
    <topicmeta>
     <navtitle>Assessment for Creating a map</navtitle>
    </topicmeta>

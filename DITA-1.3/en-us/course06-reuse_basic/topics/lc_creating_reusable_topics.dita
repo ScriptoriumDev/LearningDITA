@@ -3,12 +3,9 @@
 <learningContent id="lc_creating_reusable_topics">
     <title>Creating reusable topics</title>
     <prolog>
-        <author type="creator" href="https://www.scriptorium.com/" format="html" scope="external"
-            class="- topic/author ">Simon Bate, Scriptorium</author>
-        <author type="contributor" href="https://www.scriptorium.com/" format="html" scope="external"
-            class="- topic/author ">Jake Campbell, Scriptorium</author>
-        <author type="contributor" href="https://www.scriptorium.com/" format="html" scope="external"
-            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
+        <author type="creator" href="https://www.scriptorium.com/" format="html" scope="external">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="https://www.scriptorium.com/" format="html" scope="external">Jake Campbell, Scriptorium</author>
+        <author type="contributor" href="https://www.scriptorium.com/" format="html" scope="external">Gretyl Kinsey, Scriptorium</author>
         <critdates>
             <created golive="2016-07-11" date="2016-05-11"/>
         </critdates>
@@ -16,11 +13,11 @@
     <learningContentbody>
         <lcObjectives id="lcObjectives_xdg_phj_kw">
             <lcObjectivesGroup id="lcObjectivesGroup_tvl_vbh_1t">
-                <lcObjective class="- topic/li learningBase/lcObjective ">Write a reusable
+                <lcObjective>Write a reusable
                     topic</lcObjective>
-                <lcObjective class="- topic/li learningBase/lcObjective ">Demonstrate why inline
+                <lcObjective>Demonstrate why inline
                     replacements can cause problems in translation</lcObjective>
-                <lcObjective class="- topic/li learningBase/lcObjective ">Write paragraphs, steps,
+                <lcObjective>Write paragraphs, steps,
                     and list items that are reusable </lcObjective>
             </lcObjectivesGroup>
         </lcObjectives>
@@ -34,17 +31,17 @@
     <related-links>
         <link
             href="https://www.oxygenxml.com/dita/styleguide/Language_and_Punctuation/c_Glue_Text.html"
-            format="html">
+            format="html" scope="external">
             <linktext>DITA Style Guide, Stem sentences, glue text, and other transitional information</linktext>
         </link>
         <link
             href="https://www.oxygenxml.com/dita/styleguide/Content_Reuse/c_Writing_For_Reuse.html"
-            format="html">
+            format="html" scope="external">
             <linktext>DITA Style Guide, Writing for re-use</linktext>
         </link>
         <link
             href="https://www.oxygenxml.com/dita/styleguide/Content_Reuse/c_Re-use_Guidelines.html"
-            format="html">
+            format="html" scope="external">
             <linktext>DITA Style Guide, Re-use guidelines</linktext>
         </link>
     </related-links>

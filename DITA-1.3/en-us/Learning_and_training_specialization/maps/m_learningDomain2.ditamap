@@ -4,14 +4,11 @@
   <!-- Looking for a better title. -->
   <title>Elements for questions and responses</title>
    <topicref href="../topics/lc_learning-domain_intro.dita">
-     <topicmeta lockmeta="yes">
-       <data name="lesson_id" value="12502"/>
-     </topicmeta>
      <topicref href="../topics/lc_assessment_and_interactions.dita"/>
      <topicref href="../topics/lc_interaction_types.dita"/>
      <topicref href="../topics/lc_planning_interactions.dita"/>
      
-     <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_learning_domain.dita"
+     <topicref href="../../shared/topics/lcc_assessment.dita" outputclass="assessment"  copy-to="lcc_learning_domain.dita"
        locktitle="yes">
        <topicmeta>
          <navtitle>Assessment for Elements for questions and responses</navtitle>

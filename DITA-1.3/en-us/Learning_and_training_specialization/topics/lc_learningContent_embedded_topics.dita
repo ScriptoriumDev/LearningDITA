@@ -3,13 +3,10 @@
 <!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <learningContent id="lc_learningContent_embedded_topics">
     <title>&lt;learningContent> with embedded topics</title>
-    <prolog class="- topic/prolog ">
-        <author type="creator" href="https://www.scriptorium.com" format="html" scope="external"
-            class="- topic/author ">Simon Bate, Scriptorium</author>
-        <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external"
-            class="- topic/author ">Gretyl Kinsey, Scriptorium</author>
-        <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external"
-            class="- topic/author ">Kaitlyn Heath, Scriptorium</author>
+    <prolog>
+        <author type="creator" href="https://www.scriptorium.com" format="html" scope="external">Simon Bate, Scriptorium</author>
+        <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external">Gretyl Kinsey, Scriptorium</author>
+        <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external">Kaitlyn Heath, Scriptorium</author>
         <critdates>
             <created date="2017-04-21"/>
         </critdates>
@@ -67,41 +64,43 @@
             </ul>
         </lcInstruction>
     </learningContentbody>
-    <task id="task_hfc_ljx_tcb">
+    <task id="task_learing_content_embedded_topics">
         <title>Exercise</title>
         <taskbody>
             <steps id="steps_h5t_ljx_tcb">
                 <step>
+                    <!-- [SP] MAK 2025-01-16  Added format and scope to link-->
+                    
                     <cmd>Open the file lesson3/lc_task_exercise_start.dita and use it to convert the
                         following content from a LearningDITA course, <xref
-                            href="https://learningdita.com/courses/the-dita-task-topic-type/">The
+                            href="https://learningdita.com/courses/the-dita-task-topic-type" format="html" scope="external">The
                             DITA task topic type</xref>, into a DITA &lt;learningConcept> topic with
                         an embedded task.</cmd>
                     <info>
                         <pre outputclass="passthru">
-                            <![CDATA[
-                            <hr />
-           <h3>Creating a new task topic</h3>
-            <p>At a minimum, the task topic must contain a &lt;task> root element (with an id
-                attribute) that contains a &lt;title> element. </p>
-            <p>Following the &lt;title> element and an optional &lt;shortdesc> element, a
-                &lt;taskbody> element contains the task content. The elements within the
-                &lt;taskbody> conform to a specific order. This course presents the elements of the
-                &lt;taskbody> in the order in which they must occur. </p>
-             <ol>
-                <li>Make a copy of the file l_task_start.dita and open it in your editor.
-                 <p>If you are using a DITA-aware text editor, make sure you are in text
-                            mode, rather than author or visual mode. </p>
-                </li>
-                <li>Inside the &lt;title> element, update the text of the task title.</li>
-                <li>After the &lt;title> element, add a &lt;taskbody> element.
-                    <p>The &lt;taskbody> element contains all the actual content in the task.</p>
-                    <p>This is the essential part of a DITA strict task topic. The rest of this
+                            
+                            &lt;hr />
+           &lt;h3>Creating a new task topic&lt;/h3>
+            &lt;p>At a minimum, the task topic must contain a &amp;lt;task> root element (with an id
+                attribute) that contains a &amp;lt;title> element. &lt;/p>
+            &lt;p>Following the &amp;lt;title> element and an optional &amp;lt;shortdesc> element, a
+                &amp;lt;taskbody> element contains the task content. The elements within the
+                &amp;lt;taskbody> conform to a specific order. This course presents the elements of the
+                &amp;lt;taskbody> in the order in which they must occur. &lt;/p>
+             &lt;ol>
+                &lt;li>Make a copy of the file l_task_start.dita and open it in your editor.
+                 &lt;p>If you are using a DITA-aware text editor, make sure you are in text
+                            mode, rather than author or visual mode. &lt;/p>
+                &lt;/li>
+                &lt;li>Inside the &amp;lt;title> element, update the text of the task title.&lt;/li>
+                &lt;li>After the &amp;lt;title> element, add a &amp;lt;taskbody> element.
+                    &lt;p>The &amp;lt;taskbody> element contains all the actual content in the task.&lt;/p>
+                    &lt;p>This is the essential part of a DITA strict task topic. The rest of this
                         lesson shows you how to add the first two child elements to the
-                        &lt;taskbody> element.</p>
-                </li>
-                <hr />
-                            ]]>
+                        &amp;lt;taskbody> element.&lt;/p>
+                &lt;/li>
+                &lt;hr />
+                            
                         </pre>
                     </info>
                 </step>

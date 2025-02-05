@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningTreeContent.dtd">
-<learningContent xmlns:ditaarch="https://dita.oasis-open.org/architecture/2005/" id="lt-content-4677" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic concept)                             (topic reference)                             (topic task)                             (topic learningInteractionBase-d)                            (topic learningInteractionBase-d learning-d)                            (topic learningmeta-d)                             (topic learningBase+learningInteractionBase-d)                            (topic learningBase+learningInteractionBase-d learningContent)                            (topic learningBase learningSummary)                             (topic learningBase+learningInteractionBase-d learningAssessment)   " ditaarch:DITAArchVersion="1.2" class="- topic/topic learningBase/learningBase learningContent/learningContent "><title class="- topic/title ">Reusing steps</title>
-   <prolog class="- topic/prolog ">
-      <author type="creator" href="https://easydita.com/" format="html" scope="external"
-         class="- topic/author ">Mike Rice, easyDITA</author>
-      <author type="contributor" href="https://easydita.com/" format="html" scope="external"
-         class="- topic/author ">Annie Chen, easyDITA</author>
+<learningContent id="lc_reusing_steps">
+   <title>Reusing steps</title>
+   <prolog>
+      <author type="creator" href="https://easydita.com/" format="html" scope="external">Mike Rice,
+         easyDITA</author>
+      <author type="contributor" href="https://easydita.com/" format="html" scope="external">Annie
+         Chen, easyDITA</author>
       <critdates>
          <created golive="2016-07-11" date="2016-05-11"/>
       </critdates>
-   </prolog><learningContentbody class="- topic/body  learningBase/learningBasebody learningContent/learningContentbody ">
+   </prolog>
+   <learningContentbody>
       <lcInstruction>
-         <p class="- topic/p ">As with paragraphs, when you reuse &lt;step> elements, the contents
-            of the &lt;cmd> element must be grammatically independent and should be reused in the
-            same context. For example:</p>
+         <p>As with paragraphs, when you reuse &lt;step> elements, the contents of the &lt;cmd>
+            element must be grammatically independent and should be reused in the same context. For
+            example:</p>
          <dl>
             <dlentry>
                <dt>Do not use this:</dt>
@@ -30,10 +32,11 @@
             </dlentry>
          </dl>
       </lcInstruction>
-      <section class="- topic/section ">
-         <title class="- topic/title ">Structured parts of steps</title>
-         <p class="- topic/p ">Similarly, you can reuse other parts of the &lt;step> element, such
-            as &lt;stepxmp> (step example), &lt;stepinfo>, &lt;choices>, &lt;tutorialinfo>, and
-            others, as long as they are grammatically independent and reused in the same
-            context.</p>
-      </section></learningContentbody></learningContent>
+      <section>
+         <title>Structured parts of steps</title>
+         <p>Similarly, you can reuse other parts of the &lt;step> element, such as &lt;stepxmp>
+            (step example), &lt;stepinfo>, &lt;choices>, &lt;tutorialinfo>, and others, as long as
+            they are grammatically independent and reused in the same context.</p>
+      </section>
+   </learningContentbody>
+</learningContent>

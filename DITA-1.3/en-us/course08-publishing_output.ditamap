@@ -20,7 +20,8 @@
  <!-- common and specific keys -->
  <mapref href="shared/maps/course_keys.ditamap" processing-role="resource-only"/>
  <mapref href="course08-publishing_output/maps/this_course_keys.ditamap" processing-role="resource-only"/>
+ <!-- [SP] MAK 2025-01-14  These conref elements aren't used in this course. -->
  <!-- conref push elements -->
- <topicref href="course08-publishing_output/topics/z_conref_push_elements.dita" processing-role="resource-only"/>
+ <!--<topicref href="course08-publishing_output/topics/z_conref_push_elements.dita" processing-role="resource-only"/>-->
  
 </map>
