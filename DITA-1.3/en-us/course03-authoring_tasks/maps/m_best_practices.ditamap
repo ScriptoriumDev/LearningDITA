@@ -14,7 +14,8 @@
   <topicref href="../topics/lc_bp_short.dita"/>
   <topicref href="../topics/lc_bp_substeps.dita"/>
   <topicref href="../topics/lc_bp_reuse.dita"/>
-  <topicref href="../topics/lcc_assessment.dita" copy-to="lcc_bestp.dita" locktitle="yes">
+  <!-- [SP] MAK 2025-01-14  Updated path to point to the shared directory-->
+  <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_bestp.dita" locktitle="yes">
    <topicmeta>
     <navtitle>Assessment for Best practices for tasks</navtitle>
    </topicmeta>

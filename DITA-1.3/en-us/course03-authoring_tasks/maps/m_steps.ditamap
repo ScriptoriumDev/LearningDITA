@@ -16,7 +16,8 @@
   <topicref href="../topics/lc_substep.dita"/>
   <topicref href="../topics/lc_stepresults.dita"/>
   <topicref href="../topics/lc_stepsection.dita"/>
-  <topicref href="../topics/lcc_assessment.dita" copy-to="lcc_steps.dita" locktitle="yes">
+  <!-- [SP] MAK 2025-01-14  Updated path to point to the shared directory-->
+  <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_steps.dita" locktitle="yes">
    <topicmeta>
     <navtitle>Assessment for Creating the steps</navtitle>
    </topicmeta>
