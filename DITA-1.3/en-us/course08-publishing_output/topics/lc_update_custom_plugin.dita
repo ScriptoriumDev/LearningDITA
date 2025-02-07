@@ -44,7 +44,7 @@
                     <cmd>Navigate to your <b>dita-ot-2.4.4/out/custom_output</b> folder and open the
                         file <b>c_wild_duck_species.html</b> in a browser.</cmd>
                     <info><p>The XHTML output looks like this:</p><image base="2017/03"
-                            href="images/xhtml_custom.png" width="500" id="image_n24_3dy_fz"
+                            href="../media/custom_plugins/xhtml_custom.png" width="500" id="image_n24_3dy_fz"
                         /></info>
                 </step>
                 <step>
@@ -101,7 +101,7 @@
                     <cmd>Open <b>c_wild_duck_species.html</b> in a browser to see the CSS changes
                         you made.</cmd>
                     <info><p>The XHTML output now looks like this:</p><image
-                            href="images/xhtml_updated.png" width="500" id="image_ojr_kdy_fz"
+                            href="../media/custom_plugins/xhtml_updated.png" width="500" id="image_ojr_kdy_fz"
                             base="2017/03"/></info>
                 </step>
             </steps>
