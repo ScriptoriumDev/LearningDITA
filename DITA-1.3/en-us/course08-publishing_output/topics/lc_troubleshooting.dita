@@ -65,7 +65,7 @@
                     <fig id="fig_cm1_jzx_fz">
                         <title>Image with a width specified vs. image with no width specified in PDF
                             output</title>
-                        <image href="images/image_display.png" base="2017/03" width="500" id="image_dm1_jzx_fz"/>
+                        <image href="../media/generating_output/image_display.png" base="2017/03" width="500" id="image_dm1_jzx_fz"/>
                     </fig>
                     <p>For tables, you can use the <tt>&lt;colspec></tt> element to adjust the
                         column widths from their default setting of equal widths into widths that
@@ -76,7 +76,7 @@
                     <fig id="fig_jyr_jzx_fz">
                         <title>Table with colspecs adjusted vs. table with default colspecs in PDF
                             output</title>
-                        <image href="images/table_display.png" base="2017/03" width="500" id="image_sjn_gcy_fz"/>
+                        <image href="../media/generating_output/table_display.png" base="2017/03" width="500" id="image_sjn_gcy_fz"/>
                     </fig>
                 </li>
             </ul>
