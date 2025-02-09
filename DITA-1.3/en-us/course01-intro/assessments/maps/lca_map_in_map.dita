@@ -21,9 +21,10 @@
     </lcAnswerOption>
     <lcAnswerOption>
      <lcAnswerContent>False</lcAnswerContent>
-     <lcFeedback>You can reference map files in a map file.</lcFeedback>
+     
     </lcAnswerOption>
    </lcAnswerOptionGroup>
+   <lcFeedbackIncorrect>You can reference map files in a map file.</lcFeedbackIncorrect>
   </lcTrueFalse></lcInteraction>
  </learningAssessmentbody>
 </learningAssessment>

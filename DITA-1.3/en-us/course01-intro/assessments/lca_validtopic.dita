@@ -16,7 +16,7 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcSingleSelect id="1">
-    <lcQuestion>To be valid, a topic must have the following (choose one):</lcQuestion>
+    <lcQuestion>To be valid, a topic must have the following:</lcQuestion>
     <lcAnswerOptionGroup>
      <lcAnswerOption>
       <lcAnswerContent>a title element</lcAnswerContent>
@@ -29,6 +29,7 @@
       <lcAnswerContent>an href attribute</lcAnswerContent>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>Topics require at a minimum a title element and an id attribute. </lcFeedbackIncorrect>
    </lcSingleSelect>
   </lcInteraction>
  </learningAssessmentbody>

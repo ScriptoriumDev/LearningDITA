@@ -15,10 +15,9 @@
  <learningAssessmentbody>
   <lcInteraction>
   <lcSingleSelect id="links6">
-   <lcQuestion>Read the following code. What does this code show?</lcQuestion>
-   <lcAsset>
-    <image href="../../media/links/linkcode.png" base="2015/07"/>
-   </lcAsset>
+   <lcQuestion>Read the following code. What does this code show? <image
+      href="../../media/links/linkcode.png" base="2015/07"/>
+     </lcQuestion>
    <lcAnswerOptionGroup>
     <lcAnswerOption>
       <lcAnswerContent>A numbered list including a conref to a frequently reused

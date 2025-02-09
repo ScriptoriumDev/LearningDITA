@@ -19,13 +19,15 @@
     <lcAnswerOptionGroup>
      <lcAnswerOption>
       <lcAnswerContent>True</lcAnswerContent>
-     <lcFeedback>You can include multiple files in a map file.</lcFeedback>
+     
      </lcAnswerOption>
      <lcAnswerOption>
       <lcAnswerContent>False</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
+     
     </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>>You can include multiple files in a map file.</lcFeedbackIncorrect>
    </lcTrueFalse>
    
    

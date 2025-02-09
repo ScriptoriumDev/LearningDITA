@@ -15,7 +15,7 @@
  <learningAssessmentbody>
   
   <lcInteraction><lcSingleSelect id="9">
-   <lcQuestion>In DITA, the basic unit of authoring and reuse is (choose one):</lcQuestion>
+   <lcQuestion>In DITA, the basic unit of authoring and reuse is:</lcQuestion>
    <lcAnswerOptionGroup>
     <lcAnswerOption>
      <lcAnswerContent>specialized attribute containers</lcAnswerContent>
@@ -31,6 +31,7 @@
       <lcAnswerContent>elements</lcAnswerContent>
      </lcAnswerOption>
    </lcAnswerOptionGroup>
+   <lcFeedbackIncorrect>The basic unit of authoring and reuse are topics. </lcFeedbackIncorrect>
   </lcSingleSelect>
   </lcInteraction>
   
