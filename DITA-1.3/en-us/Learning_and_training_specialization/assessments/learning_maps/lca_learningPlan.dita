@@ -12,7 +12,7 @@
     <learningAssessmentbody>
         <lcInteraction>
             <lcSingleSelect id="lcSingleSelect_learning-plan">
-                <lcQuestion>Select the correct way to write a reference to a learning plan within a learning object in a learning object map. (pick one)</lcQuestion>
+                <lcQuestion>Select the correct way to write a reference to a learning plan within a learning object in a learning object map.</lcQuestion>
                 <lcAnswerOptionGroup>
                     <lcAnswerOption>
                         <lcAnswerContent>&lt;learningObjectRef href=”file.dita”/></lcAnswerContent>
@@ -28,6 +28,7 @@
                         <lcAnswerContent>&lt;learningRef href=”file.dita”/></lcAnswerContent>
                     </lcAnswerOption>
                 </lcAnswerOptionGroup>
+                <lcFeedbackIncorrect>The correct reference to a learning plan is: &lt;learningPlanRef href=”file.dita”/></lcFeedbackIncorrect>
             </lcSingleSelect>
         </lcInteraction>
     </learningAssessmentbody>

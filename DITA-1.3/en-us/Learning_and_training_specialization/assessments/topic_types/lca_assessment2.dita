@@ -11,7 +11,7 @@
     <learningAssessmentbody>
             <lcInteraction>
                 <lcSingleSelect id="lcSingleSelect_assess2">
-                    <lcQuestion>Which of these topic types can include short-answer questions? (pick one)</lcQuestion>
+                    <lcQuestion>Which of these topic types can include short-answer questions?</lcQuestion>
                     <lcAnswerOptionGroup>
                         <lcAnswerOption>
                             <lcAnswerContent>&lt;learningPlan></lcAnswerContent>
@@ -30,6 +30,7 @@
                             <lcAnswerContent>&lt;learningContent></lcAnswerContent>
                         </lcAnswerOption>
                     </lcAnswerOptionGroup>
+                    <lcFeedbackIncorrect>The &lt;learningAssessment> can include short-answer questions. </lcFeedbackIncorrect>
                 </lcSingleSelect>
             </lcInteraction>
     </learningAssessmentbody>
