@@ -15,7 +15,7 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcMultipleSelect id="lcMultipleSelect_f4x_gfg_vt">
-    <lcQuestion>Which of the following elements require an id attribute? (pick all that apply)</lcQuestion>
+    <lcQuestion>Which of the following elements require an id attribute?</lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_sfc_ffg_vt">
      <lcAnswerOption>
       <lcAnswerContent>&lt;glossentry></lcAnswerContent>
@@ -35,6 +35,7 @@
       <lcAnswerContent>&lt;glossdef></lcAnswerContent>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>&lt;glossentry> and &lt;glossgroup> require ids.</lcFeedbackIncorrect>
    </lcMultipleSelect>
   </lcInteraction>
  </learningAssessmentbody>

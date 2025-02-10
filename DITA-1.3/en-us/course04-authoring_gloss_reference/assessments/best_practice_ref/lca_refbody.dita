@@ -16,7 +16,7 @@
   <lcInteraction>
    <lcSingleSelect id="lcSingleSelect_gsn_1ln_vt">
     <lcQuestion>What element should you use to divide content within a &lt;refbody>
-     element? (pick one)</lcQuestion>
+     element?</lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_xsn_1ln_vt">
      <lcAnswerOption>
       <lcAnswerContent>&lt;section></lcAnswerContent>
@@ -35,6 +35,7 @@
       <lcAnswerContent>&lt;title></lcAnswerContent>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>Divide content in a &lt;refbody> with a &lt;section> element.</lcFeedbackIncorrect>
    </lcSingleSelect>
   </lcInteraction>
  </learningAssessmentbody>

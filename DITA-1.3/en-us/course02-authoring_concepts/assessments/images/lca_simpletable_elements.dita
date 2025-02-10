@@ -15,7 +15,7 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcMultipleSelect id="lcMultipleSelect_pxl_zsx_dt">
-    <lcQuestion>Which elements are used in a simpletable? (choose all that apply)</lcQuestion>
+    <lcQuestion>Which elements are used in a simpletable?</lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_qxl_zsx_dt">
      <lcAnswerOption>
       <lcAnswerContent>&lt;sthead></lcAnswerContent>
@@ -36,6 +36,7 @@
       <lcAnswerContent>&lt;stfooter></lcAnswerContent>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>&lt;stcolumn> and &lt;stfooter> are not elements on a simpletable.</lcFeedbackIncorrect>
    </lcMultipleSelect>
   </lcInteraction>
  </learningAssessmentbody>

@@ -16,7 +16,7 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcSingleSelect id="advanced_1">
-    <lcQuestion>Which of the following elements is used add a title-only entry to a map? (choose one)</lcQuestion>
+    <lcQuestion>Which of the following elements is used add a title-only entry to a map?</lcQuestion>
     <lcAnswerOptionGroup>
      <lcAnswerOption>
       <lcAnswerContent>&lt;topichead></lcAnswerContent>
@@ -32,6 +32,7 @@
       <lcAnswerContent>&lt;title></lcAnswerContent>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>A title only entry in a map is created using &lt;topichead>.</lcFeedbackIncorrect>
    </lcSingleSelect>
   </lcInteraction>
  </learningAssessmentbody>

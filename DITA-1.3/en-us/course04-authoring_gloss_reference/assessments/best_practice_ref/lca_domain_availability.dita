@@ -15,7 +15,7 @@
  <learningAssessmentbody id="learningAssessmentbody_jdr_vtn_vt">
   <lcInteraction>
    <lcSingleSelect id="lcSingleSelect_g2r_vtn_vt">
-    <lcQuestion>Domain elements are available in (pick one):</lcQuestion>
+    <lcQuestion>Domain elements are available in:</lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_y2r_vtn_vt">
      <lcAnswerOption>
       <lcAnswerContent>All topic specializations</lcAnswerContent>
@@ -31,6 +31,7 @@
       <lcAnswerContent>The topic types associated with them</lcAnswerContent>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>Domain elements are available in all topic specializations.</lcFeedbackIncorrect>
    </lcSingleSelect>
   </lcInteraction>
  </learningAssessmentbody>

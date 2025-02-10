@@ -16,7 +16,7 @@
   <lcInteraction>
    <lcMultipleSelect id="lcSingleSelect_zhk_vmn_vt">
     <lcQuestion>Why would you use placeholder ids in the &lt;reference> element when creating
-     templates? (pick all that apply)</lcQuestion>
+     templates?</lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_n3k_vmn_vt">
      <lcAnswerOption>
       <lcAnswerContent>To prevent accidental creation of duplicate ids.</lcAnswerContent>
@@ -34,6 +34,7 @@
       <lcAnswerContent>To facilitate collaborative content creation.</lcAnswerContent>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>Use placeholder ids in reference topics to prevent accidental duplication of ids and ensure that all templates validate. </lcFeedbackIncorrect>
    </lcMultipleSelect>
   </lcInteraction>
  </learningAssessmentbody>

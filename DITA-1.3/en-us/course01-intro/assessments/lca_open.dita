@@ -15,7 +15,7 @@
  <learningAssessmentbody>
   
  <lcInteraction> <lcMultipleSelect id="10">
-   <lcQuestion>Because DITA is an open standard (choose all that apply):</lcQuestion>
+   <lcQuestion>Because DITA is an open standard:</lcQuestion>
    <lcAnswerOptionGroup>
     <lcAnswerOption>
      <lcAnswerContent>No one can charge for tools.</lcAnswerContent>
@@ -33,7 +33,9 @@
      <lcCorrectResponse/>
     </lcAnswerOption>
    </lcAnswerOptionGroup>
+  <lcFeedbackIncorrect>An open standard implies that anyone can use it.</lcFeedbackIncorrect>
   </lcMultipleSelect>
+  
   </lcInteraction>
  </learningAssessmentbody>
 </learningAssessment>

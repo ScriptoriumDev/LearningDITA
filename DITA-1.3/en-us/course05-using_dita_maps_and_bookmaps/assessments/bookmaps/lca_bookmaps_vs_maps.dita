@@ -20,7 +20,7 @@
   <lcInteraction>
    <lcMultipleSelect id="bookmaps_2">
     <lcQuestion>When does it make the most sense to compile your topics into a bookmap rather than a
-     map? (choose any)</lcQuestion>
+     map?</lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_g4p_msy_kv">
      <lcAnswerOption>
       <lcAnswerContent>When you need book-like structures (such as introductory material or
@@ -41,6 +41,7 @@
        only</lcAnswerContent>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>Use a bookmap when you need book structure and sophisticated metadata storage.</lcFeedbackIncorrect>
    </lcMultipleSelect>
   </lcInteraction>
  </learningAssessmentbody>

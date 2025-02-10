@@ -17,8 +17,7 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcSingleSelect id="lcSingleSelect_oqx_3y1_mw">
-    <lcQuestion>Which of the following is <b><i>not</i></b> a DITA reuse mechanism? (choose
-     one)</lcQuestion>
+    <lcQuestion>Which of the following is <b><i>not</i></b> a DITA reuse mechanism? </lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_pqx_3y1_mw">
      <lcAnswerOption>
       <lcAnswerContent>Topics and maps</lcAnswerContent>
@@ -37,7 +36,7 @@
       <lcCorrectResponse/>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect>Titles is not a DITA reuse mechanism. </lcFeedbackIncorrect>
+    <lcFeedbackIncorrect>Titles are not a DITA reuse mechanism. </lcFeedbackIncorrect>
    </lcSingleSelect>
   </lcInteraction>
  </learningAssessmentbody>

@@ -16,7 +16,7 @@
   <lcInteraction>
    <lcMultipleSelect id="lcMultipleSelect_oxt_bpn_vt">
     <lcQuestion>Which domain elements do you use to describe a sequence of options to access a
-     command? (pick all that apply)</lcQuestion>
+     command?</lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_dyt_bpn_vt">
      <lcAnswerOption id="lcAnswerOption_nvx_x4n_vt">
       <lcAnswerContent>&lt;menucascade></lcAnswerContent>
@@ -36,6 +36,7 @@
       <lcAnswerContent>&lt;wintitle></lcAnswerContent>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>Use a &lt;menucascade> with nested &lt;uicontrol> elements to describe a sequence.</lcFeedbackIncorrect>
    </lcMultipleSelect>
   </lcInteraction>
  </learningAssessmentbody>

@@ -15,7 +15,7 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcSingleSelect id="lcMultipleSelect_nzm_txp_dt">
-    <lcQuestion>Where do &lt;image> elements <b>not</b> belong? (choose one)</lcQuestion>
+    <lcQuestion>Where do &lt;image> elements <b>not</b> belong?</lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_ozm_txp_dt">
      <lcAnswerOption>
       <lcAnswerContent>Inside &lt;conbody></lcAnswerContent>
@@ -31,6 +31,7 @@
       <lcAnswerContent>Inside &lt;p></lcAnswerContent>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>&lt;image> elements cannot exist directly in a &lt;concept> element.</lcFeedbackIncorrect>
    </lcSingleSelect>
   </lcInteraction>
  </learningAssessmentbody>

@@ -19,8 +19,7 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcTrueFalse id="lcTrueFalse_ksv_13y_kv">
-    <lcQuestion>Relationship tables specify how DITA topics in a map relate to one another (true or
-     false?). </lcQuestion>
+    <lcQuestion>Relationship tables specify how DITA topics in a map relate to one another. </lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_lsv_13y_kv">
      <lcAnswerOption>
       <lcAnswerContent>True</lcAnswerContent>
@@ -30,6 +29,7 @@
       <lcAnswerContent>False</lcAnswerContent>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>Relationship tables identify the relationship between topics.</lcFeedbackIncorrect>
    </lcTrueFalse>
   </lcInteraction>
  </learningAssessmentbody>

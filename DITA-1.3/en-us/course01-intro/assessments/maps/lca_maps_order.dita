@@ -19,13 +19,14 @@
     <lcAnswerOptionGroup>
      <lcAnswerOption>
       <lcAnswerContent>True</lcAnswerContent>
-      <lcFeedback>Constraints limit the element and attribute choices for DITA content. </lcFeedback>
+      
      </lcAnswerOption>
      <lcAnswerOption>
       <lcAnswerContent>False</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>Constraints limit the element and attribute choices for DITA content. </lcFeedbackIncorrect>
    </lcTrueFalse>
   </lcInteraction>
  </learningAssessmentbody>

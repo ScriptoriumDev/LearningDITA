@@ -14,7 +14,7 @@
  </prolog>
  <learningAssessmentbody>
   <lcInteraction><lcMultipleSelect id="6">
-   <lcQuestion>An element is (choose all that apply):</lcQuestion>
+   <lcQuestion>An element is:</lcQuestion>
    <lcAnswerOptionGroup>
     <lcAnswerOption>
      <lcAnswerContent>a tag for content.</lcAnswerContent>
@@ -31,6 +31,9 @@
      <lcAnswerContent>a DITA term for indexing content.</lcAnswerContent>
     </lcAnswerOption>
    </lcAnswerOptionGroup>
-  </lcMultipleSelect></lcInteraction>
+   <lcFeedbackIncorrect>A element is both a tag describing content and identified using angle brackets.</lcFeedbackIncorrect>
+  </lcMultipleSelect>
+  
+  </lcInteraction>
  </learningAssessmentbody>
 </learningAssessment>

@@ -15,7 +15,7 @@
  <learningAssessmentbody>
   <lcInteraction>
   <lcMultipleSelect id="md13">
-   <lcQuestion>Metadata is useful because it allows you to (choose all that apply):</lcQuestion>
+   <lcQuestion>Metadata is useful because it allows you to:</lcQuestion>
    <lcAnswerOptionGroup>
     <lcAnswerOption>
      <lcAnswerContent>None of these.</lcAnswerContent>
@@ -36,7 +36,7 @@
      </lcAnswerOption>
    </lcAnswerOptionGroup>
     <lcFeedbackIncorrect>You write content in elements; metadata is information about the content.
-     You use GlossEntry topics to create glossary entries. </lcFeedbackIncorrect>
+     You use glossentry topics to create glossary entries. </lcFeedbackIncorrect>
   </lcMultipleSelect>
   </lcInteraction>
  </learningAssessmentbody>

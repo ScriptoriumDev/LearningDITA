@@ -15,9 +15,8 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcTrueFalse id="tf1">
-    <lcQuestion
-     >The following is a good candidate for reuse: <q>Don’t overtighten it or
-      damage could occur.</q></lcQuestion>
+    <lcQuestion>The following is a good candidate for reuse: “Don’t overtighten it or damage could
+     occur.”</lcQuestion>
     <lcAnswerOptionGroup
      id="lcAnswerOptionGroup_igt_q5y_dw">
      <lcAnswerOption>
@@ -30,9 +29,9 @@
       <lcCorrectResponse name="lcCorrectResponse" value="lcCorrectResponse"/>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
-    <lcFeedbackIncorrect>The pronoun it
-     could refer to anything, and that might affect how the sentence would be translated. It would
-     be better to substitute a generic noun in place of <q>it</q>, such as <q>the fastener</q>.</lcFeedbackIncorrect>
+    <lcFeedbackIncorrect>The pronoun it could refer to anything, and that might affect how the
+     sentence would be translated. It would be better to substitute a generic noun in place of “it”,
+     such as “the fastener”.</lcFeedbackIncorrect>
     <!--<lcFeedbackCorrect class="+ topic/p learningInteractionBase-d/p learning-d/lcFeedbackCorrect ">Right. The pronoun <q class="- topic/q ">it</q> makes this a poor candidate for reuse.&#160;</lcFeedbackCorrect>-->
    </lcTrueFalse>
   </lcInteraction>

@@ -15,7 +15,7 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcSingleSelect id="maps_4">
-    <lcQuestion>Which element is not allowed in a map? (choose one)</lcQuestion>
+    <lcQuestion>Which element is not allowed in a map?</lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_vnx_y4y_kv">
      <lcAnswerOption>
       <lcAnswerContent>&lt;topicref></lcAnswerContent>
@@ -31,6 +31,7 @@
       <lcCorrectResponse/>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>The &lt;simpletable> element is not valid on a map, it must be used within a topic.</lcFeedbackIncorrect>
    </lcSingleSelect>
   </lcInteraction>
  </learningAssessmentbody>
