@@ -19,8 +19,7 @@
  
   <lcInteraction>
    <lcSingleSelect id="lcSingleSelect_kq1_qmg_jz">
-    <lcQuestion>To make sure that you installed the DITA OT successfully, you should: (Choose
-     one)</lcQuestion>
+    <lcQuestion>To make sure that you installed the DITA OT successfully, you should:</lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_lq1_qmg_jz">
      <lcAnswerOption>
       <lcAnswerContent>Run a test build to generate output.</lcAnswerContent>

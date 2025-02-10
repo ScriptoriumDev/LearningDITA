@@ -20,7 +20,7 @@
   <lcInteraction>
   <lcSingleSelect id="output_folders">
    <lcQuestion>To make sure the DITA OT does not replace a previous version of the output you are
-     generating, you should: (Choose one)</lcQuestion>
+     generating, you should:</lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_k13_fcg_jz">
      <lcAnswerOption>
       <lcAnswerContent>Specify a new sub-folder inside the out folder for your

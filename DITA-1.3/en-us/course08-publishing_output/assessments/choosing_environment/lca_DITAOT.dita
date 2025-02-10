@@ -17,11 +17,8 @@
  
  <learningAssessmentbody>
   <lcInteraction>
-   
-   
  <lcMultipleSelect id="DITAOT">
-  <lcQuestion>By default, the DITA OT includes plugins for publishing into: (Choose all that
-     apply)</lcQuestion>
+  <lcQuestion>By default, the DITA OT includes plugins for publishing into:</lcQuestion>
   <lcAnswerOptionGroup>
    <lcAnswerOption>
     <lcAnswerContent>Customized output</lcAnswerContent>
@@ -37,9 +34,7 @@
     <lcAnswerContent>HTML</lcAnswerContent>
     <lcCorrectResponse/>
    </lcAnswerOption>
-  </lcAnswerOptionGroup>
-
- 
+  </lcAnswerOptionGroup> 
     <lcFeedbackIncorrect>By default, the DITA OT includes plugins for publishing into PDF and
      HTML.</lcFeedbackIncorrect>
    </lcMultipleSelect>

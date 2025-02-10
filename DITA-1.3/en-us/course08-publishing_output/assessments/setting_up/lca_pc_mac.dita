@@ -20,19 +20,16 @@
   <lcInteraction>
   <lcTrueFalse id="java">
    <lcQuestion>The DITA OT should be installed in a location without spaces or special characters in
-     the filepath. True or False?</lcQuestion>
+     the filepath.</lcQuestion>
    <lcAnswerOptionGroup>
     <lcAnswerOption>
      <lcAnswerContent>True</lcAnswerContent>
       <lcCorrectResponse/>
-   
     </lcAnswerOption>
     <lcAnswerOption>
      <lcAnswerContent>False</lcAnswerContent>
     </lcAnswerOption>
    </lcAnswerOptionGroup>
-  
-   
     <lcFeedbackIncorrect>The DITA OT does not always handle spaces or special characters well in the
      filepath, so it should be installed in a location that only has letters, numbers, hyphens (-),
      or underscores (_) in the filepath.</lcFeedbackIncorrect>

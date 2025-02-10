@@ -19,7 +19,7 @@
   <lcInteraction>
   <lcMultipleSelect id="troubleshooting">
    <lcQuestion>If your DITA OT build fails, what are some ways you can troubleshoot the failure?
-     (Choose all that apply)</lcQuestion>
+    </lcQuestion>
    <lcAnswerOptionGroup>
     <lcAnswerOption>
       <lcAnswerContent>Update your version of Java.</lcAnswerContent>
@@ -41,6 +41,7 @@
        result.</lcAnswerContent>
      </lcAnswerOption>
    </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>If your OT build fails, try updating your version of Java, ensure you typed the command properly, and check to make sure your source content is valid. </lcFeedbackIncorrect>
   </lcMultipleSelect>
   </lcInteraction>
  </learningAssessmentbody>

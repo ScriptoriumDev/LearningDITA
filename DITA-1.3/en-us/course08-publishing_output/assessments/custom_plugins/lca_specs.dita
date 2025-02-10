@@ -18,7 +18,7 @@
  <lcInteraction>
   <lcSingleSelect id="specs">
    <lcQuestion>What should you type into the command line to install a custom plugin into the DITA
-     OT? (Choose one)</lcQuestion>
+     OT?</lcQuestion>
    <lcAnswerOptionGroup>
     <lcAnswerOption>
       <lcAnswerContent><tt>-install</tt> followed by the filepath to the custom plugin zip
