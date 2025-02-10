@@ -15,7 +15,7 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcSingleSelect id="single_select_notes">
-    <lcQuestion>Where is the &lt;note> element not allowed in a step? (pick one)</lcQuestion>
+    <lcQuestion>Where is the &lt;note> element not allowed in a step?</lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_sn2_rwb_kt">
      <lcAnswerOption>
       <lcAnswerContent>Before the &lt;cmd> element</lcAnswerContent>
