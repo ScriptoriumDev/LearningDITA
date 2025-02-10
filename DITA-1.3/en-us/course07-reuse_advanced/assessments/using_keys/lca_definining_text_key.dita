@@ -2,7 +2,7 @@
 <!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA Learning Assessment//EN" "learningAssessment.dtd">
 <!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <learningAssessment id="lca_definining_text_key">
- <title>definining text key</title>
+ <title>defining text key</title>
  <prolog>
   <author type="creator" href="https://www.scriptorium.com/" format="html" scope="external">Simon Bate</author>
   <author type="contributor" href="https://www.scriptorium.com/" format="html" scope="external">Jake Campbell</author>
@@ -14,8 +14,7 @@
  <learningAssessmentbody>
   <lcInteraction id="lcInteraction_xmm_mb4_vx">
    <lcTrueFalse id="lcTrueFalse_lyk_tc4_vx">
-    <lcQuestion>The text string defined for a key can contain inline formatting elements (true or
-     false)?</lcQuestion>
+    <lcQuestion>The text string defined for a key can contain inline formatting elements.</lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_myk_tc4_vx">
      <lcAnswerOption>
       <lcAnswerContent>True</lcAnswerContent>
