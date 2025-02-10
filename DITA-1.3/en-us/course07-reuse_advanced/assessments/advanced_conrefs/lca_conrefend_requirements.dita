@@ -14,8 +14,7 @@
  <learningAssessmentbody>
   <lcInteraction id="lcInteraction_fhx_1gp_vx">
    <lcMultipleSelect id="lcMultipleSelect_iqd_bgp_vx">
-    <lcQuestion>Which of these statements about the conrefend attribute are true (choose all that
-     apply)?</lcQuestion>
+    <lcQuestion>Which of these statements about the conrefend attribute are true?</lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_jqd_bgp_vx">
      <lcAnswerOption>
       <lcAnswerContent>The beginning and ending elements must the same.</lcAnswerContent>
@@ -37,6 +36,7 @@
        same.</lcAnswerContent>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>When using the conrefend attribute the beginning and ending elements must be the same. The sibling elements between can be different. </lcFeedbackIncorrect>
    </lcMultipleSelect>
   </lcInteraction>
  </learningAssessmentbody>

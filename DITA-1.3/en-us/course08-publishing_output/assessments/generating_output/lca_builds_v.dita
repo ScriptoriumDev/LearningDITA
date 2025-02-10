@@ -20,7 +20,7 @@
   <lcInteraction>
    <lcSingleSelect id="installingot">
     <lcQuestion>When running a build in the DITA OT, which parameter displays a log of the build in
-     the command line? (Choose one)</lcQuestion>
+     the command line?</lcQuestion>
     <lcAnswerOptionGroup>
      <lcAnswerOption>
       <lcAnswerContent><tt>-o</tt></lcAnswerContent>

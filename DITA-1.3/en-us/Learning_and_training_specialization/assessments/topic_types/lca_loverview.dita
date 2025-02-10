@@ -38,6 +38,7 @@
                         <lcSequence value="2"/>
                     </lcSequenceOption>
                 </lcSequenceOptionGroup>
+                <lcFeedbackIncorrect>The correct sequence is: &lt;lcIntro>, &lt;lcAudience>, &lt;lcDuration>, &lt;lcPrereqs>, &lt;lcObjectives>, then &lt;lcResources>.  </lcFeedbackIncorrect>
             </lcSequencing>
         </lcInteraction>
     </learningAssessmentbody>

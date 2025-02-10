@@ -18,8 +18,7 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcSingleSelect id="ccms">
-   
-   <lcQuestion>CCMS stands for: (Choose one)</lcQuestion>
+   <lcQuestion>CCMS stands for:</lcQuestion>
     <lcAnswerOptionGroup>
      <lcAnswerOption>
       <lcAnswerContent>Content Component Management System</lcAnswerContent>
@@ -34,8 +33,6 @@
      <lcAnswerOption>
       <lcAnswerContent>Component Content Managment Series</lcAnswerContent>
      </lcAnswerOption>
-    
-      
     </lcAnswerOptionGroup>
     <lcFeedbackIncorrect>CCMS stands for Component Content Management System.</lcFeedbackIncorrect>
    </lcSingleSelect>

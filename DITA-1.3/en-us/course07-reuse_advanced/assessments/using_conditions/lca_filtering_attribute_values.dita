@@ -16,8 +16,7 @@
  <learningAssessmentbody>
   <lcInteraction id="lcInteraction_b4l_mkh_vx">
    <lcMultipleSelect id="lcMultipleSelect_qrr_4kh_vx">
-    <lcQuestion>Which of the following statements about conditional attribute values are correct?
-     (Choose all that apply)</lcQuestion>
+    <lcQuestion>Which of the following statements about conditional attribute values are correct?</lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_rrr_4kh_vx">
      <lcAnswerOption>
       <lcAnswerContent>Conditional attribute values are fixed and cannot be
@@ -39,7 +38,7 @@
     </lcAnswerOptionGroup>
     <lcFeedbackIncorrect>Conditional attributes are entirely up to you. You can specify more than
      one value with a conditional attribute (separated by spaces). Case is important in filtering
-     attribute values. Everyone on your team should agreee to use the same conditional attribute
+     attribute values. Everyone on your team should agree to use the same conditional attribute
      values.</lcFeedbackIncorrect>
    </lcMultipleSelect>
   </lcInteraction>
