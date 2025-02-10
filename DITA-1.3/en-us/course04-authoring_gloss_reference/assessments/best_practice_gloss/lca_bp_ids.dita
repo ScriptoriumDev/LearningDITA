@@ -15,7 +15,7 @@
  <learningAssessmentbody id="learningAssessmentbody_phk_fwn_vt">
   <lcInteraction>
    <lcSingleSelect id="lcSingleSelect_t3k_fwn_vt">
-    <lcQuestion>When assigning ids to glossary entries, it's best that (pick one):</lcQuestion>
+    <lcQuestion>When assigning ids to glossary entries, it's best that:</lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_ijk_fwn_vt">
      <lcAnswerOption>
       <lcAnswerContent>The id match the filename or term as closely as possible</lcAnswerContent>
@@ -31,6 +31,7 @@
       <lcAnswerContent>The id is complicated in order to ensure uniqueness</lcAnswerContent>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>It is best practice to use a filename and id that match the glossary term to keep it identifiable. </lcFeedbackIncorrect>
    </lcSingleSelect>
   </lcInteraction>
  </learningAssessmentbody>
