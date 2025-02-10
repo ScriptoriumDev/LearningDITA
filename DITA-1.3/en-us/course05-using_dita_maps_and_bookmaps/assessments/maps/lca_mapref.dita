@@ -19,7 +19,7 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcSingleSelect id="maps_1">
-    <lcQuestion>The purpose of the &lt;mapref> element is: (choose one)</lcQuestion>
+    <lcQuestion>The purpose of the &lt;mapref> element is:</lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_wdl_fmy_kv">
      <lcAnswerOption>
       <lcAnswerContent>To define metadata for a map</lcAnswerContent>
@@ -36,6 +36,7 @@
       <lcAnswerContent>To create a link to a topic within a map</lcAnswerContent>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>The &lt;mapref> element is used to create a link to a map within another map.</lcFeedbackIncorrect>
    </lcSingleSelect>
   </lcInteraction>
  </learningAssessmentbody>

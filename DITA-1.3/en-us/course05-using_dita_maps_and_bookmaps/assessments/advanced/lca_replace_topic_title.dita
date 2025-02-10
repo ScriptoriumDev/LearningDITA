@@ -16,7 +16,7 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcSingleSelect id="advanced_2">
-    <lcQuestion>Which of the following elements allows you to replace a title in the table of contents? (choose one)</lcQuestion>
+    <lcQuestion>Which of the following elements allows you to replace a title in the table of contents?</lcQuestion>
     <lcAnswerOptionGroup>
      <lcAnswerOption>
       <lcAnswerContent>&lt;navtitle></lcAnswerContent>
@@ -32,6 +32,7 @@
       <lcAnswerContent>&lt;title></lcAnswerContent>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>Use &lt;navtitle> to replace the title of a topic in the table of contents.</lcFeedbackIncorrect>
    </lcSingleSelect>
   </lcInteraction>
  </learningAssessmentbody>

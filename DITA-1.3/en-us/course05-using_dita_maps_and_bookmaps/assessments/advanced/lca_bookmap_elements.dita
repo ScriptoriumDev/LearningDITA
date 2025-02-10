@@ -43,6 +43,7 @@
       <lcSequence value="5"/>
      </lcSequenceOption>
     </lcSequenceOptionGroup>
+    <lcFeedbackIncorrect>The correct order of elements is &lt;booktitle>, &lt;bookmeta>, &lt;frontmatter>, &lt;chapter>, then &lt;backmatter>. </lcFeedbackIncorrect>
    </lcSequencing>
   </lcInteraction>
  </learningAssessmentbody>

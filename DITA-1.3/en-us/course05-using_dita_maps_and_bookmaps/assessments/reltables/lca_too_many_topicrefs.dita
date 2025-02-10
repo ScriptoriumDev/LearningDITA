@@ -20,7 +20,7 @@
   <lcInteraction>
    <lcSingleSelect id="lcSingleSelect_szw_cly_kv">
     <lcQuestion>If a relationship table row contains too many &lt;topicref> elements to be
-     readable, what do you do? (choose one).</lcQuestion>
+     readable, what do you do?.</lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_tzw_cly_kv">
      <lcAnswerOption>
       <lcAnswerContent>Create another &lt;relrow> and distribute the &lt;topicref> elements between

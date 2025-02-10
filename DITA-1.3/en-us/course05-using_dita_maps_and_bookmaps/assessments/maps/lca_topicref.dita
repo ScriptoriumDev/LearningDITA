@@ -19,8 +19,7 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcMultipleSelect id="maps_3">
-    <lcQuestion>The &lt;topicref> element can exist in the following locations within a map: (choose
-     any)</lcQuestion>
+    <lcQuestion>The &lt;topicref> element can exist in the following locations within a map:</lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_rwz_g4y_kv">
      <lcAnswerOption>
       <lcAnswerContent>Inside the &lt;map> element</lcAnswerContent>
@@ -37,6 +36,7 @@
       <lcAnswerContent>Inside the &lt;topicmeta> element</lcAnswerContent>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>The &lt;topicref> element can exist inside a &lt;map> or another &lt;topicref> element.</lcFeedbackIncorrect>
    </lcMultipleSelect>
   </lcInteraction>
  </learningAssessmentbody>

@@ -19,8 +19,7 @@
  <learningAssessmentbody>
   <lcInteraction>
    <lcSingleSelect id="bookmaps_6">
-    <lcQuestion>A chapter can contain any of the following elements except: (choose
-     one)</lcQuestion>
+    <lcQuestion>A chapter can contain any of the following elements except:</lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_vpn_h5y_kv">
      <lcAnswerOption>
       <lcAnswerContent>Any number of &lt;topicref> elements</lcAnswerContent>
@@ -36,6 +35,7 @@
       <lcCorrectResponse/>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
+    <lcFeedbackIncorrect>&lt;chapter> elements cannot be nested. </lcFeedbackIncorrect>
    </lcSingleSelect>
   </lcInteraction>
  </learningAssessmentbody>
