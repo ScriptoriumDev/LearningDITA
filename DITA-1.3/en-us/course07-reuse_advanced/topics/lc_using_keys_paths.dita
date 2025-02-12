@@ -26,7 +26,7 @@
             <pre>&lt;keydef keys="product_image" href="images/product_B.png" format="png"/></pre>
             <p>Although the key name can contain some special characters, it is a good practice to
                 limit names to letters, numbers, and the underscore character. If you need to use
-                other special characters, check the <xref keyref="dita_12_url"/>. </p>
+                other special characters, check the <xref keyref="dita_13_url"/>. </p>
             <p>It is also a good practice to use the format attribute when defining a key. Possible
                 values include “dita”, “ditamap”, “pdf”, “html”, and  graphic formats, such as “png”
                 or “svg”.</p>

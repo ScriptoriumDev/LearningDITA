@@ -41,10 +41,10 @@
             format="html" scope="external">
             <linktext>DITA Style Guide, Chapter 3, Syntax and mark-up</linktext>
         </link>
-        <!-- [SP] AAB 2024-07-29 TO DO: Update link to DITA spec -->
-        <link href="https://docs.oasis-open.org/dita/v1.2/os/spec/DITA1.2-spec.html" format="html"
+        
+        <link keyref="dita_13_url" format="html"
             scope="external">
-            <linktext>Darwin Information Typing Architecture (DITA) Version 1.2, OASIS
+            <linktext>Darwin Information Typing Architecture (DITA) Version 1.3, OASIS
                 Standard</linktext>
         </link>
     </related-links>
