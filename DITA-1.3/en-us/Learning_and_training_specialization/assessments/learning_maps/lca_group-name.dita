@@ -11,19 +11,19 @@
     </prolog>
     <learningAssessmentbody>
         <lcInteraction>
-            <lcTrueFalse id="t-f_group-naming">
-                <lcQuestion>Which element allows you to name a learning group?</lcQuestion>
-                <lcAnswerOptionGroup>
-                    <lcAnswerOption>
-                        <lcAnswerContent>&lt;title/></lcAnswerContent>
-                        <lcCorrectResponse/>
-                    </lcAnswerOption>
-                    <lcAnswerOption>
-                        <lcAnswerContent>&lt;navtitle/></lcAnswerContent>
-                    </lcAnswerOption>
-                </lcAnswerOptionGroup>
-                <lcFeedbackIncorrect>The &lt;title> element allows you to name a learning group.</lcFeedbackIncorrect>
-            </lcTrueFalse>
+            <lcSingleSelect2 id="ss_group-naming">
+                <lcQuestion2>Which element allows you to name a learning group?</lcQuestion2>
+                <lcAnswerOptionGroup2>
+                    <lcAnswerOption2>
+                        <lcAnswerContent2>&lt;title/></lcAnswerContent2>
+                        <lcCorrectResponse2/>
+                    </lcAnswerOption2>
+                    <lcAnswerOption2>
+                        <lcAnswerContent2>&lt;navtitle/></lcAnswerContent2>
+                    </lcAnswerOption2>
+                </lcAnswerOptionGroup2>
+                <lcFeedbackIncorrect2>The &lt;title> element allows you to name a learning group.</lcFeedbackIncorrect2>
+            </lcSingleSelect2>
         </lcInteraction>
     </learningAssessmentbody>
 </learningAssessment>

@@ -16,7 +16,7 @@
   <lcInteraction>
    <lcSingleSelect id="lcSingleSelect_eh4_bbb_dt">
     <lcQuestion>Where can the &lt;result>, &lt;example>, and &lt;postreq> elements appear in a
-     strict task? (pick one)</lcQuestion>
+     strict task?</lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_fh4_bbb_dt">
      <lcAnswerOption>
       <lcAnswerContent>Before the &lt;steps> element</lcAnswerContent>
