@@ -47,8 +47,8 @@
             <note>
                 <p>This lesson covers basic use of these elements. For the full specifications for
                     each element, see the <xref
-                        href="https://docs.oasis-open.org/dita/v1.2/os/spec/langref/concept.html"
-                        format="html" scope="external">OASIS DITA Version 1.2 Standard</xref>.</p>
+                        href="https://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/archSpec/technicalContent/dita-concept-topic.html#dita_concept_topic"
+                        format="html" scope="external">OASIS DITA Version 1.3 Standard - Concept</xref>.</p>
             </note>
         </lcIntro>
     </learningContentbody>
@@ -58,30 +58,29 @@
             format="html" scope="external">
             <linktext>DITA Style Guide, Element domains</linktext>
         </link>
-        <!-- [AAB 2024-07-31] TO DO: Update links to DITA spec. -->
-        <link href="https://docs.oasis-open.org/dita/v1.2/os/spec/langref/codeblock.html"
+        <link href="https://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/technicalContent/codeblock.html#codeblock"
             format="html" scope="external">
-            <linktext>OASIS DITA Version 1.2 Standard, &lt;codeblock></linktext>
+            <linktext>OASIS DITA Version 1.3 Standard, &lt;codeblock></linktext>
         </link>
-        <link href="https://docs.oasis-open.org/dita/v1.2/os/spec/langref/codeph.html" format="html"
+        <link href="https://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/technicalContent/codeph.html#codeph" format="html"
             scope="external">
-            <linktext>OASIS DITA Version 1.2 Standard, &lt;codeph></linktext>
+            <linktext>OASIS DITA Version 1.3 Standard, &lt;codeph></linktext>
         </link>
-        <link href="https://docs.oasis-open.org/dita/v1.2/os/spec/langref/lq.html" format="html"
+        <link href="https://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/base/lq.html#lq" format="html"
             scope="external">
-            <linktext>OASIS DITA Version 1.2 Standard, &lt;lq></linktext>
+            <linktext>OASIS DITA Version 1.3 Standard, &lt;lq></linktext>
         </link>
-        <link href="https://docs.oasis-open.org/dita/v1.2/os/spec/langref/section.html" format="html"
+        <link href="https://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/base/section.html#section" format="html"
             scope="external">
-            <linktext>OASIS DITA Version 1.2 Standard, &lt;section></linktext>
+            <linktext>OASIS DITA Version 1.3 Standard, &lt;section></linktext>
         </link>
-        <link href="https://docs.oasis-open.org/dita/v1.2/os/spec/langref/draft-comment.html"
+        <link href="https://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/base/draft-comment.html#draft-comment"
             format="html" scope="external">
-            <linktext>OASIS DITA Version 1.2 Standard, &lt;draft-comment></linktext>
+            <linktext>OASIS DITA Version 1.3 Standard, &lt;draft-comment></linktext>
         </link>
-        <link href="https://docs.oasis-open.org/dita/v1.2/os/spec/langref/required-cleanup.html"
+        <link href="https://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/base/required-cleanup.html#required-cleanup"
             format="html" scope="external">
-            <linktext>OASIS DITA Version 1.2 Standard, &lt;required-cleanup></linktext>
+            <linktext>OASIS DITA Version 1.3 Standard, &lt;required-cleanup></linktext>
         </link>
     </related-links>
 </learningContent>

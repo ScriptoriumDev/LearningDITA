@@ -84,7 +84,7 @@
                 you need to use this feature, it is best to review the documentation for your output
                 generator. </p><p>For more information about ditaval files and how to use them for
                 flagging, see <xref
-                    href="https://docs.oasis-open.org/dita/v1.2/os/spec/common/about-ditaval.html#ditaval"
+                    href="https://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/containers/ditaval-elements.html#ditaval"
                     format="html" scope="external"
             /></p><!--<p>You can also use the &lt;revprop> element to place change bars in the margins next to text marked with a rev attribute (if supported by your output generator). There are not separate attributes to indicate each of the changebar properties. Instead, the changebar value contains one or more property-value pairs. The value is separated from the property name with a colon (:), multiple property-value pairs are separated by semicolons (;).</p><p>The properties you can specify are:<ul id="ul_o3r_jxs_5x"><li>color - either using a 6-digit hex code or a color name</li><li>width - </li><li>style</li><li>offset</li><li>placement</li></ul>  </p>--></lcInstruction>
     </learningContentbody>

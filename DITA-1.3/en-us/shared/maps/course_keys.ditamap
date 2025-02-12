@@ -4,9 +4,17 @@
  <title>Course Keys (keys for all course titles, urls, etc)</title>
  
  <!-- General purpose (OT, etc) -->
- <keydef keys="dita_12_url" href="https://docs.oasis-open.org/dita/v1.2/os/spec/DITA1.2-spec.html" scope="external" format="html">
+ <!-- [SP] MAK 2025-02-11  Removing in favor of the 1.3 specification-->
+ <!--<keydef keys="dita_12_url" href="https://docs.oasis-open.org/dita/v1.2/os/spec/DITA1.2-spec.html" scope="external" format="html">
   <topicmeta>
    <linktext>DITA 1.2 specification</linktext>
+  </topicmeta>
+ </keydef>-->
+
+ <!-- [SP] MAK 2025-02-11  TODO Update URLs when new moodle site is up. -->
+ <keydef keys="dita_13_url" href="https://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/dita-v1.3-errata01-os-part3-all-inclusive-complete.html" scope="external" format="html">
+  <topicmeta>
+   <linktext>DITA 1.3 specification</linktext>
   </topicmeta>
  </keydef>
  
