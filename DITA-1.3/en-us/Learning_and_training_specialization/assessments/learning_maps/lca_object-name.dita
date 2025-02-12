@@ -11,18 +11,18 @@
     </prolog>
     <learningAssessmentbody>
         <lcInteraction>
-            <lcTrueFalse id="t-f_object-naming">
-                <lcQuestion>Which element allows you to name a learning object?</lcQuestion>
-                <lcAnswerOptionGroup>
-                    <lcAnswerOption>
-                        <lcAnswerContent>&lt;title/></lcAnswerContent>
-                    </lcAnswerOption>
-                    <lcAnswerOption>
-                        <lcAnswerContent>&lt;navtitle/></lcAnswerContent>
-                        <lcCorrectResponse/>
-                    </lcAnswerOption>
-                </lcAnswerOptionGroup>
-            </lcTrueFalse>
+            <lcSingleSelect2 id="ss_object-naming">
+                <lcQuestion2>Which element allows you to name a learning object?</lcQuestion2>
+                <lcAnswerOptionGroup2>
+                    <lcAnswerOption2>
+                        <lcAnswerContent2>&lt;title/></lcAnswerContent2>
+                    </lcAnswerOption2>
+                    <lcAnswerOption2>
+                        <lcAnswerContent2>&lt;navtitle/></lcAnswerContent2>
+                        <lcCorrectResponse2/>
+                    </lcAnswerOption2>
+                </lcAnswerOptionGroup2>
+            </lcSingleSelect2>
         </lcInteraction>
         
     </learningAssessmentbody>
