@@ -12,7 +12,7 @@
   <topicref href="../topics/lc_reusing_steps.dita"/>
   <topicref href="../topics/lc_reusing_list_items.dita"/>
   <topicref href="../topics/lc_storing_your_reused_content.dita"/>
-  <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_reusable_topics.dita" locktitle="yes">
+  <topicref href="../../shared/topics/lcc_assessment.dita" copy-to="lcc_reusable_topics.dita" locktitle="yes" outputclass="assessment">
    <topicmeta>
     <navtitle>Assessment for Creating reusable topics</navtitle>
    </topicmeta>
