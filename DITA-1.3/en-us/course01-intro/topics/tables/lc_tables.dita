@@ -12,6 +12,7 @@
             Scriptorium</author>
         <critdates>
             <created date="2015-05-01"/>
+            <revised modified="2025-02-27"/>
         </critdates>
     </prolog>
     <learningContentbody>
@@ -20,7 +21,7 @@
                 <lcObjective>Distinguish simpletables and tables.</lcObjective>
                 <lcObjective>Describe the elements in a simpletable.</lcObjective>
                 <lcObjective>Describe the elements in a table.</lcObjective>
-                <lcObjective>Present best practices for DITA tables</lcObjective>
+                <lcObjective>Present best practices for DITA tables.</lcObjective>
             </lcObjectivesGroup>
         </lcObjectives>
         <lcIntro>
@@ -56,7 +57,7 @@
             <title>Tables</title>
             <p>The &lt;table> element allows for more complex arrangements of tabular content. It
                 allows table titles, spanned columns or rows, multiple groups of rows, and
-                user-specified column widths</p>
+                user-specified column widths.</p>
         </lcIntro>
         <lcIntro>
             <title>Other tables</title>

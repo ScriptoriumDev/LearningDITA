@@ -11,6 +11,7 @@
             Scriptorium</author>
         <critdates>
             <created date="2015-05-18"/>
+            <revised modified="2025-02-27"/>
         </critdates>
     </prolog>
     <learningContentbody>
@@ -36,7 +37,11 @@ It’s much better to feed them grapes or cracked corn.
 &lt;/note></pre>
             <p>These are the most common attribute values. There are additional attribute values
                 available, along with a catch-all “other” attribute value, which you use with the
-                othertype attribute to specify an alternate note type. </p>
+                othertype attribute to specify an alternate note type. For example:</p>
+            <pre>&lt;note type="other" othertype="Custom Text for a Note">
+Do not feed bread to ducks. It is not a natural food for them and can be unhealthy. 
+It’s much better to feed them grapes or cracked corn.
+&lt;/note></pre>
         </lcInstruction>
     </learningContentbody>
 </learningContent>

@@ -11,6 +11,7 @@
         <author href="https://www.scriptorium.com" scope="external" format="html">Simon Bate, Scriptorium</author>
         <critdates>
             <created date="2015-04-28"/>
+            <revised modified="2025-02-27"/>
         </critdates>
     </prolog>
     <learningContentbody>
@@ -37,8 +38,8 @@
                     r_breedsofducks.dita, and r_goodbreedsforpets.dita.</li>
             </ul><note>To illustrate a larger concept, this example contains a simplification: for
                 r_breedsofducks.dita and r_goodbreedsforpets.dita to link to one another, the cell
-                containing both links must identify them as a “family”. The details relationship
-                table cell attributes will be described in a future course. </note><p>The
+                containing both links must identify them as a “family”. The  relationship table cell
+                attributes will be described in a future course, Maps and bookmaps. </note><p>The
                 relationships you capture in the reltable are <i>not</i> typically shown when you
                 are authoring topics.</p><p>Video: <xref
                     href="https://www.youtube.com/watch?v=vMUxQpQvTZg" format="html"

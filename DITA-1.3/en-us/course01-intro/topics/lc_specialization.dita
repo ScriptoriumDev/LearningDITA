@@ -10,6 +10,7 @@
         <author href="https://www.scriptorium.com"  scope="external" format="html">Simon Bate, Scriptorium</author>
         <critdates>
         <created date="2015-04-28"/>
+            <revised modified="2025-02-27"/>
     </critdates></prolog>
     <learningContentbody>
        <lcInstruction> <p>
@@ -24,7 +25,7 @@
                     <li>Creating new elements to contain specific information in a specific
                         order</li>
                     <li>Creating new attributes to identify specific information</li>
-                    <li>Creating new names for elements that are more relevant to authors.</li>
+                    <li>Creating new names for elements that are more relevant to authors</li>
                 </ul></p>
             <p>For instance, you might require a set of language-specific &lt;codeblock> elements,
                 such as &lt;codeblock-java> or &lt;codeblock-php> to distinguish between Java and
