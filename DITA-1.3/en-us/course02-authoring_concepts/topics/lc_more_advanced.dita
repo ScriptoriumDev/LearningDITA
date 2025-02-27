@@ -28,11 +28,9 @@
                             element cannot contain other &lt;section> elements and can only be
                             followed by another &lt;section> element, an &lt;example> element, or a
                             &lt;conbodydiv> element.</p>
-                        <note>
-                            <p>If you find that you are adding many sections or sections of
+                        <note>If you find that you are adding many sections or sections of
                                 substantial length to a topic, make each of those sections into its
                                 own topic instead so that you can reuse the information more easily.
-                            </p>
                         </note>
                     </stentry>
                 </strow>
@@ -108,14 +106,16 @@ You can also offer your database to users as a download.&lt;/p></ph>
 &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
-                    <info>Only one &lt;title> element is allowed inside the &lt;concept> element
-                        where a title already exists. However, by adding a &lt;section> element, you
-                        are able to have multiple subtitles in your concept topic. Like the
-                        &lt;concept> element, each &lt;section> element can only contain one
-                        &lt;title> element.</info>
-                    <info>A &lt;section> element can contain all the same body elements as a
-                        &lt;conbody>, with the exception of another &lt;section> (that is, you
-                        cannot nest &lt;section> elements inside each other).</info>
+                    <info>
+                        <p>Only one &lt;title> element is allowed inside the &lt;concept> element
+                            where a title already exists. However, by adding a &lt;section> element,
+                            you are able to have multiple subtitles in your concept topic. Like the
+                            &lt;concept> element, each &lt;section> element can only contain one
+                            &lt;title> element.</p>
+                        <p>A &lt;section> element can contain all the same body elements as a
+                            &lt;conbody>, with the exception of another &lt;section> (that is, you
+                            cannot nest &lt;section> elements inside each other).</p>
+                    </info>
                 </step>
                 <step>
                     <cmd>After the &lt;p> element in the new section, add a &lt;draft-comment>

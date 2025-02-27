@@ -57,10 +57,8 @@
                     <cmd>Make a copy of the file lesson4/l_concept_advanced_start.dita and open it in your
                         editor.</cmd>
                     <info>
-                        <note>
-                            <p>If you are using a DITA-aware text editor, make sure you are in text
-                                mode, rather than author or visual mode.</p>
-                        </note>
+                        <note>If you are using a DITA-aware text editor, make sure you are in text
+                                mode, rather than author or visual mode.</note>
                     </info>
                     <stepxmp>
                         <p>You should see this:</p>
@@ -94,22 +92,20 @@ duckdata> _
 &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
-                    <info>The &lt;codeblock> element isolates the piece of code content so that any
+                    <info><p>The &lt;codeblock> element isolates the piece of code content so that any
                         tags in it exist for display purposes only and do not affect the DITA tags
-                        in your concept topic file. </info>
-                    <info>The &lt;codeblock> element also allows you to control line breaks. In the
-                        example you added, the text inside the &lt;codeblock> element shows an entry
-                        being added to a database using the command line.</info>
-                    <info>
-                        <note>
-                            <p>If you need an opening tag in a &lt;codeblock> element, type
-                                    <tt>&amp;lt;</tt> in place of the opening tag character
-                                    (<tt>&lt;</tt>). If you are working in the author or visual mode
-                                of a DITA editor, you can type the opening tag character inside a
-                                &lt;codeblock> element, and the &lt;codeblock> element will
-                                automatically render it as <tt>&amp;lt;</tt> in the text.</p>
-                        </note>
-                    </info>
+                        in your concept topic file. </p>
+                        <p>The &lt;codeblock> element also allows you to control line breaks. In the
+                            example you added, the text inside the &lt;codeblock> element shows an entry
+                            being added to a database using the command line.</p>
+                        <note>If you need an opening tag in a &lt;codeblock> element, type
+                            <tt>&amp;lt;</tt> in place of the opening tag character
+                            (<tt>&lt;</tt>). If you are working in the author or visual mode
+                            of a DITA editor, you can type the opening tag character inside a
+                            &lt;codeblock> element, and the &lt;codeblock> element will
+                            automatically render it as <tt>&amp;lt;</tt> in the text.</note></info>
+                    
+                    
                 </step>
                 <step>
                     <cmd>After the &lt;codeblock> element, add a &lt;p> element with a &lt;codeph>
@@ -142,7 +138,8 @@ the name of the duck in parentheses on the command line and press Enter.&lt;/p><
 &lt;conbody>
 ...
 &lt;/p>
-<ph outputclass="newchanged">&lt;lq href="https://commons.digitalthoreau.org/walden/the-ponds/the-ponds-18-34/" format="html" scope="external">How much fairer than the pool before the farmers door, 
+<ph outputclass="newchanged">&lt;lq href="https://commons.digitalthoreau.org/walden/the-ponds/the-ponds-18-34/" 
+format="html" scope="external">How much fairer than the pool before the farmers door, 
 in which his ducks swim! Hither the clean wild ducks come. Nature has no human 
 inhabitant who appreciates her. The birds with their plumage and their notes are in 
 harmony with the flowers, but what youth or maiden conspires with the wild luxuriant 
@@ -150,12 +147,12 @@ beauty of Nature?&lt;/lq></ph>
 &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
-                    <info>In the example you added, the &lt;lq> element allows you to include a
-                        quote from <cite>Walden</cite> by Henry David Thoreau.</info>
-                    <info>The &lt;lq> element can contain a link to the quote’s source. In the
-                        example you added, the &lt;lq> element contains an href attribute pointing
-                        to the source URL, a format attribute indicating that the source is HTML,
-                        and a scope attribute showing that the source is external.</info>
+                    <info><p>In the example you added, the &lt;lq> element allows you to include a
+                        quote from <cite>Walden</cite> by Henry David Thoreau.</p><p>The &lt;lq> element can contain a link to the quote’s source. In the
+                            example you added, the &lt;lq> element contains an href attribute pointing
+                            to the source URL, a format attribute indicating that the source is HTML,
+                            and a scope attribute showing that the source is external.</p></info>
+                    
                 </step>
             </steps>
         </taskbody>
