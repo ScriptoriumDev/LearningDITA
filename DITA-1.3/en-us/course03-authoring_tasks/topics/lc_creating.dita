@@ -12,6 +12,7 @@
                 Scriptorium</author>
         <critdates>
             <created date="2015-08-14"/>
+            <revised modified="2025-02-27"/>
         </critdates>
     </prolog>
     <learningContentbody>
@@ -30,11 +31,8 @@
         <lcIntro>
             <p>This lesson shows how to create a new task topic and how to add the first common
                 elements found in a task topic. </p>
-            <note>
-                <p>This lesson covers basic use of the task elements. For the full specifications
-                    for each element, see the <xref
-                        href="https://docs.oasis-open.org/dita/v1.2/os/spec/langref/task.html"
-                        format="html" scope="external">OASIS DITA Version 1.2 Standard</xref>.</p>
+            <note>This lesson covers basic use of the task elements. For the full specifications
+                    for each element, see the <xref keyref="dita_13_url">OASIS DITA Version 1.3 Standard</xref>.
             </note>
 
         </lcIntro>
