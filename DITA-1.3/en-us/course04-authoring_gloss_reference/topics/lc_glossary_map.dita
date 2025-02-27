@@ -129,9 +129,9 @@
                     <cmd>Open the file lesson3/l_glossary_exercise_start.dita and use it to convert
                         the following content into DITA:</cmd>
                     <info>
-                        <note><p>While this exercise uses a single DITA file for conversion, it is
+                        <note>While this exercise uses a single DITA file for conversion, it is
                                 also acceptable to convert it into a map with glossary
-                            entries.</p></note>
+                            entries.</note>
                         <pre outputclass="passthru"><![CDATA[
 <hr/>
 <h3>Content strategy terms</h3>
