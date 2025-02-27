@@ -10,6 +10,7 @@
             Scriptorium</author>
         <critdates>
             <created date="2015-08-24"/>
+            <revised modified="2025-02-27"/>
         </critdates>
     </prolog>
     <learningContentbody>
@@ -49,9 +50,9 @@
                     </stentry>
                 </strow>
             </simpletable>
-            <p>These elements were covered in the <xref
+            <p>These elements were covered in the <!--<xref
                     href="https://www.learningdita.com/courses/introduction-to-dita/" format="html"
-                    scope="external">Introduction to DITA course</xref>. This lesson gives a brief
+                    scope="external">Introduction to DITA course</xref>-->Introduction to DITA course. This lesson gives a brief
                 review of these elements and shows how to add them to a concept topic.</p>
         </lcInstruction>
     </learningContentbody>
@@ -75,21 +76,19 @@
    &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
-                    <info>The &lt;p> element is for body text. It can be used inside the
-                        &lt;conbody> element as well as inside many of the elements that
-                        &lt;conbody> contains.</info>
                     <info>
-                        <note>
-                            <p>Use the &lt;p> element for any body text that does not need a more
-                                specific element tag. As you will see in examples throughout this
-                                course, we recommend using the &lt;p> element to tag text inside
-                                list items, notes, and table entries. &lt;p> elements are needed for
-                                list items that are several paragraphs long, and wrapping single
-                                items in the &lt;p> element keeps them all consistent.</p>
-                        </note>
+                        <p>The &lt;p> element is for body text. It can be used inside the
+                            &lt;conbody> element as well as inside many of the elements that
+                            &lt;conbody> contains.</p>
+                        <note>Use the &lt;p> element for any body text that does not need a more
+                            specific element tag. As you will see in examples throughout this
+                            course, we recommend using the &lt;p> element to tag text inside list
+                            items, notes, and table entries. &lt;p> elements are needed for list
+                            items that are several paragraphs long, and wrapping single items in the
+                            &lt;p> element keeps them all consistent.</note>
+                        <p>The &lt;p> element you just created introduces the next element: an
+                            unordered list.</p>
                     </info>
-                    <info>The &lt;p> element you just created introduces the next element: an
-                        unordered list.</info>
                 </step>
                 <step>
                     <cmd>After the &lt;p> element, add a &lt;ul> element and add content to it as shown in
@@ -112,17 +111,15 @@
 &lt;/concept></pre>
                     </stepxmp>
                     <info>
-                        <note>
-                            <p>If you are using a DITA editor, the editor may insert an ID attribute
-                                on the &lt;ul> element for you automatically.</p>
-                        </note>
+                        <note>If you are using a DITA editor, the editor may insert an ID attribute
+                            on the &lt;ul> element for you automatically.</note>
+                        <p>The &lt;ul> element is for unordered or bulleted lists. </p>
+                        <p>The &lt;ul> element can only contain the &lt;li> element, and it must
+                            contain at least one.</p>
+                        <p>Each &lt;li> element contains the text for a bulleted entry in the list.
+                            In this example, the &lt;li> elements follow the best practice of
+                            wrapping a &lt;p> element around the text.</p>
                     </info>
-                    <info>The &lt;ul> element is for unordered or bulleted lists. </info>
-                    <info>The &lt;ul> element can only contain the &lt;li> element, and it must
-                        contain at least one.</info>
-                    <info>Each &lt;li> element contains the text for a bulleted entry in the list.
-                        In this example, the &lt;li> elements follow the best practice of wrapping a
-                        &lt;p> element around the text.</info>
                 </step>
                 <step>
                     <cmd>After the &lt;ul> element, add an &lt;ol> element with an introductory
@@ -144,20 +141,17 @@
 &lt;/concept></pre>
                     </stepxmp>
                     <info>
-                        <note>
-                            <p>If you are using a DITA editor, the editor may insert an ID attribute
-                                on the &lt;ol> element for you automatically.</p>
-                        </note>
+                        <note>If you are using a DITA editor, the editor may insert an ID attribute
+                            on the &lt;ol> element for you automatically.</note>
+                        <p>The &lt;ol> element is for ordered or numbered lists.</p>
+                        <p>Like the &lt;ul> element, the &lt;ol> element can only contain &lt;li>
+                            elements, and it must contain at least one. </p>
+                        <p>In this example, each of the &lt;li> elements follows the best practice
+                            of wrapping a &lt;p> element around the text. </p>
+                        <note>Use the &lt;ol> element only to show that the list items should appear
+                            in a certain order, not to create step-by-step instructions. For
+                            step-by-step instructions, use the task topic instead.</note>
                     </info>
-                    <info>The &lt;ol> element is for ordered or numbered lists.</info>
-                    <info>Like the &lt;ul> element, the &lt;ol> element can only contain &lt;li>
-                        elements, and it must contain at least one. </info>
-                    <info>In this example, each of the &lt;li> elements follows the best practice of
-                        wrapping a &lt;p> element around the text. <note>
-                            <p>Use the &lt;ol> element only to show that the list items should
-                                appear in a certain order, not to create step-by-step instructions.
-                                For step-by-step instructions, use the task topic instead.</p>
-                        </note></info>
                    
                 </step>
                 <step>
@@ -223,7 +217,6 @@ is generally considered the largest because of its heavier body weight.&lt;/p>&l
                            <hr />
                             ]]></pre>
                     </info>
-                    <info/>
                 </step>
                 <step>
                     <cmd>Check your file lesson1/l_new_concept_exercise_start.dita against the sample file lesson1/l_new_concept_exercise.dita.</cmd>

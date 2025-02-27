@@ -56,12 +56,14 @@
    &lt;/stepxmp> </ph>
 &lt;/step>...</pre>
                     </stepxmp>
-                    <info>The &lt;stepxmp> element contains an example that illustrates or clarifies
-                        the step.</info>
-                    <info>The &lt;stepxmp> element can contain any of the elements that you can use
-                        inside an &lt;li> element.  To show examples where line breaks and spaces
-                        are important, you can use the &lt;pre> element or the &lt;codeblock>
-                        element.</info>
+                    <info>
+                        <p>The &lt;stepxmp> element contains an example that illustrates or
+                            clarifies the step.</p>
+                        <p>The &lt;stepxmp> element can contain any of the elements that you can use
+                            inside an &lt;li> element. To show examples where line breaks and spaces
+                            are important, you can use the &lt;pre> element or the &lt;codeblock>
+                            element.</p>
+                    </info>
                 </step>
                 <step>
                     <cmd>Inside the &lt;stepxmp> element, add a &lt;p> element, then insert an

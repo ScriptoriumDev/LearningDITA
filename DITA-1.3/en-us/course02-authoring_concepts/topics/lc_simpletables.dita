@@ -56,10 +56,8 @@
                 <image href="../media/images_and_tables/simpletable.png" id="image_rtn_xmn_2t" base="2016/08"/>
             </fig><p>Continue using the file lesson2/l_concept_images_tables_start.dita to add the &lt;simpletable>
                 element.</p>
-            <note>
-                <p>If you are using a DITA editor, some child elements of the &lt;simpletable>
-                    element will automatically be inserted as you work through the examples.</p>
-            </note></lcInstruction>
+            <note>If you are using a DITA editor, some child elements of the &lt;simpletable>
+                element will automatically be inserted as you work through the examples.</note></lcInstruction>
     </learningContentbody>
     <task id="task_simpletables">
         <title>Adding the &lt;simpletable> element</title>
@@ -121,11 +119,13 @@
    &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
-                    <info>The &lt;stentry> element represents a single cell. The number of
-                        &lt;stentry> elements inside the &lt;sthead> element will determine how many
-                        columns will be in your &lt;simpletable> element.</info>
-                    <info>Each &lt;stentry> element you added follows the best practice of wrapping
-                        a &lt;p> element around the text.</info>
+                    <info>
+                        <p>The &lt;stentry> element represents a single cell. The number of
+                            &lt;stentry> elements inside the &lt;sthead> element will determine how
+                            many columns will be in your &lt;simpletable> element.</p>
+                        <p>Each &lt;stentry> element you added follows the best practice of wrapping
+                            a &lt;p> element around the text.</p>
+                    </info>
                 </step>
                 <step>
                     <cmd>After the &lt;sthead> element, add the &lt;strow> element as shown in the

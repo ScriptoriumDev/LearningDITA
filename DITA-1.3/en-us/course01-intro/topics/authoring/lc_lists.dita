@@ -8,12 +8,13 @@
             Scriptorium</author>
         <critdates>
             <created date="2015-07-13"/>
+            <revised modified="2025-02-27"/>
         </critdates>
     </prolog>
     <learningContentbody>
         <lcInstruction>
-            <p>The most common lists used in DITA are unordered (“bulleted”) lists (&lt;ul>) and
-                ordered (“numbered”) lists (&lt;ol>). </p>
+            <p>The most common lists used in DITA are unordered (bulleted) lists (&lt;ul>) and
+                ordered (numbered) lists (&lt;ol>). </p>
             <p>Both ordered and unordered lists contain one or more list item (&lt;li>) element. The
                 &lt;li> elements shown in these examples are quite simple. However, an &lt;li>
                 element can contain text data and most common block and inline elements. </p>
@@ -29,8 +30,8 @@
                 numbers are inserted when the output is generated. To help you visualize things,
                 most visual editors will show you the numbers of items in an ordered list. </p>
             <p>An ordered list is useful for showing things that have a sequence, however, if you
-                need to describe a process, you might be better off using the &lt;steps> element in
-                a task topic.</p>
+                need to describe a process, you are better off using the &lt;steps> element in a
+                task topic.</p>
             <p>You can nest a list by starting a new &lt;ul> or &lt;ol> element inside an &lt;li>
                 element. </p>
             <pre>&lt;p>Ducks have these features:&lt;/p>

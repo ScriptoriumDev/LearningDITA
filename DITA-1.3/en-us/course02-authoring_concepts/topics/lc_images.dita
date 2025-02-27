@@ -59,10 +59,12 @@
    &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
-                    <info>(Sample image source: Flickr, Micolo J.)</info>
-                    <info>The &lt;image> element you added contains a link (href) to the location of
-                        the image file. A link inside an &lt;image> element can point to the
-                        filepath for an image on a server or to a web link for an image.</info>
+                    <info>
+                        <p>(Sample image source: Flickr, Micolo J.)</p>
+                        <p>The &lt;image> element you added contains a link (href) to the location
+                            of the image file. A link inside an &lt;image> element can point to the
+                            filepath for an image on a server or to a web link for an image.</p>
+                    </info>
                 </step>
                 <step>
                     <cmd>After the &lt;image> element, add a &lt;fig> element as shown in the
@@ -82,22 +84,20 @@
    &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
-                    <info>(Sample image source: Flickr, Airwolfhound)</info>
-                    <info>The &lt;fig> element is another way to add an image to a concept
-                        topic.</info>
-                    <info>The &lt;fig> element you added contains a &lt;title> element and an
-                        &lt;image> element. The &lt;title> element allows you to associate a caption
-                        with your image.</info>
-                    <info>The &lt;image> element is structured the same way inside the &lt;fig>
-                        element as it is inside the &lt;conbody> element.</info>
-                    <info>The &lt;fig> element can contain one or more &lt;image> elements (but only
-                        one &lt;title> element). </info>
                     <info>
-                        <note>
-                            <p>In a &lt;fig> element, the &lt;title> element always goes before the
-                                &lt;image> element in DITA, but the caption could appear above or
-                                below the image (or elsewhere) in the final output.</p>
-                        </note>
+                        <p>(Sample image source: Flickr, Airwolfhound)</p>
+                        <p>The &lt;fig> element is another way to add an image to a concept
+                            topic.</p>
+                        <p>The &lt;fig> element you added contains a &lt;title> element and an
+                            &lt;image> element. The &lt;title> element allows you to associate a
+                            caption with your image.</p>
+                        <p>The &lt;image> element is structured the same way inside the &lt;fig>
+                            element as it is inside the &lt;conbody> element.</p>
+                        <p>The &lt;fig> element can contain one or more &lt;image> elements (but
+                            only one &lt;title> element). </p>
+                        <note>In a &lt;fig> element, the &lt;title> element always goes before the
+                            &lt;image> element in DITA, but the caption could appear above or below
+                            the image (or elsewhere) in the final output. </note>
                     </info>
                 </step>
             </steps>

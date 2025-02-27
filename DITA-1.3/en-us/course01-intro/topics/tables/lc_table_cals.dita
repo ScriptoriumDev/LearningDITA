@@ -30,14 +30,14 @@
                         <row>
                             <entry>Element</entry>
                             <entry>Description</entry>
-                            <entry>Number</entry>
+                            <entry>Notes</entry>
                         </row>
                     </thead>
                     <tbody>
                         <row>
                             <entry>&lt;title></entry>
                             <entry>Contains the title for the table. </entry>
-                            <entry>Zero or one.</entry>
+                            <entry>Table titles are optional but there can only be one. </entry>
                         </row>
                         <row>
                             <entry>&lt;tgroup></entry>

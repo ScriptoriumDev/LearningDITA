@@ -12,6 +12,7 @@
             Scriptorium</author>
         <critdates>
             <created date="2015-05-20"/>
+            <revised modified="2025-02-27"/>
         </critdates>
     </prolog>
     <learningContentbody>
@@ -42,12 +43,14 @@ to the output formatting.&lt;/p></pre>
                 id="image_gn1_zxl_2s"/>
             <p>XML itself does not distinguish between block and inline elements. They use the same
                 markup, so you have to know which elements are blocks and which are inline to figure
-                out how information will be presented. Inline elements are similar to character
-                styles in word processing tools. However, there are other inline elements, such as
-                &lt;fn> (footnote) and &lt;indexterm> (index entry) that are processed differently.
-                For example, &lt;indexterm> entries are processed to create a back-of-the-book
-                index. The text content of &lt;indexterm> does not generally appear at the location
-                where the inline element occurs.</p>
+                out how information will be presented. If using an authoring application instead of
+                a text editor the validation against the DTD can warn you if you use the wrong type
+                of element.  </p>
+            <p>Inline elements are similar to character styles in word processing tools. However,
+                there are other inline elements, such as &lt;fn> (footnote) and &lt;indexterm>
+                (index entry) that are processed differently. For example, &lt;indexterm> entries
+                are processed to create a back-of-the-book index. The text content of &lt;indexterm>
+                does not generally appear at the location where the inline element occurs.</p>
             <pre>&lt;p>An inline element&lt;indexterm>inline element&lt;/indexterm> &lt;i>does not&lt;/i> result in line breaks.&lt;/p></pre>
         </lcInstruction>
     </learningContentbody>

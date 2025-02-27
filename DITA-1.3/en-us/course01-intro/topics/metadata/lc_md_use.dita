@@ -13,6 +13,7 @@
         <author>Sharon Burton</author>
         <critdates>
             <created date="2015-05-01"/>
+            <revised modified="2025-02-27"/>
         </critdates>
     </prolog>
     <learningContentbody>
@@ -22,8 +23,8 @@
                     <li>At the topic level</li>
                     <li>At the element level</li>
                     <li>At the map file level (a map file lets you collect multiple topics to create
-                        a document, help system, and so on; a later module explains map files in
-                        more detail)</li>
+                        a document, help system, and so on; the course “Using DITA maps and
+                        bookmaps” explains map files in more detail)</li>
                 </ul></p>
            <p>At the topic level, DITA provides a &lt;prolog> element in which you can store
                 metadata for the entire topic. Here is an example of basic topic metadata:</p>
@@ -32,7 +33,7 @@
   &lt;prolog>
     &lt;author>Sarah O’Keefe, Scriptorium&lt;/author>
     &lt;critdates>
-      &lt;created date="2015-05-01"/>
+      &lt;created date="2025-02-01"/>
     &lt;/critdates>
   &lt;/prolog>
   &lt;body>
@@ -42,11 +43,11 @@
             <p>The author is specified in the &lt;author> element, and &lt;critdates> provides a
                 spot for &lt;created> and &lt;revised> date elements.</p>
             <p>Some useful prolog elements are:<ul id="ul_mjh_2lw_wr">
-                    <li>&lt;author> (the content author)</li>
-                    <li>&lt;critdates> (critical dates, such as &lt;created> and &lt;revised>)</li>
-                    <li>&lt;copyright> (copyright year &lt;copyryear>, and copyright holder
-                        &lt;copyrholder>)</li>
-                    <li>&lt;vrm> (product version, release, and modification information)</li>
+                    <li>&lt;author> -  the content author</li>
+                    <li>&lt;critdates>- critical dates, such as &lt;created> and &lt;revised></li>
+                    <li>&lt;copyright> - copyright year &lt;copyryear>, and copyright holder
+                        &lt;copyrholder></li>
+                    <li>&lt;vrm> - product version, release, and modification information</li>
                 </ul></p>
             <note type="important">Use the &lt;prolog> metadata only for system information, such as
                 the author and created/revised dates. DITA doesn't use &lt;prolog> metadata to
@@ -67,9 +68,6 @@
 &lt;step>
     &lt;cmd>Put in feeding pan.&lt;/cmd>
 &lt;/step> </pre>
-            <p>
-                <draft-comment author="okeefe">need a video here</draft-comment>
-            </p>
             <p>Only novices need to be reminded that the box provides measurements. When you
                 generate your output, you can suppress the &lt;info> element with the audience =
                 "novice" metadata for an expert-level audience. </p>
@@ -78,11 +76,13 @@
                 output. Here is an example:</p>
             <pre>&lt;topicref href="abc.dita">
 &lt;topicref href="def.dita" <b>audience="novice"</b>></pre>
-            <p>By default, DITA provides you with three attributes that support filtering or
+            <p>By default, DITA provides you with the following attributes that support filtering or
                 conditional processing. They are:<ul id="ul_qnb_2kw_wr">
                     <li>audience</li>
                     <li>product</li>
                     <li>platform</li>
+                    <li>otherprops</li>
+                    <li>deliveryTarget</li>
                 </ul></p>
             <p>If you need additional or different filtering attributes, your information architect
                 will need to specialize to define additional metadata. Some common requirements

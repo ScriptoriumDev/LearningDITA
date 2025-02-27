@@ -100,9 +100,8 @@
                     <cmd>Make a copy of the file lesson3/l_concept_elements_start.dita and open it in your
                         editor.</cmd>
                     <info>
-                        <note>
-                            <p>If you are using a DITA-aware text editor, make sure you are in text
-                                mode, rather than author or visual mode.</p>
+                        <note>If you are using a DITA-aware text editor, make sure you are in text
+                                mode, rather than author or visual mode.
                         </note>
                     </info>
                     <stepxmp>
@@ -130,20 +129,22 @@ during the first &lt;u>two weeks&lt;/u> of their lives.&lt;/p></ph>
 &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
-                    <info>By adding the &lt;b> element to this paragraph, you have indicated that
-                        the words “round-the-clock access” should be rendered in boldface.
-                        Similarly, by adding the &lt;i> element, you have indicated that the words
-                        “food” and “water” should be rendered in italic, and by adding the &lt;u>
-                        element, you have indicated that the words “two weeks” should be rendered
-                        with an underline.</info>
-                    <info>Although these inline elements add emphasis to important words, they have
-                        no other semantic value. Suppose you wanted to define the words
-                        “round-the-clock access” later, or to style them the same way as other words
-                        describing feeding frequency. Rather than using the &lt;b> element to tag
-                        the words simply as bold, you could use the &lt;term> element to tag them as
-                        an important term. </info>
-                    <info>There are similar, more semantically rich alternatives for the &lt;i> and
-                        &lt;u> elements, as you will see in the next step.</info>
+                    <info>
+                        <p>By adding the &lt;b> element to this paragraph, you have indicated that
+                            the words “round-the-clock access” should be rendered in boldface.
+                            Similarly, by adding the &lt;i> element, you have indicated that the
+                            words “food” and “water” should be rendered in italic, and by adding the
+                            &lt;u> element, you have indicated that the words “two weeks” should be
+                            rendered with an underline.</p>
+                        <p>Although these inline elements add emphasis to important words, they have
+                            no other semantic value. Suppose you wanted to define the words
+                            “round-the-clock access” later, or to style them the same way as other
+                            words describing feeding frequency. Rather than using the &lt;b> element
+                            to tag the words simply as bold, you could use the &lt;term> element to
+                            tag them as an important term. </p>
+                        <p>There are similar, more semantically rich alternatives for the &lt;i> and
+                            &lt;u> elements, as you will see in the next step.</p>
+                    </info>
                 </step>
                 <step>
                     <cmd>After the &lt;p> element, add another &lt;p> element containing the same

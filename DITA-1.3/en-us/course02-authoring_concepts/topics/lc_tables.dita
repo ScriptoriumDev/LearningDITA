@@ -70,18 +70,14 @@
                 <image href="../media/images_and_tables/table.png" id="image_ulh_wmn_2t" base="2016/08"/>
             </fig><p>Continue using the file lesson2/l_concept_images_tables_start.dita to add the &lt;table>
                 element.</p>
-            <note>
-                <p>If you are using a DITA editor, some child elements of the &lt;table> element
-                    will automatically be inserted as you work through the examples.</p>
-            </note>
+            <note>If you are using a DITA editor, some child elements of the &lt;table> element will
+                automatically be inserted as you work through the examples.</note>
             <p>Video: <xref href="https://www.youtube.com/watch?v=PFWz_Vsyxwg" format="html"
                     scope="external">Creating a table in DITA</xref></p>
-            <note>
-                <p>This video shows an alternative way to create a table in DITA using the <xref
-                        href="https://oxygenxml.com/" format="html" scope="external">oXygen XML
-                        Editor</xref> table wizard. The exercises show you how to create a table
-                    using DITA code.</p>
-            </note></lcInstruction>
+            <note>This video shows an alternative way to create a table in DITA using the <xref
+                    href="https://oxygenxml.com/" format="html" scope="external">oXygen XML
+                    Editor</xref> table wizard. The exercises show you how to create a table using
+                DITA code.</note></lcInstruction>
     </learningContentbody>
     <task id="task_tables1">
         <title>Adding the &lt;table> element</title>
@@ -141,13 +137,15 @@
 &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
-                    <info>The &lt;tgroup> element contains the body of the table. The number of
-                        table columns is set inside the &lt;tgroup> element using the cols
-                        attribute. In the example you added, cols="2" shows that this table will
-                        contain two columns.</info>
-                    <info>A single &lt;table> element can contain more than one &lt;tgroup> element,
-                        which is useful if you need to show more than one table with different
-                        headers or numbers of columns under the same title.</info>
+                    <info>
+                        <p>The &lt;tgroup> element contains the body of the table. The number of
+                            table columns is set inside the &lt;tgroup> element using the cols
+                            attribute. In the example you added, cols="2" shows that this table will
+                            contain two columns.</p>
+                        <p>A single &lt;table> element can contain more than one &lt;tgroup>
+                            element, which is useful if you need to show more than one table with
+                            different headers or numbers of columns under the same title.</p>
+                    </info>
                 </step>
                 <step>
                     <cmd>Inside the &lt;tgroup> element, add two &lt;colspec> elements and add content to
@@ -166,14 +164,17 @@
 &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
-                    <info>The &lt;colspec> element sets up your table columns and specifies
-                        information about them (such as their names, sequence, and widths) using
-                        attributes. In the example you added, the colname attribute was used to name
-                        your columns "c1" and "c2" and the colnum attribute was used to designate
-                        the order in which these columns appear. </info>
-                    <info>The optional colwidth attribute can be used to control the proportions of
-                        the column widths. In the example you added, the colwidth attribute is the
-                        same for each column, meaning that they will display at equal widths.</info>
+                    <info>
+                        <p>The &lt;colspec> element sets up your table columns and specifies
+                            information about them (such as their names, sequence, and widths) using
+                            attributes. In the example you added, the colname attribute was used to
+                            name your columns "c1" and "c2" and the colnum attribute was used to
+                            designate the order in which these columns appear. </p>
+                        <p>The optional colwidth attribute can be used to control the proportions of
+                            the column widths. In the example you added, the colwidth attribute is
+                            the same for each column, meaning that they will display at equal
+                            widths.</p>
+                    </info>
                 </step>
                 <step>
                     <cmd>After the last &lt;colspec> element, add the &lt;thead> element as shown in

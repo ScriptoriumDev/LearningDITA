@@ -112,9 +112,9 @@
    &lt;/refbody> 
 &lt;/reference></pre>
                     </stepxmp>
-                    <info><note><p>While not all required, the elements added here must be in this
+                    <info><note>While not all required, the elements added here must be in this
                                 specific order. If they are not, your document will not
-                                validate.</p></note></info>
+                                validate.</note></info>
                 </step>
                 <step>
                     <cmd>After the &lt;prophead> element, add a &lt;property> element.</cmd>
@@ -157,10 +157,10 @@
 &lt;/reference></pre>
                     </stepxmp>
                     <info>
-                        <note><p>If you omit any of the headers, you should also omit the associated
+                        <note>If you omit any of the headers, you should also omit the associated
                                 property element. For example, if your &lt;prophead> element does
                                 not contain a &lt;propdeschd>, you should omit the &lt;propdesc>
-                                element within your &lt;property> elements.</p></note>
+                                element within your &lt;property> elements.</note>
                     </info>
                 </step>
                 <step>

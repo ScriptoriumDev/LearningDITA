@@ -12,6 +12,7 @@
             Scriptorium</author>
         <critdates>
             <created date="2015-04-28"/>
+            <revised modified="2024-02-27"/>
         </critdates>
     </prolog>
     <learningContentbody>
@@ -21,8 +22,8 @@
                 edit with Windows Notepad). The markup language you might be most familiar with is
                 HTML, which is the fundamental markup language for the world wide web. </p>
             <p>DITA is built on the XML markup language. XML looks a lot like HTML. They both use
-                angle brackets (&lt; and >) to identify the markup tags (for example &lt;title>). In
-                both languages a forward slash identifies a close tag (&lt;/title>)</p>
+                angle brackets (&lt; and >) to identify the markup tags (for example, &lt;title>). In
+                both languages a forward slash identifies a close tag (&lt;/title>).</p>
             <pre>&lt;title>This is a title&lt;/title></pre>
             <p> In HTML and in XML, the tags can also have attributes (in the form
                     <tt>attribute="value"</tt>) that provide further information about the tag:</p>
@@ -44,7 +45,7 @@
             <p>One other difference in naming: in HTML, the outer-most or “root” tag is &lt;html>.
                 In DITA, the name of the root tag depends on the type of topic you're creating, such
                 as &lt;concept>, &lt;task>, or &lt;reference> (among others). </p>
-            <note>It’s useful to know how the markup looks in XML and DITA. However much of the time
+            <note>It’s useful to know how the markup looks in XML and DITA. However, much of the time
                 you'll be creating DITA content using smart authoring tools that handle the
                 individual tags and attributes for you. </note>
             <!--<p>The most commonly used markup language is HTML. XML is similar to HTML. It also uses angle brackets to indicate elements (like &lt;p>). Many of the tags in DITA XML are also found in HTML.</p><p>In XML, you must be careful to open and close all tags properly. HTML is forgiving when you make mistakes. XML requires you to provide a file that is tagged correctly. If you make any error in the encoding, parsing stops. This is known as draconian error handling, and it is a controversial part of the XML specification.</p><p>DITA is a markup language and is a flavor of XML. DITA allows you to mark up content semantically. The tag markup tells the author about the meaning of the markup.</p>-->

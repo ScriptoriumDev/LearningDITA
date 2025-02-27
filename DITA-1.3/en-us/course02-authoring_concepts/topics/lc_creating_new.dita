@@ -40,10 +40,8 @@
                     <cmd>Make a copy of the file lesson1/l_new_concept_start.dita and open it in
                         your editor.</cmd>
                     <info>
-                        <note>
-                            <p>If you are using a DITA-aware text editor, make sure you are in text
-                                mode, rather than author or visual mode.</p>
-                        </note>
+                        <note>If you are using a DITA-aware text editor, make sure you are in text
+                                mode, rather than author or visual mode.</note>
                     </info>
                     <stepxmp>
                         <p>You should see this:</p>
@@ -70,10 +68,8 @@
                     <cmd>Inside the &lt;title> element, change the text of the title as shown in the
                         following example.</cmd>
                     <info>
-                        <note>
-                            <p>When working inside an element, insert the content between the
-                                opening and closing tags.</p>
-                        </note>
+                        <note>When working inside an element, insert the content between the
+                                opening and closing tags.</note>
                     </info>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
@@ -86,10 +82,8 @@
                 <step>
                     <cmd>After the &lt;title> element, add a &lt;conbody> element.</cmd>
                     <info>
-                        <note>
-                            <p>When adding an element after another element, insert the new element
-                                after the closing tag of the first element.</p>
-                        </note>
+                        <note>When adding an element after another element, insert the new element
+                                after the closing tag of the first element.</note>
                     </info>
                     <stepxmp>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
