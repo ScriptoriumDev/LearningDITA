@@ -17,11 +17,14 @@
     <learningContentbody>
         <lcInstruction>
             <draft-comment author="simonbate">Check that this works in transforms. </draft-comment>
-            <p>Download the sample files shown at the beginning of this lesson. <!--Download <xref
+            <!--Download <xref
                     href="https://www.learningdita.com/wp-content/uploads/2018/01/task_samples.zip"
-                    format="zip" scope="external">task_samples.zip</xref> now.--> It contains the
-                sample files for the entire Authoring DITA tasks course. Extract the contents and
-                put them in a directory that you can access easily.</p>
+                    format="zip" scope="external">task_samples.zip</xref> now.-->
+            <p>Download the <b>Course 3 Sample Files</b> on the Navigation panel under Resources.
+                The task_samples.zip contains the sample files for the entire Authoring DITA tasks
+                course. Extract the contents and put them in a directory that you can access
+                easily.</p>
+            <image placement="break" href="../../shared/media/download_samples.png"/>
             <p>Inside the samples folder, you will find the file l_task_start.dita, which you will
                 use to complete exercises throughout the course. You will also find the following
                 folders corresponding to lessons in this course: lesson1, lesson2, and lesson3.</p>
