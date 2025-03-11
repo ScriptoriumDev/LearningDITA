@@ -64,7 +64,7 @@
    &lt;mapref href="_m_breeds.ditamap"/>
    ...
 &lt;/map></pre>
-                        <p>A reusable map itself can contain refererences to other reusable maps
+                        <p>A reusable map itself can contain references to other reusable maps
                             (using &lt;mapref> or &lt;topic format=“ditamap”>).</p>
                         <p><b>A note about bookmaps and reusable submaps:</b> When using a bookmap,
                             you cannot add a &lt;mapref> (or &lt;topicref format="ditamap">) element

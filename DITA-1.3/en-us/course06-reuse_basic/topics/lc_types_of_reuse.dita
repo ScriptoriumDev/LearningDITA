@@ -14,23 +14,23 @@
         <lcInstruction>
             <p>DITA offers the following reuse facilities: topics and maps, fragments, variables,
                 and filtering.</p>
-            <p><i>Topics and maps:</i> Topic- and map-level reuse is one of the most straightforward
+            <p><b>Topics and maps:</b> Topic- and map-level reuse is one of the most straightforward
                 ways to reuse content. You can achieve this type of reuse by referencing the same
                 topic in more than one map. Such topics might include boilerplate safety information
                 or common installation instructions that apply to multiple products. Similarly, you
                 can reuse one map in multiple places. For example, the map for a product datasheet
                 might be published individually, and also as part of a larger bookmap for that
                 product’s user manual.</p>
-            <p><i>Fragments (conrefs):</i> Fragment-level reuse involves pulling shared pieces of
+            <p><b>Fragments (conrefs):</b> Fragment-level reuse involves pulling shared pieces of
                 content (usually elements) from a common source into a topic. Examples of the shared
                 content include paragraphs, lists or list items, tables, or sections. In DITA, the
                 content reference (or conref) mechanism implements fragment-level reuse.
                 Fragment-level reuse can also be used in DITA maps. </p>
-            <p><i>Variables (keys):</i> In variable-level reuse, you add a placeholder to your
+            <p><b>Variables (keys):</b> In variable-level reuse, you add a placeholder to your
                 content that is replaced by a piece of text when you generate your output. The
                 replacement text varies depending on the circumstances. Variable-level reuse is used
                 for inline content, such as company names, product names, URLs, or filenames. </p>
-            <p><i>Filtering (conditions):</i> Filtering allows you to selectively remove certain
+            <p><b>Filtering (conditions):</b> Filtering allows you to selectively remove certain
                 pieces of content, based on different conditions, to create product- or
                 customer-specific deliverables. For example, when documenting two similar products,
                 a basic version of the product does not have features that are available in a more

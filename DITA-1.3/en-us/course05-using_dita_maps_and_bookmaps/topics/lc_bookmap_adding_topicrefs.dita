@@ -41,10 +41,9 @@
                 differentiate your heading levels, whether it’s by decreasing font sizes or
                 increasing indents. This could cause confusion for people who are trying to read
                 your content.</p>
-            <note>
-                <p>For more information about the &lt;chapter> element, see the <xref
+            <note>For more information about the &lt;chapter> element, see the <xref
                     href="https://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/technicalContent/chapter.html#chapter"
-                        format="html" scope="external">OASIS DITA Version 1.3 Standard &lt;chapter></xref>.</p>
+                        format="html" scope="external">OASIS DITA Version 1.3 Standard &lt;chapter></xref>.
             </note>
         </lcInstruction>
     </learningContentbody>
@@ -63,10 +62,10 @@
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
 &lt;bookmap id="ducks">
-...
-&lt;/booktitle>
-<ph outputclass="newchanged">&lt;chapter href="c_wild_ducks.dita">
-&lt;/chapter></ph>
+     ...
+ &lt;/booktitle>
+<ph outputclass="newchanged">   &lt;chapter href="c_wild_ducks.dita">
+   &lt;/chapter></ph>
 &lt;/bookmap></pre>
                     </stepxmp>
                     <info>This &lt;chapter> element creates a link to the concept topic

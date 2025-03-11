@@ -9,16 +9,25 @@
             Scriptorium</author>
         <author href="https://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
             Scriptorium</author>
+        <author href="https://www.scriptorium.com" scope="external" format="html">Melissa Kershes,
+            Scriptorium</author>
         <critdates>
             <created date="2016-03-07"/>
+            <revised modified="2025-03-11"/>
         </critdates>
     </prolog>
     <learningContentbody>
         <lcInstruction>
+            <!-- [SP] MAK 2025-03-11  Updating to indicate that the format="ditamap" on the mapref is implied. 
+            And note that it's equivalent to topicref href with format="ditamap" -->
             <p>The &lt;mapref> element is structured as follows:</p>
-            <pre>&lt;mapref href="filepath/filename.ditamap" format="ditamap"></pre>
+            <!--<pre>&lt;mapref href="filepath/filename.ditamap" format="ditamap"></pre>-->
+            <pre>&lt;mapref href="filepath/filename.ditamap"></pre>
+            
             <p>The href attribute contains a link to another map that is referenced in your main
-                map. The format attribute specifies that you are linking to a DITA map.</p>
+                map. The format attribute is implied to be a ditamap by using the mapref element. It
+                is equivalent to:</p>
+            <pre>&lt;topicref href="filepath/filename.ditamap" format=”ditamap”></pre>
             <p>The &lt;mapref> element may only contain the &lt;topicmeta>, &lt;data>, and
                 &lt;data-about> metadata elements. You cannot nest &lt;topicref> or &lt;mapref>
                 elements inside a &lt;mapref> element in DITA.</p>
@@ -29,10 +38,9 @@
                 multiple maps.</p>
             <p>In addition to reuse, the &lt;mapref> element gives you added flexibility when you
                 publish your content. You can group related maps together in a larger map so that you can quickly deliver all of the content for an entire product family. You can also use the &lt;mapref> element to add a glossary to a map, as you’ll learn to do in the following example.</p>
-            <note>
-                <p>For more information about the &lt;mapref> element, see the <xref
+            <note>For more information about the &lt;mapref> element, see the <xref
                     href="https://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/base/mapref.html#mapref"
-                        format="html" scope="external">OASIS DITA Version 1.3 Standard &lt;mapref></xref>.</p>
+                        format="html" scope="external">OASIS DITA Version 1.3 Standard &lt;mapref></xref>.
             </note>
         </lcInstruction>
     </learningContentbody>
@@ -53,8 +61,8 @@
 &lt;map id="ducks">
 &lt;title>Ducks&lt;/title>
 ...
-&lt;/topicref>
-<ph outputclass="newchanged">&lt;mapref href="g_duck_glossorg.ditamap" format="ditamap"/></ph>
+    &lt;/topicref>
+<ph outputclass="newchanged">    &lt;mapref href="g_duck_glossorg.ditamap" format="ditamap"/></ph>
 &lt;/map></pre>
                     </stepxmp>
                     <info>This &lt;mapref> element creates a link to the glossary

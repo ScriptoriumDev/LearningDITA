@@ -22,9 +22,8 @@
                 information in the relationship table is most commonly used by a DITA processor to
                 generate lists of related links. However, the information can be used in many other
                 ways, depending on the capabilities of the output processor and the target output
-                format. </p><note>
-                <p>Although the information is maintained in a tabular format and the containers are
-                    called “relationship tables,” the table itself is never displayed in output.</p>
+                format. </p><note>Although the information is maintained in a tabular format and the containers are
+                    called “relationship tables,” the table itself is never displayed in output.
             </note><ul id="ul_a1z_zpt_jv">
                 <li>Maintaining topic associations in a relationship table (rather than using
                     embedded cross-references) ensures that the topics are reusable. If a topic
@@ -66,11 +65,10 @@
                     output topic.</li>
                 <li>If required (and if supported by the output generator), the list of links can be
                     grouped and labeled by the columns defined in the relationship table. </li>
-            </ul><note>
-                <p>For more information about the &lt;reltable> element and the elements it
-                    contains., see the <xref
+            </ul><note>For more information about the &lt;reltable> element and the elements it
+                    contains, see the <xref
                         href="https://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/base/reltable.html#reltable"
-                        format="html" scope="external">OASIS DITA Version 1.3 Standard - Reltable</xref>.</p>
+                        format="html" scope="external">OASIS DITA Version 1.3 Standard - Reltable</xref>.
             </note><!--<draft-comment>In maps and bookmaps, the &lt;topicref> elements indicates the order
                 and hierarchical structure of the content. The &lt;topicref> elements are also used
                 in relationship tables, but in that case the position of the &lt;topicref> in the

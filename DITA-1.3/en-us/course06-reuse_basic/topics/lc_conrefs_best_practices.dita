@@ -23,7 +23,7 @@
             <p>Although most DITA editors will automatically assign unique IDs to elements that
                 might be reused, it is often preferable to give human-readable IDs to reusable
                 elements. The down side to this is that there’s a much greater chance of ID
-                collisions. You can do two things to help avoid these collisions</p>
+                collisions. You can do the following to help avoid these collisions</p>
             <ul id="ul_drc_hz3_mw">
                 <li>Create a naming convention for the IDs so that there’s a much lower chance of
                     collisions</li>
@@ -45,14 +45,9 @@
                     sentences. </li>
                 <li>When you do conref, do it with whole block elements that
                     meet the following requirements: <ul id="ul_rcd_xry_dw">
-                        <li>
-                            <p>The reused content is grammatically
-                                independent.</p>
-                        </li>
-                        <li>
-                            <p>The referenced element and referencing element use
-                                the same context.</p>
-                        </li>
+                        <li>The reused content is grammatically independent.</li>
+                        <li>The referenced element and referencing element use the same
+                            context.</li>
                     </ul>
                 </li>
             </ul>

@@ -9,8 +9,11 @@
             Scriptorium</author>
         <author href="https://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
             Scriptorium</author>
+        <author href="https://www.scriptorium.com" scope="external" format="html">Melissa Kershes,
+            Scriptorium</author>
         <critdates>
             <created date="2016-03-07"/>
+            <revised modified="2025-03-11"/>
         </critdates>
     </prolog>
     <learningContentbody>
@@ -30,6 +33,11 @@
             <p>This lesson shows how to create a new DITA map and how to add references to other
                 topics and maps.  </p>
         </lcIntro>
+        <section>
+            <p id="download">Download the <b>Course 5 Ditamaps</b> on the Navigation panel under
+                Resources. The course-5-ditamaps.pptx file contains more information about this
+                course.</p>
+        </section>
     </learningContentbody>
     <related-links>
         <link
@@ -47,7 +55,8 @@
             format="html" scope="external">
             <linktext>DITA Style Guide, The topicref element</linktext>
         </link>
-        <link href="https://www.learningdita.com/wp-content/uploads/2016/04/Module-6-Ditamaps.pptx" format="html" scope="external"><linktext>Ditamaps, contributed by Pam Noreault, Tracey Chalmers, 
-            and Julie Landman</linktext></link>
+        <!-- [SP] MAK 2025-03-11  Removing link in to describe it above since it's in resources now. -->
+        <!--<link href="https://www.learningdita.com/wp-content/uploads/2016/04/Module-6-Ditamaps.pptx" format="html" scope="external"><linktext>Ditamaps, contributed by Pam Noreault, Tracey Chalmers, 
+            and Julie Landman</linktext></link>-->
     </related-links>
 </learningContent>

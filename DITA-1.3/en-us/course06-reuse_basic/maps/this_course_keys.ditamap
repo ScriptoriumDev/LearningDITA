@@ -2,10 +2,18 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <map>
- <title>Keys for reusing elements advanced</title>
- <keydef keys="sample_file" href="https://www.learningdita.com/wp-content/uploads/2016/07/reuse_basic_samples.zip" format="zip" scope="external">
+ <title>Keys for basic reuse</title>
+ <keydef keys="sample_file">
   <topicmeta>
    <linktext>reuse_basic_samples.zip</linktext>
+  </topicmeta>
+ </keydef>
+ 
+ <keydef keys="sample_display_name">
+  <topicmeta>
+   <keywords>
+    <keyword>Course 6 Sample Files</keyword>
+   </keywords>
   </topicmeta>
  </keydef>
  

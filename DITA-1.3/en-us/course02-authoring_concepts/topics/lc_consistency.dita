@@ -20,11 +20,11 @@
             <p>One negative side effect of inconsistent tagging is mixed content. Suppose you have
                 the following unordered list:</p>
             <pre>&lt;ul>
-&lt;li>text&lt;/li>
-&lt;li>text&lt;/li>
-&lt;li>text
-&lt;p>text&lt;/p>
-&lt;/li>
+    &lt;li>text&lt;/li>
+    &lt;li>text&lt;/li>  
+    &lt;li>text
+       &lt;p>text&lt;/p>
+    &lt;/li>
 &lt;/ul></pre>
             <p>In this example, the last list item contains two paragraphs. Because the &lt;p>
                 element is valid inside the &lt;li> element, it is possible to tag each paragraph
@@ -35,12 +35,12 @@
             <p>To avoid having mixed content, surround all text inside an &lt;li> element with
                 &lt;p> tags, whether you are tagging one paragraph or more:</p>
             <pre>&lt;ul>
-&lt;li>&lt;p>text&lt;/p>&lt;/li>
-&lt;li>&lt;p>text&lt;/p>&lt;/li>
-&lt;li>
-&lt;p>text&lt;/p>
-&lt;p>text&lt;/p>
-&lt;/li>
+    &lt;li>&lt;p>text&lt;/p>&lt;/li>
+    &lt;li>&lt;p>text&lt;/p>&lt;/li>
+    &lt;li>
+      &lt;p>text&lt;/p>
+      &lt;p>text&lt;/p>
+    &lt;/li>
 &lt;/ul></pre>
             <p>In addition to the &lt;li> element, we recommend that text inside the &lt;note>,
                 &lt;entry>, and &lt;stentry> elements be surrounded with &lt;p> tags in case there

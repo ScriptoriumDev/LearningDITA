@@ -16,7 +16,7 @@
                 <li>The <b><i>referenced element</i></b>, which contains the content you want to
                     reuse. This element must have an ID attribute.</li>
                 <li>The <b><i>referencing element</i></b>, which marks where the reused content
-                    should be inserted</li>
+                    should be inserted.</li>
             </ul><note type="note">If the element you want to reuse does not
                 have an ID, your DITA editor or content management system might prompt you to create
                 an ID for the reused element as one of the steps in creating the conref. An ID must

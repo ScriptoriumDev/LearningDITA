@@ -60,11 +60,10 @@
 &lt;/copyright>
 &lt;category>Category name&lt;/category>
 &lt;/topicmeta></pre>
-            <note>
-                <p>For more information about the &lt;topicmeta> element and the elements it
+            <note>For more information about the &lt;topicmeta> element and the elements it
                     contains, see the <xref
                         href="https://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/base/topicmeta.html#topicmeta"
-                        format="html" scope="external">OASIS DITA Version 1.3 Standard &lt;topicmeta></xref>.</p>
+                        format="html" scope="external">OASIS DITA Version 1.3 Standard &lt;topicmeta></xref>.
             </note>
         </lcInstruction>
     </learningContentbody>
@@ -129,13 +128,13 @@
 &lt;map id="ducks">
 &lt;title>Ducks&lt;/title>
 ...
-&lt;topicref href="c_duckdb.dita">
-<ph outputclass="newchanged">&lt;topicmeta>
-&lt;audience type="user" experiencelevel="expert"/>
-&lt;/topicmeta></ph>
-&lt;topicref href="c_writing_about_ducks.dita"/>
+  &lt;topicref href="c_duckdb.dita">
+<ph outputclass="newchanged">    &lt;topicmeta>
+        &lt;audience type="user" experiencelevel="expert"/>
+    &lt;/topicmeta></ph>
+  &lt;topicref href="c_writing_about_ducks.dita"/>
 ...
-&lt;/topicref>
+  &lt;/topicref>
 ...
 &lt;/map></pre>
                     </stepxmp>
@@ -159,11 +158,11 @@
 &lt;map id="ducks">
 &lt;title>Ducks&lt;/title>
 ...
-&lt;mapref href="g_duck_glossorg.ditamap" format="ditamap">
-<ph outputclass="newchanged">&lt;topicmeta>
-&lt;searchtitle>Duck Glossary&lt;/searchtitle>
-&lt;/topicmeta></ph>
-&lt;/mapref>
+  &lt;mapref href="g_duck_glossorg.ditamap" format="ditamap">
+      <ph outputclass="newchanged">&lt;topicmeta>
+         &lt;searchtitle>Duck Glossary&lt;/searchtitle>
+      &lt;/topicmeta></ph>
+  &lt;/mapref>
 &lt;/map></pre>
                     </stepxmp>
                     <info>The &lt;topicmeta> element you just added establishes the following
