@@ -18,11 +18,11 @@
      additional list items, are the lists a candidate for reuse?</lcQuestion>
     <lcAnswerOptionGroup id="lcAnswerOptionGroup_h3n_xv1_mw">
      <lcAnswerOption>
-      <lcAnswerContent>Yes</lcAnswerContent>
+      <lcAnswerContent>True</lcAnswerContent>
       <lcCorrectResponse/>
      </lcAnswerOption>
      <lcAnswerOption>
-      <lcAnswerContent>No</lcAnswerContent>
+      <lcAnswerContent>False</lcAnswerContent>
      </lcAnswerOption>
     </lcAnswerOptionGroup>
     <lcFeedbackIncorrect>If one list is a subset of another list, it is a candidate for
