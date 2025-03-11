@@ -42,10 +42,9 @@
                         the end of a book, such as an index or a glossary.</p>
                 </li>
             </ul>
-            <note>
-                <p>For more information about the &lt;bookmap> element, see the <xref
+            <note>For more information about the &lt;bookmap> element, see the <xref
                     href="https://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/technicalContent/bookmap.html#bookmap"
-                        format="html" scope="external">OASIS DITA Version 1.3 Standard &lt;bookmap></xref>.</p>
+                        format="html" scope="external">OASIS DITA Version 1.3 Standard &lt;bookmap></xref>.
             </note>
         </lcInstruction>
     </learningContentbody>
@@ -58,9 +57,8 @@
                         maps_bookmaps_samples/samples/_b_ducks_start.ditamap and open it in your
                         editor.</cmd>
                     <info>
-                        <note>
-                            <p>If you are using a DITA-aware text editor, make sure you are in text
-                                mode, rather than author or visual mode.</p>
+                        <note>If you are using a DITA-aware text editor, make sure you are in text
+                                mode, rather than author or visual mode.
                         </note>
                     </info>
                     <stepxmp>
@@ -88,8 +86,8 @@
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
 &lt;bookmap id="ducks">
-<ph outputclass="newchanged">&lt;booktitle>
-&lt;/booktitle></ph>
+<ph outputclass="newchanged">    &lt;booktitle>
+    &lt;/booktitle></ph>
 &lt;/bookmap>
 </pre>
                     </stepxmp>
@@ -101,9 +99,9 @@
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
 &lt;bookmap id="ducks">
-&lt;booktitle>
-<ph outputclass="newchanged">&lt;mainbooktitle>Main book title&lt;/mainbooktitle></ph>
-&lt;/booktitle>
+    &lt;booktitle>
+        <ph outputclass="newchanged">&lt;mainbooktitle>Main book title&lt;/mainbooktitle></ph>
+    &lt;/booktitle>
 &lt;/bookmap></pre>
                     </stepxmp>
                     <info>Now that you have set up the basic framework of your bookmap, you can

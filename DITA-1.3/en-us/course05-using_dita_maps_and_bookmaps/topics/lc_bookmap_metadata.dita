@@ -9,8 +9,11 @@
             Scriptorium</author>
         <author href="https://www.scriptorium.com" scope="external" format="html">Gretyl Kinsey,
             Scriptorium</author>
+        <author href="https://www.scriptorium.com" scope="external" format="html">Melissa Kershes,
+            Scriptorium</author>
         <critdates>
             <created date="2016-03-07"/>
+            <revised modified="2025-03-11"/>
         </critdates>
     </prolog>
     <learningContentbody>
@@ -68,32 +71,32 @@
             &lt;/organizationinfo>
         &lt;/authorinformation>
         &lt;critdates>
-            &lt;created date="1/1/2001"/>
-            &lt;revised modified="1/1/2016"/>
+            &lt;created date="1/1/2016"/>
+            &lt;revised modified="1/1/2025"/>
         &lt;/critdates>
         &lt;bookid>
             &lt;edition>4&lt;/edition>
             &lt;booknumber>ID-9999&lt;/booknumber>
             &lt;volume>2&lt;/volume>
         &lt;/bookid> 
-    &lt;/bookmeta></pre><p>This
-                example also shows how the  information is much more sophisticated in bookmaps than
-                it is in maps. Although the &lt;author> element is available in both bookmaps and
-                maps, the &lt;authorinformation> element is only available in bookmaps. The
-                &lt;authorinformation> element can contain far more information, tagged in a way
-                that provides more semantic value.  </p><p>The &lt;topicmeta> element is available
-                in both maps and bookmaps, but the bookmap structure allows it to be used in more
-                places. For example, you can apply the &lt;topicmeta> element to a preface in the
-                book’s frontmatter, or to a glossary in the book’s backmatter. You can also apply
-                the &lt;topicmeta> element to a chapter, topic reference, or map reference in a
-                bookmap. When used in a bookmap, the &lt;topicmeta> element can contain all the same
-                &lt;metadata> elements that it can contain in a map, plus the &lt;authorinformation>
-                element.</p><note>
-                <p>For more information about the &lt;bookmeta> element and the elements it
-                    contains, see the <xref
-                        href="https://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/technicalContent/bookmeta.html#bookmeta"
-                        format="html" scope="external">OASIS DITA Version 1.3 Standard &lt;bookmeta></xref>.</p>
-            </note></lcInstruction>
+    &lt;/bookmeta></pre><p>This example also shows how the information is much more
+                sophisticated in bookmaps than it is in maps. Although the &lt;author> element is
+                available in both bookmaps and maps, the &lt;authorinformation> element is only
+                available in bookmaps. The &lt;authorinformation> element can contain far more
+                information, tagged in a way that provides more semantic value. </p><p>The
+                &lt;topicmeta> element is available in both maps and bookmaps, but the bookmap
+                structure allows it to be used in more places. For example, you can apply the
+                &lt;topicmeta> element to a preface in the book’s frontmatter, or to a glossary in
+                the book’s backmatter. You can also apply the &lt;topicmeta> element to a chapter,
+                topic reference, or map reference in a bookmap. When used in a bookmap, the
+                &lt;topicmeta> element can contain all the same &lt;metadata> elements that it can
+                contain in a map, plus the &lt;authorinformation> element.</p>
+            <note>For more
+                information about the &lt;bookmeta> element and the elements it contains, see the
+                    <xref
+                    href="https://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/technicalContent/bookmeta.html#bookmeta"
+                    format="html" scope="external">OASIS DITA Version 1.3 Standard
+                    &lt;bookmeta></xref>. </note></lcInstruction>
     </learningContentbody>
     <task id="task_bookmap_metadata">
         <title/>
@@ -118,10 +121,10 @@
     &lt;author>Your Name Here&lt;/author>
     &lt;bookrights>
       &lt;copyrfirst>
-        &lt;year>2015&lt;/year>
+        &lt;year>2023&lt;/year>
       &lt;/copyrfirst>
       &lt;copyrlast>
-        &lt;year>2016&lt;/year>
+        &lt;year>2025&lt;/year>
       &lt;/copyrlast>
       &lt;bookowner>
         &lt;organization>BookCo&lt;/organization>
@@ -136,7 +139,7 @@
                                 <p>You authored this book</p>
                             </li>
                             <li>
-                                <p>The initial copyright was in 2015, and was renewed in 2016</p>
+                                <p>The initial copyright was in 2023, and was renewed in 2025</p>
                             </li>
                             <li>
                                 <p>The book was produced by BookCo</p>
@@ -154,9 +157,9 @@
 ...
 &lt;/bookmeta>
 &lt;chapter href="c_wild_ducks.dita">
-<ph outputclass="newchanged">&lt;topicmeta>
-&lt;category>Wild ducks&lt;/category>
-&lt;/topicmeta></ph>
+    <ph outputclass="newchanged">&lt;topicmeta> 
+       &lt;category>Wild ducks&lt;/category>
+    &lt;/topicmeta></ph>
 ...
 &lt;/chapter>
 &lt;/bookmap></pre>

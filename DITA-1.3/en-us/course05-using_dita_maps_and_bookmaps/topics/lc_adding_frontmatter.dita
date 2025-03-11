@@ -22,7 +22,7 @@
                 &lt;backmatter> element must appear before the &lt;reltable> element but after the
                 last &lt;chapter> or &lt;appendix> element, if present.</p>
             <p>The &lt;frontmatter> and &lt;backmatter> elements are most commonly used to contain
-                the &lt;booklists> element. Booklists  indicate to a DITA processor where to place
+                the &lt;booklists> element. Booklists indicate to a DITA processor where to place
                 automatically generated output, such as a table of contents or an index. Common
                 elements inside the &lt;booklists> element include:</p>
             <ul>
@@ -41,16 +41,15 @@
                 linking to glossary entries or one or more &lt;mapref> elements linking to glossary
                 maps. Glossary entries and glossary maps may be used outside of a &lt;glossarylist>,
                 but grouping them within a &lt;glossarylist> allows you to filter and format them
-                more uniformly.</p><note>
-                <p>For more information about the &lt;frontmatter> and &lt;backmatter> elements, see
-                        <xref
-                            href="https://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/technicalContent/frontmatter.html#frontmatter"
-                        format="html" scope="external">frontmatter</xref> and <xref
-                            href="https://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/technicalContent/backmatter.html#backmatter"
-                        format="html" scope="external">backmatter</xref> in the OASIS DITA Version
-                    1.3 Standard.</p>
-                </note>
-            <p><xref href="https://youtu.be/Z6Df7sG4Olk" format="html" scope="external">Video: The DITA booklists element</xref></p>
+                more uniformly.</p><note>For more information about the &lt;frontmatter> and
+                &lt;backmatter> elements, see <xref
+                    href="https://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/technicalContent/frontmatter.html#frontmatter"
+                    format="html" scope="external">frontmatter</xref> and <xref
+                    href="https://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/technicalContent/backmatter.html#backmatter"
+                    format="html" scope="external">backmatter</xref> in the OASIS DITA Version 1.3
+                Standard. </note>
+            <p><xref href="https://youtu.be/Z6Df7sG4Olk" format="html" scope="external">Video: The
+                    DITA booklists element</xref></p>
         </lcInstruction>
     </learningContentbody>
     <task id="task_t55_thx_kv">

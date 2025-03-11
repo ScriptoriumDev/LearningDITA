@@ -45,10 +45,9 @@
                 levels deep (and, ideally, no more than two or three).</p>
             <p><xref href="https://youtu.be/3rDlOvDguiw" format="html" scope="external">Video:
                 Creating a DITA map</xref></p>
-            <note>
-                <p>For more information about the &lt;topicref> element, see the <xref
+            <note>For more information about the &lt;topicref> element, see the <xref
                     href="https://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/base/topicref.html#topicref"
-                        format="html" scope="external">OASIS DITA Version 1.3 Standard &lt;topicref></xref>.</p>
+                        format="html" scope="external">OASIS DITA Version 1.3 Standard &lt;topicref></xref>.
             </note>
         </lcInstruction>
     </learningContentbody>
@@ -69,7 +68,7 @@
 &lt;map id="ducks">
 &lt;title>Ducks&lt;/title>
 <ph outputclass="newchanged">   &lt;topicref href="c_wild_ducks.dita">
-&lt;/topicref></ph>
+   &lt;/topicref></ph>
 &lt;/map></pre>
                     </stepxmp>
                     <info>This &lt;topicref> element creates a link to the concept topic
@@ -83,9 +82,9 @@
 &lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 &lt;map id="ducks">
 &lt;title>Ducks&lt;/title>
-&lt;topicref href="c_wild_ducks.dita">
-<ph outputclass="newchanged">   &lt;topicref href="c_wild_duck_types.dita"/></ph>
-&lt;/topicref>
+   &lt;topicref href="c_wild_ducks.dita">
+<ph outputclass="newchanged">      &lt;topicref href="c_wild_duck_types.dita"/></ph>
+   &lt;/topicref>
 &lt;/map></pre>
                     </stepxmp>
                     <info>By placing this &lt;topicref> element inside the first one, you have
@@ -101,10 +100,10 @@
 &lt;map id="ducks">
 &lt;title>Ducks&lt;/title>
 &lt;topicref href="c_wild_ducks.dita">
-       &lt;topicref href="c_wild_duck_types.dita"/>
+    &lt;topicref href="c_wild_duck_types.dita"/>
 <ph outputclass="newchanged">   
-       &lt;topicref href="c_wild_duck_species.dita"/>
-       &lt;topicref href="t_watching_wild_ducks.dita"/></ph>
+    &lt;topicref href="c_wild_duck_species.dita"/>
+    &lt;topicref href="t_watching_wild_ducks.dita"/></ph>
 &lt;/topicref>
 &lt;/map></pre>
                     </stepxmp>
@@ -121,19 +120,19 @@
 &lt;map id="ducks">
 &lt;title>Ducks&lt;/title>
 &lt;topicref href="c_wild_ducks.dita">
-       &lt;topicref href="c_wild_duck_types.dita"/>
-       &lt;topicref href="c_wild_duck_species.dita"/>
-       &lt;topicref href="t_watching_wild_ducks.dita"/>
+    &lt;topicref href="c_wild_duck_types.dita"/>
+    &lt;topicref href="c_wild_duck_species.dita"/>
+    &lt;topicref href="t_watching_wild_ducks.dita"/>
 &lt;/topicref>
 <ph outputclass="newchanged">&lt;topicref href="c_domestic_ducks.dita">
-       &lt;topicref href="c_duckling_growth.dita"/>
-       &lt;topicref href="c_feeding_ducklings.dita">
-            &lt;topicref href="c_duck_weight.dita"/>
-       &lt;/topicref>
+    &lt;topicref href="c_duckling_growth.dita"/>
+    &lt;topicref href="c_feeding_ducklings.dita">
+         &lt;topicref href="c_duck_weight.dita"/>
+    &lt;/topicref>
 &lt;/topicref>
 &lt;topicref href="c_duckdb.dita">
-       &lt;topicref href="c_writing_about_ducks.dita" locktitle="yes"/>
-       &lt;topicref href="r_tnav.dita"/>
+    &lt;topicref href="c_writing_about_ducks.dita" locktitle="yes"/>
+    &lt;topicref href="r_tnav.dita"/>
 &lt;/topicref></ph>
 &lt;/map></pre>
                     </stepxmp>
