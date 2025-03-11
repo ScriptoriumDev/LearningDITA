@@ -56,7 +56,7 @@
                 Here is an example:</p>
             <pre>&lt;step>
     &lt;cmd>Locate the duckling mash box.&lt;/cmd>
-    &lt;info <b>audience="novice"</b>>Consult the side of the duckling mash box to determine 
+    &lt;info <ph outputclass="newchanged">audience="novice"</ph>>Consult the side of the duckling mash box to determine 
           how much mash your ducklings need.&lt;/info>
 &lt;/step>
 &lt;step>
@@ -75,7 +75,7 @@
                 reference topics. This allows you to suppress entire topics when you generate
                 output. Here is an example:</p>
             <pre>&lt;topicref href="abc.dita">
-&lt;topicref href="def.dita" <b>audience="novice"</b>></pre>
+&lt;topicref href="def.dita" <ph outputclass="newchanged">audience="novice"</ph>></pre>
             <p>By default, DITA provides you with the following attributes that support filtering or
                 conditional processing. They are:<ul id="ul_qnb_2kw_wr">
                     <li>audience</li>

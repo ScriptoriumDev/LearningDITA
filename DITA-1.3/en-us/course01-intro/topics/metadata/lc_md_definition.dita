@@ -51,7 +51,7 @@
             <p>DITA requires one piece of metadata; every topic must have an id attribute. These IDs
                 are often assigned automatically by authoring tools or content management systems.
                 Here is an example of a topic with an id attribute:</p>
-            <pre>&lt;topic <b>id="xyz"</b>>
+            <pre>&lt;topic <ph outputclass="newchanged">id="xyz"</ph>>
    &lt;title>Your title here&lt;/title>
    &lt;body>
       ....

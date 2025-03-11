@@ -66,7 +66,7 @@
                 as shown here:</p>
             <pre>&lt;topicref href="fish.dita">
 &lt;topicref href="shorebirds.dita">
-<b>&lt;mapref href="ducks.ditamap" format="ditamap"/></b></pre>
+<ph outputclass="newchanged">&lt;mapref href="ducks.ditamap" format="ditamap"/></ph></pre>
             <p>Video: <xref href="https://www.youtube.com/watch?v=5gXZN505XFQ" format="html"
                 scope="external">Reusing a map file in a map file</xref></p>
             
