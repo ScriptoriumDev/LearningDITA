@@ -6,7 +6,7 @@
     <!-- [SP] MAK 2025-01-14  Updated paths to add the topic id which was required. -->
     <p conref="../../shared/topics/lc_general_housekeeping.dita#content_pgf_3gt_qt/download" conaction="pushreplace">
       To view the sources for some of the examples in this course, 
-      download <xref keyref="sample_file"/> now. 
+      download <ph keyref="sample_file"/> now. 
       Extract the contents and put them in a directory that you can access easily.
       If you have access to an output generator (usually the DITA Open Toolkit), you can 
       use it to generate output and see these principles in action. 
@@ -27,7 +27,7 @@
        </p>
     
     <p conref="../../shared/topics/lc_general_housekeeping.dita#content_pgf_3gt_qt/download" conaction="pushreplace">
-      Download <xref keyref="sample_file"/> now. It contains the sample files for the
+      Download <ph keyref="sample_file"/> now. It contains the sample files for the
       entire <keyword keyref="course_name"/> course. Extract the contents and put them in
       a directory that you can access easily.</p>
   </body>

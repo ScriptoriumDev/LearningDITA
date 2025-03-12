@@ -24,7 +24,7 @@
             </ul>
             <p>Although there is no limit on the length of the string defined by a key, strings in
                 keys are usually fairly short. </p>
-            <note>The previous course (<xref keyref="reuse_basic_url"/>) pointed out that it was not
+            <note>The previous course (<ph keyref="reuse_basic_url"/>) pointed out that it was not
                 a good idea to use replaceable text in anything smaller than a sentence. Overall,
                 this is good advice. However, if you are using keys for a company or product name,
                 particularly when documenting a product that might be rebranded or OEMed, the
@@ -50,11 +50,11 @@
             <p><b>Using the key</b></p>
             <p>To use a key for a text string, use the keyref attribute with these elements (or any
                 element specialized from these elements):</p>
-            <sl>
-                <sli>&lt;ph></sli>
-                <sli>&lt;term></sli>
-                <sli>&lt;keyword></sli>
-            </sl>
+            <ul>
+                <li>&lt;ph></li>
+                <li>&lt;term></li>
+                <li>&lt;keyword></li>
+            </ul>
             <p>This example shows how a key can be used with a &lt;ph> (phrase) element:</p>
             <pre>Congratulations on purchasing &lt;ph keyref="product_name"/>!</pre>
             <p>When the DITA map includes the &lt;keydef> element shown above, the output would

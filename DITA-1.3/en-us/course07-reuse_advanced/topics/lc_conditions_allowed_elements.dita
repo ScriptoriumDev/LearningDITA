@@ -15,29 +15,29 @@
         <lcInstruction id="lcInstruction_rm4_vnq_rx">
             <p>The DITA filtering mechanism is quite powerful and flexible. You can use it to filter
                 out almost any type of element in DITA topics and in DITA maps. </p>
-            <p>In DITA topics, some of the elements you can filter are:<sl>
-                    <sli>sections</sli>
-                    <sli>paragraphs</sli>
-                    <sli>ordered and bulleted lists</sli>
-                    <sli>list items</sli>
-                    <sli>notes</sli>
-                    <sli>tables</sli>
-                    <sli>table rows</sli>
-                    <sli>figures</sli>
-                    <sli>images</sli>
-                </sl></p>
-            <p>In DITA maps and bookmaps, some of the elements you can filter are: <sl>
-                    <sli>topic references</sli>
-                    <sli>map references</sli>
-                    <sli>key definitions</sli>
-                    <sli>chapters and appendixes</sli>
-                    <sli>frontmatter, backmatter, and their elements</sli>
-                </sl></p>
+            <p>In DITA topics, some of the elements you can filter are:<ul>
+                    <li>sections</li>
+                    <li>paragraphs</li>
+                    <li>ordered and bulleted lists</li>
+                    <li>list items</li>
+                    <li>notes</li>
+                    <li>tables</li>
+                    <li>table rows</li>
+                    <li>figures</li>
+                    <li>images</li>
+                </ul></p>
+            <p>In DITA maps and bookmaps, some of the elements you can filter are: <ul>
+                    <li>topic references</li>
+                    <li>map references</li>
+                    <li>key definitions</li>
+                    <li>chapters and appendixes</li>
+                    <li>frontmatter, backmatter, and their elements</li>
+                </ul></p>
             <p><b>Where to be careful</b></p>
             <p>There are two areas where you need to exercise some caution in filtering: inline
                 elements and elements that have required children.</p>
             <p>It is not a good idea to filter inline elements. This is mostly a localization
-                concern. The previous course (<xref keyref="reuse_basic_url"/>) covered this to some
+                concern. The previous course (<ph keyref="reuse_basic_url"/>) covered this to some
                 degree: what makes sense in one language when it is filtered out might not make
                 sense (or translate well) when it is presented in another language.</p>
             <p>You need to be careful when filtering elements that have required children, otherwise
@@ -49,12 +49,12 @@
                 &lt;table>, &lt;simpletable>. If you are not sure which child elements are required,
                 check the <xref keyref="dita_13_url"/>. </p>
             <p><b>What you cannot filter</b></p>
-            <p>There are a number of elements that cannot be filtered out. These include:<sl>
-                    <sli>topic titles</sli>
-                    <sli>individual table &lt;entry> elements</sli>
-                    <sli>step command (&lt;cmd>) elements </sli>
-                    <sli>choicetable entries</sli>
-                </sl></p>
+            <p>There are a number of elements that cannot be filtered out. These include:<ul>
+                    <li>topic titles</li>
+                    <li>individual table &lt;entry> elements</li>
+                    <li>step command (&lt;cmd>) elements </li>
+                    <li>choicetable entries</li>
+                </ul></p>
         </lcInstruction>
     </learningContentbody>
 </learningContent>

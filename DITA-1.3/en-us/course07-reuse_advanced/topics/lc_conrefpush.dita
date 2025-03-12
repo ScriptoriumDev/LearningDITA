@@ -59,32 +59,28 @@
                     </li>
                 </ul></p><p>The following sections show how to use conref push to replace an
                 element, insert an element before a target, and insert an element after a target.
-                All the examples use this topic as the target:
-                </p><pre>&lt;concept id="c_install">
+                All the examples use this topic as the target: </p><pre>&lt;concept id="c_install">
  &lt;title>Installing Duck Database&lt;/title>
  &lt;conbody>
-  &lt;p id="install_intro">To install the Duck Database on Windows and Macintosh, follow these instructions.&lt;/p>
-  &lt;p>If at any time you need help in the installation process, please call our 24-hour hot line.&lt;/p>
- &lt;/conbody>
+    &lt;p id="install_intro">To install the Duck Database on Windows and Macintosh, follow these instructions.&lt;/p>
+    &lt;p>If at any time you need help in the installation process, please call our 24-hour hot line.&lt;/p>
+  &lt;/conbody>
 &lt;/concept>
-</pre><p>Output
-                from this topic, without any conref push looks like this:</p><image
+</pre><p>Output from this topic, without any conref push looks like this:</p><image
                 keyref="i_no_push" id="image_px1_dbv_cy" base="2016/11"/><note>The DITA sources
-                shown in these examples are in the downloadable samples file <xref
+                shown in these examples are in the downloadable samples file <ph
                     keyref="sample_file"/>. The target DITA file is c_conrefpush_target.dita; the
                 source DITA file is c_conrefpush_target.dita. </note><p><b>Replacing the target
                     element</b></p><p>To replace an element in the target topic, use the element’s
                 conref attribute to identify the element to replace, and set the conaction attribute
-                to
-                “pushreplace”:</p><pre>&lt;concept id="c_conrefp_source">
+                to “pushreplace”:</p><pre>&lt;concept id="c_conrefp_source">
  &lt;title>Conref push sources&lt;/title>
- &lt;conbody>
-  &lt;p conref="c_conrefpush_target.dita#c_install/install_intro" conaction="pushreplace">
-   To install the Duck Data base on Windows, follow these instructions. &lt;/p>
- &lt;/conbody>
+   &lt;conbody>
+     &lt;p conref="c_conrefpush_target.dita#c_install/install_intro" conaction="pushreplace">
+     To install the Duck Data base on Windows, follow these instructions. &lt;/p>
+   &lt;/conbody>
 &lt;/concept>
-</pre><p>The
-                output from the target topic now looks like this: </p><image
+</pre><p>The output from the target topic now looks like this: </p><image
                 keyref="i_ex_push_replace" id="image_ohz_chv_cy" base="2016/11"/><p><b>Inserting an
                     element before the target element</b></p><p>To insert the element before the
                 target element, you use two elements (both must be the same as the target
@@ -97,28 +93,26 @@
                 </ol></p><p>This example shows the two &lt;p>
                 elements:</p><pre>&lt;concept id="c_conrefp_source">
  &lt;title>Conref push sources&lt;/title>
- &lt;conbody> 
- <ph outputclass="new_changed">  &lt;p conaction="pushbefore">
-   Make sure you have performed the pre-configuration steps. 
-   &lt;/p>
-   &lt;p conref="c_conrefpush_target.dita#c_install/install_intro" conaction="mark"/></ph>
- &lt;/conbody>
+   &lt;conbody> 
+ <ph outputclass="new_changed">    &lt;p conaction="pushbefore">
+        Make sure you have performed the pre-configuration steps. 
+     &lt;/p>
+     &lt;p conref="c_conrefpush_target.dita#c_install/install_intro" conaction="mark"/></ph>
+   &lt;/conbody>
 &lt;/concept>
-</pre><p>The
-                output from the target topic now looks like this: </p><image
+</pre><p>The output from the target topic now looks like this: </p><image
                 keyref="i_ex_push_before" id="image_kst_x3v_cy" base="2016/11"/><p><b>Inserting an
                     element after the target element</b></p><p>To insert the element after the
                 target element, use the same two elements, but the element containing conref and
                 conaction="mark" must come <i>before</i> the element containing
                 conaction="pushafter":</p><pre>&lt;concept id="c_conrefp_source">
  &lt;title>Conref push sources&lt;/title>
- &lt;conbody> 
+  &lt;conbody> 
 <ph outputclass="new_changed">    &lt;p conref="c_conrefpush_target.dita#c_install/install_intro" conaction="mark"/>
     &lt;p conaction="pushafter">To install on Ubuntu, see the subsequent section. &lt;/p></ph>
- &lt;/conbody>
+  &lt;/conbody>
 &lt;/concept>
-</pre><p>The
-                output from the target topic now looks like this: </p><image
+</pre><p>The output from the target topic now looks like this: </p><image
                 keyref="i_ex_push_after" id="image_ktk_jjv_cy" base="2016/11"/><p>Two final notes on
                 conref push:</p><ul id="ul_hvm_2sc_rx">
                 <li>
