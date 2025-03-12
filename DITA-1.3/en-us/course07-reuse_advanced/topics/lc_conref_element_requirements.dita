@@ -34,7 +34,7 @@
   &lt;title&gt;A task that reuses a step&lt;/title&gt;
 ...
     &lt;step conref="../warehouse/task-reuse.dita#warehouse-task/reusedStep"&gt;
-                <b>&lt;cmd/&gt;</b>
+                <ph outputclass="newchanged">&lt;cmd/&gt;</ph>
             &lt;/step&gt;
 ...
 &lt;/task&gt;</pre></fig>

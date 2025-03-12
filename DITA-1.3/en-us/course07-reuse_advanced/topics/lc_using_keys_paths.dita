@@ -42,14 +42,14 @@
                 attribute:</p>
             <pre>&lt;image keyref="product_image"/></pre>
             <p>You can use keys (with the keyref attribute) in any element that uses an href
-                attribute to indicate a file path. These elements include (but are not limited to):<sl>
-                    <sli>&lt;image></sli>
-                    <sli>&lt;xref></sli>
-                    <sli>&lt;link></sli>
-                    <sli>&lt;coderef></sli>
-                    <sli>&lt;topicref></sli>
-                    <sli>&lt;mapref></sli>
-                </sl></p>
+                attribute to indicate a file path. These elements include (but are not limited to):<ul>
+                    <li>&lt;image></li>
+                    <li>&lt;xref></li>
+                    <li>&lt;link></li>
+                    <li>&lt;coderef></li>
+                    <li>&lt;topicref></li>
+                    <li>&lt;mapref></li>
+                </ul></p>
         </lcInstruction>
     </learningContentbody>
 </learningContent>

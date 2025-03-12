@@ -3,9 +3,17 @@
 <!-- This file is part of the DITA Training project hosted on      github.com. See the accompanying LICENSE file for      applicable licenses.-->
 <map>
  <title>Keys for reusing elements advanced</title>
- <keydef keys="sample_file" href="https://www.learningdita.com/wp-content/uploads/2016/12/reuse_advanced_samples.zip" format="zip" scope="external">
+ <keydef keys="sample_file">
   <topicmeta>
    <linktext>reuse_advanced_samples.zip</linktext>
+  </topicmeta>
+ </keydef>
+ 
+ <keydef keys="sample_display_name">
+  <topicmeta>
+   <keywords>
+    <keyword>Course 7 Sample Files</keyword>
+   </keywords>
   </topicmeta>
  </keydef>
  

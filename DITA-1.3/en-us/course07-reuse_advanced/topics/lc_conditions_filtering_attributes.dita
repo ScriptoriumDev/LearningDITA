@@ -7,6 +7,11 @@
         <author type="creator" href="https://www.scriptorium.com" format="html" scope="external">Simon Bate</author>
         <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external">Jake Campbell</author>
         <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external">Gretyl Kinsey</author>
+        <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external">Melissa Kershes</author>
+        <critdates>
+            <created date="2016-10-18"/>
+            <revised modified="2025-03-12"/>
+        </critdates>
     </prolog>
     <learningContentbody>
         <lcInstruction>
@@ -34,6 +39,11 @@
                         <dt>otherprops</dt>
                         <dd>Content is specific to a custom aspect. </dd>
                     </dlentry>
+                    <dlentry>
+                        <dt>deliveryTarget</dt>
+                        <dd>Content that should only present on certain delivery types, such as
+                            online and print. </dd>
+                    </dlentry>
                 </dl></p>
             <p>For example, you might use the platform attribute to indicate whether content is
                 intended for iPhone or Android users: </p>
@@ -59,10 +69,10 @@
             <p>The single most important thing, however, is that all content creators in your group,
                 team, company, or organization agree on the purpose of each of the attributes and
                 the values to use with the attributes. </p>
-            <note>The four attributes listed here are just a starting point. It is possible to use
-                DITA specialization to create additional conditional attributes that have meaning for
-                your content. The DITA specification identifies another conditional attribute: props.
-                This attribute is used as the basis for specialization. </note>
+            <note>The attributes listed here are just a starting point. It is possible to use DITA
+                specialization to create additional conditional attributes that have meaning for
+                your content. The DITA specification identifies another conditional attribute:
+                props. This attribute is used as the basis for specialization. </note>
             <p>Keep in mind that filtering of elements extends to DITA map elements, such as
                 &lt;topicref> and &lt;mapref>. This way, you can use conditional attributes and
                 filtering to remove entire topics or chapters from your output. </p>
