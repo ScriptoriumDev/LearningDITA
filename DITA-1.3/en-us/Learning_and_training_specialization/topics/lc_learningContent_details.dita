@@ -18,11 +18,11 @@
                 element. The &lt;learningContentbody> element can contain the following
                 elements:</p>
             <ol>
-                <li>&lt;lcIntro>: introduction to the content </li>
-                <li>&lt;lcDuration>: estimated time to complete the following content</li>
-                <li>&lt;lcObjectives>: what students should gain from the content in the topic</li>
-                <li>&lt;lcChallenge>: explanation of what you want the student to practice</li>
-                <li>&lt;lcInstruction>: the instructional content</li>
+                <li>&lt;lcIntro> - introduction to the content </li>
+                <li>&lt;lcDuration> - estimated time to complete the following content</li>
+                <li>&lt;lcObjectives> - what students should gain from the content in the topic</li>
+                <li>&lt;lcChallenge> - explanation of what you want the student to practice</li>
+                <li>&lt;lcInstruction> - the instructional content</li>
             </ol>
             <p>These elements may be followed by an unlimited number of &lt;section> elements.</p>
             <p>The &lt;learningContent> topic also allows you to use content from DITA task,
@@ -34,4 +34,10 @@
                 include in your course.</p>
         </lcInstruction>
     </learningContentbody>
+    <related-links>
+        <link href="https://docs.oasis-open.org/dita/dita/v1.3/os/part3-all-inclusive/langRef/learningTraining/learningContent.html#learningContent" format="html" scope="external">
+            <linktext>DITA version 1.3 specification,
+                learningContent</linktext>
+        </link>
+    </related-links>
 </learningContent>

@@ -46,21 +46,28 @@
 &lt;/learningContent></pre>
             <p>There are several benefits to embedding a topic within a &lt;learningContent> topic:</p>
             <ul id="ul_mwg_xp5_scb">
-                <li><i>Reuse.</i> If you need to reuse content in your training materials, embedding
-                    topics allows you to use that content as written rather than restructuring it
-                    into learningContent-specific elements. Embedding topics can be especially useful for
-                    training departments that reuse a lot of content from other departments, such as
-                    tech comm or sales.</li>
-                <li><i>Control.</i> The &lt;lcInstruction> element in the body of a &lt;learningContent> topic
-                    allows a limited element set. Embedding another topic type inside the
-                    &lt;learningContent> topic allows you to use its element set instead. For example, you cannot use the
-                    &lt;steps> element inside &lt;lcInstruction> for step-by-step instruction, but the &lt;steps> element is available inside an
-                    embedded task topic.</li>
-                <li><i>Flexibility.</i> You can embed more than one topic into the body of a
-                    &lt;learningContent> topic, which adds flexibility to your &lt;learningContent>
-                    topics. For example, you might embed a concept topic to explain an idea to your
-                    students, and then embed a task topic to provide hands-on instructions to
-                    enhance their understanding of that concept.</li>
+                <li>
+                    <p><b>Reuse.</b> If you need to reuse content in your training materials,
+                        embedding topics allows you to use that content as written rather than
+                        restructuring it into learningContent-specific elements. Embedding topics
+                        can be especially useful for training departments that reuse a lot of
+                        content from other departments, such as tech comm or sales.</p>
+                </li>
+                <li>
+                    <p><b>Control.</b> The &lt;lcInstruction> element in the body of a
+                        &lt;learningContent> topic allows a limited element set. Embedding another
+                        topic type inside the &lt;learningContent> topic allows you to use its
+                        element set instead. For example, you cannot use the &lt;steps> element
+                        inside &lt;lcInstruction> for step-by-step instruction, but the &lt;steps>
+                        element is available inside an embedded task topic.</p>
+                </li>
+                <li>
+                    <p><b>Flexibility.</b> You can embed more than one topic into the body of a
+                        &lt;learningContent> topic, which adds flexibility to your
+                        &lt;learningContent> topics. For example, you might embed a concept topic to
+                        explain an idea to your students, and then embed a task topic to provide
+                        hands-on instructions to enhance their understanding of that concept.</p>
+                </li>
             </ul>
         </lcInstruction>
     </learningContentbody>
@@ -72,9 +79,7 @@
                     <!-- [SP] MAK 2025-01-16  Added format and scope to link-->
                     
                     <cmd>Open the file lesson3/lc_task_exercise_start.dita and use it to convert the
-                        following content from a LearningDITA course, <xref
-                            href="https://learningdita.com/courses/the-dita-task-topic-type" format="html" scope="external">The
-                            DITA task topic type</xref>, into a DITA &lt;learningConcept> topic with
+                        following content from a LearningDITA course,<ph keyref="tasks_url"/> into a DITA &lt;learningConcept> topic with
                         an embedded task.</cmd>
                     <info>
                         <pre outputclass="passthru">

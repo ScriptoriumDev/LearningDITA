@@ -19,12 +19,12 @@
                 &lt;learningOverviewbody>. This element can contain the following elements in this
                 order:</p>
             <ol>
-                <li>&lt;lcIntro>: introduction to the overview</li>
-                <li>&lt;lcAudience>: facts about the students for whom the course is intended </li>
-                <li>&lt;lcDuration>: estimated time to complete the course</li>
-                <li>&lt;lcPrereqs>: any requirements for students before they take the course</li>
-                <li>&lt;lcObjectives>: what students should gain from the course </li>
-                <li>&lt;lcResources>: any resources used or extra information for the course</li>
+                <li>&lt;lcIntro> - introduction to the overview</li>
+                <li>&lt;lcAudience> - facts about the students for whom the course is intended </li>
+                <li>&lt;lcDuration> - estimated time to complete the course</li>
+                <li>&lt;lcPrereqs> - any requirements for students before they take the course</li>
+                <li>&lt;lcObjectives> -  what students should gain from the course </li>
+                <li>&lt;lcResources> - any resources used or extra information for the course</li>
             </ol>
             <p>These elements may be followed by an unlimited number of &lt;section> elements.</p>
             <p>Here is an example of a &lt;learningOverviewbody>:</p>

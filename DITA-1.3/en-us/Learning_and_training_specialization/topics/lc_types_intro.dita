@@ -27,19 +27,29 @@
             <p>The DITA L&amp;T specialization defines five topic types that contain
                 different types of course information:</p>
                 <ul id="ul_okl_5nf_xz">
-                    <li>&lt;learningPlan>: provides a framework for planning learning content.</li>
-                    <li>&lt;learningOverview>: contains overall learning objectives and specifics for a
-                        course, such as audience, duration, and prerequisites.</li>
-                    <li>&lt;learningContent>: contains the actual learning content. </li>
-                    <li>&lt;learningSummary>: contains review materials. </li>
-                    <li>&lt;learningAssessment>: contains exercises, quizzes, or tests.</li>
+                    <li>&lt;learningPlan> - provides a framework for planning learning content.</li>
+                    <li>&lt;learningOverview> - contains overall learning objectives and specifics
+                    for a course, such as audience, duration, and prerequisites.</li>
+                    <li>&lt;learningContent> - contains the actual learning content. </li>
+                    <li>&lt;learningSummary> - contains review materials. </li>
+                    <li>&lt;learningAssessment> - contains exercises, quizzes, or tests.</li>
                 </ul>
             <p>These topic types describe a wide range of information. Not everyone will use all of
                 these topic types. For example, the source content for LearningDITA lessons does not
-                use the &lt;learningPlan>, &lt;learningOverview>, or &lt;learningSummary> elements.
-                However, your course development process may require those elements. </p>
+                use the &lt;learningPlan>, &lt;learningOverview>, or &lt;learningSummary> topic
+                types. However, your course development process may require those elements. </p>
             <p>This lesson provides an overview of each topic type. </p>
         </lcInstruction>
     </learningContentbody>
+    <related-links>
+        <link
+            href="https://docs.oasis-open.org/dita/dita/v1.3/os/part3-all-inclusive/archSpec/learningTraining/learning-and-training-specializations.html#concept_lcz_msx_zl"
+            format="html" scope="external">
+            <linktext>DITA 1.3 Specification, Learning and training specializations</linktext>
+        </link>
+        <link href="https://www.scriptorium.com/category/learning-content/" format="html" scope="external">
+            <linktext>Learning and Training blog posts, Scriptorium</linktext>
+        </link>
+    </related-links>
 </learningContent>
     
