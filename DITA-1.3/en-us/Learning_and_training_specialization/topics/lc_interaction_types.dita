@@ -27,19 +27,19 @@
             <p>The bulk of the interaction will be the question content. Different types of
                 questions have different elements: </p>
             <ul>
-                    <li>&lt;lcTrueFalse2>: true-false question</li>
-                    <li>&lt;lcSingleSelect2>: multiple-choice question with a single correct
-                        answer</li>
-                    <li>&lt;lcMultipleSelect2>: multiple-choice question with more than one correct
-                        answer</li>
-                    <li>&lt;lcMatching2>: two columns of information that students must match into
-                        related pairs</li>
-                    <li>&lt;lcSequencing2>: a series of items that students must rearrange into the
-                        correct order</li>
-                    <li>&lt;lcOpenQuestion2>: a question that requires a written answer (such as
-                        short answer or essay responses)</li>
-                    <li>&lt;lcHotspot2>: an image with mapped regions on which students must
-                        click</li>
+                    <li>&lt;lcTrueFalse2> - true-false question</li>
+                    <li>&lt;lcSingleSelect2> - multiple-choice question with a single correct
+                    answer</li>
+                    <li>&lt;lcMultipleSelect2> - multiple-choice question with more than one correct
+                    answer</li>
+                    <li>&lt;lcMatching2> - two columns of information that students must match into
+                    related pairs</li>
+                    <li>&lt;lcSequencing2> - a series of items that students must rearrange into the
+                    correct order</li>
+                    <li>&lt;lcOpenQuestion2> - a question that requires a written answer (such as
+                    short answer or essay responses)</li>
+                    <li>&lt;lcHotspot2> - an image with mapped regions on which students must
+                    click</li>
                 </ul>
             <p>Below is an example of a single select question.</p>
             <pre>
@@ -76,8 +76,8 @@
     &lt;/learningAssessmentbody>
 &lt;/learningAssessment>
             </pre>
-            <note>Note that with an “all of the above” type answer, use the lcSingleSelect2 interaction type, rather than lcMultipleSelect2. If you use the lcMultipleSelect2 and a student selects all
-                correct answers (with or without the “all of the above” selection), most learning management systems (LMS) will mark this as an incorrect response.</note>
+            <!--<note>Note that with an “all of the above” type answer, use the lcSingleSelect2 interaction type, rather than lcMultipleSelect2. If you use the lcMultipleSelect2 and a student selects all
+                correct answers (with or without the “all of the above” selection), most learning management systems (LMS) will mark this as an incorrect response.</note>-->
         </lcInstruction>
     </learningContentbody>
     <task id="lc_matching">
@@ -257,12 +257,10 @@
         <taskbody>
             <steps id="steps_h5t_ljx_tcb">
                 <step>
-                    <!-- [SP] MAK 2025-01-16  Added format and scope to links-->
                     <cmd>Now try an exercise on your own. Open the file
                         lesson3/lc_task_exercise_start.dita and use it to convert the following
-                        assessment question from <xref 
-                            href="https://learningdita.com/courses/the-dita-task-topic-type/" format="html" scope="external">The
-                            DITA task topic type</xref> LearningDITA course into a DITA
+                        assessment question from <ph keyref="tasks_url" > The
+                            DITA task topic type</ph> LearningDITA course into a DITA
                         &lt;learningAssessment> topic.</cmd>
                     <info>The answer choices are matched correctly in this preview.</info>
                     <info>

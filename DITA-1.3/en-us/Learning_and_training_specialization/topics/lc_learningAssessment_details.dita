@@ -25,6 +25,15 @@
             <p>The main body element is the &lt;learningAssessmentbody> which can include &lt;lcIntro>,
                 &lt;lcObjectives>, &lt;lcDuration>, &lt;lcInteraction>, &lt;section>, and &lt;lcSummary> elements. Questions
                 types are included in the &lt;lcInteraction> element.</p>
+            <p>More detailed information about assessments is included in a later lesson in this
+                course.</p>
         </lcInstruction>
     </learningContentbody>
+    <related-links>
+        <link
+            href="https://docs.oasis-open.org/dita/dita/v1.3/os/part3-all-inclusive/langRef/learningTraining/learningAssessment.html#learningAssessment"
+            format="html" scope="external">
+            <linktext>DITA version 1.3 specification, learningAssessment</linktext>
+        </link>
+    </related-links>
 </learningContent>

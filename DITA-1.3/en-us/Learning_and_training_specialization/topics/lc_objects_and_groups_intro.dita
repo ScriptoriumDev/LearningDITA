@@ -12,7 +12,7 @@
     </prolog>
     <learningContentbody>
         <lcObjectives>
-            <lcObjectivesStem>At the completion of this lesson, students will be able to:</lcObjectivesStem>
+            <!--<lcObjectivesStem>At the completion of this lesson, students will be able to:</lcObjectivesStem>-->
             <lcObjectivesGroup id="lcObjectivesGroup_tvl_vbh_1t">
                 <lcObjective>Describe the differences between the &lt;learningObject> element and the &lt;learningGroup> element.</lcObjective>
                 <lcObjective>State why the individual reference elements are important to learning maps.</lcObjective>
@@ -23,8 +23,9 @@
             <lcTime value="45"/>
         </lcDuration>
         <lcIntro>
-            <p>This lesson introduces you to the learning objects and learning groups, 
-                which you can use to organize L&amp;T topics into courses, curricula, and other, larger structures. </p>
+            <p>This lesson introduces you to the learning objects and learning groups, which you can
+                use to organize L&amp;T topics into courses, curricula, and other, larger structures
+                in maps. </p>
         </lcIntro>
     </learningContentbody>
     <related-links>

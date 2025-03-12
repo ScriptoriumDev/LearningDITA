@@ -5,9 +5,17 @@
  applicable licenses.-->
 <map>
  <title>Keys for The Learning and Training specialization </title>
- <keydef keys="sample_file" href="https://www.learningdita.com/wp-content/uploads/2017/04/learning_and_training_samples.zip" format="zip" scope="external">
+ <keydef keys="sample_file">
   <topicmeta>
    <linktext>learning_and_training_samples.zip</linktext>
+  </topicmeta>
+ </keydef>
+ 
+ <keydef keys="sample_display_name">
+  <topicmeta>
+   <keywords>
+    <keyword>Learning and Training Sample Files</keyword>
+   </keywords>
   </topicmeta>
  </keydef>
  
