@@ -17,17 +17,17 @@
     
     <learningContentbody>
         <lcInstruction>
-            <p>In an earlier lesson, your first test build with the DITA OT used the pdf2 plugin to
-                generate PDF output. In this lesson, you will see how the pdf2 plugin handles maps
+            <p>In an earlier lesson, your first test build with the DITA OT used the pdf plugin to
+                generate PDF output. In this lesson, you will see how the pdf plugin handles maps
                 and bookmaps differently.</p>
-            <p>For map content, the pdf2 plugin generates a cover page and table of contents by
+            <p>For map content, the pdf plugin generates a cover page and table of contents by
                 default.</p>
-            <p>For bookmap content, the pdf2 plugin generates a cover page. Any subsequent
-                structures in the output reflect the specifications set in the bookmap. For example,
-                the pdf2 plugin will generate a table of contents if the bookmap uses the
-                    <tt>&lt;toc></tt> element in the <tt>&lt;booklists></tt> element to specify that
-                there should be one; however, if the bookmap does not contain the <tt>&lt;toc></tt>
-                element, the pdf2 plugin will not build one.</p>
+            <p>For bookmap content, the pdf plugin generates a cover page. Any subsequent structures
+                in the output reflect the specifications set in the bookmap. For example, the pdf
+                plugin will generate a table of contents if the bookmap uses the <tt>&lt;toc></tt>
+                element in the <tt>&lt;booklists></tt> element to specify that there should be one;
+                however, if the bookmap does not contain the <tt>&lt;toc></tt> element, the pdf
+                plugin will not build one.</p>
             <p>During your first DITA OT test build, you generated the file <b>m_ducks.pdf</b> from
                 content referenced from a map. The following instructions show you how to generate
                 PDF output from the same content stored in a bookmap and compare the two different
@@ -42,9 +42,9 @@
                     <cmd>Type the following command into the command line:</cmd>
                     <info>
                         <p><b>On Windows:</b></p>
-                        <pre>bin\dita -i [filepath]/sources/ducks/b_ducks.ditamap -f pdf2 -o out/ducks_output -v</pre>
+                        <pre>bin\dita -i [filepath]/sources/ducks/b_ducks.ditamap -f pdf -o out/ducks_output -v</pre>
                         <p><b>On Mac:</b></p>
-                        <pre>./bin/dita -i [filepath]/sources/ducks/b_ducks.ditamap -f pdf2 -o out/ducks_output -v</pre>
+                        <pre>./bin/dita -i [filepath]/sources/ducks/b_ducks.ditamap -f pdf -o out/ducks_output -v</pre>
                     </info>
                 </step>
                 <step>

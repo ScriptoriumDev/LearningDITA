@@ -11,8 +11,10 @@
         <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external">Simon Bate, Scriptorium</author>
         <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external">Bill Swallow, Scriptorium</author>
         <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external">Jake Campbell, Scriptorium</author>
+        <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external">Melissa Kershes, Scriptorium</author>
         <critdates>
             <created golive="2017-03-27" date="2017-02-06"/>
+            <revised modified="2025-03-12"/>
         </critdates>
     </prolog>
     
@@ -43,15 +45,15 @@
                             the page. The page also contains a link to the latest version that is
                             under development for testing, followed by a list of previous versions
                             of the DITA OT.</p>
-                        <note>At the time of this course’s release, the latest version of the DITA
-                            OT was 2.4.4.</note>
+                        <note>For publishing DITA 1.3 content we recommend using the 3.6.1 version
+                            of the DITA OT. </note>
                     </info>
+                    <stepresult>
+                        <p>GitHub opens to the 3.6.1 content.</p>
+                    </stepresult>
                 </step>
                 <step>
-                    <cmd>Click on the button to download the latest distribution package of the DITA
-                        OT.</cmd>
-                    <info><image href="../media/setting_up_publishing_environment/download_ot.png" width="450" base="2017/03"
-                        id="image_ssm_trc_3z"/><p>The DITA OT will be downloaded as a zip file.</p></info>
+                    <cmd>Click the link for dita-ot-3.6.1.zip to download the OT.</cmd>
                 </step>
                 <step>
                     <cmd>Locate the DITA OT zip file in your system folder structure to ensure
@@ -65,9 +67,9 @@
                             OT at the root level of your machine in a folder that only uses letters,
                             numbers, underscores (_), or hyphens (-) in its name.</note>
                         <p><b>Example on Windows:</b></p>
-                        <pre>C:\dita-ot-2.4.4</pre>
+                        <pre>C:\dita-ot-3.6.1</pre>
                         <p><b>Example on Mac:</b></p>
-                        <pre>/Users/[yourname]/dita-ot-2.4.4</pre>
+                        <pre>/Users/[yourname]/dita-ot-3.6.1</pre>
                     </info>
                 </step>
                 <step>

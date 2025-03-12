@@ -9,8 +9,10 @@
         <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external">Simon Bate, Scriptorium</author>
         <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external">Bill Swallow, Scriptorium</author>
         <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external">Jake Campbell, Scriptorium</author>
+        <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external">Melissa Kershes, Scriptorium</author>
         <critdates>
             <created golive="2017-03-27" date="2017-02-06"/>
+            <revised modified="2025-03-12"/>
         </critdates>
     </prolog>
     
@@ -20,7 +22,7 @@
                 <lcObjective>Generate basic PDF output using the DITA OT</lcObjective>
                 <lcObjective>Generate basic HTML output using the DITA OT</lcObjective>
                 <lcObjective>Troubleshoot common problems with generating output using the
-                    OT</lcObjective>
+                    DITA OT</lcObjective>
             </lcObjectivesGroup>
         </lcObjectives>
         <lcDuration>
@@ -32,10 +34,10 @@
         </lcIntro>
     </learningContentbody>
     <related-links>
-        <link href="https://dita.xml.org/wiki/plugins-for-the-dita-open-toolkit" format="html" scope="external">
-            <linktext>Plugins for the DITA Open Toolkit</linktext>
+        <link href="https://www.dita-ot.org/3.6/topics/output-formats" format="html" scope="external">
+            <linktext>Output formats for the DITA Open Toolkit</linktext>
         </link>
-        <link href="https://www.dita-ot.org/2.4/parameters/index.html" format="html" scope="external">
+        <link href="https://www.dita-ot.org/3.6/parameters/" format="html" scope="external">
             <linktext>DITA Open Toolkit Parameter Reference</linktext>
         </link>
         <link href="https://www.scriptorium.com/2013/03/webcast-pros-and-cons-of-the-dita-open-toolkit/"  scope="external" format="html">

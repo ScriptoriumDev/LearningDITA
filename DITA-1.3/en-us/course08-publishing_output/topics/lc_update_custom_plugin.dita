@@ -10,8 +10,10 @@
         <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external">Simon Bate, Scriptorium</author>
         <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external">Bill Swallow, Scriptorium</author>
         <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external">Jake Campbell, Scriptorium</author>
+        <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external">Melissa Kershes, Scriptorium</author>
         <critdates>
             <created golive="2017-03-27" date="2017-02-06"/>
+            <revised modified="2025-03-12"/>
         </critdates>
     </prolog>
     
@@ -41,19 +43,20 @@
         <taskbody>
             <steps id="steps_scx_mzg_2z">
                 <step>
-                    <cmd>Navigate to your <b>dita-ot-2.4.4/out/custom_output</b> folder and open the
+                    <cmd>Navigate to your <b>dita-ot-3.6.1/out/custom_output</b> folder and open the
                         file <b>c_wild_duck_species.html</b> in a browser.</cmd>
                     <info><p>The XHTML output looks like this:</p><image base="2017/03"
-                            href="../media/custom_plugins/xhtml_custom.png" width="500" id="image_n24_3dy_fz"
+                            href="../media/custom_plugins/xhtml_custom.png" id="image_n24_3dy_fz"
                         /></info>
                 </step>
                 <step>
                     <cmd>Navigate to your
-                            <b>dita-ot-2.4.4/plugins/com.learningdita.ld_xhtml/resource</b> folder
-                        and open the file <b>ld_style.css</b> in a text editor.</cmd>
+                            <b>dita-ot-3.6.1/plugins/com.learningdita.ld_xhtml/resource/css</b>
+                        folder and open the file <b>ld_style.css</b> in a text editor.</cmd>
                 </step>
                  <step>
-                    <cmd>Save a copy of <b>ld_style.css</b> before you begin editing it.</cmd>
+                    <cmd>Back up the original <b>ld_style.css</b> before you begin editing it.
+                    </cmd>
                 </step>
                 <step>
                     <cmd>Make the following changes to <b>ld_style.css</b>:</cmd>
@@ -86,6 +89,8 @@
                     <info>
                         <p><b>On Windows:</b></p>
                         <pre>bin\dita -i [filepath]/sources/ducks/m_ducks.ditamap -f ld_xhtml -o out/custom_output -v</pre>
+                        <note>When using the command line on windows to repeat the last used
+                            command, press the up arrow to run the same command again. </note>
                         <p><b>On Mac:</b></p>
                         <pre>./bin/dita -i [filepath]/sources/ducks/m_ducks.ditamap -f ld_xhtml -o out/custom_output -v</pre>
                     </info>
@@ -101,7 +106,7 @@
                     <cmd>Open <b>c_wild_duck_species.html</b> in a browser to see the CSS changes
                         you made.</cmd>
                     <info><p>The XHTML output now looks like this:</p><image
-                            href="../media/custom_plugins/xhtml_updated.png" width="500" id="image_ojr_kdy_fz"
+                            href="../media/custom_plugins/xhtml_updated.png" id="image_ojr_kdy_fz"
                             base="2017/03"/></info>
                 </step>
             </steps>

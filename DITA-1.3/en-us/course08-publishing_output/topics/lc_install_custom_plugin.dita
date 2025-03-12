@@ -10,8 +10,10 @@
         <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external">Simon Bate, Scriptorium</author>
         <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external">Bill Swallow, Scriptorium</author>
         <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external">Jake Campbell, Scriptorium</author>
+        <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external">Melissa Kershes, Scriptorium</author>
         <critdates>
             <created golive="2017-03-27" date="2017-02-06"/>
+            <revised modified="2025-03-12"/>
         </critdates>
     </prolog>
     
@@ -35,7 +37,8 @@
                         course.</cmd>
                 </step>
                 <step>
-                    <cmd>Navigate to <b>C:\DITA\dita-ot-2.5.4</b>.</cmd>
+                    <cmd>Navigate to the location of your DITA OT, for example
+                            <b>C:\DITA\dita-ot-3.6.1</b>.</cmd>
                 </step>
                 <step>
                     <cmd>Type the following commands into the command line:</cmd>
@@ -65,22 +68,26 @@
                     <cmd>Press ENTER to run the DITA OT.</cmd>
                 </step>
                 <step>
-                    <cmd>Look in the <b>dita-ot-2.4.4/out/custom_output</b> folder to see the
+                    <cmd>Look in the <b>dita-ot-3.6.1/out/custom_output</b> folder to see the
                         generated XHTML output.</cmd>
                 </step>
                 <step>
                     <cmd>Open the file <b>c_wild_duck_species.html</b> in a browser. Compare it to
                         the default version of <b> c_wild_duck_species.html</b> (in your
-                            <b>dita-ot-2.4.4/out/ducks_output</b> folder) that you generated
+                            <b>dita-ot-3.6.1/out/ducks_output</b> folder) that you generated
                         previously.</cmd>
                     <info><p>The default XHTML output looks like this:</p><image
-                            href="../media/custom_plugins/xhtml_default.png" width="500" id="image_sqt_lwl_3z" base="2017/03"
-                            /><p>The custom XHTML output looks like this:</p><image
-                            href="../media/custom_plugins/xhtml_custom.png" width="500" id="image_v34_mwl_3z" base="2017/03"/><p>The
-                            custom XHTML output has different fonts and colors than the default
-                            XHTML output.</p></info>
-                    <info><p><b>Tip:</b> Create separate output folders in <b>C:\DITA\dita-ot-2.5.4\out\</b>, by tweaking 
-                        the -o parameter value each time you generate output.</p></info>
+                            href="../media/custom_plugins/xhtml_default.png" 
+                            id="image_sqt_lwl_3z" base="2017/03"/><p>The custom XHTML output looks
+                            like this:</p><image href="../media/custom_plugins/xhtml_custom.png"
+                             id="image_v34_mwl_3z" base="2017/03"/><p>The custom XHTML
+                            output has different fonts and colors than the default XHTML
+                        output.</p></info>
+                    <info>
+                        <p><b>Tip:</b> Create separate output folders in
+                                <b>C:\DITA\dita-ot-3.6.1\out\</b>, by tweaking the -o parameter
+                            value each time you generate output.</p>
+                    </info>
                 </step>
             </steps>
         </taskbody>

@@ -18,7 +18,7 @@
     <learningContentbody>
         <lcInstruction>
             <p>The DITA OT comes with default plugins for generating several output types. As you
-                saw in the previous lesson, these include the pdf2 plugin for PDF output and the
+                saw in the previous lesson, these include the pdf plugin for PDF output and the
                 xhtml plugin for HTML output. The default plugins are best considered as demos, or
                 the basis for building “production” plugins.</p>
             <p>The default plugins are helpful when you’re learning to publish content using the
@@ -58,6 +58,10 @@
             <p>You can develop custom plugins yourself, find them on the web, or hire or contract
                 with someone to develop them. Custom plugins are often developed by consultants as
                 part of a content strategy solution.</p>
+            <p>The DITA OT organization maintains a list of freely-available plugins that may
+                already do part of what you need. Refer to <xref
+                    href="https://www.dita-ot.org/plugins" format="html" scope="external">DITA OT
+                    Plug-ins</xref> to review the list.</p>
             <p>When you’re evaluating your need for custom plugins, ask yourself:</p>
             <ul id="ul_nch_kpg_2z">
                 <li>Whether your customization requirements are based on look and feel, structure,

@@ -11,6 +11,7 @@
         <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external">Jake Campbell, Scriptorium</author>
         <critdates>
             <created golive="2017-03-27" date="2017-02-06"/>
+            <revised modified="2025-03-12"/>
         </critdates>
     </prolog>
     
@@ -33,14 +34,14 @@
         </lcIntro>
     </learningContentbody>
     <related-links>
-        <link href="https://www.dita-ot.org/2.0/dev_ref/plugins-overview.html" format="html" scope="external">
-            <linktext>Creating DITA-OT plug-ins</linktext>
+        <link href="https://www.dita-ot.org/3.6/topics/custom-plugins" format="html" scope="external">
+            <linktext>Creating custom plug-ins</linktext>
         </link>
-        <link href="https://www.dita-ot.org/2.0/readme/plugins-installing.html" format="html" scope="external">
+        <link href="https://www.dita-ot.org/3.6/topics/plugins-installing" format="html" scope="external">
             <linktext>Installing plug-ins</linktext>
         </link>
-        <link href="https://dita-ot.sourceforge.net/doc/ot-userguide/xhtml/customizing/xhtml_frameset.html" scope="external" format="html">
-            <linktext>Publishing XHTML output as a frameset</linktext>
+        <link href="https://www.dita-ot.org/3.6/topics/html-customization" scope="external" format="html">
+            <linktext>Customizing HTML output</linktext>
         </link>
         <link
             href="https://metadita.org/toolkit/morse.html" scope="external"

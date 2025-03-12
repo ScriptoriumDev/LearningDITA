@@ -12,6 +12,7 @@
   <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external">Jake Campbell, Scriptorium</author>
   <critdates>
    <created golive="2017-03-27" date="2017-02-06"/>
+   <revised modified="2025-03-12"/>
   </critdates>
  </prolog>
  
@@ -19,7 +20,7 @@
  
   <lcInteraction>
   <lcTrueFalse id="java">
-   <lcQuestion>The DITA OT requires your version of Java to be up to date.</lcQuestion>
+   <lcQuestion>The DITA OT requires a minimum version of Java to run.</lcQuestion>
    <lcAnswerOptionGroup>
     <lcAnswerOption>
      <lcAnswerContent>True</lcAnswerContent>

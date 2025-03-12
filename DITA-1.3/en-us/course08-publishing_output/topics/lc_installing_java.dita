@@ -12,13 +12,17 @@
         <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external">Jake Campbell, Scriptorium</author>
         <critdates>
             <created golive="2017-03-27" date="2017-02-06"/>
+            <revised modified="2025-03-12"/>
         </critdates>
     </prolog>
     
     <learningContentbody>
         <lcInstruction>
-            <p>The DITA OT requires Java. The DITA Open Toolkit website includes the minimum Java
-                requirements for each version of the DITA OT.</p>
+            <p>The DITA OT requires Java. The DITA Open Toolkit website includes the <xref
+                    href="https://www.dita-ot.org/3.6/release-notes/#requirements" format="html"
+                    scope="external">minimum Java
+                requirements</xref> in the Release Notes for each version of the DITA OT. DITA OT 3.6.1
+                requires a minimum version of 8u101 or higher. </p>
             <p>When you try to generate output, the DITA OT will alert you if your system does not
                 meet the Java requirements. For the DITA OT, you will most likely need to download
                 the Java Development Kit (JDK). </p>
@@ -37,31 +41,36 @@ operable program or batch file.</pre>
         </lcInstruction>
     </learningContentbody>
     <task id="task_igy_wd5_xy">
-        <title>Installing Java</title>
+        <title>Installing Java on Windows</title>
         <taskbody>
-            <context id="context_a4w_xvc_3z"><b>Installing Java on Windows</b></context>
+            <!-- [SP] MAK 2025-03-12  Commenting out the context for both as the updated transform includes the title of nested tasks. -->
+            <!--<context id="context_a4w_xvc_3z"><b>Installing Java on Windows</b></context>-->
             <steps>
                 <step>
-                    <cmd>Download and install the latest version of the Java Development Kit (JDK)
+                    <!-- [SP] MAK 2025-03-12  Commenting out since there are multiple locations to download the required software
+                    in the release notes and some are free -->
+                    <!--<cmd>Download and install the latest version of the Java Development Kit (JDK)
                         from the Oracle website (<xref
                             href="https://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html"
-                            format="html" scope="external"/>).</cmd>
-                    <info>
-                        <note>At the time of this course’s release, the latest version of the JDK
-                            was version 8.</note>
-                    </info>
+                            format="html" scope="external"/>).</cmd>-->
+                    <cmd>Use the <xref
+                        href="https://www.dita-ot.org/3.6/release-notes/#requirements" format="html"
+                        scope="external">DITA OT 3.6.1 Release Notes</xref> for links to various JDK versions.</cmd>
+                </step>
+                <step>
+                    <cmd>Select the package for Windows. </cmd>
                 </step>
                 <step>
                     <cmd>Open File Explorer, right-click on This PC, and then click on Properties. A
-                        new window will open.</cmd>
+                        new window opens.</cmd>
                 </step>
                 <step>
-                    <cmd>Click on the Advanced System Settings link in the left column of the new
+                    <cmd>Click the Advanced System Settings link in the left column of the new
                         window. Another window will open.</cmd>
                 </step>
                 <step>
-                    <cmd>Click on the Environment Variables button found in the lower right of the
-                        new window.</cmd>
+                    <cmd>Click the Environment Variables button found in the lower right of the new
+                        window.</cmd>
                 </step>
                 <step>
                     <cmd>Find JAVA_HOME under the System Variables panel, and make sure that the
@@ -75,41 +84,44 @@ operable program or batch file.</pre>
         </taskbody>
     </task>
     <task id="task_nyf_yd5_xy">
-        <title>Installing Java</title>
+        <title>Installing Java on Mac</title>
         <taskbody>
-            <context id="context_hby_zvc_3z"><b>Installing Java on Mac</b></context>
+            <!--<context id="context_hby_zvc_3z"><b>Installing Java on Mac</b></context>-->
             <steps>
                 <step>
-                    <cmd>Download and install the latest version of the Java Development Kit (JDK)
+                    <!-- [SP] MAK 2025-03-12  Commenting out since there are multiple locations to download the required software
+                    in the release notes and some are free -->
+                      <!--<cmd>Download and install the latest version of the Java Development Kit (JDK)
                         from the Oracle website (<xref
                             href="https://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html"
-                            format="html" scope="external"/>).</cmd>
-                    <info>
-                        <note>At the time of this course’s release, the latest version of the JDK
-                            was version 8.</note>
-                    </info>
+                            format="html" scope="external"/>).</cmd>-->
+                    <cmd>Use the <xref
+                        href="https://www.dita-ot.org/3.6/release-notes/#requirements" format="html"
+                        scope="external">DITA OT 3.6.1 Release Notes</xref> for links to various JDK versions.</cmd>
+                    
+                  
                 </step>
                 <step>
-                    <cmd>Click on Accept License Agreement when asked. A popup will appear if you’ve
+                    <cmd>Click Accept License Agreement if asked. A popup may appear if you’ve
                         clicked Download without selecting Accept.</cmd>
                 </step>
                 <step>
                     <cmd>Under the download column select the Java link that is specific to your
-                        system. Mac users choose MAC OS X.</cmd>
+                        system. Mac users choose MAC OS.</cmd>
                     <info>
-                        <p>A .dmg file will begin downloading.</p>
+                        <p>A file will begin downloading.</p>
                     </info>
                 </step>
                 <step>
                     <cmd>Once the download is complete, click on the icon in your downloads
                         folder.</cmd>
-                    <info>A window will appear with instructions.</info>
+                    <info>A window opens with instructions.</info>
                 </step>
                 <step>
-                    <cmd>Double click on the icon.</cmd>
+                    <cmd>Double click the icon.</cmd>
                 </step>
                 <step>
-                    <cmd>Click on Install, Run, or equivalent.</cmd>
+                    <cmd>Click Install, Run, or equivalent.</cmd>
                 </step>
             </steps>
         </taskbody>
