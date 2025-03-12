@@ -10,8 +10,10 @@
         <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external">Simon Bate, Scriptorium</author>
         <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external">Bill Swallow, Scriptorium</author>
         <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external">Jake Campbell, Scriptorium</author>
+        <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external">Melissa Kershes, Scriptorium</author>
         <critdates>
             <created golive="2017-03-27" date="2017-02-06"/>
+            <revised modified="2025-03-12"/>
         </critdates>
     </prolog>
     
@@ -24,7 +26,7 @@
                 build involves generating PDF output.</p>
             <p>Follow the instructions below to run a test build and publish a sample PDF file using
                 the DITA OT. Separate instructions are provided for Windows and Mac users.</p>
-            <note>These instructions only apply to the 2.x versions of the DITA OT.</note>
+            <note>These instructions only apply to the 3.6.1 version of the DITA OT.</note>
             <p><xref href="https://youtu.be/p_eBj6e0gBU" format="html" scope="external">Video:
                     Testing the DITA OT</xref></p>
         </lcInstruction>
@@ -36,15 +38,15 @@
                 <step>
                     <cmd>Open a command line.</cmd>
                     <info>
-                        <p><b>On Windows:</b> Click on Start > Run and type <tt>cmd</tt>.</p>
-                        <note>If Run does not appear in the Start menu, type <tt>Run</tt> to search
-                            for it.</note>
+                        <p><b>On Windows:</b> Type <tt>cmd</tt> in the search area on the status
+                            bar.</p>
+                        <p>Click Command Prompt on the search results. </p>
                         <p><b>On Mac:</b> Launch the Terminal application.</p>
                     </info>
                 </step>
                 <step>
                     <cmd>In the command line, type <tt>cd</tt> followed by the filepath to your
-                            <b>dita-ot-2.4.4</b> folder.</cmd>
+                            <b>dita-ot-3.6.1</b> folder.</cmd>
                     <info>
                         <note>To avoid typing a filepath, locate the file or folder in Windows
                             Explorer (on Windows) or the Finder (on Mac), then drag it directly into
@@ -55,9 +57,9 @@
                     <cmd>Type the following command:</cmd>
                     <info>
                         <p><b>On Windows:</b></p>
-                        <pre>bin\dita -i [filepath]/sources/ducks/m_ducks.ditamap -f pdf2 -o out/ducks_output -v</pre>
+                        <pre>bin\dita -i [filepath]/sources/ducks/m_ducks.ditamap -f pdf -o out/ducks_output -v</pre>
                         <p><b>On Mac:</b></p>
-                        <pre>./bin/dita -i [filepath]/sources/ducks/m_ducks.ditamap -f pdf2 -o out/ducks_output -v</pre>
+                        <pre>./bin/dita -i [filepath]/sources/ducks/m_ducks.ditamap -f pdf -o out/ducks_output -v</pre>
                         <note>Typing <tt>-o out/ducks_output</tt> generates an output folder and
                             subfolder called <b>out/ducks_output</b> inside the DITA OT
                             folder.</note>

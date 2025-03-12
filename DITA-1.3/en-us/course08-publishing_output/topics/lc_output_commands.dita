@@ -10,8 +10,10 @@
         <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external">Simon Bate, Scriptorium</author>
         <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external">Bill Swallow, Scriptorium</author>
         <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external">Jake Campbell, Scriptorium</author>
+        <author type="contributor" href="https://www.scriptorium.com" format="html" scope="external">Melissa Kershes, Scriptorium</author>
         <critdates>
             <created golive="2017-03-27" date="2017-02-06"/>
+            <revised modified="2025-03-12"/>
         </critdates>
     </prolog>
     
@@ -20,9 +22,9 @@
             <p>In the previous lesson, you tested the DITA OT by entering the following command into
                 the command line:</p>
             <p><b>On Windows:</b></p>
-            <pre>bin\dita -i [filepath]/sources/m_ducks.ditamap -f pdf2 -o [output-dir] -v</pre>
+            <pre>bin\dita -i [filepath]/sources/m_ducks.ditamap -f pdf -o [output-dir] -v</pre>
             <p><b>On Mac:</b></p>
-            <pre>./bin/dita -i [filepath]/sources/m_ducks.ditamap -f pdf2 -o [filepath]/outputs/m_ducks_output -v</pre>
+            <pre>./bin/dita -i [filepath]/sources/m_ducks.ditamap -f pdf -o [filepath]/outputs/m_ducks_output -v</pre>
             <p>These are the standard commands and parameters of a basic DITA OT build. Here is what
                 these commands and parameters mean:</p>
             <ul id="ul_dx2_csf_2z">
@@ -37,8 +39,7 @@
                 <li>
                     <p><b>-f</b> (the transtype parameter) indicates that the string that follows it
                         is the output transformation type (also called the “transtype”). Some common
-                        transtype values include “pdf2” for PDF output, “xhtml” for HTML output, and
-                        “webhelp” for WebHelp output.</p>
+                        transtype values include “pdf” for PDF output, “xhtml” and for HTML output. </p>
                 </li>
                 <li>
                     <p><b>-o</b> (the output parameter) indicates where to store the generated
@@ -55,7 +56,7 @@
             </ul>
             <p>You can use additional parameters to add more specifications about the build you’re
                 running. To explore all the options available to you, see the <xref
-                    href="https://www.dita-ot.org/2.4/parameters/index.html" format="html"
+                    href="https://www.dita-ot.org/3.6/parameters/" format="html"
                     scope="external">DITA Open Toolkit Parameter Reference</xref>.</p>
             <draft-comment author="gretylkinsey">
                 <p>A RUNOT file is a series of commands stored in an XML file. RUNOT files help save
