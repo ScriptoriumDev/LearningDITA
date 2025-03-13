@@ -40,7 +40,7 @@
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="concept_images_tables">
    &lt;title>Duckling growth and development&lt;/title>
-&lt;conbody>
+   &lt;conbody>
    &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
@@ -55,7 +55,7 @@
 &lt;concept id="concept_images_tables">
    &lt;title>Duckling growth and development&lt;/title>
    &lt;conbody>
-<ph outputclass="newchanged">&lt;image href="images/ducklings_swimming.jpg"/></ph>
+<ph outputclass="newchanged">       &lt;image href="images/ducklings_swimming.jpg"/></ph>
    &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
@@ -75,12 +75,12 @@
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="concept_images_tables">
    &lt;title>Duckling growth and development&lt;/title>
-  &lt;conbody>
-...
-<ph outputclass="newchanged">&lt;fig>
-&lt;title>Ducklings running&lt;/title>
-&lt;image href="images/ducklings_running.jpg"/>
-&lt;/fig></ph>
+   &lt;conbody>
+   ...
+     <ph outputclass="newchanged">&lt;fig>
+        &lt;title>Ducklings running&lt;/title>
+        &lt;image href="images/ducklings_running.jpg"/>
+     &lt;/fig></ph>
    &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>

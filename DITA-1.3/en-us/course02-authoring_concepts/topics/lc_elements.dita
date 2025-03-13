@@ -69,10 +69,11 @@
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="concept_elements">
    &lt;title>Feeding ducklings&lt;/title>
-  &lt;conbody>
-...
- <ph outputclass="newchanged">&lt;p>Ducklings need higher levels of protein in their diets than adult ducks.&lt;fn>A protein level of 18-20% is recommended for newborn ducklings.&lt;/fn>&lt;/p></ph>
-&lt;/conbody>
+   &lt;conbody>
+   ...
+       <ph outputclass="newchanged">&lt;p>Ducklings need higher levels of protein in their diets than adult ducks.&lt;fn>
+          A protein level of 18-20% is recommended for newborn ducklings.&lt;/fn>&lt;/p></ph>
+   &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
                     <info>The &lt;fn> element indicates where the footnote reference number will
@@ -91,14 +92,14 @@
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="concept_elements">
    &lt;title>Feeding ducklings&lt;/title>
-  &lt;conbody>
-...
-<ph outputclass="newchanged">&lt;p>To create a spreadsheet to keep track of when you need to replenish your 
-ducklings' food and water, go to 
-&lt;menucascade>
-&lt;/menucascade>.
-&lt;/p></ph>
-&lt;/conbody>
+   &lt;conbody>
+      ...
+<ph outputclass="newchanged">        &lt;p>To create a spreadsheet to keep track of when you need to replenish your 
+           ducklings' food and water, go to 
+            &lt;menucascade>
+            &lt;/menucascade>.
+        &lt;/p></ph>
+    &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
                     <info>In the example you added, the &lt;menucascade> element will be used to
@@ -113,12 +114,12 @@ ducklings' food and water, go to
 &lt;concept id="concept_elements">
    &lt;title>Feeding ducklings&lt;/title>
    &lt;conbody>
-...
-&lt;menucascade>
-<ph outputclass="newchanged">&lt;uicontrol>File&lt;/uicontrol></ph>
-&lt;/menucascade>
-...
-&lt;/conbody>
+    ...
+       &lt;menucascade>
+<ph outputclass="newchanged">       &lt;uicontrol>File&lt;/uicontrol></ph>
+       &lt;/menucascade>
+    ...
+   &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
                     <info>In the example you added, the &lt;uicontrol> element contains the name of
@@ -132,15 +133,15 @@ ducklings' food and water, go to
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="concept_elements">
    &lt;title>Feeding ducklings&lt;/title>
-  &lt;conbody>
-... 
-&lt;menucascade>
-&lt;uicontrol>File&lt;/uicontrol>
-<ph outputclass="newchanged">&lt;uicontrol>New&lt;/uicontrol>
-&lt;uicontrol>Spreadsheet&lt;/uicontrol></ph>
-&lt;/menucascade>
-...
-&lt;/conbody>
+   &lt;conbody>
+    ... 
+      &lt;menucascade>
+        &lt;uicontrol>File&lt;/uicontrol>
+<ph outputclass="newchanged">        &lt;uicontrol>New&lt;/uicontrol>
+        &lt;uicontrol>Spreadsheet&lt;/uicontrol></ph>
+      &lt;/menucascade>     
+    ...
+   &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
                     <info>
@@ -169,13 +170,13 @@ ducklings' food and water, go to
 &lt;concept id="concept_elements">
    &lt;title>Feeding ducklings&lt;/title>
    &lt;conbody>
-...
-&lt;/menucascade>
-<ph outputclass="newchanged">&lt;p>Domestic ducks fall into categories based on weight. These weight classes may 
-help you choose a species based on how much you will need to feed your ducks.&lt;/p>
-&lt;dl>
-&lt;/dl></ph>
-&lt;/conbody>
+     ...
+       &lt;/menucascade>
+<ph outputclass="newchanged">      &lt;p>Domestic ducks fall into categories based on weight. These weight classes may 
+        help you choose a species based on how much you will need to feed your ducks.&lt;/p>
+     &lt;dl>
+     &lt;/dl></ph>  
+   &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
                     <info>The &lt;dl> element sets up the framework for a definition list.</info>
@@ -189,12 +190,12 @@ help you choose a species based on how much you will need to feed your ducks.&lt
 &lt;concept id="concept_elements">
    &lt;title>Feeding ducklings&lt;/title>
    &lt;conbody>
-...
-&lt;dl>
-<ph outputclass="newchanged"> &lt;dlentry>
-&lt;/dlentry></ph>
-...
-&lt;/conbody>
+      ...
+      &lt;dl>
+<ph outputclass="newchanged">        &lt;dlentry>
+        &lt;/dlentry></ph>
+       ...
+    &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
                     <info>Each &lt;dlentry> element contains a term and its definition. The
@@ -209,12 +210,12 @@ help you choose a species based on how much you will need to feed your ducks.&lt
 &lt;concept id="concept_elements">
    &lt;title>Feeding ducklings&lt;/title>
    &lt;conbody>
-...
+     ...
     &lt;dlentry>
     <ph outputclass="newchanged">&lt;dt>Bantam&lt;/dt>
         &lt;dd>The lightest-weight ducks and best fliers, such as the Mallard duck.&lt;/dd></ph>
-...
-&lt;/conbody>
+     ...
+   &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
                     <info>The &lt;dt> element contains the term, and the &lt;dd> element contains
@@ -230,7 +231,7 @@ help you choose a species based on how much you will need to feed your ducks.&lt
 &lt;concept id="concept_elements">
    &lt;title>Feeding ducklings&lt;/title>
   &lt;conbody>
-...
+     ...
     &lt;/dlentry>
     <ph outputclass="newchanged">&lt;dlentry>
         &lt;dt>Light&lt;/dt>
@@ -245,8 +246,8 @@ help you choose a species based on how much you will need to feed your ducks.&lt
         &lt;dt>Heavy&lt;/dt>
         &lt;dd>The heaviest and generally friendliest ducks, such as the Pekin duck.&lt;/dd>
     &lt;/dlentry></ph>
-...
-&lt;/conbody>
+    ...
+   &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
                 </step>

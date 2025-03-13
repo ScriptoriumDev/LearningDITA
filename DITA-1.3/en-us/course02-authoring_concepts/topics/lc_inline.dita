@@ -109,9 +109,9 @@
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="concept_elements">
-&lt;title>Feeding ducklings&lt;/title>
-&lt;conbody>
-&lt;/conbody>
+   &lt;title>Feeding ducklings&lt;/title>
+   &lt;conbody>
+   &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
                 </step>
@@ -122,11 +122,11 @@
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="concept_elements">
-&lt;title>Feeding ducklings&lt;/title>
-&lt;conbody>
-<ph outputclass="newchanged">&lt;p>Ducklings need &lt;b>round-the-clock access&lt;/b> to both &lt;i>food&lt;/i> and &lt;i>water&lt;/i> 
-during the first &lt;u>two weeks&lt;/u> of their lives.&lt;/p></ph>
-&lt;/conbody>
+   &lt;title>Feeding ducklings&lt;/title>
+   &lt;conbody>
+<ph outputclass="newchanged">      &lt;p>Ducklings need &lt;b>round-the-clock access&lt;/b> to both &lt;i>food&lt;/i> and &lt;i>water&lt;/i> 
+      during the first &lt;u>two weeks&lt;/u> of their lives.&lt;/p></ph>
+   &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
                     <info>
@@ -155,12 +155,12 @@ during the first &lt;u>two weeks&lt;/u> of their lives.&lt;/p></ph>
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="concept_elements">
-&lt;title>Feeding ducklings&lt;/title>
-&lt;conbody>
-...
-<ph outputclass="newchanged">&lt;p>Ducklings need &lt;term>round-the-clock access&lt;/term> to both &lt;cite>food&lt;/cite> and 
-&lt;cite>water&lt;/cite> during the first &lt;varname>two weeks&lt;/varname> of their lives.&lt;/p></ph>
-&lt;/conbody>
+&lt;title>Feeding ducklings&lt;/title>   
+   &lt;conbody>
+   ...
+      <ph outputclass="newchanged">&lt;p>Ducklings need &lt;term>round-the-clock access&lt;/term> to both &lt;cite>food&lt;/cite> and 
+      &lt;cite>water&lt;/cite> during the first &lt;varname>two weeks&lt;/varname> of their lives.&lt;/p></ph>
+   &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
                     <info>In this example, you have tagged “round-the-clock access” with the
@@ -180,11 +180,11 @@ during the first &lt;u>two weeks&lt;/u> of their lives.&lt;/p></ph>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="concept_elements">
 &lt;title>Feeding ducklings&lt;/title>
-&lt;conbody>
-...
-<ph outputclass="newchanged">&lt;p>Because duck feed has a dry, gritty texture, ducklings need plenty of 
-H&lt;sub>2&lt;/sub>O to keep their bills clean.&lt;/p></ph>
-&lt;/conbody>
+   &lt;conbody>
+   ...
+<ph outputclass="newchanged">      &lt;p>Because duck feed has a dry, gritty texture, ducklings need plenty of 
+       H&lt;sub>2&lt;/sub>O to keep their bills clean.&lt;/p></ph>
+   &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
                     <info>The &lt;sub> element is used to tag subscript text, or text that appears
@@ -200,11 +200,11 @@ H&lt;sub>2&lt;/sub>O to keep their bills clean.&lt;/p></ph>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="concept_elements">
 &lt;title>Feeding ducklings&lt;/title>
-&lt;conbody>
-...
-<ph outputclass="newchanged">&lt;p>You can make your own low, no-spill food and water dishes out of recycled 
-plastic containers, or buy ready-made dishes from E-Z-Feed&lt;sup>2&lt;/sup>.&lt;/p></ph>
-&lt;/conbody>
+   &lt;conbody>
+   ...
+<ph outputclass="newchanged">      &lt;p>You can make your own low, no-spill food and water dishes out of recycled 
+      plastic containers, or buy ready-made dishes from E-Z-Feed&lt;sup>2&lt;/sup>.&lt;/p></ph>
+   &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
                     <info>The &lt;sup> element is used to tag superscript text, or text that appears

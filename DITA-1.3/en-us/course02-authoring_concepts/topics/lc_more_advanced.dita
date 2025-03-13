@@ -77,12 +77,12 @@
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="concept_advanced">
 &lt;title>Writing about ducks&lt;/title>
-&lt;conbody>
-...
-&lt;/lq>
-<ph outputclass="newchanged">&lt;section>
-&lt;/section></ph>
-&lt;/conbody>
+   &lt;conbody>
+   ...
+     &lt;/lq>
+<ph outputclass="newchanged">     &lt;section>
+     &lt;/section></ph>
+   &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
                     <info>In the example you added, you created a subsection of the “Writing about
@@ -96,14 +96,14 @@
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="concept_advanced">
 &lt;title>Writing about ducks&lt;/title>
-&lt;conbody>
-...
-&lt;section>
-<ph outputclass="newchanged">&lt;title>Sharing your duck database&lt;/title>
-&lt;p>Export your duck database as HTML output to make it easy to share on your website. 
-You can also offer your database to users as a download.&lt;/p></ph>
-&lt;/section>
-&lt;/conbody>
+   &lt;conbody>
+     ...
+      &lt;section>
+<ph outputclass="newchanged">         &lt;title>Sharing your duck database&lt;/title>
+          &lt;p>Export your duck database as HTML output to make it easy to share on your website. 
+          You can also offer your database to users as a download.&lt;/p></ph>
+     &lt;/section>
+   &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
                     <info>
@@ -125,12 +125,12 @@ You can also offer your database to users as a download.&lt;/p></ph>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="concept_advanced">
 &lt;title>Writing about ducks&lt;/title>
-&lt;conbody>
-...
-&lt;/p>
-<ph outputclass="newchanged">&lt;draft-comment>Are you sure you want to offer a download?&lt;/draft-comment></ph>
-...
-&lt;/conbody>
+   &lt;conbody>
+   ...
+      &lt;/p>
+<ph outputclass="newchanged">      &lt;draft-comment>Are you sure you want to offer a download?&lt;/draft-comment></ph>
+       ...
+   &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
                     <info>In the example you added, you are telling other authors who may work on
@@ -144,14 +144,14 @@ You can also offer your database to users as a download.&lt;/p></ph>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="concept_advanced">
 &lt;title>Writing about ducks&lt;/title>
-&lt;conbody>
-...
-<ph outputclass="newchanged">&lt;required-cleanup>
-&lt;p>Consider giving users the option to send feedback or suggested entries for your 
-duck database.&lt;/p>
-&lt;/required-cleanup></ph>
-&lt;/section>
-&lt;/conbody>
+   &lt;conbody>
+    ...
+      <ph outputclass="newchanged">&lt;required-cleanup>
+          &lt;p>Consider giving users the option to send feedback or suggested entries for your 
+          duck database.&lt;/p>
+       &lt;/required-cleanup></ph>
+     &lt;/section>
+  &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
                     <info>In this example, you have surrounded the &lt;p> element with the &lt;required-cleanup> element to indicate that someone must move it to a valid position (such as inside the

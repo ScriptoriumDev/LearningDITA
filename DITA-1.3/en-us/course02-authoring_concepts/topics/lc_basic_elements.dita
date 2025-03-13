@@ -70,10 +70,10 @@
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="my_first_concept">
-   &lt;title>Wild duck species&lt;/title>
+ &lt;title>Wild duck species&lt;/title>
  &lt;conbody>
-<ph outputclass="newchanged">&lt;p>North American wild ducks belong to one of the following categories:&lt;/p></ph>
-   &lt;/conbody>
+      <ph outputclass="newchanged">&lt;p>North American wild ducks belong to one of the following categories:&lt;/p></ph>
+  &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
                     <info>
@@ -98,15 +98,15 @@
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="my_first_concept">
    &lt;title>Wild duck species&lt;/title>
-  &lt;conbody>
-...
-<ph outputclass="newchanged">&lt;ul>
-&lt;li>&lt;p>Dabbling ducks&lt;/p>&lt;/li>
-&lt;li>&lt;p>Diving ducks&lt;/p>&lt;/li>
-&lt;li>&lt;p>Sea ducks&lt;/p>&lt;/li>
-&lt;li>&lt;p>Whistling ducks&lt;/p>&lt;/li>
-&lt;li>&lt;p>Swans and geese&lt;/p>&lt;/li>
-&lt;/ul></ph>
+   &lt;conbody>
+   ...
+<ph outputclass="newchanged">      &lt;ul>
+         &lt;li>&lt;p>Dabbling ducks&lt;/p>&lt;/li>
+         &lt;li>&lt;p>Diving ducks&lt;/p>&lt;/li>
+         &lt;li>&lt;p>Sea ducks&lt;/p>&lt;/li>
+         &lt;li>&lt;p>Whistling ducks&lt;/p>&lt;/li>   
+         &lt;li>&lt;p>Swans and geese&lt;/p>&lt;/li>
+      &lt;/ul></ph>
    &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
@@ -129,14 +129,14 @@
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="my_first_concept">
    &lt;title>Wild duck species&lt;/title>
-   &lt;conbody>
-...
-<ph outputclass="newchanged"> &lt;p>The longest species of dabbling ducks in North America are:&lt;/p>
-&lt;ol>
-&lt;li>&lt;p>Northern pintail&lt;/p>&lt;/li>
-&lt;li>&lt;p>Mallard&lt;/p>&lt;/li>
-&lt;li>&lt;p>American black duck&lt;/p>&lt;/li>
-&lt;/ol></ph>
+   &lt;conbody>  
+     ...
+<ph outputclass="newchanged">     &lt;p>The longest species of dabbling ducks in North America are:&lt;/p>
+     &lt;ol>
+        &lt;li>&lt;p>Northern pintail&lt;/p>&lt;/li>
+        &lt;li>&lt;p>Mallard&lt;/p>&lt;/li>
+        &lt;li>&lt;p>American black duck&lt;/p>&lt;/li>
+      &lt;/ol></ph>
    &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
@@ -164,10 +164,11 @@
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="my_first_concept">
    &lt;title>Wild duck species&lt;/title>
-  &lt;conbody>
-...
-<ph outputclass="newchanged">&lt;note>&lt;p>Although the northern pintail is the longest dabbling duck, the mallard 
-is generally considered the largest because of its heavier body weight.&lt;/p>&lt;/note></ph>
+   &lt;conbody>
+   ...
+<ph outputclass="newchanged">      &lt;note>&lt;p>Although the northern pintail is the longest dabbling duck, the 
+      mallard is generally considered the largest because of its heavier body weight.
+      &lt;/p>&lt;/note></ph>
    &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>

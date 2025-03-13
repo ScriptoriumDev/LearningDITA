@@ -91,11 +91,11 @@
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="concept_images_tables">
    &lt;title>Duckling growth and development&lt;/title>
-  &lt;conbody>
-...
-&lt;/simpletable>
-<ph outputclass="newchanged">&lt;table>
-&lt;/table></ph>
+   &lt;conbody>
+     ...
+       &lt;/simpletable>
+       <ph outputclass="newchanged">&lt;table>
+       &lt;/table></ph>
    &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
@@ -109,11 +109,11 @@
 &lt;concept id="concept_images_tables">
    &lt;title>Duckling growth and development&lt;/title>
   &lt;conbody>
-...
-&lt;table>
-<ph outputclass="newchanged">&lt;title>Typical development of mallard ducks&lt;/title></ph>
-&lt;/table>
-&lt;/conbody>
+     ...
+     &lt;table>
+<ph outputclass="newchanged">       &lt;title>Typical development of mallard ducks&lt;/title></ph>
+       &lt;/table>
+   &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
                     <info>The &lt;title> element is optional, but it allows you to add context to
@@ -129,12 +129,12 @@
 &lt;concept id="concept_images_tables">
    &lt;title>Duckling growth and development&lt;/title>
    &lt;conbody>
-...
-&lt;title>Typical development of mallard ducks&lt;/title>
-<ph outputclass="newchanged">&lt;tgroup cols="2">
-&lt;/tgroup></ph>
-...
-&lt;/conbody>
+    ...
+     &lt;title>Typical development of mallard ducks&lt;/title>
+        <ph outputclass="newchanged">&lt;tgroup cols="2">
+        &lt;/tgroup></ph>
+     ...
+   &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
                     <info>
@@ -156,12 +156,12 @@
 &lt;concept id="concept_images_tables">
    &lt;title>Duckling growth and development&lt;/title>
    &lt;conbody>
-...
-&lt;tgroup cols="2">
-<ph outputclass="newchanged">&lt;colspec colname="c1" colnum="1" colwidth="1.0*"/>
-&lt;colspec colname="c2" colnum="2" colwidth="1.0*"/></ph>
-...
-&lt;/conbody>
+    ...
+     &lt;tgroup cols="2">
+<ph outputclass="newchanged">       &lt;colspec colname="c1" colnum="1" colwidth="1.0*"/>
+       &lt;colspec colname="c2" colnum="2" colwidth="1.0*"/></ph>
+     ...
+   &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
                     <info>
@@ -185,12 +185,12 @@
 &lt;concept id="concept_images_tables">
    &lt;title>Duckling growth and development&lt;/title>
    &lt;conbody>
-...
-&lt;colspec colname="c2" colnum="2" colwidth="1.0*"/>
-<ph outputclass="newchanged">&lt;thead>
-&lt;/thead></ph>
-...
-&lt;/conbody>
+      ...
+       &lt;colspec colname="c2" colnum="2" colwidth="1.0*"/>
+       <ph outputclass="newchanged">&lt;thead>
+       &lt;/thead></ph>
+      ...
+   &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
                     <info>The &lt;thead> element contains the elements associated with the table
@@ -207,11 +207,12 @@
 &lt;concept id="concept_images_tables">
    &lt;title>Duckling growth and development&lt;/title>
    &lt;conbody>
-...
-&lt;thead>
-<ph outputclass="newchanged"> &lt;row>
-&lt;/row></ph>
-...
+      ...
+      &lt;thead>
+<ph outputclass="newchanged">        &lt;row>
+        &lt;/row></ph>
+       ...
+   &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
                     <info>The &lt;row> element contains the elements associated with a table
@@ -225,12 +226,13 @@
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="concept_images_tables">
    &lt;title>Duckling growth and development&lt;/title>
-  &lt;conbody>
-...
-&lt;row>
-<ph outputclass="newchanged">&lt;entry>&lt;p>Age&lt;/p>&lt;/entry>
-&lt;entry>&lt;p>Milestone&lt;/p>&lt;/entry></ph>
-...
+   &lt;conbody>
+     ...
+      &lt;row>
+<ph outputclass="newchanged">        &lt;entry>&lt;p>Age&lt;/p>&lt;/entry>
+        &lt;entry>&lt;p>Milestone&lt;/p>&lt;/entry></ph>
+     ...
+   &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
                     <info>Each &lt;entry> element corresponds to a single table cell in a row. In
@@ -245,13 +247,13 @@
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="concept_images_tables">
    &lt;title>Duckling growth and development&lt;/title>
-  &lt;conbody>
-...
-&lt;/thead>
-<ph outputclass="newchanged">&lt;tbody>
-&lt;/tbody></ph>
-...
-&lt;/conbody>
+   &lt;conbody>
+     ... 
+      &lt;/thead>
+      <ph outputclass="newchanged">&lt;tbody>
+      &lt;/tbody></ph>
+      ...
+   &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
                     <info>The &lt;tbody> element is for the main body of the table. Following
@@ -267,14 +269,15 @@
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="concept_images_tables">
    &lt;title>Duckling growth and development&lt;/title>
-  &lt;conbody>
-...
-&lt;tbody>
-<ph outputclass="newchanged">&lt;row>
-&lt;entry>&lt;p>7 weeks&lt;/p>&lt;/entry>
-&lt;entry>&lt;p>Attempt flight for the first time&lt;/p>&lt;/entry>
-&lt;/row></ph>
-...
+   &lt;conbody>
+      ...
+      &lt;tbody>
+        <ph outputclass="newchanged">&lt;row>
+           &lt;entry>&lt;p>7 weeks&lt;/p>&lt;/entry>
+           &lt;entry>&lt;p>Attempt flight for the first time&lt;/p>&lt;/entry>
+        &lt;/row></ph>
+       ...
+    &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
                 </step>
@@ -287,17 +290,18 @@
 &lt;concept id="concept_images_tables">
    &lt;title>Duckling growth and development&lt;/title>
    &lt;conbody>
-...
-&lt;/row>
-<ph outputclass="newchanged">&lt;row>
-&lt;entry>&lt;p>12-14 weeks&lt;/p>&lt;/entry>
-&lt;entry>&lt;p>Reach adult body weight&lt;/p>&lt;/entry>
-&lt;/row>
-&lt;row>
-&lt;entry>&lt;p>1 year&lt;/p>&lt;/entry>
-&lt;entry>&lt;p>Capable of reproduction&lt;/p>&lt;/entry>
-&lt;/row></ph>
-...
+      ...
+       &lt;/row>
+<ph outputclass="newchanged">       &lt;row>
+         &lt;entry>&lt;p>12-14 weeks&lt;/p>&lt;/entry>
+         &lt;entry>&lt;p>Reach adult body weight&lt;/p>&lt;/entry>
+       &lt;/row>
+       &lt;row>
+         &lt;entry>&lt;p>1 year&lt;/p>&lt;/entry>
+         &lt;entry>&lt;p>Capable of reproduction&lt;/p>&lt;/entry>
+       &lt;/row></ph>
+     ...
+   &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
                     <info>The &lt;tbody> element can contain one or more &lt;row> elements.</info>

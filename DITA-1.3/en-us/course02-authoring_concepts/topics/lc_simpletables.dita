@@ -72,11 +72,11 @@
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="concept_images_tables">
    &lt;title>Duckling growth and development&lt;/title>
-  &lt;conbody>
-...
-&lt;/fig>
- <ph outputclass="newchanged">&lt;simpletable>
- &lt;/simpletable></ph>
+   &lt;conbody>
+      ...
+       &lt;/fig>
+       <ph outputclass="newchanged">&lt;simpletable>
+       &lt;/simpletable></ph>
    &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
@@ -89,12 +89,12 @@
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="concept_images_tables">
    &lt;title>Duckling growth and development&lt;/title>
- &lt;conbody>
-...
-&lt;simpletable>
-<ph outputclass="newchanged">&lt;sthead>
-&lt;/sthead></ph>
-&lt;/simpletable>
+    &lt;conbody>
+     ...
+     &lt;simpletable>
+<ph outputclass="newchanged">        &lt;sthead>
+        &lt;/sthead></ph>
+     &lt;/simpletable>
    &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
@@ -110,12 +110,12 @@
 &lt;concept id="concept_images_tables">
    &lt;title>Duckling growth and development&lt;/title>
   &lt;conbody>
-...
-&lt;sthead>
-<ph outputclass="newchanged">&lt;stentry>&lt;p>Age&lt;/p>&lt;/stentry>
-&lt;stentry>&lt;p>Milestone&lt;/p>&lt;/stentry></ph>
-&lt;/sthead>
-...
+      ...
+      &lt;sthead>
+<ph outputclass="newchanged">         &lt;stentry>&lt;p>Age&lt;/p>&lt;/stentry>
+         &lt;stentry>&lt;p>Milestone&lt;/p>&lt;/stentry></ph>
+      &lt;/sthead>   
+       ...
    &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
@@ -136,11 +136,11 @@
 &lt;concept id="concept_images_tables">
    &lt;title>Duckling growth and development&lt;/title>
    &lt;conbody>
-...
-&lt;/sthead>
-<ph outputclass="newchanged">&lt;strow>
-&lt;/strow></ph>
-...
+      ...
+      &lt;/sthead>
+      <ph outputclass="newchanged">&lt;strow>
+      &lt;/strow></ph>
+      ...
    &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
@@ -155,13 +155,13 @@
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="concept_images_tables">
    &lt;title>Duckling growth and development&lt;/title>
-  &lt;conbody>
-...
-&lt;strow>
-<ph outputclass="newchanged">&lt;stentry>&lt;p>7 weeks&lt;/p>&lt;/stentry>
-&lt;stentry>&lt;p>Attempt flight for the first time&lt;/p>&lt;/stentry></ph>
-&lt;/strow>
-...
+   &lt;conbody>
+    ...
+      &lt;strow>
+         <ph outputclass="newchanged">&lt;stentry>&lt;p>7 weeks&lt;/p>&lt;/stentry>
+         &lt;stentry>&lt;p>Attempt flight for the first time&lt;/p>&lt;/stentry></ph>
+      &lt;/strow>
+     ...
    &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
@@ -179,18 +179,18 @@
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="concept_images_tables">
    &lt;title>Duckling growth and development&lt;/title>
- &lt;conbody>
-...
-&lt;/strow>
-<ph outputclass="newchanged">&lt;strow>
-&lt;stentry>&lt;p>12-14 weeks&lt;/p>&lt;/stentry>
-&lt;stentry>&lt;p>Reach adult body weight&lt;/p>&lt;/stentry>
-&lt;/strow>
-&lt;strow>
-&lt;stentry>&lt;p>1 year&lt;/p>&lt;/stentry>
-&lt;stentry>&lt;p>Capable of reproduction&lt;/p>&lt;/stentry>
-&lt;/strow></ph>
-...
+   &lt;conbody>
+     ...
+     &lt;/strow>
+<ph outputclass="newchanged">     &lt;strow>
+       &lt;stentry>&lt;p>12-14 weeks&lt;/p>&lt;/stentry>
+       &lt;stentry>&lt;p>Reach adult body weight&lt;/p>&lt;/stentry>
+     &lt;/strow>
+     &lt;strow>
+       &lt;stentry>&lt;p>1 year&lt;/p>&lt;/stentry>
+       &lt;stentry>&lt;p>Capable of reproduction&lt;/p>&lt;/stentry>
+     &lt;/strow></ph>   
+        ...
    &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
