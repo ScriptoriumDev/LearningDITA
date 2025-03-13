@@ -65,9 +65,9 @@
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="concept_advanced">
-&lt;title>Writing about ducks&lt;/title>
-&lt;conbody>
-&lt;/conbody>
+  &lt;title>Writing about ducks&lt;/title>
+  &lt;conbody>
+  &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
                     <info>Video: <xref href="https://www.youtube.com/watch?v=Ryzutuy-n_A"
@@ -81,15 +81,15 @@
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="concept_advanced">
-&lt;title>Writing about ducks&lt;/title>
-&lt;conbody>
-<ph outputclass="newchanged">&lt;codeblock>
-duckdata> add entry (mallard)
-;
-1 entry added (0.05 sec)
-duckdata> _
-&lt;/codeblock></ph>
-&lt;/conbody>
+  &lt;title>Writing about ducks&lt;/title>
+    &lt;conbody>
+      <ph outputclass="newchanged">&lt;codeblock>
+      duckdata> add entry (mallard)
+      ;
+      1 entry added (0.05 sec)
+      duckdata> _
+    &lt;/codeblock></ph>
+  &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
                     <info><p>The &lt;codeblock> element isolates the piece of code content so that any
@@ -114,13 +114,14 @@ duckdata> _
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="concept_advanced">
-&lt;title>Writing about ducks&lt;/title>
-&lt;conbody>
-...
-&lt;/codeblock>
-<ph outputclass="newchanged">&lt;p>To add a duck species to your database, type &lt;codeph>add entry&lt;/codeph> followed by 
-the name of the duck in parentheses on the command line and press Enter.&lt;/p></ph>
-&lt;/conbody>
+  &lt;title>Writing about ducks&lt;/title>
+  &lt;conbody>
+     ...
+    &lt;/codeblock>
+    <ph outputclass="newchanged">&lt;p>To add a duck species to your database, type &lt;codeph>
+        add entry&lt;/codeph> followed by the name of the duck in parentheses on the command line 
+        and press Enter.&lt;/p></ph>
+  &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>
                     <info>In the example you added, the &lt;codeph> element allows you to isolate
@@ -134,16 +135,16 @@ the name of the duck in parentheses on the command line and press Enter.&lt;/p><
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="concept_advanced">
-&lt;title>Writing about ducks&lt;/title>
-&lt;conbody>
-...
-&lt;/p>
-<ph outputclass="newchanged">&lt;lq href="https://commons.digitalthoreau.org/walden/the-ponds/the-ponds-18-34/" 
-format="html" scope="external">How much fairer than the pool before the farmers door, 
-in which his ducks swim! Hither the clean wild ducks come. Nature has no human 
-inhabitant who appreciates her. The birds with their plumage and their notes are in 
-harmony with the flowers, but what youth or maiden conspires with the wild luxuriant 
-beauty of Nature?&lt;/lq></ph>
+  &lt;title>Writing about ducks&lt;/title>
+    &lt;conbody>
+     ...
+      &lt;/p>
+      <ph outputclass="newchanged">&lt;lq href="https://commons.digitalthoreau.org/walden/the-ponds/the-ponds-18-34/" 
+      format="html" scope="external">How much fairer than the pool before the farmers door, 
+      in which his ducks swim! Hither the clean wild ducks come. Nature has no human 
+      inhabitant who appreciates her. The birds with their plumage and their notes are in 
+      harmony with the flowers, but what youth or maiden conspires with the wild luxuriant 
+      beauty of Nature?&lt;/lq></ph>
 &lt;/conbody>
 &lt;/concept></pre>
                     </stepxmp>

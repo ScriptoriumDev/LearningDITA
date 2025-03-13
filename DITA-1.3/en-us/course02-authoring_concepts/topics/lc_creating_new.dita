@@ -48,7 +48,7 @@
                         <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 &lt;concept id="my_first_concept">
-&lt;title>xyz&lt;/title>
+   &lt;title>xyz&lt;/title>
 &lt;/concept></pre>
                     </stepxmp>
                     <info>
@@ -91,7 +91,7 @@
 &lt;concept id="my_first_concept">
    &lt;title>Wild duck species&lt;/title>
 <ph outputclass="newchanged">   &lt;conbody>
-&lt;/conbody></ph>
+   &lt;/conbody></ph>
 &lt;/concept></pre>
                     </stepxmp>
                     <info>The &lt;conbody> element will contain all the actual content in the
