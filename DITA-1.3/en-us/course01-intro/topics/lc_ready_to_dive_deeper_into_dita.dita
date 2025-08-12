@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- This file is part of the DITA Training project hosted on
+     github.com. See the accompanying LICENSE file for
+     applicable licenses.-->
+<!DOCTYPE learningContent PUBLIC "-//OASIS//DTD DITA Learning Content//EN" "learningContent.dtd">
+<learningContent id="lc_ready_to_dive_deeper_into_dita">
+    <title>Ready to dive deeper into DITA?</title>
+    <prolog>
+        <author href="https://www.scriptorium.com" scope="external" format="html">Allison
+            Beatty</author>
+        <critdates>
+            <created date="2025-08-12"/>
+        </critdates>
+    </prolog>
+    <learningContentbody>
+        <lcInstruction>
+            <p>Ready to dive deeper into DITA? Check out our other courses, including DITA training,
+                CCMS training, and more at <xref href="store.scriptorium.com" scope="external"
+                    format="html">store.scriptorium.com</xref>.</p>
+        </lcInstruction>
+    </learningContentbody>
+</learningContent>
