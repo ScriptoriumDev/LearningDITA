@@ -21,9 +21,9 @@
             <p>This element is similar to the &lt;stepresult> element, but while the &lt;stepresult>
                 element describes the result of completing a step, the &lt;result> element describes
                 the result of completing the entire task. </p>
-            <p>You can use &lt;stepresult> to describe a confirmation message, provide a simple test
-                the reader might perform to verify the end result, or merely include a
-                congratulatory message to the reader. </p>
+            <p>You can use &lt;result> to describe a confirmation message, provide a simple test the
+                reader might perform to verify the end result, or merely include a congratulatory
+                message to the reader. </p>
         </lcInstruction>
     </learningContentbody>
     <task id="task_vxg_4pp_bt">
