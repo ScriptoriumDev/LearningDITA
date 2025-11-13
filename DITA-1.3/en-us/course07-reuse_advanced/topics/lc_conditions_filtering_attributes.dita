@@ -20,7 +20,7 @@
             <p>You mark DITA elements for filtering by adding special conditional attributes to
                 elements; the value you use with a conditional attribute is used to determine whether
                 the element should be hidden (filtered out) or shown. </p>
-            <p>The four basic conditional attributes and their <i>suggested</i> uses are: <dl>
+            <p>The five basic conditional attributes and their <i>suggested</i> uses are: <dl>
                     <dlentry>
                         <dt>audience</dt>
                         <dd>Content is intended for a specific group of readers. The audience can be
